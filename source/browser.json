@@ -341,7 +341,7 @@
   },
   "app": {
     "message": "App",
-    "description": "Location: Browser. Spaces settings - App pinned-tab scope option"
+    "description": "Location: Browser. Shortcuts settings - Section title for application commands"
   },
   "appearance": {
     "message": "Appearance",
@@ -422,6 +422,10 @@
   "back": {
     "message": "Back",
     "description": "Location: Browser. Web content header - Accessibility description for back navigation button"
+  },
+  "back_6f24ff": {
+    "message": "Back",
+    "description": "Location: Browser. Shortcuts settings - Command title for navigating back"
   },
   "back_to_saved_url": {
     "message": "Back to Saved URL",
@@ -566,6 +570,10 @@
   "bookmarks_f54ff8": {
     "message": "Bookmarks",
     "description": "Location: Browser. Import data type - Bookmarks toggle label"
+  },
+  "bookmarks_fc0037": {
+    "message": "Bookmarks",
+    "description": "Location: Browser. Shortcuts settings - Section title for bookmark commands"
   },
   "bookmarks_fcb277": {
     "message": "%d bookmarks",
@@ -1011,6 +1019,10 @@
     "message": "Close Tab",
     "description": "Location: Browser. Tab group overview - Accessibility label for closing a single-tab card"
   },
+  "close_tab_c9edce": {
+    "message": "Close Tab",
+    "description": "Location: Browser. Shortcuts settings - Command title for closing the current tab"
+  },
   "close_tab_f52cc8": {
     "message": "Close Tab",
     "description": "Location: Browser. Search Tabs - Close open tab button tooltip"
@@ -1018,6 +1030,10 @@
   "close_tabs": {
     "message": "Close Tabs",
     "description": "Location: Browser. Tab multi-selection context menu - close all selected tabs"
+  },
+  "close_window": {
+    "message": "Close Window",
+    "description": "Location: Browser. Shortcuts settings - Command title for closing the current window"
   },
   "collapse_group": {
     "message": "Collapse Group",
@@ -1186,6 +1202,10 @@
   "copy_url_a0a6ba": {
     "message": "Copy URL",
     "description": "Location: Browser. Copy URL shortcut tooltip title"
+  },
+  "copy_url_b02e9e": {
+    "message": "Copy URL",
+    "description": "Location: Browser. Shortcuts settings - Command title for copying the current URL"
   },
   "copy_urls": {
     "message": "Copy URLs",
@@ -1451,6 +1471,14 @@
     "message": "Describe the issue in detail",
     "description": "Location: Browser. Feedback form - Section header prompting user to describe the issue"
   },
+  "dev_tools_console": {
+    "message": "Dev Tools Console",
+    "description": "Location: Browser. Shortcuts settings - Command title for opening the developer tools console"
+  },
+  "dev_tools_inspect": {
+    "message": "Dev Tools Inspect",
+    "description": "Location: Browser. Shortcuts settings - Command title for inspecting the page with developer tools"
+  },
   "developer": {
     "message": "Developer",
     "description": "Location: Browser. General settings - Developer section title"
@@ -1555,6 +1583,10 @@
     "message": "Downloads",
     "description": "Location: Browser. Header more menu - Downloads action"
   },
+  "downloads_d41551": {
+    "message": "Downloads",
+    "description": "Location: Browser. Shortcuts settings - Command title for showing downloads"
+  },
   "drag_tabs_here_or_pin_them_from": {
     "message": "Drag tabs here or pin them from the tab list",
     "description": "Location: Browser. Drag tabs here or pin them from the tab list"
@@ -1566,6 +1598,10 @@
   "duplicate_split": {
     "message": "Duplicate Split",
     "description": "Location: Browser. Tab context menu - Duplicate both panes of a split as a new split"
+  },
+  "duplicate_tab": {
+    "message": "Duplicate Tab",
+    "description": "Location: Browser. Shortcuts settings - Command title for duplicating the current tab"
   },
   "duplicate_tabs": {
     "message": "Duplicate Tabs",
@@ -1590,6 +1626,10 @@
   "edit_771c25": {
     "message": "Edit...",
     "description": "Location: Browser. Pinned tab context menu - Edit pinned tab menu item"
+  },
+  "edit_7e9a": {
+    "message": "Edit",
+    "description": "Location: Browser. Shortcuts settings - Section title for editing commands"
   },
   "edit_bookmark": {
     "message": "Edit Bookmark",
@@ -1799,6 +1839,10 @@
     "message": "Extensions",
     "description": "Location: Browser. Extension list - Section title for browser extensions"
   },
+  "extensions_3bd523": {
+    "message": "Extensions",
+    "description": "Location: Browser. Shortcuts settings - Command title for managing browser extensions"
+  },
   "extensions_a6874f": {
     "message": "Extensions",
     "description": "Location: Browser. Import data type - Extensions toggle label"
@@ -1849,7 +1893,7 @@
   },
   "feedback_789c5c": {
     "message": "Feedback",
-    "description": "Location: Browser. Feedback - Tooltip text for icon-only feedback button"
+    "description": "Location: Browser. Feedback - Tooltip text for feedback button"
   },
   "feedback_attach_file_note": {
     "message": "File will be sent to Phinomenon for debugging",
@@ -1866,6 +1910,22 @@
   "feedback_report_page_title": {
     "message": "Send Feedback to Phinomenon",
     "description": "Location: Browser. Title shown at the top of the feedback window where the user writes and submits a report to Phinomenon."
+  },
+  "file": {
+    "message": "File",
+    "description": "Location: Browser. Shortcuts settings - Section title for file commands"
+  },
+  "find": {
+    "message": "Find",
+    "description": "Location: Browser. Shortcuts settings - Command title for finding text on the current page"
+  },
+  "find_next": {
+    "message": "Find Next",
+    "description": "Location: Browser. Shortcuts settings - Command title for selecting the next match on the current page"
+  },
+  "find_previous": {
+    "message": "Find Previous",
+    "description": "Location: Browser. Shortcuts settings - Command title for selecting the previous match on the current page"
   },
   "find_shortcut_keys": {
     "message": "Find shortcut keys",
@@ -1886,6 +1946,10 @@
   "finish_signing_out_in_your_browser": {
     "message": "Finish signing out in your browser.",
     "description": "Location: Browser. Account settings - Status shown while waiting for sign-out to finish"
+  },
+  "focus_address_bar": {
+    "message": "Focus Address Bar",
+    "description": "Location: Browser. Shortcuts settings - Command title for moving keyboard focus to the address bar"
   },
   "folder": {
     "message": "Folder",
@@ -1922,6 +1986,10 @@
   "forward": {
     "message": "Forward",
     "description": "Location: Browser. Web content header - Accessibility description for forward navigation button"
+  },
+  "forward_e876ba": {
+    "message": "Forward",
+    "description": "Location: Browser. Shortcuts settings - Command title for navigating forward"
   },
   "from": {
     "message": "From %@",
@@ -1991,6 +2059,10 @@
     "message": "Guest data cleanup is incomplete",
     "description": "Location: Browser. Guest migration - Alert title when account setup succeeded but the old Guest directory could not be removed"
   },
+  "help": {
+    "message": "Help",
+    "description": "Location: Browser. Shortcuts settings - Section title for help commands"
+  },
   "help_mac": {
     "message": "Documentation",
     "description": "Location: Browser. The Mac menu item to show help in the Help menu."
@@ -2003,9 +2075,17 @@
     "message": "Hide",
     "description": "Location: Browser. Phi Link - Hide token plaintext button"
   },
+  "history": {
+    "message": "History",
+    "description": "Location: Browser. Shortcuts settings - Section title for browsing history commands"
+  },
   "hold_to_switch": {
     "message": "Hold ⌘ to switch →",
     "description": "Location: Browser. Omnibox suggestion - Hint shown for suggestions that can switch to an open tab"
+  },
+  "home": {
+    "message": "Home",
+    "description": "Location: Browser. Shortcuts settings - Command title for opening the home page"
   },
   "hour_ago": {
     "message": "%d hour ago",
@@ -2399,6 +2479,10 @@
     "message": "Mute",
     "description": "Location: Browser. Notification menu option - Disable auto popup for notification cards"
   },
+  "mute_site": {
+    "message": "Mute Site",
+    "description": "Location: Browser. Shortcuts settings - Command title for muting audio from the current site"
+  },
   "n1_hour": {
     "message": "1 hour",
     "description": "Location: Browser. Bitwarden session timeout - 1 hour"
@@ -2459,6 +2543,10 @@
     "message": "New Conversation",
     "description": "Location: Browser. View menu - Menu item to start a new AI conversation in the sidebar"
   },
+  "new_conversation_d37cd5": {
+    "message": "New Conversation",
+    "description": "Location: Browser. Shortcuts settings - Command title for starting a new conversation"
+  },
   "new_folder": {
     "message": "New Folder",
     "description": "Location: Browser. New folder dialog title"
@@ -2502,6 +2590,10 @@
   "new_incognito_tab": {
     "message": "New Incognito Tab",
     "description": "Location: Browser. Tab title shown for an incognito new-tab page rendered by the native NTP"
+  },
+  "new_incognito_window": {
+    "message": "New Incognito Window",
+    "description": "Location: Browser. Shortcuts settings - Command title for opening a new Incognito window"
   },
   "new_nested_folder": {
     "message": "New Nested Folder...",
@@ -2551,6 +2643,10 @@
     "message": "New Tab",
     "description": "Location: Browser. Title for the group overview card that creates a new tab in the selected group"
   },
+  "new_tab_303fee": {
+    "message": "New Tab",
+    "description": "Location: Browser. Shortcuts settings - Command title for opening a new tab"
+  },
   "new_tab_behavior": {
     "message": "New tab behavior",
     "description": "Location: Browser. General settings - Row title for configuring new tab behavior"
@@ -2587,6 +2683,10 @@
     "message": "New Tab Page requires Phi AI to be enabled",
     "description": "Location: Browser. General settings - Hint shown when Phi AI is disabled explaining New Tab Page requires it"
   },
+  "new_tab_to_right": {
+    "message": "New Tab To Right",
+    "description": "Location: Browser. Shortcuts settings - Command title for opening a new tab to the right of the current tab"
+  },
   "new_version_available": {
     "message": "New Version %@ Available",
     "description": "Location: Browser. Sidebar update reminder - Message showing new version is available"
@@ -2594,6 +2694,10 @@
   "new_version_available_aab7da": {
     "message": "New version available",
     "description": "Location: Browser. Phi menu - Menu item text when new version is available"
+  },
+  "new_window": {
+    "message": "New Window",
+    "description": "Location: Browser. Shortcuts settings - Command title for opening a new window"
   },
   "next": {
     "message": "Next",
@@ -2614,6 +2718,10 @@
   "next_space": {
     "message": "Next Space",
     "description": "Location: Browser. Spaces menu - Activate the next Space in the strip"
+  },
+  "next_space_9d3d09": {
+    "message": "Next Space",
+    "description": "Location: Browser. Shortcuts settings - Command title for selecting the next Space"
   },
   "no_active_agent_task": {
     "message": "No active agent task",
@@ -2887,6 +2995,10 @@
     "message": "Open as Split",
     "description": "Location: Browser. Bookmark context menu - Open this bookmark as a new tab paired with the current tab in a split"
   },
+  "open_devtools": {
+    "message": "Open DevTools",
+    "description": "Location: Browser. Shortcuts settings - Command title for opening developer tools"
+  },
   "open_in": {
     "message": "Open in",
     "description": "Location: Browser. Leading label for a URL rule's target Space"
@@ -2922,6 +3034,10 @@
   "organize_tabs_with_ai": {
     "message": "Organize tabs with AI",
     "description": "Location: Browser. side bar new tab row - organize tabs button tooltip"
+  },
+  "organize_tabs_with_ai_6111": {
+    "message": "Organize Tabs with AI",
+    "description": "Location: Browser. Shortcuts settings - Command title for organizing tabs with AI"
   },
   "organize_tabs_with_ai_e4d5d3": {
     "message": "Organize tabs with AI",
@@ -3139,6 +3255,14 @@
     "message": "Previous Space",
     "description": "Location: Browser. Spaces menu - Activate the previous Space in the strip"
   },
+  "previous_space_700580": {
+    "message": "Previous Space",
+    "description": "Location: Browser. Shortcuts settings - Command title for selecting the previous Space"
+  },
+  "print": {
+    "message": "Print…",
+    "description": "Location: Browser. Shortcuts settings - Command title for printing the current page"
+  },
   "privacy_and_security": {
     "message": "Privacy and Security",
     "description": "Location: Browser. Profiles settings - data link to privacy settings"
@@ -3193,7 +3317,7 @@
   },
   "reauthenticate": {
     "message": "Reauthenticate",
-    "description": "Location: Browser. Reauthentication prompt - Primary button that opens the browser so the user can sign in again and restore account features"
+    "description": "Location: Browser. Auth reauthentication - Primary action to start Auth0 web authentication"
   },
   "reauthentication_needed": {
     "message": "Reauthentication needed.",
@@ -3234,6 +3358,10 @@
   "relink": {
     "message": "Relink",
     "description": "Location: Browser. Phi Link - Official bot relink action"
+  },
+  "reload_page": {
+    "message": "Reload Page",
+    "description": "Location: Browser. Shortcuts settings - Command title for reloading the current page"
   },
   "remember_email": {
     "message": "Remember email",
@@ -3362,6 +3490,10 @@
   "reopen_closed_tab": {
     "message": "Reopen Closed Tab",
     "description": "Location: Browser. Tab area context menu - Reopen the last closed tab"
+  },
+  "reopen_closed_tab_de7200": {
+    "message": "Reopen Closed Tab",
+    "description": "Location: Browser. Shortcuts settings - Command title for reopening the most recently closed tab"
   },
   "reopen_your_windows_and_tabs_the_next": {
     "message": "Reopen your windows and tabs the next time you open Phi.",
@@ -3591,6 +3723,10 @@
     "message": "Search Tabs",
     "description": "Location: Browser. Search Tabs - Button tooltip and accessibility label"
   },
+  "search_the_web": {
+    "message": "Search the Web...",
+    "description": "Location: Browser. Shortcuts settings - Command title for starting a web search"
+  },
   "select_a_profile_to_view_its_settings": {
     "message": "Select a profile to view its settings.",
     "description": "Location: Browser. Profiles settings - empty detail placeholder"
@@ -3603,9 +3739,25 @@
     "message": "Select at least one category to back up.",
     "description": "Location: Browser. User data export - Message when no backup category is selected"
   },
+  "select_last_tab": {
+    "message": "Select Last Tab",
+    "description": "Location: Browser. Shortcuts settings - Command title for selecting the last tab"
+  },
+  "select_next_tab": {
+    "message": "Select Next Tab",
+    "description": "Location: Browser. Shortcuts settings - Command title for selecting the next tab"
+  },
   "select_phi_user_data_backup": {
     "message": "Select Phi User Data Backup",
     "description": "Location: Browser. User data import - NSOpenPanel title for choosing a Phi user data zip"
+  },
+  "select_previous_tab": {
+    "message": "Select Previous Tab",
+    "description": "Location: Browser. Shortcuts settings - Command title for selecting the previous tab"
+  },
+  "select_tab": {
+    "message": "Select Tab %d",
+    "description": "Location: Browser. Shortcuts settings - Command title for selecting a numbered tab; %d is the tab position"
   },
   "self_hosted": {
     "message": "self-hosted",
@@ -3662,6 +3814,10 @@
   "settings": {
     "message": "Settings",
     "description": "Location: Browser. Extension list - Website settings entry"
+  },
+  "settings_c717bd": {
+    "message": "Settings",
+    "description": "Location: Browser. Shortcuts settings - Command title for opening Phi settings"
   },
   "settings_enable_logging_pref": {
     "message": "Help improve Phi's features and performance",
@@ -3723,6 +3879,10 @@
     "message": "Show certificate",
     "description": "Location: Browser. Show certificate tooltip"
   },
+  "show_history": {
+    "message": "Show History",
+    "description": "Location: Browser. Shortcuts settings - Command title for showing browsing history"
+  },
   "show_in_finder": {
     "message": "Show in Finder",
     "description": "Location: Browser. Download item row - Menu option to reveal file in Finder"
@@ -3742,6 +3902,14 @@
   "show_proactive_suggestions_on_the_new_tab": {
     "message": "Show proactive suggestions on the new tab page",
     "description": "Location: Browser. AI settings - Toggle to show proactive suggestions on the new tab page"
+  },
+  "show_tab_switcher": {
+    "message": "Show Tab Switcher",
+    "description": "Location: Browser. Shortcuts settings - Command title for showing the tab switcher in forward order"
+  },
+  "show_tab_switcher_reverse": {
+    "message": "Show Tab Switcher(Reverse)",
+    "description": "Location: Browser. Shortcuts settings - Command title for showing the tab switcher in reverse order"
   },
   "show_transcript": {
     "message": "Show Transcript",
@@ -3903,6 +4071,10 @@
     "message": "Spaces",
     "description": "Location: Browser. Main menu - Top-level Spaces menu title in the application menu bar"
   },
+  "spaces_552a6e": {
+    "message": "Spaces",
+    "description": "Location: Browser. Shortcuts settings - Section title for Space commands"
+  },
   "spaces_785f2c": {
     "message": "Spaces",
     "description": "Location: Browser. Accessibility label for the Spaces picker affordance"
@@ -3947,6 +4119,10 @@
     "message": "Stop",
     "description": "Location: Browser. Web content header - Accessibility description for stop loading button"
   },
+  "stop_022eb3": {
+    "message": "Stop",
+    "description": "Location: Browser. Shortcuts settings - Command title for stopping the current page from loading"
+  },
   "suspicious_download_blocked": {
     "message": "Suspicious download blocked",
     "description": "Location: Browser. Short status - suspicious file (Chromium: IDS_DOWNLOAD_BUBBLE_STATUS_WARNING_SUSPICIOUS)"
@@ -3962,6 +4138,10 @@
   "system_default": {
     "message": "System Default",
     "description": "Location: Browser. General settings - Language option that follows macOS, including its per-app language preference"
+  },
+  "tab": {
+    "message": "Tab",
+    "description": "Location: Browser. Shortcuts settings - Section title for tab commands"
   },
   "tab_group": {
     "message": "Tab Group",
@@ -3986,6 +4166,10 @@
   "tab_name": {
     "message": "Tab Name",
     "description": "Location: Browser. Pinned tab editor - Placeholder for pinned tab name input"
+  },
+  "tab_search": {
+    "message": "Tab Search",
+    "description": "Location: Browser. Shortcuts settings - Command title for searching open tabs"
   },
   "tabs": {
     "message": "%1$@ · %2$d tabs",
@@ -4211,6 +4395,10 @@
     "message": "Toggle Chatbar",
     "description": "Location: Browser. View menu - Menu item to show or hide the AI chat bar"
   },
+  "toggle_chatbar_eb2a4b": {
+    "message": "Toggle Chatbar",
+    "description": "Location: Browser. Shortcuts settings - Command title for showing or hiding the Chatbar"
+  },
   "toggle_sidebar": {
     "message": "Toggle Sidebar",
     "description": "Location: Browser. View menu - Menu item to show or hide the sidebar"
@@ -4218,6 +4406,10 @@
   "toggle_sidebar_28f28b": {
     "message": "Toggle Sidebar",
     "description": "Location: Browser. Web content header - Accessibility description for sidebar toggle button"
+  },
+  "toggle_sidebar_307510": {
+    "message": "Toggle Sidebar",
+    "description": "Location: Browser. Shortcuts settings - Command title for showing or hiding the sidebar"
   },
   "token_verified_successfully": {
     "message": "Token verified successfully",
@@ -4495,6 +4687,10 @@
     "message": "Version %1$@ (%2$@)",
     "description": "Location: Browser. About window - App version and build number label"
   },
+  "view": {
+    "message": "View",
+    "description": "Location: Browser. Shortcuts settings - Section title for view commands"
+  },
   "view_and_manage_your_browser_memory": {
     "message": "View and manage your browser memory",
     "description": "Location: Browser. AI settings - Row title to open browser memory management"
@@ -4502,6 +4698,10 @@
   "view_details": {
     "message": "View Details",
     "description": "Location: Browser. Account settings - Button to view invitation code details"
+  },
+  "view_page_source": {
+    "message": "View Page Source",
+    "description": "Location: Browser. Shortcuts settings - Command title for viewing the current page source"
   },
   "wants_to_control_phi_browser": {
     "message": "“%@” wants to control Phi Browser",
@@ -4546,6 +4746,10 @@
   "will_be_deleted_3ce758": {
     "message": "%@ will be deleted.",
     "description": "Location: Browser. Bookmark multi-selection delete confirmation body for folders"
+  },
+  "window": {
+    "message": "Window",
+    "description": "Location: Browser. Shortcuts settings - Section title for window commands"
   },
   "www_example_com": {
     "message": "www.example.com",
@@ -4613,7 +4817,7 @@
   },
   "your_phi_session_has_expired_please_sign": {
     "message": "Your Phi session has expired. Please sign in again, then retry Phi Link.",
-    "description": "Location: Browser. Phi Link - Error shown when a Phi Link action is refused because the user's Phi sign-in is no longer valid. Asks the user to sign in again and then retry Phi Link."
+    "description": "Location: Browser. Phi Link - Message shown when phi-agent returns 401 unauthorized"
   },
   "your_profiles": {
     "message": "Your Profiles",
@@ -4631,8 +4835,20 @@
     "message": "Zoom in",
     "description": "Location: Browser. Image preview: accessibility label for zoom in control"
   },
+  "zoom_minus": {
+    "message": "Zoom Minus",
+    "description": "Location: Browser. Shortcuts settings - Command title for decreasing the page zoom level"
+  },
+  "zoom_normal": {
+    "message": "Zoom Normal",
+    "description": "Location: Browser. Shortcuts settings - Command title for restoring the default page zoom level"
+  },
   "zoom_out": {
     "message": "Zoom out",
     "description": "Location: Browser. Image preview: accessibility label for zoom out control"
+  },
+  "zoom_plus": {
+    "message": "Zoom Plus",
+    "description": "Location: Browser. Shortcuts settings - Command title for increasing the page zoom level"
   }
 }
