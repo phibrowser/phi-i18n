@@ -1,0 +1,3443 @@
+{
+  "about_dialog_build_time_label": {
+    "message": "建置時間：%@"
+  },
+  "about_dialog_description": {
+    "message": "Phi Sentinel 負責管理 Phi Browser 的本機 AI 服務。"
+  },
+  "about_dialog_title": {
+    "message": "關於 Phi Sentinel"
+  },
+  "about_dialog_version_label": {
+    "message": "版本：%@"
+  },
+  "app_dev_mode": {
+    "message": "開發模式"
+  },
+  "app_name": {
+    "message": "Sentinel"
+  },
+  "backup_export_action_export_data": {
+    "message": "匯出資料…"
+  },
+  "backup_export_action_working": {
+    "message": "處理中…"
+  },
+  "backup_export_description_archive": {
+    "message": "將你的設定與資料儲存為 <archive>.tar.gz</archive> 封存檔。供應商 API 金鑰絕不會匯出。"
+  },
+  "backup_export_description_export_failed": {
+    "message": "匯出失敗"
+  },
+  "backup_export_description_export_failed_with_error": {
+    "message": "匯出失敗：{{error}}"
+  },
+  "backup_export_description_exported_to_path": {
+    "message": "已匯出至 {{path}}"
+  },
+  "backup_export_description_inherited_failure": {
+    "message": "上次備份作業失敗。如果該作業是匯入，你可以從下方的「本機快照」卡片還原匯入前的快照。"
+  },
+  "backup_export_description_inherited_failure_with_error": {
+    "message": "上次備份作業失敗：{{error}}。如果該作業是匯入，你可以從下方的「本機快照」卡片還原匯入前的快照。"
+  },
+  "backup_export_description_resume_warning": {
+    "message": "作業在中斷後接續完成。使用此封存檔前請先驗證。"
+  },
+  "backup_export_description_resume_warning_with_error": {
+    "message": "作業在中斷後接續完成：{{error}}。使用此封存檔前請先驗證。"
+  },
+  "backup_export_title_export_data": {
+    "message": "匯出資料"
+  },
+  "backup_snapshots_action_restore": {
+    "message": "還原"
+  },
+  "backup_snapshots_action_restore_snapshot": {
+    "message": "還原快照"
+  },
+  "backup_snapshots_action_restoring": {
+    "message": "還原中…"
+  },
+  "backup_snapshots_action_snapshot_now": {
+    "message": "立即建立快照"
+  },
+  "backup_snapshots_action_snapshotting": {
+    "message": "建立快照中…"
+  },
+  "backup_snapshots_description_loading_snapshots": {
+    "message": "正在載入快照…"
+  },
+  "backup_snapshots_description_local_snapshot_privacy": {
+    "message": "本機 Sentinel 狀態在特定時間點的副本。快照絕不會離開這台 Mac。"
+  },
+  "backup_snapshots_description_no_snapshots_yet": {
+    "message": "尚無快照。"
+  },
+  "backup_snapshots_description_restore_snapshot_at": {
+    "message": "Sentinel 會停止所有服務，將狀態樹回溯至 {{date}}，然後重新啟動。自該時間點後寫入的資料將被取代。此操作無法復原。"
+  },
+  "backup_snapshots_description_restore_this_snapshot": {
+    "message": "Sentinel 會停止所有服務，將狀態樹回溯至此快照，然後重新啟動。自該時間點後寫入的資料將被取代。此操作無法復原。"
+  },
+  "backup_snapshots_label_automatic_risky_release": {
+    "message": "自動（高風險版本）"
+  },
+  "backup_snapshots_label_manual": {
+    "message": "手動"
+  },
+  "backup_snapshots_label_pre_import": {
+    "message": "匯入前"
+  },
+  "backup_snapshots_label_snapshot_version": {
+    "message": "Sentinel {{sentinelVersion}}"
+  },
+  "backup_snapshots_label_snapshot_versions_with_browser": {
+    "message": "Sentinel {{sentinelVersion}} · 瀏覽器 {{browserVersion}}"
+  },
+  "backup_snapshots_title_local_snapshots": {
+    "message": "本機快照"
+  },
+  "backup_snapshots_title_restore_this_snapshot": {
+    "message": "要還原此快照嗎？"
+  },
+  "common_action_cancel_button": {
+    "message": "取消"
+  },
+  "common_alert_okay_button": {
+    "message": "好"
+  },
+  "common_all": {
+    "message": "全部"
+  },
+  "common_cancel": {
+    "message": "取消"
+  },
+  "common_close": {
+    "message": "關閉"
+  },
+  "common_error": {
+    "message": "錯誤"
+  },
+  "common_loading": {
+    "message": "載入中…"
+  },
+  "common_retry": {
+    "message": "重試"
+  },
+  "common_save": {
+    "message": "儲存"
+  },
+  "common_task_run_approval_actions_label_approve": {
+    "message": "核准"
+  },
+  "common_task_run_approval_actions_label_reject": {
+    "message": "拒絕"
+  },
+  "common_unknown": {
+    "message": "未知"
+  },
+  "dashboard_window_title": {
+    "message": "Phi Sentinel 儀表板"
+  },
+  "directory_access_panel_grant_button": {
+    "message": "授予存取權限"
+  },
+  "directory_access_panel_message": {
+    "message": "選擇要授予存取權限的目錄"
+  },
+  "errors_ai_gateway_provider_test_timed_out": {
+    "message": "供應商測試逾時。供應商可能仍在載入模型，請稍後再試。"
+  },
+  "errors_config_load_failed": {
+    "message": "無法載入設定"
+  },
+  "errors_copy_failed": {
+    "message": "無法複製"
+  },
+  "errors_logs_copy_failed": {
+    "message": "無法複製記錄檔"
+  },
+  "errors_logs_directory_unavailable": {
+    "message": "記錄檔目錄無法使用"
+  },
+  "errors_logs_download_failed": {
+    "message": "無法下載記錄檔"
+  },
+  "errors_logs_load_failed": {
+    "message": "無法載入記錄檔"
+  },
+  "errors_logs_load_more_failed": {
+    "message": "無法載入更多記錄檔"
+  },
+  "errors_phi_agent_api_error": {
+    "message": "Phi Agent API 錯誤：{{status}}"
+  },
+  "errors_phi_agent_label_duration": {
+    "message": "{{count}} {{unit}}"
+  },
+  "errors_phi_agent_label_milliseconds": {
+    "message": "{{count}} 毫秒"
+  },
+  "errors_phi_agent_repeat_interval_minimum": {
+    "message": "重複間隔至少需為 30 秒。"
+  },
+  "errors_phi_agent_repeat_interval_minimum_with_current": {
+    "message": "重複間隔至少需為 {{minimum}}。目前值：{{current}}。"
+  },
+  "errors_tasks_schedule_creation_partial_failure": {
+    "message": "任務已建立，但排程建立失敗"
+  },
+  "errors_tasks_task_update_partial_failure": {
+    "message": "排程已更新，但任務更新失敗"
+  },
+  "experimental_description_stability_warning": {
+    "message": "仍在發展中的早期功能，可能不夠完善。"
+  },
+  "history_coming_soon_description": {
+    "message": "歷史記錄功能開發中"
+  },
+  "history_description": {
+    "message": "稽核與疑難排解檢視"
+  },
+  "history_event_history": {
+    "message": "事件歷史記錄"
+  },
+  "history_event_history_description": {
+    "message": "檢視系統事件、服務變更與工作執行記錄"
+  },
+  "history_export": {
+    "message": "匯出"
+  },
+  "history_filter": {
+    "message": "篩選"
+  },
+  "history_title": {
+    "message": "歷史記錄"
+  },
+  "history_will_show": {
+    "message": "此檢視將顯示服務事件、工作執行、權限變更與更新"
+  },
+  "job_detail_action_back": {
+    "message": "返回"
+  },
+  "job_detail_description_duration": {
+    "message": "持續時間：{{duration}}"
+  },
+  "job_detail_description_finished_at": {
+    "message": "完成時間：{{date}}"
+  },
+  "job_detail_description_legacy_run_without_task": {
+    "message": "此工作執行沒有關聯的 Phi Agent 任務執行。"
+  },
+  "job_detail_description_no_task_run_details_available": {
+    "message": "沒有任務執行詳細資料"
+  },
+  "job_detail_description_started_at": {
+    "message": "開始時間：{{date}}"
+  },
+  "job_detail_description_task_run_load_failure": {
+    "message": "無法載入任務執行詳細資料"
+  },
+  "job_detail_description_unknown_error": {
+    "message": "未知錯誤"
+  },
+  "job_detail_title_artifacts": {
+    "message": "產物（{{count}}）"
+  },
+  "job_detail_title_logs": {
+    "message": "記錄（{{count}}）"
+  },
+  "job_detail_title_progress": {
+    "message": "進度"
+  },
+  "job_detail_title_result": {
+    "message": "結果"
+  },
+  "job_detail_title_task_run": {
+    "message": "任務執行"
+  },
+  "jobs_action_clear_filter": {
+    "message": "清除篩選"
+  },
+  "jobs_callback_path_placeholder": {
+    "message": "回呼路徑（例如：/internal/jobs/run）"
+  },
+  "jobs_coming_soon": {
+    "message": "即將推出"
+  },
+  "jobs_coming_soon_description": {
+    "message": "工作管理功能開發中"
+  },
+  "jobs_component_id_placeholder": {
+    "message": "目標元件 ID（例如：go.service-a）"
+  },
+  "jobs_create": {
+    "message": "建立"
+  },
+  "jobs_create_one_time": {
+    "message": "建立一次性工作"
+  },
+  "jobs_create_one_time_description": {
+    "message": "建立將在未來執行一次的工作，呼叫元件的回呼 API"
+  },
+  "jobs_description": {
+    "message": "管理排程與觸發的工作"
+  },
+  "jobs_description_no_runs_recorded_yet": {
+    "message": "尚無執行記錄"
+  },
+  "jobs_disable": {
+    "message": "停用"
+  },
+  "jobs_disabled": {
+    "message": "已停用"
+  },
+  "jobs_empty_jobs": {
+    "message": "尚無工作"
+  },
+  "jobs_empty_runs": {
+    "message": "尚無工作執行記錄"
+  },
+  "jobs_enable": {
+    "message": "啟用"
+  },
+  "jobs_enabled": {
+    "message": "已啟用"
+  },
+  "jobs_execution_history": {
+    "message": "執行歷史記錄"
+  },
+  "jobs_execution_history_description": {
+    "message": "檢視工作執行歷史與記錄檔"
+  },
+  "jobs_hide_history": {
+    "message": "隱藏歷史記錄"
+  },
+  "jobs_job_id_label": {
+    "message": "工作 ID"
+  },
+  "jobs_job_name_placeholder": {
+    "message": "工作名稱"
+  },
+  "jobs_label_all_jobs": {
+    "message": "所有工作"
+  },
+  "jobs_label_duration": {
+    "message": "持續時間"
+  },
+  "jobs_label_every_hours": {
+    "message": "每 {{count}} 小時"
+  },
+  "jobs_label_every_minutes": {
+    "message": "每 {{count}} 分鐘"
+  },
+  "jobs_label_every_seconds": {
+    "message": "每 {{count}} 秒"
+  },
+  "jobs_label_interval_lowercase": {
+    "message": "間隔"
+  },
+  "jobs_label_job": {
+    "message": "工作"
+  },
+  "jobs_label_last_run": {
+    "message": "上次執行"
+  },
+  "jobs_label_schedule": {
+    "message": "排程"
+  },
+  "jobs_label_started": {
+    "message": "開始時間"
+  },
+  "jobs_label_status": {
+    "message": "狀態"
+  },
+  "jobs_label_type": {
+    "message": "類型"
+  },
+  "jobs_next_run_at": {
+    "message": "下次執行"
+  },
+  "jobs_refresh": {
+    "message": "重新整理"
+  },
+  "jobs_remove": {
+    "message": "移除"
+  },
+  "jobs_run_now": {
+    "message": "立即執行"
+  },
+  "jobs_scheduled_jobs": {
+    "message": "排程工作"
+  },
+  "jobs_scheduled_jobs_description": {
+    "message": "檢視及管理排程工作定義"
+  },
+  "jobs_show_history": {
+    "message": "顯示歷史記錄"
+  },
+  "jobs_summary_disabled": {
+    "message": "已停用：{{count}}"
+  },
+  "jobs_summary_enabled": {
+    "message": "已啟用：{{count}}"
+  },
+  "jobs_summary_failing": {
+    "message": "失敗中：{{count}}"
+  },
+  "jobs_summary_total": {
+    "message": "工作：{{count}}"
+  },
+  "jobs_title": {
+    "message": "工作"
+  },
+  "jobs_title_job_history": {
+    "message": "工作歷史記錄"
+  },
+  "knowledge_add_directory": {
+    "message": "新增目錄"
+  },
+  "knowledge_coming_soon_description": {
+    "message": "知識管理功能開發中"
+  },
+  "knowledge_description": {
+    "message": "RAG 目錄選擇與索引生命週期"
+  },
+  "knowledge_indexed_directories": {
+    "message": "已索引目錄"
+  },
+  "knowledge_indexed_directories_description": {
+    "message": "管理用於 RAG 索引的目錄"
+  },
+  "knowledge_start_index": {
+    "message": "開始索引"
+  },
+  "knowledge_title": {
+    "message": "知識庫"
+  },
+  "knowledge_will_show": {
+    "message": "此檢視將顯示已授權的目錄、索引狀態、區塊數量與重新索引操作"
+  },
+  "layout_app_shell_accessible_label_opening_sentinel": {
+    "message": "正在開啟 Sentinel"
+  },
+  "layout_app_shell_description_startup_progress": {
+    "message": "正在連線至本機橋接服務、檢查背景服務狀態並準備工作區。"
+  },
+  "layout_top_bar_accessible_label_auto_theme": {
+    "message": "自動主題（{{theme}}）"
+  },
+  "layout_top_bar_accessible_label_celebrate_phi_sentinel": {
+    "message": "慶祝 Phi Sentinel"
+  },
+  "layout_top_bar_accessible_label_dark_theme": {
+    "message": "深色主題"
+  },
+  "layout_top_bar_accessible_label_light_theme": {
+    "message": "淺色主題"
+  },
+  "layout_top_bar_accessible_label_runner_status": {
+    "message": "背景服務狀態：{{status}}"
+  },
+  "layout_top_bar_accessible_label_theme": {
+    "message": "主題"
+  },
+  "layout_top_bar_action_restart_to_version": {
+    "message": "重新啟動至 v{{version}}"
+  },
+  "layout_top_bar_image_description_phi_sentinel_app_icon": {
+    "message": "Phi Sentinel 應用程式圖示"
+  },
+  "layout_top_bar_label_dark": {
+    "message": "深色"
+  },
+  "layout_top_bar_label_light": {
+    "message": "淺色"
+  },
+  "layout_top_bar_label_version": {
+    "message": "v{{version}}"
+  },
+  "layout_top_bar_status_checking_updates": {
+    "message": "正在檢查更新…"
+  },
+  "layout_top_bar_status_downloading": {
+    "message": "正在下載…"
+  },
+  "layout_top_bar_status_health_check": {
+    "message": "正在進行健康檢查…"
+  },
+  "layout_top_bar_status_installing": {
+    "message": "正在安裝…"
+  },
+  "layout_top_bar_status_planning_update": {
+    "message": "正在規劃更新…"
+  },
+  "layout_top_bar_status_restarting": {
+    "message": "正在重新啟動…"
+  },
+  "layout_top_bar_status_rolling_back": {
+    "message": "正在還原…"
+  },
+  "layout_top_bar_status_staging": {
+    "message": "正在暫存更新…"
+  },
+  "layout_top_bar_status_switching": {
+    "message": "正在切換…"
+  },
+  "layout_top_bar_status_verifying": {
+    "message": "正在驗證…"
+  },
+  "layout_top_bar_title_phi_sentinel": {
+    "message": "Phi Sentinel"
+  },
+  "local_ai_hugging_face_download_hint_accessible_label_download_source_guidance": {
+    "message": "關於 Hugging Face 的下載速度與錯誤"
+  },
+  "local_ai_hugging_face_download_hint_label_download_reliability_warning": {
+    "message": "Hugging Face 的下載速度可能比 Phi 鏡像站慢，也可能因為速率限制、存取管制或網路中斷而失敗。如果發生這種情況，請改從 Phi 鏡像站重試。"
+  },
+  "local_ai_local_llm_accessible_label_control_local_ai": {
+    "message": "{{action}} 本機 AI"
+  },
+  "local_ai_local_llm_accessible_label_view_role_logs": {
+    "message": "檢視 {{role}} 記錄"
+  },
+  "local_ai_local_llm_action_cancelling": {
+    "message": "正在取消…"
+  },
+  "local_ai_local_llm_action_check_again": {
+    "message": "再檢查一次"
+  },
+  "local_ai_local_llm_action_disable": {
+    "message": "停用"
+  },
+  "local_ai_local_llm_action_download_and_start": {
+    "message": "下載並啟動"
+  },
+  "local_ai_local_llm_action_enable": {
+    "message": "啟用"
+  },
+  "local_ai_local_llm_action_install_and_start": {
+    "message": "安裝並啟動"
+  },
+  "local_ai_local_llm_action_install_model": {
+    "message": "安裝模型"
+  },
+  "local_ai_local_llm_action_install_runtime": {
+    "message": "安裝執行環境"
+  },
+  "local_ai_local_llm_action_next_step": {
+    "message": "下一步"
+  },
+  "local_ai_local_llm_action_preparing": {
+    "message": "正在準備…"
+  },
+  "local_ai_local_llm_action_retry_hugging_face": {
+    "message": "重試 Hugging Face"
+  },
+  "local_ai_local_llm_action_retry_phi_mirror": {
+    "message": "重試 Phi 鏡像站"
+  },
+  "local_ai_local_llm_action_start_local_services": {
+    "message": "啟動本機服務"
+  },
+  "local_ai_local_llm_action_start_services": {
+    "message": "啟動服務"
+  },
+  "local_ai_local_llm_action_starting": {
+    "message": "正在啟動…"
+  },
+  "local_ai_local_llm_action_turn_on_local_ai": {
+    "message": "開啟本機 AI"
+  },
+  "local_ai_local_llm_action_update": {
+    "message": "更新"
+  },
+  "local_ai_local_llm_description_apple_silicon_required": {
+    "message": "需要 Apple Silicon。"
+  },
+  "local_ai_local_llm_description_chat_configured": {
+    "message": "Sentinel 會啟動本機對話模型。"
+  },
+  "local_ai_local_llm_description_chat_not_set_up": {
+    "message": "本機 AI 開啟時，會啟動 Sentinel 的本機對話模型。"
+  },
+  "local_ai_local_llm_description_chat_off": {
+    "message": "對話功能已關閉。已安裝的本機模型會保留，供之後使用。"
+  },
+  "local_ai_local_llm_description_chat_ready": {
+    "message": "本機對話模型已就緒。"
+  },
+  "local_ai_local_llm_description_chat_start_failed": {
+    "message": "本機對話模型啟動失敗。"
+  },
+  "local_ai_local_llm_description_chat_starting": {
+    "message": "Sentinel 正在啟動本機對話模型。"
+  },
+  "local_ai_local_llm_description_checking_download_disk_space": {
+    "message": "Sentinel 正在檢查可用磁碟空間，接著才會顯示下載選項。"
+  },
+  "local_ai_local_llm_description_choose_download_location": {
+    "message": "選擇檔案的下載來源"
+  },
+  "local_ai_local_llm_description_connector_configured": {
+    "message": "Sentinel 會啟動連接器索引。"
+  },
+  "local_ai_local_llm_description_connector_not_set_up": {
+    "message": "本機 AI 開啟時，會啟動 Sentinel 的本機連結資料搜尋模型。"
+  },
+  "local_ai_local_llm_description_connector_off": {
+    "message": "連接器搜尋已關閉。已安裝的本機模型會保留，供之後使用。"
+  },
+  "local_ai_local_llm_description_connector_ready": {
+    "message": "已可搭配 Notion 等已連結的應用程式使用。"
+  },
+  "local_ai_local_llm_description_connector_start_failed": {
+    "message": "連接器索引啟動失敗。"
+  },
+  "local_ai_local_llm_description_connector_starting": {
+    "message": "Sentinel 正在啟動連接器索引。"
+  },
+  "local_ai_local_llm_description_data_search_download_failed": {
+    "message": "資料搜尋模型下載失敗。"
+  },
+  "local_ai_local_llm_description_download_and_start_plan": {
+    "message": "Sentinel 會下載缺少的執行環境或模型檔案，然後啟動記憶與連結資料搜尋。"
+  },
+  "local_ai_local_llm_description_download_source_recommendation": {
+    "message": "建議使用 Phi 鏡像站。Hugging Face 可用於 Sentinel 核准的公開模型，速度可能較慢。"
+  },
+  "local_ai_local_llm_description_download_then_start": {
+    "message": "Sentinel 會下載 {{items}}，然後啟動所需的本機服務。"
+  },
+  "local_ai_local_llm_description_downloading_and_starting": {
+    "message": "正在下載並啟動"
+  },
+  "local_ai_local_llm_description_downloading_from_hugging_face": {
+    "message": "正在從 Hugging Face 下載。"
+  },
+  "local_ai_local_llm_description_downloading_from_phi_mirror": {
+    "message": "正在從 Phi 鏡像站下載。"
+  },
+  "local_ai_local_llm_description_downloading_runtime": {
+    "message": "正在下載本機 LLM 執行環境。"
+  },
+  "local_ai_local_llm_description_downloads_chat_memory_model": {
+    "message": "下載供對話與記憶使用的本機模型。"
+  },
+  "local_ai_local_llm_description_downloads_data_search_model": {
+    "message": "下載供連結資料搜尋使用的本機模型。"
+  },
+  "local_ai_local_llm_description_downloads_memory_model": {
+    "message": "下載供記憶使用的本機模型。"
+  },
+  "local_ai_local_llm_description_free_space_then_retry": {
+    "message": "釋放空間，然後重試"
+  },
+  "local_ai_local_llm_description_insufficient_disk_space_guidance": {
+    "message": "下載本機執行環境或模型前，請先釋放空間並重試。"
+  },
+  "local_ai_local_llm_description_insufficient_storage": {
+    "message": "設定本機 AI 需要 Sentinel 儲存磁碟至少有 10GB 可用空間。目前可用空間為 {{available}}。"
+  },
+  "local_ai_local_llm_description_local_features_running": {
+    "message": "記憶與連結資料搜尋正在這部 Mac 上執行。"
+  },
+  "local_ai_local_llm_description_local_model_assignments": {
+    "message": "記憶與連結資料搜尋已設定為使用這部 Mac 上的本機模型。"
+  },
+  "local_ai_local_llm_description_local_services_running": {
+    "message": "本機服務執行中"
+  },
+  "local_ai_local_llm_description_memory_configured": {
+    "message": "Sentinel 會啟動本機記憶模型。"
+  },
+  "local_ai_local_llm_description_memory_download_failed": {
+    "message": "記憶模型下載失敗。"
+  },
+  "local_ai_local_llm_description_memory_not_set_up": {
+    "message": "本機 AI 開啟時，會啟動 Sentinel 的本機記憶模型。"
+  },
+  "local_ai_local_llm_description_memory_off": {
+    "message": "記憶功能已關閉。已安裝的本機模型會保留，供之後使用。"
+  },
+  "local_ai_local_llm_description_memory_ready": {
+    "message": "本機記憶模型已就緒。"
+  },
+  "local_ai_local_llm_description_memory_start_failed": {
+    "message": "本機記憶模型啟動失敗。"
+  },
+  "local_ai_local_llm_description_memory_starting": {
+    "message": "Sentinel 正在啟動本機記憶模型。"
+  },
+  "local_ai_local_llm_description_missing_files_source": {
+    "message": "Sentinel 會使用這個來源下載缺少的執行環境或模型檔案。"
+  },
+  "local_ai_local_llm_description_no_supported_chat_model": {
+    "message": "目前尚無支援的對話模型。"
+  },
+  "local_ai_local_llm_description_no_supported_connector_model": {
+    "message": "目前尚無支援的連接器索引模型。"
+  },
+  "local_ai_local_llm_description_no_supported_data_search_model": {
+    "message": "目前尚無支援的連結資料搜尋模型。"
+  },
+  "local_ai_local_llm_description_no_supported_memory_model": {
+    "message": "目前尚無支援的記憶模型。"
+  },
+  "local_ai_local_llm_description_preparing_runtime_install": {
+    "message": "Sentinel 正在檢查可用磁碟空間，並準備安裝本機執行環境。"
+  },
+  "local_ai_local_llm_description_preparing_setup": {
+    "message": "正在準備本機 AI 設定。"
+  },
+  "local_ai_local_llm_description_role_start_failed": {
+    "message": "無法啟動 {{role}}。"
+  },
+  "local_ai_local_llm_description_runtime_and_models_installed": {
+    "message": "執行環境與模型已安裝"
+  },
+  "local_ai_local_llm_description_runtime_download_failed": {
+    "message": "執行環境下載失敗。"
+  },
+  "local_ai_local_llm_description_runtime_ready": {
+    "message": "執行環境與模型已在這部 Mac 上準備就緒。啟動本機服務即可使用 Sentinel 本機 AI。"
+  },
+  "local_ai_local_llm_description_runtime_required": {
+    "message": "需要先安裝，本機模型才能在這部 Mac 上執行。"
+  },
+  "local_ai_local_llm_description_runtime_required_short": {
+    "message": "需要先安裝，本機模型才能執行。"
+  },
+  "local_ai_local_llm_description_start_failed": {
+    "message": "無法啟動本機 AI：{{error}}"
+  },
+  "local_ai_local_llm_description_start_installed_services": {
+    "message": "Sentinel 會使用這部 Mac 上已安裝的模型，啟動所選的本機服務。"
+  },
+  "local_ai_local_llm_description_starting_installed_services": {
+    "message": "執行環境與模型皆已安裝，Sentinel 正在啟動本機服務。"
+  },
+  "local_ai_local_llm_description_starting_local_services": {
+    "message": "正在啟動本機服務"
+  },
+  "local_ai_local_llm_description_status_load_failure": {
+    "message": "無法載入狀態：{{error}}"
+  },
+  "local_ai_local_llm_description_stopping_downloads": {
+    "message": "正在停止進行中的下載。取消完成後，你可以重新開始。"
+  },
+  "local_ai_local_llm_description_storage_check_failed": {
+    "message": "無法檢查 Sentinel 儲存空間：{{error}}"
+  },
+  "local_ai_local_llm_description_unknown_error": {
+    "message": "未知錯誤"
+  },
+  "local_ai_local_llm_description_waiting_step": {
+    "message": "{{detail}} Sentinel 會保留已安裝的內容。"
+  },
+  "local_ai_local_llm_label_connected_data_search_lowercase": {
+    "message": "連結資料搜尋"
+  },
+  "local_ai_local_llm_label_experimental": {
+    "message": "實驗性功能"
+  },
+  "local_ai_local_llm_label_gb": {
+    "message": "約 1GB"
+  },
+  "local_ai_local_llm_label_hugging_face": {
+    "message": "Hugging Face"
+  },
+  "local_ai_local_llm_label_latest_version": {
+    "message": "最新版本 {{version}}"
+  },
+  "local_ai_local_llm_label_loading_local_runtime": {
+    "message": "正在載入本機執行環境…"
+  },
+  "local_ai_local_llm_label_model_value": {
+    "message": "模型：{{model}}"
+  },
+  "local_ai_local_llm_label_phi_mirror": {
+    "message": "Phi 鏡像站"
+  },
+  "local_ai_local_llm_label_runtime": {
+    "message": "執行環境"
+  },
+  "local_ai_local_llm_label_source_name": {
+    "message": "來源：{{source}}"
+  },
+  "local_ai_local_llm_label_source_with_detail": {
+    "message": "來源：{{source}} · {{detail}}"
+  },
+  "local_ai_local_llm_label_step_progress": {
+    "message": "第 {{current}} 步，共 {{total}} 步"
+  },
+  "local_ai_local_llm_label_the_chat_memory_model": {
+    "message": "對話與記憶模型"
+  },
+  "local_ai_local_llm_label_the_data_search_model": {
+    "message": "連結資料搜尋模型"
+  },
+  "local_ai_local_llm_label_the_local_runtime": {
+    "message": "本機 LLM 執行環境"
+  },
+  "local_ai_local_llm_label_the_memory_model": {
+    "message": "記憶模型"
+  },
+  "local_ai_local_llm_label_version": {
+    "message": "版本 {{version}}"
+  },
+  "local_ai_local_llm_label_version_with_update": {
+    "message": "版本 {{installedVersion}} · 可更新至 {{availableVersion}}"
+  },
+  "local_ai_local_llm_status_cancelling": {
+    "message": "取消中"
+  },
+  "local_ai_local_llm_status_checking": {
+    "message": "檢查中"
+  },
+  "local_ai_local_llm_status_complete": {
+    "message": "完成"
+  },
+  "local_ai_local_llm_status_configured": {
+    "message": "已設定"
+  },
+  "local_ai_local_llm_status_in_progress": {
+    "message": "進行中"
+  },
+  "local_ai_local_llm_status_installed": {
+    "message": "已安裝"
+  },
+  "local_ai_local_llm_status_installing": {
+    "message": "安裝中"
+  },
+  "local_ai_local_llm_status_needs_attention": {
+    "message": "需要處理"
+  },
+  "local_ai_local_llm_status_not_installed": {
+    "message": "未安裝"
+  },
+  "local_ai_local_llm_status_not_set_up": {
+    "message": "尚未設定"
+  },
+  "local_ai_local_llm_status_ready": {
+    "message": "已就緒"
+  },
+  "local_ai_local_llm_status_starting": {
+    "message": "啟動中"
+  },
+  "local_ai_local_llm_status_update_available": {
+    "message": "有可用更新"
+  },
+  "local_ai_local_llm_status_waiting": {
+    "message": "等待中"
+  },
+  "local_ai_local_llm_title_cancelling_setup": {
+    "message": "正在取消設定"
+  },
+  "local_ai_local_llm_title_chat_and_memory_model": {
+    "message": "對話與記憶模型"
+  },
+  "local_ai_local_llm_title_choose_download_source": {
+    "message": "選擇下載來源"
+  },
+  "local_ai_local_llm_title_data_search_model": {
+    "message": "資料搜尋模型"
+  },
+  "local_ai_local_llm_title_download_source": {
+    "message": "下載來源"
+  },
+  "local_ai_local_llm_title_install_chat_memory_model": {
+    "message": "安裝對話與記憶模型"
+  },
+  "local_ai_local_llm_title_install_data_search_model": {
+    "message": "安裝已連結資料搜尋模型"
+  },
+  "local_ai_local_llm_title_install_memory_model": {
+    "message": "安裝記憶模型"
+  },
+  "local_ai_local_llm_title_local_ai": {
+    "message": "本機 AI"
+  },
+  "local_ai_local_llm_title_local_aiready": {
+    "message": "本機 AI 已就緒"
+  },
+  "local_ai_local_llm_title_local_aiservices_are_installed": {
+    "message": "本機 AI 服務已安裝"
+  },
+  "local_ai_local_llm_title_local_aisetup_needs_space": {
+    "message": "本機 AI 設定需要儲存空間"
+  },
+  "local_ai_local_llm_title_local_llm_runtime": {
+    "message": "本機 LLM 執行環境"
+  },
+  "local_ai_local_llm_title_memory_model": {
+    "message": "記憶模型"
+  },
+  "local_ai_local_llm_title_preparing_local_aisetup": {
+    "message": "正在準備本機 AI 設定"
+  },
+  "local_ai_local_llm_title_preparing_setup": {
+    "message": "正在準備設定"
+  },
+  "local_ai_local_llm_title_sentinel_local_aiis_ready": {
+    "message": "Sentinel 本機 AI 已就緒"
+  },
+  "local_ai_local_llm_title_starting_local_aisetup": {
+    "message": "正在開始本機 AI 設定"
+  },
+  "local_ai_local_llm_title_starting_sentinel_local_ai": {
+    "message": "正在啟動 Sentinel 本機 AI"
+  },
+  "local_ai_local_llm_title_step_needed": {
+    "message": "需要完成 {{step}}"
+  },
+  "local_ai_local_llm_title_step_needs_attention": {
+    "message": "{{step}} 需要處理"
+  },
+  "local_ai_local_llm_tooltip_chat": {
+    "message": "對話"
+  },
+  "local_ai_local_llm_tooltip_connected_data_search": {
+    "message": "已連結資料搜尋"
+  },
+  "local_ai_local_llm_tooltip_local_aisetup_needs_attention": {
+    "message": "本機 AI 設定需要處理"
+  },
+  "local_ai_local_llm_tooltip_memory": {
+    "message": "記憶"
+  },
+  "local_ai_local_llm_tooltip_runtime_update_available": {
+    "message": "執行環境有可用更新"
+  },
+  "local_ai_local_llm_tooltip_view_logs": {
+    "message": "檢視記錄檔"
+  },
+  "local_ai_models_accessible_label_cancel_model_download": {
+    "message": "取消模型下載"
+  },
+  "local_ai_models_accessible_label_delete_model": {
+    "message": "刪除 {{model}}"
+  },
+  "local_ai_models_accessible_label_download_progress": {
+    "message": "下載進度"
+  },
+  "local_ai_models_accessible_label_hugging_face_model_url": {
+    "message": "Hugging Face 模型 URL"
+  },
+  "local_ai_models_accessible_label_installed_models": {
+    "message": "已安裝的模型"
+  },
+  "local_ai_models_action_delete_model": {
+    "message": "刪除模型"
+  },
+  "local_ai_models_action_download": {
+    "message": "下載"
+  },
+  "local_ai_models_action_download_from_hugging_face": {
+    "message": "從 Hugging Face 下載"
+  },
+  "local_ai_models_action_retry_from_phi_mirror": {
+    "message": "從 Phi 鏡像重試"
+  },
+  "local_ai_models_description_in_use_before_deleting": {
+    "message": "{{roles}} 正在使用，刪除前請先停用或重新指派角色"
+  },
+  "local_ai_models_description_install_failed": {
+    "message": "安裝失敗。"
+  },
+  "local_ai_models_description_model_already_installed": {
+    "message": "這個模型已經安裝。"
+  },
+  "local_ai_models_description_paste_supported_hugging_face_url": {
+    "message": "請貼上支援模型的 Hugging Face 模型 URL。"
+  },
+  "local_ai_models_description_unsupported_hugging_face_model": {
+    "message": "這裡不支援這個 Hugging Face 模型。"
+  },
+  "local_ai_models_label_any_role": {
+    "message": "任何角色"
+  },
+  "local_ai_models_label_availability_summary": {
+    "message": "已安裝 {{installed}} 個 · 可用 {{available}} 個"
+  },
+  "local_ai_models_label_download_source_with_phase": {
+    "message": "{{phase}} · 來源：{{source}}{{detail}}"
+  },
+  "local_ai_models_label_for_roles": {
+    "message": "適用於 {{roles}}"
+  },
+  "local_ai_models_label_no_models_in_catalog": {
+    "message": "目錄中沒有模型。"
+  },
+  "local_ai_models_label_recommended": {
+    "message": "推薦"
+  },
+  "local_ai_models_label_saved_for_roles": {
+    "message": "已為 {{roles}} 儲存"
+  },
+  "local_ai_models_label_soon": {
+    "message": "即將完成"
+  },
+  "local_ai_models_label_starting_download": {
+    "message": "正在開始下載"
+  },
+  "local_ai_models_label_time_left": {
+    "message": "剩餘 {{duration}}"
+  },
+  "local_ai_models_label_used_by_roles": {
+    "message": "由 {{roles}} 使用"
+  },
+  "local_ai_models_placeholder_model_url": {
+    "message": "貼上支援的 Hugging Face 模型 URL"
+  },
+  "local_ai_models_status_downloading": {
+    "message": "下載中"
+  },
+  "local_ai_models_status_extracting": {
+    "message": "解壓縮中"
+  },
+  "local_ai_models_status_install_runtime_first": {
+    "message": "請先安裝執行環境"
+  },
+  "local_ai_models_status_queued": {
+    "message": "已排入佇列"
+  },
+  "local_ai_models_status_runtime_installing": {
+    "message": "執行環境安裝中…"
+  },
+  "local_ai_models_status_verifying": {
+    "message": "驗證中"
+  },
+  "local_ai_models_title_models": {
+    "message": "模型"
+  },
+  "local_ai_provider_detail_accessible_label_allow_model": {
+    "message": "允許模型 {{model}}"
+  },
+  "local_ai_provider_detail_accessible_label_connect_codex": {
+    "message": "連線 Codex"
+  },
+  "local_ai_provider_detail_accessible_label_disconnect_codex": {
+    "message": "中斷 Codex 連線"
+  },
+  "local_ai_provider_detail_accessible_label_enabled_models_to_test": {
+    "message": "要測試的已啟用模型"
+  },
+  "local_ai_provider_detail_accessible_label_reasoning_effort": {
+    "message": "{{model}} 的思考強度"
+  },
+  "local_ai_provider_detail_action_add_provider": {
+    "message": "新增供應商"
+  },
+  "local_ai_provider_detail_action_advanced": {
+    "message": "進階"
+  },
+  "local_ai_provider_detail_action_confirm_account": {
+    "message": "確認帳號"
+  },
+  "local_ai_provider_detail_action_connect": {
+    "message": "連線"
+  },
+  "local_ai_provider_detail_action_details": {
+    "message": "詳細資訊"
+  },
+  "local_ai_provider_detail_action_disconnect": {
+    "message": "中斷連線"
+  },
+  "local_ai_provider_detail_action_enable_provider": {
+    "message": "啟用供應商"
+  },
+  "local_ai_provider_detail_action_load": {
+    "message": "載入"
+  },
+  "local_ai_provider_detail_action_raw_list": {
+    "message": "原始清單"
+  },
+  "local_ai_provider_detail_action_remove_provider": {
+    "message": "移除供應商"
+  },
+  "local_ai_provider_detail_action_retest": {
+    "message": "重新測試"
+  },
+  "local_ai_provider_detail_description_all_provider_models_available": {
+    "message": "這個供應商的所有模型皆可使用。"
+  },
+  "local_ai_provider_detail_description_codex_account_changed": {
+    "message": "Codex 登入已變更。在你確認新帳號之前，請求會暫停。"
+  },
+  "local_ai_provider_detail_description_codex_catalog_origin": {
+    "message": "已從 Codex 模型目錄載入。"
+  },
+  "local_ai_provider_detail_description_codex_disconnect_blocked": {
+    "message": "{{tasks}} {{verb}} 仍在使用 Codex。請先重新指派 {{pronoun}}，再中斷連線。"
+  },
+  "local_ai_provider_detail_description_codex_keychain_unsupported": {
+    "message": "這個 Codex 登入儲存在鑰匙圈中，而 Sentinel 不會讀取鑰匙圈。"
+  },
+  "local_ai_provider_detail_description_codex_login_not_found": {
+    "message": "Codex 已安裝，但找不到以檔案儲存的登入。"
+  },
+  "local_ai_provider_detail_description_codex_login_reuse": {
+    "message": "Sentinel 會使用 Codex 已管理的登入。連線時會以一次最小請求進行驗證。如果找不到登入，請執行"
+  },
+  "local_ai_provider_detail_description_codex_models_available": {
+    "message": "透過本機 AI 閘道可使用 {{count}} 個相容模型。"
+  },
+  "local_ai_provider_detail_description_codex_needs_attention": {
+    "message": "上次連線檢查失敗。既有路由會維持指派，不會自動改用備援。"
+  },
+  "local_ai_provider_detail_description_codex_ready": {
+    "message": "已偵測到 Codex 登入。不需複製憑證即可連線。"
+  },
+  "local_ai_provider_detail_description_custom_provider_compatibility": {
+    "message": "新增其他 OpenAI 相容服務。當 Responses 不可用時，本機服務可改用 Chat Completions。"
+  },
+  "local_ai_provider_detail_description_endpoint_with_models": {
+    "message": "{{endpoint}} · {{count}} 個模型"
+  },
+  "local_ai_provider_detail_description_install_codex": {
+    "message": "在這台 Mac 上安裝 Codex 即可使用 Codex 訂閱。"
+  },
+  "local_ai_provider_detail_description_local_models_ready": {
+    "message": "{{count}} 個本機模型已就緒。"
+  },
+  "local_ai_provider_detail_description_model_test_failed": {
+    "message": "{{model}} 失敗：{{error}}"
+  },
+  "local_ai_provider_detail_description_model_test_succeeded": {
+    "message": "連線成功：{{model}} · {{latency}} ms"
+  },
+  "local_ai_provider_detail_description_probe_succeeded": {
+    "message": "模型：{{count}} · {{latency}} ms"
+  },
+  "local_ai_provider_detail_description_provider_apple_foundation": {
+    "message": "由 macOS 提供的裝置端 Apple Intelligence 模型。"
+  },
+  "local_ai_provider_detail_description_provider_codex": {
+    "message": "使用已透過 Codex 登入的 ChatGPT 訂閱。"
+  },
+  "local_ai_provider_detail_description_provider_custom": {
+    "message": "任何 OpenAI 相容端點。"
+  },
+  "local_ai_provider_detail_description_provider_lm_studio": {
+    "message": "本機的 LM Studio OpenAI 相容伺服器。"
+  },
+  "local_ai_provider_detail_description_provider_local_llm": {
+    "message": "由 Sentinel 本機 LLM 執行環境下載並提供的模型。"
+  },
+  "local_ai_provider_detail_description_provider_ollama": {
+    "message": "這台 Mac 或你的區域網路上的本機 Ollama 模型。"
+  },
+  "local_ai_provider_detail_description_provider_open_ai": {
+    "message": "OpenAI 模型，包含 GPT 與思考模型系列。"
+  },
+  "local_ai_provider_detail_description_provider_open_router": {
+    "message": "透過 OpenRouter 統一 API 存取數百個 AI 模型。"
+  },
+  "local_ai_provider_detail_description_provider_phi": {
+    "message": "內建的 Phi 供應商，使用你的 Sentinel 登入。"
+  },
+  "local_ai_provider_detail_description_set_up_local_ai": {
+    "message": "設定本機 AI，即可在這台 Mac 上使用模型。"
+  },
+  "local_ai_provider_detail_description_testing_model": {
+    "message": "正在測試 {{model}}…"
+  },
+  "local_ai_provider_detail_description_uses_apple_intelligence": {
+    "message": "可用時會使用這台 Mac 上的 Apple Intelligence。"
+  },
+  "local_ai_provider_detail_description_uses_sentinel_sign_in": {
+    "message": "使用 Sentinel 登入，不需要 API 金鑰。"
+  },
+  "local_ai_provider_detail_field_label_base_url": {
+    "message": "基礎 URL"
+  },
+  "local_ai_provider_detail_field_label_gateway_model": {
+    "message": "閘道模型"
+  },
+  "local_ai_provider_detail_field_label_gateway_models": {
+    "message": "閘道模型"
+  },
+  "local_ai_provider_detail_field_label_provider_id": {
+    "message": "供應商 ID"
+  },
+  "local_ai_provider_detail_label_allowed_endpoint_networks": {
+    "message": "允許本機與私有網路端點。"
+  },
+  "local_ai_provider_detail_label_apikey": {
+    "message": "API 金鑰"
+  },
+  "local_ai_provider_detail_label_apple_intelligence_management": {
+    "message": "Apple Intelligence 由 macOS 自動管理，用於 AI 分頁整理。"
+  },
+  "local_ai_provider_detail_label_built_in": {
+    "message": "內建"
+  },
+  "local_ai_provider_detail_label_cloud_providers_must_use_https": {
+    "message": "雲端供應商必須使用 HTTPS。"
+  },
+  "local_ai_provider_detail_label_cloud_scope": {
+    "message": "雲端"
+  },
+  "local_ai_provider_detail_label_codex": {
+    "message": "~/.codex"
+  },
+  "local_ai_provider_detail_label_codex_home_optional_hint": {
+    "message": "留空以使用預設的 Codex 主目錄。"
+  },
+  "local_ai_provider_detail_label_codex_login": {
+    "message": "codex login"
+  },
+  "local_ai_provider_detail_label_default_effort": {
+    "message": "預設（{{effort}}）"
+  },
+  "local_ai_provider_detail_label_legacy_endpoint": {
+    "message": "舊版端點"
+  },
+  "local_ai_provider_detail_label_loading_models": {
+    "message": "正在載入模型…"
+  },
+  "local_ai_provider_detail_label_local_endpoint": {
+    "message": "本機端點"
+  },
+  "local_ai_provider_detail_label_local_runtime": {
+    "message": "本機執行環境"
+  },
+  "local_ai_provider_detail_label_local_scope": {
+    "message": "本機"
+  },
+  "local_ai_provider_detail_label_model_count": {
+    "message": "{{count}} 個模型"
+  },
+  "local_ai_provider_detail_label_model_default": {
+    "message": "模型預設"
+  },
+  "local_ai_provider_detail_label_no_enabled_models_match": {
+    "message": "沒有符合的已啟用模型。"
+  },
+  "local_ai_provider_detail_label_on_device": {
+    "message": "裝置端"
+  },
+  "local_ai_provider_detail_label_open_aicompatible": {
+    "message": "OpenAI 相容"
+  },
+  "local_ai_provider_detail_label_optional": {
+    "message": "（選填）"
+  },
+  "local_ai_provider_detail_label_phi_cloud_authentication": {
+    "message": "Phi Cloud 已內含於 Sentinel，並使用你的 Phi Browser 登入，不需要 API 金鑰。"
+  },
+  "local_ai_provider_detail_label_post_setup_model_configuration": {
+    "message": "完成供應商設定後即可設定模型。"
+  },
+  "local_ai_provider_detail_label_provider_model_enablement_guidance": {
+    "message": "從這個供應商載入模型，然後啟用 Sentinel 可以使用的模型。"
+  },
+  "local_ai_provider_detail_label_provider_name": {
+    "message": "供應商名稱"
+  },
+  "local_ai_provider_detail_label_raw_model_whitelist": {
+    "message": "原始模型允許清單"
+  },
+  "local_ai_provider_detail_label_reasoning_effort": {
+    "message": "思考強度"
+  },
+  "local_ai_provider_detail_label_scope": {
+    "message": "範圍"
+  },
+  "local_ai_provider_detail_label_sign_in": {
+    "message": "登入"
+  },
+  "local_ai_provider_detail_label_system_default": {
+    "message": "系統預設"
+  },
+  "local_ai_provider_detail_label_test": {
+    "message": "測試"
+  },
+  "local_ai_provider_detail_label_text": {
+    "message": "文字"
+  },
+  "local_ai_provider_detail_label_text_image": {
+    "message": "文字 + 圖片"
+  },
+  "local_ai_provider_detail_placeholder_api_key": {
+    "message": "API 金鑰"
+  },
+  "local_ai_provider_detail_placeholder_auth0_token": {
+    "message": "Auth0 權杖"
+  },
+  "local_ai_provider_detail_placeholder_my_custom_provider": {
+    "message": "我的自訂供應商"
+  },
+  "local_ai_provider_detail_placeholder_not_required": {
+    "message": "無需填寫"
+  },
+  "local_ai_provider_detail_placeholder_optional_api_key": {
+    "message": "API 金鑰（選填）"
+  },
+  "local_ai_provider_detail_placeholder_provider_model_allowlist": {
+    "message": "留空即允許此供應商的所有模型"
+  },
+  "local_ai_provider_detail_placeholder_search_models": {
+    "message": "搜尋模型…"
+  },
+  "local_ai_provider_detail_placeholder_select_enabled_model_to_test": {
+    "message": "選擇要測試的已啟用模型"
+  },
+  "local_ai_provider_detail_placeholder_shared_codex_login": {
+    "message": "共用的 Codex 登入"
+  },
+  "local_ai_provider_detail_status_available": {
+    "message": "可用"
+  },
+  "local_ai_provider_detail_status_confirmation_required": {
+    "message": "需要確認"
+  },
+  "local_ai_provider_detail_status_endpoint_not_set": {
+    "message": "尚未設定端點"
+  },
+  "local_ai_provider_detail_status_file_login_required": {
+    "message": "需要以檔案登入"
+  },
+  "local_ai_provider_detail_status_inactive": {
+    "message": "已停用"
+  },
+  "local_ai_provider_detail_status_not_installed": {
+    "message": "未安裝"
+  },
+  "local_ai_provider_detail_status_not_ready": {
+    "message": "尚未就緒"
+  },
+  "local_ai_provider_detail_status_sign_in_required": {
+    "message": "需要登入"
+  },
+  "local_ai_provider_detail_title_available_models": {
+    "message": "可用模型"
+  },
+  "local_ai_provider_detail_title_codex": {
+    "message": "Codex"
+  },
+  "local_ai_role_logs_description_loading": {
+    "message": "載入中…"
+  },
+  "local_ai_role_logs_description_no_logs_yet_for_role": {
+    "message": "{{role}} 尚無任何記錄。"
+  },
+  "local_ai_role_logs_description_troubleshooting_logs": {
+    "message": "近期的本機 AI 服務記錄，供疑難排解使用。"
+  },
+  "local_ai_role_logs_label_line_count": {
+    "message": "{{count}} 行{{truncated}}"
+  },
+  "local_ai_role_logs_label_tail": {
+    "message": "尾端行數："
+  },
+  "local_ai_role_logs_title_role_logs": {
+    "message": "{{role}} 記錄"
+  },
+  "local_ai_role_row_accessible_label_cancel_source_choice": {
+    "message": "取消來源選擇"
+  },
+  "local_ai_role_row_accessible_label_download_from_hugging_face": {
+    "message": "從 Hugging Face 下載 {{model}}"
+  },
+  "local_ai_role_row_accessible_label_download_from_phi_mirror": {
+    "message": "從 Phi 鏡像站下載 {{model}}"
+  },
+  "local_ai_role_row_accessible_label_enable_role": {
+    "message": "啟用 {{role}} 角色"
+  },
+  "local_ai_role_row_accessible_label_select_role_model": {
+    "message": "選擇 {{role}} 模型"
+  },
+  "local_ai_role_row_action_choose_source": {
+    "message": "選擇來源"
+  },
+  "local_ai_role_row_description_chat": {
+    "message": "互動式助理"
+  },
+  "local_ai_role_row_description_choose_download_source_for_role": {
+    "message": "指派給 {{role}} 前，請先選擇下載來源。"
+  },
+  "local_ai_role_row_description_connector_indexing": {
+    "message": "為 Notion 等已連結的應用程式建立搜尋索引"
+  },
+  "local_ai_role_row_description_failed_to_start": {
+    "message": "{{role}} 啟動失敗 · {{error}}"
+  },
+  "local_ai_role_row_description_memory": {
+    "message": "摘要與標記"
+  },
+  "local_ai_role_row_label_chat": {
+    "message": "對話"
+  },
+  "local_ai_role_row_label_connector_indexing": {
+    "message": "連接器索引"
+  },
+  "local_ai_role_row_label_downloading": {
+    "message": "下載中"
+  },
+  "local_ai_role_row_label_memory": {
+    "message": "記憶"
+  },
+  "local_ai_role_row_label_model": {
+    "message": "模型"
+  },
+  "local_ai_role_row_label_off": {
+    "message": "關閉"
+  },
+  "local_ai_role_row_label_on": {
+    "message": "開啟"
+  },
+  "local_ai_role_row_label_pick_amodel_first": {
+    "message": "請先選擇模型"
+  },
+  "local_ai_role_row_placeholder_no_model": {
+    "message": "無模型"
+  },
+  "local_ai_role_row_status_downloading": {
+    "message": "下載中…"
+  },
+  "local_ai_role_row_status_downloading_percent": {
+    "message": "下載中 {{percent}}%"
+  },
+  "local_ai_role_row_status_install_runtime_first": {
+    "message": "請先安裝執行環境"
+  },
+  "local_ai_role_row_status_installed": {
+    "message": "已安裝"
+  },
+  "local_ai_role_row_status_runtime_installing": {
+    "message": "執行環境安裝中"
+  },
+  "local_ai_role_row_tooltip_download_anonymously_from_hugging_face": {
+    "message": "以匿名方式從 Hugging Face 下載"
+  },
+  "logs_action_downloading": {
+    "message": "下載中…"
+  },
+  "logs_action_jump_to_bottom": {
+    "message": "跳至底部"
+  },
+  "logs_description_line_count_all_loaded": {
+    "message": "總行數：{{count}}（已全部載入）"
+  },
+  "logs_description_line_count_with_more_history": {
+    "message": "總行數：{{count}}（顯示最後 {{loaded}} 行，向上捲動可載入更多）"
+  },
+  "logs_description_overview": {
+    "message": "檢視 Phi Sentinel 與背景服務的應用程式記錄"
+  },
+  "logs_description_select_which_logs_to_download": {
+    "message": "選擇要下載的記錄"
+  },
+  "logs_label_download_options": {
+    "message": "下載選項"
+  },
+  "logs_label_empty": {
+    "message": "（空白）"
+  },
+  "logs_label_full_logs": {
+    "message": "完整記錄"
+  },
+  "logs_label_last_lines": {
+    "message": "最後 1000 行"
+  },
+  "logs_label_line_count": {
+    "message": "行數：{{count}}"
+  },
+  "logs_label_loading_history": {
+    "message": "正在載入歷史記錄…"
+  },
+  "logs_label_log_sources": {
+    "message": "記錄來源"
+  },
+  "logs_label_may_be_large": {
+    "message": "（可能較大）"
+  },
+  "logs_label_no_logs_available": {
+    "message": "沒有可用的記錄"
+  },
+  "logs_label_recommended": {
+    "message": "（建議）"
+  },
+  "logs_label_standard_error": {
+    "message": "stderr"
+  },
+  "logs_label_standard_output": {
+    "message": "stdout"
+  },
+  "logs_title_download_logs": {
+    "message": "下載記錄檔 (Taiwan/Microsoft term for log file; 下載日誌 also acceptable)"
+  },
+  "logs_title_system_logs": {
+    "message": "系統記錄"
+  },
+  "logs_tooltip_copy_logs_to_clipboard": {
+    "message": "將記錄複製到剪貼簿"
+  },
+  "main_menu_application_quit": {
+    "message": "結束 Phi Sentinel"
+  },
+  "main_menu_edit_copy": {
+    "message": "拷貝"
+  },
+  "main_menu_edit_cut": {
+    "message": "剪下"
+  },
+  "main_menu_edit_paste": {
+    "message": "貼上"
+  },
+  "main_menu_edit_redo": {
+    "message": "重做"
+  },
+  "main_menu_edit_select_all": {
+    "message": "全選"
+  },
+  "main_menu_edit_title": {
+    "message": "編輯"
+  },
+  "main_menu_edit_undo": {
+    "message": "復原"
+  },
+  "main_menu_window_close": {
+    "message": "關閉"
+  },
+  "main_menu_window_enter_full_screen": {
+    "message": "進入全螢幕"
+  },
+  "main_menu_window_minimize": {
+    "message": "縮到最小"
+  },
+  "main_menu_window_title": {
+    "message": "視窗"
+  },
+  "menu_bar_about_title": {
+    "message": "關於 Phi Sentinel"
+  },
+  "menu_bar_dashboard_title": {
+    "message": "儀表板"
+  },
+  "menu_bar_quit_title": {
+    "message": "結束"
+  },
+  "menu_bar_runner_accessibility_failed": {
+    "message": "失敗"
+  },
+  "menu_bar_runner_accessibility_offline": {
+    "message": "離線"
+  },
+  "menu_bar_runner_accessibility_online": {
+    "message": "線上"
+  },
+  "menu_bar_runner_accessibility_starting": {
+    "message": "正在啟動"
+  },
+  "menu_bar_runner_accessibility_waiting_for_login": {
+    "message": "等待登入"
+  },
+  "menu_bar_runner_failed": {
+    "message": "背景服務：失敗（已達重新啟動次數上限）"
+  },
+  "menu_bar_runner_offline": {
+    "message": "背景服務：離線"
+  },
+  "menu_bar_runner_online": {
+    "message": "背景服務：線上"
+  },
+  "menu_bar_runner_starting": {
+    "message": "背景服務：正在啟動…"
+  },
+  "menu_bar_runner_uninstalling": {
+    "message": "正在解除安裝…"
+  },
+  "menu_bar_runner_waiting_for_login": {
+    "message": "請登入 Phi Browser"
+  },
+  "menu_bar_uninstall_title": {
+    "message": "解除安裝 Phi…"
+  },
+  "nav_history": {
+    "message": "歷史記錄"
+  },
+  "nav_jobs": {
+    "message": "工作"
+  },
+  "nav_knowledge": {
+    "message": "知識庫"
+  },
+  "nav_overview": {
+    "message": "總覽"
+  },
+  "nav_permissions": {
+    "message": "權限"
+  },
+  "nav_services": {
+    "message": "服務"
+  },
+  "nav_settings": {
+    "message": "設定"
+  },
+  "nav_updates": {
+    "message": "更新"
+  },
+  "notifications_ai_gateway_codex_account_confirmed": {
+    "message": "Codex 帳號已確認。"
+  },
+  "notifications_ai_gateway_codex_action_failed": {
+    "message": "Codex 操作失敗"
+  },
+  "notifications_ai_gateway_codex_connected": {
+    "message": "Codex 已連線。"
+  },
+  "notifications_ai_gateway_codex_connection_verified": {
+    "message": "Codex 連線已通過驗證。"
+  },
+  "notifications_ai_gateway_codex_disconnected": {
+    "message": "Codex 已中斷連線。"
+  },
+  "notifications_ai_gateway_config_clear_failed": {
+    "message": "無法清除 AI 閘道設定"
+  },
+  "notifications_ai_gateway_config_cleared": {
+    "message": "AI 閘道設定已清除。"
+  },
+  "notifications_ai_gateway_config_save_failed": {
+    "message": "無法儲存 AI 閘道設定"
+  },
+  "notifications_ai_gateway_config_saved": {
+    "message": "AI 閘道設定已儲存。"
+  },
+  "notifications_ai_gateway_model_test_failed": {
+    "message": "模型測試失敗"
+  },
+  "notifications_ai_gateway_provider_test_failed": {
+    "message": "供應商測試失敗"
+  },
+  "notifications_ai_gateway_update_failed": {
+    "message": "無法更新 AI 閘道"
+  },
+  "notifications_app_debug_mode_off": {
+    "message": "偵錯模式已關閉"
+  },
+  "notifications_app_debug_mode_on": {
+    "message": "偵錯模式已開啟"
+  },
+  "notifications_backup_clonefile_unavailable": {
+    "message": "無法使用 clonefile"
+  },
+  "notifications_backup_export_start_failed": {
+    "message": "無法開始匯出"
+  },
+  "notifications_backup_restore_failed": {
+    "message": "還原失敗"
+  },
+  "notifications_backup_restore_reverted": {
+    "message": "還原已回復至先前狀態"
+  },
+  "notifications_backup_snapshot_created": {
+    "message": "快照已建立"
+  },
+  "notifications_backup_snapshot_failed": {
+    "message": "快照建立失敗"
+  },
+  "notifications_backup_snapshot_restored": {
+    "message": "快照已還原"
+  },
+  "notifications_backup_snapshot_skipped": {
+    "message": "已略過快照"
+  },
+  "notifications_jobs_create_failed": {
+    "message": "無法建立工作"
+  },
+  "notifications_jobs_created": {
+    "message": "工作已建立"
+  },
+  "notifications_jobs_job_id": {
+    "message": "工作 ID：{{id}}"
+  },
+  "notifications_jobs_remove_failed": {
+    "message": "無法移除工作"
+  },
+  "notifications_jobs_removed": {
+    "message": "工作已移除"
+  },
+  "notifications_jobs_run_enqueued": {
+    "message": "工作執行已排入佇列"
+  },
+  "notifications_jobs_run_failed": {
+    "message": "無法執行工作"
+  },
+  "notifications_jobs_run_not_enqueued": {
+    "message": "工作執行未排入佇列"
+  },
+  "notifications_jobs_update_failed": {
+    "message": "無法更新工作"
+  },
+  "notifications_jobs_updated": {
+    "message": "工作已更新"
+  },
+  "notifications_local_llm_data_reset": {
+    "message": "本機 LLM 資料已重設。"
+  },
+  "notifications_local_llm_data_reset_failed": {
+    "message": "無法重設本機 LLM 資料"
+  },
+  "notifications_local_llm_download_cancel_failed": {
+    "message": "無法取消下載"
+  },
+  "notifications_local_llm_download_cancelled": {
+    "message": "已取消下載。"
+  },
+  "notifications_local_llm_model_delete_failed": {
+    "message": "無法刪除模型"
+  },
+  "notifications_local_llm_model_install_failed": {
+    "message": "無法安裝模型"
+  },
+  "notifications_local_llm_model_set_failed": {
+    "message": "無法設定模型"
+  },
+  "notifications_local_llm_role_update_failed": {
+    "message": "無法更新角色"
+  },
+  "notifications_local_llm_runtime_install_failed": {
+    "message": "無法安裝執行環境"
+  },
+  "notifications_local_llm_update_failed": {
+    "message": "無法更新本機 LLM"
+  },
+  "notifications_permissions_accessibility_request_failed": {
+    "message": "無法要求輔助使用權限"
+  },
+  "notifications_permissions_directory_access_cancelled": {
+    "message": "已取消資料夾存取"
+  },
+  "notifications_permissions_directory_access_granted": {
+    "message": "已授予資料夾存取權"
+  },
+  "notifications_permissions_directory_access_request_failed": {
+    "message": "無法要求資料夾存取權"
+  },
+  "notifications_permissions_directory_access_revoke_failed": {
+    "message": "無法撤銷資料夾存取權"
+  },
+  "notifications_permissions_directory_access_revoked": {
+    "message": "已撤銷資料夾存取權"
+  },
+  "notifications_permissions_full_disk_access_request_failed": {
+    "message": "無法要求完整磁碟取用權限"
+  },
+  "notifications_permissions_opening_full_disk_access_settings": {
+    "message": "正在開啟系統設定的完整磁碟取用權限"
+  },
+  "notifications_permissions_opening_screen_recording_settings": {
+    "message": "正在開啟系統設定的螢幕錄製權限"
+  },
+  "notifications_permissions_requesting_accessibility": {
+    "message": "正在要求輔助使用權限"
+  },
+  "notifications_permissions_screen_recording_request_failed": {
+    "message": "無法要求螢幕錄製權限"
+  },
+  "notifications_private_ai_disable_failed": {
+    "message": "無法關閉私有 AI，請再試一次。"
+  },
+  "notifications_private_ai_gateway_endpoint_copied": {
+    "message": "已複製 AI 閘道端點。"
+  },
+  "notifications_private_ai_gateway_export_copied": {
+    "message": "已複製 AI 閘道匯出內容。"
+  },
+  "notifications_private_ai_model_test_reverted": {
+    "message": "{{purpose}} 模型測試失敗，已還原為先前的來源。"
+  },
+  "notifications_private_ai_restart_failed": {
+    "message": "無法重新啟動本機 AI，請再試一次。"
+  },
+  "notifications_private_ai_settings_reset": {
+    "message": "已重設 AI 設定。"
+  },
+  "notifications_services_no_orphan_processes": {
+    "message": "未發現孤兒處理程序"
+  },
+  "notifications_services_orphan_cleanup_failed": {
+    "message": "無法清理孤兒處理程序"
+  },
+  "notifications_services_orphan_processes_cleaned": {
+    "message": "已清理 {{killed}} 個孤兒處理程序（共發現 {{found}} 個）"
+  },
+  "notifications_services_remove_failed": {
+    "message": "無法移除服務"
+  },
+  "notifications_services_removed": {
+    "message": "已移除 {{component}}"
+  },
+  "notifications_services_removed_description": {
+    "message": "服務已從系統中移除"
+  },
+  "notifications_services_restart_failed": {
+    "message": "無法重新啟動服務"
+  },
+  "notifications_services_restarted": {
+    "message": "已重新啟動 {{component}}"
+  },
+  "notifications_services_start_failed": {
+    "message": "無法啟動服務"
+  },
+  "notifications_services_started": {
+    "message": "已啟動 {{component}}"
+  },
+  "notifications_services_started_components": {
+    "message": "已啟動的元件：{{components}}"
+  },
+  "notifications_services_stop_failed": {
+    "message": "無法停止服務"
+  },
+  "notifications_services_stopped": {
+    "message": "已停止 {{component}}"
+  },
+  "notifications_services_stopped_components": {
+    "message": "已停止的元件：{{components}}"
+  },
+  "notifications_settings_track_change_failed": {
+    "message": "無法變更更新頻道"
+  },
+  "notifications_settings_track_changed": {
+    "message": "已變更更新頻道"
+  },
+  "notifications_settings_track_changed_deferred": {
+    "message": "已儲存更新頻道，背景服務可用後將自動調整元件"
+  },
+  "notifications_settings_track_changed_reconcile_failed": {
+    "message": "已變更更新頻道，但元件調整失敗"
+  },
+  "notifications_settings_track_changed_reconciled": {
+    "message": "已變更更新頻道，並已調整 {{count}} 個元件"
+  },
+  "notifications_settings_track_changed_with_failures": {
+    "message": "已變更更新頻道，但有 {{count}} 個元件更新失敗"
+  },
+  "notifications_tasks_approval_no_longer_pending": {
+    "message": "此核准請求已處理"
+  },
+  "notifications_tasks_approval_submit_failed": {
+    "message": "無法送出核准決定"
+  },
+  "notifications_tasks_no_active_run": {
+    "message": "目前沒有可取消的執行"
+  },
+  "notifications_tasks_run_approved": {
+    "message": "已核准執行"
+  },
+  "notifications_tasks_run_cancel_failed": {
+    "message": "無法取消執行"
+  },
+  "notifications_tasks_run_cancelled": {
+    "message": "已取消執行"
+  },
+  "notifications_tasks_run_failed": {
+    "message": "無法執行任務"
+  },
+  "notifications_tasks_run_rejected": {
+    "message": "已拒絕執行"
+  },
+  "notifications_tasks_run_started": {
+    "message": "已開始執行"
+  },
+  "notifications_tasks_schedule_create_partial_failure": {
+    "message": "已建立任務，但排程建立失敗"
+  },
+  "notifications_tasks_schedule_delete_failed": {
+    "message": "無法刪除排程"
+  },
+  "notifications_tasks_schedule_deleted": {
+    "message": "已刪除排程"
+  },
+  "notifications_tasks_schedule_pause_failed": {
+    "message": "無法暫停排程"
+  },
+  "notifications_tasks_schedule_paused": {
+    "message": "已暫停排程"
+  },
+  "notifications_tasks_schedule_resume_failed": {
+    "message": "無法恢復排程"
+  },
+  "notifications_tasks_schedule_resumed": {
+    "message": "已恢復排程"
+  },
+  "notifications_tasks_schedule_run_failed": {
+    "message": "無法立即執行排程"
+  },
+  "notifications_tasks_schedule_run_started": {
+    "message": "已開始執行排程"
+  },
+  "notifications_tasks_scheduled_task_create_failed": {
+    "message": "無法建立排程任務"
+  },
+  "notifications_tasks_scheduled_task_created": {
+    "message": "已建立排程任務"
+  },
+  "notifications_tasks_scheduled_task_update_failed": {
+    "message": "無法更新排程任務"
+  },
+  "notifications_tasks_scheduled_task_updated": {
+    "message": "已更新排程任務"
+  },
+  "notifications_tasks_settings_update_failed": {
+    "message": "無法更新任務設定"
+  },
+  "notifications_tasks_settings_updated": {
+    "message": "已更新任務設定"
+  },
+  "notifications_tasks_task_create_failed": {
+    "message": "無法建立任務"
+  },
+  "notifications_tasks_task_created": {
+    "message": "已建立任務"
+  },
+  "notifications_tasks_task_delete_failed": {
+    "message": "無法刪除任務"
+  },
+  "notifications_tasks_task_deleted": {
+    "message": "已刪除任務"
+  },
+  "notifications_tasks_task_update_failed": {
+    "message": "無法更新任務"
+  },
+  "notifications_tasks_task_update_partial_failure": {
+    "message": "已更新排程，但任務更新失敗"
+  },
+  "notifications_tasks_task_updated": {
+    "message": "已更新任務"
+  },
+  "notifications_unknown_error": {
+    "message": "未知錯誤"
+  },
+  "notifications_updates_apply_failed": {
+    "message": "無法套用更新"
+  },
+  "notifications_updates_failed_components": {
+    "message": "{{count}} 個元件更新失敗"
+  },
+  "notifications_updates_none_available": {
+    "message": "沒有可用的更新"
+  },
+  "notifications_updates_updated_components": {
+    "message": "已更新 {{count}} 個元件"
+  },
+  "overview_avg_duration": {
+    "message": "平均耗時"
+  },
+  "overview_description": {
+    "message": "系統健康狀態與近期活動"
+  },
+  "overview_directories": {
+    "message": "目錄"
+  },
+  "overview_event_history_coming_soon": {
+    "message": "事件歷史記錄將在未來更新中推出"
+  },
+  "overview_failed": {
+    "message": "失敗"
+  },
+  "overview_job_activity": {
+    "message": "工作活動"
+  },
+  "overview_missing": {
+    "message": "缺少"
+  },
+  "overview_ok": {
+    "message": "正常"
+  },
+  "overview_permission_alerts": {
+    "message": "權限警示"
+  },
+  "overview_recent_events": {
+    "message": "近期事件"
+  },
+  "overview_running": {
+    "message": "執行中"
+  },
+  "overview_runs_last24h": {
+    "message": "24 小時執行次數"
+  },
+  "overview_service_health": {
+    "message": "服務健康狀態"
+  },
+  "overview_stopped": {
+    "message": "已停止"
+  },
+  "overview_title": {
+    "message": "總覽"
+  },
+  "overview_unhealthy": {
+    "message": "異常"
+  },
+  "permissions_accessibility": {
+    "message": "輔助使用"
+  },
+  "permissions_accessibility_description": {
+    "message": "UI 自動化與輸入控制需要此權限"
+  },
+  "permissions_add_directory": {
+    "message": "新增目錄"
+  },
+  "permissions_camera": {
+    "message": "相機"
+  },
+  "permissions_camera_description": {
+    "message": "相機相關功能需要此權限"
+  },
+  "permissions_denied": {
+    "message": "已拒絕"
+  },
+  "permissions_description": {
+    "message": "管理 Sentinel 服務所需的系統權限"
+  },
+  "permissions_description_permissions_overview": {
+    "message": "管理 Phi Sentinel 服務所需的系統權限"
+  },
+  "permissions_directory_access": {
+    "message": "目錄存取"
+  },
+  "permissions_directory_access_description": {
+    "message": "授權存取目錄，以進行 RAG 索引與檔案操作"
+  },
+  "permissions_full_disk_access": {
+    "message": "完整磁碟取用權限"
+  },
+  "permissions_full_disk_access_description": {
+    "message": "存取受保護的檔案與目錄需要此權限"
+  },
+  "permissions_granted": {
+    "message": "已授權"
+  },
+  "permissions_label_not_determined": {
+    "message": "未確定"
+  },
+  "permissions_microphone": {
+    "message": "麥克風"
+  },
+  "permissions_microphone_description": {
+    "message": "語音輸入功能需要此權限"
+  },
+  "permissions_no_directories_description": {
+    "message": "按一下「新增目錄」，授權存取資料夾以供 RAG 索引使用"
+  },
+  "permissions_no_directories_granted": {
+    "message": "尚未授權任何目錄"
+  },
+  "permissions_not_set": {
+    "message": "尚未設定"
+  },
+  "permissions_open_settings": {
+    "message": "開啟設定"
+  },
+  "permissions_refresh": {
+    "message": "重新整理"
+  },
+  "permissions_request_permission": {
+    "message": "要求權限"
+  },
+  "permissions_restricted": {
+    "message": "受限制"
+  },
+  "permissions_screen_recording": {
+    "message": "螢幕錄製"
+  },
+  "permissions_screen_recording_description": {
+    "message": "螢幕截取與視覺 AI 功能需要此權限"
+  },
+  "permissions_system_permissions": {
+    "message": "系統權限"
+  },
+  "permissions_title": {
+    "message": "權限"
+  },
+  "private_ai_advanced_console_action_back": {
+    "message": "← 返回"
+  },
+  "private_ai_advanced_console_description_advanced_settings": {
+    "message": "進階設定"
+  },
+  "private_ai_advanced_console_label_diagnostics": {
+    "message": "診斷"
+  },
+  "private_ai_advanced_console_label_providers": {
+    "message": "供應商"
+  },
+  "private_ai_advanced_console_label_task_routing": {
+    "message": "任務路由"
+  },
+  "private_ai_advanced_console_title_private_ai": {
+    "message": "私有 AI"
+  },
+  "private_ai_diagnostics_accessible_label_refresh_aigateway_export": {
+    "message": "重新整理 AI 閘道匯出內容"
+  },
+  "private_ai_diagnostics_accessible_label_refresh_aigateway_logs": {
+    "message": "重新整理 AI 閘道記錄"
+  },
+  "private_ai_diagnostics_action_copy_export": {
+    "message": "複製匯出內容"
+  },
+  "private_ai_diagnostics_action_download_logs": {
+    "message": "下載記錄檔"
+  },
+  "private_ai_diagnostics_action_gateway_url": {
+    "message": "閘道網址"
+  },
+  "private_ai_diagnostics_description_connection_export": {
+    "message": "透過 services.getComponentExports 對呼叫端公開的連線合約。"
+  },
+  "private_ai_diagnostics_description_gateway_log_download": {
+    "message": "完整的本機閘道與 Bifrost 記錄檔，可用於疑難排解。"
+  },
+  "private_ai_diagnostics_description_loading_export": {
+    "message": "正在載入匯出內容…"
+  },
+  "private_ai_diagnostics_description_loading_logs": {
+    "message": "正在載入記錄…"
+  },
+  "private_ai_diagnostics_description_logs_and_export": {
+    "message": "檢視本機閘道記錄與對呼叫端公開的連線合約。"
+  },
+  "private_ai_diagnostics_description_no_aigateway_export_yet": {
+    "message": "尚無 AI 閘道匯出內容。"
+  },
+  "private_ai_diagnostics_description_no_aigateway_logs_yet": {
+    "message": "尚無 AI 閘道記錄。"
+  },
+  "private_ai_diagnostics_description_reset_warning": {
+    "message": "清除 AI 供應商設定，並從這台 Mac 移除 Sentinel 本機 AI 資料。"
+  },
+  "private_ai_diagnostics_description_this_will": {
+    "message": "這將會："
+  },
+  "private_ai_diagnostics_label_clear_aiprovider_configuration": {
+    "message": "清除 AI 供應商設定"
+  },
+  "private_ai_diagnostics_label_cloud_source_reset": {
+    "message": "將 AI 來源還原為 Phi Cloud"
+  },
+  "private_ai_diagnostics_label_http_auto_v1": {
+    "message": "http://127.0.0.1:<auto>/v1"
+  },
+  "private_ai_diagnostics_label_line_count": {
+    "message": "{{count}} 行{{truncated}}"
+  },
+  "private_ai_diagnostics_label_reset_local_data_scope": {
+    "message": "刪除 Sentinel 本機 AI 的執行階段檔案、模型、記錄檔與下載內容"
+  },
+  "private_ai_diagnostics_label_synthetic_export_ai_gateway": {
+    "message": "合成匯出：ai-gateway"
+  },
+  "private_ai_diagnostics_label_tail": {
+    "message": "末尾行數"
+  },
+  "private_ai_diagnostics_label_truncated": {
+    "message": "（已截斷）"
+  },
+  "private_ai_diagnostics_status_debug": {
+    "message": "偵錯"
+  },
+  "private_ai_diagnostics_title_aigateway_export": {
+    "message": "AI 閘道匯出內容"
+  },
+  "private_ai_diagnostics_title_aigateway_logs": {
+    "message": "AI 閘道記錄"
+  },
+  "private_ai_diagnostics_title_gateway_status": {
+    "message": "閘道狀態"
+  },
+  "private_ai_diagnostics_title_logs_and_export": {
+    "message": "記錄與匯出"
+  },
+  "private_ai_diagnostics_title_reset": {
+    "message": "重設"
+  },
+  "private_ai_diagnostics_title_reset_aisettings": {
+    "message": "要重設 AI 設定嗎？"
+  },
+  "private_ai_private_ai_accessible_label_dismiss_codex_tip": {
+    "message": "關閉 Codex 提示"
+  },
+  "private_ai_private_ai_accessible_label_open_codex_provider_settings": {
+    "message": "開啟 Codex 供應商設定"
+  },
+  "private_ai_private_ai_action_advanced_settings": {
+    "message": "進階設定 →"
+  },
+  "private_ai_private_ai_action_re_run_setup": {
+    "message": "重新執行設定"
+  },
+  "private_ai_private_ai_action_restart_local_service": {
+    "message": "重新啟動本機服務"
+  },
+  "private_ai_private_ai_action_show_details": {
+    "message": "顯示詳細資訊"
+  },
+  "private_ai_private_ai_description_cloud_only_state": {
+    "message": "所有 AI 功能目前都在 Phi Cloud 上執行。開啟開關即可開始設定。"
+  },
+  "private_ai_private_ai_description_hardware_recommendation": {
+    "message": "在配備至少 16 GB 記憶體的 Apple Silicon Mac 上執行效果最佳。設定過程會自動檢查你的裝置。"
+  },
+  "private_ai_private_ai_description_overview": {
+    "message": "在自己的 Mac 上或透過自選的供應商執行 AI，資料完全留在你手中。"
+  },
+  "private_ai_private_ai_description_setup_cloud_fallback": {
+    "message": "設定完成前，AI 功能會繼續使用 Phi Cloud。"
+  },
+  "private_ai_private_ai_description_startup_cloud_fallback": {
+    "message": "正在準備你的本機 AI。啟動完成前，AI 功能會使用 Phi Cloud。"
+  },
+  "private_ai_private_ai_label_approx_minutes": {
+    "message": "約 {{count}} 分鐘"
+  },
+  "private_ai_private_ai_label_approx_seconds": {
+    "message": "約 {{count}} 秒"
+  },
+  "private_ai_private_ai_label_codex_is_available": {
+    "message": "Codex 可供使用"
+  },
+  "private_ai_private_ai_label_codex_provider_option": {
+    "message": "使用你現有的 Codex 登入作為 AI 供應商。"
+  },
+  "private_ai_private_ai_label_local_runtime": {
+    "message": "本機執行環境"
+  },
+  "private_ai_private_ai_label_local_source_fallback_notice": {
+    "message": "有一個本機 AI 來源沒有回應。受影響的任務已暫時改回使用 Phi Cloud。"
+  },
+  "private_ai_private_ai_label_toggle_private_ai": {
+    "message": "切換私有 AI"
+  },
+  "private_ai_private_ai_status_private_aiis_on": {
+    "message": "私有 AI 已開啟"
+  },
+  "private_ai_private_ai_status_setting_up": {
+    "message": "設定中…"
+  },
+  "private_ai_private_ai_status_starting_private_ai": {
+    "message": "正在啟動私有 AI…"
+  },
+  "private_ai_private_ai_tooltip_dismiss": {
+    "message": "關閉"
+  },
+  "private_ai_providers_action_add_custom_provider": {
+    "message": "新增自訂供應商"
+  },
+  "private_ai_providers_description_custom_endpoint": {
+    "message": "自訂的 OpenAI 相容端點。"
+  },
+  "private_ai_providers_description_legacy_endpoint": {
+    "message": "舊版相容端點。"
+  },
+  "private_ai_setup_wizard_action_done": {
+    "message": "完成"
+  },
+  "private_ai_setup_wizard_action_minimize": {
+    "message": "縮到最小"
+  },
+  "private_ai_setup_wizard_action_start_setup": {
+    "message": "開始設定"
+  },
+  "private_ai_setup_wizard_action_use_your_own_aiservice": {
+    "message": "使用你自己的 AI 服務 →"
+  },
+  "private_ai_setup_wizard_description_cloud_only_features": {
+    "message": "網頁任務與圖片生成仍在 Phi Cloud 上執行。"
+  },
+  "private_ai_setup_wizard_description_done_summary": {
+    "message": "對話、記憶、記憶索引與資料搜尋都在這台 Mac 上私密執行。網頁任務與圖片則使用 Phi Cloud。"
+  },
+  "private_ai_setup_wizard_description_download_and_memory_size": {
+    "message": "下載 {{downloadSize}} · 執行時約佔用 {{memorySize}} 記憶體。"
+  },
+  "private_ai_setup_wizard_description_private_aiis_on": {
+    "message": "✓ 私有 AI 已開啟"
+  },
+  "private_ai_setup_wizard_description_setup_failed_during_stage": {
+    "message": "設定在「{{stage}}」階段失敗。"
+  },
+  "private_ai_setup_wizard_field_label_free_disk": {
+    "message": "可用磁碟空間"
+  },
+  "private_ai_setup_wizard_label_approx_minutes": {
+    "message": "約 {{count}} 分鐘"
+  },
+  "private_ai_setup_wizard_label_approx_seconds": {
+    "message": "約 {{count}} 秒"
+  },
+  "private_ai_setup_wizard_label_checking_your_device": {
+    "message": "正在檢查你的裝置…"
+  },
+  "private_ai_setup_wizard_label_text": {
+    "message": "✓"
+  },
+  "private_ai_setup_wizard_label_text2": {
+    "message": "○"
+  },
+  "private_ai_setup_wizard_stage_models": {
+    "message": "正在下載模型…"
+  },
+  "private_ai_setup_wizard_stage_name_models": {
+    "message": "下載模型"
+  },
+  "private_ai_setup_wizard_stage_name_runtime": {
+    "message": "安裝本機執行環境"
+  },
+  "private_ai_setup_wizard_stage_name_starting": {
+    "message": "啟動本機模型"
+  },
+  "private_ai_setup_wizard_stage_name_verifying": {
+    "message": "驗證"
+  },
+  "private_ai_setup_wizard_stage_runtime": {
+    "message": "正在安裝本機執行環境…"
+  },
+  "private_ai_setup_wizard_stage_starting": {
+    "message": "正在啟動本機模型…"
+  },
+  "private_ai_setup_wizard_stage_verifying": {
+    "message": "正在驗證…"
+  },
+  "private_ai_setup_wizard_step_models": {
+    "message": "下載模型"
+  },
+  "private_ai_setup_wizard_step_runtime": {
+    "message": "安裝執行環境"
+  },
+  "private_ai_setup_wizard_step_starting": {
+    "message": "啟動本機模型"
+  },
+  "private_ai_setup_wizard_step_verifying": {
+    "message": "驗證"
+  },
+  "private_ai_setup_wizard_title_private_aiunavailable": {
+    "message": "這台 Mac 無法使用私有 AI"
+  },
+  "private_ai_setup_wizard_title_run_private_ailocally": {
+    "message": "直接在這台 Mac 上執行私有 AI"
+  },
+  "private_ai_setup_wizard_title_set_up_private_ai": {
+    "message": "設定私有 AI"
+  },
+  "private_ai_task_coverage_description_chat": {
+    "message": "對話面板中的回覆"
+  },
+  "private_ai_task_coverage_description_data_search": {
+    "message": "搜尋已連結的資料"
+  },
+  "private_ai_task_coverage_description_memory": {
+    "message": "瀏覽記憶與摘要"
+  },
+  "private_ai_task_coverage_description_web_tasks": {
+    "message": "AI 代理自動化"
+  },
+  "private_ai_task_coverage_label_chat": {
+    "message": "對話"
+  },
+  "private_ai_task_coverage_label_data_search": {
+    "message": "資料搜尋"
+  },
+  "private_ai_task_coverage_label_memory": {
+    "message": "記憶"
+  },
+  "private_ai_task_coverage_label_model_on_this_mac": {
+    "message": "{{model}} · 在這台 Mac 上"
+  },
+  "private_ai_task_coverage_label_web_tasks": {
+    "message": "網頁任務"
+  },
+  "private_ai_task_coverage_label_your_provider": {
+    "message": "{{provider}} · 你的供應商"
+  },
+  "private_ai_task_coverage_status_source_unavailable": {
+    "message": "{{source}} · 無法使用"
+  },
+  "private_ai_task_routing_accessible_label_select_task_source": {
+    "message": "選擇「{{task}}」的來源"
+  },
+  "private_ai_task_routing_accessible_label_source_checked": {
+    "message": "已選取來源"
+  },
+  "private_ai_task_routing_accessible_label_source_failed": {
+    "message": "來源失敗：{{error}}"
+  },
+  "private_ai_task_routing_description_automatically_managed_by_mac_os": {
+    "message": "由 macOS 自動管理。"
+  },
+  "private_ai_task_routing_description_source_assignments": {
+    "message": "選擇每項瀏覽器功能要使用哪個 AI 來源。"
+  },
+  "private_ai_task_routing_label_aitab_organization": {
+    "message": "AI 分頁整理"
+  },
+  "private_ai_task_routing_label_cloud_fallback_option": {
+    "message": "自動改用 Phi Cloud（預設）"
+  },
+  "private_ai_task_routing_label_local": {
+    "message": "本機"
+  },
+  "private_ai_task_routing_label_no_capability_models": {
+    "message": "此功能沒有已啟用的模型"
+  },
+  "private_ai_task_routing_label_pause_features_option": {
+    "message": "暫停受影響的 AI 功能（絕不將資料傳送到雲端）"
+  },
+  "private_ai_task_routing_label_unavailable_source_policy": {
+    "message": "當本機或自行架設的來源無法使用時"
+  },
+  "private_ai_task_routing_placeholder_phi_cloud": {
+    "message": "Phi Cloud"
+  },
+  "private_ai_task_routing_placeholder_search_task_models": {
+    "message": "搜尋「{{task}}」模型…"
+  },
+  "private_ai_task_routing_status_apple_intelligence_available": {
+    "message": "Apple Intelligence · 可用"
+  },
+  "private_ai_task_routing_status_apple_intelligence_unavailable": {
+    "message": "Apple Intelligence · 無法使用"
+  },
+  "private_ai_task_routing_title_aitask_routing": {
+    "message": "AI 任務路由"
+  },
+  "quit_blocked_alert_message": {
+    "message": "Phi Browser 執行時無法結束 Phi Sentinel。請先結束 Phi Browser。"
+  },
+  "quit_blocked_alert_title": {
+    "message": "無法結束 Phi Sentinel"
+  },
+  "scheduled_task_detail_accessible_label_cancel_current_run": {
+    "message": "取消目前的執行"
+  },
+  "scheduled_task_detail_action_cancel_run": {
+    "message": "取消執行"
+  },
+  "scheduled_task_detail_action_copy": {
+    "message": "複製"
+  },
+  "scheduled_task_detail_description_no_result_text_available": {
+    "message": "沒有可顯示的結果文字。"
+  },
+  "scheduled_task_detail_description_no_run_logs": {
+    "message": "這次執行未傳回任何日誌。"
+  },
+  "scheduled_task_detail_description_no_runs_yet": {
+    "message": "還沒有任何執行紀錄。"
+  },
+  "scheduled_task_detail_field_label_approval": {
+    "message": "核准"
+  },
+  "scheduled_task_detail_field_label_cadence": {
+    "message": "頻率"
+  },
+  "scheduled_task_detail_field_label_last_run": {
+    "message": "上次執行"
+  },
+  "scheduled_task_detail_field_label_last_trigger": {
+    "message": "上次觸發"
+  },
+  "scheduled_task_detail_field_label_next_run": {
+    "message": "下次執行"
+  },
+  "scheduled_task_detail_field_label_objective": {
+    "message": "目標"
+  },
+  "scheduled_task_detail_field_label_run_id": {
+    "message": "執行 ID"
+  },
+  "scheduled_task_detail_field_label_schedule_id": {
+    "message": "排程 ID"
+  },
+  "scheduled_task_detail_field_label_task_id": {
+    "message": "任務 ID"
+  },
+  "scheduled_task_detail_field_label_task_status": {
+    "message": "任務狀態"
+  },
+  "scheduled_task_detail_field_label_title": {
+    "message": "標題"
+  },
+  "scheduled_task_detail_label_generic_artifact": {
+    "message": "產物"
+  },
+  "scheduled_task_detail_label_hide_details": {
+    "message": "隱藏詳細資訊"
+  },
+  "scheduled_task_detail_label_load_failure": {
+    "message": "無法載入排程任務的詳細資訊。"
+  },
+  "scheduled_task_detail_label_loading_run_detail": {
+    "message": "正在載入執行詳細資訊…"
+  },
+  "scheduled_task_detail_label_logs": {
+    "message": "日誌"
+  },
+  "scheduled_task_detail_label_run_detail_unavailable": {
+    "message": "無法取得執行詳細資訊。"
+  },
+  "scheduled_task_detail_label_task_unavailable": {
+    "message": "無法取得任務"
+  },
+  "scheduled_task_detail_label_unnamed_artifact": {
+    "message": "未命名產物"
+  },
+  "scheduled_task_detail_label_video_preview": {
+    "message": "影片預覽"
+  },
+  "scheduled_task_detail_label_view_details": {
+    "message": "檢視詳細資訊"
+  },
+  "scheduled_task_detail_title_recent_runs": {
+    "message": "最近的執行紀錄"
+  },
+  "scheduled_task_detail_title_run_detail": {
+    "message": "執行詳細資訊"
+  },
+  "scheduled_task_detail_title_task": {
+    "message": "任務"
+  },
+  "scheduled_tasks_accessible_label_close_scheduled_task_form": {
+    "message": "關閉排程任務表單"
+  },
+  "scheduled_tasks_accessible_label_create_task": {
+    "message": "建立任務"
+  },
+  "scheduled_tasks_accessible_label_decrease_every_value": {
+    "message": "減少「每隔」的數值"
+  },
+  "scheduled_tasks_accessible_label_delete_named_schedule": {
+    "message": "刪除「{{schedule}}」"
+  },
+  "scheduled_tasks_accessible_label_delete_named_task": {
+    "message": "刪除「{{task}}」"
+  },
+  "scheduled_tasks_accessible_label_edit_named_schedule": {
+    "message": "編輯「{{schedule}}」"
+  },
+  "scheduled_tasks_accessible_label_edit_named_task": {
+    "message": "編輯「{{task}}」"
+  },
+  "scheduled_tasks_accessible_label_filter_runs_by_task": {
+    "message": "依任務篩選執行紀錄"
+  },
+  "scheduled_tasks_accessible_label_increase_every_value": {
+    "message": "增加「每隔」的數值"
+  },
+  "scheduled_tasks_accessible_label_manual": {
+    "message": "手動"
+  },
+  "scheduled_tasks_accessible_label_next_month": {
+    "message": "下個月"
+  },
+  "scheduled_tasks_accessible_label_no_artifacts": {
+    "message": "沒有產物"
+  },
+  "scheduled_tasks_accessible_label_optional_details": {
+    "message": "選填詳細資訊"
+  },
+  "scheduled_tasks_accessible_label_pause_named_schedule": {
+    "message": "暫停「{{schedule}}」"
+  },
+  "scheduled_tasks_accessible_label_previous_month": {
+    "message": "上個月"
+  },
+  "scheduled_tasks_accessible_label_resume_named_schedule": {
+    "message": "恢復「{{schedule}}」"
+  },
+  "scheduled_tasks_accessible_label_run_at_picker": {
+    "message": "執行時間選擇器"
+  },
+  "scheduled_tasks_accessible_label_run_named_schedule": {
+    "message": "立即執行「{{schedule}}」"
+  },
+  "scheduled_tasks_accessible_label_scheduled": {
+    "message": "排程"
+  },
+  "scheduled_tasks_accessible_label_select_date": {
+    "message": "選取 {{date}}"
+  },
+  "scheduled_tasks_action_apply": {
+    "message": "套用"
+  },
+  "scheduled_tasks_action_back_to_tasks": {
+    "message": "返回任務列表"
+  },
+  "scheduled_tasks_action_clear": {
+    "message": "清除"
+  },
+  "scheduled_tasks_action_delete": {
+    "message": "刪除"
+  },
+  "scheduled_tasks_action_delete_schedule": {
+    "message": "刪除排程"
+  },
+  "scheduled_tasks_action_delete_task": {
+    "message": "刪除任務"
+  },
+  "scheduled_tasks_action_now": {
+    "message": "現在"
+  },
+  "scheduled_tasks_action_save_settings": {
+    "message": "儲存設定"
+  },
+  "scheduled_tasks_action_save_task": {
+    "message": "儲存任務"
+  },
+  "scheduled_tasks_description_active_run_settings": {
+    "message": "控制 Sentinel 如何處理進行中的 Phi Agent 任務執行。"
+  },
+  "scheduled_tasks_description_allowed_timeout_range": {
+    "message": "允許範圍：{{minimum}} 到 {{maximum}}。"
+  },
+  "scheduled_tasks_description_delete_named": {
+    "message": "這會將 <target>{{name}}</target> 從 Sentinel 中刪除。"
+  },
+  "scheduled_tasks_description_empty_state_guidance": {
+    "message": "建立任務，開始從 Sentinel 追蹤 Phi Agent 的工作。"
+  },
+  "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
+    "message": "無法載入排程任務"
+  },
+  "scheduled_tasks_description_filtered_run_count": {
+    "message": "顯示的執行記錄：{{filtered}} / {{total}}"
+  },
+  "scheduled_tasks_description_load_failure": {
+    "message": "Sentinel 目前無法載入任務。請重新整理此頁面再試一次。"
+  },
+  "scheduled_tasks_description_minimum_character_count": {
+    "message": "至少 {{count}} 個字元。"
+  },
+  "scheduled_tasks_description_no_objective": {
+    "message": "沒有目標"
+  },
+  "scheduled_tasks_description_no_runs_for_this_task": {
+    "message": "此任務尚無執行記錄"
+  },
+  "scheduled_tasks_description_no_schedules_yet": {
+    "message": "尚無排程"
+  },
+  "scheduled_tasks_description_no_task_runs_yet": {
+    "message": "尚無任務執行記錄"
+  },
+  "scheduled_tasks_description_no_tasks_yet": {
+    "message": "尚無任務"
+  },
+  "scheduled_tasks_description_objective_minimum_length": {
+    "message": "目標至少需要 {{count}} 個字元"
+  },
+  "scheduled_tasks_description_objective_required": {
+    "message": "目標為必填"
+  },
+  "scheduled_tasks_description_objective_validation": {
+    "message": "目標為必填。描述與命名選項位於選填的詳細資料中。"
+  },
+  "scheduled_tasks_description_optional_title_limit": {
+    "message": "選填。最多 {{count}} 個字元。標題留空時會根據目標自動產生。"
+  },
+  "scheduled_tasks_description_overview": {
+    "message": "在 Sentinel 中檢視 Phi Agent 的任務、排程與執行記錄。"
+  },
+  "scheduled_tasks_description_phi_agent_is_not_running": {
+    "message": "Phi Agent 未執行"
+  },
+  "scheduled_tasks_description_schedule_type_guidance": {
+    "message": "先選擇最簡單的時間選項。只有日曆式排程才使用 cron。"
+  },
+  "scheduled_tasks_description_service_recovery": {
+    "message": "從「服務」頁面啟動 Phi Agent，然後重新整理此頁面以載入任務。"
+  },
+  "scheduled_tasks_description_task_timeout_behavior": {
+    "message": "當執行中的任務超過此時間時，將其標記為失敗。"
+  },
+  "scheduled_tasks_description_timezone_fallback": {
+    "message": "選填。留空時會使用執行 Phi Agent 之裝置的本機時區。"
+  },
+  "scheduled_tasks_description_unscheduled_task_behavior": {
+    "message": "此任務沒有排程。可手動啟動，或讓 Phi Agent 在需要時觸發。"
+  },
+  "scheduled_tasks_field_label_delete_schedule": {
+    "message": "刪除排程"
+  },
+  "scheduled_tasks_field_label_delete_task": {
+    "message": "刪除任務"
+  },
+  "scheduled_tasks_field_label_edit_schedule": {
+    "message": "編輯排程"
+  },
+  "scheduled_tasks_field_label_edit_task": {
+    "message": "編輯任務"
+  },
+  "scheduled_tasks_field_label_pause_schedule": {
+    "message": "暫停排程"
+  },
+  "scheduled_tasks_field_label_resume_schedule": {
+    "message": "恢復排程"
+  },
+  "scheduled_tasks_field_label_run_now": {
+    "message": "立即執行"
+  },
+  "scheduled_tasks_label_all_tasks": {
+    "message": "所有任務"
+  },
+  "scheduled_tasks_label_api_source": {
+    "message": "API"
+  },
+  "scheduled_tasks_label_artifact_count": {
+    "message": "{{count}} 個產出物"
+  },
+  "scheduled_tasks_label_ask_before_run": {
+    "message": "執行前詢問"
+  },
+  "scheduled_tasks_label_calendar_schedule": {
+    "message": "日曆排程"
+  },
+  "scheduled_tasks_label_cron": {
+    "message": "Cron"
+  },
+  "scheduled_tasks_label_cron_expression": {
+    "message": "Cron 運算式"
+  },
+  "scheduled_tasks_label_day": {
+    "message": "天"
+  },
+  "scheduled_tasks_label_days": {
+    "message": "天"
+  },
+  "scheduled_tasks_label_default_task_title": {
+    "message": "排程任務"
+  },
+  "scheduled_tasks_label_delete_cascade_warning": {
+    "message": "此任務、連結的排程與相關的執行記錄，將從「任務」、「排程」和「執行記錄」檢視中移除。"
+  },
+  "scheduled_tasks_label_every": {
+    "message": "每隔"
+  },
+  "scheduled_tasks_label_every_interval": {
+    "message": "每 {{count}} {{unit}}"
+  },
+  "scheduled_tasks_label_every_unit": {
+    "message": "間隔單位"
+  },
+  "scheduled_tasks_label_every_value": {
+    "message": "間隔數值"
+  },
+  "scheduled_tasks_label_hour": {
+    "message": "時"
+  },
+  "scheduled_tasks_label_hour_lowercase": {
+    "message": "小時"
+  },
+  "scheduled_tasks_label_hours": {
+    "message": "小時"
+  },
+  "scheduled_tasks_label_interval": {
+    "message": "間隔"
+  },
+  "scheduled_tasks_label_last_status": {
+    "message": "上次：{{status}}"
+  },
+  "scheduled_tasks_label_manual_source": {
+    "message": "手動"
+  },
+  "scheduled_tasks_label_minute": {
+    "message": "分"
+  },
+  "scheduled_tasks_label_minute_lowercase": {
+    "message": "分鐘"
+  },
+  "scheduled_tasks_label_minutes": {
+    "message": "分鐘"
+  },
+  "scheduled_tasks_label_no_current_run": {
+    "message": "目前沒有進行中的執行"
+  },
+  "scheduled_tasks_label_no_schedule_start_when_needed": {
+    "message": "沒有排程。需要時再啟動。"
+  },
+  "scheduled_tasks_label_once": {
+    "message": "單次"
+  },
+  "scheduled_tasks_label_once_at": {
+    "message": "於 {{date}} 執行一次"
+  },
+  "scheduled_tasks_label_one_time": {
+    "message": "單次"
+  },
+  "scheduled_tasks_label_one_time_schedule": {
+    "message": "單次排程"
+  },
+  "scheduled_tasks_label_optional": {
+    "message": "選填"
+  },
+  "scheduled_tasks_label_recording": {
+    "message": "錄影"
+  },
+  "scheduled_tasks_label_recording_with_extra": {
+    "message": "錄影 +{{count}}"
+  },
+  "scheduled_tasks_label_repeating_schedule": {
+    "message": "重複排程"
+  },
+  "scheduled_tasks_label_run_at": {
+    "message": "執行時間"
+  },
+  "scheduled_tasks_label_run_status": {
+    "message": "執行狀態"
+  },
+  "scheduled_tasks_label_running_timeout": {
+    "message": "執行逾時"
+  },
+  "scheduled_tasks_label_runs": {
+    "message": "執行記錄"
+  },
+  "scheduled_tasks_label_runs_automatically": {
+    "message": "自動執行"
+  },
+  "scheduled_tasks_label_runs_automatically_on_aschedule": {
+    "message": "依排程自動執行。"
+  },
+  "scheduled_tasks_label_schedule_count": {
+    "message": "{{count}} 個排程"
+  },
+  "scheduled_tasks_label_schedule_description": {
+    "message": "排程描述"
+  },
+  "scheduled_tasks_label_schedule_name": {
+    "message": "排程名稱"
+  },
+  "scheduled_tasks_label_schedule_source": {
+    "message": "排程"
+  },
+  "scheduled_tasks_label_schedule_type": {
+    "message": "排程類型"
+  },
+  "scheduled_tasks_label_schedules": {
+    "message": "排程"
+  },
+  "scheduled_tasks_label_second": {
+    "message": "秒"
+  },
+  "scheduled_tasks_label_seconds": {
+    "message": "秒"
+  },
+  "scheduled_tasks_label_select_date_and_time": {
+    "message": "選擇日期與時間"
+  },
+  "scheduled_tasks_label_selected": {
+    "message": "已選取"
+  },
+  "scheduled_tasks_label_started_by": {
+    "message": "啟動來源"
+  },
+  "scheduled_tasks_label_task_description": {
+    "message": "任務描述"
+  },
+  "scheduled_tasks_label_task_source": {
+    "message": "任務"
+  },
+  "scheduled_tasks_label_task_title": {
+    "message": "任務標題"
+  },
+  "scheduled_tasks_label_task_type": {
+    "message": "任務類型"
+  },
+  "scheduled_tasks_label_task_unavailable": {
+    "message": "無法取得任務"
+  },
+  "scheduled_tasks_label_time_zone": {
+    "message": "時區"
+  },
+  "scheduled_tasks_label_timeout_hours": {
+    "message": "{{count}} 小時"
+  },
+  "scheduled_tasks_label_timeout_minutes": {
+    "message": "{{count}} 分鐘"
+  },
+  "scheduled_tasks_label_unscheduled_task_list_notice": {
+    "message": "它會出現在「任務」中，並帶有「沒有排程」標記。"
+  },
+  "scheduled_tasks_label_updated": {
+    "message": "更新時間"
+  },
+  "scheduled_tasks_label_use_local_timezone": {
+    "message": "使用本機時區"
+  },
+  "scheduled_tasks_label_user_source": {
+    "message": "使用者"
+  },
+  "scheduled_tasks_status_active": {
+    "message": "啟用中"
+  },
+  "scheduled_tasks_status_archived": {
+    "message": "已封存"
+  },
+  "scheduled_tasks_status_beta": {
+    "message": "Beta"
+  },
+  "scheduled_tasks_status_cancelled": {
+    "message": "已取消"
+  },
+  "scheduled_tasks_status_completed": {
+    "message": "已完成"
+  },
+  "scheduled_tasks_status_disabled": {
+    "message": "已停用"
+  },
+  "scheduled_tasks_status_failed": {
+    "message": "失敗"
+  },
+  "scheduled_tasks_status_needs_approval": {
+    "message": "待核准"
+  },
+  "scheduled_tasks_status_no_schedule": {
+    "message": "沒有排程"
+  },
+  "scheduled_tasks_status_not_started": {
+    "message": "尚未開始"
+  },
+  "scheduled_tasks_status_paused": {
+    "message": "已暫停"
+  },
+  "scheduled_tasks_status_queued": {
+    "message": "佇列中"
+  },
+  "scheduled_tasks_status_rejected": {
+    "message": "已拒絕"
+  },
+  "scheduled_tasks_status_requires_approval": {
+    "message": "需要核准"
+  },
+  "scheduled_tasks_status_running_now": {
+    "message": "執行中"
+  },
+  "scheduled_tasks_status_runs_automatically": {
+    "message": "自動執行"
+  },
+  "scheduled_tasks_status_scheduled": {
+    "message": "已排程"
+  },
+  "scheduled_tasks_status_skipped": {
+    "message": "已略過"
+  },
+  "scheduled_tasks_title_delete": {
+    "message": "要刪除嗎？"
+  },
+  "scheduled_tasks_title_delete_schedule": {
+    "message": "要刪除排程嗎？"
+  },
+  "scheduled_tasks_title_delete_task": {
+    "message": "要刪除任務嗎？"
+  },
+  "scheduled_tasks_title_edit_scheduled_task": {
+    "message": "編輯排程任務"
+  },
+  "scheduled_tasks_title_edit_task": {
+    "message": "編輯任務"
+  },
+  "scheduled_tasks_title_new_task": {
+    "message": "新增任務"
+  },
+  "scheduled_tasks_title_run_behavior": {
+    "message": "執行行為"
+  },
+  "scheduled_tasks_title_task_settings": {
+    "message": "任務設定"
+  },
+  "scheduled_tasks_title_tasks": {
+    "message": "任務"
+  },
+  "scheduled_tasks_validation_cron_invalid": {
+    "message": "請輸入有效的 5 欄位 Cron 運算式"
+  },
+  "scheduled_tasks_validation_cron_required": {
+    "message": "Cron 運算式為必填"
+  },
+  "scheduled_tasks_validation_date_time_invalid": {
+    "message": "請輸入有效的日期與時間"
+  },
+  "scheduled_tasks_validation_interval_positive": {
+    "message": "間隔必須為正數"
+  },
+  "scheduled_tasks_validation_run_at_future": {
+    "message": "執行時間必須晚於現在"
+  },
+  "scheduled_tasks_validation_run_at_required": {
+    "message": "執行時間為必填"
+  },
+  "scheduled_tasks_validation_run_at_within_five_years": {
+    "message": "執行時間必須在 5 年內"
+  },
+  "scheduled_tasks_validation_timeout_range": {
+    "message": "逾時時間必須介於 {{minimum}} 與 {{maximum}} 之間。"
+  },
+  "service_detail_action_back_to_services": {
+    "message": "返回「服務」"
+  },
+  "service_detail_action_cleanup": {
+    "message": "清理"
+  },
+  "service_detail_action_remove_deprecated_service": {
+    "message": "移除已淘汰的服務"
+  },
+  "service_detail_description_cannot_remove_depended_by": {
+    "message": "無法移除：{{services}} 依賴此服務"
+  },
+  "service_detail_description_health": {
+    "message": "健康狀態：{{status}}"
+  },
+  "service_detail_description_no_configuration": {
+    "message": "此服務沒有可用的組態。"
+  },
+  "service_detail_description_pid": {
+    "message": "PID：{{pid}}"
+  },
+  "service_detail_description_service_not_found": {
+    "message": "找不到服務"
+  },
+  "service_detail_description_this_service_is_deprecated": {
+    "message": "此服務已淘汰"
+  },
+  "service_detail_description_unsupported_service_removal": {
+    "message": "此服務已不在發行索引中，應該移除。"
+  },
+  "service_detail_description_uptime": {
+    "message": "運作時間：{{uptime}}"
+  },
+  "service_detail_label_component_spec": {
+    "message": "元件規格"
+  },
+  "service_detail_label_config": {
+    "message": "組態"
+  },
+  "service_detail_label_exports": {
+    "message": "匯出資訊"
+  },
+  "service_detail_label_failing": {
+    "message": "異常"
+  },
+  "service_detail_label_healthy": {
+    "message": "正常"
+  },
+  "service_detail_label_no_component_spec_file_found": {
+    "message": "找不到元件規格檔案。"
+  },
+  "service_detail_label_runtime_config": {
+    "message": "執行階段組態"
+  },
+  "service_detail_label_runtime_config_unavailable": {
+    "message": "沒有可用的執行階段組態，服務尚未啟動。"
+  },
+  "service_detail_tooltip_clean_orphan_processes": {
+    "message": "尋找並終止可能未正常結束的孤立處理程序"
+  },
+  "service_detail_tooltip_copy_exports": {
+    "message": "複製匯出資訊"
+  },
+  "service_detail_tooltip_copy_runtime_config": {
+    "message": "複製執行階段組態"
+  },
+  "services_action_retry_setup": {
+    "message": "重試初始化"
+  },
+  "services_action_start_all": {
+    "message": "全部啟動"
+  },
+  "services_actions": {
+    "message": "動作"
+  },
+  "services_all": {
+    "message": "全部"
+  },
+  "services_coming_soon": {
+    "message": "即將推出"
+  },
+  "services_daemon": {
+    "message": "常駐程式"
+  },
+  "services_dependencies": {
+    "message": "相依性"
+  },
+  "services_description_lifecycle_overview": {
+    "message": "管理本機服務的生命週期與健康檢查"
+  },
+  "services_description_setup_failed": {
+    "message": "初始化失敗"
+  },
+  "services_description_setup_failed_with_error": {
+    "message": "初始化失敗：{{error}}"
+  },
+  "services_error_loading": {
+    "message": "載入服務時發生錯誤"
+  },
+  "services_failing": {
+    "message": "異常"
+  },
+  "services_health": {
+    "message": "健康狀態"
+  },
+  "services_health_check": {
+    "message": "健康檢查"
+  },
+  "services_healthy": {
+    "message": "正常"
+  },
+  "services_indexed_directories": {
+    "message": "已索引目錄"
+  },
+  "services_kind": {
+    "message": "類型"
+  },
+  "services_name": {
+    "message": "名稱"
+  },
+  "services_no_filtered_services": {
+    "message": "沒有狀態為 {{filter}} 的服務"
+  },
+  "services_no_services": {
+    "message": "找不到任何服務"
+  },
+  "services_pending_jobs": {
+    "message": "待處理工作"
+  },
+  "services_pid": {
+    "message": "PID"
+  },
+  "services_refresh": {
+    "message": "重新整理"
+  },
+  "services_restart": {
+    "message": "重新啟動"
+  },
+  "services_run_health_check": {
+    "message": "執行健康檢查"
+  },
+  "services_runner_offline": {
+    "message": "背景服務已離線"
+  },
+  "services_runner_online": {
+    "message": "背景服務已上線"
+  },
+  "services_runner_status": {
+    "message": "背景服務狀態"
+  },
+  "services_running": {
+    "message": "執行中"
+  },
+  "services_services_managed": {
+    "message": "管理中的服務：{{count}}"
+  },
+  "services_start": {
+    "message": "啟動"
+  },
+  "services_state": {
+    "message": "狀態"
+  },
+  "services_status_beta": {
+    "message": "測試版"
+  },
+  "services_status_crashed": {
+    "message": "已當機"
+  },
+  "services_status_deprecated": {
+    "message": "已淘汰"
+  },
+  "services_status_disabled": {
+    "message": "已停用"
+  },
+  "services_status_pending": {
+    "message": "等待中"
+  },
+  "services_status_starting": {
+    "message": "啟動中"
+  },
+  "services_status_stopping": {
+    "message": "停止中"
+  },
+  "services_stop": {
+    "message": "停止"
+  },
+  "services_stopped": {
+    "message": "已停止"
+  },
+  "services_summary_pending": {
+    "message": "等待中：{{count}}"
+  },
+  "services_summary_running": {
+    "message": "執行中：{{count}}"
+  },
+  "services_summary_stopped": {
+    "message": "已停止：{{count}}"
+  },
+  "services_summary_total": {
+    "message": "服務：{{count}}"
+  },
+  "services_summary_transitioning": {
+    "message": "轉換中：{{count}}"
+  },
+  "services_summary_unhealthy": {
+    "message": "運作異常：{{count}}"
+  },
+  "services_title": {
+    "message": "服務"
+  },
+  "services_unhealthy": {
+    "message": "運作異常"
+  },
+  "services_update_all": {
+    "message": "全部更新"
+  },
+  "services_uptime": {
+    "message": "運作時間"
+  },
+  "services_version": {
+    "message": "版本"
+  },
+  "services_view_config": {
+    "message": "檢視組態"
+  },
+  "services_view_logs": {
+    "message": "檢視記錄檔"
+  },
+  "settings_accessible_label_component_update_track": {
+    "message": "元件更新通道"
+  },
+  "settings_action_resetting": {
+    "message": "重設中…"
+  },
+  "settings_action_switch_and_update": {
+    "message": "切換並更新"
+  },
+  "settings_appearance": {
+    "message": "外觀"
+  },
+  "settings_appearance_description": {
+    "message": "視覺主題與顯示選項"
+  },
+  "settings_coming_soon": {
+    "message": "即將推出"
+  },
+  "settings_debug_logging": {
+    "message": "偵錯記錄"
+  },
+  "settings_debug_logging_description": {
+    "message": "啟用詳細記錄以進行疑難排解"
+  },
+  "settings_description": {
+    "message": "應用程式的偏好設定與組態"
+  },
+  "settings_description_backup_overview": {
+    "message": "匯出你的資料副本，並管理本機的時間點快照，以進行備份與還原。"
+  },
+  "settings_description_factory_reset_deletes_data": {
+    "message": "這將會<permanent>永久刪除</permanent>所有 Phi Sentinel 資料："
+  },
+  "settings_description_factory_reset_warning": {
+    "message": "永久刪除所有 Phi Sentinel 資料，包括服務、組態、記錄檔與快取檔案。此動作無法復原。"
+  },
+  "settings_description_reset_failed": {
+    "message": "重設失敗"
+  },
+  "settings_description_stable_latest_switch_warning": {
+    "message": "最新穩定版會忽略此 Sentinel 版本固定的元件版本，改為跟隨最新發布的穩定元件版本。元件更新會立即開始，受影響的服務可能會重新啟動。"
+  },
+  "settings_description_stable_latest_track": {
+    "message": "跟隨每個新發布的穩定元件版本。"
+  },
+  "settings_description_stable_pinned_switch_warning": {
+    "message": "穩定版會還原此 Sentinel 版本固定的元件發行版本。這可能會安裝較舊的元件版本，並重新啟動受影響的服務。"
+  },
+  "settings_description_stable_pinned_track": {
+    "message": "跟隨固定於此 Sentinel 版本的元件發行版本。"
+  },
+  "settings_description_this_action_cannot_be_undone": {
+    "message": "此動作無法復原。"
+  },
+  "settings_label_all_configurations_and_settings": {
+    "message": "所有組態與設定"
+  },
+  "settings_label_all_logs_and_cached_files": {
+    "message": "所有記錄檔與快取檔案"
+  },
+  "settings_label_installed_services_and_data": {
+    "message": "所有已安裝的服務及其資料"
+  },
+  "settings_label_job_schedules_and_history": {
+    "message": "工作排程與歷史記錄"
+  },
+  "settings_label_stable_latest": {
+    "message": "最新穩定版"
+  },
+  "settings_label_type_phrase_to_confirm": {
+    "message": "輸入 <phrase>{{phrase}}</phrase> 以確認："
+  },
+  "settings_polling_intervals": {
+    "message": "輪詢間隔"
+  },
+  "settings_polling_intervals_description": {
+    "message": "設定狀態輪詢頻率"
+  },
+  "settings_status_stable": {
+    "message": "穩定版"
+  },
+  "settings_status_stable_latest_active": {
+    "message": "最新穩定版啟用中"
+  },
+  "settings_title": {
+    "message": "設定"
+  },
+  "settings_title_backup_restore": {
+    "message": "備份與還原"
+  },
+  "settings_title_component_updates": {
+    "message": "元件更新"
+  },
+  "settings_title_confirm_factory_reset": {
+    "message": "確認恢復原廠設定"
+  },
+  "settings_title_danger_zone": {
+    "message": "危險區域"
+  },
+  "settings_title_reset_all_data": {
+    "message": "重設所有資料"
+  },
+  "settings_title_switch_to_track": {
+    "message": "要切換至 {{track}} 嗎？"
+  },
+  "settings_update_channel": {
+    "message": "更新通道"
+  },
+  "settings_update_channel_description": {
+    "message": "選取元件的更新通道"
+  },
+  "sidebar_alerts": {
+    "message": "警示"
+  },
+  "sidebar_indexing_active": {
+    "message": "進行中"
+  },
+  "sidebar_indexing_idle": {
+    "message": "閒置"
+  },
+  "sidebar_local_system": {
+    "message": "本機系統"
+  },
+  "sidebar_offline": {
+    "message": "離線"
+  },
+  "sidebar_online": {
+    "message": "線上"
+  },
+  "sidebar_runner": {
+    "message": "背景服務"
+  },
+  "status_bar_cpu": {
+    "message": "CPU：{{percent}}%"
+  },
+  "status_bar_memory": {
+    "message": "記憶體：{{value}}"
+  },
+  "status_bar_rag_queue": {
+    "message": "RAG 佇列檔案：{{count}}"
+  },
+  "status_bar_services": {
+    "message": "服務：{{count}}"
+  },
+  "task_detail_description_no_linked_schedules": {
+    "message": "此任務沒有連結任何排程。"
+  },
+  "task_detail_field_label_latest_run": {
+    "message": "最新執行"
+  },
+  "task_detail_label_failed_to_load_task_detail": {
+    "message": "無法載入任務詳細資料。"
+  },
+  "task_detail_label_hide_run_details": {
+    "message": "隱藏執行詳細資料"
+  },
+  "task_detail_label_view_run_details": {
+    "message": "檢視執行詳細資料"
+  },
+  "uninstall_browser_running_alert_message": {
+    "message": "解除安裝前請先結束 Phi Browser。"
+  },
+  "uninstall_browser_running_alert_title": {
+    "message": "請先結束 Phi Browser"
+  },
+  "uninstall_dialog_browser_data_description": {
+    "message": "歷史記錄、Cookie、快取、使用者設定檔"
+  },
+  "uninstall_dialog_browser_data_label": {
+    "message": "瀏覽資料"
+  },
+  "uninstall_dialog_category_calculating_size_label": {
+    "message": "%@：計算中…"
+  },
+  "uninstall_dialog_category_size_label": {
+    "message": "%1$@：%2$@"
+  },
+  "uninstall_dialog_confirmation_delete_and_quit_button": {
+    "message": "刪除並結束"
+  },
+  "uninstall_dialog_confirmation_message": {
+    "message": "此操作無法復原。"
+  },
+  "uninstall_dialog_confirmation_title": {
+    "message": "要永久刪除所選資料嗎？"
+  },
+  "uninstall_dialog_models_description": {
+    "message": "已下載的模型與 MLX 執行環境"
+  },
+  "uninstall_dialog_models_label": {
+    "message": "本機 AI 模型與執行環境"
+  },
+  "uninstall_dialog_quit_without_removing_button": {
+    "message": "結束而不移除"
+  },
+  "uninstall_dialog_remove_selected_button": {
+    "message": "移除所選並結束"
+  },
+  "uninstall_dialog_service_data_description": {
+    "message": "對話記錄、AI 代理記憶、任務、索引與記錄檔"
+  },
+  "uninstall_dialog_service_data_label": {
+    "message": "對話、AI 記憶與服務資料"
+  },
+  "uninstall_dialog_subtitle": {
+    "message": "選擇要永久刪除的本機資料。此操作無法復原。"
+  },
+  "uninstall_dialog_title": {
+    "message": "解除安裝 Phi"
+  },
+  "updates_all_up_to_date": {
+    "message": "所有元件皆為最新版本"
+  },
+  "updates_apply_all_updates": {
+    "message": "套用所有更新"
+  },
+  "updates_available_updates": {
+    "message": "可用的更新"
+  },
+  "updates_available_updates_description": {
+    "message": "元件版本變更"
+  },
+  "updates_check_for_updates": {
+    "message": "檢查更新"
+  },
+  "updates_description": {
+    "message": "套件管理與元件更新"
+  },
+  "updates_description_version_change": {
+    "message": "{{current}} → {{target}}"
+  },
+  "updates_title": {
+    "message": "更新"
+  }
+}

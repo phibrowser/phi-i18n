@@ -1,0 +1,440 @@
+{
+  "conversation_default_title": {
+    "message": "Nueva conversación"
+  },
+  "conversation_new_chat": {
+    "message": "Nuevo chat"
+  },
+  "errors_auto_save_failed_final": {
+    "message": "Falló el guardado automático. Vuelve a intentarlo."
+  },
+  "errors_auto_save_retrying": {
+    "message": "Falló el guardado automático, reintentando ({{current}}/{{total}})…"
+  },
+  "errors_balance_too_low": {
+    "message": "Tu saldo de crédito es demasiado bajo. Recarga para seguir usando el servicio."
+  },
+  "errors_chat_id_required": {
+    "message": "Se requiere el ID del chat."
+  },
+  "errors_chat_invalid_visibility": {
+    "message": "Configuración de visibilidad no válida. Debe ser 'private' o 'public'."
+  },
+  "errors_chat_pagination_conflict": {
+    "message": "No se pueden usar los parámetros starting_after y ending_before a la vez."
+  },
+  "errors_edit_delete_failed": {
+    "message": "No se pudo sincronizar la edición con el servidor. Los cambios se guardarán cuando se complete la respuesta."
+  },
+  "errors_forbidden": {
+    "message": "Acceso denegado. No tienes permiso para realizar esta acción."
+  },
+  "errors_load_conversation_failed": {
+    "message": "No se pudo cargar la conversación. Inténtalo de nuevo."
+  },
+  "errors_network": {
+    "message": "Error de conexión de red. Comprueba tu conexión e inténtalo de nuevo."
+  },
+  "errors_not_found": {
+    "message": "No se encontró el recurso solicitado."
+  },
+  "errors_save_message_failed": {
+    "message": "No se pudo guardar el mensaje. Inténtalo de nuevo."
+  },
+  "errors_server_error": {
+    "message": "Se produjo un error del servidor. Inténtalo de nuevo más tarde."
+  },
+  "errors_timeout": {
+    "message": "Se agotó el tiempo de espera de la solicitud. Inténtalo de nuevo."
+  },
+  "errors_token_subnet_restricted": {
+    "message": "Este token solo se puede usar desde direcciones IP específicas."
+  },
+  "errors_types_aiproxy_error": {
+    "message": "Se produjo un error del servicio. Inténtalo de nuevo más tarde."
+  },
+  "errors_types_bad_response": {
+    "message": "Respuesta no válida del servidor. Inténtalo de nuevo."
+  },
+  "errors_types_group_balance_not_enough": {
+    "message": "Saldo insuficiente. Recarga o contacta a tu administrador."
+  },
+  "errors_types_invalid_request_error": {
+    "message": "Solicitud no válida. Comprueba los datos e inténtalo de nuevo."
+  },
+  "errors_types_overloaded_error": {
+    "message": "El servicio está sobrecargado en este momento. Inténtalo de nuevo en unos instantes."
+  },
+  "errors_types_rate_limit_error": {
+    "message": "Se superó el límite de solicitudes. Reduce la frecuencia de tus solicitudes."
+  },
+  "errors_types_request_too_large": {
+    "message": "La solicitud es demasiado grande. Reduce el tamaño del contenido."
+  },
+  "errors_types_token_period_quota_exhausted": {
+    "message": "Se alcanzó tu cuota de uso del período. La cuota se restablecerá en el próximo ciclo."
+  },
+  "errors_types_token_quota_exhausted": {
+    "message": "Se agotó tu cuota de uso. Contacta a tu administrador."
+  },
+  "errors_types_upstream_error": {
+    "message": "Error del proveedor del servicio de IA. Inténtalo de nuevo más tarde."
+  },
+  "errors_unauthorized": {
+    "message": "Error de autenticación. Comprueba tus credenciales."
+  },
+  "errors_unknown": {
+    "message": "Se produjo un error inesperado. Inténtalo de nuevo."
+  },
+  "errors_upload_failed": {
+    "message": "No se pudo subir el archivo. Inténtalo de nuevo."
+  },
+  "errors_upload_file_too_large": {
+    "message": "El tamaño del archivo supera el límite de 10 MB. Elige un archivo más pequeño."
+  },
+  "errors_upload_no_file": {
+    "message": "No se seleccionó ningún archivo. Elige un archivo para subir."
+  },
+  "errors_upload_read_failed": {
+    "message": "No se pudo leer el archivo. Inténtalo de nuevo."
+  },
+  "errors_upload_request_too_large": {
+    "message": "El tamaño de la solicitud supera el límite. Reduce el tamaño o la cantidad de archivos."
+  },
+  "errors_upload_service_unavailable": {
+    "message": "El servicio de subida de archivos no está disponible en este momento. Inténtalo de nuevo más tarde."
+  },
+  "errors_upload_unsupported_type": {
+    "message": "Tipo de archivo no compatible. Solo se permiten archivos JPEG, PNG, GIF, WebP y PDF."
+  },
+  "features_chat_with_tabs_tab_converted_to_pdf": {
+    "message": "La pestaña PDF se convirtió en un archivo adjunto."
+  },
+  "features_chat_with_tabs_tab_removed_unsupported": {
+    "message": "Se quitó la pestaña como fuente: página no compatible."
+  },
+  "features_feature_error": {
+    "message": "No se pudo cargar el contexto"
+  },
+  "features_loading_chat_with_tabs": {
+    "message": "Cargando el contenido de la pestaña…"
+  },
+  "features_pdf_attach_failed": {
+    "message": "No se pudo adjuntar el archivo PDF."
+  },
+  "features_retry": {
+    "message": "Reintentar"
+  },
+  "file_remove": {
+    "message": "Quitar archivo"
+  },
+  "file_text_file_too_large": {
+    "message": "El archivo de texto es demasiado grande: el tamaño máximo es de 50 KB"
+  },
+  "message_cancel": {
+    "message": "Cancelar"
+  },
+  "message_collapse": {
+    "message": "Contraer"
+  },
+  "message_copy": {
+    "message": "Copiar"
+  },
+  "message_create_conversation_failed": {
+    "message": "No se pudo crear la conversación"
+  },
+  "message_display_reasoning": {
+    "message": "Mostrar razonamiento"
+  },
+  "message_download": {
+    "message": "Descargar"
+  },
+  "message_edit": {
+    "message": "Editar"
+  },
+  "message_expand": {
+    "message": "Expandir"
+  },
+  "message_file_file": {
+    "message": "Archivo"
+  },
+  "message_file_image": {
+    "message": "Imagen"
+  },
+  "message_quota_exhausted": {
+    "message": "Cuota de uso superada"
+  },
+  "message_quota_exhausted_description": {
+    "message": "Se alcanzó tu cuota de uso diaria. La cuota se restablece cada día."
+  },
+  "message_regenerate": {
+    "message": "Regenerar"
+  },
+  "message_request_failed": {
+    "message": "Error en la solicitud"
+  },
+  "message_resume": {
+    "message": "Reanudar"
+  },
+  "message_retry": {
+    "message": "Reintentar"
+  },
+  "message_show_less": {
+    "message": "Mostrar menos"
+  },
+  "message_show_more": {
+    "message": "Mostrar más"
+  },
+  "message_sources_unknown": {
+    "message": "Fuente desconocida"
+  },
+  "message_submit": {
+    "message": "Enviar"
+  },
+  "message_thinking": {
+    "message": "Pensando…"
+  },
+  "message_tool_approve": {
+    "message": "Aprobar"
+  },
+  "message_tool_awaiting_approval": {
+    "message": "Esperando aprobación"
+  },
+  "message_tool_completed": {
+    "message": "Completada"
+  },
+  "message_tool_denied": {
+    "message": "Denegada"
+  },
+  "message_tool_deny": {
+    "message": "Denegar"
+  },
+  "message_tool_error": {
+    "message": "Error"
+  },
+  "message_tool_input": {
+    "message": "Entrada"
+  },
+  "message_tool_output": {
+    "message": "Salida"
+  },
+  "message_tool_running": {
+    "message": "En ejecución"
+  },
+  "message_waiting_for_response": {
+    "message": "Esperando la respuesta de la IA"
+  },
+  "newtab_custom": {
+    "message": "Personalizado"
+  },
+  "newtab_enter_chat": {
+    "message": "Chatear sobre este saludo"
+  },
+  "newtab_insight": {
+    "message": "Perspectivas"
+  },
+  "newtab_insight_empty": {
+    "message": "Sigue navegando y las perspectivas aparecerán a medida que surjan patrones."
+  },
+  "newtab_insight_evidence": {
+    "message": "Evidencia"
+  },
+  "newtab_insight_loading": {
+    "message": "Analizando tus patrones…"
+  },
+  "newtab_insight_title": {
+    "message": "Perspectivas"
+  },
+  "newtab_memory": {
+    "message": "Memoria"
+  },
+  "newtab_page_title": {
+    "message": "Nueva pestaña"
+  },
+  "newtab_profile": {
+    "message": "Tú"
+  },
+  "newtab_profile_empty": {
+    "message": "Aún no hay datos de tu retrato. Sigue navegando y te iré conociendo con el tiempo."
+  },
+  "newtab_profile_feedback": {
+    "message": "Este retrato se basa en tu actividad de navegación. Si algo no es correcto o quieres agregar algo, solo dímelo y lo actualizaré."
+  },
+  "newtab_profile_input_placeholder": {
+    "message": "Dime qué quieres actualizar…"
+  },
+  "newtab_profile_loading": {
+    "message": "Cargando el retrato…"
+  },
+  "newtab_profile_title": {
+    "message": "Tu retrato"
+  },
+  "newtab_profile_update_error": {
+    "message": "Lo siento, no pude actualizar el retrato. Inténtalo de nuevo."
+  },
+  "newtab_profile_update_not_profile_instruction": {
+    "message": "Eso no parece un cambio del retrato. Usa este cuadro cuando quieras corregir o agregar algo sobre ti en tu retrato, como tu trabajo, tus intereses o tus preferencias."
+  },
+  "newtab_profile_update_success": {
+    "message": "¡Listo! He actualizado tu retrato."
+  },
+  "newtab_profile_updating": {
+    "message": "Actualizando tu retrato…"
+  },
+  "newtab_search": {
+    "message": "Buscar"
+  },
+  "newtab_share": {
+    "message": "Compartir este saludo"
+  },
+  "newtab_share_dialog_close": {
+    "message": "Cerrar"
+  },
+  "newtab_share_dialog_copied": {
+    "message": "Imagen copiada al portapapeles"
+  },
+  "newtab_share_dialog_copied_for_discord": {
+    "message": "Imagen copiada. Pégala en tu mensaje de Discord."
+  },
+  "newtab_share_dialog_copy_image": {
+    "message": "Copiar imagen"
+  },
+  "newtab_share_dialog_description": {
+    "message": "Comparte este saludo como imagen."
+  },
+  "newtab_share_dialog_download_image": {
+    "message": "Descargar imagen"
+  },
+  "newtab_share_dialog_failed": {
+    "message": "No se pudo compartir el saludo"
+  },
+  "newtab_share_dialog_share_label": {
+    "message": "Compartir"
+  },
+  "newtab_share_dialog_share_to_discord": {
+    "message": "Compartir en Discord"
+  },
+  "newtab_share_dialog_share_to_x": {
+    "message": "Compartir en X"
+  },
+  "newtab_share_dialog_title": {
+    "message": "Comparte tu saludo"
+  },
+  "user_input_add_attachment": {
+    "message": "Agregar archivo adjunto"
+  },
+  "user_input_add_screenshot": {
+    "message": "Agregar captura de pantalla"
+  },
+  "user_input_all_tabs_added": {
+    "message": "Todas las pestañas agregadas"
+  },
+  "user_input_capture_screenshot_failed": {
+    "message": "No se pudo tomar la captura de pantalla. Inténtalo de nuevo en una página web normal."
+  },
+  "user_input_no_available_tabs": {
+    "message": "No hay pestañas disponibles"
+  },
+  "user_input_placeholder": {
+    "message": "Escribe un mensaje…"
+  },
+  "user_input_send": {
+    "message": "Enviar"
+  },
+  "user_input_split_view": {
+    "message": "Vista dividida"
+  },
+  "user_input_split_view_member_count": {
+    "message": "{{count}} pestaña(s)"
+  },
+  "user_input_stop": {
+    "message": "Detener"
+  },
+  "user_input_tab_group_member_count": {
+    "message": "{{count}} pestaña(s)"
+  },
+  "user_input_tab_group_untitled": {
+    "message": "Grupo de pestañas"
+  },
+  "user_input_tab_no_longer_exists": {
+    "message": "La pestaña \"{{title}}\" ya no existe y se ha quitado"
+  },
+  "user_input_tabs": {
+    "message": "Pestañas"
+  },
+  "user_input_upload_from_computer": {
+    "message": "Subir desde el equipo"
+  },
+  "user_input_upload_section": {
+    "message": "Subir (PDF / TXT / imagen)"
+  },
+  "welcome_title": {
+    "message": "Hola, soy {{name}}"
+  },
+  "widgets_bottom_panel_add": {
+    "message": "Agregar widget"
+  },
+  "widgets_bottom_panel_back": {
+    "message": "Volver"
+  },
+  "widgets_bottom_panel_collapse": {
+    "message": "Ocultar panel"
+  },
+  "widgets_bottom_panel_label": {
+    "message": "Panel de widgets"
+  },
+  "widgets_bottom_panel_reload": {
+    "message": "Recargar widgets"
+  },
+  "widgets_bottom_panel_tab_widgets": {
+    "message": "Widgets"
+  },
+  "widgets_cancel": {
+    "message": "Cancelar"
+  },
+  "widgets_drop_zone_label": {
+    "message": "Suelta los widgets aquí"
+  },
+  "widgets_library_delete_confirm": {
+    "message": "¿Eliminar \"{{title}}\"?"
+  },
+  "widgets_library_drag": {
+    "message": "Arrástralo a la página"
+  },
+  "widgets_library_empty": {
+    "message": "No hay nada que agregar por ahora. Las nuevas ideas de widgets aparecerán aquí."
+  },
+  "widgets_library_untitled": {
+    "message": "Widget sin título"
+  },
+  "widgets_loading": {
+    "message": "Un momento…"
+  },
+  "widgets_menu_add_to_page": {
+    "message": "Agregar a la página"
+  },
+  "widgets_menu_delete": {
+    "message": "Eliminar"
+  },
+  "widgets_menu_delete_all": {
+    "message": "Eliminar TODOS"
+  },
+  "widgets_menu_delete_all_confirm": {
+    "message": "¿Eliminar todos los widgets de este panel?"
+  },
+  "widgets_menu_edit": {
+    "message": "Editar"
+  },
+  "widgets_menu_refresh": {
+    "message": "Actualizar"
+  },
+  "widgets_menu_trigger": {
+    "message": "Menú del widget"
+  },
+  "widgets_pending_install": {
+    "message": "Instalar"
+  },
+  "widgets_pending_refresh": {
+    "message": "Actualizar"
+  }
+}

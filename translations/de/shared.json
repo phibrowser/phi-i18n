@@ -1,0 +1,440 @@
+{
+  "conversation_default_title": {
+    "message": "Neue Unterhaltung"
+  },
+  "conversation_new_chat": {
+    "message": "Neuer Chat"
+  },
+  "errors_auto_save_failed_final": {
+    "message": "Automatisches Speichern fehlgeschlagen. Bitte versuche es erneut."
+  },
+  "errors_auto_save_retrying": {
+    "message": "Automatisches Speichern fehlgeschlagen, neuer Versuch ({{current}}/{{total}})…"
+  },
+  "errors_balance_too_low": {
+    "message": "Dein Guthaben ist zu niedrig. Bitte lade es auf, um den Dienst weiter zu nutzen."
+  },
+  "errors_chat_id_required": {
+    "message": "Die Chat-ID ist erforderlich."
+  },
+  "errors_chat_invalid_visibility": {
+    "message": "Ungültige Sichtbarkeitseinstellung. Muss entweder 'private' oder 'public' sein."
+  },
+  "errors_chat_pagination_conflict": {
+    "message": "Die Parameter starting_after und ending_before können nicht zusammen verwendet werden."
+  },
+  "errors_edit_delete_failed": {
+    "message": "Die Bearbeitung konnte nicht mit dem Server synchronisiert werden. Die Änderungen werden gespeichert, sobald die Antwort abgeschlossen ist."
+  },
+  "errors_forbidden": {
+    "message": "Zugriff verweigert. Du hast keine Berechtigung für diese Aktion."
+  },
+  "errors_load_conversation_failed": {
+    "message": "Die Unterhaltung konnte nicht geladen werden. Bitte versuche es erneut."
+  },
+  "errors_network": {
+    "message": "Netzwerkverbindungsfehler. Bitte überprüfe deine Verbindung und versuche es erneut."
+  },
+  "errors_not_found": {
+    "message": "Die angeforderte Ressource wurde nicht gefunden."
+  },
+  "errors_save_message_failed": {
+    "message": "Die Nachricht konnte nicht gespeichert werden. Bitte versuche es erneut."
+  },
+  "errors_server_error": {
+    "message": "Es ist ein Serverfehler aufgetreten. Bitte versuche es später erneut."
+  },
+  "errors_timeout": {
+    "message": "Zeitüberschreitung der Anfrage. Bitte versuche es erneut."
+  },
+  "errors_token_subnet_restricted": {
+    "message": "Dieses Token kann nur von bestimmten IP-Adressen aus verwendet werden."
+  },
+  "errors_types_aiproxy_error": {
+    "message": "Es ist ein Dienstfehler aufgetreten. Bitte versuche es später erneut."
+  },
+  "errors_types_bad_response": {
+    "message": "Ungültige Antwort vom Server. Bitte versuche es erneut."
+  },
+  "errors_types_group_balance_not_enough": {
+    "message": "Unzureichendes Guthaben. Bitte lade Guthaben auf oder wende dich an deinen Administrator."
+  },
+  "errors_types_invalid_request_error": {
+    "message": "Ungültige Anfrage. Bitte überprüfe deine Eingabe und versuche es erneut."
+  },
+  "errors_types_overloaded_error": {
+    "message": "Der Dienst ist derzeit überlastet. Bitte versuche es gleich erneut."
+  },
+  "errors_types_rate_limit_error": {
+    "message": "Anfragelimit überschritten. Bitte sende deine Anfragen langsamer."
+  },
+  "errors_types_request_too_large": {
+    "message": "Die Anfrage ist zu groß. Bitte reduziere die Größe des Inhalts."
+  },
+  "errors_types_token_period_quota_exhausted": {
+    "message": "Dein Nutzungskontingent für diesen Zeitraum ist aufgebraucht. Das Kontingent wird im nächsten Zyklus zurückgesetzt."
+  },
+  "errors_types_token_quota_exhausted": {
+    "message": "Dein Nutzungskontingent ist aufgebraucht. Bitte wende dich an deinen Administrator."
+  },
+  "errors_types_upstream_error": {
+    "message": "Fehler beim KI-Anbieter. Bitte versuche es später erneut."
+  },
+  "errors_unauthorized": {
+    "message": "Authentifizierung fehlgeschlagen. Bitte überprüfe deine Anmeldedaten."
+  },
+  "errors_unknown": {
+    "message": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuche es erneut."
+  },
+  "errors_upload_failed": {
+    "message": "Die Datei konnte nicht hochgeladen werden. Bitte versuche es erneut."
+  },
+  "errors_upload_file_too_large": {
+    "message": "Die Dateigröße überschreitet das Limit von 10 MB. Bitte wähle eine kleinere Datei."
+  },
+  "errors_upload_no_file": {
+    "message": "Keine Datei ausgewählt. Bitte wähle eine Datei zum Hochladen aus."
+  },
+  "errors_upload_read_failed": {
+    "message": "Die Datei konnte nicht gelesen werden. Bitte versuche es erneut."
+  },
+  "errors_upload_request_too_large": {
+    "message": "Die Anfrage überschreitet das Größenlimit. Bitte reduziere die Dateigröße oder die Anzahl der Dateien."
+  },
+  "errors_upload_service_unavailable": {
+    "message": "Der Datei-Upload-Dienst ist derzeit nicht verfügbar. Bitte versuche es später erneut."
+  },
+  "errors_upload_unsupported_type": {
+    "message": "Nicht unterstützter Dateityp. Es sind nur JPEG-, PNG-, GIF-, WebP- und PDF-Dateien erlaubt."
+  },
+  "features_chat_with_tabs_tab_converted_to_pdf": {
+    "message": "PDF-Tab wurde in einen Dateianhang umgewandelt."
+  },
+  "features_chat_with_tabs_tab_removed_unsupported": {
+    "message": "Tab-Quelle entfernt: nicht unterstützte Seite."
+  },
+  "features_feature_error": {
+    "message": "Kontext konnte nicht geladen werden"
+  },
+  "features_loading_chat_with_tabs": {
+    "message": "Tab-Inhalt wird geladen…"
+  },
+  "features_pdf_attach_failed": {
+    "message": "PDF-Datei konnte nicht angehängt werden."
+  },
+  "features_retry": {
+    "message": "Erneut versuchen"
+  },
+  "file_remove": {
+    "message": "Datei entfernen"
+  },
+  "file_text_file_too_large": {
+    "message": "Die Textdatei ist zu groß, die maximale Größe beträgt 50 KB"
+  },
+  "message_cancel": {
+    "message": "Abbrechen"
+  },
+  "message_collapse": {
+    "message": "Einklappen"
+  },
+  "message_copy": {
+    "message": "Kopieren"
+  },
+  "message_create_conversation_failed": {
+    "message": "Unterhaltung konnte nicht erstellt werden"
+  },
+  "message_display_reasoning": {
+    "message": "Denkprozess anzeigen"
+  },
+  "message_download": {
+    "message": "Herunterladen"
+  },
+  "message_edit": {
+    "message": "Bearbeiten"
+  },
+  "message_expand": {
+    "message": "Ausklappen"
+  },
+  "message_file_file": {
+    "message": "Datei"
+  },
+  "message_file_image": {
+    "message": "Bild"
+  },
+  "message_quota_exhausted": {
+    "message": "Nutzungskontingent überschritten"
+  },
+  "message_quota_exhausted_description": {
+    "message": "Dein tägliches Nutzungskontingent ist aufgebraucht. Das Kontingent wird täglich zurückgesetzt."
+  },
+  "message_regenerate": {
+    "message": "Neu generieren"
+  },
+  "message_request_failed": {
+    "message": "Anfrage fehlgeschlagen"
+  },
+  "message_resume": {
+    "message": "Fortsetzen"
+  },
+  "message_retry": {
+    "message": "Erneut versuchen"
+  },
+  "message_show_less": {
+    "message": "Weniger anzeigen"
+  },
+  "message_show_more": {
+    "message": "Mehr anzeigen"
+  },
+  "message_sources_unknown": {
+    "message": "Unbekannte Quelle"
+  },
+  "message_submit": {
+    "message": "Absenden"
+  },
+  "message_thinking": {
+    "message": "Denkt nach…"
+  },
+  "message_tool_approve": {
+    "message": "Genehmigen"
+  },
+  "message_tool_awaiting_approval": {
+    "message": "Wartet auf Genehmigung"
+  },
+  "message_tool_completed": {
+    "message": "Abgeschlossen"
+  },
+  "message_tool_denied": {
+    "message": "Abgelehnt"
+  },
+  "message_tool_deny": {
+    "message": "Ablehnen"
+  },
+  "message_tool_error": {
+    "message": "Fehler"
+  },
+  "message_tool_input": {
+    "message": "Eingabe"
+  },
+  "message_tool_output": {
+    "message": "Ausgabe"
+  },
+  "message_tool_running": {
+    "message": "Wird ausgeführt"
+  },
+  "message_waiting_for_response": {
+    "message": "Warten auf KI-Antwort"
+  },
+  "newtab_custom": {
+    "message": "Eigene"
+  },
+  "newtab_enter_chat": {
+    "message": "Über diese Begrüßung chatten"
+  },
+  "newtab_insight": {
+    "message": "Einblicke"
+  },
+  "newtab_insight_empty": {
+    "message": "Surfe einfach weiter. Sobald sich Muster abzeichnen, erscheinen hier Einblicke."
+  },
+  "newtab_insight_evidence": {
+    "message": "Belege"
+  },
+  "newtab_insight_loading": {
+    "message": "Deine Muster werden analysiert…"
+  },
+  "newtab_insight_title": {
+    "message": "Einblicke"
+  },
+  "newtab_memory": {
+    "message": "Erinnerungen"
+  },
+  "newtab_page_title": {
+    "message": "Neuer Tab"
+  },
+  "newtab_profile": {
+    "message": "Du"
+  },
+  "newtab_profile_empty": {
+    "message": "Noch keine Porträtdaten. Surfe einfach weiter, und ich lerne dich mit der Zeit kennen."
+  },
+  "newtab_profile_feedback": {
+    "message": "Dieses Porträt basiert auf deinem Surfverhalten. Wenn etwas nicht stimmt oder du etwas ergänzen möchtest, sag es mir einfach und ich aktualisiere es."
+  },
+  "newtab_profile_input_placeholder": {
+    "message": "Sag mir, was ich aktualisieren soll…"
+  },
+  "newtab_profile_loading": {
+    "message": "Porträt wird geladen…"
+  },
+  "newtab_profile_title": {
+    "message": "Dein Porträt"
+  },
+  "newtab_profile_update_error": {
+    "message": "Entschuldige, ich konnte das Porträt nicht aktualisieren. Bitte versuche es noch einmal."
+  },
+  "newtab_profile_update_not_profile_instruction": {
+    "message": "Das sieht nicht nach einer Änderung am Porträt aus. Nutze dieses Feld, wenn du etwas über dich in deinem Porträt korrigieren oder ergänzen möchtest, zum Beispiel deine Arbeit, Interessen oder Vorlieben."
+  },
+  "newtab_profile_update_success": {
+    "message": "Fertig! Ich habe dein Porträt aktualisiert."
+  },
+  "newtab_profile_updating": {
+    "message": "Dein Porträt wird aktualisiert…"
+  },
+  "newtab_search": {
+    "message": "Suche"
+  },
+  "newtab_share": {
+    "message": "Diese Begrüßung teilen"
+  },
+  "newtab_share_dialog_close": {
+    "message": "Schließen"
+  },
+  "newtab_share_dialog_copied": {
+    "message": "Bild in Zwischenablage kopiert"
+  },
+  "newtab_share_dialog_copied_for_discord": {
+    "message": "Bild kopiert. Füge es in deine Discord-Nachricht ein."
+  },
+  "newtab_share_dialog_copy_image": {
+    "message": "Bild kopieren"
+  },
+  "newtab_share_dialog_description": {
+    "message": "Teile diese Begrüßung als Bild."
+  },
+  "newtab_share_dialog_download_image": {
+    "message": "Bild herunterladen"
+  },
+  "newtab_share_dialog_failed": {
+    "message": "Begrüßung konnte nicht geteilt werden"
+  },
+  "newtab_share_dialog_share_label": {
+    "message": "Teilen"
+  },
+  "newtab_share_dialog_share_to_discord": {
+    "message": "Auf Discord teilen"
+  },
+  "newtab_share_dialog_share_to_x": {
+    "message": "Auf X teilen"
+  },
+  "newtab_share_dialog_title": {
+    "message": "Teile deine Begrüßung"
+  },
+  "user_input_add_attachment": {
+    "message": "Anhang hinzufügen"
+  },
+  "user_input_add_screenshot": {
+    "message": "Screenshot hinzufügen"
+  },
+  "user_input_all_tabs_added": {
+    "message": "Alle Tabs hinzugefügt"
+  },
+  "user_input_capture_screenshot_failed": {
+    "message": "Screenshot konnte nicht erstellt werden. Bitte versuche es auf einer normalen Webseite erneut."
+  },
+  "user_input_no_available_tabs": {
+    "message": "Keine Tabs verfügbar"
+  },
+  "user_input_placeholder": {
+    "message": "Nachricht eingeben…"
+  },
+  "user_input_send": {
+    "message": "Senden"
+  },
+  "user_input_split_view": {
+    "message": "Split View"
+  },
+  "user_input_split_view_member_count": {
+    "message": "{{count}} Tab(s)"
+  },
+  "user_input_stop": {
+    "message": "Stoppen"
+  },
+  "user_input_tab_group_member_count": {
+    "message": "{{count}} Tab(s)"
+  },
+  "user_input_tab_group_untitled": {
+    "message": "Tabgruppe"
+  },
+  "user_input_tab_no_longer_exists": {
+    "message": "Der Tab „{{title}}“ existiert nicht mehr und wurde entfernt"
+  },
+  "user_input_tabs": {
+    "message": "Tabs"
+  },
+  "user_input_upload_from_computer": {
+    "message": "Vom Computer hochladen"
+  },
+  "user_input_upload_section": {
+    "message": "Hochladen (PDF / TXT / Bild)"
+  },
+  "welcome_title": {
+    "message": "Hi, ich bin {{name}}"
+  },
+  "widgets_bottom_panel_add": {
+    "message": "Widget hinzufügen"
+  },
+  "widgets_bottom_panel_back": {
+    "message": "Zurück"
+  },
+  "widgets_bottom_panel_collapse": {
+    "message": "Panel ausblenden"
+  },
+  "widgets_bottom_panel_label": {
+    "message": "Widget-Panel"
+  },
+  "widgets_bottom_panel_reload": {
+    "message": "Widgets neu laden"
+  },
+  "widgets_bottom_panel_tab_widgets": {
+    "message": "Widgets"
+  },
+  "widgets_cancel": {
+    "message": "Abbrechen"
+  },
+  "widgets_drop_zone_label": {
+    "message": "Widgets hier ablegen"
+  },
+  "widgets_library_delete_confirm": {
+    "message": "„{{title}}“ löschen?"
+  },
+  "widgets_library_drag": {
+    "message": "Auf die Seite ziehen"
+  },
+  "widgets_library_empty": {
+    "message": "Gerade gibt es nichts hinzuzufügen. Neue Widget-Ideen erscheinen hier."
+  },
+  "widgets_library_untitled": {
+    "message": "Unbenanntes Widget"
+  },
+  "widgets_loading": {
+    "message": "Einen Moment…"
+  },
+  "widgets_menu_add_to_page": {
+    "message": "Zur Seite hinzufügen"
+  },
+  "widgets_menu_delete": {
+    "message": "Löschen"
+  },
+  "widgets_menu_delete_all": {
+    "message": "ALLE löschen"
+  },
+  "widgets_menu_delete_all_confirm": {
+    "message": "Alle Widgets aus diesem Panel löschen?"
+  },
+  "widgets_menu_edit": {
+    "message": "Bearbeiten"
+  },
+  "widgets_menu_refresh": {
+    "message": "Aktualisieren"
+  },
+  "widgets_menu_trigger": {
+    "message": "Widget-Menü"
+  },
+  "widgets_pending_install": {
+    "message": "Installieren"
+  },
+  "widgets_pending_refresh": {
+    "message": "Aktualisieren"
+  }
+}

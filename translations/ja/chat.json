@@ -1,0 +1,2072 @@
+{
+  "agent_memory_page_back": {
+    "message": "戻る"
+  },
+  "agent_memory_page_card_feedback": {
+    "message": "フィードバック: {{value}}"
+  },
+  "agent_memory_page_card_intents": {
+    "message": "インテント: {{count}}"
+  },
+  "agent_memory_page_card_last_active": {
+    "message": "最終アクティブ: {{value}}"
+  },
+  "agent_memory_page_card_sentiment": {
+    "message": "感情: {{value}}"
+  },
+  "agent_memory_page_card_source": {
+    "message": "ソース: {{value}}"
+  },
+  "agent_memory_page_card_start": {
+    "message": "開始: {{value}}"
+  },
+  "agent_memory_page_empty": {
+    "message": "エージェントのメモリデータはまだありません。"
+  },
+  "agent_memory_page_error": {
+    "message": "エージェントのメモリを読み込めませんでした。"
+  },
+  "agent_memory_page_generated_at": {
+    "message": "更新: {{value}}"
+  },
+  "agent_memory_page_keywords": {
+    "message": "キーワード"
+  },
+  "agent_memory_page_loading": {
+    "message": "エージェントのメモリを読み込んでいます…"
+  },
+  "agent_memory_page_memories": {
+    "message": "メモリ"
+  },
+  "agent_memory_page_memory_count": {
+    "message": "メモリ: {{count}}"
+  },
+  "agent_memory_page_refresh": {
+    "message": "再読み込み"
+  },
+  "agent_memory_page_title": {
+    "message": "エージェントのメモリ"
+  },
+  "agent_memory_page_topics": {
+    "message": "トピック"
+  },
+  "agent_persona_description": {
+    "message": "今後の実行に使用する、サーバーに保存されたペルソナテンプレートを編集します。"
+  },
+  "agent_persona_load_error": {
+    "message": "現在のエージェントペルソナの状態を読み込めませんでした。"
+  },
+  "agent_persona_no_variables": {
+    "message": "テンプレート変数は検出されませんでした。"
+  },
+  "agent_persona_open_error": {
+    "message": "エージェントペルソナのダイアログを開けませんでした。"
+  },
+  "agent_persona_preview": {
+    "message": "プレビュー"
+  },
+  "agent_persona_reset": {
+    "message": "リセット"
+  },
+  "agent_persona_save_error": {
+    "message": "エージェントペルソナの変更を保存できませんでした。"
+  },
+  "agent_persona_template": {
+    "message": "テンプレート"
+  },
+  "agent_persona_title": {
+    "message": "エージェントペルソナ"
+  },
+  "agent_persona_variables": {
+    "message": "変数"
+  },
+  "ai_mode_copy_logs": {
+    "message": "ログをコピー"
+  },
+  "ai_mode_expert": {
+    "message": "エキスパート"
+  },
+  "ai_mode_fast": {
+    "message": "高速"
+  },
+  "app_title": {
+    "message": "Phi Chat"
+  },
+  "artifacts_menu_label": {
+    "message": "ウィジェット"
+  },
+  "artifacts_panel_aria_label": {
+    "message": "ウィジェットパネル"
+  },
+  "chat_attachments_add": {
+    "message": "ファイルを添付"
+  },
+  "chat_attachments_drop_hint": {
+    "message": "ファイルをドロップして添付"
+  },
+  "chat_attachments_failed": {
+    "message": "添付できませんでした"
+  },
+  "chat_attachments_remove": {
+    "message": "添付ファイルを削除"
+  },
+  "chat_attachments_too_large": {
+    "message": "50 KBを超えています"
+  },
+  "chat_composer_menu_all_tabs_added": {
+    "message": "すべてのタブを追加済み"
+  },
+  "chat_composer_menu_upload": {
+    "message": "アップロード"
+  },
+  "chat_composer_menu_upload_from_computer": {
+    "message": "コンピューターからアップロード"
+  },
+  "chat_composer_open_skills": {
+    "message": "スキル"
+  },
+  "chat_composer_placeholder": {
+    "message": "メッセージを入力…"
+  },
+  "chat_composer_send": {
+    "message": "送信"
+  },
+  "chat_composer_stop": {
+    "message": "停止"
+  },
+  "chat_composer_suggestions_member_count": {
+    "message": "{{count}}個のタブ"
+  },
+  "chat_composer_suggestions_no_skills": {
+    "message": "利用できるスキルはありません"
+  },
+  "chat_composer_suggestions_no_tabs": {
+    "message": "追加できるタブはありません"
+  },
+  "chat_composer_suggestions_skill_header": {
+    "message": "スキル"
+  },
+  "chat_composer_suggestions_split_view": {
+    "message": "分割表示"
+  },
+  "chat_composer_suggestions_tabs_header": {
+    "message": "タブ"
+  },
+  "chat_composer_suggestions_untitled_group": {
+    "message": "無題のグループ"
+  },
+  "chat_empty_body": {
+    "message": "左側のリストからチャットを選択するか、新しいチャットを始めてください。"
+  },
+  "chat_empty_title": {
+    "message": "チャットを選択"
+  },
+  "chat_interrupted": {
+    "message": "中断されました"
+  },
+  "chat_load_failed": {
+    "message": "このチャットを読み込めませんでした。"
+  },
+  "chat_loading_phrases_anchoring_findings": {
+    "message": "結果に錨を下ろし中"
+  },
+  "chat_loading_phrases_assembling_crew": {
+    "message": "クルーを招集中"
+  },
+  "chat_loading_phrases_baiting_data_lake": {
+    "message": "データの湖に餌をまき中"
+  },
+  "chat_loading_phrases_brewing_something_good": {
+    "message": "何かいいものを仕込み中"
+  },
+  "chat_loading_phrases_bubbling_up_results": {
+    "message": "結果がぷくぷく浮上中"
+  },
+  "chat_loading_phrases_casting_net_wide": {
+    "message": "網を広く投げ中"
+  },
+  "chat_loading_phrases_catching_big_one": {
+    "message": "大物を釣り上げ中"
+  },
+  "chat_loading_phrases_catching_wave": {
+    "message": "いい波をキャッチ中"
+  },
+  "chat_loading_phrases_charting_waters": {
+    "message": "海図を作成中"
+  },
+  "chat_loading_phrases_chasing_golden_fish": {
+    "message": "金色の魚を追いかけ中"
+  },
+  "chat_loading_phrases_chasing_school_of_thought": {
+    "message": "思考の魚群を追いかけ中"
+  },
+  "chat_loading_phrases_connecting_dots": {
+    "message": "点と点をつなぎ中"
+  },
+  "chat_loading_phrases_consulting_sea_oracle": {
+    "message": "海の神様にお伺い中"
+  },
+  "chat_loading_phrases_cruising_data_stream": {
+    "message": "データの流れをクルーズ中"
+  },
+  "chat_loading_phrases_decoding_signal": {
+    "message": "信号を解読中"
+  },
+  "chat_loading_phrases_diving_deep": {
+    "message": "深海へ潜水中"
+  },
+  "chat_loading_phrases_drifting_toward_answers": {
+    "message": "答えに向かって漂い中"
+  },
+  "chat_loading_phrases_exploring_deep_end": {
+    "message": "深いところを探検中"
+  },
+  "chat_loading_phrases_fishing_deeper_waters": {
+    "message": "さらに深い海で釣り中"
+  },
+  "chat_loading_phrases_fishing_for_answers": {
+    "message": "答えを釣り中"
+  },
+  "chat_loading_phrases_floating_new_ideas": {
+    "message": "新しいアイデアを浮かべ中"
+  },
+  "chat_loading_phrases_following_ripples": {
+    "message": "波紋をたどり中"
+  },
+  "chat_loading_phrases_going_with_flow": {
+    "message": "流れに身を任せ中"
+  },
+  "chat_loading_phrases_hatching_plan": {
+    "message": "作戦を練り中"
+  },
+  "chat_loading_phrases_hooked_on_lead": {
+    "message": "手がかりがヒット中"
+  },
+  "chat_loading_phrases_hooking_insights": {
+    "message": "ひらめきを針にかけ中"
+  },
+  "chat_loading_phrases_launching_submarine": {
+    "message": "潜水艦を発進中"
+  },
+  "chat_loading_phrases_letting_bait_sink_in": {
+    "message": "餌をじっくり沈め中"
+  },
+  "chat_loading_phrases_making_splash": {
+    "message": "水しぶきを上げ中"
+  },
+  "chat_loading_phrases_mapping_ocean_floor": {
+    "message": "海底の地図を作成中"
+  },
+  "chat_loading_phrases_navigating_stream": {
+    "message": "流れに沿って航行中"
+  },
+  "chat_loading_phrases_plotting_course": {
+    "message": "針路を設定中"
+  },
+  "chat_loading_phrases_plunging_into_deep": {
+    "message": "深海へ飛び込み中"
+  },
+  "chat_loading_phrases_polishing_telescope": {
+    "message": "望遠鏡を磨き中"
+  },
+  "chat_loading_phrases_reading_tides": {
+    "message": "潮を読み中"
+  },
+  "chat_loading_phrases_reeling_in_results": {
+    "message": "リールで結果を巻き上げ中"
+  },
+  "chat_loading_phrases_riding_current": {
+    "message": "海流に乗って進み中"
+  },
+  "chat_loading_phrases_sailing_through_sources": {
+    "message": "資料の海を帆走中"
+  },
+  "chat_loading_phrases_scanning_horizon": {
+    "message": "水平線を見渡し中"
+  },
+  "chat_loading_phrases_scouting_reef": {
+    "message": "サンゴ礁を偵察中"
+  },
+  "chat_loading_phrases_shaking_magic_fish_bowl": {
+    "message": "魔法の金魚鉢を振り中"
+  },
+  "chat_loading_phrases_sifting_through_current": {
+    "message": "流れをふるいにかけ中"
+  },
+  "chat_loading_phrases_skimming_surface": {
+    "message": "水面を流し読み中"
+  },
+  "chat_loading_phrases_spinning_compass": {
+    "message": "コンパスを回し中"
+  },
+  "chat_loading_phrases_splashing_through_thoughts": {
+    "message": "思考の浅瀬でばしゃばしゃ中"
+  },
+  "chat_loading_phrases_stirring_whirlpool": {
+    "message": "渦をかき混ぜ中"
+  },
+  "chat_loading_phrases_summoning_brain_fish": {
+    "message": "知恵の魚を召喚中"
+  },
+  "chat_loading_phrases_surfing_knowledge_waves": {
+    "message": "知識の波でサーフィン中"
+  },
+  "chat_loading_phrases_swimming_through_data": {
+    "message": "データの海を泳ぎ中"
+  },
+  "chat_loading_phrases_swimming_upstream": {
+    "message": "流れに逆らって泳ぎ中"
+  },
+  "chat_loading_phrases_testing_waters": {
+    "message": "水温を確かめ中"
+  },
+  "chat_loading_phrases_trawling_archives": {
+    "message": "アーカイブを底引き網でさらい中"
+  },
+  "chat_loading_phrases_trolling_for_treasures": {
+    "message": "宝物を求めてトローリング中"
+  },
+  "chat_loading_phrases_tuning_sonar": {
+    "message": "ソナーを調整中"
+  },
+  "chat_loading_phrases_untangling_net": {
+    "message": "絡まった網をほどき中"
+  },
+  "chat_loading_phrases_wading_through_info": {
+    "message": "情報の浅瀬をじゃぶじゃぶ渡り中"
+  },
+  "chat_loading_phrases_warming_up_engines": {
+    "message": "エンジンを温め中"
+  },
+  "chat_message_cancel": {
+    "message": "キャンセル"
+  },
+  "chat_message_collapse": {
+    "message": "折りたたむ"
+  },
+  "chat_message_copied": {
+    "message": "コピーしました"
+  },
+  "chat_message_copy": {
+    "message": "メッセージをコピー"
+  },
+  "chat_message_download": {
+    "message": "ダウンロード"
+  },
+  "chat_message_edit": {
+    "message": "メッセージを編集"
+  },
+  "chat_message_expand": {
+    "message": "展開"
+  },
+  "chat_message_next_branch": {
+    "message": "次のバージョン"
+  },
+  "chat_message_previous_branch": {
+    "message": "前のバージョン"
+  },
+  "chat_message_regenerate": {
+    "message": "回答を再生成"
+  },
+  "chat_message_save": {
+    "message": "保存"
+  },
+  "chat_retry": {
+    "message": "再試行"
+  },
+  "chat_run_failed": {
+    "message": "回答を生成できませんでした"
+  },
+  "chat_tab_context_fallback": {
+    "message": "ページのコンテキスト"
+  },
+  "chat_thinking": {
+    "message": "思考中…"
+  },
+  "chat_tool_call_failed": {
+    "message": "失敗"
+  },
+  "chat_tool_call_running": {
+    "message": "実行中"
+  },
+  "chat_tool_call_succeeded": {
+    "message": "完了"
+  },
+  "chat_traces_clear_all": {
+    "message": "すべてのトレースを消去"
+  },
+  "chat_traces_close_aria": {
+    "message": "チャットトレースを閉じる"
+  },
+  "chat_traces_copy_logs": {
+    "message": "ログをコピー"
+  },
+  "chat_traces_copy_logs_aria": {
+    "message": "チャットログをコピー"
+  },
+  "chat_traces_duration_ms": {
+    "message": "{{value}}ms"
+  },
+  "chat_traces_empty_state": {
+    "message": "チャットのアクティビティを待機しています。メッセージを送信すると、各ターンのパイプラインステップとLLM呼び出しがここにリアルタイムで表示されます。"
+  },
+  "chat_traces_hit_badge": {
+    "message": "✓ {{count}}件ヒット"
+  },
+  "chat_traces_hit_count": {
+    "message": "{{count}}件ヒット"
+  },
+  "chat_traces_llm_badge": {
+    "message": "{{count}} llm"
+  },
+  "chat_traces_llm_call_fallback": {
+    "message": "llm呼び出し"
+  },
+  "chat_traces_llm_calls_header": {
+    "message": "LLM呼び出し{{count}}件 · モデル · プロンプト全文 · 応答"
+  },
+  "chat_traces_message_fallback": {
+    "message": "メッセージ"
+  },
+  "chat_traces_no_hits": {
+    "message": "∅ ヒットなし"
+  },
+  "chat_traces_panel_title": {
+    "message": "チャットトレース"
+  },
+  "chat_traces_query_label": {
+    "message": "クエリ"
+  },
+  "chat_traces_response_label": {
+    "message": "応答"
+  },
+  "chat_traces_session_empty": {
+    "message": "このターンにはまだ観測可能なステップがありません。パイプラインからの報告を待機しています。"
+  },
+  "chat_traces_session_fallback_title": {
+    "message": "チャットターン"
+  },
+  "chat_traces_session_meta": {
+    "message": "{{count}}ステップ · {{time}}"
+  },
+  "chat_traces_session_title_prefix": {
+    "message": "チャット"
+  },
+  "chat_traces_stage_agent_memory": {
+    "message": "エージェントのメモリ"
+  },
+  "chat_traces_stage_assess": {
+    "message": "評価"
+  },
+  "chat_traces_stage_episodic_memory": {
+    "message": "エピソードメモリ"
+  },
+  "chat_traces_stage_follow_up": {
+    "message": "フォローアップ"
+  },
+  "chat_traces_stage_knowledge_base": {
+    "message": "ナレッジベース"
+  },
+  "chat_traces_stage_knowledge_brief": {
+    "message": "ナレッジブリーフ"
+  },
+  "chat_traces_stage_live_context": {
+    "message": "ライブコンテキスト"
+  },
+  "chat_traces_stage_message_streaming": {
+    "message": "メッセージ · ストリーミング"
+  },
+  "chat_traces_stage_perceive": {
+    "message": "知覚"
+  },
+  "chat_traces_stage_recall": {
+    "message": "想起"
+  },
+  "chat_traces_stage_reflect": {
+    "message": "振り返り"
+  },
+  "chat_traces_stage_respond": {
+    "message": "応答"
+  },
+  "chat_traces_stage_revise": {
+    "message": "更新"
+  },
+  "chat_traces_stage_task": {
+    "message": "タスク"
+  },
+  "chat_traces_stage_task_router": {
+    "message": "タスクルーター"
+  },
+  "chat_traces_step_count": {
+    "message": "{{count}}ステップ"
+  },
+  "chat_traces_task_complete": {
+    "message": "タスク完了"
+  },
+  "chat_traces_task_failed": {
+    "message": "タスク失敗"
+  },
+  "chat_traces_task_run": {
+    "message": "タスク実行"
+  },
+  "chat_traces_tool_call_badge": {
+    "message": "ツール呼び出し"
+  },
+  "chat_traces_trigger_aria": {
+    "message": "チャットトレースを開く"
+  },
+  "chat_traces_trigger_title": {
+    "message": "チャットトレース"
+  },
+  "chat_unsupported_part": {
+    "message": "このコンテンツはPhi Chatではまだサポートされていません（{{type}}）。"
+  },
+  "chat_user_action_allow": {
+    "message": "許可"
+  },
+  "chat_user_action_deny": {
+    "message": "キャンセル"
+  },
+  "chat_user_action_title": {
+    "message": "{{name}}が確認を求めています"
+  },
+  "chat_welcome_subtitle": {
+    "message": "検索や質問、今開いているページに関する作業ができます"
+  },
+  "chat_welcome_title": {
+    "message": "こんにちは、{{name}}です"
+  },
+  "conversation_add_category": {
+    "message": "新しいカテゴリ"
+  },
+  "conversation_add_category_confirm": {
+    "message": "作成"
+  },
+  "conversation_add_category_placeholder": {
+    "message": "カテゴリ名"
+  },
+  "conversation_all_category": {
+    "message": "すべて"
+  },
+  "conversation_all_conversations": {
+    "message": "すべての会話"
+  },
+  "conversation_all_conversations_description": {
+    "message": "会話履歴を閲覧・管理できます"
+  },
+  "conversation_back": {
+    "message": "戻る"
+  },
+  "conversation_batch_mode": {
+    "message": "選択"
+  },
+  "conversation_browse_all": {
+    "message": "すべて表示…"
+  },
+  "conversation_browse_all_categories": {
+    "message": "すべてのカテゴリを表示…"
+  },
+  "conversation_cancel": {
+    "message": "キャンセル"
+  },
+  "conversation_categories": {
+    "message": "カテゴリ"
+  },
+  "conversation_category_name_conflict": {
+    "message": "この名前のカテゴリは既に存在します。"
+  },
+  "conversation_create_error": {
+    "message": "会話を作成できませんでした"
+  },
+  "conversation_default_category_name": {
+    "message": "{{name}}との会話"
+  },
+  "conversation_delete": {
+    "message": "削除"
+  },
+  "conversation_delete_batch_confirm_description": {
+    "message": "{{count}}件の会話を削除してもよろしいですか？この操作は元に戻せません。"
+  },
+  "conversation_delete_batch_confirm_title": {
+    "message": "選択した会話を削除"
+  },
+  "conversation_delete_category": {
+    "message": "カテゴリを削除"
+  },
+  "conversation_delete_category_confirm_description": {
+    "message": "このカテゴリの会話は「{{name}}との会話」に戻ります。"
+  },
+  "conversation_delete_category_confirm_title": {
+    "message": "カテゴリを削除"
+  },
+  "conversation_delete_confirm_description": {
+    "message": "この会話を削除してもよろしいですか？この操作は元に戻せません。"
+  },
+  "conversation_delete_confirm_title": {
+    "message": "会話を削除"
+  },
+  "conversation_delete_selected": {
+    "message": "削除 ({{count}})"
+  },
+  "conversation_deselect_item": {
+    "message": "選択を解除"
+  },
+  "conversation_exit_batch_mode": {
+    "message": "完了"
+  },
+  "conversation_load_error": {
+    "message": "会話を読み込めませんでした"
+  },
+  "conversation_loading": {
+    "message": "読み込み中…"
+  },
+  "conversation_move_to_category": {
+    "message": "カテゴリに移動"
+  },
+  "conversation_move_to_default": {
+    "message": "「{{name}}との会話」に移動"
+  },
+  "conversation_no_categories_found": {
+    "message": "カテゴリが見つかりません"
+  },
+  "conversation_no_conversations": {
+    "message": "会話はまだありません"
+  },
+  "conversation_no_search_results": {
+    "message": "「{{query}}」に一致する結果はありません"
+  },
+  "conversation_recent_conversations": {
+    "message": "最近の会話"
+  },
+  "conversation_rename": {
+    "message": "名前を変更"
+  },
+  "conversation_rename_category": {
+    "message": "カテゴリ名を変更"
+  },
+  "conversation_rename_description": {
+    "message": "この会話の新しい名前を入力してください。"
+  },
+  "conversation_save": {
+    "message": "保存"
+  },
+  "conversation_search_categories": {
+    "message": "カテゴリを検索"
+  },
+  "conversation_search_label": {
+    "message": "会話を検索"
+  },
+  "conversation_search_placeholder": {
+    "message": "会話を検索"
+  },
+  "conversation_select_conversation": {
+    "message": "会話を選択"
+  },
+  "conversation_select_item": {
+    "message": "選択"
+  },
+  "conversation_select_placeholder": {
+    "message": "会話を選択"
+  },
+  "conversation_title_placeholder": {
+    "message": "会話のタイトル"
+  },
+  "conversation_untitled": {
+    "message": "無題"
+  },
+  "conversations_categories_all": {
+    "message": "すべて"
+  },
+  "conversations_categories_create": {
+    "message": "作成"
+  },
+  "conversations_categories_default": {
+    "message": "{{name}}とのチャット"
+  },
+  "conversations_categories_delete": {
+    "message": "カテゴリを削除"
+  },
+  "conversations_categories_delete_confirm_description": {
+    "message": "このカテゴリのチャットは「{{name}}」に戻ります。"
+  },
+  "conversations_categories_delete_confirm_title": {
+    "message": "カテゴリを削除"
+  },
+  "conversations_categories_menu_label": {
+    "message": "カテゴリメニュー"
+  },
+  "conversations_categories_more_label": {
+    "message": "その他のカテゴリ"
+  },
+  "conversations_categories_name_conflict": {
+    "message": "この名前のカテゴリはすでに存在します。"
+  },
+  "conversations_categories_name_placeholder": {
+    "message": "カテゴリ名"
+  },
+  "conversations_categories_new": {
+    "message": "新しいカテゴリ"
+  },
+  "conversations_categories_rename": {
+    "message": "カテゴリ名を変更"
+  },
+  "conversations_create_failed": {
+    "message": "チャットを作成できませんでした。"
+  },
+  "conversations_empty": {
+    "message": "まだチャットはありません。"
+  },
+  "conversations_load_failed": {
+    "message": "チャットを読み込めませんでした。"
+  },
+  "conversations_load_more": {
+    "message": "さらに読み込む"
+  },
+  "conversations_menu_cancel": {
+    "message": "キャンセル"
+  },
+  "conversations_menu_delete": {
+    "message": "削除"
+  },
+  "conversations_menu_delete_confirm_description": {
+    "message": "このチャットを削除してもよろしいですか？この操作は元に戻せません。"
+  },
+  "conversations_menu_delete_confirm_title": {
+    "message": "チャットを削除"
+  },
+  "conversations_menu_label": {
+    "message": "チャットメニュー"
+  },
+  "conversations_menu_move": {
+    "message": "カテゴリに移動"
+  },
+  "conversations_menu_rename": {
+    "message": "名前を変更"
+  },
+  "conversations_menu_rename_description": {
+    "message": "このチャットの新しい名前を入力してください。"
+  },
+  "conversations_menu_save": {
+    "message": "保存"
+  },
+  "conversations_menu_title_placeholder": {
+    "message": "チャットのタイトル"
+  },
+  "conversations_move_failed": {
+    "message": "チャットを移動できませんでした。"
+  },
+  "conversations_new": {
+    "message": "新しいチャット"
+  },
+  "conversations_retry": {
+    "message": "再試行"
+  },
+  "conversations_search_close": {
+    "message": "検索を閉じる"
+  },
+  "conversations_search_no_results": {
+    "message": "「{{query}}」に一致する結果はありません"
+  },
+  "conversations_search_open": {
+    "message": "チャットを検索"
+  },
+  "conversations_search_placeholder": {
+    "message": "チャットを検索"
+  },
+  "conversations_search_tooltip": {
+    "message": "チャットを検索（{{shortcut}}）"
+  },
+  "conversations_untitled": {
+    "message": "無題のチャット"
+  },
+  "current_tab_confirm": {
+    "message": "承認"
+  },
+  "current_tab_confirm_description": {
+    "message": "続行する前に操作内容をご確認ください。"
+  },
+  "current_tab_confirm_failed": {
+    "message": "確認の送信に失敗しました。もう一度お試しください。"
+  },
+  "current_tab_confirm_title": {
+    "message": "現在のタブでの操作の確認"
+  },
+  "current_tab_deny": {
+    "message": "拒否"
+  },
+  "current_tab_no_active_tab": {
+    "message": "利用できるアクティブなタブがありません。現在のタブモードはオフになりました。"
+  },
+  "current_tab_risk_high": {
+    "message": "高"
+  },
+  "current_tab_risk_label": {
+    "message": "リスク"
+  },
+  "current_tab_risk_low": {
+    "message": "低"
+  },
+  "current_tab_risk_medium": {
+    "message": "中"
+  },
+  "current_tab_screenshot_alt": {
+    "message": "確認用スクリーンショット"
+  },
+  "dev_entry_agent_memory": {
+    "message": "エージェントのメモリ"
+  },
+  "dev_entry_shadow_tasks": {
+    "message": "バックグラウンドタスク"
+  },
+  "drag_drop_subtitle": {
+    "message": "離すとメッセージにファイルが追加されます"
+  },
+  "drag_drop_title": {
+    "message": "ファイルをドロップしてアップロード"
+  },
+  "errors_balance_alert_threshold": {
+    "message": "残高がアラートのしきい値を下回っています。"
+  },
+  "errors_chat_forbidden": {
+    "message": "このチャットにアクセスする権限がありません。"
+  },
+  "errors_chat_not_found": {
+    "message": "チャットが見つかりません。"
+  },
+  "errors_token_invalid": {
+    "message": "認証トークンが無効か、期限切れです。"
+  },
+  "features_chat_with_tabs": {
+    "message": "タブとチャット"
+  },
+  "features_loading_context": {
+    "message": "コンテキストを読み込んでいます…"
+  },
+  "features_web_search": {
+    "message": "ウェブ検索"
+  },
+  "file_upload_failed": {
+    "message": "ファイルのアップロードに失敗しました"
+  },
+  "message_collapse_raw_reasoning": {
+    "message": "生の思考を折りたたむ"
+  },
+  "message_copy_formula": {
+    "message": "数式をコピー"
+  },
+  "message_error_occurred": {
+    "message": "エラーが発生しました"
+  },
+  "message_expand_raw_reasoning": {
+    "message": "生の思考を展開"
+  },
+  "message_feedback_details_label": {
+    "message": "詳細をご記入ください（任意）"
+  },
+  "message_feedback_negative_action": {
+    "message": "低評価をつける"
+  },
+  "message_feedback_negative_placeholder": {
+    "message": "この回答のどのような点が不満でしたか？"
+  },
+  "message_feedback_negative_reason_label": {
+    "message": "報告する問題の種類を選択してください（任意）"
+  },
+  "message_feedback_negative_title": {
+    "message": "低評価のフィードバック"
+  },
+  "message_feedback_positive_action": {
+    "message": "高評価をつける"
+  },
+  "message_feedback_positive_placeholder": {
+    "message": "この回答のどのような点が良かったですか？"
+  },
+  "message_feedback_positive_reason_label": {
+    "message": "気に入った点を選択してください（任意）"
+  },
+  "message_feedback_positive_title": {
+    "message": "高評価のフィードバック"
+  },
+  "message_feedback_privacy_notice": {
+    "message": "いただいたフィードバックはPhiの改善に役立てられることがあります"
+  },
+  "message_feedback_reasons_negative_incorrect": {
+    "message": "不正確または誤解を招く"
+  },
+  "message_feedback_reasons_negative_not_followed": {
+    "message": "指示に従っていない"
+  },
+  "message_feedback_reasons_negative_other": {
+    "message": "その他"
+  },
+  "message_feedback_reasons_negative_unhelpful": {
+    "message": "役に立たない"
+  },
+  "message_feedback_reasons_negative_unsafe": {
+    "message": "安全でない、または不適切"
+  },
+  "message_feedback_reasons_positive_accurate": {
+    "message": "正確で信頼できる"
+  },
+  "message_feedback_reasons_positive_fast_response": {
+    "message": "応答が速い"
+  },
+  "message_feedback_reasons_positive_good_sources": {
+    "message": "情報源に基づいている"
+  },
+  "message_feedback_reasons_positive_helpful": {
+    "message": "役に立つ回答"
+  },
+  "message_feedback_reasons_positive_memory_recall": {
+    "message": "コンテキストを記憶していた"
+  },
+  "message_feedback_reasons_positive_other": {
+    "message": "その他"
+  },
+  "message_feedback_reasons_positive_page_context": {
+    "message": "ページやタブを理解していた"
+  },
+  "message_feedback_reasons_positive_personality": {
+    "message": "個性が魅力的"
+  },
+  "message_feedback_reasons_positive_task_execution": {
+    "message": "タスクをうまく実行した"
+  },
+  "message_file_audio": {
+    "message": "音声"
+  },
+  "message_file_document": {
+    "message": "ドキュメント"
+  },
+  "message_file_video": {
+    "message": "動画"
+  },
+  "message_im_messages_not_editable": {
+    "message": "連携チャンネルからのメッセージは編集できません。"
+  },
+  "message_open_in_new_tab": {
+    "message": "新しいタブで開く"
+  },
+  "message_raw_reasoning_empty": {
+    "message": "生の思考はまだありません。"
+  },
+  "message_raw_reasoning_unavailable": {
+    "message": "現在のモデルプロバイダーは生のCoTを公開していません。"
+  },
+  "message_reasoning_summary": {
+    "message": "思考の要約"
+  },
+  "message_run_phase_executing": {
+    "message": "作業中…"
+  },
+  "message_run_phase_routing": {
+    "message": "思考中…"
+  },
+  "message_save": {
+    "message": "保存"
+  },
+  "message_skills_label": {
+    "message": "スキル"
+  },
+  "message_skills_sources_built_in": {
+    "message": "組み込み"
+  },
+  "message_skills_sources_user": {
+    "message": "マイスキル"
+  },
+  "message_source": {
+    "message": "情報源"
+  },
+  "message_sources_web_search": {
+    "message": "情報源"
+  },
+  "message_stream_interrupted": {
+    "message": "応答が中断されました"
+  },
+  "message_thought": {
+    "message": "思考プロセス"
+  },
+  "message_tool_aborted": {
+    "message": "中断"
+  },
+  "message_tool_calls": {
+    "message": "ツール呼び出し"
+  },
+  "message_tool_web_search": {
+    "message": "ウェブ検索ツール"
+  },
+  "message_warning_title": {
+    "message": "警告"
+  },
+  "message_worker_progress_browser": {
+    "message": "ブラウザを操作しています…"
+  },
+  "message_worker_progress_browser_task": {
+    "message": "ブラウザタスクを実行しています…"
+  },
+  "message_worker_progress_fallback": {
+    "message": "処理しています…"
+  },
+  "message_worker_progress_run_script": {
+    "message": "スキルを実行しています…"
+  },
+  "message_worker_progress_search": {
+    "message": "検索しています…"
+  },
+  "newtab_chat": {
+    "message": "チャット"
+  },
+  "newtab_chat_with_ai": {
+    "message": "{{name}}とチャット"
+  },
+  "newtab_delete_suggestion": {
+    "message": "候補を削除"
+  },
+  "newtab_greeting_afternoon": {
+    "message": "こんにちは"
+  },
+  "newtab_greeting_evening": {
+    "message": "こんばんは"
+  },
+  "newtab_greeting_morning": {
+    "message": "おはようございます"
+  },
+  "newtab_greeting_prompt_byte_count": {
+    "message": "{{count}} / {{max}} バイト"
+  },
+  "newtab_greeting_prompt_cancel": {
+    "message": "キャンセル"
+  },
+  "newtab_greeting_prompt_customized": {
+    "message": "カスタマイズ済み"
+  },
+  "newtab_greeting_prompt_default": {
+    "message": "デフォルト"
+  },
+  "newtab_greeting_prompt_description": {
+    "message": "新しいタブに表示するパーソナライズされたあいさつの生成に使う組み込みプロンプトを調整できます。現在のエージェントのソウルを挿入したい位置には、「soul」プレースホルダーを使用してください。"
+  },
+  "newtab_greeting_prompt_edit": {
+    "message": "あいさつプロンプトを編集"
+  },
+  "newtab_greeting_prompt_empty_error": {
+    "message": "あいさつの指示を空にすることはできません。"
+  },
+  "newtab_greeting_prompt_hint": {
+    "message": "保存した変更は、今後生成されるあいさつから適用されます。"
+  },
+  "newtab_greeting_prompt_label": {
+    "message": "指示"
+  },
+  "newtab_greeting_prompt_load_error": {
+    "message": "あいさつプロンプトを読み込めませんでした。"
+  },
+  "newtab_greeting_prompt_loading": {
+    "message": "あいさつプロンプトを読み込んでいます…"
+  },
+  "newtab_greeting_prompt_placeholder": {
+    "message": "あいさつの候補を生成するための指示を入力してください。"
+  },
+  "newtab_greeting_prompt_reset": {
+    "message": "デフォルトに戻す"
+  },
+  "newtab_greeting_prompt_reset_error": {
+    "message": "あいさつプロンプトをリセットできませんでした。"
+  },
+  "newtab_greeting_prompt_reset_saved": {
+    "message": "あいさつプロンプトをリセットしました"
+  },
+  "newtab_greeting_prompt_save": {
+    "message": "保存"
+  },
+  "newtab_greeting_prompt_save_error": {
+    "message": "あいさつプロンプトを保存できませんでした。"
+  },
+  "newtab_greeting_prompt_saved": {
+    "message": "あいさつプロンプトを保存しました"
+  },
+  "newtab_greeting_prompt_title": {
+    "message": "あいさつプロンプト"
+  },
+  "newtab_greeting_prompt_too_large_error": {
+    "message": "あいさつの指示はUTF-8で{{count}}バイト以内にしてください。"
+  },
+  "newtab_hold_cmd_to_switch_tab": {
+    "message": "<key/> を押しながら選択すると、このタブに切り替わります"
+  },
+  "newtab_like_greeting": {
+    "message": "このあいさつに「いいね」する"
+  },
+  "newtab_open": {
+    "message": "開く"
+  },
+  "newtab_open_in_new_tab": {
+    "message": "新しいタブで開く"
+  },
+  "newtab_search_placeholder": {
+    "message": "検索、AIへの質問、またはURLを入力"
+  },
+  "onboard_debug_avatar_alt": {
+    "message": "アシスタントのアバター"
+  },
+  "onboard_debug_avatar_label": {
+    "message": "アバター: {{value}}"
+  },
+  "onboard_debug_complete_failed": {
+    "message": "完了処理に失敗しました: {{error}}"
+  },
+  "onboard_debug_complete_success": {
+    "message": "オンボーディングを完了しました（スキップ時のデフォルトを適用）"
+  },
+  "onboard_debug_completed_label": {
+    "message": "完了: {{value}}"
+  },
+  "onboard_debug_load_failed": {
+    "message": "読み込みに失敗しました: {{error}}"
+  },
+  "onboard_debug_refresh": {
+    "message": "更新"
+  },
+  "onboard_debug_reset_failed": {
+    "message": "リセットに失敗しました: {{error}}"
+  },
+  "onboard_debug_reset_state": {
+    "message": "状態をリセット"
+  },
+  "onboard_debug_reset_success": {
+    "message": "オンボーディング状態をリセットしました"
+  },
+  "onboard_debug_skip_complete": {
+    "message": "スキップで完了"
+  },
+  "onboard_debug_title": {
+    "message": "オンボーディングデバッグ"
+  },
+  "onboarding_alert": {
+    "message": "お互いのことを知りましょう"
+  },
+  "onboarding_alert_description": {
+    "message": "少しチャットして、私の性格と名前を決めましょう。タップだけで進められるので、入力は必要ありません。"
+  },
+  "onboarding_avatar_card_alt": {
+    "message": "アシスタントが自分で描いた顔"
+  },
+  "onboarding_avatar_card_cancelled": {
+    "message": "描画をキャンセルしました。"
+  },
+  "onboarding_avatar_card_drawing": {
+    "message": "自分の顔を描いています…"
+  },
+  "onboarding_avatar_card_failed": {
+    "message": "うまく描けませんでした。"
+  },
+  "onboarding_avatar_card_title": {
+    "message": "私の顔"
+  },
+  "onboarding_completion_alert": {
+    "message": "準備完了！"
+  },
+  "onboarding_completion_alert_description": {
+    "message": "アシスタントの準備ができました。この会話は、オンボーディングの記録としてここに残ります。"
+  },
+  "onboarding_invitation": {
+    "message": "アシスタントのことを知りましょう"
+  },
+  "onboarding_invitation_description": {
+    "message": "短いチャットで性格と名前を決めることも、スキップしてすぐに使い始めることもできます。"
+  },
+  "onboarding_skip_button": {
+    "message": "オンボーディングをスキップ"
+  },
+  "onboarding_start_button": {
+    "message": "開始"
+  },
+  "onboarding_start_chat_button": {
+    "message": "新しいチャットを開始"
+  },
+  "private_ai_banner_description": {
+    "message": "プライベートAIの応答は、オンラインモデルと品質が異なる場合があります。"
+  },
+  "private_ai_banner_dismiss_for_now": {
+    "message": "今回は閉じる"
+  },
+  "private_ai_banner_dont_show_again": {
+    "message": "今後表示しない"
+  },
+  "private_ai_banner_title": {
+    "message": "プライベートAIを使用しています"
+  },
+  "shadow_tasks_approval_approve": {
+    "message": "承認"
+  },
+  "shadow_tasks_approval_approved": {
+    "message": "承認を送信しました"
+  },
+  "shadow_tasks_approval_failed": {
+    "message": "承認の判断を送信できませんでした"
+  },
+  "shadow_tasks_approval_reject": {
+    "message": "拒否"
+  },
+  "shadow_tasks_approval_rejected": {
+    "message": "拒否を送信しました"
+  },
+  "shadow_tasks_approval_stale": {
+    "message": "この承認リクエストは既に無効になっています"
+  },
+  "shadow_tasks_artifacts_empty": {
+    "message": "成果物はありません"
+  },
+  "shadow_tasks_artifacts_no_shadow_task_call": {
+    "message": "この実行ではSHADOW_TASKが呼び出されなかったため、録画やバックグラウンドブラウザの成果物は生成されませんでした。"
+  },
+  "shadow_tasks_artifacts_open": {
+    "message": "開く"
+  },
+  "shadow_tasks_artifacts_size_bytes": {
+    "message": "{{count}}バイト"
+  },
+  "shadow_tasks_back": {
+    "message": "戻る"
+  },
+  "shadow_tasks_cancel": {
+    "message": "キャンセル"
+  },
+  "shadow_tasks_cancel_confirm": {
+    "message": "このタスクをキャンセルしますか？"
+  },
+  "shadow_tasks_cancel_failed": {
+    "message": "タスクをキャンセルできませんでした"
+  },
+  "shadow_tasks_cancelled": {
+    "message": "タスクをキャンセルしました"
+  },
+  "shadow_tasks_default_task_title": {
+    "message": "バックグラウンドタスク"
+  },
+  "shadow_tasks_empty": {
+    "message": "バックグラウンドタスクはまだありません"
+  },
+  "shadow_tasks_fields_approval_mode": {
+    "message": "承認モード"
+  },
+  "shadow_tasks_fields_approved_at": {
+    "message": "承認日時"
+  },
+  "shadow_tasks_fields_created_at": {
+    "message": "作成日時"
+  },
+  "shadow_tasks_fields_finished_at": {
+    "message": "終了日時"
+  },
+  "shadow_tasks_fields_job_id": {
+    "message": "ジョブID"
+  },
+  "shadow_tasks_fields_objective": {
+    "message": "目標"
+  },
+  "shadow_tasks_fields_run_id": {
+    "message": "実行ID"
+  },
+  "shadow_tasks_fields_run_index": {
+    "message": "実行番号"
+  },
+  "shadow_tasks_fields_shadow_task_call_count": {
+    "message": "バックグラウンドタスクツールの呼び出し回数"
+  },
+  "shadow_tasks_fields_started_at": {
+    "message": "開始日時"
+  },
+  "shadow_tasks_fields_status": {
+    "message": "ステータス"
+  },
+  "shadow_tasks_fields_task_id": {
+    "message": "タスクID"
+  },
+  "shadow_tasks_fields_task_status": {
+    "message": "タスクのステータス"
+  },
+  "shadow_tasks_fields_trigger_source": {
+    "message": "トリガー元"
+  },
+  "shadow_tasks_fields_trigger_type": {
+    "message": "トリガーの種類"
+  },
+  "shadow_tasks_filters_all_statuses": {
+    "message": "すべてのステータス"
+  },
+  "shadow_tasks_filters_keyword": {
+    "message": "タイトル、目標、タスクIDで検索"
+  },
+  "shadow_tasks_history_empty": {
+    "message": "実行履歴はまだありません"
+  },
+  "shadow_tasks_history_no_run_selected": {
+    "message": "詳細を表示する実行を選択してください"
+  },
+  "shadow_tasks_invalid_objective": {
+    "message": "「shadow」プレフィックスの後に目標を入力してください"
+  },
+  "shadow_tasks_list_title": {
+    "message": "バックグラウンドタスク一覧"
+  },
+  "shadow_tasks_loading": {
+    "message": "タスクを読み込んでいます…"
+  },
+  "shadow_tasks_loading_detail": {
+    "message": "タスクの詳細を読み込んでいます…"
+  },
+  "shadow_tasks_logs_empty": {
+    "message": "ログはまだありません"
+  },
+  "shadow_tasks_logs_load_more": {
+    "message": "さらにログを読み込む"
+  },
+  "shadow_tasks_logs_loading": {
+    "message": "ログを読み込んでいます…"
+  },
+  "shadow_tasks_logs_title": {
+    "message": "タイムラインログ"
+  },
+  "shadow_tasks_page_title": {
+    "message": "バックグラウンドタスク"
+  },
+  "shadow_tasks_prepare_failed": {
+    "message": "バックグラウンドタスクを送信できませんでした"
+  },
+  "shadow_tasks_prepare_success": {
+    "message": "バックグラウンドタスクを承認待ちとして送信しました"
+  },
+  "shadow_tasks_recordings_empty": {
+    "message": "このタスクの録画はありません"
+  },
+  "shadow_tasks_recordings_fields_download_id": {
+    "message": "ダウンロードID"
+  },
+  "shadow_tasks_recordings_fields_file_size": {
+    "message": "ファイルサイズ"
+  },
+  "shadow_tasks_recordings_fields_started_at": {
+    "message": "開始時刻"
+  },
+  "shadow_tasks_recordings_fields_stopped_at": {
+    "message": "停止時刻"
+  },
+  "shadow_tasks_recordings_no_recordings": {
+    "message": "このタブの録画はまだありません"
+  },
+  "shadow_tasks_recordings_open": {
+    "message": "ファイルを開く"
+  },
+  "shadow_tasks_recordings_open_failed": {
+    "message": "録画ファイルを開けませんでした"
+  },
+  "shadow_tasks_recordings_open_success": {
+    "message": "録画ファイルを開くようリクエストしました"
+  },
+  "shadow_tasks_recordings_show": {
+    "message": "フォルダで表示"
+  },
+  "shadow_tasks_recordings_show_failed": {
+    "message": "録画をフォルダで表示できませんでした"
+  },
+  "shadow_tasks_recordings_show_success": {
+    "message": "録画をフォルダで表示するようリクエストしました"
+  },
+  "shadow_tasks_recordings_status_cancelled": {
+    "message": "キャンセル済み"
+  },
+  "shadow_tasks_recordings_status_failed": {
+    "message": "失敗"
+  },
+  "shadow_tasks_recordings_status_label": {
+    "message": "ステータス: {{status}}"
+  },
+  "shadow_tasks_recordings_status_pending": {
+    "message": "待機中"
+  },
+  "shadow_tasks_recordings_status_recording": {
+    "message": "録画中"
+  },
+  "shadow_tasks_recordings_status_saved": {
+    "message": "保存済み"
+  },
+  "shadow_tasks_recordings_status_starting": {
+    "message": "開始中"
+  },
+  "shadow_tasks_recordings_status_stopping": {
+    "message": "停止中"
+  },
+  "shadow_tasks_recordings_title": {
+    "message": "録画"
+  },
+  "shadow_tasks_refresh": {
+    "message": "更新"
+  },
+  "shadow_tasks_refresh_detail": {
+    "message": "詳細を更新"
+  },
+  "shadow_tasks_rerun": {
+    "message": "再実行"
+  },
+  "shadow_tasks_rerun_failed": {
+    "message": "タスクを再実行できませんでした"
+  },
+  "shadow_tasks_rerun_success": {
+    "message": "新しい実行を作成しました"
+  },
+  "shadow_tasks_result_error": {
+    "message": "エラー"
+  },
+  "shadow_tasks_result_final_answer": {
+    "message": "最終回答"
+  },
+  "shadow_tasks_sections_artifacts": {
+    "message": "成果物"
+  },
+  "shadow_tasks_sections_history": {
+    "message": "実行履歴"
+  },
+  "shadow_tasks_sections_selected_run": {
+    "message": "選択中の実行"
+  },
+  "shadow_tasks_sections_summary": {
+    "message": "タスクの概要"
+  },
+  "shadow_tasks_sections_tabs": {
+    "message": "実行タブ"
+  },
+  "shadow_tasks_sections_task_archived": {
+    "message": "アーカイブ済み"
+  },
+  "shadow_tasks_sections_task_disabled": {
+    "message": "無効"
+  },
+  "shadow_tasks_sections_task_not_started": {
+    "message": "未開始"
+  },
+  "shadow_tasks_sections_task_ready": {
+    "message": "準備完了"
+  },
+  "shadow_tasks_sections_user_original_message": {
+    "message": "ユーザーの元のメッセージ"
+  },
+  "shadow_tasks_sections_worker_debug": {
+    "message": "ワーカーデバッグ"
+  },
+  "shadow_tasks_select_hint": {
+    "message": "タスクを選択すると詳細が表示されます"
+  },
+  "shadow_tasks_status_cancelled": {
+    "message": "キャンセル済み"
+  },
+  "shadow_tasks_status_completed": {
+    "message": "完了"
+  },
+  "shadow_tasks_status_failed": {
+    "message": "失敗"
+  },
+  "shadow_tasks_status_queued": {
+    "message": "実行待ち"
+  },
+  "shadow_tasks_status_rejected": {
+    "message": "拒否"
+  },
+  "shadow_tasks_status_running": {
+    "message": "実行中"
+  },
+  "shadow_tasks_status_waiting_for_user": {
+    "message": "承認待ち"
+  },
+  "shadow_tasks_stream_closed_tab_hint": {
+    "message": "このタブはすでに閉じられています。下にプレビューがまだ表示されている場合のみ再試行してください。"
+  },
+  "shadow_tasks_stream_no_tab_selected": {
+    "message": "プレビューするタブを選択してください"
+  },
+  "shadow_tasks_stream_not_running": {
+    "message": "ストリームはタスクの実行中のみ利用できます"
+  },
+  "shadow_tasks_stream_retry": {
+    "message": "ストリームを再試行"
+  },
+  "shadow_tasks_stream_switch_failed": {
+    "message": "ストリームを切り替えられませんでした"
+  },
+  "shadow_tasks_stream_title": {
+    "message": "ライブストリーム"
+  },
+  "shadow_tasks_tabs_empty": {
+    "message": "このタスクのタブはまだ見つかっていません"
+  },
+  "shadow_tasks_tabs_recording_status": {
+    "message": "録画: {{status}}"
+  },
+  "shadow_tasks_tabs_state_closed": {
+    "message": "閉じている"
+  },
+  "shadow_tasks_tabs_state_open": {
+    "message": "開いている"
+  },
+  "shadow_tasks_tabs_tab_with_index": {
+    "message": "タブ {{index}} · {{title}}"
+  },
+  "shadow_tasks_tabs_title": {
+    "message": "タスクのタブ"
+  },
+  "shadow_tasks_worker_debug_client_name": {
+    "message": "ワーカールーム名"
+  },
+  "shadow_tasks_worker_debug_heartbeat": {
+    "message": "ハートビート"
+  },
+  "shadow_tasks_worker_debug_heartbeat_running": {
+    "message": "動作中"
+  },
+  "shadow_tasks_worker_debug_heartbeat_stopped": {
+    "message": "停止"
+  },
+  "shadow_tasks_worker_debug_last_connected_at": {
+    "message": "最終接続時刻"
+  },
+  "shadow_tasks_worker_debug_last_worker_registered_at": {
+    "message": "最終 worker_registered 時刻"
+  },
+  "shadow_tasks_worker_debug_no": {
+    "message": "いいえ"
+  },
+  "shadow_tasks_worker_debug_queued_messages": {
+    "message": "送信待ちメッセージ数"
+  },
+  "shadow_tasks_worker_debug_registered_worker_connection_id": {
+    "message": "登録済みワーカー接続ID"
+  },
+  "shadow_tasks_worker_debug_socket_state_connected": {
+    "message": "接続済み"
+  },
+  "shadow_tasks_worker_debug_socket_state_connecting": {
+    "message": "接続中"
+  },
+  "shadow_tasks_worker_debug_socket_state_disconnected": {
+    "message": "切断"
+  },
+  "shadow_tasks_worker_debug_socket_status": {
+    "message": "ワーカーソケット"
+  },
+  "shadow_tasks_worker_debug_using_token_fallback": {
+    "message": "トークンフォールバックを使用"
+  },
+  "shadow_tasks_worker_debug_yes": {
+    "message": "はい"
+  },
+  "shell_resize_list": {
+    "message": "チャット一覧のサイズを変更"
+  },
+  "sidebar_page_title": {
+    "message": "Phi AI"
+  },
+  "skill_creator_cancel": {
+    "message": "キャンセル"
+  },
+  "skill_creator_create_failed": {
+    "message": "スキルを作成できませんでした。"
+  },
+  "skill_creator_created": {
+    "message": "スキルを作成しました"
+  },
+  "skill_creator_description": {
+    "message": "シンプルモードまたはプロフェッショナルモードでスキルを作成します。"
+  },
+  "skill_creator_field_description": {
+    "message": "説明"
+  },
+  "skill_creator_field_name": {
+    "message": "名前"
+  },
+  "skill_creator_field_prompt": {
+    "message": "プロンプト"
+  },
+  "skill_creator_initial_prompt": {
+    "message": "実現したい機能を簡単に説明してください。"
+  },
+  "skill_creator_mode_professional": {
+    "message": "プロフェッショナル"
+  },
+  "skill_creator_mode_simple": {
+    "message": "シンプル"
+  },
+  "skill_creator_primary_create": {
+    "message": "スキルを作成"
+  },
+  "skill_creator_primary_next": {
+    "message": "次へ"
+  },
+  "skill_creator_submitting_create": {
+    "message": "作成中…"
+  },
+  "skill_creator_submitting_thinking": {
+    "message": "思考中"
+  },
+  "skill_creator_title": {
+    "message": "スキルの作成"
+  },
+  "skill_recorder_back": {
+    "message": "スキル一覧に戻る"
+  },
+  "skill_recorder_cancel": {
+    "message": "キャンセル"
+  },
+  "skill_recorder_errors_cancel_failed": {
+    "message": "スキルの記録をキャンセルできませんでした"
+  },
+  "skill_recorder_errors_page_not_recordable": {
+    "message": "このページは記録できません"
+  },
+  "skill_recorder_errors_recording_active": {
+    "message": "スキルの記録がすでに進行中です"
+  },
+  "skill_recorder_errors_start_failed": {
+    "message": "スキルの記録を開始できませんでした"
+  },
+  "skill_recorder_errors_unavailable": {
+    "message": "スキルレコーダーは利用できません"
+  },
+  "skill_recorder_loading_tabs": {
+    "message": "タブを読み込んでいます…"
+  },
+  "skill_recorder_new_tab": {
+    "message": "新しいタブ"
+  },
+  "skill_recorder_new_tab_description": {
+    "message": "ウェブサイトを開いて開始します"
+  },
+  "skill_recorder_no_tabs": {
+    "message": "記録できるタブが開かれていません"
+  },
+  "skill_recorder_title": {
+    "message": "スキルを記録"
+  },
+  "skill_recorder_untitled": {
+    "message": "無題"
+  },
+  "skill_recorder_waiting_for_page": {
+    "message": "記録の準備完了 · ウェブサイトを開いて開始してください"
+  },
+  "skills_actions_add": {
+    "message": "追加"
+  },
+  "skills_actions_add_failed": {
+    "message": "スキルを追加できませんでした"
+  },
+  "skills_actions_add_skill": {
+    "message": "「{{name}}」をライブラリに追加"
+  },
+  "skills_actions_added": {
+    "message": "追加済み"
+  },
+  "skills_actions_added_toast": {
+    "message": "スキルを追加しました"
+  },
+  "skills_actions_delete_failed": {
+    "message": "スキルを削除できませんでした"
+  },
+  "skills_actions_delete_skill": {
+    "message": "「{{name}}」を削除"
+  },
+  "skills_actions_deleted_toast": {
+    "message": "スキルを削除しました"
+  },
+  "skills_actions_disable_skill": {
+    "message": "「{{name}}」を無効にする"
+  },
+  "skills_actions_edit_skill": {
+    "message": "「{{name}}」を編集"
+  },
+  "skills_actions_enable_skill": {
+    "message": "「{{name}}」を有効にする"
+  },
+  "skills_actions_off": {
+    "message": "オフ"
+  },
+  "skills_actions_on": {
+    "message": "オン"
+  },
+  "skills_actions_remove_failed": {
+    "message": "スキルをライブラリから削除できませんでした"
+  },
+  "skills_actions_remove_skill": {
+    "message": "「{{name}}」をライブラリから削除"
+  },
+  "skills_actions_removed_toast": {
+    "message": "スキルをライブラリから削除しました"
+  },
+  "skills_actions_skill_creator_locked": {
+    "message": "スキルクリエイターはオフにできません"
+  },
+  "skills_actions_skill_disabled_removed": {
+    "message": "無効なスキル「{{name}}」を削除しました"
+  },
+  "skills_actions_toggle_failed": {
+    "message": "スキルを切り替えられませんでした"
+  },
+  "skills_actions_try": {
+    "message": "試す"
+  },
+  "skills_actions_try_skill": {
+    "message": "「{{name}}」を試す"
+  },
+  "skills_actions_view_skill": {
+    "message": "「{{name}}」を表示"
+  },
+  "skills_all_skills": {
+    "message": "すべてのスキル"
+  },
+  "skills_api_unavailable": {
+    "message": "認証の準備が整うまでスキルAPIは利用できません。"
+  },
+  "skills_confirm_removal_built_in_confirm": {
+    "message": "削除"
+  },
+  "skills_confirm_removal_built_in_description": {
+    "message": "ライブラリから削除されます。いつでも再追加できます。"
+  },
+  "skills_confirm_removal_built_in_title": {
+    "message": "この組み込みスキルを削除しますか？"
+  },
+  "skills_confirm_removal_cancel": {
+    "message": "キャンセル"
+  },
+  "skills_confirm_removal_processing": {
+    "message": "処理中…"
+  },
+  "skills_confirm_removal_user_confirm": {
+    "message": "削除"
+  },
+  "skills_confirm_removal_user_description": {
+    "message": "この操作は取り消せません。"
+  },
+  "skills_confirm_removal_user_title": {
+    "message": "このスキルを削除しますか？"
+  },
+  "skills_edit_dialog_body_required": {
+    "message": "指示は必須です。"
+  },
+  "skills_edit_dialog_cancel": {
+    "message": "キャンセル"
+  },
+  "skills_edit_dialog_description": {
+    "message": "再利用可能な指示を更新して、スキルライブラリに保存し直します。"
+  },
+  "skills_edit_dialog_description_label": {
+    "message": "説明"
+  },
+  "skills_edit_dialog_description_required": {
+    "message": "説明は必須です。"
+  },
+  "skills_edit_dialog_error": {
+    "message": "スキルを保存できませんでした。"
+  },
+  "skills_edit_dialog_friendly_name_required": {
+    "message": "表示名を入力してください。"
+  },
+  "skills_edit_dialog_instructions": {
+    "message": "指示内容"
+  },
+  "skills_edit_dialog_instructions_placeholder": {
+    "message": "このスキルがチャットに挿入するMarkdown形式の指示を入力してください。"
+  },
+  "skills_edit_dialog_load_error": {
+    "message": "このスキルを読み込めませんでした。"
+  },
+  "skills_edit_dialog_loading": {
+    "message": "スキルを読み込んでいます…"
+  },
+  "skills_edit_dialog_name": {
+    "message": "名前"
+  },
+  "skills_edit_dialog_name_required": {
+    "message": "名前を入力してください。"
+  },
+  "skills_edit_dialog_save": {
+    "message": "保存"
+  },
+  "skills_edit_dialog_saved": {
+    "message": "スキルを保存しました。"
+  },
+  "skills_edit_dialog_saving": {
+    "message": "保存中…"
+  },
+  "skills_edit_dialog_title": {
+    "message": "スキルを編集"
+  },
+  "skills_empty_description": {
+    "message": "別のキーワードで検索するか、ユーザースキルを作成してください。"
+  },
+  "skills_empty_title": {
+    "message": "スキルが見つかりません"
+  },
+  "skills_error_title": {
+    "message": "スキルを読み込めませんでした"
+  },
+  "skills_filters_all": {
+    "message": "すべて"
+  },
+  "skills_filters_built_in": {
+    "message": "組み込み"
+  },
+  "skills_filters_enabled": {
+    "message": "有効"
+  },
+  "skills_filters_user_created": {
+    "message": "ユーザー作成"
+  },
+  "skills_form_advanced_label": {
+    "message": "詳細設定"
+  },
+  "skills_form_friendly_name_help": {
+    "message": "スキル一覧やチャットに表示されます。内部名は別に管理されます。"
+  },
+  "skills_form_friendly_name_label": {
+    "message": "表示名"
+  },
+  "skills_form_friendly_name_placeholder": {
+    "message": "UIに表示される名前"
+  },
+  "skills_form_name_auto_derived_hint": {
+    "message": "空欄にすると自動的に生成されます。"
+  },
+  "skills_form_name_read_only_hint": {
+    "message": "内部識別子のため編集できません。"
+  },
+  "skills_form_slug_name_invalid_hint": {
+    "message": "半角小文字の英字、数字、連続しないハイフンのみ使用できます。"
+  },
+  "skills_form_slug_name_label": {
+    "message": "スラッグ名"
+  },
+  "skills_loading": {
+    "message": "スキルを読み込んでいます…"
+  },
+  "skills_menu_label": {
+    "message": "スキル"
+  },
+  "skills_only_available_on_sites": {
+    "message": "「{{name}}」は{{sitesLabel}}でのみ使用できます。"
+  },
+  "skills_pagination_label": {
+    "message": "スキルのページネーション"
+  },
+  "skills_pagination_next": {
+    "message": "次のページ"
+  },
+  "skills_pagination_previous": {
+    "message": "前のページ"
+  },
+  "skills_read_only_dialog_close": {
+    "message": "閉じる"
+  },
+  "skills_read_only_dialog_description": {
+    "message": "再利用可能な指示内容を確認できます。"
+  },
+  "skills_read_only_dialog_empty": {
+    "message": "このスキルには指示内容がありません。"
+  },
+  "skills_read_only_dialog_instructions": {
+    "message": "指示内容"
+  },
+  "skills_read_only_dialog_load_error": {
+    "message": "スキルの内容を読み込めませんでした。"
+  },
+  "skills_read_only_dialog_loading": {
+    "message": "スキルの内容を読み込んでいます…"
+  },
+  "skills_read_only_dialog_title": {
+    "message": "スキルの詳細"
+  },
+  "skills_search": {
+    "message": "検索"
+  },
+  "skills_sources_built_in": {
+    "message": "組み込み"
+  },
+  "skills_sources_user": {
+    "message": "ユーザー"
+  },
+  "skills_subtitle": {
+    "message": "チャットで再利用できる指示を管理します。"
+  },
+  "skills_suggestion_all_description": {
+    "message": "スキルライブラリを閲覧・管理"
+  },
+  "skills_suggestion_all_label": {
+    "message": "すべてのスキル"
+  },
+  "skills_suggestion_create_description": {
+    "message": "会話するだけでもスキルを作成できます"
+  },
+  "skills_suggestion_create_label": {
+    "message": "スキルを作成"
+  },
+  "skills_suggestion_group_title": {
+    "message": "スキル"
+  },
+  "skills_suggestion_record_description": {
+    "message": "ブラウザ操作を記録"
+  },
+  "skills_suggestion_record_label": {
+    "message": "スキルを記録"
+  },
+  "skills_title": {
+    "message": "スキル"
+  },
+  "theme_dark": {
+    "message": "ダーク"
+  },
+  "theme_label": {
+    "message": "テーマ"
+  },
+  "theme_light": {
+    "message": "ライト"
+  },
+  "theme_system": {
+    "message": "システム"
+  },
+  "token_error": {
+    "message": "認証トークンを取得できませんでした"
+  },
+  "token_error_description": {
+    "message": "ネットワーク接続を確認して、もう一度お試しください"
+  },
+  "top_bar_close": {
+    "message": "閉じる"
+  },
+  "top_bar_menu": {
+    "message": "メニュー"
+  },
+  "top_bar_open_in_new_tab": {
+    "message": "新しいタブで開く"
+  },
+  "top_bar_phi_link": {
+    "message": "Phi Link"
+  },
+  "top_bar_settings": {
+    "message": "設定"
+  },
+  "top_bar_shadow_tasks": {
+    "message": "バックグラウンドタスク"
+  },
+  "user_action_aborted": {
+    "message": "中断"
+  },
+  "user_action_cancelled": {
+    "message": "キャンセル済み"
+  },
+  "user_action_confirm": {
+    "message": "承認"
+  },
+  "user_action_confirm_description": {
+    "message": "続行する前にアクションの内容を確認してください。"
+  },
+  "user_action_confirm_failed": {
+    "message": "確認を送信できませんでした。もう一度お試しください。"
+  },
+  "user_action_confirm_title": {
+    "message": "アクションの確認"
+  },
+  "user_action_deny": {
+    "message": "拒否"
+  },
+  "user_action_responded": {
+    "message": "承認済み"
+  },
+  "user_action_risk_high": {
+    "message": "高"
+  },
+  "user_action_risk_label": {
+    "message": "リスク"
+  },
+  "user_action_risk_low": {
+    "message": "低"
+  },
+  "user_action_risk_medium": {
+    "message": "中"
+  },
+  "user_action_screenshot_alt": {
+    "message": "アクションのスクリーンショット"
+  },
+  "user_input_add_file": {
+    "message": "ファイルを追加"
+  },
+  "user_input_add_image": {
+    "message": "画像を追加"
+  },
+  "user_input_add_tab": {
+    "message": "タブを追加"
+  },
+  "user_input_add_website": {
+    "message": "ウェブサイトを追加"
+  },
+  "user_input_cancel": {
+    "message": "キャンセル"
+  },
+  "user_input_confirm": {
+    "message": "確認"
+  },
+  "user_input_current_tab_toggle": {
+    "message": "現在のタブを使用"
+  },
+  "user_input_enter_website_url": {
+    "message": "ウェブサイトのURLを入力"
+  },
+  "user_input_interject": {
+    "message": "このターンの後に送信"
+  },
+  "user_input_no_available_skills": {
+    "message": "利用できるスキルがありません"
+  },
+  "user_input_open_skills": {
+    "message": "スキルを開く"
+  },
+  "user_input_remove_attachment": {
+    "message": "添付ファイルを削除"
+  },
+  "user_input_remove_split_view": {
+    "message": "分割表示を削除"
+  },
+  "user_input_remove_tab": {
+    "message": "タブを削除"
+  },
+  "user_input_remove_tab_group": {
+    "message": "タブグループを削除"
+  },
+  "user_input_skills": {
+    "message": "スキル"
+  },
+  "user_input_stop_not_confirmed": {
+    "message": "停止を確認できませんでした"
+  },
+  "user_input_tab_fallback_title": {
+    "message": "タブ"
+  },
+  "user_input_tiptap_placeholder": {
+    "message": "@を入力してタブをメンション…"
+  },
+  "user_input_upload_error": {
+    "message": "アップロード失敗"
+  },
+  "user_input_uploading": {
+    "message": "アップロード中…"
+  },
+  "user_input_website_url_placeholder": {
+    "message": "https://example.com"
+  },
+  "welcome_subtitle": {
+    "message": "検索や質問のほか、現在のページに関する作業もできます"
+  },
+  "widgets_pending_dismiss": {
+    "message": "閉じる"
+  },
+  "widgets_pinned_iframe_title": {
+    "message": "固定されたウィジェット"
+  }
+}

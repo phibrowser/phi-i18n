@@ -1,0 +1,9 @@
+## Local credentials and private material: never commit
+private/
+
+node_modules/
+.DS_Store
+*.log
+
+## Local agent state, never part of the public repo
+.claude/

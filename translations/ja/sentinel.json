@@ -1,0 +1,3443 @@
+{
+  "about_dialog_build_time_label": {
+    "message": "ビルド日時: %@"
+  },
+  "about_dialog_description": {
+    "message": "Phi Sentinel は Phi Browser のローカル AI サービスを管理します。"
+  },
+  "about_dialog_title": {
+    "message": "Phi Sentinel について"
+  },
+  "about_dialog_version_label": {
+    "message": "バージョン: %@"
+  },
+  "app_dev_mode": {
+    "message": "開発モード"
+  },
+  "app_name": {
+    "message": "Sentinel"
+  },
+  "backup_export_action_export_data": {
+    "message": "データをエクスポート…"
+  },
+  "backup_export_action_working": {
+    "message": "処理中…"
+  },
+  "backup_export_description_archive": {
+    "message": "設定とデータのコピーを<archive>.tar.gz</archive>アーカイブとして保存します。プロバイダーのAPIキーはエクスポートされません。"
+  },
+  "backup_export_description_export_failed": {
+    "message": "エクスポートに失敗しました"
+  },
+  "backup_export_description_export_failed_with_error": {
+    "message": "エクスポートに失敗しました：{{error}}"
+  },
+  "backup_export_description_exported_to_path": {
+    "message": "{{path}}にエクスポートしました"
+  },
+  "backup_export_description_inherited_failure": {
+    "message": "前回のバックアップ操作に失敗しました。インポートだった場合は、下のスナップショットカードからインポート前のスナップショットを復元できます。"
+  },
+  "backup_export_description_inherited_failure_with_error": {
+    "message": "前回のバックアップ操作に失敗しました：{{error}}。インポートだった場合は、下のスナップショットカードからインポート前のスナップショットを復元できます。"
+  },
+  "backup_export_description_resume_warning": {
+    "message": "中断後に再開して完了しました。使用する前にアーカイブを確認してください。"
+  },
+  "backup_export_description_resume_warning_with_error": {
+    "message": "中断後に再開して完了しました：{{error}}。使用する前にアーカイブを確認してください。"
+  },
+  "backup_export_title_export_data": {
+    "message": "データのエクスポート"
+  },
+  "backup_snapshots_action_restore": {
+    "message": "復元"
+  },
+  "backup_snapshots_action_restore_snapshot": {
+    "message": "スナップショットを復元"
+  },
+  "backup_snapshots_action_restoring": {
+    "message": "復元中…"
+  },
+  "backup_snapshots_action_snapshot_now": {
+    "message": "今すぐスナップショットを作成"
+  },
+  "backup_snapshots_action_snapshotting": {
+    "message": "スナップショットを作成中…"
+  },
+  "backup_snapshots_description_loading_snapshots": {
+    "message": "スナップショットを読み込んでいます…"
+  },
+  "backup_snapshots_description_local_snapshot_privacy": {
+    "message": "このマシンのSentinelの状態を特定の時点で保存したコピーです。スナップショットがこのMacの外に送信されることはありません。"
+  },
+  "backup_snapshots_description_no_snapshots_yet": {
+    "message": "スナップショットはまだありません。"
+  },
+  "backup_snapshots_description_restore_snapshot_at": {
+    "message": "Sentinelはすべてのサービスを停止し、状態ツリーを{{date}}の時点まで巻き戻してから再起動します。それ以降に書き込まれたデータは置き換えられます。この操作は取り消せません。"
+  },
+  "backup_snapshots_description_restore_this_snapshot": {
+    "message": "Sentinelはすべてのサービスを停止し、状態ツリーをこのスナップショットの時点まで巻き戻してから再起動します。それ以降に書き込まれたデータは置き換えられます。この操作は取り消せません。"
+  },
+  "backup_snapshots_label_automatic_risky_release": {
+    "message": "自動（リスクのあるリリース）"
+  },
+  "backup_snapshots_label_manual": {
+    "message": "手動"
+  },
+  "backup_snapshots_label_pre_import": {
+    "message": "インポート前"
+  },
+  "backup_snapshots_label_snapshot_version": {
+    "message": "Sentinel {{sentinelVersion}}"
+  },
+  "backup_snapshots_label_snapshot_versions_with_browser": {
+    "message": "Sentinel {{sentinelVersion}} · ブラウザ {{browserVersion}}"
+  },
+  "backup_snapshots_title_local_snapshots": {
+    "message": "ローカルスナップショット"
+  },
+  "backup_snapshots_title_restore_this_snapshot": {
+    "message": "このスナップショットを復元しますか？"
+  },
+  "common_action_cancel_button": {
+    "message": "キャンセル"
+  },
+  "common_alert_okay_button": {
+    "message": "OK"
+  },
+  "common_all": {
+    "message": "すべて"
+  },
+  "common_cancel": {
+    "message": "キャンセル"
+  },
+  "common_close": {
+    "message": "閉じる"
+  },
+  "common_error": {
+    "message": "エラー"
+  },
+  "common_loading": {
+    "message": "読み込み中…"
+  },
+  "common_retry": {
+    "message": "再試行"
+  },
+  "common_save": {
+    "message": "保存"
+  },
+  "common_task_run_approval_actions_label_approve": {
+    "message": "承認"
+  },
+  "common_task_run_approval_actions_label_reject": {
+    "message": "拒否"
+  },
+  "common_unknown": {
+    "message": "不明"
+  },
+  "dashboard_window_title": {
+    "message": "Phi Sentinel ダッシュボード"
+  },
+  "directory_access_panel_grant_button": {
+    "message": "アクセスを許可"
+  },
+  "directory_access_panel_message": {
+    "message": "アクセスを許可するディレクトリを選択してください"
+  },
+  "errors_ai_gateway_provider_test_timed_out": {
+    "message": "プロバイダーのテストがタイムアウトしました。プロバイダーがまだモデルを読み込んでいる可能性があります。しばらくしてからもう一度お試しください。"
+  },
+  "errors_config_load_failed": {
+    "message": "設定を読み込めませんでした"
+  },
+  "errors_copy_failed": {
+    "message": "コピーできませんでした"
+  },
+  "errors_logs_copy_failed": {
+    "message": "ログをコピーできませんでした"
+  },
+  "errors_logs_directory_unavailable": {
+    "message": "ログディレクトリを利用できません"
+  },
+  "errors_logs_download_failed": {
+    "message": "ログをダウンロードできませんでした"
+  },
+  "errors_logs_load_failed": {
+    "message": "ログを読み込めませんでした"
+  },
+  "errors_logs_load_more_failed": {
+    "message": "追加のログを読み込めませんでした"
+  },
+  "errors_phi_agent_api_error": {
+    "message": "Phi Agent APIエラー：{{status}}"
+  },
+  "errors_phi_agent_label_duration": {
+    "message": "{{count}}{{unit}}"
+  },
+  "errors_phi_agent_label_milliseconds": {
+    "message": "{{count}}ミリ秒"
+  },
+  "errors_phi_agent_repeat_interval_minimum": {
+    "message": "繰り返し間隔は30秒以上にしてください。"
+  },
+  "errors_phi_agent_repeat_interval_minimum_with_current": {
+    "message": "繰り返し間隔は{{minimum}}以上にしてください。現在の値：{{current}}。"
+  },
+  "errors_tasks_schedule_creation_partial_failure": {
+    "message": "タスクの作成後にスケジュールの作成に失敗しました"
+  },
+  "errors_tasks_task_update_partial_failure": {
+    "message": "スケジュールの更新後にタスクの更新に失敗しました"
+  },
+  "experimental_description_stability_warning": {
+    "message": "まだ進化を続けている初期段階の機能です。不完全な部分があることをご了承ください。"
+  },
+  "history_coming_soon_description": {
+    "message": "履歴機能は開発中です"
+  },
+  "history_description": {
+    "message": "監査とトラブルシューティングのビュー"
+  },
+  "history_event_history": {
+    "message": "イベント履歴"
+  },
+  "history_event_history_description": {
+    "message": "システムイベント、サービスの変更、ジョブの実行を表示します"
+  },
+  "history_export": {
+    "message": "エクスポート"
+  },
+  "history_filter": {
+    "message": "フィルター"
+  },
+  "history_title": {
+    "message": "履歴"
+  },
+  "history_will_show": {
+    "message": "このビューには、サービスイベント、ジョブの実行、権限の変更、更新が表示される予定です"
+  },
+  "job_detail_action_back": {
+    "message": "戻る"
+  },
+  "job_detail_description_duration": {
+    "message": "所要時間：{{duration}}"
+  },
+  "job_detail_description_finished_at": {
+    "message": "終了：{{date}}"
+  },
+  "job_detail_description_legacy_run_without_task": {
+    "message": "このジョブ実行には、関連付けられたPhi Agentのタスク実行がありません。"
+  },
+  "job_detail_description_no_task_run_details_available": {
+    "message": "タスク実行の詳細はありません"
+  },
+  "job_detail_description_started_at": {
+    "message": "開始：{{date}}"
+  },
+  "job_detail_description_task_run_load_failure": {
+    "message": "タスク実行の詳細を読み込めませんでした"
+  },
+  "job_detail_description_unknown_error": {
+    "message": "不明なエラー"
+  },
+  "job_detail_title_artifacts": {
+    "message": "成果物 ({{count}})"
+  },
+  "job_detail_title_logs": {
+    "message": "ログ ({{count}})"
+  },
+  "job_detail_title_progress": {
+    "message": "進行状況"
+  },
+  "job_detail_title_result": {
+    "message": "結果"
+  },
+  "job_detail_title_task_run": {
+    "message": "タスク実行"
+  },
+  "jobs_action_clear_filter": {
+    "message": "フィルターをクリア"
+  },
+  "jobs_callback_path_placeholder": {
+    "message": "コールバックパス（例：/internal/jobs/run）"
+  },
+  "jobs_coming_soon": {
+    "message": "近日公開"
+  },
+  "jobs_coming_soon_description": {
+    "message": "ジョブ管理機能は開発中です"
+  },
+  "jobs_component_id_placeholder": {
+    "message": "対象コンポーネントID（例：go.service-a）"
+  },
+  "jobs_create": {
+    "message": "作成"
+  },
+  "jobs_create_one_time": {
+    "message": "1回限りのジョブを作成"
+  },
+  "jobs_create_one_time_description": {
+    "message": "コンポーネントのコールバックAPIを呼び出す1回限りのジョブを作成します"
+  },
+  "jobs_description": {
+    "message": "スケジュール実行やトリガー実行のジョブを管理します"
+  },
+  "jobs_description_no_runs_recorded_yet": {
+    "message": "実行の記録はまだありません"
+  },
+  "jobs_disable": {
+    "message": "無効にする"
+  },
+  "jobs_disabled": {
+    "message": "無効"
+  },
+  "jobs_empty_jobs": {
+    "message": "ジョブはまだありません"
+  },
+  "jobs_empty_runs": {
+    "message": "ジョブの実行履歴はまだありません"
+  },
+  "jobs_enable": {
+    "message": "有効にする"
+  },
+  "jobs_enabled": {
+    "message": "有効"
+  },
+  "jobs_execution_history": {
+    "message": "実行履歴"
+  },
+  "jobs_execution_history_description": {
+    "message": "ジョブの実行履歴とログを表示します"
+  },
+  "jobs_hide_history": {
+    "message": "履歴を非表示"
+  },
+  "jobs_job_id_label": {
+    "message": "ジョブID"
+  },
+  "jobs_job_name_placeholder": {
+    "message": "ジョブ名"
+  },
+  "jobs_label_all_jobs": {
+    "message": "すべてのジョブ"
+  },
+  "jobs_label_duration": {
+    "message": "所要時間"
+  },
+  "jobs_label_every_hours": {
+    "message": "{{count}}時間ごと"
+  },
+  "jobs_label_every_minutes": {
+    "message": "{{count}}分ごと"
+  },
+  "jobs_label_every_seconds": {
+    "message": "{{count}}秒ごと"
+  },
+  "jobs_label_interval_lowercase": {
+    "message": "間隔"
+  },
+  "jobs_label_job": {
+    "message": "ジョブ"
+  },
+  "jobs_label_last_run": {
+    "message": "前回の実行"
+  },
+  "jobs_label_schedule": {
+    "message": "スケジュール"
+  },
+  "jobs_label_started": {
+    "message": "開始"
+  },
+  "jobs_label_status": {
+    "message": "ステータス"
+  },
+  "jobs_label_type": {
+    "message": "種類"
+  },
+  "jobs_next_run_at": {
+    "message": "次回の実行"
+  },
+  "jobs_refresh": {
+    "message": "再読み込み"
+  },
+  "jobs_remove": {
+    "message": "削除"
+  },
+  "jobs_run_now": {
+    "message": "今すぐ実行"
+  },
+  "jobs_scheduled_jobs": {
+    "message": "スケジュール済みのジョブ"
+  },
+  "jobs_scheduled_jobs_description": {
+    "message": "スケジュールされたジョブの定義を表示および管理します"
+  },
+  "jobs_show_history": {
+    "message": "履歴を表示"
+  },
+  "jobs_summary_disabled": {
+    "message": "無効：{{count}}"
+  },
+  "jobs_summary_enabled": {
+    "message": "有効：{{count}}"
+  },
+  "jobs_summary_failing": {
+    "message": "失敗：{{count}}"
+  },
+  "jobs_summary_total": {
+    "message": "ジョブ：{{count}}"
+  },
+  "jobs_title": {
+    "message": "ジョブ"
+  },
+  "jobs_title_job_history": {
+    "message": "ジョブ履歴"
+  },
+  "knowledge_add_directory": {
+    "message": "ディレクトリを追加"
+  },
+  "knowledge_coming_soon_description": {
+    "message": "ナレッジ管理は開発中です"
+  },
+  "knowledge_description": {
+    "message": "RAG用ディレクトリの選択とインデックス作成のライフサイクル"
+  },
+  "knowledge_indexed_directories": {
+    "message": "インデックス済みディレクトリ"
+  },
+  "knowledge_indexed_directories_description": {
+    "message": "RAGインデックス作成の対象ディレクトリを管理します"
+  },
+  "knowledge_start_index": {
+    "message": "インデックス作成を開始"
+  },
+  "knowledge_title": {
+    "message": "ナレッジ"
+  },
+  "knowledge_will_show": {
+    "message": "このビューには、アクセスを許可したディレクトリ、インデックス作成の状態、チャンク数、再インデックスの操作が表示される予定です"
+  },
+  "layout_app_shell_accessible_label_opening_sentinel": {
+    "message": "Sentinelを起動しています"
+  },
+  "layout_app_shell_description_startup_progress": {
+    "message": "ローカルブリッジに接続し、バックグラウンドサービスのステータスを確認して、ワークスペースを準備しています。"
+  },
+  "layout_top_bar_accessible_label_auto_theme": {
+    "message": "自動テーマ（{{theme}}）"
+  },
+  "layout_top_bar_accessible_label_celebrate_phi_sentinel": {
+    "message": "Phi Sentinelを祝う"
+  },
+  "layout_top_bar_accessible_label_dark_theme": {
+    "message": "ダークテーマ"
+  },
+  "layout_top_bar_accessible_label_light_theme": {
+    "message": "ライトテーマ"
+  },
+  "layout_top_bar_accessible_label_runner_status": {
+    "message": "バックグラウンドサービスの状態：{{status}}"
+  },
+  "layout_top_bar_accessible_label_theme": {
+    "message": "テーマ"
+  },
+  "layout_top_bar_action_restart_to_version": {
+    "message": "v{{version}}で再起動"
+  },
+  "layout_top_bar_image_description_phi_sentinel_app_icon": {
+    "message": "Phi Sentinelのアプリアイコン"
+  },
+  "layout_top_bar_label_dark": {
+    "message": "ダーク"
+  },
+  "layout_top_bar_label_light": {
+    "message": "ライト"
+  },
+  "layout_top_bar_label_version": {
+    "message": "v{{version}}"
+  },
+  "layout_top_bar_status_checking_updates": {
+    "message": "アップデートを確認中…"
+  },
+  "layout_top_bar_status_downloading": {
+    "message": "ダウンロード中…"
+  },
+  "layout_top_bar_status_health_check": {
+    "message": "ヘルスチェック中…"
+  },
+  "layout_top_bar_status_installing": {
+    "message": "インストール中…"
+  },
+  "layout_top_bar_status_planning_update": {
+    "message": "アップデートを計画中…"
+  },
+  "layout_top_bar_status_restarting": {
+    "message": "再起動中…"
+  },
+  "layout_top_bar_status_rolling_back": {
+    "message": "ロールバック中…"
+  },
+  "layout_top_bar_status_staging": {
+    "message": "ステージング中…"
+  },
+  "layout_top_bar_status_switching": {
+    "message": "切り替え中…"
+  },
+  "layout_top_bar_status_verifying": {
+    "message": "検証中…"
+  },
+  "layout_top_bar_title_phi_sentinel": {
+    "message": "Phi Sentinel"
+  },
+  "local_ai_hugging_face_download_hint_accessible_label_download_source_guidance": {
+    "message": "Hugging Faceのダウンロード速度とエラーについて"
+  },
+  "local_ai_hugging_face_download_hint_label_download_reliability_warning": {
+    "message": "Hugging Faceからのダウンロードは、Phiミラーよりも遅くなることがあり、レート制限、アクセス制限、ネットワークの中断などにより失敗する場合があります。その場合は、Phiミラーから再試行してください。"
+  },
+  "local_ai_local_llm_accessible_label_control_local_ai": {
+    "message": "ローカルAIを{{action}}"
+  },
+  "local_ai_local_llm_accessible_label_view_role_logs": {
+    "message": "{{role}}のログを表示"
+  },
+  "local_ai_local_llm_action_cancelling": {
+    "message": "キャンセル中…"
+  },
+  "local_ai_local_llm_action_check_again": {
+    "message": "もう一度確認"
+  },
+  "local_ai_local_llm_action_disable": {
+    "message": "無効にする"
+  },
+  "local_ai_local_llm_action_download_and_start": {
+    "message": "ダウンロードして開始"
+  },
+  "local_ai_local_llm_action_enable": {
+    "message": "有効にする"
+  },
+  "local_ai_local_llm_action_install_and_start": {
+    "message": "インストールして開始"
+  },
+  "local_ai_local_llm_action_install_model": {
+    "message": "モデルをインストール"
+  },
+  "local_ai_local_llm_action_install_runtime": {
+    "message": "ランタイムをインストール"
+  },
+  "local_ai_local_llm_action_next_step": {
+    "message": "次のステップへ"
+  },
+  "local_ai_local_llm_action_preparing": {
+    "message": "準備中…"
+  },
+  "local_ai_local_llm_action_retry_hugging_face": {
+    "message": "Hugging Faceで再試行"
+  },
+  "local_ai_local_llm_action_retry_phi_mirror": {
+    "message": "Phiミラーで再試行"
+  },
+  "local_ai_local_llm_action_start_local_services": {
+    "message": "ローカルサービスを開始"
+  },
+  "local_ai_local_llm_action_start_services": {
+    "message": "サービスを開始"
+  },
+  "local_ai_local_llm_action_starting": {
+    "message": "開始中…"
+  },
+  "local_ai_local_llm_action_turn_on_local_ai": {
+    "message": "ローカルAIをオンにする"
+  },
+  "local_ai_local_llm_action_update": {
+    "message": "アップデート"
+  },
+  "local_ai_local_llm_description_apple_silicon_required": {
+    "message": "Apple Siliconが必要です。"
+  },
+  "local_ai_local_llm_description_chat_configured": {
+    "message": "Sentinelがローカルチャットモデルを開始します。"
+  },
+  "local_ai_local_llm_description_chat_not_set_up": {
+    "message": "ローカルAIがオンのときに、Sentinelのローカルチャットモデルを開始します。"
+  },
+  "local_ai_local_llm_description_chat_off": {
+    "message": "チャットはオフになっています。ローカルモデルは後で使えるようにインストールされたまま保持されます。"
+  },
+  "local_ai_local_llm_description_chat_ready": {
+    "message": "ローカルチャットモデルの準備ができました。"
+  },
+  "local_ai_local_llm_description_chat_start_failed": {
+    "message": "ローカルチャットモデルの起動に失敗しました。"
+  },
+  "local_ai_local_llm_description_chat_starting": {
+    "message": "Sentinelがローカルチャットモデルを開始しています。"
+  },
+  "local_ai_local_llm_description_checking_download_disk_space": {
+    "message": "ダウンロードオプションを表示する前に、Sentinelが空きディスク容量を確認しています。"
+  },
+  "local_ai_local_llm_description_choose_download_location": {
+    "message": "ファイルのダウンロード元を選択してください"
+  },
+  "local_ai_local_llm_description_connector_configured": {
+    "message": "Sentinelがコネクタのインデックス作成を開始します。"
+  },
+  "local_ai_local_llm_description_connector_not_set_up": {
+    "message": "ローカルAIがオンのときに、Sentinelのローカル連携データ検索モデルを開始します。"
+  },
+  "local_ai_local_llm_description_connector_off": {
+    "message": "コネクタ検索はオフになっています。ローカルモデルは後で使えるようにインストールされたまま保持されます。"
+  },
+  "local_ai_local_llm_description_connector_ready": {
+    "message": "Notionなどの連携アプリで使用する準備ができています。"
+  },
+  "local_ai_local_llm_description_connector_start_failed": {
+    "message": "コネクタのインデックス作成を開始できませんでした。"
+  },
+  "local_ai_local_llm_description_connector_starting": {
+    "message": "Sentinelがコネクタのインデックス作成を開始しています。"
+  },
+  "local_ai_local_llm_description_data_search_download_failed": {
+    "message": "データ検索モデルのダウンロードに失敗しました。"
+  },
+  "local_ai_local_llm_description_download_and_start_plan": {
+    "message": "Sentinelは不足しているランタイムやモデルのファイルをダウンロードし、その後メモリと連携データ検索を開始します。"
+  },
+  "local_ai_local_llm_description_download_source_recommendation": {
+    "message": "Phiミラーをおすすめします。Hugging FaceはSentinelが承認した公開モデルで利用できますが、速度が遅くなる場合があります。"
+  },
+  "local_ai_local_llm_description_download_then_start": {
+    "message": "Sentinelは{{items}}をダウンロードし、その後必要なローカルサービスを開始します。"
+  },
+  "local_ai_local_llm_description_downloading_and_starting": {
+    "message": "ダウンロードと開始を実行中"
+  },
+  "local_ai_local_llm_description_downloading_from_hugging_face": {
+    "message": "Hugging Faceからダウンロードしています。"
+  },
+  "local_ai_local_llm_description_downloading_from_phi_mirror": {
+    "message": "Phiミラーからダウンロードしています。"
+  },
+  "local_ai_local_llm_description_downloading_runtime": {
+    "message": "ローカルLLMランタイムをダウンロードしています。"
+  },
+  "local_ai_local_llm_description_downloads_chat_memory_model": {
+    "message": "チャットとメモリに使用するローカルモデルをダウンロードします。"
+  },
+  "local_ai_local_llm_description_downloads_data_search_model": {
+    "message": "連携データ検索に使用するローカルモデルをダウンロードします。"
+  },
+  "local_ai_local_llm_description_downloads_memory_model": {
+    "message": "メモリに使用するローカルモデルをダウンロードします。"
+  },
+  "local_ai_local_llm_description_free_space_then_retry": {
+    "message": "空き容量を確保してから再試行してください"
+  },
+  "local_ai_local_llm_description_insufficient_disk_space_guidance": {
+    "message": "ローカルランタイムやモデルをダウンロードする前に、空き容量を確保して再試行してください。"
+  },
+  "local_ai_local_llm_description_insufficient_storage": {
+    "message": "ローカルAIのセットアップには、Sentinelのストレージディスクに10GB以上の空き容量が必要です。現在の空き容量は{{available}}です。"
+  },
+  "local_ai_local_llm_description_local_features_running": {
+    "message": "メモリと連携データ検索はこのMac上で実行されています。"
+  },
+  "local_ai_local_llm_description_local_model_assignments": {
+    "message": "メモリと連携データ検索は、このMac上のローカルモデルを使用するように設定されています。"
+  },
+  "local_ai_local_llm_description_local_services_running": {
+    "message": "ローカルサービスは実行中"
+  },
+  "local_ai_local_llm_description_memory_configured": {
+    "message": "Sentinelがローカルメモリモデルを開始します。"
+  },
+  "local_ai_local_llm_description_memory_download_failed": {
+    "message": "メモリモデルのダウンロードに失敗しました。"
+  },
+  "local_ai_local_llm_description_memory_not_set_up": {
+    "message": "ローカルAIがオンのときに、Sentinelのローカルメモリモデルを開始します。"
+  },
+  "local_ai_local_llm_description_memory_off": {
+    "message": "メモリはオフになっています。ローカルモデルは後で使えるようにインストールされたまま保持されます。"
+  },
+  "local_ai_local_llm_description_memory_ready": {
+    "message": "ローカルメモリモデルの準備ができました。"
+  },
+  "local_ai_local_llm_description_memory_start_failed": {
+    "message": "ローカルメモリモデルの起動に失敗しました。"
+  },
+  "local_ai_local_llm_description_memory_starting": {
+    "message": "Sentinelがローカルメモリモデルを開始しています。"
+  },
+  "local_ai_local_llm_description_missing_files_source": {
+    "message": "Sentinelは、不足しているランタイムやモデルのファイルをこのダウンロード元から取得します。"
+  },
+  "local_ai_local_llm_description_no_supported_chat_model": {
+    "message": "対応するチャットモデルはまだ利用できません。"
+  },
+  "local_ai_local_llm_description_no_supported_connector_model": {
+    "message": "対応するコネクタインデックス作成モデルはまだ利用できません。"
+  },
+  "local_ai_local_llm_description_no_supported_data_search_model": {
+    "message": "対応する連携データ検索モデルはまだ利用できません。"
+  },
+  "local_ai_local_llm_description_no_supported_memory_model": {
+    "message": "対応するメモリモデルはまだ利用できません。"
+  },
+  "local_ai_local_llm_description_preparing_runtime_install": {
+    "message": "Sentinelが空きディスク容量を確認し、ローカルランタイムのインストールを準備しています。"
+  },
+  "local_ai_local_llm_description_preparing_setup": {
+    "message": "ローカルAIのセットアップを準備しています。"
+  },
+  "local_ai_local_llm_description_role_start_failed": {
+    "message": "{{role}}を開始できませんでした。"
+  },
+  "local_ai_local_llm_description_runtime_and_models_installed": {
+    "message": "ランタイムとモデルはインストール済み"
+  },
+  "local_ai_local_llm_description_runtime_download_failed": {
+    "message": "ランタイムのダウンロードに失敗しました。"
+  },
+  "local_ai_local_llm_description_runtime_ready": {
+    "message": "ランタイムとモデルはこのMacで準備できています。SentinelのローカルAIを使用するには、ローカルサービスを開始してください。"
+  },
+  "local_ai_local_llm_description_runtime_required": {
+    "message": "このMacでローカルモデルを実行するために必要です。"
+  },
+  "local_ai_local_llm_description_runtime_required_short": {
+    "message": "ローカルモデルの実行に必要です。"
+  },
+  "local_ai_local_llm_description_start_failed": {
+    "message": "ローカルAIを開始できませんでした：{{error}}"
+  },
+  "local_ai_local_llm_description_start_installed_services": {
+    "message": "Sentinelは、このMacにすでにあるモデルを使用して、選択したローカルサービスを開始します。"
+  },
+  "local_ai_local_llm_description_starting_installed_services": {
+    "message": "ランタイムとモデルはすでにインストールされています。Sentinelがローカルサービスを開始しています。"
+  },
+  "local_ai_local_llm_description_starting_local_services": {
+    "message": "ローカルサービスを開始中"
+  },
+  "local_ai_local_llm_description_status_load_failure": {
+    "message": "状態を読み込めませんでした：{{error}}"
+  },
+  "local_ai_local_llm_description_stopping_downloads": {
+    "message": "実行中のダウンロードを停止しています。キャンセルが完了したら、もう一度開始できます。"
+  },
+  "local_ai_local_llm_description_storage_check_failed": {
+    "message": "Sentinelのストレージ容量を確認できませんでした：{{error}}"
+  },
+  "local_ai_local_llm_description_unknown_error": {
+    "message": "不明なエラー"
+  },
+  "local_ai_local_llm_description_waiting_step": {
+    "message": "{{detail}}インストール済みのものはSentinelがそのまま保持します。"
+  },
+  "local_ai_local_llm_label_connected_data_search_lowercase": {
+    "message": "連携データ検索"
+  },
+  "local_ai_local_llm_label_experimental": {
+    "message": "実験的機能"
+  },
+  "local_ai_local_llm_label_gb": {
+    "message": "約1GB"
+  },
+  "local_ai_local_llm_label_hugging_face": {
+    "message": "Hugging Face"
+  },
+  "local_ai_local_llm_label_latest_version": {
+    "message": "最新バージョン{{version}}"
+  },
+  "local_ai_local_llm_label_loading_local_runtime": {
+    "message": "ローカルランタイムを読み込み中…"
+  },
+  "local_ai_local_llm_label_model_value": {
+    "message": "モデル：{{model}}"
+  },
+  "local_ai_local_llm_label_phi_mirror": {
+    "message": "Phiミラー"
+  },
+  "local_ai_local_llm_label_runtime": {
+    "message": "ランタイム"
+  },
+  "local_ai_local_llm_label_source_name": {
+    "message": "ダウンロード元：{{source}}"
+  },
+  "local_ai_local_llm_label_source_with_detail": {
+    "message": "ダウンロード元：{{source}} · {{detail}}"
+  },
+  "local_ai_local_llm_label_step_progress": {
+    "message": "ステップ{{current}}/{{total}}"
+  },
+  "local_ai_local_llm_label_the_chat_memory_model": {
+    "message": "チャットとメモリのモデル"
+  },
+  "local_ai_local_llm_label_the_data_search_model": {
+    "message": "連携データ検索モデル"
+  },
+  "local_ai_local_llm_label_the_local_runtime": {
+    "message": "ローカルLLMランタイム"
+  },
+  "local_ai_local_llm_label_the_memory_model": {
+    "message": "メモリモデル"
+  },
+  "local_ai_local_llm_label_version": {
+    "message": "バージョン{{version}}"
+  },
+  "local_ai_local_llm_label_version_with_update": {
+    "message": "バージョン{{installedVersion}} · {{availableVersion}}が利用可能"
+  },
+  "local_ai_local_llm_status_cancelling": {
+    "message": "キャンセル中"
+  },
+  "local_ai_local_llm_status_checking": {
+    "message": "確認中"
+  },
+  "local_ai_local_llm_status_complete": {
+    "message": "完了"
+  },
+  "local_ai_local_llm_status_configured": {
+    "message": "設定済み"
+  },
+  "local_ai_local_llm_status_in_progress": {
+    "message": "進行中"
+  },
+  "local_ai_local_llm_status_installed": {
+    "message": "インストール済み"
+  },
+  "local_ai_local_llm_status_installing": {
+    "message": "インストール中"
+  },
+  "local_ai_local_llm_status_needs_attention": {
+    "message": "要対応"
+  },
+  "local_ai_local_llm_status_not_installed": {
+    "message": "未インストール"
+  },
+  "local_ai_local_llm_status_not_set_up": {
+    "message": "未設定"
+  },
+  "local_ai_local_llm_status_ready": {
+    "message": "準備完了"
+  },
+  "local_ai_local_llm_status_starting": {
+    "message": "開始中"
+  },
+  "local_ai_local_llm_status_update_available": {
+    "message": "アップデートあり"
+  },
+  "local_ai_local_llm_status_waiting": {
+    "message": "待機中"
+  },
+  "local_ai_local_llm_title_cancelling_setup": {
+    "message": "セットアップをキャンセル中"
+  },
+  "local_ai_local_llm_title_chat_and_memory_model": {
+    "message": "チャットとメモリのモデル"
+  },
+  "local_ai_local_llm_title_choose_download_source": {
+    "message": "ダウンロード元を選択"
+  },
+  "local_ai_local_llm_title_data_search_model": {
+    "message": "データ検索モデル"
+  },
+  "local_ai_local_llm_title_download_source": {
+    "message": "ダウンロード元"
+  },
+  "local_ai_local_llm_title_install_chat_memory_model": {
+    "message": "チャットとメモリのモデルをインストール"
+  },
+  "local_ai_local_llm_title_install_data_search_model": {
+    "message": "接続データ検索モデルをインストール"
+  },
+  "local_ai_local_llm_title_install_memory_model": {
+    "message": "メモリモデルをインストール"
+  },
+  "local_ai_local_llm_title_local_ai": {
+    "message": "ローカルAI"
+  },
+  "local_ai_local_llm_title_local_aiready": {
+    "message": "ローカルAIの準備ができました"
+  },
+  "local_ai_local_llm_title_local_aiservices_are_installed": {
+    "message": "ローカルAIサービスはインストール済みです"
+  },
+  "local_ai_local_llm_title_local_aisetup_needs_space": {
+    "message": "ローカルAIのセットアップには空き容量が必要です"
+  },
+  "local_ai_local_llm_title_local_llm_runtime": {
+    "message": "ローカルLLMランタイム"
+  },
+  "local_ai_local_llm_title_memory_model": {
+    "message": "メモリモデル"
+  },
+  "local_ai_local_llm_title_preparing_local_aisetup": {
+    "message": "ローカルAIのセットアップを準備中"
+  },
+  "local_ai_local_llm_title_preparing_setup": {
+    "message": "セットアップを準備中"
+  },
+  "local_ai_local_llm_title_sentinel_local_aiis_ready": {
+    "message": "SentinelローカルAIの準備ができました"
+  },
+  "local_ai_local_llm_title_starting_local_aisetup": {
+    "message": "ローカルAIのセットアップを開始中"
+  },
+  "local_ai_local_llm_title_starting_sentinel_local_ai": {
+    "message": "SentinelローカルAIを起動中"
+  },
+  "local_ai_local_llm_title_step_needed": {
+    "message": "{{step}}が必要です"
+  },
+  "local_ai_local_llm_title_step_needs_attention": {
+    "message": "{{step}}に対応が必要です"
+  },
+  "local_ai_local_llm_tooltip_chat": {
+    "message": "チャット"
+  },
+  "local_ai_local_llm_tooltip_connected_data_search": {
+    "message": "接続データ検索"
+  },
+  "local_ai_local_llm_tooltip_local_aisetup_needs_attention": {
+    "message": "ローカルAIのセットアップに対応が必要です"
+  },
+  "local_ai_local_llm_tooltip_memory": {
+    "message": "メモリ"
+  },
+  "local_ai_local_llm_tooltip_runtime_update_available": {
+    "message": "ランタイムのアップデートが利用可能です"
+  },
+  "local_ai_local_llm_tooltip_view_logs": {
+    "message": "ログを表示"
+  },
+  "local_ai_models_accessible_label_cancel_model_download": {
+    "message": "モデルのダウンロードをキャンセル"
+  },
+  "local_ai_models_accessible_label_delete_model": {
+    "message": "{{model}}を削除"
+  },
+  "local_ai_models_accessible_label_download_progress": {
+    "message": "ダウンロードの進行状況"
+  },
+  "local_ai_models_accessible_label_hugging_face_model_url": {
+    "message": "Hugging FaceモデルのURL"
+  },
+  "local_ai_models_accessible_label_installed_models": {
+    "message": "インストール済みモデル"
+  },
+  "local_ai_models_action_delete_model": {
+    "message": "モデルを削除"
+  },
+  "local_ai_models_action_download": {
+    "message": "ダウンロード"
+  },
+  "local_ai_models_action_download_from_hugging_face": {
+    "message": "Hugging Faceからダウンロード"
+  },
+  "local_ai_models_action_retry_from_phi_mirror": {
+    "message": "Phiミラーから再試行"
+  },
+  "local_ai_models_description_in_use_before_deleting": {
+    "message": "{{roles}}で使用中です。削除する前にロールをオフにするか、再割り当てしてください。"
+  },
+  "local_ai_models_description_install_failed": {
+    "message": "インストールに失敗しました。"
+  },
+  "local_ai_models_description_model_already_installed": {
+    "message": "そのモデルはすでにインストールされています。"
+  },
+  "local_ai_models_description_paste_supported_hugging_face_url": {
+    "message": "対応しているモデルのHugging Face URLを貼り付けてください。"
+  },
+  "local_ai_models_description_unsupported_hugging_face_model": {
+    "message": "そのHugging Faceモデルには対応していません。"
+  },
+  "local_ai_models_label_any_role": {
+    "message": "任意のロール"
+  },
+  "local_ai_models_label_availability_summary": {
+    "message": "{{installed}}個インストール済み · {{available}}個利用可能"
+  },
+  "local_ai_models_label_download_source_with_phase": {
+    "message": "{{phase}} · 取得元：{{source}}{{detail}}"
+  },
+  "local_ai_models_label_for_roles": {
+    "message": "{{roles}}用"
+  },
+  "local_ai_models_label_no_models_in_catalog": {
+    "message": "カタログにモデルがありません。"
+  },
+  "local_ai_models_label_recommended": {
+    "message": "推奨"
+  },
+  "local_ai_models_label_saved_for_roles": {
+    "message": "{{roles}}用に保存済み"
+  },
+  "local_ai_models_label_soon": {
+    "message": "まもなく"
+  },
+  "local_ai_models_label_starting_download": {
+    "message": "ダウンロードを開始中"
+  },
+  "local_ai_models_label_time_left": {
+    "message": "残り{{duration}}"
+  },
+  "local_ai_models_label_used_by_roles": {
+    "message": "{{roles}}で使用中"
+  },
+  "local_ai_models_placeholder_model_url": {
+    "message": "対応するHugging FaceモデルのURLを貼り付け"
+  },
+  "local_ai_models_status_downloading": {
+    "message": "ダウンロード中"
+  },
+  "local_ai_models_status_extracting": {
+    "message": "展開中"
+  },
+  "local_ai_models_status_install_runtime_first": {
+    "message": "先にランタイムをインストールしてください"
+  },
+  "local_ai_models_status_queued": {
+    "message": "待機中"
+  },
+  "local_ai_models_status_runtime_installing": {
+    "message": "ランタイムをインストール中…"
+  },
+  "local_ai_models_status_verifying": {
+    "message": "検証中"
+  },
+  "local_ai_models_title_models": {
+    "message": "モデル"
+  },
+  "local_ai_provider_detail_accessible_label_allow_model": {
+    "message": "モデル{{model}}を許可"
+  },
+  "local_ai_provider_detail_accessible_label_connect_codex": {
+    "message": "Codexを接続"
+  },
+  "local_ai_provider_detail_accessible_label_disconnect_codex": {
+    "message": "Codexを切断"
+  },
+  "local_ai_provider_detail_accessible_label_enabled_models_to_test": {
+    "message": "テストする有効化済みモデル"
+  },
+  "local_ai_provider_detail_accessible_label_reasoning_effort": {
+    "message": "{{model}}の推論エフォート"
+  },
+  "local_ai_provider_detail_action_add_provider": {
+    "message": "プロバイダーを追加"
+  },
+  "local_ai_provider_detail_action_advanced": {
+    "message": "詳細設定"
+  },
+  "local_ai_provider_detail_action_confirm_account": {
+    "message": "アカウントを確認"
+  },
+  "local_ai_provider_detail_action_connect": {
+    "message": "接続"
+  },
+  "local_ai_provider_detail_action_details": {
+    "message": "詳細"
+  },
+  "local_ai_provider_detail_action_disconnect": {
+    "message": "切断"
+  },
+  "local_ai_provider_detail_action_enable_provider": {
+    "message": "プロバイダーを有効にする"
+  },
+  "local_ai_provider_detail_action_load": {
+    "message": "読み込み"
+  },
+  "local_ai_provider_detail_action_raw_list": {
+    "message": "直接入力"
+  },
+  "local_ai_provider_detail_action_remove_provider": {
+    "message": "プロバイダーを削除"
+  },
+  "local_ai_provider_detail_action_retest": {
+    "message": "再テスト"
+  },
+  "local_ai_provider_detail_description_all_provider_models_available": {
+    "message": "このプロバイダーのすべてのモデルを利用できます。"
+  },
+  "local_ai_provider_detail_description_codex_account_changed": {
+    "message": "Codexのログインが変更されました。新しいアカウントを確認するまで、リクエストは一時停止されます。"
+  },
+  "local_ai_provider_detail_description_codex_catalog_origin": {
+    "message": "Codexのモデルカタログから読み込みました。"
+  },
+  "local_ai_provider_detail_description_codex_disconnect_blocked": {
+    "message": "{{tasks}}{{verb}}まだCodexを使用しています。切断する前に{{pronoun}}を再割り当てしてください。"
+  },
+  "local_ai_provider_detail_description_codex_keychain_unsupported": {
+    "message": "このCodexログインはキーチェーンに保存されていますが、Sentinelはキーチェーンを読み取りません。"
+  },
+  "local_ai_provider_detail_description_codex_login_not_found": {
+    "message": "Codexはインストールされていますが、ファイルベースのログインが見つかりませんでした。"
+  },
+  "local_ai_provider_detail_description_codex_login_reuse": {
+    "message": "SentinelはCodexで管理されている既存のログインを使用します。「接続」を実行すると、最小限のリクエストを1回送信して確認します。ログインしていない場合は、次のコマンドを実行してください："
+  },
+  "local_ai_provider_detail_description_codex_models_available": {
+    "message": "ローカルのAI Gateway経由で{{count}}個の互換モデルを利用できます。"
+  },
+  "local_ai_provider_detail_description_codex_needs_attention": {
+    "message": "前回の接続チェックに失敗しました。既存のルートは割り当てられたまま維持され、自動的にはフォールバックしません。"
+  },
+  "local_ai_provider_detail_description_codex_ready": {
+    "message": "Codexのログインを検出しました。認証情報をコピーすることなく接続できます。"
+  },
+  "local_ai_provider_detail_description_custom_provider_compatibility": {
+    "message": "別のOpenAI互換サービスを追加します。Responsesが利用できない場合、ローカルサービスはChat Completionsにフォールバックできます。"
+  },
+  "local_ai_provider_detail_description_endpoint_with_models": {
+    "message": "{{endpoint}} · モデル{{count}}個"
+  },
+  "local_ai_provider_detail_description_install_codex": {
+    "message": "Codexのサブスクリプションを使用するには、このMacにCodexをインストールしてください。"
+  },
+  "local_ai_provider_detail_description_local_models_ready": {
+    "message": "{{count}}個のローカルモデルが利用可能です。"
+  },
+  "local_ai_provider_detail_description_model_test_failed": {
+    "message": "{{model}}のテストに失敗しました：{{error}}"
+  },
+  "local_ai_provider_detail_description_model_test_succeeded": {
+    "message": "接続に成功しました：{{model}} · {{latency}} ms"
+  },
+  "local_ai_provider_detail_description_probe_succeeded": {
+    "message": "モデル数：{{count}} · {{latency}} ms"
+  },
+  "local_ai_provider_detail_description_provider_apple_foundation": {
+    "message": "macOSが提供するオンデバイスのApple Intelligenceモデルです。"
+  },
+  "local_ai_provider_detail_description_provider_codex": {
+    "message": "Codex経由でログイン済みのChatGPTサブスクリプションを使用します。"
+  },
+  "local_ai_provider_detail_description_provider_custom": {
+    "message": "任意のOpenAI互換エンドポイントです。"
+  },
+  "local_ai_provider_detail_description_provider_lm_studio": {
+    "message": "ローカルのLM Studio OpenAI互換サーバーです。"
+  },
+  "local_ai_provider_detail_description_provider_local_llm": {
+    "message": "SentinelローカルLLMランタイムがダウンロードして提供するモデルです。"
+  },
+  "local_ai_provider_detail_description_provider_ollama": {
+    "message": "このMacまたはLAN上のローカルOllamaモデルです。"
+  },
+  "local_ai_provider_detail_description_provider_open_ai": {
+    "message": "GPTや推論モデルファミリーを含むOpenAIのモデルです。"
+  },
+  "local_ai_provider_detail_description_provider_open_router": {
+    "message": "OpenRouterの統合API経由で数百のAIモデルにアクセスできます。"
+  },
+  "local_ai_provider_detail_description_provider_phi": {
+    "message": "Sentinelのログインを使用する内蔵のPhiプロバイダーです。"
+  },
+  "local_ai_provider_detail_description_set_up_local_ai": {
+    "message": "このMacでモデルを使用するには、ローカルAIをセットアップしてください。"
+  },
+  "local_ai_provider_detail_description_testing_model": {
+    "message": "{{model}}をテスト中…"
+  },
+  "local_ai_provider_detail_description_uses_apple_intelligence": {
+    "message": "利用可能な場合は、このMacのApple Intelligenceを使用します。"
+  },
+  "local_ai_provider_detail_description_uses_sentinel_sign_in": {
+    "message": "Sentinelのログインを使用します。APIキーは不要です。"
+  },
+  "local_ai_provider_detail_field_label_base_url": {
+    "message": "ベースURL"
+  },
+  "local_ai_provider_detail_field_label_gateway_model": {
+    "message": "ゲートウェイモデル"
+  },
+  "local_ai_provider_detail_field_label_gateway_models": {
+    "message": "ゲートウェイモデル"
+  },
+  "local_ai_provider_detail_field_label_provider_id": {
+    "message": "プロバイダーID"
+  },
+  "local_ai_provider_detail_label_allowed_endpoint_networks": {
+    "message": "ローカルおよびプライベートネットワークのエンドポイントを使用できます。"
+  },
+  "local_ai_provider_detail_label_apikey": {
+    "message": "APIキー"
+  },
+  "local_ai_provider_detail_label_apple_intelligence_management": {
+    "message": "AIによるタブ整理のためのApple Intelligenceは、macOSが自動的に管理します。"
+  },
+  "local_ai_provider_detail_label_built_in": {
+    "message": "内蔵"
+  },
+  "local_ai_provider_detail_label_cloud_providers_must_use_https": {
+    "message": "クラウドプロバイダーはHTTPSを使用する必要があります。"
+  },
+  "local_ai_provider_detail_label_cloud_scope": {
+    "message": "クラウド"
+  },
+  "local_ai_provider_detail_label_codex": {
+    "message": "~/.codex"
+  },
+  "local_ai_provider_detail_label_codex_home_optional_hint": {
+    "message": "空欄の場合は、デフォルトのCodexホームディレクトリを使用します。"
+  },
+  "local_ai_provider_detail_label_codex_login": {
+    "message": "codex login"
+  },
+  "local_ai_provider_detail_label_default_effort": {
+    "message": "デフォルト（{{effort}}）"
+  },
+  "local_ai_provider_detail_label_legacy_endpoint": {
+    "message": "レガシーエンドポイント"
+  },
+  "local_ai_provider_detail_label_loading_models": {
+    "message": "モデルを読み込み中…"
+  },
+  "local_ai_provider_detail_label_local_endpoint": {
+    "message": "ローカルエンドポイント"
+  },
+  "local_ai_provider_detail_label_local_runtime": {
+    "message": "ローカルランタイム"
+  },
+  "local_ai_provider_detail_label_local_scope": {
+    "message": "ローカル"
+  },
+  "local_ai_provider_detail_label_model_count": {
+    "message": "モデル{{count}}個"
+  },
+  "local_ai_provider_detail_label_model_default": {
+    "message": "モデルのデフォルト"
+  },
+  "local_ai_provider_detail_label_no_enabled_models_match": {
+    "message": "一致する有効化済みモデルはありません。"
+  },
+  "local_ai_provider_detail_label_on_device": {
+    "message": "オンデバイス"
+  },
+  "local_ai_provider_detail_label_open_aicompatible": {
+    "message": "OpenAI互換"
+  },
+  "local_ai_provider_detail_label_optional": {
+    "message": "（任意）"
+  },
+  "local_ai_provider_detail_label_phi_cloud_authentication": {
+    "message": "Phi CloudはSentinelに含まれており、Phi Browserのログインを使用します。APIキーは不要です。"
+  },
+  "local_ai_provider_detail_label_post_setup_model_configuration": {
+    "message": "モデルはプロバイダーのセットアップ後に設定できます。"
+  },
+  "local_ai_provider_detail_label_provider_model_enablement_guidance": {
+    "message": "このプロバイダーからモデルを読み込み、Sentinelで使用できるモデルを有効にしてください。"
+  },
+  "local_ai_provider_detail_label_provider_name": {
+    "message": "プロバイダー名"
+  },
+  "local_ai_provider_detail_label_raw_model_whitelist": {
+    "message": "モデル許可リスト（直接入力）"
+  },
+  "local_ai_provider_detail_label_reasoning_effort": {
+    "message": "推論エフォート"
+  },
+  "local_ai_provider_detail_label_scope": {
+    "message": "スコープ"
+  },
+  "local_ai_provider_detail_label_sign_in": {
+    "message": "ログイン"
+  },
+  "local_ai_provider_detail_label_system_default": {
+    "message": "システムデフォルト"
+  },
+  "local_ai_provider_detail_label_test": {
+    "message": "テスト"
+  },
+  "local_ai_provider_detail_label_text": {
+    "message": "テキスト"
+  },
+  "local_ai_provider_detail_label_text_image": {
+    "message": "テキスト + 画像"
+  },
+  "local_ai_provider_detail_placeholder_api_key": {
+    "message": "APIキー"
+  },
+  "local_ai_provider_detail_placeholder_auth0_token": {
+    "message": "Auth0トークン"
+  },
+  "local_ai_provider_detail_placeholder_my_custom_provider": {
+    "message": "マイカスタムプロバイダー"
+  },
+  "local_ai_provider_detail_placeholder_not_required": {
+    "message": "不要"
+  },
+  "local_ai_provider_detail_placeholder_optional_api_key": {
+    "message": "APIキー（任意）"
+  },
+  "local_ai_provider_detail_placeholder_provider_model_allowlist": {
+    "message": "空欄のままにするとプロバイダーのすべてのモデルが許可されます"
+  },
+  "local_ai_provider_detail_placeholder_search_models": {
+    "message": "モデルを検索…"
+  },
+  "local_ai_provider_detail_placeholder_select_enabled_model_to_test": {
+    "message": "テストする有効なモデルを選択"
+  },
+  "local_ai_provider_detail_placeholder_shared_codex_login": {
+    "message": "共有のCodexログイン"
+  },
+  "local_ai_provider_detail_status_available": {
+    "message": "利用可能"
+  },
+  "local_ai_provider_detail_status_confirmation_required": {
+    "message": "確認が必要"
+  },
+  "local_ai_provider_detail_status_endpoint_not_set": {
+    "message": "エンドポイント未設定"
+  },
+  "local_ai_provider_detail_status_file_login_required": {
+    "message": "ファイルによるログインが必要"
+  },
+  "local_ai_provider_detail_status_inactive": {
+    "message": "無効"
+  },
+  "local_ai_provider_detail_status_not_installed": {
+    "message": "未インストール"
+  },
+  "local_ai_provider_detail_status_not_ready": {
+    "message": "準備未完了"
+  },
+  "local_ai_provider_detail_status_sign_in_required": {
+    "message": "ログインが必要"
+  },
+  "local_ai_provider_detail_title_available_models": {
+    "message": "利用可能なモデル"
+  },
+  "local_ai_provider_detail_title_codex": {
+    "message": "Codex"
+  },
+  "local_ai_role_logs_description_loading": {
+    "message": "読み込み中…"
+  },
+  "local_ai_role_logs_description_no_logs_yet_for_role": {
+    "message": "{{role}}のログはまだありません。"
+  },
+  "local_ai_role_logs_description_troubleshooting_logs": {
+    "message": "トラブルシューティング用の最近のローカルAIサービスログです。"
+  },
+  "local_ai_role_logs_label_line_count": {
+    "message": "{{count}}行{{truncated}}"
+  },
+  "local_ai_role_logs_label_tail": {
+    "message": "末尾行数:"
+  },
+  "local_ai_role_logs_title_role_logs": {
+    "message": "{{role}}のログ"
+  },
+  "local_ai_role_row_accessible_label_cancel_source_choice": {
+    "message": "ダウンロード元の選択をキャンセル"
+  },
+  "local_ai_role_row_accessible_label_download_from_hugging_face": {
+    "message": "Hugging Faceから{{model}}をダウンロード"
+  },
+  "local_ai_role_row_accessible_label_download_from_phi_mirror": {
+    "message": "Phiミラーから{{model}}をダウンロード"
+  },
+  "local_ai_role_row_accessible_label_enable_role": {
+    "message": "{{role}}ロールを有効にする"
+  },
+  "local_ai_role_row_accessible_label_select_role_model": {
+    "message": "{{role}}のモデルを選択"
+  },
+  "local_ai_role_row_action_choose_source": {
+    "message": "ダウンロード元を選択"
+  },
+  "local_ai_role_row_description_chat": {
+    "message": "対話型アシスタント"
+  },
+  "local_ai_role_row_description_choose_download_source_for_role": {
+    "message": "{{role}}に割り当てる前にダウンロード元を選択してください。"
+  },
+  "local_ai_role_row_description_connector_indexing": {
+    "message": "Notionなどの連携アプリの検索インデックス"
+  },
+  "local_ai_role_row_description_failed_to_start": {
+    "message": "{{role}}の起動に失敗しました · {{error}}"
+  },
+  "local_ai_role_row_description_memory": {
+    "message": "要約とタグ付け"
+  },
+  "local_ai_role_row_label_chat": {
+    "message": "チャット"
+  },
+  "local_ai_role_row_label_connector_indexing": {
+    "message": "コネクタインデックス作成"
+  },
+  "local_ai_role_row_label_downloading": {
+    "message": "ダウンロード中"
+  },
+  "local_ai_role_row_label_memory": {
+    "message": "メモリ"
+  },
+  "local_ai_role_row_label_model": {
+    "message": "モデル"
+  },
+  "local_ai_role_row_label_off": {
+    "message": "オフ"
+  },
+  "local_ai_role_row_label_on": {
+    "message": "オン"
+  },
+  "local_ai_role_row_label_pick_amodel_first": {
+    "message": "先にモデルを選択してください"
+  },
+  "local_ai_role_row_placeholder_no_model": {
+    "message": "モデルなし"
+  },
+  "local_ai_role_row_status_downloading": {
+    "message": "ダウンロード中…"
+  },
+  "local_ai_role_row_status_downloading_percent": {
+    "message": "ダウンロード中 {{percent}}%"
+  },
+  "local_ai_role_row_status_install_runtime_first": {
+    "message": "ランタイムのインストールが必要"
+  },
+  "local_ai_role_row_status_installed": {
+    "message": "インストール済み"
+  },
+  "local_ai_role_row_status_runtime_installing": {
+    "message": "ランタイムをインストール中"
+  },
+  "local_ai_role_row_tooltip_download_anonymously_from_hugging_face": {
+    "message": "Hugging Faceから匿名でダウンロード"
+  },
+  "logs_action_downloading": {
+    "message": "ダウンロード中…"
+  },
+  "logs_action_jump_to_bottom": {
+    "message": "最下部に移動"
+  },
+  "logs_description_line_count_all_loaded": {
+    "message": "合計行数: {{count}}（すべて読み込み済み）"
+  },
+  "logs_description_line_count_with_more_history": {
+    "message": "合計行数: {{count}}（最新{{loaded}}行を表示中、上にスクロールするとさらに表示されます）"
+  },
+  "logs_description_overview": {
+    "message": "Phi Sentinelとバックグラウンドサービスのアプリケーションログを表示"
+  },
+  "logs_description_select_which_logs_to_download": {
+    "message": "ダウンロードするログを選択してください"
+  },
+  "logs_label_download_options": {
+    "message": "ダウンロードオプション"
+  },
+  "logs_label_empty": {
+    "message": "（空）"
+  },
+  "logs_label_full_logs": {
+    "message": "完全なログ"
+  },
+  "logs_label_last_lines": {
+    "message": "最新1000行"
+  },
+  "logs_label_line_count": {
+    "message": "行数: {{count}}"
+  },
+  "logs_label_loading_history": {
+    "message": "履歴を読み込み中…"
+  },
+  "logs_label_log_sources": {
+    "message": "ログソース"
+  },
+  "logs_label_may_be_large": {
+    "message": "（サイズが大きい場合があります）"
+  },
+  "logs_label_no_logs_available": {
+    "message": "ログがありません"
+  },
+  "logs_label_recommended": {
+    "message": "（推奨）"
+  },
+  "logs_label_standard_error": {
+    "message": "stderr"
+  },
+  "logs_label_standard_output": {
+    "message": "stdout"
+  },
+  "logs_title_download_logs": {
+    "message": "ログをダウンロード"
+  },
+  "logs_title_system_logs": {
+    "message": "システムログ"
+  },
+  "logs_tooltip_copy_logs_to_clipboard": {
+    "message": "ログをクリップボードにコピー"
+  },
+  "main_menu_application_quit": {
+    "message": "Phi Sentinel を終了"
+  },
+  "main_menu_edit_copy": {
+    "message": "コピー"
+  },
+  "main_menu_edit_cut": {
+    "message": "カット"
+  },
+  "main_menu_edit_paste": {
+    "message": "ペースト"
+  },
+  "main_menu_edit_redo": {
+    "message": "やり直す"
+  },
+  "main_menu_edit_select_all": {
+    "message": "すべてを選択"
+  },
+  "main_menu_edit_title": {
+    "message": "編集"
+  },
+  "main_menu_edit_undo": {
+    "message": "取り消す"
+  },
+  "main_menu_window_close": {
+    "message": "閉じる"
+  },
+  "main_menu_window_enter_full_screen": {
+    "message": "フルスクリーンにする"
+  },
+  "main_menu_window_minimize": {
+    "message": "しまう"
+  },
+  "main_menu_window_title": {
+    "message": "ウインドウ"
+  },
+  "menu_bar_about_title": {
+    "message": "Phi Sentinel について"
+  },
+  "menu_bar_dashboard_title": {
+    "message": "ダッシュボード"
+  },
+  "menu_bar_quit_title": {
+    "message": "終了"
+  },
+  "menu_bar_runner_accessibility_failed": {
+    "message": "失敗"
+  },
+  "menu_bar_runner_accessibility_offline": {
+    "message": "オフライン"
+  },
+  "menu_bar_runner_accessibility_online": {
+    "message": "オンライン"
+  },
+  "menu_bar_runner_accessibility_starting": {
+    "message": "起動中"
+  },
+  "menu_bar_runner_accessibility_waiting_for_login": {
+    "message": "ログイン待ち"
+  },
+  "menu_bar_runner_failed": {
+    "message": "バックグラウンドサービス: 失敗（再起動上限に達しました）"
+  },
+  "menu_bar_runner_offline": {
+    "message": "バックグラウンドサービス: オフライン"
+  },
+  "menu_bar_runner_online": {
+    "message": "バックグラウンドサービス: オンライン"
+  },
+  "menu_bar_runner_starting": {
+    "message": "バックグラウンドサービス: 起動中…"
+  },
+  "menu_bar_runner_uninstalling": {
+    "message": "アンインストール中…"
+  },
+  "menu_bar_runner_waiting_for_login": {
+    "message": "Phi Browser にログインしてください"
+  },
+  "menu_bar_uninstall_title": {
+    "message": "Phi をアンインストール…"
+  },
+  "nav_history": {
+    "message": "履歴"
+  },
+  "nav_jobs": {
+    "message": "ジョブ"
+  },
+  "nav_knowledge": {
+    "message": "ナレッジ"
+  },
+  "nav_overview": {
+    "message": "概要"
+  },
+  "nav_permissions": {
+    "message": "権限"
+  },
+  "nav_services": {
+    "message": "サービス"
+  },
+  "nav_settings": {
+    "message": "設定"
+  },
+  "nav_updates": {
+    "message": "アップデート"
+  },
+  "notifications_ai_gateway_codex_account_confirmed": {
+    "message": "Codexアカウントを確認しました。"
+  },
+  "notifications_ai_gateway_codex_action_failed": {
+    "message": "Codexの操作に失敗しました"
+  },
+  "notifications_ai_gateway_codex_connected": {
+    "message": "Codexを接続しました。"
+  },
+  "notifications_ai_gateway_codex_connection_verified": {
+    "message": "Codexの接続を検証しました。"
+  },
+  "notifications_ai_gateway_codex_disconnected": {
+    "message": "Codexの接続を解除しました。"
+  },
+  "notifications_ai_gateway_config_clear_failed": {
+    "message": "AI Gatewayの設定を消去できませんでした"
+  },
+  "notifications_ai_gateway_config_cleared": {
+    "message": "AI Gatewayの設定を消去しました。"
+  },
+  "notifications_ai_gateway_config_save_failed": {
+    "message": "AI Gatewayの設定を保存できませんでした"
+  },
+  "notifications_ai_gateway_config_saved": {
+    "message": "AI Gatewayの設定を保存しました。"
+  },
+  "notifications_ai_gateway_model_test_failed": {
+    "message": "モデルのテストに失敗しました"
+  },
+  "notifications_ai_gateway_provider_test_failed": {
+    "message": "プロバイダーのテストに失敗しました"
+  },
+  "notifications_ai_gateway_update_failed": {
+    "message": "AI Gatewayを更新できませんでした"
+  },
+  "notifications_app_debug_mode_off": {
+    "message": "デバッグモードをオフにしました"
+  },
+  "notifications_app_debug_mode_on": {
+    "message": "デバッグモードをオンにしました"
+  },
+  "notifications_backup_clonefile_unavailable": {
+    "message": "clonefileは利用できません"
+  },
+  "notifications_backup_export_start_failed": {
+    "message": "エクスポートを開始できませんでした"
+  },
+  "notifications_backup_restore_failed": {
+    "message": "復元に失敗しました"
+  },
+  "notifications_backup_restore_reverted": {
+    "message": "復元は以前の状態に戻されました"
+  },
+  "notifications_backup_snapshot_created": {
+    "message": "スナップショットを作成しました"
+  },
+  "notifications_backup_snapshot_failed": {
+    "message": "スナップショットの作成に失敗しました"
+  },
+  "notifications_backup_snapshot_restored": {
+    "message": "スナップショットを復元しました"
+  },
+  "notifications_backup_snapshot_skipped": {
+    "message": "スナップショットをスキップしました"
+  },
+  "notifications_jobs_create_failed": {
+    "message": "ジョブを作成できませんでした"
+  },
+  "notifications_jobs_created": {
+    "message": "ジョブを作成しました"
+  },
+  "notifications_jobs_job_id": {
+    "message": "ジョブID: {{id}}"
+  },
+  "notifications_jobs_remove_failed": {
+    "message": "ジョブを削除できませんでした"
+  },
+  "notifications_jobs_removed": {
+    "message": "ジョブを削除しました"
+  },
+  "notifications_jobs_run_enqueued": {
+    "message": "ジョブの実行をキューに追加しました"
+  },
+  "notifications_jobs_run_failed": {
+    "message": "ジョブを実行できませんでした"
+  },
+  "notifications_jobs_run_not_enqueued": {
+    "message": "ジョブの実行はキューに追加されませんでした"
+  },
+  "notifications_jobs_update_failed": {
+    "message": "ジョブを更新できませんでした"
+  },
+  "notifications_jobs_updated": {
+    "message": "ジョブを更新しました"
+  },
+  "notifications_local_llm_data_reset": {
+    "message": "ローカルLLMのデータをリセットしました。"
+  },
+  "notifications_local_llm_data_reset_failed": {
+    "message": "ローカルLLMのデータをリセットできませんでした"
+  },
+  "notifications_local_llm_download_cancel_failed": {
+    "message": "ダウンロードをキャンセルできませんでした"
+  },
+  "notifications_local_llm_download_cancelled": {
+    "message": "ダウンロードをキャンセルしました。"
+  },
+  "notifications_local_llm_model_delete_failed": {
+    "message": "モデルを削除できませんでした"
+  },
+  "notifications_local_llm_model_install_failed": {
+    "message": "モデルをインストールできませんでした"
+  },
+  "notifications_local_llm_model_set_failed": {
+    "message": "モデルを設定できませんでした"
+  },
+  "notifications_local_llm_role_update_failed": {
+    "message": "ロールを更新できませんでした"
+  },
+  "notifications_local_llm_runtime_install_failed": {
+    "message": "ランタイムをインストールできませんでした"
+  },
+  "notifications_local_llm_update_failed": {
+    "message": "ローカルLLMを更新できませんでした"
+  },
+  "notifications_permissions_accessibility_request_failed": {
+    "message": "アクセシビリティの権限をリクエストできませんでした"
+  },
+  "notifications_permissions_directory_access_cancelled": {
+    "message": "ディレクトリへのアクセスをキャンセルしました"
+  },
+  "notifications_permissions_directory_access_granted": {
+    "message": "ディレクトリへのアクセスを許可しました"
+  },
+  "notifications_permissions_directory_access_request_failed": {
+    "message": "ディレクトリへのアクセスをリクエストできませんでした"
+  },
+  "notifications_permissions_directory_access_revoke_failed": {
+    "message": "ディレクトリへのアクセス許可を取り消せませんでした"
+  },
+  "notifications_permissions_directory_access_revoked": {
+    "message": "ディレクトリへのアクセス許可を取り消しました"
+  },
+  "notifications_permissions_full_disk_access_request_failed": {
+    "message": "フルディスクアクセスの権限をリクエストできませんでした"
+  },
+  "notifications_permissions_opening_full_disk_access_settings": {
+    "message": "システム設定のフルディスクアクセスを開いています"
+  },
+  "notifications_permissions_opening_screen_recording_settings": {
+    "message": "システム設定の画面収録を開いています"
+  },
+  "notifications_permissions_requesting_accessibility": {
+    "message": "アクセシビリティの権限をリクエストしています"
+  },
+  "notifications_permissions_screen_recording_request_failed": {
+    "message": "画面収録の権限をリクエストできませんでした"
+  },
+  "notifications_private_ai_disable_failed": {
+    "message": "プライベートAIをオフにできませんでした。もう一度お試しください。"
+  },
+  "notifications_private_ai_gateway_endpoint_copied": {
+    "message": "AI Gatewayのエンドポイントをコピーしました。"
+  },
+  "notifications_private_ai_gateway_export_copied": {
+    "message": "AI Gatewayのエクスポートをコピーしました。"
+  },
+  "notifications_private_ai_model_test_reverted": {
+    "message": "{{purpose}}のモデルテストに失敗しました。以前のソースに戻しました。"
+  },
+  "notifications_private_ai_restart_failed": {
+    "message": "ローカルAIを再起動できませんでした。もう一度お試しください。"
+  },
+  "notifications_private_ai_settings_reset": {
+    "message": "AI設定をリセットしました。"
+  },
+  "notifications_services_no_orphan_processes": {
+    "message": "孤立プロセスは見つかりませんでした"
+  },
+  "notifications_services_orphan_cleanup_failed": {
+    "message": "孤立プロセスのクリーンアップに失敗しました"
+  },
+  "notifications_services_orphan_processes_cleaned": {
+    "message": "{{found}}件の孤立プロセスのうち{{killed}}件をクリーンアップしました"
+  },
+  "notifications_services_remove_failed": {
+    "message": "サービスの削除に失敗しました"
+  },
+  "notifications_services_removed": {
+    "message": "{{component}}を削除しました"
+  },
+  "notifications_services_removed_description": {
+    "message": "サービスはシステムから削除されました"
+  },
+  "notifications_services_restart_failed": {
+    "message": "サービスの再起動に失敗しました"
+  },
+  "notifications_services_restarted": {
+    "message": "{{component}}を再起動しました"
+  },
+  "notifications_services_start_failed": {
+    "message": "サービスの起動に失敗しました"
+  },
+  "notifications_services_started": {
+    "message": "{{component}}を起動しました"
+  },
+  "notifications_services_started_components": {
+    "message": "起動したコンポーネント：{{components}}"
+  },
+  "notifications_services_stop_failed": {
+    "message": "サービスの停止に失敗しました"
+  },
+  "notifications_services_stopped": {
+    "message": "{{component}}を停止しました"
+  },
+  "notifications_services_stopped_components": {
+    "message": "停止したコンポーネント：{{components}}"
+  },
+  "notifications_settings_track_change_failed": {
+    "message": "アップデートトラックの変更に失敗しました"
+  },
+  "notifications_settings_track_changed": {
+    "message": "アップデートトラックを変更しました"
+  },
+  "notifications_settings_track_changed_deferred": {
+    "message": "アップデートトラックを保存しました。コンポーネントはバックグラウンドサービスが利用可能になり次第調整されます"
+  },
+  "notifications_settings_track_changed_reconcile_failed": {
+    "message": "アップデートトラックを変更しましたが、コンポーネントの調整に失敗しました"
+  },
+  "notifications_settings_track_changed_reconciled": {
+    "message": "アップデートトラックを変更し、{{count}}件のコンポーネントを調整しました"
+  },
+  "notifications_settings_track_changed_with_failures": {
+    "message": "アップデートトラックを変更しましたが、{{count}}件のコンポーネントのアップデートに失敗しました"
+  },
+  "notifications_tasks_approval_no_longer_pending": {
+    "message": "この承認は既に処理されています"
+  },
+  "notifications_tasks_approval_submit_failed": {
+    "message": "承認結果の送信に失敗しました"
+  },
+  "notifications_tasks_no_active_run": {
+    "message": "キャンセルできる実行はありません"
+  },
+  "notifications_tasks_run_approved": {
+    "message": "実行を承認しました"
+  },
+  "notifications_tasks_run_cancel_failed": {
+    "message": "実行のキャンセルに失敗しました"
+  },
+  "notifications_tasks_run_cancelled": {
+    "message": "実行をキャンセルしました"
+  },
+  "notifications_tasks_run_failed": {
+    "message": "タスクの実行に失敗しました"
+  },
+  "notifications_tasks_run_rejected": {
+    "message": "実行を却下しました"
+  },
+  "notifications_tasks_run_started": {
+    "message": "実行を開始しました"
+  },
+  "notifications_tasks_schedule_create_partial_failure": {
+    "message": "タスクを作成しましたが、スケジュールの作成に失敗しました"
+  },
+  "notifications_tasks_schedule_delete_failed": {
+    "message": "スケジュールの削除に失敗しました"
+  },
+  "notifications_tasks_schedule_deleted": {
+    "message": "スケジュールを削除しました"
+  },
+  "notifications_tasks_schedule_pause_failed": {
+    "message": "スケジュールの一時停止に失敗しました"
+  },
+  "notifications_tasks_schedule_paused": {
+    "message": "スケジュールを一時停止しました"
+  },
+  "notifications_tasks_schedule_resume_failed": {
+    "message": "スケジュールの再開に失敗しました"
+  },
+  "notifications_tasks_schedule_resumed": {
+    "message": "スケジュールを再開しました"
+  },
+  "notifications_tasks_schedule_run_failed": {
+    "message": "スケジュールを今すぐ実行できませんでした"
+  },
+  "notifications_tasks_schedule_run_started": {
+    "message": "スケジュールの実行を開始しました"
+  },
+  "notifications_tasks_scheduled_task_create_failed": {
+    "message": "スケジュール済みタスクの作成に失敗しました"
+  },
+  "notifications_tasks_scheduled_task_created": {
+    "message": "スケジュール済みタスクを作成しました"
+  },
+  "notifications_tasks_scheduled_task_update_failed": {
+    "message": "スケジュール済みタスクの更新に失敗しました"
+  },
+  "notifications_tasks_scheduled_task_updated": {
+    "message": "スケジュール済みタスクを更新しました"
+  },
+  "notifications_tasks_settings_update_failed": {
+    "message": "タスク設定の更新に失敗しました"
+  },
+  "notifications_tasks_settings_updated": {
+    "message": "タスク設定を更新しました"
+  },
+  "notifications_tasks_task_create_failed": {
+    "message": "タスクの作成に失敗しました"
+  },
+  "notifications_tasks_task_created": {
+    "message": "タスクを作成しました"
+  },
+  "notifications_tasks_task_delete_failed": {
+    "message": "タスクの削除に失敗しました"
+  },
+  "notifications_tasks_task_deleted": {
+    "message": "タスクを削除しました"
+  },
+  "notifications_tasks_task_update_failed": {
+    "message": "タスクの更新に失敗しました"
+  },
+  "notifications_tasks_task_update_partial_failure": {
+    "message": "スケジュールを更新しましたが、タスクの更新に失敗しました"
+  },
+  "notifications_tasks_task_updated": {
+    "message": "タスクを更新しました"
+  },
+  "notifications_unknown_error": {
+    "message": "不明なエラー"
+  },
+  "notifications_updates_apply_failed": {
+    "message": "アップデートの適用に失敗しました"
+  },
+  "notifications_updates_failed_components": {
+    "message": "{{count}}件のコンポーネントのアップデートに失敗しました"
+  },
+  "notifications_updates_none_available": {
+    "message": "利用可能なアップデートはありません"
+  },
+  "notifications_updates_updated_components": {
+    "message": "{{count}}件のコンポーネントをアップデートしました"
+  },
+  "overview_avg_duration": {
+    "message": "平均所要時間"
+  },
+  "overview_description": {
+    "message": "システムの状態と最近のアクティビティ"
+  },
+  "overview_directories": {
+    "message": "ディレクトリ"
+  },
+  "overview_event_history_coming_soon": {
+    "message": "イベント履歴は今後のアップデートで利用可能になります"
+  },
+  "overview_failed": {
+    "message": "失敗"
+  },
+  "overview_job_activity": {
+    "message": "ジョブアクティビティ"
+  },
+  "overview_missing": {
+    "message": "未許可"
+  },
+  "overview_ok": {
+    "message": "OK"
+  },
+  "overview_permission_alerts": {
+    "message": "権限アラート"
+  },
+  "overview_recent_events": {
+    "message": "最近のイベント"
+  },
+  "overview_running": {
+    "message": "実行中"
+  },
+  "overview_runs_last24h": {
+    "message": "24時間の実行回数"
+  },
+  "overview_service_health": {
+    "message": "サービスの状態"
+  },
+  "overview_stopped": {
+    "message": "停止中"
+  },
+  "overview_title": {
+    "message": "概要"
+  },
+  "overview_unhealthy": {
+    "message": "異常"
+  },
+  "permissions_accessibility": {
+    "message": "アクセシビリティ"
+  },
+  "permissions_accessibility_description": {
+    "message": "UIの自動操作と入力制御に必要です"
+  },
+  "permissions_add_directory": {
+    "message": "ディレクトリを追加"
+  },
+  "permissions_camera": {
+    "message": "カメラ"
+  },
+  "permissions_camera_description": {
+    "message": "カメラを使用する機能に必要です"
+  },
+  "permissions_denied": {
+    "message": "拒否"
+  },
+  "permissions_description": {
+    "message": "Sentinelのサービスに必要なシステム権限を管理します"
+  },
+  "permissions_description_permissions_overview": {
+    "message": "Phi Sentinelのサービスに必要なシステム権限を管理します"
+  },
+  "permissions_directory_access": {
+    "message": "ディレクトリアクセス"
+  },
+  "permissions_directory_access_description": {
+    "message": "RAGインデックス作成とファイル操作のためにディレクトリへのアクセスを許可します"
+  },
+  "permissions_full_disk_access": {
+    "message": "フルディスクアクセス"
+  },
+  "permissions_full_disk_access_description": {
+    "message": "保護されたファイルやディレクトリへのアクセスに必要です"
+  },
+  "permissions_granted": {
+    "message": "許可済み"
+  },
+  "permissions_label_not_determined": {
+    "message": "未決定"
+  },
+  "permissions_microphone": {
+    "message": "マイク"
+  },
+  "permissions_microphone_description": {
+    "message": "音声入力機能に必要です"
+  },
+  "permissions_no_directories_description": {
+    "message": "「ディレクトリを追加」をクリックして、RAGインデックス作成に使用するフォルダへのアクセスを許可してください"
+  },
+  "permissions_no_directories_granted": {
+    "message": "許可されたディレクトリはありません"
+  },
+  "permissions_not_set": {
+    "message": "未設定"
+  },
+  "permissions_open_settings": {
+    "message": "設定を開く"
+  },
+  "permissions_refresh": {
+    "message": "再読み込み"
+  },
+  "permissions_request_permission": {
+    "message": "権限をリクエスト"
+  },
+  "permissions_restricted": {
+    "message": "制限あり"
+  },
+  "permissions_screen_recording": {
+    "message": "画面収録"
+  },
+  "permissions_screen_recording_description": {
+    "message": "画面キャプチャとビジュアルAI機能に必要です"
+  },
+  "permissions_system_permissions": {
+    "message": "システム権限"
+  },
+  "permissions_title": {
+    "message": "権限"
+  },
+  "private_ai_advanced_console_action_back": {
+    "message": "← 戻る"
+  },
+  "private_ai_advanced_console_description_advanced_settings": {
+    "message": "詳細設定"
+  },
+  "private_ai_advanced_console_label_diagnostics": {
+    "message": "診断"
+  },
+  "private_ai_advanced_console_label_providers": {
+    "message": "プロバイダー"
+  },
+  "private_ai_advanced_console_label_task_routing": {
+    "message": "タスクルーティング"
+  },
+  "private_ai_advanced_console_title_private_ai": {
+    "message": "プライベートAI"
+  },
+  "private_ai_diagnostics_accessible_label_refresh_aigateway_export": {
+    "message": "AI Gatewayエクスポートを再読み込み"
+  },
+  "private_ai_diagnostics_accessible_label_refresh_aigateway_logs": {
+    "message": "AI Gatewayログを再読み込み"
+  },
+  "private_ai_diagnostics_action_copy_export": {
+    "message": "エクスポートをコピー"
+  },
+  "private_ai_diagnostics_action_download_logs": {
+    "message": "ログをダウンロード"
+  },
+  "private_ai_diagnostics_action_gateway_url": {
+    "message": "ゲートウェイURL"
+  },
+  "private_ai_diagnostics_description_connection_export": {
+    "message": "services.getComponentExportsを通じて公開される、呼び出し側向けの接続契約です。"
+  },
+  "private_ai_diagnostics_description_gateway_log_download": {
+    "message": "トラブルシューティング用のローカルゲートウェイとBifrostの完全なログです。"
+  },
+  "private_ai_diagnostics_description_loading_export": {
+    "message": "エクスポートを読み込み中…"
+  },
+  "private_ai_diagnostics_description_loading_logs": {
+    "message": "ログを読み込み中…"
+  },
+  "private_ai_diagnostics_description_logs_and_export": {
+    "message": "ローカルゲートウェイのログと呼び出し側向けの接続契約を確認できます。"
+  },
+  "private_ai_diagnostics_description_no_aigateway_export_yet": {
+    "message": "AI Gatewayのエクスポートはまだありません。"
+  },
+  "private_ai_diagnostics_description_no_aigateway_logs_yet": {
+    "message": "AI Gatewayのログはまだありません。"
+  },
+  "private_ai_diagnostics_description_reset_warning": {
+    "message": "AIプロバイダー設定を消去し、Sentinel Local AIのデータをこのMacから削除します。"
+  },
+  "private_ai_diagnostics_description_this_will": {
+    "message": "この操作では以下を実行します："
+  },
+  "private_ai_diagnostics_label_clear_aiprovider_configuration": {
+    "message": "AIプロバイダー設定を消去"
+  },
+  "private_ai_diagnostics_label_cloud_source_reset": {
+    "message": "AIソースをPhi Cloudに戻す"
+  },
+  "private_ai_diagnostics_label_http_auto_v1": {
+    "message": "http://127.0.0.1:<auto>/v1"
+  },
+  "private_ai_diagnostics_label_line_count": {
+    "message": "{{count}}行{{truncated}}"
+  },
+  "private_ai_diagnostics_label_reset_local_data_scope": {
+    "message": "Sentinel Local AIのランタイムファイル、モデル、ログ、ダウンロードを削除"
+  },
+  "private_ai_diagnostics_label_synthetic_export_ai_gateway": {
+    "message": "合成エクスポート：ai-gateway"
+  },
+  "private_ai_diagnostics_label_tail": {
+    "message": "末尾行数"
+  },
+  "private_ai_diagnostics_label_truncated": {
+    "message": "（一部省略）"
+  },
+  "private_ai_diagnostics_status_debug": {
+    "message": "デバッグ"
+  },
+  "private_ai_diagnostics_title_aigateway_export": {
+    "message": "AI Gatewayエクスポート"
+  },
+  "private_ai_diagnostics_title_aigateway_logs": {
+    "message": "AI Gatewayログ"
+  },
+  "private_ai_diagnostics_title_gateway_status": {
+    "message": "ゲートウェイの状態"
+  },
+  "private_ai_diagnostics_title_logs_and_export": {
+    "message": "ログとエクスポート"
+  },
+  "private_ai_diagnostics_title_reset": {
+    "message": "リセット"
+  },
+  "private_ai_diagnostics_title_reset_aisettings": {
+    "message": "AI設定をリセットしますか？"
+  },
+  "private_ai_private_ai_accessible_label_dismiss_codex_tip": {
+    "message": "Codexのヒントを閉じる"
+  },
+  "private_ai_private_ai_accessible_label_open_codex_provider_settings": {
+    "message": "Codexプロバイダーの設定を開く"
+  },
+  "private_ai_private_ai_action_advanced_settings": {
+    "message": "詳細設定 →"
+  },
+  "private_ai_private_ai_action_re_run_setup": {
+    "message": "セットアップを再実行"
+  },
+  "private_ai_private_ai_action_restart_local_service": {
+    "message": "ローカルサービスを再起動"
+  },
+  "private_ai_private_ai_action_show_details": {
+    "message": "詳細を表示"
+  },
+  "private_ai_private_ai_description_cloud_only_state": {
+    "message": "現在、すべてのAI機能はPhi Cloud上で動作しています。セットアップするには、スイッチをオンにしてください。"
+  },
+  "private_ai_private_ai_description_hardware_recommendation": {
+    "message": "メモリ16GB以上のAppleシリコン搭載Macで最適に動作します。セットアップ時にお使いのデバイスが自動的にチェックされます。"
+  },
+  "private_ai_private_ai_description_overview": {
+    "message": "AIはお使いのMac上でも、ご自身のプロバイダーでも実行できます。データはあなたの手元に残ります。"
+  },
+  "private_ai_private_ai_description_setup_cloud_fallback": {
+    "message": "セットアップが完了するまで、AI機能は引き続きPhi Cloudを使用します。"
+  },
+  "private_ai_private_ai_description_startup_cloud_fallback": {
+    "message": "ローカルAIを準備しています。起動が完了するまで、AI機能はPhi Cloudを使用します。"
+  },
+  "private_ai_private_ai_label_approx_minutes": {
+    "message": "約{{count}}分"
+  },
+  "private_ai_private_ai_label_approx_seconds": {
+    "message": "約{{count}}秒"
+  },
+  "private_ai_private_ai_label_codex_is_available": {
+    "message": "Codexが利用可能です"
+  },
+  "private_ai_private_ai_label_codex_provider_option": {
+    "message": "既存のCodexログインをAIプロバイダーとして使用できます。"
+  },
+  "private_ai_private_ai_label_local_runtime": {
+    "message": "ローカルランタイム"
+  },
+  "private_ai_private_ai_label_local_source_fallback_notice": {
+    "message": "ローカルAIソースが応答していません。影響を受けるタスクは一時的にPhi Cloudに切り替わりました。"
+  },
+  "private_ai_private_ai_label_toggle_private_ai": {
+    "message": "プライベートAIの切り替え"
+  },
+  "private_ai_private_ai_status_private_aiis_on": {
+    "message": "プライベートAIはオンです"
+  },
+  "private_ai_private_ai_status_setting_up": {
+    "message": "セットアップ中…"
+  },
+  "private_ai_private_ai_status_starting_private_ai": {
+    "message": "プライベートAIを起動中…"
+  },
+  "private_ai_private_ai_tooltip_dismiss": {
+    "message": "閉じる"
+  },
+  "private_ai_providers_action_add_custom_provider": {
+    "message": "カスタムプロバイダーを追加"
+  },
+  "private_ai_providers_description_custom_endpoint": {
+    "message": "カスタムのOpenAI互換エンドポイントです。"
+  },
+  "private_ai_providers_description_legacy_endpoint": {
+    "message": "レガシー互換エンドポイントです。"
+  },
+  "private_ai_setup_wizard_action_done": {
+    "message": "完了"
+  },
+  "private_ai_setup_wizard_action_minimize": {
+    "message": "最小化"
+  },
+  "private_ai_setup_wizard_action_start_setup": {
+    "message": "セットアップを開始"
+  },
+  "private_ai_setup_wizard_action_use_your_own_aiservice": {
+    "message": "自分のAIサービスを使用 →"
+  },
+  "private_ai_setup_wizard_description_cloud_only_features": {
+    "message": "Webタスクと画像生成は引き続きPhi Cloudで実行されます。"
+  },
+  "private_ai_setup_wizard_description_done_summary": {
+    "message": "チャット、メモリ、メモリのインデックス、データ検索は、このMac上でプライベートに実行されます。Webタスクと画像にはPhi Cloudを使用します。"
+  },
+  "private_ai_setup_wizard_description_download_and_memory_size": {
+    "message": "ダウンロード{{downloadSize}} · 実行中は約{{memorySize}}のメモリを使用します。"
+  },
+  "private_ai_setup_wizard_description_private_aiis_on": {
+    "message": "✓ プライベートAIがオンになりました"
+  },
+  "private_ai_setup_wizard_description_setup_failed_during_stage": {
+    "message": "{{stage}}中にセットアップが失敗しました。"
+  },
+  "private_ai_setup_wizard_field_label_free_disk": {
+    "message": "ディスクの空き容量"
+  },
+  "private_ai_setup_wizard_label_approx_minutes": {
+    "message": "約{{count}}分"
+  },
+  "private_ai_setup_wizard_label_approx_seconds": {
+    "message": "約{{count}}秒"
+  },
+  "private_ai_setup_wizard_label_checking_your_device": {
+    "message": "デバイスを確認中…"
+  },
+  "private_ai_setup_wizard_label_text": {
+    "message": "✓"
+  },
+  "private_ai_setup_wizard_label_text2": {
+    "message": "○"
+  },
+  "private_ai_setup_wizard_stage_models": {
+    "message": "モデルをダウンロード中…"
+  },
+  "private_ai_setup_wizard_stage_name_models": {
+    "message": "モデルのダウンロード"
+  },
+  "private_ai_setup_wizard_stage_name_runtime": {
+    "message": "ローカルランタイムのインストール"
+  },
+  "private_ai_setup_wizard_stage_name_starting": {
+    "message": "ローカルモデルの起動"
+  },
+  "private_ai_setup_wizard_stage_name_verifying": {
+    "message": "検証"
+  },
+  "private_ai_setup_wizard_stage_runtime": {
+    "message": "ローカルランタイムをインストール中…"
+  },
+  "private_ai_setup_wizard_stage_starting": {
+    "message": "ローカルモデルを起動中…"
+  },
+  "private_ai_setup_wizard_stage_verifying": {
+    "message": "検証中…"
+  },
+  "private_ai_setup_wizard_step_models": {
+    "message": "モデルをダウンロード"
+  },
+  "private_ai_setup_wizard_step_runtime": {
+    "message": "ランタイムをインストール"
+  },
+  "private_ai_setup_wizard_step_starting": {
+    "message": "ローカルモデルを起動"
+  },
+  "private_ai_setup_wizard_step_verifying": {
+    "message": "検証"
+  },
+  "private_ai_setup_wizard_title_private_aiunavailable": {
+    "message": "このMacではプライベートAIを利用できません"
+  },
+  "private_ai_setup_wizard_title_run_private_ailocally": {
+    "message": "このMac上でプライベートAIをローカルに実行できます"
+  },
+  "private_ai_setup_wizard_title_set_up_private_ai": {
+    "message": "プライベートAIをセットアップ"
+  },
+  "private_ai_task_coverage_description_chat": {
+    "message": "チャットパネルでの返信"
+  },
+  "private_ai_task_coverage_description_data_search": {
+    "message": "接続済みデータの検索"
+  },
+  "private_ai_task_coverage_description_memory": {
+    "message": "ブラウジングのメモリと要約"
+  },
+  "private_ai_task_coverage_description_web_tasks": {
+    "message": "エージェントによる自動化"
+  },
+  "private_ai_task_coverage_label_chat": {
+    "message": "チャット"
+  },
+  "private_ai_task_coverage_label_data_search": {
+    "message": "データ検索"
+  },
+  "private_ai_task_coverage_label_memory": {
+    "message": "メモリ"
+  },
+  "private_ai_task_coverage_label_model_on_this_mac": {
+    "message": "{{model}} · このMac上"
+  },
+  "private_ai_task_coverage_label_web_tasks": {
+    "message": "Webタスク"
+  },
+  "private_ai_task_coverage_label_your_provider": {
+    "message": "{{provider}} · 自分のプロバイダー"
+  },
+  "private_ai_task_coverage_status_source_unavailable": {
+    "message": "{{source}} · 利用不可"
+  },
+  "private_ai_task_routing_accessible_label_select_task_source": {
+    "message": "{{task}}のソースを選択"
+  },
+  "private_ai_task_routing_accessible_label_source_checked": {
+    "message": "ソース選択済み"
+  },
+  "private_ai_task_routing_accessible_label_source_failed": {
+    "message": "ソースの確認に失敗しました: {{error}}"
+  },
+  "private_ai_task_routing_description_automatically_managed_by_mac_os": {
+    "message": "macOSによって自動的に管理されます。"
+  },
+  "private_ai_task_routing_description_source_assignments": {
+    "message": "各ブラウザ機能が使用するAIソースを選択してください。"
+  },
+  "private_ai_task_routing_label_aitab_organization": {
+    "message": "AIによるタブ整理"
+  },
+  "private_ai_task_routing_label_cloud_fallback_option": {
+    "message": "自動的にPhi Cloudに切り替える（デフォルト）"
+  },
+  "private_ai_task_routing_label_local": {
+    "message": "ローカル"
+  },
+  "private_ai_task_routing_label_no_capability_models": {
+    "message": "この機能で有効になっているモデルはありません"
+  },
+  "private_ai_task_routing_label_pause_features_option": {
+    "message": "影響を受けるAI機能を一時停止（クラウドにデータを送信しない）"
+  },
+  "private_ai_task_routing_label_unavailable_source_policy": {
+    "message": "ローカルまたはセルフホストのソースが利用できない場合"
+  },
+  "private_ai_task_routing_placeholder_phi_cloud": {
+    "message": "Phi Cloud"
+  },
+  "private_ai_task_routing_placeholder_search_task_models": {
+    "message": "{{task}}のモデルを検索…"
+  },
+  "private_ai_task_routing_status_apple_intelligence_available": {
+    "message": "Apple Intelligence · 利用可能"
+  },
+  "private_ai_task_routing_status_apple_intelligence_unavailable": {
+    "message": "Apple Intelligence · 利用不可"
+  },
+  "private_ai_task_routing_title_aitask_routing": {
+    "message": "AIタスクのルーティング"
+  },
+  "quit_blocked_alert_message": {
+    "message": "Phi Browser の実行中は Phi Sentinel を終了できません。先に Phi Browser を終了してください。"
+  },
+  "quit_blocked_alert_title": {
+    "message": "Phi Sentinel を終了できません"
+  },
+  "scheduled_task_detail_accessible_label_cancel_current_run": {
+    "message": "現在の実行をキャンセル"
+  },
+  "scheduled_task_detail_action_cancel_run": {
+    "message": "実行をキャンセル"
+  },
+  "scheduled_task_detail_action_copy": {
+    "message": "コピー"
+  },
+  "scheduled_task_detail_description_no_result_text_available": {
+    "message": "結果のテキストはありません。"
+  },
+  "scheduled_task_detail_description_no_run_logs": {
+    "message": "この実行のログはありません。"
+  },
+  "scheduled_task_detail_description_no_runs_yet": {
+    "message": "まだ実行はありません。"
+  },
+  "scheduled_task_detail_field_label_approval": {
+    "message": "承認"
+  },
+  "scheduled_task_detail_field_label_cadence": {
+    "message": "頻度"
+  },
+  "scheduled_task_detail_field_label_last_run": {
+    "message": "前回の実行"
+  },
+  "scheduled_task_detail_field_label_last_trigger": {
+    "message": "前回のトリガー"
+  },
+  "scheduled_task_detail_field_label_next_run": {
+    "message": "次回の実行"
+  },
+  "scheduled_task_detail_field_label_objective": {
+    "message": "目的"
+  },
+  "scheduled_task_detail_field_label_run_id": {
+    "message": "実行ID"
+  },
+  "scheduled_task_detail_field_label_schedule_id": {
+    "message": "スケジュールID"
+  },
+  "scheduled_task_detail_field_label_task_id": {
+    "message": "タスクID"
+  },
+  "scheduled_task_detail_field_label_task_status": {
+    "message": "タスクのステータス"
+  },
+  "scheduled_task_detail_field_label_title": {
+    "message": "タイトル"
+  },
+  "scheduled_task_detail_label_generic_artifact": {
+    "message": "成果物"
+  },
+  "scheduled_task_detail_label_hide_details": {
+    "message": "詳細を非表示"
+  },
+  "scheduled_task_detail_label_load_failure": {
+    "message": "スケジュールされたタスクの詳細を読み込めませんでした。"
+  },
+  "scheduled_task_detail_label_loading_run_detail": {
+    "message": "実行の詳細を読み込んでいます…"
+  },
+  "scheduled_task_detail_label_logs": {
+    "message": "ログ"
+  },
+  "scheduled_task_detail_label_run_detail_unavailable": {
+    "message": "実行の詳細を取得できません。"
+  },
+  "scheduled_task_detail_label_task_unavailable": {
+    "message": "タスクを利用できません"
+  },
+  "scheduled_task_detail_label_unnamed_artifact": {
+    "message": "名称未設定の成果物"
+  },
+  "scheduled_task_detail_label_video_preview": {
+    "message": "動画プレビュー"
+  },
+  "scheduled_task_detail_label_view_details": {
+    "message": "詳細を表示"
+  },
+  "scheduled_task_detail_title_recent_runs": {
+    "message": "最近の実行"
+  },
+  "scheduled_task_detail_title_run_detail": {
+    "message": "実行の詳細"
+  },
+  "scheduled_task_detail_title_task": {
+    "message": "タスク"
+  },
+  "scheduled_tasks_accessible_label_close_scheduled_task_form": {
+    "message": "スケジュールされたタスクのフォームを閉じる"
+  },
+  "scheduled_tasks_accessible_label_create_task": {
+    "message": "タスクを作成"
+  },
+  "scheduled_tasks_accessible_label_decrease_every_value": {
+    "message": "間隔の値を減らす"
+  },
+  "scheduled_tasks_accessible_label_delete_named_schedule": {
+    "message": "{{schedule}}を削除"
+  },
+  "scheduled_tasks_accessible_label_delete_named_task": {
+    "message": "{{task}}を削除"
+  },
+  "scheduled_tasks_accessible_label_edit_named_schedule": {
+    "message": "{{schedule}}を編集"
+  },
+  "scheduled_tasks_accessible_label_edit_named_task": {
+    "message": "{{task}}を編集"
+  },
+  "scheduled_tasks_accessible_label_filter_runs_by_task": {
+    "message": "タスクで実行を絞り込む"
+  },
+  "scheduled_tasks_accessible_label_increase_every_value": {
+    "message": "間隔の値を増やす"
+  },
+  "scheduled_tasks_accessible_label_manual": {
+    "message": "手動"
+  },
+  "scheduled_tasks_accessible_label_next_month": {
+    "message": "次の月"
+  },
+  "scheduled_tasks_accessible_label_no_artifacts": {
+    "message": "成果物はありません"
+  },
+  "scheduled_tasks_accessible_label_optional_details": {
+    "message": "オプションの詳細"
+  },
+  "scheduled_tasks_accessible_label_pause_named_schedule": {
+    "message": "{{schedule}}を一時停止"
+  },
+  "scheduled_tasks_accessible_label_previous_month": {
+    "message": "前の月"
+  },
+  "scheduled_tasks_accessible_label_resume_named_schedule": {
+    "message": "{{schedule}}を再開"
+  },
+  "scheduled_tasks_accessible_label_run_at_picker": {
+    "message": "実行日時の選択"
+  },
+  "scheduled_tasks_accessible_label_run_named_schedule": {
+    "message": "{{schedule}}を今すぐ実行"
+  },
+  "scheduled_tasks_accessible_label_scheduled": {
+    "message": "スケジュール済み"
+  },
+  "scheduled_tasks_accessible_label_select_date": {
+    "message": "{{date}}を選択"
+  },
+  "scheduled_tasks_action_apply": {
+    "message": "適用"
+  },
+  "scheduled_tasks_action_back_to_tasks": {
+    "message": "タスク一覧に戻る"
+  },
+  "scheduled_tasks_action_clear": {
+    "message": "クリア"
+  },
+  "scheduled_tasks_action_delete": {
+    "message": "削除"
+  },
+  "scheduled_tasks_action_delete_schedule": {
+    "message": "スケジュールを削除"
+  },
+  "scheduled_tasks_action_delete_task": {
+    "message": "タスクを削除"
+  },
+  "scheduled_tasks_action_now": {
+    "message": "現在時刻"
+  },
+  "scheduled_tasks_action_save_settings": {
+    "message": "設定を保存"
+  },
+  "scheduled_tasks_action_save_task": {
+    "message": "タスクを保存"
+  },
+  "scheduled_tasks_description_active_run_settings": {
+    "message": "実行中のPhi AgentタスクをSentinelがどのように処理するかを設定します。"
+  },
+  "scheduled_tasks_description_allowed_timeout_range": {
+    "message": "設定可能な範囲は{{minimum}}から{{maximum}}までです。"
+  },
+  "scheduled_tasks_description_delete_named": {
+    "message": "<target>{{name}}</target>をSentinelから削除します。"
+  },
+  "scheduled_tasks_description_empty_state_guidance": {
+    "message": "タスクを作成すると、SentinelからPhi Agentの作業を追跡できるようになります。"
+  },
+  "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
+    "message": "スケジュール済みタスクを読み込めませんでした"
+  },
+  "scheduled_tasks_description_filtered_run_count": {
+    "message": "表示中の実行数: {{filtered}} / {{total}}"
+  },
+  "scheduled_tasks_description_load_failure": {
+    "message": "Sentinelは現在タスクを読み込めませんでした。ページを再読み込みしてもう一度お試しください。"
+  },
+  "scheduled_tasks_description_minimum_character_count": {
+    "message": "{{count}}文字以上で入力してください。"
+  },
+  "scheduled_tasks_description_no_objective": {
+    "message": "目的なし"
+  },
+  "scheduled_tasks_description_no_runs_for_this_task": {
+    "message": "このタスクの実行履歴はありません"
+  },
+  "scheduled_tasks_description_no_schedules_yet": {
+    "message": "スケジュールはまだありません"
+  },
+  "scheduled_tasks_description_no_task_runs_yet": {
+    "message": "タスクの実行はまだありません"
+  },
+  "scheduled_tasks_description_no_tasks_yet": {
+    "message": "タスクはまだありません"
+  },
+  "scheduled_tasks_description_objective_minimum_length": {
+    "message": "目的は{{count}}文字以上で入力してください"
+  },
+  "scheduled_tasks_description_objective_required": {
+    "message": "目的は必須です"
+  },
+  "scheduled_tasks_description_objective_validation": {
+    "message": "目的は必須です。説明や名前の設定は任意の詳細項目にあります。"
+  },
+  "scheduled_tasks_description_optional_title_limit": {
+    "message": "任意です。最大{{count}}文字。空欄の場合、タイトルは目的から自動生成されます。"
+  },
+  "scheduled_tasks_description_overview": {
+    "message": "SentinelからPhi Agentのタスク、スケジュール、実行を確認できます。"
+  },
+  "scheduled_tasks_description_phi_agent_is_not_running": {
+    "message": "Phi Agentが実行されていません"
+  },
+  "scheduled_tasks_description_schedule_type_guidance": {
+    "message": "まずは最もシンプルなタイミング設定を選んでください。Cronはカレンダー形式のスケジュールにのみ使用してください。"
+  },
+  "scheduled_tasks_description_service_recovery": {
+    "message": "「サービス」からPhi Agentを起動し、このページを再読み込みしてタスクを読み込んでください。"
+  },
+  "scheduled_tasks_description_task_timeout_behavior": {
+    "message": "実行中のタスクがこの時間を超えると、失敗としてマークします。"
+  },
+  "scheduled_tasks_description_timezone_fallback": {
+    "message": "任意です。空欄の場合は、Phi Agentを実行しているデバイスのローカルタイムゾーンを使用します。"
+  },
+  "scheduled_tasks_description_unscheduled_task_behavior": {
+    "message": "このタスクにはスケジュールがありません。手動で開始するか、必要に応じてPhi Agentに起動させることができます。"
+  },
+  "scheduled_tasks_field_label_delete_schedule": {
+    "message": "スケジュールを削除"
+  },
+  "scheduled_tasks_field_label_delete_task": {
+    "message": "タスクを削除"
+  },
+  "scheduled_tasks_field_label_edit_schedule": {
+    "message": "スケジュールを編集"
+  },
+  "scheduled_tasks_field_label_edit_task": {
+    "message": "タスクを編集"
+  },
+  "scheduled_tasks_field_label_pause_schedule": {
+    "message": "スケジュールを一時停止"
+  },
+  "scheduled_tasks_field_label_resume_schedule": {
+    "message": "スケジュールを再開"
+  },
+  "scheduled_tasks_field_label_run_now": {
+    "message": "今すぐ実行"
+  },
+  "scheduled_tasks_label_all_tasks": {
+    "message": "すべてのタスク"
+  },
+  "scheduled_tasks_label_api_source": {
+    "message": "API"
+  },
+  "scheduled_tasks_label_artifact_count": {
+    "message": "{{count}}件の成果物"
+  },
+  "scheduled_tasks_label_ask_before_run": {
+    "message": "実行前に確認"
+  },
+  "scheduled_tasks_label_calendar_schedule": {
+    "message": "カレンダースケジュール"
+  },
+  "scheduled_tasks_label_cron": {
+    "message": "Cron"
+  },
+  "scheduled_tasks_label_cron_expression": {
+    "message": "Cron式"
+  },
+  "scheduled_tasks_label_day": {
+    "message": "日"
+  },
+  "scheduled_tasks_label_days": {
+    "message": "日"
+  },
+  "scheduled_tasks_label_default_task_title": {
+    "message": "スケジュール済みタスク"
+  },
+  "scheduled_tasks_label_delete_cascade_warning": {
+    "message": "このタスクと、関連付けられたスケジュール、および関連する実行は、「タスク」「スケジュール」「実行」の各ビューから削除されます。"
+  },
+  "scheduled_tasks_label_every": {
+    "message": "繰り返し"
+  },
+  "scheduled_tasks_label_every_interval": {
+    "message": "{{count}}{{unit}}ごと"
+  },
+  "scheduled_tasks_label_every_unit": {
+    "message": "間隔の単位"
+  },
+  "scheduled_tasks_label_every_value": {
+    "message": "間隔の値"
+  },
+  "scheduled_tasks_label_hour": {
+    "message": "時"
+  },
+  "scheduled_tasks_label_hour_lowercase": {
+    "message": "時間"
+  },
+  "scheduled_tasks_label_hours": {
+    "message": "時間"
+  },
+  "scheduled_tasks_label_interval": {
+    "message": "間隔"
+  },
+  "scheduled_tasks_label_last_status": {
+    "message": "前回: {{status}}"
+  },
+  "scheduled_tasks_label_manual_source": {
+    "message": "手動"
+  },
+  "scheduled_tasks_label_minute": {
+    "message": "分"
+  },
+  "scheduled_tasks_label_minute_lowercase": {
+    "message": "分"
+  },
+  "scheduled_tasks_label_minutes": {
+    "message": "分"
+  },
+  "scheduled_tasks_label_no_current_run": {
+    "message": "現在の実行はありません"
+  },
+  "scheduled_tasks_label_no_schedule_start_when_needed": {
+    "message": "スケジュールなし。必要なときに開始してください。"
+  },
+  "scheduled_tasks_label_once": {
+    "message": "1回のみ"
+  },
+  "scheduled_tasks_label_once_at": {
+    "message": "{{date}}に1回実行"
+  },
+  "scheduled_tasks_label_one_time": {
+    "message": "1回のみ"
+  },
+  "scheduled_tasks_label_one_time_schedule": {
+    "message": "1回のみのスケジュール"
+  },
+  "scheduled_tasks_label_optional": {
+    "message": "任意"
+  },
+  "scheduled_tasks_label_recording": {
+    "message": "録画"
+  },
+  "scheduled_tasks_label_recording_with_extra": {
+    "message": "録画 +{{count}}"
+  },
+  "scheduled_tasks_label_repeating_schedule": {
+    "message": "繰り返しスケジュール"
+  },
+  "scheduled_tasks_label_run_at": {
+    "message": "実行日時"
+  },
+  "scheduled_tasks_label_run_status": {
+    "message": "実行ステータス"
+  },
+  "scheduled_tasks_label_running_timeout": {
+    "message": "実行タイムアウト"
+  },
+  "scheduled_tasks_label_runs": {
+    "message": "実行"
+  },
+  "scheduled_tasks_label_runs_automatically": {
+    "message": "自動実行"
+  },
+  "scheduled_tasks_label_runs_automatically_on_aschedule": {
+    "message": "スケジュールに従って自動的に実行されます。"
+  },
+  "scheduled_tasks_label_schedule_count": {
+    "message": "{{count}}件のスケジュール"
+  },
+  "scheduled_tasks_label_schedule_description": {
+    "message": "スケジュールの説明"
+  },
+  "scheduled_tasks_label_schedule_name": {
+    "message": "スケジュール名"
+  },
+  "scheduled_tasks_label_schedule_source": {
+    "message": "スケジュール"
+  },
+  "scheduled_tasks_label_schedule_type": {
+    "message": "スケジュールの種類"
+  },
+  "scheduled_tasks_label_schedules": {
+    "message": "スケジュール"
+  },
+  "scheduled_tasks_label_second": {
+    "message": "秒"
+  },
+  "scheduled_tasks_label_seconds": {
+    "message": "秒"
+  },
+  "scheduled_tasks_label_select_date_and_time": {
+    "message": "日付と時刻を選択"
+  },
+  "scheduled_tasks_label_selected": {
+    "message": "選択中"
+  },
+  "scheduled_tasks_label_started_by": {
+    "message": "開始元"
+  },
+  "scheduled_tasks_label_task_description": {
+    "message": "タスクの説明"
+  },
+  "scheduled_tasks_label_task_source": {
+    "message": "タスク"
+  },
+  "scheduled_tasks_label_task_title": {
+    "message": "タスクのタイトル"
+  },
+  "scheduled_tasks_label_task_type": {
+    "message": "タスクの種類"
+  },
+  "scheduled_tasks_label_task_unavailable": {
+    "message": "タスクを利用できません"
+  },
+  "scheduled_tasks_label_time_zone": {
+    "message": "タイムゾーン"
+  },
+  "scheduled_tasks_label_timeout_hours": {
+    "message": "{{count}}時間"
+  },
+  "scheduled_tasks_label_timeout_minutes": {
+    "message": "{{count}}分"
+  },
+  "scheduled_tasks_label_unscheduled_task_list_notice": {
+    "message": "このタスクは「タスク」に「スケジュールなし」バッジ付きで表示されます。"
+  },
+  "scheduled_tasks_label_updated": {
+    "message": "更新日時"
+  },
+  "scheduled_tasks_label_use_local_timezone": {
+    "message": "ローカルタイムゾーンを使用"
+  },
+  "scheduled_tasks_label_user_source": {
+    "message": "ユーザー"
+  },
+  "scheduled_tasks_status_active": {
+    "message": "有効"
+  },
+  "scheduled_tasks_status_archived": {
+    "message": "アーカイブ済み"
+  },
+  "scheduled_tasks_status_beta": {
+    "message": "ベータ"
+  },
+  "scheduled_tasks_status_cancelled": {
+    "message": "キャンセル済み"
+  },
+  "scheduled_tasks_status_completed": {
+    "message": "完了"
+  },
+  "scheduled_tasks_status_disabled": {
+    "message": "無効"
+  },
+  "scheduled_tasks_status_failed": {
+    "message": "失敗"
+  },
+  "scheduled_tasks_status_needs_approval": {
+    "message": "承認待ち"
+  },
+  "scheduled_tasks_status_no_schedule": {
+    "message": "スケジュールなし"
+  },
+  "scheduled_tasks_status_not_started": {
+    "message": "未開始"
+  },
+  "scheduled_tasks_status_paused": {
+    "message": "一時停止中"
+  },
+  "scheduled_tasks_status_queued": {
+    "message": "待機中"
+  },
+  "scheduled_tasks_status_rejected": {
+    "message": "却下"
+  },
+  "scheduled_tasks_status_requires_approval": {
+    "message": "承認が必要"
+  },
+  "scheduled_tasks_status_running_now": {
+    "message": "実行中"
+  },
+  "scheduled_tasks_status_runs_automatically": {
+    "message": "自動実行"
+  },
+  "scheduled_tasks_status_scheduled": {
+    "message": "スケジュール済み"
+  },
+  "scheduled_tasks_status_skipped": {
+    "message": "スキップ"
+  },
+  "scheduled_tasks_title_delete": {
+    "message": "削除しますか？"
+  },
+  "scheduled_tasks_title_delete_schedule": {
+    "message": "スケジュールを削除しますか？"
+  },
+  "scheduled_tasks_title_delete_task": {
+    "message": "タスクを削除しますか？"
+  },
+  "scheduled_tasks_title_edit_scheduled_task": {
+    "message": "スケジュール済みタスクを編集"
+  },
+  "scheduled_tasks_title_edit_task": {
+    "message": "タスクを編集"
+  },
+  "scheduled_tasks_title_new_task": {
+    "message": "新規タスク"
+  },
+  "scheduled_tasks_title_run_behavior": {
+    "message": "実行動作"
+  },
+  "scheduled_tasks_title_task_settings": {
+    "message": "タスク設定"
+  },
+  "scheduled_tasks_title_tasks": {
+    "message": "タスク"
+  },
+  "scheduled_tasks_validation_cron_invalid": {
+    "message": "有効な5フィールドのCron式を入力してください"
+  },
+  "scheduled_tasks_validation_cron_required": {
+    "message": "Cron式は必須です"
+  },
+  "scheduled_tasks_validation_date_time_invalid": {
+    "message": "有効な日付と時刻を入力してください"
+  },
+  "scheduled_tasks_validation_interval_positive": {
+    "message": "間隔は正の数で入力してください"
+  },
+  "scheduled_tasks_validation_run_at_future": {
+    "message": "実行日時は未来の日時を指定してください"
+  },
+  "scheduled_tasks_validation_run_at_required": {
+    "message": "実行日時は必須です"
+  },
+  "scheduled_tasks_validation_run_at_within_five_years": {
+    "message": "実行日時は5年以内で指定してください"
+  },
+  "scheduled_tasks_validation_timeout_range": {
+    "message": "タイムアウトは{{minimum}}から{{maximum}}までの範囲で指定してください。"
+  },
+  "service_detail_action_back_to_services": {
+    "message": "サービスに戻る"
+  },
+  "service_detail_action_cleanup": {
+    "message": "クリーンアップ"
+  },
+  "service_detail_action_remove_deprecated_service": {
+    "message": "非推奨のサービスを削除"
+  },
+  "service_detail_description_cannot_remove_depended_by": {
+    "message": "削除できません：{{services}}が依存しています"
+  },
+  "service_detail_description_health": {
+    "message": "ヘルス：{{status}}"
+  },
+  "service_detail_description_no_configuration": {
+    "message": "このサービスに利用可能な設定はありません。"
+  },
+  "service_detail_description_pid": {
+    "message": "PID：{{pid}}"
+  },
+  "service_detail_description_service_not_found": {
+    "message": "サービスが見つかりません"
+  },
+  "service_detail_description_this_service_is_deprecated": {
+    "message": "このサービスは非推奨です"
+  },
+  "service_detail_description_unsupported_service_removal": {
+    "message": "このサービスはリリースインデックスに含まれなくなったため、削除してください。"
+  },
+  "service_detail_description_uptime": {
+    "message": "稼働時間：{{uptime}}"
+  },
+  "service_detail_label_component_spec": {
+    "message": "コンポーネント仕様"
+  },
+  "service_detail_label_config": {
+    "message": "設定"
+  },
+  "service_detail_label_exports": {
+    "message": "エクスポート"
+  },
+  "service_detail_label_failing": {
+    "message": "異常"
+  },
+  "service_detail_label_healthy": {
+    "message": "正常"
+  },
+  "service_detail_label_no_component_spec_file_found": {
+    "message": "コンポーネント仕様ファイルが見つかりません。"
+  },
+  "service_detail_label_runtime_config": {
+    "message": "ランタイム設定"
+  },
+  "service_detail_label_runtime_config_unavailable": {
+    "message": "サービスがまだ起動されていないため、利用できるランタイム設定はありません。"
+  },
+  "service_detail_tooltip_clean_orphan_processes": {
+    "message": "正常に終了しなかった可能性のある孤立プロセスを検出して強制終了します"
+  },
+  "service_detail_tooltip_copy_exports": {
+    "message": "エクスポートをコピー"
+  },
+  "service_detail_tooltip_copy_runtime_config": {
+    "message": "ランタイム設定をコピー"
+  },
+  "services_action_retry_setup": {
+    "message": "セットアップを再試行"
+  },
+  "services_action_start_all": {
+    "message": "すべて起動"
+  },
+  "services_actions": {
+    "message": "操作"
+  },
+  "services_all": {
+    "message": "すべて"
+  },
+  "services_coming_soon": {
+    "message": "近日公開"
+  },
+  "services_daemon": {
+    "message": "デーモン"
+  },
+  "services_dependencies": {
+    "message": "依存関係"
+  },
+  "services_description_lifecycle_overview": {
+    "message": "ローカルサービスのライフサイクルとヘルスチェックを管理します"
+  },
+  "services_description_setup_failed": {
+    "message": "セットアップに失敗しました"
+  },
+  "services_description_setup_failed_with_error": {
+    "message": "セットアップに失敗しました：{{error}}"
+  },
+  "services_error_loading": {
+    "message": "サービスの読み込みエラー"
+  },
+  "services_failing": {
+    "message": "異常"
+  },
+  "services_health": {
+    "message": "ヘルス"
+  },
+  "services_health_check": {
+    "message": "ヘルスチェック"
+  },
+  "services_healthy": {
+    "message": "正常"
+  },
+  "services_indexed_directories": {
+    "message": "インデックス済みディレクトリ"
+  },
+  "services_kind": {
+    "message": "種類"
+  },
+  "services_name": {
+    "message": "名前"
+  },
+  "services_no_filtered_services": {
+    "message": "ステータスが{{filter}}のサービスはありません"
+  },
+  "services_no_services": {
+    "message": "サービスが見つかりません"
+  },
+  "services_pending_jobs": {
+    "message": "待機中のジョブ"
+  },
+  "services_pid": {
+    "message": "PID"
+  },
+  "services_refresh": {
+    "message": "再読み込み"
+  },
+  "services_restart": {
+    "message": "再起動"
+  },
+  "services_run_health_check": {
+    "message": "ヘルスチェックを実行"
+  },
+  "services_runner_offline": {
+    "message": "バックグラウンドサービスはオフラインです"
+  },
+  "services_runner_online": {
+    "message": "バックグラウンドサービスはオンラインです"
+  },
+  "services_runner_status": {
+    "message": "バックグラウンドサービスのステータス"
+  },
+  "services_running": {
+    "message": "実行中"
+  },
+  "services_services_managed": {
+    "message": "管理中のサービス：{{count}}"
+  },
+  "services_start": {
+    "message": "起動"
+  },
+  "services_state": {
+    "message": "状態"
+  },
+  "services_status_beta": {
+    "message": "ベータ"
+  },
+  "services_status_crashed": {
+    "message": "クラッシュ"
+  },
+  "services_status_deprecated": {
+    "message": "非推奨"
+  },
+  "services_status_disabled": {
+    "message": "無効"
+  },
+  "services_status_pending": {
+    "message": "待機中"
+  },
+  "services_status_starting": {
+    "message": "起動中"
+  },
+  "services_status_stopping": {
+    "message": "停止中"
+  },
+  "services_stop": {
+    "message": "停止"
+  },
+  "services_stopped": {
+    "message": "停止済み"
+  },
+  "services_summary_pending": {
+    "message": "待機中：{{count}}"
+  },
+  "services_summary_running": {
+    "message": "実行中：{{count}}"
+  },
+  "services_summary_stopped": {
+    "message": "停止済み：{{count}}"
+  },
+  "services_summary_total": {
+    "message": "サービス：{{count}}"
+  },
+  "services_summary_transitioning": {
+    "message": "遷移中：{{count}}"
+  },
+  "services_summary_unhealthy": {
+    "message": "異常あり：{{count}}"
+  },
+  "services_title": {
+    "message": "サービス"
+  },
+  "services_unhealthy": {
+    "message": "異常あり"
+  },
+  "services_update_all": {
+    "message": "すべて更新"
+  },
+  "services_uptime": {
+    "message": "稼働時間"
+  },
+  "services_version": {
+    "message": "バージョン"
+  },
+  "services_view_config": {
+    "message": "設定を表示"
+  },
+  "services_view_logs": {
+    "message": "ログを表示"
+  },
+  "settings_accessible_label_component_update_track": {
+    "message": "コンポーネントの更新トラック"
+  },
+  "settings_action_resetting": {
+    "message": "リセット中…"
+  },
+  "settings_action_switch_and_update": {
+    "message": "切り替えて更新"
+  },
+  "settings_appearance": {
+    "message": "外観"
+  },
+  "settings_appearance_description": {
+    "message": "ビジュアルテーマと表示オプション"
+  },
+  "settings_coming_soon": {
+    "message": "近日公開"
+  },
+  "settings_debug_logging": {
+    "message": "デバッグログ"
+  },
+  "settings_debug_logging_description": {
+    "message": "トラブルシューティング用に詳細なログを有効にします"
+  },
+  "settings_description": {
+    "message": "アプリケーションの設定と構成"
+  },
+  "settings_description_backup_overview": {
+    "message": "データのコピーをエクスポートし、バックアップと復元のための特定時点のローカルスナップショットを管理します。"
+  },
+  "settings_description_factory_reset_deletes_data": {
+    "message": "この操作により、Phi Sentinelのすべてのデータが<permanent>完全に削除</permanent>されます："
+  },
+  "settings_description_factory_reset_warning": {
+    "message": "サービス、構成、ログ、キャッシュファイルを含むPhi Sentinelのすべてのデータを完全に削除します。この操作は元に戻せません。"
+  },
+  "settings_description_reset_failed": {
+    "message": "リセットに失敗しました"
+  },
+  "settings_description_stable_latest_switch_warning": {
+    "message": "安定版（最新）では、このSentinelバージョンで固定されたコンポーネントリリースを無視し、最新の安定版コンポーネントリリースに追従します。コンポーネントの更新はすぐに開始され、影響を受けるサービスが再起動される場合があります。"
+  },
+  "settings_description_stable_latest_track": {
+    "message": "新しく公開されるすべての安定版コンポーネントリリースに追従します。"
+  },
+  "settings_description_stable_pinned_switch_warning": {
+    "message": "安定版では、このSentinelバージョンに固定されたコンポーネントリリースに戻します。これにより、古いバージョンのコンポーネントがインストールされ、影響を受けるサービスが再起動される場合があります。"
+  },
+  "settings_description_stable_pinned_track": {
+    "message": "このSentinelバージョンに固定されたコンポーネントリリースに追従します。"
+  },
+  "settings_description_this_action_cannot_be_undone": {
+    "message": "この操作は元に戻せません。"
+  },
+  "settings_label_all_configurations_and_settings": {
+    "message": "すべての構成と設定"
+  },
+  "settings_label_all_logs_and_cached_files": {
+    "message": "すべてのログとキャッシュファイル"
+  },
+  "settings_label_installed_services_and_data": {
+    "message": "インストール済みのすべてのサービスとそのデータ"
+  },
+  "settings_label_job_schedules_and_history": {
+    "message": "ジョブのスケジュールと履歴"
+  },
+  "settings_label_stable_latest": {
+    "message": "安定版（最新）"
+  },
+  "settings_label_type_phrase_to_confirm": {
+    "message": "確認のため<phrase>{{phrase}}</phrase>と入力してください："
+  },
+  "settings_polling_intervals": {
+    "message": "ポーリング間隔"
+  },
+  "settings_polling_intervals_description": {
+    "message": "ステータスのポーリング頻度を設定します"
+  },
+  "settings_status_stable": {
+    "message": "安定版"
+  },
+  "settings_status_stable_latest_active": {
+    "message": "安定版（最新）が有効"
+  },
+  "settings_title": {
+    "message": "設定"
+  },
+  "settings_title_backup_restore": {
+    "message": "バックアップと復元"
+  },
+  "settings_title_component_updates": {
+    "message": "コンポーネントの更新"
+  },
+  "settings_title_confirm_factory_reset": {
+    "message": "初期化の確認"
+  },
+  "settings_title_danger_zone": {
+    "message": "危険な操作"
+  },
+  "settings_title_reset_all_data": {
+    "message": "すべてのデータをリセット"
+  },
+  "settings_title_switch_to_track": {
+    "message": "{{track}}に切り替えますか？"
+  },
+  "settings_update_channel": {
+    "message": "更新チャンネル"
+  },
+  "settings_update_channel_description": {
+    "message": "コンポーネントの更新チャンネルを選択します"
+  },
+  "sidebar_alerts": {
+    "message": "アラート"
+  },
+  "sidebar_indexing_active": {
+    "message": "アクティブ"
+  },
+  "sidebar_indexing_idle": {
+    "message": "アイドル"
+  },
+  "sidebar_local_system": {
+    "message": "ローカルシステム"
+  },
+  "sidebar_offline": {
+    "message": "オフライン"
+  },
+  "sidebar_online": {
+    "message": "オンライン"
+  },
+  "sidebar_runner": {
+    "message": "バックグラウンドサービス"
+  },
+  "status_bar_cpu": {
+    "message": "CPU：{{percent}}%"
+  },
+  "status_bar_memory": {
+    "message": "メモリ：{{value}}"
+  },
+  "status_bar_rag_queue": {
+    "message": "RAGキューのファイル：{{count}}"
+  },
+  "status_bar_services": {
+    "message": "サービス：{{count}}"
+  },
+  "task_detail_description_no_linked_schedules": {
+    "message": "このタスクに関連付けられたスケジュールはありません。"
+  },
+  "task_detail_field_label_latest_run": {
+    "message": "最新の実行"
+  },
+  "task_detail_label_failed_to_load_task_detail": {
+    "message": "タスクの詳細を読み込めませんでした。"
+  },
+  "task_detail_label_hide_run_details": {
+    "message": "実行の詳細を非表示"
+  },
+  "task_detail_label_view_run_details": {
+    "message": "実行の詳細を表示"
+  },
+  "uninstall_browser_running_alert_message": {
+    "message": "アンインストールの前に Phi Browser を終了してください。"
+  },
+  "uninstall_browser_running_alert_title": {
+    "message": "先に Phi Browser を終了してください"
+  },
+  "uninstall_dialog_browser_data_description": {
+    "message": "履歴、Cookie、キャッシュ、プロファイル"
+  },
+  "uninstall_dialog_browser_data_label": {
+    "message": "閲覧データ"
+  },
+  "uninstall_dialog_category_calculating_size_label": {
+    "message": "%@: 計算中…"
+  },
+  "uninstall_dialog_category_size_label": {
+    "message": "%1$@: %2$@"
+  },
+  "uninstall_dialog_confirmation_delete_and_quit_button": {
+    "message": "削除して終了"
+  },
+  "uninstall_dialog_confirmation_message": {
+    "message": "この操作は取り消せません。"
+  },
+  "uninstall_dialog_confirmation_title": {
+    "message": "選択したデータを完全に削除しますか？"
+  },
+  "uninstall_dialog_models_description": {
+    "message": "ダウンロード済みのモデルと MLX ランタイム"
+  },
+  "uninstall_dialog_models_label": {
+    "message": "ローカル AI モデルとランタイム"
+  },
+  "uninstall_dialog_quit_without_removing_button": {
+    "message": "削除せずに終了"
+  },
+  "uninstall_dialog_remove_selected_button": {
+    "message": "選択項目を削除して終了"
+  },
+  "uninstall_dialog_service_data_description": {
+    "message": "チャット履歴、エージェントのメモリ、タスク、インデックス、ログ"
+  },
+  "uninstall_dialog_service_data_label": {
+    "message": "会話、AI のメモリ、サービスデータ"
+  },
+  "uninstall_dialog_subtitle": {
+    "message": "完全に削除するローカルデータを選択してください。この操作は取り消せません。"
+  },
+  "uninstall_dialog_title": {
+    "message": "Phi をアンインストール"
+  },
+  "updates_all_up_to_date": {
+    "message": "すべてのコンポーネントは最新の状態です"
+  },
+  "updates_apply_all_updates": {
+    "message": "すべての更新を適用"
+  },
+  "updates_available_updates": {
+    "message": "利用可能な更新"
+  },
+  "updates_available_updates_description": {
+    "message": "コンポーネントのバージョン変更"
+  },
+  "updates_check_for_updates": {
+    "message": "更新を確認"
+  },
+  "updates_description": {
+    "message": "パッケージ管理とコンポーネントの更新"
+  },
+  "updates_description_version_change": {
+    "message": "{{current}} → {{target}}"
+  },
+  "updates_title": {
+    "message": "更新"
+  }
+}

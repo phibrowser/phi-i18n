@@ -1,0 +1,3443 @@
+{
+  "about_dialog_build_time_label": {
+    "message": "构建时间：%@"
+  },
+  "about_dialog_description": {
+    "message": "Phi Sentinel 负责管理 Phi Browser 的本地 AI 服务。"
+  },
+  "about_dialog_title": {
+    "message": "关于 Phi Sentinel"
+  },
+  "about_dialog_version_label": {
+    "message": "版本：%@"
+  },
+  "app_dev_mode": {
+    "message": "开发模式"
+  },
+  "app_name": {
+    "message": "Sentinel"
+  },
+  "backup_export_action_export_data": {
+    "message": "导出数据…"
+  },
+  "backup_export_action_working": {
+    "message": "正在处理…"
+  },
+  "backup_export_description_archive": {
+    "message": "把你的设置和数据保存为一份 <archive>.tar.gz</archive> 归档文件。提供商 API 密钥绝不会被导出。"
+  },
+  "backup_export_description_export_failed": {
+    "message": "导出失败"
+  },
+  "backup_export_description_export_failed_with_error": {
+    "message": "导出失败：{{error}}"
+  },
+  "backup_export_description_exported_to_path": {
+    "message": "已导出到 {{path}}"
+  },
+  "backup_export_description_inherited_failure": {
+    "message": "上一次备份操作失败。如果那是一次导入操作，你可以在下方的「快照」卡片中恢复导入前的快照。"
+  },
+  "backup_export_description_inherited_failure_with_error": {
+    "message": "上一次备份操作失败：{{error}}。如果那是一次导入操作，你可以在下方的「快照」卡片中恢复导入前的快照。"
+  },
+  "backup_export_description_resume_warning": {
+    "message": "在一次中断后恢复并完成。使用前请先验证归档文件。"
+  },
+  "backup_export_description_resume_warning_with_error": {
+    "message": "在一次中断后恢复并完成：{{error}}。使用前请先验证归档文件。"
+  },
+  "backup_export_title_export_data": {
+    "message": "导出数据"
+  },
+  "backup_snapshots_action_restore": {
+    "message": "恢复"
+  },
+  "backup_snapshots_action_restore_snapshot": {
+    "message": "恢复快照"
+  },
+  "backup_snapshots_action_restoring": {
+    "message": "正在恢复…"
+  },
+  "backup_snapshots_action_snapshot_now": {
+    "message": "立即创建快照"
+  },
+  "backup_snapshots_action_snapshotting": {
+    "message": "正在创建快照…"
+  },
+  "backup_snapshots_description_loading_snapshots": {
+    "message": "正在加载快照…"
+  },
+  "backup_snapshots_description_local_snapshot_privacy": {
+    "message": "本机 Sentinel 状态在特定时间点的副本。快照绝不会离开这台 Mac。"
+  },
+  "backup_snapshots_description_no_snapshots_yet": {
+    "message": "暂无快照。"
+  },
+  "backup_snapshots_description_restore_snapshot_at": {
+    "message": "Sentinel 将停止所有服务，把状态树回滚到 {{date}}，然后重新启动。此后写入的数据将被替换。此操作无法撤销。"
+  },
+  "backup_snapshots_description_restore_this_snapshot": {
+    "message": "Sentinel 将停止所有服务，把状态树回滚到此快照，然后重新启动。此后写入的数据将被替换。此操作无法撤销。"
+  },
+  "backup_snapshots_label_automatic_risky_release": {
+    "message": "自动（高风险版本）"
+  },
+  "backup_snapshots_label_manual": {
+    "message": "手动"
+  },
+  "backup_snapshots_label_pre_import": {
+    "message": "导入前"
+  },
+  "backup_snapshots_label_snapshot_version": {
+    "message": "Sentinel {{sentinelVersion}}"
+  },
+  "backup_snapshots_label_snapshot_versions_with_browser": {
+    "message": "Sentinel {{sentinelVersion}} · 浏览器 {{browserVersion}}"
+  },
+  "backup_snapshots_title_local_snapshots": {
+    "message": "本地快照"
+  },
+  "backup_snapshots_title_restore_this_snapshot": {
+    "message": "要恢复此快照吗？"
+  },
+  "common_action_cancel_button": {
+    "message": "取消"
+  },
+  "common_alert_okay_button": {
+    "message": "好"
+  },
+  "common_all": {
+    "message": "全部"
+  },
+  "common_cancel": {
+    "message": "取消"
+  },
+  "common_close": {
+    "message": "关闭"
+  },
+  "common_error": {
+    "message": "错误"
+  },
+  "common_loading": {
+    "message": "加载中…"
+  },
+  "common_retry": {
+    "message": "重试"
+  },
+  "common_save": {
+    "message": "保存"
+  },
+  "common_task_run_approval_actions_label_approve": {
+    "message": "批准"
+  },
+  "common_task_run_approval_actions_label_reject": {
+    "message": "拒绝"
+  },
+  "common_unknown": {
+    "message": "未知"
+  },
+  "dashboard_window_title": {
+    "message": "Phi Sentinel 仪表盘"
+  },
+  "directory_access_panel_grant_button": {
+    "message": "授予访问权限"
+  },
+  "directory_access_panel_message": {
+    "message": "选择要授予访问权限的目录"
+  },
+  "errors_ai_gateway_provider_test_timed_out": {
+    "message": "提供商测试超时。提供商可能仍在加载模型，请稍后重试。"
+  },
+  "errors_config_load_failed": {
+    "message": "加载配置失败"
+  },
+  "errors_copy_failed": {
+    "message": "复制失败"
+  },
+  "errors_logs_copy_failed": {
+    "message": "复制日志失败"
+  },
+  "errors_logs_directory_unavailable": {
+    "message": "日志目录不可用"
+  },
+  "errors_logs_download_failed": {
+    "message": "下载日志失败"
+  },
+  "errors_logs_load_failed": {
+    "message": "加载日志失败"
+  },
+  "errors_logs_load_more_failed": {
+    "message": "加载更多日志失败"
+  },
+  "errors_phi_agent_api_error": {
+    "message": "Phi Agent API 错误：{{status}}"
+  },
+  "errors_phi_agent_label_duration": {
+    "message": "{{count}} {{unit}}"
+  },
+  "errors_phi_agent_label_milliseconds": {
+    "message": "{{count}} ms"
+  },
+  "errors_phi_agent_repeat_interval_minimum": {
+    "message": "重复间隔不能少于 30 秒。"
+  },
+  "errors_phi_agent_repeat_interval_minimum_with_current": {
+    "message": "重复间隔不能少于 {{minimum}}。当前值：{{current}}。"
+  },
+  "errors_tasks_schedule_creation_partial_failure": {
+    "message": "任务已创建，但计划创建失败"
+  },
+  "errors_tasks_task_update_partial_failure": {
+    "message": "计划已更新，但任务更新失败"
+  },
+  "experimental_description_stability_warning": {
+    "message": "仍在演进中的早期功能，可能存在不完善之处。"
+  },
+  "history_coming_soon_description": {
+    "message": "历史记录功能正在开发中"
+  },
+  "history_description": {
+    "message": "审计与故障排查视图"
+  },
+  "history_event_history": {
+    "message": "事件历史"
+  },
+  "history_event_history_description": {
+    "message": "查看系统事件、服务变更和作业执行记录"
+  },
+  "history_export": {
+    "message": "导出"
+  },
+  "history_filter": {
+    "message": "筛选"
+  },
+  "history_title": {
+    "message": "历史记录"
+  },
+  "history_will_show": {
+    "message": "此视图将显示服务事件、作业执行、权限变更和更新记录"
+  },
+  "job_detail_action_back": {
+    "message": "返回"
+  },
+  "job_detail_description_duration": {
+    "message": "耗时：{{duration}}"
+  },
+  "job_detail_description_finished_at": {
+    "message": "结束时间：{{date}}"
+  },
+  "job_detail_description_legacy_run_without_task": {
+    "message": "此作业运行没有关联的 Phi Agent 任务运行。"
+  },
+  "job_detail_description_no_task_run_details_available": {
+    "message": "暂无任务运行详情"
+  },
+  "job_detail_description_started_at": {
+    "message": "开始时间：{{date}}"
+  },
+  "job_detail_description_task_run_load_failure": {
+    "message": "加载任务运行详情失败"
+  },
+  "job_detail_description_unknown_error": {
+    "message": "未知错误"
+  },
+  "job_detail_title_artifacts": {
+    "message": "产物（{{count}}）"
+  },
+  "job_detail_title_logs": {
+    "message": "日志（{{count}}）"
+  },
+  "job_detail_title_progress": {
+    "message": "进度"
+  },
+  "job_detail_title_result": {
+    "message": "结果"
+  },
+  "job_detail_title_task_run": {
+    "message": "任务运行"
+  },
+  "jobs_action_clear_filter": {
+    "message": "清除筛选"
+  },
+  "jobs_callback_path_placeholder": {
+    "message": "回调路径（例如：/internal/jobs/run）"
+  },
+  "jobs_coming_soon": {
+    "message": "即将推出"
+  },
+  "jobs_coming_soon_description": {
+    "message": "作业管理功能正在开发中"
+  },
+  "jobs_component_id_placeholder": {
+    "message": "目标组件 ID（例如：go.service-a）"
+  },
+  "jobs_create": {
+    "message": "创建"
+  },
+  "jobs_create_one_time": {
+    "message": "创建一次性作业"
+  },
+  "jobs_create_one_time_description": {
+    "message": "创建一次性作业，在指定时间调用组件的回调 API"
+  },
+  "jobs_description": {
+    "message": "管理计划作业和手动触发的作业"
+  },
+  "jobs_description_no_runs_recorded_yet": {
+    "message": "暂无运行记录"
+  },
+  "jobs_disable": {
+    "message": "禁用"
+  },
+  "jobs_disabled": {
+    "message": "已禁用"
+  },
+  "jobs_empty_jobs": {
+    "message": "暂无作业"
+  },
+  "jobs_empty_runs": {
+    "message": "暂无作业运行历史"
+  },
+  "jobs_enable": {
+    "message": "启用"
+  },
+  "jobs_enabled": {
+    "message": "已启用"
+  },
+  "jobs_execution_history": {
+    "message": "执行历史"
+  },
+  "jobs_execution_history_description": {
+    "message": "查看作业执行历史和日志"
+  },
+  "jobs_hide_history": {
+    "message": "隐藏历史"
+  },
+  "jobs_job_id_label": {
+    "message": "作业 ID"
+  },
+  "jobs_job_name_placeholder": {
+    "message": "作业名称"
+  },
+  "jobs_label_all_jobs": {
+    "message": "全部作业"
+  },
+  "jobs_label_duration": {
+    "message": "耗时"
+  },
+  "jobs_label_every_hours": {
+    "message": "每 {{count}} 小时"
+  },
+  "jobs_label_every_minutes": {
+    "message": "每 {{count}} 分钟"
+  },
+  "jobs_label_every_seconds": {
+    "message": "每 {{count}} 秒"
+  },
+  "jobs_label_interval_lowercase": {
+    "message": "间隔"
+  },
+  "jobs_label_job": {
+    "message": "作业"
+  },
+  "jobs_label_last_run": {
+    "message": "上次运行"
+  },
+  "jobs_label_schedule": {
+    "message": "计划"
+  },
+  "jobs_label_started": {
+    "message": "开始时间"
+  },
+  "jobs_label_status": {
+    "message": "状态"
+  },
+  "jobs_label_type": {
+    "message": "类型"
+  },
+  "jobs_next_run_at": {
+    "message": "下次运行"
+  },
+  "jobs_refresh": {
+    "message": "刷新"
+  },
+  "jobs_remove": {
+    "message": "移除"
+  },
+  "jobs_run_now": {
+    "message": "立即运行"
+  },
+  "jobs_scheduled_jobs": {
+    "message": "计划作业"
+  },
+  "jobs_scheduled_jobs_description": {
+    "message": "查看和管理计划作业定义"
+  },
+  "jobs_show_history": {
+    "message": "显示历史"
+  },
+  "jobs_summary_disabled": {
+    "message": "已禁用：{{count}}"
+  },
+  "jobs_summary_enabled": {
+    "message": "已启用：{{count}}"
+  },
+  "jobs_summary_failing": {
+    "message": "失败：{{count}}"
+  },
+  "jobs_summary_total": {
+    "message": "作业：{{count}}"
+  },
+  "jobs_title": {
+    "message": "作业"
+  },
+  "jobs_title_job_history": {
+    "message": "作业历史"
+  },
+  "knowledge_add_directory": {
+    "message": "添加目录"
+  },
+  "knowledge_coming_soon_description": {
+    "message": "知识管理功能正在开发中"
+  },
+  "knowledge_description": {
+    "message": "RAG 目录选择与索引生命周期"
+  },
+  "knowledge_indexed_directories": {
+    "message": "已索引目录"
+  },
+  "knowledge_indexed_directories_description": {
+    "message": "管理用于 RAG 索引的目录"
+  },
+  "knowledge_start_index": {
+    "message": "开始索引"
+  },
+  "knowledge_title": {
+    "message": "知识库"
+  },
+  "knowledge_will_show": {
+    "message": "此视图将显示已授权的目录、索引状态、分块数量和重新索引操作"
+  },
+  "layout_app_shell_accessible_label_opening_sentinel": {
+    "message": "正在打开 Sentinel"
+  },
+  "layout_app_shell_description_startup_progress": {
+    "message": "正在连接本地桥接服务、检查后台服务状态并准备工作区。"
+  },
+  "layout_top_bar_accessible_label_auto_theme": {
+    "message": "自动主题（{{theme}}）"
+  },
+  "layout_top_bar_accessible_label_celebrate_phi_sentinel": {
+    "message": "庆祝 Phi Sentinel"
+  },
+  "layout_top_bar_accessible_label_dark_theme": {
+    "message": "深色主题"
+  },
+  "layout_top_bar_accessible_label_light_theme": {
+    "message": "浅色主题"
+  },
+  "layout_top_bar_accessible_label_runner_status": {
+    "message": "后台服务状态：{{status}}"
+  },
+  "layout_top_bar_accessible_label_theme": {
+    "message": "主题"
+  },
+  "layout_top_bar_action_restart_to_version": {
+    "message": "重启至 v{{version}}"
+  },
+  "layout_top_bar_image_description_phi_sentinel_app_icon": {
+    "message": "Phi Sentinel 应用图标"
+  },
+  "layout_top_bar_label_dark": {
+    "message": "深色"
+  },
+  "layout_top_bar_label_light": {
+    "message": "浅色"
+  },
+  "layout_top_bar_label_version": {
+    "message": "v{{version}}"
+  },
+  "layout_top_bar_status_checking_updates": {
+    "message": "正在检查更新…"
+  },
+  "layout_top_bar_status_downloading": {
+    "message": "正在下载…"
+  },
+  "layout_top_bar_status_health_check": {
+    "message": "正在进行健康检查…"
+  },
+  "layout_top_bar_status_installing": {
+    "message": "正在安装…"
+  },
+  "layout_top_bar_status_planning_update": {
+    "message": "正在规划更新…"
+  },
+  "layout_top_bar_status_restarting": {
+    "message": "正在重启…"
+  },
+  "layout_top_bar_status_rolling_back": {
+    "message": "正在回滚…"
+  },
+  "layout_top_bar_status_staging": {
+    "message": "正在暂存…"
+  },
+  "layout_top_bar_status_switching": {
+    "message": "正在切换…"
+  },
+  "layout_top_bar_status_verifying": {
+    "message": "正在验证…"
+  },
+  "layout_top_bar_title_phi_sentinel": {
+    "message": "Phi Sentinel"
+  },
+  "local_ai_hugging_face_download_hint_accessible_label_download_source_guidance": {
+    "message": "关于 Hugging Face 下载速度和错误"
+  },
+  "local_ai_hugging_face_download_hint_label_download_reliability_warning": {
+    "message": "从 Hugging Face 下载可能比 Phi 镜像慢，还可能因速率限制、访问受限或网络中断而失败。如果遇到这种情况，请改用 Phi 镜像重试。"
+  },
+  "local_ai_local_llm_accessible_label_control_local_ai": {
+    "message": "{{action}} 本地 AI"
+  },
+  "local_ai_local_llm_accessible_label_view_role_logs": {
+    "message": "查看 {{role}} 日志"
+  },
+  "local_ai_local_llm_action_cancelling": {
+    "message": "正在取消…"
+  },
+  "local_ai_local_llm_action_check_again": {
+    "message": "重新检查"
+  },
+  "local_ai_local_llm_action_disable": {
+    "message": "禁用"
+  },
+  "local_ai_local_llm_action_download_and_start": {
+    "message": "下载并启动"
+  },
+  "local_ai_local_llm_action_enable": {
+    "message": "启用"
+  },
+  "local_ai_local_llm_action_install_and_start": {
+    "message": "安装并启动"
+  },
+  "local_ai_local_llm_action_install_model": {
+    "message": "安装模型"
+  },
+  "local_ai_local_llm_action_install_runtime": {
+    "message": "安装运行时"
+  },
+  "local_ai_local_llm_action_next_step": {
+    "message": "下一步"
+  },
+  "local_ai_local_llm_action_preparing": {
+    "message": "正在准备…"
+  },
+  "local_ai_local_llm_action_retry_hugging_face": {
+    "message": "重试 Hugging Face"
+  },
+  "local_ai_local_llm_action_retry_phi_mirror": {
+    "message": "重试 Phi 镜像"
+  },
+  "local_ai_local_llm_action_start_local_services": {
+    "message": "启动本地服务"
+  },
+  "local_ai_local_llm_action_start_services": {
+    "message": "启动服务"
+  },
+  "local_ai_local_llm_action_starting": {
+    "message": "正在启动…"
+  },
+  "local_ai_local_llm_action_turn_on_local_ai": {
+    "message": "开启本地 AI"
+  },
+  "local_ai_local_llm_action_update": {
+    "message": "更新"
+  },
+  "local_ai_local_llm_description_apple_silicon_required": {
+    "message": "需要 Apple Silicon。"
+  },
+  "local_ai_local_llm_description_chat_configured": {
+    "message": "Sentinel 将启动本地对话模型。"
+  },
+  "local_ai_local_llm_description_chat_not_set_up": {
+    "message": "开启本地 AI 后，将启动 Sentinel 本地对话模型。"
+  },
+  "local_ai_local_llm_description_chat_off": {
+    "message": "对话已关闭。本地模型仍会保留，以备之后使用。"
+  },
+  "local_ai_local_llm_description_chat_ready": {
+    "message": "本地对话模型已就绪。"
+  },
+  "local_ai_local_llm_description_chat_start_failed": {
+    "message": "本地对话模型启动失败。"
+  },
+  "local_ai_local_llm_description_chat_starting": {
+    "message": "Sentinel 正在启动本地对话模型。"
+  },
+  "local_ai_local_llm_description_checking_download_disk_space": {
+    "message": "Sentinel 正在检查可用磁盘空间，随后才会显示下载选项。"
+  },
+  "local_ai_local_llm_description_choose_download_location": {
+    "message": "选择文件的下载来源"
+  },
+  "local_ai_local_llm_description_connector_configured": {
+    "message": "Sentinel 将启动连接器索引。"
+  },
+  "local_ai_local_llm_description_connector_not_set_up": {
+    "message": "开启本地 AI 后，将启动 Sentinel 本地互联数据搜索模型。"
+  },
+  "local_ai_local_llm_description_connector_off": {
+    "message": "连接器搜索已关闭。本地模型仍会保留，以备之后使用。"
+  },
+  "local_ai_local_llm_description_connector_ready": {
+    "message": "已就绪，可用于 Notion 等已连接的应用。"
+  },
+  "local_ai_local_llm_description_connector_start_failed": {
+    "message": "连接器索引启动失败。"
+  },
+  "local_ai_local_llm_description_connector_starting": {
+    "message": "Sentinel 正在启动连接器索引。"
+  },
+  "local_ai_local_llm_description_data_search_download_failed": {
+    "message": "数据搜索模型下载失败。"
+  },
+  "local_ai_local_llm_description_download_and_start_plan": {
+    "message": "Sentinel 将下载缺失的运行时或模型文件，然后启动记忆和互联数据搜索。"
+  },
+  "local_ai_local_llm_description_download_source_recommendation": {
+    "message": "推荐使用 Phi 镜像。Hugging Face 可用于经 Sentinel 认可的公开模型，速度可能较慢。"
+  },
+  "local_ai_local_llm_description_download_then_start": {
+    "message": "Sentinel 将下载 {{items}}，然后启动所需的本地服务。"
+  },
+  "local_ai_local_llm_description_downloading_and_starting": {
+    "message": "正在下载并启动"
+  },
+  "local_ai_local_llm_description_downloading_from_hugging_face": {
+    "message": "正在从 Hugging Face 下载。"
+  },
+  "local_ai_local_llm_description_downloading_from_phi_mirror": {
+    "message": "正在从 Phi 镜像下载。"
+  },
+  "local_ai_local_llm_description_downloading_runtime": {
+    "message": "正在下载本地 LLM 运行时。"
+  },
+  "local_ai_local_llm_description_downloads_chat_memory_model": {
+    "message": "下载用于对话和记忆的本地模型。"
+  },
+  "local_ai_local_llm_description_downloads_data_search_model": {
+    "message": "下载用于搜索已连接数据的本地模型。"
+  },
+  "local_ai_local_llm_description_downloads_memory_model": {
+    "message": "下载用于记忆的本地模型。"
+  },
+  "local_ai_local_llm_description_free_space_then_retry": {
+    "message": "释放空间，然后重试"
+  },
+  "local_ai_local_llm_description_insufficient_disk_space_guidance": {
+    "message": "下载本地运行时或模型前，请先释放空间并重试。"
+  },
+  "local_ai_local_llm_description_insufficient_storage": {
+    "message": "本地 AI 设置需要 Sentinel 存储磁盘至少有 10GB 可用空间。当前可用 {{available}}。"
+  },
+  "local_ai_local_llm_description_local_features_running": {
+    "message": "记忆和互联数据搜索正在这台 Mac 上运行。"
+  },
+  "local_ai_local_llm_description_local_model_assignments": {
+    "message": "记忆和互联数据搜索已配置为使用这台 Mac 上的本地模型。"
+  },
+  "local_ai_local_llm_description_local_services_running": {
+    "message": "本地服务正在运行"
+  },
+  "local_ai_local_llm_description_memory_configured": {
+    "message": "Sentinel 将启动本地记忆模型。"
+  },
+  "local_ai_local_llm_description_memory_download_failed": {
+    "message": "记忆模型下载失败。"
+  },
+  "local_ai_local_llm_description_memory_not_set_up": {
+    "message": "开启本地 AI 后，将启动 Sentinel 本地记忆模型。"
+  },
+  "local_ai_local_llm_description_memory_off": {
+    "message": "记忆已关闭。本地模型仍会保留，以备之后使用。"
+  },
+  "local_ai_local_llm_description_memory_ready": {
+    "message": "本地记忆模型已就绪。"
+  },
+  "local_ai_local_llm_description_memory_start_failed": {
+    "message": "本地记忆模型启动失败。"
+  },
+  "local_ai_local_llm_description_memory_starting": {
+    "message": "Sentinel 正在启动本地记忆模型。"
+  },
+  "local_ai_local_llm_description_missing_files_source": {
+    "message": "Sentinel 将从此来源获取缺失的运行时或模型文件。"
+  },
+  "local_ai_local_llm_description_no_supported_chat_model": {
+    "message": "暂无受支持的对话模型。"
+  },
+  "local_ai_local_llm_description_no_supported_connector_model": {
+    "message": "暂无受支持的连接器索引模型。"
+  },
+  "local_ai_local_llm_description_no_supported_data_search_model": {
+    "message": "暂无受支持的互联数据搜索模型。"
+  },
+  "local_ai_local_llm_description_no_supported_memory_model": {
+    "message": "暂无受支持的记忆模型。"
+  },
+  "local_ai_local_llm_description_preparing_runtime_install": {
+    "message": "Sentinel 正在检查可用磁盘空间，并准备安装本地运行时。"
+  },
+  "local_ai_local_llm_description_preparing_setup": {
+    "message": "正在准备本地 AI 设置。"
+  },
+  "local_ai_local_llm_description_role_start_failed": {
+    "message": "无法启动 {{role}}。"
+  },
+  "local_ai_local_llm_description_runtime_and_models_installed": {
+    "message": "运行时和模型已安装"
+  },
+  "local_ai_local_llm_description_runtime_download_failed": {
+    "message": "运行时下载失败。"
+  },
+  "local_ai_local_llm_description_runtime_ready": {
+    "message": "运行时和模型已在这台 Mac 上就绪。启动本地服务即可使用 Sentinel 本地 AI。"
+  },
+  "local_ai_local_llm_description_runtime_required": {
+    "message": "必须先安装，本地模型才能在这台 Mac 上运行。"
+  },
+  "local_ai_local_llm_description_runtime_required_short": {
+    "message": "必须先安装，本地模型才能运行。"
+  },
+  "local_ai_local_llm_description_start_failed": {
+    "message": "本地 AI 启动失败：{{error}}"
+  },
+  "local_ai_local_llm_description_start_installed_services": {
+    "message": "Sentinel 将使用这台 Mac 上已有的模型启动所选本地服务。"
+  },
+  "local_ai_local_llm_description_starting_installed_services": {
+    "message": "运行时和模型均已安装。Sentinel 正在启动本地服务。"
+  },
+  "local_ai_local_llm_description_starting_local_services": {
+    "message": "正在启动本地服务"
+  },
+  "local_ai_local_llm_description_status_load_failure": {
+    "message": "状态加载失败：{{error}}"
+  },
+  "local_ai_local_llm_description_stopping_downloads": {
+    "message": "正在停止进行中的下载。取消完成后，你可以重新开始。"
+  },
+  "local_ai_local_llm_description_storage_check_failed": {
+    "message": "无法检查 Sentinel 存储空间：{{error}}"
+  },
+  "local_ai_local_llm_description_unknown_error": {
+    "message": "未知错误"
+  },
+  "local_ai_local_llm_description_waiting_step": {
+    "message": "{{detail}} Sentinel 会保留已安装的所有内容。"
+  },
+  "local_ai_local_llm_label_connected_data_search_lowercase": {
+    "message": "互联数据搜索"
+  },
+  "local_ai_local_llm_label_experimental": {
+    "message": "实验性功能"
+  },
+  "local_ai_local_llm_label_gb": {
+    "message": "约 1GB"
+  },
+  "local_ai_local_llm_label_hugging_face": {
+    "message": "Hugging Face"
+  },
+  "local_ai_local_llm_label_latest_version": {
+    "message": "最新版本 {{version}}"
+  },
+  "local_ai_local_llm_label_loading_local_runtime": {
+    "message": "正在加载本地运行时…"
+  },
+  "local_ai_local_llm_label_model_value": {
+    "message": "模型：{{model}}"
+  },
+  "local_ai_local_llm_label_phi_mirror": {
+    "message": "Phi 镜像"
+  },
+  "local_ai_local_llm_label_runtime": {
+    "message": "运行时"
+  },
+  "local_ai_local_llm_label_source_name": {
+    "message": "来源：{{source}}"
+  },
+  "local_ai_local_llm_label_source_with_detail": {
+    "message": "来源：{{source}} · {{detail}}"
+  },
+  "local_ai_local_llm_label_step_progress": {
+    "message": "第 {{current}} 步，共 {{total}} 步"
+  },
+  "local_ai_local_llm_label_the_chat_memory_model": {
+    "message": "对话和记忆模型"
+  },
+  "local_ai_local_llm_label_the_data_search_model": {
+    "message": "互联数据搜索模型"
+  },
+  "local_ai_local_llm_label_the_local_runtime": {
+    "message": "本地 LLM 运行时"
+  },
+  "local_ai_local_llm_label_the_memory_model": {
+    "message": "记忆模型"
+  },
+  "local_ai_local_llm_label_version": {
+    "message": "版本 {{version}}"
+  },
+  "local_ai_local_llm_label_version_with_update": {
+    "message": "版本 {{installedVersion}} · 可更新到 {{availableVersion}}"
+  },
+  "local_ai_local_llm_status_cancelling": {
+    "message": "正在取消"
+  },
+  "local_ai_local_llm_status_checking": {
+    "message": "正在检查"
+  },
+  "local_ai_local_llm_status_complete": {
+    "message": "已完成"
+  },
+  "local_ai_local_llm_status_configured": {
+    "message": "已配置"
+  },
+  "local_ai_local_llm_status_in_progress": {
+    "message": "进行中"
+  },
+  "local_ai_local_llm_status_installed": {
+    "message": "已安装"
+  },
+  "local_ai_local_llm_status_installing": {
+    "message": "正在安装"
+  },
+  "local_ai_local_llm_status_needs_attention": {
+    "message": "需要处理"
+  },
+  "local_ai_local_llm_status_not_installed": {
+    "message": "未安装"
+  },
+  "local_ai_local_llm_status_not_set_up": {
+    "message": "未设置"
+  },
+  "local_ai_local_llm_status_ready": {
+    "message": "已就绪"
+  },
+  "local_ai_local_llm_status_starting": {
+    "message": "正在启动"
+  },
+  "local_ai_local_llm_status_update_available": {
+    "message": "有可用更新"
+  },
+  "local_ai_local_llm_status_waiting": {
+    "message": "等待中"
+  },
+  "local_ai_local_llm_title_cancelling_setup": {
+    "message": "正在取消设置"
+  },
+  "local_ai_local_llm_title_chat_and_memory_model": {
+    "message": "对话和记忆模型"
+  },
+  "local_ai_local_llm_title_choose_download_source": {
+    "message": "选择下载来源"
+  },
+  "local_ai_local_llm_title_data_search_model": {
+    "message": "数据搜索模型"
+  },
+  "local_ai_local_llm_title_download_source": {
+    "message": "下载来源"
+  },
+  "local_ai_local_llm_title_install_chat_memory_model": {
+    "message": "安装对话与记忆模型"
+  },
+  "local_ai_local_llm_title_install_data_search_model": {
+    "message": "安装已连接数据搜索模型"
+  },
+  "local_ai_local_llm_title_install_memory_model": {
+    "message": "安装记忆模型"
+  },
+  "local_ai_local_llm_title_local_ai": {
+    "message": "本地 AI"
+  },
+  "local_ai_local_llm_title_local_aiready": {
+    "message": "本地 AI 已就绪"
+  },
+  "local_ai_local_llm_title_local_aiservices_are_installed": {
+    "message": "本地 AI 服务已安装"
+  },
+  "local_ai_local_llm_title_local_aisetup_needs_space": {
+    "message": "本地 AI 设置需要更多存储空间"
+  },
+  "local_ai_local_llm_title_local_llm_runtime": {
+    "message": "本地 LLM 运行时"
+  },
+  "local_ai_local_llm_title_memory_model": {
+    "message": "记忆模型"
+  },
+  "local_ai_local_llm_title_preparing_local_aisetup": {
+    "message": "正在准备本地 AI 设置"
+  },
+  "local_ai_local_llm_title_preparing_setup": {
+    "message": "正在准备设置"
+  },
+  "local_ai_local_llm_title_sentinel_local_aiis_ready": {
+    "message": "Sentinel 本地 AI 已就绪"
+  },
+  "local_ai_local_llm_title_starting_local_aisetup": {
+    "message": "正在开始本地 AI 设置"
+  },
+  "local_ai_local_llm_title_starting_sentinel_local_ai": {
+    "message": "正在启动 Sentinel 本地 AI"
+  },
+  "local_ai_local_llm_title_step_needed": {
+    "message": "需要完成「{{step}}」"
+  },
+  "local_ai_local_llm_title_step_needs_attention": {
+    "message": "「{{step}}」需要处理"
+  },
+  "local_ai_local_llm_tooltip_chat": {
+    "message": "对话"
+  },
+  "local_ai_local_llm_tooltip_connected_data_search": {
+    "message": "已连接数据搜索"
+  },
+  "local_ai_local_llm_tooltip_local_aisetup_needs_attention": {
+    "message": "本地 AI 设置需要处理"
+  },
+  "local_ai_local_llm_tooltip_memory": {
+    "message": "记忆"
+  },
+  "local_ai_local_llm_tooltip_runtime_update_available": {
+    "message": "运行时有可用更新"
+  },
+  "local_ai_local_llm_tooltip_view_logs": {
+    "message": "查看日志"
+  },
+  "local_ai_models_accessible_label_cancel_model_download": {
+    "message": "取消模型下载"
+  },
+  "local_ai_models_accessible_label_delete_model": {
+    "message": "删除 {{model}}"
+  },
+  "local_ai_models_accessible_label_download_progress": {
+    "message": "下载进度"
+  },
+  "local_ai_models_accessible_label_hugging_face_model_url": {
+    "message": "Hugging Face 模型 URL"
+  },
+  "local_ai_models_accessible_label_installed_models": {
+    "message": "已安装的模型"
+  },
+  "local_ai_models_action_delete_model": {
+    "message": "删除模型"
+  },
+  "local_ai_models_action_download": {
+    "message": "下载"
+  },
+  "local_ai_models_action_download_from_hugging_face": {
+    "message": "从 Hugging Face 下载"
+  },
+  "local_ai_models_action_retry_from_phi_mirror": {
+    "message": "从 Phi 镜像重试"
+  },
+  "local_ai_models_description_in_use_before_deleting": {
+    "message": "正在被 {{roles}} 使用，删除前请先关闭或重新分配相关角色"
+  },
+  "local_ai_models_description_install_failed": {
+    "message": "安装失败。"
+  },
+  "local_ai_models_description_model_already_installed": {
+    "message": "该模型已安装。"
+  },
+  "local_ai_models_description_paste_supported_hugging_face_url": {
+    "message": "请粘贴受支持模型的 Hugging Face 模型 URL。"
+  },
+  "local_ai_models_description_unsupported_hugging_face_model": {
+    "message": "此处不支持该 Hugging Face 模型。"
+  },
+  "local_ai_models_label_any_role": {
+    "message": "任意角色"
+  },
+  "local_ai_models_label_availability_summary": {
+    "message": "已安装 {{installed}} · 可用 {{available}}"
+  },
+  "local_ai_models_label_download_source_with_phase": {
+    "message": "{{phase}} · 来源：{{source}}{{detail}}"
+  },
+  "local_ai_models_label_for_roles": {
+    "message": "适用于 {{roles}}"
+  },
+  "local_ai_models_label_no_models_in_catalog": {
+    "message": "目录中暂无模型。"
+  },
+  "local_ai_models_label_recommended": {
+    "message": "推荐"
+  },
+  "local_ai_models_label_saved_for_roles": {
+    "message": "已保存用于 {{roles}}"
+  },
+  "local_ai_models_label_soon": {
+    "message": "即将完成"
+  },
+  "local_ai_models_label_starting_download": {
+    "message": "正在开始下载"
+  },
+  "local_ai_models_label_time_left": {
+    "message": "剩余 {{duration}}"
+  },
+  "local_ai_models_label_used_by_roles": {
+    "message": "由 {{roles}} 使用"
+  },
+  "local_ai_models_placeholder_model_url": {
+    "message": "粘贴受支持的 Hugging Face 模型 URL"
+  },
+  "local_ai_models_status_downloading": {
+    "message": "正在下载"
+  },
+  "local_ai_models_status_extracting": {
+    "message": "正在解压"
+  },
+  "local_ai_models_status_install_runtime_first": {
+    "message": "请先安装运行时"
+  },
+  "local_ai_models_status_queued": {
+    "message": "排队中"
+  },
+  "local_ai_models_status_runtime_installing": {
+    "message": "正在安装运行时…"
+  },
+  "local_ai_models_status_verifying": {
+    "message": "正在验证"
+  },
+  "local_ai_models_title_models": {
+    "message": "模型"
+  },
+  "local_ai_provider_detail_accessible_label_allow_model": {
+    "message": "允许模型 {{model}}"
+  },
+  "local_ai_provider_detail_accessible_label_connect_codex": {
+    "message": "连接 Codex"
+  },
+  "local_ai_provider_detail_accessible_label_disconnect_codex": {
+    "message": "断开 Codex 连接"
+  },
+  "local_ai_provider_detail_accessible_label_enabled_models_to_test": {
+    "message": "可供测试的已启用模型"
+  },
+  "local_ai_provider_detail_accessible_label_reasoning_effort": {
+    "message": "{{model}} 的思考强度"
+  },
+  "local_ai_provider_detail_action_add_provider": {
+    "message": "添加提供商"
+  },
+  "local_ai_provider_detail_action_advanced": {
+    "message": "高级"
+  },
+  "local_ai_provider_detail_action_confirm_account": {
+    "message": "确认账号"
+  },
+  "local_ai_provider_detail_action_connect": {
+    "message": "连接"
+  },
+  "local_ai_provider_detail_action_details": {
+    "message": "详情"
+  },
+  "local_ai_provider_detail_action_disconnect": {
+    "message": "断开连接"
+  },
+  "local_ai_provider_detail_action_enable_provider": {
+    "message": "启用提供商"
+  },
+  "local_ai_provider_detail_action_load": {
+    "message": "加载"
+  },
+  "local_ai_provider_detail_action_raw_list": {
+    "message": "原始列表"
+  },
+  "local_ai_provider_detail_action_remove_provider": {
+    "message": "移除提供商"
+  },
+  "local_ai_provider_detail_action_retest": {
+    "message": "重新测试"
+  },
+  "local_ai_provider_detail_description_all_provider_models_available": {
+    "message": "该提供商的所有模型均可用。"
+  },
+  "local_ai_provider_detail_description_codex_account_changed": {
+    "message": "Codex 登录已变更。在你确认新账号之前，请求将暂停。"
+  },
+  "local_ai_provider_detail_description_codex_catalog_origin": {
+    "message": "已从 Codex 模型目录加载。"
+  },
+  "local_ai_provider_detail_description_codex_disconnect_blocked": {
+    "message": "{{tasks}} {{verb}} 仍在使用 Codex。断开连接前请先重新分配 {{pronoun}}。"
+  },
+  "local_ai_provider_detail_description_codex_keychain_unsupported": {
+    "message": "此 Codex 登录保存在钥匙串中，而 Sentinel 不会读取钥匙串。"
+  },
+  "local_ai_provider_detail_description_codex_login_not_found": {
+    "message": "已安装 Codex，但未找到基于文件的登录信息。"
+  },
+  "local_ai_provider_detail_description_codex_login_reuse": {
+    "message": "Sentinel 会使用 Codex 已管理的登录信息。连接时会通过一次最小请求进行验证。如果尚未登录，请运行"
+  },
+  "local_ai_provider_detail_description_codex_models_available": {
+    "message": "可通过本地 AI 网关使用 {{count}} 个兼容模型。"
+  },
+  "local_ai_provider_detail_description_codex_needs_attention": {
+    "message": "上次连接检查失败。现有路由将保持分配，不会自动回退。"
+  },
+  "local_ai_provider_detail_description_codex_ready": {
+    "message": "已检测到 Codex 登录。无需复制凭据即可连接。"
+  },
+  "local_ai_provider_detail_description_custom_provider_compatibility": {
+    "message": "添加其他 OpenAI 兼容服务。当 Responses 不可用时，本地服务可以回退到 Chat Completions。"
+  },
+  "local_ai_provider_detail_description_endpoint_with_models": {
+    "message": "{{endpoint}} · {{count}} 个模型"
+  },
+  "local_ai_provider_detail_description_install_codex": {
+    "message": "在这台 Mac 上安装 Codex 即可使用 Codex 订阅。"
+  },
+  "local_ai_provider_detail_description_local_models_ready": {
+    "message": "{{count}} 个本地模型已就绪。"
+  },
+  "local_ai_provider_detail_description_model_test_failed": {
+    "message": "{{model}} 测试失败：{{error}}"
+  },
+  "local_ai_provider_detail_description_model_test_succeeded": {
+    "message": "连接成功：{{model}} · {{latency}} ms"
+  },
+  "local_ai_provider_detail_description_probe_succeeded": {
+    "message": "模型：{{count}} · {{latency}} ms"
+  },
+  "local_ai_provider_detail_description_provider_apple_foundation": {
+    "message": "由 macOS 提供的设备端 Apple Intelligence 模型。"
+  },
+  "local_ai_provider_detail_description_provider_codex": {
+    "message": "使用已通过 Codex 登录的 ChatGPT 订阅。"
+  },
+  "local_ai_provider_detail_description_provider_custom": {
+    "message": "任意 OpenAI 兼容端点。"
+  },
+  "local_ai_provider_detail_description_provider_lm_studio": {
+    "message": "本地 LM Studio OpenAI 兼容服务器。"
+  },
+  "local_ai_provider_detail_description_provider_local_llm": {
+    "message": "由 Sentinel 本地 LLM 运行时下载并提供的模型。"
+  },
+  "local_ai_provider_detail_description_provider_ollama": {
+    "message": "这台 Mac 或局域网中的本地 Ollama 模型。"
+  },
+  "local_ai_provider_detail_description_provider_open_ai": {
+    "message": "OpenAI 模型，包括 GPT 与思考系列。"
+  },
+  "local_ai_provider_detail_description_provider_open_router": {
+    "message": "通过 OpenRouter 统一 API 访问数百个 AI 模型。"
+  },
+  "local_ai_provider_detail_description_provider_phi": {
+    "message": "内置 Phi 提供商，使用你的 Sentinel 登录。"
+  },
+  "local_ai_provider_detail_description_set_up_local_ai": {
+    "message": "设置本地 AI，即可在这台 Mac 上使用模型。"
+  },
+  "local_ai_provider_detail_description_testing_model": {
+    "message": "正在测试 {{model}}…"
+  },
+  "local_ai_provider_detail_description_uses_apple_intelligence": {
+    "message": "在可用时使用这台 Mac 上的 Apple Intelligence。"
+  },
+  "local_ai_provider_detail_description_uses_sentinel_sign_in": {
+    "message": "使用 Sentinel 登录。无需 API 密钥。"
+  },
+  "local_ai_provider_detail_field_label_base_url": {
+    "message": "基础 URL"
+  },
+  "local_ai_provider_detail_field_label_gateway_model": {
+    "message": "网关模型"
+  },
+  "local_ai_provider_detail_field_label_gateway_models": {
+    "message": "网关模型"
+  },
+  "local_ai_provider_detail_field_label_provider_id": {
+    "message": "提供商 ID"
+  },
+  "local_ai_provider_detail_label_allowed_endpoint_networks": {
+    "message": "允许使用本地和私有网络端点。"
+  },
+  "local_ai_provider_detail_label_apikey": {
+    "message": "API 密钥"
+  },
+  "local_ai_provider_detail_label_apple_intelligence_management": {
+    "message": "Apple Intelligence 由 macOS 自动管理，用于 AI 标签页整理。"
+  },
+  "local_ai_provider_detail_label_built_in": {
+    "message": "内置"
+  },
+  "local_ai_provider_detail_label_cloud_providers_must_use_https": {
+    "message": "云端提供商必须使用 HTTPS。"
+  },
+  "local_ai_provider_detail_label_cloud_scope": {
+    "message": "云端"
+  },
+  "local_ai_provider_detail_label_codex": {
+    "message": "~/.codex"
+  },
+  "local_ai_provider_detail_label_codex_home_optional_hint": {
+    "message": "留空则使用默认的 Codex 主目录。"
+  },
+  "local_ai_provider_detail_label_codex_login": {
+    "message": "codex login"
+  },
+  "local_ai_provider_detail_label_default_effort": {
+    "message": "默认（{{effort}}）"
+  },
+  "local_ai_provider_detail_label_legacy_endpoint": {
+    "message": "旧版端点"
+  },
+  "local_ai_provider_detail_label_loading_models": {
+    "message": "正在加载模型…"
+  },
+  "local_ai_provider_detail_label_local_endpoint": {
+    "message": "本地端点"
+  },
+  "local_ai_provider_detail_label_local_runtime": {
+    "message": "本地运行时"
+  },
+  "local_ai_provider_detail_label_local_scope": {
+    "message": "本地"
+  },
+  "local_ai_provider_detail_label_model_count": {
+    "message": "{{count}} 个模型"
+  },
+  "local_ai_provider_detail_label_model_default": {
+    "message": "模型默认"
+  },
+  "local_ai_provider_detail_label_no_enabled_models_match": {
+    "message": "没有匹配的已启用模型。"
+  },
+  "local_ai_provider_detail_label_on_device": {
+    "message": "设备端"
+  },
+  "local_ai_provider_detail_label_open_aicompatible": {
+    "message": "OpenAI 兼容"
+  },
+  "local_ai_provider_detail_label_optional": {
+    "message": "（可选）"
+  },
+  "local_ai_provider_detail_label_phi_cloud_authentication": {
+    "message": "Phi Cloud 已随 Sentinel 提供，并使用你的 Phi Browser 登录。无需 API 密钥。"
+  },
+  "local_ai_provider_detail_label_post_setup_model_configuration": {
+    "message": "提供商设置完成后即可配置模型。"
+  },
+  "local_ai_provider_detail_label_provider_model_enablement_guidance": {
+    "message": "从该提供商加载模型，然后启用 Sentinel 可以使用的模型。"
+  },
+  "local_ai_provider_detail_label_provider_name": {
+    "message": "提供商名称"
+  },
+  "local_ai_provider_detail_label_raw_model_whitelist": {
+    "message": "原始模型白名单"
+  },
+  "local_ai_provider_detail_label_reasoning_effort": {
+    "message": "思考强度"
+  },
+  "local_ai_provider_detail_label_scope": {
+    "message": "范围"
+  },
+  "local_ai_provider_detail_label_sign_in": {
+    "message": "登录"
+  },
+  "local_ai_provider_detail_label_system_default": {
+    "message": "系统默认"
+  },
+  "local_ai_provider_detail_label_test": {
+    "message": "测试"
+  },
+  "local_ai_provider_detail_label_text": {
+    "message": "文本"
+  },
+  "local_ai_provider_detail_label_text_image": {
+    "message": "文本 + 图像"
+  },
+  "local_ai_provider_detail_placeholder_api_key": {
+    "message": "API 密钥"
+  },
+  "local_ai_provider_detail_placeholder_auth0_token": {
+    "message": "Auth0 令牌"
+  },
+  "local_ai_provider_detail_placeholder_my_custom_provider": {
+    "message": "我的自定义提供商"
+  },
+  "local_ai_provider_detail_placeholder_not_required": {
+    "message": "无需填写"
+  },
+  "local_ai_provider_detail_placeholder_optional_api_key": {
+    "message": "API 密钥（可选）"
+  },
+  "local_ai_provider_detail_placeholder_provider_model_allowlist": {
+    "message": "留空以允许该提供商的所有模型"
+  },
+  "local_ai_provider_detail_placeholder_search_models": {
+    "message": "搜索模型…"
+  },
+  "local_ai_provider_detail_placeholder_select_enabled_model_to_test": {
+    "message": "选择要测试的已启用模型"
+  },
+  "local_ai_provider_detail_placeholder_shared_codex_login": {
+    "message": "共享的 Codex 登录"
+  },
+  "local_ai_provider_detail_status_available": {
+    "message": "可用"
+  },
+  "local_ai_provider_detail_status_confirmation_required": {
+    "message": "需要确认"
+  },
+  "local_ai_provider_detail_status_endpoint_not_set": {
+    "message": "未设置端点"
+  },
+  "local_ai_provider_detail_status_file_login_required": {
+    "message": "需要文件登录"
+  },
+  "local_ai_provider_detail_status_inactive": {
+    "message": "未启用"
+  },
+  "local_ai_provider_detail_status_not_installed": {
+    "message": "未安装"
+  },
+  "local_ai_provider_detail_status_not_ready": {
+    "message": "未就绪"
+  },
+  "local_ai_provider_detail_status_sign_in_required": {
+    "message": "需要登录"
+  },
+  "local_ai_provider_detail_title_available_models": {
+    "message": "可用模型"
+  },
+  "local_ai_provider_detail_title_codex": {
+    "message": "Codex"
+  },
+  "local_ai_role_logs_description_loading": {
+    "message": "加载中…"
+  },
+  "local_ai_role_logs_description_no_logs_yet_for_role": {
+    "message": "{{role}} 暂无日志。"
+  },
+  "local_ai_role_logs_description_troubleshooting_logs": {
+    "message": "用于排查问题的近期本地 AI 服务日志。"
+  },
+  "local_ai_role_logs_label_line_count": {
+    "message": "{{count}} 行{{truncated}}"
+  },
+  "local_ai_role_logs_label_tail": {
+    "message": "末尾行数："
+  },
+  "local_ai_role_logs_title_role_logs": {
+    "message": "{{role}} 日志"
+  },
+  "local_ai_role_row_accessible_label_cancel_source_choice": {
+    "message": "取消选择下载源"
+  },
+  "local_ai_role_row_accessible_label_download_from_hugging_face": {
+    "message": "从 Hugging Face 下载 {{model}}"
+  },
+  "local_ai_role_row_accessible_label_download_from_phi_mirror": {
+    "message": "从 Phi 镜像下载 {{model}}"
+  },
+  "local_ai_role_row_accessible_label_enable_role": {
+    "message": "启用 {{role}} 角色"
+  },
+  "local_ai_role_row_accessible_label_select_role_model": {
+    "message": "选择 {{role}} 模型"
+  },
+  "local_ai_role_row_action_choose_source": {
+    "message": "选择下载源"
+  },
+  "local_ai_role_row_description_chat": {
+    "message": "交互式助手"
+  },
+  "local_ai_role_row_description_choose_download_source_for_role": {
+    "message": "请先选择下载源，再分配给 {{role}}。"
+  },
+  "local_ai_role_row_description_connector_indexing": {
+    "message": "为 Notion 等已连接应用建立搜索索引"
+  },
+  "local_ai_role_row_description_failed_to_start": {
+    "message": "{{role}} 启动失败 · {{error}}"
+  },
+  "local_ai_role_row_description_memory": {
+    "message": "摘要与标签"
+  },
+  "local_ai_role_row_label_chat": {
+    "message": "对话"
+  },
+  "local_ai_role_row_label_connector_indexing": {
+    "message": "连接器索引"
+  },
+  "local_ai_role_row_label_downloading": {
+    "message": "下载中"
+  },
+  "local_ai_role_row_label_memory": {
+    "message": "记忆"
+  },
+  "local_ai_role_row_label_model": {
+    "message": "模型"
+  },
+  "local_ai_role_row_label_off": {
+    "message": "关"
+  },
+  "local_ai_role_row_label_on": {
+    "message": "开"
+  },
+  "local_ai_role_row_label_pick_amodel_first": {
+    "message": "请先选择模型"
+  },
+  "local_ai_role_row_placeholder_no_model": {
+    "message": "未选择模型"
+  },
+  "local_ai_role_row_status_downloading": {
+    "message": "正在下载…"
+  },
+  "local_ai_role_row_status_downloading_percent": {
+    "message": "下载中 {{percent}}%"
+  },
+  "local_ai_role_row_status_install_runtime_first": {
+    "message": "请先安装运行时"
+  },
+  "local_ai_role_row_status_installed": {
+    "message": "已安装"
+  },
+  "local_ai_role_row_status_runtime_installing": {
+    "message": "运行时安装中"
+  },
+  "local_ai_role_row_tooltip_download_anonymously_from_hugging_face": {
+    "message": "从 Hugging Face 匿名下载"
+  },
+  "logs_action_downloading": {
+    "message": "正在下载…"
+  },
+  "logs_action_jump_to_bottom": {
+    "message": "跳到底部"
+  },
+  "logs_description_line_count_all_loaded": {
+    "message": "总行数：{{count}}（已全部加载）"
+  },
+  "logs_description_line_count_with_more_history": {
+    "message": "总行数：{{count}}（当前显示最近 {{loaded}} 行，向上滚动加载更多）"
+  },
+  "logs_description_overview": {
+    "message": "查看 Phi Sentinel 与后台服务的应用日志"
+  },
+  "logs_description_select_which_logs_to_download": {
+    "message": "选择要下载的日志"
+  },
+  "logs_label_download_options": {
+    "message": "下载选项"
+  },
+  "logs_label_empty": {
+    "message": "（空）"
+  },
+  "logs_label_full_logs": {
+    "message": "完整日志"
+  },
+  "logs_label_last_lines": {
+    "message": "最近 1000 行"
+  },
+  "logs_label_line_count": {
+    "message": "行数：{{count}}"
+  },
+  "logs_label_loading_history": {
+    "message": "正在加载历史记录…"
+  },
+  "logs_label_log_sources": {
+    "message": "日志来源"
+  },
+  "logs_label_may_be_large": {
+    "message": "（可能较大）"
+  },
+  "logs_label_no_logs_available": {
+    "message": "暂无日志"
+  },
+  "logs_label_recommended": {
+    "message": "（推荐）"
+  },
+  "logs_label_standard_error": {
+    "message": "stderr"
+  },
+  "logs_label_standard_output": {
+    "message": "stdout"
+  },
+  "logs_title_download_logs": {
+    "message": "下载日志"
+  },
+  "logs_title_system_logs": {
+    "message": "系统日志"
+  },
+  "logs_tooltip_copy_logs_to_clipboard": {
+    "message": "复制日志到剪贴板"
+  },
+  "main_menu_application_quit": {
+    "message": "退出 Phi Sentinel"
+  },
+  "main_menu_edit_copy": {
+    "message": "拷贝"
+  },
+  "main_menu_edit_cut": {
+    "message": "剪切"
+  },
+  "main_menu_edit_paste": {
+    "message": "粘贴"
+  },
+  "main_menu_edit_redo": {
+    "message": "重做"
+  },
+  "main_menu_edit_select_all": {
+    "message": "全选"
+  },
+  "main_menu_edit_title": {
+    "message": "编辑"
+  },
+  "main_menu_edit_undo": {
+    "message": "撤销"
+  },
+  "main_menu_window_close": {
+    "message": "关闭"
+  },
+  "main_menu_window_enter_full_screen": {
+    "message": "进入全屏幕"
+  },
+  "main_menu_window_minimize": {
+    "message": "最小化"
+  },
+  "main_menu_window_title": {
+    "message": "窗口"
+  },
+  "menu_bar_about_title": {
+    "message": "关于 Phi Sentinel"
+  },
+  "menu_bar_dashboard_title": {
+    "message": "仪表盘"
+  },
+  "menu_bar_quit_title": {
+    "message": "退出"
+  },
+  "menu_bar_runner_accessibility_failed": {
+    "message": "失败"
+  },
+  "menu_bar_runner_accessibility_offline": {
+    "message": "离线"
+  },
+  "menu_bar_runner_accessibility_online": {
+    "message": "在线"
+  },
+  "menu_bar_runner_accessibility_starting": {
+    "message": "正在启动"
+  },
+  "menu_bar_runner_accessibility_waiting_for_login": {
+    "message": "等待登录"
+  },
+  "menu_bar_runner_failed": {
+    "message": "后台服务：失败（已达重启次数上限）"
+  },
+  "menu_bar_runner_offline": {
+    "message": "后台服务：离线"
+  },
+  "menu_bar_runner_online": {
+    "message": "后台服务：在线"
+  },
+  "menu_bar_runner_starting": {
+    "message": "后台服务：正在启动…"
+  },
+  "menu_bar_runner_uninstalling": {
+    "message": "正在卸载…"
+  },
+  "menu_bar_runner_waiting_for_login": {
+    "message": "请登录 Phi Browser"
+  },
+  "menu_bar_uninstall_title": {
+    "message": "卸载 Phi…"
+  },
+  "nav_history": {
+    "message": "历史记录"
+  },
+  "nav_jobs": {
+    "message": "作业"
+  },
+  "nav_knowledge": {
+    "message": "知识库"
+  },
+  "nav_overview": {
+    "message": "概览"
+  },
+  "nav_permissions": {
+    "message": "权限"
+  },
+  "nav_services": {
+    "message": "服务"
+  },
+  "nav_settings": {
+    "message": "设置"
+  },
+  "nav_updates": {
+    "message": "更新"
+  },
+  "notifications_ai_gateway_codex_account_confirmed": {
+    "message": "Codex 账号已确认。"
+  },
+  "notifications_ai_gateway_codex_action_failed": {
+    "message": "Codex 操作失败"
+  },
+  "notifications_ai_gateway_codex_connected": {
+    "message": "Codex 已连接。"
+  },
+  "notifications_ai_gateway_codex_connection_verified": {
+    "message": "Codex 连接已验证。"
+  },
+  "notifications_ai_gateway_codex_disconnected": {
+    "message": "Codex 已断开连接。"
+  },
+  "notifications_ai_gateway_config_clear_failed": {
+    "message": "清除 AI 网关配置失败"
+  },
+  "notifications_ai_gateway_config_cleared": {
+    "message": "AI 网关配置已清除。"
+  },
+  "notifications_ai_gateway_config_save_failed": {
+    "message": "保存 AI 网关配置失败"
+  },
+  "notifications_ai_gateway_config_saved": {
+    "message": "AI 网关配置已保存。"
+  },
+  "notifications_ai_gateway_model_test_failed": {
+    "message": "模型测试失败"
+  },
+  "notifications_ai_gateway_provider_test_failed": {
+    "message": "提供商测试失败"
+  },
+  "notifications_ai_gateway_update_failed": {
+    "message": "更新 AI 网关失败"
+  },
+  "notifications_app_debug_mode_off": {
+    "message": "调试模式已关闭"
+  },
+  "notifications_app_debug_mode_on": {
+    "message": "调试模式已开启"
+  },
+  "notifications_backup_clonefile_unavailable": {
+    "message": "clonefile 不可用"
+  },
+  "notifications_backup_export_start_failed": {
+    "message": "导出启动失败"
+  },
+  "notifications_backup_restore_failed": {
+    "message": "恢复失败"
+  },
+  "notifications_backup_restore_reverted": {
+    "message": "恢复已回退到之前的状态"
+  },
+  "notifications_backup_snapshot_created": {
+    "message": "快照已创建"
+  },
+  "notifications_backup_snapshot_failed": {
+    "message": "快照创建失败"
+  },
+  "notifications_backup_snapshot_restored": {
+    "message": "快照已恢复"
+  },
+  "notifications_backup_snapshot_skipped": {
+    "message": "已跳过快照"
+  },
+  "notifications_jobs_create_failed": {
+    "message": "创建作业失败"
+  },
+  "notifications_jobs_created": {
+    "message": "作业已创建"
+  },
+  "notifications_jobs_job_id": {
+    "message": "作业 ID：{{id}}"
+  },
+  "notifications_jobs_remove_failed": {
+    "message": "移除作业失败"
+  },
+  "notifications_jobs_removed": {
+    "message": "作业已移除"
+  },
+  "notifications_jobs_run_enqueued": {
+    "message": "作业运行已加入队列"
+  },
+  "notifications_jobs_run_failed": {
+    "message": "运行作业失败"
+  },
+  "notifications_jobs_run_not_enqueued": {
+    "message": "作业运行未加入队列"
+  },
+  "notifications_jobs_update_failed": {
+    "message": "更新作业失败"
+  },
+  "notifications_jobs_updated": {
+    "message": "作业已更新"
+  },
+  "notifications_local_llm_data_reset": {
+    "message": "本地 LLM 数据已重置。"
+  },
+  "notifications_local_llm_data_reset_failed": {
+    "message": "重置本地 LLM 数据失败"
+  },
+  "notifications_local_llm_download_cancel_failed": {
+    "message": "取消下载失败"
+  },
+  "notifications_local_llm_download_cancelled": {
+    "message": "下载已取消。"
+  },
+  "notifications_local_llm_model_delete_failed": {
+    "message": "删除模型失败"
+  },
+  "notifications_local_llm_model_install_failed": {
+    "message": "安装模型失败"
+  },
+  "notifications_local_llm_model_set_failed": {
+    "message": "设置模型失败"
+  },
+  "notifications_local_llm_role_update_failed": {
+    "message": "更新角色失败"
+  },
+  "notifications_local_llm_runtime_install_failed": {
+    "message": "安装运行时失败"
+  },
+  "notifications_local_llm_update_failed": {
+    "message": "更新本地 LLM 失败"
+  },
+  "notifications_permissions_accessibility_request_failed": {
+    "message": "请求辅助功能权限失败"
+  },
+  "notifications_permissions_directory_access_cancelled": {
+    "message": "已取消目录访问"
+  },
+  "notifications_permissions_directory_access_granted": {
+    "message": "已授予目录访问权限"
+  },
+  "notifications_permissions_directory_access_request_failed": {
+    "message": "请求目录访问权限失败"
+  },
+  "notifications_permissions_directory_access_revoke_failed": {
+    "message": "撤销目录访问权限失败"
+  },
+  "notifications_permissions_directory_access_revoked": {
+    "message": "已撤销目录访问权限"
+  },
+  "notifications_permissions_full_disk_access_request_failed": {
+    "message": "请求完全磁盘访问权限失败"
+  },
+  "notifications_permissions_opening_full_disk_access_settings": {
+    "message": "正在打开系统设置中的完全磁盘访问权限"
+  },
+  "notifications_permissions_opening_screen_recording_settings": {
+    "message": "正在打开系统设置中的屏幕录制权限"
+  },
+  "notifications_permissions_requesting_accessibility": {
+    "message": "正在请求辅助功能权限"
+  },
+  "notifications_permissions_screen_recording_request_failed": {
+    "message": "请求屏幕录制权限失败"
+  },
+  "notifications_private_ai_disable_failed": {
+    "message": "无法关闭私有 AI，请重试。"
+  },
+  "notifications_private_ai_gateway_endpoint_copied": {
+    "message": "AI 网关端点已复制。"
+  },
+  "notifications_private_ai_gateway_export_copied": {
+    "message": "已复制 AI 网关导出信息。"
+  },
+  "notifications_private_ai_model_test_reverted": {
+    "message": "{{purpose}} 模型测试失败，已恢复为之前的来源。"
+  },
+  "notifications_private_ai_restart_failed": {
+    "message": "无法重启本地 AI，请重试。"
+  },
+  "notifications_private_ai_settings_reset": {
+    "message": "AI 设置已重置。"
+  },
+  "notifications_services_no_orphan_processes": {
+    "message": "未发现孤立进程"
+  },
+  "notifications_services_orphan_cleanup_failed": {
+    "message": "清理孤立进程失败"
+  },
+  "notifications_services_orphan_processes_cleaned": {
+    "message": "已清理 {{found}} 个孤立进程中的 {{killed}} 个"
+  },
+  "notifications_services_remove_failed": {
+    "message": "移除服务失败"
+  },
+  "notifications_services_removed": {
+    "message": "已移除 {{component}}"
+  },
+  "notifications_services_removed_description": {
+    "message": "服务已从系统中移除"
+  },
+  "notifications_services_restart_failed": {
+    "message": "重启服务失败"
+  },
+  "notifications_services_restarted": {
+    "message": "已重启 {{component}}"
+  },
+  "notifications_services_start_failed": {
+    "message": "启动服务失败"
+  },
+  "notifications_services_started": {
+    "message": "已启动 {{component}}"
+  },
+  "notifications_services_started_components": {
+    "message": "已启动组件：{{components}}"
+  },
+  "notifications_services_stop_failed": {
+    "message": "停止服务失败"
+  },
+  "notifications_services_stopped": {
+    "message": "已停止 {{component}}"
+  },
+  "notifications_services_stopped_components": {
+    "message": "已停止组件：{{components}}"
+  },
+  "notifications_settings_track_change_failed": {
+    "message": "更改更新通道失败"
+  },
+  "notifications_settings_track_changed": {
+    "message": "更新通道已更改"
+  },
+  "notifications_settings_track_changed_deferred": {
+    "message": "更新通道已保存；后台服务可用后将同步组件"
+  },
+  "notifications_settings_track_changed_reconcile_failed": {
+    "message": "更新通道已更改，但组件同步失败"
+  },
+  "notifications_settings_track_changed_reconciled": {
+    "message": "更新通道已更改；已同步 {{count}} 个组件"
+  },
+  "notifications_settings_track_changed_with_failures": {
+    "message": "更新通道已更改，但有 {{count}} 个组件更新失败"
+  },
+  "notifications_tasks_approval_no_longer_pending": {
+    "message": "审批已处理"
+  },
+  "notifications_tasks_approval_submit_failed": {
+    "message": "提交审批决定失败"
+  },
+  "notifications_tasks_no_active_run": {
+    "message": "当前没有可取消的运行"
+  },
+  "notifications_tasks_run_approved": {
+    "message": "运行已批准"
+  },
+  "notifications_tasks_run_cancel_failed": {
+    "message": "取消运行失败"
+  },
+  "notifications_tasks_run_cancelled": {
+    "message": "运行已取消"
+  },
+  "notifications_tasks_run_failed": {
+    "message": "运行任务失败"
+  },
+  "notifications_tasks_run_rejected": {
+    "message": "运行已拒绝"
+  },
+  "notifications_tasks_run_started": {
+    "message": "运行已开始"
+  },
+  "notifications_tasks_schedule_create_partial_failure": {
+    "message": "任务已创建，但创建计划失败"
+  },
+  "notifications_tasks_schedule_delete_failed": {
+    "message": "删除计划失败"
+  },
+  "notifications_tasks_schedule_deleted": {
+    "message": "计划已删除"
+  },
+  "notifications_tasks_schedule_pause_failed": {
+    "message": "暂停计划失败"
+  },
+  "notifications_tasks_schedule_paused": {
+    "message": "计划已暂停"
+  },
+  "notifications_tasks_schedule_resume_failed": {
+    "message": "恢复计划失败"
+  },
+  "notifications_tasks_schedule_resumed": {
+    "message": "计划已恢复"
+  },
+  "notifications_tasks_schedule_run_failed": {
+    "message": "立即运行计划失败"
+  },
+  "notifications_tasks_schedule_run_started": {
+    "message": "计划运行已开始"
+  },
+  "notifications_tasks_scheduled_task_create_failed": {
+    "message": "创建定时任务失败"
+  },
+  "notifications_tasks_scheduled_task_created": {
+    "message": "定时任务已创建"
+  },
+  "notifications_tasks_scheduled_task_update_failed": {
+    "message": "更新定时任务失败"
+  },
+  "notifications_tasks_scheduled_task_updated": {
+    "message": "定时任务已更新"
+  },
+  "notifications_tasks_settings_update_failed": {
+    "message": "更新任务设置失败"
+  },
+  "notifications_tasks_settings_updated": {
+    "message": "任务设置已更新"
+  },
+  "notifications_tasks_task_create_failed": {
+    "message": "创建任务失败"
+  },
+  "notifications_tasks_task_created": {
+    "message": "任务已创建"
+  },
+  "notifications_tasks_task_delete_failed": {
+    "message": "删除任务失败"
+  },
+  "notifications_tasks_task_deleted": {
+    "message": "任务已删除"
+  },
+  "notifications_tasks_task_update_failed": {
+    "message": "更新任务失败"
+  },
+  "notifications_tasks_task_update_partial_failure": {
+    "message": "计划已更新，但更新任务失败"
+  },
+  "notifications_tasks_task_updated": {
+    "message": "任务已更新"
+  },
+  "notifications_unknown_error": {
+    "message": "未知错误"
+  },
+  "notifications_updates_apply_failed": {
+    "message": "安装更新失败"
+  },
+  "notifications_updates_failed_components": {
+    "message": "{{count}} 个组件更新失败"
+  },
+  "notifications_updates_none_available": {
+    "message": "暂无可用更新"
+  },
+  "notifications_updates_updated_components": {
+    "message": "已更新 {{count}} 个组件"
+  },
+  "overview_avg_duration": {
+    "message": "平均耗时"
+  },
+  "overview_description": {
+    "message": "系统健康状况与近期活动"
+  },
+  "overview_directories": {
+    "message": "目录"
+  },
+  "overview_event_history_coming_soon": {
+    "message": "事件历史将在未来的更新中提供"
+  },
+  "overview_failed": {
+    "message": "失败"
+  },
+  "overview_job_activity": {
+    "message": "作业活动"
+  },
+  "overview_missing": {
+    "message": "缺失"
+  },
+  "overview_ok": {
+    "message": "正常"
+  },
+  "overview_permission_alerts": {
+    "message": "权限警报"
+  },
+  "overview_recent_events": {
+    "message": "近期事件"
+  },
+  "overview_running": {
+    "message": "运行中"
+  },
+  "overview_runs_last24h": {
+    "message": "24 小时运行数"
+  },
+  "overview_service_health": {
+    "message": "服务健康状况"
+  },
+  "overview_stopped": {
+    "message": "已停止"
+  },
+  "overview_title": {
+    "message": "概览"
+  },
+  "overview_unhealthy": {
+    "message": "异常"
+  },
+  "permissions_accessibility": {
+    "message": "辅助功能"
+  },
+  "permissions_accessibility_description": {
+    "message": "界面自动化和输入控制功能需要此权限"
+  },
+  "permissions_add_directory": {
+    "message": "添加目录"
+  },
+  "permissions_camera": {
+    "message": "摄像头"
+  },
+  "permissions_camera_description": {
+    "message": "基于摄像头的功能需要此权限"
+  },
+  "permissions_denied": {
+    "message": "已拒绝"
+  },
+  "permissions_description": {
+    "message": "管理 Sentinel 服务所需的系统权限"
+  },
+  "permissions_description_permissions_overview": {
+    "message": "管理 Phi Sentinel 服务所需的系统权限"
+  },
+  "permissions_directory_access": {
+    "message": "目录访问"
+  },
+  "permissions_directory_access_description": {
+    "message": "授予目录访问权限，用于 RAG 索引和文件操作"
+  },
+  "permissions_full_disk_access": {
+    "message": "完全磁盘访问权限"
+  },
+  "permissions_full_disk_access_description": {
+    "message": "访问受保护的文件和目录需要此权限"
+  },
+  "permissions_granted": {
+    "message": "已授予"
+  },
+  "permissions_label_not_determined": {
+    "message": "未确定"
+  },
+  "permissions_microphone": {
+    "message": "麦克风"
+  },
+  "permissions_microphone_description": {
+    "message": "语音输入功能需要此权限"
+  },
+  "permissions_no_directories_description": {
+    "message": "点击「添加目录」以授予文件夹访问权限，用于 RAG 索引"
+  },
+  "permissions_no_directories_granted": {
+    "message": "尚未授予任何目录"
+  },
+  "permissions_not_set": {
+    "message": "未设置"
+  },
+  "permissions_open_settings": {
+    "message": "打开设置"
+  },
+  "permissions_refresh": {
+    "message": "刷新"
+  },
+  "permissions_request_permission": {
+    "message": "请求权限"
+  },
+  "permissions_restricted": {
+    "message": "受限制"
+  },
+  "permissions_screen_recording": {
+    "message": "屏幕录制"
+  },
+  "permissions_screen_recording_description": {
+    "message": "屏幕捕捉和视觉 AI 功能需要此权限"
+  },
+  "permissions_system_permissions": {
+    "message": "系统权限"
+  },
+  "permissions_title": {
+    "message": "权限"
+  },
+  "private_ai_advanced_console_action_back": {
+    "message": "← 返回"
+  },
+  "private_ai_advanced_console_description_advanced_settings": {
+    "message": "高级设置"
+  },
+  "private_ai_advanced_console_label_diagnostics": {
+    "message": "诊断"
+  },
+  "private_ai_advanced_console_label_providers": {
+    "message": "提供商"
+  },
+  "private_ai_advanced_console_label_task_routing": {
+    "message": "任务路由"
+  },
+  "private_ai_advanced_console_title_private_ai": {
+    "message": "私有 AI"
+  },
+  "private_ai_diagnostics_accessible_label_refresh_aigateway_export": {
+    "message": "刷新 AI 网关导出信息"
+  },
+  "private_ai_diagnostics_accessible_label_refresh_aigateway_logs": {
+    "message": "刷新 AI 网关日志"
+  },
+  "private_ai_diagnostics_action_copy_export": {
+    "message": "复制导出信息"
+  },
+  "private_ai_diagnostics_action_download_logs": {
+    "message": "下载日志"
+  },
+  "private_ai_diagnostics_action_gateway_url": {
+    "message": "网关 URL"
+  },
+  "private_ai_diagnostics_description_connection_export": {
+    "message": "通过 services.getComponentExports 公开的面向调用方的连接契约。"
+  },
+  "private_ai_diagnostics_description_gateway_log_download": {
+    "message": "用于排查问题的完整本地网关和 Bifrost 日志。"
+  },
+  "private_ai_diagnostics_description_loading_export": {
+    "message": "正在加载导出信息…"
+  },
+  "private_ai_diagnostics_description_loading_logs": {
+    "message": "正在加载日志…"
+  },
+  "private_ai_diagnostics_description_logs_and_export": {
+    "message": "查看本地网关日志和面向调用方的连接契约。"
+  },
+  "private_ai_diagnostics_description_no_aigateway_export_yet": {
+    "message": "暂无 AI 网关导出信息。"
+  },
+  "private_ai_diagnostics_description_no_aigateway_logs_yet": {
+    "message": "暂无 AI 网关日志。"
+  },
+  "private_ai_diagnostics_description_reset_warning": {
+    "message": "清除 AI 提供商设置，并从这台 Mac 上移除 Sentinel 本地 AI 数据。"
+  },
+  "private_ai_diagnostics_description_this_will": {
+    "message": "此操作将："
+  },
+  "private_ai_diagnostics_label_clear_aiprovider_configuration": {
+    "message": "清除 AI 提供商配置"
+  },
+  "private_ai_diagnostics_label_cloud_source_reset": {
+    "message": "将 AI 来源恢复为 Phi Cloud"
+  },
+  "private_ai_diagnostics_label_http_auto_v1": {
+    "message": "http://127.0.0.1:<auto>/v1"
+  },
+  "private_ai_diagnostics_label_line_count": {
+    "message": "{{count}} 行{{truncated}}"
+  },
+  "private_ai_diagnostics_label_reset_local_data_scope": {
+    "message": "删除 Sentinel 本地 AI 的运行时文件、模型、日志和下载内容"
+  },
+  "private_ai_diagnostics_label_synthetic_export_ai_gateway": {
+    "message": "合成导出：ai-gateway"
+  },
+  "private_ai_diagnostics_label_tail": {
+    "message": "末尾行数"
+  },
+  "private_ai_diagnostics_label_truncated": {
+    "message": "（已截断）"
+  },
+  "private_ai_diagnostics_status_debug": {
+    "message": "调试"
+  },
+  "private_ai_diagnostics_title_aigateway_export": {
+    "message": "AI 网关导出信息"
+  },
+  "private_ai_diagnostics_title_aigateway_logs": {
+    "message": "AI 网关日志"
+  },
+  "private_ai_diagnostics_title_gateway_status": {
+    "message": "网关状态"
+  },
+  "private_ai_diagnostics_title_logs_and_export": {
+    "message": "日志与导出"
+  },
+  "private_ai_diagnostics_title_reset": {
+    "message": "重置"
+  },
+  "private_ai_diagnostics_title_reset_aisettings": {
+    "message": "要重置 AI 设置吗？"
+  },
+  "private_ai_private_ai_accessible_label_dismiss_codex_tip": {
+    "message": "关闭 Codex 提示"
+  },
+  "private_ai_private_ai_accessible_label_open_codex_provider_settings": {
+    "message": "打开 Codex 提供商设置"
+  },
+  "private_ai_private_ai_action_advanced_settings": {
+    "message": "高级设置 →"
+  },
+  "private_ai_private_ai_action_re_run_setup": {
+    "message": "重新运行设置"
+  },
+  "private_ai_private_ai_action_restart_local_service": {
+    "message": "重启本地服务"
+  },
+  "private_ai_private_ai_action_show_details": {
+    "message": "显示详情"
+  },
+  "private_ai_private_ai_description_cloud_only_state": {
+    "message": "所有 AI 功能目前都在 Phi Cloud 上运行。打开开关即可开始设置。"
+  },
+  "private_ai_private_ai_description_hardware_recommendation": {
+    "message": "在搭载 Apple 芯片且内存不低于 16GB 的 Mac 上体验最佳。设置时会自动检查你的设备。"
+  },
+  "private_ai_private_ai_description_overview": {
+    "message": "在你的 Mac 上或通过你自己的提供商运行 AI，数据始终由你掌控。"
+  },
+  "private_ai_private_ai_description_setup_cloud_fallback": {
+    "message": "在设置完成前，AI 功能会继续使用 Phi Cloud。"
+  },
+  "private_ai_private_ai_description_startup_cloud_fallback": {
+    "message": "正在准备你的本地 AI。在它运行之前，AI 功能会使用 Phi Cloud。"
+  },
+  "private_ai_private_ai_label_approx_minutes": {
+    "message": "约 {{count}} 分钟"
+  },
+  "private_ai_private_ai_label_approx_seconds": {
+    "message": "约 {{count}} 秒"
+  },
+  "private_ai_private_ai_label_codex_is_available": {
+    "message": "Codex 可用"
+  },
+  "private_ai_private_ai_label_codex_provider_option": {
+    "message": "把你已登录的 Codex 账号用作 AI 提供商。"
+  },
+  "private_ai_private_ai_label_local_runtime": {
+    "message": "本地运行时"
+  },
+  "private_ai_private_ai_label_local_source_fallback_notice": {
+    "message": "某个本地 AI 来源无响应，受影响的任务已暂时切换回 Phi Cloud。"
+  },
+  "private_ai_private_ai_label_toggle_private_ai": {
+    "message": "开启或关闭私有 AI"
+  },
+  "private_ai_private_ai_status_private_aiis_on": {
+    "message": "私有 AI 已开启"
+  },
+  "private_ai_private_ai_status_setting_up": {
+    "message": "正在设置…"
+  },
+  "private_ai_private_ai_status_starting_private_ai": {
+    "message": "正在启动私有 AI…"
+  },
+  "private_ai_private_ai_tooltip_dismiss": {
+    "message": "关闭"
+  },
+  "private_ai_providers_action_add_custom_provider": {
+    "message": "添加自定义提供商"
+  },
+  "private_ai_providers_description_custom_endpoint": {
+    "message": "兼容 OpenAI 的自定义端点。"
+  },
+  "private_ai_providers_description_legacy_endpoint": {
+    "message": "兼容旧版协议的端点。"
+  },
+  "private_ai_setup_wizard_action_done": {
+    "message": "完成"
+  },
+  "private_ai_setup_wizard_action_minimize": {
+    "message": "最小化"
+  },
+  "private_ai_setup_wizard_action_start_setup": {
+    "message": "开始设置"
+  },
+  "private_ai_setup_wizard_action_use_your_own_aiservice": {
+    "message": "使用你自己的 AI 服务 →"
+  },
+  "private_ai_setup_wizard_description_cloud_only_features": {
+    "message": "网页任务和图像生成仍在 Phi Cloud 上运行。"
+  },
+  "private_ai_setup_wizard_description_done_summary": {
+    "message": "对话、记忆、记忆索引和数据搜索都在这台 Mac 上私密运行。网页任务和图像使用 Phi Cloud。"
+  },
+  "private_ai_setup_wizard_description_download_and_memory_size": {
+    "message": "下载 {{downloadSize}}，运行时约占用 {{memorySize}} 内存。"
+  },
+  "private_ai_setup_wizard_description_private_aiis_on": {
+    "message": "✓ 私有 AI 已开启"
+  },
+  "private_ai_setup_wizard_description_setup_failed_during_stage": {
+    "message": "设置在「{{stage}}」阶段失败。"
+  },
+  "private_ai_setup_wizard_field_label_free_disk": {
+    "message": "可用磁盘空间"
+  },
+  "private_ai_setup_wizard_label_approx_minutes": {
+    "message": "约 {{count}} 分钟"
+  },
+  "private_ai_setup_wizard_label_approx_seconds": {
+    "message": "约 {{count}} 秒"
+  },
+  "private_ai_setup_wizard_label_checking_your_device": {
+    "message": "正在检查你的设备…"
+  },
+  "private_ai_setup_wizard_label_text": {
+    "message": "✓"
+  },
+  "private_ai_setup_wizard_label_text2": {
+    "message": "○"
+  },
+  "private_ai_setup_wizard_stage_models": {
+    "message": "正在下载模型…"
+  },
+  "private_ai_setup_wizard_stage_name_models": {
+    "message": "下载模型"
+  },
+  "private_ai_setup_wizard_stage_name_runtime": {
+    "message": "安装本地运行时"
+  },
+  "private_ai_setup_wizard_stage_name_starting": {
+    "message": "启动本地模型"
+  },
+  "private_ai_setup_wizard_stage_name_verifying": {
+    "message": "验证"
+  },
+  "private_ai_setup_wizard_stage_runtime": {
+    "message": "正在安装本地运行时…"
+  },
+  "private_ai_setup_wizard_stage_starting": {
+    "message": "正在启动本地模型…"
+  },
+  "private_ai_setup_wizard_stage_verifying": {
+    "message": "正在验证…"
+  },
+  "private_ai_setup_wizard_step_models": {
+    "message": "下载模型"
+  },
+  "private_ai_setup_wizard_step_runtime": {
+    "message": "安装运行时"
+  },
+  "private_ai_setup_wizard_step_starting": {
+    "message": "启动本地模型"
+  },
+  "private_ai_setup_wizard_step_verifying": {
+    "message": "验证"
+  },
+  "private_ai_setup_wizard_title_private_aiunavailable": {
+    "message": "这台 Mac 无法使用私有 AI"
+  },
+  "private_ai_setup_wizard_title_run_private_ailocally": {
+    "message": "在这台 Mac 上本地运行私有 AI"
+  },
+  "private_ai_setup_wizard_title_set_up_private_ai": {
+    "message": "设置私有 AI"
+  },
+  "private_ai_task_coverage_description_chat": {
+    "message": "对话面板中的回复"
+  },
+  "private_ai_task_coverage_description_data_search": {
+    "message": "搜索已连接的数据"
+  },
+  "private_ai_task_coverage_description_memory": {
+    "message": "浏览记忆和摘要"
+  },
+  "private_ai_task_coverage_description_web_tasks": {
+    "message": "智能体自动化"
+  },
+  "private_ai_task_coverage_label_chat": {
+    "message": "对话"
+  },
+  "private_ai_task_coverage_label_data_search": {
+    "message": "数据搜索"
+  },
+  "private_ai_task_coverage_label_memory": {
+    "message": "记忆"
+  },
+  "private_ai_task_coverage_label_model_on_this_mac": {
+    "message": "{{model}} · 在这台 Mac 上"
+  },
+  "private_ai_task_coverage_label_web_tasks": {
+    "message": "网页任务"
+  },
+  "private_ai_task_coverage_label_your_provider": {
+    "message": "{{provider}} · 你的提供商"
+  },
+  "private_ai_task_coverage_status_source_unavailable": {
+    "message": "{{source}} · 不可用"
+  },
+  "private_ai_task_routing_accessible_label_select_task_source": {
+    "message": "选择 {{task}} 来源"
+  },
+  "private_ai_task_routing_accessible_label_source_checked": {
+    "message": "来源已选中"
+  },
+  "private_ai_task_routing_accessible_label_source_failed": {
+    "message": "来源检查失败：{{error}}"
+  },
+  "private_ai_task_routing_description_automatically_managed_by_mac_os": {
+    "message": "由 macOS 自动管理。"
+  },
+  "private_ai_task_routing_description_source_assignments": {
+    "message": "选择每项浏览器功能使用哪个 AI 来源。"
+  },
+  "private_ai_task_routing_label_aitab_organization": {
+    "message": "AI 标签页整理"
+  },
+  "private_ai_task_routing_label_cloud_fallback_option": {
+    "message": "自动回退到 Phi Cloud（默认）"
+  },
+  "private_ai_task_routing_label_local": {
+    "message": "本地"
+  },
+  "private_ai_task_routing_label_no_capability_models": {
+    "message": "此功能没有已启用的模型"
+  },
+  "private_ai_task_routing_label_pause_features_option": {
+    "message": "暂停受影响的 AI 功能（绝不向云端发送数据）"
+  },
+  "private_ai_task_routing_label_unavailable_source_policy": {
+    "message": "当本地或自托管来源不可用时"
+  },
+  "private_ai_task_routing_placeholder_phi_cloud": {
+    "message": "Phi Cloud"
+  },
+  "private_ai_task_routing_placeholder_search_task_models": {
+    "message": "搜索 {{task}} 模型…"
+  },
+  "private_ai_task_routing_status_apple_intelligence_available": {
+    "message": "Apple 智能 · 可用"
+  },
+  "private_ai_task_routing_status_apple_intelligence_unavailable": {
+    "message": "Apple 智能 · 不可用"
+  },
+  "private_ai_task_routing_title_aitask_routing": {
+    "message": "AI 任务路由"
+  },
+  "quit_blocked_alert_message": {
+    "message": "Phi Browser 运行时无法退出 Phi Sentinel。请先退出 Phi Browser。"
+  },
+  "quit_blocked_alert_title": {
+    "message": "无法退出 Phi Sentinel"
+  },
+  "scheduled_task_detail_accessible_label_cancel_current_run": {
+    "message": "取消当前运行"
+  },
+  "scheduled_task_detail_action_cancel_run": {
+    "message": "取消运行"
+  },
+  "scheduled_task_detail_action_copy": {
+    "message": "复制"
+  },
+  "scheduled_task_detail_description_no_result_text_available": {
+    "message": "没有可用的结果文本。"
+  },
+  "scheduled_task_detail_description_no_run_logs": {
+    "message": "本次运行未返回日志。"
+  },
+  "scheduled_task_detail_description_no_runs_yet": {
+    "message": "暂无运行记录。"
+  },
+  "scheduled_task_detail_field_label_approval": {
+    "message": "审批"
+  },
+  "scheduled_task_detail_field_label_cadence": {
+    "message": "频率"
+  },
+  "scheduled_task_detail_field_label_last_run": {
+    "message": "上次运行"
+  },
+  "scheduled_task_detail_field_label_last_trigger": {
+    "message": "上次触发"
+  },
+  "scheduled_task_detail_field_label_next_run": {
+    "message": "下次运行"
+  },
+  "scheduled_task_detail_field_label_objective": {
+    "message": "目标"
+  },
+  "scheduled_task_detail_field_label_run_id": {
+    "message": "运行 ID"
+  },
+  "scheduled_task_detail_field_label_schedule_id": {
+    "message": "计划 ID"
+  },
+  "scheduled_task_detail_field_label_task_id": {
+    "message": "任务 ID"
+  },
+  "scheduled_task_detail_field_label_task_status": {
+    "message": "任务状态"
+  },
+  "scheduled_task_detail_field_label_title": {
+    "message": "标题"
+  },
+  "scheduled_task_detail_label_generic_artifact": {
+    "message": "产物"
+  },
+  "scheduled_task_detail_label_hide_details": {
+    "message": "隐藏详情"
+  },
+  "scheduled_task_detail_label_load_failure": {
+    "message": "无法加载计划任务详情。"
+  },
+  "scheduled_task_detail_label_loading_run_detail": {
+    "message": "正在加载运行详情…"
+  },
+  "scheduled_task_detail_label_logs": {
+    "message": "日志"
+  },
+  "scheduled_task_detail_label_run_detail_unavailable": {
+    "message": "运行详情不可用。"
+  },
+  "scheduled_task_detail_label_task_unavailable": {
+    "message": "任务不可用"
+  },
+  "scheduled_task_detail_label_unnamed_artifact": {
+    "message": "未命名产物"
+  },
+  "scheduled_task_detail_label_video_preview": {
+    "message": "视频预览"
+  },
+  "scheduled_task_detail_label_view_details": {
+    "message": "查看详情"
+  },
+  "scheduled_task_detail_title_recent_runs": {
+    "message": "最近运行"
+  },
+  "scheduled_task_detail_title_run_detail": {
+    "message": "运行详情"
+  },
+  "scheduled_task_detail_title_task": {
+    "message": "任务"
+  },
+  "scheduled_tasks_accessible_label_close_scheduled_task_form": {
+    "message": "关闭计划任务表单"
+  },
+  "scheduled_tasks_accessible_label_create_task": {
+    "message": "创建任务"
+  },
+  "scheduled_tasks_accessible_label_decrease_every_value": {
+    "message": "减小间隔数值"
+  },
+  "scheduled_tasks_accessible_label_delete_named_schedule": {
+    "message": "删除 {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_delete_named_task": {
+    "message": "删除 {{task}}"
+  },
+  "scheduled_tasks_accessible_label_edit_named_schedule": {
+    "message": "编辑 {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_edit_named_task": {
+    "message": "编辑 {{task}}"
+  },
+  "scheduled_tasks_accessible_label_filter_runs_by_task": {
+    "message": "按任务筛选运行记录"
+  },
+  "scheduled_tasks_accessible_label_increase_every_value": {
+    "message": "增大间隔数值"
+  },
+  "scheduled_tasks_accessible_label_manual": {
+    "message": "手动"
+  },
+  "scheduled_tasks_accessible_label_next_month": {
+    "message": "下个月"
+  },
+  "scheduled_tasks_accessible_label_no_artifacts": {
+    "message": "无产物"
+  },
+  "scheduled_tasks_accessible_label_optional_details": {
+    "message": "可选详情"
+  },
+  "scheduled_tasks_accessible_label_pause_named_schedule": {
+    "message": "暂停 {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_previous_month": {
+    "message": "上个月"
+  },
+  "scheduled_tasks_accessible_label_resume_named_schedule": {
+    "message": "恢复 {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_run_at_picker": {
+    "message": "运行时间选择器"
+  },
+  "scheduled_tasks_accessible_label_run_named_schedule": {
+    "message": "立即运行 {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_scheduled": {
+    "message": "定时"
+  },
+  "scheduled_tasks_accessible_label_select_date": {
+    "message": "选择 {{date}}"
+  },
+  "scheduled_tasks_action_apply": {
+    "message": "应用"
+  },
+  "scheduled_tasks_action_back_to_tasks": {
+    "message": "返回任务列表"
+  },
+  "scheduled_tasks_action_clear": {
+    "message": "清除"
+  },
+  "scheduled_tasks_action_delete": {
+    "message": "删除"
+  },
+  "scheduled_tasks_action_delete_schedule": {
+    "message": "删除计划"
+  },
+  "scheduled_tasks_action_delete_task": {
+    "message": "删除任务"
+  },
+  "scheduled_tasks_action_now": {
+    "message": "现在"
+  },
+  "scheduled_tasks_action_save_settings": {
+    "message": "保存设置"
+  },
+  "scheduled_tasks_action_save_task": {
+    "message": "保存任务"
+  },
+  "scheduled_tasks_description_active_run_settings": {
+    "message": "控制 Sentinel 如何处理进行中的 Phi Agent 任务运行。"
+  },
+  "scheduled_tasks_description_allowed_timeout_range": {
+    "message": "允许范围：{{minimum}} 至 {{maximum}}。"
+  },
+  "scheduled_tasks_description_delete_named": {
+    "message": "此操作将从 Sentinel 中删除 <target>{{name}}</target>。"
+  },
+  "scheduled_tasks_description_empty_state_guidance": {
+    "message": "创建任务，开始在 Sentinel 中跟踪 Phi Agent 的工作。"
+  },
+  "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
+    "message": "加载定时任务失败"
+  },
+  "scheduled_tasks_description_filtered_run_count": {
+    "message": "显示的运行数：{{filtered}} / {{total}}"
+  },
+  "scheduled_tasks_description_load_failure": {
+    "message": "Sentinel 目前无法加载任务。请刷新此页面重试。"
+  },
+  "scheduled_tasks_description_minimum_character_count": {
+    "message": "至少 {{count}} 个字符。"
+  },
+  "scheduled_tasks_description_no_objective": {
+    "message": "无目标"
+  },
+  "scheduled_tasks_description_no_runs_for_this_task": {
+    "message": "此任务暂无运行记录"
+  },
+  "scheduled_tasks_description_no_schedules_yet": {
+    "message": "暂无计划"
+  },
+  "scheduled_tasks_description_no_task_runs_yet": {
+    "message": "暂无任务运行记录"
+  },
+  "scheduled_tasks_description_no_tasks_yet": {
+    "message": "暂无任务"
+  },
+  "scheduled_tasks_description_objective_minimum_length": {
+    "message": "目标至少需要 {{count}} 个字符"
+  },
+  "scheduled_tasks_description_objective_required": {
+    "message": "目标为必填项"
+  },
+  "scheduled_tasks_description_objective_validation": {
+    "message": "目标为必填项。描述和命名设置位于可选详情中。"
+  },
+  "scheduled_tasks_description_optional_title_limit": {
+    "message": "可选。最多 {{count}} 个字符。留空时将根据目标自动生成标题。"
+  },
+  "scheduled_tasks_description_overview": {
+    "message": "在 Sentinel 中查看 Phi Agent 的任务、计划和运行记录。"
+  },
+  "scheduled_tasks_description_phi_agent_is_not_running": {
+    "message": "Phi Agent 未在运行"
+  },
+  "scheduled_tasks_description_schedule_type_guidance": {
+    "message": "优先选择最简单的定时方式。仅在需要日历式计划时使用 cron。"
+  },
+  "scheduled_tasks_description_service_recovery": {
+    "message": "在「服务」页面启动 Phi Agent，然后刷新此页面以加载任务。"
+  },
+  "scheduled_tasks_description_task_timeout_behavior": {
+    "message": "当运行中的任务超过此时长时，将其标记为失败。"
+  },
+  "scheduled_tasks_description_timezone_fallback": {
+    "message": "可选。留空则使用运行 Phi Agent 的设备本地时区。"
+  },
+  "scheduled_tasks_description_unscheduled_task_behavior": {
+    "message": "此任务没有计划。可手动启动，或在需要时由 Phi Agent 触发。"
+  },
+  "scheduled_tasks_field_label_delete_schedule": {
+    "message": "删除计划"
+  },
+  "scheduled_tasks_field_label_delete_task": {
+    "message": "删除任务"
+  },
+  "scheduled_tasks_field_label_edit_schedule": {
+    "message": "编辑计划"
+  },
+  "scheduled_tasks_field_label_edit_task": {
+    "message": "编辑任务"
+  },
+  "scheduled_tasks_field_label_pause_schedule": {
+    "message": "暂停计划"
+  },
+  "scheduled_tasks_field_label_resume_schedule": {
+    "message": "恢复计划"
+  },
+  "scheduled_tasks_field_label_run_now": {
+    "message": "立即运行"
+  },
+  "scheduled_tasks_label_all_tasks": {
+    "message": "全部任务"
+  },
+  "scheduled_tasks_label_api_source": {
+    "message": "API"
+  },
+  "scheduled_tasks_label_artifact_count": {
+    "message": "{{count}} 个产物"
+  },
+  "scheduled_tasks_label_ask_before_run": {
+    "message": "运行前询问"
+  },
+  "scheduled_tasks_label_calendar_schedule": {
+    "message": "日历计划"
+  },
+  "scheduled_tasks_label_cron": {
+    "message": "Cron"
+  },
+  "scheduled_tasks_label_cron_expression": {
+    "message": "Cron 表达式"
+  },
+  "scheduled_tasks_label_day": {
+    "message": "天"
+  },
+  "scheduled_tasks_label_days": {
+    "message": "天"
+  },
+  "scheduled_tasks_label_default_task_title": {
+    "message": "定时任务"
+  },
+  "scheduled_tasks_label_delete_cascade_warning": {
+    "message": "该任务及其关联的计划和相关运行记录将从「任务」、「计划」和「运行记录」视图中移除。"
+  },
+  "scheduled_tasks_label_every": {
+    "message": "每隔"
+  },
+  "scheduled_tasks_label_every_interval": {
+    "message": "每 {{count}} {{unit}}"
+  },
+  "scheduled_tasks_label_every_unit": {
+    "message": "间隔单位"
+  },
+  "scheduled_tasks_label_every_value": {
+    "message": "间隔数值"
+  },
+  "scheduled_tasks_label_hour": {
+    "message": "时"
+  },
+  "scheduled_tasks_label_hour_lowercase": {
+    "message": "小时"
+  },
+  "scheduled_tasks_label_hours": {
+    "message": "小时"
+  },
+  "scheduled_tasks_label_interval": {
+    "message": "间隔"
+  },
+  "scheduled_tasks_label_last_status": {
+    "message": "上次：{{status}}"
+  },
+  "scheduled_tasks_label_manual_source": {
+    "message": "手动"
+  },
+  "scheduled_tasks_label_minute": {
+    "message": "分"
+  },
+  "scheduled_tasks_label_minute_lowercase": {
+    "message": "分钟"
+  },
+  "scheduled_tasks_label_minutes": {
+    "message": "分钟"
+  },
+  "scheduled_tasks_label_no_current_run": {
+    "message": "当前无运行"
+  },
+  "scheduled_tasks_label_no_schedule_start_when_needed": {
+    "message": "无计划。按需启动。"
+  },
+  "scheduled_tasks_label_once": {
+    "message": "单次"
+  },
+  "scheduled_tasks_label_once_at": {
+    "message": "于 {{date}} 运行一次"
+  },
+  "scheduled_tasks_label_one_time": {
+    "message": "单次"
+  },
+  "scheduled_tasks_label_one_time_schedule": {
+    "message": "单次计划"
+  },
+  "scheduled_tasks_label_optional": {
+    "message": "可选"
+  },
+  "scheduled_tasks_label_recording": {
+    "message": "录制"
+  },
+  "scheduled_tasks_label_recording_with_extra": {
+    "message": "录制 +{{count}}"
+  },
+  "scheduled_tasks_label_repeating_schedule": {
+    "message": "重复计划"
+  },
+  "scheduled_tasks_label_run_at": {
+    "message": "运行时间"
+  },
+  "scheduled_tasks_label_run_status": {
+    "message": "运行状态"
+  },
+  "scheduled_tasks_label_running_timeout": {
+    "message": "运行超时时长"
+  },
+  "scheduled_tasks_label_runs": {
+    "message": "运行记录"
+  },
+  "scheduled_tasks_label_runs_automatically": {
+    "message": "自动运行"
+  },
+  "scheduled_tasks_label_runs_automatically_on_aschedule": {
+    "message": "按计划自动运行。"
+  },
+  "scheduled_tasks_label_schedule_count": {
+    "message": "{{count}} 个计划"
+  },
+  "scheduled_tasks_label_schedule_description": {
+    "message": "计划描述"
+  },
+  "scheduled_tasks_label_schedule_name": {
+    "message": "计划名称"
+  },
+  "scheduled_tasks_label_schedule_source": {
+    "message": "计划"
+  },
+  "scheduled_tasks_label_schedule_type": {
+    "message": "计划类型"
+  },
+  "scheduled_tasks_label_schedules": {
+    "message": "计划"
+  },
+  "scheduled_tasks_label_second": {
+    "message": "秒"
+  },
+  "scheduled_tasks_label_seconds": {
+    "message": "秒"
+  },
+  "scheduled_tasks_label_select_date_and_time": {
+    "message": "选择日期和时间"
+  },
+  "scheduled_tasks_label_selected": {
+    "message": "已选择"
+  },
+  "scheduled_tasks_label_started_by": {
+    "message": "启动来源"
+  },
+  "scheduled_tasks_label_task_description": {
+    "message": "任务描述"
+  },
+  "scheduled_tasks_label_task_source": {
+    "message": "任务"
+  },
+  "scheduled_tasks_label_task_title": {
+    "message": "任务标题"
+  },
+  "scheduled_tasks_label_task_type": {
+    "message": "任务类型"
+  },
+  "scheduled_tasks_label_task_unavailable": {
+    "message": "任务不可用"
+  },
+  "scheduled_tasks_label_time_zone": {
+    "message": "时区"
+  },
+  "scheduled_tasks_label_timeout_hours": {
+    "message": "{{count}} 小时"
+  },
+  "scheduled_tasks_label_timeout_minutes": {
+    "message": "{{count}} 分钟"
+  },
+  "scheduled_tasks_label_unscheduled_task_list_notice": {
+    "message": "它将显示在「任务」中，并带有「无计划」标记。"
+  },
+  "scheduled_tasks_label_updated": {
+    "message": "更新时间"
+  },
+  "scheduled_tasks_label_use_local_timezone": {
+    "message": "使用本地时区"
+  },
+  "scheduled_tasks_label_user_source": {
+    "message": "用户"
+  },
+  "scheduled_tasks_status_active": {
+    "message": "已启用"
+  },
+  "scheduled_tasks_status_archived": {
+    "message": "已归档"
+  },
+  "scheduled_tasks_status_beta": {
+    "message": "Beta"
+  },
+  "scheduled_tasks_status_cancelled": {
+    "message": "已取消"
+  },
+  "scheduled_tasks_status_completed": {
+    "message": "已完成"
+  },
+  "scheduled_tasks_status_disabled": {
+    "message": "已禁用"
+  },
+  "scheduled_tasks_status_failed": {
+    "message": "失败"
+  },
+  "scheduled_tasks_status_needs_approval": {
+    "message": "待批准"
+  },
+  "scheduled_tasks_status_no_schedule": {
+    "message": "无计划"
+  },
+  "scheduled_tasks_status_not_started": {
+    "message": "未开始"
+  },
+  "scheduled_tasks_status_paused": {
+    "message": "已暂停"
+  },
+  "scheduled_tasks_status_queued": {
+    "message": "排队中"
+  },
+  "scheduled_tasks_status_rejected": {
+    "message": "已拒绝"
+  },
+  "scheduled_tasks_status_requires_approval": {
+    "message": "需要批准"
+  },
+  "scheduled_tasks_status_running_now": {
+    "message": "正在运行"
+  },
+  "scheduled_tasks_status_runs_automatically": {
+    "message": "自动运行"
+  },
+  "scheduled_tasks_status_scheduled": {
+    "message": "已计划"
+  },
+  "scheduled_tasks_status_skipped": {
+    "message": "已跳过"
+  },
+  "scheduled_tasks_title_delete": {
+    "message": "删除？"
+  },
+  "scheduled_tasks_title_delete_schedule": {
+    "message": "删除计划？"
+  },
+  "scheduled_tasks_title_delete_task": {
+    "message": "删除任务？"
+  },
+  "scheduled_tasks_title_edit_scheduled_task": {
+    "message": "编辑定时任务"
+  },
+  "scheduled_tasks_title_edit_task": {
+    "message": "编辑任务"
+  },
+  "scheduled_tasks_title_new_task": {
+    "message": "新建任务"
+  },
+  "scheduled_tasks_title_run_behavior": {
+    "message": "运行方式"
+  },
+  "scheduled_tasks_title_task_settings": {
+    "message": "任务设置"
+  },
+  "scheduled_tasks_title_tasks": {
+    "message": "任务"
+  },
+  "scheduled_tasks_validation_cron_invalid": {
+    "message": "请输入包含 5 个字段的有效 cron 表达式"
+  },
+  "scheduled_tasks_validation_cron_required": {
+    "message": "Cron 表达式为必填项"
+  },
+  "scheduled_tasks_validation_date_time_invalid": {
+    "message": "请输入有效的日期和时间"
+  },
+  "scheduled_tasks_validation_interval_positive": {
+    "message": "间隔必须为正数"
+  },
+  "scheduled_tasks_validation_run_at_future": {
+    "message": "运行时间必须晚于当前时间"
+  },
+  "scheduled_tasks_validation_run_at_required": {
+    "message": "运行时间为必填项"
+  },
+  "scheduled_tasks_validation_run_at_within_five_years": {
+    "message": "运行时间必须在 5 年以内"
+  },
+  "scheduled_tasks_validation_timeout_range": {
+    "message": "超时时长必须介于 {{minimum}} 和 {{maximum}} 之间。"
+  },
+  "service_detail_action_back_to_services": {
+    "message": "返回服务"
+  },
+  "service_detail_action_cleanup": {
+    "message": "清理"
+  },
+  "service_detail_action_remove_deprecated_service": {
+    "message": "移除已弃用的服务"
+  },
+  "service_detail_description_cannot_remove_depended_by": {
+    "message": "无法移除：被 {{services}} 依赖"
+  },
+  "service_detail_description_health": {
+    "message": "健康状态：{{status}}"
+  },
+  "service_detail_description_no_configuration": {
+    "message": "此服务没有可用的配置。"
+  },
+  "service_detail_description_pid": {
+    "message": "PID：{{pid}}"
+  },
+  "service_detail_description_service_not_found": {
+    "message": "未找到服务"
+  },
+  "service_detail_description_this_service_is_deprecated": {
+    "message": "此服务已弃用"
+  },
+  "service_detail_description_unsupported_service_removal": {
+    "message": "此服务已不在发布索引中，应当移除。"
+  },
+  "service_detail_description_uptime": {
+    "message": "运行时长：{{uptime}}"
+  },
+  "service_detail_label_component_spec": {
+    "message": "组件规格"
+  },
+  "service_detail_label_config": {
+    "message": "配置"
+  },
+  "service_detail_label_exports": {
+    "message": "导出信息"
+  },
+  "service_detail_label_failing": {
+    "message": "异常"
+  },
+  "service_detail_label_healthy": {
+    "message": "健康"
+  },
+  "service_detail_label_no_component_spec_file_found": {
+    "message": "未找到组件规格文件。"
+  },
+  "service_detail_label_runtime_config": {
+    "message": "运行时配置"
+  },
+  "service_detail_label_runtime_config_unavailable": {
+    "message": "暂无运行时配置，服务尚未启动。"
+  },
+  "service_detail_tooltip_clean_orphan_processes": {
+    "message": "查找并终止可能未正常退出的孤儿进程"
+  },
+  "service_detail_tooltip_copy_exports": {
+    "message": "复制导出信息"
+  },
+  "service_detail_tooltip_copy_runtime_config": {
+    "message": "复制运行时配置"
+  },
+  "services_action_retry_setup": {
+    "message": "重试初始化"
+  },
+  "services_action_start_all": {
+    "message": "全部启动"
+  },
+  "services_actions": {
+    "message": "操作"
+  },
+  "services_all": {
+    "message": "全部"
+  },
+  "services_coming_soon": {
+    "message": "即将推出"
+  },
+  "services_daemon": {
+    "message": "守护进程"
+  },
+  "services_dependencies": {
+    "message": "依赖项"
+  },
+  "services_description_lifecycle_overview": {
+    "message": "管理本地服务的生命周期和健康检查"
+  },
+  "services_description_setup_failed": {
+    "message": "初始化失败"
+  },
+  "services_description_setup_failed_with_error": {
+    "message": "初始化失败：{{error}}"
+  },
+  "services_error_loading": {
+    "message": "加载服务时出错"
+  },
+  "services_failing": {
+    "message": "异常"
+  },
+  "services_health": {
+    "message": "健康状态"
+  },
+  "services_health_check": {
+    "message": "健康检查"
+  },
+  "services_healthy": {
+    "message": "健康"
+  },
+  "services_indexed_directories": {
+    "message": "已索引目录"
+  },
+  "services_kind": {
+    "message": "类型"
+  },
+  "services_name": {
+    "message": "名称"
+  },
+  "services_no_filtered_services": {
+    "message": "没有状态为 {{filter}} 的服务"
+  },
+  "services_no_services": {
+    "message": "未找到任何服务"
+  },
+  "services_pending_jobs": {
+    "message": "等待中的作业"
+  },
+  "services_pid": {
+    "message": "PID"
+  },
+  "services_refresh": {
+    "message": "刷新"
+  },
+  "services_restart": {
+    "message": "重启"
+  },
+  "services_run_health_check": {
+    "message": "运行健康检查"
+  },
+  "services_runner_offline": {
+    "message": "后台服务离线"
+  },
+  "services_runner_online": {
+    "message": "后台服务在线"
+  },
+  "services_runner_status": {
+    "message": "后台服务状态"
+  },
+  "services_running": {
+    "message": "运行中"
+  },
+  "services_services_managed": {
+    "message": "受管服务：{{count}}"
+  },
+  "services_start": {
+    "message": "启动"
+  },
+  "services_state": {
+    "message": "状态"
+  },
+  "services_status_beta": {
+    "message": "Beta"
+  },
+  "services_status_crashed": {
+    "message": "已崩溃"
+  },
+  "services_status_deprecated": {
+    "message": "已弃用"
+  },
+  "services_status_disabled": {
+    "message": "已禁用"
+  },
+  "services_status_pending": {
+    "message": "等待中"
+  },
+  "services_status_starting": {
+    "message": "启动中"
+  },
+  "services_status_stopping": {
+    "message": "停止中"
+  },
+  "services_stop": {
+    "message": "停止"
+  },
+  "services_stopped": {
+    "message": "已停止"
+  },
+  "services_summary_pending": {
+    "message": "等待中：{{count}}"
+  },
+  "services_summary_running": {
+    "message": "运行中：{{count}}"
+  },
+  "services_summary_stopped": {
+    "message": "已停止：{{count}}"
+  },
+  "services_summary_total": {
+    "message": "服务：{{count}}"
+  },
+  "services_summary_transitioning": {
+    "message": "切换中：{{count}}"
+  },
+  "services_summary_unhealthy": {
+    "message": "不健康：{{count}}"
+  },
+  "services_title": {
+    "message": "服务"
+  },
+  "services_unhealthy": {
+    "message": "不健康"
+  },
+  "services_update_all": {
+    "message": "全部更新"
+  },
+  "services_uptime": {
+    "message": "运行时长"
+  },
+  "services_version": {
+    "message": "版本"
+  },
+  "services_view_config": {
+    "message": "查看配置"
+  },
+  "services_view_logs": {
+    "message": "查看日志"
+  },
+  "settings_accessible_label_component_update_track": {
+    "message": "组件更新通道"
+  },
+  "settings_action_resetting": {
+    "message": "正在重置…"
+  },
+  "settings_action_switch_and_update": {
+    "message": "切换并更新"
+  },
+  "settings_appearance": {
+    "message": "外观"
+  },
+  "settings_appearance_description": {
+    "message": "视觉主题与显示选项"
+  },
+  "settings_coming_soon": {
+    "message": "即将推出"
+  },
+  "settings_debug_logging": {
+    "message": "调试日志"
+  },
+  "settings_debug_logging_description": {
+    "message": "启用详细日志以便排查问题"
+  },
+  "settings_description": {
+    "message": "应用偏好设置与配置"
+  },
+  "settings_description_backup_overview": {
+    "message": "导出你的数据副本，并管理本地时间点快照，用于备份和恢复。"
+  },
+  "settings_description_factory_reset_deletes_data": {
+    "message": "这将<permanent>永久删除</permanent>所有 Phi Sentinel 数据："
+  },
+  "settings_description_factory_reset_warning": {
+    "message": "永久删除所有 Phi Sentinel 数据，包括服务、配置、日志和缓存文件。此操作无法撤销。"
+  },
+  "settings_description_reset_failed": {
+    "message": "重置失败"
+  },
+  "settings_description_stable_latest_switch_warning": {
+    "message": "最新稳定版将忽略此 Sentinel 版本锁定的组件版本，转而跟随最新发布的稳定组件版本。组件更新会立即开始，受影响的服务可能会重启。"
+  },
+  "settings_description_stable_latest_track": {
+    "message": "跟随每个新发布的稳定组件版本。"
+  },
+  "settings_description_stable_pinned_switch_warning": {
+    "message": "稳定版会恢复为此 Sentinel 版本锁定的组件版本。这可能会安装较旧的组件版本，并重启受影响的服务。"
+  },
+  "settings_description_stable_pinned_track": {
+    "message": "跟随此 Sentinel 版本锁定的组件版本。"
+  },
+  "settings_description_this_action_cannot_be_undone": {
+    "message": "此操作无法撤销。"
+  },
+  "settings_label_all_configurations_and_settings": {
+    "message": "所有配置和设置"
+  },
+  "settings_label_all_logs_and_cached_files": {
+    "message": "所有日志和缓存文件"
+  },
+  "settings_label_installed_services_and_data": {
+    "message": "所有已安装的服务及其数据"
+  },
+  "settings_label_job_schedules_and_history": {
+    "message": "作业计划和历史记录"
+  },
+  "settings_label_stable_latest": {
+    "message": "最新稳定版"
+  },
+  "settings_label_type_phrase_to_confirm": {
+    "message": "输入 <phrase>{{phrase}}</phrase> 以确认："
+  },
+  "settings_polling_intervals": {
+    "message": "轮询间隔"
+  },
+  "settings_polling_intervals_description": {
+    "message": "配置状态轮询频率"
+  },
+  "settings_status_stable": {
+    "message": "稳定版"
+  },
+  "settings_status_stable_latest_active": {
+    "message": "最新稳定版已启用"
+  },
+  "settings_title": {
+    "message": "设置"
+  },
+  "settings_title_backup_restore": {
+    "message": "备份与恢复"
+  },
+  "settings_title_component_updates": {
+    "message": "组件更新"
+  },
+  "settings_title_confirm_factory_reset": {
+    "message": "确认恢复出厂设置"
+  },
+  "settings_title_danger_zone": {
+    "message": "危险区域"
+  },
+  "settings_title_reset_all_data": {
+    "message": "重置所有数据"
+  },
+  "settings_title_switch_to_track": {
+    "message": "切换到 {{track}}？"
+  },
+  "settings_update_channel": {
+    "message": "更新通道"
+  },
+  "settings_update_channel_description": {
+    "message": "选择组件的更新通道"
+  },
+  "sidebar_alerts": {
+    "message": "警报"
+  },
+  "sidebar_indexing_active": {
+    "message": "进行中"
+  },
+  "sidebar_indexing_idle": {
+    "message": "空闲"
+  },
+  "sidebar_local_system": {
+    "message": "本地系统"
+  },
+  "sidebar_offline": {
+    "message": "离线"
+  },
+  "sidebar_online": {
+    "message": "在线"
+  },
+  "sidebar_runner": {
+    "message": "后台服务"
+  },
+  "status_bar_cpu": {
+    "message": "CPU：{{percent}}%"
+  },
+  "status_bar_memory": {
+    "message": "内存：{{value}}"
+  },
+  "status_bar_rag_queue": {
+    "message": "RAG 队列文件：{{count}}"
+  },
+  "status_bar_services": {
+    "message": "服务：{{count}}"
+  },
+  "task_detail_description_no_linked_schedules": {
+    "message": "此任务没有关联的计划。"
+  },
+  "task_detail_field_label_latest_run": {
+    "message": "最近运行"
+  },
+  "task_detail_label_failed_to_load_task_detail": {
+    "message": "无法加载任务详情。"
+  },
+  "task_detail_label_hide_run_details": {
+    "message": "隐藏运行详情"
+  },
+  "task_detail_label_view_run_details": {
+    "message": "查看运行详情"
+  },
+  "uninstall_browser_running_alert_message": {
+    "message": "卸载前请先退出 Phi Browser。"
+  },
+  "uninstall_browser_running_alert_title": {
+    "message": "请先退出 Phi Browser"
+  },
+  "uninstall_dialog_browser_data_description": {
+    "message": "历史记录、Cookie、缓存、用户配置"
+  },
+  "uninstall_dialog_browser_data_label": {
+    "message": "浏览数据"
+  },
+  "uninstall_dialog_category_calculating_size_label": {
+    "message": "%@：计算中…"
+  },
+  "uninstall_dialog_category_size_label": {
+    "message": "%1$@：%2$@"
+  },
+  "uninstall_dialog_confirmation_delete_and_quit_button": {
+    "message": "删除并退出"
+  },
+  "uninstall_dialog_confirmation_message": {
+    "message": "此操作无法撤销。"
+  },
+  "uninstall_dialog_confirmation_title": {
+    "message": "要永久删除所选数据吗？"
+  },
+  "uninstall_dialog_models_description": {
+    "message": "已下载的模型与 MLX 运行时"
+  },
+  "uninstall_dialog_models_label": {
+    "message": "本地 AI 模型与运行时"
+  },
+  "uninstall_dialog_quit_without_removing_button": {
+    "message": "退出而不删除"
+  },
+  "uninstall_dialog_remove_selected_button": {
+    "message": "删除所选并退出"
+  },
+  "uninstall_dialog_service_data_description": {
+    "message": "对话历史、智能体记忆、任务、索引与日志"
+  },
+  "uninstall_dialog_service_data_label": {
+    "message": "对话、AI 记忆与服务数据"
+  },
+  "uninstall_dialog_subtitle": {
+    "message": "选择要永久删除的本地数据。此操作无法撤销。"
+  },
+  "uninstall_dialog_title": {
+    "message": "卸载 Phi"
+  },
+  "updates_all_up_to_date": {
+    "message": "所有组件均为最新"
+  },
+  "updates_apply_all_updates": {
+    "message": "应用所有更新"
+  },
+  "updates_available_updates": {
+    "message": "可用更新"
+  },
+  "updates_available_updates_description": {
+    "message": "组件版本变更"
+  },
+  "updates_check_for_updates": {
+    "message": "检查更新"
+  },
+  "updates_description": {
+    "message": "软件包管理与组件更新"
+  },
+  "updates_description_version_change": {
+    "message": "{{current}} → {{target}}"
+  },
+  "updates_title": {
+    "message": "更新"
+  }
+}

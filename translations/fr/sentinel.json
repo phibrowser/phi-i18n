@@ -1,0 +1,3443 @@
+{
+  "about_dialog_build_time_label": {
+    "message": "Date de compilation : %@"
+  },
+  "about_dialog_description": {
+    "message": "Phi Sentinel gère les services d'IA locaux de Phi Browser."
+  },
+  "about_dialog_title": {
+    "message": "À propos de Phi Sentinel"
+  },
+  "about_dialog_version_label": {
+    "message": "Version : %@"
+  },
+  "app_dev_mode": {
+    "message": "Mode dev"
+  },
+  "app_name": {
+    "message": "Sentinel"
+  },
+  "backup_export_action_export_data": {
+    "message": "Exporter les données…"
+  },
+  "backup_export_action_working": {
+    "message": "En cours…"
+  },
+  "backup_export_description_archive": {
+    "message": "Enregistrez une copie de vos paramètres et de vos données sous forme d'archive <archive>.tar.gz</archive>. Les clés API des fournisseurs ne sont jamais exportées."
+  },
+  "backup_export_description_export_failed": {
+    "message": "Échec de l'exportation"
+  },
+  "backup_export_description_export_failed_with_error": {
+    "message": "Échec de l'exportation : {{error}}"
+  },
+  "backup_export_description_exported_to_path": {
+    "message": "Exporté vers {{path}}"
+  },
+  "backup_export_description_inherited_failure": {
+    "message": "La dernière opération de sauvegarde a échoué. S'il s'agissait d'une importation, vous pouvez restaurer l'instantané créé avant l'importation depuis la carte Instantanés ci-dessous."
+  },
+  "backup_export_description_inherited_failure_with_error": {
+    "message": "La dernière opération de sauvegarde a échoué : {{error}}. S'il s'agissait d'une importation, vous pouvez restaurer l'instantané créé avant l'importation depuis la carte Instantanés ci-dessous."
+  },
+  "backup_export_description_resume_warning": {
+    "message": "Terminé après reprise à la suite d'une interruption. Vérifiez l'archive avant de vous y fier."
+  },
+  "backup_export_description_resume_warning_with_error": {
+    "message": "Terminé après reprise à la suite d'une interruption : {{error}}. Vérifiez l'archive avant de vous y fier."
+  },
+  "backup_export_title_export_data": {
+    "message": "Exporter les données"
+  },
+  "backup_snapshots_action_restore": {
+    "message": "Restaurer"
+  },
+  "backup_snapshots_action_restore_snapshot": {
+    "message": "Restaurer l'instantané"
+  },
+  "backup_snapshots_action_restoring": {
+    "message": "Restauration…"
+  },
+  "backup_snapshots_action_snapshot_now": {
+    "message": "Créer un instantané"
+  },
+  "backup_snapshots_action_snapshotting": {
+    "message": "Création de l'instantané…"
+  },
+  "backup_snapshots_description_loading_snapshots": {
+    "message": "Chargement des instantanés…"
+  },
+  "backup_snapshots_description_local_snapshot_privacy": {
+    "message": "Copies à un instant donné de l'état de Sentinel sur cette machine. Les instantanés ne quittent jamais ce Mac."
+  },
+  "backup_snapshots_description_no_snapshots_yet": {
+    "message": "Aucun instantané pour le moment."
+  },
+  "backup_snapshots_description_restore_snapshot_at": {
+    "message": "Sentinel arrêtera tous les services, rétablira l'arborescence d'état telle qu'elle était le {{date}}, puis redémarrera. Les données écrites depuis cette date seront remplacées. Cette action est irréversible."
+  },
+  "backup_snapshots_description_restore_this_snapshot": {
+    "message": "Sentinel arrêtera tous les services, rétablira l'arborescence d'état telle qu'elle était dans cet instantané, puis redémarrera. Les données écrites depuis lors seront remplacées. Cette action est irréversible."
+  },
+  "backup_snapshots_label_automatic_risky_release": {
+    "message": "Auto (version à risque)"
+  },
+  "backup_snapshots_label_manual": {
+    "message": "Manuel"
+  },
+  "backup_snapshots_label_pre_import": {
+    "message": "Pré-importation"
+  },
+  "backup_snapshots_label_snapshot_version": {
+    "message": "Sentinel {{sentinelVersion}}"
+  },
+  "backup_snapshots_label_snapshot_versions_with_browser": {
+    "message": "Sentinel {{sentinelVersion}} · Navigateur {{browserVersion}}"
+  },
+  "backup_snapshots_title_local_snapshots": {
+    "message": "Instantanés locaux"
+  },
+  "backup_snapshots_title_restore_this_snapshot": {
+    "message": "Restaurer cet instantané ?"
+  },
+  "common_action_cancel_button": {
+    "message": "Annuler"
+  },
+  "common_alert_okay_button": {
+    "message": "OK"
+  },
+  "common_all": {
+    "message": "Tous"
+  },
+  "common_cancel": {
+    "message": "Annuler"
+  },
+  "common_close": {
+    "message": "Fermer"
+  },
+  "common_error": {
+    "message": "Erreur"
+  },
+  "common_loading": {
+    "message": "Chargement…"
+  },
+  "common_retry": {
+    "message": "Réessayer"
+  },
+  "common_save": {
+    "message": "Enregistrer"
+  },
+  "common_task_run_approval_actions_label_approve": {
+    "message": "Approuver"
+  },
+  "common_task_run_approval_actions_label_reject": {
+    "message": "Rejeter"
+  },
+  "common_unknown": {
+    "message": "Inconnu"
+  },
+  "dashboard_window_title": {
+    "message": "Tableau de bord Phi Sentinel"
+  },
+  "directory_access_panel_grant_button": {
+    "message": "Autoriser l'accès"
+  },
+  "directory_access_panel_message": {
+    "message": "Sélectionnez un répertoire pour autoriser l'accès"
+  },
+  "errors_ai_gateway_provider_test_timed_out": {
+    "message": "Le test du fournisseur a expiré. Le fournisseur est peut-être encore en train de charger le modèle ; réessayez dans un instant."
+  },
+  "errors_config_load_failed": {
+    "message": "Échec du chargement de la configuration"
+  },
+  "errors_copy_failed": {
+    "message": "Échec de la copie"
+  },
+  "errors_logs_copy_failed": {
+    "message": "Échec de la copie des journaux"
+  },
+  "errors_logs_directory_unavailable": {
+    "message": "Dossier des journaux indisponible"
+  },
+  "errors_logs_download_failed": {
+    "message": "Échec du téléchargement des journaux"
+  },
+  "errors_logs_load_failed": {
+    "message": "Échec du chargement des journaux"
+  },
+  "errors_logs_load_more_failed": {
+    "message": "Échec du chargement des journaux plus anciens"
+  },
+  "errors_phi_agent_api_error": {
+    "message": "Erreur de l'API Phi Agent : {{status}}"
+  },
+  "errors_phi_agent_label_duration": {
+    "message": "{{count}} {{unit}}"
+  },
+  "errors_phi_agent_label_milliseconds": {
+    "message": "{{count}} ms"
+  },
+  "errors_phi_agent_repeat_interval_minimum": {
+    "message": "L'intervalle de répétition doit être d'au moins 30 secondes."
+  },
+  "errors_phi_agent_repeat_interval_minimum_with_current": {
+    "message": "L'intervalle de répétition doit être d'au moins {{minimum}}. Valeur actuelle : {{current}}."
+  },
+  "errors_tasks_schedule_creation_partial_failure": {
+    "message": "Échec de la création de la planification après la création de la tâche"
+  },
+  "errors_tasks_task_update_partial_failure": {
+    "message": "Échec de la mise à jour de la tâche après la mise à jour de la planification"
+  },
+  "experimental_description_stability_warning": {
+    "message": "Des fonctionnalités récentes qui évoluent encore. Attendez-vous à quelques imperfections."
+  },
+  "history_coming_soon_description": {
+    "message": "La fonctionnalité d'historique est en cours de développement"
+  },
+  "history_description": {
+    "message": "Vue d'audit et de dépannage"
+  },
+  "history_event_history": {
+    "message": "Historique des événements"
+  },
+  "history_event_history_description": {
+    "message": "Consultez les événements système, les modifications de services et les exécutions de jobs"
+  },
+  "history_export": {
+    "message": "Exporter"
+  },
+  "history_filter": {
+    "message": "Filtrer"
+  },
+  "history_title": {
+    "message": "Historique"
+  },
+  "history_will_show": {
+    "message": "Cette vue affichera les événements de services, les exécutions de jobs, les modifications d'autorisations et les mises à jour"
+  },
+  "job_detail_action_back": {
+    "message": "Retour"
+  },
+  "job_detail_description_duration": {
+    "message": "Durée : {{duration}}"
+  },
+  "job_detail_description_finished_at": {
+    "message": "Terminé : {{date}}"
+  },
+  "job_detail_description_legacy_run_without_task": {
+    "message": "Cette exécution de job n'est associée à aucune exécution de tâche Phi Agent."
+  },
+  "job_detail_description_no_task_run_details_available": {
+    "message": "Aucun détail d'exécution de tâche disponible"
+  },
+  "job_detail_description_started_at": {
+    "message": "Démarré : {{date}}"
+  },
+  "job_detail_description_task_run_load_failure": {
+    "message": "Échec du chargement des détails de l'exécution de la tâche"
+  },
+  "job_detail_description_unknown_error": {
+    "message": "Erreur inconnue"
+  },
+  "job_detail_title_artifacts": {
+    "message": "Artefacts ({{count}})"
+  },
+  "job_detail_title_logs": {
+    "message": "Journaux ({{count}})"
+  },
+  "job_detail_title_progress": {
+    "message": "Progression"
+  },
+  "job_detail_title_result": {
+    "message": "Résultat"
+  },
+  "job_detail_title_task_run": {
+    "message": "Exécution de tâche"
+  },
+  "jobs_action_clear_filter": {
+    "message": "Effacer le filtre"
+  },
+  "jobs_callback_path_placeholder": {
+    "message": "Chemin de rappel (exemple : /internal/jobs/run)"
+  },
+  "jobs_coming_soon": {
+    "message": "Bientôt disponible"
+  },
+  "jobs_coming_soon_description": {
+    "message": "La gestion des jobs est en cours de développement"
+  },
+  "jobs_component_id_placeholder": {
+    "message": "ID du composant cible (exemple : go.service-a)"
+  },
+  "jobs_create": {
+    "message": "Créer"
+  },
+  "jobs_create_one_time": {
+    "message": "Créer un job ponctuel"
+  },
+  "jobs_create_one_time_description": {
+    "message": "Créez un job ponctuel qui s'exécutera une seule fois à l'heure choisie en appelant l'API de rappel d'un composant"
+  },
+  "jobs_description": {
+    "message": "Gérez les jobs planifiés et déclenchés"
+  },
+  "jobs_description_no_runs_recorded_yet": {
+    "message": "Aucune exécution enregistrée pour le moment"
+  },
+  "jobs_disable": {
+    "message": "Désactiver"
+  },
+  "jobs_disabled": {
+    "message": "Désactivé"
+  },
+  "jobs_empty_jobs": {
+    "message": "Aucun job pour le moment"
+  },
+  "jobs_empty_runs": {
+    "message": "Aucun historique d'exécution de job pour le moment"
+  },
+  "jobs_enable": {
+    "message": "Activer"
+  },
+  "jobs_enabled": {
+    "message": "Activé"
+  },
+  "jobs_execution_history": {
+    "message": "Historique des exécutions"
+  },
+  "jobs_execution_history_description": {
+    "message": "Consultez l'historique des exécutions de jobs et leurs journaux"
+  },
+  "jobs_hide_history": {
+    "message": "Masquer l'historique"
+  },
+  "jobs_job_id_label": {
+    "message": "ID du job"
+  },
+  "jobs_job_name_placeholder": {
+    "message": "Nom du job"
+  },
+  "jobs_label_all_jobs": {
+    "message": "Tous les jobs"
+  },
+  "jobs_label_duration": {
+    "message": "Durée"
+  },
+  "jobs_label_every_hours": {
+    "message": "toutes les {{count}} h"
+  },
+  "jobs_label_every_minutes": {
+    "message": "toutes les {{count}} min"
+  },
+  "jobs_label_every_seconds": {
+    "message": "toutes les {{count}} s"
+  },
+  "jobs_label_interval_lowercase": {
+    "message": "intervalle"
+  },
+  "jobs_label_job": {
+    "message": "Job"
+  },
+  "jobs_label_last_run": {
+    "message": "Dernière exécution"
+  },
+  "jobs_label_schedule": {
+    "message": "Planification"
+  },
+  "jobs_label_started": {
+    "message": "Démarré"
+  },
+  "jobs_label_status": {
+    "message": "Statut"
+  },
+  "jobs_label_type": {
+    "message": "Type"
+  },
+  "jobs_next_run_at": {
+    "message": "Prochaine exécution"
+  },
+  "jobs_refresh": {
+    "message": "Actualiser"
+  },
+  "jobs_remove": {
+    "message": "Supprimer"
+  },
+  "jobs_run_now": {
+    "message": "Exécuter maintenant"
+  },
+  "jobs_scheduled_jobs": {
+    "message": "Jobs planifiés"
+  },
+  "jobs_scheduled_jobs_description": {
+    "message": "Consultez et gérez les définitions de jobs planifiés"
+  },
+  "jobs_show_history": {
+    "message": "Afficher l'historique"
+  },
+  "jobs_summary_disabled": {
+    "message": "Désactivés : {{count}}"
+  },
+  "jobs_summary_enabled": {
+    "message": "Activés : {{count}}"
+  },
+  "jobs_summary_failing": {
+    "message": "En échec : {{count}}"
+  },
+  "jobs_summary_total": {
+    "message": "Jobs : {{count}}"
+  },
+  "jobs_title": {
+    "message": "Jobs"
+  },
+  "jobs_title_job_history": {
+    "message": "Historique des jobs"
+  },
+  "knowledge_add_directory": {
+    "message": "Ajouter un dossier"
+  },
+  "knowledge_coming_soon_description": {
+    "message": "La gestion des connaissances est en cours de développement"
+  },
+  "knowledge_description": {
+    "message": "Sélection des répertoires RAG et cycle de vie de l'indexation"
+  },
+  "knowledge_indexed_directories": {
+    "message": "Dossiers indexés"
+  },
+  "knowledge_indexed_directories_description": {
+    "message": "Gérez les répertoires utilisés pour l'indexation RAG"
+  },
+  "knowledge_start_index": {
+    "message": "Démarrer l'indexation"
+  },
+  "knowledge_title": {
+    "message": "Connaissances"
+  },
+  "knowledge_will_show": {
+    "message": "Cette vue affichera les répertoires autorisés, l'état de l'indexation, le nombre de fragments et les actions de réindexation"
+  },
+  "layout_app_shell_accessible_label_opening_sentinel": {
+    "message": "Ouverture de Sentinel"
+  },
+  "layout_app_shell_description_startup_progress": {
+    "message": "Connexion au pont local, vérification de l'état du service d'arrière-plan et préparation de l'espace de travail."
+  },
+  "layout_top_bar_accessible_label_auto_theme": {
+    "message": "Thème automatique ({{theme}})"
+  },
+  "layout_top_bar_accessible_label_celebrate_phi_sentinel": {
+    "message": "Célébrer Phi Sentinel"
+  },
+  "layout_top_bar_accessible_label_dark_theme": {
+    "message": "Thème sombre"
+  },
+  "layout_top_bar_accessible_label_light_theme": {
+    "message": "Thème clair"
+  },
+  "layout_top_bar_accessible_label_runner_status": {
+    "message": "État du service d'arrière-plan : {{status}}"
+  },
+  "layout_top_bar_accessible_label_theme": {
+    "message": "Thème"
+  },
+  "layout_top_bar_action_restart_to_version": {
+    "message": "Redémarrer en v{{version}}"
+  },
+  "layout_top_bar_image_description_phi_sentinel_app_icon": {
+    "message": "Icône de l'application Phi Sentinel"
+  },
+  "layout_top_bar_label_dark": {
+    "message": "sombre"
+  },
+  "layout_top_bar_label_light": {
+    "message": "clair"
+  },
+  "layout_top_bar_label_version": {
+    "message": "v{{version}}"
+  },
+  "layout_top_bar_status_checking_updates": {
+    "message": "Recherche de mises à jour…"
+  },
+  "layout_top_bar_status_downloading": {
+    "message": "Téléchargement…"
+  },
+  "layout_top_bar_status_health_check": {
+    "message": "Vérification de l'état…"
+  },
+  "layout_top_bar_status_installing": {
+    "message": "Installation…"
+  },
+  "layout_top_bar_status_planning_update": {
+    "message": "Planification de la mise à jour…"
+  },
+  "layout_top_bar_status_restarting": {
+    "message": "Redémarrage…"
+  },
+  "layout_top_bar_status_rolling_back": {
+    "message": "Restauration…"
+  },
+  "layout_top_bar_status_staging": {
+    "message": "Préparation…"
+  },
+  "layout_top_bar_status_switching": {
+    "message": "Basculement…"
+  },
+  "layout_top_bar_status_verifying": {
+    "message": "Vérification…"
+  },
+  "layout_top_bar_title_phi_sentinel": {
+    "message": "Phi Sentinel"
+  },
+  "local_ai_hugging_face_download_hint_accessible_label_download_source_guidance": {
+    "message": "À propos de la vitesse et des erreurs de téléchargement depuis Hugging Face"
+  },
+  "local_ai_hugging_face_download_hint_label_download_reliability_warning": {
+    "message": "Les téléchargements depuis Hugging Face peuvent être plus lents que depuis le miroir Phi et peuvent échouer en raison de limites de débit, d'accès restreints ou d'interruptions réseau. Dans ce cas, réessayez depuis le miroir Phi."
+  },
+  "local_ai_local_llm_accessible_label_control_local_ai": {
+    "message": "{{action}} l'IA locale"
+  },
+  "local_ai_local_llm_accessible_label_view_role_logs": {
+    "message": "Afficher les journaux de {{role}}"
+  },
+  "local_ai_local_llm_action_cancelling": {
+    "message": "Annulation…"
+  },
+  "local_ai_local_llm_action_check_again": {
+    "message": "Vérifier à nouveau"
+  },
+  "local_ai_local_llm_action_disable": {
+    "message": "Désactiver"
+  },
+  "local_ai_local_llm_action_download_and_start": {
+    "message": "Télécharger et démarrer"
+  },
+  "local_ai_local_llm_action_enable": {
+    "message": "Activer"
+  },
+  "local_ai_local_llm_action_install_and_start": {
+    "message": "Installer et démarrer"
+  },
+  "local_ai_local_llm_action_install_model": {
+    "message": "Installer le modèle"
+  },
+  "local_ai_local_llm_action_install_runtime": {
+    "message": "Installer l'environnement d'exécution"
+  },
+  "local_ai_local_llm_action_next_step": {
+    "message": "Étape suivante"
+  },
+  "local_ai_local_llm_action_preparing": {
+    "message": "Préparation…"
+  },
+  "local_ai_local_llm_action_retry_hugging_face": {
+    "message": "Réessayer depuis Hugging Face"
+  },
+  "local_ai_local_llm_action_retry_phi_mirror": {
+    "message": "Réessayer depuis le miroir Phi"
+  },
+  "local_ai_local_llm_action_start_local_services": {
+    "message": "Démarrer les services locaux"
+  },
+  "local_ai_local_llm_action_start_services": {
+    "message": "Démarrer les services"
+  },
+  "local_ai_local_llm_action_starting": {
+    "message": "Démarrage…"
+  },
+  "local_ai_local_llm_action_turn_on_local_ai": {
+    "message": "Activer l'IA locale"
+  },
+  "local_ai_local_llm_action_update": {
+    "message": "Mettre à jour"
+  },
+  "local_ai_local_llm_description_apple_silicon_required": {
+    "message": "Puce Apple Silicon requise."
+  },
+  "local_ai_local_llm_description_chat_configured": {
+    "message": "Sentinel démarrera le modèle local de Chat."
+  },
+  "local_ai_local_llm_description_chat_not_set_up": {
+    "message": "Démarre le modèle local de Chat de Sentinel lorsque l'IA locale est activée."
+  },
+  "local_ai_local_llm_description_chat_off": {
+    "message": "Le Chat est désactivé. Les modèles locaux restent installés pour plus tard."
+  },
+  "local_ai_local_llm_description_chat_ready": {
+    "message": "Le modèle local de Chat est prêt."
+  },
+  "local_ai_local_llm_description_chat_start_failed": {
+    "message": "Le modèle local de Chat n'a pas pu démarrer."
+  },
+  "local_ai_local_llm_description_chat_starting": {
+    "message": "Sentinel démarre le modèle local de Chat."
+  },
+  "local_ai_local_llm_description_checking_download_disk_space": {
+    "message": "Sentinel vérifie l'espace disque disponible avant d'afficher les options de téléchargement."
+  },
+  "local_ai_local_llm_description_choose_download_location": {
+    "message": "Choisissez la source de téléchargement des fichiers"
+  },
+  "local_ai_local_llm_description_connector_configured": {
+    "message": "Sentinel démarrera l'indexation des connecteurs."
+  },
+  "local_ai_local_llm_description_connector_not_set_up": {
+    "message": "Démarre le modèle local de recherche dans les données connectées de Sentinel lorsque l'IA locale est activée."
+  },
+  "local_ai_local_llm_description_connector_off": {
+    "message": "La recherche via connecteurs est désactivée. Les modèles locaux restent installés pour plus tard."
+  },
+  "local_ai_local_llm_description_connector_ready": {
+    "message": "Prêt pour les applications connectées comme Notion."
+  },
+  "local_ai_local_llm_description_connector_start_failed": {
+    "message": "L'indexation des connecteurs n'a pas pu démarrer."
+  },
+  "local_ai_local_llm_description_connector_starting": {
+    "message": "Sentinel démarre l'indexation des connecteurs."
+  },
+  "local_ai_local_llm_description_data_search_download_failed": {
+    "message": "Le téléchargement du modèle de recherche de données a échoué."
+  },
+  "local_ai_local_llm_description_download_and_start_plan": {
+    "message": "Sentinel téléchargera les fichiers d'environnement d'exécution ou de modèle manquants, puis démarrera la Mémoire et la recherche dans les données connectées."
+  },
+  "local_ai_local_llm_description_download_source_recommendation": {
+    "message": "Le miroir Phi est recommandé. Hugging Face est disponible pour les modèles publics approuvés par Sentinel et peut être plus lent."
+  },
+  "local_ai_local_llm_description_download_then_start": {
+    "message": "Sentinel téléchargera {{items}}, puis démarrera les services locaux nécessaires."
+  },
+  "local_ai_local_llm_description_downloading_and_starting": {
+    "message": "Téléchargement et démarrage"
+  },
+  "local_ai_local_llm_description_downloading_from_hugging_face": {
+    "message": "Téléchargement depuis Hugging Face."
+  },
+  "local_ai_local_llm_description_downloading_from_phi_mirror": {
+    "message": "Téléchargement depuis le miroir Phi."
+  },
+  "local_ai_local_llm_description_downloading_runtime": {
+    "message": "Téléchargement de l'environnement d'exécution LLM local."
+  },
+  "local_ai_local_llm_description_downloads_chat_memory_model": {
+    "message": "Télécharge le modèle local utilisé pour le Chat et la Mémoire."
+  },
+  "local_ai_local_llm_description_downloads_data_search_model": {
+    "message": "Télécharge le modèle local utilisé pour la recherche dans les données connectées."
+  },
+  "local_ai_local_llm_description_downloads_memory_model": {
+    "message": "Télécharge le modèle local utilisé pour la Mémoire."
+  },
+  "local_ai_local_llm_description_free_space_then_retry": {
+    "message": "Libérez de l'espace, puis réessayez"
+  },
+  "local_ai_local_llm_description_insufficient_disk_space_guidance": {
+    "message": "Libérez de l'espace et réessayez avant de télécharger l'environnement d'exécution local ou les modèles."
+  },
+  "local_ai_local_llm_description_insufficient_storage": {
+    "message": "La configuration de l'IA locale nécessite au moins 10 Go d'espace libre sur le disque de stockage de Sentinel. Espace disponible : {{available}}."
+  },
+  "local_ai_local_llm_description_local_features_running": {
+    "message": "La Mémoire et la recherche dans les données connectées s'exécutent sur ce Mac."
+  },
+  "local_ai_local_llm_description_local_model_assignments": {
+    "message": "La Mémoire et la recherche dans les données connectées sont configurées pour utiliser des modèles locaux sur ce Mac."
+  },
+  "local_ai_local_llm_description_local_services_running": {
+    "message": "Les services locaux sont en cours d'exécution"
+  },
+  "local_ai_local_llm_description_memory_configured": {
+    "message": "Sentinel démarrera le modèle local de Mémoire."
+  },
+  "local_ai_local_llm_description_memory_download_failed": {
+    "message": "Le téléchargement du modèle de Mémoire a échoué."
+  },
+  "local_ai_local_llm_description_memory_not_set_up": {
+    "message": "Démarre le modèle local de Mémoire de Sentinel lorsque l'IA locale est activée."
+  },
+  "local_ai_local_llm_description_memory_off": {
+    "message": "La Mémoire est désactivée. Les modèles locaux restent installés pour plus tard."
+  },
+  "local_ai_local_llm_description_memory_ready": {
+    "message": "Le modèle local de Mémoire est prêt."
+  },
+  "local_ai_local_llm_description_memory_start_failed": {
+    "message": "Le modèle local de Mémoire n'a pas pu démarrer."
+  },
+  "local_ai_local_llm_description_memory_starting": {
+    "message": "Sentinel démarre le modèle local de Mémoire."
+  },
+  "local_ai_local_llm_description_missing_files_source": {
+    "message": "Sentinel utilisera cette source pour tous les fichiers d'environnement d'exécution ou de modèle manquants."
+  },
+  "local_ai_local_llm_description_no_supported_chat_model": {
+    "message": "Aucun modèle de Chat pris en charge n'est encore disponible."
+  },
+  "local_ai_local_llm_description_no_supported_connector_model": {
+    "message": "Aucun modèle d'indexation des connecteurs pris en charge n'est encore disponible."
+  },
+  "local_ai_local_llm_description_no_supported_data_search_model": {
+    "message": "Aucun modèle de recherche dans les données connectées pris en charge n'est encore disponible."
+  },
+  "local_ai_local_llm_description_no_supported_memory_model": {
+    "message": "Aucun modèle de Mémoire pris en charge n'est encore disponible."
+  },
+  "local_ai_local_llm_description_preparing_runtime_install": {
+    "message": "Sentinel vérifie l'espace disque disponible et prépare l'installation de l'environnement d'exécution local."
+  },
+  "local_ai_local_llm_description_preparing_setup": {
+    "message": "Préparation de la configuration de l'IA locale."
+  },
+  "local_ai_local_llm_description_role_start_failed": {
+    "message": "Échec du démarrage : {{role}}"
+  },
+  "local_ai_local_llm_description_runtime_and_models_installed": {
+    "message": "L'environnement d'exécution et les modèles sont installés"
+  },
+  "local_ai_local_llm_description_runtime_download_failed": {
+    "message": "Le téléchargement de l'environnement d'exécution a échoué."
+  },
+  "local_ai_local_llm_description_runtime_ready": {
+    "message": "L'environnement d'exécution et les modèles sont prêts sur ce Mac. Démarrez les services locaux pour utiliser l'IA locale de Sentinel."
+  },
+  "local_ai_local_llm_description_runtime_required": {
+    "message": "Requis pour que les modèles locaux puissent s'exécuter sur ce Mac."
+  },
+  "local_ai_local_llm_description_runtime_required_short": {
+    "message": "Requis pour exécuter des modèles locaux."
+  },
+  "local_ai_local_llm_description_start_failed": {
+    "message": "Échec du démarrage de l'IA locale : {{error}}"
+  },
+  "local_ai_local_llm_description_start_installed_services": {
+    "message": "Sentinel démarrera les services locaux sélectionnés avec les modèles déjà présents sur ce Mac."
+  },
+  "local_ai_local_llm_description_starting_installed_services": {
+    "message": "L'environnement d'exécution et les modèles sont déjà installés. Sentinel démarre maintenant les services locaux."
+  },
+  "local_ai_local_llm_description_starting_local_services": {
+    "message": "Démarrage des services locaux"
+  },
+  "local_ai_local_llm_description_status_load_failure": {
+    "message": "Échec du chargement de l'état : {{error}}"
+  },
+  "local_ai_local_llm_description_stopping_downloads": {
+    "message": "Arrêt des téléchargements en cours. Vous pourrez recommencer une fois l'annulation terminée."
+  },
+  "local_ai_local_llm_description_storage_check_failed": {
+    "message": "Impossible de vérifier l'espace de stockage de Sentinel : {{error}}"
+  },
+  "local_ai_local_llm_description_unknown_error": {
+    "message": "erreur inconnue"
+  },
+  "local_ai_local_llm_description_waiting_step": {
+    "message": "{{detail}} Sentinel conservera tout ce qui est déjà installé."
+  },
+  "local_ai_local_llm_label_connected_data_search_lowercase": {
+    "message": "recherche dans les données connectées"
+  },
+  "local_ai_local_llm_label_experimental": {
+    "message": "Expérimental"
+  },
+  "local_ai_local_llm_label_gb": {
+    "message": "~1 Go"
+  },
+  "local_ai_local_llm_label_hugging_face": {
+    "message": "Hugging Face"
+  },
+  "local_ai_local_llm_label_latest_version": {
+    "message": "Dernière version {{version}}"
+  },
+  "local_ai_local_llm_label_loading_local_runtime": {
+    "message": "Chargement de l'environnement d'exécution local…"
+  },
+  "local_ai_local_llm_label_model_value": {
+    "message": "Modèle : {{model}}"
+  },
+  "local_ai_local_llm_label_phi_mirror": {
+    "message": "Miroir Phi"
+  },
+  "local_ai_local_llm_label_runtime": {
+    "message": "Environnement d'exécution"
+  },
+  "local_ai_local_llm_label_source_name": {
+    "message": "Source : {{source}}"
+  },
+  "local_ai_local_llm_label_source_with_detail": {
+    "message": "Source : {{source}} · {{detail}}"
+  },
+  "local_ai_local_llm_label_step_progress": {
+    "message": "Étape {{current}} sur {{total}}"
+  },
+  "local_ai_local_llm_label_the_chat_memory_model": {
+    "message": "le modèle de Chat et de Mémoire"
+  },
+  "local_ai_local_llm_label_the_data_search_model": {
+    "message": "le modèle de recherche dans les données connectées"
+  },
+  "local_ai_local_llm_label_the_local_runtime": {
+    "message": "l'environnement d'exécution LLM local"
+  },
+  "local_ai_local_llm_label_the_memory_model": {
+    "message": "le modèle de Mémoire"
+  },
+  "local_ai_local_llm_label_version": {
+    "message": "Version {{version}}"
+  },
+  "local_ai_local_llm_label_version_with_update": {
+    "message": "Version {{installedVersion}} · {{availableVersion}} disponible"
+  },
+  "local_ai_local_llm_status_cancelling": {
+    "message": "Annulation"
+  },
+  "local_ai_local_llm_status_checking": {
+    "message": "Vérification"
+  },
+  "local_ai_local_llm_status_complete": {
+    "message": "Terminé"
+  },
+  "local_ai_local_llm_status_configured": {
+    "message": "Configuré"
+  },
+  "local_ai_local_llm_status_in_progress": {
+    "message": "En cours"
+  },
+  "local_ai_local_llm_status_installed": {
+    "message": "Installé"
+  },
+  "local_ai_local_llm_status_installing": {
+    "message": "Installation"
+  },
+  "local_ai_local_llm_status_needs_attention": {
+    "message": "Attention requise"
+  },
+  "local_ai_local_llm_status_not_installed": {
+    "message": "Non installé"
+  },
+  "local_ai_local_llm_status_not_set_up": {
+    "message": "Non configuré"
+  },
+  "local_ai_local_llm_status_ready": {
+    "message": "Prêt"
+  },
+  "local_ai_local_llm_status_starting": {
+    "message": "Démarrage"
+  },
+  "local_ai_local_llm_status_update_available": {
+    "message": "Mise à jour disponible"
+  },
+  "local_ai_local_llm_status_waiting": {
+    "message": "En attente"
+  },
+  "local_ai_local_llm_title_cancelling_setup": {
+    "message": "Annulation de la configuration"
+  },
+  "local_ai_local_llm_title_chat_and_memory_model": {
+    "message": "Modèle Chat et Mémoire"
+  },
+  "local_ai_local_llm_title_choose_download_source": {
+    "message": "Choisir la source de téléchargement"
+  },
+  "local_ai_local_llm_title_data_search_model": {
+    "message": "Modèle de recherche de données"
+  },
+  "local_ai_local_llm_title_download_source": {
+    "message": "Source de téléchargement"
+  },
+  "local_ai_local_llm_title_install_chat_memory_model": {
+    "message": "Installer le modèle Chat et Mémoire"
+  },
+  "local_ai_local_llm_title_install_data_search_model": {
+    "message": "Installer le modèle de recherche dans les données connectées"
+  },
+  "local_ai_local_llm_title_install_memory_model": {
+    "message": "Installer le modèle Mémoire"
+  },
+  "local_ai_local_llm_title_local_ai": {
+    "message": "IA locale"
+  },
+  "local_ai_local_llm_title_local_aiready": {
+    "message": "L'IA locale est prête"
+  },
+  "local_ai_local_llm_title_local_aiservices_are_installed": {
+    "message": "Les services d'IA locale sont installés"
+  },
+  "local_ai_local_llm_title_local_aisetup_needs_space": {
+    "message": "La configuration de l'IA locale nécessite de l'espace libre"
+  },
+  "local_ai_local_llm_title_local_llm_runtime": {
+    "message": "Environnement d'exécution LLM local"
+  },
+  "local_ai_local_llm_title_memory_model": {
+    "message": "Modèle Mémoire"
+  },
+  "local_ai_local_llm_title_preparing_local_aisetup": {
+    "message": "Préparation de la configuration de l'IA locale"
+  },
+  "local_ai_local_llm_title_preparing_setup": {
+    "message": "Préparation de la configuration"
+  },
+  "local_ai_local_llm_title_sentinel_local_aiis_ready": {
+    "message": "L'IA locale de Sentinel est prête"
+  },
+  "local_ai_local_llm_title_starting_local_aisetup": {
+    "message": "Démarrage de la configuration de l'IA locale"
+  },
+  "local_ai_local_llm_title_starting_sentinel_local_ai": {
+    "message": "Démarrage de l'IA locale de Sentinel"
+  },
+  "local_ai_local_llm_title_step_needed": {
+    "message": "{{step}} nécessaire"
+  },
+  "local_ai_local_llm_title_step_needs_attention": {
+    "message": "{{step}} requiert votre attention"
+  },
+  "local_ai_local_llm_tooltip_chat": {
+    "message": "Chat"
+  },
+  "local_ai_local_llm_tooltip_connected_data_search": {
+    "message": "Recherche dans les données connectées"
+  },
+  "local_ai_local_llm_tooltip_local_aisetup_needs_attention": {
+    "message": "La configuration de l'IA locale requiert votre attention"
+  },
+  "local_ai_local_llm_tooltip_memory": {
+    "message": "Mémoire"
+  },
+  "local_ai_local_llm_tooltip_runtime_update_available": {
+    "message": "Mise à jour du environnement d'exécution disponible"
+  },
+  "local_ai_local_llm_tooltip_view_logs": {
+    "message": "Afficher les journaux"
+  },
+  "local_ai_models_accessible_label_cancel_model_download": {
+    "message": "Annuler le téléchargement du modèle"
+  },
+  "local_ai_models_accessible_label_delete_model": {
+    "message": "Supprimer {{model}}"
+  },
+  "local_ai_models_accessible_label_download_progress": {
+    "message": "Progression du téléchargement"
+  },
+  "local_ai_models_accessible_label_hugging_face_model_url": {
+    "message": "URL du modèle Hugging Face"
+  },
+  "local_ai_models_accessible_label_installed_models": {
+    "message": "Modèles installés"
+  },
+  "local_ai_models_action_delete_model": {
+    "message": "Supprimer le modèle"
+  },
+  "local_ai_models_action_download": {
+    "message": "Télécharger"
+  },
+  "local_ai_models_action_download_from_hugging_face": {
+    "message": "Télécharger depuis Hugging Face"
+  },
+  "local_ai_models_action_retry_from_phi_mirror": {
+    "message": "Réessayer depuis le miroir Phi"
+  },
+  "local_ai_models_description_in_use_before_deleting": {
+    "message": "Utilisé par {{roles}}. Désactivez ou réattribuez ce(s) rôle(s) avant de supprimer."
+  },
+  "local_ai_models_description_install_failed": {
+    "message": "Échec de l'installation."
+  },
+  "local_ai_models_description_model_already_installed": {
+    "message": "Ce modèle est déjà installé."
+  },
+  "local_ai_models_description_paste_supported_hugging_face_url": {
+    "message": "Collez l'URL Hugging Face de l'un des modèles pris en charge."
+  },
+  "local_ai_models_description_unsupported_hugging_face_model": {
+    "message": "Ce modèle Hugging Face n'est pas pris en charge ici."
+  },
+  "local_ai_models_label_any_role": {
+    "message": "tout rôle"
+  },
+  "local_ai_models_label_availability_summary": {
+    "message": "Installés : {{installed}} · Disponibles : {{available}}"
+  },
+  "local_ai_models_label_download_source_with_phase": {
+    "message": "{{phase}} · Source : {{source}}{{detail}}"
+  },
+  "local_ai_models_label_for_roles": {
+    "message": "Pour {{roles}}"
+  },
+  "local_ai_models_label_no_models_in_catalog": {
+    "message": "Aucun modèle dans le catalogue."
+  },
+  "local_ai_models_label_recommended": {
+    "message": "recommandé"
+  },
+  "local_ai_models_label_saved_for_roles": {
+    "message": "Enregistré pour {{roles}}"
+  },
+  "local_ai_models_label_soon": {
+    "message": "bientôt"
+  },
+  "local_ai_models_label_starting_download": {
+    "message": "Démarrage du téléchargement"
+  },
+  "local_ai_models_label_time_left": {
+    "message": "Il reste {{duration}}"
+  },
+  "local_ai_models_label_used_by_roles": {
+    "message": "Utilisé par {{roles}}"
+  },
+  "local_ai_models_placeholder_model_url": {
+    "message": "Collez l'URL d'un modèle Hugging Face pris en charge"
+  },
+  "local_ai_models_status_downloading": {
+    "message": "Téléchargement"
+  },
+  "local_ai_models_status_extracting": {
+    "message": "Extraction"
+  },
+  "local_ai_models_status_install_runtime_first": {
+    "message": "Installez d'abord l'environnement d'exécution"
+  },
+  "local_ai_models_status_queued": {
+    "message": "En file d'attente"
+  },
+  "local_ai_models_status_runtime_installing": {
+    "message": "Installation du environnement d'exécution…"
+  },
+  "local_ai_models_status_verifying": {
+    "message": "Vérification"
+  },
+  "local_ai_models_title_models": {
+    "message": "Modèles"
+  },
+  "local_ai_provider_detail_accessible_label_allow_model": {
+    "message": "Autoriser le modèle {{model}}"
+  },
+  "local_ai_provider_detail_accessible_label_connect_codex": {
+    "message": "Connecter Codex"
+  },
+  "local_ai_provider_detail_accessible_label_disconnect_codex": {
+    "message": "Déconnecter Codex"
+  },
+  "local_ai_provider_detail_accessible_label_enabled_models_to_test": {
+    "message": "Modèles activés à tester"
+  },
+  "local_ai_provider_detail_accessible_label_reasoning_effort": {
+    "message": "Effort de raisonnement pour {{model}}"
+  },
+  "local_ai_provider_detail_action_add_provider": {
+    "message": "Ajouter un fournisseur"
+  },
+  "local_ai_provider_detail_action_advanced": {
+    "message": "Avancé"
+  },
+  "local_ai_provider_detail_action_confirm_account": {
+    "message": "Confirmer le compte"
+  },
+  "local_ai_provider_detail_action_connect": {
+    "message": "Connecter"
+  },
+  "local_ai_provider_detail_action_details": {
+    "message": "Détails"
+  },
+  "local_ai_provider_detail_action_disconnect": {
+    "message": "Déconnecter"
+  },
+  "local_ai_provider_detail_action_enable_provider": {
+    "message": "Activer le fournisseur"
+  },
+  "local_ai_provider_detail_action_load": {
+    "message": "Charger"
+  },
+  "local_ai_provider_detail_action_raw_list": {
+    "message": "Liste brute"
+  },
+  "local_ai_provider_detail_action_remove_provider": {
+    "message": "Supprimer le fournisseur"
+  },
+  "local_ai_provider_detail_action_retest": {
+    "message": "Retester"
+  },
+  "local_ai_provider_detail_description_all_provider_models_available": {
+    "message": "Tous les modèles de ce fournisseur sont disponibles."
+  },
+  "local_ai_provider_detail_description_codex_account_changed": {
+    "message": "La connexion Codex a changé. Les requêtes sont suspendues jusqu'à ce que vous confirmiez le nouveau compte."
+  },
+  "local_ai_provider_detail_description_codex_catalog_origin": {
+    "message": "Chargés depuis le catalogue de modèles Codex."
+  },
+  "local_ai_provider_detail_description_codex_disconnect_blocked": {
+    "message": "{{tasks}} {{verb}} encore Codex. Réattribuez-{{pronoun}} avant de déconnecter."
+  },
+  "local_ai_provider_detail_description_codex_keychain_unsupported": {
+    "message": "Cette connexion Codex est stockée dans le trousseau d'accès, que Sentinel ne lit pas."
+  },
+  "local_ai_provider_detail_description_codex_login_not_found": {
+    "message": "Codex est installé, mais aucune connexion basée sur un fichier n'a été trouvée."
+  },
+  "local_ai_provider_detail_description_codex_login_reuse": {
+    "message": "Sentinel réutilise la connexion déjà gérée par Codex. « Connecter » la vérifie avec une seule requête minimale. Si aucune connexion n'est détectée, exécutez"
+  },
+  "local_ai_provider_detail_description_codex_models_available": {
+    "message": "{{count}} modèle(s) compatible(s) disponible(s) via la passerelle IA locale."
+  },
+  "local_ai_provider_detail_description_codex_needs_attention": {
+    "message": "La dernière vérification de connexion a échoué. Les routes existantes restent attribuées et ne basculent pas automatiquement."
+  },
+  "local_ai_provider_detail_description_codex_ready": {
+    "message": "Connexion Codex détectée. Prêt à connecter sans copier vos identifiants."
+  },
+  "local_ai_provider_detail_description_custom_provider_compatibility": {
+    "message": "Ajoutez un autre service compatible OpenAI. Les services locaux peuvent se rabattre sur Chat Completions lorsque Responses n'est pas disponible."
+  },
+  "local_ai_provider_detail_description_endpoint_with_models": {
+    "message": "{{endpoint}} · {{count}} modèle(s)"
+  },
+  "local_ai_provider_detail_description_install_codex": {
+    "message": "Installez Codex sur ce Mac pour utiliser un abonnement Codex."
+  },
+  "local_ai_provider_detail_description_local_models_ready": {
+    "message": "{{count}} modèle(s) prêt(s) en local."
+  },
+  "local_ai_provider_detail_description_model_test_failed": {
+    "message": "Échec de {{model}} : {{error}}"
+  },
+  "local_ai_provider_detail_description_model_test_succeeded": {
+    "message": "Connexion réussie : {{model}} · {{latency}} ms"
+  },
+  "local_ai_provider_detail_description_probe_succeeded": {
+    "message": "Modèles : {{count}} · {{latency}} ms"
+  },
+  "local_ai_provider_detail_description_provider_apple_foundation": {
+    "message": "Modèles Apple Intelligence sur l'appareil, fournis par macOS."
+  },
+  "local_ai_provider_detail_description_provider_codex": {
+    "message": "Réutilise l'abonnement ChatGPT déjà connecté via Codex."
+  },
+  "local_ai_provider_detail_description_provider_custom": {
+    "message": "Tout point de terminaison compatible OpenAI."
+  },
+  "local_ai_provider_detail_description_provider_lm_studio": {
+    "message": "Serveur LM Studio local compatible OpenAI."
+  },
+  "local_ai_provider_detail_description_provider_local_llm": {
+    "message": "Modèles téléchargés et servis par l'environnement d'exécution LLM local de Sentinel."
+  },
+  "local_ai_provider_detail_description_provider_ollama": {
+    "message": "Modèles Ollama locaux sur ce Mac ou votre réseau local."
+  },
+  "local_ai_provider_detail_description_provider_open_ai": {
+    "message": "Modèles OpenAI, y compris les familles GPT et de raisonnement."
+  },
+  "local_ai_provider_detail_description_provider_open_router": {
+    "message": "Accédez à des centaines de modèles d'IA via l'API unifiée d'OpenRouter."
+  },
+  "local_ai_provider_detail_description_provider_phi": {
+    "message": "Fournisseur Phi intégré qui utilise votre connexion Sentinel."
+  },
+  "local_ai_provider_detail_description_set_up_local_ai": {
+    "message": "Configurez l'IA locale pour utiliser des modèles sur ce Mac."
+  },
+  "local_ai_provider_detail_description_testing_model": {
+    "message": "Test de {{model}}…"
+  },
+  "local_ai_provider_detail_description_uses_apple_intelligence": {
+    "message": "Utilise Apple Intelligence sur ce Mac lorsqu'elle est disponible."
+  },
+  "local_ai_provider_detail_description_uses_sentinel_sign_in": {
+    "message": "Utilise la connexion Sentinel. Aucune clé API requise."
+  },
+  "local_ai_provider_detail_field_label_base_url": {
+    "message": "URL de base"
+  },
+  "local_ai_provider_detail_field_label_gateway_model": {
+    "message": "Modèle de passerelle"
+  },
+  "local_ai_provider_detail_field_label_gateway_models": {
+    "message": "Modèles de passerelle"
+  },
+  "local_ai_provider_detail_field_label_provider_id": {
+    "message": "ID du fournisseur"
+  },
+  "local_ai_provider_detail_label_allowed_endpoint_networks": {
+    "message": "Les points de terminaison locaux et de réseau privé sont autorisés."
+  },
+  "local_ai_provider_detail_label_apikey": {
+    "message": "Clé API"
+  },
+  "local_ai_provider_detail_label_apple_intelligence_management": {
+    "message": "Apple Intelligence est gérée automatiquement par macOS pour l'organisation des onglets par l'IA."
+  },
+  "local_ai_provider_detail_label_built_in": {
+    "message": "Intégré"
+  },
+  "local_ai_provider_detail_label_cloud_providers_must_use_https": {
+    "message": "Les fournisseurs cloud doivent utiliser HTTPS."
+  },
+  "local_ai_provider_detail_label_cloud_scope": {
+    "message": "Cloud"
+  },
+  "local_ai_provider_detail_label_codex": {
+    "message": "~/.codex"
+  },
+  "local_ai_provider_detail_label_codex_home_optional_hint": {
+    "message": "Laissez vide pour utiliser le répertoire Codex par défaut."
+  },
+  "local_ai_provider_detail_label_codex_login": {
+    "message": "codex login"
+  },
+  "local_ai_provider_detail_label_default_effort": {
+    "message": "Par défaut ({{effort}})"
+  },
+  "local_ai_provider_detail_label_legacy_endpoint": {
+    "message": "Point de terminaison hérité"
+  },
+  "local_ai_provider_detail_label_loading_models": {
+    "message": "Chargement des modèles…"
+  },
+  "local_ai_provider_detail_label_local_endpoint": {
+    "message": "Point de terminaison local"
+  },
+  "local_ai_provider_detail_label_local_runtime": {
+    "message": "Environnement d'exécution local"
+  },
+  "local_ai_provider_detail_label_local_scope": {
+    "message": "Local"
+  },
+  "local_ai_provider_detail_label_model_count": {
+    "message": "{{count}} modèle(s)"
+  },
+  "local_ai_provider_detail_label_model_default": {
+    "message": "Valeur par défaut du modèle"
+  },
+  "local_ai_provider_detail_label_no_enabled_models_match": {
+    "message": "Aucun modèle activé ne correspond."
+  },
+  "local_ai_provider_detail_label_on_device": {
+    "message": "Sur l'appareil"
+  },
+  "local_ai_provider_detail_label_open_aicompatible": {
+    "message": "Compatible OpenAI"
+  },
+  "local_ai_provider_detail_label_optional": {
+    "message": "(facultatif)"
+  },
+  "local_ai_provider_detail_label_phi_cloud_authentication": {
+    "message": "Phi Cloud est inclus avec Sentinel et utilise votre connexion Phi Browser. Aucune clé API n'est requise."
+  },
+  "local_ai_provider_detail_label_post_setup_model_configuration": {
+    "message": "Les modèles seront configurables après l'ajout du fournisseur."
+  },
+  "local_ai_provider_detail_label_provider_model_enablement_guidance": {
+    "message": "Chargez les modèles de ce fournisseur, puis activez ceux que Sentinel peut utiliser."
+  },
+  "local_ai_provider_detail_label_provider_name": {
+    "message": "Nom du fournisseur"
+  },
+  "local_ai_provider_detail_label_raw_model_whitelist": {
+    "message": "Liste blanche brute de modèles"
+  },
+  "local_ai_provider_detail_label_reasoning_effort": {
+    "message": "Effort de raisonnement"
+  },
+  "local_ai_provider_detail_label_scope": {
+    "message": "Portée"
+  },
+  "local_ai_provider_detail_label_sign_in": {
+    "message": "Connexion"
+  },
+  "local_ai_provider_detail_label_system_default": {
+    "message": "Par défaut du système"
+  },
+  "local_ai_provider_detail_label_test": {
+    "message": "Test"
+  },
+  "local_ai_provider_detail_label_text": {
+    "message": "Texte"
+  },
+  "local_ai_provider_detail_label_text_image": {
+    "message": "Texte + image"
+  },
+  "local_ai_provider_detail_placeholder_api_key": {
+    "message": "Clé API"
+  },
+  "local_ai_provider_detail_placeholder_auth0_token": {
+    "message": "Jeton Auth0"
+  },
+  "local_ai_provider_detail_placeholder_my_custom_provider": {
+    "message": "Mon fournisseur personnalisé"
+  },
+  "local_ai_provider_detail_placeholder_not_required": {
+    "message": "Non requise"
+  },
+  "local_ai_provider_detail_placeholder_optional_api_key": {
+    "message": "Clé API facultative"
+  },
+  "local_ai_provider_detail_placeholder_provider_model_allowlist": {
+    "message": "Laissez vide pour autoriser tous les modèles du fournisseur"
+  },
+  "local_ai_provider_detail_placeholder_search_models": {
+    "message": "Rechercher des modèles…"
+  },
+  "local_ai_provider_detail_placeholder_select_enabled_model_to_test": {
+    "message": "Sélectionner un modèle activé à tester"
+  },
+  "local_ai_provider_detail_placeholder_shared_codex_login": {
+    "message": "Connexion Codex partagée"
+  },
+  "local_ai_provider_detail_status_available": {
+    "message": "Disponible"
+  },
+  "local_ai_provider_detail_status_confirmation_required": {
+    "message": "Confirmation requise"
+  },
+  "local_ai_provider_detail_status_endpoint_not_set": {
+    "message": "Point de terminaison non défini"
+  },
+  "local_ai_provider_detail_status_file_login_required": {
+    "message": "Connexion basée sur un fichier requise"
+  },
+  "local_ai_provider_detail_status_inactive": {
+    "message": "Inactif"
+  },
+  "local_ai_provider_detail_status_not_installed": {
+    "message": "Non installé"
+  },
+  "local_ai_provider_detail_status_not_ready": {
+    "message": "Pas prêt"
+  },
+  "local_ai_provider_detail_status_sign_in_required": {
+    "message": "Connexion requise"
+  },
+  "local_ai_provider_detail_title_available_models": {
+    "message": "Modèles disponibles"
+  },
+  "local_ai_provider_detail_title_codex": {
+    "message": "Codex"
+  },
+  "local_ai_role_logs_description_loading": {
+    "message": "Chargement…"
+  },
+  "local_ai_role_logs_description_no_logs_yet_for_role": {
+    "message": "Aucun journal pour {{role}} pour le moment."
+  },
+  "local_ai_role_logs_description_troubleshooting_logs": {
+    "message": "Journaux récents du service d'IA locale pour le dépannage."
+  },
+  "local_ai_role_logs_label_line_count": {
+    "message": "{{count}} ligne(s){{truncated}}"
+  },
+  "local_ai_role_logs_label_tail": {
+    "message": "Dernières lignes :"
+  },
+  "local_ai_role_logs_title_role_logs": {
+    "message": "Journaux du rôle {{role}}"
+  },
+  "local_ai_role_row_accessible_label_cancel_source_choice": {
+    "message": "Annuler le choix de la source"
+  },
+  "local_ai_role_row_accessible_label_download_from_hugging_face": {
+    "message": "Télécharger {{model}} depuis Hugging Face"
+  },
+  "local_ai_role_row_accessible_label_download_from_phi_mirror": {
+    "message": "Télécharger {{model}} depuis le miroir Phi"
+  },
+  "local_ai_role_row_accessible_label_enable_role": {
+    "message": "Activer le rôle {{role}}"
+  },
+  "local_ai_role_row_accessible_label_select_role_model": {
+    "message": "Sélectionner le modèle du rôle {{role}}"
+  },
+  "local_ai_role_row_action_choose_source": {
+    "message": "Choisir la source"
+  },
+  "local_ai_role_row_description_chat": {
+    "message": "Assistant interactif"
+  },
+  "local_ai_role_row_description_choose_download_source_for_role": {
+    "message": "Choisissez une source de téléchargement avant de l'attribuer à {{role}}."
+  },
+  "local_ai_role_row_description_connector_indexing": {
+    "message": "Index de recherche pour les applications connectées comme Notion"
+  },
+  "local_ai_role_row_description_failed_to_start": {
+    "message": "Échec du démarrage de {{role}} · {{error}}"
+  },
+  "local_ai_role_row_description_memory": {
+    "message": "Résumés et étiquetage"
+  },
+  "local_ai_role_row_label_chat": {
+    "message": "Chat"
+  },
+  "local_ai_role_row_label_connector_indexing": {
+    "message": "Indexation des connecteurs"
+  },
+  "local_ai_role_row_label_downloading": {
+    "message": "Téléchargement en cours"
+  },
+  "local_ai_role_row_label_memory": {
+    "message": "Mémoire"
+  },
+  "local_ai_role_row_label_model": {
+    "message": "Modèle"
+  },
+  "local_ai_role_row_label_off": {
+    "message": "Désactivé"
+  },
+  "local_ai_role_row_label_on": {
+    "message": "Activé"
+  },
+  "local_ai_role_row_label_pick_amodel_first": {
+    "message": "Choisissez d'abord un modèle"
+  },
+  "local_ai_role_row_placeholder_no_model": {
+    "message": "Aucun modèle"
+  },
+  "local_ai_role_row_status_downloading": {
+    "message": "Téléchargement…"
+  },
+  "local_ai_role_row_status_downloading_percent": {
+    "message": "Téléchargement {{percent}} %"
+  },
+  "local_ai_role_row_status_install_runtime_first": {
+    "message": "Installez d'abord l'environnement d'exécution"
+  },
+  "local_ai_role_row_status_installed": {
+    "message": "Installé"
+  },
+  "local_ai_role_row_status_runtime_installing": {
+    "message": "Installation de l'environnement d'exécution"
+  },
+  "local_ai_role_row_tooltip_download_anonymously_from_hugging_face": {
+    "message": "Télécharger anonymement depuis Hugging Face"
+  },
+  "logs_action_downloading": {
+    "message": "Téléchargement…"
+  },
+  "logs_action_jump_to_bottom": {
+    "message": "Aller en bas"
+  },
+  "logs_description_line_count_all_loaded": {
+    "message": "Nombre total de lignes : {{count}} (toutes chargées)"
+  },
+  "logs_description_line_count_with_more_history": {
+    "message": "Nombre total de lignes : {{count}} (affichage des {{loaded}} dernières, faites défiler vers le haut pour en voir plus)"
+  },
+  "logs_description_overview": {
+    "message": "Consultez les journaux d'application de Phi Sentinel et du service d'arrière-plan"
+  },
+  "logs_description_select_which_logs_to_download": {
+    "message": "Sélectionnez les journaux à télécharger"
+  },
+  "logs_label_download_options": {
+    "message": "Options de téléchargement"
+  },
+  "logs_label_empty": {
+    "message": "(vide)"
+  },
+  "logs_label_full_logs": {
+    "message": "Journaux complets"
+  },
+  "logs_label_last_lines": {
+    "message": "1000 dernières lignes"
+  },
+  "logs_label_line_count": {
+    "message": "Lignes : {{count}}"
+  },
+  "logs_label_loading_history": {
+    "message": "Chargement de l'historique…"
+  },
+  "logs_label_log_sources": {
+    "message": "Sources des journaux"
+  },
+  "logs_label_may_be_large": {
+    "message": "(peut être volumineux)"
+  },
+  "logs_label_no_logs_available": {
+    "message": "Aucun journal disponible"
+  },
+  "logs_label_recommended": {
+    "message": "(recommandé)"
+  },
+  "logs_label_standard_error": {
+    "message": "stderr"
+  },
+  "logs_label_standard_output": {
+    "message": "stdout"
+  },
+  "logs_title_download_logs": {
+    "message": "Télécharger les journaux"
+  },
+  "logs_title_system_logs": {
+    "message": "Journaux système"
+  },
+  "logs_tooltip_copy_logs_to_clipboard": {
+    "message": "Copier les journaux dans le presse-papiers"
+  },
+  "main_menu_application_quit": {
+    "message": "Quitter Phi Sentinel"
+  },
+  "main_menu_edit_copy": {
+    "message": "Copier"
+  },
+  "main_menu_edit_cut": {
+    "message": "Couper"
+  },
+  "main_menu_edit_paste": {
+    "message": "Coller"
+  },
+  "main_menu_edit_redo": {
+    "message": "Rétablir"
+  },
+  "main_menu_edit_select_all": {
+    "message": "Tout sélectionner"
+  },
+  "main_menu_edit_title": {
+    "message": "Édition"
+  },
+  "main_menu_edit_undo": {
+    "message": "Annuler"
+  },
+  "main_menu_window_close": {
+    "message": "Fermer"
+  },
+  "main_menu_window_enter_full_screen": {
+    "message": "Activer le mode plein écran"
+  },
+  "main_menu_window_minimize": {
+    "message": "Placer dans le Dock"
+  },
+  "main_menu_window_title": {
+    "message": "Fenêtre"
+  },
+  "menu_bar_about_title": {
+    "message": "À propos de Phi Sentinel"
+  },
+  "menu_bar_dashboard_title": {
+    "message": "Tableau de bord"
+  },
+  "menu_bar_quit_title": {
+    "message": "Quitter"
+  },
+  "menu_bar_runner_accessibility_failed": {
+    "message": "Échec"
+  },
+  "menu_bar_runner_accessibility_offline": {
+    "message": "Hors ligne"
+  },
+  "menu_bar_runner_accessibility_online": {
+    "message": "En ligne"
+  },
+  "menu_bar_runner_accessibility_starting": {
+    "message": "Démarrage"
+  },
+  "menu_bar_runner_accessibility_waiting_for_login": {
+    "message": "En attente de connexion"
+  },
+  "menu_bar_runner_failed": {
+    "message": "Service d'arrière-plan : échec (limite de redémarrages atteinte)"
+  },
+  "menu_bar_runner_offline": {
+    "message": "Service d'arrière-plan : hors ligne"
+  },
+  "menu_bar_runner_online": {
+    "message": "Service d'arrière-plan : en ligne"
+  },
+  "menu_bar_runner_starting": {
+    "message": "Service d'arrière-plan : démarrage…"
+  },
+  "menu_bar_runner_uninstalling": {
+    "message": "Désinstallation…"
+  },
+  "menu_bar_runner_waiting_for_login": {
+    "message": "Veuillez vous connecter à Phi Browser"
+  },
+  "menu_bar_uninstall_title": {
+    "message": "Désinstaller Phi…"
+  },
+  "nav_history": {
+    "message": "Historique"
+  },
+  "nav_jobs": {
+    "message": "Jobs"
+  },
+  "nav_knowledge": {
+    "message": "Connaissances"
+  },
+  "nav_overview": {
+    "message": "Vue d'ensemble"
+  },
+  "nav_permissions": {
+    "message": "Autorisations"
+  },
+  "nav_services": {
+    "message": "Services"
+  },
+  "nav_settings": {
+    "message": "Paramètres"
+  },
+  "nav_updates": {
+    "message": "Mises à jour"
+  },
+  "notifications_ai_gateway_codex_account_confirmed": {
+    "message": "Compte Codex confirmé."
+  },
+  "notifications_ai_gateway_codex_action_failed": {
+    "message": "Échec de l'action Codex"
+  },
+  "notifications_ai_gateway_codex_connected": {
+    "message": "Codex connecté."
+  },
+  "notifications_ai_gateway_codex_connection_verified": {
+    "message": "Connexion Codex vérifiée."
+  },
+  "notifications_ai_gateway_codex_disconnected": {
+    "message": "Codex déconnecté."
+  },
+  "notifications_ai_gateway_config_clear_failed": {
+    "message": "Échec de l'effacement de la configuration de la passerelle IA"
+  },
+  "notifications_ai_gateway_config_cleared": {
+    "message": "Configuration de la passerelle IA effacée."
+  },
+  "notifications_ai_gateway_config_save_failed": {
+    "message": "Échec de l'enregistrement de la configuration de la passerelle IA"
+  },
+  "notifications_ai_gateway_config_saved": {
+    "message": "Configuration de la passerelle IA enregistrée."
+  },
+  "notifications_ai_gateway_model_test_failed": {
+    "message": "Échec du test du modèle"
+  },
+  "notifications_ai_gateway_provider_test_failed": {
+    "message": "Échec du test du fournisseur"
+  },
+  "notifications_ai_gateway_update_failed": {
+    "message": "Échec de la mise à jour de la passerelle IA"
+  },
+  "notifications_app_debug_mode_off": {
+    "message": "Mode débogage désactivé"
+  },
+  "notifications_app_debug_mode_on": {
+    "message": "Mode débogage activé"
+  },
+  "notifications_backup_clonefile_unavailable": {
+    "message": "clonefile indisponible"
+  },
+  "notifications_backup_export_start_failed": {
+    "message": "Échec du démarrage de l'exportation"
+  },
+  "notifications_backup_restore_failed": {
+    "message": "Échec de la restauration"
+  },
+  "notifications_backup_restore_reverted": {
+    "message": "Restauration annulée, retour à l'état précédent"
+  },
+  "notifications_backup_snapshot_created": {
+    "message": "Instantané créé"
+  },
+  "notifications_backup_snapshot_failed": {
+    "message": "Échec de la création de l'instantané"
+  },
+  "notifications_backup_snapshot_restored": {
+    "message": "Instantané restauré"
+  },
+  "notifications_backup_snapshot_skipped": {
+    "message": "Instantané ignoré"
+  },
+  "notifications_jobs_create_failed": {
+    "message": "Échec de la création du job"
+  },
+  "notifications_jobs_created": {
+    "message": "Job créé"
+  },
+  "notifications_jobs_job_id": {
+    "message": "ID du job : {{id}}"
+  },
+  "notifications_jobs_remove_failed": {
+    "message": "Échec de la suppression du job"
+  },
+  "notifications_jobs_removed": {
+    "message": "Job supprimé"
+  },
+  "notifications_jobs_run_enqueued": {
+    "message": "Exécution du job mise en file d'attente"
+  },
+  "notifications_jobs_run_failed": {
+    "message": "Échec de l'exécution du job"
+  },
+  "notifications_jobs_run_not_enqueued": {
+    "message": "Exécution du job non mise en file d'attente"
+  },
+  "notifications_jobs_update_failed": {
+    "message": "Échec de la mise à jour du job"
+  },
+  "notifications_jobs_updated": {
+    "message": "Job mis à jour"
+  },
+  "notifications_local_llm_data_reset": {
+    "message": "Données du LLM local réinitialisées."
+  },
+  "notifications_local_llm_data_reset_failed": {
+    "message": "Échec de la réinitialisation des données du LLM local"
+  },
+  "notifications_local_llm_download_cancel_failed": {
+    "message": "Échec de l'annulation du téléchargement"
+  },
+  "notifications_local_llm_download_cancelled": {
+    "message": "Téléchargement annulé."
+  },
+  "notifications_local_llm_model_delete_failed": {
+    "message": "Échec de la suppression du modèle"
+  },
+  "notifications_local_llm_model_install_failed": {
+    "message": "Échec de l'installation du modèle"
+  },
+  "notifications_local_llm_model_set_failed": {
+    "message": "Échec de la sélection du modèle"
+  },
+  "notifications_local_llm_role_update_failed": {
+    "message": "Échec de la mise à jour du rôle"
+  },
+  "notifications_local_llm_runtime_install_failed": {
+    "message": "Échec de l'installation de l'environnement d'exécution"
+  },
+  "notifications_local_llm_update_failed": {
+    "message": "Échec de la mise à jour du LLM local"
+  },
+  "notifications_permissions_accessibility_request_failed": {
+    "message": "Échec de la demande d'autorisation d'accessibilité"
+  },
+  "notifications_permissions_directory_access_cancelled": {
+    "message": "Accès au dossier annulé"
+  },
+  "notifications_permissions_directory_access_granted": {
+    "message": "Accès au dossier accordé"
+  },
+  "notifications_permissions_directory_access_request_failed": {
+    "message": "Échec de la demande d'accès au répertoire"
+  },
+  "notifications_permissions_directory_access_revoke_failed": {
+    "message": "Échec de la révocation de l'accès au répertoire"
+  },
+  "notifications_permissions_directory_access_revoked": {
+    "message": "Accès au dossier révoqué"
+  },
+  "notifications_permissions_full_disk_access_request_failed": {
+    "message": "Échec de la demande d'autorisation d'accès complet au disque"
+  },
+  "notifications_permissions_opening_full_disk_access_settings": {
+    "message": "Ouverture des Réglages Système pour l'accès complet au disque"
+  },
+  "notifications_permissions_opening_screen_recording_settings": {
+    "message": "Ouverture des Réglages Système pour l'enregistrement de l'écran"
+  },
+  "notifications_permissions_requesting_accessibility": {
+    "message": "Demande d'autorisation d'accessibilité en cours"
+  },
+  "notifications_permissions_screen_recording_request_failed": {
+    "message": "Échec de la demande d'autorisation d'enregistrement de l'écran"
+  },
+  "notifications_private_ai_disable_failed": {
+    "message": "Impossible de désactiver l'IA privée. Veuillez réessayer."
+  },
+  "notifications_private_ai_gateway_endpoint_copied": {
+    "message": "Point de terminaison de la passerelle IA copié."
+  },
+  "notifications_private_ai_gateway_export_copied": {
+    "message": "Export de la passerelle IA copié."
+  },
+  "notifications_private_ai_model_test_reverted": {
+    "message": "Le test du modèle {{purpose}} a échoué. Retour à la source précédente."
+  },
+  "notifications_private_ai_restart_failed": {
+    "message": "Impossible de redémarrer l'IA locale. Veuillez réessayer."
+  },
+  "notifications_private_ai_settings_reset": {
+    "message": "Paramètres IA réinitialisés."
+  },
+  "notifications_services_no_orphan_processes": {
+    "message": "Aucun processus orphelin trouvé"
+  },
+  "notifications_services_orphan_cleanup_failed": {
+    "message": "Échec du nettoyage des processus orphelins"
+  },
+  "notifications_services_orphan_processes_cleaned": {
+    "message": "{{killed}} processus orphelins nettoyés sur {{found}} trouvés"
+  },
+  "notifications_services_remove_failed": {
+    "message": "Échec de la suppression du service"
+  },
+  "notifications_services_removed": {
+    "message": "{{component}} supprimé"
+  },
+  "notifications_services_removed_description": {
+    "message": "Le service a été supprimé du système"
+  },
+  "notifications_services_restart_failed": {
+    "message": "Échec du redémarrage du service"
+  },
+  "notifications_services_restarted": {
+    "message": "{{component}} redémarré"
+  },
+  "notifications_services_start_failed": {
+    "message": "Échec du démarrage du service"
+  },
+  "notifications_services_started": {
+    "message": "{{component}} démarré"
+  },
+  "notifications_services_started_components": {
+    "message": "Composants démarrés : {{components}}"
+  },
+  "notifications_services_stop_failed": {
+    "message": "Échec de l'arrêt du service"
+  },
+  "notifications_services_stopped": {
+    "message": "{{component}} arrêté"
+  },
+  "notifications_services_stopped_components": {
+    "message": "Composants arrêtés : {{components}}"
+  },
+  "notifications_settings_track_change_failed": {
+    "message": "Échec du changement de canal de mise à jour"
+  },
+  "notifications_settings_track_changed": {
+    "message": "Canal de mise à jour modifié"
+  },
+  "notifications_settings_track_changed_deferred": {
+    "message": "Canal de mise à jour enregistré ; les composants seront alignés quand le service d'arrière-plan sera disponible"
+  },
+  "notifications_settings_track_changed_reconcile_failed": {
+    "message": "Canal de mise à jour modifié, mais l'alignement des composants a échoué"
+  },
+  "notifications_settings_track_changed_reconciled": {
+    "message": "Canal de mise à jour modifié ; {{count}} composant(s) aligné(s)"
+  },
+  "notifications_settings_track_changed_with_failures": {
+    "message": "Canal de mise à jour modifié avec {{count}} échec(s) de mise à jour de composants"
+  },
+  "notifications_tasks_approval_no_longer_pending": {
+    "message": "L'approbation n'est plus en attente"
+  },
+  "notifications_tasks_approval_submit_failed": {
+    "message": "Échec de l'envoi de la décision d'approbation"
+  },
+  "notifications_tasks_no_active_run": {
+    "message": "Aucune exécution active à annuler"
+  },
+  "notifications_tasks_run_approved": {
+    "message": "Exécution approuvée"
+  },
+  "notifications_tasks_run_cancel_failed": {
+    "message": "Échec de l'annulation de l'exécution"
+  },
+  "notifications_tasks_run_cancelled": {
+    "message": "Exécution annulée"
+  },
+  "notifications_tasks_run_failed": {
+    "message": "Échec du lancement de la tâche"
+  },
+  "notifications_tasks_run_rejected": {
+    "message": "Exécution rejetée"
+  },
+  "notifications_tasks_run_started": {
+    "message": "Exécution démarrée"
+  },
+  "notifications_tasks_schedule_create_partial_failure": {
+    "message": "Tâche créée, mais la création de la planification a échoué"
+  },
+  "notifications_tasks_schedule_delete_failed": {
+    "message": "Échec de la suppression de la planification"
+  },
+  "notifications_tasks_schedule_deleted": {
+    "message": "Planification supprimée"
+  },
+  "notifications_tasks_schedule_pause_failed": {
+    "message": "Échec de la mise en pause de la planification"
+  },
+  "notifications_tasks_schedule_paused": {
+    "message": "Planification mise en pause"
+  },
+  "notifications_tasks_schedule_resume_failed": {
+    "message": "Échec de la reprise de la planification"
+  },
+  "notifications_tasks_schedule_resumed": {
+    "message": "Planification reprise"
+  },
+  "notifications_tasks_schedule_run_failed": {
+    "message": "Échec du lancement immédiat de la planification"
+  },
+  "notifications_tasks_schedule_run_started": {
+    "message": "Exécution de la planification démarrée"
+  },
+  "notifications_tasks_scheduled_task_create_failed": {
+    "message": "Échec de la création de la tâche planifiée"
+  },
+  "notifications_tasks_scheduled_task_created": {
+    "message": "Tâche planifiée créée"
+  },
+  "notifications_tasks_scheduled_task_update_failed": {
+    "message": "Échec de la mise à jour de la tâche planifiée"
+  },
+  "notifications_tasks_scheduled_task_updated": {
+    "message": "Tâche planifiée mise à jour"
+  },
+  "notifications_tasks_settings_update_failed": {
+    "message": "Échec de la mise à jour des paramètres de la tâche"
+  },
+  "notifications_tasks_settings_updated": {
+    "message": "Paramètres de la tâche mis à jour"
+  },
+  "notifications_tasks_task_create_failed": {
+    "message": "Échec de la création de la tâche"
+  },
+  "notifications_tasks_task_created": {
+    "message": "Tâche créée"
+  },
+  "notifications_tasks_task_delete_failed": {
+    "message": "Échec de la suppression de la tâche"
+  },
+  "notifications_tasks_task_deleted": {
+    "message": "Tâche supprimée"
+  },
+  "notifications_tasks_task_update_failed": {
+    "message": "Échec de la mise à jour de la tâche"
+  },
+  "notifications_tasks_task_update_partial_failure": {
+    "message": "Planification mise à jour, mais la mise à jour de la tâche a échoué"
+  },
+  "notifications_tasks_task_updated": {
+    "message": "Tâche mise à jour"
+  },
+  "notifications_unknown_error": {
+    "message": "Erreur inconnue"
+  },
+  "notifications_updates_apply_failed": {
+    "message": "Échec de l'application des mises à jour"
+  },
+  "notifications_updates_failed_components": {
+    "message": "Échec de la mise à jour de {{count}} composant(s)"
+  },
+  "notifications_updates_none_available": {
+    "message": "Aucune mise à jour disponible"
+  },
+  "notifications_updates_updated_components": {
+    "message": "{{count}} composant(s) mis à jour"
+  },
+  "overview_avg_duration": {
+    "message": "Durée moyenne"
+  },
+  "overview_description": {
+    "message": "État du système et activité récente"
+  },
+  "overview_directories": {
+    "message": "Dossiers"
+  },
+  "overview_event_history_coming_soon": {
+    "message": "L'historique des événements sera disponible dans une prochaine mise à jour"
+  },
+  "overview_failed": {
+    "message": "Échecs"
+  },
+  "overview_job_activity": {
+    "message": "Activité des tâches"
+  },
+  "overview_missing": {
+    "message": "Manquantes"
+  },
+  "overview_ok": {
+    "message": "OK"
+  },
+  "overview_permission_alerts": {
+    "message": "Alertes d'autorisations"
+  },
+  "overview_recent_events": {
+    "message": "Événements récents"
+  },
+  "overview_running": {
+    "message": "En cours d'exécution"
+  },
+  "overview_runs_last24h": {
+    "message": "Exécutions sur 24 h"
+  },
+  "overview_service_health": {
+    "message": "État des services"
+  },
+  "overview_stopped": {
+    "message": "Arrêtés"
+  },
+  "overview_title": {
+    "message": "Vue d'ensemble"
+  },
+  "overview_unhealthy": {
+    "message": "Défaillants"
+  },
+  "permissions_accessibility": {
+    "message": "Accessibilité"
+  },
+  "permissions_accessibility_description": {
+    "message": "Nécessaire pour l'automatisation de l'interface et le contrôle de la saisie"
+  },
+  "permissions_add_directory": {
+    "message": "Ajouter un dossier"
+  },
+  "permissions_camera": {
+    "message": "Caméra"
+  },
+  "permissions_camera_description": {
+    "message": "Nécessaire pour les fonctionnalités utilisant la caméra"
+  },
+  "permissions_denied": {
+    "message": "Refusée"
+  },
+  "permissions_description": {
+    "message": "Gérez les autorisations système nécessaires aux services Sentinel"
+  },
+  "permissions_description_permissions_overview": {
+    "message": "Gérez les autorisations système nécessaires aux services Phi Sentinel"
+  },
+  "permissions_directory_access": {
+    "message": "Accès aux dossiers"
+  },
+  "permissions_directory_access_description": {
+    "message": "Accordez l'accès à des dossiers pour l'indexation RAG et les opérations sur les fichiers"
+  },
+  "permissions_full_disk_access": {
+    "message": "Accès complet au disque"
+  },
+  "permissions_full_disk_access_description": {
+    "message": "Nécessaire pour accéder aux fichiers et dossiers protégés"
+  },
+  "permissions_granted": {
+    "message": "Accordée"
+  },
+  "permissions_label_not_determined": {
+    "message": "Non déterminé"
+  },
+  "permissions_microphone": {
+    "message": "Microphone"
+  },
+  "permissions_microphone_description": {
+    "message": "Nécessaire pour les fonctionnalités de saisie vocale"
+  },
+  "permissions_no_directories_description": {
+    "message": "Cliquez sur « Ajouter un dossier » afin d'accorder l'accès à un dossier pour l'indexation RAG"
+  },
+  "permissions_no_directories_granted": {
+    "message": "Aucun dossier autorisé"
+  },
+  "permissions_not_set": {
+    "message": "Non définie"
+  },
+  "permissions_open_settings": {
+    "message": "Ouvrir les réglages"
+  },
+  "permissions_refresh": {
+    "message": "Actualiser"
+  },
+  "permissions_request_permission": {
+    "message": "Demander l'autorisation"
+  },
+  "permissions_restricted": {
+    "message": "Restreinte"
+  },
+  "permissions_screen_recording": {
+    "message": "Enregistrement de l'écran"
+  },
+  "permissions_screen_recording_description": {
+    "message": "Nécessaire pour la capture d'écran et les fonctionnalités d'IA visuelle"
+  },
+  "permissions_system_permissions": {
+    "message": "Autorisations système"
+  },
+  "permissions_title": {
+    "message": "Autorisations"
+  },
+  "private_ai_advanced_console_action_back": {
+    "message": "← Retour"
+  },
+  "private_ai_advanced_console_description_advanced_settings": {
+    "message": "Paramètres avancés"
+  },
+  "private_ai_advanced_console_label_diagnostics": {
+    "message": "Diagnostics"
+  },
+  "private_ai_advanced_console_label_providers": {
+    "message": "Fournisseurs"
+  },
+  "private_ai_advanced_console_label_task_routing": {
+    "message": "Routage des tâches"
+  },
+  "private_ai_advanced_console_title_private_ai": {
+    "message": "IA privée"
+  },
+  "private_ai_diagnostics_accessible_label_refresh_aigateway_export": {
+    "message": "Actualiser l'export de la passerelle IA"
+  },
+  "private_ai_diagnostics_accessible_label_refresh_aigateway_logs": {
+    "message": "Actualiser les journaux de la passerelle IA"
+  },
+  "private_ai_diagnostics_action_copy_export": {
+    "message": "Copier l'export"
+  },
+  "private_ai_diagnostics_action_download_logs": {
+    "message": "Télécharger les journaux"
+  },
+  "private_ai_diagnostics_action_gateway_url": {
+    "message": "URL de la passerelle"
+  },
+  "private_ai_diagnostics_description_connection_export": {
+    "message": "Contrat de connexion destiné aux appelants, exposé via services.getComponentExports."
+  },
+  "private_ai_diagnostics_description_gateway_log_download": {
+    "message": "Journaux complets de la passerelle locale et de Bifrost pour le dépannage."
+  },
+  "private_ai_diagnostics_description_loading_export": {
+    "message": "Chargement de l'export…"
+  },
+  "private_ai_diagnostics_description_loading_logs": {
+    "message": "Chargement des journaux…"
+  },
+  "private_ai_diagnostics_description_logs_and_export": {
+    "message": "Inspectez les journaux de la passerelle locale et le contrat de connexion destiné aux appelants."
+  },
+  "private_ai_diagnostics_description_no_aigateway_export_yet": {
+    "message": "Aucun export de la passerelle IA pour le moment."
+  },
+  "private_ai_diagnostics_description_no_aigateway_logs_yet": {
+    "message": "Aucun journal de la passerelle IA pour le moment."
+  },
+  "private_ai_diagnostics_description_reset_warning": {
+    "message": "Effacer les paramètres des fournisseurs d'IA et supprimer les données de l'IA locale Sentinel de ce Mac."
+  },
+  "private_ai_diagnostics_description_this_will": {
+    "message": "Cette action va :"
+  },
+  "private_ai_diagnostics_label_clear_aiprovider_configuration": {
+    "message": "Effacer la configuration des fournisseurs d'IA"
+  },
+  "private_ai_diagnostics_label_cloud_source_reset": {
+    "message": "Rétablir les sources d'IA sur Phi Cloud"
+  },
+  "private_ai_diagnostics_label_http_auto_v1": {
+    "message": "http://127.0.0.1:<auto>/v1"
+  },
+  "private_ai_diagnostics_label_line_count": {
+    "message": "{{count}} ligne(s){{truncated}}"
+  },
+  "private_ai_diagnostics_label_reset_local_data_scope": {
+    "message": "Supprimer les fichiers de l'environnement d'exécution, les modèles, les journaux et les téléchargements de l'IA locale Sentinel"
+  },
+  "private_ai_diagnostics_label_synthetic_export_ai_gateway": {
+    "message": "Export synthétique : ai-gateway"
+  },
+  "private_ai_diagnostics_label_tail": {
+    "message": "Dernières lignes"
+  },
+  "private_ai_diagnostics_label_truncated": {
+    "message": " (tronqué)"
+  },
+  "private_ai_diagnostics_status_debug": {
+    "message": "Débogage"
+  },
+  "private_ai_diagnostics_title_aigateway_export": {
+    "message": "Export de la passerelle IA"
+  },
+  "private_ai_diagnostics_title_aigateway_logs": {
+    "message": "Journaux de la passerelle IA"
+  },
+  "private_ai_diagnostics_title_gateway_status": {
+    "message": "État de la passerelle"
+  },
+  "private_ai_diagnostics_title_logs_and_export": {
+    "message": "Journaux et export"
+  },
+  "private_ai_diagnostics_title_reset": {
+    "message": "Réinitialiser"
+  },
+  "private_ai_diagnostics_title_reset_aisettings": {
+    "message": "Réinitialiser les paramètres d'IA ?"
+  },
+  "private_ai_private_ai_accessible_label_dismiss_codex_tip": {
+    "message": "Ignorer la suggestion Codex"
+  },
+  "private_ai_private_ai_accessible_label_open_codex_provider_settings": {
+    "message": "Ouvrir les paramètres du fournisseur Codex"
+  },
+  "private_ai_private_ai_action_advanced_settings": {
+    "message": "Paramètres avancés →"
+  },
+  "private_ai_private_ai_action_re_run_setup": {
+    "message": "Relancer la configuration"
+  },
+  "private_ai_private_ai_action_restart_local_service": {
+    "message": "Redémarrer le service local"
+  },
+  "private_ai_private_ai_action_show_details": {
+    "message": "Afficher les détails"
+  },
+  "private_ai_private_ai_description_cloud_only_state": {
+    "message": "Toutes les fonctionnalités d'IA s'exécutent actuellement sur Phi Cloud. Activez l'interrupteur pour configurer l'IA privée."
+  },
+  "private_ai_private_ai_description_hardware_recommendation": {
+    "message": "Fonctionne de manière optimale sur un Mac Apple Silicon avec au moins 16 Go de RAM. La configuration vérifie automatiquement votre appareil."
+  },
+  "private_ai_private_ai_description_overview": {
+    "message": "Exécutez l'IA sur votre Mac ou avec votre propre fournisseur : vos données restent chez vous."
+  },
+  "private_ai_private_ai_description_setup_cloud_fallback": {
+    "message": "Les fonctionnalités d'IA continuent d'utiliser Phi Cloud jusqu'à la fin de la configuration."
+  },
+  "private_ai_private_ai_description_startup_cloud_fallback": {
+    "message": "Préparation de votre IA locale. Les fonctionnalités d'IA utilisent Phi Cloud jusqu'à ce qu'elle soit prête."
+  },
+  "private_ai_private_ai_label_approx_minutes": {
+    "message": "~{{count}} min"
+  },
+  "private_ai_private_ai_label_approx_seconds": {
+    "message": "~{{count}} s"
+  },
+  "private_ai_private_ai_label_codex_is_available": {
+    "message": "Codex est disponible"
+  },
+  "private_ai_private_ai_label_codex_provider_option": {
+    "message": "Utilisez votre connexion Codex existante comme fournisseur d'IA."
+  },
+  "private_ai_private_ai_label_local_runtime": {
+    "message": "Environnement d'exécution local"
+  },
+  "private_ai_private_ai_label_local_source_fallback_notice": {
+    "message": "Une source d'IA locale ne répond pas. Les tâches concernées sont temporairement repassées sur Phi Cloud."
+  },
+  "private_ai_private_ai_label_toggle_private_ai": {
+    "message": "Activer ou désactiver l'IA privée"
+  },
+  "private_ai_private_ai_status_private_aiis_on": {
+    "message": "L'IA privée est activée"
+  },
+  "private_ai_private_ai_status_setting_up": {
+    "message": "Configuration en cours…"
+  },
+  "private_ai_private_ai_status_starting_private_ai": {
+    "message": "Démarrage de l'IA privée…"
+  },
+  "private_ai_private_ai_tooltip_dismiss": {
+    "message": "Ignorer"
+  },
+  "private_ai_providers_action_add_custom_provider": {
+    "message": "Ajouter un fournisseur personnalisé"
+  },
+  "private_ai_providers_description_custom_endpoint": {
+    "message": "Point de terminaison personnalisé compatible OpenAI."
+  },
+  "private_ai_providers_description_legacy_endpoint": {
+    "message": "Point de terminaison compatible d'ancienne génération."
+  },
+  "private_ai_setup_wizard_action_done": {
+    "message": "Terminé"
+  },
+  "private_ai_setup_wizard_action_minimize": {
+    "message": "Réduire"
+  },
+  "private_ai_setup_wizard_action_start_setup": {
+    "message": "Démarrer la configuration"
+  },
+  "private_ai_setup_wizard_action_use_your_own_aiservice": {
+    "message": "Utiliser votre propre service d'IA →"
+  },
+  "private_ai_setup_wizard_description_cloud_only_features": {
+    "message": "Les tâches web et la génération d'images restent sur Phi Cloud."
+  },
+  "private_ai_setup_wizard_description_done_summary": {
+    "message": "Le Chat, la mémoire, l'index des souvenirs et la recherche de données s'exécutent en privé sur ce Mac. Les tâches web et les images utilisent Phi Cloud."
+  },
+  "private_ai_setup_wizard_description_download_and_memory_size": {
+    "message": "Téléchargement de {{downloadSize}} · utilise environ {{memorySize}} de mémoire pendant l'exécution."
+  },
+  "private_ai_setup_wizard_description_private_aiis_on": {
+    "message": "✓ L'IA privée est activée"
+  },
+  "private_ai_setup_wizard_description_setup_failed_during_stage": {
+    "message": "La configuration a échoué pendant {{stage}}."
+  },
+  "private_ai_setup_wizard_field_label_free_disk": {
+    "message": "Espace disque libre"
+  },
+  "private_ai_setup_wizard_label_approx_minutes": {
+    "message": "~{{count}} min"
+  },
+  "private_ai_setup_wizard_label_approx_seconds": {
+    "message": "~{{count}} s"
+  },
+  "private_ai_setup_wizard_label_checking_your_device": {
+    "message": "Vérification de votre appareil…"
+  },
+  "private_ai_setup_wizard_label_text": {
+    "message": "✓"
+  },
+  "private_ai_setup_wizard_label_text2": {
+    "message": "○"
+  },
+  "private_ai_setup_wizard_stage_models": {
+    "message": "Téléchargement des modèles…"
+  },
+  "private_ai_setup_wizard_stage_name_models": {
+    "message": "le téléchargement des modèles"
+  },
+  "private_ai_setup_wizard_stage_name_runtime": {
+    "message": "l'installation de l'environnement d'exécution local"
+  },
+  "private_ai_setup_wizard_stage_name_starting": {
+    "message": "le démarrage des modèles locaux"
+  },
+  "private_ai_setup_wizard_stage_name_verifying": {
+    "message": "la vérification"
+  },
+  "private_ai_setup_wizard_stage_runtime": {
+    "message": "Installation de l'environnement d'exécution local…"
+  },
+  "private_ai_setup_wizard_stage_starting": {
+    "message": "Démarrage des modèles locaux…"
+  },
+  "private_ai_setup_wizard_stage_verifying": {
+    "message": "Vérification…"
+  },
+  "private_ai_setup_wizard_step_models": {
+    "message": "Télécharger les modèles"
+  },
+  "private_ai_setup_wizard_step_runtime": {
+    "message": "Installer l'environnement d'exécution"
+  },
+  "private_ai_setup_wizard_step_starting": {
+    "message": "Démarrer les modèles locaux"
+  },
+  "private_ai_setup_wizard_step_verifying": {
+    "message": "Vérifier"
+  },
+  "private_ai_setup_wizard_title_private_aiunavailable": {
+    "message": "L'IA privée n'est pas disponible sur ce Mac"
+  },
+  "private_ai_setup_wizard_title_run_private_ailocally": {
+    "message": "Exécuter l'IA privée en local sur ce Mac"
+  },
+  "private_ai_setup_wizard_title_set_up_private_ai": {
+    "message": "Configurer l'IA privée"
+  },
+  "private_ai_task_coverage_description_chat": {
+    "message": "Réponses dans le panneau Chat"
+  },
+  "private_ai_task_coverage_description_data_search": {
+    "message": "Recherche dans les données connectées"
+  },
+  "private_ai_task_coverage_description_memory": {
+    "message": "Mémoire de navigation et résumés"
+  },
+  "private_ai_task_coverage_description_web_tasks": {
+    "message": "Automatisation par agent IA"
+  },
+  "private_ai_task_coverage_label_chat": {
+    "message": "Chat"
+  },
+  "private_ai_task_coverage_label_data_search": {
+    "message": "Recherche de données"
+  },
+  "private_ai_task_coverage_label_memory": {
+    "message": "Mémoire"
+  },
+  "private_ai_task_coverage_label_model_on_this_mac": {
+    "message": "{{model}} · Sur ce Mac"
+  },
+  "private_ai_task_coverage_label_web_tasks": {
+    "message": "Tâches web"
+  },
+  "private_ai_task_coverage_label_your_provider": {
+    "message": "{{provider}} · Votre fournisseur"
+  },
+  "private_ai_task_coverage_status_source_unavailable": {
+    "message": "{{source}} · Indisponible"
+  },
+  "private_ai_task_routing_accessible_label_select_task_source": {
+    "message": "Sélectionner la source pour {{task}}"
+  },
+  "private_ai_task_routing_accessible_label_source_checked": {
+    "message": "Source sélectionnée"
+  },
+  "private_ai_task_routing_accessible_label_source_failed": {
+    "message": "Échec de la source : {{error}}"
+  },
+  "private_ai_task_routing_description_automatically_managed_by_mac_os": {
+    "message": "Géré automatiquement par macOS."
+  },
+  "private_ai_task_routing_description_source_assignments": {
+    "message": "Choisissez la source d'IA utilisée par chaque fonctionnalité du navigateur."
+  },
+  "private_ai_task_routing_label_aitab_organization": {
+    "message": "Organisation des onglets par IA"
+  },
+  "private_ai_task_routing_label_cloud_fallback_option": {
+    "message": "Basculer automatiquement vers Phi Cloud (par défaut)"
+  },
+  "private_ai_task_routing_label_local": {
+    "message": "Local"
+  },
+  "private_ai_task_routing_label_no_capability_models": {
+    "message": "Aucun modèle activé pour cette fonctionnalité"
+  },
+  "private_ai_task_routing_label_pause_features_option": {
+    "message": "Suspendre les fonctionnalités d'IA concernées (ne jamais envoyer de données vers le cloud)"
+  },
+  "private_ai_task_routing_label_unavailable_source_policy": {
+    "message": "Lorsqu'une source locale ou auto-hébergée est indisponible"
+  },
+  "private_ai_task_routing_placeholder_phi_cloud": {
+    "message": "Phi Cloud"
+  },
+  "private_ai_task_routing_placeholder_search_task_models": {
+    "message": "Rechercher des modèles pour {{task}}…"
+  },
+  "private_ai_task_routing_status_apple_intelligence_available": {
+    "message": "Apple Intelligence · Disponible"
+  },
+  "private_ai_task_routing_status_apple_intelligence_unavailable": {
+    "message": "Apple Intelligence · Indisponible"
+  },
+  "private_ai_task_routing_title_aitask_routing": {
+    "message": "Routage des tâches IA"
+  },
+  "quit_blocked_alert_message": {
+    "message": "Phi Sentinel ne peut pas quitter tant que Phi Browser est en cours d'exécution. Veuillez d'abord quitter Phi Browser."
+  },
+  "quit_blocked_alert_title": {
+    "message": "Impossible de quitter Phi Sentinel"
+  },
+  "scheduled_task_detail_accessible_label_cancel_current_run": {
+    "message": "Annuler l'exécution en cours"
+  },
+  "scheduled_task_detail_action_cancel_run": {
+    "message": "Annuler l'exécution"
+  },
+  "scheduled_task_detail_action_copy": {
+    "message": "Copier"
+  },
+  "scheduled_task_detail_description_no_result_text_available": {
+    "message": "Aucun texte de résultat disponible."
+  },
+  "scheduled_task_detail_description_no_run_logs": {
+    "message": "Aucun journal renvoyé pour cette exécution."
+  },
+  "scheduled_task_detail_description_no_runs_yet": {
+    "message": "Aucune exécution pour le moment."
+  },
+  "scheduled_task_detail_field_label_approval": {
+    "message": "Approbation"
+  },
+  "scheduled_task_detail_field_label_cadence": {
+    "message": "Fréquence"
+  },
+  "scheduled_task_detail_field_label_last_run": {
+    "message": "Dernière exécution"
+  },
+  "scheduled_task_detail_field_label_last_trigger": {
+    "message": "Dernier déclenchement"
+  },
+  "scheduled_task_detail_field_label_next_run": {
+    "message": "Prochaine exécution"
+  },
+  "scheduled_task_detail_field_label_objective": {
+    "message": "Objectif"
+  },
+  "scheduled_task_detail_field_label_run_id": {
+    "message": "ID d'exécution"
+  },
+  "scheduled_task_detail_field_label_schedule_id": {
+    "message": "ID de planification"
+  },
+  "scheduled_task_detail_field_label_task_id": {
+    "message": "ID de tâche"
+  },
+  "scheduled_task_detail_field_label_task_status": {
+    "message": "Statut de la tâche"
+  },
+  "scheduled_task_detail_field_label_title": {
+    "message": "Titre"
+  },
+  "scheduled_task_detail_label_generic_artifact": {
+    "message": "Artefact"
+  },
+  "scheduled_task_detail_label_hide_details": {
+    "message": "Masquer les détails"
+  },
+  "scheduled_task_detail_label_load_failure": {
+    "message": "Impossible de charger les détails de la tâche planifiée."
+  },
+  "scheduled_task_detail_label_loading_run_detail": {
+    "message": "Chargement des détails de l'exécution…"
+  },
+  "scheduled_task_detail_label_logs": {
+    "message": "Journaux"
+  },
+  "scheduled_task_detail_label_run_detail_unavailable": {
+    "message": "Détails de l'exécution indisponibles."
+  },
+  "scheduled_task_detail_label_task_unavailable": {
+    "message": "Tâche indisponible"
+  },
+  "scheduled_task_detail_label_unnamed_artifact": {
+    "message": "Artefact sans nom"
+  },
+  "scheduled_task_detail_label_video_preview": {
+    "message": "Aperçu vidéo"
+  },
+  "scheduled_task_detail_label_view_details": {
+    "message": "Afficher les détails"
+  },
+  "scheduled_task_detail_title_recent_runs": {
+    "message": "Exécutions récentes"
+  },
+  "scheduled_task_detail_title_run_detail": {
+    "message": "Détails de l'exécution"
+  },
+  "scheduled_task_detail_title_task": {
+    "message": "Tâche"
+  },
+  "scheduled_tasks_accessible_label_close_scheduled_task_form": {
+    "message": "Fermer le formulaire de tâche planifiée"
+  },
+  "scheduled_tasks_accessible_label_create_task": {
+    "message": "Créer une tâche"
+  },
+  "scheduled_tasks_accessible_label_decrease_every_value": {
+    "message": "Diminuer la valeur de l'intervalle"
+  },
+  "scheduled_tasks_accessible_label_delete_named_schedule": {
+    "message": "Supprimer {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_delete_named_task": {
+    "message": "Supprimer {{task}}"
+  },
+  "scheduled_tasks_accessible_label_edit_named_schedule": {
+    "message": "Modifier {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_edit_named_task": {
+    "message": "Modifier {{task}}"
+  },
+  "scheduled_tasks_accessible_label_filter_runs_by_task": {
+    "message": "Filtrer les exécutions par tâche"
+  },
+  "scheduled_tasks_accessible_label_increase_every_value": {
+    "message": "Augmenter la valeur de l'intervalle"
+  },
+  "scheduled_tasks_accessible_label_manual": {
+    "message": "Manuelle"
+  },
+  "scheduled_tasks_accessible_label_next_month": {
+    "message": "Mois suivant"
+  },
+  "scheduled_tasks_accessible_label_no_artifacts": {
+    "message": "Aucun artefact"
+  },
+  "scheduled_tasks_accessible_label_optional_details": {
+    "message": "Détails facultatifs"
+  },
+  "scheduled_tasks_accessible_label_pause_named_schedule": {
+    "message": "Suspendre {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_previous_month": {
+    "message": "Mois précédent"
+  },
+  "scheduled_tasks_accessible_label_resume_named_schedule": {
+    "message": "Reprendre {{schedule}}"
+  },
+  "scheduled_tasks_accessible_label_run_at_picker": {
+    "message": "Sélecteur de date et d'heure d'exécution"
+  },
+  "scheduled_tasks_accessible_label_run_named_schedule": {
+    "message": "Exécuter {{schedule}} maintenant"
+  },
+  "scheduled_tasks_accessible_label_scheduled": {
+    "message": "Planifiée"
+  },
+  "scheduled_tasks_accessible_label_select_date": {
+    "message": "Sélectionner le {{date}}"
+  },
+  "scheduled_tasks_action_apply": {
+    "message": "Appliquer"
+  },
+  "scheduled_tasks_action_back_to_tasks": {
+    "message": "Retour aux tâches"
+  },
+  "scheduled_tasks_action_clear": {
+    "message": "Effacer"
+  },
+  "scheduled_tasks_action_delete": {
+    "message": "Supprimer"
+  },
+  "scheduled_tasks_action_delete_schedule": {
+    "message": "Supprimer la planification"
+  },
+  "scheduled_tasks_action_delete_task": {
+    "message": "Supprimer la tâche"
+  },
+  "scheduled_tasks_action_now": {
+    "message": "Maintenant"
+  },
+  "scheduled_tasks_action_save_settings": {
+    "message": "Enregistrer les paramètres"
+  },
+  "scheduled_tasks_action_save_task": {
+    "message": "Enregistrer la tâche"
+  },
+  "scheduled_tasks_description_active_run_settings": {
+    "message": "Contrôlez la manière dont Sentinel gère les exécutions de tâches Phi Agent en cours."
+  },
+  "scheduled_tasks_description_allowed_timeout_range": {
+    "message": "Plage autorisée : de {{minimum}} à {{maximum}}."
+  },
+  "scheduled_tasks_description_delete_named": {
+    "message": "Cela supprimera <target>{{name}}</target> de Sentinel."
+  },
+  "scheduled_tasks_description_empty_state_guidance": {
+    "message": "Créez une tâche pour commencer à suivre le travail de Phi Agent depuis Sentinel."
+  },
+  "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
+    "message": "Impossible de charger les tâches planifiées"
+  },
+  "scheduled_tasks_description_filtered_run_count": {
+    "message": "Exécutions affichées : {{filtered}} / {{total}}"
+  },
+  "scheduled_tasks_description_load_failure": {
+    "message": "Sentinel n'a pas pu charger les tâches pour le moment. Actualisez cette page pour réessayer."
+  },
+  "scheduled_tasks_description_minimum_character_count": {
+    "message": "Au moins {{count}} caractères."
+  },
+  "scheduled_tasks_description_no_objective": {
+    "message": "Aucun objectif"
+  },
+  "scheduled_tasks_description_no_runs_for_this_task": {
+    "message": "Aucune exécution pour cette tâche"
+  },
+  "scheduled_tasks_description_no_schedules_yet": {
+    "message": "Aucune planification pour l'instant"
+  },
+  "scheduled_tasks_description_no_task_runs_yet": {
+    "message": "Aucune exécution de tâche pour l'instant"
+  },
+  "scheduled_tasks_description_no_tasks_yet": {
+    "message": "Aucune tâche pour l'instant"
+  },
+  "scheduled_tasks_description_objective_minimum_length": {
+    "message": "L'objectif doit comporter au moins {{count}} caractères"
+  },
+  "scheduled_tasks_description_objective_required": {
+    "message": "L'objectif est obligatoire"
+  },
+  "scheduled_tasks_description_objective_validation": {
+    "message": "L'objectif est obligatoire. Les descriptions et les options de nommage se trouvent dans les détails facultatifs."
+  },
+  "scheduled_tasks_description_optional_title_limit": {
+    "message": "Facultatif. Maximum {{count}} caractères. Un titre vide sera généré à partir de l'objectif."
+  },
+  "scheduled_tasks_description_overview": {
+    "message": "Consultez les tâches, planifications et exécutions de Phi Agent depuis Sentinel."
+  },
+  "scheduled_tasks_description_phi_agent_is_not_running": {
+    "message": "Phi Agent n'est pas en cours d'exécution"
+  },
+  "scheduled_tasks_description_schedule_type_guidance": {
+    "message": "Choisissez d'abord l'option de planification la plus simple. Utilisez cron uniquement pour les planifications de type calendrier."
+  },
+  "scheduled_tasks_description_service_recovery": {
+    "message": "Démarrez Phi Agent depuis la page Services, puis actualisez cette page pour charger les tâches."
+  },
+  "scheduled_tasks_description_task_timeout_behavior": {
+    "message": "Une tâche en cours d'exécution sera marquée comme échouée si elle dépasse cette durée."
+  },
+  "scheduled_tasks_description_timezone_fallback": {
+    "message": "Facultatif. Laissez vide pour utiliser le fuseau horaire local de l'appareil qui exécute Phi Agent."
+  },
+  "scheduled_tasks_description_unscheduled_task_behavior": {
+    "message": "Cette tâche n'a aucune planification. Démarrez-la manuellement ou laissez Phi Agent la déclencher si nécessaire."
+  },
+  "scheduled_tasks_field_label_delete_schedule": {
+    "message": "Supprimer la planification"
+  },
+  "scheduled_tasks_field_label_delete_task": {
+    "message": "Supprimer la tâche"
+  },
+  "scheduled_tasks_field_label_edit_schedule": {
+    "message": "Modifier la planification"
+  },
+  "scheduled_tasks_field_label_edit_task": {
+    "message": "Modifier la tâche"
+  },
+  "scheduled_tasks_field_label_pause_schedule": {
+    "message": "Suspendre la planification"
+  },
+  "scheduled_tasks_field_label_resume_schedule": {
+    "message": "Reprendre la planification"
+  },
+  "scheduled_tasks_field_label_run_now": {
+    "message": "Exécuter maintenant"
+  },
+  "scheduled_tasks_label_all_tasks": {
+    "message": "Toutes les tâches"
+  },
+  "scheduled_tasks_label_api_source": {
+    "message": "API"
+  },
+  "scheduled_tasks_label_artifact_count": {
+    "message": "{{count}} artefact(s)"
+  },
+  "scheduled_tasks_label_ask_before_run": {
+    "message": "Demander avant l'exécution"
+  },
+  "scheduled_tasks_label_calendar_schedule": {
+    "message": "Planification de type calendrier"
+  },
+  "scheduled_tasks_label_cron": {
+    "message": "Cron"
+  },
+  "scheduled_tasks_label_cron_expression": {
+    "message": "Expression cron"
+  },
+  "scheduled_tasks_label_day": {
+    "message": "jour"
+  },
+  "scheduled_tasks_label_days": {
+    "message": "jours"
+  },
+  "scheduled_tasks_label_default_task_title": {
+    "message": "Tâche planifiée"
+  },
+  "scheduled_tasks_label_delete_cascade_warning": {
+    "message": "La tâche, les planifications liées et les exécutions associées seront supprimées des vues Tâches, Planifications et Exécutions."
+  },
+  "scheduled_tasks_label_every": {
+    "message": "Intervalle"
+  },
+  "scheduled_tasks_label_every_interval": {
+    "message": "Intervalle : {{count}} {{unit}}"
+  },
+  "scheduled_tasks_label_every_unit": {
+    "message": "Unité de l'intervalle"
+  },
+  "scheduled_tasks_label_every_value": {
+    "message": "Valeur de l'intervalle"
+  },
+  "scheduled_tasks_label_hour": {
+    "message": "Heure"
+  },
+  "scheduled_tasks_label_hour_lowercase": {
+    "message": "heure"
+  },
+  "scheduled_tasks_label_hours": {
+    "message": "heures"
+  },
+  "scheduled_tasks_label_interval": {
+    "message": "Intervalle"
+  },
+  "scheduled_tasks_label_last_status": {
+    "message": "Dernière exécution : {{status}}"
+  },
+  "scheduled_tasks_label_manual_source": {
+    "message": "Manuel"
+  },
+  "scheduled_tasks_label_minute": {
+    "message": "Minute"
+  },
+  "scheduled_tasks_label_minute_lowercase": {
+    "message": "minute"
+  },
+  "scheduled_tasks_label_minutes": {
+    "message": "minutes"
+  },
+  "scheduled_tasks_label_no_current_run": {
+    "message": "Aucune exécution en cours"
+  },
+  "scheduled_tasks_label_no_schedule_start_when_needed": {
+    "message": "Aucune planification. À démarrer au besoin."
+  },
+  "scheduled_tasks_label_once": {
+    "message": "Une fois"
+  },
+  "scheduled_tasks_label_once_at": {
+    "message": "Une fois le {{date}}"
+  },
+  "scheduled_tasks_label_one_time": {
+    "message": "Une seule fois"
+  },
+  "scheduled_tasks_label_one_time_schedule": {
+    "message": "Planification unique"
+  },
+  "scheduled_tasks_label_optional": {
+    "message": "Facultatif"
+  },
+  "scheduled_tasks_label_recording": {
+    "message": "Enregistrement"
+  },
+  "scheduled_tasks_label_recording_with_extra": {
+    "message": "Enregistrement +{{count}}"
+  },
+  "scheduled_tasks_label_repeating_schedule": {
+    "message": "Planification récurrente"
+  },
+  "scheduled_tasks_label_run_at": {
+    "message": "Date d'exécution"
+  },
+  "scheduled_tasks_label_run_status": {
+    "message": "Statut de l'exécution"
+  },
+  "scheduled_tasks_label_running_timeout": {
+    "message": "Délai d'exécution maximal"
+  },
+  "scheduled_tasks_label_runs": {
+    "message": "Exécutions"
+  },
+  "scheduled_tasks_label_runs_automatically": {
+    "message": "S'exécute automatiquement"
+  },
+  "scheduled_tasks_label_runs_automatically_on_aschedule": {
+    "message": "S'exécute automatiquement selon une planification."
+  },
+  "scheduled_tasks_label_schedule_count": {
+    "message": "{{count}} planification(s)"
+  },
+  "scheduled_tasks_label_schedule_description": {
+    "message": "Description de la planification"
+  },
+  "scheduled_tasks_label_schedule_name": {
+    "message": "Nom de la planification"
+  },
+  "scheduled_tasks_label_schedule_source": {
+    "message": "Planification"
+  },
+  "scheduled_tasks_label_schedule_type": {
+    "message": "Type de planification"
+  },
+  "scheduled_tasks_label_schedules": {
+    "message": "Planifications"
+  },
+  "scheduled_tasks_label_second": {
+    "message": "seconde"
+  },
+  "scheduled_tasks_label_seconds": {
+    "message": "secondes"
+  },
+  "scheduled_tasks_label_select_date_and_time": {
+    "message": "Sélectionnez la date et l'heure"
+  },
+  "scheduled_tasks_label_selected": {
+    "message": "Sélectionné"
+  },
+  "scheduled_tasks_label_started_by": {
+    "message": "Lancée par"
+  },
+  "scheduled_tasks_label_task_description": {
+    "message": "Description de la tâche"
+  },
+  "scheduled_tasks_label_task_source": {
+    "message": "Tâche"
+  },
+  "scheduled_tasks_label_task_title": {
+    "message": "Titre de la tâche"
+  },
+  "scheduled_tasks_label_task_type": {
+    "message": "Type de tâche"
+  },
+  "scheduled_tasks_label_task_unavailable": {
+    "message": "Tâche indisponible"
+  },
+  "scheduled_tasks_label_time_zone": {
+    "message": "Fuseau horaire"
+  },
+  "scheduled_tasks_label_timeout_hours": {
+    "message": "{{count}} heure(s)"
+  },
+  "scheduled_tasks_label_timeout_minutes": {
+    "message": "{{count}} minute(s)"
+  },
+  "scheduled_tasks_label_unscheduled_task_list_notice": {
+    "message": "Elle apparaîtra dans Tâches avec le badge « Aucune planification »."
+  },
+  "scheduled_tasks_label_updated": {
+    "message": "Dernière mise à jour"
+  },
+  "scheduled_tasks_label_use_local_timezone": {
+    "message": "Utiliser le fuseau horaire local"
+  },
+  "scheduled_tasks_label_user_source": {
+    "message": "Utilisateur"
+  },
+  "scheduled_tasks_status_active": {
+    "message": "Active"
+  },
+  "scheduled_tasks_status_archived": {
+    "message": "Archivée"
+  },
+  "scheduled_tasks_status_beta": {
+    "message": "Bêta"
+  },
+  "scheduled_tasks_status_cancelled": {
+    "message": "Annulée"
+  },
+  "scheduled_tasks_status_completed": {
+    "message": "Terminée"
+  },
+  "scheduled_tasks_status_disabled": {
+    "message": "Désactivée"
+  },
+  "scheduled_tasks_status_failed": {
+    "message": "Échec"
+  },
+  "scheduled_tasks_status_needs_approval": {
+    "message": "Approbation requise"
+  },
+  "scheduled_tasks_status_no_schedule": {
+    "message": "Aucune planification"
+  },
+  "scheduled_tasks_status_not_started": {
+    "message": "Non démarrée"
+  },
+  "scheduled_tasks_status_paused": {
+    "message": "Suspendue"
+  },
+  "scheduled_tasks_status_queued": {
+    "message": "En file d'attente"
+  },
+  "scheduled_tasks_status_rejected": {
+    "message": "Rejetée"
+  },
+  "scheduled_tasks_status_requires_approval": {
+    "message": "Nécessite une approbation"
+  },
+  "scheduled_tasks_status_running_now": {
+    "message": "En cours d'exécution"
+  },
+  "scheduled_tasks_status_runs_automatically": {
+    "message": "S'exécute automatiquement"
+  },
+  "scheduled_tasks_status_scheduled": {
+    "message": "Planifiée"
+  },
+  "scheduled_tasks_status_skipped": {
+    "message": "Ignorée"
+  },
+  "scheduled_tasks_title_delete": {
+    "message": "Supprimer ?"
+  },
+  "scheduled_tasks_title_delete_schedule": {
+    "message": "Supprimer la planification ?"
+  },
+  "scheduled_tasks_title_delete_task": {
+    "message": "Supprimer la tâche ?"
+  },
+  "scheduled_tasks_title_edit_scheduled_task": {
+    "message": "Modifier la tâche planifiée"
+  },
+  "scheduled_tasks_title_edit_task": {
+    "message": "Modifier la tâche"
+  },
+  "scheduled_tasks_title_new_task": {
+    "message": "Nouvelle tâche"
+  },
+  "scheduled_tasks_title_run_behavior": {
+    "message": "Comportement d'exécution"
+  },
+  "scheduled_tasks_title_task_settings": {
+    "message": "Paramètres de la tâche"
+  },
+  "scheduled_tasks_title_tasks": {
+    "message": "Tâches"
+  },
+  "scheduled_tasks_validation_cron_invalid": {
+    "message": "Saisissez une expression cron valide à 5 champs"
+  },
+  "scheduled_tasks_validation_cron_required": {
+    "message": "L'expression cron est obligatoire"
+  },
+  "scheduled_tasks_validation_date_time_invalid": {
+    "message": "Saisissez une date et une heure valides"
+  },
+  "scheduled_tasks_validation_interval_positive": {
+    "message": "L'intervalle doit être un nombre positif"
+  },
+  "scheduled_tasks_validation_run_at_future": {
+    "message": "La date d'exécution doit être dans le futur"
+  },
+  "scheduled_tasks_validation_run_at_required": {
+    "message": "La date d'exécution est obligatoire"
+  },
+  "scheduled_tasks_validation_run_at_within_five_years": {
+    "message": "La date d'exécution doit être dans les 5 prochaines années"
+  },
+  "scheduled_tasks_validation_timeout_range": {
+    "message": "Le délai doit être compris entre {{minimum}} et {{maximum}}."
+  },
+  "service_detail_action_back_to_services": {
+    "message": "Retour aux services"
+  },
+  "service_detail_action_cleanup": {
+    "message": "Nettoyer"
+  },
+  "service_detail_action_remove_deprecated_service": {
+    "message": "Supprimer le service obsolète"
+  },
+  "service_detail_description_cannot_remove_depended_by": {
+    "message": "Suppression impossible : requis par {{services}}"
+  },
+  "service_detail_description_health": {
+    "message": "Intégrité : {{status}}"
+  },
+  "service_detail_description_no_configuration": {
+    "message": "Aucune configuration disponible pour ce service."
+  },
+  "service_detail_description_pid": {
+    "message": "PID : {{pid}}"
+  },
+  "service_detail_description_service_not_found": {
+    "message": "Service introuvable"
+  },
+  "service_detail_description_this_service_is_deprecated": {
+    "message": "Ce service est obsolète"
+  },
+  "service_detail_description_unsupported_service_removal": {
+    "message": "Ce service ne figure plus dans l'index des versions et devrait être supprimé."
+  },
+  "service_detail_description_uptime": {
+    "message": "Temps d'activité : {{uptime}}"
+  },
+  "service_detail_label_component_spec": {
+    "message": "Spécification du composant"
+  },
+  "service_detail_label_config": {
+    "message": "Configuration"
+  },
+  "service_detail_label_exports": {
+    "message": "Exports"
+  },
+  "service_detail_label_failing": {
+    "message": "En échec"
+  },
+  "service_detail_label_healthy": {
+    "message": "Sain"
+  },
+  "service_detail_label_no_component_spec_file_found": {
+    "message": "Aucun fichier de spécification de composant trouvé."
+  },
+  "service_detail_label_runtime_config": {
+    "message": "Configuration de l'environnement d'exécution"
+  },
+  "service_detail_label_runtime_config_unavailable": {
+    "message": "Aucune configuration de l'environnement d'exécution disponible : le service n'a pas encore été démarré."
+  },
+  "service_detail_tooltip_clean_orphan_processes": {
+    "message": "Rechercher et forcer l'arrêt des processus orphelins qui ne se sont peut-être pas terminés correctement"
+  },
+  "service_detail_tooltip_copy_exports": {
+    "message": "Copier les exports"
+  },
+  "service_detail_tooltip_copy_runtime_config": {
+    "message": "Copier la configuration de l'environnement d'exécution"
+  },
+  "services_action_retry_setup": {
+    "message": "Réessayer l'installation"
+  },
+  "services_action_start_all": {
+    "message": "Tout démarrer"
+  },
+  "services_actions": {
+    "message": "Actions"
+  },
+  "services_all": {
+    "message": "Tous"
+  },
+  "services_coming_soon": {
+    "message": "bientôt disponible"
+  },
+  "services_daemon": {
+    "message": "démon"
+  },
+  "services_dependencies": {
+    "message": "Dépendances"
+  },
+  "services_description_lifecycle_overview": {
+    "message": "Gérez le cycle de vie et les contrôles d'intégrité des services locaux"
+  },
+  "services_description_setup_failed": {
+    "message": "Échec de l'installation"
+  },
+  "services_description_setup_failed_with_error": {
+    "message": "Échec de l'installation : {{error}}"
+  },
+  "services_error_loading": {
+    "message": "Erreur de chargement des services"
+  },
+  "services_failing": {
+    "message": "en échec"
+  },
+  "services_health": {
+    "message": "Intégrité"
+  },
+  "services_health_check": {
+    "message": "Contrôle d'intégrité"
+  },
+  "services_healthy": {
+    "message": "sain"
+  },
+  "services_indexed_directories": {
+    "message": "Dossiers indexés"
+  },
+  "services_kind": {
+    "message": "Type"
+  },
+  "services_name": {
+    "message": "Nom"
+  },
+  "services_no_filtered_services": {
+    "message": "Aucun service avec l'état {{filter}}"
+  },
+  "services_no_services": {
+    "message": "Aucun service trouvé"
+  },
+  "services_pending_jobs": {
+    "message": "Travaux en attente"
+  },
+  "services_pid": {
+    "message": "PID"
+  },
+  "services_refresh": {
+    "message": "Actualiser"
+  },
+  "services_restart": {
+    "message": "Redémarrer"
+  },
+  "services_run_health_check": {
+    "message": "Exécuter un contrôle d'intégrité"
+  },
+  "services_runner_offline": {
+    "message": "Le service d'arrière-plan est hors ligne"
+  },
+  "services_runner_online": {
+    "message": "Le service d'arrière-plan est en ligne"
+  },
+  "services_runner_status": {
+    "message": "État du service d'arrière-plan"
+  },
+  "services_running": {
+    "message": "En cours d'exécution"
+  },
+  "services_services_managed": {
+    "message": "Services gérés : {{count}}"
+  },
+  "services_start": {
+    "message": "Démarrer"
+  },
+  "services_state": {
+    "message": "État"
+  },
+  "services_status_beta": {
+    "message": "Bêta"
+  },
+  "services_status_crashed": {
+    "message": "Arrêt inattendu"
+  },
+  "services_status_deprecated": {
+    "message": "Obsolète"
+  },
+  "services_status_disabled": {
+    "message": "Désactivé"
+  },
+  "services_status_pending": {
+    "message": "En attente"
+  },
+  "services_status_starting": {
+    "message": "Démarrage en cours"
+  },
+  "services_status_stopping": {
+    "message": "Arrêt en cours"
+  },
+  "services_stop": {
+    "message": "Arrêter"
+  },
+  "services_stopped": {
+    "message": "Arrêté"
+  },
+  "services_summary_pending": {
+    "message": "En attente : {{count}}"
+  },
+  "services_summary_running": {
+    "message": "En cours d'exécution : {{count}}"
+  },
+  "services_summary_stopped": {
+    "message": "Arrêtés : {{count}}"
+  },
+  "services_summary_total": {
+    "message": "Services : {{count}}"
+  },
+  "services_summary_transitioning": {
+    "message": "En transition : {{count}}"
+  },
+  "services_summary_unhealthy": {
+    "message": "Non sains : {{count}}"
+  },
+  "services_title": {
+    "message": "Services"
+  },
+  "services_unhealthy": {
+    "message": "Non sain"
+  },
+  "services_update_all": {
+    "message": "Tout mettre à jour"
+  },
+  "services_uptime": {
+    "message": "Temps d'activité"
+  },
+  "services_version": {
+    "message": "Version"
+  },
+  "services_view_config": {
+    "message": "Afficher la configuration"
+  },
+  "services_view_logs": {
+    "message": "Afficher les journaux"
+  },
+  "settings_accessible_label_component_update_track": {
+    "message": "Canal de mise à jour des composants"
+  },
+  "settings_action_resetting": {
+    "message": "Réinitialisation…"
+  },
+  "settings_action_switch_and_update": {
+    "message": "Changer et mettre à jour"
+  },
+  "settings_appearance": {
+    "message": "Apparence"
+  },
+  "settings_appearance_description": {
+    "message": "Thème visuel et options d'affichage"
+  },
+  "settings_coming_soon": {
+    "message": "Bientôt disponible"
+  },
+  "settings_debug_logging": {
+    "message": "Journalisation de débogage"
+  },
+  "settings_debug_logging_description": {
+    "message": "Active la journalisation détaillée pour le dépannage"
+  },
+  "settings_description": {
+    "message": "Préférences et configuration de l'application"
+  },
+  "settings_description_backup_overview": {
+    "message": "Exportez une copie de vos données et gérez des instantanés locaux pour la sauvegarde et la restauration."
+  },
+  "settings_description_factory_reset_deletes_data": {
+    "message": "Cette action va <permanent>supprimer définitivement</permanent> toutes les données de Phi Sentinel :"
+  },
+  "settings_description_factory_reset_warning": {
+    "message": "Supprime définitivement toutes les données de Phi Sentinel, y compris les services, les configurations, les journaux et les fichiers en cache. Cette action est irréversible."
+  },
+  "settings_description_reset_failed": {
+    "message": "Échec de la réinitialisation"
+  },
+  "settings_description_stable_latest_switch_warning": {
+    "message": "Le canal « Dernière version stable » ignorera la version épinglée pour cette version de Sentinel et suivra la version stable la plus récente des composants. Les mises à jour des composants commencent immédiatement et les services concernés peuvent redémarrer."
+  },
+  "settings_description_stable_latest_track": {
+    "message": "Suit chaque nouvelle version stable publiée des composants."
+  },
+  "settings_description_stable_pinned_switch_warning": {
+    "message": "Le canal « Stable » rétablit la version des composants épinglée pour cette version de Sentinel. Cela peut installer des versions plus anciennes des composants et redémarrer les services concernés."
+  },
+  "settings_description_stable_pinned_track": {
+    "message": "Suit la version des composants épinglée pour cette version de Sentinel."
+  },
+  "settings_description_this_action_cannot_be_undone": {
+    "message": "Cette action est irréversible."
+  },
+  "settings_label_all_configurations_and_settings": {
+    "message": "Toutes les configurations et tous les paramètres"
+  },
+  "settings_label_all_logs_and_cached_files": {
+    "message": "Tous les journaux et fichiers en cache"
+  },
+  "settings_label_installed_services_and_data": {
+    "message": "Tous les services installés et leurs données"
+  },
+  "settings_label_job_schedules_and_history": {
+    "message": "Planifications et historique des travaux"
+  },
+  "settings_label_stable_latest": {
+    "message": "Dernière version stable"
+  },
+  "settings_label_type_phrase_to_confirm": {
+    "message": "Saisissez <phrase>{{phrase}}</phrase> pour confirmer :"
+  },
+  "settings_polling_intervals": {
+    "message": "Intervalles d'actualisation"
+  },
+  "settings_polling_intervals_description": {
+    "message": "Configurez la fréquence d'actualisation de l'état"
+  },
+  "settings_status_stable": {
+    "message": "Stable"
+  },
+  "settings_status_stable_latest_active": {
+    "message": "Dernière version stable active"
+  },
+  "settings_title": {
+    "message": "Paramètres"
+  },
+  "settings_title_backup_restore": {
+    "message": "Sauvegarde et restauration"
+  },
+  "settings_title_component_updates": {
+    "message": "Mises à jour des composants"
+  },
+  "settings_title_confirm_factory_reset": {
+    "message": "Confirmer la réinitialisation d'usine"
+  },
+  "settings_title_danger_zone": {
+    "message": "Zone de danger"
+  },
+  "settings_title_reset_all_data": {
+    "message": "Réinitialiser toutes les données"
+  },
+  "settings_title_switch_to_track": {
+    "message": "Passer à « {{track}} » ?"
+  },
+  "settings_update_channel": {
+    "message": "Canal de mise à jour"
+  },
+  "settings_update_channel_description": {
+    "message": "Sélectionnez le canal de mise à jour des composants"
+  },
+  "sidebar_alerts": {
+    "message": "Alertes"
+  },
+  "sidebar_indexing_active": {
+    "message": "Active"
+  },
+  "sidebar_indexing_idle": {
+    "message": "Inactive"
+  },
+  "sidebar_local_system": {
+    "message": "Système local"
+  },
+  "sidebar_offline": {
+    "message": "Hors ligne"
+  },
+  "sidebar_online": {
+    "message": "En ligne"
+  },
+  "sidebar_runner": {
+    "message": "Service d'arrière-plan"
+  },
+  "status_bar_cpu": {
+    "message": "CPU : {{percent}} %"
+  },
+  "status_bar_memory": {
+    "message": "Mémoire : {{value}}"
+  },
+  "status_bar_rag_queue": {
+    "message": "Fichiers en file d'attente RAG : {{count}}"
+  },
+  "status_bar_services": {
+    "message": "Services : {{count}}"
+  },
+  "task_detail_description_no_linked_schedules": {
+    "message": "Aucune planification n'est liée à cette tâche."
+  },
+  "task_detail_field_label_latest_run": {
+    "message": "Dernière exécution"
+  },
+  "task_detail_label_failed_to_load_task_detail": {
+    "message": "Impossible de charger les détails de la tâche."
+  },
+  "task_detail_label_hide_run_details": {
+    "message": "Masquer les détails de l'exécution"
+  },
+  "task_detail_label_view_run_details": {
+    "message": "Afficher les détails de l'exécution"
+  },
+  "uninstall_browser_running_alert_message": {
+    "message": "Veuillez quitter Phi Browser avant de désinstaller."
+  },
+  "uninstall_browser_running_alert_title": {
+    "message": "Quittez d'abord Phi Browser"
+  },
+  "uninstall_dialog_browser_data_description": {
+    "message": "Historique, cookies, cache, profil"
+  },
+  "uninstall_dialog_browser_data_label": {
+    "message": "Données de navigation"
+  },
+  "uninstall_dialog_category_calculating_size_label": {
+    "message": "%@ - calcul en cours…"
+  },
+  "uninstall_dialog_category_size_label": {
+    "message": "%1$@ - %2$@"
+  },
+  "uninstall_dialog_confirmation_delete_and_quit_button": {
+    "message": "Supprimer et quitter"
+  },
+  "uninstall_dialog_confirmation_message": {
+    "message": "Cette action est irréversible."
+  },
+  "uninstall_dialog_confirmation_title": {
+    "message": "Supprimer définitivement les données sélectionnées ?"
+  },
+  "uninstall_dialog_models_description": {
+    "message": "Modèles téléchargés et environnement d'exécution MLX"
+  },
+  "uninstall_dialog_models_label": {
+    "message": "Modèles d'IA locaux et environnement d'exécution"
+  },
+  "uninstall_dialog_quit_without_removing_button": {
+    "message": "Quitter sans supprimer"
+  },
+  "uninstall_dialog_remove_selected_button": {
+    "message": "Supprimer la sélection et quitter"
+  },
+  "uninstall_dialog_service_data_description": {
+    "message": "Historique des conversations, mémoire de l'agent, tâches, index et journaux"
+  },
+  "uninstall_dialog_service_data_label": {
+    "message": "Conversations, mémoire de l'IA et données de service"
+  },
+  "uninstall_dialog_subtitle": {
+    "message": "Choisissez les données locales à supprimer définitivement. Cette action est irréversible."
+  },
+  "uninstall_dialog_title": {
+    "message": "Désinstaller Phi"
+  },
+  "updates_all_up_to_date": {
+    "message": "Tous les composants sont à jour"
+  },
+  "updates_apply_all_updates": {
+    "message": "Appliquer toutes les mises à jour"
+  },
+  "updates_available_updates": {
+    "message": "Mises à jour disponibles"
+  },
+  "updates_available_updates_description": {
+    "message": "Changements de version des composants"
+  },
+  "updates_check_for_updates": {
+    "message": "Rechercher des mises à jour"
+  },
+  "updates_description": {
+    "message": "Gestion des paquets et mises à jour des composants"
+  },
+  "updates_description_version_change": {
+    "message": "{{current}} → {{target}}"
+  },
+  "updates_title": {
+    "message": "Mises à jour"
+  }
+}
