@@ -1115,6 +1115,10 @@
     "message": "Invalid or expired authentication token.",
     "description": "Location: Chat. Messages shown when a request to the service fails. Errors about the token that authenticates the user. The authentication token was rejected or has expired."
   },
+  "errors_upload_not_available": {
+    "message": "File uploads are not available right now.",
+    "description": "Location: Chat. Messages shown when a request to the service fails. Toast shown when a file upload cannot start because uploads are temporarily unavailable."
+  },
   "features_chat_with_tabs": {
     "message": "Chat with Tabs",
     "description": "Location: Chat. Context features attached to a message (Chat with Tabs, web search). Feature chip name: answer using attached tabs."
@@ -1184,8 +1188,8 @@
     "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Feedback controls on an assistant chat answer: a thumbs-up and thumbs-down button pair, and the dialog either one opens. Dialog title after pressing thumbs-up."
   },
   "message_feedback_privacy_notice": {
-    "message": "Your feedback can be used to improve Phi",
-    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Feedback controls on an assistant chat answer: a thumbs-up and thumbs-down button pair, and the dialog either one opens. Notice under the form: submitted feedback may be used to improve the product."
+    "message": "Your feedback, with technical details of how this response was produced (never its content), will be used to improve Phi",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Feedback controls on an assistant chat answer: a thumbs-up and thumbs-down button pair, and the dialog either one opens. Notice under the form: the report includes technical details of how the answer was produced (processing steps and timings, never any conversation content) and is used to improve the product."
   },
   "message_feedback_reasons_negative_incorrect": {
     "message": "Incorrect or misleading",
@@ -1657,7 +1661,7 @@
   },
   "shadow_tasks_default_task_title": {
     "message": "Shadow Task",
-    "description": "Location: Chat. The Shadow Tasks page, which lists background tasks the assistant runs in its own browser tabs. Default title given to a shadow task started from the chat composer when the user supplied no title of its own. The composer starts such a task with a shadow prefix on the message, not with a slash command."
+    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Default title for a task created from the composer's /shadow command."
   },
   "shadow_tasks_empty": {
     "message": "No shadow tasks yet",
