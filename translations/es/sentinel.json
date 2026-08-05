@@ -2645,6 +2645,9 @@
   "recorder_detail_value": {
     "message": "Valor"
   },
+  "recorder_error_detail_hint": {
+    "message": "Detalles técnicos: $DETAIL$"
+  },
   "recorder_error_enter_skill_name": {
     "message": "Escribe un nombre para la habilidad"
   },
@@ -2661,7 +2664,25 @@
     "message": "Generando..."
   },
   "recorder_generation_failed": {
-    "message": "Error al generar: $ERROR$"
+    "message": "No se pudo generar la habilidad. Vuelve a intentarlo."
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "La IA no pudo resumir esta grabación. Volver a intentarlo suele funcionar."
+  },
+  "recorder_generation_failed_network": {
+    "message": "No se pudo conectar con el servicio. Revisa tu conexión y vuelve a intentarlo."
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "No se capturó ninguna acción, por lo que no hay nada que convertir en una habilidad."
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "Generar la habilidad tardó demasiado. Vuelve a intentarlo."
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "Tu sesión expiró. Inicia sesión de nuevo y vuelve a intentarlo."
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "La generación de habilidades no está disponible en este momento. Vuelve a intentarlo más tarde."
   },
   "recorder_minimize_controls": {
     "message": "Minimizar controles"
@@ -2704,6 +2725,9 @@
   },
   "recorder_resume": {
     "message": "Reanudar"
+  },
+  "recorder_retry": {
+    "message": "Reintentar"
   },
   "recorder_save_failed": {
     "message": "Error al guardar: $ERROR$"

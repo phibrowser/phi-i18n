@@ -2645,6 +2645,9 @@
   "recorder_detail_value": {
     "message": "Waarde"
   },
+  "recorder_error_detail_hint": {
+    "message": "Technische details: $DETAIL$"
+  },
   "recorder_error_enter_skill_name": {
     "message": "Voer een naam voor de skill in"
   },
@@ -2661,7 +2664,25 @@
     "message": "Genereren..."
   },
   "recorder_generation_failed": {
-    "message": "Genereren mislukt: $ERROR$"
+    "message": "Kan de skill niet genereren. Probeer het opnieuw."
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "De AI kon deze opname niet samenvatten. Opnieuw proberen werkt meestal."
+  },
+  "recorder_generation_failed_network": {
+    "message": "Kan de service niet bereiken. Controleer je verbinding en probeer het opnieuw."
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "Er zijn geen acties vastgelegd, dus er is niets om een skill van te maken."
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "Het genereren van de skill duurde te lang. Probeer het opnieuw."
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "Je sessie is verlopen. Log opnieuw in en probeer het dan nog eens."
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "Het genereren van skills is momenteel niet beschikbaar. Probeer het later opnieuw."
   },
   "recorder_minimize_controls": {
     "message": "Bedieningselementen minimaliseren"
@@ -2704,6 +2725,9 @@
   },
   "recorder_resume": {
     "message": "Hervatten"
+  },
+  "recorder_retry": {
+    "message": "Opnieuw proberen"
   },
   "recorder_save_failed": {
     "message": "Opslaan mislukt: $ERROR$"

@@ -2645,6 +2645,9 @@
   "recorder_detail_value": {
     "message": "值"
   },
+  "recorder_error_detail_hint": {
+    "message": "技術詳細資訊：$DETAIL$"
+  },
   "recorder_error_enter_skill_name": {
     "message": "請輸入 Skill 名稱"
   },
@@ -2661,7 +2664,25 @@
     "message": "產生中..."
   },
   "recorder_generation_failed": {
-    "message": "產生失敗：$ERROR$"
+    "message": "無法產生 Skill，請再試一次。"
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "AI 無法為這段錄製內容產生摘要，再試一次通常就能成功。"
+  },
+  "recorder_generation_failed_network": {
+    "message": "無法連線至服務，請檢查網路連線後再試一次。"
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "未擷取任何動作，因此沒有可產生 Skill 的內容。"
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "產生 Skill 花費的時間過長，請再試一次。"
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "工作階段已過期，請重新登入後再試一次。"
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "目前無法使用 Skill 產生功能，請稍後再試。"
   },
   "recorder_minimize_controls": {
     "message": "收合控制項"
@@ -2704,6 +2725,9 @@
   },
   "recorder_resume": {
     "message": "繼續"
+  },
+  "recorder_retry": {
+    "message": "重試"
   },
   "recorder_save_failed": {
     "message": "儲存失敗：$ERROR$"

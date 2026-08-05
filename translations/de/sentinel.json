@@ -2645,6 +2645,9 @@
   "recorder_detail_value": {
     "message": "Wert"
   },
+  "recorder_error_detail_hint": {
+    "message": "Technische Details: $DETAIL$"
+  },
   "recorder_error_enter_skill_name": {
     "message": "Gib einen Skill-Namen ein"
   },
@@ -2661,7 +2664,25 @@
     "message": "Wird generiert..."
   },
   "recorder_generation_failed": {
-    "message": "Generierung fehlgeschlagen: $ERROR$"
+    "message": "Der Skill konnte nicht generiert werden. Versuche es erneut."
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "Die KI konnte diese Aufzeichnung nicht zusammenfassen. Ein erneuter Versuch hilft meistens."
+  },
+  "recorder_generation_failed_network": {
+    "message": "Der Dienst ist nicht erreichbar. Prüfe deine Verbindung und versuche es erneut."
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "Es wurden keine Aktionen erfasst, daher lässt sich kein Skill erstellen."
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "Das Generieren des Skills hat zu lange gedauert. Versuche es erneut."
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "Deine Sitzung ist abgelaufen. Melde dich wieder an und versuche es dann erneut."
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "Die Skill-Generierung ist gerade nicht verfügbar. Versuche es später erneut."
   },
   "recorder_minimize_controls": {
     "message": "Steuerelemente einklappen"
@@ -2704,6 +2725,9 @@
   },
   "recorder_resume": {
     "message": "Fortsetzen"
+  },
+  "recorder_retry": {
+    "message": "Erneut versuchen"
   },
   "recorder_save_failed": {
     "message": "Speichern fehlgeschlagen: $ERROR$"

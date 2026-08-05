@@ -3,10 +3,10 @@
     "message": "ビルド日時: %@"
   },
   "about_dialog_description": {
-    "message": "Phi Sentinel は Phi Browser のローカル AI サービスを管理します。"
+    "message": "Phi SentinelはPhi BrowserのローカルAIサービスを管理します。"
   },
   "about_dialog_title": {
-    "message": "Phi Sentinel について"
+    "message": "Phi Sentinelについて"
   },
   "about_dialog_version_label": {
     "message": "バージョン: %@"
@@ -183,7 +183,7 @@
     "message": "Sentinel {{sentinelVersion}}"
   },
   "backup_snapshots_label_snapshot_versions_with_browser": {
-    "message": "Sentinel {{sentinelVersion}} · ブラウザ {{browserVersion}}"
+    "message": "Sentinel {{sentinelVersion}} · ブラウザ{{browserVersion}}"
   },
   "backup_snapshots_title_local_snapshots": {
     "message": "ローカルスナップショット"
@@ -234,7 +234,7 @@
     "message": "不明"
   },
   "dashboard_window_title": {
-    "message": "Phi Sentinel ダッシュボード"
+    "message": "Phi Sentinelダッシュボード"
   },
   "debugger_approval_allow": {
     "message": "許可"
@@ -1524,7 +1524,7 @@
     "message": "ダウンロード中…"
   },
   "local_ai_role_row_status_downloading_percent": {
-    "message": "ダウンロード中 {{percent}}%"
+    "message": "ダウンロード中{{percent}}%"
   },
   "local_ai_role_row_status_install_runtime_first": {
     "message": "ランタイムのインストールが必要"
@@ -1602,7 +1602,7 @@
     "message": "ログをクリップボードにコピー"
   },
   "main_menu_application_quit": {
-    "message": "Phi Sentinel を終了"
+    "message": "Phi Sentinelを終了"
   },
   "main_menu_edit_copy": {
     "message": "コピー"
@@ -1638,7 +1638,7 @@
     "message": "ウインドウ"
   },
   "menu_bar_about_title": {
-    "message": "Phi Sentinel について"
+    "message": "Phi Sentinelについて"
   },
   "menu_bar_dashboard_title": {
     "message": "ダッシュボード"
@@ -1677,10 +1677,10 @@
     "message": "アンインストール中…"
   },
   "menu_bar_runner_waiting_for_login": {
-    "message": "Phi Browser にログインしてください"
+    "message": "Phi Browserにログインしてください"
   },
   "menu_bar_uninstall_title": {
-    "message": "Phi をアンインストール…"
+    "message": "Phiをアンインストール…"
   },
   "nav_history": {
     "message": "履歴"
@@ -2577,10 +2577,10 @@
     "message": "AIタスクのルーティング"
   },
   "quit_blocked_alert_message": {
-    "message": "Phi Browser の実行中は Phi Sentinel を終了できません。先に Phi Browser を終了してください。"
+    "message": "Phi Browserの実行中はPhi Sentinelを終了できません。先にPhi Browserを終了してください。"
   },
   "quit_blocked_alert_title": {
-    "message": "Phi Sentinel を終了できません"
+    "message": "Phi Sentinelを終了できません"
   },
   "recorder_action_clear_value": {
     "message": "「$ELEMENT$」をクリア"
@@ -2645,6 +2645,9 @@
   "recorder_detail_value": {
     "message": "値"
   },
+  "recorder_error_detail_hint": {
+    "message": "技術的な詳細：$DETAIL$"
+  },
   "recorder_error_enter_skill_name": {
     "message": "スキル名を入力してください"
   },
@@ -2661,7 +2664,25 @@
     "message": "生成中..."
   },
   "recorder_generation_failed": {
-    "message": "生成に失敗しました：$ERROR$"
+    "message": "スキルを生成できませんでした。もう一度お試しください。"
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "AIがこの記録を要約できませんでした。もう一度試すとたいてい成功します。"
+  },
+  "recorder_generation_failed_network": {
+    "message": "サービスに接続できませんでした。接続を確認してからもう一度お試しください。"
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "操作が記録されていないため、スキルにできる内容がありません。"
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "スキルの生成に時間がかかりすぎました。もう一度お試しください。"
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "セッションの有効期限が切れました。再度ログインしてから、もう一度お試しください。"
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "スキル生成は現在利用できません。しばらくしてからもう一度お試しください。"
   },
   "recorder_minimize_controls": {
     "message": "コントロールを最小化"
@@ -2704,6 +2725,9 @@
   },
   "recorder_resume": {
     "message": "再開"
+  },
+  "recorder_retry": {
+    "message": "再試行"
   },
   "recorder_save_failed": {
     "message": "保存に失敗しました：$ERROR$"
@@ -3729,10 +3753,10 @@
     "message": "実行の詳細を表示"
   },
   "uninstall_browser_running_alert_message": {
-    "message": "アンインストールの前に Phi Browser を終了してください。"
+    "message": "アンインストールの前にPhi Browserを終了してください。"
   },
   "uninstall_browser_running_alert_title": {
-    "message": "先に Phi Browser を終了してください"
+    "message": "先にPhi Browserを終了してください"
   },
   "uninstall_dialog_browser_data_description": {
     "message": "履歴、Cookie、キャッシュ、プロファイル"
@@ -3756,10 +3780,10 @@
     "message": "選択したデータを完全に削除しますか？"
   },
   "uninstall_dialog_models_description": {
-    "message": "ダウンロード済みのモデルと MLX ランタイム"
+    "message": "ダウンロード済みのモデルとMLXランタイム"
   },
   "uninstall_dialog_models_label": {
-    "message": "ローカル AI モデルとランタイム"
+    "message": "ローカルAIモデルとランタイム"
   },
   "uninstall_dialog_quit_without_removing_button": {
     "message": "削除せずに終了"
@@ -3771,13 +3795,13 @@
     "message": "チャット履歴、エージェントのメモリ、タスク、インデックス、ログ"
   },
   "uninstall_dialog_service_data_label": {
-    "message": "会話、AI のメモリ、サービスデータ"
+    "message": "会話、AIのメモリ、サービスデータ"
   },
   "uninstall_dialog_subtitle": {
     "message": "完全に削除するローカルデータを選択してください。この操作は取り消せません。"
   },
   "uninstall_dialog_title": {
-    "message": "Phi をアンインストール"
+    "message": "Phiをアンインストール"
   },
   "updates_all_up_to_date": {
     "message": "すべてのコンポーネントは最新の状態です"

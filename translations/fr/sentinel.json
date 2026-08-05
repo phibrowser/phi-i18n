@@ -2645,6 +2645,9 @@
   "recorder_detail_value": {
     "message": "Valeur"
   },
+  "recorder_error_detail_hint": {
+    "message": "Détails techniques : $DETAIL$"
+  },
   "recorder_error_enter_skill_name": {
     "message": "Saisissez un nom de skill"
   },
@@ -2661,7 +2664,25 @@
     "message": "Génération..."
   },
   "recorder_generation_failed": {
-    "message": "Échec de la génération : $ERROR$"
+    "message": "Impossible de générer le skill. Réessayez."
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "L’IA n’a pas pu résumer cet enregistrement. En général, il suffit de réessayer."
+  },
+  "recorder_generation_failed_network": {
+    "message": "Impossible de joindre le service. Vérifiez votre connexion et réessayez."
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "Aucune action n’a été capturée, il n’y a donc rien à transformer en skill."
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "La génération du skill a pris trop de temps. Réessayez."
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "Votre session a expiré. Reconnectez-vous, puis réessayez."
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "La génération de skills est indisponible pour le moment. Réessayez plus tard."
   },
   "recorder_minimize_controls": {
     "message": "Réduire les commandes"
@@ -2704,6 +2725,9 @@
   },
   "recorder_resume": {
     "message": "Reprendre"
+  },
+  "recorder_retry": {
+    "message": "Réessayer"
   },
   "recorder_save_failed": {
     "message": "Échec de la sauvegarde : $ERROR$"

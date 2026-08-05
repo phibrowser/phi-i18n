@@ -2645,6 +2645,9 @@
   "recorder_detail_value": {
     "message": "값"
   },
+  "recorder_error_detail_hint": {
+    "message": "기술 세부 정보: $DETAIL$"
+  },
   "recorder_error_enter_skill_name": {
     "message": "스킬 이름을 입력해 주세요"
   },
@@ -2661,7 +2664,25 @@
     "message": "생성 중..."
   },
   "recorder_generation_failed": {
-    "message": "생성 실패: $ERROR$"
+    "message": "스킬을 생성하지 못했어요. 다시 시도해 주세요."
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "AI가 이 녹화를 요약하지 못했어요. 다시 시도하면 대부분 해결돼요."
+  },
+  "recorder_generation_failed_network": {
+    "message": "서비스에 연결하지 못했어요. 네트워크 연결을 확인하고 다시 시도해 주세요."
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "캡처된 동작이 없어서 스킬로 만들 내용이 없어요."
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "스킬 생성에 시간이 너무 오래 걸렸어요. 다시 시도해 주세요."
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "세션이 만료됐어요. 다시 로그인한 뒤 재시도해 주세요."
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "지금은 스킬 생성을 사용할 수 없어요. 나중에 다시 시도해 주세요."
   },
   "recorder_minimize_controls": {
     "message": "컨트롤 접기"
@@ -2704,6 +2725,9 @@
   },
   "recorder_resume": {
     "message": "재개"
+  },
+  "recorder_retry": {
+    "message": "다시 시도"
   },
   "recorder_save_failed": {
     "message": "저장 실패: $ERROR$"

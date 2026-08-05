@@ -3527,6 +3527,10 @@
     "message": "Value",
     "description": "Location: Sentinel. Field label for the value entered during a captured action."
   },
+  "recorder_error_detail_hint": {
+    "message": "Technical details: $DETAIL$",
+    "description": "Location: Sentinel. Tooltip holding the raw technical error, shown on hover over a failure message. DETAIL is the original runtime error and must be preserved verbatim."
+  },
   "recorder_error_enter_skill_name": {
     "message": "Enter a skill name",
     "description": "Location: Sentinel. Validation error shown when the user tries to save a generated skill without a name."
@@ -3548,8 +3552,32 @@
     "description": "Location: Sentinel. Temporary button label while a skill is being generated from captured actions."
   },
   "recorder_generation_failed": {
-    "message": "Generation failed: $ERROR$",
-    "description": "Location: Sentinel. Error shown when skill generation fails. ERROR is the original runtime error and must be preserved verbatim."
+    "message": "Couldn't generate the skill. Try again.",
+    "description": "Location: Sentinel. One-line fallback shown when skill generation fails for an unrecognized reason."
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "The AI couldn't summarize this recording. Trying again usually works.",
+    "description": "Location: Sentinel. One-line error shown when the AI pass that describes the recorded steps did not produce a usable result."
+  },
+  "recorder_generation_failed_network": {
+    "message": "Couldn't reach the service. Check your connection and retry.",
+    "description": "Location: Sentinel. One-line error shown when the skill-generation request fails before reaching the server."
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "No actions were captured, so there is nothing to turn into a skill.",
+    "description": "Location: Sentinel. One-line error shown when a recording contains no usable actions."
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "Generating the skill took too long. Try again.",
+    "description": "Location: Sentinel. One-line error shown when the skill-generation request exceeds its time limit."
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "Your session expired. Sign in again, then retry.",
+    "description": "Location: Sentinel. One-line error shown when skill generation is rejected because the user is not authenticated."
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "Skill generation is unavailable right now. Try again later.",
+    "description": "Location: Sentinel. One-line error shown when the server has no skill-generation model configured or the service is down."
   },
   "recorder_minimize_controls": {
     "message": "Minimize controls",
@@ -3606,6 +3634,10 @@
   "recorder_resume": {
     "message": "Resume",
     "description": "Location: Sentinel. Button label that resumes a paused recording."
+  },
+  "recorder_retry": {
+    "message": "Retry",
+    "description": "Location: Sentinel. Button label that runs skill generation again after it failed."
   },
   "recorder_save_failed": {
     "message": "Save failed: $ERROR$",

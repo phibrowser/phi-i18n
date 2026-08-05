@@ -2645,6 +2645,9 @@
   "recorder_detail_value": {
     "message": "值"
   },
+  "recorder_error_detail_hint": {
+    "message": "技术详情：$DETAIL$"
+  },
   "recorder_error_enter_skill_name": {
     "message": "请输入 Skill 名称"
   },
@@ -2661,7 +2664,25 @@
     "message": "正在生成..."
   },
   "recorder_generation_failed": {
-    "message": "生成失败：$ERROR$"
+    "message": "无法生成 Skill，请重试。"
+  },
+  "recorder_generation_failed_annotation": {
+    "message": "AI 无法总结这段录制内容，重试通常就能成功。"
+  },
+  "recorder_generation_failed_network": {
+    "message": "无法连接到服务，请检查网络连接后重试。"
+  },
+  "recorder_generation_failed_no_actions": {
+    "message": "未捕获任何操作，因此没有可生成 Skill 的内容。"
+  },
+  "recorder_generation_failed_timeout": {
+    "message": "生成 Skill 耗时过长，请重试。"
+  },
+  "recorder_generation_failed_unauthorized": {
+    "message": "会话已过期，请重新登录后重试。"
+  },
+  "recorder_generation_failed_unavailable": {
+    "message": "Skill 生成功能暂时不可用，请稍后重试。"
   },
   "recorder_minimize_controls": {
     "message": "收起控制栏"
@@ -2704,6 +2725,9 @@
   },
   "recorder_resume": {
     "message": "继续"
+  },
+  "recorder_retry": {
+    "message": "重试"
   },
   "recorder_save_failed": {
     "message": "保存失败：$ERROR$"
