@@ -341,6 +341,9 @@
   "balanced_af0ba7": {
     "message": "均衡"
   },
+  "before_we_begin": {
+    "message": "开始之前"
+  },
   "bitwarden": {
     "message": "Bitwarden"
   },
@@ -596,6 +599,9 @@
   "cancel_f64161": {
     "message": "取消"
   },
+  "cancel_f7f2fa": {
+    "message": "取消"
+  },
   "cancel_f89d01": {
     "message": "取消"
   },
@@ -691,6 +697,9 @@
   },
   "choose_which_profiles_agents_may_create_their": {
     "message": "选择智能体可以在哪些个人资料中创建自己的空间。关闭某个个人资料后，智能体将无法打开任何绑定到该个人资料的新空间；现有空间不受影响。"
+  },
+  "chromium": {
+    "message": "Chromium"
   },
   "chromium_engine_version": {
     "message": "Chromium 引擎版本 %@"
@@ -944,6 +953,9 @@
   "couldn_t_install_the_skill_b9fa4d": {
     "message": "无法安装 Skill"
   },
+  "couldn_t_reach_the_data_export_service": {
+    "message": "无法连接数据导出服务。请检查网络连接后重试。"
+  },
   "couldn_t_reach_the_deletion_service_check": {
     "message": "无法连接删除服务。请检查你的网络连接，然后重试。"
   },
@@ -1166,6 +1178,9 @@
   "done": {
     "message": "完成"
   },
+  "download_any_data_export_you_want_to": {
+    "message": "请在删除账号前下载你想保留的数据导出。删除操作会取消正在进行的导出，并永久移除现有的下载文件和链接。"
+  },
   "download_image": {
     "message": "下载图片"
   },
@@ -1289,6 +1304,9 @@
   "ended": {
     "message": " · 已结束"
   },
+  "enjoy_using_phi_browser": {
+    "message": "祝你使用 Phi Browser 愉快 🎉"
+  },
   "enter_a_name_for_the_new_folder": {
     "message": "输入新文件夹的名称。"
   },
@@ -1349,6 +1367,9 @@
   "export": {
     "message": "导出"
   },
+  "export_account_data": {
+    "message": "导出账号数据"
+  },
   "export_bookmarks": {
     "message": "导出书签…"
   },
@@ -1366,6 +1387,9 @@
   },
   "export_user_data": {
     "message": "导出用户数据…"
+  },
+  "export_your_account_data": {
+    "message": "要导出你的账号数据吗？"
   },
   "extension_info": {
     "message": "扩展程序信息"
@@ -1544,11 +1568,20 @@
   "guest_data_cleanup_is_incomplete": {
     "message": "访客数据尚未清理完毕"
   },
+  "have_your_ai_assistant_help_you_understand": {
+    "message": "让你的 AI 助手帮你读懂细则 👇"
+  },
   "help": {
     "message": "帮助"
   },
   "help_mac": {
     "message": "文档"
+  },
+  "help_make_phi_better_by_sharing_usage": {
+    "message": "分享使用统计信息和崩溃报告，帮助改进 Phi"
+  },
+  "help_make_phi_better_by_sharing_usage_715b3e": {
+    "message": "分享使用统计信息和崩溃报告，帮助改进 Phi"
   },
   "here_to_begin_the_botfather": {
     "message": "点此开始使用 @BotFather"
@@ -1580,6 +1613,12 @@
   "https_vault_example_com": {
     "message": "https://vault.example.com"
   },
+  "i_agree_to_the_and": {
+    "message": "我同意 %1$@ 和 %2$@"
+  },
+  "i_agree_to_the_and_e21b1f": {
+    "message": "我同意 %1$@ 和 %2$@"
+  },
   "i_ll_setup_my_own": {
     "message": "我自己设置"
   },
@@ -1606,6 +1645,9 @@
   },
   "import_completed_with_errors_failed_to_import": {
     "message": "导入已完成，但出现错误。未能从以下来源导入：%@"
+  },
+  "import_data_from_another_browser": {
+    "message": "从其他浏览器导入数据"
   },
   "import_failed": {
     "message": "导入失败"
@@ -1648,6 +1690,9 @@
   },
   "importing_safari_data": {
     "message": "正在导入 Safari 数据…"
+  },
+  "improve_translations_for_phi_browser": {
+    "message": "改进 Phi Browser 的翻译"
   },
   "in_use_by_a_space": {
     "message": "%@（正在被某个空间使用）"
@@ -1747,6 +1792,12 @@
   },
   "left_url": {
     "message": "左侧网址"
+  },
+  "let_s_begin": {
+    "message": "开始使用"
+  },
+  "let_s_begin_7de7eb": {
+    "message": "开始使用"
   },
   "lets_agent_tooling_manage_your_own_browsing": {
     "message": "允许智能体工具管理你自己的浏览数据，包括空间、个人资料、网址规则、固定标签页、书签，以及各窗口的标签页布局。关闭后，智能体只能在它们自己的智能体空间内操作。立即生效。"
@@ -2042,6 +2093,9 @@
   "next_space_9d3d09": {
     "message": "下一个空间"
   },
+  "next_steps": {
+    "message": "后续步骤"
+  },
   "no_active_agent_task": {
     "message": "没有进行中的智能体任务"
   },
@@ -2054,17 +2108,23 @@
   "no_agents_approved_yet_the_first_time": {
     "message": "尚未批准任何智能体。当有智能体首次连接时，Phi 会请求你的批准。"
   },
+  "no_ai_features_until_you_sign_in": {
+    "message": "登录后才能使用 AI 功能"
+  },
   "no_backup_archive_was_produced": {
     "message": "未生成备份归档。"
   },
   "no_backups_available": {
     "message": "没有可用的备份"
   },
+  "no_browser_memory_either": {
+    "message": "浏览器记忆也无法使用"
+  },
   "no_certificate_available": {
     "message": "没有可用的证书"
   },
   "no_data_was_deleted": {
-    "message": "未删除任何数据。%@"
+    "message": "Phi 及其本地文件未被移除。部分登录数据可能已被清除。%@"
   },
   "no_downloads": {
     "message": "没有下载内容"
@@ -2234,6 +2294,9 @@
   "on_system_lock": {
     "message": "系统锁定时"
   },
+  "onboard_your_ai_assistant": {
+    "message": "设置你的 AI 助手"
+  },
   "only_once": {
     "message": "仅此一次"
   },
@@ -2260,6 +2323,12 @@
   },
   "open_settings": {
     "message": "打开设置"
+  },
+  "open_source_software": {
+    "message": "开源软件"
+  },
+  "open_source_software_d59d8c": {
+    "message": "开源软件"
   },
   "open_tabs": {
     "message": "打开的标签页"
@@ -2332,6 +2401,9 @@
   },
   "phi_fills_the_saved_login_into_the": {
     "message": "Phi 会直接把保存的登录信息填入页面。智能体只触发填充，不会拿到用户名或密码。"
+  },
+  "phi_is_made_possible_by_the_open": {
+    "message": "Phi 的实现离不开 %1$@ 开源项目、Chromium 的 %2$@，以及其他 %3$@。"
   },
   "phi_is_not_your_default_browser": {
     "message": "Phi 不是你的默认浏览器"
@@ -2447,8 +2519,14 @@
   "print": {
     "message": "打印…"
   },
+  "privacy": {
+    "message": "隐私政策"
+  },
   "privacy_and_security": {
     "message": "隐私和安全性"
+  },
+  "privacy_policy": {
+    "message": "隐私政策"
   },
   "private_ai": {
     "message": "私有 AI"
@@ -2648,6 +2726,9 @@
   "resend_code_482c2b": {
     "message": "重新发送验证码（%ds）"
   },
+  "resend_code_cbc823": {
+    "message": "重新发送验证码（%d 秒）"
+  },
   "restart_phi": {
     "message": "重启 Phi"
   },
@@ -2828,6 +2909,9 @@
   "send": {
     "message": "发送"
   },
+  "send_code": {
+    "message": "发送验证码"
+  },
   "send_feedback_to_phi": {
     "message": "向 Phi 发送反馈"
   },
@@ -2983,6 +3067,9 @@
   },
   "sign_in_to_use_phi_ai": {
     "message": "登录后即可使用 Phi AI"
+  },
+  "sign_in_whenever_you_re_ready": {
+    "message": "准备好后随时登录"
   },
   "sign_out": {
     "message": "退出登录"
@@ -3158,11 +3245,20 @@
   "telegram_id": {
     "message": "Telegram ID"
   },
+  "terms": {
+    "message": "条款"
+  },
+  "terms_of_service": {
+    "message": "服务条款"
+  },
   "that_code_has_expired_click_resend_code": {
     "message": "该验证码已过期。请点按「重新发送验证码」获取新的验证码。"
   },
   "that_code_isn_t_correct_check_the": {
     "message": "验证码不正确。请核对邮件中的验证码后重试。"
+  },
+  "that_export_is_no_longer_available_try": {
+    "message": "该导出已不再可用。请再试一次以请求新的导出。"
   },
   "the_agent_handed_control_back_to_you": {
     "message": "智能体已把控制权交还给你，以便你完成某个步骤，例如登录。"
@@ -3184,6 +3280,9 @@
   },
   "the_connector_authorization_url_is_invalid": {
     "message": "连接器授权网址无效。"
+  },
+  "the_data_export_service_is_temporarily_unavailable": {
+    "message": "数据导出服务暂时不可用。请稍后再试。"
   },
   "the_deletion_service_is_temporarily_unavailable_please": {
     "message": "删除服务暂时不可用。请稍后再试。"
@@ -3542,11 +3641,17 @@
   "wants_to_control_phi_browser": {
     "message": "「%@」想要控制 Phi Browser"
   },
+  "we_ll_send_a_verification_code_to": {
+    "message": "我们将向 %@ 发送验证码。验证通过后，我们会准备一份与你的 Phi Browser 账号关联的个人数据副本，并通过电子邮件向你发送下载链接。该链接有效期为 7 天。"
+  },
   "we_need_to_refresh_your_session_before": {
     "message": "我们需要刷新你的会话，账号功能才能继续正常使用。请重新登录。"
   },
   "we_provide_a_telegram_bot_to_relay": {
     "message": "我们提供了一个 Telegram 机器人来转发你的消息 @philink_bot"
+  },
+  "we_re_preparing_your_data_export_we": {
+    "message": "我们正在准备你的数据导出。准备就绪后，我们会通过电子邮件向你发送下载链接。该链接有效期为 7 天。"
   },
   "website": {
     "message": "网站"
@@ -3608,6 +3713,9 @@
   "your_data_and_settings": {
     "message": "你的数据和设置"
   },
+  "your_data_export_is_ready_check_your": {
+    "message": "你的数据导出已就绪。请查收电子邮件获取下载链接。该链接有效期为 7 天。"
+  },
   "your_deletion_request_has_been_submitted_you": {
     "message": "你的删除请求已提交。删除完成后，你会收到一封确认邮件。\n\nPhi 现在会将你退出登录，移除它在这台 Mac 上的数据，然后退出。"
   },
@@ -3631,6 +3739,9 @@
   },
   "your_session_has_expired_please_sign_in": {
     "message": "你的会话已过期。请重新登录，然后重新开始删除。"
+  },
+  "your_session_has_expired_please_sign_in_0829": {
+    "message": "你的会话已过期。请重新登录，然后重新开始导出。"
   },
   "your_spaces": {
     "message": "你的空间"

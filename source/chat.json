@@ -1111,6 +1111,10 @@
     "message": "Chat not found.",
     "description": "Location: Chat. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. The conversation does not exist."
   },
+  "errors_run_failed": {
+    "message": "Run failed",
+    "description": "Location: Chat. Messages shown when a request to the service fails. Generic chat error shown when a reply fails without a specific reason."
+  },
   "errors_token_invalid": {
     "message": "Invalid or expired authentication token.",
     "description": "Location: Chat. Messages shown when a request to the service fails. Errors about the token that authenticates the user. The authentication token was rejected or has expired."
@@ -1134,6 +1138,46 @@
   "file_upload_failed": {
     "message": "File upload failed",
     "description": "Location: Chat. File attachment errors and controls. Toast when a file upload fails."
+  },
+  "message_activity_fallback_default1": {
+    "message": "Thinking it through...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Generic in-progress status label."
+  },
+  "message_activity_fallback_default2": {
+    "message": "Working on it...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Generic in-progress status label."
+  },
+  "message_activity_fallback_default3": {
+    "message": "Getting oriented...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Generic in-progress status label."
+  },
+  "message_activity_fallback_default4": {
+    "message": "Taking a closer look...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Generic in-progress status label."
+  },
+  "message_activity_fallback_default5": {
+    "message": "Figuring this out...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Generic in-progress status label."
+  },
+  "message_activity_fallback_interjection1": {
+    "message": "Adjusting course...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Status label after a mid-run user interjection."
+  },
+  "message_activity_fallback_interjection2": {
+    "message": "Reworking this...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Status label after a mid-run user interjection."
+  },
+  "message_activity_fallback_interjection3": {
+    "message": "Taking that into account...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Status label after a mid-run user interjection."
+  },
+  "message_activity_fallback_interjection4": {
+    "message": "Updating the plan...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Status label after a mid-run user interjection."
+  },
+  "message_activity_fallback_interjection5": {
+    "message": "Folding that in...",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Status label after a mid-run user interjection."
   },
   "message_collapse_raw_reasoning": {
     "message": "Collapse raw reasoning",
@@ -1263,6 +1307,234 @@
     "message": "Messages from connected channels cannot be edited.",
     "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Toast: messages synced from IM channels (e.g. Telegram) can't be edited."
   },
+  "message_loading_phrases_p01": {
+    "message": "Fishing for answers",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p02": {
+    "message": "Diving deep",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p03": {
+    "message": "Swimming through data",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p04": {
+    "message": "Surfing the knowledge waves",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p05": {
+    "message": "Brewing something good",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p06": {
+    "message": "Summoning the brain fish",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p07": {
+    "message": "Connecting the dots",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p08": {
+    "message": "Casting the net wide",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p09": {
+    "message": "Reeling in results",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p10": {
+    "message": "Exploring the deep end",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p11": {
+    "message": "Charting the waters",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p12": {
+    "message": "Riding the current",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p13": {
+    "message": "Catching a big one",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p14": {
+    "message": "Navigating the stream",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p15": {
+    "message": "Hooking some insights",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p16": {
+    "message": "Scouting the reef",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p17": {
+    "message": "Wading through the info",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p18": {
+    "message": "Trolling for treasures",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p19": {
+    "message": "Baiting the data lake",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p20": {
+    "message": "Splashing through thoughts",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p21": {
+    "message": "Floating new ideas",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p22": {
+    "message": "Drifting toward answers",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p23": {
+    "message": "Chasing the school of thought",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p24": {
+    "message": "Trawling the archives",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p25": {
+    "message": "Testing the waters",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p26": {
+    "message": "Making a splash",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p27": {
+    "message": "Going with the flow",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p28": {
+    "message": "Bubbling up results",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p29": {
+    "message": "Untangling the net",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p30": {
+    "message": "Sailing through sources",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p31": {
+    "message": "Skimming the surface",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p32": {
+    "message": "Plunging into the deep",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p33": {
+    "message": "Cruising the data stream",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p34": {
+    "message": "Hooked on a lead",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p35": {
+    "message": "Sifting through the current",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p36": {
+    "message": "Mapping the ocean floor",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p37": {
+    "message": "Tuning the sonar",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p38": {
+    "message": "Following the ripples",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p39": {
+    "message": "Scanning the horizon",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p40": {
+    "message": "Launching the submarine",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p41": {
+    "message": "Decoding the signal",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p42": {
+    "message": "Hatching a plan",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p43": {
+    "message": "Warming up the engines",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p44": {
+    "message": "Spinning the compass",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p45": {
+    "message": "Polishing the telescope",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p46": {
+    "message": "Shaking the magic fish bowl",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p47": {
+    "message": "Consulting the sea oracle",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p48": {
+    "message": "Reading the tides",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p49": {
+    "message": "Assembling the crew",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p50": {
+    "message": "Plotting the course",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p51": {
+    "message": "Fishing in deeper waters",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p52": {
+    "message": "Chasing a golden fish",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p53": {
+    "message": "Swimming upstream",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p54": {
+    "message": "Stirring the whirlpool",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p55": {
+    "message": "Anchoring the findings",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p56": {
+    "message": "Catching the wave",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
+  "message_loading_phrases_p57": {
+    "message": "Letting the bait sink in",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+  },
   "message_open_in_new_tab": {
     "message": "Open in new tab",
     "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: open a link/artifact in a new browser tab."
@@ -1327,6 +1599,14 @@
     "message": "Tool calls",
     "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Header of the tool-call list on a message."
   },
+  "message_tool_error_fallback": {
+    "message": "Tool error",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Generic error text on a tool call card when the tool failed without reporting a specific message."
+  },
+  "message_tool_interrupted_by_user": {
+    "message": "Interrupted by user",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Error text on a tool call card when the user stopped the run before the tool finished."
+  },
   "message_tool_web_search": {
     "message": "Web search tool",
     "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Display name of the built-in web search tool."
@@ -1374,6 +1654,10 @@
   "newtab_greeting_evening": {
     "message": "Good evening",
     "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Time-of-day fallback greeting on the NTP. Fallback greeting in the evening."
+  },
+  "newtab_greeting_explain_message": {
+    "message": "I just saw this greeting on my new tab: \"{{greeting}}\"\n\nWhy did you pick this one for me?",
+    "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Message inserted into the chat on the user's behalf when they ask why a new-tab greeting was chosen for them. {{greeting}} is the greeting text."
   },
   "newtab_greeting_morning": {
     "message": "Good morning",
@@ -1751,6 +2035,10 @@
     "message": "Shadow task list",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Heading of the task list pane."
   },
+  "shadow_tasks_load_error": {
+    "message": "Failed to load shadow task data.",
+    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Error shown when the background-task list or a task's details fail to load."
+  },
   "shadow_tasks_loading": {
     "message": "Loading tasks...",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Loading state of the task list."
@@ -1979,6 +2267,10 @@
     "message": "This tab is already closed. Retry only if preview is still available underneath.",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Hint under a closed tab's preview."
   },
+  "shadow_tasks_stream_error_with_code": {
+    "message": "Stream error ({{code}})",
+    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Error shown under the live tab preview when streaming fails. {{code}} is a technical reason code and stays untranslated."
+  },
   "shadow_tasks_stream_no_tab_selected": {
     "message": "Select a tab to preview",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Placeholder before a tab is chosen."
@@ -2014,6 +2306,10 @@
   "shadow_tasks_tabs_state_open": {
     "message": "open",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Tabs the task opened. Open/closed state of a task tab. Tab state badge (lowercase by design)."
+  },
+  "shadow_tasks_tabs_tab_fallback": {
+    "message": "Tab {{number}}",
+    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Tabs the task opened. Fallback label for a browser tab that has no title or URL. {{number}} is the tab's position or numeric id."
   },
   "shadow_tasks_tabs_tab_with_index": {
     "message": "Tab {{index}} · {{title}}",
@@ -2722,6 +3018,10 @@
   "user_input_remove_tab_group": {
     "message": "Remove tab group",
     "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. aria/tooltip on a tab-group chip's remove button."
+  },
+  "user_input_skill_fallback_name": {
+    "message": "skill",
+    "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Fallback name on a mentioned-skill chip in the composer when the skill has no display name."
   },
   "user_input_skills": {
     "message": "Skills",

@@ -833,6 +833,9 @@
   "errors_chat_not_found": {
     "message": "Conversation introuvable."
   },
+  "errors_run_failed": {
+    "message": "Échec de l'exécution"
+  },
   "errors_token_invalid": {
     "message": "Jeton d'authentification non valide ou expiré."
   },
@@ -850,6 +853,36 @@
   },
   "file_upload_failed": {
     "message": "Échec du téléversement du fichier"
+  },
+  "message_activity_fallback_default1": {
+    "message": "Réflexion en cours..."
+  },
+  "message_activity_fallback_default2": {
+    "message": "Traitement en cours..."
+  },
+  "message_activity_fallback_default3": {
+    "message": "Prise de repères..."
+  },
+  "message_activity_fallback_default4": {
+    "message": "Examen approfondi..."
+  },
+  "message_activity_fallback_default5": {
+    "message": "Résolution en cours..."
+  },
+  "message_activity_fallback_interjection1": {
+    "message": "Ajustement du cap..."
+  },
+  "message_activity_fallback_interjection2": {
+    "message": "Remaniement en cours..."
+  },
+  "message_activity_fallback_interjection3": {
+    "message": "Prise en compte de votre message..."
+  },
+  "message_activity_fallback_interjection4": {
+    "message": "Mise à jour du plan..."
+  },
+  "message_activity_fallback_interjection5": {
+    "message": "Intégration de votre remarque..."
   },
   "message_collapse_raw_reasoning": {
     "message": "Réduire le raisonnement brut"
@@ -947,6 +980,177 @@
   "message_im_messages_not_editable": {
     "message": "Les messages provenant des canaux connectés ne peuvent pas être modifiés."
   },
+  "message_loading_phrases_p01": {
+    "message": "On part à la pêche aux réponses"
+  },
+  "message_loading_phrases_p02": {
+    "message": "On plonge en eaux profondes"
+  },
+  "message_loading_phrases_p03": {
+    "message": "On nage dans les données"
+  },
+  "message_loading_phrases_p04": {
+    "message": "On surfe sur les vagues du savoir"
+  },
+  "message_loading_phrases_p05": {
+    "message": "On mijote quelque chose de bon"
+  },
+  "message_loading_phrases_p06": {
+    "message": "On invoque le poisson-cerveau"
+  },
+  "message_loading_phrases_p07": {
+    "message": "On relie les points"
+  },
+  "message_loading_phrases_p08": {
+    "message": "On lance le filet bien large"
+  },
+  "message_loading_phrases_p09": {
+    "message": "On remonte les résultats"
+  },
+  "message_loading_phrases_p10": {
+    "message": "On explore le grand bain"
+  },
+  "message_loading_phrases_p11": {
+    "message": "On dresse la carte des eaux"
+  },
+  "message_loading_phrases_p12": {
+    "message": "On chevauche le courant"
+  },
+  "message_loading_phrases_p13": {
+    "message": "La pêche au gros est ouverte"
+  },
+  "message_loading_phrases_p14": {
+    "message": "On navigue au fil de l'eau"
+  },
+  "message_loading_phrases_p15": {
+    "message": "On ferre quelques idées"
+  },
+  "message_loading_phrases_p16": {
+    "message": "On inspecte le récif"
+  },
+  "message_loading_phrases_p17": {
+    "message": "On patauge dans les infos"
+  },
+  "message_loading_phrases_p18": {
+    "message": "On pêche les trésors à la traîne"
+  },
+  "message_loading_phrases_p19": {
+    "message": "On amorce le lac de données"
+  },
+  "message_loading_phrases_p20": {
+    "message": "On barbote dans les pensées"
+  },
+  "message_loading_phrases_p21": {
+    "message": "De nouvelles idées font surface"
+  },
+  "message_loading_phrases_p22": {
+    "message": "On dérive vers les réponses"
+  },
+  "message_loading_phrases_p23": {
+    "message": "On suit le courant de pensée"
+  },
+  "message_loading_phrases_p24": {
+    "message": "On passe les archives au chalut"
+  },
+  "message_loading_phrases_p25": {
+    "message": "On trempe un orteil dans l'eau"
+  },
+  "message_loading_phrases_p26": {
+    "message": "On fait des vagues"
+  },
+  "message_loading_phrases_p27": {
+    "message": "On se laisse porter par le courant"
+  },
+  "message_loading_phrases_p28": {
+    "message": "Les résultats remontent à la surface"
+  },
+  "message_loading_phrases_p29": {
+    "message": "On démêle le filet"
+  },
+  "message_loading_phrases_p30": {
+    "message": "Toutes voiles dehors dans les sources"
+  },
+  "message_loading_phrases_p31": {
+    "message": "On effleure la surface"
+  },
+  "message_loading_phrases_p32": {
+    "message": "On pique une tête dans les abysses"
+  },
+  "message_loading_phrases_p33": {
+    "message": "On vogue sur le flux de données"
+  },
+  "message_loading_phrases_p34": {
+    "message": "Ça mord : on tient une piste"
+  },
+  "message_loading_phrases_p35": {
+    "message": "On tamise le courant"
+  },
+  "message_loading_phrases_p36": {
+    "message": "On cartographie les fonds marins"
+  },
+  "message_loading_phrases_p37": {
+    "message": "On règle le sonar"
+  },
+  "message_loading_phrases_p38": {
+    "message": "On suit les ronds dans l'eau"
+  },
+  "message_loading_phrases_p39": {
+    "message": "On scrute l'horizon"
+  },
+  "message_loading_phrases_p40": {
+    "message": "On met le sous-marin à l'eau"
+  },
+  "message_loading_phrases_p41": {
+    "message": "On décode le signal"
+  },
+  "message_loading_phrases_p42": {
+    "message": "On couve un plan"
+  },
+  "message_loading_phrases_p43": {
+    "message": "On fait chauffer les moteurs"
+  },
+  "message_loading_phrases_p44": {
+    "message": "On fait tourner la boussole"
+  },
+  "message_loading_phrases_p45": {
+    "message": "On astique la longue-vue"
+  },
+  "message_loading_phrases_p46": {
+    "message": "On secoue le bocal magique"
+  },
+  "message_loading_phrases_p47": {
+    "message": "On consulte l'oracle des mers"
+  },
+  "message_loading_phrases_p48": {
+    "message": "On lit dans les marées"
+  },
+  "message_loading_phrases_p49": {
+    "message": "On rassemble l'équipage"
+  },
+  "message_loading_phrases_p50": {
+    "message": "On trace la route"
+  },
+  "message_loading_phrases_p51": {
+    "message": "On pêche en eaux plus profondes"
+  },
+  "message_loading_phrases_p52": {
+    "message": "On poursuit le poisson d'or"
+  },
+  "message_loading_phrases_p53": {
+    "message": "On remonte le courant"
+  },
+  "message_loading_phrases_p54": {
+    "message": "On agite le tourbillon"
+  },
+  "message_loading_phrases_p55": {
+    "message": "On jette l'ancre sur les découvertes"
+  },
+  "message_loading_phrases_p56": {
+    "message": "On prend la vague"
+  },
+  "message_loading_phrases_p57": {
+    "message": "On laisse l'appât faire son effet"
+  },
   "message_open_in_new_tab": {
     "message": "Ouvrir dans un nouvel onglet"
   },
@@ -995,6 +1199,12 @@
   "message_tool_calls": {
     "message": "Appels d'outils"
   },
+  "message_tool_error_fallback": {
+    "message": "Erreur de l'outil"
+  },
+  "message_tool_interrupted_by_user": {
+    "message": "Interrompu par l'utilisateur"
+  },
   "message_tool_web_search": {
     "message": "Outil de recherche web"
   },
@@ -1030,6 +1240,9 @@
   },
   "newtab_greeting_evening": {
     "message": "Bonsoir"
+  },
+  "newtab_greeting_explain_message": {
+    "message": "Je viens de voir ce message d'accueil sur mon nouvel onglet : « {{greeting}} »\n\nPourquoi avoir choisi celui-ci pour moi ?"
   },
   "newtab_greeting_morning": {
     "message": "Bonjour"
@@ -1313,6 +1526,9 @@
   "shadow_tasks_list_title": {
     "message": "Liste des tâches en arrière-plan"
   },
+  "shadow_tasks_load_error": {
+    "message": "Échec du chargement des données des tâches en arrière-plan."
+  },
   "shadow_tasks_loading": {
     "message": "Chargement des tâches…"
   },
@@ -1484,6 +1700,9 @@
   "shadow_tasks_stream_closed_tab_hint": {
     "message": "Cet onglet est déjà fermé. Réessayez uniquement si l'aperçu est encore disponible en dessous."
   },
+  "shadow_tasks_stream_error_with_code": {
+    "message": "Erreur de flux ({{code}})"
+  },
   "shadow_tasks_stream_no_tab_selected": {
     "message": "Sélectionnez un onglet pour afficher l'aperçu"
   },
@@ -1510,6 +1729,9 @@
   },
   "shadow_tasks_tabs_state_open": {
     "message": "ouvert"
+  },
+  "shadow_tasks_tabs_tab_fallback": {
+    "message": "Onglet {{number}}"
   },
   "shadow_tasks_tabs_tab_with_index": {
     "message": "Onglet {{index}} · {{title}}"
@@ -2041,6 +2263,9 @@
   },
   "user_input_remove_tab_group": {
     "message": "Retirer le groupe d'onglets"
+  },
+  "user_input_skill_fallback_name": {
+    "message": "skill"
   },
   "user_input_skills": {
     "message": "Skills"

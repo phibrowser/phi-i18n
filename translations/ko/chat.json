@@ -833,6 +833,9 @@
   "errors_chat_not_found": {
     "message": "대화를 찾을 수 없어요."
   },
+  "errors_run_failed": {
+    "message": "실행에 실패했어요"
+  },
   "errors_token_invalid": {
     "message": "인증 토큰이 유효하지 않거나 만료됐어요."
   },
@@ -850,6 +853,36 @@
   },
   "file_upload_failed": {
     "message": "파일 업로드에 실패했어요"
+  },
+  "message_activity_fallback_default1": {
+    "message": "생각을 정리하는 중..."
+  },
+  "message_activity_fallback_default2": {
+    "message": "처리하는 중..."
+  },
+  "message_activity_fallback_default3": {
+    "message": "방향을 잡는 중..."
+  },
+  "message_activity_fallback_default4": {
+    "message": "자세히 살펴보는 중..."
+  },
+  "message_activity_fallback_default5": {
+    "message": "내용을 파악하는 중..."
+  },
+  "message_activity_fallback_interjection1": {
+    "message": "방향을 조정하는 중..."
+  },
+  "message_activity_fallback_interjection2": {
+    "message": "다시 작업하는 중..."
+  },
+  "message_activity_fallback_interjection3": {
+    "message": "새 요청을 고려하는 중..."
+  },
+  "message_activity_fallback_interjection4": {
+    "message": "계획을 수정하는 중..."
+  },
+  "message_activity_fallback_interjection5": {
+    "message": "새 내용을 반영하는 중..."
   },
   "message_collapse_raw_reasoning": {
     "message": "원본 추론 접기"
@@ -947,6 +980,177 @@
   "message_im_messages_not_editable": {
     "message": "연결된 채널에서 온 메시지는 수정할 수 없어요."
   },
+  "message_loading_phrases_p01": {
+    "message": "답을 낚는 중"
+  },
+  "message_loading_phrases_p02": {
+    "message": "깊이 잠수하는 중"
+  },
+  "message_loading_phrases_p03": {
+    "message": "데이터 속을 헤엄치는 중"
+  },
+  "message_loading_phrases_p04": {
+    "message": "지식의 파도를 타는 중"
+  },
+  "message_loading_phrases_p05": {
+    "message": "좋은 걸 진하게 우려내는 중"
+  },
+  "message_loading_phrases_p06": {
+    "message": "두뇌 물고기를 소환하는 중"
+  },
+  "message_loading_phrases_p07": {
+    "message": "점과 점을 잇는 중"
+  },
+  "message_loading_phrases_p08": {
+    "message": "그물을 넓게 던지는 중"
+  },
+  "message_loading_phrases_p09": {
+    "message": "결과를 릴로 감아 올리는 중"
+  },
+  "message_loading_phrases_p10": {
+    "message": "가장 깊은 곳을 탐험하는 중"
+  },
+  "message_loading_phrases_p11": {
+    "message": "낯선 바다를 지도에 그리는 중"
+  },
+  "message_loading_phrases_p12": {
+    "message": "해류에 몸을 맡기는 중"
+  },
+  "message_loading_phrases_p13": {
+    "message": "월척을 낚아 올리는 중"
+  },
+  "message_loading_phrases_p14": {
+    "message": "물길 따라 배를 모는 중"
+  },
+  "message_loading_phrases_p15": {
+    "message": "인사이트를 낚아채는 중"
+  },
+  "message_loading_phrases_p16": {
+    "message": "산호초를 정찰하는 중"
+  },
+  "message_loading_phrases_p17": {
+    "message": "정보의 얕은 물을 건너는 중"
+  },
+  "message_loading_phrases_p18": {
+    "message": "낚싯줄을 끌며 보물 찾는 중"
+  },
+  "message_loading_phrases_p19": {
+    "message": "데이터 호수에 미끼를 던지는 중"
+  },
+  "message_loading_phrases_p20": {
+    "message": "생각 속에서 첨벙거리는 중"
+  },
+  "message_loading_phrases_p21": {
+    "message": "새 아이디어를 물 위에 띄우는 중"
+  },
+  "message_loading_phrases_p22": {
+    "message": "답을 향해 둥둥 떠가는 중"
+  },
+  "message_loading_phrases_p23": {
+    "message": "생각의 물고기 떼를 쫓는 중"
+  },
+  "message_loading_phrases_p24": {
+    "message": "기록 보관소를 그물로 훑는 중"
+  },
+  "message_loading_phrases_p25": {
+    "message": "물 온도를 슬쩍 재보는 중"
+  },
+  "message_loading_phrases_p26": {
+    "message": "첨벙 물보라를 일으키는 중"
+  },
+  "message_loading_phrases_p27": {
+    "message": "물 흐르듯 흘러가는 중"
+  },
+  "message_loading_phrases_p28": {
+    "message": "결과가 보글보글 올라오는 중"
+  },
+  "message_loading_phrases_p29": {
+    "message": "엉킨 그물을 푸는 중"
+  },
+  "message_loading_phrases_p30": {
+    "message": "자료의 바다를 항해하는 중"
+  },
+  "message_loading_phrases_p31": {
+    "message": "수면 위를 미끄러지듯 훑는 중"
+  },
+  "message_loading_phrases_p32": {
+    "message": "깊은 물속으로 풍덩 뛰어드는 중"
+  },
+  "message_loading_phrases_p33": {
+    "message": "데이터 물길을 유유히 떠가는 중"
+  },
+  "message_loading_phrases_p34": {
+    "message": "단서가 입질하는 중"
+  },
+  "message_loading_phrases_p35": {
+    "message": "물살에서 사금을 거르는 중"
+  },
+  "message_loading_phrases_p36": {
+    "message": "해저 지도를 그리는 중"
+  },
+  "message_loading_phrases_p37": {
+    "message": "소나를 조율하는 중"
+  },
+  "message_loading_phrases_p38": {
+    "message": "잔물결을 따라가는 중"
+  },
+  "message_loading_phrases_p39": {
+    "message": "수평선을 살피는 중"
+  },
+  "message_loading_phrases_p40": {
+    "message": "잠수함을 출동시키는 중"
+  },
+  "message_loading_phrases_p41": {
+    "message": "신호를 해독하는 중"
+  },
+  "message_loading_phrases_p42": {
+    "message": "계획을 부화시키는 중"
+  },
+  "message_loading_phrases_p43": {
+    "message": "엔진을 예열하는 중"
+  },
+  "message_loading_phrases_p44": {
+    "message": "나침반을 빙글 돌리는 중"
+  },
+  "message_loading_phrases_p45": {
+    "message": "망원경을 반짝반짝 닦는 중"
+  },
+  "message_loading_phrases_p46": {
+    "message": "마법의 어항을 흔드는 중"
+  },
+  "message_loading_phrases_p47": {
+    "message": "바다의 현자에게 물어보는 중"
+  },
+  "message_loading_phrases_p48": {
+    "message": "물때를 읽는 중"
+  },
+  "message_loading_phrases_p49": {
+    "message": "선원을 불러 모으는 중"
+  },
+  "message_loading_phrases_p50": {
+    "message": "항로를 그리는 중"
+  },
+  "message_loading_phrases_p51": {
+    "message": "더 깊은 물에서 낚시하는 중"
+  },
+  "message_loading_phrases_p52": {
+    "message": "황금 물고기를 쫓는 중"
+  },
+  "message_loading_phrases_p53": {
+    "message": "물살을 거슬러 헤엄치는 중"
+  },
+  "message_loading_phrases_p54": {
+    "message": "소용돌이를 휘휘 젓는 중"
+  },
+  "message_loading_phrases_p55": {
+    "message": "찾아낸 것에 닻을 내리는 중"
+  },
+  "message_loading_phrases_p56": {
+    "message": "파도에 올라타는 중"
+  },
+  "message_loading_phrases_p57": {
+    "message": "미끼가 푹 가라앉게 두는 중"
+  },
   "message_open_in_new_tab": {
     "message": "새 탭에서 열기"
   },
@@ -995,6 +1199,12 @@
   "message_tool_calls": {
     "message": "도구 호출"
   },
+  "message_tool_error_fallback": {
+    "message": "도구 오류"
+  },
+  "message_tool_interrupted_by_user": {
+    "message": "사용자가 중단함"
+  },
   "message_tool_web_search": {
     "message": "웹 검색 도구"
   },
@@ -1030,6 +1240,9 @@
   },
   "newtab_greeting_evening": {
     "message": "좋은 저녁이에요"
+  },
+  "newtab_greeting_explain_message": {
+    "message": "방금 새 탭에서 이 인사말을 봤어요: \"{{greeting}}\"\n\n왜 저에게 이걸 골라 줬어요?"
   },
   "newtab_greeting_morning": {
     "message": "좋은 아침이에요"
@@ -1313,6 +1526,9 @@
   "shadow_tasks_list_title": {
     "message": "백그라운드 작업 목록"
   },
+  "shadow_tasks_load_error": {
+    "message": "백그라운드 작업 데이터를 불러오지 못했어요."
+  },
   "shadow_tasks_loading": {
     "message": "작업을 불러오는 중…"
   },
@@ -1484,6 +1700,9 @@
   "shadow_tasks_stream_closed_tab_hint": {
     "message": "이 탭은 이미 닫혔어요. 아래에 미리보기가 아직 남아 있을 때만 다시 시도하세요."
   },
+  "shadow_tasks_stream_error_with_code": {
+    "message": "스트림 오류 ({{code}})"
+  },
   "shadow_tasks_stream_no_tab_selected": {
     "message": "미리 볼 탭을 선택하세요"
   },
@@ -1510,6 +1729,9 @@
   },
   "shadow_tasks_tabs_state_open": {
     "message": "열림"
+  },
+  "shadow_tasks_tabs_tab_fallback": {
+    "message": "{{number}}번 탭"
   },
   "shadow_tasks_tabs_tab_with_index": {
     "message": "탭 {{index}} · {{title}}"
@@ -2041,6 +2263,9 @@
   },
   "user_input_remove_tab_group": {
     "message": "탭 그룹 제거"
+  },
+  "user_input_skill_fallback_name": {
+    "message": "스킬"
   },
   "user_input_skills": {
     "message": "스킬"

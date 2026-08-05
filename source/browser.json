@@ -455,6 +455,10 @@
     "message": "Balanced",
     "description": "Location: Browser. Layout option - Vertical tabs with address bar at the top of webcontent"
   },
+  "before_we_begin": {
+    "message": "Before we begin",
+    "description": "Location: Browser. Guest privacy confirmation - Page title shown before entering Guest Mode"
+  },
   "bitwarden": {
     "message": "Bitwarden",
     "description": "Location: Browser. Onboarding password manager - Bitwarden option"
@@ -645,7 +649,7 @@
   },
   "cancel": {
     "message": "Cancel",
-    "description": "Location: Browser. Account deletion - Button abandoning the deletion flow without deleting anything"
+    "description": "Location: Browser. Account data export - Button abandoning verification without cancelling a server task"
   },
   "cancel_0bd68f": {
     "message": "Cancel",
@@ -795,6 +799,10 @@
     "message": "Cancel",
     "description": "Location: Browser. Developer settings - Skill overwrite cancel button"
   },
+  "cancel_f7f2fa": {
+    "message": "Cancel",
+    "description": "Location: Browser. Account data export - Button dismissing the confirmation"
+  },
   "cancel_f89d01": {
     "message": "Cancel",
     "description": "Location: Browser. Cancel button"
@@ -922,6 +930,10 @@
   "choose_which_profiles_agents_may_create_their": {
     "message": "Choose which profiles agents may create their own Spaces in. Turning a profile off stops agents from opening any new Space bound to it; existing Spaces are unaffected.",
     "description": "Location: Browser. Developer settings - Explanation for the per-profile agent-Space allowlist"
+  },
+  "chromium": {
+    "message": "Chromium",
+    "description": "Location: Browser. About window - Link text to the Chromium project home"
   },
   "chromium_engine_version": {
     "message": "Chromium Engine Version %@",
@@ -1259,6 +1271,10 @@
     "message": "Couldn’t install the skill",
     "description": "Location: Browser. Developer settings - Skill install error title"
   },
+  "couldn_t_reach_the_data_export_service": {
+    "message": "Couldn't reach the data export service. Check your internet connection and try again.",
+    "description": "Location: Browser. Account data export - Error when the network request cannot complete"
+  },
   "couldn_t_reach_the_deletion_service_check": {
     "message": "Couldn't reach the deletion service. Check your internet connection and try again.",
     "description": "Location: Browser. Account deletion - Error when the network request could not complete"
@@ -1555,6 +1571,10 @@
     "message": "Done",
     "description": "Location: Browser. Approvals sheet - done button"
   },
+  "download_any_data_export_you_want_to": {
+    "message": "Download any data export you want to keep before deleting your account. Deletion cancels exports in progress and permanently removes existing download files and links.",
+    "description": "Location: Browser. Account deletion - Warning that account deletion cancels and removes data exports"
+  },
   "download_image": {
     "message": "Download image",
     "description": "Location: Browser. Account settings - Button to download profile card as image"
@@ -1719,6 +1739,10 @@
     "message": " · ended",
     "description": "Location: Browser. Agent console - filter label suffix for a finished task"
   },
+  "enjoy_using_phi_browser": {
+    "message": "Enjoy using Phi Browser 🎉",
+    "description": "Location: Browser. Onboarding next steps - Fourth guide step welcoming the user to Phi Browser"
+  },
   "enter_a_name_for_the_new_folder": {
     "message": "Enter a name for the new folder.",
     "description": "Location: Browser. Bookmark editor - Inline new folder creation subtitle"
@@ -1799,6 +1823,10 @@
     "message": "Export",
     "description": "Location: Browser. Help menu - NSSavePanel primary button title for confirming log export save location"
   },
+  "export_account_data": {
+    "message": "Export Account Data",
+    "description": "Location: Browser. Account data export - Title of the verification and status dialog"
+  },
   "export_bookmarks": {
     "message": "Export Bookmarks...",
     "description": "Location: Browser. Bookmarks menu - Menu item to export the current Space's bookmarks to an HTML file"
@@ -1822,6 +1850,10 @@
   "export_user_data": {
     "message": "Export User Data...",
     "description": "Location: Browser. Help menu - Submenu item to save Phi user data folder as a zip backup"
+  },
+  "export_your_account_data": {
+    "message": "Export your account data?",
+    "description": "Location: Browser. Account data export - Title of the confirmation shown before requesting a code"
   },
   "extension_info": {
     "message": "Extension Info",
@@ -2059,6 +2091,10 @@
     "message": "Guest data cleanup is incomplete",
     "description": "Location: Browser. Guest migration - Alert title when account setup succeeded but the old Guest directory could not be removed"
   },
+  "have_your_ai_assistant_help_you_understand": {
+    "message": "Have your AI assistant help you understand the fine print 👇",
+    "description": "Location: Browser. Onboarding next steps - Third guide step for using the AI assistant to understand detailed text"
+  },
   "help": {
     "message": "Help",
     "description": "Location: Browser. Shortcuts settings - Section title for help commands"
@@ -2066,6 +2102,14 @@
   "help_mac": {
     "message": "Documentation",
     "description": "Location: Browser. The Mac menu item to show help in the Help menu."
+  },
+  "help_make_phi_better_by_sharing_usage": {
+    "message": "Help make Phi better by sharing usage metrics and crash reports",
+    "description": "Location: Browser. Guest privacy confirmation - Optional checkbox for sharing usage metrics and crash reports"
+  },
+  "help_make_phi_better_by_sharing_usage_715b3e": {
+    "message": "Help make Phi better by sharing usage metrics and crash reports",
+    "description": "Location: Browser. Onboarding next steps - Optional checkbox for sharing usage metrics and crash reports"
   },
   "here_to_begin_the_botfather": {
     "message": "here to begin the @BotFather",
@@ -2107,6 +2151,14 @@
     "message": "https://vault.example.com",
     "description": "Location: Browser. "
   },
+  "i_agree_to_the_and": {
+    "message": "I agree to the %1$@ and %2$@",
+    "description": "Location: Browser. Guest privacy confirmation - Required legal agreement; first placeholder is the Privacy Policy link and second is the Terms of Service link"
+  },
+  "i_agree_to_the_and_e21b1f": {
+    "message": "I agree to the %1$@ and %2$@",
+    "description": "Location: Browser. Onboarding next steps - Required legal agreement; first placeholder is the Privacy link and second is the Terms link"
+  },
   "i_ll_setup_my_own": {
     "message": "I'll setup my own",
     "description": "Location: Browser. Onboarding password manager - Manual setup option"
@@ -2142,6 +2194,10 @@
   "import_completed_with_errors_failed_to_import": {
     "message": "Import completed with errors. Failed to import from: %@",
     "description": "Location: Browser. Browser data importer - Status message when some imports failed, shows list of failed browsers"
+  },
+  "import_data_from_another_browser": {
+    "message": "Import data from another browser",
+    "description": "Location: Browser. Onboarding next steps - Second guide step for importing browser data"
   },
   "import_failed": {
     "message": "Import Failed",
@@ -2198,6 +2254,10 @@
   "importing_safari_data": {
     "message": "Importing Safari data...",
     "description": "Location: Browser. Browser data importer - Status message while importing Safari browser data"
+  },
+  "improve_translations_for_phi_browser": {
+    "message": "Improve Translations for Phi Browser",
+    "description": "Location: Browser. Help menu - Menu item below What's New that opens Phi's translation contribution website"
   },
   "in_use_by_a_space": {
     "message": "%@ — in use by a Space",
@@ -2330,6 +2390,14 @@
   "left_url": {
     "message": "Left URL",
     "description": "Location: Browser. Bookmark editor - Label for the left (primary) URL input field on a split-view bookmark"
+  },
+  "let_s_begin": {
+    "message": "Let's Begin",
+    "description": "Location: Browser. Guest privacy confirmation - Button that confirms the choices and enters Guest Mode"
+  },
+  "let_s_begin_7de7eb": {
+    "message": "Let's Begin",
+    "description": "Location: Browser. Onboarding next steps - Final button that completes onboarding"
   },
   "lets_agent_tooling_manage_your_own_browsing": {
     "message": "Lets agent tooling manage your own browsing data — Spaces, profiles, URL rules, pinned tabs, bookmarks, and the tab layout of your windows. When off, agents can only work inside their own agent Spaces. Applies immediately.",
@@ -2723,6 +2791,10 @@
     "message": "Next Space",
     "description": "Location: Browser. Shortcuts settings - Command title for selecting the next Space"
   },
+  "next_steps": {
+    "message": "Next steps",
+    "description": "Location: Browser. Onboarding next steps - Page title"
+  },
   "no_active_agent_task": {
     "message": "No active agent task",
     "description": "Location: Browser. Agent console - prompt disabled placeholder"
@@ -2739,6 +2811,10 @@
     "message": "No agents approved yet. The first time one connects, Phi asks for your approval.",
     "description": "Location: Browser. Developer settings - Empty state for the allowed CDP agent list"
   },
+  "no_ai_features_until_you_sign_in": {
+    "message": "No AI features until you sign in",
+    "description": "Location: Browser. Guest privacy confirmation - Notice that AI features require signing in"
+  },
   "no_backup_archive_was_produced": {
     "message": "No backup archive was produced.",
     "description": "Location: Browser. User data export - Error when the requested backup produces no archive"
@@ -2747,13 +2823,17 @@
     "message": "No Backups Available",
     "description": "Location: Browser. Help menu - Time Machine submenu placeholder when no completed backups exist"
   },
+  "no_browser_memory_either": {
+    "message": "No Browser Memory either",
+    "description": "Location: Browser. Guest privacy confirmation - Notice that Browser Memory is unavailable without signing in"
+  },
   "no_certificate_available": {
     "message": "No certificate available",
     "description": "Location: Browser. No certificate tooltip"
   },
   "no_data_was_deleted": {
-    "message": "No data was deleted. %@",
-    "description": "Location: Browser. Phi uninstall - Error alert message; the placeholder is the technical reason the uninstall could not start"
+    "message": "Phi and its local files were not removed. Some sign-in data may already have been cleared. %@",
+    "description": "Location: Browser. Phi uninstall - Error alert message after uninstall preparation fails; the placeholder is the technical reason and sign-in cleanup may have partially completed"
   },
   "no_downloads": {
     "message": "No Downloads",
@@ -2979,6 +3059,10 @@
     "message": "On system lock",
     "description": "Location: Browser. Bitwarden session timeout - on system lock"
   },
+  "onboard_your_ai_assistant": {
+    "message": "Onboard your AI assistant",
+    "description": "Location: Browser. Onboarding next steps - First guide step for setting up the AI assistant"
+  },
   "only_once": {
     "message": "Only once",
     "description": "Location: Browser. Credential approval - duration segment"
@@ -3014,6 +3098,14 @@
   "open_settings": {
     "message": "Open Settings",
     "description": "Location: Browser. Import browser data page - Button to open system settings for granting permissions"
+  },
+  "open_source_software": {
+    "message": "open source software",
+    "description": "Location: Browser. About window - Link text to Chromium's open source software credits"
+  },
+  "open_source_software_d59d8c": {
+    "message": "open source software",
+    "description": "Location: Browser. About window - Link text to the browser's other open source software credits"
   },
   "open_tabs": {
     "message": "Open Tabs",
@@ -3111,6 +3203,10 @@
     "message": "Phi fills the saved login into the page itself. The agent triggers the fill but never receives the username or password.",
     "description": "Location: Browser. Credential approval - fill body"
   },
+  "phi_is_made_possible_by_the_open": {
+    "message": "Phi is made possible by the %1$@ open source project, Chromium's %2$@, as well as other %3$@.",
+    "description": "Location: Browser. About window - Acknowledgements sentence; the three placeholders are, in order, the Chromium project name link, Chromium's open source software link, and other open source software link"
+  },
   "phi_is_not_your_default_browser": {
     "message": "Phi is not your default browser",
     "description": "Location: Browser. Account settings - Initial status text before the current default-browser state is refreshed"
@@ -3125,7 +3221,7 @@
   },
   "phi_link": {
     "message": "Phi Link",
-    "description": "Location: Browser. Settings - Tab title for Phi Link settings"
+    "description": "Location: Browser. Phi & AI settings - Section title for Phi Link messaging options"
   },
   "phi_needs_full_disk_access_to_import": {
     "message": "Phi needs Full Disk Access to import your data from Safari.",
@@ -3263,9 +3359,17 @@
     "message": "Print…",
     "description": "Location: Browser. Shortcuts settings - Command title for printing the current page"
   },
+  "privacy": {
+    "message": "Privacy",
+    "description": "Location: Browser. Onboarding next steps - Link title for the Phi privacy policy"
+  },
   "privacy_and_security": {
     "message": "Privacy and Security",
     "description": "Location: Browser. Profiles settings - data link to privacy settings"
+  },
+  "privacy_policy": {
+    "message": "Privacy Policy",
+    "description": "Location: Browser. Guest privacy confirmation - Link title for the Phi privacy policy"
   },
   "private_ai": {
     "message": "Private AI",
@@ -3525,11 +3629,15 @@
   },
   "resend_code": {
     "message": "Resend Code",
-    "description": "Location: Browser. Account deletion - Button requesting a fresh verification code"
+    "description": "Location: Browser. Account data export - Button requesting a fresh verification code"
   },
   "resend_code_482c2b": {
     "message": "Resend Code (%ds)",
     "description": "Location: Browser. Account deletion - Resend button label while the one-minute cooldown runs. %d is the seconds remaining"
+  },
+  "resend_code_cbc823": {
+    "message": "Resend Code (%ds)",
+    "description": "Location: Browser. Account data export - Disabled resend label. %d is the seconds remaining"
   },
   "restart_phi": {
     "message": "Restart Phi",
@@ -3771,6 +3879,10 @@
     "message": "Send",
     "description": "Location: Browser. Feedback form - Send button to submit feedback"
   },
+  "send_code": {
+    "message": "Send Code",
+    "description": "Location: Browser. Account data export - Button requesting the verification email"
+  },
   "send_feedback_to_phi": {
     "message": "Send Feedback to Phi",
     "description": "Location: Browser. Feedback window - Window title for feedback submission"
@@ -3978,6 +4090,10 @@
   "sign_in_to_use_phi_ai": {
     "message": "Sign in to use Phi AI",
     "description": "Location: Browser. Account-required presentation - Title shown when a Guest opens a Phi AI feature"
+  },
+  "sign_in_whenever_you_re_ready": {
+    "message": "Sign in whenever you're ready",
+    "description": "Location: Browser. Guest privacy confirmation - Notice that the user can sign in later"
   },
   "sign_out": {
     "message": "Sign out",
@@ -4211,13 +4327,25 @@
     "message": "Telegram ID",
     "description": "Location: Browser. Phi Link - Official bot connected label"
   },
+  "terms": {
+    "message": "Terms",
+    "description": "Location: Browser. Onboarding next steps - Link title for the Phi terms of service"
+  },
+  "terms_of_service": {
+    "message": "Terms of Service",
+    "description": "Location: Browser. Guest privacy confirmation - Link title for the Phi terms of service"
+  },
   "that_code_has_expired_click_resend_code": {
     "message": "That code has expired. Click Resend Code to get a new one.",
     "description": "Location: Browser. Account deletion - Inline error when the verification code expired; points at the resend button"
   },
   "that_code_isn_t_correct_check_the": {
     "message": "That code isn't correct. Check the code from the email and try again.",
-    "description": "Location: Browser. Account deletion - Inline error when the submitted verification code is rejected"
+    "description": "Location: Browser. Account data export - Inline error when the submitted verification code is rejected"
+  },
+  "that_export_is_no_longer_available_try": {
+    "message": "That export is no longer available. Try again to request a new one.",
+    "description": "Location: Browser. Account data export - Error when a previously returned export task has ended without an available download"
   },
   "the_agent_handed_control_back_to_you": {
     "message": "The agent handed control back to you to finish a step — for example, signing in.",
@@ -4246,6 +4374,10 @@
   "the_connector_authorization_url_is_invalid": {
     "message": "The connector authorization URL is invalid.",
     "description": "Location: Browser. AI settings - OAuth authorization URL error"
+  },
+  "the_data_export_service_is_temporarily_unavailable": {
+    "message": "The data export service is temporarily unavailable. Please try again later.",
+    "description": "Location: Browser. Account data export - Error when the service reports a server error"
   },
   "the_deletion_service_is_temporarily_unavailable_please": {
     "message": "The deletion service is temporarily unavailable. Please try again later.",
@@ -4673,7 +4805,7 @@
   },
   "verification_code": {
     "message": "Verification code",
-    "description": "Location: Browser. Account deletion - Accessibility label of the verification code input"
+    "description": "Location: Browser. Account data export - Accessibility label for the verification code field"
   },
   "verification_failed_please_check_the_token_and": {
     "message": "Verification failed. Please check the token and try again.",
@@ -4685,7 +4817,7 @@
   },
   "verify": {
     "message": "Verify",
-    "description": "Location: Browser. Account deletion - Button submitting the emailed verification code"
+    "description": "Location: Browser. Account data export - Button submitting the emailed verification code"
   },
   "verify_2c105d": {
     "message": "Verify",
@@ -4723,6 +4855,10 @@
     "message": "“%@” wants to control Phi Browser",
     "description": "Location: Browser. CDP consent - title"
   },
+  "we_ll_send_a_verification_code_to": {
+    "message": "We'll send a verification code to %@. Once verified, we'll prepare a copy of the personal data associated with your Phi Browser account and email you a download link. The link will be available for seven days.",
+    "description": "Location: Browser. Account data export - Confirmation message before requesting a code. %@ is the account email"
+  },
   "we_need_to_refresh_your_session_before": {
     "message": "We need to refresh your session before account features can keep working. Please sign in again.",
     "description": "Location: Browser. Auth reauthentication - Alert body explaining required authentication"
@@ -4730,6 +4866,10 @@
   "we_provide_a_telegram_bot_to_relay": {
     "message": "We provide a Telegram bot to relay your messages @philink_bot",
     "description": "Location: Browser. Phi Link - Official Bot subtitle"
+  },
+  "we_re_preparing_your_data_export_we": {
+    "message": "We're preparing your data export. We'll email you a download link when it's ready. The link will be available for seven days.",
+    "description": "Location: Browser. Account data export - Message after an export task is accepted but not yet complete"
   },
   "website": {
     "message": "Website",
@@ -4811,6 +4951,10 @@
     "message": "Your Data and Settings",
     "description": "Location: Browser. Profiles settings - data & settings section header"
   },
+  "your_data_export_is_ready_check_your": {
+    "message": "Your data export is ready. Check your email for the download link. The link will be available for seven days.",
+    "description": "Location: Browser. Account data export - Message when an existing task has already sent its download email"
+  },
   "your_deletion_request_has_been_submitted_you": {
     "message": "Your deletion request has been submitted. You will receive an email receipt once the deletion is complete.\n\nPhi will now sign you out, remove its data from this Mac, and quit.",
     "description": "Location: Browser. Account deletion - Text shown once the deletion request is queued server-side; the deletion itself has not finished yet, and the finalize confirmation comes next"
@@ -4842,6 +4986,10 @@
   "your_session_has_expired_please_sign_in": {
     "message": "Your session has expired. Please sign in again, then restart the deletion.",
     "description": "Location: Browser. Account deletion - Error when the access token stays rejected even after renewing it"
+  },
+  "your_session_has_expired_please_sign_in_0829": {
+    "message": "Your session has expired. Please sign in again, then restart the export.",
+    "description": "Location: Browser. Account data export - Error when the access token remains rejected after renewal"
   },
   "your_spaces": {
     "message": "Your Spaces",

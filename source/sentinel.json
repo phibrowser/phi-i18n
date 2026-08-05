@@ -1749,7 +1749,7 @@
   },
   "local_ai_provider_detail_label_codex_login": {
     "message": "codex login",
-    "description": "Location: Sentinel. On-device AI runtime, model, provider, and role configuration. AI provider connection and model settings form. Command shown in monospace at the end of the Codex sign-in guidance, which tells the user to run it when no sign-in is found. Keep the command text exactly as it is."
+    "description": "Location: Sentinel. On-device AI runtime, model, provider, and role configuration. AI provider connection and model settings form. Field label for the detected Codex sign-in."
   },
   "local_ai_provider_detail_label_default_effort": {
     "message": "Default ({{effort}})",
@@ -1757,7 +1757,7 @@
   },
   "local_ai_provider_detail_label_legacy_endpoint": {
     "message": "Legacy endpoint",
-    "description": "Location: Sentinel. On-device AI runtime, model, provider, and role configuration. AI provider connection and model settings form. Subtitle shown under a provider entry whose connection uses an older request format instead of the OpenAI-compatible one."
+    "description": "Location: Sentinel. On-device AI runtime, model, provider, and role configuration. AI provider connection and model settings form. Provider subtitle for a legacy Anthropic-compatible endpoint."
   },
   "local_ai_provider_detail_label_loading_models": {
     "message": "Loading models...",
@@ -2701,7 +2701,7 @@
   },
   "notifications_tasks_task_deleted": {
     "message": "Task deleted",
-    "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after a task is deleted."
+    "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after archiving a task from the interface."
   },
   "notifications_tasks_task_update_failed": {
     "message": "Failed to update task",
@@ -3049,7 +3049,7 @@
   },
   "private_ai_diagnostics_label_clear_aiprovider_configuration": {
     "message": "Clear AI provider configuration",
-    "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Private AI diagnostics and reset panel. Item in the list of consequences in the reset confirmation dialog, stating that saved AI provider settings will be cleared."
+    "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Private AI diagnostics and reset panel. Instruction directing the user to clear AI provider configuration."
   },
   "private_ai_diagnostics_label_cloud_source_reset": {
     "message": "Return AI Sources to Phi Cloud",
@@ -3205,7 +3205,7 @@
   },
   "private_ai_providers_description_legacy_endpoint": {
     "message": "Legacy compatible endpoint.",
-    "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Description of the add-provider choice for a user-supplied endpoint that uses an older request format instead of the OpenAI-compatible one."
+    "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Description for a user-defined legacy Anthropic-compatible endpoint."
   },
   "private_ai_setup_wizard_action_done": {
     "message": "Done",

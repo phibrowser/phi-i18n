@@ -833,6 +833,9 @@
   "errors_chat_not_found": {
     "message": "チャットが見つかりません。"
   },
+  "errors_run_failed": {
+    "message": "実行に失敗しました"
+  },
   "errors_token_invalid": {
     "message": "認証トークンが無効か、期限切れです。"
   },
@@ -850,6 +853,36 @@
   },
   "file_upload_failed": {
     "message": "ファイルのアップロードに失敗しました"
+  },
+  "message_activity_fallback_default1": {
+    "message": "考えをまとめています..."
+  },
+  "message_activity_fallback_default2": {
+    "message": "作業を進めています..."
+  },
+  "message_activity_fallback_default3": {
+    "message": "状況を把握しています..."
+  },
+  "message_activity_fallback_default4": {
+    "message": "詳しく確認しています..."
+  },
+  "message_activity_fallback_default5": {
+    "message": "答えを探っています..."
+  },
+  "message_activity_fallback_interjection1": {
+    "message": "方針を調整しています..."
+  },
+  "message_activity_fallback_interjection2": {
+    "message": "内容を練り直しています..."
+  },
+  "message_activity_fallback_interjection3": {
+    "message": "その点を考慮しています..."
+  },
+  "message_activity_fallback_interjection4": {
+    "message": "計画を更新しています..."
+  },
+  "message_activity_fallback_interjection5": {
+    "message": "いただいた内容を取り込んでいます..."
   },
   "message_collapse_raw_reasoning": {
     "message": "生の思考を折りたたむ"
@@ -947,6 +980,177 @@
   "message_im_messages_not_editable": {
     "message": "連携チャンネルからのメッセージは編集できません。"
   },
+  "message_loading_phrases_p01": {
+    "message": "答えを釣り中"
+  },
+  "message_loading_phrases_p02": {
+    "message": "深海へ潜水中"
+  },
+  "message_loading_phrases_p03": {
+    "message": "データの海を泳ぎ中"
+  },
+  "message_loading_phrases_p04": {
+    "message": "知識の波でサーフィン中"
+  },
+  "message_loading_phrases_p05": {
+    "message": "何かいいものを仕込み中"
+  },
+  "message_loading_phrases_p06": {
+    "message": "知恵の魚を召喚中"
+  },
+  "message_loading_phrases_p07": {
+    "message": "点と点をつなぎ中"
+  },
+  "message_loading_phrases_p08": {
+    "message": "網を広く投げ中"
+  },
+  "message_loading_phrases_p09": {
+    "message": "リールで結果を巻き上げ中"
+  },
+  "message_loading_phrases_p10": {
+    "message": "深いところを探検中"
+  },
+  "message_loading_phrases_p11": {
+    "message": "海図を作成中"
+  },
+  "message_loading_phrases_p12": {
+    "message": "海流に乗って進み中"
+  },
+  "message_loading_phrases_p13": {
+    "message": "大物を釣り上げ中"
+  },
+  "message_loading_phrases_p14": {
+    "message": "流れに沿って航行中"
+  },
+  "message_loading_phrases_p15": {
+    "message": "ひらめきを針にかけ中"
+  },
+  "message_loading_phrases_p16": {
+    "message": "サンゴ礁を偵察中"
+  },
+  "message_loading_phrases_p17": {
+    "message": "情報の浅瀬をじゃぶじゃぶ渡り中"
+  },
+  "message_loading_phrases_p18": {
+    "message": "宝物を求めてトローリング中"
+  },
+  "message_loading_phrases_p19": {
+    "message": "データの湖に餌をまき中"
+  },
+  "message_loading_phrases_p20": {
+    "message": "思考の浅瀬でばしゃばしゃ中"
+  },
+  "message_loading_phrases_p21": {
+    "message": "新しいアイデアを浮かべ中"
+  },
+  "message_loading_phrases_p22": {
+    "message": "答えに向かって漂い中"
+  },
+  "message_loading_phrases_p23": {
+    "message": "思考の魚群を追いかけ中"
+  },
+  "message_loading_phrases_p24": {
+    "message": "アーカイブを底引き網でさらい中"
+  },
+  "message_loading_phrases_p25": {
+    "message": "水温を確かめ中"
+  },
+  "message_loading_phrases_p26": {
+    "message": "水しぶきを上げ中"
+  },
+  "message_loading_phrases_p27": {
+    "message": "流れに身を任せ中"
+  },
+  "message_loading_phrases_p28": {
+    "message": "結果がぷくぷく浮上中"
+  },
+  "message_loading_phrases_p29": {
+    "message": "絡まった網をほどき中"
+  },
+  "message_loading_phrases_p30": {
+    "message": "資料の海を帆走中"
+  },
+  "message_loading_phrases_p31": {
+    "message": "水面を流し読み中"
+  },
+  "message_loading_phrases_p32": {
+    "message": "深海へ飛び込み中"
+  },
+  "message_loading_phrases_p33": {
+    "message": "データの流れをクルーズ中"
+  },
+  "message_loading_phrases_p34": {
+    "message": "手がかりがヒット中"
+  },
+  "message_loading_phrases_p35": {
+    "message": "流れをふるいにかけ中"
+  },
+  "message_loading_phrases_p36": {
+    "message": "海底の地図を作成中"
+  },
+  "message_loading_phrases_p37": {
+    "message": "ソナーを調整中"
+  },
+  "message_loading_phrases_p38": {
+    "message": "波紋をたどり中"
+  },
+  "message_loading_phrases_p39": {
+    "message": "水平線を見渡し中"
+  },
+  "message_loading_phrases_p40": {
+    "message": "潜水艦を発進中"
+  },
+  "message_loading_phrases_p41": {
+    "message": "信号を解読中"
+  },
+  "message_loading_phrases_p42": {
+    "message": "作戦を練り中"
+  },
+  "message_loading_phrases_p43": {
+    "message": "エンジンを温め中"
+  },
+  "message_loading_phrases_p44": {
+    "message": "コンパスを回し中"
+  },
+  "message_loading_phrases_p45": {
+    "message": "望遠鏡を磨き中"
+  },
+  "message_loading_phrases_p46": {
+    "message": "魔法の金魚鉢を振り中"
+  },
+  "message_loading_phrases_p47": {
+    "message": "海の神様にお伺い中"
+  },
+  "message_loading_phrases_p48": {
+    "message": "潮を読み中"
+  },
+  "message_loading_phrases_p49": {
+    "message": "クルーを招集中"
+  },
+  "message_loading_phrases_p50": {
+    "message": "針路を設定中"
+  },
+  "message_loading_phrases_p51": {
+    "message": "さらに深い海で釣り中"
+  },
+  "message_loading_phrases_p52": {
+    "message": "金色の魚を追いかけ中"
+  },
+  "message_loading_phrases_p53": {
+    "message": "流れに逆らって泳ぎ中"
+  },
+  "message_loading_phrases_p54": {
+    "message": "渦をかき混ぜ中"
+  },
+  "message_loading_phrases_p55": {
+    "message": "結果に錨を下ろし中"
+  },
+  "message_loading_phrases_p56": {
+    "message": "いい波をキャッチ中"
+  },
+  "message_loading_phrases_p57": {
+    "message": "餌をじっくり沈め中"
+  },
   "message_open_in_new_tab": {
     "message": "新しいタブで開く"
   },
@@ -995,6 +1199,12 @@
   "message_tool_calls": {
     "message": "ツール呼び出し"
   },
+  "message_tool_error_fallback": {
+    "message": "ツールエラー"
+  },
+  "message_tool_interrupted_by_user": {
+    "message": "ユーザーにより中断されました"
+  },
   "message_tool_web_search": {
     "message": "ウェブ検索ツール"
   },
@@ -1030,6 +1240,9 @@
   },
   "newtab_greeting_evening": {
     "message": "こんばんは"
+  },
+  "newtab_greeting_explain_message": {
+    "message": "新しいタブでこんなあいさつを見かけました：「{{greeting}}」\n\nどうしてこれを私に選んでくれたのですか？"
   },
   "newtab_greeting_morning": {
     "message": "おはようございます"
@@ -1313,6 +1526,9 @@
   "shadow_tasks_list_title": {
     "message": "バックグラウンドタスク一覧"
   },
+  "shadow_tasks_load_error": {
+    "message": "バックグラウンドタスクのデータを読み込めませんでした。"
+  },
   "shadow_tasks_loading": {
     "message": "タスクを読み込んでいます…"
   },
@@ -1484,6 +1700,9 @@
   "shadow_tasks_stream_closed_tab_hint": {
     "message": "このタブはすでに閉じられています。下にプレビューがまだ表示されている場合のみ再試行してください。"
   },
+  "shadow_tasks_stream_error_with_code": {
+    "message": "ストリームエラー（{{code}}）"
+  },
   "shadow_tasks_stream_no_tab_selected": {
     "message": "プレビューするタブを選択してください"
   },
@@ -1510,6 +1729,9 @@
   },
   "shadow_tasks_tabs_state_open": {
     "message": "開いている"
+  },
+  "shadow_tasks_tabs_tab_fallback": {
+    "message": "タブ{{number}}"
   },
   "shadow_tasks_tabs_tab_with_index": {
     "message": "タブ{{index}} · {{title}}"
@@ -2041,6 +2263,9 @@
   },
   "user_input_remove_tab_group": {
     "message": "タブグループを削除"
+  },
+  "user_input_skill_fallback_name": {
+    "message": "スキル"
   },
   "user_input_skills": {
     "message": "スキル"

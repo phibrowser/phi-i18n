@@ -341,6 +341,9 @@
   "balanced_af0ba7": {
     "message": "Equilibrado"
   },
+  "before_we_begin": {
+    "message": "Antes de empezar"
+  },
   "bitwarden": {
     "message": "Bitwarden"
   },
@@ -596,6 +599,9 @@
   "cancel_f64161": {
     "message": "Cancelar"
   },
+  "cancel_f7f2fa": {
+    "message": "Cancelar"
+  },
   "cancel_f89d01": {
     "message": "Cancelar"
   },
@@ -691,6 +697,9 @@
   },
   "choose_which_profiles_agents_may_create_their": {
     "message": "Elige en qué perfiles pueden crear los agentes sus propios Espacios. Desactivar un perfil impide que los agentes abran cualquier Espacio nuevo vinculado a él; los Espacios existentes no se ven afectados."
+  },
+  "chromium": {
+    "message": "Chromium"
   },
   "chromium_engine_version": {
     "message": "Versión del motor Chromium %@"
@@ -944,6 +953,9 @@
   "couldn_t_install_the_skill_b9fa4d": {
     "message": "No se pudo instalar la habilidad"
   },
+  "couldn_t_reach_the_data_export_service": {
+    "message": "No se pudo conectar con el servicio de exportación de datos. Revisa tu conexión a internet y vuelve a intentarlo."
+  },
   "couldn_t_reach_the_deletion_service_check": {
     "message": "No se pudo conectar con el servicio de eliminación. Revisa tu conexión a internet y vuelve a intentarlo."
   },
@@ -1166,6 +1178,9 @@
   "done": {
     "message": "Listo"
   },
+  "download_any_data_export_you_want_to": {
+    "message": "Descarga las exportaciones de datos que quieras conservar antes de eliminar tu cuenta. La eliminación cancela las exportaciones en curso y elimina definitivamente los archivos y enlaces de descarga existentes."
+  },
   "download_image": {
     "message": "Descargar imagen"
   },
@@ -1289,6 +1304,9 @@
   "ended": {
     "message": " · finalizada"
   },
+  "enjoy_using_phi_browser": {
+    "message": "Disfruta de Phi Browser 🎉"
+  },
   "enter_a_name_for_the_new_folder": {
     "message": "Introduce un nombre para la carpeta nueva."
   },
@@ -1349,6 +1367,9 @@
   "export": {
     "message": "Exportar"
   },
+  "export_account_data": {
+    "message": "Exportar datos de la cuenta"
+  },
   "export_bookmarks": {
     "message": "Exportar marcadores…"
   },
@@ -1366,6 +1387,9 @@
   },
   "export_user_data": {
     "message": "Exportar datos de usuario…"
+  },
+  "export_your_account_data": {
+    "message": "¿Exportar los datos de tu cuenta?"
   },
   "extension_info": {
     "message": "Información de la extensión"
@@ -1544,11 +1568,20 @@
   "guest_data_cleanup_is_incomplete": {
     "message": "La limpieza de los datos de invitado está incompleta"
   },
+  "have_your_ai_assistant_help_you_understand": {
+    "message": "Deja que tu asistente de IA te ayude a entender la letra pequeña 👇"
+  },
   "help": {
     "message": "Ayuda"
   },
   "help_mac": {
     "message": "Documentación"
+  },
+  "help_make_phi_better_by_sharing_usage": {
+    "message": "Ayuda a mejorar Phi compartiendo métricas de uso e informes de errores"
+  },
+  "help_make_phi_better_by_sharing_usage_715b3e": {
+    "message": "Ayuda a mejorar Phi compartiendo métricas de uso e informes de errores"
   },
   "here_to_begin_the_botfather": {
     "message": "aquí para comenzar con @BotFather"
@@ -1580,6 +1613,12 @@
   "https_vault_example_com": {
     "message": "https://vault.example.com"
   },
+  "i_agree_to_the_and": {
+    "message": "Acepto la %1$@ y los %2$@"
+  },
+  "i_agree_to_the_and_e21b1f": {
+    "message": "Acepto la %1$@ y los %2$@"
+  },
   "i_ll_setup_my_own": {
     "message": "Lo configuraré por mi cuenta"
   },
@@ -1606,6 +1645,9 @@
   },
   "import_completed_with_errors_failed_to_import": {
     "message": "La importación se completó con errores. No se pudo importar desde: %@"
+  },
+  "import_data_from_another_browser": {
+    "message": "Importa datos de otro navegador"
   },
   "import_failed": {
     "message": "Error al importar"
@@ -1648,6 +1690,9 @@
   },
   "importing_safari_data": {
     "message": "Importando los datos de Safari…"
+  },
+  "improve_translations_for_phi_browser": {
+    "message": "Mejorar las traducciones de Phi Browser"
   },
   "in_use_by_a_space": {
     "message": "%@ (en uso por un Espacio)"
@@ -1747,6 +1792,12 @@
   },
   "left_url": {
     "message": "URL izquierda"
+  },
+  "let_s_begin": {
+    "message": "Empecemos"
+  },
+  "let_s_begin_7de7eb": {
+    "message": "Empecemos"
   },
   "lets_agent_tooling_manage_your_own_browsing": {
     "message": "Permite que las herramientas de agentes gestionen tus propios datos de navegación: Espacios, perfiles, reglas de URL, pestañas fijadas, marcadores y la disposición de las pestañas de tus ventanas. Cuando está desactivado, los agentes solo pueden trabajar dentro de sus propios Espacios de agente. Se aplica de inmediato."
@@ -2042,6 +2093,9 @@
   "next_space_9d3d09": {
     "message": "Espacio siguiente"
   },
+  "next_steps": {
+    "message": "Próximos pasos"
+  },
   "no_active_agent_task": {
     "message": "No hay ninguna tarea de agente activa"
   },
@@ -2054,17 +2108,23 @@
   "no_agents_approved_yet_the_first_time": {
     "message": "Aún no has aprobado ningún agente. La primera vez que uno se conecte, Phi te pedirá aprobación."
   },
+  "no_ai_features_until_you_sign_in": {
+    "message": "Sin funciones de IA hasta que inicies sesión"
+  },
   "no_backup_archive_was_produced": {
     "message": "No se generó ningún archivo de copia de seguridad."
   },
   "no_backups_available": {
     "message": "No hay copias de seguridad disponibles"
   },
+  "no_browser_memory_either": {
+    "message": "Tampoco habrá Memoria del navegador"
+  },
   "no_certificate_available": {
     "message": "No hay ningún certificado disponible"
   },
   "no_data_was_deleted": {
-    "message": "No se eliminó ningún dato. %@"
+    "message": "No se eliminaron Phi ni sus archivos locales. Es posible que ya se hayan eliminado algunos datos de inicio de sesión. %@"
   },
   "no_downloads": {
     "message": "No hay descargas"
@@ -2234,6 +2294,9 @@
   "on_system_lock": {
     "message": "Al bloquear el sistema"
   },
+  "onboard_your_ai_assistant": {
+    "message": "Configura tu asistente de IA"
+  },
   "only_once": {
     "message": "Solo una vez"
   },
@@ -2260,6 +2323,12 @@
   },
   "open_settings": {
     "message": "Abrir Configuración"
+  },
+  "open_source_software": {
+    "message": "software de código abierto"
+  },
+  "open_source_software_d59d8c": {
+    "message": "software de código abierto"
   },
   "open_tabs": {
     "message": "Pestañas abiertas"
@@ -2332,6 +2401,9 @@
   },
   "phi_fills_the_saved_login_into_the": {
     "message": "Phi rellena el inicio de sesión guardado en la propia página. El agente activa el relleno, pero nunca recibe el nombre de usuario ni la contraseña."
+  },
+  "phi_is_made_possible_by_the_open": {
+    "message": "Phi es posible gracias al proyecto de código abierto %1$@, al %2$@ de Chromium y a otro %3$@."
   },
   "phi_is_not_your_default_browser": {
     "message": "Phi no es tu navegador predeterminado"
@@ -2447,8 +2519,14 @@
   "print": {
     "message": "Imprimir…"
   },
+  "privacy": {
+    "message": "Privacidad"
+  },
   "privacy_and_security": {
     "message": "Privacidad y seguridad"
+  },
+  "privacy_policy": {
+    "message": "Política de Privacidad"
   },
   "private_ai": {
     "message": "IA privada"
@@ -2648,6 +2726,9 @@
   "resend_code_482c2b": {
     "message": "Reenviar código (%d s)"
   },
+  "resend_code_cbc823": {
+    "message": "Reenviar código (%ds)"
+  },
   "restart_phi": {
     "message": "Reiniciar Phi"
   },
@@ -2828,6 +2909,9 @@
   "send": {
     "message": "Enviar"
   },
+  "send_code": {
+    "message": "Enviar código"
+  },
   "send_feedback_to_phi": {
     "message": "Enviar comentarios a Phi"
   },
@@ -2983,6 +3067,9 @@
   },
   "sign_in_to_use_phi_ai": {
     "message": "Inicia sesión para usar la IA de Phi"
+  },
+  "sign_in_whenever_you_re_ready": {
+    "message": "Inicia sesión cuando quieras"
   },
   "sign_out": {
     "message": "Cerrar sesión"
@@ -3158,11 +3245,20 @@
   "telegram_id": {
     "message": "ID de Telegram"
   },
+  "terms": {
+    "message": "Términos"
+  },
+  "terms_of_service": {
+    "message": "Términos del Servicio"
+  },
   "that_code_has_expired_click_resend_code": {
     "message": "Ese código caducó. Haz clic en Reenviar código para obtener uno nuevo."
   },
   "that_code_isn_t_correct_check_the": {
     "message": "Ese código no es correcto. Revisa el código del correo electrónico y vuelve a intentarlo."
+  },
+  "that_export_is_no_longer_available_try": {
+    "message": "Esa exportación ya no está disponible. Vuelve a intentarlo para solicitar una nueva."
   },
   "the_agent_handed_control_back_to_you": {
     "message": "El agente te devolvió el control para que completes un paso, por ejemplo, iniciar sesión."
@@ -3184,6 +3280,9 @@
   },
   "the_connector_authorization_url_is_invalid": {
     "message": "La URL de autorización del conector no es válida."
+  },
+  "the_data_export_service_is_temporarily_unavailable": {
+    "message": "El servicio de exportación de datos no está disponible por el momento. Vuelve a intentarlo más tarde."
   },
   "the_deletion_service_is_temporarily_unavailable_please": {
     "message": "El servicio de eliminación no está disponible temporalmente. Inténtalo de nuevo más tarde."
@@ -3542,11 +3641,17 @@
   "wants_to_control_phi_browser": {
     "message": "“%@” quiere controlar Phi Browser"
   },
+  "we_ll_send_a_verification_code_to": {
+    "message": "Te enviaremos un código de verificación a %@. Una vez verificado, prepararemos una copia de los datos personales asociados a tu cuenta de Phi Browser y te enviaremos un enlace de descarga por correo electrónico. El enlace estará disponible durante siete días."
+  },
   "we_need_to_refresh_your_session_before": {
     "message": "Necesitamos renovar tu sesión para que las funciones de la cuenta sigan funcionando. Inicia sesión de nuevo."
   },
   "we_provide_a_telegram_bot_to_relay": {
     "message": "Ofrecemos un bot de Telegram para retransmitir tus mensajes @philink_bot"
+  },
+  "we_re_preparing_your_data_export_we": {
+    "message": "Estamos preparando la exportación de tus datos. Te enviaremos un enlace de descarga por correo electrónico cuando esté lista. El enlace estará disponible durante siete días."
   },
   "website": {
     "message": "Sitio web"
@@ -3608,6 +3713,9 @@
   "your_data_and_settings": {
     "message": "Tus datos y tu configuración"
   },
+  "your_data_export_is_ready_check_your": {
+    "message": "Tu exportación de datos está lista. Revisa tu correo electrónico para encontrar el enlace de descarga. El enlace estará disponible durante siete días."
+  },
   "your_deletion_request_has_been_submitted_you": {
     "message": "Se envió tu solicitud de eliminación. Recibirás un comprobante por correo electrónico cuando se complete la eliminación.\n\nAhora Phi cerrará tu sesión, eliminará sus datos de este Mac y se cerrará."
   },
@@ -3630,7 +3738,10 @@
     "message": "Tus perfiles"
   },
   "your_session_has_expired_please_sign_in": {
-    "message": "Tu sesión caducó. Inicia sesión de nuevo y reinicia la eliminación."
+    "message": "Tu sesión expiró. Inicia sesión de nuevo y reinicia la eliminación."
+  },
+  "your_session_has_expired_please_sign_in_0829": {
+    "message": "Tu sesión expiró. Inicia sesión de nuevo y reinicia la exportación."
   },
   "your_spaces": {
     "message": "Tus Espacios"
