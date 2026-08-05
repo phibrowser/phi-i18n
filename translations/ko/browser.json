@@ -101,8 +101,98 @@
   "agent_idle_command_starts_or_queues_its": {
     "message": "에이전트 대기 중: 명령을 입력하면 다음 라운드가 시작되거나 대기열에 추가돼요"
   },
+  "agent_is_working": {
+    "message": "에이전트 작업 중..."
+  },
+  "agent_log_abort_request_failed": {
+    "message": "중지 요청 실패"
+  },
+  "agent_log_aborted": {
+    "message": "중단됨"
+  },
+  "agent_log_aborted_detail": {
+    "message": "중단됨: $ERROR$"
+  },
+  "agent_log_aborting": {
+    "message": "에이전트 중지 중..."
+  },
+  "agent_log_closed_tab": {
+    "message": "탭 닫힘: $URL$"
+  },
+  "agent_log_completed": {
+    "message": "완료됨"
+  },
+  "agent_log_completed_with_errors": {
+    "message": "완료됨 (오류 있음)"
+  },
+  "agent_log_error": {
+    "message": "에이전트 오류"
+  },
+  "agent_log_failed": {
+    "message": "실패"
+  },
+  "agent_log_failed_detail": {
+    "message": "실패: $ERROR$"
+  },
+  "agent_log_failed_to_start": {
+    "message": "에이전트 시작 실패"
+  },
+  "agent_log_opened_tab": {
+    "message": "탭 열림: $URL$"
+  },
+  "agent_log_received_response": {
+    "message": "응답 수신"
+  },
+  "agent_log_started": {
+    "message": "시작됨 ($TASK_TYPE$)"
+  },
+  "agent_log_starting": {
+    "message": "에이전트 시작 중..."
+  },
+  "agent_log_updated_tab": {
+    "message": "탭 업데이트됨: $URL$"
+  },
+  "agent_logo_alt": {
+    "message": "Phi Browser 로고"
+  },
+  "agent_objective_placeholder": {
+    "message": "어떤 작업을 해 드릴까요?"
+  },
+  "agent_page_screenshot_alt": {
+    "message": "페이지 스크린샷"
+  },
+  "agent_page_title": {
+    "message": "Phi Agent"
+  },
   "agent_password_manager": {
     "message": "에이전트 비밀번호 관리자"
+  },
+  "agent_result": {
+    "message": "결과"
+  },
+  "agent_session_aborted": {
+    "message": "세션 중단됨"
+  },
+  "agent_session_completed": {
+    "message": "세션 완료됨"
+  },
+  "agent_session_failed": {
+    "message": "세션 실패"
+  },
+  "agent_session_idle": {
+    "message": "세션 대기 중"
+  },
+  "agent_steps_completed": {
+    "message": "단계 $COUNT$개 완료"
+  },
+  "agent_stop_session": {
+    "message": "세션 중지"
+  },
+  "agent_tab_screenshot": {
+    "message": "탭 스크린샷"
+  },
+  "agent_taking_screenshot": {
+    "message": "스크린샷 캡처 중"
   },
   "agent_transcript": {
     "message": "에이전트 트랜스크립트"
@@ -797,6 +887,12 @@
   "command_use": {
     "message": "명령 사용"
   },
+  "common_back": {
+    "message": "뒤로"
+  },
+  "common_delete": {
+    "message": "삭제"
+  },
   "completed": {
     "message": "완료됨"
   },
@@ -991,6 +1087,21 @@
   },
   "days_ago": {
     "message": "%d일 전"
+  },
+  "debugger_approval_allow": {
+    "message": "허용"
+  },
+  "debugger_approval_deny": {
+    "message": "거부"
+  },
+  "debugger_approval_description": {
+    "message": "이 단계는 디버거 접근 권한을 사용해 페이지나 브라우저 상태를 확인해요."
+  },
+  "debugger_approval_summary": {
+    "message": "이 단계의 디버거 접근을 승인해 주세요."
+  },
+  "debugger_approval_title": {
+    "message": "디버거 접근 허용"
   },
   "default": {
     "message": "기본"
@@ -1265,6 +1376,9 @@
   "edit_theme_f7ce4c": {
     "message": "테마 편집"
   },
+  "element_picker_instruction": {
+    "message": "요소를 클릭해 선택하세요. 취소하려면 Esc 키를 누르세요."
+  },
   "email_address": {
     "message": "이메일 주소"
   },
@@ -1367,11 +1481,20 @@
   "export_user_data": {
     "message": "사용자 데이터 내보내기…"
   },
+  "extension_description": {
+    "message": "브라우저에서 자율 작업과 녹화된 스킬을 실행해요."
+  },
   "extension_info": {
     "message": "확장 프로그램 정보"
   },
   "extension_info_063d4f": {
     "message": "확장 프로그램 정보"
+  },
+  "extension_name": {
+    "message": "Phi Agent Browser Runtime"
+  },
+  "extension_name_staging": {
+    "message": "Phi Agent Browser Runtime (스테이징)"
   },
   "extensions": {
     "message": "확장 프로그램"
@@ -2420,6 +2543,48 @@
   "pop_up": {
     "message": "팝업 표시"
   },
+  "popup_current_tabs_aria_label": {
+    "message": "현재 탭"
+  },
+  "popup_error_tab_organizer_failed": {
+    "message": "탭 정리 실패"
+  },
+  "popup_group_action": {
+    "message": "그룹화"
+  },
+  "popup_grouping_action": {
+    "message": "그룹화 중"
+  },
+  "popup_managed_metric": {
+    "message": "관리됨"
+  },
+  "popup_ready_metric": {
+    "message": "준비됨"
+  },
+  "popup_status_groupable_tabs": {
+    "message": "그룹화 가능한 탭 $COUNT$개"
+  },
+  "popup_status_grouped_sets": {
+    "message": "그룹 $COUNT$개 생성됨"
+  },
+  "popup_status_ready": {
+    "message": "준비됨"
+  },
+  "popup_status_ungrouped_tabs": {
+    "message": "탭 $COUNT$개 그룹 해제됨"
+  },
+  "popup_tab_actions_aria_label": {
+    "message": "탭 작업"
+  },
+  "popup_tabs_metric": {
+    "message": "탭"
+  },
+  "popup_ungroup_action": {
+    "message": "그룹 해제"
+  },
+  "popup_ungrouping_action": {
+    "message": "그룹 해제 중"
+  },
   "preparing_installer": {
     "message": "설치 프로그램 준비 중…"
   },
@@ -2497,6 +2662,168 @@
   },
   "recommended": {
     "message": "추천"
+  },
+  "recorder_action_clear_value": {
+    "message": "\"$ELEMENT$\" 지우기"
+  },
+  "recorder_action_click": {
+    "message": "\"$ELEMENT$\" 클릭"
+  },
+  "recorder_action_generic": {
+    "message": "$TYPE$ $ELEMENT$"
+  },
+  "recorder_action_navigate": {
+    "message": "$URL$ 페이지로 이동"
+  },
+  "recorder_action_press_key": {
+    "message": "$KEY$ 키 누르기"
+  },
+  "recorder_action_scroll_element": {
+    "message": "\"$ELEMENT$\"을(를) ($X$, $Y$) 위치로 스크롤"
+  },
+  "recorder_action_scroll_page": {
+    "message": "($X$, $Y$) 위치로 스크롤"
+  },
+  "recorder_action_set_value": {
+    "message": "\"$ELEMENT$\"에 \"$VALUE$\" 입력"
+  },
+  "recorder_action_tab": {
+    "message": "탭 $INDEX$"
+  },
+  "recorder_actions_summary": {
+    "message": "동작 ($COUNT$개) - 클릭해 펼치거나 이동"
+  },
+  "recorder_context_menu": {
+    "message": "스킬 녹화"
+  },
+  "recorder_detail_element": {
+    "message": "요소"
+  },
+  "recorder_detail_key": {
+    "message": "키"
+  },
+  "recorder_detail_page": {
+    "message": "페이지"
+  },
+  "recorder_detail_scroll": {
+    "message": "스크롤"
+  },
+  "recorder_detail_selector": {
+    "message": "선택자"
+  },
+  "recorder_detail_tab": {
+    "message": "탭"
+  },
+  "recorder_detail_tag": {
+    "message": "태그"
+  },
+  "recorder_detail_time": {
+    "message": "시간"
+  },
+  "recorder_detail_type": {
+    "message": "유형"
+  },
+  "recorder_detail_value": {
+    "message": "값"
+  },
+  "recorder_error_enter_skill_name": {
+    "message": "스킬 이름을 입력해 주세요"
+  },
+  "recorder_error_generate_first": {
+    "message": "먼저 스킬을 생성해 주세요"
+  },
+  "recorder_expand_controls": {
+    "message": "컨트롤 펼치기"
+  },
+  "recorder_generate_skill": {
+    "message": "스킬 생성"
+  },
+  "recorder_generating": {
+    "message": "생성 중..."
+  },
+  "recorder_generation_failed": {
+    "message": "생성 실패: $ERROR$"
+  },
+  "recorder_minimize_controls": {
+    "message": "컨트롤 접기"
+  },
+  "recorder_no_actions": {
+    "message": "캡처된 동작이 없어요"
+  },
+  "recorder_no_content_generated": {
+    "message": "생성된 콘텐츠가 없어요."
+  },
+  "recorder_no_replay_data": {
+    "message": "리플레이 데이터가 없어요"
+  },
+  "recorder_page_title": {
+    "message": "Phi 레코더"
+  },
+  "recorder_pause": {
+    "message": "일시중지"
+  },
+  "recorder_paused": {
+    "message": "일시중지됨 - $STEP_COUNT$"
+  },
+  "recorder_play": {
+    "message": "재생"
+  },
+  "recorder_re_record": {
+    "message": "다시 녹화"
+  },
+  "recorder_ready": {
+    "message": "녹화 준비됨"
+  },
+  "recorder_recording": {
+    "message": "녹화 중 - $STEP_COUNT$"
+  },
+  "recorder_recording_review": {
+    "message": "녹화 검토"
+  },
+  "recorder_replay": {
+    "message": "리플레이"
+  },
+  "recorder_resume": {
+    "message": "재개"
+  },
+  "recorder_save_failed": {
+    "message": "저장 실패: $ERROR$"
+  },
+  "recorder_save_skill": {
+    "message": "스킬 저장"
+  },
+  "recorder_saved": {
+    "message": "저장됨"
+  },
+  "recorder_saved_to_skills": {
+    "message": "내 스킬 페이지에 저장됐어요"
+  },
+  "recorder_saving": {
+    "message": "저장 중..."
+  },
+  "recorder_skill_content": {
+    "message": "스킬 내용 (SKILL.md로 저장됨)"
+  },
+  "recorder_skill_name_placeholder": {
+    "message": "스킬 이름 입력..."
+  },
+  "recorder_skill_preview": {
+    "message": "스킬 미리보기"
+  },
+  "recorder_skill_title": {
+    "message": "스킬 제목"
+  },
+  "recorder_start": {
+    "message": "시작"
+  },
+  "recorder_step_count": {
+    "message": "단계 $COUNT$개"
+  },
+  "recorder_stop": {
+    "message": "중지"
+  },
+  "recorder_stop_recording": {
+    "message": "녹화 중지"
   },
   "red": {
     "message": "빨강"
@@ -2900,6 +3227,9 @@
   "settings_phi_sign_in_button": {
     "message": "로그인"
   },
+  "shadow_task_approval_title": {
+    "message": "백그라운드 작업"
+  },
   "share": {
     "message": "공유"
   },
@@ -3136,6 +3466,36 @@
   },
   "tab_name": {
     "message": "탭 이름"
+  },
+  "tab_organizer_group_development": {
+    "message": "개발"
+  },
+  "tab_organizer_group_docs": {
+    "message": "문서"
+  },
+  "tab_organizer_group_learning": {
+    "message": "학습"
+  },
+  "tab_organizer_group_media": {
+    "message": "미디어"
+  },
+  "tab_organizer_group_news": {
+    "message": "뉴스"
+  },
+  "tab_organizer_group_other": {
+    "message": "기타"
+  },
+  "tab_organizer_group_review": {
+    "message": "검토"
+  },
+  "tab_organizer_group_shopping": {
+    "message": "쇼핑"
+  },
+  "tab_organizer_group_social": {
+    "message": "소셜"
+  },
+  "tab_organizer_group_work": {
+    "message": "업무"
   },
   "tab_search": {
     "message": "탭 검색"

@@ -101,8 +101,98 @@
   "agent_idle_command_starts_or_queues_its": {
     "message": "AI 代理閒置中，指令會開始或排入下一輪"
   },
+  "agent_is_working": {
+    "message": "AI 代理正在工作..."
+  },
+  "agent_log_abort_request_failed": {
+    "message": "停止要求失敗"
+  },
+  "agent_log_aborted": {
+    "message": "已中止"
+  },
+  "agent_log_aborted_detail": {
+    "message": "已中止：$ERROR$"
+  },
+  "agent_log_aborting": {
+    "message": "正在停止 AI 代理..."
+  },
+  "agent_log_closed_tab": {
+    "message": "已關閉分頁：$URL$"
+  },
+  "agent_log_completed": {
+    "message": "已完成"
+  },
+  "agent_log_completed_with_errors": {
+    "message": "已完成（有錯誤）"
+  },
+  "agent_log_error": {
+    "message": "AI 代理錯誤"
+  },
+  "agent_log_failed": {
+    "message": "失敗"
+  },
+  "agent_log_failed_detail": {
+    "message": "失敗：$ERROR$"
+  },
+  "agent_log_failed_to_start": {
+    "message": "無法啟動 AI 代理"
+  },
+  "agent_log_opened_tab": {
+    "message": "已開啟分頁：$URL$"
+  },
+  "agent_log_received_response": {
+    "message": "已收到回應"
+  },
+  "agent_log_started": {
+    "message": "已啟動（$TASK_TYPE$）"
+  },
+  "agent_log_starting": {
+    "message": "正在啟動 AI 代理..."
+  },
+  "agent_log_updated_tab": {
+    "message": "已更新分頁：$URL$"
+  },
+  "agent_logo_alt": {
+    "message": "Phi Browser 標誌"
+  },
+  "agent_objective_placeholder": {
+    "message": "你想要我做什麼？"
+  },
+  "agent_page_screenshot_alt": {
+    "message": "網頁截圖"
+  },
+  "agent_page_title": {
+    "message": "Phi Agent"
+  },
   "agent_password_manager": {
     "message": "AI 代理密碼管理員"
+  },
+  "agent_result": {
+    "message": "結果"
+  },
+  "agent_session_aborted": {
+    "message": "工作階段已中止"
+  },
+  "agent_session_completed": {
+    "message": "工作階段已完成"
+  },
+  "agent_session_failed": {
+    "message": "工作階段失敗"
+  },
+  "agent_session_idle": {
+    "message": "工作階段閒置"
+  },
+  "agent_steps_completed": {
+    "message": "已完成 $COUNT$ 個步驟"
+  },
+  "agent_stop_session": {
+    "message": "停止工作階段"
+  },
+  "agent_tab_screenshot": {
+    "message": "分頁截圖"
+  },
+  "agent_taking_screenshot": {
+    "message": "正在截圖"
   },
   "agent_transcript": {
     "message": "AI 代理逐字稿"
@@ -797,6 +887,12 @@
   "command_use": {
     "message": "指令使用"
   },
+  "common_back": {
+    "message": "返回"
+  },
+  "common_delete": {
+    "message": "刪除"
+  },
   "completed": {
     "message": "已完成"
   },
@@ -991,6 +1087,21 @@
   },
   "days_ago": {
     "message": "%d 天前"
+  },
+  "debugger_approval_allow": {
+    "message": "允許"
+  },
+  "debugger_approval_deny": {
+    "message": "拒絕"
+  },
+  "debugger_approval_description": {
+    "message": "此步驟會使用偵錯工具存取權來檢查網頁或瀏覽器狀態。"
+  },
+  "debugger_approval_summary": {
+    "message": "核准此步驟的偵錯工具存取權。"
+  },
+  "debugger_approval_title": {
+    "message": "允許偵錯工具存取"
   },
   "default": {
     "message": "預設"
@@ -1265,6 +1376,9 @@
   "edit_theme_f7ce4c": {
     "message": "編輯主題"
   },
+  "element_picker_instruction": {
+    "message": "點選元素即可選取。按 Esc 鍵可取消。"
+  },
   "email_address": {
     "message": "電子郵件地址"
   },
@@ -1367,11 +1481,20 @@
   "export_user_data": {
     "message": "匯出使用者資料…"
   },
+  "extension_description": {
+    "message": "在瀏覽器中執行自主任務與已錄製的 Skill。"
+  },
   "extension_info": {
     "message": "擴充功能資訊"
   },
   "extension_info_063d4f": {
     "message": "擴充功能資訊"
+  },
+  "extension_name": {
+    "message": "Phi Agent Browser Runtime"
+  },
+  "extension_name_staging": {
+    "message": "Phi Agent Browser Runtime (Staging)"
   },
   "extensions": {
     "message": "擴充功能"
@@ -2420,6 +2543,48 @@
   "pop_up": {
     "message": "彈出顯示"
   },
+  "popup_current_tabs_aria_label": {
+    "message": "目前的分頁"
+  },
+  "popup_error_tab_organizer_failed": {
+    "message": "分頁整理失敗"
+  },
+  "popup_group_action": {
+    "message": "建立群組"
+  },
+  "popup_grouping_action": {
+    "message": "正在建立群組"
+  },
+  "popup_managed_metric": {
+    "message": "已管理"
+  },
+  "popup_ready_metric": {
+    "message": "可分組"
+  },
+  "popup_status_groupable_tabs": {
+    "message": "$COUNT$ 個可分組的分頁"
+  },
+  "popup_status_grouped_sets": {
+    "message": "已建立 $COUNT$ 個群組"
+  },
+  "popup_status_ready": {
+    "message": "準備就緒"
+  },
+  "popup_status_ungrouped_tabs": {
+    "message": "已取消 $COUNT$ 個分頁的群組"
+  },
+  "popup_tab_actions_aria_label": {
+    "message": "分頁動作"
+  },
+  "popup_tabs_metric": {
+    "message": "分頁"
+  },
+  "popup_ungroup_action": {
+    "message": "取消群組"
+  },
+  "popup_ungrouping_action": {
+    "message": "正在取消群組"
+  },
   "preparing_installer": {
     "message": "正在準備安裝程式…"
   },
@@ -2497,6 +2662,168 @@
   },
   "recommended": {
     "message": "建議"
+  },
+  "recorder_action_clear_value": {
+    "message": "清除「$ELEMENT$」"
+  },
+  "recorder_action_click": {
+    "message": "點選「$ELEMENT$」"
+  },
+  "recorder_action_generic": {
+    "message": "$TYPE$ $ELEMENT$"
+  },
+  "recorder_action_navigate": {
+    "message": "前往 $URL$"
+  },
+  "recorder_action_press_key": {
+    "message": "按下 $KEY$"
+  },
+  "recorder_action_scroll_element": {
+    "message": "將「$ELEMENT$」捲動至 ($X$, $Y$)"
+  },
+  "recorder_action_scroll_page": {
+    "message": "捲動至 ($X$, $Y$)"
+  },
+  "recorder_action_set_value": {
+    "message": "將「$ELEMENT$」設為「$VALUE$」"
+  },
+  "recorder_action_tab": {
+    "message": "分頁 $INDEX$"
+  },
+  "recorder_actions_summary": {
+    "message": "動作（$COUNT$），點選可展開或跳至該步驟"
+  },
+  "recorder_context_menu": {
+    "message": "錄製 Skill"
+  },
+  "recorder_detail_element": {
+    "message": "元素"
+  },
+  "recorder_detail_key": {
+    "message": "按鍵"
+  },
+  "recorder_detail_page": {
+    "message": "網頁"
+  },
+  "recorder_detail_scroll": {
+    "message": "捲動"
+  },
+  "recorder_detail_selector": {
+    "message": "選擇器"
+  },
+  "recorder_detail_tab": {
+    "message": "分頁"
+  },
+  "recorder_detail_tag": {
+    "message": "標籤"
+  },
+  "recorder_detail_time": {
+    "message": "時間"
+  },
+  "recorder_detail_type": {
+    "message": "類型"
+  },
+  "recorder_detail_value": {
+    "message": "值"
+  },
+  "recorder_error_enter_skill_name": {
+    "message": "請輸入 Skill 名稱"
+  },
+  "recorder_error_generate_first": {
+    "message": "請先產生 Skill"
+  },
+  "recorder_expand_controls": {
+    "message": "展開控制項"
+  },
+  "recorder_generate_skill": {
+    "message": "產生 Skill"
+  },
+  "recorder_generating": {
+    "message": "產生中..."
+  },
+  "recorder_generation_failed": {
+    "message": "產生失敗：$ERROR$"
+  },
+  "recorder_minimize_controls": {
+    "message": "收合控制項"
+  },
+  "recorder_no_actions": {
+    "message": "未擷取任何動作"
+  },
+  "recorder_no_content_generated": {
+    "message": "未產生任何內容。"
+  },
+  "recorder_no_replay_data": {
+    "message": "沒有重播資料"
+  },
+  "recorder_page_title": {
+    "message": "Phi 錄製工具"
+  },
+  "recorder_pause": {
+    "message": "暫停"
+  },
+  "recorder_paused": {
+    "message": "已暫停 - $STEP_COUNT$"
+  },
+  "recorder_play": {
+    "message": "播放"
+  },
+  "recorder_re_record": {
+    "message": "重新錄製"
+  },
+  "recorder_ready": {
+    "message": "可開始錄製"
+  },
+  "recorder_recording": {
+    "message": "錄製中 - $STEP_COUNT$"
+  },
+  "recorder_recording_review": {
+    "message": "檢視錄製內容"
+  },
+  "recorder_replay": {
+    "message": "重播"
+  },
+  "recorder_resume": {
+    "message": "繼續"
+  },
+  "recorder_save_failed": {
+    "message": "儲存失敗：$ERROR$"
+  },
+  "recorder_save_skill": {
+    "message": "儲存 Skill"
+  },
+  "recorder_saved": {
+    "message": "已儲存"
+  },
+  "recorder_saved_to_skills": {
+    "message": "已儲存至你的 Skills 頁面"
+  },
+  "recorder_saving": {
+    "message": "儲存中..."
+  },
+  "recorder_skill_content": {
+    "message": "Skill 內容（儲存為 SKILL.md）"
+  },
+  "recorder_skill_name_placeholder": {
+    "message": "為這個 Skill 命名..."
+  },
+  "recorder_skill_preview": {
+    "message": "Skill 預覽"
+  },
+  "recorder_skill_title": {
+    "message": "Skill 標題"
+  },
+  "recorder_start": {
+    "message": "開始"
+  },
+  "recorder_step_count": {
+    "message": "$COUNT$ 個步驟"
+  },
+  "recorder_stop": {
+    "message": "停止"
+  },
+  "recorder_stop_recording": {
+    "message": "停止錄製"
   },
   "red": {
     "message": "紅色"
@@ -2900,6 +3227,9 @@
   "settings_phi_sign_in_button": {
     "message": "登入"
   },
+  "shadow_task_approval_title": {
+    "message": "背景任務"
+  },
   "share": {
     "message": "分享"
   },
@@ -3136,6 +3466,36 @@
   },
   "tab_name": {
     "message": "分頁名稱"
+  },
+  "tab_organizer_group_development": {
+    "message": "開發"
+  },
+  "tab_organizer_group_docs": {
+    "message": "文件"
+  },
+  "tab_organizer_group_learning": {
+    "message": "學習"
+  },
+  "tab_organizer_group_media": {
+    "message": "媒體"
+  },
+  "tab_organizer_group_news": {
+    "message": "新聞"
+  },
+  "tab_organizer_group_other": {
+    "message": "其他"
+  },
+  "tab_organizer_group_review": {
+    "message": "待檢視"
+  },
+  "tab_organizer_group_shopping": {
+    "message": "購物"
+  },
+  "tab_organizer_group_social": {
+    "message": "社交"
+  },
+  "tab_organizer_group_work": {
+    "message": "工作"
   },
   "tab_search": {
     "message": "搜尋分頁"

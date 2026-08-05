@@ -101,8 +101,98 @@
   "agent_idle_command_starts_or_queues_its": {
     "message": "agent inactif : la commande lance ou met en file d'attente le prochain cycle"
   },
+  "agent_is_working": {
+    "message": "L'agent travaille..."
+  },
+  "agent_log_abort_request_failed": {
+    "message": "Échec de la demande d'arrêt"
+  },
+  "agent_log_aborted": {
+    "message": "Interrompu"
+  },
+  "agent_log_aborted_detail": {
+    "message": "Interrompu : $ERROR$"
+  },
+  "agent_log_aborting": {
+    "message": "Arrêt de l'agent..."
+  },
+  "agent_log_closed_tab": {
+    "message": "Onglet fermé : $URL$"
+  },
+  "agent_log_completed": {
+    "message": "Terminé"
+  },
+  "agent_log_completed_with_errors": {
+    "message": "Terminé (avec des erreurs)"
+  },
+  "agent_log_error": {
+    "message": "Erreur de l'agent"
+  },
+  "agent_log_failed": {
+    "message": "Échec"
+  },
+  "agent_log_failed_detail": {
+    "message": "Échec : $ERROR$"
+  },
+  "agent_log_failed_to_start": {
+    "message": "Échec du démarrage de l'agent"
+  },
+  "agent_log_opened_tab": {
+    "message": "Onglet ouvert : $URL$"
+  },
+  "agent_log_received_response": {
+    "message": "Réponse reçue"
+  },
+  "agent_log_started": {
+    "message": "Démarré ($TASK_TYPE$)"
+  },
+  "agent_log_starting": {
+    "message": "Démarrage de l'agent..."
+  },
+  "agent_log_updated_tab": {
+    "message": "Onglet mis à jour : $URL$"
+  },
+  "agent_logo_alt": {
+    "message": "Logo Phi Browser"
+  },
+  "agent_objective_placeholder": {
+    "message": "Que voulez-vous que je fasse ?"
+  },
+  "agent_page_screenshot_alt": {
+    "message": "Capture d'écran de la page"
+  },
+  "agent_page_title": {
+    "message": "Phi Agent"
+  },
   "agent_password_manager": {
     "message": "Gestionnaire de mots de passe pour les agents"
+  },
+  "agent_result": {
+    "message": "Résultat"
+  },
+  "agent_session_aborted": {
+    "message": "Session interrompue"
+  },
+  "agent_session_completed": {
+    "message": "Session terminée"
+  },
+  "agent_session_failed": {
+    "message": "Échec de la session"
+  },
+  "agent_session_idle": {
+    "message": "Session inactive"
+  },
+  "agent_steps_completed": {
+    "message": "$COUNT$ étape(s) terminée(s)"
+  },
+  "agent_stop_session": {
+    "message": "Arrêter la session"
+  },
+  "agent_tab_screenshot": {
+    "message": "Capture d'écran de l'onglet"
+  },
+  "agent_taking_screenshot": {
+    "message": "Capture d'écran en cours"
   },
   "agent_transcript": {
     "message": "Transcription de l'agent"
@@ -797,6 +887,12 @@
   "command_use": {
     "message": "Utilisation de commandes"
   },
+  "common_back": {
+    "message": "Retour"
+  },
+  "common_delete": {
+    "message": "Supprimer"
+  },
   "completed": {
     "message": "Terminé"
   },
@@ -991,6 +1087,21 @@
   },
   "days_ago": {
     "message": "Il y a %d jours"
+  },
+  "debugger_approval_allow": {
+    "message": "Autoriser"
+  },
+  "debugger_approval_deny": {
+    "message": "Refuser"
+  },
+  "debugger_approval_description": {
+    "message": "Cette étape utilise l'accès au débogueur pour inspecter l'état de la page ou du navigateur."
+  },
+  "debugger_approval_summary": {
+    "message": "Approuver l'accès au débogueur pour cette étape."
+  },
+  "debugger_approval_title": {
+    "message": "Autoriser l'accès au débogueur"
   },
   "default": {
     "message": "Par défaut"
@@ -1265,6 +1376,9 @@
   "edit_theme_f7ce4c": {
     "message": "Modifier le thème"
   },
+  "element_picker_instruction": {
+    "message": "Cliquez sur un élément pour le sélectionner. Appuyez sur Échap pour annuler."
+  },
   "email_address": {
     "message": "Adresse e-mail"
   },
@@ -1367,11 +1481,20 @@
   "export_user_data": {
     "message": "Exporter les données utilisateur…"
   },
+  "extension_description": {
+    "message": "Exécute des tâches autonomes et des skills enregistrés dans votre navigateur."
+  },
   "extension_info": {
     "message": "Informations sur l'extension"
   },
   "extension_info_063d4f": {
     "message": "Informations sur l'extension"
+  },
+  "extension_name": {
+    "message": "Phi Agent Browser Runtime"
+  },
+  "extension_name_staging": {
+    "message": "Phi Agent Browser Runtime (Préproduction)"
   },
   "extensions": {
     "message": "Extensions"
@@ -2420,6 +2543,48 @@
   "pop_up": {
     "message": "Afficher automatiquement"
   },
+  "popup_current_tabs_aria_label": {
+    "message": "Onglets actuels"
+  },
+  "popup_error_tab_organizer_failed": {
+    "message": "Échec de l'organiseur d'onglets"
+  },
+  "popup_group_action": {
+    "message": "Grouper"
+  },
+  "popup_grouping_action": {
+    "message": "Regroupement..."
+  },
+  "popup_managed_metric": {
+    "message": "Gérés"
+  },
+  "popup_ready_metric": {
+    "message": "Prêts"
+  },
+  "popup_status_groupable_tabs": {
+    "message": "$COUNT$ onglet(s) regroupable(s)"
+  },
+  "popup_status_grouped_sets": {
+    "message": "$COUNT$ groupe(s) créé(s)"
+  },
+  "popup_status_ready": {
+    "message": "Prêt"
+  },
+  "popup_status_ungrouped_tabs": {
+    "message": "$COUNT$ onglet(s) dissocié(s)"
+  },
+  "popup_tab_actions_aria_label": {
+    "message": "Actions sur les onglets"
+  },
+  "popup_tabs_metric": {
+    "message": "Onglets"
+  },
+  "popup_ungroup_action": {
+    "message": "Dissocier"
+  },
+  "popup_ungrouping_action": {
+    "message": "Dissociation..."
+  },
   "preparing_installer": {
     "message": "Préparation du programme d'installation…"
   },
@@ -2497,6 +2662,168 @@
   },
   "recommended": {
     "message": "Recommandé"
+  },
+  "recorder_action_clear_value": {
+    "message": "Effacer « $ELEMENT$ »"
+  },
+  "recorder_action_click": {
+    "message": "Cliquer sur « $ELEMENT$ »"
+  },
+  "recorder_action_generic": {
+    "message": "$TYPE$ $ELEMENT$"
+  },
+  "recorder_action_navigate": {
+    "message": "Accéder à $URL$"
+  },
+  "recorder_action_press_key": {
+    "message": "Appuyer sur $KEY$"
+  },
+  "recorder_action_scroll_element": {
+    "message": "Faire défiler « $ELEMENT$ » jusqu'à ($X$, $Y$)"
+  },
+  "recorder_action_scroll_page": {
+    "message": "Faire défiler jusqu'à ($X$, $Y$)"
+  },
+  "recorder_action_set_value": {
+    "message": "Saisir « $VALUE$ » dans « $ELEMENT$ »"
+  },
+  "recorder_action_tab": {
+    "message": "Onglet $INDEX$"
+  },
+  "recorder_actions_summary": {
+    "message": "Actions ($COUNT$) - cliquez pour développer ou accéder à l'étape"
+  },
+  "recorder_context_menu": {
+    "message": "Enregistrer un skill"
+  },
+  "recorder_detail_element": {
+    "message": "Élément"
+  },
+  "recorder_detail_key": {
+    "message": "Touche"
+  },
+  "recorder_detail_page": {
+    "message": "Page"
+  },
+  "recorder_detail_scroll": {
+    "message": "Défilement"
+  },
+  "recorder_detail_selector": {
+    "message": "Sélecteur"
+  },
+  "recorder_detail_tab": {
+    "message": "Onglet"
+  },
+  "recorder_detail_tag": {
+    "message": "Balise"
+  },
+  "recorder_detail_time": {
+    "message": "Heure"
+  },
+  "recorder_detail_type": {
+    "message": "Type"
+  },
+  "recorder_detail_value": {
+    "message": "Valeur"
+  },
+  "recorder_error_enter_skill_name": {
+    "message": "Saisissez un nom de skill"
+  },
+  "recorder_error_generate_first": {
+    "message": "Générez d'abord le skill"
+  },
+  "recorder_expand_controls": {
+    "message": "Développer les commandes"
+  },
+  "recorder_generate_skill": {
+    "message": "Générer le skill"
+  },
+  "recorder_generating": {
+    "message": "Génération..."
+  },
+  "recorder_generation_failed": {
+    "message": "Échec de la génération : $ERROR$"
+  },
+  "recorder_minimize_controls": {
+    "message": "Réduire les commandes"
+  },
+  "recorder_no_actions": {
+    "message": "Aucune action capturée"
+  },
+  "recorder_no_content_generated": {
+    "message": "Aucun contenu généré."
+  },
+  "recorder_no_replay_data": {
+    "message": "Aucune donnée de relecture"
+  },
+  "recorder_page_title": {
+    "message": "Enregistreur Phi"
+  },
+  "recorder_pause": {
+    "message": "Pause"
+  },
+  "recorder_paused": {
+    "message": "En pause - $STEP_COUNT$"
+  },
+  "recorder_play": {
+    "message": "Lire"
+  },
+  "recorder_re_record": {
+    "message": "Réenregistrer"
+  },
+  "recorder_ready": {
+    "message": "Prêt à enregistrer"
+  },
+  "recorder_recording": {
+    "message": "Enregistrement - $STEP_COUNT$"
+  },
+  "recorder_recording_review": {
+    "message": "Vérification de l'enregistrement"
+  },
+  "recorder_replay": {
+    "message": "Relecture"
+  },
+  "recorder_resume": {
+    "message": "Reprendre"
+  },
+  "recorder_save_failed": {
+    "message": "Échec de la sauvegarde : $ERROR$"
+  },
+  "recorder_save_skill": {
+    "message": "Sauvegarder le skill"
+  },
+  "recorder_saved": {
+    "message": "Sauvegardé"
+  },
+  "recorder_saved_to_skills": {
+    "message": "Sauvegardé sur votre page Skills"
+  },
+  "recorder_saving": {
+    "message": "Sauvegarde..."
+  },
+  "recorder_skill_content": {
+    "message": "Contenu du skill (sauvegardé sous SKILL.md)"
+  },
+  "recorder_skill_name_placeholder": {
+    "message": "Nommez ce skill..."
+  },
+  "recorder_skill_preview": {
+    "message": "Aperçu du skill"
+  },
+  "recorder_skill_title": {
+    "message": "Titre du skill"
+  },
+  "recorder_start": {
+    "message": "Démarrer"
+  },
+  "recorder_step_count": {
+    "message": "$COUNT$ étape(s)"
+  },
+  "recorder_stop": {
+    "message": "Arrêter"
+  },
+  "recorder_stop_recording": {
+    "message": "Arrêter l'enregistrement"
   },
   "red": {
     "message": "Rouge"
@@ -2900,6 +3227,9 @@
   "settings_phi_sign_in_button": {
     "message": "Se connecter"
   },
+  "shadow_task_approval_title": {
+    "message": "Tâche en arrière-plan"
+  },
   "share": {
     "message": "Partager"
   },
@@ -3136,6 +3466,36 @@
   },
   "tab_name": {
     "message": "Nom de l'onglet"
+  },
+  "tab_organizer_group_development": {
+    "message": "Développement"
+  },
+  "tab_organizer_group_docs": {
+    "message": "Docs"
+  },
+  "tab_organizer_group_learning": {
+    "message": "Apprentissage"
+  },
+  "tab_organizer_group_media": {
+    "message": "Médias"
+  },
+  "tab_organizer_group_news": {
+    "message": "Actualités"
+  },
+  "tab_organizer_group_other": {
+    "message": "Autres"
+  },
+  "tab_organizer_group_review": {
+    "message": "À trier"
+  },
+  "tab_organizer_group_shopping": {
+    "message": "Shopping"
+  },
+  "tab_organizer_group_social": {
+    "message": "Réseaux sociaux"
+  },
+  "tab_organizer_group_work": {
+    "message": "Travail"
   },
   "tab_search": {
     "message": "Rechercher dans les onglets"

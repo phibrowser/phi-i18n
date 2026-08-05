@@ -101,8 +101,98 @@
   "agent_idle_command_starts_or_queues_its": {
     "message": "agente inactivo: el comando inicia o pone en cola su próxima ronda"
   },
+  "agent_is_working": {
+    "message": "El agente está trabajando..."
+  },
+  "agent_log_abort_request_failed": {
+    "message": "Falló la solicitud de detención"
+  },
+  "agent_log_aborted": {
+    "message": "Interrumpido"
+  },
+  "agent_log_aborted_detail": {
+    "message": "Interrumpido: $ERROR$"
+  },
+  "agent_log_aborting": {
+    "message": "Deteniendo el agente..."
+  },
+  "agent_log_closed_tab": {
+    "message": "Pestaña cerrada: $URL$"
+  },
+  "agent_log_completed": {
+    "message": "Completado"
+  },
+  "agent_log_completed_with_errors": {
+    "message": "Completado (con errores)"
+  },
+  "agent_log_error": {
+    "message": "Error del agente"
+  },
+  "agent_log_failed": {
+    "message": "Fallido"
+  },
+  "agent_log_failed_detail": {
+    "message": "Fallido: $ERROR$"
+  },
+  "agent_log_failed_to_start": {
+    "message": "No se pudo iniciar el agente"
+  },
+  "agent_log_opened_tab": {
+    "message": "Pestaña abierta: $URL$"
+  },
+  "agent_log_received_response": {
+    "message": "Respuesta recibida"
+  },
+  "agent_log_started": {
+    "message": "Iniciado ($TASK_TYPE$)"
+  },
+  "agent_log_starting": {
+    "message": "Iniciando el agente..."
+  },
+  "agent_log_updated_tab": {
+    "message": "Pestaña actualizada: $URL$"
+  },
+  "agent_logo_alt": {
+    "message": "Logotipo de Phi Browser"
+  },
+  "agent_objective_placeholder": {
+    "message": "¿Qué quieres que haga?"
+  },
+  "agent_page_screenshot_alt": {
+    "message": "Captura de pantalla de la página"
+  },
+  "agent_page_title": {
+    "message": "Phi Agent"
+  },
   "agent_password_manager": {
     "message": "Administrador de contraseñas para agentes"
+  },
+  "agent_result": {
+    "message": "Resultado"
+  },
+  "agent_session_aborted": {
+    "message": "Sesión interrumpida"
+  },
+  "agent_session_completed": {
+    "message": "Sesión completada"
+  },
+  "agent_session_failed": {
+    "message": "Sesión fallida"
+  },
+  "agent_session_idle": {
+    "message": "Sesión inactiva"
+  },
+  "agent_steps_completed": {
+    "message": "$COUNT$ paso(s) completado(s)"
+  },
+  "agent_stop_session": {
+    "message": "Detener sesión"
+  },
+  "agent_tab_screenshot": {
+    "message": "Captura de pantalla de la pestaña"
+  },
+  "agent_taking_screenshot": {
+    "message": "Capturando pantalla"
   },
   "agent_transcript": {
     "message": "Transcripción del agente"
@@ -797,6 +887,12 @@
   "command_use": {
     "message": "Uso en comandos"
   },
+  "common_back": {
+    "message": "Atrás"
+  },
+  "common_delete": {
+    "message": "Eliminar"
+  },
   "completed": {
     "message": "Completado"
   },
@@ -991,6 +1087,21 @@
   },
   "days_ago": {
     "message": "hace %d días"
+  },
+  "debugger_approval_allow": {
+    "message": "Permitir"
+  },
+  "debugger_approval_deny": {
+    "message": "Denegar"
+  },
+  "debugger_approval_description": {
+    "message": "Este paso usa el acceso al depurador para inspeccionar el estado de la página o del navegador."
+  },
+  "debugger_approval_summary": {
+    "message": "Aprueba el acceso al depurador para este paso."
+  },
+  "debugger_approval_title": {
+    "message": "Permitir acceso al depurador"
   },
   "default": {
     "message": "Predeterminado"
@@ -1265,6 +1376,9 @@
   "edit_theme_f7ce4c": {
     "message": "Editar tema"
   },
+  "element_picker_instruction": {
+    "message": "Haz clic en un elemento para seleccionarlo. Presiona Esc para cancelar."
+  },
   "email_address": {
     "message": "Dirección de correo electrónico"
   },
@@ -1367,11 +1481,20 @@
   "export_user_data": {
     "message": "Exportar datos de usuario…"
   },
+  "extension_description": {
+    "message": "Ejecuta tareas autónomas y habilidades grabadas en tu navegador."
+  },
   "extension_info": {
     "message": "Información de la extensión"
   },
   "extension_info_063d4f": {
     "message": "Información de la extensión"
+  },
+  "extension_name": {
+    "message": "Phi Agent Browser Runtime"
+  },
+  "extension_name_staging": {
+    "message": "Phi Agent Browser Runtime (Staging)"
   },
   "extensions": {
     "message": "Extensiones"
@@ -2420,6 +2543,48 @@
   "pop_up": {
     "message": "Mostrar automáticamente"
   },
+  "popup_current_tabs_aria_label": {
+    "message": "Pestañas actuales"
+  },
+  "popup_error_tab_organizer_failed": {
+    "message": "Error del organizador de pestañas"
+  },
+  "popup_group_action": {
+    "message": "Agrupar"
+  },
+  "popup_grouping_action": {
+    "message": "Agrupando"
+  },
+  "popup_managed_metric": {
+    "message": "Administradas"
+  },
+  "popup_ready_metric": {
+    "message": "Listas"
+  },
+  "popup_status_groupable_tabs": {
+    "message": "$COUNT$ pestaña(s) agrupable(s)"
+  },
+  "popup_status_grouped_sets": {
+    "message": "Grupos creados: $COUNT$"
+  },
+  "popup_status_ready": {
+    "message": "Listo"
+  },
+  "popup_status_ungrouped_tabs": {
+    "message": "Pestañas desagrupadas: $COUNT$"
+  },
+  "popup_tab_actions_aria_label": {
+    "message": "Acciones de pestañas"
+  },
+  "popup_tabs_metric": {
+    "message": "Pestañas"
+  },
+  "popup_ungroup_action": {
+    "message": "Desagrupar"
+  },
+  "popup_ungrouping_action": {
+    "message": "Desagrupando"
+  },
   "preparing_installer": {
     "message": "Preparando el instalador…"
   },
@@ -2497,6 +2662,168 @@
   },
   "recommended": {
     "message": "Recomendado"
+  },
+  "recorder_action_clear_value": {
+    "message": "Borrar \"$ELEMENT$\""
+  },
+  "recorder_action_click": {
+    "message": "Hacer clic en \"$ELEMENT$\""
+  },
+  "recorder_action_generic": {
+    "message": "$TYPE$ $ELEMENT$"
+  },
+  "recorder_action_navigate": {
+    "message": "Navegar a $URL$"
+  },
+  "recorder_action_press_key": {
+    "message": "Presionar $KEY$"
+  },
+  "recorder_action_scroll_element": {
+    "message": "Desplazar \"$ELEMENT$\" a ($X$, $Y$)"
+  },
+  "recorder_action_scroll_page": {
+    "message": "Desplazarse a ($X$, $Y$)"
+  },
+  "recorder_action_set_value": {
+    "message": "Establecer \"$ELEMENT$\" en \"$VALUE$\""
+  },
+  "recorder_action_tab": {
+    "message": "Pestaña $INDEX$"
+  },
+  "recorder_actions_summary": {
+    "message": "Acciones ($COUNT$) - haz clic para expandir o saltar a ese punto"
+  },
+  "recorder_context_menu": {
+    "message": "Grabar una habilidad"
+  },
+  "recorder_detail_element": {
+    "message": "Elemento"
+  },
+  "recorder_detail_key": {
+    "message": "Tecla"
+  },
+  "recorder_detail_page": {
+    "message": "Página"
+  },
+  "recorder_detail_scroll": {
+    "message": "Desplazamiento"
+  },
+  "recorder_detail_selector": {
+    "message": "Selector"
+  },
+  "recorder_detail_tab": {
+    "message": "Pestaña"
+  },
+  "recorder_detail_tag": {
+    "message": "Etiqueta"
+  },
+  "recorder_detail_time": {
+    "message": "Hora"
+  },
+  "recorder_detail_type": {
+    "message": "Tipo"
+  },
+  "recorder_detail_value": {
+    "message": "Valor"
+  },
+  "recorder_error_enter_skill_name": {
+    "message": "Escribe un nombre para la habilidad"
+  },
+  "recorder_error_generate_first": {
+    "message": "Primero genera la habilidad"
+  },
+  "recorder_expand_controls": {
+    "message": "Expandir controles"
+  },
+  "recorder_generate_skill": {
+    "message": "Generar habilidad"
+  },
+  "recorder_generating": {
+    "message": "Generando..."
+  },
+  "recorder_generation_failed": {
+    "message": "Error al generar: $ERROR$"
+  },
+  "recorder_minimize_controls": {
+    "message": "Minimizar controles"
+  },
+  "recorder_no_actions": {
+    "message": "No se capturó ninguna acción"
+  },
+  "recorder_no_content_generated": {
+    "message": "No se generó contenido."
+  },
+  "recorder_no_replay_data": {
+    "message": "No hay datos de reproducción"
+  },
+  "recorder_page_title": {
+    "message": "Grabadora de Phi"
+  },
+  "recorder_pause": {
+    "message": "Pausar"
+  },
+  "recorder_paused": {
+    "message": "En pausa - $STEP_COUNT$"
+  },
+  "recorder_play": {
+    "message": "Reproducir"
+  },
+  "recorder_re_record": {
+    "message": "Volver a grabar"
+  },
+  "recorder_ready": {
+    "message": "Listo para grabar"
+  },
+  "recorder_recording": {
+    "message": "Grabando - $STEP_COUNT$"
+  },
+  "recorder_recording_review": {
+    "message": "Revisión de la grabación"
+  },
+  "recorder_replay": {
+    "message": "Reproducción"
+  },
+  "recorder_resume": {
+    "message": "Reanudar"
+  },
+  "recorder_save_failed": {
+    "message": "Error al guardar: $ERROR$"
+  },
+  "recorder_save_skill": {
+    "message": "Guardar habilidad"
+  },
+  "recorder_saved": {
+    "message": "Guardado"
+  },
+  "recorder_saved_to_skills": {
+    "message": "Guardado en tu página de habilidades"
+  },
+  "recorder_saving": {
+    "message": "Guardando..."
+  },
+  "recorder_skill_content": {
+    "message": "Contenido de la habilidad (guardado como SKILL.md)"
+  },
+  "recorder_skill_name_placeholder": {
+    "message": "Ponle un nombre a esta habilidad..."
+  },
+  "recorder_skill_preview": {
+    "message": "Vista previa de la habilidad"
+  },
+  "recorder_skill_title": {
+    "message": "Título de la habilidad"
+  },
+  "recorder_start": {
+    "message": "Iniciar"
+  },
+  "recorder_step_count": {
+    "message": "$COUNT$ paso(s)"
+  },
+  "recorder_stop": {
+    "message": "Detener"
+  },
+  "recorder_stop_recording": {
+    "message": "Detener la grabación"
   },
   "red": {
     "message": "Rojo"
@@ -2900,6 +3227,9 @@
   "settings_phi_sign_in_button": {
     "message": "Iniciar sesión"
   },
+  "shadow_task_approval_title": {
+    "message": "Tarea en segundo plano"
+  },
   "share": {
     "message": "Compartir"
   },
@@ -3136,6 +3466,36 @@
   },
   "tab_name": {
     "message": "Nombre de la pestaña"
+  },
+  "tab_organizer_group_development": {
+    "message": "Desarrollo"
+  },
+  "tab_organizer_group_docs": {
+    "message": "Documentación"
+  },
+  "tab_organizer_group_learning": {
+    "message": "Aprendizaje"
+  },
+  "tab_organizer_group_media": {
+    "message": "Multimedia"
+  },
+  "tab_organizer_group_news": {
+    "message": "Noticias"
+  },
+  "tab_organizer_group_other": {
+    "message": "Otros"
+  },
+  "tab_organizer_group_review": {
+    "message": "Por revisar"
+  },
+  "tab_organizer_group_shopping": {
+    "message": "Compras"
+  },
+  "tab_organizer_group_social": {
+    "message": "Social"
+  },
+  "tab_organizer_group_work": {
+    "message": "Trabajo"
   },
   "tab_search": {
     "message": "Buscar pestañas"
