@@ -1897,7 +1897,7 @@
   },
   "feedback_attach_file_note": {
     "message": "File will be sent to Phinomenon for debugging",
-    "description": "Location: Browser. Note shown under the file attachment control in the feedback form, telling the user that the attached file is sent to Phinomenon so the reported problem can be investigated."
+    "description": "Location: Browser. Text for describing the maximum size for an attached file"
   },
   "feedback_free_text_ai_label": {
     "message": "Describe the issue in detail. Feedback will be sent to Phinomenon for human review and may be used for improving or developing Phinomenon products and services.",
@@ -1909,7 +1909,7 @@
   },
   "feedback_report_page_title": {
     "message": "Send Feedback to Phinomenon",
-    "description": "Location: Browser. Title shown at the top of the feedback window where the user writes and submits a report to Phinomenon."
+    "description": "Location: Browser. Label showing the title of the page that will be reported"
   },
   "file": {
     "message": "File",
@@ -3833,7 +3833,7 @@
   },
   "settings_people": {
     "message": "You and Phi",
-    "description": "Location: Browser. Name of the settings page where the user manages their Phi account and the data tied to it."
+    "description": "Location: Browser. Name of the settings page which manages the user's relationship to Google."
   },
   "settings_phi_account_page_title": {
     "message": "Phi account",
@@ -3850,6 +3850,22 @@
   "settings_phi_delete_account_label": {
     "message": "Delete account and data",
     "description": "Location: Browser. Header of the row on the Phi account subpage that lets the user delete their Phi account and the data stored with it."
+  },
+  "settings_phi_export_data_button": {
+    "message": "Export",
+    "description": "Location: Browser. Label of the button on the Phi account subpage that starts the account data export verification flow."
+  },
+  "settings_phi_export_data_description": {
+    "message": "Get a copy of the personal data associated with your Phi Browser account.",
+    "description": "Location: Browser. Sentence below the export header explaining the scope of the account data export."
+  },
+  "settings_phi_export_data_label": {
+    "message": "Export your data",
+    "description": "Location: Browser. Header of the row on the Phi account subpage that lets the user request an export of data associated with their Phi Browser account."
+  },
+  "settings_phi_sign_in_button": {
+    "message": "Sign in",
+    "description": "Location: Browser. Label of the button on the settings account row, shown in guest mode, that opens the sign-in window. Must stay word-for-word identical to the Sign in button in the Mac client's account settings."
   },
   "share": {
     "message": "Share",
