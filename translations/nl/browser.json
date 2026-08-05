@@ -101,98 +101,8 @@
   "agent_idle_command_starts_or_queues_its": {
     "message": "agent inactief: een commando start de volgende ronde of zet die in de wachtrij"
   },
-  "agent_is_working": {
-    "message": "Agent is bezig..."
-  },
-  "agent_log_abort_request_failed": {
-    "message": "Stopverzoek mislukt"
-  },
-  "agent_log_aborted": {
-    "message": "Afgebroken"
-  },
-  "agent_log_aborted_detail": {
-    "message": "Afgebroken: $ERROR$"
-  },
-  "agent_log_aborting": {
-    "message": "Agent wordt gestopt..."
-  },
-  "agent_log_closed_tab": {
-    "message": "Tabblad gesloten: $URL$"
-  },
-  "agent_log_completed": {
-    "message": "Voltooid"
-  },
-  "agent_log_completed_with_errors": {
-    "message": "Voltooid (met fouten)"
-  },
-  "agent_log_error": {
-    "message": "Agentfout"
-  },
-  "agent_log_failed": {
-    "message": "Mislukt"
-  },
-  "agent_log_failed_detail": {
-    "message": "Mislukt: $ERROR$"
-  },
-  "agent_log_failed_to_start": {
-    "message": "Agent starten mislukt"
-  },
-  "agent_log_opened_tab": {
-    "message": "Tabblad geopend: $URL$"
-  },
-  "agent_log_received_response": {
-    "message": "Antwoord ontvangen"
-  },
-  "agent_log_started": {
-    "message": "Gestart ($TASK_TYPE$)"
-  },
-  "agent_log_starting": {
-    "message": "Agent wordt gestart..."
-  },
-  "agent_log_updated_tab": {
-    "message": "Tabblad bijgewerkt: $URL$"
-  },
-  "agent_logo_alt": {
-    "message": "Phi Browser-logo"
-  },
-  "agent_objective_placeholder": {
-    "message": "Wat wil je dat ik doe?"
-  },
-  "agent_page_screenshot_alt": {
-    "message": "Screenshot van pagina"
-  },
-  "agent_page_title": {
-    "message": "Phi Agent"
-  },
   "agent_password_manager": {
     "message": "Wachtwoordmanager voor agents"
-  },
-  "agent_result": {
-    "message": "Resultaat"
-  },
-  "agent_session_aborted": {
-    "message": "Sessie afgebroken"
-  },
-  "agent_session_completed": {
-    "message": "Sessie voltooid"
-  },
-  "agent_session_failed": {
-    "message": "Sessie mislukt"
-  },
-  "agent_session_idle": {
-    "message": "Sessie inactief"
-  },
-  "agent_steps_completed": {
-    "message": "$COUNT$ stap(pen) voltooid"
-  },
-  "agent_stop_session": {
-    "message": "Sessie stoppen"
-  },
-  "agent_tab_screenshot": {
-    "message": "Screenshot van tabblad"
-  },
-  "agent_taking_screenshot": {
-    "message": "Screenshot wordt gemaakt"
   },
   "agent_transcript": {
     "message": "Agenttranscript"
@@ -887,12 +797,6 @@
   "command_use": {
     "message": "Commandogebruik"
   },
-  "common_back": {
-    "message": "Terug"
-  },
-  "common_delete": {
-    "message": "Verwijderen"
-  },
   "completed": {
     "message": "Voltooid"
   },
@@ -1087,21 +991,6 @@
   },
   "days_ago": {
     "message": "%d dagen geleden"
-  },
-  "debugger_approval_allow": {
-    "message": "Toestaan"
-  },
-  "debugger_approval_deny": {
-    "message": "Weigeren"
-  },
-  "debugger_approval_description": {
-    "message": "Deze stap gebruikt debuggertoegang om de status van de pagina of browser te inspecteren."
-  },
-  "debugger_approval_summary": {
-    "message": "Keur debuggertoegang voor deze stap goed."
-  },
-  "debugger_approval_title": {
-    "message": "Debuggertoegang toestaan"
   },
   "default": {
     "message": "Standaard"
@@ -1376,9 +1265,6 @@
   "edit_theme_f7ce4c": {
     "message": "Wijzig thema"
   },
-  "element_picker_instruction": {
-    "message": "Klik op een element om het te selecteren. Druk op Esc om te annuleren."
-  },
   "email_address": {
     "message": "E-mailadres"
   },
@@ -1481,20 +1367,11 @@
   "export_user_data": {
     "message": "Exporteer gebruikersgegevens…"
   },
-  "extension_description": {
-    "message": "Voert autonome taken en opgenomen skills uit in je browser."
-  },
   "extension_info": {
     "message": "Extensie-info"
   },
   "extension_info_063d4f": {
     "message": "Extensie-info"
-  },
-  "extension_name": {
-    "message": "Phi Agent Browser Runtime"
-  },
-  "extension_name_staging": {
-    "message": "Phi Agent Browser Runtime (Staging)"
   },
   "extensions": {
     "message": "Extensies"
@@ -2543,48 +2420,6 @@
   "pop_up": {
     "message": "Pop-up tonen"
   },
-  "popup_current_tabs_aria_label": {
-    "message": "Huidige tabbladen"
-  },
-  "popup_error_tab_organizer_failed": {
-    "message": "Tabbladen ordenen mislukt"
-  },
-  "popup_group_action": {
-    "message": "Groeperen"
-  },
-  "popup_grouping_action": {
-    "message": "Bezig met groeperen"
-  },
-  "popup_managed_metric": {
-    "message": "Beheerd"
-  },
-  "popup_ready_metric": {
-    "message": "Gereed"
-  },
-  "popup_status_groupable_tabs": {
-    "message": "$COUNT$ tabblad(en) om te groeperen"
-  },
-  "popup_status_grouped_sets": {
-    "message": "$COUNT$ groep(en) gemaakt"
-  },
-  "popup_status_ready": {
-    "message": "Gereed"
-  },
-  "popup_status_ungrouped_tabs": {
-    "message": "$COUNT$ tabblad(en) uit groepen gehaald"
-  },
-  "popup_tab_actions_aria_label": {
-    "message": "Tabbladacties"
-  },
-  "popup_tabs_metric": {
-    "message": "Tabbladen"
-  },
-  "popup_ungroup_action": {
-    "message": "Groepen opheffen"
-  },
-  "popup_ungrouping_action": {
-    "message": "Bezig met opheffen"
-  },
   "preparing_installer": {
     "message": "Installatieprogramma voorbereiden…"
   },
@@ -2662,168 +2497,6 @@
   },
   "recommended": {
     "message": "Aanbevolen"
-  },
-  "recorder_action_clear_value": {
-    "message": "Wis \"$ELEMENT$\""
-  },
-  "recorder_action_click": {
-    "message": "Klik op \"$ELEMENT$\""
-  },
-  "recorder_action_generic": {
-    "message": "$TYPE$ $ELEMENT$"
-  },
-  "recorder_action_navigate": {
-    "message": "Navigeer naar $URL$"
-  },
-  "recorder_action_press_key": {
-    "message": "Druk op $KEY$"
-  },
-  "recorder_action_scroll_element": {
-    "message": "Scrol \"$ELEMENT$\" naar ($X$, $Y$)"
-  },
-  "recorder_action_scroll_page": {
-    "message": "Scrol naar ($X$, $Y$)"
-  },
-  "recorder_action_set_value": {
-    "message": "Stel \"$ELEMENT$\" in op \"$VALUE$\""
-  },
-  "recorder_action_tab": {
-    "message": "Tabblad $INDEX$"
-  },
-  "recorder_actions_summary": {
-    "message": "Acties ($COUNT$) - klik om uit te klappen of ernaartoe te springen"
-  },
-  "recorder_context_menu": {
-    "message": "Een skill opnemen"
-  },
-  "recorder_detail_element": {
-    "message": "Element"
-  },
-  "recorder_detail_key": {
-    "message": "Toets"
-  },
-  "recorder_detail_page": {
-    "message": "Pagina"
-  },
-  "recorder_detail_scroll": {
-    "message": "Scrollpositie"
-  },
-  "recorder_detail_selector": {
-    "message": "Selector"
-  },
-  "recorder_detail_tab": {
-    "message": "Tabblad"
-  },
-  "recorder_detail_tag": {
-    "message": "Tag"
-  },
-  "recorder_detail_time": {
-    "message": "Tijd"
-  },
-  "recorder_detail_type": {
-    "message": "Type"
-  },
-  "recorder_detail_value": {
-    "message": "Waarde"
-  },
-  "recorder_error_enter_skill_name": {
-    "message": "Voer een naam voor de skill in"
-  },
-  "recorder_error_generate_first": {
-    "message": "Genereer eerst de skill"
-  },
-  "recorder_expand_controls": {
-    "message": "Bedieningselementen uitklappen"
-  },
-  "recorder_generate_skill": {
-    "message": "Skill genereren"
-  },
-  "recorder_generating": {
-    "message": "Genereren..."
-  },
-  "recorder_generation_failed": {
-    "message": "Genereren mislukt: $ERROR$"
-  },
-  "recorder_minimize_controls": {
-    "message": "Bedieningselementen minimaliseren"
-  },
-  "recorder_no_actions": {
-    "message": "Geen acties vastgelegd"
-  },
-  "recorder_no_content_generated": {
-    "message": "Geen inhoud gegenereerd."
-  },
-  "recorder_no_replay_data": {
-    "message": "Geen replaygegevens"
-  },
-  "recorder_page_title": {
-    "message": "Phi-recorder"
-  },
-  "recorder_pause": {
-    "message": "Pauzeren"
-  },
-  "recorder_paused": {
-    "message": "Gepauzeerd - $STEP_COUNT$"
-  },
-  "recorder_play": {
-    "message": "Afspelen"
-  },
-  "recorder_re_record": {
-    "message": "Opnieuw opnemen"
-  },
-  "recorder_ready": {
-    "message": "Klaar om op te nemen"
-  },
-  "recorder_recording": {
-    "message": "Aan het opnemen - $STEP_COUNT$"
-  },
-  "recorder_recording_review": {
-    "message": "Opname controleren"
-  },
-  "recorder_replay": {
-    "message": "Replay"
-  },
-  "recorder_resume": {
-    "message": "Hervatten"
-  },
-  "recorder_save_failed": {
-    "message": "Opslaan mislukt: $ERROR$"
-  },
-  "recorder_save_skill": {
-    "message": "Skill opslaan"
-  },
-  "recorder_saved": {
-    "message": "Opgeslagen"
-  },
-  "recorder_saved_to_skills": {
-    "message": "Opgeslagen op je Skills-pagina"
-  },
-  "recorder_saving": {
-    "message": "Opslaan..."
-  },
-  "recorder_skill_content": {
-    "message": "Skill-inhoud (opgeslagen als SKILL.md)"
-  },
-  "recorder_skill_name_placeholder": {
-    "message": "Geef deze skill een naam..."
-  },
-  "recorder_skill_preview": {
-    "message": "Skill-voorbeeld"
-  },
-  "recorder_skill_title": {
-    "message": "Skill-titel"
-  },
-  "recorder_start": {
-    "message": "Starten"
-  },
-  "recorder_step_count": {
-    "message": "$COUNT$ stap(pen)"
-  },
-  "recorder_stop": {
-    "message": "Stoppen"
-  },
-  "recorder_stop_recording": {
-    "message": "Opname stoppen"
   },
   "red": {
     "message": "Rood"
@@ -3227,9 +2900,6 @@
   "settings_phi_sign_in_button": {
     "message": "Inloggen"
   },
-  "shadow_task_approval_title": {
-    "message": "Schaduwtaak"
-  },
   "share": {
     "message": "Deel"
   },
@@ -3466,36 +3136,6 @@
   },
   "tab_name": {
     "message": "Tabbladnaam"
-  },
-  "tab_organizer_group_development": {
-    "message": "Ontwikkeling"
-  },
-  "tab_organizer_group_docs": {
-    "message": "Documentatie"
-  },
-  "tab_organizer_group_learning": {
-    "message": "Leren"
-  },
-  "tab_organizer_group_media": {
-    "message": "Media"
-  },
-  "tab_organizer_group_news": {
-    "message": "Nieuws"
-  },
-  "tab_organizer_group_other": {
-    "message": "Overig"
-  },
-  "tab_organizer_group_review": {
-    "message": "Nakijken"
-  },
-  "tab_organizer_group_shopping": {
-    "message": "Winkelen"
-  },
-  "tab_organizer_group_social": {
-    "message": "Social media"
-  },
-  "tab_organizer_group_work": {
-    "message": "Werk"
   },
   "tab_search": {
     "message": "Zoek in tabbladen"

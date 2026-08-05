@@ -15,6 +15,126 @@
     "message": "Version: %@",
     "description": "Location: Sentinel. About dialog - Application version label. %@ is the application version"
   },
+  "agent_is_working": {
+    "message": "Agent is working...",
+    "description": "Location: Sentinel. Status shown while the development agent session is starting or running."
+  },
+  "agent_log_abort_request_failed": {
+    "message": "Stop request failed",
+    "description": "Location: Sentinel. Fallback timeline error when the request to stop a development agent session fails."
+  },
+  "agent_log_aborted": {
+    "message": "Aborted",
+    "description": "Location: Sentinel. Timeline entry when a development agent session is aborted without a specific reason."
+  },
+  "agent_log_aborted_detail": {
+    "message": "Aborted: $ERROR$",
+    "description": "Location: Sentinel. Timeline entry when a development agent session is aborted with a reason. ERROR is the original runtime error and must be preserved verbatim."
+  },
+  "agent_log_aborting": {
+    "message": "Stopping agent...",
+    "description": "Location: Sentinel. Timeline entry while a development agent session is being stopped."
+  },
+  "agent_log_closed_tab": {
+    "message": "Closed tab: $URL$",
+    "description": "Location: Sentinel. Timeline entry when the development agent closes a browser tab. URL is the tab address and must not be translated."
+  },
+  "agent_log_completed": {
+    "message": "Completed",
+    "description": "Location: Sentinel. Timeline entry when a development agent session completes successfully."
+  },
+  "agent_log_completed_with_errors": {
+    "message": "Completed (with errors)",
+    "description": "Location: Sentinel. Timeline entry when a development agent session reaches completion but reports errors."
+  },
+  "agent_log_error": {
+    "message": "Agent error",
+    "description": "Location: Sentinel. Fallback timeline error when a development agent session reports no specific message."
+  },
+  "agent_log_failed": {
+    "message": "Failed",
+    "description": "Location: Sentinel. Timeline entry when a development agent session fails without a specific error."
+  },
+  "agent_log_failed_detail": {
+    "message": "Failed: $ERROR$",
+    "description": "Location: Sentinel. Timeline entry when a development agent session fails. ERROR is the original runtime error and must be preserved verbatim."
+  },
+  "agent_log_failed_to_start": {
+    "message": "Failed to start agent",
+    "description": "Location: Sentinel. Fallback timeline error when a development agent session cannot be created."
+  },
+  "agent_log_opened_tab": {
+    "message": "Opened tab: $URL$",
+    "description": "Location: Sentinel. Timeline entry when the development agent opens a browser tab. URL is the tab address and must not be translated."
+  },
+  "agent_log_received_response": {
+    "message": "Received response",
+    "description": "Location: Sentinel. Timeline entry when the development agent receives a response payload."
+  },
+  "agent_log_started": {
+    "message": "Started ($TASK_TYPE$)",
+    "description": "Location: Sentinel. Timeline entry when a development agent session starts. TASK_TYPE is an internal task-type identifier and must be preserved verbatim."
+  },
+  "agent_log_starting": {
+    "message": "Starting agent...",
+    "description": "Location: Sentinel. Timeline entry while a development agent session is being created."
+  },
+  "agent_log_updated_tab": {
+    "message": "Updated tab: $URL$",
+    "description": "Location: Sentinel. Timeline entry when the development agent updates a browser tab. URL is the tab address and must not be translated."
+  },
+  "agent_logo_alt": {
+    "message": "Phi Browser logo",
+    "description": "Location: Sentinel. Alternative text for the Phi Browser logo in the development agent playground."
+  },
+  "agent_objective_placeholder": {
+    "message": "What would you like me to do?",
+    "description": "Location: Sentinel. Placeholder in the development agent playground input where the user enters a browser task."
+  },
+  "agent_page_screenshot_alt": {
+    "message": "Page screenshot",
+    "description": "Location: Sentinel. Alternative text for a webpage screenshot in the development agent timeline."
+  },
+  "agent_page_title": {
+    "message": "Phi Agent",
+    "description": "Location: Sentinel. Browser document title for the development agent playground. Phi Agent is a product name."
+  },
+  "agent_result": {
+    "message": "Result",
+    "description": "Location: Sentinel. Heading above the final result of a completed development agent session."
+  },
+  "agent_session_aborted": {
+    "message": "Session aborted",
+    "description": "Location: Sentinel. Development agent timeline status after the user stops a session."
+  },
+  "agent_session_completed": {
+    "message": "Session completed",
+    "description": "Location: Sentinel. Development agent timeline status after a session finishes successfully."
+  },
+  "agent_session_failed": {
+    "message": "Session failed",
+    "description": "Location: Sentinel. Development agent timeline status after a session fails."
+  },
+  "agent_session_idle": {
+    "message": "Session idle",
+    "description": "Location: Sentinel. Development agent timeline status when no session is active."
+  },
+  "agent_steps_completed": {
+    "message": "$COUNT$ step(s) completed",
+    "description": "Location: Sentinel. Collapsible timeline heading in the development agent playground. COUNT is the number of completed log steps."
+  },
+  "agent_stop_session": {
+    "message": "Stop session",
+    "description": "Location: Sentinel. Label and tooltip for the control that stops a running development agent session."
+  },
+  "agent_tab_screenshot": {
+    "message": "Tab screenshot",
+    "description": "Location: Sentinel. Heading above a screenshot produced by a completed browser-tool step in the development agent timeline."
+  },
+  "agent_taking_screenshot": {
+    "message": "Taking screenshot",
+    "description": "Location: Sentinel. Heading above a screenshot while the development agent timeline is capturing it."
+  },
   "app_dev_mode": {
     "message": "Dev Mode",
     "description": "Location: Sentinel. Text in the application identity area. Badge shown beside the product name when development mode is active."
@@ -147,6 +267,22 @@
     "message": "All",
     "description": "Location: Sentinel. Text reused by dialogs and controls in several dashboard areas. Option label meaning all available items."
   },
+  "common_back": {
+    "message": "Back",
+    "description": "Location: Sentinel. Button label that returns from the skill preview to the recording review."
+  },
+  "common_cancel": {
+    "message": "Cancel",
+    "description": "Location: Sentinel. Text reused by dialogs and controls in several dashboard areas. Button that abandons the current edit, download, or confirmation."
+  },
+  "common_close": {
+    "message": "Close",
+    "description": "Location: Sentinel. Text reused by dialogs and controls in several dashboard areas. Button that dismisses the current dialog."
+  },
+  "common_delete": {
+    "message": "Delete",
+    "description": "Location: Sentinel. Accessible label and tooltip for deleting a captured action."
+  },
   "common_error": {
     "message": "Error",
     "description": "Location: Sentinel. Text reused by dialogs and controls in several dashboard areas. Fallback error heading used when a more specific title is unavailable."
@@ -179,6 +315,26 @@
     "message": "Phi Sentinel Dashboard",
     "description": "Location: Sentinel. Dashboard window - Native window title used by macOS window management and accessibility"
   },
+  "debugger_approval_allow": {
+    "message": "Allow",
+    "description": "Location: Sentinel. Button label that grants a debugger-access approval request."
+  },
+  "debugger_approval_deny": {
+    "message": "Deny",
+    "description": "Location: Sentinel. Button label that rejects a debugger-access approval request."
+  },
+  "debugger_approval_description": {
+    "message": "This step uses debugger access to inspect page or browser state.",
+    "description": "Location: Sentinel. Explanation in a high-risk approval prompt. It tells the user why the current browser-task step requests debugging access."
+  },
+  "debugger_approval_summary": {
+    "message": "Approve debugger access for this step.",
+    "description": "Location: Sentinel. Short summary in the debugger-access approval prompt."
+  },
+  "debugger_approval_title": {
+    "message": "Allow debugger access",
+    "description": "Location: Sentinel. Title of a high-risk approval prompt shown before a browser task attaches debugging access to a page."
+  },
   "directory_access_panel_grant_button": {
     "message": "Grant Access",
     "description": "Location: Sentinel. Directory access panel - Confirmation button that grants the application access to the selected folder"
@@ -186,6 +342,10 @@
   "directory_access_panel_message": {
     "message": "Select a directory to grant access",
     "description": "Location: Sentinel. Directory access panel - Instruction asking the user to choose a folder the application may access"
+  },
+  "element_picker_instruction": {
+    "message": "Click an element to select it. Press Esc to cancel.",
+    "description": "Location: Sentinel. Instruction banner shown over a webpage while the user is choosing an element for the agent. Esc names the keyboard key."
   },
   "errors_ai_gateway_provider_test_timed_out": {
     "message": "Provider test timed out. The provider may still be loading the model; try again in a moment.",
@@ -250,6 +410,18 @@
   "experimental_description_stability_warning": {
     "message": "Early features that are still evolving. Expect rough edges.",
     "description": "Location: Sentinel. Entry page for experimental features. Warning that Experimental features may change and behave unexpectedly."
+  },
+  "extension_description": {
+    "message": "Runs autonomous tasks and recorded skills in your browser.",
+    "description": "Location: Sentinel. Short summary shown below the extension name in browser extension-management surfaces. Describes what the extension does for the person installing it."
+  },
+  "extension_name": {
+    "message": "Phi Agent Browser Runtime",
+    "description": "Location: Sentinel. Product name shown for the extension in browser extension-management surfaces. Keep the product name unchanged."
+  },
+  "extension_name_staging": {
+    "message": "Phi Agent Browser Runtime (Staging)",
+    "description": "Location: Sentinel. Product name shown for a non-production build in browser extension-management surfaces. Keep the product name unchanged and retain the environment qualifier."
   },
   "history_coming_soon_description": {
     "message": "History functionality is under development",
@@ -2735,6 +2907,62 @@
     "message": "Permissions",
     "description": "Location: Sentinel. macOS permission and folder-access management page. Page title above macOS permission and folder-access controls."
   },
+  "popup_current_tabs_aria_label": {
+    "message": "Current tabs",
+    "description": "Location: Sentinel. Accessible label for the popup section that summarizes tab counts in the current window."
+  },
+  "popup_error_tab_organizer_failed": {
+    "message": "Tab organizer failed",
+    "description": "Location: Sentinel. Fallback error shown in the tab-organizer popup when an operation fails without a more specific error."
+  },
+  "popup_group_action": {
+    "message": "Group",
+    "description": "Location: Sentinel. Button label that starts automatic tab grouping."
+  },
+  "popup_grouping_action": {
+    "message": "Grouping",
+    "description": "Location: Sentinel. Temporary button label while the tab organizer is grouping tabs."
+  },
+  "popup_managed_metric": {
+    "message": "Managed",
+    "description": "Location: Sentinel. Label below the number of tabs already managed by the tab organizer."
+  },
+  "popup_ready_metric": {
+    "message": "Ready",
+    "description": "Location: Sentinel. Label below the number of tabs currently eligible for grouping."
+  },
+  "popup_status_groupable_tabs": {
+    "message": "$COUNT$ groupable tab(s)",
+    "description": "Location: Sentinel. Status shown after the popup scans the current browser window. COUNT is the number of tabs eligible for automatic grouping."
+  },
+  "popup_status_grouped_sets": {
+    "message": "Grouped $COUNT$ set(s)",
+    "description": "Location: Sentinel. Success status shown after tabs are organized. COUNT is the number of tab groups applied."
+  },
+  "popup_status_ready": {
+    "message": "Ready",
+    "description": "Location: Sentinel. Initial status shown in the tab-organizer popup before an operation starts."
+  },
+  "popup_status_ungrouped_tabs": {
+    "message": "Ungrouped $COUNT$ tab(s)",
+    "description": "Location: Sentinel. Success status shown after managed tab groups are removed. COUNT is the number of tabs removed from groups."
+  },
+  "popup_tab_actions_aria_label": {
+    "message": "Tab actions",
+    "description": "Location: Sentinel. Accessible label for the popup section containing group and ungroup commands."
+  },
+  "popup_tabs_metric": {
+    "message": "Tabs",
+    "description": "Location: Sentinel. Label below the total number of tabs in the tab-organizer popup."
+  },
+  "popup_ungroup_action": {
+    "message": "Ungroup",
+    "description": "Location: Sentinel. Button label that removes tab groups created by the organizer."
+  },
+  "popup_ungrouping_action": {
+    "message": "Ungrouping",
+    "description": "Location: Sentinel. Temporary button label while the tab organizer is removing managed groups."
+  },
   "private_ai_advanced_console_action_back": {
     "message": "← Back",
     "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Advanced private AI settings screen. Button that returns from advanced settings to the private AI overview."
@@ -3210,6 +3438,222 @@
   "quit_blocked_alert_title": {
     "message": "Cannot Quit Phi Sentinel",
     "description": "Location: Sentinel. Quit warning - Title shown when the application cannot quit because the associated browser is running"
+  },
+  "recorder_action_clear_value": {
+    "message": "Clear \"$ELEMENT$\"",
+    "description": "Location: Sentinel. Title of a captured action that clears an input. ELEMENT is the input's accessible name or visible label."
+  },
+  "recorder_action_click": {
+    "message": "Click \"$ELEMENT$\"",
+    "description": "Location: Sentinel. Title of a captured click action. ELEMENT is the accessible name or visible label of the clicked webpage element."
+  },
+  "recorder_action_generic": {
+    "message": "$TYPE$ $ELEMENT$",
+    "description": "Location: Sentinel. Fallback title for an uncommon captured action. TYPE is the recorded action kind and ELEMENT is its webpage element label."
+  },
+  "recorder_action_navigate": {
+    "message": "Navigate to $URL$",
+    "description": "Location: Sentinel. Title of a captured browser navigation. URL is the destination address and must not be translated."
+  },
+  "recorder_action_press_key": {
+    "message": "Press $KEY$",
+    "description": "Location: Sentinel. Title of a captured keyboard action. KEY is the browser's stable key name, such as Enter or Escape."
+  },
+  "recorder_action_scroll_element": {
+    "message": "Scroll \"$ELEMENT$\" to ($X$, $Y$)",
+    "description": "Location: Sentinel. Title of a captured scroll inside a webpage element. ELEMENT is the element label; X and Y are captured horizontal and vertical offsets."
+  },
+  "recorder_action_scroll_page": {
+    "message": "Scroll to ($X$, $Y$)",
+    "description": "Location: Sentinel. Title of a captured page scroll. X and Y are captured horizontal and vertical offsets."
+  },
+  "recorder_action_set_value": {
+    "message": "Set \"$ELEMENT$\" to \"$VALUE$\"",
+    "description": "Location: Sentinel. Title of a captured text-entry action. ELEMENT is the input label and VALUE is the entered text, which may be truncated."
+  },
+  "recorder_action_tab": {
+    "message": "Tab $INDEX$",
+    "description": "Location: Sentinel. Badge identifying which browser tab contains a captured action. INDEX is the stable one-based tab number."
+  },
+  "recorder_actions_summary": {
+    "message": "Actions ($COUNT$) - click to expand or seek",
+    "description": "Location: Sentinel. Heading above captured actions in the recording review. COUNT is the number of actions; the remaining text explains row interaction."
+  },
+  "recorder_context_menu": {
+    "message": "Record a skill",
+    "description": "Location: Sentinel. Browser page context-menu command that opens the user-action recorder."
+  },
+  "recorder_detail_element": {
+    "message": "Element",
+    "description": "Location: Sentinel. Field label for the human-readable webpage element recorded for an action."
+  },
+  "recorder_detail_key": {
+    "message": "Key",
+    "description": "Location: Sentinel. Field label for the keyboard key used during a captured action."
+  },
+  "recorder_detail_page": {
+    "message": "Page",
+    "description": "Location: Sentinel. Field label for the webpage URL where a captured action occurred."
+  },
+  "recorder_detail_scroll": {
+    "message": "Scroll",
+    "description": "Location: Sentinel. Field label for the horizontal and vertical offsets of a captured scroll action."
+  },
+  "recorder_detail_selector": {
+    "message": "Selector",
+    "description": "Location: Sentinel. Field label for the webpage selector recorded for an action."
+  },
+  "recorder_detail_tab": {
+    "message": "Tab",
+    "description": "Location: Sentinel. Field label for the browser-tab index associated with a captured action."
+  },
+  "recorder_detail_tag": {
+    "message": "Tag",
+    "description": "Location: Sentinel. Field label for the HTML tag recorded for an action."
+  },
+  "recorder_detail_time": {
+    "message": "Time",
+    "description": "Location: Sentinel. Field label for the timestamp of a captured action."
+  },
+  "recorder_detail_type": {
+    "message": "Type",
+    "description": "Location: Sentinel. Field label for the kind of a captured action in recording details."
+  },
+  "recorder_detail_value": {
+    "message": "Value",
+    "description": "Location: Sentinel. Field label for the value entered during a captured action."
+  },
+  "recorder_error_enter_skill_name": {
+    "message": "Enter a skill name",
+    "description": "Location: Sentinel. Validation error shown when the user tries to save a generated skill without a name."
+  },
+  "recorder_error_generate_first": {
+    "message": "Generate the skill first",
+    "description": "Location: Sentinel. Validation error shown when the user tries to save before generating a skill preview."
+  },
+  "recorder_expand_controls": {
+    "message": "Expand controls",
+    "description": "Location: Sentinel. Accessible label and tooltip for expanding the compact recording controls."
+  },
+  "recorder_generate_skill": {
+    "message": "Generate skill",
+    "description": "Location: Sentinel. Button label that generates a reusable skill from captured actions."
+  },
+  "recorder_generating": {
+    "message": "Generating...",
+    "description": "Location: Sentinel. Temporary button label while a skill is being generated from captured actions."
+  },
+  "recorder_generation_failed": {
+    "message": "Generation failed: $ERROR$",
+    "description": "Location: Sentinel. Error shown when skill generation fails. ERROR is the original runtime error and must be preserved verbatim."
+  },
+  "recorder_minimize_controls": {
+    "message": "Minimize controls",
+    "description": "Location: Sentinel. Accessible label and tooltip for collapsing the recording controls."
+  },
+  "recorder_no_actions": {
+    "message": "No actions captured",
+    "description": "Location: Sentinel. Empty state in the recording review when no user actions were captured."
+  },
+  "recorder_no_content_generated": {
+    "message": "No content generated.",
+    "description": "Location: Sentinel. Empty state when the skill generator returns no preview content."
+  },
+  "recorder_no_replay_data": {
+    "message": "No replay data",
+    "description": "Location: Sentinel. Empty state when a recording contains no replayable browser events."
+  },
+  "recorder_page_title": {
+    "message": "Phi Recorder",
+    "description": "Location: Sentinel. Browser document title for the in-page recording control. Phi is a product name."
+  },
+  "recorder_pause": {
+    "message": "Pause",
+    "description": "Location: Sentinel. Button label that pauses capture or replay, depending on context."
+  },
+  "recorder_paused": {
+    "message": "Paused - $STEP_COUNT$",
+    "description": "Location: Sentinel. Status while capture is paused. STEP_COUNT is a localized count such as 5 steps."
+  },
+  "recorder_play": {
+    "message": "Play",
+    "description": "Location: Sentinel. Button label that plays the captured interaction replay."
+  },
+  "recorder_re_record": {
+    "message": "Re-record",
+    "description": "Location: Sentinel. Button label that discards the current review and starts a new recording."
+  },
+  "recorder_ready": {
+    "message": "Ready to record",
+    "description": "Location: Sentinel. Status in the recording control before capture starts."
+  },
+  "recorder_recording": {
+    "message": "Recording - $STEP_COUNT$",
+    "description": "Location: Sentinel. Status while user actions are being captured. STEP_COUNT is a localized count such as 5 steps."
+  },
+  "recorder_recording_review": {
+    "message": "Recording review",
+    "description": "Location: Sentinel. Dialog title while the user reviews captured actions and replay data."
+  },
+  "recorder_replay": {
+    "message": "Replay",
+    "description": "Location: Sentinel. Heading above the masked replay of captured browser actions."
+  },
+  "recorder_resume": {
+    "message": "Resume",
+    "description": "Location: Sentinel. Button label that resumes a paused recording."
+  },
+  "recorder_save_failed": {
+    "message": "Save failed: $ERROR$",
+    "description": "Location: Sentinel. Error shown when saving a generated skill fails. ERROR is the original runtime error and must be preserved verbatim."
+  },
+  "recorder_save_skill": {
+    "message": "Save skill",
+    "description": "Location: Sentinel. Button label that saves the reviewed generated skill."
+  },
+  "recorder_saved": {
+    "message": "Saved",
+    "description": "Location: Sentinel. Button label after a generated skill has been saved successfully."
+  },
+  "recorder_saved_to_skills": {
+    "message": "Saved to your Skills page",
+    "description": "Location: Sentinel. Confirmation shown after a generated skill is saved to the user's Skills collection. Skills is a product feature name."
+  },
+  "recorder_saving": {
+    "message": "Saving...",
+    "description": "Location: Sentinel. Temporary button label while a generated skill is being saved."
+  },
+  "recorder_skill_content": {
+    "message": "Skill content (saved as SKILL.md)",
+    "description": "Location: Sentinel. Label above the generated skill source preview. Keep SKILL.md unchanged because it is a literal filename."
+  },
+  "recorder_skill_name_placeholder": {
+    "message": "Name this skill...",
+    "description": "Location: Sentinel. Placeholder in the field where the user names a generated skill before saving it."
+  },
+  "recorder_skill_preview": {
+    "message": "Skill preview",
+    "description": "Location: Sentinel. Dialog title while the user reviews a generated skill before saving."
+  },
+  "recorder_skill_title": {
+    "message": "Skill title",
+    "description": "Location: Sentinel. Label above the name field in the generated-skill preview."
+  },
+  "recorder_start": {
+    "message": "Start",
+    "description": "Location: Sentinel. Button label that starts capturing user actions."
+  },
+  "recorder_step_count": {
+    "message": "$COUNT$ step(s)",
+    "description": "Location: Sentinel. Compact count used in the recording status. COUNT is the number of captured user actions."
+  },
+  "recorder_stop": {
+    "message": "Stop",
+    "description": "Location: Sentinel. Button label that stops an active recording."
+  },
+  "recorder_stop_recording": {
+    "message": "Stop recording",
+    "description": "Location: Sentinel. Tooltip for the compact control that stops the active recording."
   },
   "scheduled_task_detail_accessible_label_cancel_current_run": {
     "message": "Cancel current run",
@@ -4415,6 +4859,10 @@
     "message": "Select the update channel for components",
     "description": "Location: Sentinel. Application preferences, backup tools, and data-reset controls. Guidance explaining how the selected release track affects future updates."
   },
+  "shadow_task_approval_title": {
+    "message": "Shadow Task",
+    "description": "Location: Sentinel. Fallback title for a background-task approval card when the task provides no title. Shadow Task is a product feature name."
+  },
   "sidebar_alerts": {
     "message": "Alerts",
     "description": "Location: Sentinel. System summary shown in the dashboard sidebar. Label for the permission and service alert count in the dashboard sidebar."
@@ -4458,6 +4906,46 @@
   "status_bar_services": {
     "message": "Services: {{count}}",
     "description": "Location: Sentinel. Compact system metrics shown in the dashboard status bar. Service count in the dashboard status bar. {{count}} is the number of managed services."
+  },
+  "tab_organizer_group_development": {
+    "message": "Development",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for software-development tabs. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_docs": {
+    "message": "Docs",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for documentation and reference tabs. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_learning": {
+    "message": "Learning",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for education and study tabs. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_media": {
+    "message": "Media",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for video, music, and entertainment tabs. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_news": {
+    "message": "News",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for news and current-events tabs. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_other": {
+    "message": "Other",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for a small number of tabs that fit no meaningful category. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_review": {
+    "message": "Review",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for ambiguous tabs that the user may want to review manually. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_shopping": {
+    "message": "Shopping",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for shopping and purchase-related tabs. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_social": {
+    "message": "Social",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for social-network and communication tabs. Keep it short enough for a tab-group label."
+  },
+  "tab_organizer_group_work": {
+    "message": "Work",
+    "description": "Location: Sentinel. Automatic Chrome tab-group title for workplace and productivity tabs. Keep it short enough for a tab-group label."
   },
   "task_detail_description_no_linked_schedules": {
     "message": "No schedules linked to this task.",

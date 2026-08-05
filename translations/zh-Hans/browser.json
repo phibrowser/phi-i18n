@@ -101,98 +101,8 @@
   "agent_idle_command_starts_or_queues_its": {
     "message": "智能体空闲中：指令将开始或排队下一轮"
   },
-  "agent_is_working": {
-    "message": "智能体正在工作..."
-  },
-  "agent_log_abort_request_failed": {
-    "message": "停止请求失败"
-  },
-  "agent_log_aborted": {
-    "message": "已中止"
-  },
-  "agent_log_aborted_detail": {
-    "message": "已中止：$ERROR$"
-  },
-  "agent_log_aborting": {
-    "message": "正在停止智能体..."
-  },
-  "agent_log_closed_tab": {
-    "message": "已关闭标签页：$URL$"
-  },
-  "agent_log_completed": {
-    "message": "已完成"
-  },
-  "agent_log_completed_with_errors": {
-    "message": "已完成（有错误）"
-  },
-  "agent_log_error": {
-    "message": "智能体错误"
-  },
-  "agent_log_failed": {
-    "message": "失败"
-  },
-  "agent_log_failed_detail": {
-    "message": "失败：$ERROR$"
-  },
-  "agent_log_failed_to_start": {
-    "message": "智能体启动失败"
-  },
-  "agent_log_opened_tab": {
-    "message": "已打开标签页：$URL$"
-  },
-  "agent_log_received_response": {
-    "message": "已收到响应"
-  },
-  "agent_log_started": {
-    "message": "已启动（$TASK_TYPE$）"
-  },
-  "agent_log_starting": {
-    "message": "正在启动智能体..."
-  },
-  "agent_log_updated_tab": {
-    "message": "已更新标签页：$URL$"
-  },
-  "agent_logo_alt": {
-    "message": "Phi Browser 标志"
-  },
-  "agent_objective_placeholder": {
-    "message": "你想让我做什么？"
-  },
-  "agent_page_screenshot_alt": {
-    "message": "页面截图"
-  },
-  "agent_page_title": {
-    "message": "Phi Agent"
-  },
   "agent_password_manager": {
     "message": "智能体密码管理器"
-  },
-  "agent_result": {
-    "message": "结果"
-  },
-  "agent_session_aborted": {
-    "message": "会话已中止"
-  },
-  "agent_session_completed": {
-    "message": "会话已完成"
-  },
-  "agent_session_failed": {
-    "message": "会话失败"
-  },
-  "agent_session_idle": {
-    "message": "会话空闲"
-  },
-  "agent_steps_completed": {
-    "message": "已完成 $COUNT$ 个步骤"
-  },
-  "agent_stop_session": {
-    "message": "停止会话"
-  },
-  "agent_tab_screenshot": {
-    "message": "标签页截图"
-  },
-  "agent_taking_screenshot": {
-    "message": "正在截图"
   },
   "agent_transcript": {
     "message": "智能体会话记录"
@@ -887,12 +797,6 @@
   "command_use": {
     "message": "命令使用"
   },
-  "common_back": {
-    "message": "返回"
-  },
-  "common_delete": {
-    "message": "删除"
-  },
   "completed": {
     "message": "已完成"
   },
@@ -1087,21 +991,6 @@
   },
   "days_ago": {
     "message": "%d 天前"
-  },
-  "debugger_approval_allow": {
-    "message": "允许"
-  },
-  "debugger_approval_deny": {
-    "message": "拒绝"
-  },
-  "debugger_approval_description": {
-    "message": "此步骤会使用调试器访问权限来检查页面或浏览器状态。"
-  },
-  "debugger_approval_summary": {
-    "message": "批准此步骤使用调试器访问权限。"
-  },
-  "debugger_approval_title": {
-    "message": "允许调试器访问"
   },
   "default": {
     "message": "默认"
@@ -1376,9 +1265,6 @@
   "edit_theme_f7ce4c": {
     "message": "编辑主题"
   },
-  "element_picker_instruction": {
-    "message": "点击一个元素进行选择。按 Esc 可取消。"
-  },
   "email_address": {
     "message": "电子邮件地址"
   },
@@ -1481,20 +1367,11 @@
   "export_user_data": {
     "message": "导出用户数据…"
   },
-  "extension_description": {
-    "message": "在浏览器中运行自主任务和已录制的 Skill。"
-  },
   "extension_info": {
     "message": "扩展程序信息"
   },
   "extension_info_063d4f": {
     "message": "扩展程序信息"
-  },
-  "extension_name": {
-    "message": "Phi Agent Browser Runtime"
-  },
-  "extension_name_staging": {
-    "message": "Phi Agent Browser Runtime（预发布）"
   },
   "extensions": {
     "message": "扩展程序"
@@ -2543,48 +2420,6 @@
   "pop_up": {
     "message": "弹出"
   },
-  "popup_current_tabs_aria_label": {
-    "message": "当前标签页"
-  },
-  "popup_error_tab_organizer_failed": {
-    "message": "标签页整理失败"
-  },
-  "popup_group_action": {
-    "message": "分组"
-  },
-  "popup_grouping_action": {
-    "message": "正在分组"
-  },
-  "popup_managed_metric": {
-    "message": "已管理"
-  },
-  "popup_ready_metric": {
-    "message": "可整理"
-  },
-  "popup_status_groupable_tabs": {
-    "message": "$COUNT$ 个可分组标签页"
-  },
-  "popup_status_grouped_sets": {
-    "message": "已建立 $COUNT$ 个分组"
-  },
-  "popup_status_ready": {
-    "message": "就绪"
-  },
-  "popup_status_ungrouped_tabs": {
-    "message": "已取消 $COUNT$ 个标签页的分组"
-  },
-  "popup_tab_actions_aria_label": {
-    "message": "标签页操作"
-  },
-  "popup_tabs_metric": {
-    "message": "标签页"
-  },
-  "popup_ungroup_action": {
-    "message": "取消分组"
-  },
-  "popup_ungrouping_action": {
-    "message": "正在取消分组"
-  },
   "preparing_installer": {
     "message": "正在准备安装程序…"
   },
@@ -2662,168 +2497,6 @@
   },
   "recommended": {
     "message": "推荐"
-  },
-  "recorder_action_clear_value": {
-    "message": "清空「$ELEMENT$」"
-  },
-  "recorder_action_click": {
-    "message": "点击「$ELEMENT$」"
-  },
-  "recorder_action_generic": {
-    "message": "$TYPE$ $ELEMENT$"
-  },
-  "recorder_action_navigate": {
-    "message": "前往 $URL$"
-  },
-  "recorder_action_press_key": {
-    "message": "按下 $KEY$"
-  },
-  "recorder_action_scroll_element": {
-    "message": "将「$ELEMENT$」滚动到 ($X$, $Y$)"
-  },
-  "recorder_action_scroll_page": {
-    "message": "滚动到 ($X$, $Y$)"
-  },
-  "recorder_action_set_value": {
-    "message": "在「$ELEMENT$」中输入「$VALUE$」"
-  },
-  "recorder_action_tab": {
-    "message": "标签页 $INDEX$"
-  },
-  "recorder_actions_summary": {
-    "message": "操作（$COUNT$）- 点击可展开或跳转"
-  },
-  "recorder_context_menu": {
-    "message": "录制一个 Skill"
-  },
-  "recorder_detail_element": {
-    "message": "元素"
-  },
-  "recorder_detail_key": {
-    "message": "按键"
-  },
-  "recorder_detail_page": {
-    "message": "页面"
-  },
-  "recorder_detail_scroll": {
-    "message": "滚动"
-  },
-  "recorder_detail_selector": {
-    "message": "选择器"
-  },
-  "recorder_detail_tab": {
-    "message": "标签页"
-  },
-  "recorder_detail_tag": {
-    "message": "标签"
-  },
-  "recorder_detail_time": {
-    "message": "时间"
-  },
-  "recorder_detail_type": {
-    "message": "类型"
-  },
-  "recorder_detail_value": {
-    "message": "值"
-  },
-  "recorder_error_enter_skill_name": {
-    "message": "请输入 Skill 名称"
-  },
-  "recorder_error_generate_first": {
-    "message": "请先生成 Skill"
-  },
-  "recorder_expand_controls": {
-    "message": "展开控制栏"
-  },
-  "recorder_generate_skill": {
-    "message": "生成 Skill"
-  },
-  "recorder_generating": {
-    "message": "正在生成..."
-  },
-  "recorder_generation_failed": {
-    "message": "生成失败：$ERROR$"
-  },
-  "recorder_minimize_controls": {
-    "message": "收起控制栏"
-  },
-  "recorder_no_actions": {
-    "message": "未捕获任何操作"
-  },
-  "recorder_no_content_generated": {
-    "message": "未生成内容。"
-  },
-  "recorder_no_replay_data": {
-    "message": "没有可回放的数据"
-  },
-  "recorder_page_title": {
-    "message": "Phi 录制器"
-  },
-  "recorder_pause": {
-    "message": "暂停"
-  },
-  "recorder_paused": {
-    "message": "已暂停 - $STEP_COUNT$"
-  },
-  "recorder_play": {
-    "message": "播放"
-  },
-  "recorder_re_record": {
-    "message": "重新录制"
-  },
-  "recorder_ready": {
-    "message": "准备录制"
-  },
-  "recorder_recording": {
-    "message": "正在录制 - $STEP_COUNT$"
-  },
-  "recorder_recording_review": {
-    "message": "录制回顾"
-  },
-  "recorder_replay": {
-    "message": "回放"
-  },
-  "recorder_resume": {
-    "message": "继续"
-  },
-  "recorder_save_failed": {
-    "message": "保存失败：$ERROR$"
-  },
-  "recorder_save_skill": {
-    "message": "保存 Skill"
-  },
-  "recorder_saved": {
-    "message": "已保存"
-  },
-  "recorder_saved_to_skills": {
-    "message": "已保存到你的 Skill 页面"
-  },
-  "recorder_saving": {
-    "message": "正在保存..."
-  },
-  "recorder_skill_content": {
-    "message": "Skill 内容（保存为 SKILL.md）"
-  },
-  "recorder_skill_name_placeholder": {
-    "message": "为这个 Skill 命名..."
-  },
-  "recorder_skill_preview": {
-    "message": "Skill 预览"
-  },
-  "recorder_skill_title": {
-    "message": "Skill 标题"
-  },
-  "recorder_start": {
-    "message": "开始"
-  },
-  "recorder_step_count": {
-    "message": "$COUNT$ 个步骤"
-  },
-  "recorder_stop": {
-    "message": "停止"
-  },
-  "recorder_stop_recording": {
-    "message": "停止录制"
   },
   "red": {
     "message": "红色"
@@ -3227,9 +2900,6 @@
   "settings_phi_sign_in_button": {
     "message": "登录"
   },
-  "shadow_task_approval_title": {
-    "message": "后台任务"
-  },
   "share": {
     "message": "分享"
   },
@@ -3466,36 +3136,6 @@
   },
   "tab_name": {
     "message": "标签页名称"
-  },
-  "tab_organizer_group_development": {
-    "message": "开发"
-  },
-  "tab_organizer_group_docs": {
-    "message": "文档"
-  },
-  "tab_organizer_group_learning": {
-    "message": "学习"
-  },
-  "tab_organizer_group_media": {
-    "message": "媒体"
-  },
-  "tab_organizer_group_news": {
-    "message": "新闻"
-  },
-  "tab_organizer_group_other": {
-    "message": "其他"
-  },
-  "tab_organizer_group_review": {
-    "message": "待检查"
-  },
-  "tab_organizer_group_shopping": {
-    "message": "购物"
-  },
-  "tab_organizer_group_social": {
-    "message": "社交"
-  },
-  "tab_organizer_group_work": {
-    "message": "工作"
   },
   "tab_search": {
     "message": "搜索标签页"

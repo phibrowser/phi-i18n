@@ -11,6 +11,96 @@
   "about_dialog_version_label": {
     "message": "バージョン: %@"
   },
+  "agent_is_working": {
+    "message": "エージェントが作業しています..."
+  },
+  "agent_log_abort_request_failed": {
+    "message": "停止リクエストに失敗しました"
+  },
+  "agent_log_aborted": {
+    "message": "中断"
+  },
+  "agent_log_aborted_detail": {
+    "message": "中断：$ERROR$"
+  },
+  "agent_log_aborting": {
+    "message": "エージェントを停止しています..."
+  },
+  "agent_log_closed_tab": {
+    "message": "タブを閉じました：$URL$"
+  },
+  "agent_log_completed": {
+    "message": "完了"
+  },
+  "agent_log_completed_with_errors": {
+    "message": "完了（エラーあり）"
+  },
+  "agent_log_error": {
+    "message": "エージェントエラー"
+  },
+  "agent_log_failed": {
+    "message": "失敗"
+  },
+  "agent_log_failed_detail": {
+    "message": "失敗：$ERROR$"
+  },
+  "agent_log_failed_to_start": {
+    "message": "エージェントを起動できませんでした"
+  },
+  "agent_log_opened_tab": {
+    "message": "タブを開きました：$URL$"
+  },
+  "agent_log_received_response": {
+    "message": "応答を受信しました"
+  },
+  "agent_log_started": {
+    "message": "開始（$TASK_TYPE$）"
+  },
+  "agent_log_starting": {
+    "message": "エージェントを起動しています..."
+  },
+  "agent_log_updated_tab": {
+    "message": "タブを更新しました：$URL$"
+  },
+  "agent_logo_alt": {
+    "message": "Phi Browserのロゴ"
+  },
+  "agent_objective_placeholder": {
+    "message": "何をお手伝いしましょうか？"
+  },
+  "agent_page_screenshot_alt": {
+    "message": "ページのスクリーンショット"
+  },
+  "agent_page_title": {
+    "message": "Phi Agent"
+  },
+  "agent_result": {
+    "message": "結果"
+  },
+  "agent_session_aborted": {
+    "message": "セッションを中断しました"
+  },
+  "agent_session_completed": {
+    "message": "セッションが完了しました"
+  },
+  "agent_session_failed": {
+    "message": "セッションが失敗しました"
+  },
+  "agent_session_idle": {
+    "message": "セッションは待機中です"
+  },
+  "agent_steps_completed": {
+    "message": "$COUNT$ステップ完了"
+  },
+  "agent_stop_session": {
+    "message": "セッションを停止"
+  },
+  "agent_tab_screenshot": {
+    "message": "タブのスクリーンショット"
+  },
+  "agent_taking_screenshot": {
+    "message": "スクリーンショットを撮影中"
+  },
   "app_dev_mode": {
     "message": "開発モード"
   },
@@ -110,6 +200,18 @@
   "common_all": {
     "message": "すべて"
   },
+  "common_back": {
+    "message": "戻る"
+  },
+  "common_cancel": {
+    "message": "キャンセル"
+  },
+  "common_close": {
+    "message": "閉じる"
+  },
+  "common_delete": {
+    "message": "削除"
+  },
   "common_error": {
     "message": "エラー"
   },
@@ -134,11 +236,29 @@
   "dashboard_window_title": {
     "message": "Phi Sentinel ダッシュボード"
   },
+  "debugger_approval_allow": {
+    "message": "許可"
+  },
+  "debugger_approval_deny": {
+    "message": "拒否"
+  },
+  "debugger_approval_description": {
+    "message": "このステップでは、ページやブラウザの状態を確認するためにデバッガーアクセスを使用します。"
+  },
+  "debugger_approval_summary": {
+    "message": "このステップのデバッガーアクセスを承認してください。"
+  },
+  "debugger_approval_title": {
+    "message": "デバッガーアクセスを許可"
+  },
   "directory_access_panel_grant_button": {
     "message": "アクセスを許可"
   },
   "directory_access_panel_message": {
     "message": "アクセスを許可するディレクトリを選択してください"
+  },
+  "element_picker_instruction": {
+    "message": "要素をクリックして選択してください。Escキーを押すとキャンセルできます。"
   },
   "errors_ai_gateway_provider_test_timed_out": {
     "message": "プロバイダーのテストがタイムアウトしました。プロバイダーがまだモデルを読み込んでいる可能性があります。しばらくしてからもう一度お試しください。"
@@ -187,6 +307,15 @@
   },
   "experimental_description_stability_warning": {
     "message": "まだ進化を続けている初期段階の機能です。不完全な部分があることをご了承ください。"
+  },
+  "extension_description": {
+    "message": "ブラウザで自律的なタスクや記録済みのスキルを実行します。"
+  },
+  "extension_name": {
+    "message": "Phi Agent Browser Runtime"
+  },
+  "extension_name_staging": {
+    "message": "Phi Agent Browser Runtime（ステージング）"
   },
   "history_coming_soon_description": {
     "message": "履歴機能は開発中です"
@@ -2051,6 +2180,48 @@
   "permissions_title": {
     "message": "権限"
   },
+  "popup_current_tabs_aria_label": {
+    "message": "現在のタブ"
+  },
+  "popup_error_tab_organizer_failed": {
+    "message": "タブの整理に失敗しました"
+  },
+  "popup_group_action": {
+    "message": "グループ化"
+  },
+  "popup_grouping_action": {
+    "message": "グループ化中"
+  },
+  "popup_managed_metric": {
+    "message": "管理済み"
+  },
+  "popup_ready_metric": {
+    "message": "整理可能"
+  },
+  "popup_status_groupable_tabs": {
+    "message": "グループ化可能なタブ：$COUNT$個"
+  },
+  "popup_status_grouped_sets": {
+    "message": "$COUNT$個のグループを作成しました"
+  },
+  "popup_status_ready": {
+    "message": "準備完了"
+  },
+  "popup_status_ungrouped_tabs": {
+    "message": "$COUNT$個のタブのグループ化を解除しました"
+  },
+  "popup_tab_actions_aria_label": {
+    "message": "タブ操作"
+  },
+  "popup_tabs_metric": {
+    "message": "タブ"
+  },
+  "popup_ungroup_action": {
+    "message": "グループ解除"
+  },
+  "popup_ungrouping_action": {
+    "message": "グループ解除中"
+  },
   "private_ai_advanced_console_action_back": {
     "message": "← 戻る"
   },
@@ -2407,6 +2578,168 @@
   },
   "quit_blocked_alert_title": {
     "message": "Phi Sentinel を終了できません"
+  },
+  "recorder_action_clear_value": {
+    "message": "「$ELEMENT$」をクリア"
+  },
+  "recorder_action_click": {
+    "message": "「$ELEMENT$」をクリック"
+  },
+  "recorder_action_generic": {
+    "message": "$TYPE$ $ELEMENT$"
+  },
+  "recorder_action_navigate": {
+    "message": "$URL$に移動"
+  },
+  "recorder_action_press_key": {
+    "message": "$KEY$キーを押す"
+  },
+  "recorder_action_scroll_element": {
+    "message": "「$ELEMENT$」を($X$, $Y$)までスクロール"
+  },
+  "recorder_action_scroll_page": {
+    "message": "($X$, $Y$)までスクロール"
+  },
+  "recorder_action_set_value": {
+    "message": "「$ELEMENT$」に「$VALUE$」を入力"
+  },
+  "recorder_action_tab": {
+    "message": "タブ$INDEX$"
+  },
+  "recorder_actions_summary": {
+    "message": "操作（$COUNT$）- クリックで展開またはシーク"
+  },
+  "recorder_context_menu": {
+    "message": "スキルを記録"
+  },
+  "recorder_detail_element": {
+    "message": "要素"
+  },
+  "recorder_detail_key": {
+    "message": "キー"
+  },
+  "recorder_detail_page": {
+    "message": "ページ"
+  },
+  "recorder_detail_scroll": {
+    "message": "スクロール"
+  },
+  "recorder_detail_selector": {
+    "message": "セレクター"
+  },
+  "recorder_detail_tab": {
+    "message": "タブ"
+  },
+  "recorder_detail_tag": {
+    "message": "タグ"
+  },
+  "recorder_detail_time": {
+    "message": "時刻"
+  },
+  "recorder_detail_type": {
+    "message": "種類"
+  },
+  "recorder_detail_value": {
+    "message": "値"
+  },
+  "recorder_error_enter_skill_name": {
+    "message": "スキル名を入力してください"
+  },
+  "recorder_error_generate_first": {
+    "message": "先にスキルを生成してください"
+  },
+  "recorder_expand_controls": {
+    "message": "コントロールを展開"
+  },
+  "recorder_generate_skill": {
+    "message": "スキルを生成"
+  },
+  "recorder_generating": {
+    "message": "生成中..."
+  },
+  "recorder_generation_failed": {
+    "message": "生成に失敗しました：$ERROR$"
+  },
+  "recorder_minimize_controls": {
+    "message": "コントロールを最小化"
+  },
+  "recorder_no_actions": {
+    "message": "操作は記録されていません"
+  },
+  "recorder_no_content_generated": {
+    "message": "生成されたコンテンツはありません。"
+  },
+  "recorder_no_replay_data": {
+    "message": "リプレイデータがありません"
+  },
+  "recorder_page_title": {
+    "message": "Phiレコーダー"
+  },
+  "recorder_pause": {
+    "message": "一時停止"
+  },
+  "recorder_paused": {
+    "message": "一時停止中 - $STEP_COUNT$"
+  },
+  "recorder_play": {
+    "message": "再生"
+  },
+  "recorder_re_record": {
+    "message": "記録をやり直す"
+  },
+  "recorder_ready": {
+    "message": "記録の準備完了"
+  },
+  "recorder_recording": {
+    "message": "記録中 - $STEP_COUNT$"
+  },
+  "recorder_recording_review": {
+    "message": "記録の確認"
+  },
+  "recorder_replay": {
+    "message": "リプレイ"
+  },
+  "recorder_resume": {
+    "message": "再開"
+  },
+  "recorder_save_failed": {
+    "message": "保存に失敗しました：$ERROR$"
+  },
+  "recorder_save_skill": {
+    "message": "スキルを保存"
+  },
+  "recorder_saved": {
+    "message": "保存済み"
+  },
+  "recorder_saved_to_skills": {
+    "message": "スキルページに保存しました"
+  },
+  "recorder_saving": {
+    "message": "保存中..."
+  },
+  "recorder_skill_content": {
+    "message": "スキルの内容（SKILL.mdとして保存）"
+  },
+  "recorder_skill_name_placeholder": {
+    "message": "スキルの名前を入力..."
+  },
+  "recorder_skill_preview": {
+    "message": "スキルのプレビュー"
+  },
+  "recorder_skill_title": {
+    "message": "スキルのタイトル"
+  },
+  "recorder_start": {
+    "message": "開始"
+  },
+  "recorder_step_count": {
+    "message": "$COUNT$ステップ"
+  },
+  "recorder_stop": {
+    "message": "停止"
+  },
+  "recorder_stop_recording": {
+    "message": "記録を停止"
   },
   "scheduled_task_detail_accessible_label_cancel_current_run": {
     "message": "現在の実行をキャンセル"
@@ -3311,6 +3644,9 @@
   "settings_update_channel_description": {
     "message": "コンポーネントの更新チャンネルを選択します"
   },
+  "shadow_task_approval_title": {
+    "message": "バックグラウンドタスク"
+  },
   "sidebar_alerts": {
     "message": "アラート"
   },
@@ -3343,6 +3679,36 @@
   },
   "status_bar_services": {
     "message": "サービス：{{count}}"
+  },
+  "tab_organizer_group_development": {
+    "message": "開発"
+  },
+  "tab_organizer_group_docs": {
+    "message": "ドキュメント"
+  },
+  "tab_organizer_group_learning": {
+    "message": "学習"
+  },
+  "tab_organizer_group_media": {
+    "message": "メディア"
+  },
+  "tab_organizer_group_news": {
+    "message": "ニュース"
+  },
+  "tab_organizer_group_other": {
+    "message": "その他"
+  },
+  "tab_organizer_group_review": {
+    "message": "要確認"
+  },
+  "tab_organizer_group_shopping": {
+    "message": "ショッピング"
+  },
+  "tab_organizer_group_social": {
+    "message": "ソーシャル"
+  },
+  "tab_organizer_group_work": {
+    "message": "仕事"
   },
   "task_detail_description_no_linked_schedules": {
     "message": "このタスクに関連付けられたスケジュールはありません。"

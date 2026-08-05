@@ -101,98 +101,8 @@
   "agent_idle_command_starts_or_queues_its": {
     "message": "Agent inaktiv: Befehl startet die nächste Runde oder stellt sie in die Warteschlange"
   },
-  "agent_is_working": {
-    "message": "Agent arbeitet..."
-  },
-  "agent_log_abort_request_failed": {
-    "message": "Stopp-Anfrage fehlgeschlagen"
-  },
-  "agent_log_aborted": {
-    "message": "Abgebrochen"
-  },
-  "agent_log_aborted_detail": {
-    "message": "Abgebrochen: $ERROR$"
-  },
-  "agent_log_aborting": {
-    "message": "Agent wird gestoppt..."
-  },
-  "agent_log_closed_tab": {
-    "message": "Tab geschlossen: $URL$"
-  },
-  "agent_log_completed": {
-    "message": "Abgeschlossen"
-  },
-  "agent_log_completed_with_errors": {
-    "message": "Abgeschlossen (mit Fehlern)"
-  },
-  "agent_log_error": {
-    "message": "Agentenfehler"
-  },
-  "agent_log_failed": {
-    "message": "Fehlgeschlagen"
-  },
-  "agent_log_failed_detail": {
-    "message": "Fehlgeschlagen: $ERROR$"
-  },
-  "agent_log_failed_to_start": {
-    "message": "Agent konnte nicht gestartet werden"
-  },
-  "agent_log_opened_tab": {
-    "message": "Tab geöffnet: $URL$"
-  },
-  "agent_log_received_response": {
-    "message": "Antwort erhalten"
-  },
-  "agent_log_started": {
-    "message": "Gestartet ($TASK_TYPE$)"
-  },
-  "agent_log_starting": {
-    "message": "Agent wird gestartet..."
-  },
-  "agent_log_updated_tab": {
-    "message": "Tab aktualisiert: $URL$"
-  },
-  "agent_logo_alt": {
-    "message": "Logo von Phi Browser"
-  },
-  "agent_objective_placeholder": {
-    "message": "Was soll ich für dich erledigen?"
-  },
-  "agent_page_screenshot_alt": {
-    "message": "Screenshot der Seite"
-  },
-  "agent_page_title": {
-    "message": "Phi Agent"
-  },
   "agent_password_manager": {
     "message": "Passwortmanager für Agenten"
-  },
-  "agent_result": {
-    "message": "Ergebnis"
-  },
-  "agent_session_aborted": {
-    "message": "Sitzung abgebrochen"
-  },
-  "agent_session_completed": {
-    "message": "Sitzung abgeschlossen"
-  },
-  "agent_session_failed": {
-    "message": "Sitzung fehlgeschlagen"
-  },
-  "agent_session_idle": {
-    "message": "Keine aktive Sitzung"
-  },
-  "agent_steps_completed": {
-    "message": "$COUNT$ Schritt(e) abgeschlossen"
-  },
-  "agent_stop_session": {
-    "message": "Sitzung stoppen"
-  },
-  "agent_tab_screenshot": {
-    "message": "Tab-Screenshot"
-  },
-  "agent_taking_screenshot": {
-    "message": "Screenshot wird erstellt"
   },
   "agent_transcript": {
     "message": "Agenten-Transkript"
@@ -887,12 +797,6 @@
   "command_use": {
     "message": "Befehlsausführung"
   },
-  "common_back": {
-    "message": "Zurück"
-  },
-  "common_delete": {
-    "message": "Löschen"
-  },
   "completed": {
     "message": "Abgeschlossen"
   },
@@ -1087,21 +991,6 @@
   },
   "days_ago": {
     "message": "vor %d Tagen"
-  },
-  "debugger_approval_allow": {
-    "message": "Zulassen"
-  },
-  "debugger_approval_deny": {
-    "message": "Ablehnen"
-  },
-  "debugger_approval_description": {
-    "message": "Dieser Schritt verwendet Debugger-Zugriff, um den Zustand der Seite oder des Browsers zu untersuchen."
-  },
-  "debugger_approval_summary": {
-    "message": "Debugger-Zugriff für diesen Schritt genehmigen."
-  },
-  "debugger_approval_title": {
-    "message": "Debugger-Zugriff zulassen"
   },
   "default": {
     "message": "Standard"
@@ -1376,9 +1265,6 @@
   "edit_theme_f7ce4c": {
     "message": "Design bearbeiten"
   },
-  "element_picker_instruction": {
-    "message": "Klicke auf ein Element, um es auszuwählen. Drücke Esc zum Abbrechen."
-  },
   "email_address": {
     "message": "E-Mail-Adresse"
   },
@@ -1481,20 +1367,11 @@
   "export_user_data": {
     "message": "Benutzerdaten exportieren…"
   },
-  "extension_description": {
-    "message": "Führt autonome Aufgaben und aufgezeichnete Skills in deinem Browser aus."
-  },
   "extension_info": {
     "message": "Erweiterungsinfo"
   },
   "extension_info_063d4f": {
     "message": "Erweiterungsinfo"
-  },
-  "extension_name": {
-    "message": "Phi Agent Browser Runtime"
-  },
-  "extension_name_staging": {
-    "message": "Phi Agent Browser Runtime (Staging)"
   },
   "extensions": {
     "message": "Erweiterungen"
@@ -2543,48 +2420,6 @@
   "pop_up": {
     "message": "Einblenden"
   },
-  "popup_current_tabs_aria_label": {
-    "message": "Aktuelle Tabs"
-  },
-  "popup_error_tab_organizer_failed": {
-    "message": "Tab-Organisation fehlgeschlagen"
-  },
-  "popup_group_action": {
-    "message": "Gruppieren"
-  },
-  "popup_grouping_action": {
-    "message": "Wird gruppiert"
-  },
-  "popup_managed_metric": {
-    "message": "Verwaltet"
-  },
-  "popup_ready_metric": {
-    "message": "Bereit"
-  },
-  "popup_status_groupable_tabs": {
-    "message": "Gruppierbare Tabs: $COUNT$"
-  },
-  "popup_status_grouped_sets": {
-    "message": "$COUNT$ Gruppe(n) erstellt"
-  },
-  "popup_status_ready": {
-    "message": "Bereit"
-  },
-  "popup_status_ungrouped_tabs": {
-    "message": "$COUNT$ Tab(s) aus Gruppen entfernt"
-  },
-  "popup_tab_actions_aria_label": {
-    "message": "Tab-Aktionen"
-  },
-  "popup_tabs_metric": {
-    "message": "Tabs"
-  },
-  "popup_ungroup_action": {
-    "message": "Gruppierung aufheben"
-  },
-  "popup_ungrouping_action": {
-    "message": "Gruppierung wird aufgehoben"
-  },
   "preparing_installer": {
     "message": "Installationsprogramm wird vorbereitet…"
   },
@@ -2662,168 +2497,6 @@
   },
   "recommended": {
     "message": "Empfohlen"
-  },
-  "recorder_action_clear_value": {
-    "message": "„$ELEMENT$“ leeren"
-  },
-  "recorder_action_click": {
-    "message": "Auf „$ELEMENT$“ klicken"
-  },
-  "recorder_action_generic": {
-    "message": "$TYPE$ $ELEMENT$"
-  },
-  "recorder_action_navigate": {
-    "message": "Zu $URL$ navigieren"
-  },
-  "recorder_action_press_key": {
-    "message": "$KEY$ drücken"
-  },
-  "recorder_action_scroll_element": {
-    "message": "„$ELEMENT$“ zu ($X$, $Y$) scrollen"
-  },
-  "recorder_action_scroll_page": {
-    "message": "Zu ($X$, $Y$) scrollen"
-  },
-  "recorder_action_set_value": {
-    "message": "„$ELEMENT$“ auf „$VALUE$“ setzen"
-  },
-  "recorder_action_tab": {
-    "message": "Tab $INDEX$"
-  },
-  "recorder_actions_summary": {
-    "message": "Aktionen ($COUNT$) - klicken zum Aufklappen oder Springen"
-  },
-  "recorder_context_menu": {
-    "message": "Skill aufzeichnen"
-  },
-  "recorder_detail_element": {
-    "message": "Element"
-  },
-  "recorder_detail_key": {
-    "message": "Taste"
-  },
-  "recorder_detail_page": {
-    "message": "Seite"
-  },
-  "recorder_detail_scroll": {
-    "message": "Scrollposition"
-  },
-  "recorder_detail_selector": {
-    "message": "Selektor"
-  },
-  "recorder_detail_tab": {
-    "message": "Tab"
-  },
-  "recorder_detail_tag": {
-    "message": "HTML-Tag"
-  },
-  "recorder_detail_time": {
-    "message": "Zeit"
-  },
-  "recorder_detail_type": {
-    "message": "Typ"
-  },
-  "recorder_detail_value": {
-    "message": "Wert"
-  },
-  "recorder_error_enter_skill_name": {
-    "message": "Gib einen Skill-Namen ein"
-  },
-  "recorder_error_generate_first": {
-    "message": "Generiere zuerst den Skill"
-  },
-  "recorder_expand_controls": {
-    "message": "Steuerelemente ausklappen"
-  },
-  "recorder_generate_skill": {
-    "message": "Skill generieren"
-  },
-  "recorder_generating": {
-    "message": "Wird generiert..."
-  },
-  "recorder_generation_failed": {
-    "message": "Generierung fehlgeschlagen: $ERROR$"
-  },
-  "recorder_minimize_controls": {
-    "message": "Steuerelemente einklappen"
-  },
-  "recorder_no_actions": {
-    "message": "Keine Aktionen erfasst"
-  },
-  "recorder_no_content_generated": {
-    "message": "Kein Inhalt generiert."
-  },
-  "recorder_no_replay_data": {
-    "message": "Keine Wiedergabedaten"
-  },
-  "recorder_page_title": {
-    "message": "Phi Rekorder"
-  },
-  "recorder_pause": {
-    "message": "Pausieren"
-  },
-  "recorder_paused": {
-    "message": "Pausiert - $STEP_COUNT$"
-  },
-  "recorder_play": {
-    "message": "Abspielen"
-  },
-  "recorder_re_record": {
-    "message": "Neu aufzeichnen"
-  },
-  "recorder_ready": {
-    "message": "Bereit zur Aufzeichnung"
-  },
-  "recorder_recording": {
-    "message": "Aufzeichnung läuft - $STEP_COUNT$"
-  },
-  "recorder_recording_review": {
-    "message": "Aufzeichnung überprüfen"
-  },
-  "recorder_replay": {
-    "message": "Wiedergabe"
-  },
-  "recorder_resume": {
-    "message": "Fortsetzen"
-  },
-  "recorder_save_failed": {
-    "message": "Speichern fehlgeschlagen: $ERROR$"
-  },
-  "recorder_save_skill": {
-    "message": "Skill speichern"
-  },
-  "recorder_saved": {
-    "message": "Gespeichert"
-  },
-  "recorder_saved_to_skills": {
-    "message": "Auf deiner Skills-Seite gespeichert"
-  },
-  "recorder_saving": {
-    "message": "Wird gespeichert..."
-  },
-  "recorder_skill_content": {
-    "message": "Skill-Inhalt (gespeichert als SKILL.md)"
-  },
-  "recorder_skill_name_placeholder": {
-    "message": "Gib diesem Skill einen Namen..."
-  },
-  "recorder_skill_preview": {
-    "message": "Skill-Vorschau"
-  },
-  "recorder_skill_title": {
-    "message": "Skill-Titel"
-  },
-  "recorder_start": {
-    "message": "Starten"
-  },
-  "recorder_step_count": {
-    "message": "$COUNT$ Schritt(e)"
-  },
-  "recorder_stop": {
-    "message": "Stoppen"
-  },
-  "recorder_stop_recording": {
-    "message": "Aufzeichnung stoppen"
   },
   "red": {
     "message": "Rot"
@@ -3227,9 +2900,6 @@
   "settings_phi_sign_in_button": {
     "message": "Anmelden"
   },
-  "shadow_task_approval_title": {
-    "message": "Hintergrundaufgabe"
-  },
   "share": {
     "message": "Teilen"
   },
@@ -3466,36 +3136,6 @@
   },
   "tab_name": {
     "message": "Tab-Name"
-  },
-  "tab_organizer_group_development": {
-    "message": "Entwicklung"
-  },
-  "tab_organizer_group_docs": {
-    "message": "Doku"
-  },
-  "tab_organizer_group_learning": {
-    "message": "Lernen"
-  },
-  "tab_organizer_group_media": {
-    "message": "Medien"
-  },
-  "tab_organizer_group_news": {
-    "message": "News"
-  },
-  "tab_organizer_group_other": {
-    "message": "Sonstiges"
-  },
-  "tab_organizer_group_review": {
-    "message": "Zu prüfen"
-  },
-  "tab_organizer_group_shopping": {
-    "message": "Shopping"
-  },
-  "tab_organizer_group_social": {
-    "message": "Social Media"
-  },
-  "tab_organizer_group_work": {
-    "message": "Arbeit"
   },
   "tab_search": {
     "message": "Tabs durchsuchen"

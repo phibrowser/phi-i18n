@@ -135,129 +135,9 @@
     "message": "agent idle — command starts or queues its next round",
     "description": "Location: Browser. Agent console - hint for sending a command to an idle agent"
   },
-  "agent_is_working": {
-    "message": "Agent is working...",
-    "description": "Location: Browser. Status shown while the development agent session is starting or running."
-  },
-  "agent_log_abort_request_failed": {
-    "message": "Stop request failed",
-    "description": "Location: Browser. Fallback timeline error when the request to stop a development agent session fails."
-  },
-  "agent_log_aborted": {
-    "message": "Aborted",
-    "description": "Location: Browser. Timeline entry when a development agent session is aborted without a specific reason."
-  },
-  "agent_log_aborted_detail": {
-    "message": "Aborted: $ERROR$",
-    "description": "Location: Browser. Timeline entry when a development agent session is aborted with a reason. ERROR is the original runtime error and must be preserved verbatim."
-  },
-  "agent_log_aborting": {
-    "message": "Stopping agent...",
-    "description": "Location: Browser. Timeline entry while a development agent session is being stopped."
-  },
-  "agent_log_closed_tab": {
-    "message": "Closed tab: $URL$",
-    "description": "Location: Browser. Timeline entry when the development agent closes a browser tab. URL is the tab address and must not be translated."
-  },
-  "agent_log_completed": {
-    "message": "Completed",
-    "description": "Location: Browser. Timeline entry when a development agent session completes successfully."
-  },
-  "agent_log_completed_with_errors": {
-    "message": "Completed (with errors)",
-    "description": "Location: Browser. Timeline entry when a development agent session reaches completion but reports errors."
-  },
-  "agent_log_error": {
-    "message": "Agent error",
-    "description": "Location: Browser. Fallback timeline error when a development agent session reports no specific message."
-  },
-  "agent_log_failed": {
-    "message": "Failed",
-    "description": "Location: Browser. Timeline entry when a development agent session fails without a specific error."
-  },
-  "agent_log_failed_detail": {
-    "message": "Failed: $ERROR$",
-    "description": "Location: Browser. Timeline entry when a development agent session fails. ERROR is the original runtime error and must be preserved verbatim."
-  },
-  "agent_log_failed_to_start": {
-    "message": "Failed to start agent",
-    "description": "Location: Browser. Fallback timeline error when a development agent session cannot be created."
-  },
-  "agent_log_opened_tab": {
-    "message": "Opened tab: $URL$",
-    "description": "Location: Browser. Timeline entry when the development agent opens a browser tab. URL is the tab address and must not be translated."
-  },
-  "agent_log_received_response": {
-    "message": "Received response",
-    "description": "Location: Browser. Timeline entry when the development agent receives a response payload."
-  },
-  "agent_log_started": {
-    "message": "Started ($TASK_TYPE$)",
-    "description": "Location: Browser. Timeline entry when a development agent session starts. TASK_TYPE is an internal task-type identifier and must be preserved verbatim."
-  },
-  "agent_log_starting": {
-    "message": "Starting agent...",
-    "description": "Location: Browser. Timeline entry while a development agent session is being created."
-  },
-  "agent_log_updated_tab": {
-    "message": "Updated tab: $URL$",
-    "description": "Location: Browser. Timeline entry when the development agent updates a browser tab. URL is the tab address and must not be translated."
-  },
-  "agent_logo_alt": {
-    "message": "Phi Browser logo",
-    "description": "Location: Browser. Alternative text for the Phi Browser logo in the development agent playground."
-  },
-  "agent_objective_placeholder": {
-    "message": "What would you like me to do?",
-    "description": "Location: Browser. Placeholder in the development agent playground input where the user enters a browser task."
-  },
-  "agent_page_screenshot_alt": {
-    "message": "Page screenshot",
-    "description": "Location: Browser. Alternative text for a webpage screenshot in the development agent timeline."
-  },
-  "agent_page_title": {
-    "message": "Phi Agent",
-    "description": "Location: Browser. Browser document title for the development agent playground. Phi Agent is a product name."
-  },
   "agent_password_manager": {
     "message": "Agent Password Manager",
     "description": "Location: Browser. Phi & AI settings - Agent Password Manager section title"
-  },
-  "agent_result": {
-    "message": "Result",
-    "description": "Location: Browser. Heading above the final result of a completed development agent session."
-  },
-  "agent_session_aborted": {
-    "message": "Session aborted",
-    "description": "Location: Browser. Development agent timeline status after the user stops a session."
-  },
-  "agent_session_completed": {
-    "message": "Session completed",
-    "description": "Location: Browser. Development agent timeline status after a session finishes successfully."
-  },
-  "agent_session_failed": {
-    "message": "Session failed",
-    "description": "Location: Browser. Development agent timeline status after a session fails."
-  },
-  "agent_session_idle": {
-    "message": "Session idle",
-    "description": "Location: Browser. Development agent timeline status when no session is active."
-  },
-  "agent_steps_completed": {
-    "message": "$COUNT$ step(s) completed",
-    "description": "Location: Browser. Collapsible timeline heading in the development agent playground. COUNT is the number of completed log steps."
-  },
-  "agent_stop_session": {
-    "message": "Stop session",
-    "description": "Location: Browser. Label and tooltip for the control that stops a running development agent session."
-  },
-  "agent_tab_screenshot": {
-    "message": "Tab screenshot",
-    "description": "Location: Browser. Heading above a screenshot produced by a completed browser-tool step in the development agent timeline."
-  },
-  "agent_taking_screenshot": {
-    "message": "Taking screenshot",
-    "description": "Location: Browser. Heading above a screenshot while the development agent timeline is capturing it."
   },
   "agent_transcript": {
     "message": "Agent Transcript",
@@ -1183,14 +1063,6 @@
     "message": "Command use",
     "description": "Location: Browser. Approvals sheet - run-kind tag"
   },
-  "common_back": {
-    "message": "Back",
-    "description": "Location: Browser. Button label that returns from the skill preview to the recording review."
-  },
-  "common_delete": {
-    "message": "Delete",
-    "description": "Location: Browser. Accessible label and tooltip for deleting a captured action."
-  },
   "completed": {
     "message": "Completed",
     "description": "Location: Browser. Download state"
@@ -1450,26 +1322,6 @@
   "days_ago": {
     "message": "%d days ago",
     "description": "Location: Browser. Download item row - Relative time showing days since download completed"
-  },
-  "debugger_approval_allow": {
-    "message": "Allow",
-    "description": "Location: Browser. Button label that grants a debugger-access approval request."
-  },
-  "debugger_approval_deny": {
-    "message": "Deny",
-    "description": "Location: Browser. Button label that rejects a debugger-access approval request."
-  },
-  "debugger_approval_description": {
-    "message": "This step uses debugger access to inspect page or browser state.",
-    "description": "Location: Browser. Explanation in a high-risk approval prompt. It tells the user why the current browser-task step requests debugging access."
-  },
-  "debugger_approval_summary": {
-    "message": "Approve debugger access for this step.",
-    "description": "Location: Browser. Short summary in the debugger-access approval prompt."
-  },
-  "debugger_approval_title": {
-    "message": "Allow debugger access",
-    "description": "Location: Browser. Title of a high-risk approval prompt shown before a browser task attaches debugging access to a page."
   },
   "default": {
     "message": "Default",
@@ -1835,10 +1687,6 @@
     "message": "Edit Theme",
     "description": "Location: Browser. Spaces menu - Theme submenu title for the active Space"
   },
-  "element_picker_instruction": {
-    "message": "Click an element to select it. Press Esc to cancel.",
-    "description": "Location: Browser. Instruction banner shown over a webpage while the user is choosing an element for the agent. Esc names the keyboard key."
-  },
   "email_address": {
     "message": "Email address",
     "description": "Location: Browser. Bitwarden login sheet - email field label"
@@ -1975,10 +1823,6 @@
     "message": "Export User Data...",
     "description": "Location: Browser. Help menu - Submenu item to save Phi user data folder as a zip backup"
   },
-  "extension_description": {
-    "message": "Runs autonomous tasks and recorded skills in your browser.",
-    "description": "Location: Browser. Short summary shown below the extension name in browser extension-management surfaces. Describes what the extension does for the person installing it."
-  },
   "extension_info": {
     "message": "Extension Info",
     "description": "Location: Browser. Extension info alert - Title of the alert showing extension version information"
@@ -1986,14 +1830,6 @@
   "extension_info_063d4f": {
     "message": "Extension Info",
     "description": "Location: Browser. Help menu - Menu item to show extension version info, only visible when holding Option key"
-  },
-  "extension_name": {
-    "message": "Phi Agent Browser Runtime",
-    "description": "Location: Browser. Product name shown for the extension in browser extension-management surfaces. Keep the product name unchanged."
-  },
-  "extension_name_staging": {
-    "message": "Phi Agent Browser Runtime (Staging)",
-    "description": "Location: Browser. Product name shown for a non-production build in browser extension-management surfaces. Keep the product name unchanged and retain the environment qualifier."
   },
   "extensions": {
     "message": "Extensions",
@@ -3391,62 +3227,6 @@
     "message": "Pop up",
     "description": "Location: Browser. Notification menu option - Enable auto popup for notification cards"
   },
-  "popup_current_tabs_aria_label": {
-    "message": "Current tabs",
-    "description": "Location: Browser. Accessible label for the popup section that summarizes tab counts in the current window."
-  },
-  "popup_error_tab_organizer_failed": {
-    "message": "Tab organizer failed",
-    "description": "Location: Browser. Fallback error shown in the tab-organizer popup when an operation fails without a more specific error."
-  },
-  "popup_group_action": {
-    "message": "Group",
-    "description": "Location: Browser. Button label that starts automatic tab grouping."
-  },
-  "popup_grouping_action": {
-    "message": "Grouping",
-    "description": "Location: Browser. Temporary button label while the tab organizer is grouping tabs."
-  },
-  "popup_managed_metric": {
-    "message": "Managed",
-    "description": "Location: Browser. Label below the number of tabs already managed by the tab organizer."
-  },
-  "popup_ready_metric": {
-    "message": "Ready",
-    "description": "Location: Browser. Label below the number of tabs currently eligible for grouping."
-  },
-  "popup_status_groupable_tabs": {
-    "message": "$COUNT$ groupable tab(s)",
-    "description": "Location: Browser. Status shown after the popup scans the current browser window. COUNT is the number of tabs eligible for automatic grouping."
-  },
-  "popup_status_grouped_sets": {
-    "message": "Grouped $COUNT$ set(s)",
-    "description": "Location: Browser. Success status shown after tabs are organized. COUNT is the number of tab groups applied."
-  },
-  "popup_status_ready": {
-    "message": "Ready",
-    "description": "Location: Browser. Initial status shown in the tab-organizer popup before an operation starts."
-  },
-  "popup_status_ungrouped_tabs": {
-    "message": "Ungrouped $COUNT$ tab(s)",
-    "description": "Location: Browser. Success status shown after managed tab groups are removed. COUNT is the number of tabs removed from groups."
-  },
-  "popup_tab_actions_aria_label": {
-    "message": "Tab actions",
-    "description": "Location: Browser. Accessible label for the popup section containing group and ungroup commands."
-  },
-  "popup_tabs_metric": {
-    "message": "Tabs",
-    "description": "Location: Browser. Label below the total number of tabs in the tab-organizer popup."
-  },
-  "popup_ungroup_action": {
-    "message": "Ungroup",
-    "description": "Location: Browser. Button label that removes tab groups created by the organizer."
-  },
-  "popup_ungrouping_action": {
-    "message": "Ungrouping",
-    "description": "Location: Browser. Temporary button label while the tab organizer is removing managed groups."
-  },
   "preparing_installer": {
     "message": "Preparing installer...",
     "description": "Location: Browser. Time Machine restore progress stage"
@@ -3550,222 +3330,6 @@
   "recommended": {
     "message": "Recommended",
     "description": "Location: Browser. Onboarding password manager - Recommended label for iCloud Passwords"
-  },
-  "recorder_action_clear_value": {
-    "message": "Clear \"$ELEMENT$\"",
-    "description": "Location: Browser. Title of a captured action that clears an input. ELEMENT is the input's accessible name or visible label."
-  },
-  "recorder_action_click": {
-    "message": "Click \"$ELEMENT$\"",
-    "description": "Location: Browser. Title of a captured click action. ELEMENT is the accessible name or visible label of the clicked webpage element."
-  },
-  "recorder_action_generic": {
-    "message": "$TYPE$ $ELEMENT$",
-    "description": "Location: Browser. Fallback title for an uncommon captured action. TYPE is the recorded action kind and ELEMENT is its webpage element label."
-  },
-  "recorder_action_navigate": {
-    "message": "Navigate to $URL$",
-    "description": "Location: Browser. Title of a captured browser navigation. URL is the destination address and must not be translated."
-  },
-  "recorder_action_press_key": {
-    "message": "Press $KEY$",
-    "description": "Location: Browser. Title of a captured keyboard action. KEY is the browser's stable key name, such as Enter or Escape."
-  },
-  "recorder_action_scroll_element": {
-    "message": "Scroll \"$ELEMENT$\" to ($X$, $Y$)",
-    "description": "Location: Browser. Title of a captured scroll inside a webpage element. ELEMENT is the element label; X and Y are captured horizontal and vertical offsets."
-  },
-  "recorder_action_scroll_page": {
-    "message": "Scroll to ($X$, $Y$)",
-    "description": "Location: Browser. Title of a captured page scroll. X and Y are captured horizontal and vertical offsets."
-  },
-  "recorder_action_set_value": {
-    "message": "Set \"$ELEMENT$\" to \"$VALUE$\"",
-    "description": "Location: Browser. Title of a captured text-entry action. ELEMENT is the input label and VALUE is the entered text, which may be truncated."
-  },
-  "recorder_action_tab": {
-    "message": "Tab $INDEX$",
-    "description": "Location: Browser. Badge identifying which browser tab contains a captured action. INDEX is the stable one-based tab number."
-  },
-  "recorder_actions_summary": {
-    "message": "Actions ($COUNT$) - click to expand or seek",
-    "description": "Location: Browser. Heading above captured actions in the recording review. COUNT is the number of actions; the remaining text explains row interaction."
-  },
-  "recorder_context_menu": {
-    "message": "Record a skill",
-    "description": "Location: Browser. Browser page context-menu command that opens the user-action recorder."
-  },
-  "recorder_detail_element": {
-    "message": "Element",
-    "description": "Location: Browser. Field label for the human-readable webpage element recorded for an action."
-  },
-  "recorder_detail_key": {
-    "message": "Key",
-    "description": "Location: Browser. Field label for the keyboard key used during a captured action."
-  },
-  "recorder_detail_page": {
-    "message": "Page",
-    "description": "Location: Browser. Field label for the webpage URL where a captured action occurred."
-  },
-  "recorder_detail_scroll": {
-    "message": "Scroll",
-    "description": "Location: Browser. Field label for the horizontal and vertical offsets of a captured scroll action."
-  },
-  "recorder_detail_selector": {
-    "message": "Selector",
-    "description": "Location: Browser. Field label for the webpage selector recorded for an action."
-  },
-  "recorder_detail_tab": {
-    "message": "Tab",
-    "description": "Location: Browser. Field label for the browser-tab index associated with a captured action."
-  },
-  "recorder_detail_tag": {
-    "message": "Tag",
-    "description": "Location: Browser. Field label for the HTML tag recorded for an action."
-  },
-  "recorder_detail_time": {
-    "message": "Time",
-    "description": "Location: Browser. Field label for the timestamp of a captured action."
-  },
-  "recorder_detail_type": {
-    "message": "Type",
-    "description": "Location: Browser. Field label for the kind of a captured action in recording details."
-  },
-  "recorder_detail_value": {
-    "message": "Value",
-    "description": "Location: Browser. Field label for the value entered during a captured action."
-  },
-  "recorder_error_enter_skill_name": {
-    "message": "Enter a skill name",
-    "description": "Location: Browser. Validation error shown when the user tries to save a generated skill without a name."
-  },
-  "recorder_error_generate_first": {
-    "message": "Generate the skill first",
-    "description": "Location: Browser. Validation error shown when the user tries to save before generating a skill preview."
-  },
-  "recorder_expand_controls": {
-    "message": "Expand controls",
-    "description": "Location: Browser. Accessible label and tooltip for expanding the compact recording controls."
-  },
-  "recorder_generate_skill": {
-    "message": "Generate skill",
-    "description": "Location: Browser. Button label that generates a reusable skill from captured actions."
-  },
-  "recorder_generating": {
-    "message": "Generating...",
-    "description": "Location: Browser. Temporary button label while a skill is being generated from captured actions."
-  },
-  "recorder_generation_failed": {
-    "message": "Generation failed: $ERROR$",
-    "description": "Location: Browser. Error shown when skill generation fails. ERROR is the original runtime error and must be preserved verbatim."
-  },
-  "recorder_minimize_controls": {
-    "message": "Minimize controls",
-    "description": "Location: Browser. Accessible label and tooltip for collapsing the recording controls."
-  },
-  "recorder_no_actions": {
-    "message": "No actions captured",
-    "description": "Location: Browser. Empty state in the recording review when no user actions were captured."
-  },
-  "recorder_no_content_generated": {
-    "message": "No content generated.",
-    "description": "Location: Browser. Empty state when the skill generator returns no preview content."
-  },
-  "recorder_no_replay_data": {
-    "message": "No replay data",
-    "description": "Location: Browser. Empty state when a recording contains no replayable browser events."
-  },
-  "recorder_page_title": {
-    "message": "Phi Recorder",
-    "description": "Location: Browser. Browser document title for the in-page recording control. Phi is a product name."
-  },
-  "recorder_pause": {
-    "message": "Pause",
-    "description": "Location: Browser. Button label that pauses capture or replay, depending on context."
-  },
-  "recorder_paused": {
-    "message": "Paused - $STEP_COUNT$",
-    "description": "Location: Browser. Status while capture is paused. STEP_COUNT is a localized count such as 5 steps."
-  },
-  "recorder_play": {
-    "message": "Play",
-    "description": "Location: Browser. Button label that plays the captured interaction replay."
-  },
-  "recorder_re_record": {
-    "message": "Re-record",
-    "description": "Location: Browser. Button label that discards the current review and starts a new recording."
-  },
-  "recorder_ready": {
-    "message": "Ready to record",
-    "description": "Location: Browser. Status in the recording control before capture starts."
-  },
-  "recorder_recording": {
-    "message": "Recording - $STEP_COUNT$",
-    "description": "Location: Browser. Status while user actions are being captured. STEP_COUNT is a localized count such as 5 steps."
-  },
-  "recorder_recording_review": {
-    "message": "Recording review",
-    "description": "Location: Browser. Dialog title while the user reviews captured actions and replay data."
-  },
-  "recorder_replay": {
-    "message": "Replay",
-    "description": "Location: Browser. Heading above the masked replay of captured browser actions."
-  },
-  "recorder_resume": {
-    "message": "Resume",
-    "description": "Location: Browser. Button label that resumes a paused recording."
-  },
-  "recorder_save_failed": {
-    "message": "Save failed: $ERROR$",
-    "description": "Location: Browser. Error shown when saving a generated skill fails. ERROR is the original runtime error and must be preserved verbatim."
-  },
-  "recorder_save_skill": {
-    "message": "Save skill",
-    "description": "Location: Browser. Button label that saves the reviewed generated skill."
-  },
-  "recorder_saved": {
-    "message": "Saved",
-    "description": "Location: Browser. Button label after a generated skill has been saved successfully."
-  },
-  "recorder_saved_to_skills": {
-    "message": "Saved to your Skills page",
-    "description": "Location: Browser. Confirmation shown after a generated skill is saved to the user's Skills collection. Skills is a product feature name."
-  },
-  "recorder_saving": {
-    "message": "Saving...",
-    "description": "Location: Browser. Temporary button label while a generated skill is being saved."
-  },
-  "recorder_skill_content": {
-    "message": "Skill content (saved as SKILL.md)",
-    "description": "Location: Browser. Label above the generated skill source preview. Keep SKILL.md unchanged because it is a literal filename."
-  },
-  "recorder_skill_name_placeholder": {
-    "message": "Name this skill...",
-    "description": "Location: Browser. Placeholder in the field where the user names a generated skill before saving it."
-  },
-  "recorder_skill_preview": {
-    "message": "Skill preview",
-    "description": "Location: Browser. Dialog title while the user reviews a generated skill before saving."
-  },
-  "recorder_skill_title": {
-    "message": "Skill title",
-    "description": "Location: Browser. Label above the name field in the generated-skill preview."
-  },
-  "recorder_start": {
-    "message": "Start",
-    "description": "Location: Browser. Button label that starts capturing user actions."
-  },
-  "recorder_step_count": {
-    "message": "$COUNT$ step(s)",
-    "description": "Location: Browser. Compact count used in the recording status. COUNT is the number of captured user actions."
-  },
-  "recorder_stop": {
-    "message": "Stop",
-    "description": "Location: Browser. Button label that stops an active recording."
-  },
-  "recorder_stop_recording": {
-    "message": "Stop recording",
-    "description": "Location: Browser. Tooltip for the compact control that stops the active recording."
   },
   "red": {
     "message": "Red",
@@ -4303,10 +3867,6 @@
     "message": "Sign in",
     "description": "Location: Browser. Label of the button on the settings account row, shown in guest mode, that opens the sign-in window. Must stay word-for-word identical to the Sign in button in the Mac client's account settings."
   },
-  "shadow_task_approval_title": {
-    "message": "Shadow Task",
-    "description": "Location: Browser. Fallback title for a background-task approval card when the task provides no title. Shadow Task is a product feature name."
-  },
   "share": {
     "message": "Share",
     "description": "Location: Browser. Address bar menu - Share submenu title"
@@ -4622,46 +4182,6 @@
   "tab_name": {
     "message": "Tab Name",
     "description": "Location: Browser. Pinned tab editor - Placeholder for pinned tab name input"
-  },
-  "tab_organizer_group_development": {
-    "message": "Development",
-    "description": "Location: Browser. Automatic Chrome tab-group title for software-development tabs. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_docs": {
-    "message": "Docs",
-    "description": "Location: Browser. Automatic Chrome tab-group title for documentation and reference tabs. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_learning": {
-    "message": "Learning",
-    "description": "Location: Browser. Automatic Chrome tab-group title for education and study tabs. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_media": {
-    "message": "Media",
-    "description": "Location: Browser. Automatic Chrome tab-group title for video, music, and entertainment tabs. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_news": {
-    "message": "News",
-    "description": "Location: Browser. Automatic Chrome tab-group title for news and current-events tabs. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_other": {
-    "message": "Other",
-    "description": "Location: Browser. Automatic Chrome tab-group title for a small number of tabs that fit no meaningful category. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_review": {
-    "message": "Review",
-    "description": "Location: Browser. Automatic Chrome tab-group title for ambiguous tabs that the user may want to review manually. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_shopping": {
-    "message": "Shopping",
-    "description": "Location: Browser. Automatic Chrome tab-group title for shopping and purchase-related tabs. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_social": {
-    "message": "Social",
-    "description": "Location: Browser. Automatic Chrome tab-group title for social-network and communication tabs. Keep it short enough for a tab-group label."
-  },
-  "tab_organizer_group_work": {
-    "message": "Work",
-    "description": "Location: Browser. Automatic Chrome tab-group title for workplace and productivity tabs. Keep it short enough for a tab-group label."
   },
   "tab_search": {
     "message": "Tab Search",
