@@ -34,7 +34,7 @@ Want a language that isn't listed? Open an issue and make the case; the pipeline
 Two paths, both land as normal git commits under your name:
 
 1. **Pull requests, right now.** Edit your language's file, run `node tools/validate.js`, open a PR. Format rules live in [CONTRIBUTING.md](CONTRIBUTING.md). If you can read a JSON file, you're qualified.
-2. **Weblate, coming shortly.** A friendly web UI with glossary, context, and review flow for contributors who would rather never see a git command. Watch this space.
+2. **Weblate, live at [i18n.phibrowser.com](https://i18n.phibrowser.com).** A friendly web UI with the full catalog, a shared glossary, and translator context for every string. Browse without an account; sign in with a Phi Account or e-mail to translate. Contributions are reviewed periodically and merged into this repository, credited to you.
 
 Every PR is validated automatically (JSON validity, no unknown keys, placeholder integrity) and reviewed by a human before merging. Machine-seeded strings are fair game for wholesale rewriting; that is exactly the contribution we want.
 

@@ -55,4 +55,4 @@ Translations are reviewed by the Phi team and by community language reviewers be
 
 ## Weblate
 
-If you prefer a web UI over git, our self-hosted Weblate instance (link in the README once open) offers the same strings with context, a glossary, and suggestion review. Weblate contributions are committed under your name and go through the same PR review as direct contributions.
+If you prefer a web UI over git, our self-hosted Weblate instance at [i18n.phibrowser.com](https://i18n.phibrowser.com) offers the same strings with context, a shared glossary, and suggestion review. Anyone can browse; translating needs a Phi Account or an e-mail registration. Weblate contributions are reviewed periodically and merged into this repository under your name, same as direct contributions.
