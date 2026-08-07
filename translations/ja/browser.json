@@ -20,6 +20,12 @@
   "access_to_all_passwords_is_on": {
     "message": "すべてのパスワードへのアクセスがオンになっています"
   },
+  "access_to_desktop_is_required_to_make": {
+    "message": "Phiからファイルにアクセスできるようにするには、「デスクトップ」へのアクセスが必要です。"
+  },
+  "access_to_downloads_is_required_for_downloading": {
+    "message": "Webからファイルをダウンロードし、Phiからファイルにアクセスできるようにするには、「ダウンロード」へのアクセスが必要です。"
+  },
   "accessing": {
     "message": "アクセス先："
   },
@@ -196,6 +202,9 @@
   },
   "allow_all": {
     "message": "すべて許可"
+  },
+  "allow_all_agents": {
+    "message": "すべてのエージェントを許可"
   },
   "allow_once": {
     "message": "今回のみ許可"
@@ -917,6 +926,9 @@
   "copy_urls": {
     "message": "URLをコピー"
   },
+  "copyright_2026_phinomenon_all_rights_reserved": {
+    "message": "Copyright © 2026 Phinomenon. All rights reserved."
+  },
   "coral": {
     "message": "コーラル"
   },
@@ -1340,6 +1352,9 @@
   "error": {
     "message": "エラー"
   },
+  "every_agent_is_allowed_so_none_is": {
+    "message": "すべてのエージェントが許可されているため、個別に承認されているエージェントはありません。"
+  },
   "every_agent_will_be_able_to_use": {
     "message": "すべてのエージェントが、事前の確認なしに保管庫内のあらゆるログイン情報を使用できるようになります。騙されたエージェントが、どこでもパスワードを入力したり漏らしたりするおそれがあります。この設定はいつでもここでオフにできます。"
   },
@@ -1631,8 +1646,11 @@
   "idle": {
     "message": "待機中"
   },
+  "if_you_allow_every_agent_that_connects": {
+    "message": "許可すると、接続するすべてのエージェントが確認なしに完全な制御権を得ます。「設定」▸「開発者」でいつでも元に戻せます。"
+  },
   "if_you_deny": {
-    "message": "拒否した場合："
+    "message": "どのくらいの期間、Phiが拒否するようにしますか？"
   },
   "image_file_not_found": {
     "message": "画像ファイルが見つかりません"
@@ -1804,6 +1822,9 @@
   },
   "lets_agent_tools_claude_code_codex_drive": {
     "message": "エージェントツール（Claude Code、Codex）が、このMacのプロセスだけが到達できるプライベートソケットを介して、DevTools ProtocolでPhiを操作できるようにします。各エージェントは、初めて接続するときに許可を求めます。オフにするとただちに接続が切断され、次に接続したエージェントがオンに戻すよう求めます。変更はすぐに反映されます。"
+  },
+  "lets_every_agent_connect_without_asking_you": {
+    "message": "Phiが一度も見たことのないエージェントも含め、すべてのエージェントが確認なしに接続できるようになります。オンにしている間は承認プロンプトが表示されず、オンにすると継続中の拒否も解除されます。すぐに適用されます。"
   },
   "light": {
     "message": "ライト"
@@ -3437,9 +3458,6 @@
   "try_again_ba7845": {
     "message": "再試行"
   },
-  "turn_away_every_agent_not_just": {
-    "message": "“%@”だけでなく、すべてのエージェントを拒否します。"
-  },
   "turn_off": {
     "message": "オフにする"
   },
@@ -3659,6 +3677,24 @@
   "website_626fc9": {
     "message": "ウェブサイト"
   },
+  "websites_may_use_your_bluetooth_for_features": {
+    "message": "Webサイトがサイト上の機能のためにBluetoothを使用する場合があります。"
+  },
+  "websites_may_use_your_camera_for_features": {
+    "message": "Webサイトがサイト上の機能のためにカメラを使用する場合があります。"
+  },
+  "websites_may_use_your_location_for_features": {
+    "message": "Webサイトがサイト上の機能のために位置情報を使用する場合があります。"
+  },
+  "websites_may_use_your_location_for_features_5d61ce": {
+    "message": "Webサイトがサイト上の機能のために位置情報を使用する場合があります。"
+  },
+  "websites_may_use_your_location_for_features_c504d3": {
+    "message": "Webサイトがサイト上の機能のために位置情報を使用する場合があります。"
+  },
+  "websites_may_use_your_microphone_for_features": {
+    "message": "Webサイトがサイト上の機能のためにマイクを使用する場合があります。"
+  },
   "welcome": {
     "message": "ようこそ、%@さん"
   },
@@ -3706,6 +3742,9 @@
   },
   "your_account_is_ready_and_your_data": {
     "message": "アカウントの準備が整い、データも安全に保たれています。Phiは次回起動時に、古いゲストデータの削除をもう一度試みます。"
+  },
+  "your_answer_covers_every_agent_not_just": {
+    "message": "この回答は「%@」に限らず、すべてのエージェントに適用されます。"
   },
   "your_current_pinned_tabs_will_be_copied": {
     "message": "現在の固定タブが、既存の各コピー先に複製されます。複製後は、それぞれ個別に変更できます。"

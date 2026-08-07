@@ -20,6 +20,12 @@
   "access_to_all_passwords_is_on": {
     "message": "Zugriff auf alle Passwörter ist aktiviert"
   },
+  "access_to_desktop_is_required_to_make": {
+    "message": "Der Zugriff auf „Schreibtisch“ ist erforderlich, um Dateien in Phi zugänglich zu machen."
+  },
+  "access_to_downloads_is_required_for_downloading": {
+    "message": "Der Zugriff auf „Downloads“ ist erforderlich, um Dateien aus dem Internet herunterzuladen und Dateien in Phi zugänglich zu machen."
+  },
   "accessing": {
     "message": "Zugriff auf:"
   },
@@ -196,6 +202,9 @@
   },
   "allow_all": {
     "message": "Alle erlauben"
+  },
+  "allow_all_agents": {
+    "message": "Alle Agenten zulassen"
   },
   "allow_once": {
     "message": "Einmal erlauben"
@@ -917,6 +926,9 @@
   "copy_urls": {
     "message": "URLs kopieren"
   },
+  "copyright_2026_phinomenon_all_rights_reserved": {
+    "message": "Copyright © 2026 Phinomenon. All rights reserved."
+  },
   "coral": {
     "message": "Koralle"
   },
@@ -1340,6 +1352,9 @@
   "error": {
     "message": "Fehler"
   },
+  "every_agent_is_allowed_so_none_is": {
+    "message": "Jeder Agent ist zugelassen, daher ist keiner einzeln genehmigt."
+  },
   "every_agent_will_be_able_to_use": {
     "message": "Jeder Agent kann dann alle Zugangsdaten in deinem Tresor verwenden, ohne dich vorher zu fragen. Ein getäuschter Agent könnte überall ein Passwort ausfüllen oder preisgeben. Du kannst das hier jederzeit wieder deaktivieren."
   },
@@ -1631,8 +1646,11 @@
   "idle": {
     "message": "inaktiv"
   },
+  "if_you_allow_every_agent_that_connects": {
+    "message": "Wenn du erlaubst, erhält jeder Agent, der sich verbindet, volle Kontrolle, ohne dich zu fragen. Du kannst das jederzeit unter Einstellungen ▸ Entwickler rückgängig machen."
+  },
   "if_you_deny": {
-    "message": "Wenn du ablehnst:"
+    "message": "Wie lange soll Phi ablehnen?"
   },
   "image_file_not_found": {
     "message": "Bilddatei nicht gefunden"
@@ -1804,6 +1822,9 @@
   },
   "lets_agent_tools_claude_code_codex_drive": {
     "message": "Erlaubt Agententools (Claude Code, Codex), Phi über das DevTools-Protokoll zu steuern, und zwar über einen privaten Socket, den nur Prozesse auf diesem Mac erreichen können. Jeder Agent bittet dich beim ersten Verbinden um deine Erlaubnis. Wenn du das ausschaltest, werden sie sofort getrennt; der nächste Agent, der sich verbindet, bittet dich, es wieder einzuschalten. Gilt sofort."
+  },
+  "lets_every_agent_connect_without_asking_you": {
+    "message": "Lässt jeden Agenten eine Verbindung herstellen, ohne dich zu fragen, auch Agenten, die Phi noch nie gesehen hat. Solange diese Option aktiviert ist, erscheint keine Genehmigungsabfrage mehr, und das Aktivieren hebt eine bestehende Ablehnung auf. Gilt sofort."
   },
   "light": {
     "message": "Hell"
@@ -3437,9 +3458,6 @@
   "try_again_ba7845": {
     "message": "Erneut versuchen"
   },
-  "turn_away_every_agent_not_just": {
-    "message": "Jeden Agenten abweisen, nicht nur „%@“."
-  },
   "turn_off": {
     "message": "Deaktivieren"
   },
@@ -3659,6 +3677,24 @@
   "website_626fc9": {
     "message": "Website"
   },
+  "websites_may_use_your_bluetooth_for_features": {
+    "message": "Websites können Bluetooth für Funktionen auf ihrer Website verwenden."
+  },
+  "websites_may_use_your_camera_for_features": {
+    "message": "Websites können deine Kamera für Funktionen auf ihrer Website verwenden."
+  },
+  "websites_may_use_your_location_for_features": {
+    "message": "Websites können deinen Standort für Funktionen auf ihrer Website verwenden."
+  },
+  "websites_may_use_your_location_for_features_5d61ce": {
+    "message": "Websites können deinen Standort für Funktionen auf ihrer Website verwenden."
+  },
+  "websites_may_use_your_location_for_features_c504d3": {
+    "message": "Websites können deinen Standort für Funktionen auf ihrer Website verwenden."
+  },
+  "websites_may_use_your_microphone_for_features": {
+    "message": "Websites können dein Mikrofon für Funktionen auf ihrer Website verwenden."
+  },
   "welcome": {
     "message": "Willkommen, %@"
   },
@@ -3706,6 +3742,9 @@
   },
   "your_account_is_ready_and_your_data": {
     "message": "Dein Konto ist bereit und deine Daten sind sicher. Phi versucht beim nächsten Start erneut, die alten Gastdaten zu entfernen."
+  },
+  "your_answer_covers_every_agent_not_just": {
+    "message": "Deine Antwort gilt für jeden Agenten, nicht nur für „%@“."
   },
   "your_current_pinned_tabs_will_be_copied": {
     "message": "Deine aktuellen angehefteten Tabs werden in jedes bestehende Ziel kopiert. Die Kopien können danach unabhängig voneinander geändert werden."

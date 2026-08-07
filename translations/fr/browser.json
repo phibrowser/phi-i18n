@@ -20,6 +20,12 @@
   "access_to_all_passwords_is_on": {
     "message": "L'accès à tous les mots de passe est activé"
   },
+  "access_to_desktop_is_required_to_make": {
+    "message": "L'accès au dossier « Bureau » est nécessaire pour rendre les fichiers accessibles depuis Phi."
+  },
+  "access_to_downloads_is_required_for_downloading": {
+    "message": "L'accès au dossier « Téléchargements » est nécessaire pour télécharger des fichiers depuis Internet et rendre les fichiers accessibles depuis Phi."
+  },
   "accessing": {
     "message": "Accès :"
   },
@@ -196,6 +202,9 @@
   },
   "allow_all": {
     "message": "Tout autoriser"
+  },
+  "allow_all_agents": {
+    "message": "Autoriser tous les agents"
   },
   "allow_once": {
     "message": "Autoriser une fois"
@@ -917,6 +926,9 @@
   "copy_urls": {
     "message": "Copier les URL"
   },
+  "copyright_2026_phinomenon_all_rights_reserved": {
+    "message": "Copyright © 2026 Phinomenon. Tous droits réservés."
+  },
   "coral": {
     "message": "Corail"
   },
@@ -1340,6 +1352,9 @@
   "error": {
     "message": "Erreur"
   },
+  "every_agent_is_allowed_so_none_is": {
+    "message": "Tous les agents sont autorisés, aucun n'est donc approuvé individuellement."
+  },
   "every_agent_will_be_able_to_use": {
     "message": "Chaque agent pourra utiliser n'importe quel identifiant de votre coffre sans vous demander au préalable. Un agent trompé pourrait saisir ou révéler un mot de passe n'importe où. Vous pouvez désactiver cette option ici à tout moment."
   },
@@ -1631,8 +1646,11 @@
   "idle": {
     "message": "inactif"
   },
+  "if_you_allow_every_agent_that_connects": {
+    "message": "Si vous autorisez, chaque agent qui se connecte obtient le contrôle total sans rien vous demander. Vous pouvez annuler ce choix à tout moment dans Paramètres ▸ Développeur."
+  },
   "if_you_deny": {
-    "message": "Si vous refusez :"
+    "message": "Pendant combien de temps Phi doit-il refuser ?"
   },
   "image_file_not_found": {
     "message": "Fichier image introuvable"
@@ -1804,6 +1822,9 @@
   },
   "lets_agent_tools_claude_code_codex_drive": {
     "message": "Permet aux outils d'agents (Claude Code, Codex) de piloter Phi via le protocole DevTools par le biais d'un socket privé accessible uniquement aux processus de ce Mac. Chaque agent demande votre autorisation lors de sa première connexion. Désactiver cette option les déconnecte immédiatement ; le prochain agent qui se connecte vous demandera de la réactiver. S'applique immédiatement."
+  },
+  "lets_every_agent_connect_without_asking_you": {
+    "message": "Permet à chaque agent de se connecter sans rien vous demander, y compris ceux que Phi n'a jamais vus. La demande d'approbation ne s'affiche plus tant que cette option est activée, et son activation annule tout refus en vigueur. S'applique immédiatement."
   },
   "light": {
     "message": "Clair"
@@ -3437,9 +3458,6 @@
   "try_again_ba7845": {
     "message": "Réessayer"
   },
-  "turn_away_every_agent_not_just": {
-    "message": "Refuse tous les agents, pas seulement « %@ »."
-  },
   "turn_off": {
     "message": "Désactiver"
   },
@@ -3659,6 +3677,24 @@
   "website_626fc9": {
     "message": "Site web"
   },
+  "websites_may_use_your_bluetooth_for_features": {
+    "message": "Les sites web peuvent utiliser le Bluetooth pour certaines fonctionnalités de leur site."
+  },
+  "websites_may_use_your_camera_for_features": {
+    "message": "Les sites web peuvent utiliser votre caméra pour certaines fonctionnalités de leur site."
+  },
+  "websites_may_use_your_location_for_features": {
+    "message": "Les sites web peuvent utiliser votre position pour certaines fonctionnalités de leur site."
+  },
+  "websites_may_use_your_location_for_features_5d61ce": {
+    "message": "Les sites web peuvent utiliser votre position pour certaines fonctionnalités de leur site."
+  },
+  "websites_may_use_your_location_for_features_c504d3": {
+    "message": "Les sites web peuvent utiliser votre position pour certaines fonctionnalités de leur site."
+  },
+  "websites_may_use_your_microphone_for_features": {
+    "message": "Les sites web peuvent utiliser votre micro pour certaines fonctionnalités de leur site."
+  },
   "welcome": {
     "message": "Bienvenue %@"
   },
@@ -3706,6 +3742,9 @@
   },
   "your_account_is_ready_and_your_data": {
     "message": "Votre compte est prêt et vos données sont en sécurité. Phi tentera à nouveau de supprimer les anciennes données du mode Invité à son prochain démarrage."
+  },
+  "your_answer_covers_every_agent_not_just": {
+    "message": "Votre réponse s'applique à tous les agents, pas seulement à « %@ »."
   },
   "your_current_pinned_tabs_will_be_copied": {
     "message": "Vos onglets épinglés actuels seront copiés dans chaque destination existante. Les copies pourront ensuite être modifiées indépendamment."

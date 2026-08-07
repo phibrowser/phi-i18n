@@ -20,6 +20,12 @@
   "access_to_all_passwords_is_on": {
     "message": "Toegang tot alle wachtwoorden staat aan"
   },
+  "access_to_desktop_is_required_to_make": {
+    "message": "Toegang tot \"Bureaublad\" is vereist om bestanden toegankelijk te maken vanuit Phi."
+  },
+  "access_to_downloads_is_required_for_downloading": {
+    "message": "Toegang tot \"Downloads\" is vereist om bestanden van internet te downloaden en om bestanden toegankelijk te maken vanuit Phi."
+  },
   "accessing": {
     "message": "Verbinding met:"
   },
@@ -196,6 +202,9 @@
   },
   "allow_all": {
     "message": "Sta alles toe"
+  },
+  "allow_all_agents": {
+    "message": "Alle agents toestaan"
   },
   "allow_once": {
     "message": "Sta eenmalig toe"
@@ -917,6 +926,9 @@
   "copy_urls": {
     "message": "Kopieer URL's"
   },
+  "copyright_2026_phinomenon_all_rights_reserved": {
+    "message": "Copyright © 2026 Phinomenon. All rights reserved."
+  },
   "coral": {
     "message": "Koraal"
   },
@@ -1340,6 +1352,9 @@
   "error": {
     "message": "Fout"
   },
+  "every_agent_is_allowed_so_none_is": {
+    "message": "Elke agent is toegestaan, dus geen enkele wordt afzonderlijk goedgekeurd."
+  },
   "every_agent_will_be_able_to_use": {
     "message": "Elke agent kan elke login in je kluis gebruiken zonder het je eerst te vragen. Een misleide agent zou overal een wachtwoord kunnen invullen of onthullen. Je kunt dit hier op elk moment uitschakelen."
   },
@@ -1631,8 +1646,11 @@
   "idle": {
     "message": "inactief"
   },
+  "if_you_allow_every_agent_that_connects": {
+    "message": "Als je dit toestaat, krijgt elke agent die verbinding maakt volledige controle zonder het je te vragen. Je kunt dit altijd terugdraaien in Instellingen ▸ Ontwikkelaar."
+  },
   "if_you_deny": {
-    "message": "Als je weigert:"
+    "message": "Hoe lang moet Phi weigeren?"
   },
   "image_file_not_found": {
     "message": "Afbeeldingsbestand niet gevonden"
@@ -1804,6 +1822,9 @@
   },
   "lets_agent_tools_claude_code_codex_drive": {
     "message": "Laat agent-tools (Claude Code, Codex) Phi aansturen via het DevTools Protocol, over een privésocket die alleen processen op deze Mac kunnen bereiken. Elke agent vraagt bij de eerste verbinding om je goedkeuring. Als je dit uitschakelt, worden ze meteen losgekoppeld; de volgende agent die verbinding maakt, vraagt je om het weer in te schakelen. Wordt direct toegepast."
+  },
+  "lets_every_agent_connect_without_asking_you": {
+    "message": "Laat elke agent verbinding maken zonder het je te vragen, ook agents die Phi nog nooit heeft gezien. De vraag om goedkeuring verschijnt niet meer zolang dit aanstaat, en inschakelen heft een eventuele lopende weigering op. Geldt direct."
   },
   "light": {
     "message": "Licht"
@@ -3437,9 +3458,6 @@
   "try_again_ba7845": {
     "message": "Probeer opnieuw"
   },
-  "turn_away_every_agent_not_just": {
-    "message": "Wijs elke agent af, niet alleen “%@”."
-  },
   "turn_off": {
     "message": "Schakel uit"
   },
@@ -3659,6 +3677,24 @@
   "website_626fc9": {
     "message": "Website"
   },
+  "websites_may_use_your_bluetooth_for_features": {
+    "message": "Websites kunnen je Bluetooth gebruiken voor functies op hun site."
+  },
+  "websites_may_use_your_camera_for_features": {
+    "message": "Websites kunnen je camera gebruiken voor functies op hun site."
+  },
+  "websites_may_use_your_location_for_features": {
+    "message": "Websites kunnen je locatie gebruiken voor functies op hun site."
+  },
+  "websites_may_use_your_location_for_features_5d61ce": {
+    "message": "Websites kunnen je locatie gebruiken voor functies op hun site."
+  },
+  "websites_may_use_your_location_for_features_c504d3": {
+    "message": "Websites kunnen je locatie gebruiken voor functies op hun site."
+  },
+  "websites_may_use_your_microphone_for_features": {
+    "message": "Websites kunnen je microfoon gebruiken voor functies op hun site."
+  },
   "welcome": {
     "message": "Welkom %@"
   },
@@ -3706,6 +3742,9 @@
   },
   "your_account_is_ready_and_your_data": {
     "message": "Je account is klaar en je gegevens zijn veilig. Phi probeert de oude gastgegevens de volgende keer bij het starten opnieuw te verwijderen."
+  },
+  "your_answer_covers_every_agent_not_just": {
+    "message": "Je antwoord geldt voor elke agent, niet alleen “%@”."
   },
   "your_current_pinned_tabs_will_be_copied": {
     "message": "Je huidige vastgezette tabbladen worden naar elke bestaande bestemming gekopieerd. De kopieën kun je daarna los van elkaar wijzigen."

@@ -20,6 +20,12 @@
   "access_to_all_passwords_is_on": {
     "message": "所有密碼的存取權已開啟"
   },
+  "access_to_desktop_is_required_to_make": {
+    "message": "需要取用「桌面」，才能在 Phi 中存取檔案。"
+  },
+  "access_to_downloads_is_required_for_downloading": {
+    "message": "需要取用「下載項目」，才能從網路下載檔案，並在 Phi 中存取檔案。"
+  },
   "accessing": {
     "message": "正在存取："
   },
@@ -196,6 +202,9 @@
   },
   "allow_all": {
     "message": "全部允許"
+  },
+  "allow_all_agents": {
+    "message": "允許所有 AI 代理"
   },
   "allow_once": {
     "message": "允許一次"
@@ -917,6 +926,9 @@
   "copy_urls": {
     "message": "拷貝所有網址"
   },
+  "copyright_2026_phinomenon_all_rights_reserved": {
+    "message": "Copyright © 2026 Phinomenon. All rights reserved."
+  },
   "coral": {
     "message": "珊瑚紅"
   },
@@ -1340,6 +1352,9 @@
   "error": {
     "message": "錯誤"
   },
+  "every_agent_is_allowed_so_none_is": {
+    "message": "已允許所有 AI 代理，因此沒有個別核准的項目。"
+  },
   "every_agent_will_be_able_to_use": {
     "message": "每個 AI 代理都能在不先詢問你的情況下，使用你密碼庫中的任何登入資訊。遭誤導的 AI 代理可能會在任何地方填入或洩漏密碼。你隨時可以在這裡關閉這項功能。"
   },
@@ -1631,8 +1646,11 @@
   "idle": {
     "message": "閒置"
   },
+  "if_you_allow_every_agent_that_connects": {
+    "message": "如果你允許，每個連線的 AI 代理都能在不詢問你的情況下取得完整控制權。你隨時可以在「設定 ▸ 開發者」中取消。"
+  },
   "if_you_deny": {
-    "message": "如果你拒絕："
+    "message": "要讓 Phi 拒絕多久？"
   },
   "image_file_not_found": {
     "message": "找不到圖片檔案"
@@ -1804,6 +1822,9 @@
   },
   "lets_agent_tools_claude_code_codex_drive": {
     "message": "允許 AI 代理工具（Claude Code、Codex）透過只有這部 Mac 上的程序才能存取的私有 socket，以 DevTools Protocol 操控 Phi。每個 AI 代理第一次連線時都會請求你的核准。關閉後會立即中斷它們的連線；下一個連線的 AI 代理會要求你重新開啟。立即生效。"
+  },
+  "lets_every_agent_connect_without_asking_you": {
+    "message": "讓每個 AI 代理都能在不詢問你的情況下連線，包括 Phi 從未見過的 AI 代理。開啟時將不再顯示核准提示，且開啟後會解除任何現行的拒絕。此設定立即生效。"
   },
   "light": {
     "message": "淺色"
@@ -3437,9 +3458,6 @@
   "try_again_ba7845": {
     "message": "再試一次"
   },
-  "turn_away_every_agent_not_just": {
-    "message": "拒絕所有 AI 代理，而不僅限於「%@」。"
-  },
   "turn_off": {
     "message": "關閉"
   },
@@ -3659,6 +3677,24 @@
   "website_626fc9": {
     "message": "網站"
   },
+  "websites_may_use_your_bluetooth_for_features": {
+    "message": "網站可能會使用你的藍牙來提供其網站上的功能。"
+  },
+  "websites_may_use_your_camera_for_features": {
+    "message": "網站可能會使用你的相機來提供其網站上的功能。"
+  },
+  "websites_may_use_your_location_for_features": {
+    "message": "網站可能會使用你的位置來提供其網站上的功能。"
+  },
+  "websites_may_use_your_location_for_features_5d61ce": {
+    "message": "網站可能會使用你的位置來提供其網站上的功能。"
+  },
+  "websites_may_use_your_location_for_features_c504d3": {
+    "message": "網站可能會使用你的位置來提供其網站上的功能。"
+  },
+  "websites_may_use_your_microphone_for_features": {
+    "message": "網站可能會使用你的麥克風來提供其網站上的功能。"
+  },
   "welcome": {
     "message": "歡迎，%@"
   },
@@ -3706,6 +3742,9 @@
   },
   "your_account_is_ready_and_your_data": {
     "message": "你的帳號已就緒，資料也很安全。Phi 下次啟動時會再嘗試移除舊的訪客資料。"
+  },
+  "your_answer_covers_every_agent_not_just": {
+    "message": "你的回答適用於所有 AI 代理，而不僅限於「%@」。"
   },
   "your_current_pinned_tabs_will_be_copied": {
     "message": "你目前的釘選分頁會複製到每個現有的目的地，之後這些副本可以各自獨立修改。"

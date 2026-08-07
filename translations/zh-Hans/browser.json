@@ -20,6 +20,12 @@
   "access_to_all_passwords_is_on": {
     "message": "已开启对所有密码的访问"
   },
+  "access_to_desktop_is_required_to_make": {
+    "message": "需要访问「桌面」文件夹，才能在 Phi 中访问其中的文件。"
+  },
+  "access_to_downloads_is_required_for_downloading": {
+    "message": "需要访问「下载」文件夹，才能从网络下载文件，并在 Phi 中访问其中的文件。"
+  },
   "accessing": {
     "message": "正在访问："
   },
@@ -196,6 +202,9 @@
   },
   "allow_all": {
     "message": "允许全部"
+  },
+  "allow_all_agents": {
+    "message": "允许所有智能体"
   },
   "allow_once": {
     "message": "允许一次"
@@ -917,6 +926,9 @@
   "copy_urls": {
     "message": "拷贝网址"
   },
+  "copyright_2026_phinomenon_all_rights_reserved": {
+    "message": "Copyright © 2026 Phinomenon. All rights reserved."
+  },
   "coral": {
     "message": "珊瑚色"
   },
@@ -1340,6 +1352,9 @@
   "error": {
     "message": "错误"
   },
+  "every_agent_is_allowed_so_none_is": {
+    "message": "已允许所有智能体，因此无需单独批准任何智能体。"
+  },
   "every_agent_will_be_able_to_use": {
     "message": "每个智能体都无需事先询问你，即可使用你密码库中的任何登录信息。被误导的智能体可能会在任何地方填入或泄露密码。你可以随时在这里关闭此功能。"
   },
@@ -1631,8 +1646,11 @@
   "idle": {
     "message": "空闲"
   },
+  "if_you_allow_every_agent_that_connects": {
+    "message": "如果允许，之后连接的每个智能体都会直接获得完全控制权，不会再询问你。你可以随时在「设置 ▸ 开发者」中撤销。"
+  },
   "if_you_deny": {
-    "message": "如果你拒绝："
+    "message": "要让 Phi 拒绝多久？"
   },
   "image_file_not_found": {
     "message": "未找到图片文件"
@@ -1804,6 +1822,9 @@
   },
   "lets_agent_tools_claude_code_codex_drive": {
     "message": "允许智能体工具（Claude Code、Codex）通过一个仅限这台 Mac 上的进程访问的私有套接字，经由 DevTools 协议驱动 Phi。每个智能体首次连接时都会请求你的批准。关闭后会立即断开它们的连接；下一个连接的智能体会请求你重新开启。立即生效。"
+  },
+  "lets_every_agent_connect_without_asking_you": {
+    "message": "让所有智能体无需询问你即可连接，包括 Phi 从未见过的智能体。开启期间不再显示批准提示，开启时会解除任何仍在生效的拒绝。立即生效。"
   },
   "light": {
     "message": "浅色"
@@ -3437,9 +3458,6 @@
   "try_again_ba7845": {
     "message": "重试"
   },
-  "turn_away_every_agent_not_just": {
-    "message": "拒绝所有智能体，而不仅限于「%@」。"
-  },
   "turn_off": {
     "message": "关闭"
   },
@@ -3659,6 +3677,24 @@
   "website_626fc9": {
     "message": "网站"
   },
+  "websites_may_use_your_bluetooth_for_features": {
+    "message": "网站可能会使用你的蓝牙来实现其网站上的功能。"
+  },
+  "websites_may_use_your_camera_for_features": {
+    "message": "网站可能会使用你的摄像头来实现其网站上的功能。"
+  },
+  "websites_may_use_your_location_for_features": {
+    "message": "网站可能会使用你的位置来实现其网站上的功能。"
+  },
+  "websites_may_use_your_location_for_features_5d61ce": {
+    "message": "网站可能会使用你的位置来实现其网站上的功能。"
+  },
+  "websites_may_use_your_location_for_features_c504d3": {
+    "message": "网站可能会使用你的位置来实现其网站上的功能。"
+  },
+  "websites_may_use_your_microphone_for_features": {
+    "message": "网站可能会使用你的麦克风来实现其网站上的功能。"
+  },
   "welcome": {
     "message": "欢迎 %@"
   },
@@ -3706,6 +3742,9 @@
   },
   "your_account_is_ready_and_your_data": {
     "message": "你的账号已就绪，数据也很安全。Phi 会在下次启动时再次尝试移除旧的访客数据。"
+  },
+  "your_answer_covers_every_agent_not_just": {
+    "message": "你的选择适用于所有智能体，而不仅限于「%@」。"
   },
   "your_current_pinned_tabs_will_be_copied": {
     "message": "你当前的固定标签页会被复制到每个现有的目标位置。之后可以分别独立更改这些副本。"

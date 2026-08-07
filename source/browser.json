@@ -27,6 +27,14 @@
     "message": "Access to all passwords is on",
     "description": "Location: Browser. Phi & AI settings - approvals subtitle when the master grant is on"
   },
+  "access_to_desktop_is_required_to_make": {
+    "message": "Access to \"Desktop\" is required to make files accessible from Phi.",
+    "description": "Location: Browser. Privacy - Desktop Folder Usage Description"
+  },
+  "access_to_downloads_is_required_for_downloading": {
+    "message": "Access to \"Downloads\" is required for downloading files from the web and to make files accessible from Phi.",
+    "description": "Location: Browser. Privacy - Downloads Folder Usage Description"
+  },
   "accessing": {
     "message": "Accessing:",
     "description": "Location: Browser. Bitwarden login sheet - server region prefix"
@@ -263,6 +271,10 @@
     "message": "Allow All",
     "description": "Location: Browser. Approvals sheet - all-access confirm button"
   },
+  "allow_all_agents": {
+    "message": "Allow all agents",
+    "description": "Location: Browser. Developer settings - Toggle title for the blanket grant that lets every agent connect"
+  },
   "allow_once": {
     "message": "Allow Once",
     "description": "Location: Browser. CDP consent - allow for this session"
@@ -353,7 +365,7 @@
   },
   "apply_to_all_agents": {
     "message": "Apply to all agents",
-    "description": "Location: Browser. CDP consent - all-agents deny row title"
+    "description": "Location: Browser. CDP consent - title of the switch that widens the answer from the asking agent to every agent"
   },
   "apply_to_all_agents_43fdaa": {
     "message": "Apply to all agents",
@@ -421,7 +433,7 @@
   },
   "back": {
     "message": "Back",
-    "description": "Location: Browser. Web content header - Accessibility description for back navigation button"
+    "description": "Location: Browser. CDP consent - return from the deny scope step to the allow-or-deny decision"
   },
   "back_6f24ff": {
     "message": "Back",
@@ -1223,6 +1235,10 @@
     "message": "Copy URLs",
     "description": "Location: Browser. Edit menu - Copy the selected tab URLs to the clipboard"
   },
+  "copyright_2026_phinomenon_all_rights_reserved": {
+    "message": "Copyright © 2026 Phinomenon. All rights reserved.",
+    "description": "Location: Browser. Copyright (human-readable)"
+  },
   "coral": {
     "message": "Coral",
     "description": "Location: Browser. Coral theme color name"
@@ -1697,11 +1713,11 @@
   },
   "edit_theme": {
     "message": "Edit Theme",
-    "description": "Location: Browser. Active Space context menu - Submenu to set a theme override for the active Space"
+    "description": "Location: Browser. Active Space context menu - opens the theme editor for the active Space"
   },
   "edit_theme_9ef25d": {
     "message": "Edit Theme",
-    "description": "Location: Browser. Spaces menu - Submenu to set a theme override for the active Space"
+    "description": "Location: Browser. Spaces menu - opens the theme editor for the active Space"
   },
   "edit_theme_f7ce4c": {
     "message": "Edit Theme",
@@ -1786,6 +1802,10 @@
   "error": {
     "message": "Error",
     "description": "Location: Browser. Phi Link - Custom bot generic error text"
+  },
+  "every_agent_is_allowed_so_none_is": {
+    "message": "Every agent is allowed, so none is approved individually.",
+    "description": "Location: Browser. Developer settings - Empty state for the allowed CDP agent list while the blanket all-agents grant is on"
   },
   "every_agent_will_be_able_to_use": {
     "message": "Every agent will be able to use any login in your vault without asking you first. A misled agent could fill or reveal a password anywhere. You can turn this off here at any time.",
@@ -2175,9 +2195,13 @@
     "message": "idle",
     "description": "Location: Browser. Agent console - status pill when no task is actively running"
   },
+  "if_you_allow_every_agent_that_connects": {
+    "message": "If you allow, every agent that connects gets full control without asking you. Reverse it anytime in Settings ▸ Developer.",
+    "description": "Location: Browser. CDP consent - warning shown when the answer is widened to every agent, naming what that means on the allow side"
+  },
   "if_you_deny": {
-    "message": "If you deny:",
-    "description": "Location: Browser. CDP consent - label over the picker that scopes the Deny button"
+    "message": "How long should Phi refuse?",
+    "description": "Location: Browser. CDP consent - label over the picker that scopes the refusal, shown after the user presses Deny"
   },
   "image_file_not_found": {
     "message": "Image file not found",
@@ -2406,6 +2430,10 @@
   "lets_agent_tools_claude_code_codex_drive": {
     "message": "Lets agent tools (Claude Code, Codex) drive Phi over the DevTools Protocol through a private socket only this Mac’s processes can reach. Each agent asks for your approval the first time it connects. Turning this off disconnects them right away; the next agent that connects asks you to turn it back on. Applies immediately.",
     "description": "Location: Browser. Developer settings - Security note for the agent CDP toggle"
+  },
+  "lets_every_agent_connect_without_asking_you": {
+    "message": "Lets every agent connect without asking you, including ones Phi has never seen. The approval prompt stops appearing while this is on, and turning it on lifts any standing refusal. Applies immediately.",
+    "description": "Location: Browser. Developer settings - Security note for the blanket all-agents grant toggle"
   },
   "light": {
     "message": "Light",
@@ -4583,10 +4611,6 @@
     "message": "Try Again",
     "description": "Location: Browser. Guest migration - Button that retries migration for the journal-bound account"
   },
-  "turn_away_every_agent_not_just": {
-    "message": "Turn away every agent, not just “%@”.",
-    "description": "Location: Browser. CDP consent - all-agents deny row explanation"
-  },
   "turn_off": {
     "message": "Turn Off",
     "description": "Location: Browser. AI settings - Destructive button to confirm turning off connectors"
@@ -4879,6 +4903,30 @@
     "message": "Website",
     "description": "Location: Browser. Extension list - Section title for current website security info"
   },
+  "websites_may_use_your_bluetooth_for_features": {
+    "message": "Websites may use your bluetooth for features on their site.",
+    "description": "Location: Browser. Privacy - Bluetooth Always Usage Description"
+  },
+  "websites_may_use_your_camera_for_features": {
+    "message": "Websites may use your camera for features on their site.",
+    "description": "Location: Browser. Privacy - Camera Usage Description"
+  },
+  "websites_may_use_your_location_for_features": {
+    "message": "Websites may use your location for features on their site.",
+    "description": "Location: Browser. Privacy - Location Always and When In Use Usage Description"
+  },
+  "websites_may_use_your_location_for_features_5d61ce": {
+    "message": "Websites may use your location for features on their site.",
+    "description": "Location: Browser. Privacy - Location Always Usage Description"
+  },
+  "websites_may_use_your_location_for_features_c504d3": {
+    "message": "Websites may use your location for features on their site.",
+    "description": "Location: Browser. Privacy - Location When In Use Usage Description"
+  },
+  "websites_may_use_your_microphone_for_features": {
+    "message": "Websites may use your microphone for features on their site.",
+    "description": "Location: Browser. Privacy - Microphone Usage Description"
+  },
   "welcome": {
     "message": "Welcome %@",
     "description": "Location: Browser. Onboarding welcome page - Personalized welcome title with user name"
@@ -4942,6 +4990,10 @@
   "your_account_is_ready_and_your_data": {
     "message": "Your account is ready and your data is safe. Phi will try to remove the old Guest data again the next time it starts.",
     "description": "Location: Browser. Guest migration - Alert message for deferred deletion of the old Guest data directory"
+  },
+  "your_answer_covers_every_agent_not_just": {
+    "message": "Your answer covers every agent, not just “%@”.",
+    "description": "Location: Browser. CDP consent - explanation of the all-agents switch; %@ is the name of the agent asking for access"
   },
   "your_current_pinned_tabs_will_be_copied": {
     "message": "Your current pinned tabs will be copied into each existing destination. The copies can then be changed independently.",

@@ -20,6 +20,12 @@
   "access_to_all_passwords_is_on": {
     "message": "모든 비밀번호 접근이 켜져 있어요"
   },
+  "access_to_desktop_is_required_to_make": {
+    "message": "Phi에서 파일에 접근할 수 있게 하려면 \"데스크탑\" 접근 권한이 필요해요."
+  },
+  "access_to_downloads_is_required_for_downloading": {
+    "message": "웹에서 파일을 다운로드하고 Phi에서 파일에 접근할 수 있게 하려면 \"다운로드\" 접근 권한이 필요해요."
+  },
   "accessing": {
     "message": "접속 대상:"
   },
@@ -196,6 +202,9 @@
   },
   "allow_all": {
     "message": "모두 허용"
+  },
+  "allow_all_agents": {
+    "message": "모든 에이전트 허용"
   },
   "allow_once": {
     "message": "한 번만 허용"
@@ -917,6 +926,9 @@
   "copy_urls": {
     "message": "URL 복사"
   },
+  "copyright_2026_phinomenon_all_rights_reserved": {
+    "message": "Copyright © 2026 Phinomenon. All rights reserved."
+  },
   "coral": {
     "message": "코랄"
   },
@@ -1340,6 +1352,9 @@
   "error": {
     "message": "오류"
   },
+  "every_agent_is_allowed_so_none_is": {
+    "message": "모든 에이전트가 허용되어 있어서 개별적으로 승인된 에이전트는 없어요."
+  },
   "every_agent_will_be_able_to_use": {
     "message": "모든 에이전트가 먼저 묻지 않고 보관함의 모든 로그인 정보를 사용할 수 있게 돼요. 잘못 유도된 에이전트가 어디에서든 비밀번호를 입력하거나 노출할 수 있어요. 언제든지 여기에서 끌 수 있어요."
   },
@@ -1631,8 +1646,11 @@
   "idle": {
     "message": "대기 중"
   },
+  "if_you_allow_every_agent_that_connects": {
+    "message": "허용하면 연결하는 모든 에이전트가 따로 묻지 않고 전체 제어 권한을 갖게 돼요. 설정 ▸ 개발자에서 언제든지 되돌릴 수 있어요."
+  },
   "if_you_deny": {
-    "message": "거부하면:"
+    "message": "Phi가 얼마 동안 거부할까요?"
   },
   "image_file_not_found": {
     "message": "이미지 파일을 찾을 수 없어요"
@@ -1804,6 +1822,9 @@
   },
   "lets_agent_tools_claude_code_codex_drive": {
     "message": "이 Mac의 프로세스만 접근할 수 있는 전용 소켓을 통해 에이전트 도구(Claude Code, Codex)가 DevTools 프로토콜로 Phi를 제어할 수 있어요. 각 에이전트는 처음 연결할 때 승인을 요청해요. 이 기능을 끄면 즉시 연결이 끊기고, 다음에 연결하는 에이전트가 다시 켜 달라고 요청해요. 변경 사항은 바로 적용돼요."
+  },
+  "lets_every_agent_connect_without_asking_you": {
+    "message": "Phi가 처음 보는 에이전트를 포함해 모든 에이전트가 따로 묻지 않고 연결할 수 있게 돼요. 이 설정이 켜져 있는 동안에는 승인 요청이 표시되지 않고, 켜면 유지 중이던 거부도 해제돼요. 즉시 적용돼요."
   },
   "light": {
     "message": "라이트"
@@ -3437,9 +3458,6 @@
   "try_again_ba7845": {
     "message": "다시 시도"
   },
-  "turn_away_every_agent_not_just": {
-    "message": "“%@”만이 아니라 모든 에이전트를 거부해요."
-  },
   "turn_off": {
     "message": "끄기"
   },
@@ -3659,6 +3677,24 @@
   "website_626fc9": {
     "message": "웹사이트"
   },
+  "websites_may_use_your_bluetooth_for_features": {
+    "message": "웹사이트가 사이트 기능을 위해 블루투스를 사용할 수 있어요."
+  },
+  "websites_may_use_your_camera_for_features": {
+    "message": "웹사이트가 사이트 기능을 위해 카메라를 사용할 수 있어요."
+  },
+  "websites_may_use_your_location_for_features": {
+    "message": "웹사이트가 사이트 기능을 위해 내 위치를 사용할 수 있어요."
+  },
+  "websites_may_use_your_location_for_features_5d61ce": {
+    "message": "웹사이트가 사이트 기능을 위해 내 위치를 사용할 수 있어요."
+  },
+  "websites_may_use_your_location_for_features_c504d3": {
+    "message": "웹사이트가 사이트 기능을 위해 내 위치를 사용할 수 있어요."
+  },
+  "websites_may_use_your_microphone_for_features": {
+    "message": "웹사이트가 사이트 기능을 위해 마이크를 사용할 수 있어요."
+  },
   "welcome": {
     "message": "%@님, 환영해요"
   },
@@ -3706,6 +3742,9 @@
   },
   "your_account_is_ready_and_your_data": {
     "message": "계정이 준비됐고 데이터도 안전해요. Phi가 다음에 시작할 때 이전 게스트 데이터를 다시 삭제해 볼게요."
+  },
+  "your_answer_covers_every_agent_not_just": {
+    "message": "이 답변은 “%@”뿐만 아니라 모든 에이전트에 적용돼요."
   },
   "your_current_pinned_tabs_will_be_copied": {
     "message": "현재 고정된 탭이 기존 대상마다 복사돼요. 이후에는 사본을 각각 따로 변경할 수 있어요."
