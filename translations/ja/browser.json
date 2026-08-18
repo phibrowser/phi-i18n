@@ -80,6 +80,9 @@
   "additional_info_optional": {
     "message": "追加情報（任意）"
   },
+  "address": {
+    "message": "アドレス"
+  },
   "agent": {
     "message": "エージェント"
   },
@@ -290,6 +293,9 @@
   "are_you_sure_you_want_to_quit": {
     "message": "Phiを終了してもよろしいですか？"
   },
+  "article": {
+    "message": "記事"
+  },
   "ask_every_time": {
     "message": "毎回確認する"
   },
@@ -401,6 +407,9 @@
   "bookmarks": {
     "message": "ブックマーク"
   },
+  "bookmarks_53ba99": {
+    "message": "ブックマーク"
+  },
   "bookmarks_66fb01": {
     "message": "ブックマーク"
   },
@@ -418,6 +427,9 @@
   },
   "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
     "message": "このスペースに属するブックマークと固定タブも削除されます。この操作は取り消せません。"
+  },
+  "bookmarks_ba7dd5": {
+    "message": "ブックマーク"
   },
   "bookmarks_bar": {
     "message": "ブックマークバー"
@@ -549,6 +561,9 @@
     "message": "キャンセル"
   },
   "cancel_9dcfbe": {
+    "message": "キャンセル"
+  },
+  "cancel_a2f9b5": {
     "message": "キャンセル"
   },
   "cancel_aafe8f": {
@@ -775,6 +790,9 @@
   },
   "close_other_tabs_e9641f": {
     "message": "ほかのタブを閉じる"
+  },
+  "close_side_panel": {
+    "message": "サイドパネルを閉じる"
   },
   "close_tab": {
     "message": "タブを閉じる"
@@ -1099,6 +1117,9 @@
   },
   "delete_profile_81d915": {
     "message": "プロファイル「%@」を削除しますか？"
+  },
+  "delete_selected_bookmarks": {
+    "message": "選択したブックマークを削除しますか？"
   },
   "delete_selected_profile": {
     "message": "選択したプロファイルを削除"
@@ -1520,6 +1541,9 @@
   "folder_name_df6fc8": {
     "message": "フォルダ名"
   },
+  "folders_and_everything_inside_them_will_be": {
+    "message": "フォルダとその中のすべての項目が削除されます。"
+  },
   "folders_and_their_contents": {
     "message": "%d個のフォルダとその内容"
   },
@@ -1772,6 +1796,9 @@
   "iris": {
     "message": "アイリス"
   },
+  "items": {
+    "message": "%d項目"
+  },
   "just_now": {
     "message": "たった今"
   },
@@ -1877,6 +1904,9 @@
   "logins_for_phi_and_agent_requests_held": {
     "message": "Phiとエージェントのリクエストで使うログイン情報を、独立したヘルパーが保持します。パスワードがブラウザプロセスに渡ることはありません。"
   },
+  "manage_bookmarks": {
+    "message": "ブックマークを管理"
+  },
   "manage_extensions": {
     "message": "拡張機能を管理"
   },
@@ -1943,6 +1973,9 @@
   "n1_hour": {
     "message": "1時間"
   },
+  "n1_item": {
+    "message": "1項目"
+  },
   "n4_hours": {
     "message": "4時間"
   },
@@ -1990,6 +2023,9 @@
   },
   "new_folder": {
     "message": "新しいフォルダ"
+  },
+  "new_folder_48293d": {
+    "message": "新規フォルダ"
   },
   "new_folder_5ab995": {
     "message": "新しいフォルダ"
@@ -2138,11 +2174,17 @@
   "no_ai_features_until_you_sign_in": {
     "message": "ログインするまでAI機能は利用できません"
   },
+  "no_article_found_on_this_page": {
+    "message": "このページに記事が見つかりませんでした"
+  },
   "no_backup_archive_was_produced": {
     "message": "バックアップアーカイブが作成されませんでした。"
   },
   "no_backups_available": {
     "message": "利用できるバックアップがありません"
+  },
+  "no_bookmarks_in_this_space": {
+    "message": "このスペースにブックマークはありません"
   },
   "no_browser_memory_either": {
     "message": "ブラウザメモリも利用できません"
@@ -2167,6 +2209,9 @@
   },
   "no_file_selected": {
     "message": "ファイルが選択されていません"
+  },
+  "no_matching_bookmarks": {
+    "message": "一致するブックマークはありません"
   },
   "no_phi_or_sentinel_log_folders_were": {
     "message": "PhiまたはSentinelのログフォルダが見つかりませんでした。"
@@ -2591,6 +2636,18 @@
   "quit": {
     "message": "終了"
   },
+  "reader_view": {
+    "message": "リーダー表示"
+  },
+  "reader_view_596d66": {
+    "message": "リーダー表示"
+  },
+  "reader_view_c04bff": {
+    "message": "リーダー表示"
+  },
+  "reader_view_is_unavailable_on_this_page": {
+    "message": "このページではリーダー表示を利用できません"
+  },
   "reauthenticate": {
     "message": "再認証"
   },
@@ -2867,6 +2924,9 @@
   "search": {
     "message": "検索"
   },
+  "search_40bb62": {
+    "message": "検索"
+  },
   "search_458d4f": {
     "message": "検索"
   },
@@ -3046,6 +3106,9 @@
   },
   "show_in_finder_8593df": {
     "message": "Finderに表示"
+  },
+  "show_in_folder": {
+    "message": "フォルダで表示"
   },
   "show_proactive_suggestions_on_the_new_tab": {
     "message": "新しいタブページにプロアクティブな提案を表示"
@@ -3434,6 +3497,12 @@
   "toggle_chatbar_eb2a4b": {
     "message": "Chatbarの表示/非表示"
   },
+  "toggle_reader_view": {
+    "message": "リーダー表示を切り替え"
+  },
+  "toggle_reader_view_516d07": {
+    "message": "リーダー表示を切り替え"
+  },
   "toggle_sidebar": {
     "message": "サイドバーの表示/非表示"
   },
@@ -3675,10 +3744,13 @@
     "message": "データエクスポートを準備しています。準備ができ次第、ダウンロードリンクをメールでお送りします。リンクの有効期間は7日間です。"
   },
   "website": {
-    "message": "ウェブサイト"
+    "message": "Webサイト"
   },
   "website_626fc9": {
     "message": "ウェブサイト"
+  },
+  "website_e83251": {
+    "message": "Webサイト"
   },
   "websites_may_use_your_bluetooth_for_features": {
     "message": "Webサイトがサイト上の機能のためにBluetoothを使用する場合があります。"

@@ -80,6 +80,9 @@
   "additional_info_optional": {
     "message": "Información adicional (opcional)"
   },
+  "address": {
+    "message": "Dirección"
+  },
   "agent": {
     "message": "Agente"
   },
@@ -290,6 +293,9 @@
   "are_you_sure_you_want_to_quit": {
     "message": "¿Seguro que quieres salir de Phi?"
   },
+  "article": {
+    "message": "Artículo"
+  },
   "ask_every_time": {
     "message": "Preguntar cada vez"
   },
@@ -401,6 +407,9 @@
   "bookmarks": {
     "message": "Marcadores"
   },
+  "bookmarks_53ba99": {
+    "message": "Marcadores"
+  },
   "bookmarks_66fb01": {
     "message": "Marcadores"
   },
@@ -418,6 +427,9 @@
   },
   "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
     "message": "Los marcadores y las pestañas fijadas que pertenecen a este Espacio también se eliminarán. Esta acción no se puede deshacer."
+  },
+  "bookmarks_ba7dd5": {
+    "message": "Marcadores"
   },
   "bookmarks_bar": {
     "message": "Barra de marcadores"
@@ -549,6 +561,9 @@
     "message": "Cancelar"
   },
   "cancel_9dcfbe": {
+    "message": "Cancelar"
+  },
+  "cancel_a2f9b5": {
     "message": "Cancelar"
   },
   "cancel_aafe8f": {
@@ -775,6 +790,9 @@
   },
   "close_other_tabs_e9641f": {
     "message": "Cerrar las demás pestañas"
+  },
+  "close_side_panel": {
+    "message": "Cerrar panel lateral"
   },
   "close_tab": {
     "message": "Cerrar pestaña"
@@ -1099,6 +1117,9 @@
   },
   "delete_profile_81d915": {
     "message": "¿Eliminar el perfil “%@”?"
+  },
+  "delete_selected_bookmarks": {
+    "message": "¿Eliminar los marcadores seleccionados?"
   },
   "delete_selected_profile": {
     "message": "Eliminar el perfil seleccionado"
@@ -1520,6 +1541,9 @@
   "folder_name_df6fc8": {
     "message": "Nombre de la carpeta"
   },
+  "folders_and_everything_inside_them_will_be": {
+    "message": "Se eliminarán las carpetas y todo su contenido."
+  },
   "folders_and_their_contents": {
     "message": "%d carpetas y su contenido"
   },
@@ -1772,6 +1796,9 @@
   "iris": {
     "message": "Lila"
   },
+  "items": {
+    "message": "%d elementos"
+  },
   "just_now": {
     "message": "Ahora mismo"
   },
@@ -1877,6 +1904,9 @@
   "logins_for_phi_and_agent_requests_held": {
     "message": "Inicios de sesión para Phi y para las solicitudes de los agentes, guardados por un auxiliar independiente: las contraseñas nunca pasan por el proceso del navegador."
   },
+  "manage_bookmarks": {
+    "message": "Administrar marcadores"
+  },
   "manage_extensions": {
     "message": "Administrar extensiones"
   },
@@ -1943,6 +1973,9 @@
   "n1_hour": {
     "message": "1 hora"
   },
+  "n1_item": {
+    "message": "1 elemento"
+  },
   "n4_hours": {
     "message": "4 horas"
   },
@@ -1989,6 +2022,9 @@
     "message": "Nueva conversación"
   },
   "new_folder": {
+    "message": "Nueva carpeta"
+  },
+  "new_folder_48293d": {
     "message": "Nueva carpeta"
   },
   "new_folder_5ab995": {
@@ -2138,11 +2174,17 @@
   "no_ai_features_until_you_sign_in": {
     "message": "Sin funciones de IA hasta que inicies sesión"
   },
+  "no_article_found_on_this_page": {
+    "message": "No se encontró ningún artículo en esta página"
+  },
   "no_backup_archive_was_produced": {
     "message": "No se generó ningún archivo de copia de seguridad."
   },
   "no_backups_available": {
     "message": "No hay copias de seguridad disponibles"
+  },
+  "no_bookmarks_in_this_space": {
+    "message": "No hay marcadores en este Espacio"
   },
   "no_browser_memory_either": {
     "message": "Tampoco habrá Memoria del navegador"
@@ -2167,6 +2209,9 @@
   },
   "no_file_selected": {
     "message": "Ningún archivo seleccionado"
+  },
+  "no_matching_bookmarks": {
+    "message": "No hay marcadores que coincidan con tu búsqueda"
   },
   "no_phi_or_sentinel_log_folders_were": {
     "message": "No se encontraron carpetas de registros de Phi ni de Sentinel."
@@ -2591,6 +2636,18 @@
   "quit": {
     "message": "Salir"
   },
+  "reader_view": {
+    "message": "Lector"
+  },
+  "reader_view_596d66": {
+    "message": "Lector"
+  },
+  "reader_view_c04bff": {
+    "message": "Lector"
+  },
+  "reader_view_is_unavailable_on_this_page": {
+    "message": "El Lector no está disponible en esta página"
+  },
   "reauthenticate": {
     "message": "Volver a autenticarse"
   },
@@ -2867,6 +2924,9 @@
   "search": {
     "message": "Buscar"
   },
+  "search_40bb62": {
+    "message": "Buscar"
+  },
   "search_458d4f": {
     "message": "Buscar"
   },
@@ -3046,6 +3106,9 @@
   },
   "show_in_finder_8593df": {
     "message": "Mostrar en Finder"
+  },
+  "show_in_folder": {
+    "message": "Mostrar en carpeta"
   },
   "show_proactive_suggestions_on_the_new_tab": {
     "message": "Mostrar sugerencias proactivas en la página de nueva pestaña"
@@ -3434,6 +3497,12 @@
   "toggle_chatbar_eb2a4b": {
     "message": "Mostrar u ocultar la Chatbar"
   },
+  "toggle_reader_view": {
+    "message": "Mostrar u ocultar el Lector"
+  },
+  "toggle_reader_view_516d07": {
+    "message": "Mostrar u ocultar el Lector"
+  },
   "toggle_sidebar": {
     "message": "Mostrar u ocultar la barra lateral"
   },
@@ -3678,6 +3747,9 @@
     "message": "Sitio web"
   },
   "website_626fc9": {
+    "message": "Sitio web"
+  },
+  "website_e83251": {
     "message": "Sitio web"
   },
   "websites_may_use_your_bluetooth_for_features": {

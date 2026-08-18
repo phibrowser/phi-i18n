@@ -80,6 +80,9 @@
   "additional_info_optional": {
     "message": "추가 정보 (선택 사항)"
   },
+  "address": {
+    "message": "주소"
+  },
   "agent": {
     "message": "에이전트"
   },
@@ -290,6 +293,9 @@
   "are_you_sure_you_want_to_quit": {
     "message": "Phi를 종료하시겠어요?"
   },
+  "article": {
+    "message": "기사"
+  },
   "ask_every_time": {
     "message": "매번 묻기"
   },
@@ -401,6 +407,9 @@
   "bookmarks": {
     "message": "북마크"
   },
+  "bookmarks_53ba99": {
+    "message": "북마크"
+  },
   "bookmarks_66fb01": {
     "message": "북마크"
   },
@@ -418,6 +427,9 @@
   },
   "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
     "message": "이 스페이스에 속한 북마크와 고정된 탭도 함께 제거돼요. 이 작업은 되돌릴 수 없어요."
+  },
+  "bookmarks_ba7dd5": {
+    "message": "북마크"
   },
   "bookmarks_bar": {
     "message": "북마크 바"
@@ -549,6 +561,9 @@
     "message": "취소"
   },
   "cancel_9dcfbe": {
+    "message": "취소"
+  },
+  "cancel_a2f9b5": {
     "message": "취소"
   },
   "cancel_aafe8f": {
@@ -775,6 +790,9 @@
   },
   "close_other_tabs_e9641f": {
     "message": "다른 탭 닫기"
+  },
+  "close_side_panel": {
+    "message": "측면 패널 닫기"
   },
   "close_tab": {
     "message": "탭 닫기"
@@ -1099,6 +1117,9 @@
   },
   "delete_profile_81d915": {
     "message": "프로필 “%@”을(를) 삭제할까요?"
+  },
+  "delete_selected_bookmarks": {
+    "message": "선택한 북마크를 삭제할까요?"
   },
   "delete_selected_profile": {
     "message": "선택한 프로필 삭제"
@@ -1520,6 +1541,9 @@
   "folder_name_df6fc8": {
     "message": "폴더 이름"
   },
+  "folders_and_everything_inside_them_will_be": {
+    "message": "폴더와 그 안의 모든 항목이 삭제돼요."
+  },
   "folders_and_their_contents": {
     "message": "폴더 %d개와 포함된 항목"
   },
@@ -1772,6 +1796,9 @@
   "iris": {
     "message": "아이리스"
   },
+  "items": {
+    "message": "%d개 항목"
+  },
   "just_now": {
     "message": "방금 전"
   },
@@ -1877,6 +1904,9 @@
   "logins_for_phi_and_agent_requests_held": {
     "message": "Phi와 에이전트 요청에 쓰이는 로그인 정보를 별도 도우미가 보관해요. 비밀번호는 브라우저 프로세스에 전달되지 않아요."
   },
+  "manage_bookmarks": {
+    "message": "북마크 관리"
+  },
   "manage_extensions": {
     "message": "확장 프로그램 관리"
   },
@@ -1943,6 +1973,9 @@
   "n1_hour": {
     "message": "1시간"
   },
+  "n1_item": {
+    "message": "1개 항목"
+  },
   "n4_hours": {
     "message": "4시간"
   },
@@ -1989,6 +2022,9 @@
     "message": "새 대화"
   },
   "new_folder": {
+    "message": "새 폴더"
+  },
+  "new_folder_48293d": {
     "message": "새 폴더"
   },
   "new_folder_5ab995": {
@@ -2138,11 +2174,17 @@
   "no_ai_features_until_you_sign_in": {
     "message": "로그인하기 전에는 AI 기능을 사용할 수 없어요"
   },
+  "no_article_found_on_this_page": {
+    "message": "이 페이지에서 기사를 찾을 수 없어요"
+  },
   "no_backup_archive_was_produced": {
     "message": "생성된 백업 아카이브가 없어요."
   },
   "no_backups_available": {
     "message": "사용 가능한 백업 없음"
+  },
+  "no_bookmarks_in_this_space": {
+    "message": "이 스페이스에는 북마크가 없어요"
   },
   "no_browser_memory_either": {
     "message": "브라우저 메모리도 사용할 수 없어요"
@@ -2167,6 +2209,9 @@
   },
   "no_file_selected": {
     "message": "선택된 파일 없음"
+  },
+  "no_matching_bookmarks": {
+    "message": "일치하는 북마크가 없어요"
   },
   "no_phi_or_sentinel_log_folders_were": {
     "message": "Phi 또는 Sentinel 로그 폴더를 찾을 수 없어요."
@@ -2591,6 +2636,18 @@
   "quit": {
     "message": "종료"
   },
+  "reader_view": {
+    "message": "읽기 모드"
+  },
+  "reader_view_596d66": {
+    "message": "읽기 모드"
+  },
+  "reader_view_c04bff": {
+    "message": "읽기 모드"
+  },
+  "reader_view_is_unavailable_on_this_page": {
+    "message": "이 페이지에서는 읽기 모드를 사용할 수 없어요"
+  },
   "reauthenticate": {
     "message": "다시 인증"
   },
@@ -2867,6 +2924,9 @@
   "search": {
     "message": "검색"
   },
+  "search_40bb62": {
+    "message": "검색"
+  },
   "search_458d4f": {
     "message": "검색"
   },
@@ -3046,6 +3106,9 @@
   },
   "show_in_finder_8593df": {
     "message": "Finder에서 보기"
+  },
+  "show_in_folder": {
+    "message": "폴더에서 보기"
   },
   "show_proactive_suggestions_on_the_new_tab": {
     "message": "새 탭 페이지에 추천 제안 표시"
@@ -3434,6 +3497,12 @@
   "toggle_chatbar_eb2a4b": {
     "message": "Chatbar 보기/가리기"
   },
+  "toggle_reader_view": {
+    "message": "읽기 모드 전환"
+  },
+  "toggle_reader_view_516d07": {
+    "message": "읽기 모드 전환"
+  },
   "toggle_sidebar": {
     "message": "사이드바 표시/숨기기"
   },
@@ -3678,6 +3747,9 @@
     "message": "웹사이트"
   },
   "website_626fc9": {
+    "message": "웹사이트"
+  },
+  "website_e83251": {
     "message": "웹사이트"
   },
   "websites_may_use_your_bluetooth_for_features": {

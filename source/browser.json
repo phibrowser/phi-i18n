@@ -107,6 +107,10 @@
     "message": "Additional info (optional)",
     "description": "Location: Browser. Feedback form - Section header for optional additional information"
   },
+  "address": {
+    "message": "Address",
+    "description": "Location: Browser. Bookmark manager - Header for the bookmark address column"
+  },
   "agent": {
     "message": "Agent",
     "description": "Location: Browser. CDP consent - agent row label"
@@ -387,6 +391,10 @@
     "message": "Are you sure you want to quit Phi?",
     "description": "Location: Browser. Quit confirmation title"
   },
+  "article": {
+    "message": "Article",
+    "description": "Location: Browser. Reader View - Fallback file name when an article has no title"
+  },
   "ask_every_time": {
     "message": "Ask every time",
     "description": "Location: Browser. Special target in the URL rule Space picker: prompt for a Space on each match"
@@ -535,6 +543,10 @@
     "message": "Bookmarks",
     "description": "Location: Browser. Bookmarks menu - Menu title"
   },
+  "bookmarks_53ba99": {
+    "message": "Bookmarks",
+    "description": "Location: Browser. Bookmark manager - Title shown for the native bookmark management tab"
+  },
   "bookmarks_66fb01": {
     "message": "Bookmarks",
     "description": "Location: Browser. Search Tabs - Bookmarks section title"
@@ -558,6 +570,10 @@
   "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
     "message": "Bookmarks and pinned tabs belonging to this Space will also be removed. This action cannot be undone.",
     "description": "Location: Browser. Body of the delete-Space confirmation with Space-scoped pinned tabs"
+  },
+  "bookmarks_ba7dd5": {
+    "message": "Bookmarks",
+    "description": "Location: Browser. Bookmark manager - Page title"
   },
   "bookmarks_bar": {
     "message": "Bookmarks Bar",
@@ -734,6 +750,10 @@
   "cancel_9dcfbe": {
     "message": "Cancel",
     "description": "Location: Browser. Account settings - Cancel button in sign-out confirmation dialog"
+  },
+  "cancel_a2f9b5": {
+    "message": "Cancel",
+    "description": "Location: Browser. Bookmark manager delete confirmation - Cancel button title"
   },
   "cancel_aafe8f": {
     "message": "Cancel",
@@ -1034,6 +1054,10 @@
   "close_other_tabs_e9641f": {
     "message": "Close Other Tabs",
     "description": "Location: Browser. Tab context menu - Menu item to close all tabs except the selected one"
+  },
+  "close_side_panel": {
+    "message": "Close Side Panel",
+    "description": "Location: Browser. Extension side panel - Tooltip and accessibility label for the header control that closes the panel"
   },
   "close_tab": {
     "message": "Close Tab",
@@ -1361,7 +1385,7 @@
   },
   "delete": {
     "message": "Delete",
-    "description": "Location: Browser. Destructive button"
+    "description": "Location: Browser. Bookmark manager delete confirmation - Destructive button title"
   },
   "delete_0acc0d": {
     "message": "Delete “%@”?",
@@ -1466,6 +1490,10 @@
   "delete_profile_81d915": {
     "message": "Delete profile “%@”?",
     "description": "Location: Browser. Title of the delete-profile confirmation"
+  },
+  "delete_selected_bookmarks": {
+    "message": "Delete selected bookmarks?",
+    "description": "Location: Browser. Bookmark manager - Title of the confirmation shown before deleting multiple bookmarks or a folder"
   },
   "delete_selected_profile": {
     "message": "Delete selected profile",
@@ -2027,6 +2055,10 @@
     "message": "Folder Name",
     "description": "Location: Browser. Folder editor - Placeholder for folder name input"
   },
+  "folders_and_everything_inside_them_will_be": {
+    "message": "Folders and everything inside them will be removed.",
+    "description": "Location: Browser. Bookmark manager - Explanation shown before deleting bookmark folders"
+  },
   "folders_and_their_contents": {
     "message": "%d folders and their contents",
     "description": "Location: Browser. Bookmark multi-selection delete confirmation phrase for folders"
@@ -2363,6 +2395,10 @@
     "message": "Iris",
     "description": "Location: Browser. Iris theme color name"
   },
+  "items": {
+    "message": "%d items",
+    "description": "Location: Browser. Bookmark manager Address column - child count for a folder containing zero or multiple items"
+  },
   "just_now": {
     "message": "Just now",
     "description": "Location: Browser. Download item row - Relative time when download completed less than a minute ago"
@@ -2503,6 +2539,10 @@
     "message": "Logins for Phi and agent requests, held by a separate helper — passwords never touch the browser process.",
     "description": "Location: Browser. Phi & AI settings - Bitwarden toggle explanation"
   },
+  "manage_bookmarks": {
+    "message": "Manage Bookmarks",
+    "description": "Location: Browser. Bookmarks menu - Menu item that opens the bookmark management page"
+  },
   "manage_extensions": {
     "message": "Manage Extensions",
     "description": "Location: Browser. Address bar menu - Extensions submenu item to open extension management"
@@ -2591,6 +2631,10 @@
     "message": "1 hour",
     "description": "Location: Browser. Bitwarden session timeout - 1 hour"
   },
+  "n1_item": {
+    "message": "1 item",
+    "description": "Location: Browser. Bookmark manager Address column - child count for a folder containing one item"
+  },
   "n4_hours": {
     "message": "4 hours",
     "description": "Location: Browser. Bitwarden session timeout - 4 hours"
@@ -2654,6 +2698,10 @@
   "new_folder": {
     "message": "New Folder",
     "description": "Location: Browser. New folder dialog title"
+  },
+  "new_folder_48293d": {
+    "message": "New Folder",
+    "description": "Location: Browser. Bookmark manager - Button that creates a folder at the root or inside the selected folder"
   },
   "new_folder_5ab995": {
     "message": "New Folder",
@@ -2851,6 +2899,10 @@
     "message": "No AI features until you sign in",
     "description": "Location: Browser. Guest privacy confirmation - Notice that AI features require signing in"
   },
+  "no_article_found_on_this_page": {
+    "message": "No article found on this page",
+    "description": "Location: Browser. Reader View - Toast shown when the page has no article content to display"
+  },
   "no_backup_archive_was_produced": {
     "message": "No backup archive was produced.",
     "description": "Location: Browser. User data export - Error when the requested backup produces no archive"
@@ -2858,6 +2910,10 @@
   "no_backups_available": {
     "message": "No Backups Available",
     "description": "Location: Browser. Help menu - Time Machine submenu placeholder when no completed backups exist"
+  },
+  "no_bookmarks_in_this_space": {
+    "message": "No bookmarks in this Space",
+    "description": "Location: Browser. Bookmark manager - Empty state when the current Space has no bookmarks"
   },
   "no_browser_memory_either": {
     "message": "No Browser Memory either",
@@ -2890,6 +2946,10 @@
   "no_file_selected": {
     "message": "No file selected",
     "description": "Location: Browser. Import browser data page - Placeholder when no file has been chosen for import yet"
+  },
+  "no_matching_bookmarks": {
+    "message": "No matching bookmarks",
+    "description": "Location: Browser. Bookmark manager - Empty state when a search has no results"
   },
   "no_phi_or_sentinel_log_folders_were": {
     "message": "No Phi or Sentinel log folders were found.",
@@ -3455,6 +3515,22 @@
     "message": "Quit",
     "description": "Location: Browser. Quit"
   },
+  "reader_view": {
+    "message": "Reader View",
+    "description": "Location: Browser. Reader View shortcut tooltip title in the address bar"
+  },
+  "reader_view_596d66": {
+    "message": "Reader View",
+    "description": "Location: Browser. Reader View shortcut tooltip title"
+  },
+  "reader_view_c04bff": {
+    "message": "Reader View",
+    "description": "Location: Browser. Sidebar address bar - Reader View button tooltip"
+  },
+  "reader_view_is_unavailable_on_this_page": {
+    "message": "Reader View is unavailable on this page",
+    "description": "Location: Browser. Reader View - Toast shown when reader extraction could not run at all"
+  },
   "reauthenticate": {
     "message": "Reauthenticate",
     "description": "Location: Browser. Auth reauthentication - Primary action to start Auth0 web authentication"
@@ -3823,6 +3899,10 @@
     "message": "Search",
     "description": "Location: Browser. Address bar - Initial accessibility description for the search icon"
   },
+  "search_40bb62": {
+    "message": "Search",
+    "description": "Location: Browser. Bookmark manager - Search field placeholder"
+  },
   "search_458d4f": {
     "message": "Search",
     "description": "Location: Browser. Address bar - Accessibility description for the fallback search icon shown with suggestions"
@@ -4062,6 +4142,10 @@
   "show_in_finder_8593df": {
     "message": "Show in Finder",
     "description": "Location: Browser. Download item row - Tooltip for show in finder button"
+  },
+  "show_in_folder": {
+    "message": "Show in Folder",
+    "description": "Location: Browser. Bookmark manager context menu - Reveal a bookmark search result in its containing folder"
   },
   "show_proactive_suggestions_on_the_new_tab": {
     "message": "Show proactive suggestions on the new tab page",
@@ -4579,6 +4663,14 @@
     "message": "Toggle Chatbar",
     "description": "Location: Browser. Shortcuts settings - Command title for showing or hiding the Chatbar"
   },
+  "toggle_reader_view": {
+    "message": "Toggle Reader View",
+    "description": "Location: Browser. View menu - Menu item that switches the current page between Reader View and the normal page"
+  },
+  "toggle_reader_view_516d07": {
+    "message": "Toggle Reader View",
+    "description": "Location: Browser. Shortcuts settings - Command title for switching the current page between Reader View and the normal page"
+  },
   "toggle_sidebar": {
     "message": "Toggle Sidebar",
     "description": "Location: Browser. View menu - Menu item to show or hide the sidebar"
@@ -4906,6 +4998,10 @@
   "website_626fc9": {
     "message": "Website",
     "description": "Location: Browser. Extension list - Section title for current website security info"
+  },
+  "website_e83251": {
+    "message": "Website",
+    "description": "Location: Browser. Bookmark manager - Accessibility description for a placeholder website favicon"
   },
   "websites_may_use_your_bluetooth_for_features": {
     "message": "Websites may use your bluetooth for features on their site.",

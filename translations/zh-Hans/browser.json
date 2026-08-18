@@ -80,6 +80,9 @@
   "additional_info_optional": {
     "message": "补充信息（可选）"
   },
+  "address": {
+    "message": "地址"
+  },
   "agent": {
     "message": "智能体"
   },
@@ -290,6 +293,9 @@
   "are_you_sure_you_want_to_quit": {
     "message": "确定要退出 Phi 吗？"
   },
+  "article": {
+    "message": "文章"
+  },
   "ask_every_time": {
     "message": "每次询问"
   },
@@ -401,6 +407,9 @@
   "bookmarks": {
     "message": "书签"
   },
+  "bookmarks_53ba99": {
+    "message": "书签"
+  },
   "bookmarks_66fb01": {
     "message": "书签"
   },
@@ -418,6 +427,9 @@
   },
   "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
     "message": "属于此空间的书签和固定标签页也将被移除。此操作无法撤销。"
+  },
+  "bookmarks_ba7dd5": {
+    "message": "书签"
   },
   "bookmarks_bar": {
     "message": "书签栏"
@@ -549,6 +561,9 @@
     "message": "取消"
   },
   "cancel_9dcfbe": {
+    "message": "取消"
+  },
+  "cancel_a2f9b5": {
     "message": "取消"
   },
   "cancel_aafe8f": {
@@ -775,6 +790,9 @@
   },
   "close_other_tabs_e9641f": {
     "message": "关闭其他标签页"
+  },
+  "close_side_panel": {
+    "message": "关闭侧边栏"
   },
   "close_tab": {
     "message": "关闭标签页"
@@ -1099,6 +1117,9 @@
   },
   "delete_profile_81d915": {
     "message": "要删除个人资料「%@」吗？"
+  },
+  "delete_selected_bookmarks": {
+    "message": "确定要删除所选书签吗？"
   },
   "delete_selected_profile": {
     "message": "删除所选个人资料"
@@ -1520,6 +1541,9 @@
   "folder_name_df6fc8": {
     "message": "文件夹名称"
   },
+  "folders_and_everything_inside_them_will_be": {
+    "message": "文件夹及其中的所有内容都将被移除。"
+  },
   "folders_and_their_contents": {
     "message": "%d 个文件夹及其内容"
   },
@@ -1772,6 +1796,9 @@
   "iris": {
     "message": "鸢尾色"
   },
+  "items": {
+    "message": "%d 个项目"
+  },
   "just_now": {
     "message": "刚刚"
   },
@@ -1877,6 +1904,9 @@
   "logins_for_phi_and_agent_requests_held": {
     "message": "为 Phi 和智能体请求提供登录信息，由独立的辅助程序保管，密码不会进入浏览器进程。"
   },
+  "manage_bookmarks": {
+    "message": "管理书签"
+  },
   "manage_extensions": {
     "message": "管理扩展程序"
   },
@@ -1943,6 +1973,9 @@
   "n1_hour": {
     "message": "1 小时"
   },
+  "n1_item": {
+    "message": "1 个项目"
+  },
   "n4_hours": {
     "message": "4 小时"
   },
@@ -1989,6 +2022,9 @@
     "message": "新建对话"
   },
   "new_folder": {
+    "message": "新建文件夹"
+  },
+  "new_folder_48293d": {
     "message": "新建文件夹"
   },
   "new_folder_5ab995": {
@@ -2138,11 +2174,17 @@
   "no_ai_features_until_you_sign_in": {
     "message": "登录后才能使用 AI 功能"
   },
+  "no_article_found_on_this_page": {
+    "message": "此网页上未找到文章"
+  },
   "no_backup_archive_was_produced": {
     "message": "未生成备份归档。"
   },
   "no_backups_available": {
     "message": "没有可用的备份"
+  },
+  "no_bookmarks_in_this_space": {
+    "message": "此空间中没有书签"
   },
   "no_browser_memory_either": {
     "message": "浏览器记忆也无法使用"
@@ -2167,6 +2209,9 @@
   },
   "no_file_selected": {
     "message": "未选择文件"
+  },
+  "no_matching_bookmarks": {
+    "message": "未找到匹配的书签"
   },
   "no_phi_or_sentinel_log_folders_were": {
     "message": "未找到 Phi 或 Sentinel 日志文件夹。"
@@ -2591,6 +2636,18 @@
   "quit": {
     "message": "退出"
   },
+  "reader_view": {
+    "message": "阅读模式"
+  },
+  "reader_view_596d66": {
+    "message": "阅读模式"
+  },
+  "reader_view_c04bff": {
+    "message": "阅读模式"
+  },
+  "reader_view_is_unavailable_on_this_page": {
+    "message": "无法在此网页使用阅读模式"
+  },
   "reauthenticate": {
     "message": "重新验证身份"
   },
@@ -2867,6 +2924,9 @@
   "search": {
     "message": "搜索"
   },
+  "search_40bb62": {
+    "message": "搜索"
+  },
   "search_458d4f": {
     "message": "搜索"
   },
@@ -3046,6 +3106,9 @@
   },
   "show_in_finder_8593df": {
     "message": "在访达中显示"
+  },
+  "show_in_folder": {
+    "message": "在文件夹中显示"
   },
   "show_proactive_suggestions_on_the_new_tab": {
     "message": "在新标签页上显示主动建议"
@@ -3434,6 +3497,12 @@
   "toggle_chatbar_eb2a4b": {
     "message": "显示或隐藏 Chatbar"
   },
+  "toggle_reader_view": {
+    "message": "切换阅读模式"
+  },
+  "toggle_reader_view_516d07": {
+    "message": "切换阅读模式"
+  },
   "toggle_sidebar": {
     "message": "切换侧边栏"
   },
@@ -3678,6 +3747,9 @@
     "message": "网站"
   },
   "website_626fc9": {
+    "message": "网站"
+  },
+  "website_e83251": {
     "message": "网站"
   },
   "websites_may_use_your_bluetooth_for_features": {
