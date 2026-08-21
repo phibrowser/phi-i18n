@@ -353,14 +353,8 @@
   "memory_management_galaxy_categories_work": {
     "message": "仕事・プロジェクト"
   },
-  "memory_management_galaxy_collapsed_child_entities": {
-    "message": "親エンティティを開くまで、子エンティティは折りたたまれたままです: {{count}}"
-  },
   "memory_management_galaxy_day_count": {
     "message": "記録日数: {{count}}"
-  },
-  "memory_management_galaxy_entity_limit_capped": {
-    "message": "動作を軽快に保つため、グラフに表示されるルートエンティティは最大{{count}}件です。"
   },
   "memory_management_galaxy_exit_fullscreen": {
     "message": "Memory Galaxyの全画面表示を終了"
@@ -401,20 +395,77 @@
   "memory_management_galaxy_explorer_toc": {
     "message": "目次"
   },
-  "memory_management_galaxy_focus_enable_title": {
-    "message": "ノードを選択すると、関連のないノードを薄く表示します"
-  },
-  "memory_management_galaxy_focus_label": {
-    "message": "フォーカス"
-  },
-  "memory_management_galaxy_focus_restore_title": {
-    "message": "通常の表示に戻す"
-  },
   "memory_management_galaxy_focus_self_label": {
     "message": "自分のノードにフォーカス"
   },
   "memory_management_galaxy_focus_self_title": {
     "message": "自分のノードを中央に表示"
+  },
+  "memory_management_galaxy_focused_card_category": {
+    "message": "カテゴリ"
+  },
+  "memory_management_galaxy_focused_card_connection_fallback": {
+    "message": "{{source}}は「{{relation}}」という関係で{{target}}とつながっています。"
+  },
+  "memory_management_galaxy_focused_card_delete_sources": {
+    "message": "ソースを削除"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_cancel": {
+    "message": "ソースを残す"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm": {
+    "message": "記録を削除"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_description": {
+    "message": "選択中の直接ソースは、メモリ{{memoryCount}}件と観察記録{{observationCount}}件です。これらの記録は完全に削除されます。親メモリを削除すると、その中に含まれる記録も削除されます。また、つながっているGalaxyのノードが変わったり消えたりすることがあります。"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_title": {
+    "message": "削除するソース記録: {{count}}件"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_summary": {
+    "message": "削除できるソース記録: {{count}}件"
+  },
+  "memory_management_galaxy_focused_card_deleting_sources": {
+    "message": "削除中…"
+  },
+  "memory_management_galaxy_focused_card_description": {
+    "message": "記憶されている内容"
+  },
+  "memory_management_galaxy_focused_card_dismiss": {
+    "message": "メモリの詳細を閉じる"
+  },
+  "memory_management_galaxy_focused_card_how_it_connects": {
+    "message": "つながり方"
+  },
+  "memory_management_galaxy_focused_card_label": {
+    "message": "{{node}}の詳細と関係"
+  },
+  "memory_management_galaxy_focused_card_loading_evidence": {
+    "message": "根拠となるソースを読み込んでいます…"
+  },
+  "memory_management_galaxy_focused_card_no_relationships": {
+    "message": "このメモリには、直接の関係はまだ記録されていません。"
+  },
+  "memory_management_galaxy_focused_card_no_source_pages": {
+    "message": "この根拠に対応するソースページはありません。"
+  },
+  "memory_management_galaxy_focused_card_open_connection": {
+    "message": "Galaxyで{{node}}にフォーカス"
+  },
+  "memory_management_galaxy_focused_card_parent": {
+    "message": "親ノード"
+  },
+  "memory_management_galaxy_focused_card_relationship_count": {
+    "message": "直接{{count}}件"
+  },
+  "memory_management_galaxy_focused_card_relationships": {
+    "message": "関係"
+  },
+  "memory_management_galaxy_focused_card_show_fewer_relationships": {
+    "message": "関係の表示を減らす"
+  },
+  "memory_management_galaxy_focused_card_show_more_relationships": {
+    "message": "さらに{{count}}件の関係を表示"
   },
   "memory_management_galaxy_full_view": {
     "message": "全体表示"
@@ -497,6 +548,93 @@
   "memory_management_galaxy_open_fullscreen": {
     "message": "Memory Galaxyを全画面表示で開く"
   },
+  "memory_management_galaxy_options_active_quality": {
+    "message": "適用中: {{quality}}"
+  },
+  "memory_management_galaxy_options_active_view_preset": {
+    "message": "適用中: {{preset}}"
+  },
+  "memory_management_galaxy_options_automatic": {
+    "message": "自動調整"
+  },
+  "memory_management_galaxy_options_automatic_detail": {
+    "message": "フレームレートが低下すると、解像度とシミュレーションの処理量を抑えます。「中」では、密度の高いグラフのドラッグやズームも簡略化されます。"
+  },
+  "memory_management_galaxy_options_close": {
+    "message": "Memory Galaxyのオプションを閉じる"
+  },
+  "memory_management_galaxy_options_custom_view": {
+    "message": "カスタム"
+  },
+  "memory_management_galaxy_options_custom_view_behavior": {
+    "message": "開発者向けコントロールが、選択中のビュープリセットを上書きしています。"
+  },
+  "memory_management_galaxy_options_frame_telemetry": {
+    "message": "解像度{{scale}}倍・{{fps}}FPS"
+  },
+  "memory_management_galaxy_options_frame_telemetry_pending": {
+    "message": "解像度{{scale}}倍・計測中"
+  },
+  "memory_management_galaxy_options_galaxy_view": {
+    "message": "Galaxyビュー"
+  },
+  "memory_management_galaxy_options_galaxy_view_detail": {
+    "message": "Galaxyに表示する関係の情報量と視覚表現の細かさを選択します。"
+  },
+  "memory_management_galaxy_options_layout_busy": {
+    "message": "配置中…"
+  },
+  "memory_management_galaxy_options_panel_label": {
+    "message": "Memory Galaxyのオプション"
+  },
+  "memory_management_galaxy_options_quality_behavior_extreme": {
+    "message": "最大の忠実度: ネイティブ上限の解像度、アルファブレンドのリンク、フルディテールのシミュレーションで描画します。"
+  },
+  "memory_management_galaxy_options_quality_behavior_high": {
+    "message": "バランス型: 1倍の解像度、アルファブレンドのリンク、短めで中程度に詳細なシミュレーションで描画します。"
+  },
+  "memory_management_galaxy_options_quality_behavior_medium": {
+    "message": "操作性を優先: 0.75倍の解像度、アルファブレンドのリンク、短めのシミュレーションで描画し、密度の高いグラフのドラッグやズーム中はリンク全体を一時的に非表示にします。"
+  },
+  "memory_management_galaxy_options_quality_extreme": {
+    "message": "最高"
+  },
+  "memory_management_galaxy_options_quality_high": {
+    "message": "高"
+  },
+  "memory_management_galaxy_options_quality_medium": {
+    "message": "中"
+  },
+  "memory_management_galaxy_options_rendering_quality": {
+    "message": "レンダリング品質"
+  },
+  "memory_management_galaxy_options_rendering_quality_detail": {
+    "message": "各段階では、解像度だけでなくグラフの処理量も変わります。"
+  },
+  "memory_management_galaxy_options_title": {
+    "message": "オプション"
+  },
+  "memory_management_galaxy_options_view_preset_balanced": {
+    "message": "バランス"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_balanced": {
+    "message": "すっきりした全体表示: Galaxy全体を直線のリンクと控えめな単色パレットで表示します。"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_focused": {
+    "message": "読みやすさ重視: 1つの親と現在のノード、その子ノードを中央のレールに沿ってたどります。"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_vivid": {
+    "message": "豊かな全体表示: Galaxy全体に曲線の関係線とカテゴリごとの色を加えます。"
+  },
+  "memory_management_galaxy_options_view_preset_focused": {
+    "message": "フォーカス"
+  },
+  "memory_management_galaxy_options_view_preset_unavailable": {
+    "message": "Galaxy Rewindを開いている間は、フォーカスビューは使用できません。"
+  },
+  "memory_management_galaxy_options_view_preset_vivid": {
+    "message": "ビビッド"
+  },
   "memory_management_galaxy_relations_associated_with": {
     "message": "関連"
   },
@@ -578,9 +716,6 @@
   "memory_management_galaxy_title": {
     "message": "Memory Galaxy"
   },
-  "memory_management_galaxy_visible_entities": {
-    "message": "エンティティ: {{visible}}/{{total}}"
-  },
   "memory_management_import_browser_memory_changes": {
     "message": "ブラウザメモリ: {{added}}件追加、{{updated}}件更新"
   },
@@ -642,7 +777,7 @@
     "message": "概要"
   },
   "memory_management_nebula_actions_cluster": {
-    "message": "星団"
+    "message": "ホーム"
   },
   "memory_management_nebula_actions_full_view": {
     "message": "記憶の星団全体を表示"
@@ -654,7 +789,7 @@
     "message": "ランダムな記憶の星へ移動"
   },
   "memory_management_nebula_actions_return_to_cluster": {
-    "message": "記憶の星団に戻る"
+    "message": "ホームに戻る"
   },
   "memory_management_nebula_actions_roam": {
     "message": "散策"
@@ -685,6 +820,15 @@
   },
   "memory_management_nebula_detail_label": {
     "message": "メモリの詳細"
+  },
+  "memory_management_nebula_empty_state_description": {
+    "message": "いつもどおりブラウジングするだけで、あなたのNebulaが少しずつ形になっていきます。"
+  },
+  "memory_management_nebula_empty_state_kicker": {
+    "message": "ファーストライト"
+  },
+  "memory_management_nebula_empty_state_title": {
+    "message": "ここはまだ少しさびしいようです"
   },
   "memory_management_nebula_export_card_memory_stars": {
     "message": "記憶の星: {{count}}"
@@ -845,6 +989,48 @@
   "memory_management_nebula_title": {
     "message": "Nebula"
   },
+  "memory_management_nebula_tutorial_controls": {
+    "message": "操作方法"
+  },
+  "memory_management_nebula_tutorial_eyebrow": {
+    "message": "Nebulaの操作"
+  },
+  "memory_management_nebula_tutorial_got_it": {
+    "message": "OK"
+  },
+  "memory_management_nebula_tutorial_move_description": {
+    "message": "ドラッグ"
+  },
+  "memory_management_nebula_tutorial_move_label": {
+    "message": "移動"
+  },
+  "memory_management_nebula_tutorial_open_description": {
+    "message": "星をクリック"
+  },
+  "memory_management_nebula_tutorial_open_label": {
+    "message": "開く"
+  },
+  "memory_management_nebula_tutorial_rotate_description": {
+    "message": "右ドラッグまたはShift+ドラッグ"
+  },
+  "memory_management_nebula_tutorial_rotate_label": {
+    "message": "回転"
+  },
+  "memory_management_nebula_tutorial_show_controls": {
+    "message": "Nebulaの操作方法を表示"
+  },
+  "memory_management_nebula_tutorial_subtitle": {
+    "message": "記憶の空をめぐって、そこに宿る瞬間を見つけましょう。"
+  },
+  "memory_management_nebula_tutorial_title": {
+    "message": "あなたのNebulaを探索しましょう"
+  },
+  "memory_management_nebula_tutorial_zoom_description": {
+    "message": "スクロール"
+  },
+  "memory_management_nebula_tutorial_zoom_label": {
+    "message": "ズーム"
+  },
   "memory_management_nebula_unknown_date": {
     "message": "不明"
   },
@@ -971,6 +1157,12 @@
   "memory_management_status_delete_browser_memory_failed_detail": {
     "message": "ブラウザメモリを削除できませんでした：{{detail}}"
   },
+  "memory_management_status_delete_galaxy_source_records_failed": {
+    "message": "一部のソース記録を削除できませんでした"
+  },
+  "memory_management_status_delete_galaxy_source_records_failed_detail": {
+    "message": "一部のソース記録を削除できませんでした: {{detail}}"
+  },
   "memory_management_status_delete_observation_failed": {
     "message": "観察記録を削除できませんでした"
   },
@@ -982,6 +1174,9 @@
   },
   "memory_management_status_delete_observations_failed_detail": {
     "message": "観察記録を削除できませんでした：{{detail}}"
+  },
+  "memory_management_status_galaxy_source_records_deleted": {
+    "message": "ソース記録を{{count}}件削除しました"
   },
   "memory_management_status_import_failed": {
     "message": "メモリをインポートできませんでした"

@@ -392,132 +392,6 @@
   "chat_tool_call_succeeded": {
     "message": "已完成"
   },
-  "chat_traces_clear_all": {
-    "message": "清除所有追蹤記錄"
-  },
-  "chat_traces_close_aria": {
-    "message": "關閉對話追蹤"
-  },
-  "chat_traces_copy_logs": {
-    "message": "複製記錄"
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "複製對話記錄"
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}}ms"
-  },
-  "chat_traces_empty_state": {
-    "message": "正在等待對話活動。傳送一則訊息，每個回合的管線步驟和 LLM 呼叫都會即時顯示在這裡。"
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ {{count}} 次命中"
-  },
-  "chat_traces_hit_count": {
-    "message": "{{count}} 次命中"
-  },
-  "chat_traces_llm_badge": {
-    "message": "{{count}} llm"
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "llm 呼叫"
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "{{count}} 次 LLM 呼叫 · 模型 · 完整提示詞 · 回應"
-  },
-  "chat_traces_message_fallback": {
-    "message": "訊息"
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ 無命中"
-  },
-  "chat_traces_panel_title": {
-    "message": "對話追蹤"
-  },
-  "chat_traces_query_label": {
-    "message": "查詢"
-  },
-  "chat_traces_response_label": {
-    "message": "回應"
-  },
-  "chat_traces_session_empty": {
-    "message": "這個回合目前還沒有可觀察的步驟，正在等待管線回報。"
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "對話回合"
-  },
-  "chat_traces_session_meta": {
-    "message": "{{count}} 個步驟 · {{time}}"
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "對話"
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "AI 代理記憶"
-  },
-  "chat_traces_stage_assess": {
-    "message": "評估"
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "情節記憶"
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "後續建議"
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "知識庫"
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "知識簡報"
-  },
-  "chat_traces_stage_live_context": {
-    "message": "即時上下文"
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "訊息 · 串流中"
-  },
-  "chat_traces_stage_perceive": {
-    "message": "感知"
-  },
-  "chat_traces_stage_recall": {
-    "message": "回憶"
-  },
-  "chat_traces_stage_reflect": {
-    "message": "反思"
-  },
-  "chat_traces_stage_respond": {
-    "message": "回應"
-  },
-  "chat_traces_stage_revise": {
-    "message": "修訂"
-  },
-  "chat_traces_stage_task": {
-    "message": "任務"
-  },
-  "chat_traces_stage_task_router": {
-    "message": "任務路由"
-  },
-  "chat_traces_step_count": {
-    "message": "{{count}} 個步驟"
-  },
-  "chat_traces_task_complete": {
-    "message": "任務完成"
-  },
-  "chat_traces_task_failed": {
-    "message": "任務失敗"
-  },
-  "chat_traces_task_run": {
-    "message": "執行任務"
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "工具呼叫"
-  },
-  "chat_traces_trigger_aria": {
-    "message": "開啟對話追蹤"
-  },
-  "chat_traces_trigger_title": {
-    "message": "對話追蹤"
-  },
   "chat_unsupported_part": {
     "message": "Phi Chat 尚不支援這類內容（{{type}}）。"
   },
@@ -535,6 +409,12 @@
   },
   "chat_welcome_title": {
     "message": "嗨，我是 {{name}}"
+  },
+  "context_menu_ask_about": {
+    "message": "向 {{agentName}} 詢問…"
+  },
+  "context_menu_ask_about_selection": {
+    "message": "向 {{agentName}} 詢問「{{selection}}」"
   },
   "conversation_add_category": {
     "message": "新增分類"
@@ -1151,6 +1031,24 @@
   "message_loading_phrases_p57": {
     "message": "正在等魚餌沉底"
   },
+  "message_metrics_chars": {
+    "message": "{{value}} 字元"
+  },
+  "message_metrics_elapsed": {
+    "message": "耗時 {{value}}"
+  },
+  "message_metrics_label": {
+    "message": "回應速度"
+  },
+  "message_metrics_speed": {
+    "message": "{{value}} 字元/秒"
+  },
+  "message_metrics_ttft": {
+    "message": "首字 {{value}}"
+  },
+  "message_metrics_ttft_pending": {
+    "message": "等待首字…"
+  },
   "message_open_in_new_tab": {
     "message": "在新分頁中開啟"
   },
@@ -1162,6 +1060,27 @@
   },
   "message_reasoning_summary": {
     "message": "思考摘要"
+  },
+  "message_role_card_directives": {
+    "message": "你希望我成為的樣子"
+  },
+  "message_role_card_loading": {
+    "message": "載入中…"
+  },
+  "message_role_card_open": {
+    "message": "檢視 {{name}} 的角色卡"
+  },
+  "message_role_card_remove_directive": {
+    "message": "移除這項指示"
+  },
+  "message_role_card_soul_empty": {
+    "message": "仍在成形中，尚未寫下自我側寫。"
+  },
+  "message_role_card_subtitle": {
+    "message": "AI 代理"
+  },
+  "message_role_card_title": {
+    "message": "{{name}} 的角色卡"
   },
   "message_run_phase_executing": {
     "message": "處理中…"
@@ -1306,6 +1225,18 @@
   },
   "newtab_greeting_prompt_too_large_error": {
     "message": "問候語指示不得超過 {{count}} 個 UTF-8 位元組。"
+  },
+  "newtab_greeting_style_interest": {
+    "message": "較不個人化"
+  },
+  "newtab_greeting_style_label": {
+    "message": "問候語風格"
+  },
+  "newtab_greeting_style_none": {
+    "message": "關閉"
+  },
+  "newtab_greeting_style_personal": {
+    "message": "個人化"
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "按住 <key/> 即可切換至此分頁"
@@ -2179,6 +2110,9 @@
   },
   "top_bar_shadow_tasks": {
     "message": "背景任務"
+  },
+  "top_bar_show_response_speed": {
+    "message": "顯示回應速度"
   },
   "user_action_aborted": {
     "message": "動作已中止"

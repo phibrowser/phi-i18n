@@ -392,132 +392,6 @@
   "chat_tool_call_succeeded": {
     "message": "Completado"
   },
-  "chat_traces_clear_all": {
-    "message": "Borrar todas las trazas"
-  },
-  "chat_traces_close_aria": {
-    "message": "Cerrar las trazas del chat"
-  },
-  "chat_traces_copy_logs": {
-    "message": "Copiar registros"
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "Copiar registros del chat"
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}}ms"
-  },
-  "chat_traces_empty_state": {
-    "message": "Esperando actividad del chat. Envía un mensaje: los pasos del pipeline y las llamadas al LLM de cada turno aparecerán aquí en vivo."
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ {{count}} acierto(s)"
-  },
-  "chat_traces_hit_count": {
-    "message": "{{count}} acierto(s)"
-  },
-  "chat_traces_llm_badge": {
-    "message": "{{count}} llm"
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "llamada llm"
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "{{count}} llamada(s) al LLM · modelo · prompt completo · respuesta"
-  },
-  "chat_traces_message_fallback": {
-    "message": "mensaje"
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ sin aciertos"
-  },
-  "chat_traces_panel_title": {
-    "message": "Trazas del chat"
-  },
-  "chat_traces_query_label": {
-    "message": "consulta"
-  },
-  "chat_traces_response_label": {
-    "message": "respuesta"
-  },
-  "chat_traces_session_empty": {
-    "message": "Aún no hay pasos observables en este turno; esperando a que el pipeline informe."
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "Turno de chat"
-  },
-  "chat_traces_session_meta": {
-    "message": "{{count}} paso(s) · {{time}}"
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "Chat"
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "Memoria del agente"
-  },
-  "chat_traces_stage_assess": {
-    "message": "Evaluar"
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "Memoria episódica"
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "Seguimiento"
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "Base de conocimientos"
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "Resumen de conocimientos"
-  },
-  "chat_traces_stage_live_context": {
-    "message": "Contexto en vivo"
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "mensaje · streaming"
-  },
-  "chat_traces_stage_perceive": {
-    "message": "Percibir"
-  },
-  "chat_traces_stage_recall": {
-    "message": "Recuperar"
-  },
-  "chat_traces_stage_reflect": {
-    "message": "Reflexionar"
-  },
-  "chat_traces_stage_respond": {
-    "message": "Responder"
-  },
-  "chat_traces_stage_revise": {
-    "message": "Revisar"
-  },
-  "chat_traces_stage_task": {
-    "message": "Tarea"
-  },
-  "chat_traces_stage_task_router": {
-    "message": "Enrutador de tareas"
-  },
-  "chat_traces_step_count": {
-    "message": "{{count}} paso(s)"
-  },
-  "chat_traces_task_complete": {
-    "message": "Tarea completada"
-  },
-  "chat_traces_task_failed": {
-    "message": "Tarea fallida"
-  },
-  "chat_traces_task_run": {
-    "message": "Ejecutar tarea"
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "llamada(s) a herramientas"
-  },
-  "chat_traces_trigger_aria": {
-    "message": "Abrir las trazas del chat"
-  },
-  "chat_traces_trigger_title": {
-    "message": "Trazas del chat"
-  },
   "chat_unsupported_part": {
     "message": "Este contenido aún no es compatible con Phi Chat ({{type}})."
   },
@@ -535,6 +409,12 @@
   },
   "chat_welcome_title": {
     "message": "Hola, soy {{name}}"
+  },
+  "context_menu_ask_about": {
+    "message": "Preguntar a {{agentName}} sobre …"
+  },
+  "context_menu_ask_about_selection": {
+    "message": "Preguntar a {{agentName}} sobre «{{selection}}»"
   },
   "conversation_add_category": {
     "message": "Nueva categoría"
@@ -1151,6 +1031,24 @@
   "message_loading_phrases_p57": {
     "message": "Dejando que el cebo haga efecto"
   },
+  "message_metrics_chars": {
+    "message": "{{value}} caracteres"
+  },
+  "message_metrics_elapsed": {
+    "message": "transcurrido: {{value}}"
+  },
+  "message_metrics_label": {
+    "message": "Velocidad de respuesta"
+  },
+  "message_metrics_speed": {
+    "message": "{{value}} caracteres/s"
+  },
+  "message_metrics_ttft": {
+    "message": "primer texto en {{value}}"
+  },
+  "message_metrics_ttft_pending": {
+    "message": "esperando el primer texto…"
+  },
   "message_open_in_new_tab": {
     "message": "Abrir en una nueva pestaña"
   },
@@ -1162,6 +1060,27 @@
   },
   "message_reasoning_summary": {
     "message": "Resumen del razonamiento"
+  },
+  "message_role_card_directives": {
+    "message": "Cómo me has pedido que sea"
+  },
+  "message_role_card_loading": {
+    "message": "Cargando…"
+  },
+  "message_role_card_open": {
+    "message": "Ver la tarjeta de rol de {{name}}"
+  },
+  "message_role_card_remove_directive": {
+    "message": "Eliminar esta instrucción"
+  },
+  "message_role_card_soul_empty": {
+    "message": "Sigue tomando forma: aún no hay un autorretrato escrito."
+  },
+  "message_role_card_subtitle": {
+    "message": "Agente"
+  },
+  "message_role_card_title": {
+    "message": "Tarjeta de rol de {{name}}"
   },
   "message_run_phase_executing": {
     "message": "Trabajando…"
@@ -1306,6 +1225,18 @@
   },
   "newtab_greeting_prompt_too_large_error": {
     "message": "Las instrucciones del saludo no pueden superar los {{count}} bytes UTF-8."
+  },
+  "newtab_greeting_style_interest": {
+    "message": "Menos personal"
+  },
+  "newtab_greeting_style_label": {
+    "message": "Estilo de saludo"
+  },
+  "newtab_greeting_style_none": {
+    "message": "Desactivado"
+  },
+  "newtab_greeting_style_personal": {
+    "message": "Personal"
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "Mantén presionado <key/> para cambiar a esta pestaña"
@@ -2179,6 +2110,9 @@
   },
   "top_bar_shadow_tasks": {
     "message": "Tareas en segundo plano"
+  },
+  "top_bar_show_response_speed": {
+    "message": "Mostrar la velocidad de respuesta"
   },
   "user_action_aborted": {
     "message": "Acción interrumpida"

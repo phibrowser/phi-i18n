@@ -392,132 +392,6 @@
   "chat_tool_call_succeeded": {
     "message": "已完成"
   },
-  "chat_traces_clear_all": {
-    "message": "清空全部追踪"
-  },
-  "chat_traces_close_aria": {
-    "message": "关闭对话追踪"
-  },
-  "chat_traces_copy_logs": {
-    "message": "复制日志"
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "复制对话日志"
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}}ms"
-  },
-  "chat_traces_empty_state": {
-    "message": "正在等待对话活动。发送一条消息，每轮的流水线步骤和 LLM 调用都会实时显示在这里。"
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ {{count}} 条命中"
-  },
-  "chat_traces_hit_count": {
-    "message": "{{count}} 条命中"
-  },
-  "chat_traces_llm_badge": {
-    "message": "{{count}} 次 LLM"
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "LLM 调用"
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "{{count}} 次 LLM 调用 · 模型 · 完整提示词 · 响应"
-  },
-  "chat_traces_message_fallback": {
-    "message": "消息"
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ 无命中"
-  },
-  "chat_traces_panel_title": {
-    "message": "对话追踪"
-  },
-  "chat_traces_query_label": {
-    "message": "查询"
-  },
-  "chat_traces_response_label": {
-    "message": "响应"
-  },
-  "chat_traces_session_empty": {
-    "message": "本轮还没有可观测的步骤，正在等待流水线上报。"
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "对话轮次"
-  },
-  "chat_traces_session_meta": {
-    "message": "{{count}} 个步骤 · {{time}}"
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "对话"
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "助手记忆"
-  },
-  "chat_traces_stage_assess": {
-    "message": "评估"
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "情景记忆"
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "跟进"
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "知识库"
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "知识简报"
-  },
-  "chat_traces_stage_live_context": {
-    "message": "实时上下文"
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "消息 · 流式输出中"
-  },
-  "chat_traces_stage_perceive": {
-    "message": "感知"
-  },
-  "chat_traces_stage_recall": {
-    "message": "回忆"
-  },
-  "chat_traces_stage_reflect": {
-    "message": "反思"
-  },
-  "chat_traces_stage_respond": {
-    "message": "回应"
-  },
-  "chat_traces_stage_revise": {
-    "message": "修订"
-  },
-  "chat_traces_stage_task": {
-    "message": "任务"
-  },
-  "chat_traces_stage_task_router": {
-    "message": "任务路由"
-  },
-  "chat_traces_step_count": {
-    "message": "{{count}} 个步骤"
-  },
-  "chat_traces_task_complete": {
-    "message": "任务完成"
-  },
-  "chat_traces_task_failed": {
-    "message": "任务失败"
-  },
-  "chat_traces_task_run": {
-    "message": "执行任务"
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "工具调用"
-  },
-  "chat_traces_trigger_aria": {
-    "message": "打开对话追踪"
-  },
-  "chat_traces_trigger_title": {
-    "message": "对话追踪"
-  },
   "chat_unsupported_part": {
     "message": "Phi Chat 暂不支持此内容（{{type}}）。"
   },
@@ -535,6 +409,12 @@
   },
   "chat_welcome_title": {
     "message": "你好，我是 {{name}}"
+  },
+  "context_menu_ask_about": {
+    "message": "向 {{agentName}} 询问…"
+  },
+  "context_menu_ask_about_selection": {
+    "message": "向 {{agentName}} 询问「{{selection}}」"
   },
   "conversation_add_category": {
     "message": "新建分类"
@@ -1151,6 +1031,24 @@
   "message_loading_phrases_p57": {
     "message": "让鱼饵沉一会儿"
   },
+  "message_metrics_chars": {
+    "message": "{{value}} 字符"
+  },
+  "message_metrics_elapsed": {
+    "message": "耗时 {{value}}"
+  },
+  "message_metrics_label": {
+    "message": "响应速度"
+  },
+  "message_metrics_speed": {
+    "message": "{{value}} 字符/秒"
+  },
+  "message_metrics_ttft": {
+    "message": "首字 {{value}}"
+  },
+  "message_metrics_ttft_pending": {
+    "message": "等待首字…"
+  },
   "message_open_in_new_tab": {
     "message": "在新标签页打开"
   },
@@ -1162,6 +1060,27 @@
   },
   "message_reasoning_summary": {
     "message": "推理摘要"
+  },
+  "message_role_card_directives": {
+    "message": "你希望我成为的样子"
+  },
+  "message_role_card_loading": {
+    "message": "加载中…"
+  },
+  "message_role_card_open": {
+    "message": "查看 {{name}} 的角色卡"
+  },
+  "message_role_card_remove_directive": {
+    "message": "移除这条指令"
+  },
+  "message_role_card_soul_empty": {
+    "message": "还在慢慢成形，尚未写下自画像。"
+  },
+  "message_role_card_subtitle": {
+    "message": "智能体"
+  },
+  "message_role_card_title": {
+    "message": "{{name}} 的角色卡"
   },
   "message_run_phase_executing": {
     "message": "处理中…"
@@ -1306,6 +1225,18 @@
   },
   "newtab_greeting_prompt_too_large_error": {
     "message": "问候语指令不能超过 {{count}} 个 UTF-8 字节。"
+  },
+  "newtab_greeting_style_interest": {
+    "message": "轻度个性化"
+  },
+  "newtab_greeting_style_label": {
+    "message": "问候语风格"
+  },
+  "newtab_greeting_style_none": {
+    "message": "关闭"
+  },
+  "newtab_greeting_style_personal": {
+    "message": "个性化"
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "按住 <key/> 切换到已有标签页"
@@ -2179,6 +2110,9 @@
   },
   "top_bar_shadow_tasks": {
     "message": "Shadow 任务"
+  },
+  "top_bar_show_response_speed": {
+    "message": "显示响应速度"
   },
   "user_action_aborted": {
     "message": "操作已中止"

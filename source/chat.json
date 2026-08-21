@@ -523,174 +523,6 @@
     "message": "Finished",
     "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Status of a tool the assistant ran while composing its reply. All three are aria-labels on a small status icon, so they must stay short. The tool finished successfully."
   },
-  "chat_traces_clear_all": {
-    "message": "Clear all traces",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Tooltip of the clear button."
-  },
-  "chat_traces_close_aria": {
-    "message": "Close chat traces",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. aria of the close button and backdrop."
-  },
-  "chat_traces_copy_logs": {
-    "message": "Copy logs",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Tooltip of the copy-logs button."
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "Copy chat logs",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. aria of the copy-logs button."
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}}ms",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Duration badge; {{value}} = milliseconds. Keep 'ms'."
-  },
-  "chat_traces_empty_state": {
-    "message": "Waiting for chat activity. Send a message — every turn's pipeline steps and LLM calls appear here live.",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Drawer empty state before any activity."
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ {{count}} hit(s)",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge: recall succeeded; {{count}} = hits. Keep the ✓ symbol."
-  },
-  "chat_traces_hit_count": {
-    "message": "{{count}} hit(s)",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge over the recall hit list; {{count}} = hits."
-  },
-  "chat_traces_llm_badge": {
-    "message": "{{count}} llm",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge on a lane header; {{count}} = LLM calls."
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "llm call",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Row label when an LLM call has no name/model."
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "{{count}} LLM call(s) · model · full prompt · response",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Section header; {{count}} = number of calls. The dots separate the kinds of detail revealed by expanding the section."
-  },
-  "chat_traces_message_fallback": {
-    "message": "message",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge fallback for an LLM message without a role."
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ no hits",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge: a recall query returned nothing. Keep the ∅ symbol."
-  },
-  "chat_traces_panel_title": {
-    "message": "Chat traces",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Drawer heading (also its aria-label)."
-  },
-  "chat_traces_query_label": {
-    "message": "query",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge over the recall query text."
-  },
-  "chat_traces_response_label": {
-    "message": "response",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge over an LLM call's response text."
-  },
-  "chat_traces_session_empty": {
-    "message": "No observable steps yet for this turn — waiting for the pipeline to report.",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Empty state inside a turn card, shown until the first step arrives."
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "Chat turn",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Turn card title when no user text is known."
-  },
-  "chat_traces_session_meta": {
-    "message": "{{count}} step(s) · {{time}}",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Turn card meta; {{count}} = steps, {{time}} = localized start time."
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "Chat",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Prefix of a turn title derived from the detected intent."
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "Agent memory",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: consulting what the assistant remembers about the user."
-  },
-  "chat_traces_stage_assess": {
-    "message": "Assess",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: working out what the user wants."
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "Episodic memory",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: filtering remembered past events."
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "Follow-up",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: suggesting what to do next."
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "Knowledge base",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: looking things up in the knowledge base."
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "Knowledge brief",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: assembling the background notes used to answer."
-  },
-  "chat_traces_stage_live_context": {
-    "message": "Live context",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: gathering what is happening right now."
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "message · streaming",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Step label while answer text streams."
-  },
-  "chat_traces_stage_perceive": {
-    "message": "Perceive",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: taking in what the user said."
-  },
-  "chat_traces_stage_recall": {
-    "message": "Recall",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: retrieving relevant items from browsing memory."
-  },
-  "chat_traces_stage_reflect": {
-    "message": "Reflect",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: reviewing the answer afterwards."
-  },
-  "chat_traces_stage_respond": {
-    "message": "Respond",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: writing the answer."
-  },
-  "chat_traces_stage_revise": {
-    "message": "Revise",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: updating memory after the turn ends."
-  },
-  "chat_traces_stage_task": {
-    "message": "Task",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: carrying out a delegated task."
-  },
-  "chat_traces_stage_task_router": {
-    "message": "Task router",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Names of the processing stages listed in the chat traces drawer. Each is a short noun or verb heading a row of steps. Stage: deciding which task or skill should handle the request."
-  },
-  "chat_traces_step_count": {
-    "message": "{{count}} step(s)",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge on a lane header; {{count}} = steps."
-  },
-  "chat_traces_task_complete": {
-    "message": "Task complete",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Task-lane row: the run finished successfully."
-  },
-  "chat_traces_task_failed": {
-    "message": "Task failed",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Task-lane row: the run failed."
-  },
-  "chat_traces_task_run": {
-    "message": "Run task",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Task-lane row: the delegated run started."
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "tool call(s)",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Badge over the tool-call list; the number itself is not shown."
-  },
-  "chat_traces_trigger_aria": {
-    "message": "Open chat traces",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. aria of the edge-docked trigger."
-  },
-  "chat_traces_trigger_title": {
-    "message": "Chat traces",
-    "description": "Location: Chat. Chat traces drawer: a live, step-by-step view of how each answer was produced. A diagnostic surface: the technical wording is deliberate. Tooltip of the edge-docked trigger."
-  },
   "chat_unsupported_part": {
     "message": "This content isn't supported in Phi Chat yet ({{type}}).",
     "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Shown in place of a piece of a reply the app cannot display; {{type}} = the technical name of that content kind, which stays untranslated."
@@ -714,6 +546,14 @@
   "chat_welcome_title": {
     "message": "Hi, I’m {{name}}",
     "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Greeting at the top of a conversation that has no messages yet. Greeting line; {{name}} = the assistant's display name. The assistant is speaking about itself."
+  },
+  "context_menu_ask_about": {
+    "message": "Ask {{agentName}} about ...",
+    "description": "Location: Chat. Menu shown when the user right-clicks selected text and wants to ask the assistant about it. Default menu action before a selection preview is available; {{agentName}} is the assistant's name."
+  },
+  "context_menu_ask_about_selection": {
+    "message": "Ask {{agentName}} about \"{{selection}}\"",
+    "description": "Location: Chat. Menu shown when the user right-clicks selected text and wants to ask the assistant about it. Menu action with a selected-text preview; {{agentName}} is the assistant's name and {{selection}} is the selected text, possibly truncated."
   },
   "conversation_add_category": {
     "message": "New category",
@@ -1535,6 +1375,30 @@
     "message": "Letting the bait sink in",
     "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
   },
+  "message_metrics_chars": {
+    "message": "{{value}} chars",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Client-measured streaming speed readout: shown live in a banner above the composer while a reply streams, then frozen in the assistant bubble's action row. Measures received characters (not tokens). Total received characters. {{value}} is an integer."
+  },
+  "message_metrics_elapsed": {
+    "message": "{{value}} elapsed",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Client-measured streaming speed readout: shown live in a banner above the composer while a reply streams, then frozen in the assistant bubble's action row. Measures received characters (not tokens). Total time since the run started. {{value}} is a formatted duration."
+  },
+  "message_metrics_label": {
+    "message": "Response speed",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Client-measured streaming speed readout: shown live in a banner above the composer while a reply streams, then frozen in the assistant bubble's action row. Measures received characters (not tokens). aria-label of the metrics row and the live banner."
+  },
+  "message_metrics_speed": {
+    "message": "{{value}} chars/s",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Client-measured streaming speed readout: shown live in a banner above the composer while a reply streams, then frozen in the assistant bubble's action row. Measures received characters (not tokens). Received characters per second. {{value}} is an integer."
+  },
+  "message_metrics_ttft": {
+    "message": "first text {{value}}",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Client-measured streaming speed readout: shown live in a banner above the composer while a reply streams, then frozen in the assistant bubble's action row. Measures received characters (not tokens). Time from run start to the first streamed text. {{value}} is a formatted duration like '420ms' or '1.2s'."
+  },
+  "message_metrics_ttft_pending": {
+    "message": "waiting for first text…",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Client-measured streaming speed readout: shown live in a banner above the composer while a reply streams, then frozen in the assistant bubble's action row. Measures received characters (not tokens). Placeholder shown in the live banner while no text has arrived yet."
+  },
   "message_open_in_new_tab": {
     "message": "Open in new tab",
     "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: open a link/artifact in a new browser tab."
@@ -1550,6 +1414,34 @@
   "message_reasoning_summary": {
     "message": "Reasoning summary",
     "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Header of the summarized-reasoning block."
+  },
+  "message_role_card_directives": {
+    "message": "How I've been asked to be",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Floating agent role card opened by clicking the assistant avatar in a chat message; shows the agent's evolving self-portrait. Section header on the role card above the list of explicit, user-authored self directives."
+  },
+  "message_role_card_loading": {
+    "message": "Loading…",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Floating agent role card opened by clicking the assistant avatar in a chat message; shows the agent's evolving self-portrait. Card body shown while the role card data is loading."
+  },
+  "message_role_card_open": {
+    "message": "View {{name}}'s role card",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Floating agent role card opened by clicking the assistant avatar in a chat message; shows the agent's evolving self-portrait. Aria-label of the assistant avatar button that opens the role card; {{name}} is the assistant's display name."
+  },
+  "message_role_card_remove_directive": {
+    "message": "Remove this directive",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Floating agent role card opened by clicking the assistant avatar in a chat message; shows the agent's evolving self-portrait. Aria-label and tooltip of the hover-revealed button that deletes one directive from the list."
+  },
+  "message_role_card_soul_empty": {
+    "message": "Still taking shape — no self-portrait written yet.",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Floating agent role card opened by clicking the assistant avatar in a chat message; shows the agent's evolving self-portrait. Card body shown when the agent has no evolving self-portrait yet."
+  },
+  "message_role_card_subtitle": {
+    "message": "Agent",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Floating agent role card opened by clicking the assistant avatar in a chat message; shows the agent's evolving self-portrait. Fallback subtitle under the agent name, shown until the agent has a distilled personality bio."
+  },
+  "message_role_card_title": {
+    "message": "{{name}}'s role card",
+    "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Floating agent role card opened by clicking the assistant avatar in a chat message; shows the agent's evolving self-portrait. Aria-label of the role card dialog; {{name}} is the assistant's display name."
   },
   "message_run_phase_executing": {
     "message": "Working...",
@@ -1742,6 +1634,22 @@
   "newtab_greeting_prompt_too_large_error": {
     "message": "Greeting instructions must be at most {{count}} UTF-8 bytes.",
     "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Validation: prompt too large; {{count}} = byte limit."
+  },
+  "newtab_greeting_style_interest": {
+    "message": "Less personal",
+    "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Personalization-ladder pill in the greeting's hover action row; clicking cycles the levels. Level: greetings about the user's interests, never about the user."
+  },
+  "newtab_greeting_style_label": {
+    "message": "Greeting style",
+    "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Personalization-ladder pill in the greeting's hover action row; clicking cycles the levels. Prefix of the pill tooltip; the current level name is appended after a colon."
+  },
+  "newtab_greeting_style_none": {
+    "message": "Off",
+    "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Personalization-ladder pill in the greeting's hover action row; clicking cycles the levels. Level: no greeting is shown at all."
+  },
+  "newtab_greeting_style_personal": {
+    "message": "Personal",
+    "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Personalization-ladder pill in the greeting's hover action row; clicking cycles the levels. Level: greetings drawn from the user's memory and may address them."
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "Hold <key/> to switch to this tab",
@@ -2906,6 +2814,10 @@
   "top_bar_shadow_tasks": {
     "message": "Shadow Tasks",
     "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Menu item: open the Shadow Tasks page."
+  },
+  "top_bar_show_response_speed": {
+    "message": "Show response speed",
+    "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Menu switch that shows/hides the response-speed readout (the live banner above the composer and the per-message metrics line)."
   },
   "user_action_aborted": {
     "message": "Action aborted",

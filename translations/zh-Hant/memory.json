@@ -353,14 +353,8 @@
   "memory_management_galaxy_categories_work": {
     "message": "工作與專案"
   },
-  "memory_management_galaxy_collapsed_child_entities": {
-    "message": "子實體在父實體展開前會保持收合：{{count}}"
-  },
   "memory_management_galaxy_day_count": {
     "message": "記載天數：{{count}}"
-  },
-  "memory_management_galaxy_entity_limit_capped": {
-    "message": "為維持流暢度，圖譜檢視最多顯示 {{count}} 個根實體。"
   },
   "memory_management_galaxy_exit_fullscreen": {
     "message": "離開 Memory Galaxy 全螢幕檢視"
@@ -401,20 +395,77 @@
   "memory_management_galaxy_explorer_toc": {
     "message": "目錄"
   },
-  "memory_management_galaxy_focus_enable_title": {
-    "message": "選取節點後淡化無關的節點"
-  },
-  "memory_management_galaxy_focus_label": {
-    "message": "聚焦"
-  },
-  "memory_management_galaxy_focus_restore_title": {
-    "message": "還原標準顯示效果"
-  },
   "memory_management_galaxy_focus_self_label": {
     "message": "聚焦「我」節點"
   },
   "memory_management_galaxy_focus_self_title": {
     "message": "將「我」節點置中"
+  },
+  "memory_management_galaxy_focused_card_category": {
+    "message": "分類"
+  },
+  "memory_management_galaxy_focused_card_connection_fallback": {
+    "message": "{{source}} 透過「{{relation}}」關係連結到 {{target}}。"
+  },
+  "memory_management_galaxy_focused_card_delete_sources": {
+    "message": "刪除來源"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_cancel": {
+    "message": "保留來源"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm": {
+    "message": "刪除記錄"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_description": {
+    "message": "已選取直接來源：記憶 {{memoryCount}} 筆、觀察 {{observationCount}} 筆。這些記錄將被永久刪除；父記憶會連同其內含的記錄一併刪除，相連的 Galaxy 節點也可能因此改變或消失。"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_title": {
+    "message": "將刪除的來源記錄：{{count}} 筆"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_summary": {
+    "message": "可刪除的來源記錄：{{count}} 筆"
+  },
+  "memory_management_galaxy_focused_card_deleting_sources": {
+    "message": "正在刪除…"
+  },
+  "memory_management_galaxy_focused_card_description": {
+    "message": "記住的內容"
+  },
+  "memory_management_galaxy_focused_card_dismiss": {
+    "message": "隱藏記憶詳細資訊"
+  },
+  "memory_management_galaxy_focused_card_how_it_connects": {
+    "message": "連結方式"
+  },
+  "memory_management_galaxy_focused_card_label": {
+    "message": "{{node}} 的詳細資訊與關係"
+  },
+  "memory_management_galaxy_focused_card_loading_evidence": {
+    "message": "正在載入來源證據…"
+  },
+  "memory_management_galaxy_focused_card_no_relationships": {
+    "message": "這則記憶尚未記錄任何直接關係。"
+  },
+  "memory_management_galaxy_focused_card_no_source_pages": {
+    "message": "這項證據沒有可用的來源網頁。"
+  },
+  "memory_management_galaxy_focused_card_open_connection": {
+    "message": "在星系中聚焦 {{node}}"
+  },
+  "memory_management_galaxy_focused_card_parent": {
+    "message": "父節點"
+  },
+  "memory_management_galaxy_focused_card_relationship_count": {
+    "message": "{{count}} 個直接關係"
+  },
+  "memory_management_galaxy_focused_card_relationships": {
+    "message": "關係"
+  },
+  "memory_management_galaxy_focused_card_show_fewer_relationships": {
+    "message": "顯示較少關係"
+  },
+  "memory_management_galaxy_focused_card_show_more_relationships": {
+    "message": "再顯示 {{count}} 個關係"
   },
   "memory_management_galaxy_full_view": {
     "message": "完整檢視"
@@ -497,6 +548,93 @@
   "memory_management_galaxy_open_fullscreen": {
     "message": "開啟 Memory Galaxy 全螢幕檢視"
   },
+  "memory_management_galaxy_options_active_quality": {
+    "message": "目前生效：{{quality}}"
+  },
+  "memory_management_galaxy_options_active_view_preset": {
+    "message": "目前生效：{{preset}}"
+  },
+  "memory_management_galaxy_options_automatic": {
+    "message": "自動調整"
+  },
+  "memory_management_galaxy_options_automatic_detail": {
+    "message": "影格速率下降時會降低解析度並減少模擬運算；「中」還會簡化密集圖形的拖曳與縮放。"
+  },
+  "memory_management_galaxy_options_close": {
+    "message": "關閉 Memory Galaxy 選項"
+  },
+  "memory_management_galaxy_options_custom_view": {
+    "message": "自訂"
+  },
+  "memory_management_galaxy_options_custom_view_behavior": {
+    "message": "開發人員控制項正在覆寫所選的檢視預設集。"
+  },
+  "memory_management_galaxy_options_frame_telemetry": {
+    "message": "{{scale}}× 解析度 · {{fps}} FPS"
+  },
+  "memory_management_galaxy_options_frame_telemetry_pending": {
+    "message": "{{scale}}× 解析度 · 測量中"
+  },
+  "memory_management_galaxy_options_galaxy_view": {
+    "message": "Galaxy 檢視"
+  },
+  "memory_management_galaxy_options_galaxy_view_detail": {
+    "message": "選擇 Galaxy 要顯示多少關係脈絡與視覺細節。"
+  },
+  "memory_management_galaxy_options_layout_busy": {
+    "message": "排列中…"
+  },
+  "memory_management_galaxy_options_panel_label": {
+    "message": "Memory Galaxy 選項"
+  },
+  "memory_management_galaxy_options_quality_behavior_extreme": {
+    "message": "最高擬真度：解析度以原生為上限、Alpha 混合連結，以及完整的模擬細節。"
+  },
+  "memory_management_galaxy_options_quality_behavior_high": {
+    "message": "均衡：1× 解析度、Alpha 混合連結，以及較短且細節適中的模擬。"
+  },
+  "memory_management_galaxy_options_quality_behavior_medium": {
+    "message": "以互動為優先：0.75× 解析度、Alpha 混合連結、較短的模擬，並在拖曳或縮放密集圖形時暫時隱藏全部連結。"
+  },
+  "memory_management_galaxy_options_quality_extreme": {
+    "message": "極致"
+  },
+  "memory_management_galaxy_options_quality_high": {
+    "message": "高"
+  },
+  "memory_management_galaxy_options_quality_medium": {
+    "message": "中"
+  },
+  "memory_management_galaxy_options_rendering_quality": {
+    "message": "渲染品質"
+  },
+  "memory_management_galaxy_options_rendering_quality_detail": {
+    "message": "每個等級不僅會改變解析度，也會改變圖形的運算負載。"
+  },
+  "memory_management_galaxy_options_title": {
+    "message": "選項"
+  },
+  "memory_management_galaxy_options_view_preset_balanced": {
+    "message": "平衡"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_balanced": {
+    "message": "清晰總覽：以直線連結與內斂的單色配色顯示完整的 Galaxy。"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_focused": {
+    "message": "輕鬆閱讀：以置中的軌道呈現單一父節點、目前節點及其子節點。"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_vivid": {
+    "message": "豐富總覽：為完整的 Galaxy 加上曲線關係與分類色彩。"
+  },
+  "memory_management_galaxy_options_view_preset_focused": {
+    "message": "專注"
+  },
+  "memory_management_galaxy_options_view_preset_unavailable": {
+    "message": "開啟星系倒帶時無法使用專注檢視。"
+  },
+  "memory_management_galaxy_options_view_preset_vivid": {
+    "message": "鮮豔"
+  },
   "memory_management_galaxy_relations_associated_with": {
     "message": "關聯"
   },
@@ -578,9 +716,6 @@
   "memory_management_galaxy_title": {
     "message": "Memory Galaxy"
   },
-  "memory_management_galaxy_visible_entities": {
-    "message": "實體：{{visible}}/{{total}}"
-  },
   "memory_management_import_browser_memory_changes": {
     "message": "瀏覽器記憶：新增 {{added}} 筆、更新 {{updated}} 筆"
   },
@@ -642,7 +777,7 @@
     "message": "總覽"
   },
   "memory_management_nebula_actions_cluster": {
-    "message": "星團"
+    "message": "家園"
   },
   "memory_management_nebula_actions_full_view": {
     "message": "檢視整個記憶星團"
@@ -654,7 +789,7 @@
     "message": "漫遊至隨機記憶"
   },
   "memory_management_nebula_actions_return_to_cluster": {
-    "message": "返回記憶星團"
+    "message": "返回家園"
   },
   "memory_management_nebula_actions_roam": {
     "message": "漫遊"
@@ -685,6 +820,15 @@
   },
   "memory_management_nebula_detail_label": {
     "message": "記憶詳細資訊"
+  },
+  "memory_management_nebula_empty_state_description": {
+    "message": "像平常一樣瀏覽，看著你的星雲逐漸成形。"
+  },
+  "memory_management_nebula_empty_state_kicker": {
+    "message": "第一道光"
+  },
+  "memory_management_nebula_empty_state_title": {
+    "message": "這裡有點孤單"
   },
   "memory_management_nebula_export_card_memory_stars": {
     "message": "記憶星辰：{{count}}"
@@ -845,6 +989,48 @@
   "memory_management_nebula_title": {
     "message": "Nebula"
   },
+  "memory_management_nebula_tutorial_controls": {
+    "message": "操作方式"
+  },
+  "memory_management_nebula_tutorial_eyebrow": {
+    "message": "Nebula 操作方式"
+  },
+  "memory_management_nebula_tutorial_got_it": {
+    "message": "知道了"
+  },
+  "memory_management_nebula_tutorial_move_description": {
+    "message": "拖曳"
+  },
+  "memory_management_nebula_tutorial_move_label": {
+    "message": "移動"
+  },
+  "memory_management_nebula_tutorial_open_description": {
+    "message": "點選星星"
+  },
+  "memory_management_nebula_tutorial_open_label": {
+    "message": "開啟"
+  },
+  "memory_management_nebula_tutorial_rotate_description": {
+    "message": "右鍵拖曳或 Shift + 拖曳"
+  },
+  "memory_management_nebula_tutorial_rotate_label": {
+    "message": "旋轉"
+  },
+  "memory_management_nebula_tutorial_show_controls": {
+    "message": "顯示 Nebula 操作方式"
+  },
+  "memory_management_nebula_tutorial_subtitle": {
+    "message": "在你的記憶星空中穿梭，發現藏在其中的每個時刻。"
+  },
+  "memory_management_nebula_tutorial_title": {
+    "message": "探索你的 Nebula"
+  },
+  "memory_management_nebula_tutorial_zoom_description": {
+    "message": "捲動"
+  },
+  "memory_management_nebula_tutorial_zoom_label": {
+    "message": "縮放"
+  },
   "memory_management_nebula_unknown_date": {
     "message": "未知"
   },
@@ -971,6 +1157,12 @@
   "memory_management_status_delete_browser_memory_failed_detail": {
     "message": "無法刪除瀏覽器記憶：{{detail}}"
   },
+  "memory_management_status_delete_galaxy_source_records_failed": {
+    "message": "無法刪除部分來源記錄"
+  },
+  "memory_management_status_delete_galaxy_source_records_failed_detail": {
+    "message": "無法刪除部分來源記錄：{{detail}}"
+  },
   "memory_management_status_delete_observation_failed": {
     "message": "無法刪除觀察"
   },
@@ -982,6 +1174,9 @@
   },
   "memory_management_status_delete_observations_failed_detail": {
     "message": "無法刪除相關觀察：{{detail}}"
+  },
+  "memory_management_status_galaxy_source_records_deleted": {
+    "message": "已刪除 {{count}} 筆來源記錄"
   },
   "memory_management_status_import_failed": {
     "message": "無法匯入記憶"

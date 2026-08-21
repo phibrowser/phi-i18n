@@ -353,14 +353,8 @@
   "memory_management_galaxy_categories_work": {
     "message": "Werk en projecten"
   },
-  "memory_management_galaxy_collapsed_child_entities": {
-    "message": "Onderliggende entiteiten blijven samengevouwen totdat de bovenliggende entiteit is geopend: {{count}}"
-  },
   "memory_management_galaxy_day_count": {
     "message": "Vastgelegde dagen: {{count}}"
-  },
-  "memory_management_galaxy_entity_limit_capped": {
-    "message": "De grafiekweergave toont maximaal {{count}} zichtbare hoofdentiteiten om alles soepel te houden."
   },
   "memory_management_galaxy_exit_fullscreen": {
     "message": "Volledig scherm van Memory Galaxy sluiten"
@@ -401,20 +395,77 @@
   "memory_management_galaxy_explorer_toc": {
     "message": "Inhoud"
   },
-  "memory_management_galaxy_focus_enable_title": {
-    "message": "Vervaagt niet-gerelateerde knooppunten zodra je een knooppunt selecteert"
-  },
-  "memory_management_galaxy_focus_label": {
-    "message": "Focus"
-  },
-  "memory_management_galaxy_focus_restore_title": {
-    "message": "Normale nadruk herstellen"
-  },
   "memory_management_galaxy_focus_self_label": {
     "message": "Focus op het IK-knooppunt"
   },
   "memory_management_galaxy_focus_self_title": {
     "message": "Het IK-knooppunt centreren"
+  },
+  "memory_management_galaxy_focused_card_category": {
+    "message": "Categorie"
+  },
+  "memory_management_galaxy_focused_card_connection_fallback": {
+    "message": "{{source}} is via de relatie ‘{{relation}}’ verbonden met {{target}}."
+  },
+  "memory_management_galaxy_focused_card_delete_sources": {
+    "message": "Bronnen verwijderen"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_cancel": {
+    "message": "Bronnen behouden"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm": {
+    "message": "Records verwijderen"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_description": {
+    "message": "Directe bronnen geselecteerd. Herinneringen: {{memoryCount}}, observaties: {{observationCount}}. Deze records worden permanent verwijderd. Bij het verwijderen van een bovenliggende herinnering verdwijnen ook de records die eronder vallen, en verbonden Galaxy-knooppunten kunnen veranderen of verdwijnen."
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_title": {
+    "message": "Te verwijderen ondersteunende records: {{count}}"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_summary": {
+    "message": "Verwijderbare bronrecords: {{count}}"
+  },
+  "memory_management_galaxy_focused_card_deleting_sources": {
+    "message": "Verwijderen…"
+  },
+  "memory_management_galaxy_focused_card_description": {
+    "message": "Wat er is onthouden"
+  },
+  "memory_management_galaxy_focused_card_dismiss": {
+    "message": "Herinneringsdetails verbergen"
+  },
+  "memory_management_galaxy_focused_card_how_it_connects": {
+    "message": "Hoe dit verbonden is"
+  },
+  "memory_management_galaxy_focused_card_label": {
+    "message": "Details en relaties van {{node}}"
+  },
+  "memory_management_galaxy_focused_card_loading_evidence": {
+    "message": "Bronmateriaal laden…"
+  },
+  "memory_management_galaxy_focused_card_no_relationships": {
+    "message": "Voor deze herinnering zijn nog geen directe relaties vastgelegd."
+  },
+  "memory_management_galaxy_focused_card_no_source_pages": {
+    "message": "Voor dit bronmateriaal zijn geen bronpagina's beschikbaar."
+  },
+  "memory_management_galaxy_focused_card_open_connection": {
+    "message": "Naar {{node}} in de Galaxy gaan"
+  },
+  "memory_management_galaxy_focused_card_parent": {
+    "message": "Bovenliggend"
+  },
+  "memory_management_galaxy_focused_card_relationship_count": {
+    "message": "{{count}} direct"
+  },
+  "memory_management_galaxy_focused_card_relationships": {
+    "message": "Relaties"
+  },
+  "memory_management_galaxy_focused_card_show_fewer_relationships": {
+    "message": "Minder relaties tonen"
+  },
+  "memory_management_galaxy_focused_card_show_more_relationships": {
+    "message": "Nog {{count}} relaties tonen"
   },
   "memory_management_galaxy_full_view": {
     "message": "Volledige weergave"
@@ -497,6 +548,93 @@
   "memory_management_galaxy_open_fullscreen": {
     "message": "Memory Galaxy op volledig scherm openen"
   },
+  "memory_management_galaxy_options_active_quality": {
+    "message": "Actief: {{quality}}"
+  },
+  "memory_management_galaxy_options_active_view_preset": {
+    "message": "Actief: {{preset}}"
+  },
+  "memory_management_galaxy_options_automatic": {
+    "message": "Automatisch aanpassen"
+  },
+  "memory_management_galaxy_options_automatic_detail": {
+    "message": "Verlaagt de resolutie en het simulatiewerk wanneer frames trager worden; bij Gemiddeld worden slepen en zoomen in dichte weergaven ook vereenvoudigd."
+  },
+  "memory_management_galaxy_options_close": {
+    "message": "Opties voor Memory Galaxy sluiten"
+  },
+  "memory_management_galaxy_options_custom_view": {
+    "message": "Aangepast"
+  },
+  "memory_management_galaxy_options_custom_view_behavior": {
+    "message": "Ontwikkelaarsopties overschrijven de gekozen weergavevoorinstelling."
+  },
+  "memory_management_galaxy_options_frame_telemetry": {
+    "message": "{{scale}}× resolutie · {{fps}} fps"
+  },
+  "memory_management_galaxy_options_frame_telemetry_pending": {
+    "message": "{{scale}}× resolutie · wordt gemeten"
+  },
+  "memory_management_galaxy_options_galaxy_view": {
+    "message": "Galaxy-weergave"
+  },
+  "memory_management_galaxy_options_galaxy_view_detail": {
+    "message": "Kies hoeveel relatiecontext en visueel detail de Galaxy toont."
+  },
+  "memory_management_galaxy_options_layout_busy": {
+    "message": "Rangschikken…"
+  },
+  "memory_management_galaxy_options_panel_label": {
+    "message": "Opties voor Memory Galaxy"
+  },
+  "memory_management_galaxy_options_quality_behavior_extreme": {
+    "message": "Maximale getrouwheid: natieve resolutie als limiet, verbindingen met alfamenging en een volledig gedetailleerde simulatie."
+  },
+  "memory_management_galaxy_options_quality_behavior_high": {
+    "message": "In balans: 1×, verbindingen met alfamenging en een kortere, matig gedetailleerde simulatie."
+  },
+  "memory_management_galaxy_options_quality_behavior_medium": {
+    "message": "Geeft voorrang aan interactie: 0,75×, verbindingen met alfamenging en een kortere simulatie; tijdens slepen of zoomen in dichte weergaven wordt het volledige verbindingsveld tijdelijk verborgen."
+  },
+  "memory_management_galaxy_options_quality_extreme": {
+    "message": "Extreem"
+  },
+  "memory_management_galaxy_options_quality_high": {
+    "message": "Hoog"
+  },
+  "memory_management_galaxy_options_quality_medium": {
+    "message": "Gemiddeld"
+  },
+  "memory_management_galaxy_options_rendering_quality": {
+    "message": "Weergavekwaliteit"
+  },
+  "memory_management_galaxy_options_rendering_quality_detail": {
+    "message": "Elk niveau past zowel de rekenbelasting van de weergave als de resolutie aan."
+  },
+  "memory_management_galaxy_options_title": {
+    "message": "Opties"
+  },
+  "memory_management_galaxy_options_view_preset_balanced": {
+    "message": "Gebalanceerd"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_balanced": {
+    "message": "Helder overzicht: toont de volledige Galaxy met rechte verbindingen en een ingetogen palet in één kleur."
+  },
+  "memory_management_galaxy_options_view_preset_behavior_focused": {
+    "message": "Prettig leesbaar: volgt één bovenliggend knooppunt, het huidige knooppunt en de onderliggende knooppunten op één gecentreerde lijn."
+  },
+  "memory_management_galaxy_options_view_preset_behavior_vivid": {
+    "message": "Rijk overzicht: voegt gebogen verbindingen en categoriekleuren toe aan de volledige Galaxy."
+  },
+  "memory_management_galaxy_options_view_preset_focused": {
+    "message": "Gefocust"
+  },
+  "memory_management_galaxy_options_view_preset_unavailable": {
+    "message": "De weergave Gefocust is niet beschikbaar terwijl Galaxy Rewind geopend is."
+  },
+  "memory_management_galaxy_options_view_preset_vivid": {
+    "message": "Levendig"
+  },
   "memory_management_galaxy_relations_associated_with": {
     "message": "Geassocieerd met"
   },
@@ -578,9 +716,6 @@
   "memory_management_galaxy_title": {
     "message": "Memory Galaxy"
   },
-  "memory_management_galaxy_visible_entities": {
-    "message": "Entiteiten: {{visible}}/{{total}}"
-  },
   "memory_management_import_browser_memory_changes": {
     "message": "Browserherinneringen: {{added}} toegevoegd, {{updated}} bijgewerkt"
   },
@@ -642,7 +777,7 @@
     "message": "Overzicht"
   },
   "memory_management_nebula_actions_cluster": {
-    "message": "Cluster"
+    "message": "Thuis"
   },
   "memory_management_nebula_actions_full_view": {
     "message": "Het volledige geheugencluster bekijken"
@@ -654,7 +789,7 @@
     "message": "Naar een willekeurige herinnering dwalen"
   },
   "memory_management_nebula_actions_return_to_cluster": {
-    "message": "Terug naar het geheugencluster"
+    "message": "Terug naar huis"
   },
   "memory_management_nebula_actions_roam": {
     "message": "Dwalen"
@@ -685,6 +820,15 @@
   },
   "memory_management_nebula_detail_label": {
     "message": "Details van de herinnering"
+  },
+  "memory_management_nebula_empty_state_description": {
+    "message": "Browse gewoon zoals altijd en kijk hoe je Nebula vorm krijgt."
+  },
+  "memory_management_nebula_empty_state_kicker": {
+    "message": "Eerste licht"
+  },
+  "memory_management_nebula_empty_state_title": {
+    "message": "Het is hier nog een beetje eenzaam"
   },
   "memory_management_nebula_export_card_memory_stars": {
     "message": "Geheugensterren: {{count}}"
@@ -845,6 +989,48 @@
   "memory_management_nebula_title": {
     "message": "Nebula"
   },
+  "memory_management_nebula_tutorial_controls": {
+    "message": "Besturing"
+  },
+  "memory_management_nebula_tutorial_eyebrow": {
+    "message": "Nebula-besturing"
+  },
+  "memory_management_nebula_tutorial_got_it": {
+    "message": "Begrepen"
+  },
+  "memory_management_nebula_tutorial_move_description": {
+    "message": "Slepen"
+  },
+  "memory_management_nebula_tutorial_move_label": {
+    "message": "Bewegen"
+  },
+  "memory_management_nebula_tutorial_open_description": {
+    "message": "Klik op een ster"
+  },
+  "memory_management_nebula_tutorial_open_label": {
+    "message": "Openen"
+  },
+  "memory_management_nebula_tutorial_rotate_description": {
+    "message": "Slepen met de rechtermuisknop of Shift + slepen"
+  },
+  "memory_management_nebula_tutorial_rotate_label": {
+    "message": "Draaien"
+  },
+  "memory_management_nebula_tutorial_show_controls": {
+    "message": "Nebula-besturing tonen"
+  },
+  "memory_management_nebula_tutorial_subtitle": {
+    "message": "Beweeg door je hemel vol herinneringen en ontdek de momenten die erin verscholen liggen."
+  },
+  "memory_management_nebula_tutorial_title": {
+    "message": "Verken je Nebula"
+  },
+  "memory_management_nebula_tutorial_zoom_description": {
+    "message": "Scrollen"
+  },
+  "memory_management_nebula_tutorial_zoom_label": {
+    "message": "Zoomen"
+  },
   "memory_management_nebula_unknown_date": {
     "message": "Onbekend"
   },
@@ -971,6 +1157,12 @@
   "memory_management_status_delete_browser_memory_failed_detail": {
     "message": "Kan browserherinnering niet verwijderen: {{detail}}"
   },
+  "memory_management_status_delete_galaxy_source_records_failed": {
+    "message": "Sommige ondersteunende records konden niet worden verwijderd"
+  },
+  "memory_management_status_delete_galaxy_source_records_failed_detail": {
+    "message": "Sommige ondersteunende records konden niet worden verwijderd: {{detail}}"
+  },
   "memory_management_status_delete_observation_failed": {
     "message": "Kan observatie niet verwijderen"
   },
@@ -982,6 +1174,9 @@
   },
   "memory_management_status_delete_observations_failed_detail": {
     "message": "Kan observaties niet verwijderen: {{detail}}"
+  },
+  "memory_management_status_galaxy_source_records_deleted": {
+    "message": "Ondersteunende records verwijderd: {{count}}"
   },
   "memory_management_status_import_failed": {
     "message": "Kan herinneringen niet importeren"

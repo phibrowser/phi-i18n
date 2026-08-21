@@ -392,132 +392,6 @@
   "chat_tool_call_succeeded": {
     "message": "완료"
   },
-  "chat_traces_clear_all": {
-    "message": "모든 트레이스 지우기"
-  },
-  "chat_traces_close_aria": {
-    "message": "채팅 트레이스 닫기"
-  },
-  "chat_traces_copy_logs": {
-    "message": "로그 복사"
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "채팅 로그 복사"
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}}ms"
-  },
-  "chat_traces_empty_state": {
-    "message": "채팅 활동을 기다리고 있어요. 메시지를 보내면 매 턴의 파이프라인 단계와 LLM 호출이 여기에 실시간으로 표시돼요."
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ 히트 {{count}}건"
-  },
-  "chat_traces_hit_count": {
-    "message": "히트 {{count}}건"
-  },
-  "chat_traces_llm_badge": {
-    "message": "llm {{count}}회"
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "llm 호출"
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "LLM 호출 {{count}}회 · 모델 · 전체 프롬프트 · 응답"
-  },
-  "chat_traces_message_fallback": {
-    "message": "메시지"
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ 히트 없음"
-  },
-  "chat_traces_panel_title": {
-    "message": "채팅 트레이스"
-  },
-  "chat_traces_query_label": {
-    "message": "쿼리"
-  },
-  "chat_traces_response_label": {
-    "message": "응답"
-  },
-  "chat_traces_session_empty": {
-    "message": "이 턴에서 아직 관측된 단계가 없어요. 파이프라인의 보고를 기다리는 중이에요."
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "채팅 턴"
-  },
-  "chat_traces_session_meta": {
-    "message": "단계 {{count}}개 · {{time}}"
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "채팅"
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "에이전트 메모리"
-  },
-  "chat_traces_stage_assess": {
-    "message": "평가"
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "에피소드 메모리"
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "후속 제안"
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "지식 베이스"
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "지식 브리프"
-  },
-  "chat_traces_stage_live_context": {
-    "message": "실시간 컨텍스트"
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "메시지 · 스트리밍"
-  },
-  "chat_traces_stage_perceive": {
-    "message": "인지"
-  },
-  "chat_traces_stage_recall": {
-    "message": "회상"
-  },
-  "chat_traces_stage_reflect": {
-    "message": "성찰"
-  },
-  "chat_traces_stage_respond": {
-    "message": "응답"
-  },
-  "chat_traces_stage_revise": {
-    "message": "갱신"
-  },
-  "chat_traces_stage_task": {
-    "message": "작업"
-  },
-  "chat_traces_stage_task_router": {
-    "message": "작업 라우터"
-  },
-  "chat_traces_step_count": {
-    "message": "단계 {{count}}개"
-  },
-  "chat_traces_task_complete": {
-    "message": "작업 완료"
-  },
-  "chat_traces_task_failed": {
-    "message": "작업 실패"
-  },
-  "chat_traces_task_run": {
-    "message": "작업 실행"
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "도구 호출"
-  },
-  "chat_traces_trigger_aria": {
-    "message": "채팅 트레이스 열기"
-  },
-  "chat_traces_trigger_title": {
-    "message": "채팅 트레이스"
-  },
   "chat_unsupported_part": {
     "message": "이 콘텐츠는 아직 Phi Chat에서 지원되지 않아요({{type}})."
   },
@@ -535,6 +409,12 @@
   },
   "chat_welcome_title": {
     "message": "안녕하세요, 제 이름은 {{name}}"
+  },
+  "context_menu_ask_about": {
+    "message": "{{agentName}}에게 …에 대해 묻기"
+  },
+  "context_menu_ask_about_selection": {
+    "message": "{{agentName}}에게 “{{selection}}”에 대해 묻기"
   },
   "conversation_add_category": {
     "message": "새 카테고리"
@@ -1151,6 +1031,24 @@
   "message_loading_phrases_p57": {
     "message": "미끼가 푹 가라앉게 두는 중"
   },
+  "message_metrics_chars": {
+    "message": "{{value}}자"
+  },
+  "message_metrics_elapsed": {
+    "message": "{{value}} 경과"
+  },
+  "message_metrics_label": {
+    "message": "응답 속도"
+  },
+  "message_metrics_speed": {
+    "message": "{{value}}자/초"
+  },
+  "message_metrics_ttft": {
+    "message": "첫 텍스트 {{value}}"
+  },
+  "message_metrics_ttft_pending": {
+    "message": "첫 텍스트를 기다리는 중…"
+  },
   "message_open_in_new_tab": {
     "message": "새 탭에서 열기"
   },
@@ -1162,6 +1060,27 @@
   },
   "message_reasoning_summary": {
     "message": "추론 요약"
+  },
+  "message_role_card_directives": {
+    "message": "제가 부탁받은 모습"
+  },
+  "message_role_card_loading": {
+    "message": "불러오는 중…"
+  },
+  "message_role_card_open": {
+    "message": "{{name}}의 역할 카드 보기"
+  },
+  "message_role_card_remove_directive": {
+    "message": "이 지침 삭제"
+  },
+  "message_role_card_soul_empty": {
+    "message": "아직 모습을 갖춰 가는 중이에요. 작성된 자화상은 아직 없어요."
+  },
+  "message_role_card_subtitle": {
+    "message": "에이전트"
+  },
+  "message_role_card_title": {
+    "message": "{{name}}의 역할 카드"
   },
   "message_run_phase_executing": {
     "message": "작업 중…"
@@ -1306,6 +1225,18 @@
   },
   "newtab_greeting_prompt_too_large_error": {
     "message": "인사말 지침은 UTF-8 기준 최대 {{count}}바이트까지 입력할 수 있어요."
+  },
+  "newtab_greeting_style_interest": {
+    "message": "관심사 위주"
+  },
+  "newtab_greeting_style_label": {
+    "message": "인사말 스타일"
+  },
+  "newtab_greeting_style_none": {
+    "message": "꺼짐"
+  },
+  "newtab_greeting_style_personal": {
+    "message": "개인 맞춤"
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "<key/> 키를 누른 채 선택하면 이 탭으로 전환돼요"
@@ -2179,6 +2110,9 @@
   },
   "top_bar_shadow_tasks": {
     "message": "백그라운드 작업"
+  },
+  "top_bar_show_response_speed": {
+    "message": "응답 속도 표시"
   },
   "user_action_aborted": {
     "message": "작업 중단됨"

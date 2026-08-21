@@ -353,14 +353,8 @@
   "memory_management_galaxy_categories_work": {
     "message": "工作与项目"
   },
-  "memory_management_galaxy_collapsed_child_entities": {
-    "message": "子实体在父级展开前保持折叠：{{count}}"
-  },
   "memory_management_galaxy_day_count": {
     "message": "记录天数：{{count}}"
-  },
-  "memory_management_galaxy_entity_limit_capped": {
-    "message": "为保证流畅，图谱视图最多显示 {{count}} 个可见根实体。"
   },
   "memory_management_galaxy_exit_fullscreen": {
     "message": "退出 Memory Galaxy 全屏"
@@ -401,20 +395,77 @@
   "memory_management_galaxy_explorer_toc": {
     "message": "目录"
   },
-  "memory_management_galaxy_focus_enable_title": {
-    "message": "选中节点后淡化无关节点"
-  },
-  "memory_management_galaxy_focus_label": {
-    "message": "聚焦"
-  },
-  "memory_management_galaxy_focus_restore_title": {
-    "message": "恢复正常显示"
-  },
   "memory_management_galaxy_focus_self_label": {
     "message": "聚焦「我」节点"
   },
   "memory_management_galaxy_focus_self_title": {
     "message": "将「我」节点居中"
+  },
+  "memory_management_galaxy_focused_card_category": {
+    "message": "分类"
+  },
+  "memory_management_galaxy_focused_card_connection_fallback": {
+    "message": "{{source}} 通过「{{relation}}」关系与 {{target}} 相连。"
+  },
+  "memory_management_galaxy_focused_card_delete_sources": {
+    "message": "删除来源"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_cancel": {
+    "message": "保留来源"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm": {
+    "message": "删除记录"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_description": {
+    "message": "已选中直接来源：记忆 {{memoryCount}} 条、观察记录 {{observationCount}} 条。这些记录将被永久删除。删除父级记忆时会一并移除其嵌套记录，相连的 Galaxy 节点也可能发生变化或消失。"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_title": {
+    "message": "将删除的支撑记录：{{count}} 条"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_summary": {
+    "message": "可删除的来源记录：{{count}} 条"
+  },
+  "memory_management_galaxy_focused_card_deleting_sources": {
+    "message": "正在删除…"
+  },
+  "memory_management_galaxy_focused_card_description": {
+    "message": "记住的内容"
+  },
+  "memory_management_galaxy_focused_card_dismiss": {
+    "message": "隐藏记忆详情"
+  },
+  "memory_management_galaxy_focused_card_how_it_connects": {
+    "message": "如何关联"
+  },
+  "memory_management_galaxy_focused_card_label": {
+    "message": "{{node}} 的详情与关系"
+  },
+  "memory_management_galaxy_focused_card_loading_evidence": {
+    "message": "正在加载来源证据…"
+  },
+  "memory_management_galaxy_focused_card_no_relationships": {
+    "message": "这条记忆还没有记录任何直接关系。"
+  },
+  "memory_management_galaxy_focused_card_no_source_pages": {
+    "message": "该证据暂无可用的来源页面。"
+  },
+  "memory_management_galaxy_focused_card_open_connection": {
+    "message": "在 Galaxy 中聚焦 {{node}}"
+  },
+  "memory_management_galaxy_focused_card_parent": {
+    "message": "父级"
+  },
+  "memory_management_galaxy_focused_card_relationship_count": {
+    "message": "{{count}} 个直接关系"
+  },
+  "memory_management_galaxy_focused_card_relationships": {
+    "message": "关系"
+  },
+  "memory_management_galaxy_focused_card_show_fewer_relationships": {
+    "message": "只显示主要关系"
+  },
+  "memory_management_galaxy_focused_card_show_more_relationships": {
+    "message": "再显示 {{count}} 个关系"
   },
   "memory_management_galaxy_full_view": {
     "message": "全景"
@@ -497,6 +548,93 @@
   "memory_management_galaxy_open_fullscreen": {
     "message": "打开 Memory Galaxy 全屏"
   },
+  "memory_management_galaxy_options_active_quality": {
+    "message": "当前生效：{{quality}}"
+  },
+  "memory_management_galaxy_options_active_view_preset": {
+    "message": "当前生效：{{preset}}"
+  },
+  "memory_management_galaxy_options_automatic": {
+    "message": "自动调节"
+  },
+  "memory_management_galaxy_options_automatic_detail": {
+    "message": "帧率下降时会降低分辨率并减少模拟运算；中等档位下，拖动或缩放密集图谱时还会进一步简化。"
+  },
+  "memory_management_galaxy_options_close": {
+    "message": "关闭 Memory Galaxy 选项"
+  },
+  "memory_management_galaxy_options_custom_view": {
+    "message": "自定义"
+  },
+  "memory_management_galaxy_options_custom_view_behavior": {
+    "message": "开发者控制项正在覆盖所选的视图预设。"
+  },
+  "memory_management_galaxy_options_frame_telemetry": {
+    "message": "{{scale}}× 分辨率 · {{fps}} FPS"
+  },
+  "memory_management_galaxy_options_frame_telemetry_pending": {
+    "message": "{{scale}}× 分辨率 · 测量中"
+  },
+  "memory_management_galaxy_options_galaxy_view": {
+    "message": "Galaxy 视图"
+  },
+  "memory_management_galaxy_options_galaxy_view_detail": {
+    "message": "选择 Galaxy 要显示多少关系上下文与视觉细节。"
+  },
+  "memory_management_galaxy_options_layout_busy": {
+    "message": "正在布局…"
+  },
+  "memory_management_galaxy_options_panel_label": {
+    "message": "Memory Galaxy 选项"
+  },
+  "memory_management_galaxy_options_quality_behavior_extreme": {
+    "message": "最高保真：原生分辨率上限、半透明连线与完整的模拟细节。"
+  },
+  "memory_management_galaxy_options_quality_behavior_high": {
+    "message": "均衡：1× 分辨率、半透明连线，以及更短、细节适中的模拟。"
+  },
+  "memory_management_galaxy_options_quality_behavior_medium": {
+    "message": "交互优先：0.75× 分辨率、半透明连线、更短的模拟，并在拖动或缩放密集图谱时暂时隐藏全部连线。"
+  },
+  "memory_management_galaxy_options_quality_extreme": {
+    "message": "极致"
+  },
+  "memory_management_galaxy_options_quality_high": {
+    "message": "高"
+  },
+  "memory_management_galaxy_options_quality_medium": {
+    "message": "中等"
+  },
+  "memory_management_galaxy_options_rendering_quality": {
+    "message": "渲染质量"
+  },
+  "memory_management_galaxy_options_rendering_quality_detail": {
+    "message": "每个档位不仅会改变分辨率，也会改变图谱的运算负载。"
+  },
+  "memory_management_galaxy_options_title": {
+    "message": "选项"
+  },
+  "memory_management_galaxy_options_view_preset_balanced": {
+    "message": "均衡"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_balanced": {
+    "message": "清晰概览：以直线连线与克制的单色配色显示完整 Galaxy。"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_focused": {
+    "message": "轻松阅读：以居中的轨道展示一个父级、当前节点及其子级。"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_vivid": {
+    "message": "丰富概览：为完整 Galaxy 加入曲线关系与分类配色。"
+  },
+  "memory_management_galaxy_options_view_preset_focused": {
+    "message": "聚焦"
+  },
+  "memory_management_galaxy_options_view_preset_unavailable": {
+    "message": "Galaxy Rewind 开启时无法使用聚焦视图。"
+  },
+  "memory_management_galaxy_options_view_preset_vivid": {
+    "message": "绚丽"
+  },
   "memory_management_galaxy_relations_associated_with": {
     "message": "关联"
   },
@@ -578,9 +716,6 @@
   "memory_management_galaxy_title": {
     "message": "Memory Galaxy"
   },
-  "memory_management_galaxy_visible_entities": {
-    "message": "实体：{{visible}}/{{total}}"
-  },
   "memory_management_import_browser_memory_changes": {
     "message": "浏览器记忆：新增 {{added}} 条，更新 {{updated}} 条"
   },
@@ -642,7 +777,7 @@
     "message": "概览"
   },
   "memory_management_nebula_actions_cluster": {
-    "message": "星团"
+    "message": "家园"
   },
   "memory_management_nebula_actions_full_view": {
     "message": "查看完整记忆星团"
@@ -654,7 +789,7 @@
     "message": "漫游到一段随机记忆"
   },
   "memory_management_nebula_actions_return_to_cluster": {
-    "message": "返回记忆星团"
+    "message": "返回家园"
   },
   "memory_management_nebula_actions_roam": {
     "message": "漫游"
@@ -685,6 +820,15 @@
   },
   "memory_management_nebula_detail_label": {
     "message": "记忆详情"
+  },
+  "memory_management_nebula_empty_state_description": {
+    "message": "像平常一样浏览，看着你的 Nebula 逐渐成形。"
+  },
+  "memory_management_nebula_empty_state_kicker": {
+    "message": "第一缕光"
+  },
+  "memory_management_nebula_empty_state_title": {
+    "message": "这里还有点孤单"
   },
   "memory_management_nebula_export_card_memory_stars": {
     "message": "记忆星辰：{{count}}"
@@ -845,6 +989,48 @@
   "memory_management_nebula_title": {
     "message": "Nebula"
   },
+  "memory_management_nebula_tutorial_controls": {
+    "message": "操作指南"
+  },
+  "memory_management_nebula_tutorial_eyebrow": {
+    "message": "Nebula 操作"
+  },
+  "memory_management_nebula_tutorial_got_it": {
+    "message": "知道了"
+  },
+  "memory_management_nebula_tutorial_move_description": {
+    "message": "拖动"
+  },
+  "memory_management_nebula_tutorial_move_label": {
+    "message": "移动"
+  },
+  "memory_management_nebula_tutorial_open_description": {
+    "message": "点击星星"
+  },
+  "memory_management_nebula_tutorial_open_label": {
+    "message": "打开"
+  },
+  "memory_management_nebula_tutorial_rotate_description": {
+    "message": "右键拖动或 Shift + 拖动"
+  },
+  "memory_management_nebula_tutorial_rotate_label": {
+    "message": "旋转"
+  },
+  "memory_management_nebula_tutorial_show_controls": {
+    "message": "显示 Nebula 操作指南"
+  },
+  "memory_management_nebula_tutorial_subtitle": {
+    "message": "在你的记忆星空中穿行，发现其中珍藏的时刻。"
+  },
+  "memory_management_nebula_tutorial_title": {
+    "message": "探索你的 Nebula"
+  },
+  "memory_management_nebula_tutorial_zoom_description": {
+    "message": "滚动"
+  },
+  "memory_management_nebula_tutorial_zoom_label": {
+    "message": "缩放"
+  },
   "memory_management_nebula_unknown_date": {
     "message": "未知"
   },
@@ -971,6 +1157,12 @@
   "memory_management_status_delete_browser_memory_failed_detail": {
     "message": "删除浏览器记忆失败：{{detail}}"
   },
+  "memory_management_status_delete_galaxy_source_records_failed": {
+    "message": "部分支撑记录未能删除"
+  },
+  "memory_management_status_delete_galaxy_source_records_failed_detail": {
+    "message": "部分支撑记录未能删除：{{detail}}"
+  },
   "memory_management_status_delete_observation_failed": {
     "message": "删除观察记录失败"
   },
@@ -982,6 +1174,9 @@
   },
   "memory_management_status_delete_observations_failed_detail": {
     "message": "删除此来源的观察记录失败：{{detail}}"
+  },
+  "memory_management_status_galaxy_source_records_deleted": {
+    "message": "已删除支撑记录：{{count}} 条"
   },
   "memory_management_status_import_failed": {
     "message": "导入记忆失败"

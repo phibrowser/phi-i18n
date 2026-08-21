@@ -392,132 +392,6 @@
   "chat_tool_call_succeeded": {
     "message": "完了"
   },
-  "chat_traces_clear_all": {
-    "message": "すべてのトレースを消去"
-  },
-  "chat_traces_close_aria": {
-    "message": "チャットトレースを閉じる"
-  },
-  "chat_traces_copy_logs": {
-    "message": "ログをコピー"
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "チャットログをコピー"
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}}ms"
-  },
-  "chat_traces_empty_state": {
-    "message": "チャットのアクティビティを待機しています。メッセージを送信すると、各ターンのパイプラインステップとLLM呼び出しがここにリアルタイムで表示されます。"
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ {{count}}件ヒット"
-  },
-  "chat_traces_hit_count": {
-    "message": "{{count}}件ヒット"
-  },
-  "chat_traces_llm_badge": {
-    "message": "{{count}} llm"
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "llm呼び出し"
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "LLM呼び出し{{count}}件 · モデル · プロンプト全文 · 応答"
-  },
-  "chat_traces_message_fallback": {
-    "message": "メッセージ"
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ ヒットなし"
-  },
-  "chat_traces_panel_title": {
-    "message": "チャットトレース"
-  },
-  "chat_traces_query_label": {
-    "message": "クエリ"
-  },
-  "chat_traces_response_label": {
-    "message": "応答"
-  },
-  "chat_traces_session_empty": {
-    "message": "このターンにはまだ観測可能なステップがありません。パイプラインからの報告を待機しています。"
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "チャットターン"
-  },
-  "chat_traces_session_meta": {
-    "message": "{{count}}ステップ · {{time}}"
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "チャット"
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "エージェントのメモリ"
-  },
-  "chat_traces_stage_assess": {
-    "message": "評価"
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "エピソードメモリ"
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "フォローアップ"
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "ナレッジベース"
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "ナレッジブリーフ"
-  },
-  "chat_traces_stage_live_context": {
-    "message": "ライブコンテキスト"
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "メッセージ · ストリーミング"
-  },
-  "chat_traces_stage_perceive": {
-    "message": "知覚"
-  },
-  "chat_traces_stage_recall": {
-    "message": "想起"
-  },
-  "chat_traces_stage_reflect": {
-    "message": "振り返り"
-  },
-  "chat_traces_stage_respond": {
-    "message": "応答"
-  },
-  "chat_traces_stage_revise": {
-    "message": "更新"
-  },
-  "chat_traces_stage_task": {
-    "message": "タスク"
-  },
-  "chat_traces_stage_task_router": {
-    "message": "タスクルーター"
-  },
-  "chat_traces_step_count": {
-    "message": "{{count}}ステップ"
-  },
-  "chat_traces_task_complete": {
-    "message": "タスク完了"
-  },
-  "chat_traces_task_failed": {
-    "message": "タスク失敗"
-  },
-  "chat_traces_task_run": {
-    "message": "タスク実行"
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "ツール呼び出し"
-  },
-  "chat_traces_trigger_aria": {
-    "message": "チャットトレースを開く"
-  },
-  "chat_traces_trigger_title": {
-    "message": "チャットトレース"
-  },
   "chat_unsupported_part": {
     "message": "このコンテンツはPhi Chatではまだサポートされていません（{{type}}）。"
   },
@@ -535,6 +409,12 @@
   },
   "chat_welcome_title": {
     "message": "こんにちは、{{name}}です"
+  },
+  "context_menu_ask_about": {
+    "message": "…について{{agentName}}に質問"
+  },
+  "context_menu_ask_about_selection": {
+    "message": "「{{selection}}」について{{agentName}}に質問"
   },
   "conversation_add_category": {
     "message": "新しいカテゴリ"
@@ -1151,6 +1031,24 @@
   "message_loading_phrases_p57": {
     "message": "餌をじっくり沈め中"
   },
+  "message_metrics_chars": {
+    "message": "{{value}}文字"
+  },
+  "message_metrics_elapsed": {
+    "message": "{{value}}経過"
+  },
+  "message_metrics_label": {
+    "message": "応答速度"
+  },
+  "message_metrics_speed": {
+    "message": "{{value}}文字/秒"
+  },
+  "message_metrics_ttft": {
+    "message": "最初のテキストまで{{value}}"
+  },
+  "message_metrics_ttft_pending": {
+    "message": "最初のテキストを待っています…"
+  },
   "message_open_in_new_tab": {
     "message": "新しいタブで開く"
   },
@@ -1162,6 +1060,27 @@
   },
   "message_reasoning_summary": {
     "message": "思考の要約"
+  },
+  "message_role_card_directives": {
+    "message": "私に求められている姿"
+  },
+  "message_role_card_loading": {
+    "message": "読み込み中…"
+  },
+  "message_role_card_open": {
+    "message": "{{name}}のロールカードを表示"
+  },
+  "message_role_card_remove_directive": {
+    "message": "この指示を削除"
+  },
+  "message_role_card_soul_empty": {
+    "message": "まだ形になっていく途中で、自己像はこれから書かれていきます。"
+  },
+  "message_role_card_subtitle": {
+    "message": "エージェント"
+  },
+  "message_role_card_title": {
+    "message": "{{name}}のロールカード"
   },
   "message_run_phase_executing": {
     "message": "作業中…"
@@ -1306,6 +1225,18 @@
   },
   "newtab_greeting_prompt_too_large_error": {
     "message": "あいさつの指示はUTF-8で{{count}}バイト以内にしてください。"
+  },
+  "newtab_greeting_style_interest": {
+    "message": "控えめ"
+  },
+  "newtab_greeting_style_label": {
+    "message": "あいさつのスタイル"
+  },
+  "newtab_greeting_style_none": {
+    "message": "オフ"
+  },
+  "newtab_greeting_style_personal": {
+    "message": "パーソナル"
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "<key/> を押しながら選択すると、このタブに切り替わります"
@@ -2179,6 +2110,9 @@
   },
   "top_bar_shadow_tasks": {
     "message": "バックグラウンドタスク"
+  },
+  "top_bar_show_response_speed": {
+    "message": "応答速度を表示"
   },
   "user_action_aborted": {
     "message": "中断"

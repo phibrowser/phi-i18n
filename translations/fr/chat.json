@@ -392,132 +392,6 @@
   "chat_tool_call_succeeded": {
     "message": "Terminé"
   },
-  "chat_traces_clear_all": {
-    "message": "Effacer toutes les traces"
-  },
-  "chat_traces_close_aria": {
-    "message": "Fermer les traces de conversation"
-  },
-  "chat_traces_copy_logs": {
-    "message": "Copier les journaux"
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "Copier les journaux de conversation"
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}} ms"
-  },
-  "chat_traces_empty_state": {
-    "message": "En attente d'activité dans la conversation. Envoyez un message : les étapes du pipeline et les appels LLM de chaque échange s'afficheront ici en direct."
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ {{count}} résultat(s)"
-  },
-  "chat_traces_hit_count": {
-    "message": "{{count}} résultat(s)"
-  },
-  "chat_traces_llm_badge": {
-    "message": "{{count}} llm"
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "appel llm"
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "{{count}} appel(s) LLM · modèle · prompt complet · réponse"
-  },
-  "chat_traces_message_fallback": {
-    "message": "message"
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ aucun résultat"
-  },
-  "chat_traces_panel_title": {
-    "message": "Traces de conversation"
-  },
-  "chat_traces_query_label": {
-    "message": "requête"
-  },
-  "chat_traces_response_label": {
-    "message": "réponse"
-  },
-  "chat_traces_session_empty": {
-    "message": "Aucune étape observable pour cet échange pour l'instant : en attente du rapport du pipeline."
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "Échange"
-  },
-  "chat_traces_session_meta": {
-    "message": "{{count}} étape(s) · {{time}}"
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "Conversation"
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "Mémoire de l'agent"
-  },
-  "chat_traces_stage_assess": {
-    "message": "Évaluation"
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "Mémoire épisodique"
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "Suivi"
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "Base de connaissances"
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "Synthèse des connaissances"
-  },
-  "chat_traces_stage_live_context": {
-    "message": "Contexte en direct"
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "message · streaming"
-  },
-  "chat_traces_stage_perceive": {
-    "message": "Perception"
-  },
-  "chat_traces_stage_recall": {
-    "message": "Rappel"
-  },
-  "chat_traces_stage_reflect": {
-    "message": "Réflexion"
-  },
-  "chat_traces_stage_respond": {
-    "message": "Réponse"
-  },
-  "chat_traces_stage_revise": {
-    "message": "Révision"
-  },
-  "chat_traces_stage_task": {
-    "message": "Tâche"
-  },
-  "chat_traces_stage_task_router": {
-    "message": "Routage des tâches"
-  },
-  "chat_traces_step_count": {
-    "message": "{{count}} étape(s)"
-  },
-  "chat_traces_task_complete": {
-    "message": "Tâche terminée"
-  },
-  "chat_traces_task_failed": {
-    "message": "Échec de la tâche"
-  },
-  "chat_traces_task_run": {
-    "message": "Lancement de la tâche"
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "appel(s) d'outil"
-  },
-  "chat_traces_trigger_aria": {
-    "message": "Ouvrir les traces de conversation"
-  },
-  "chat_traces_trigger_title": {
-    "message": "Traces de conversation"
-  },
   "chat_unsupported_part": {
     "message": "Ce contenu n'est pas encore pris en charge dans Phi Chat ({{type}})."
   },
@@ -535,6 +409,12 @@
   },
   "chat_welcome_title": {
     "message": "Bonjour, je suis {{name}}"
+  },
+  "context_menu_ask_about": {
+    "message": "Demander à {{agentName}} à propos de…"
+  },
+  "context_menu_ask_about_selection": {
+    "message": "Demander à {{agentName}} à propos de « {{selection}} »"
   },
   "conversation_add_category": {
     "message": "Nouvelle catégorie"
@@ -1151,6 +1031,24 @@
   "message_loading_phrases_p57": {
     "message": "On laisse l'appât faire son effet"
   },
+  "message_metrics_chars": {
+    "message": "{{value}} car."
+  },
+  "message_metrics_elapsed": {
+    "message": "temps écoulé : {{value}}"
+  },
+  "message_metrics_label": {
+    "message": "Vitesse de réponse"
+  },
+  "message_metrics_speed": {
+    "message": "{{value}} car./s"
+  },
+  "message_metrics_ttft": {
+    "message": "premier texte : {{value}}"
+  },
+  "message_metrics_ttft_pending": {
+    "message": "en attente du premier texte…"
+  },
   "message_open_in_new_tab": {
     "message": "Ouvrir dans un nouvel onglet"
   },
@@ -1162,6 +1060,27 @@
   },
   "message_reasoning_summary": {
     "message": "Résumé du raisonnement"
+  },
+  "message_role_card_directives": {
+    "message": "Ce que vous m'avez demandé d'être"
+  },
+  "message_role_card_loading": {
+    "message": "Chargement…"
+  },
+  "message_role_card_open": {
+    "message": "Afficher la fiche de rôle de {{name}}"
+  },
+  "message_role_card_remove_directive": {
+    "message": "Retirer cette directive"
+  },
+  "message_role_card_soul_empty": {
+    "message": "Encore en train de prendre forme : aucun autoportrait rédigé pour le moment."
+  },
+  "message_role_card_subtitle": {
+    "message": "Agent"
+  },
+  "message_role_card_title": {
+    "message": "Fiche de rôle de {{name}}"
   },
   "message_run_phase_executing": {
     "message": "Travail en cours…"
@@ -1306,6 +1225,18 @@
   },
   "newtab_greeting_prompt_too_large_error": {
     "message": "Les instructions du message d'accueil ne doivent pas dépasser {{count}} octets UTF-8."
+  },
+  "newtab_greeting_style_interest": {
+    "message": "Moins personnel"
+  },
+  "newtab_greeting_style_label": {
+    "message": "Style du message d'accueil"
+  },
+  "newtab_greeting_style_none": {
+    "message": "Désactivé"
+  },
+  "newtab_greeting_style_personal": {
+    "message": "Personnel"
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "Maintenez la touche <key/> enfoncée pour passer à cet onglet"
@@ -2179,6 +2110,9 @@
   },
   "top_bar_shadow_tasks": {
     "message": "Tâches en arrière-plan"
+  },
+  "top_bar_show_response_speed": {
+    "message": "Afficher la vitesse de réponse"
   },
   "user_action_aborted": {
     "message": "Action interrompue"

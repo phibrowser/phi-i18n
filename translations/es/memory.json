@@ -353,14 +353,8 @@
   "memory_management_galaxy_categories_work": {
     "message": "Trabajo y proyectos"
   },
-  "memory_management_galaxy_collapsed_child_entities": {
-    "message": "Las entidades secundarias permanecen contraídas hasta que se abre su entidad principal: {{count}}"
-  },
   "memory_management_galaxy_day_count": {
     "message": "Días registrados: {{count}}"
-  },
-  "memory_management_galaxy_entity_limit_capped": {
-    "message": "La vista del grafo está limitada a {{count}} entidades raíz visibles para mantener la fluidez."
   },
   "memory_management_galaxy_exit_fullscreen": {
     "message": "Salir de Memory Galaxy en pantalla completa"
@@ -401,20 +395,77 @@
   "memory_management_galaxy_explorer_toc": {
     "message": "Índice"
   },
-  "memory_management_galaxy_focus_enable_title": {
-    "message": "Atenuar los nodos no relacionados después de seleccionar un nodo"
-  },
-  "memory_management_galaxy_focus_label": {
-    "message": "Enfocar"
-  },
-  "memory_management_galaxy_focus_restore_title": {
-    "message": "Restaurar el énfasis estándar"
-  },
   "memory_management_galaxy_focus_self_label": {
     "message": "Enfocar el nodo YO"
   },
   "memory_management_galaxy_focus_self_title": {
     "message": "Centrar el nodo YO"
+  },
+  "memory_management_galaxy_focused_card_category": {
+    "message": "Categoría"
+  },
+  "memory_management_galaxy_focused_card_connection_fallback": {
+    "message": "{{source}} se conecta con {{target}} a través de la relación «{{relation}}»."
+  },
+  "memory_management_galaxy_focused_card_delete_sources": {
+    "message": "Eliminar fuentes"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_cancel": {
+    "message": "Conservar fuentes"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm": {
+    "message": "Eliminar registros"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_description": {
+    "message": "Fuentes directas seleccionadas. Recuerdos: {{memoryCount}}; observaciones: {{observationCount}}. Esta acción elimina esos registros de forma permanente. En el caso de los recuerdos principales, también se eliminan sus registros anidados, y los nodos conectados de la Galaxy pueden cambiar o desaparecer."
+  },
+  "memory_management_galaxy_focused_card_delete_sources_confirm_title": {
+    "message": "Registros de origen que se eliminarán: {{count}}"
+  },
+  "memory_management_galaxy_focused_card_delete_sources_summary": {
+    "message": "Registros de origen que se pueden eliminar: {{count}}"
+  },
+  "memory_management_galaxy_focused_card_deleting_sources": {
+    "message": "Eliminando…"
+  },
+  "memory_management_galaxy_focused_card_description": {
+    "message": "Qué se recuerda"
+  },
+  "memory_management_galaxy_focused_card_dismiss": {
+    "message": "Ocultar los detalles del recuerdo"
+  },
+  "memory_management_galaxy_focused_card_how_it_connects": {
+    "message": "Cómo se conecta"
+  },
+  "memory_management_galaxy_focused_card_label": {
+    "message": "Detalles y relaciones de {{node}}"
+  },
+  "memory_management_galaxy_focused_card_loading_evidence": {
+    "message": "Cargando la evidencia de origen…"
+  },
+  "memory_management_galaxy_focused_card_no_relationships": {
+    "message": "Todavía no hay relaciones directas registradas para este recuerdo."
+  },
+  "memory_management_galaxy_focused_card_no_source_pages": {
+    "message": "No hay páginas de origen disponibles para esta evidencia."
+  },
+  "memory_management_galaxy_focused_card_open_connection": {
+    "message": "Enfocar {{node}} en la Galaxy"
+  },
+  "memory_management_galaxy_focused_card_parent": {
+    "message": "Nodo principal"
+  },
+  "memory_management_galaxy_focused_card_relationship_count": {
+    "message": "{{count}} directas"
+  },
+  "memory_management_galaxy_focused_card_relationships": {
+    "message": "Relaciones"
+  },
+  "memory_management_galaxy_focused_card_show_fewer_relationships": {
+    "message": "Mostrar menos relaciones"
+  },
+  "memory_management_galaxy_focused_card_show_more_relationships": {
+    "message": "Mostrar {{count}} relaciones más"
   },
   "memory_management_galaxy_full_view": {
     "message": "Vista completa"
@@ -497,6 +548,93 @@
   "memory_management_galaxy_open_fullscreen": {
     "message": "Abrir Memory Galaxy en pantalla completa"
   },
+  "memory_management_galaxy_options_active_quality": {
+    "message": "Activa: {{quality}}"
+  },
+  "memory_management_galaxy_options_active_view_preset": {
+    "message": "Activa: {{preset}}"
+  },
+  "memory_management_galaxy_options_automatic": {
+    "message": "Ajustar automáticamente"
+  },
+  "memory_management_galaxy_options_automatic_detail": {
+    "message": "Reduce la resolución y el trabajo de simulación cuando los fotogramas se ralentizan; la calidad Media también simplifica el arrastre y el zoom en grafos densos."
+  },
+  "memory_management_galaxy_options_close": {
+    "message": "Cerrar las opciones de Memory Galaxy"
+  },
+  "memory_management_galaxy_options_custom_view": {
+    "message": "Personalizada"
+  },
+  "memory_management_galaxy_options_custom_view_behavior": {
+    "message": "Los controles de desarrollador están anulando la vista predefinida seleccionada."
+  },
+  "memory_management_galaxy_options_frame_telemetry": {
+    "message": "Resolución {{scale}}× · {{fps}} FPS"
+  },
+  "memory_management_galaxy_options_frame_telemetry_pending": {
+    "message": "Resolución {{scale}}× · midiendo"
+  },
+  "memory_management_galaxy_options_galaxy_view": {
+    "message": "Vista de la Galaxy"
+  },
+  "memory_management_galaxy_options_galaxy_view_detail": {
+    "message": "Elige cuánto contexto de relaciones y cuánto detalle visual muestra la Galaxy."
+  },
+  "memory_management_galaxy_options_layout_busy": {
+    "message": "Organizando…"
+  },
+  "memory_management_galaxy_options_panel_label": {
+    "message": "Opciones de Memory Galaxy"
+  },
+  "memory_management_galaxy_options_quality_behavior_extreme": {
+    "message": "Fidelidad máxima: límite en la resolución nativa, enlaces con mezcla alfa y detalle de simulación completo."
+  },
+  "memory_management_galaxy_options_quality_behavior_high": {
+    "message": "Equilibrada: 1×, enlaces con mezcla alfa y una simulación más corta con detalle moderado."
+  },
+  "memory_management_galaxy_options_quality_behavior_medium": {
+    "message": "Prioriza la interacción: 0,75×, enlaces con mezcla alfa y simulación más corta; además, oculta temporalmente todos los enlaces al arrastrar o hacer zoom en grafos densos."
+  },
+  "memory_management_galaxy_options_quality_extreme": {
+    "message": "Extrema"
+  },
+  "memory_management_galaxy_options_quality_high": {
+    "message": "Alta"
+  },
+  "memory_management_galaxy_options_quality_medium": {
+    "message": "Media"
+  },
+  "memory_management_galaxy_options_rendering_quality": {
+    "message": "Calidad de renderizado"
+  },
+  "memory_management_galaxy_options_rendering_quality_detail": {
+    "message": "Cada nivel cambia la carga de trabajo del grafo, además de la resolución."
+  },
+  "memory_management_galaxy_options_title": {
+    "message": "Opciones"
+  },
+  "memory_management_galaxy_options_view_preset_balanced": {
+    "message": "Equilibrada"
+  },
+  "memory_management_galaxy_options_view_preset_behavior_balanced": {
+    "message": "Vista general clara: muestra la Galaxy completa con enlaces rectos y una paleta sobria de un solo color."
+  },
+  "memory_management_galaxy_options_view_preset_behavior_focused": {
+    "message": "Lectura fácil: sigue un nodo principal, el nodo actual y sus nodos secundarios en una columna centrada."
+  },
+  "memory_management_galaxy_options_view_preset_behavior_vivid": {
+    "message": "Vista general enriquecida: añade relaciones curvas y colores por categoría a la Galaxy completa."
+  },
+  "memory_management_galaxy_options_view_preset_focused": {
+    "message": "Enfocada"
+  },
+  "memory_management_galaxy_options_view_preset_unavailable": {
+    "message": "La vista Enfocada no está disponible mientras Galaxy Rewind está abierto."
+  },
+  "memory_management_galaxy_options_view_preset_vivid": {
+    "message": "Vívida"
+  },
   "memory_management_galaxy_relations_associated_with": {
     "message": "Asociado con"
   },
@@ -578,9 +716,6 @@
   "memory_management_galaxy_title": {
     "message": "Memory Galaxy"
   },
-  "memory_management_galaxy_visible_entities": {
-    "message": "Entidades: {{visible}}/{{total}}"
-  },
   "memory_management_import_browser_memory_changes": {
     "message": "Recuerdos del navegador: {{added}} agregados, {{updated}} actualizados"
   },
@@ -642,7 +777,7 @@
     "message": "Vista general"
   },
   "memory_management_nebula_actions_cluster": {
-    "message": "Cúmulo"
+    "message": "Inicio"
   },
   "memory_management_nebula_actions_full_view": {
     "message": "Ver todo el cúmulo de recuerdos"
@@ -654,7 +789,7 @@
     "message": "Ir a un recuerdo aleatorio"
   },
   "memory_management_nebula_actions_return_to_cluster": {
-    "message": "Volver al cúmulo de recuerdos"
+    "message": "Volver al inicio"
   },
   "memory_management_nebula_actions_roam": {
     "message": "Recorrer"
@@ -685,6 +820,15 @@
   },
   "memory_management_nebula_detail_label": {
     "message": "Detalle del recuerdo"
+  },
+  "memory_management_nebula_empty_state_description": {
+    "message": "Navega con normalidad y observa cómo tu Nebula toma forma."
+  },
+  "memory_management_nebula_empty_state_kicker": {
+    "message": "Primera luz"
+  },
+  "memory_management_nebula_empty_state_title": {
+    "message": "Se está un poco solo por aquí"
   },
   "memory_management_nebula_export_card_memory_stars": {
     "message": "Estrellas de recuerdos: {{count}}"
@@ -845,6 +989,48 @@
   "memory_management_nebula_title": {
     "message": "Nebula"
   },
+  "memory_management_nebula_tutorial_controls": {
+    "message": "Controles"
+  },
+  "memory_management_nebula_tutorial_eyebrow": {
+    "message": "Controles de la Nebula"
+  },
+  "memory_management_nebula_tutorial_got_it": {
+    "message": "Entendido"
+  },
+  "memory_management_nebula_tutorial_move_description": {
+    "message": "Arrastra"
+  },
+  "memory_management_nebula_tutorial_move_label": {
+    "message": "Mover"
+  },
+  "memory_management_nebula_tutorial_open_description": {
+    "message": "Haz clic en una estrella"
+  },
+  "memory_management_nebula_tutorial_open_label": {
+    "message": "Abrir"
+  },
+  "memory_management_nebula_tutorial_rotate_description": {
+    "message": "Arrastra con el botón derecho o con Mayús"
+  },
+  "memory_management_nebula_tutorial_rotate_label": {
+    "message": "Girar"
+  },
+  "memory_management_nebula_tutorial_show_controls": {
+    "message": "Mostrar los controles de la Nebula"
+  },
+  "memory_management_nebula_tutorial_subtitle": {
+    "message": "Recorre tu cielo de recuerdos y descubre los momentos que guarda."
+  },
+  "memory_management_nebula_tutorial_title": {
+    "message": "Explora tu Nebula"
+  },
+  "memory_management_nebula_tutorial_zoom_description": {
+    "message": "Desplázate"
+  },
+  "memory_management_nebula_tutorial_zoom_label": {
+    "message": "Zoom"
+  },
   "memory_management_nebula_unknown_date": {
     "message": "Desconocida"
   },
@@ -971,6 +1157,12 @@
   "memory_management_status_delete_browser_memory_failed_detail": {
     "message": "No se pudo eliminar el recuerdo del navegador: {{detail}}"
   },
+  "memory_management_status_delete_galaxy_source_records_failed": {
+    "message": "No se pudieron eliminar algunos registros de origen"
+  },
+  "memory_management_status_delete_galaxy_source_records_failed_detail": {
+    "message": "No se pudieron eliminar algunos registros de origen: {{detail}}"
+  },
   "memory_management_status_delete_observation_failed": {
     "message": "No se pudo eliminar la observación"
   },
@@ -982,6 +1174,9 @@
   },
   "memory_management_status_delete_observations_failed_detail": {
     "message": "No se pudieron eliminar las observaciones: {{detail}}"
+  },
+  "memory_management_status_galaxy_source_records_deleted": {
+    "message": "Registros de origen eliminados: {{count}}"
   },
   "memory_management_status_import_failed": {
     "message": "No se pudieron importar los recuerdos"

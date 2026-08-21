@@ -392,132 +392,6 @@
   "chat_tool_call_succeeded": {
     "message": "Abgeschlossen"
   },
-  "chat_traces_clear_all": {
-    "message": "Alle Traces löschen"
-  },
-  "chat_traces_close_aria": {
-    "message": "Chat-Traces schließen"
-  },
-  "chat_traces_copy_logs": {
-    "message": "Logs kopieren"
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "Chat-Logs kopieren"
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}}ms"
-  },
-  "chat_traces_empty_state": {
-    "message": "Warten auf Chat-Aktivität. Sende eine Nachricht: Die Pipeline-Schritte und LLM-Aufrufe jedes Turns erscheinen hier live."
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ {{count}} Treffer"
-  },
-  "chat_traces_hit_count": {
-    "message": "{{count}} Treffer"
-  },
-  "chat_traces_llm_badge": {
-    "message": "{{count}} LLM"
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "LLM-Aufruf"
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "{{count}} LLM-Aufruf(e) · Modell · vollständiger Prompt · Antwort"
-  },
-  "chat_traces_message_fallback": {
-    "message": "Nachricht"
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ keine Treffer"
-  },
-  "chat_traces_panel_title": {
-    "message": "Chat-Traces"
-  },
-  "chat_traces_query_label": {
-    "message": "Abfrage"
-  },
-  "chat_traces_response_label": {
-    "message": "Antwort"
-  },
-  "chat_traces_session_empty": {
-    "message": "Für diesen Turn sind noch keine Schritte sichtbar. Warten auf Rückmeldung der Pipeline."
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "Chat-Turn"
-  },
-  "chat_traces_session_meta": {
-    "message": "{{count}} Schritt(e) · {{time}}"
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "Chat"
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "Agenten-Erinnerungen"
-  },
-  "chat_traces_stage_assess": {
-    "message": "Einschätzen"
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "Episodische Erinnerungen"
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "Follow-up"
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "Wissensdatenbank"
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "Wissensbriefing"
-  },
-  "chat_traces_stage_live_context": {
-    "message": "Live-Kontext"
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "Nachricht · Streaming"
-  },
-  "chat_traces_stage_perceive": {
-    "message": "Wahrnehmen"
-  },
-  "chat_traces_stage_recall": {
-    "message": "Abrufen"
-  },
-  "chat_traces_stage_reflect": {
-    "message": "Reflektieren"
-  },
-  "chat_traces_stage_respond": {
-    "message": "Antworten"
-  },
-  "chat_traces_stage_revise": {
-    "message": "Aktualisieren"
-  },
-  "chat_traces_stage_task": {
-    "message": "Aufgabe"
-  },
-  "chat_traces_stage_task_router": {
-    "message": "Aufgaben-Router"
-  },
-  "chat_traces_step_count": {
-    "message": "{{count}} Schritt(e)"
-  },
-  "chat_traces_task_complete": {
-    "message": "Aufgabe abgeschlossen"
-  },
-  "chat_traces_task_failed": {
-    "message": "Aufgabe fehlgeschlagen"
-  },
-  "chat_traces_task_run": {
-    "message": "Aufgabe ausführen"
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "Tool-Aufrufe"
-  },
-  "chat_traces_trigger_aria": {
-    "message": "Chat-Traces öffnen"
-  },
-  "chat_traces_trigger_title": {
-    "message": "Chat-Traces"
-  },
   "chat_unsupported_part": {
     "message": "Dieser Inhalt wird in Phi Chat noch nicht unterstützt ({{type}})."
   },
@@ -535,6 +409,12 @@
   },
   "chat_welcome_title": {
     "message": "Hi, ich bin {{name}}"
+  },
+  "context_menu_ask_about": {
+    "message": "{{agentName}} zu … fragen"
+  },
+  "context_menu_ask_about_selection": {
+    "message": "{{agentName}} zu „{{selection}}“ fragen"
   },
   "conversation_add_category": {
     "message": "Neue Kategorie"
@@ -1151,6 +1031,24 @@
   "message_loading_phrases_p57": {
     "message": "Lässt den Köder wirken"
   },
+  "message_metrics_chars": {
+    "message": "{{value}} Zeichen"
+  },
+  "message_metrics_elapsed": {
+    "message": "{{value}} verstrichen"
+  },
+  "message_metrics_label": {
+    "message": "Antwortgeschwindigkeit"
+  },
+  "message_metrics_speed": {
+    "message": "{{value}} Zeichen/s"
+  },
+  "message_metrics_ttft": {
+    "message": "erster Text nach {{value}}"
+  },
+  "message_metrics_ttft_pending": {
+    "message": "Warten auf ersten Text…"
+  },
   "message_open_in_new_tab": {
     "message": "In neuem Tab öffnen"
   },
@@ -1162,6 +1060,27 @@
   },
   "message_reasoning_summary": {
     "message": "Denkprozess-Zusammenfassung"
+  },
+  "message_role_card_directives": {
+    "message": "Wie ich sein soll"
+  },
+  "message_role_card_loading": {
+    "message": "Wird geladen…"
+  },
+  "message_role_card_open": {
+    "message": "Rollenkarte von {{name}} anzeigen"
+  },
+  "message_role_card_remove_directive": {
+    "message": "Diese Anweisung entfernen"
+  },
+  "message_role_card_soul_empty": {
+    "message": "Nimmt noch Gestalt an. Ein Selbstporträt wurde noch nicht geschrieben."
+  },
+  "message_role_card_subtitle": {
+    "message": "Agent"
+  },
+  "message_role_card_title": {
+    "message": "Rollenkarte von {{name}}"
   },
   "message_run_phase_executing": {
     "message": "Arbeitet…"
@@ -1306,6 +1225,18 @@
   },
   "newtab_greeting_prompt_too_large_error": {
     "message": "Die Anweisungen für die Begrüßung dürfen höchstens {{count}} UTF-8-Byte lang sein."
+  },
+  "newtab_greeting_style_interest": {
+    "message": "Weniger persönlich"
+  },
+  "newtab_greeting_style_label": {
+    "message": "Begrüßungsstil"
+  },
+  "newtab_greeting_style_none": {
+    "message": "Aus"
+  },
+  "newtab_greeting_style_personal": {
+    "message": "Persönlich"
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "Halte <key/> gedrückt, um zu diesem Tab zu wechseln"
@@ -2179,6 +2110,9 @@
   },
   "top_bar_shadow_tasks": {
     "message": "Hintergrundaufgaben"
+  },
+  "top_bar_show_response_speed": {
+    "message": "Antwortgeschwindigkeit anzeigen"
   },
   "user_action_aborted": {
     "message": "Aktion vorzeitig beendet"

@@ -392,132 +392,6 @@
   "chat_tool_call_succeeded": {
     "message": "Voltooid"
   },
-  "chat_traces_clear_all": {
-    "message": "Alle traces wissen"
-  },
-  "chat_traces_close_aria": {
-    "message": "Chattraces sluiten"
-  },
-  "chat_traces_copy_logs": {
-    "message": "Logs kopiëren"
-  },
-  "chat_traces_copy_logs_aria": {
-    "message": "Chatlogs kopiëren"
-  },
-  "chat_traces_duration_ms": {
-    "message": "{{value}}ms"
-  },
-  "chat_traces_empty_state": {
-    "message": "Wachten op chatactiviteit. Stuur een bericht: de pipelinestappen en LLM-aanroepen van elke beurt verschijnen hier live."
-  },
-  "chat_traces_hit_badge": {
-    "message": "✓ {{count}} hit(s)"
-  },
-  "chat_traces_hit_count": {
-    "message": "{{count}} hit(s)"
-  },
-  "chat_traces_llm_badge": {
-    "message": "{{count}} llm"
-  },
-  "chat_traces_llm_call_fallback": {
-    "message": "llm-aanroep"
-  },
-  "chat_traces_llm_calls_header": {
-    "message": "{{count}} LLM-aanroep(en) · model · volledige prompt · antwoord"
-  },
-  "chat_traces_message_fallback": {
-    "message": "bericht"
-  },
-  "chat_traces_no_hits": {
-    "message": "∅ geen hits"
-  },
-  "chat_traces_panel_title": {
-    "message": "Chattraces"
-  },
-  "chat_traces_query_label": {
-    "message": "query"
-  },
-  "chat_traces_response_label": {
-    "message": "antwoord"
-  },
-  "chat_traces_session_empty": {
-    "message": "Nog geen waarneembare stappen voor deze beurt; wachten tot de pipeline rapporteert."
-  },
-  "chat_traces_session_fallback_title": {
-    "message": "Chatbeurt"
-  },
-  "chat_traces_session_meta": {
-    "message": "{{count}} stap(pen) · {{time}}"
-  },
-  "chat_traces_session_title_prefix": {
-    "message": "Chat"
-  },
-  "chat_traces_stage_agent_memory": {
-    "message": "Agentgeheugen"
-  },
-  "chat_traces_stage_assess": {
-    "message": "Beoordelen"
-  },
-  "chat_traces_stage_episodic_memory": {
-    "message": "Episodisch geheugen"
-  },
-  "chat_traces_stage_follow_up": {
-    "message": "Vervolg"
-  },
-  "chat_traces_stage_knowledge_base": {
-    "message": "Kennisbank"
-  },
-  "chat_traces_stage_knowledge_brief": {
-    "message": "Kennisbriefing"
-  },
-  "chat_traces_stage_live_context": {
-    "message": "Livecontext"
-  },
-  "chat_traces_stage_message_streaming": {
-    "message": "bericht · streaming"
-  },
-  "chat_traces_stage_perceive": {
-    "message": "Waarnemen"
-  },
-  "chat_traces_stage_recall": {
-    "message": "Ophalen"
-  },
-  "chat_traces_stage_reflect": {
-    "message": "Reflecteren"
-  },
-  "chat_traces_stage_respond": {
-    "message": "Antwoorden"
-  },
-  "chat_traces_stage_revise": {
-    "message": "Herzien"
-  },
-  "chat_traces_stage_task": {
-    "message": "Taak"
-  },
-  "chat_traces_stage_task_router": {
-    "message": "Taakrouter"
-  },
-  "chat_traces_step_count": {
-    "message": "{{count}} stap(pen)"
-  },
-  "chat_traces_task_complete": {
-    "message": "Taak voltooid"
-  },
-  "chat_traces_task_failed": {
-    "message": "Taak mislukt"
-  },
-  "chat_traces_task_run": {
-    "message": "Taak uitvoeren"
-  },
-  "chat_traces_tool_call_badge": {
-    "message": "toolaanroep(en)"
-  },
-  "chat_traces_trigger_aria": {
-    "message": "Chattraces openen"
-  },
-  "chat_traces_trigger_title": {
-    "message": "Chattraces"
-  },
   "chat_unsupported_part": {
     "message": "Deze inhoud wordt nog niet ondersteund in Phi Chat ({{type}})."
   },
@@ -535,6 +409,12 @@
   },
   "chat_welcome_title": {
     "message": "Hoi, ik ben {{name}}"
+  },
+  "context_menu_ask_about": {
+    "message": "Vraag {{agentName}} naar ..."
+  },
+  "context_menu_ask_about_selection": {
+    "message": "Vraag {{agentName}} naar ‘{{selection}}’"
   },
   "conversation_add_category": {
     "message": "Nieuwe categorie"
@@ -1151,6 +1031,24 @@
   "message_loading_phrases_p57": {
     "message": "Het aas laten bezinken"
   },
+  "message_metrics_chars": {
+    "message": "{{value}} tekens"
+  },
+  "message_metrics_elapsed": {
+    "message": "{{value}} verstreken"
+  },
+  "message_metrics_label": {
+    "message": "Reactiesnelheid"
+  },
+  "message_metrics_speed": {
+    "message": "{{value}} tekens/s"
+  },
+  "message_metrics_ttft": {
+    "message": "eerste tekst na {{value}}"
+  },
+  "message_metrics_ttft_pending": {
+    "message": "wachten op eerste tekst…"
+  },
   "message_open_in_new_tab": {
     "message": "Openen in nieuw tabblad"
   },
@@ -1162,6 +1060,27 @@
   },
   "message_reasoning_summary": {
     "message": "Samenvatting van de redenering"
+  },
+  "message_role_card_directives": {
+    "message": "Hoe je me hebt gevraagd te zijn"
+  },
+  "message_role_card_loading": {
+    "message": "Laden…"
+  },
+  "message_role_card_open": {
+    "message": "Rolkaart van {{name}} bekijken"
+  },
+  "message_role_card_remove_directive": {
+    "message": "Deze instructie verwijderen"
+  },
+  "message_role_card_soul_empty": {
+    "message": "Krijgt nog vorm: er is nog geen zelfportret geschreven."
+  },
+  "message_role_card_subtitle": {
+    "message": "AI-agent"
+  },
+  "message_role_card_title": {
+    "message": "Rolkaart van {{name}}"
   },
   "message_run_phase_executing": {
     "message": "Bezig…"
@@ -1306,6 +1225,18 @@
   },
   "newtab_greeting_prompt_too_large_error": {
     "message": "De begroetingsinstructies mogen maximaal {{count}} UTF-8-bytes groot zijn."
+  },
+  "newtab_greeting_style_interest": {
+    "message": "Minder persoonlijk"
+  },
+  "newtab_greeting_style_label": {
+    "message": "Begroetingsstijl"
+  },
+  "newtab_greeting_style_none": {
+    "message": "Uit"
+  },
+  "newtab_greeting_style_personal": {
+    "message": "Persoonlijk"
   },
   "newtab_hold_cmd_to_switch_tab": {
     "message": "Houd <key/> ingedrukt om naar dit tabblad te schakelen"
@@ -2179,6 +2110,9 @@
   },
   "top_bar_shadow_tasks": {
     "message": "Schaduwtaken"
+  },
+  "top_bar_show_response_speed": {
+    "message": "Reactiesnelheid tonen"
   },
   "user_action_aborted": {
     "message": "Actie afgebroken"
