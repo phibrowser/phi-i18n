@@ -723,13 +723,29 @@
     "message": "This view will show granted directories, indexing state, chunk counts, and reindex actions",
     "description": "Location: Sentinel. Knowledge-indexing directory page. Preview of the folder state, chunk counts, and reindex controls planned for this view."
   },
+  "layout_app_shell_accessible_label_dismiss_service_recovery_warning": {
+    "message": "Dismiss service warning",
+    "description": "Location: Sentinel. Shared application chrome and loading states. Shared layout copy, including startup loading messages and service recovery warnings. Accessible name for the icon button that dismisses the exhausted service recovery warning for the current failure occurrence."
+  },
   "layout_app_shell_accessible_label_opening_sentinel": {
     "message": "Opening Sentinel",
-    "description": "Location: Sentinel. Shared application chrome and loading states. Full-window loading screen shown while the dashboard opens. Screen-reader status announced while the application workspace opens."
+    "description": "Location: Sentinel. Shared application chrome and loading states. Shared layout copy, including startup loading messages and service recovery warnings. Screen-reader status announced while the application workspace opens."
+  },
+  "layout_app_shell_description_service_recovery_exhausted": {
+    "message": "Sentinel stopped automatic recovery after the service reached its restart limit. Quit PhiBrowser, then restart Sentinel. If the problem remains, restart your Mac.",
+    "description": "Location: Sentinel. Shared application chrome and loading states. Shared layout copy, including startup loading messages and service recovery warnings. Guidance in the global warning banner after the app reaches its automatic restart limit for a background service."
   },
   "layout_app_shell_description_startup_progress": {
     "message": "Connecting to the local bridge, checking Runner status, and preparing the workspace.",
-    "description": "Location: Sentinel. Shared application chrome and loading states. Full-window loading screen shown while the dashboard opens. Startup status shown while required background connections are checked and the workspace is prepared."
+    "description": "Location: Sentinel. Shared application chrome and loading states. Shared layout copy, including startup loading messages and service recovery warnings. Startup status shown while required background connections are checked and the workspace is prepared."
+  },
+  "layout_app_shell_label_affected_services": {
+    "message": "Affected services: {{services}}",
+    "description": "Location: Sentinel. Shared application chrome and loading states. Shared layout copy, including startup loading messages and service recovery warnings. List of services whose automatic recovery limit was reached. {{services}} is a comma-separated display-name list."
+  },
+  "layout_app_shell_title_service_recovery_exhausted": {
+    "message": "A background service needs attention",
+    "description": "Location: Sentinel. Shared application chrome and loading states. Shared layout copy, including startup loading messages and service recovery warnings. Global warning banner title when automatic recovery is exhausted for one or more background services."
   },
   "layout_top_bar_accessible_label_auto_theme": {
     "message": "Auto theme ({{theme}})",

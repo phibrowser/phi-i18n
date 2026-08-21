@@ -542,11 +542,23 @@
   "knowledge_will_show": {
     "message": "此视图将显示已授权的目录、索引状态、分块数量和重新索引操作"
   },
+  "layout_app_shell_accessible_label_dismiss_service_recovery_warning": {
+    "message": "关闭服务警告"
+  },
   "layout_app_shell_accessible_label_opening_sentinel": {
     "message": "正在打开 Sentinel"
   },
+  "layout_app_shell_description_service_recovery_exhausted": {
+    "message": "服务已达到重启次数上限，Sentinel 已停止自动恢复。请退出 Phi Browser，然后重启 Sentinel。如果问题仍然存在，请重启 Mac。"
+  },
   "layout_app_shell_description_startup_progress": {
     "message": "正在连接本地桥接服务、检查后台服务状态并准备工作区。"
+  },
+  "layout_app_shell_label_affected_services": {
+    "message": "受影响的服务：{{services}}"
+  },
+  "layout_app_shell_title_service_recovery_exhausted": {
+    "message": "有后台服务需要处理"
   },
   "layout_top_bar_accessible_label_auto_theme": {
     "message": "自动主题（{{theme}}）"

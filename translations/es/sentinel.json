@@ -542,11 +542,23 @@
   "knowledge_will_show": {
     "message": "Esta vista mostrará los directorios autorizados, el estado de indexación, el número de fragmentos y las acciones de reindexación"
   },
+  "layout_app_shell_accessible_label_dismiss_service_recovery_warning": {
+    "message": "Descartar la advertencia del servicio"
+  },
   "layout_app_shell_accessible_label_opening_sentinel": {
     "message": "Abriendo Sentinel"
   },
+  "layout_app_shell_description_service_recovery_exhausted": {
+    "message": "Sentinel ha detenido la recuperación automática porque el servicio ha alcanzado su límite de reinicios. Sal de Phi Browser y luego reinicia Sentinel. Si el problema persiste, reinicia tu Mac."
+  },
   "layout_app_shell_description_startup_progress": {
     "message": "Conectando con el puente local, verificando el estado del servicio en segundo plano y preparando el espacio de trabajo."
+  },
+  "layout_app_shell_label_affected_services": {
+    "message": "Servicios afectados: {{services}}"
+  },
+  "layout_app_shell_title_service_recovery_exhausted": {
+    "message": "Un servicio en segundo plano necesita atención"
   },
   "layout_top_bar_accessible_label_auto_theme": {
     "message": "Tema automático ({{theme}})"

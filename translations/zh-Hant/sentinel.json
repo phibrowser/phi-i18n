@@ -542,11 +542,23 @@
   "knowledge_will_show": {
     "message": "此檢視將顯示已授權的目錄、索引狀態、區塊數量與重新索引操作"
   },
+  "layout_app_shell_accessible_label_dismiss_service_recovery_warning": {
+    "message": "關閉服務警告"
+  },
   "layout_app_shell_accessible_label_opening_sentinel": {
     "message": "正在開啟 Sentinel"
   },
+  "layout_app_shell_description_service_recovery_exhausted": {
+    "message": "服務已達重新啟動次數上限，Sentinel 已停止自動復原。請先結束 Phi Browser，再重新啟動 Sentinel。若問題仍然存在，請重新啟動 Mac。"
+  },
   "layout_app_shell_description_startup_progress": {
     "message": "正在連線至本機橋接服務、檢查背景服務狀態並準備工作區。"
+  },
+  "layout_app_shell_label_affected_services": {
+    "message": "受影響的服務：{{services}}"
+  },
+  "layout_app_shell_title_service_recovery_exhausted": {
+    "message": "有背景服務需要處理"
   },
   "layout_top_bar_accessible_label_auto_theme": {
     "message": "自動主題（{{theme}}）"

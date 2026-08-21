@@ -542,11 +542,23 @@
   "knowledge_will_show": {
     "message": "このビューには、アクセスを許可したディレクトリ、インデックス作成の状態、チャンク数、再インデックスの操作が表示される予定です"
   },
+  "layout_app_shell_accessible_label_dismiss_service_recovery_warning": {
+    "message": "サービスの警告を閉じる"
+  },
   "layout_app_shell_accessible_label_opening_sentinel": {
     "message": "Sentinelを起動しています"
   },
+  "layout_app_shell_description_service_recovery_exhausted": {
+    "message": "サービスが再起動回数の上限に達したため、Sentinelは自動復旧を停止しました。Phi Browserを終了してから、Sentinelを再起動してください。問題が解決しない場合は、Macを再起動してください。"
+  },
   "layout_app_shell_description_startup_progress": {
     "message": "ローカルブリッジに接続し、バックグラウンドサービスのステータスを確認して、ワークスペースを準備しています。"
+  },
+  "layout_app_shell_label_affected_services": {
+    "message": "影響を受けたサービス：{{services}}"
+  },
+  "layout_app_shell_title_service_recovery_exhausted": {
+    "message": "バックグラウンドサービスに対応が必要です"
   },
   "layout_top_bar_accessible_label_auto_theme": {
     "message": "自動テーマ（{{theme}}）"

@@ -542,11 +542,23 @@
   "knowledge_will_show": {
     "message": "Diese Ansicht wird freigegebene Ordner, den Indexierungsstatus, Chunk-Anzahlen und Aktionen zur Neuindexierung anzeigen"
   },
+  "layout_app_shell_accessible_label_dismiss_service_recovery_warning": {
+    "message": "Dienstwarnung schließen"
+  },
   "layout_app_shell_accessible_label_opening_sentinel": {
     "message": "Sentinel wird geöffnet"
   },
+  "layout_app_shell_description_service_recovery_exhausted": {
+    "message": "Sentinel hat die automatische Wiederherstellung gestoppt, nachdem der Dienst sein Neustartlimit erreicht hat. Beende Phi Browser und starte dann Sentinel neu. Wenn das Problem weiterhin besteht, starte deinen Mac neu."
+  },
   "layout_app_shell_description_startup_progress": {
     "message": "Verbindung zur lokalen Bridge wird hergestellt, der Hintergrunddienst-Status wird geprüft und der Arbeitsbereich wird vorbereitet."
+  },
+  "layout_app_shell_label_affected_services": {
+    "message": "Betroffene Dienste: {{services}}"
+  },
+  "layout_app_shell_title_service_recovery_exhausted": {
+    "message": "Ein Hintergrunddienst benötigt Aufmerksamkeit"
   },
   "layout_top_bar_accessible_label_auto_theme": {
     "message": "Automatischer Modus ({{theme}})"
