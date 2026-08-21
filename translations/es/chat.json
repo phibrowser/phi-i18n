@@ -1343,24 +1343,6 @@
   "private_ai_banner_title": {
     "message": "Estás usando IA privada"
   },
-  "shadow_tasks_approval_approve": {
-    "message": "Aprobar"
-  },
-  "shadow_tasks_approval_approved": {
-    "message": "Aprobación enviada"
-  },
-  "shadow_tasks_approval_failed": {
-    "message": "No se pudo enviar la decisión de aprobación"
-  },
-  "shadow_tasks_approval_reject": {
-    "message": "Rechazar"
-  },
-  "shadow_tasks_approval_rejected": {
-    "message": "Rechazo enviado"
-  },
-  "shadow_tasks_approval_stale": {
-    "message": "Esta solicitud de aprobación ya no está activa"
-  },
   "shadow_tasks_artifacts_empty": {
     "message": "No hay artefactos disponibles"
   },
@@ -1394,20 +1376,11 @@
   "shadow_tasks_empty": {
     "message": "Aún no hay tareas en segundo plano"
   },
-  "shadow_tasks_fields_approval_mode": {
-    "message": "Modo de aprobación"
-  },
-  "shadow_tasks_fields_approved_at": {
-    "message": "Aprobada el"
-  },
   "shadow_tasks_fields_created_at": {
     "message": "Creada el"
   },
   "shadow_tasks_fields_finished_at": {
     "message": "Finalizada el"
-  },
-  "shadow_tasks_fields_job_id": {
-    "message": "ID del trabajo"
   },
   "shadow_tasks_fields_objective": {
     "message": "Objetivo"
@@ -1417,9 +1390,6 @@
   },
   "shadow_tasks_fields_run_index": {
     "message": "Índice de ejecución"
-  },
-  "shadow_tasks_fields_shadow_task_call_count": {
-    "message": "Llamadas a la herramienta SHADOW_TASK"
   },
   "shadow_tasks_fields_started_at": {
     "message": "Iniciada el"
@@ -1432,6 +1402,9 @@
   },
   "shadow_tasks_fields_task_status": {
     "message": "Estado de la tarea"
+  },
+  "shadow_tasks_fields_tool_call_count": {
+    "message": "Llamadas a herramientas"
   },
   "shadow_tasks_fields_trigger_source": {
     "message": "Origen de la activación"
@@ -1485,7 +1458,7 @@
     "message": "No se pudo enviar la tarea en segundo plano"
   },
   "shadow_tasks_prepare_success": {
-    "message": "Tarea en segundo plano enviada para aprobación"
+    "message": "Tarea en segundo plano iniciada"
   },
   "shadow_tasks_recordings_empty": {
     "message": "No hay grabaciones disponibles para esta tarea"
@@ -1624,9 +1597,6 @@
   },
   "shadow_tasks_status_running": {
     "message": "En ejecución"
-  },
-  "shadow_tasks_status_waiting_for_user": {
-    "message": "Esperando aprobación"
   },
   "shadow_tasks_stream_closed_tab_hint": {
     "message": "Esta pestaña ya está cerrada. Reintenta solo si la vista previa de abajo sigue disponible."

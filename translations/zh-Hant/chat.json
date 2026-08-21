@@ -1343,24 +1343,6 @@
   "private_ai_banner_title": {
     "message": "你正在使用私有 AI"
   },
-  "shadow_tasks_approval_approve": {
-    "message": "核准"
-  },
-  "shadow_tasks_approval_approved": {
-    "message": "已送出核准"
-  },
-  "shadow_tasks_approval_failed": {
-    "message": "無法送出核准決定"
-  },
-  "shadow_tasks_approval_reject": {
-    "message": "拒絕"
-  },
-  "shadow_tasks_approval_rejected": {
-    "message": "已送出拒絕"
-  },
-  "shadow_tasks_approval_stale": {
-    "message": "此核准請求已失效"
-  },
   "shadow_tasks_artifacts_empty": {
     "message": "沒有可用的產出物"
   },
@@ -1394,20 +1376,11 @@
   "shadow_tasks_empty": {
     "message": "目前還沒有背景任務"
   },
-  "shadow_tasks_fields_approval_mode": {
-    "message": "核准模式"
-  },
-  "shadow_tasks_fields_approved_at": {
-    "message": "核准時間"
-  },
   "shadow_tasks_fields_created_at": {
     "message": "建立時間"
   },
   "shadow_tasks_fields_finished_at": {
     "message": "完成時間"
-  },
-  "shadow_tasks_fields_job_id": {
-    "message": "工作 ID"
   },
   "shadow_tasks_fields_objective": {
     "message": "目標"
@@ -1417,9 +1390,6 @@
   },
   "shadow_tasks_fields_run_index": {
     "message": "執行序號"
-  },
-  "shadow_tasks_fields_shadow_task_call_count": {
-    "message": "背景任務工具呼叫次數"
   },
   "shadow_tasks_fields_started_at": {
     "message": "開始時間"
@@ -1432,6 +1402,9 @@
   },
   "shadow_tasks_fields_task_status": {
     "message": "任務狀態"
+  },
+  "shadow_tasks_fields_tool_call_count": {
+    "message": "工具呼叫次數"
   },
   "shadow_tasks_fields_trigger_source": {
     "message": "觸發來源"
@@ -1485,7 +1458,7 @@
     "message": "無法送出背景任務"
   },
   "shadow_tasks_prepare_success": {
-    "message": "背景任務已送出，等待核准"
+    "message": "背景任務已開始執行"
   },
   "shadow_tasks_recordings_empty": {
     "message": "此任務沒有可用的錄影"
@@ -1624,9 +1597,6 @@
   },
   "shadow_tasks_status_running": {
     "message": "執行中"
-  },
-  "shadow_tasks_status_waiting_for_user": {
-    "message": "等待核准"
   },
   "shadow_tasks_stream_closed_tab_hint": {
     "message": "這個分頁已經關閉。只有在下方的預覽仍然可用時才需要重試。"

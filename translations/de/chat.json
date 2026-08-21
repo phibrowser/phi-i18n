@@ -1343,24 +1343,6 @@
   "private_ai_banner_title": {
     "message": "Du verwendest Private KI"
   },
-  "shadow_tasks_approval_approve": {
-    "message": "Genehmigen"
-  },
-  "shadow_tasks_approval_approved": {
-    "message": "Genehmigung übermittelt"
-  },
-  "shadow_tasks_approval_failed": {
-    "message": "Genehmigungsentscheidung konnte nicht übermittelt werden"
-  },
-  "shadow_tasks_approval_reject": {
-    "message": "Ablehnen"
-  },
-  "shadow_tasks_approval_rejected": {
-    "message": "Ablehnung übermittelt"
-  },
-  "shadow_tasks_approval_stale": {
-    "message": "Diese Genehmigungsanfrage ist nicht mehr aktiv"
-  },
   "shadow_tasks_artifacts_empty": {
     "message": "Keine Artefakte verfügbar"
   },
@@ -1394,20 +1376,11 @@
   "shadow_tasks_empty": {
     "message": "Noch keine Hintergrundaufgaben"
   },
-  "shadow_tasks_fields_approval_mode": {
-    "message": "Genehmigungsmodus"
-  },
-  "shadow_tasks_fields_approved_at": {
-    "message": "Genehmigt am"
-  },
   "shadow_tasks_fields_created_at": {
     "message": "Erstellt am"
   },
   "shadow_tasks_fields_finished_at": {
     "message": "Beendet am"
-  },
-  "shadow_tasks_fields_job_id": {
-    "message": "Job-ID"
   },
   "shadow_tasks_fields_objective": {
     "message": "Ziel"
@@ -1417,9 +1390,6 @@
   },
   "shadow_tasks_fields_run_index": {
     "message": "Ausführungsindex"
-  },
-  "shadow_tasks_fields_shadow_task_call_count": {
-    "message": "Tool-Aufrufe (SHADOW_TASK)"
   },
   "shadow_tasks_fields_started_at": {
     "message": "Gestartet am"
@@ -1432,6 +1402,9 @@
   },
   "shadow_tasks_fields_task_status": {
     "message": "Aufgabenstatus"
+  },
+  "shadow_tasks_fields_tool_call_count": {
+    "message": "Tool-Aufrufe"
   },
   "shadow_tasks_fields_trigger_source": {
     "message": "Auslöserquelle"
@@ -1485,7 +1458,7 @@
     "message": "Hintergrundaufgabe konnte nicht übermittelt werden"
   },
   "shadow_tasks_prepare_success": {
-    "message": "Hintergrundaufgabe zur Genehmigung eingereicht"
+    "message": "Hintergrundaufgabe gestartet"
   },
   "shadow_tasks_recordings_empty": {
     "message": "Für diese Aufgabe sind keine Aufzeichnungen verfügbar"
@@ -1624,9 +1597,6 @@
   },
   "shadow_tasks_status_running": {
     "message": "Wird ausgeführt"
-  },
-  "shadow_tasks_status_waiting_for_user": {
-    "message": "Wartet auf Freigabe"
   },
   "shadow_tasks_stream_closed_tab_hint": {
     "message": "Dieser Tab ist bereits geschlossen. Versuche es nur erneut, wenn darunter noch eine Vorschau verfügbar ist."

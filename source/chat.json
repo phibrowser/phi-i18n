@@ -552,7 +552,7 @@
     "description": "Location: Chat. Menu shown when the user right-clicks selected text and wants to ask the assistant about it. Default menu action before a selection preview is available; {{agentName}} is the assistant's name."
   },
   "context_menu_ask_about_selection": {
-    "message": "Ask {{agentName}} about \"{{selection}}\"",
+    "message": "Ask {{agentName}} about “{{selection}}”",
     "description": "Location: Chat. Menu shown when the user right-clicks selected text and wants to ask the assistant about it. Menu action with a selected-text preview; {{agentName}} is the assistant's name and {{selection}} is the selected text, possibly truncated."
   },
   "conversation_add_category": {
@@ -1791,30 +1791,6 @@
     "message": "You're using Private AI",
     "description": "Location: Chat. Banner shown while chatting with the local (Private AI) model. Banner headline; 'Private AI' is the local-model feature name."
   },
-  "shadow_tasks_approval_approve": {
-    "message": "Approve",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Approve/reject controls for a task waiting on the user. Button: approve the pending task."
-  },
-  "shadow_tasks_approval_approved": {
-    "message": "Approval submitted",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Approve/reject controls for a task waiting on the user. Toast after approval submits."
-  },
-  "shadow_tasks_approval_failed": {
-    "message": "Failed to submit approval decision",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Approve/reject controls for a task waiting on the user. Toast when submitting the decision fails."
-  },
-  "shadow_tasks_approval_reject": {
-    "message": "Reject",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Approve/reject controls for a task waiting on the user. Button: reject the pending task."
-  },
-  "shadow_tasks_approval_rejected": {
-    "message": "Rejection submitted",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Approve/reject controls for a task waiting on the user. Toast after rejection submits."
-  },
-  "shadow_tasks_approval_stale": {
-    "message": "This approval request is no longer active",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Approve/reject controls for a task waiting on the user. Toast: the approval request expired."
-  },
   "shadow_tasks_artifacts_empty": {
     "message": "No artifacts available",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Files produced by a run. Empty state: no artifacts."
@@ -1859,14 +1835,6 @@
     "message": "No shadow tasks yet",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Empty state: no tasks exist."
   },
-  "shadow_tasks_fields_approval_mode": {
-    "message": "Approval mode",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: whether the task needs the user's approval before running."
-  },
-  "shadow_tasks_fields_approved_at": {
-    "message": "Approved at",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label (timestamp)."
-  },
   "shadow_tasks_fields_created_at": {
     "message": "Created at",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label (timestamp)."
@@ -1874,10 +1842,6 @@
   "shadow_tasks_fields_finished_at": {
     "message": "Finished at",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label (timestamp)."
-  },
-  "shadow_tasks_fields_job_id": {
-    "message": "Job ID",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: the identifier of the scheduled job behind the run."
   },
   "shadow_tasks_fields_objective": {
     "message": "Objective",
@@ -1890,10 +1854,6 @@
   "shadow_tasks_fields_run_index": {
     "message": "Run index",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: the position of this run among the task's runs."
-  },
-  "shadow_tasks_fields_shadow_task_call_count": {
-    "message": "Shadow Task tool calls",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: how many SHADOW_TASK tool calls the run made."
   },
   "shadow_tasks_fields_started_at": {
     "message": "Started at",
@@ -1910,6 +1870,10 @@
   "shadow_tasks_fields_task_status": {
     "message": "Task status",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: where the task currently stands."
+  },
+  "shadow_tasks_fields_tool_call_count": {
+    "message": "Tool calls",
+    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: how many background-task tool calls the run made."
   },
   "shadow_tasks_fields_trigger_source": {
     "message": "Trigger source",
@@ -1980,8 +1944,8 @@
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Toast: creating the shadow task failed."
   },
   "shadow_tasks_prepare_success": {
-    "message": "Shadow task submitted for approval",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Toast: shadow task created and awaiting approval."
+    "message": "Shadow task started",
+    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Toast: the background task was created and has started running."
   },
   "shadow_tasks_recordings_empty": {
     "message": "No recordings available for this task",
@@ -2166,10 +2130,6 @@
   "shadow_tasks_status_running": {
     "message": "Running",
     "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Task/run status names (also used as filter options). Status: currently executing."
-  },
-  "shadow_tasks_status_waiting_for_user": {
-    "message": "Waiting for approval",
-    "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Task/run status names (also used as filter options). Status: needs user approval."
   },
   "shadow_tasks_stream_closed_tab_hint": {
     "message": "This tab is already closed. Retry only if preview is still available underneath.",

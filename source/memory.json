@@ -556,7 +556,7 @@
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. Relationship-first detail card shown when a real Memory Galaxy content node is focused. Destructive confirmation button that deletes the selected node's supporting records."
   },
   "memory_management_galaxy_focused_card_delete_sources_confirm_description": {
-    "message": "Direct sources selected — memories: {{memoryCount}}; observations: {{observationCount}}. This permanently deletes those records. Parent memories also remove their nested records, and connected Galaxy nodes may change or disappear.",
+    "message": "Direct sources selected. Memories: {{memoryCount}}; observations: {{observationCount}}. This permanently deletes those records. Parent memories also remove their nested records, and connected Galaxy nodes may change or disappear.",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. Relationship-first detail card shown when a real Memory Galaxy content node is focused. Permanent-deletion warning; {{memoryCount}} and {{observationCount}} identify direct supporting records and the copy warns that parent-memory subtree deletion can affect more records."
   },
   "memory_management_galaxy_focused_card_delete_sources_confirm_title": {

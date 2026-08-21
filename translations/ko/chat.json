@@ -1343,24 +1343,6 @@
   "private_ai_banner_title": {
     "message": "프라이빗 AI를 사용하고 있어요"
   },
-  "shadow_tasks_approval_approve": {
-    "message": "승인"
-  },
-  "shadow_tasks_approval_approved": {
-    "message": "승인을 제출했어요"
-  },
-  "shadow_tasks_approval_failed": {
-    "message": "승인 결정을 제출하지 못했어요"
-  },
-  "shadow_tasks_approval_reject": {
-    "message": "거부"
-  },
-  "shadow_tasks_approval_rejected": {
-    "message": "거부를 제출했어요"
-  },
-  "shadow_tasks_approval_stale": {
-    "message": "이 승인 요청은 더 이상 유효하지 않아요"
-  },
   "shadow_tasks_artifacts_empty": {
     "message": "아티팩트가 없어요"
   },
@@ -1394,20 +1376,11 @@
   "shadow_tasks_empty": {
     "message": "아직 백그라운드 작업이 없어요"
   },
-  "shadow_tasks_fields_approval_mode": {
-    "message": "승인 모드"
-  },
-  "shadow_tasks_fields_approved_at": {
-    "message": "승인 시각"
-  },
   "shadow_tasks_fields_created_at": {
     "message": "생성 시각"
   },
   "shadow_tasks_fields_finished_at": {
     "message": "종료 시각"
-  },
-  "shadow_tasks_fields_job_id": {
-    "message": "잡 ID"
   },
   "shadow_tasks_fields_objective": {
     "message": "목표"
@@ -1417,9 +1390,6 @@
   },
   "shadow_tasks_fields_run_index": {
     "message": "실행 순번"
-  },
-  "shadow_tasks_fields_shadow_task_call_count": {
-    "message": "SHADOW_TASK 도구 호출 횟수"
   },
   "shadow_tasks_fields_started_at": {
     "message": "시작 시각"
@@ -1432,6 +1402,9 @@
   },
   "shadow_tasks_fields_task_status": {
     "message": "작업 상태"
+  },
+  "shadow_tasks_fields_tool_call_count": {
+    "message": "도구 호출 횟수"
   },
   "shadow_tasks_fields_trigger_source": {
     "message": "트리거 출처"
@@ -1485,7 +1458,7 @@
     "message": "백그라운드 작업을 제출하지 못했어요"
   },
   "shadow_tasks_prepare_success": {
-    "message": "백그라운드 작업이 제출되어 승인을 기다리고 있어요"
+    "message": "백그라운드 작업이 시작됐어요"
   },
   "shadow_tasks_recordings_empty": {
     "message": "이 작업에는 녹화가 없어요"
@@ -1624,9 +1597,6 @@
   },
   "shadow_tasks_status_running": {
     "message": "실행 중"
-  },
-  "shadow_tasks_status_waiting_for_user": {
-    "message": "승인 대기 중"
   },
   "shadow_tasks_stream_closed_tab_hint": {
     "message": "이 탭은 이미 닫혔어요. 아래에 미리보기가 아직 남아 있을 때만 다시 시도하세요."
