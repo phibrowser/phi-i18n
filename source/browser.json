@@ -43,6 +43,10 @@
     "message": "Active",
     "description": "Location: Browser. Search Tabs - Trailing label for the active tab result"
   },
+  "add_bottom_split": {
+    "message": "Add Bottom Split",
+    "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the bottom third of the page"
+  },
   "add_left_split": {
     "message": "Add Left Split",
     "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the left third of the page"
@@ -98,6 +102,10 @@
   "add_to_group": {
     "message": "Add to Group",
     "description": "Location: Browser. Tab context menu - Submenu to add this tab to an existing tab group"
+  },
+  "add_top_split": {
+    "message": "Add Top Split",
+    "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the top third of the page"
   },
   "additional_browser_settings": {
     "message": "Additional browser settings",
@@ -399,6 +407,10 @@
     "message": "Ask every time",
     "description": "Location: Browser. Special target in the URL rule Space picker: prompt for a Space on each match"
   },
+  "assign": {
+    "message": "Assign",
+    "description": "Location: Browser. AI settings - Button that assigns an existing unassigned connector to the selected browser Profile"
+  },
   "attach_files": {
     "message": "Attach files",
     "description": "Location: Browser. Feedback form - Label for file attachment section"
@@ -458,6 +470,10 @@
   "backing_up_ai_data": {
     "message": "Backing Up AI Data",
     "description": "Location: Browser. User data export - Progress alert title while AI data is being prepared"
+  },
+  "backup_data_size": {
+    "message": "Backup data size: %@",
+    "description": "Location: Browser. Help menu - Selected Time Machine backup logical data size; placeholder is a formatted byte count or an unavailable label"
   },
   "backup_failed": {
     "message": "Backup Failed",
@@ -811,6 +827,10 @@
     "message": "Cancel",
     "description": "Location: Browser. Time Machine restore - Cancel confirmation button"
   },
+  "cancel_dc1e31": {
+    "message": "Cancel",
+    "description": "Location: Browser. Help menu - Button that cancels Time Machine backup deletion"
+  },
   "cancel_ee61d8": {
     "message": "Cancel",
     "description": "Location: Browser. User data export - Button cancelling AI data backup preparation"
@@ -863,9 +883,17 @@
     "message": "Change Color",
     "description": "Location: Browser. Tab group context menu - Submenu to change the group color"
   },
+  "change_folder_icon": {
+    "message": "Change Folder Icon",
+    "description": "Location: Browser. Bookmark folder icon picker - Accessibility label and help text for choosing a folder icon"
+  },
   "change_icon": {
     "message": "Change Icon…",
     "description": "Location: Browser. Spaces menu - opens the icon/emoji picker below the active Space's icon"
+  },
+  "change_icon_36119c": {
+    "message": "Change Icon...",
+    "description": "Location: Browser. Bookmark folder context menu - Opens the folder icon picker"
   },
   "change_icon_6b2a15": {
     "message": "Change Icon…",
@@ -959,6 +987,10 @@
     "message": "Choose Files",
     "description": "Location: Browser. Feedback form - Button to open file picker for attachments"
   },
+  "choose_space": {
+    "message": "Choose Space",
+    "description": "Location: Browser. Kiosk toolbar - Accessibility label and tooltip for the button that shows the Space list"
+  },
   "choose_which_profiles_agents_may_create_their": {
     "message": "Choose which profiles agents may create their own Spaces in. Turning a profile off stops agents from opening any new Space bound to it; existing Spaces are unaffected.",
     "description": "Location: Browser. Developer settings - Explanation for the per-profile agent-Space allowlist"
@@ -1027,6 +1059,10 @@
     "message": "Close",
     "description": "Location: Browser. Tab context menu - Menu item to close the selected tab"
   },
+  "close_9f9dbb": {
+    "message": "Close",
+    "description": "Location: Browser. Peek popup panel - Tooltip of the button that closes the floating page preview and its page"
+  },
   "close_b52252": {
     "message": "Close",
     "description": "Location: Browser. Confirm closing an Incognito Space"
@@ -1054,6 +1090,14 @@
   "close_other_tabs_e9641f": {
     "message": "Close Other Tabs",
     "description": "Location: Browser. Tab context menu - Menu item to close all tabs except the selected one"
+  },
+  "close_peek": {
+    "message": "Close Peek",
+    "description": "Location: Browser. Bookmark sidebar row - Tooltip of the minus button that closes the floating page preview opened from this bookmark"
+  },
+  "close_peek_d9aa2e": {
+    "message": "Close Peek",
+    "description": "Location: Browser. Pinned tab cell - Tooltip of the corner badge that closes the floating page preview opened from this pinned tab"
   },
   "close_side_panel": {
     "message": "Close Side Panel",
@@ -1159,9 +1203,17 @@
     "message": "Connection is secure",
     "description": "Location: Browser. Website security secure"
   },
+  "connections_are_isolated_to_the_selected_profile": {
+    "message": "Connections are isolated to the selected Profile.",
+    "description": "Location: Browser. AI settings - Explanation that connector accounts belong only to the selected browser Profile"
+  },
   "connector_authorization_failed": {
     "message": "Connector authorization failed.",
     "description": "Location: Browser. AI settings - OAuth authorization failure"
+  },
+  "connectors_for_profile": {
+    "message": "Connectors for Profile",
+    "description": "Location: Browser. AI settings - Label for selecting the browser Profile whose connectors are managed"
   },
   "content_context_openlinkinspace": {
     "message": "Open Link In Space <ph name=\"SPACE\"/>",
@@ -1186,6 +1238,14 @@
   "continue": {
     "message": "Continue",
     "description": "Location: Browser. Bitwarden login sheet - continue button"
+  },
+  "convert_to_horizontal_split": {
+    "message": "Convert to Horizontal Split",
+    "description": "Location: Browser. Split context menu - Switch a stacked split to a side-by-side split"
+  },
+  "convert_to_vertical_split": {
+    "message": "Convert to Vertical Split",
+    "description": "Location: Browser. Split context menu - Switch a side-by-side split to a stacked split"
   },
   "cookies": {
     "message": "Cookies",
@@ -1403,6 +1463,10 @@
     "message": "Delete “%@”?",
     "description": "Location: Browser. Title of the delete-Space confirmation"
   },
+  "delete_2d08a5": {
+    "message": "Delete",
+    "description": "Location: Browser. Help menu - Destructive button that confirms Time Machine backup deletion"
+  },
   "delete_4a29a4": {
     "message": "Delete “%@”?",
     "description": "Location: Browser. Title of the delete-Space confirmation"
@@ -1430,6 +1494,10 @@
   "delete_b6293c": {
     "message": "Delete",
     "description": "Location: Browser. Delete bookmark menu item"
+  },
+  "delete_backup": {
+    "message": "Delete Backup",
+    "description": "Location: Browser. Help menu - Button in the selected Time Machine backup details alert that starts deletion"
   },
   "delete_bookmark": {
     "message": "Delete %d Bookmark?",
@@ -1519,6 +1587,10 @@
     "message": "Delete Space…",
     "description": "Location: Browser. Spaces menu - Delete the active Space"
   },
+  "delete_time_machine_backup": {
+    "message": "Delete Time Machine Backup?",
+    "description": "Location: Browser. Help menu - Title of the Time Machine backup deletion confirmation"
+  },
   "delete_your_phi_account": {
     "message": "Delete your Phi account?",
     "description": "Location: Browser. Account deletion - Title of the warning shown before deleting the Phi account"
@@ -1526,6 +1598,14 @@
   "deleted": {
     "message": "Deleted",
     "description": "Location: Browser. Download item row - Status label when downloaded file was deleted"
+  },
+  "deleting_backup": {
+    "message": "Deleting Backup",
+    "description": "Location: Browser. Time Machine backup deletion progress title"
+  },
+  "deleting_will_permanently_remove_this_restore_point": {
+    "message": "Deleting %@ will permanently remove this restore point. Your current Phi app and data will not be affected. This cannot be undone.",
+    "description": "Location: Browser. Help menu - Time Machine backup deletion confirmation; placeholder is the selected backup title"
   },
   "deny": {
     "message": "Deny",
@@ -1786,6 +1866,10 @@
   "enable_external_data_connectors": {
     "message": "Enable External Data Connectors",
     "description": "Location: Browser. AI settings - Toggle to enable external data connectors"
+  },
+  "enable_peek_view": {
+    "message": "Enable Peek View",
+    "description": "Location: Browser. Navigations settings - Toggle title for enabling Peek View"
   },
   "encrypted": {
     "message": "Encrypted",
@@ -2187,6 +2271,10 @@
     "message": "History",
     "description": "Location: Browser. Shortcuts settings - Section title for browsing history commands"
   },
+  "hold_command_and_option_while_clicking_a": {
+    "message": "Hold Command and Option while clicking a link to open it in a Kiosk window.",
+    "description": "Location: Browser. Navigations settings - Explanation of the Command-Option Kiosk toggle"
+  },
   "hold_to_switch": {
     "message": "Hold ⌘ to switch →",
     "description": "Location: Browser. Omnibox suggestion - Hint shown for suggestions that can switch to an open tab"
@@ -2423,6 +2511,14 @@
     "message": "Keep",
     "description": "Location: Browser. Tooltip for keep button on safety warning in living downloads toast"
   },
+  "kiosk": {
+    "message": "Kiosk",
+    "description": "Location: Browser. Navigations settings - Kiosk section title"
+  },
+  "kiosk_68dd86": {
+    "message": "Kiosk",
+    "description": "Location: Browser. URL rules editor - Destination that opens matching URLs in a Kiosk window"
+  },
   "language": {
     "message": "Language",
     "description": "Location: Browser. General settings - Language section title"
@@ -2515,6 +2611,10 @@
     "message": "Linking...",
     "description": "Location: Browser. Phi Link - Custom bot linking text"
   },
+  "links_opened_from_other_apps_use_a": {
+    "message": "Links opened from other apps use a focused, single-page Kiosk window.",
+    "description": "Location: Browser. Navigations settings - Explanation of the external-links Kiosk toggle"
+  },
   "links_the_skill_bundled_in_this_app": {
     "message": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Phi over the DevTools Protocol. Pi also gets a companion extension that wakes idle sessions from Agent Transcript commands. Requires Node 22+.",
     "description": "Location: Browser. Developer settings - Explanation for the phi-browser skill installer"
@@ -2558,6 +2658,10 @@
   "manage_extensions_42bb17": {
     "message": "Manage Extensions",
     "description": "Location: Browser. Extension list - Button to open extensions management page"
+  },
+  "manage_url_rules": {
+    "message": "Manage URL Rules…",
+    "description": "Location: Browser. Navigations settings - Title of the row that opens the URL Rules editor"
   },
   "manage_user_data": {
     "message": "Manage User Data",
@@ -2674,6 +2778,10 @@
   "name_is_too_long_maximum_100_characters": {
     "message": "Name is too long (maximum 100 characters)",
     "description": "Location: Browser. Set name page - Error message when user name exceeds 100 characters"
+  },
+  "navigation": {
+    "message": "Navigation",
+    "description": "Location: Browser. Settings - Tab title for link-opening behavior"
   },
   "needs_a_credential_for_but_your_vault": {
     "message": "“%1$@” needs a credential for %2$@, but your vault is locked. Enter your master password to unlock.",
@@ -3007,6 +3115,10 @@
     "message": "Normal",
     "description": "Location: Browser. Auto picture-in-picture option - pop out and stay in place"
   },
+  "not_assigned_to_a_profile": {
+    "message": "Not assigned to a Profile",
+    "description": "Location: Browser. AI settings - Connector row status for an existing connection that has not yet been assigned to a browser Profile"
+  },
   "not_configured": {
     "message": "Not configured",
     "description": "Location: Browser. Phi Link - Custom bot not configured status"
@@ -3103,6 +3215,10 @@
     "message": "OK",
     "description": "Location: Browser. Account settings - OK button"
   },
+  "ok_6d446e": {
+    "message": "OK",
+    "description": "Location: Browser. Help menu - Button that dismisses a Time Machine backup deletion failure"
+  },
   "ok_7620a9": {
     "message": "OK",
     "description": "Location: Browser. Dismiss button"
@@ -3171,6 +3287,10 @@
     "message": "Only once",
     "description": "Location: Browser. Credential approval - duration segment"
   },
+  "open_a_browser_window_for_the_selected": {
+    "message": "Open a browser window for the selected Profile to continue.",
+    "description": "Location: Browser. AI settings - OAuth authorization requires an open window for the selected browser Profile"
+  },
   "open_as_split": {
     "message": "Open as Split",
     "description": "Location: Browser. Tab multi-selection context menu - split exactly two selected tabs into paired panes"
@@ -3183,13 +3303,25 @@
     "message": "Open as Split",
     "description": "Location: Browser. Bookmark context menu - Open this bookmark as a new tab paired with the current tab in a split"
   },
+  "open_as_split_view": {
+    "message": "Open as Split View",
+    "description": "Location: Browser. Peek popup panel - Tooltip of the button that pairs the floating page preview with its bound tab in a side-by-side split view"
+  },
+  "open_as_tab": {
+    "message": "Open as Tab",
+    "description": "Location: Browser. Peek popup panel - Tooltip of the button that converts the floating page preview into a regular tab"
+  },
   "open_devtools": {
     "message": "Open DevTools",
     "description": "Location: Browser. Shortcuts settings - Command title for opening developer tools"
   },
+  "open_external_links_in_kiosk": {
+    "message": "Open external links in Kiosk",
+    "description": "Location: Browser. Navigations settings - Toggle title for opening links from other apps in Kiosk windows"
+  },
   "open_in": {
     "message": "Open in",
-    "description": "Location: Browser. Leading label for a URL rule's target Space"
+    "description": "Location: Browser. Kiosk toolbar - Prefix before the active Space name in the primary open action"
   },
   "open_in_new_tab": {
     "message": "Open in New Tab",
@@ -3198,6 +3330,14 @@
   "open_in_telegram": {
     "message": "Open in Telegram",
     "description": "Location: Browser. Phi Link - Open official bot link in Telegram"
+  },
+  "open_kiosk_when_clicking_links_with_held": {
+    "message": "Open Kiosk when clicking links with ⌘⌥ held",
+    "description": "Location: Browser. Navigations settings - Toggle title for opening clicked links in Kiosk while Command and Option are held"
+  },
+  "open_links_in_a_lightweight_window_one": {
+    "message": "Open links in a lightweight window, one page at a time.",
+    "description": "Location: Browser. Navigations settings - Description of Kiosk windows"
   },
   "open_settings": {
     "message": "Open Settings",
@@ -3259,6 +3399,10 @@
     "message": "Paused",
     "description": "Location: Browser. Developer settings - temporary block pill"
   },
+  "peek": {
+    "message": "Peek",
+    "description": "Location: Browser. Navigations settings - Peek section title"
+  },
   "performance": {
     "message": "Performance",
     "description": "Location: Browser. Onboarding layout selection - Performance option"
@@ -3286,6 +3430,10 @@
   "phi_could_not_be_uninstalled": {
     "message": "Phi Could Not Be Uninstalled",
     "description": "Location: Browser. Phi uninstall - Error alert title when the uninstall helper could not be prepared or launched"
+  },
+  "phi_could_not_delete_the_time_machine": {
+    "message": "Phi could not delete the Time Machine backup: %@",
+    "description": "Location: Browser. Help menu - Time Machine backup deletion failure body; placeholder is the error description"
   },
   "phi_could_not_read_time_machine_backups": {
     "message": "Phi could not read Time Machine backups: %@",
@@ -3442,6 +3590,10 @@
   "press_shortcut": {
     "message": "Press shortcut…",
     "description": "Location: Browser. Shortcuts settings - Prompt text when recording new shortcut"
+  },
+  "preview_a_link_without_opening_it_in": {
+    "message": "Preview a link without opening it in a new tab.",
+    "description": "Location: Browser. Navigations settings - Description of the Peek feature"
   },
   "preview_attachment": {
     "message": "Preview attachment",
@@ -3847,6 +3999,10 @@
     "message": "Right URL",
     "description": "Location: Browser. Bookmark editor - Label for the right (secondary) URL input field on a split-view bookmark"
   },
+  "route_matching_domains_or_urls_to_a": {
+    "message": "Route matching domains or URLs to a Space, Incognito, or Kiosk.",
+    "description": "Location: Browser. Navigations settings - Description below the URL Rules editor row title"
+  },
   "run": {
     "message": "Run",
     "description": "Location: Browser. Notification card run button - Executes the suggested action"
@@ -4111,6 +4267,10 @@
     "message": "Share",
     "description": "Location: Browser. Account settings - Section title for sharing"
   },
+  "shift_click_a_link_or_choose_open": {
+    "message": "Shift-click a link, or choose “Open Link in Peek View”, to preview it in a floating panel over the page. Available in the sidebar layouts.",
+    "description": "Location: Browser. Navigations settings - Explanation of the Peek View toggle"
+  },
   "shortcuts": {
     "message": "Shortcuts",
     "description": "Location: Browser. Settings - Tab title for keyboard shortcuts settings"
@@ -4122,6 +4282,10 @@
   "show": {
     "message": "Show",
     "description": "Location: Browser. Phi Link - Show token plaintext button"
+  },
+  "show_a_preview_card_when_hovering_over": {
+    "message": "Show a preview card when hovering over a tab",
+    "description": "Location: Browser. General settings - Toggle title for showing custom preview cards when hovering over open tabs"
   },
   "show_bookmark_bar_on_new_tab": {
     "message": "Show Bookmark Bar on New Tab",
@@ -4383,6 +4547,10 @@
     "message": "Suspicious download blocked",
     "description": "Location: Browser. Short status - suspicious file (Chromium: IDS_DOWNLOAD_BUBBLE_STATUS_WARNING_SUSPICIOUS)"
   },
+  "switch_profile": {
+    "message": "Switch Profile",
+    "description": "Location: Browser. Kiosk toolbar - Accessibility label for the current-profile menu"
+  },
   "switch_to_agent_space": {
     "message": "Switch to Agent Space",
     "description": "Location: Browser. Agent handoff prompt - open the agent Space"
@@ -4529,7 +4697,11 @@
   },
   "the_selected_time_machine_backup_is_no": {
     "message": "The selected Time Machine backup is no longer available.",
-    "description": "Location: Browser. Help menu - Time Machine restore error when a selected backup disappears"
+    "description": "Location: Browser. Help menu - Time Machine backup deletion error when the selected backup disappears"
+  },
+  "the_time_machine_backup_deletion_was_interrupted": {
+    "message": "The Time Machine backup deletion was interrupted.",
+    "description": "Location: Browser. Help menu - Time Machine backup deletion error when the deletion progress ends without a result"
   },
   "theme": {
     "message": "Theme",
@@ -4643,6 +4815,18 @@
     "message": "This will also close this Incognito Space, are you sure?",
     "description": "Location: Browser. Title of the confirmation shown when a close would tear down an Incognito Space"
   },
+  "time_machine_backup": {
+    "message": "Time Machine Backup",
+    "description": "Location: Browser. Time Machine backup deletion progress window title"
+  },
+  "time_machine_backup_419d4f": {
+    "message": "Time Machine Backup",
+    "description": "Location: Browser. Help menu - Title of the selected Time Machine backup details alert"
+  },
+  "time_machine_backup_deletion_failed": {
+    "message": "Time Machine Backup Deletion Failed",
+    "description": "Location: Browser. Help menu - Time Machine backup deletion failure alert title"
+  },
   "time_machine_backups": {
     "message": "Time Machine Backups",
     "description": "Location: Browser. Help menu - Parent menu item listing completed Phi Time Machine backups"
@@ -4753,7 +4937,7 @@
   },
   "unavailable": {
     "message": "Unavailable",
-    "description": "Location: Browser. Profiles settings - search engine list unavailable"
+    "description": "Location: Browser. Help menu - Fallback shown when a Time Machine backup's logical data size was not recorded"
   },
   "unblock": {
     "message": "Unblock",
@@ -4869,7 +5053,7 @@
   },
   "update": {
     "message": "Update",
-    "description": "Location: Browser. Sidebar header upgrade button title"
+    "description": "Location: Browser. Sidebar header upgrade button title\nTab strip update button title"
   },
   "update_available": {
     "message": "Update available",
@@ -4911,6 +5095,10 @@
     "message": "URL Rules",
     "description": "Location: Browser. Title of the universal URL rules editor"
   },
+  "url_rules_84ffe4": {
+    "message": "URL Rules",
+    "description": "Location: Browser. Navigations settings - URL Rules section title"
+  },
   "url_rules_dc27b3": {
     "message": "URL Rules",
     "description": "Location: Browser. Window title for the universal URL rules editor"
@@ -4920,7 +5108,7 @@
     "description": "Location: Browser. Toast shown after copying selected tab URLs to the clipboard"
   },
   "urls_matching_any_rule_will_open_in": {
-    "message": "URLs matching any rule will open in the assigned Space, no matter where you click or type them.",
+    "message": "URLs matching any rule will open in the selected destination, no matter where you click or type them.",
     "description": "Location: Browser. Subtitle of the universal URL rules editor"
   },
   "using_telegram_to_send_and_receive_messages": {

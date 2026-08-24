@@ -32,6 +32,9 @@
   "active": {
     "message": "当前"
   },
+  "add_bottom_split": {
+    "message": "在底部添加分屏"
+  },
   "add_left_split": {
     "message": "在左侧添加分屏"
   },
@@ -73,6 +76,9 @@
   },
   "add_to_group": {
     "message": "添加到标签页组"
+  },
+  "add_top_split": {
+    "message": "在顶部添加分屏"
   },
   "additional_browser_settings": {
     "message": "更多浏览器设置"
@@ -299,6 +305,9 @@
   "ask_every_time": {
     "message": "每次询问"
   },
+  "assign": {
+    "message": "分配"
+  },
   "attach_files": {
     "message": "附加文件"
   },
@@ -343,6 +352,9 @@
   },
   "backing_up_ai_data": {
     "message": "正在备份 AI 数据"
+  },
+  "backup_data_size": {
+    "message": "备份数据大小：%@"
   },
   "backup_failed": {
     "message": "备份失败"
@@ -608,6 +620,9 @@
   "cancel_db48e3": {
     "message": "取消"
   },
+  "cancel_dc1e31": {
+    "message": "取消"
+  },
   "cancel_ee61d8": {
     "message": "取消"
   },
@@ -647,8 +662,14 @@
   "change_color": {
     "message": "更改颜色"
   },
+  "change_folder_icon": {
+    "message": "更改文件夹图标"
+  },
   "change_icon": {
     "message": "更改图标…"
+  },
+  "change_icon_36119c": {
+    "message": "更改图标..."
   },
   "change_icon_6b2a15": {
     "message": "更改图标…"
@@ -719,6 +740,9 @@
   "choose_files": {
     "message": "选取文件"
   },
+  "choose_space": {
+    "message": "选择空间"
+  },
   "choose_which_profiles_agents_may_create_their": {
     "message": "选择智能体可以在哪些个人资料中创建自己的空间。关闭某个个人资料后，智能体将无法打开任何绑定到该个人资料的新空间；现有空间不受影响。"
   },
@@ -770,6 +794,9 @@
   "close_412a1b": {
     "message": "关闭"
   },
+  "close_9f9dbb": {
+    "message": "关闭"
+  },
   "close_b52252": {
     "message": "关闭"
   },
@@ -790,6 +817,12 @@
   },
   "close_other_tabs_e9641f": {
     "message": "关闭其他标签页"
+  },
+  "close_peek": {
+    "message": "关闭 Peek"
+  },
+  "close_peek_d9aa2e": {
+    "message": "关闭 Peek"
   },
   "close_side_panel": {
     "message": "关闭侧边栏"
@@ -869,8 +902,14 @@
   "connection_is_secure_3f3cd9": {
     "message": "连接安全"
   },
+  "connections_are_isolated_to_the_selected_profile": {
+    "message": "连接仅属于所选的个人资料。"
+  },
   "connector_authorization_failed": {
     "message": "连接器授权失败。"
+  },
+  "connectors_for_profile": {
+    "message": "个人资料的连接器"
   },
   "content_context_openlinkinspace": {
     "message": "在空间 <ph name=\"SPACE\"/> 中打开链接"
@@ -889,6 +928,12 @@
   },
   "continue": {
     "message": "继续"
+  },
+  "convert_to_horizontal_split": {
+    "message": "转换为左右分屏"
+  },
+  "convert_to_vertical_split": {
+    "message": "转换为上下分屏"
   },
   "cookies": {
     "message": "Cookie"
@@ -1052,6 +1097,9 @@
   "delete_1bd0ca": {
     "message": "要删除「%@」吗？"
   },
+  "delete_2d08a5": {
+    "message": "删除"
+  },
   "delete_4a29a4": {
     "message": "要删除「%@」吗？"
   },
@@ -1072,6 +1120,9 @@
   },
   "delete_b6293c": {
     "message": "删除"
+  },
+  "delete_backup": {
+    "message": "删除备份"
   },
   "delete_bookmark": {
     "message": "要删除 %d 个书签吗？"
@@ -1139,11 +1190,20 @@
   "delete_space_601a1a": {
     "message": "删除空间…"
   },
+  "delete_time_machine_backup": {
+    "message": "要删除时间机器备份吗？"
+  },
   "delete_your_phi_account": {
     "message": "要删除你的 Phi 账号吗？"
   },
   "deleted": {
     "message": "已删除"
+  },
+  "deleting_backup": {
+    "message": "正在删除备份"
+  },
+  "deleting_will_permanently_remove_this_restore_point": {
+    "message": "删除「%@」将永久移除这个恢复点。你当前的 Phi 应用和数据不会受到影响。此操作无法撤销。"
   },
   "deny": {
     "message": "拒绝"
@@ -1339,6 +1399,9 @@
   },
   "enable_external_data_connectors": {
     "message": "启用外部数据连接器"
+  },
+  "enable_peek_view": {
+    "message": "启用 Peek 视图"
   },
   "encrypted": {
     "message": "已加密"
@@ -1640,6 +1703,9 @@
   "history": {
     "message": "历史记录"
   },
+  "hold_command_and_option_while_clicking_a": {
+    "message": "按住 Command 和 Option 键点按链接，即可在 Kiosk 窗口中打开该链接。"
+  },
   "hold_to_switch": {
     "message": "按住 ⌘ 切换 →"
   },
@@ -1817,6 +1883,12 @@
   "keep_3a0464": {
     "message": "保留"
   },
+  "kiosk": {
+    "message": "Kiosk"
+  },
+  "kiosk_68dd86": {
+    "message": "Kiosk"
+  },
   "language": {
     "message": "语言"
   },
@@ -1886,6 +1958,9 @@
   "linking": {
     "message": "正在关联…"
   },
+  "links_opened_from_other_apps_use_a": {
+    "message": "从其他应用打开的链接将使用专注的单页 Kiosk 窗口。"
+  },
   "links_the_skill_bundled_in_this_app": {
     "message": "将此应用内置的 Skill 链接到 AI 编程智能体的 skills 文件夹中，使其能够通过 DevTools 协议驱动 Phi。Pi 还会获得一个配套扩展程序，可通过智能体转录命令唤醒空闲会话。需要 Node 22+。"
   },
@@ -1918,6 +1993,9 @@
   },
   "manage_extensions_42bb17": {
     "message": "管理扩展程序"
+  },
+  "manage_url_rules": {
+    "message": "管理网址规则…"
   },
   "manage_user_data": {
     "message": "管理用户数据"
@@ -2005,6 +2083,9 @@
   },
   "name_is_too_long_maximum_100_characters": {
     "message": "名称过长（最多 100 个字符）"
+  },
+  "navigation": {
+    "message": "导航"
   },
   "needs_a_credential_for_but_your_vault": {
     "message": "「%1$@」需要用于 %2$@ 的凭据，但你的保险库已锁定。请输入主密码解锁。"
@@ -2255,6 +2336,9 @@
   "normal": {
     "message": "标准"
   },
+  "not_assigned_to_a_profile": {
+    "message": "未分配给任何个人资料"
+  },
   "not_configured": {
     "message": "未配置"
   },
@@ -2327,6 +2411,9 @@
   "ok_659aba": {
     "message": "好"
   },
+  "ok_6d446e": {
+    "message": "好"
+  },
   "ok_7620a9": {
     "message": "好"
   },
@@ -2378,6 +2465,9 @@
   "only_once": {
     "message": "仅此一次"
   },
+  "open_a_browser_window_for_the_selected": {
+    "message": "请为所选个人资料打开一个浏览器窗口以继续。"
+  },
   "open_as_split": {
     "message": "以分屏打开"
   },
@@ -2387,17 +2477,32 @@
   "open_as_split_ab87be": {
     "message": "以分屏打开"
   },
+  "open_as_split_view": {
+    "message": "以分屏打开"
+  },
+  "open_as_tab": {
+    "message": "以标签页打开"
+  },
   "open_devtools": {
     "message": "打开开发者工具"
   },
+  "open_external_links_in_kiosk": {
+    "message": "在 Kiosk 中打开外部链接"
+  },
   "open_in": {
-    "message": "打开位置"
+    "message": "打开到"
   },
   "open_in_new_tab": {
     "message": "在新标签页中打开"
   },
   "open_in_telegram": {
     "message": "在 Telegram 中打开"
+  },
+  "open_kiosk_when_clicking_links_with_held": {
+    "message": "按住 ⌘⌥ 点按链接时打开 Kiosk"
+  },
+  "open_links_in_a_lightweight_window_one": {
+    "message": "在轻量窗口中打开链接，一次一个页面。"
   },
   "open_settings": {
     "message": "打开设置"
@@ -2444,6 +2549,9 @@
   "paused_2afbe0": {
     "message": "已暂停"
   },
+  "peek": {
+    "message": "Peek"
+  },
   "performance": {
     "message": "性能"
   },
@@ -2464,6 +2572,9 @@
   },
   "phi_could_not_be_uninstalled": {
     "message": "无法卸载 Phi"
+  },
+  "phi_could_not_delete_the_time_machine": {
+    "message": "Phi 无法删除时间机器备份：%@"
   },
   "phi_could_not_read_time_machine_backups": {
     "message": "Phi 无法读取时间机器备份：%@"
@@ -2581,6 +2692,9 @@
   },
   "press_shortcut": {
     "message": "请按下快捷键…"
+  },
+  "preview_a_link_without_opening_it_in": {
+    "message": "无需在新标签页中打开即可预览链接。"
   },
   "preview_attachment": {
     "message": "预览附件"
@@ -2885,6 +2999,9 @@
   "right_url": {
     "message": "右侧网址"
   },
+  "route_matching_domains_or_urls_to_a": {
+    "message": "将匹配的域名或网址转到指定的空间、无痕或 Kiosk。"
+  },
   "run": {
     "message": "运行"
   },
@@ -3083,6 +3200,9 @@
   "share_5f5751": {
     "message": "分享"
   },
+  "shift_click_a_link_or_choose_open": {
+    "message": "按住 Shift 点按链接，或选择「在 Peek 视图中打开链接」，即可在页面上方的浮动面板中预览。适用于侧边栏布局。"
+  },
   "shortcuts": {
     "message": "快捷键"
   },
@@ -3091,6 +3211,9 @@
   },
   "show": {
     "message": "显示"
+  },
+  "show_a_preview_card_when_hovering_over": {
+    "message": "鼠标悬停在标签页上时显示预览卡片"
   },
   "show_bookmark_bar_on_new_tab": {
     "message": "在新标签页上显示书签栏"
@@ -3287,6 +3410,9 @@
   "suspicious_download_blocked": {
     "message": "已拦截可疑下载"
   },
+  "switch_profile": {
+    "message": "切换个人资料"
+  },
   "switch_to_agent_space": {
     "message": "切换到智能体空间"
   },
@@ -3396,7 +3522,10 @@
     "message": "所选语言将在 Phi 重启后生效。要立即重启吗？"
   },
   "the_selected_time_machine_backup_is_no": {
-    "message": "所选的时间机器备份已不再可用。"
+    "message": "所选的时间机器备份已不可用。"
+  },
+  "the_time_machine_backup_deletion_was_interrupted": {
+    "message": "时间机器备份的删除过程已中断。"
   },
   "theme": {
     "message": "主题"
@@ -3481,6 +3610,15 @@
   },
   "this_will_also_close_this_incognito_space": {
     "message": "这也会关闭此无痕空间，确定吗？"
+  },
+  "time_machine_backup": {
+    "message": "时间机器备份"
+  },
+  "time_machine_backup_419d4f": {
+    "message": "时间机器备份"
+  },
+  "time_machine_backup_deletion_failed": {
+    "message": "时间机器备份删除失败"
   },
   "time_machine_backups": {
     "message": "时间机器备份"
@@ -3683,6 +3821,9 @@
   "url_rules_3a4973": {
     "message": "网址规则"
   },
+  "url_rules_84ffe4": {
+    "message": "网址规则"
+  },
   "url_rules_dc27b3": {
     "message": "网址规则"
   },
@@ -3690,7 +3831,7 @@
     "message": "已拷贝网址"
   },
   "urls_matching_any_rule_will_open_in": {
-    "message": "匹配任一规则的网址都会在指定的空间中打开，无论你在哪里点按或输入它们。"
+    "message": "匹配任一规则的网址都会在所选目标中打开，无论你在哪里点按或输入它们。"
   },
   "using_telegram_to_send_and_receive_messages": {
     "message": "通过 Telegram 与 %@ 收发消息"

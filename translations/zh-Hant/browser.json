@@ -32,6 +32,9 @@
   "active": {
     "message": "使用中"
   },
+  "add_bottom_split": {
+    "message": "加入下方分割畫面"
+  },
   "add_left_split": {
     "message": "加入左側分割畫面"
   },
@@ -73,6 +76,9 @@
   },
   "add_to_group": {
     "message": "加入群組"
+  },
+  "add_top_split": {
+    "message": "加入上方分割畫面"
   },
   "additional_browser_settings": {
     "message": "其他瀏覽器設定"
@@ -299,6 +305,9 @@
   "ask_every_time": {
     "message": "每次都詢問"
   },
+  "assign": {
+    "message": "指派"
+  },
   "attach_files": {
     "message": "附加檔案"
   },
@@ -343,6 +352,9 @@
   },
   "backing_up_ai_data": {
     "message": "正在備份 AI 資料"
+  },
+  "backup_data_size": {
+    "message": "備份資料大小：%@"
   },
   "backup_failed": {
     "message": "備份失敗"
@@ -608,6 +620,9 @@
   "cancel_db48e3": {
     "message": "取消"
   },
+  "cancel_dc1e31": {
+    "message": "取消"
+  },
   "cancel_ee61d8": {
     "message": "取消"
   },
@@ -647,8 +662,14 @@
   "change_color": {
     "message": "變更顏色"
   },
+  "change_folder_icon": {
+    "message": "更改資料夾圖示"
+  },
   "change_icon": {
     "message": "變更圖示…"
+  },
+  "change_icon_36119c": {
+    "message": "更改圖示..."
   },
   "change_icon_6b2a15": {
     "message": "變更圖示…"
@@ -719,6 +740,9 @@
   "choose_files": {
     "message": "選擇檔案"
   },
+  "choose_space": {
+    "message": "選擇空間"
+  },
   "choose_which_profiles_agents_may_create_their": {
     "message": "選擇 AI 代理可以在哪些設定檔中建立自己的空間。關閉某個設定檔後，AI 代理將無法再開啟綁定該設定檔的新空間；現有空間不受影響。"
   },
@@ -770,6 +794,9 @@
   "close_412a1b": {
     "message": "關閉"
   },
+  "close_9f9dbb": {
+    "message": "關閉"
+  },
   "close_b52252": {
     "message": "關閉"
   },
@@ -790,6 +817,12 @@
   },
   "close_other_tabs_e9641f": {
     "message": "關閉其他分頁"
+  },
+  "close_peek": {
+    "message": "關閉 Peek"
+  },
+  "close_peek_d9aa2e": {
+    "message": "關閉 Peek"
   },
   "close_side_panel": {
     "message": "關閉側邊面板"
@@ -869,8 +902,14 @@
   "connection_is_secure_3f3cd9": {
     "message": "連線安全"
   },
+  "connections_are_isolated_to_the_selected_profile": {
+    "message": "連線僅屬於所選的設定檔。"
+  },
   "connector_authorization_failed": {
     "message": "連接器授權失敗。"
+  },
+  "connectors_for_profile": {
+    "message": "連接器所屬設定檔"
   },
   "content_context_openlinkinspace": {
     "message": "在空間 <ph name=\"SPACE\"/> 中開啟連結"
@@ -889,6 +928,12 @@
   },
   "continue": {
     "message": "繼續"
+  },
+  "convert_to_horizontal_split": {
+    "message": "轉換為左右分割畫面"
+  },
+  "convert_to_vertical_split": {
+    "message": "轉換為上下分割畫面"
   },
   "cookies": {
     "message": "Cookie"
@@ -1052,6 +1097,9 @@
   "delete_1bd0ca": {
     "message": "要刪除「%@」嗎？"
   },
+  "delete_2d08a5": {
+    "message": "刪除"
+  },
   "delete_4a29a4": {
     "message": "要刪除「%@」嗎？"
   },
@@ -1072,6 +1120,9 @@
   },
   "delete_b6293c": {
     "message": "刪除"
+  },
+  "delete_backup": {
+    "message": "刪除備份"
   },
   "delete_bookmark": {
     "message": "要刪除 %d 個書籤嗎？"
@@ -1139,11 +1190,20 @@
   "delete_space_601a1a": {
     "message": "刪除空間…"
   },
+  "delete_time_machine_backup": {
+    "message": "要刪除時光機備份嗎？"
+  },
   "delete_your_phi_account": {
     "message": "要刪除你的 Phi 帳號嗎？"
   },
   "deleted": {
     "message": "已刪除"
+  },
+  "deleting_backup": {
+    "message": "正在刪除備份"
+  },
+  "deleting_will_permanently_remove_this_restore_point": {
+    "message": "刪除「%@」將永久移除這個還原點。你目前的 Phi App 和資料不會受到影響。此動作無法復原。"
   },
   "deny": {
     "message": "拒絕"
@@ -1339,6 +1399,9 @@
   },
   "enable_external_data_connectors": {
     "message": "啟用外部資料連接器"
+  },
+  "enable_peek_view": {
+    "message": "啟用 Peek 檢視"
   },
   "encrypted": {
     "message": "已加密"
@@ -1640,6 +1703,9 @@
   "history": {
     "message": "歷史記錄"
   },
+  "hold_command_and_option_while_clicking_a": {
+    "message": "按住 Command 和 Option 鍵並點按連結，即可在 Kiosk 視窗中開啟該連結。"
+  },
   "hold_to_switch": {
     "message": "按住 ⌘ 切換 →"
   },
@@ -1817,6 +1883,12 @@
   "keep_3a0464": {
     "message": "保留"
   },
+  "kiosk": {
+    "message": "Kiosk"
+  },
+  "kiosk_68dd86": {
+    "message": "Kiosk"
+  },
   "language": {
     "message": "語言"
   },
@@ -1886,6 +1958,9 @@
   "linking": {
     "message": "連結中…"
   },
+  "links_opened_from_other_apps_use_a": {
+    "message": "從其他 App 開啟的連結，會使用專注的單頁式 Kiosk 視窗。"
+  },
   "links_the_skill_bundled_in_this_app": {
     "message": "將此 App 內建的 Skill 連結到 AI 程式開發代理的 Skill 資料夾，讓它能透過 DevTools Protocol 操控 Phi。同時也會安裝一個附屬擴充功能，能從 AI 代理逐字稿的指令喚醒閒置的工作階段。需要 Node 22 或更新版本。"
   },
@@ -1918,6 +1993,9 @@
   },
   "manage_extensions_42bb17": {
     "message": "管理擴充功能"
+  },
+  "manage_url_rules": {
+    "message": "管理網址規則…"
   },
   "manage_user_data": {
     "message": "管理使用者資料"
@@ -2005,6 +2083,9 @@
   },
   "name_is_too_long_maximum_100_characters": {
     "message": "名稱太長（最多 100 個字元）"
+  },
+  "navigation": {
+    "message": "導覽"
   },
   "needs_a_credential_for_but_your_vault": {
     "message": "「%1$@」需要 %2$@ 的憑證，但你的密碼庫已鎖定。請輸入主密碼來解鎖。"
@@ -2255,6 +2336,9 @@
   "normal": {
     "message": "一般"
   },
+  "not_assigned_to_a_profile": {
+    "message": "尚未指派給任何設定檔"
+  },
   "not_configured": {
     "message": "尚未設定"
   },
@@ -2327,6 +2411,9 @@
   "ok_659aba": {
     "message": "好"
   },
+  "ok_6d446e": {
+    "message": "好"
+  },
   "ok_7620a9": {
     "message": "好"
   },
@@ -2378,6 +2465,9 @@
   "only_once": {
     "message": "只限一次"
   },
+  "open_a_browser_window_for_the_selected": {
+    "message": "請開啟所選設定檔的瀏覽器視窗以繼續。"
+  },
   "open_as_split": {
     "message": "以分割畫面開啟"
   },
@@ -2387,8 +2477,17 @@
   "open_as_split_ab87be": {
     "message": "以分割畫面開啟"
   },
+  "open_as_split_view": {
+    "message": "以分割畫面開啟"
+  },
+  "open_as_tab": {
+    "message": "以分頁開啟"
+  },
   "open_devtools": {
     "message": "開啟開發人員工具"
+  },
+  "open_external_links_in_kiosk": {
+    "message": "在 Kiosk 中開啟外部連結"
   },
   "open_in": {
     "message": "開啟於"
@@ -2398,6 +2497,12 @@
   },
   "open_in_telegram": {
     "message": "在 Telegram 中開啟"
+  },
+  "open_kiosk_when_clicking_links_with_held": {
+    "message": "按住 ⌘⌥ 並點按連結時開啟 Kiosk"
+  },
+  "open_links_in_a_lightweight_window_one": {
+    "message": "在輕量視窗中開啟連結，一次一頁。"
   },
   "open_settings": {
     "message": "開啟「系統設定」"
@@ -2444,6 +2549,9 @@
   "paused_2afbe0": {
     "message": "已暫停"
   },
+  "peek": {
+    "message": "Peek"
+  },
   "performance": {
     "message": "效能"
   },
@@ -2464,6 +2572,9 @@
   },
   "phi_could_not_be_uninstalled": {
     "message": "無法解除安裝 Phi"
+  },
+  "phi_could_not_delete_the_time_machine": {
+    "message": "Phi 無法刪除時光機備份：%@"
   },
   "phi_could_not_read_time_machine_backups": {
     "message": "Phi 無法讀取「時光機」備份：%@"
@@ -2581,6 +2692,9 @@
   },
   "press_shortcut": {
     "message": "請按下快速鍵…"
+  },
+  "preview_a_link_without_opening_it_in": {
+    "message": "不必開啟新分頁即可預覽連結。"
   },
   "preview_attachment": {
     "message": "預覽附件"
@@ -2885,6 +2999,9 @@
   "right_url": {
     "message": "右側網址"
   },
+  "route_matching_domains_or_urls_to_a": {
+    "message": "將符合規則的網域或網址導向空間、無痕模式或 Kiosk。"
+  },
   "run": {
     "message": "執行"
   },
@@ -3083,6 +3200,9 @@
   "share_5f5751": {
     "message": "分享"
   },
+  "shift_click_a_link_or_choose_open": {
+    "message": "按住 Shift 並點按連結，或選擇「在 Peek 檢視中開啟連結」，即可在頁面上的浮動面板中預覽。僅適用於側邊欄版面配置。"
+  },
   "shortcuts": {
     "message": "快速鍵"
   },
@@ -3091,6 +3211,9 @@
   },
   "show": {
     "message": "顯示"
+  },
+  "show_a_preview_card_when_hovering_over": {
+    "message": "游標停留在分頁上時顯示預覽卡片"
   },
   "show_bookmark_bar_on_new_tab": {
     "message": "在新分頁顯示書籤列"
@@ -3287,6 +3410,9 @@
   "suspicious_download_blocked": {
     "message": "已封鎖可疑下載"
   },
+  "switch_profile": {
+    "message": "切換設定檔"
+  },
   "switch_to_agent_space": {
     "message": "切換至 AI 代理空間"
   },
@@ -3396,7 +3522,10 @@
     "message": "所選語言會在 Phi 重新啟動後生效。要立即重新啟動嗎？"
   },
   "the_selected_time_machine_backup_is_no": {
-    "message": "所選的「時光機」備份已無法使用。"
+    "message": "所選的時光機備份已無法使用。"
+  },
+  "the_time_machine_backup_deletion_was_interrupted": {
+    "message": "時光機備份的刪除作業已中斷。"
   },
   "theme": {
     "message": "主題"
@@ -3482,6 +3611,15 @@
   "this_will_also_close_this_incognito_space": {
     "message": "這也會關閉這個無痕空間，確定要繼續嗎？"
   },
+  "time_machine_backup": {
+    "message": "時光機備份"
+  },
+  "time_machine_backup_419d4f": {
+    "message": "時光機備份"
+  },
+  "time_machine_backup_deletion_failed": {
+    "message": "時光機備份刪除失敗"
+  },
   "time_machine_backups": {
     "message": "「時光機」備份"
   },
@@ -3564,7 +3702,7 @@
     "message": "無法開啟連接器授權。"
   },
   "unavailable": {
-    "message": "無法使用"
+    "message": "無法取得"
   },
   "unblock": {
     "message": "解除封鎖"
@@ -3683,6 +3821,9 @@
   "url_rules_3a4973": {
     "message": "網址規則"
   },
+  "url_rules_84ffe4": {
+    "message": "網址規則"
+  },
   "url_rules_dc27b3": {
     "message": "網址規則"
   },
@@ -3690,7 +3831,7 @@
     "message": "已複製網址"
   },
   "urls_matching_any_rule_will_open_in": {
-    "message": "符合任一規則的網址，不論你在哪裡點按或輸入，都會在指定的空間中開啟。"
+    "message": "符合任一規則的網址，不論你在哪裡點按或輸入，都會在所選的目的地開啟。"
   },
   "using_telegram_to_send_and_receive_messages": {
     "message": "透過 Telegram 與 %@ 收發訊息"
