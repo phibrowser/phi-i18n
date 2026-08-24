@@ -81,3 +81,15 @@ loss.
 `##`/`###` become header blocks, `---` a divider, `- x` a native list, `> x` a
 quote block. Use them instead of faking layout with blank lines or emoji rules.
 Never an em-dash or en-dash; full-width punctuation for Chinese.
+
+## Incident note (2026-08-24): the silent-ear failure mode
+
+After EVERY event delivery the loop EXITS and must be re-armed; handling
+work is not done until `slack_loop.sh` is running again as a tracked task.
+Verify with a PATH-ANCHORED check only:
+`pgrep -fl "phi-i18n/slack/slack_loop.sh"`.
+A bare `pgrep -f slack_loop.sh` matches other projects' loops (phicampaign,
+ai-arsenal) and once produced a false "ear armed" verdict that silenced the
+channel for 2.5 days (missed Fangzhou's Friday request, evt_1787310892).
+Every reply/close-out must also write outbox/<id>.reply (or `__posted__`)
+AND append the id to `done` in the same breath as posting.
