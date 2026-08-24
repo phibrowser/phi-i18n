@@ -1000,7 +1000,7 @@
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Localized content written into the downloadable Markdown memory export; retain the Markdown punctuation. Indented italic Markdown description under a memory; {{indentation}} preserves tree depth and {{description}} is the stored memory description."
   },
   "memory_management_markdown_memory_item": {
-    "message": "{{prefix}} **{{title}}** — {{duration}}, moments: {{momentCount}}",
+    "message": "{{prefix}} **{{title}}**: {{duration}}, moments: {{momentCount}}",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Localized content written into the downloadable Markdown memory export; retain the Markdown punctuation. Markdown row for one browser memory; {{prefix}} contains indentation and the list marker, {{title}} is the memory title, {{duration}} is its localized duration, and {{momentCount}} is its moment count."
   },
   "memory_management_markdown_observation_title": {
@@ -1016,7 +1016,7 @@
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Localized content written into the downloadable Markdown memory export; retain the Markdown punctuation. Markdown list row for an observation source; {{source}} is the website host, tab title, or source type."
   },
   "memory_management_markdown_summary": {
-    "message": "> Exported at {{timestamp}} — observations: {{observationCount}}; browser memories: {{memoryCount}}",
+    "message": "> Exported at {{timestamp}}. Observations: {{observationCount}}; browser memories: {{memoryCount}}",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Localized content written into the downloadable Markdown memory export; retain the Markdown punctuation. Blockquote below the export heading; {{timestamp}} is the localized export time, {{observationCount}} is the observation count, and {{memoryCount}} is the browser-memory count."
   },
   "memory_management_markdown_title": {
@@ -1580,11 +1580,11 @@
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Memory-page error banner when ZIP import fails; {{detail}} is the technical failure detail shown after the message."
   },
   "memory_management_status_import_no_changes": {
-    "message": "Import complete — no new data to merge",
+    "message": "Import complete: no new data to merge",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Notice after a valid ZIP import contains no new data to merge."
   },
   "memory_management_status_import_succeeded": {
-    "message": "Import complete — {{details}}",
+    "message": "Import complete: {{details}}",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Success notice after a ZIP import changes memory data; {{details}} is a semicolon-separated localized summary of the changes."
   },
   "memory_management_status_load_data_failed": {
@@ -1732,27 +1732,27 @@
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Progress text shown while memory data is loaded, imported, or exported. Initial progress notice after the user chooses a ZIP archive to import."
   },
   "memory_management_transfer_progress_export_compressing": {
-    "message": "Exporting — compressing archive…",
+    "message": "Exporting: compressing archive…",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Progress text shown while memory data is loaded, imported, or exported. Detailed progress for ZIP import and export. ZIP export progress. Export progress while the collected memory data is compressed into a ZIP archive."
   },
   "memory_management_transfer_progress_export_reading": {
-    "message": "Exporting — reading memory data ({{completed}}/{{total}})…",
+    "message": "Exporting: reading memory data ({{completed}}/{{total}})…",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Progress text shown while memory data is loaded, imported, or exported. Detailed progress for ZIP import and export. ZIP export progress. Export progress while memory data is read; {{completed}} and {{total}} are the completed and total units."
   },
   "memory_management_transfer_progress_export_reading_item": {
-    "message": "Exporting — reading {{label}} ({{completed}}/{{total}})…",
+    "message": "Exporting: reading {{label}} ({{completed}}/{{total}})…",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Progress text shown while memory data is loaded, imported, or exported. Detailed progress for ZIP import and export. ZIP export progress. Export progress while a named data item is read; {{label}} identifies it and {{completed}} and {{total}} are the completed and total units."
   },
   "memory_management_transfer_progress_import_decompressing": {
-    "message": "Importing — reading archive…",
+    "message": "Importing: reading archive…",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Progress text shown while memory data is loaded, imported, or exported. Detailed progress for ZIP import and export. ZIP import progress. Import progress while the selected ZIP archive is opened."
   },
   "memory_management_transfer_progress_import_merging": {
-    "message": "Importing — merging memory data ({{completed}}/{{total}})…",
+    "message": "Importing: merging memory data ({{completed}}/{{total}})…",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Progress text shown while memory data is loaded, imported, or exported. Detailed progress for ZIP import and export. ZIP import progress. Import progress while memory data is merged; {{completed}} and {{total}} are the completed and total units."
   },
   "memory_management_transfer_progress_import_merging_item": {
-    "message": "Importing — merging {{label}} ({{completed}}/{{total}})…",
+    "message": "Importing: merging {{label}} ({{completed}}/{{total}})…",
     "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Progress text shown while memory data is loaded, imported, or exported. Detailed progress for ZIP import and export. ZIP import progress. Import progress while a named data item is merged; {{label}} identifies it and {{completed}} and {{total}} are the completed and total units."
   },
   "memory_management_transfer_refreshing_stores": {
@@ -2384,7 +2384,7 @@
     "description": "Location: Memory. Standalone Anamnesis settings for the new-tab appearance and language-model providers. Language-model provider selection. Card heading for language-model provider settings."
   },
   "options_status_account_created": {
-    "message": "Account created — signed in to Phi Cloud.",
+    "message": "Account created. Signed in to Phi Cloud.",
     "description": "Location: Memory. Standalone Anamnesis settings for the new-tab appearance and language-model providers. Success, information, and error statuses produced by settings actions. Success status after Phi account creation and sign-in complete."
   },
   "options_status_connect_failed": {
