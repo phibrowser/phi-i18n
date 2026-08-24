@@ -93,3 +93,14 @@ ai-arsenal) and once produced a false "ear armed" verdict that silenced the
 channel for 2.5 days (missed Fangzhou's Friday request, evt_1787310892).
 Every reply/close-out must also write outbox/<id>.reply (or `__posted__`)
 AND append the id to `done` in the same breath as posting.
+
+## Standing rule (owner, 2026-08-24): sweep at every close-out
+
+Other desks have hit the silent-ear pit too. Being busy on a task is fine;
+going quiet after it is not. At the END of EVERY task (before reporting to
+the owner or going idle), run `slack/sweep.sh`. It checks three things:
+unledgered inbox events, channel @-mentions with no bot reply after them
+(catches events the loop never captured), and whether the ear is armed.
+If it reports anything owed, pipeline ALL of it: ack each thread first,
+then process oldest-first. The goal is zero missed requests, mechanically,
+not by memory.
