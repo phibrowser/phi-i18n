@@ -495,6 +495,30 @@
         "message": "Save",
         "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Controls attached to a single message in the timeline. All are button labels or tooltips and must stay short. Confirm button while editing a message."
     },
+    "chat_metrics_chars": {
+        "message": "{{count}} chars",
+        "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Speed numbers for a reply: shown live in a small banner above the input box while it streams, and afterwards in small text next to the reply's copy button. All values are preformatted, language-neutral strings. Amount of reply text received so far; {{count}} = a whole number of UTF-16 characters."
+    },
+    "chat_metrics_elapsed": {
+        "message": "{{value}} elapsed",
+        "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Speed numbers for a reply: shown live in a small banner above the input box while it streams, and afterwards in small text next to the reply's copy button. All values are preformatted, language-neutral strings. Time since the reply started; {{value}} = a preformatted duration."
+    },
+    "chat_metrics_label": {
+        "message": "Response speed",
+        "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Speed numbers for a reply: shown live in a small banner above the input box while it streams, and afterwards in small text next to the reply's copy button. All values are preformatted, language-neutral strings. Accessible name of the banner."
+    },
+    "chat_metrics_speed": {
+        "message": "{{value}} chars/s",
+        "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Speed numbers for a reply: shown live in a small banner above the input box while it streams, and afterwards in small text next to the reply's copy button. All values are preformatted, language-neutral strings. Streaming speed; {{value}} = a whole number. Counted in UTF-16 characters of the received text, not words or tokens."
+    },
+    "chat_metrics_ttft": {
+        "message": "first text {{value}}",
+        "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Speed numbers for a reply: shown live in a small banner above the input box while it streams, and afterwards in small text next to the reply's copy button. All values are preformatted, language-neutral strings. Time until the first piece of reply text arrived; {{value}} = a preformatted duration such as \"850ms\" or \"1.2s\"."
+    },
+    "chat_metrics_ttft_pending": {
+        "message": "waiting for first text…",
+        "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Speed numbers for a reply: shown live in a small banner above the input box while it streams, and afterwards in small text next to the reply's copy button. All values are preformatted, language-neutral strings. Shown in the ttft slot while no reply text has arrived yet. Ends with an ellipsis character: keep whatever your language uses."
+    },
     "chat_retry": {
         "message": "Retry",
         "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Button beside a failed reply: ask for it again."
