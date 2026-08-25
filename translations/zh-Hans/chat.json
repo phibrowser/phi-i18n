@@ -1,2204 +1,2204 @@
 {
-  "agent_memory_page_back": {
-    "message": "返回"
-  },
-  "agent_memory_page_card_feedback": {
-    "message": "反馈：{{value}}"
-  },
-  "agent_memory_page_card_intents": {
-    "message": "意图数：{{count}}"
-  },
-  "agent_memory_page_card_last_active": {
-    "message": "最近活跃：{{value}}"
-  },
-  "agent_memory_page_card_sentiment": {
-    "message": "情感：{{value}}"
-  },
-  "agent_memory_page_card_source": {
-    "message": "来源：{{value}}"
-  },
-  "agent_memory_page_card_start": {
-    "message": "开始：{{value}}"
-  },
-  "agent_memory_page_empty": {
-    "message": "当前还没有 Agent Memory 数据。"
-  },
-  "agent_memory_page_error": {
-    "message": "加载 Agent Memory 失败。"
-  },
-  "agent_memory_page_generated_at": {
-    "message": "更新时间：{{value}}"
-  },
-  "agent_memory_page_keywords": {
-    "message": "关键词"
-  },
-  "agent_memory_page_loading": {
-    "message": "正在加载 Agent Memory…"
-  },
-  "agent_memory_page_memories": {
-    "message": "记忆"
-  },
-  "agent_memory_page_memory_count": {
-    "message": "记忆数：{{count}}"
-  },
-  "agent_memory_page_refresh": {
-    "message": "刷新"
-  },
-  "agent_memory_page_title": {
-    "message": "Agent Memory"
-  },
-  "agent_memory_page_topics": {
-    "message": "主题"
-  },
-  "agent_persona_description": {
-    "message": "编辑保存在服务端、供后续运行使用的 Persona 模板。"
-  },
-  "agent_persona_load_error": {
-    "message": "无法加载当前 Agent Persona 配置。"
-  },
-  "agent_persona_no_variables": {
-    "message": "当前模板未检测到变量。"
-  },
-  "agent_persona_open_error": {
-    "message": "无法打开 Agent Persona 弹窗。"
-  },
-  "agent_persona_preview": {
-    "message": "预览"
-  },
-  "agent_persona_reset": {
-    "message": "重置"
-  },
-  "agent_persona_save_error": {
-    "message": "无法保存 Agent Persona 修改。"
-  },
-  "agent_persona_template": {
-    "message": "模板"
-  },
-  "agent_persona_title": {
-    "message": "Agent Persona"
-  },
-  "agent_persona_variables": {
-    "message": "变量"
-  },
-  "ai_mode_copy_logs": {
-    "message": "复制日志"
-  },
-  "ai_mode_expert": {
-    "message": "专家"
-  },
-  "ai_mode_fast": {
-    "message": "快速"
-  },
-  "app_title": {
-    "message": "Phi Chat"
-  },
-  "artifacts_menu_label": {
-    "message": "小组件"
-  },
-  "artifacts_panel_aria_label": {
-    "message": "小组件面板"
-  },
-  "chat_attachments_add": {
-    "message": "添加附件"
-  },
-  "chat_attachments_drop_hint": {
-    "message": "拖放文件以附加"
-  },
-  "chat_attachments_failed": {
-    "message": "无法附加"
-  },
-  "chat_attachments_remove": {
-    "message": "移除附件"
-  },
-  "chat_attachments_too_large": {
-    "message": "超过 50 KB"
-  },
-  "chat_composer_menu_all_tabs_added": {
-    "message": "所有标签页均已添加"
-  },
-  "chat_composer_menu_upload": {
-    "message": "上传"
-  },
-  "chat_composer_menu_upload_from_computer": {
-    "message": "从电脑上传"
-  },
-  "chat_composer_open_skills": {
-    "message": "技能"
-  },
-  "chat_composer_placeholder": {
-    "message": "输入消息…"
-  },
-  "chat_composer_send": {
-    "message": "发送"
-  },
-  "chat_composer_stop": {
-    "message": "停止"
-  },
-  "chat_composer_suggestions_member_count": {
-    "message": "{{count}} 个标签页"
-  },
-  "chat_composer_suggestions_no_skills": {
-    "message": "没有可用的技能"
-  },
-  "chat_composer_suggestions_no_tabs": {
-    "message": "没有可用的标签页"
-  },
-  "chat_composer_suggestions_skill_header": {
-    "message": "技能"
-  },
-  "chat_composer_suggestions_split_view": {
-    "message": "分屏"
-  },
-  "chat_composer_suggestions_tabs_header": {
-    "message": "标签页"
-  },
-  "chat_composer_suggestions_untitled_group": {
-    "message": "未命名分组"
-  },
-  "chat_empty_body": {
-    "message": "在左侧选择一个对话，或者开始新对话。"
-  },
-  "chat_empty_title": {
-    "message": "选择一个对话"
-  },
-  "chat_interrupted": {
-    "message": "已中断"
-  },
-  "chat_load_failed": {
-    "message": "无法加载这个对话。"
-  },
-  "chat_loading_phrases_anchoring_findings": {
-    "message": "把珍珠串起来"
-  },
-  "chat_loading_phrases_assembling_crew": {
-    "message": "召集船员"
-  },
-  "chat_loading_phrases_baiting_data_lake": {
-    "message": "往湖里撒点饵"
-  },
-  "chat_loading_phrases_brewing_something_good": {
-    "message": "酝酿点好东西"
-  },
-  "chat_loading_phrases_bubbling_up_results": {
-    "message": "结果正在冒泡"
-  },
-  "chat_loading_phrases_casting_net_wide": {
-    "message": "撒网捞一捞"
-  },
-  "chat_loading_phrases_catching_big_one": {
-    "message": "想钓条大的"
-  },
-  "chat_loading_phrases_catching_wave": {
-    "message": "赶上这一波"
-  },
-  "chat_loading_phrases_charting_waters": {
-    "message": "先摸清水路"
-  },
-  "chat_loading_phrases_chasing_golden_fish": {
-    "message": "追一条金色小鱼"
-  },
-  "chat_loading_phrases_chasing_school_of_thought": {
-    "message": "追着思路鱼群跑"
-  },
-  "chat_loading_phrases_connecting_dots": {
-    "message": "把线索串起来"
-  },
-  "chat_loading_phrases_consulting_sea_oracle": {
-    "message": "请教海底老神仙"
-  },
-  "chat_loading_phrases_cruising_data_stream": {
-    "message": "在洋流里巡游"
-  },
-  "chat_loading_phrases_decoding_signal": {
-    "message": "破译海底信号"
-  },
-  "chat_loading_phrases_diving_deep": {
-    "message": "往深处潜一潜"
-  },
-  "chat_loading_phrases_drifting_toward_answers": {
-    "message": "慢慢漂向答案"
-  },
-  "chat_loading_phrases_exploring_deep_end": {
-    "message": "去深水区看看"
-  },
-  "chat_loading_phrases_fishing_deeper_waters": {
-    "message": "到更深的水域钓一钓"
-  },
-  "chat_loading_phrases_fishing_for_answers": {
-    "message": "在钓答案"
-  },
-  "chat_loading_phrases_floating_new_ideas": {
-    "message": "让新想法浮上来"
-  },
-  "chat_loading_phrases_following_ripples": {
-    "message": "吐几个泡泡想想"
-  },
-  "chat_loading_phrases_going_with_flow": {
-    "message": "顺水推舟"
-  },
-  "chat_loading_phrases_hatching_plan": {
-    "message": "憋一个好主意"
-  },
-  "chat_loading_phrases_hooked_on_lead": {
-    "message": "咬住一条线索"
-  },
-  "chat_loading_phrases_hooking_insights": {
-    "message": "钩几条灵感"
-  },
-  "chat_loading_phrases_launching_submarine": {
-    "message": "派潜艇下去看看"
-  },
-  "chat_loading_phrases_letting_bait_sink_in": {
-    "message": "等鱼饵沉一沉"
-  },
-  "chat_loading_phrases_making_splash": {
-    "message": "扑通一声下水"
-  },
-  "chat_loading_phrases_mapping_ocean_floor": {
-    "message": "把贝壳一个个翻开"
-  },
-  "chat_loading_phrases_navigating_stream": {
-    "message": "问问路过的螃蟹"
-  },
-  "chat_loading_phrases_plotting_course": {
-    "message": "规划航线"
-  },
-  "chat_loading_phrases_plunging_into_deep": {
-    "message": "一头扎进深海"
-  },
-  "chat_loading_phrases_polishing_telescope": {
-    "message": "擦一擦望远镜"
-  },
-  "chat_loading_phrases_reading_tides": {
-    "message": "看看潮汐"
-  },
-  "chat_loading_phrases_reeling_in_results": {
-    "message": "结果快上钩了"
-  },
-  "chat_loading_phrases_riding_current": {
-    "message": "摆摆尾巴想一想"
-  },
-  "chat_loading_phrases_sailing_through_sources": {
-    "message": "扬帆去找资料"
-  },
-  "chat_loading_phrases_scanning_horizon": {
-    "message": "望一望海平线"
-  },
-  "chat_loading_phrases_scouting_reef": {
-    "message": "去珊瑚礁探探路"
-  },
-  "chat_loading_phrases_shaking_magic_fish_bowl": {
-    "message": "摇一摇神奇鱼缸"
-  },
-  "chat_loading_phrases_sifting_through_current": {
-    "message": "在水流里淘一淘"
-  },
-  "chat_loading_phrases_skimming_surface": {
-    "message": "先掠一眼水面"
-  },
-  "chat_loading_phrases_spinning_compass": {
-    "message": "转一转罗盘"
-  },
-  "chat_loading_phrases_splashing_through_thoughts": {
-    "message": "在思绪里游来游去"
-  },
-  "chat_loading_phrases_stirring_whirlpool": {
-    "message": "搅一搅漩涡"
-  },
-  "chat_loading_phrases_summoning_brain_fish": {
-    "message": "召唤智慧小鱼"
-  },
-  "chat_loading_phrases_surfing_knowledge_waves": {
-    "message": "冲一波知识浪"
-  },
-  "chat_loading_phrases_swimming_through_data": {
-    "message": "在数据里游一圈"
-  },
-  "chat_loading_phrases_swimming_upstream": {
-    "message": "逆流而上"
-  },
-  "chat_loading_phrases_testing_waters": {
-    "message": "先试试水"
-  },
-  "chat_loading_phrases_trawling_archives": {
-    "message": "翻翻海底档案"
-  },
-  "chat_loading_phrases_trolling_for_treasures": {
-    "message": "拖网寻宝"
-  },
-  "chat_loading_phrases_tuning_sonar": {
-    "message": "调一调声呐"
-  },
-  "chat_loading_phrases_untangling_net": {
-    "message": "理一理渔网"
-  },
-  "chat_loading_phrases_wading_through_info": {
-    "message": "在浅滩蹚一蹚"
-  },
-  "chat_loading_phrases_warming_up_engines": {
-    "message": "先热一热引擎"
-  },
-  "chat_message_cancel": {
-    "message": "取消"
-  },
-  "chat_message_collapse": {
-    "message": "收起"
-  },
-  "chat_message_copied": {
-    "message": "已复制"
-  },
-  "chat_message_copy": {
-    "message": "复制消息"
-  },
-  "chat_message_download": {
-    "message": "下载"
-  },
-  "chat_message_edit": {
-    "message": "编辑消息"
-  },
-  "chat_message_expand": {
-    "message": "展开"
-  },
-  "chat_message_next_branch": {
-    "message": "下一个版本"
-  },
-  "chat_message_previous_branch": {
-    "message": "上一个版本"
-  },
-  "chat_message_regenerate": {
-    "message": "重新生成回复"
-  },
-  "chat_message_save": {
-    "message": "保存"
-  },
-  "chat_retry": {
-    "message": "重试"
-  },
-  "chat_run_failed": {
-    "message": "回复失败"
-  },
-  "chat_tab_context_fallback": {
-    "message": "页面上下文"
-  },
-  "chat_thinking": {
-    "message": "思考中…"
-  },
-  "chat_tool_call_failed": {
-    "message": "失败"
-  },
-  "chat_tool_call_running": {
-    "message": "进行中"
-  },
-  "chat_tool_call_succeeded": {
-    "message": "已完成"
-  },
-  "chat_unsupported_part": {
-    "message": "Phi Chat 暂不支持此内容（{{type}}）。"
-  },
-  "chat_user_action_allow": {
-    "message": "允许"
-  },
-  "chat_user_action_deny": {
-    "message": "取消"
-  },
-  "chat_user_action_title": {
-    "message": "{{name}} 需要你的确认"
-  },
-  "chat_welcome_subtitle": {
-    "message": "你可以搜索、提问，或与当前页面一起工作"
-  },
-  "chat_welcome_title": {
-    "message": "你好，我是 {{name}}"
-  },
-  "context_menu_ask_about": {
-    "message": "向 {{agentName}} 询问…"
-  },
-  "context_menu_ask_about_selection": {
-    "message": "向 {{agentName}} 询问「{{selection}}」"
-  },
-  "conversation_add_category": {
-    "message": "新建分类"
-  },
-  "conversation_add_category_confirm": {
-    "message": "创建"
-  },
-  "conversation_add_category_placeholder": {
-    "message": "分类名称"
-  },
-  "conversation_all_category": {
-    "message": "全部"
-  },
-  "conversation_all_conversations": {
-    "message": "全部对话"
-  },
-  "conversation_all_conversations_description": {
-    "message": "浏览和管理对话历史"
-  },
-  "conversation_back": {
-    "message": "返回"
-  },
-  "conversation_batch_mode": {
-    "message": "选择"
-  },
-  "conversation_browse_all": {
-    "message": "浏览全部…"
-  },
-  "conversation_browse_all_categories": {
-    "message": "浏览全部分类…"
-  },
-  "conversation_cancel": {
-    "message": "取消"
-  },
-  "conversation_categories": {
-    "message": "分类"
-  },
-  "conversation_category_name_conflict": {
-    "message": "已存在同名分类。"
-  },
-  "conversation_create_error": {
-    "message": "创建对话失败"
-  },
-  "conversation_default_category_name": {
-    "message": "和 {{name}} 的对话"
-  },
-  "conversation_delete": {
-    "message": "删除"
-  },
-  "conversation_delete_batch_confirm_description": {
-    "message": "确定要删除 {{count}} 个对话吗？此操作无法撤销。"
-  },
-  "conversation_delete_batch_confirm_title": {
-    "message": "删除选中的对话"
-  },
-  "conversation_delete_category": {
-    "message": "删除分类"
-  },
-  "conversation_delete_category_confirm_description": {
-    "message": "该分类下的对话会回到「和 {{name}} 的对话」。"
-  },
-  "conversation_delete_category_confirm_title": {
-    "message": "删除分类"
-  },
-  "conversation_delete_confirm_description": {
-    "message": "确定要删除此对话吗？此操作无法撤销。"
-  },
-  "conversation_delete_confirm_title": {
-    "message": "删除对话"
-  },
-  "conversation_delete_selected": {
-    "message": "删除 ({{count}})"
-  },
-  "conversation_deselect_item": {
-    "message": "取消选中"
-  },
-  "conversation_exit_batch_mode": {
-    "message": "完成"
-  },
-  "conversation_load_error": {
-    "message": "加载对话失败"
-  },
-  "conversation_loading": {
-    "message": "加载中…"
-  },
-  "conversation_move_to_category": {
-    "message": "移动到分类"
-  },
-  "conversation_move_to_default": {
-    "message": "移动到「和 {{name}} 的对话」"
-  },
-  "conversation_no_categories_found": {
-    "message": "未找到分类"
-  },
-  "conversation_no_conversations": {
-    "message": "暂无对话"
-  },
-  "conversation_no_search_results": {
-    "message": "没有匹配「{{query}}」的对话"
-  },
-  "conversation_recent_conversations": {
-    "message": "最近对话"
-  },
-  "conversation_rename": {
-    "message": "重命名"
-  },
-  "conversation_rename_category": {
-    "message": "重命名分类"
-  },
-  "conversation_rename_description": {
-    "message": "为此对话输入新名称。"
-  },
-  "conversation_save": {
-    "message": "保存"
-  },
-  "conversation_search_categories": {
-    "message": "搜索分类"
-  },
-  "conversation_search_label": {
-    "message": "搜索对话"
-  },
-  "conversation_search_placeholder": {
-    "message": "搜索对话"
-  },
-  "conversation_select_conversation": {
-    "message": "选择对话"
-  },
-  "conversation_select_item": {
-    "message": "选中"
-  },
-  "conversation_select_placeholder": {
-    "message": "选择对话"
-  },
-  "conversation_title_placeholder": {
-    "message": "对话标题"
-  },
-  "conversation_untitled": {
-    "message": "未命名"
-  },
-  "conversations_categories_all": {
-    "message": "全部"
-  },
-  "conversations_categories_create": {
-    "message": "创建"
-  },
-  "conversations_categories_default": {
-    "message": "和 {{name}} 的对话"
-  },
-  "conversations_categories_delete": {
-    "message": "删除分类"
-  },
-  "conversations_categories_delete_confirm_description": {
-    "message": "此分类中的对话将移回「{{name}}」。"
-  },
-  "conversations_categories_delete_confirm_title": {
-    "message": "删除分类"
-  },
-  "conversations_categories_menu_label": {
-    "message": "分类菜单"
-  },
-  "conversations_categories_more_label": {
-    "message": "更多分类"
-  },
-  "conversations_categories_name_conflict": {
-    "message": "已存在同名分类。"
-  },
-  "conversations_categories_name_placeholder": {
-    "message": "分类名称"
-  },
-  "conversations_categories_new": {
-    "message": "新建分类"
-  },
-  "conversations_categories_rename": {
-    "message": "重命名分类"
-  },
-  "conversations_create_failed": {
-    "message": "无法创建对话。"
-  },
-  "conversations_empty": {
-    "message": "还没有对话。"
-  },
-  "conversations_load_failed": {
-    "message": "无法加载对话列表。"
-  },
-  "conversations_load_more": {
-    "message": "加载更多"
-  },
-  "conversations_menu_cancel": {
-    "message": "取消"
-  },
-  "conversations_menu_delete": {
-    "message": "删除"
-  },
-  "conversations_menu_delete_confirm_description": {
-    "message": "确定要删除这个对话吗？此操作无法撤销。"
-  },
-  "conversations_menu_delete_confirm_title": {
-    "message": "删除对话"
-  },
-  "conversations_menu_label": {
-    "message": "对话菜单"
-  },
-  "conversations_menu_move": {
-    "message": "移动到分类"
-  },
-  "conversations_menu_rename": {
-    "message": "重命名"
-  },
-  "conversations_menu_rename_description": {
-    "message": "为这个对话输入新名称。"
-  },
-  "conversations_menu_save": {
-    "message": "保存"
-  },
-  "conversations_menu_title_placeholder": {
-    "message": "对话标题"
-  },
-  "conversations_move_failed": {
-    "message": "无法移动对话。"
-  },
-  "conversations_new": {
-    "message": "新对话"
-  },
-  "conversations_retry": {
-    "message": "重试"
-  },
-  "conversations_search_close": {
-    "message": "关闭搜索"
-  },
-  "conversations_search_no_results": {
-    "message": "没有匹配 \"{{query}}\" 的对话"
-  },
-  "conversations_search_open": {
-    "message": "搜索对话"
-  },
-  "conversations_search_placeholder": {
-    "message": "搜索对话"
-  },
-  "conversations_search_tooltip": {
-    "message": "搜索对话（{{shortcut}}）"
-  },
-  "conversations_untitled": {
-    "message": "未命名对话"
-  },
-  "current_tab_confirm": {
-    "message": "确认"
-  },
-  "current_tab_confirm_description": {
-    "message": "请确认以下操作后继续。"
-  },
-  "current_tab_confirm_failed": {
-    "message": "确认发送失败，请重试"
-  },
-  "current_tab_confirm_title": {
-    "message": "确认在当前标签页执行"
-  },
-  "current_tab_deny": {
-    "message": "拒绝"
-  },
-  "current_tab_no_active_tab": {
-    "message": "当前没有可用的标签页，已关闭当前标签页模式"
-  },
-  "current_tab_risk_high": {
-    "message": "高"
-  },
-  "current_tab_risk_label": {
-    "message": "风险"
-  },
-  "current_tab_risk_low": {
-    "message": "低"
-  },
-  "current_tab_risk_medium": {
-    "message": "中"
-  },
-  "current_tab_screenshot_alt": {
-    "message": "确认截图"
-  },
-  "dev_entry_agent_memory": {
-    "message": "Agent Memory"
-  },
-  "dev_entry_shadow_tasks": {
-    "message": "Shadow 任务"
-  },
-  "drag_drop_subtitle": {
-    "message": "松开即可将文件添加到消息中"
-  },
-  "drag_drop_title": {
-    "message": "拖放文件以上传"
-  },
-  "errors_balance_alert_threshold": {
-    "message": "余额已低于预警阈值。"
-  },
-  "errors_chat_forbidden": {
-    "message": "你没有权限访问此对话。"
-  },
-  "errors_chat_not_found": {
-    "message": "未找到对话。"
-  },
-  "errors_run_failed": {
-    "message": "运行失败"
-  },
-  "errors_token_invalid": {
-    "message": "无效或已过期的认证令牌。"
-  },
-  "errors_upload_not_available": {
-    "message": "暂时无法上传文件。"
-  },
-  "features_chat_with_tabs": {
-    "message": "网页聊天"
-  },
-  "features_loading_context": {
-    "message": "正在加载上下文…"
-  },
-  "features_web_search": {
-    "message": "网页搜索"
-  },
-  "file_upload_failed": {
-    "message": "文件上传失败"
-  },
-  "message_activity_fallback_default1": {
-    "message": "正在仔细思考..."
-  },
-  "message_activity_fallback_default2": {
-    "message": "正在处理..."
-  },
-  "message_activity_fallback_default3": {
-    "message": "正在理清思路..."
-  },
-  "message_activity_fallback_default4": {
-    "message": "正在仔细查看..."
-  },
-  "message_activity_fallback_default5": {
-    "message": "正在琢磨..."
-  },
-  "message_activity_fallback_interjection1": {
-    "message": "正在调整方向..."
-  },
-  "message_activity_fallback_interjection2": {
-    "message": "正在重新处理..."
-  },
-  "message_activity_fallback_interjection3": {
-    "message": "正在考虑你的补充..."
-  },
-  "message_activity_fallback_interjection4": {
-    "message": "正在更新计划..."
-  },
-  "message_activity_fallback_interjection5": {
-    "message": "正在把你的想法加进来..."
-  },
-  "message_collapse_raw_reasoning": {
-    "message": "收起原始推理"
-  },
-  "message_copy_formula": {
-    "message": "复制公式"
-  },
-  "message_error_occurred": {
-    "message": "发生错误"
-  },
-  "message_expand_raw_reasoning": {
-    "message": "展开原始推理"
-  },
-  "message_feedback_details_label": {
-    "message": "请提供详细信息：（可选）"
-  },
-  "message_feedback_negative_action": {
-    "message": "给出负面反馈"
-  },
-  "message_feedback_negative_placeholder": {
-    "message": "这条回答哪里让你不满意？"
-  },
-  "message_feedback_negative_reason_label": {
-    "message": "你想反馈哪类问题？（可选）"
-  },
-  "message_feedback_negative_title": {
-    "message": "给出负面反馈"
-  },
-  "message_feedback_positive_action": {
-    "message": "给出正面反馈"
-  },
-  "message_feedback_positive_placeholder": {
-    "message": "这条回答哪里让你满意？"
-  },
-  "message_feedback_positive_reason_label": {
-    "message": "你喜欢哪些方面？（可选）"
-  },
-  "message_feedback_positive_title": {
-    "message": "给出正面反馈"
-  },
-  "message_feedback_privacy_notice": {
-    "message": "你的反馈以及这条回复生成过程的技术细节（绝不包含回复内容）将用于改进 Phi"
-  },
-  "message_feedback_reasons_negative_incorrect": {
-    "message": "不正确或有误导性"
-  },
-  "message_feedback_reasons_negative_not_followed": {
-    "message": "未遵循指令"
-  },
-  "message_feedback_reasons_negative_other": {
-    "message": "其他"
-  },
-  "message_feedback_reasons_negative_unhelpful": {
-    "message": "没有帮助"
-  },
-  "message_feedback_reasons_negative_unsafe": {
-    "message": "不安全或不恰当"
-  },
-  "message_feedback_reasons_positive_accurate": {
-    "message": "准确可靠"
-  },
-  "message_feedback_reasons_positive_fast_response": {
-    "message": "响应迅速"
-  },
-  "message_feedback_reasons_positive_good_sources": {
-    "message": "内容有据可查"
-  },
-  "message_feedback_reasons_positive_helpful": {
-    "message": "回答有帮助"
-  },
-  "message_feedback_reasons_positive_memory_recall": {
-    "message": "记住了我的上下文"
-  },
-  "message_feedback_reasons_positive_other": {
-    "message": "其他"
-  },
-  "message_feedback_reasons_positive_page_context": {
-    "message": "理解了我的页面和标签页"
-  },
-  "message_feedback_reasons_positive_personality": {
-    "message": "个性讨喜"
-  },
-  "message_feedback_reasons_positive_task_execution": {
-    "message": "任务执行出色"
-  },
-  "message_file_audio": {
-    "message": "音频"
-  },
-  "message_file_document": {
-    "message": "文档"
-  },
-  "message_file_video": {
-    "message": "视频"
-  },
-  "message_im_messages_not_editable": {
-    "message": "来自已连接频道的消息不能编辑。"
-  },
-  "message_loading_phrases_p01": {
-    "message": "在钓答案"
-  },
-  "message_loading_phrases_p02": {
-    "message": "往深处潜一潜"
-  },
-  "message_loading_phrases_p03": {
-    "message": "在数据里游一圈"
-  },
-  "message_loading_phrases_p04": {
-    "message": "冲一波知识浪"
-  },
-  "message_loading_phrases_p05": {
-    "message": "酝酿点好东西"
-  },
-  "message_loading_phrases_p06": {
-    "message": "召唤智慧小鱼"
-  },
-  "message_loading_phrases_p07": {
-    "message": "把线索串起来"
-  },
-  "message_loading_phrases_p08": {
-    "message": "撒网捞一捞"
-  },
-  "message_loading_phrases_p09": {
-    "message": "结果快上钩了"
-  },
-  "message_loading_phrases_p10": {
-    "message": "去深水区看看"
-  },
-  "message_loading_phrases_p11": {
-    "message": "先摸清水路"
-  },
-  "message_loading_phrases_p12": {
-    "message": "摆摆尾巴想一想"
-  },
-  "message_loading_phrases_p13": {
-    "message": "想钓条大的"
-  },
-  "message_loading_phrases_p14": {
-    "message": "问问路过的螃蟹"
-  },
-  "message_loading_phrases_p15": {
-    "message": "钩几条灵感"
-  },
-  "message_loading_phrases_p16": {
-    "message": "去珊瑚礁探探路"
-  },
-  "message_loading_phrases_p17": {
-    "message": "在浅滩蹚一蹚"
-  },
-  "message_loading_phrases_p18": {
-    "message": "拖网寻宝"
-  },
-  "message_loading_phrases_p19": {
-    "message": "往湖里撒点饵"
-  },
-  "message_loading_phrases_p20": {
-    "message": "在思绪里游来游去"
-  },
-  "message_loading_phrases_p21": {
-    "message": "让新想法浮上来"
-  },
-  "message_loading_phrases_p22": {
-    "message": "慢慢漂向答案"
-  },
-  "message_loading_phrases_p23": {
-    "message": "追着思路鱼群跑"
-  },
-  "message_loading_phrases_p24": {
-    "message": "翻翻海底档案"
-  },
-  "message_loading_phrases_p25": {
-    "message": "先试试水"
-  },
-  "message_loading_phrases_p26": {
-    "message": "扑通一声下水"
-  },
-  "message_loading_phrases_p27": {
-    "message": "顺水推舟"
-  },
-  "message_loading_phrases_p28": {
-    "message": "结果正在冒泡"
-  },
-  "message_loading_phrases_p29": {
-    "message": "理一理渔网"
-  },
-  "message_loading_phrases_p30": {
-    "message": "扬帆去找资料"
-  },
-  "message_loading_phrases_p31": {
-    "message": "先掠一眼水面"
-  },
-  "message_loading_phrases_p32": {
-    "message": "一头扎进深海"
-  },
-  "message_loading_phrases_p33": {
-    "message": "在洋流里巡游"
-  },
-  "message_loading_phrases_p34": {
-    "message": "咬住一条线索"
-  },
-  "message_loading_phrases_p35": {
-    "message": "在水流里淘一淘"
-  },
-  "message_loading_phrases_p36": {
-    "message": "把贝壳一个个翻开"
-  },
-  "message_loading_phrases_p37": {
-    "message": "调一调声呐"
-  },
-  "message_loading_phrases_p38": {
-    "message": "吐几个泡泡想想"
-  },
-  "message_loading_phrases_p39": {
-    "message": "望一望海平线"
-  },
-  "message_loading_phrases_p40": {
-    "message": "派潜艇下去看看"
-  },
-  "message_loading_phrases_p41": {
-    "message": "破译海底信号"
-  },
-  "message_loading_phrases_p42": {
-    "message": "憋一个好主意"
-  },
-  "message_loading_phrases_p43": {
-    "message": "先热一热引擎"
-  },
-  "message_loading_phrases_p44": {
-    "message": "转一转罗盘"
-  },
-  "message_loading_phrases_p45": {
-    "message": "擦一擦望远镜"
-  },
-  "message_loading_phrases_p46": {
-    "message": "摇一摇神奇鱼缸"
-  },
-  "message_loading_phrases_p47": {
-    "message": "请教海底老神仙"
-  },
-  "message_loading_phrases_p48": {
-    "message": "看看潮汐"
-  },
-  "message_loading_phrases_p49": {
-    "message": "召集船员"
-  },
-  "message_loading_phrases_p50": {
-    "message": "规划航线"
-  },
-  "message_loading_phrases_p51": {
-    "message": "到更深的水域钓一钓"
-  },
-  "message_loading_phrases_p52": {
-    "message": "追一条金色小鱼"
-  },
-  "message_loading_phrases_p53": {
-    "message": "逆流而上"
-  },
-  "message_loading_phrases_p54": {
-    "message": "搅一搅漩涡"
-  },
-  "message_loading_phrases_p55": {
-    "message": "把珍珠串起来"
-  },
-  "message_loading_phrases_p56": {
-    "message": "赶上这一波"
-  },
-  "message_loading_phrases_p57": {
-    "message": "等鱼饵沉一沉"
-  },
-  "message_metrics_chars": {
-    "message": "{{value}} 字符"
-  },
-  "message_metrics_elapsed": {
-    "message": "耗时 {{value}}"
-  },
-  "message_metrics_label": {
-    "message": "响应速度"
-  },
-  "message_metrics_speed": {
-    "message": "{{value}} 字符/秒"
-  },
-  "message_metrics_ttft": {
-    "message": "首字 {{value}}"
-  },
-  "message_metrics_ttft_pending": {
-    "message": "等待首字…"
-  },
-  "message_open_in_new_tab": {
-    "message": "在新标签页打开"
-  },
-  "message_raw_reasoning_empty": {
-    "message": "暂未收到原始推理内容。"
-  },
-  "message_raw_reasoning_unavailable": {
-    "message": "当前模型提供方不提供原始思维链（raw CoT）。"
-  },
-  "message_reasoning_summary": {
-    "message": "推理摘要"
-  },
-  "message_role_card_directives": {
-    "message": "你希望我成为的样子"
-  },
-  "message_role_card_loading": {
-    "message": "加载中…"
-  },
-  "message_role_card_open": {
-    "message": "查看 {{name}} 的角色卡"
-  },
-  "message_role_card_remove_directive": {
-    "message": "移除这条指令"
-  },
-  "message_role_card_soul_empty": {
-    "message": "还在慢慢成形，尚未写下自画像。"
-  },
-  "message_role_card_subtitle": {
-    "message": "智能体"
-  },
-  "message_role_card_title": {
-    "message": "{{name}} 的角色卡"
-  },
-  "message_run_phase_executing": {
-    "message": "处理中…"
-  },
-  "message_run_phase_routing": {
-    "message": "思考中…"
-  },
-  "message_save": {
-    "message": "保存"
-  },
-  "message_skills_label": {
-    "message": "Skill"
-  },
-  "message_skills_sources_built_in": {
-    "message": "内置"
-  },
-  "message_skills_sources_user": {
-    "message": "我的 Skill"
-  },
-  "message_source": {
-    "message": "来源"
-  },
-  "message_sources_web_search": {
-    "message": "来源"
-  },
-  "message_stream_interrupted": {
-    "message": "响应已中断"
-  },
-  "message_thought": {
-    "message": "思考过程"
-  },
-  "message_tool_aborted": {
-    "message": "已中断"
-  },
-  "message_tool_calls": {
-    "message": "工具调用"
-  },
-  "message_tool_error_fallback": {
-    "message": "工具错误"
-  },
-  "message_tool_interrupted_by_user": {
-    "message": "已被用户中断"
-  },
-  "message_tool_web_search": {
-    "message": "网页搜索工具"
-  },
-  "message_warning_title": {
-    "message": "警告"
-  },
-  "message_worker_progress_browser": {
-    "message": "正在操作浏览器…"
-  },
-  "message_worker_progress_browser_task": {
-    "message": "正在执行浏览器任务…"
-  },
-  "message_worker_progress_fallback": {
-    "message": "正在执行任务…"
-  },
-  "message_worker_progress_run_script": {
-    "message": "正在运行 Skill…"
-  },
-  "message_worker_progress_search": {
-    "message": "正在搜索…"
-  },
-  "newtab_chat": {
-    "message": "聊天"
-  },
-  "newtab_chat_with_ai": {
-    "message": "与 {{name}} 对话"
-  },
-  "newtab_delete_suggestion": {
-    "message": "删除建议"
-  },
-  "newtab_greeting_afternoon": {
-    "message": "下午好"
-  },
-  "newtab_greeting_evening": {
-    "message": "晚上好"
-  },
-  "newtab_greeting_explain_message": {
-    "message": "我刚在新标签页上看到这条问候：「{{greeting}}」\n\n为什么给我挑了这一条？"
-  },
-  "newtab_greeting_morning": {
-    "message": "早上好"
-  },
-  "newtab_greeting_prompt_byte_count": {
-    "message": "{{count}} / {{max}} 字节"
-  },
-  "newtab_greeting_prompt_cancel": {
-    "message": "取消"
-  },
-  "newtab_greeting_prompt_customized": {
-    "message": "已自定义"
-  },
-  "newtab_greeting_prompt_default": {
-    "message": "默认"
-  },
-  "newtab_greeting_prompt_description": {
-    "message": "调整用于生成个性化新标签页问候语的内置 Prompt。可使用 soul 占位符插入当前 agent soul。"
-  },
-  "newtab_greeting_prompt_edit": {
-    "message": "编辑问候语 Prompt"
-  },
-  "newtab_greeting_prompt_empty_error": {
-    "message": "问候语指令不能为空。"
-  },
-  "newtab_greeting_prompt_hint": {
-    "message": "保存后会应用到后续生成的问候语批次。"
-  },
-  "newtab_greeting_prompt_label": {
-    "message": "指令"
-  },
-  "newtab_greeting_prompt_load_error": {
-    "message": "加载问候语 Prompt 失败。"
-  },
-  "newtab_greeting_prompt_loading": {
-    "message": "正在加载问候语 Prompt…"
-  },
-  "newtab_greeting_prompt_placeholder": {
-    "message": "编写用于生成问候语候选的指令。"
-  },
-  "newtab_greeting_prompt_reset": {
-    "message": "恢复默认"
-  },
-  "newtab_greeting_prompt_reset_error": {
-    "message": "重置问候语 Prompt 失败。"
-  },
-  "newtab_greeting_prompt_reset_saved": {
-    "message": "问候语 Prompt 已重置"
-  },
-  "newtab_greeting_prompt_save": {
-    "message": "保存"
-  },
-  "newtab_greeting_prompt_save_error": {
-    "message": "保存问候语 Prompt 失败。"
-  },
-  "newtab_greeting_prompt_saved": {
-    "message": "问候语 Prompt 已保存"
-  },
-  "newtab_greeting_prompt_title": {
-    "message": "问候语提示词"
-  },
-  "newtab_greeting_prompt_too_large_error": {
-    "message": "问候语指令不能超过 {{count}} 个 UTF-8 字节。"
-  },
-  "newtab_greeting_style_interest": {
-    "message": "轻度个性化"
-  },
-  "newtab_greeting_style_label": {
-    "message": "问候语风格"
-  },
-  "newtab_greeting_style_none": {
-    "message": "关闭"
-  },
-  "newtab_greeting_style_personal": {
-    "message": "个性化"
-  },
-  "newtab_hold_cmd_to_switch_tab": {
-    "message": "按住 <key/> 切换到已有标签页"
-  },
-  "newtab_like_greeting": {
-    "message": "喜欢这句问候语"
-  },
-  "newtab_open": {
-    "message": "打开"
-  },
-  "newtab_open_in_new_tab": {
-    "message": "在新标签页中打开"
-  },
-  "newtab_search_placeholder": {
-    "message": "搜索、AI 问答或输入网址"
-  },
-  "onboard_debug_avatar_alt": {
-    "message": "助手头像"
-  },
-  "onboard_debug_avatar_label": {
-    "message": "头像：{{value}}"
-  },
-  "onboard_debug_complete_failed": {
-    "message": "完成失败：{{error}}"
-  },
-  "onboard_debug_complete_success": {
-    "message": "Onboarding 已完成（已应用跳过默认值）"
-  },
-  "onboard_debug_completed_label": {
-    "message": "已完成：{{value}}"
-  },
-  "onboard_debug_load_failed": {
-    "message": "加载失败：{{error}}"
-  },
-  "onboard_debug_refresh": {
-    "message": "刷新"
-  },
-  "onboard_debug_reset_failed": {
-    "message": "重置失败：{{error}}"
-  },
-  "onboard_debug_reset_state": {
-    "message": "重置状态"
-  },
-  "onboard_debug_reset_success": {
-    "message": "Onboarding 状态已重置"
-  },
-  "onboard_debug_skip_complete": {
-    "message": "跳过并完成"
-  },
-  "onboard_debug_title": {
-    "message": "Onboarding 调试"
-  },
-  "onboarding_alert": {
-    "message": "让我们互相认识一下"
-  },
-  "onboarding_alert_description": {
-    "message": "聊几句，给我挑个性格、取个名字，全程点选即可，不用打字。"
-  },
-  "onboarding_avatar_card_alt": {
-    "message": "助手为自己画的脸"
-  },
-  "onboarding_avatar_card_cancelled": {
-    "message": "已取消绘制。"
-  },
-  "onboarding_avatar_card_drawing": {
-    "message": "正在画我的脸……"
-  },
-  "onboarding_avatar_card_failed": {
-    "message": "这张脸没画出来。"
-  },
-  "onboarding_avatar_card_title": {
-    "message": "我的样子"
-  },
-  "onboarding_completion_alert": {
-    "message": "设置完成！"
-  },
-  "onboarding_completion_alert_description": {
-    "message": "你的助手已就绪，此对话会作为引导记录保留在这里。"
-  },
-  "onboarding_invitation": {
-    "message": "认识你的助手"
-  },
-  "onboarding_invitation_description": {
-    "message": "在简短对话中挑选性格和名字，或跳过直接开始。"
-  },
-  "onboarding_skip_button": {
-    "message": "跳过引导"
-  },
-  "onboarding_start_button": {
-    "message": "开始"
-  },
-  "onboarding_start_chat_button": {
-    "message": "开始新对话"
-  },
-  "private_ai_banner_description": {
-    "message": "Private AI 的回答质量可能与在线模型有所不同。"
-  },
-  "private_ai_banner_dismiss_for_now": {
-    "message": "暂时关闭"
-  },
-  "private_ai_banner_dont_show_again": {
-    "message": "不再显示"
-  },
-  "private_ai_banner_title": {
-    "message": "你正在使用 Private AI"
-  },
-  "shadow_tasks_artifacts_empty": {
-    "message": "暂无产物"
-  },
-  "shadow_tasks_artifacts_no_shadow_task_call": {
-    "message": "本次运行未调用 SHADOW_TASK，因此没有录屏或 Shadow 浏览器产物。"
-  },
-  "shadow_tasks_artifacts_open": {
-    "message": "打开"
-  },
-  "shadow_tasks_artifacts_size_bytes": {
-    "message": "{{count}} 字节"
-  },
-  "shadow_tasks_back": {
-    "message": "返回"
-  },
-  "shadow_tasks_cancel": {
-    "message": "取消任务"
-  },
-  "shadow_tasks_cancel_confirm": {
-    "message": "确认取消该任务吗？"
-  },
-  "shadow_tasks_cancel_failed": {
-    "message": "取消任务失败"
-  },
-  "shadow_tasks_cancelled": {
-    "message": "任务已取消"
-  },
-  "shadow_tasks_default_task_title": {
-    "message": "Shadow 任务"
-  },
-  "shadow_tasks_empty": {
-    "message": "暂无 Shadow 任务"
-  },
-  "shadow_tasks_fields_created_at": {
-    "message": "创建时间"
-  },
-  "shadow_tasks_fields_finished_at": {
-    "message": "结束时间"
-  },
-  "shadow_tasks_fields_objective": {
-    "message": "目标"
-  },
-  "shadow_tasks_fields_run_id": {
-    "message": "运行 ID"
-  },
-  "shadow_tasks_fields_run_index": {
-    "message": "运行序号"
-  },
-  "shadow_tasks_fields_started_at": {
-    "message": "开始时间"
-  },
-  "shadow_tasks_fields_status": {
-    "message": "状态"
-  },
-  "shadow_tasks_fields_task_id": {
-    "message": "任务 ID"
-  },
-  "shadow_tasks_fields_task_status": {
-    "message": "任务状态"
-  },
-  "shadow_tasks_fields_tool_call_count": {
-    "message": "工具调用次数"
-  },
-  "shadow_tasks_fields_trigger_source": {
-    "message": "触发来源"
-  },
-  "shadow_tasks_fields_trigger_type": {
-    "message": "触发方式"
-  },
-  "shadow_tasks_filters_all_statuses": {
-    "message": "全部状态"
-  },
-  "shadow_tasks_filters_keyword": {
-    "message": "按标题 / 目标 / 任务 ID 搜索"
-  },
-  "shadow_tasks_history_empty": {
-    "message": "暂无运行历史"
-  },
-  "shadow_tasks_history_no_run_selected": {
-    "message": "请选择一条运行记录查看详情"
-  },
-  "shadow_tasks_invalid_objective": {
-    "message": "shadow: 前缀后的目标不能为空"
-  },
-  "shadow_tasks_list_title": {
-    "message": "Shadow 任务列表"
-  },
-  "shadow_tasks_load_error": {
-    "message": "后台任务数据加载失败。"
-  },
-  "shadow_tasks_loading": {
-    "message": "正在加载任务…"
-  },
-  "shadow_tasks_loading_detail": {
-    "message": "正在加载任务详情…"
-  },
-  "shadow_tasks_logs_empty": {
-    "message": "暂无日志"
-  },
-  "shadow_tasks_logs_load_more": {
-    "message": "加载更多日志"
-  },
-  "shadow_tasks_logs_loading": {
-    "message": "正在加载日志…"
-  },
-  "shadow_tasks_logs_title": {
-    "message": "时间线日志"
-  },
-  "shadow_tasks_page_title": {
-    "message": "Shadow 任务"
-  },
-  "shadow_tasks_prepare_failed": {
-    "message": "提交 Shadow 任务失败"
-  },
-  "shadow_tasks_prepare_success": {
-    "message": "Shadow 任务已启动"
-  },
-  "shadow_tasks_recordings_empty": {
-    "message": "当前任务暂无录像记录"
-  },
-  "shadow_tasks_recordings_fields_download_id": {
-    "message": "下载 ID"
-  },
-  "shadow_tasks_recordings_fields_file_size": {
-    "message": "文件大小"
-  },
-  "shadow_tasks_recordings_fields_started_at": {
-    "message": "开始时间"
-  },
-  "shadow_tasks_recordings_fields_stopped_at": {
-    "message": "结束时间"
-  },
-  "shadow_tasks_recordings_no_recordings": {
-    "message": "该标签页暂无录像记录"
-  },
-  "shadow_tasks_recordings_open": {
-    "message": "打开文件"
-  },
-  "shadow_tasks_recordings_open_failed": {
-    "message": "打开录像文件失败"
-  },
-  "shadow_tasks_recordings_open_success": {
-    "message": "已请求打开录像文件"
-  },
-  "shadow_tasks_recordings_show": {
-    "message": "在文件夹中显示"
-  },
-  "shadow_tasks_recordings_show_failed": {
-    "message": "在文件夹中显示录像文件失败"
-  },
-  "shadow_tasks_recordings_show_success": {
-    "message": "已请求在文件夹中显示录像文件"
-  },
-  "shadow_tasks_recordings_status_cancelled": {
-    "message": "已取消"
-  },
-  "shadow_tasks_recordings_status_failed": {
-    "message": "失败"
-  },
-  "shadow_tasks_recordings_status_label": {
-    "message": "状态：{{status}}"
-  },
-  "shadow_tasks_recordings_status_pending": {
-    "message": "待开始"
-  },
-  "shadow_tasks_recordings_status_recording": {
-    "message": "录制中"
-  },
-  "shadow_tasks_recordings_status_saved": {
-    "message": "已保存"
-  },
-  "shadow_tasks_recordings_status_starting": {
-    "message": "启动中"
-  },
-  "shadow_tasks_recordings_status_stopping": {
-    "message": "停止中"
-  },
-  "shadow_tasks_recordings_title": {
-    "message": "录像结果"
-  },
-  "shadow_tasks_refresh": {
-    "message": "刷新"
-  },
-  "shadow_tasks_refresh_detail": {
-    "message": "刷新详情"
-  },
-  "shadow_tasks_rerun": {
-    "message": "重新运行"
-  },
-  "shadow_tasks_rerun_failed": {
-    "message": "重新运行失败"
-  },
-  "shadow_tasks_rerun_success": {
-    "message": "已创建新的运行"
-  },
-  "shadow_tasks_result_error": {
-    "message": "错误信息"
-  },
-  "shadow_tasks_result_final_answer": {
-    "message": "最终结果"
-  },
-  "shadow_tasks_sections_artifacts": {
-    "message": "产物"
-  },
-  "shadow_tasks_sections_history": {
-    "message": "运行历史"
-  },
-  "shadow_tasks_sections_selected_run": {
-    "message": "当前选中运行"
-  },
-  "shadow_tasks_sections_summary": {
-    "message": "任务摘要"
-  },
-  "shadow_tasks_sections_tabs": {
-    "message": "运行标签页"
-  },
-  "shadow_tasks_sections_task_archived": {
-    "message": "已归档"
-  },
-  "shadow_tasks_sections_task_disabled": {
-    "message": "已禁用"
-  },
-  "shadow_tasks_sections_task_not_started": {
-    "message": "未开始"
-  },
-  "shadow_tasks_sections_task_ready": {
-    "message": "可运行"
-  },
-  "shadow_tasks_sections_user_original_message": {
-    "message": "用户原话"
-  },
-  "shadow_tasks_sections_worker_debug": {
-    "message": "Worker 调试信息"
-  },
-  "shadow_tasks_select_hint": {
-    "message": "请选择一个任务查看详情"
-  },
-  "shadow_tasks_status_cancelled": {
-    "message": "已取消"
-  },
-  "shadow_tasks_status_completed": {
-    "message": "已完成"
-  },
-  "shadow_tasks_status_failed": {
-    "message": "失败"
-  },
-  "shadow_tasks_status_queued": {
-    "message": "排队中"
-  },
-  "shadow_tasks_status_rejected": {
-    "message": "已拒绝"
-  },
-  "shadow_tasks_status_running": {
-    "message": "运行中"
-  },
-  "shadow_tasks_stream_closed_tab_hint": {
-    "message": "该标签页已关闭。如果底层画面仍然可用，可以重试。"
-  },
-  "shadow_tasks_stream_error_with_code": {
-    "message": "流传输错误（{{code}}）"
-  },
-  "shadow_tasks_stream_no_tab_selected": {
-    "message": "请选择一个标签页查看画面"
-  },
-  "shadow_tasks_stream_not_running": {
-    "message": "仅在任务运行时可以查看实时画面"
-  },
-  "shadow_tasks_stream_retry": {
-    "message": "重新连接"
-  },
-  "shadow_tasks_stream_switch_failed": {
-    "message": "切换画面失败"
-  },
-  "shadow_tasks_stream_title": {
-    "message": "实时画面"
-  },
-  "shadow_tasks_tabs_empty": {
-    "message": "当前任务还没有发现标签页"
-  },
-  "shadow_tasks_tabs_recording_status": {
-    "message": "录像：{{status}}"
-  },
-  "shadow_tasks_tabs_state_closed": {
-    "message": "已关闭"
-  },
-  "shadow_tasks_tabs_state_open": {
-    "message": "打开"
-  },
-  "shadow_tasks_tabs_tab_fallback": {
-    "message": "标签页 {{number}}"
-  },
-  "shadow_tasks_tabs_tab_with_index": {
-    "message": "标签页 {{index}} · {{title}}"
-  },
-  "shadow_tasks_tabs_title": {
-    "message": "任务标签页"
-  },
-  "shadow_tasks_worker_debug_client_name": {
-    "message": "Worker Room 名称"
-  },
-  "shadow_tasks_worker_debug_heartbeat": {
-    "message": "心跳"
-  },
-  "shadow_tasks_worker_debug_heartbeat_running": {
-    "message": "运行中"
-  },
-  "shadow_tasks_worker_debug_heartbeat_stopped": {
-    "message": "已停止"
-  },
-  "shadow_tasks_worker_debug_last_connected_at": {
-    "message": "最近连接时间"
-  },
-  "shadow_tasks_worker_debug_last_worker_registered_at": {
-    "message": "最近 worker_registered 时间"
-  },
-  "shadow_tasks_worker_debug_no": {
-    "message": "否"
-  },
-  "shadow_tasks_worker_debug_queued_messages": {
-    "message": "待发送消息数"
-  },
-  "shadow_tasks_worker_debug_registered_worker_connection_id": {
-    "message": "已注册 Worker Connection ID"
-  },
-  "shadow_tasks_worker_debug_socket_state_connected": {
-    "message": "已连接"
-  },
-  "shadow_tasks_worker_debug_socket_state_connecting": {
-    "message": "连接中"
-  },
-  "shadow_tasks_worker_debug_socket_state_disconnected": {
-    "message": "未连接"
-  },
-  "shadow_tasks_worker_debug_socket_status": {
-    "message": "Worker Socket"
-  },
-  "shadow_tasks_worker_debug_using_token_fallback": {
-    "message": "是否使用 token 回退"
-  },
-  "shadow_tasks_worker_debug_yes": {
-    "message": "是"
-  },
-  "shell_resize_list": {
-    "message": "调整对话列表宽度"
-  },
-  "sidebar_page_title": {
-    "message": "Phi AI"
-  },
-  "skill_creator_cancel": {
-    "message": "取消"
-  },
-  "skill_creator_create_failed": {
-    "message": "创建 Skill 失败。"
-  },
-  "skill_creator_created": {
-    "message": "Skill 已创建"
-  },
-  "skill_creator_description": {
-    "message": "使用简单或专业模式创建 Skill。"
-  },
-  "skill_creator_field_description": {
-    "message": "描述"
-  },
-  "skill_creator_field_name": {
-    "message": "名称"
-  },
-  "skill_creator_field_prompt": {
-    "message": "提示词"
-  },
-  "skill_creator_initial_prompt": {
-    "message": "简单描述一下你想实现的功能。"
-  },
-  "skill_creator_mode_professional": {
-    "message": "专业"
-  },
-  "skill_creator_mode_simple": {
-    "message": "简单"
-  },
-  "skill_creator_primary_create": {
-    "message": "创建 Skill"
-  },
-  "skill_creator_primary_next": {
-    "message": "下一步"
-  },
-  "skill_creator_submitting_create": {
-    "message": "创建中…"
-  },
-  "skill_creator_submitting_thinking": {
-    "message": "思考中"
-  },
-  "skill_creator_title": {
-    "message": "创建 Skill"
-  },
-  "skill_recorder_back": {
-    "message": "返回 Skill"
-  },
-  "skill_recorder_cancel": {
-    "message": "取消"
-  },
-  "skill_recorder_errors_cancel_failed": {
-    "message": "无法取消 Skill 录制"
-  },
-  "skill_recorder_errors_page_not_recordable": {
-    "message": "此页面无法录制"
-  },
-  "skill_recorder_errors_recording_active": {
-    "message": "已有一个 Skill 正在录制"
-  },
-  "skill_recorder_errors_start_failed": {
-    "message": "无法开始 Skill 录制"
-  },
-  "skill_recorder_errors_unavailable": {
-    "message": "Skill 录制器不可用"
-  },
-  "skill_recorder_loading_tabs": {
-    "message": "正在加载标签页…"
-  },
-  "skill_recorder_new_tab": {
-    "message": "新标签页"
-  },
-  "skill_recorder_new_tab_description": {
-    "message": "打开网页后开始录制"
-  },
-  "skill_recorder_no_tabs": {
-    "message": "没有可录制的标签页"
-  },
-  "skill_recorder_title": {
-    "message": "录制 Skill"
-  },
-  "skill_recorder_untitled": {
-    "message": "未命名"
-  },
-  "skill_recorder_waiting_for_page": {
-    "message": "已准备录制 · 打开网页后开始"
-  },
-  "skills_actions_add": {
-    "message": "添加"
-  },
-  "skills_actions_add_failed": {
-    "message": "添加失败"
-  },
-  "skills_actions_add_skill": {
-    "message": "将 {{name}} 添加到你的 Skill 库"
-  },
-  "skills_actions_added": {
-    "message": "已添加"
-  },
-  "skills_actions_added_toast": {
-    "message": "已添加此 Skill"
-  },
-  "skills_actions_delete_failed": {
-    "message": "删除失败"
-  },
-  "skills_actions_delete_skill": {
-    "message": "删除 {{name}}"
-  },
-  "skills_actions_deleted_toast": {
-    "message": "已删除此 Skill"
-  },
-  "skills_actions_disable_skill": {
-    "message": "禁用 {{name}}"
-  },
-  "skills_actions_edit_skill": {
-    "message": "编辑 {{name}}"
-  },
-  "skills_actions_enable_skill": {
-    "message": "启用 {{name}}"
-  },
-  "skills_actions_off": {
-    "message": "已禁用"
-  },
-  "skills_actions_on": {
-    "message": "已启用"
-  },
-  "skills_actions_remove_failed": {
-    "message": "移除失败"
-  },
-  "skills_actions_remove_skill": {
-    "message": "从你的 Skill 库移除 {{name}}"
-  },
-  "skills_actions_removed_toast": {
-    "message": "已移除此 Skill"
-  },
-  "skills_actions_skill_creator_locked": {
-    "message": "Skill 生成器不能被关闭"
-  },
-  "skills_actions_skill_disabled_removed": {
-    "message": "已移除已禁用的 Skill {{name}}"
-  },
-  "skills_actions_toggle_failed": {
-    "message": "切换 Skill 状态失败"
-  },
-  "skills_actions_try": {
-    "message": "试用"
-  },
-  "skills_actions_try_skill": {
-    "message": "试用 {{name}}"
-  },
-  "skills_actions_view_skill": {
-    "message": "查看 {{name}}"
-  },
-  "skills_all_skills": {
-    "message": "全部 Skill"
-  },
-  "skills_api_unavailable": {
-    "message": "登录就绪前 Skill 服务暂不可用。"
-  },
-  "skills_confirm_removal_built_in_confirm": {
-    "message": "移除"
-  },
-  "skills_confirm_removal_built_in_description": {
-    "message": "它会从你的 Skill 库中移除，需要时可以再次添加。"
-  },
-  "skills_confirm_removal_built_in_title": {
-    "message": "是否移除此内置 Skill？"
-  },
-  "skills_confirm_removal_cancel": {
-    "message": "取消"
-  },
-  "skills_confirm_removal_processing": {
-    "message": "处理中…"
-  },
-  "skills_confirm_removal_user_confirm": {
-    "message": "删除"
-  },
-  "skills_confirm_removal_user_description": {
-    "message": "此操作不可撤销。"
-  },
-  "skills_confirm_removal_user_title": {
-    "message": "是否删除此 Skill？"
-  },
-  "skills_edit_dialog_body_required": {
-    "message": "指令内容不能为空。"
-  },
-  "skills_edit_dialog_cancel": {
-    "message": "取消"
-  },
-  "skills_edit_dialog_description": {
-    "message": "更新这条可复用指令，并保存回你的 Skill 库。"
-  },
-  "skills_edit_dialog_description_label": {
-    "message": "描述"
-  },
-  "skills_edit_dialog_description_required": {
-    "message": "描述不能为空。"
-  },
-  "skills_edit_dialog_error": {
-    "message": "保存 Skill 失败。"
-  },
-  "skills_edit_dialog_friendly_name_required": {
-    "message": "显示名称不能为空。"
-  },
-  "skills_edit_dialog_instructions": {
-    "message": "指令内容"
-  },
-  "skills_edit_dialog_instructions_placeholder": {
-    "message": "填写这个 Skill 注入对话时使用的 Markdown 指令。"
-  },
-  "skills_edit_dialog_load_error": {
-    "message": "无法加载这个 Skill。"
-  },
-  "skills_edit_dialog_loading": {
-    "message": "正在加载 Skill…"
-  },
-  "skills_edit_dialog_name": {
-    "message": "名称"
-  },
-  "skills_edit_dialog_name_required": {
-    "message": "名称不能为空。"
-  },
-  "skills_edit_dialog_save": {
-    "message": "保存"
-  },
-  "skills_edit_dialog_saved": {
-    "message": "Skill 已保存。"
-  },
-  "skills_edit_dialog_saving": {
-    "message": "保存中…"
-  },
-  "skills_edit_dialog_title": {
-    "message": "编辑 Skill"
-  },
-  "skills_empty_description": {
-    "message": "可以换个关键词，或创建一个用户 Skill。"
-  },
-  "skills_empty_title": {
-    "message": "未找到 Skill"
-  },
-  "skills_error_title": {
-    "message": "加载 Skill 失败"
-  },
-  "skills_filters_all": {
-    "message": "全部"
-  },
-  "skills_filters_built_in": {
-    "message": "内置"
-  },
-  "skills_filters_enabled": {
-    "message": "已启用"
-  },
-  "skills_filters_user_created": {
-    "message": "用户创建"
-  },
-  "skills_form_advanced_label": {
-    "message": "高级"
-  },
-  "skills_form_friendly_name_help": {
-    "message": "用于 Skill 列表和对话中展示，内部名称会单独保留。"
-  },
-  "skills_form_friendly_name_label": {
-    "message": "显示名称"
-  },
-  "skills_form_friendly_name_placeholder": {
-    "message": "在界面中展示的名称"
-  },
-  "skills_form_name_auto_derived_hint": {
-    "message": "留空时会自动生成。"
-  },
-  "skills_form_name_read_only_hint": {
-    "message": "内部标识，不可编辑。"
-  },
-  "skills_form_slug_name_invalid_hint": {
-    "message": "使用小写 ASCII 字母、数字和单个连字符。"
-  },
-  "skills_form_slug_name_label": {
-    "message": "Slug 名称"
-  },
-  "skills_loading": {
-    "message": "正在加载 Skill…"
-  },
-  "skills_menu_label": {
-    "message": "Skill"
-  },
-  "skills_only_available_on_sites": {
-    "message": "「{{name}}」仅在 {{sitesLabel}} 上可用。"
-  },
-  "skills_pagination_label": {
-    "message": "Skill 分页"
-  },
-  "skills_pagination_next": {
-    "message": "下一页"
-  },
-  "skills_pagination_previous": {
-    "message": "上一页"
-  },
-  "skills_read_only_dialog_close": {
-    "message": "关闭"
-  },
-  "skills_read_only_dialog_description": {
-    "message": "查看这条可复用指令的内容。"
-  },
-  "skills_read_only_dialog_empty": {
-    "message": "这个 Skill 暂无指令内容。"
-  },
-  "skills_read_only_dialog_instructions": {
-    "message": "指令内容"
-  },
-  "skills_read_only_dialog_load_error": {
-    "message": "加载 Skill 内容失败。"
-  },
-  "skills_read_only_dialog_loading": {
-    "message": "正在加载 Skill 内容…"
-  },
-  "skills_read_only_dialog_title": {
-    "message": "Skill 详情"
-  },
-  "skills_search": {
-    "message": "搜索"
-  },
-  "skills_sources_built_in": {
-    "message": "内置"
-  },
-  "skills_sources_user": {
-    "message": "用户"
-  },
-  "skills_subtitle": {
-    "message": "管理可在对话中复用的指令。"
-  },
-  "skills_suggestion_all_description": {
-    "message": "浏览和管理你的 Skill 库"
-  },
-  "skills_suggestion_all_label": {
-    "message": "全部 Skill"
-  },
-  "skills_suggestion_create_description": {
-    "message": "也可以直接对话来创建 Skill"
-  },
-  "skills_suggestion_create_label": {
-    "message": "创建 Skill"
-  },
-  "skills_suggestion_group_title": {
-    "message": "Skill"
-  },
-  "skills_suggestion_record_description": {
-    "message": "录下一段浏览器操作流程"
-  },
-  "skills_suggestion_record_label": {
-    "message": "录制 Skill"
-  },
-  "skills_title": {
-    "message": "Skill"
-  },
-  "theme_dark": {
-    "message": "深色"
-  },
-  "theme_label": {
-    "message": "主题"
-  },
-  "theme_light": {
-    "message": "浅色"
-  },
-  "theme_system": {
-    "message": "跟随系统"
-  },
-  "token_error": {
-    "message": "获取认证令牌失败"
-  },
-  "token_error_description": {
-    "message": "请检查网络连接后重试"
-  },
-  "top_bar_close": {
-    "message": "关闭"
-  },
-  "top_bar_menu": {
-    "message": "菜单"
-  },
-  "top_bar_open_in_new_tab": {
-    "message": "在新标签页中打开"
-  },
-  "top_bar_phi_link": {
-    "message": "Phi Link"
-  },
-  "top_bar_settings": {
-    "message": "设置"
-  },
-  "top_bar_shadow_tasks": {
-    "message": "Shadow 任务"
-  },
-  "top_bar_show_response_speed": {
-    "message": "显示响应速度"
-  },
-  "user_action_aborted": {
-    "message": "操作已中止"
-  },
-  "user_action_cancelled": {
-    "message": "操作已取消"
-  },
-  "user_action_confirm": {
-    "message": "确认"
-  },
-  "user_action_confirm_description": {
-    "message": "请确认以下操作后继续。"
-  },
-  "user_action_confirm_failed": {
-    "message": "确认发送失败，请重试"
-  },
-  "user_action_confirm_title": {
-    "message": "确认操作"
-  },
-  "user_action_deny": {
-    "message": "拒绝"
-  },
-  "user_action_responded": {
-    "message": "操作已确认"
-  },
-  "user_action_risk_high": {
-    "message": "高"
-  },
-  "user_action_risk_label": {
-    "message": "风险"
-  },
-  "user_action_risk_low": {
-    "message": "低"
-  },
-  "user_action_risk_medium": {
-    "message": "中"
-  },
-  "user_action_screenshot_alt": {
-    "message": "操作截图"
-  },
-  "user_input_add_file": {
-    "message": "添加文件"
-  },
-  "user_input_add_image": {
-    "message": "添加图片"
-  },
-  "user_input_add_tab": {
-    "message": "添加标签页"
-  },
-  "user_input_add_website": {
-    "message": "添加网站"
-  },
-  "user_input_cancel": {
-    "message": "取消"
-  },
-  "user_input_confirm": {
-    "message": "确认"
-  },
-  "user_input_current_tab_toggle": {
-    "message": "在当前标签页执行"
-  },
-  "user_input_enter_website_url": {
-    "message": "输入网站地址"
-  },
-  "user_input_interject": {
-    "message": "排队，本轮结束后发送"
-  },
-  "user_input_no_available_skills": {
-    "message": "没有可用的 Skill"
-  },
-  "user_input_open_skills": {
-    "message": "打开 Skill"
-  },
-  "user_input_remove_attachment": {
-    "message": "移除附件"
-  },
-  "user_input_remove_split_view": {
-    "message": "移除分屏"
-  },
-  "user_input_remove_tab": {
-    "message": "移除标签页"
-  },
-  "user_input_remove_tab_group": {
-    "message": "移除标签页组"
-  },
-  "user_input_skill_fallback_name": {
-    "message": "Skill"
-  },
-  "user_input_skills": {
-    "message": "Skill"
-  },
-  "user_input_stop_not_confirmed": {
-    "message": "停止未确认"
-  },
-  "user_input_tab_fallback_title": {
-    "message": "标签页"
-  },
-  "user_input_tiptap_placeholder": {
-    "message": "输入 @ 来提及标签页…"
-  },
-  "user_input_upload_error": {
-    "message": "上传失败"
-  },
-  "user_input_uploading": {
-    "message": "上传中…"
-  },
-  "user_input_website_url_placeholder": {
-    "message": "https://example.com"
-  },
-  "welcome_subtitle": {
-    "message": "你可以搜索、提问，或与当前页面一起工作"
-  },
-  "widgets_pending_dismiss": {
-    "message": "忽略"
-  },
-  "widgets_pinned_iframe_title": {
-    "message": "已固定的小组件"
-  }
+    "agent_memory_page_back": {
+        "message": "返回"
+    },
+    "agent_memory_page_card_feedback": {
+        "message": "反馈：{{value}}"
+    },
+    "agent_memory_page_card_intents": {
+        "message": "意图数：{{count}}"
+    },
+    "agent_memory_page_card_last_active": {
+        "message": "最近活跃：{{value}}"
+    },
+    "agent_memory_page_card_sentiment": {
+        "message": "情感：{{value}}"
+    },
+    "agent_memory_page_card_source": {
+        "message": "来源：{{value}}"
+    },
+    "agent_memory_page_card_start": {
+        "message": "开始：{{value}}"
+    },
+    "agent_memory_page_empty": {
+        "message": "当前还没有 Agent Memory 数据。"
+    },
+    "agent_memory_page_error": {
+        "message": "加载 Agent Memory 失败。"
+    },
+    "agent_memory_page_generated_at": {
+        "message": "更新时间：{{value}}"
+    },
+    "agent_memory_page_keywords": {
+        "message": "关键词"
+    },
+    "agent_memory_page_loading": {
+        "message": "正在加载 Agent Memory…"
+    },
+    "agent_memory_page_memories": {
+        "message": "记忆"
+    },
+    "agent_memory_page_memory_count": {
+        "message": "记忆数：{{count}}"
+    },
+    "agent_memory_page_refresh": {
+        "message": "刷新"
+    },
+    "agent_memory_page_title": {
+        "message": "Agent Memory"
+    },
+    "agent_memory_page_topics": {
+        "message": "主题"
+    },
+    "agent_persona_description": {
+        "message": "编辑保存在服务端、供后续运行使用的 Persona 模板。"
+    },
+    "agent_persona_load_error": {
+        "message": "无法加载当前 Agent Persona 配置。"
+    },
+    "agent_persona_no_variables": {
+        "message": "当前模板未检测到变量。"
+    },
+    "agent_persona_open_error": {
+        "message": "无法打开 Agent Persona 弹窗。"
+    },
+    "agent_persona_preview": {
+        "message": "预览"
+    },
+    "agent_persona_reset": {
+        "message": "重置"
+    },
+    "agent_persona_save_error": {
+        "message": "无法保存 Agent Persona 修改。"
+    },
+    "agent_persona_template": {
+        "message": "模板"
+    },
+    "agent_persona_title": {
+        "message": "Agent Persona"
+    },
+    "agent_persona_variables": {
+        "message": "变量"
+    },
+    "ai_mode_copy_logs": {
+        "message": "复制日志"
+    },
+    "ai_mode_expert": {
+        "message": "专家"
+    },
+    "ai_mode_fast": {
+        "message": "快速"
+    },
+    "app_title": {
+        "message": "Phi Chat"
+    },
+    "artifacts_menu_label": {
+        "message": "小组件"
+    },
+    "artifacts_panel_aria_label": {
+        "message": "小组件面板"
+    },
+    "chat_attachments_add": {
+        "message": "添加附件"
+    },
+    "chat_attachments_drop_hint": {
+        "message": "拖放文件以附加"
+    },
+    "chat_attachments_failed": {
+        "message": "无法附加"
+    },
+    "chat_attachments_remove": {
+        "message": "移除附件"
+    },
+    "chat_attachments_too_large": {
+        "message": "超过 50 KB"
+    },
+    "chat_composer_menu_all_tabs_added": {
+        "message": "所有标签页均已添加"
+    },
+    "chat_composer_menu_upload": {
+        "message": "上传"
+    },
+    "chat_composer_menu_upload_from_computer": {
+        "message": "从电脑上传"
+    },
+    "chat_composer_open_skills": {
+        "message": "技能"
+    },
+    "chat_composer_placeholder": {
+        "message": "输入消息…"
+    },
+    "chat_composer_send": {
+        "message": "发送"
+    },
+    "chat_composer_stop": {
+        "message": "停止"
+    },
+    "chat_composer_suggestions_member_count": {
+        "message": "{{count}} 个标签页"
+    },
+    "chat_composer_suggestions_no_skills": {
+        "message": "没有可用的技能"
+    },
+    "chat_composer_suggestions_no_tabs": {
+        "message": "没有可用的标签页"
+    },
+    "chat_composer_suggestions_skill_header": {
+        "message": "技能"
+    },
+    "chat_composer_suggestions_split_view": {
+        "message": "分屏"
+    },
+    "chat_composer_suggestions_tabs_header": {
+        "message": "标签页"
+    },
+    "chat_composer_suggestions_untitled_group": {
+        "message": "未命名分组"
+    },
+    "chat_empty_body": {
+        "message": "在左侧选择一个对话，或者开始新对话。"
+    },
+    "chat_empty_title": {
+        "message": "选择一个对话"
+    },
+    "chat_interrupted": {
+        "message": "已中断"
+    },
+    "chat_load_failed": {
+        "message": "无法加载这个对话。"
+    },
+    "chat_loading_phrases_anchoring_findings": {
+        "message": "把珍珠串起来"
+    },
+    "chat_loading_phrases_assembling_crew": {
+        "message": "召集船员"
+    },
+    "chat_loading_phrases_baiting_data_lake": {
+        "message": "往湖里撒点饵"
+    },
+    "chat_loading_phrases_brewing_something_good": {
+        "message": "酝酿点好东西"
+    },
+    "chat_loading_phrases_bubbling_up_results": {
+        "message": "结果正在冒泡"
+    },
+    "chat_loading_phrases_casting_net_wide": {
+        "message": "撒网捞一捞"
+    },
+    "chat_loading_phrases_catching_big_one": {
+        "message": "想钓条大的"
+    },
+    "chat_loading_phrases_catching_wave": {
+        "message": "赶上这一波"
+    },
+    "chat_loading_phrases_charting_waters": {
+        "message": "先摸清水路"
+    },
+    "chat_loading_phrases_chasing_golden_fish": {
+        "message": "追一条金色小鱼"
+    },
+    "chat_loading_phrases_chasing_school_of_thought": {
+        "message": "追着思路鱼群跑"
+    },
+    "chat_loading_phrases_connecting_dots": {
+        "message": "把线索串起来"
+    },
+    "chat_loading_phrases_consulting_sea_oracle": {
+        "message": "请教海底老神仙"
+    },
+    "chat_loading_phrases_cruising_data_stream": {
+        "message": "在洋流里巡游"
+    },
+    "chat_loading_phrases_decoding_signal": {
+        "message": "破译海底信号"
+    },
+    "chat_loading_phrases_diving_deep": {
+        "message": "往深处潜一潜"
+    },
+    "chat_loading_phrases_drifting_toward_answers": {
+        "message": "慢慢漂向答案"
+    },
+    "chat_loading_phrases_exploring_deep_end": {
+        "message": "去深水区看看"
+    },
+    "chat_loading_phrases_fishing_deeper_waters": {
+        "message": "到更深的水域钓一钓"
+    },
+    "chat_loading_phrases_fishing_for_answers": {
+        "message": "在钓答案"
+    },
+    "chat_loading_phrases_floating_new_ideas": {
+        "message": "让新想法浮上来"
+    },
+    "chat_loading_phrases_following_ripples": {
+        "message": "吐几个泡泡想想"
+    },
+    "chat_loading_phrases_going_with_flow": {
+        "message": "顺水推舟"
+    },
+    "chat_loading_phrases_hatching_plan": {
+        "message": "憋一个好主意"
+    },
+    "chat_loading_phrases_hooked_on_lead": {
+        "message": "咬住一条线索"
+    },
+    "chat_loading_phrases_hooking_insights": {
+        "message": "钩几条灵感"
+    },
+    "chat_loading_phrases_launching_submarine": {
+        "message": "派潜艇下去看看"
+    },
+    "chat_loading_phrases_letting_bait_sink_in": {
+        "message": "等鱼饵沉一沉"
+    },
+    "chat_loading_phrases_making_splash": {
+        "message": "扑通一声下水"
+    },
+    "chat_loading_phrases_mapping_ocean_floor": {
+        "message": "把贝壳一个个翻开"
+    },
+    "chat_loading_phrases_navigating_stream": {
+        "message": "问问路过的螃蟹"
+    },
+    "chat_loading_phrases_plotting_course": {
+        "message": "规划航线"
+    },
+    "chat_loading_phrases_plunging_into_deep": {
+        "message": "一头扎进深海"
+    },
+    "chat_loading_phrases_polishing_telescope": {
+        "message": "擦一擦望远镜"
+    },
+    "chat_loading_phrases_reading_tides": {
+        "message": "看看潮汐"
+    },
+    "chat_loading_phrases_reeling_in_results": {
+        "message": "结果快上钩了"
+    },
+    "chat_loading_phrases_riding_current": {
+        "message": "摆摆尾巴想一想"
+    },
+    "chat_loading_phrases_sailing_through_sources": {
+        "message": "扬帆去找资料"
+    },
+    "chat_loading_phrases_scanning_horizon": {
+        "message": "望一望海平线"
+    },
+    "chat_loading_phrases_scouting_reef": {
+        "message": "去珊瑚礁探探路"
+    },
+    "chat_loading_phrases_shaking_magic_fish_bowl": {
+        "message": "摇一摇神奇鱼缸"
+    },
+    "chat_loading_phrases_sifting_through_current": {
+        "message": "在水流里淘一淘"
+    },
+    "chat_loading_phrases_skimming_surface": {
+        "message": "先掠一眼水面"
+    },
+    "chat_loading_phrases_spinning_compass": {
+        "message": "转一转罗盘"
+    },
+    "chat_loading_phrases_splashing_through_thoughts": {
+        "message": "在思绪里游来游去"
+    },
+    "chat_loading_phrases_stirring_whirlpool": {
+        "message": "搅一搅漩涡"
+    },
+    "chat_loading_phrases_summoning_brain_fish": {
+        "message": "召唤智慧小鱼"
+    },
+    "chat_loading_phrases_surfing_knowledge_waves": {
+        "message": "冲一波知识浪"
+    },
+    "chat_loading_phrases_swimming_through_data": {
+        "message": "在数据里游一圈"
+    },
+    "chat_loading_phrases_swimming_upstream": {
+        "message": "逆流而上"
+    },
+    "chat_loading_phrases_testing_waters": {
+        "message": "先试试水"
+    },
+    "chat_loading_phrases_trawling_archives": {
+        "message": "翻翻海底档案"
+    },
+    "chat_loading_phrases_trolling_for_treasures": {
+        "message": "拖网寻宝"
+    },
+    "chat_loading_phrases_tuning_sonar": {
+        "message": "调一调声呐"
+    },
+    "chat_loading_phrases_untangling_net": {
+        "message": "理一理渔网"
+    },
+    "chat_loading_phrases_wading_through_info": {
+        "message": "在浅滩蹚一蹚"
+    },
+    "chat_loading_phrases_warming_up_engines": {
+        "message": "先热一热引擎"
+    },
+    "chat_message_cancel": {
+        "message": "取消"
+    },
+    "chat_message_collapse": {
+        "message": "收起"
+    },
+    "chat_message_copied": {
+        "message": "已复制"
+    },
+    "chat_message_copy": {
+        "message": "复制消息"
+    },
+    "chat_message_download": {
+        "message": "下载"
+    },
+    "chat_message_edit": {
+        "message": "编辑消息"
+    },
+    "chat_message_expand": {
+        "message": "展开"
+    },
+    "chat_message_next_branch": {
+        "message": "下一个版本"
+    },
+    "chat_message_previous_branch": {
+        "message": "上一个版本"
+    },
+    "chat_message_regenerate": {
+        "message": "重新生成回复"
+    },
+    "chat_message_save": {
+        "message": "保存"
+    },
+    "chat_retry": {
+        "message": "重试"
+    },
+    "chat_run_failed": {
+        "message": "回复失败"
+    },
+    "chat_tab_context_fallback": {
+        "message": "页面上下文"
+    },
+    "chat_thinking": {
+        "message": "思考中…"
+    },
+    "chat_tool_call_failed": {
+        "message": "失败"
+    },
+    "chat_tool_call_running": {
+        "message": "进行中"
+    },
+    "chat_tool_call_succeeded": {
+        "message": "已完成"
+    },
+    "chat_unsupported_part": {
+        "message": "Phi Chat 暂不支持此内容（{{type}}）。"
+    },
+    "chat_user_action_allow": {
+        "message": "允许"
+    },
+    "chat_user_action_deny": {
+        "message": "取消"
+    },
+    "chat_user_action_title": {
+        "message": "{{name}} 需要你的确认"
+    },
+    "chat_welcome_subtitle": {
+        "message": "你可以搜索、提问，或与当前页面一起工作"
+    },
+    "chat_welcome_title": {
+        "message": "你好，我是 {{name}}"
+    },
+    "context_menu_ask_about": {
+        "message": "向 {{agentName}} 询问…"
+    },
+    "context_menu_ask_about_selection": {
+        "message": "向 {{agentName}} 询问「{{selection}}」"
+    },
+    "conversation_add_category": {
+        "message": "新建分类"
+    },
+    "conversation_add_category_confirm": {
+        "message": "创建"
+    },
+    "conversation_add_category_placeholder": {
+        "message": "分类名称"
+    },
+    "conversation_all_category": {
+        "message": "全部"
+    },
+    "conversation_all_conversations": {
+        "message": "全部对话"
+    },
+    "conversation_all_conversations_description": {
+        "message": "浏览和管理对话历史"
+    },
+    "conversation_back": {
+        "message": "返回"
+    },
+    "conversation_batch_mode": {
+        "message": "选择"
+    },
+    "conversation_browse_all": {
+        "message": "浏览全部…"
+    },
+    "conversation_browse_all_categories": {
+        "message": "浏览全部分类…"
+    },
+    "conversation_cancel": {
+        "message": "取消"
+    },
+    "conversation_categories": {
+        "message": "分类"
+    },
+    "conversation_category_name_conflict": {
+        "message": "已存在同名分类。"
+    },
+    "conversation_create_error": {
+        "message": "创建对话失败"
+    },
+    "conversation_default_category_name": {
+        "message": "和 {{name}} 的对话"
+    },
+    "conversation_delete": {
+        "message": "删除"
+    },
+    "conversation_delete_batch_confirm_description": {
+        "message": "确定要删除 {{count}} 个对话吗？此操作无法撤销。"
+    },
+    "conversation_delete_batch_confirm_title": {
+        "message": "删除选中的对话"
+    },
+    "conversation_delete_category": {
+        "message": "删除分类"
+    },
+    "conversation_delete_category_confirm_description": {
+        "message": "该分类下的对话会回到「和 {{name}} 的对话」。"
+    },
+    "conversation_delete_category_confirm_title": {
+        "message": "删除分类"
+    },
+    "conversation_delete_confirm_description": {
+        "message": "确定要删除此对话吗？此操作无法撤销。"
+    },
+    "conversation_delete_confirm_title": {
+        "message": "删除对话"
+    },
+    "conversation_delete_selected": {
+        "message": "删除 ({{count}})"
+    },
+    "conversation_deselect_item": {
+        "message": "取消选中"
+    },
+    "conversation_exit_batch_mode": {
+        "message": "完成"
+    },
+    "conversation_load_error": {
+        "message": "加载对话失败"
+    },
+    "conversation_loading": {
+        "message": "加载中…"
+    },
+    "conversation_move_to_category": {
+        "message": "移动到分类"
+    },
+    "conversation_move_to_default": {
+        "message": "移动到「和 {{name}} 的对话」"
+    },
+    "conversation_no_categories_found": {
+        "message": "未找到分类"
+    },
+    "conversation_no_conversations": {
+        "message": "暂无对话"
+    },
+    "conversation_no_search_results": {
+        "message": "没有匹配「{{query}}」的对话"
+    },
+    "conversation_recent_conversations": {
+        "message": "最近对话"
+    },
+    "conversation_rename": {
+        "message": "重命名"
+    },
+    "conversation_rename_category": {
+        "message": "重命名分类"
+    },
+    "conversation_rename_description": {
+        "message": "为此对话输入新名称。"
+    },
+    "conversation_save": {
+        "message": "保存"
+    },
+    "conversation_search_categories": {
+        "message": "搜索分类"
+    },
+    "conversation_search_label": {
+        "message": "搜索对话"
+    },
+    "conversation_search_placeholder": {
+        "message": "搜索对话"
+    },
+    "conversation_select_conversation": {
+        "message": "选择对话"
+    },
+    "conversation_select_item": {
+        "message": "选中"
+    },
+    "conversation_select_placeholder": {
+        "message": "选择对话"
+    },
+    "conversation_title_placeholder": {
+        "message": "对话标题"
+    },
+    "conversation_untitled": {
+        "message": "未命名"
+    },
+    "conversations_categories_all": {
+        "message": "全部"
+    },
+    "conversations_categories_create": {
+        "message": "创建"
+    },
+    "conversations_categories_default": {
+        "message": "和 {{name}} 的对话"
+    },
+    "conversations_categories_delete": {
+        "message": "删除分类"
+    },
+    "conversations_categories_delete_confirm_description": {
+        "message": "此分类中的对话将移回「{{name}}」。"
+    },
+    "conversations_categories_delete_confirm_title": {
+        "message": "删除分类"
+    },
+    "conversations_categories_menu_label": {
+        "message": "分类菜单"
+    },
+    "conversations_categories_more_label": {
+        "message": "更多分类"
+    },
+    "conversations_categories_name_conflict": {
+        "message": "已存在同名分类。"
+    },
+    "conversations_categories_name_placeholder": {
+        "message": "分类名称"
+    },
+    "conversations_categories_new": {
+        "message": "新建分类"
+    },
+    "conversations_categories_rename": {
+        "message": "重命名分类"
+    },
+    "conversations_create_failed": {
+        "message": "无法创建对话。"
+    },
+    "conversations_empty": {
+        "message": "还没有对话。"
+    },
+    "conversations_load_failed": {
+        "message": "无法加载对话列表。"
+    },
+    "conversations_load_more": {
+        "message": "加载更多"
+    },
+    "conversations_menu_cancel": {
+        "message": "取消"
+    },
+    "conversations_menu_delete": {
+        "message": "删除"
+    },
+    "conversations_menu_delete_confirm_description": {
+        "message": "确定要删除这个对话吗？此操作无法撤销。"
+    },
+    "conversations_menu_delete_confirm_title": {
+        "message": "删除对话"
+    },
+    "conversations_menu_label": {
+        "message": "对话菜单"
+    },
+    "conversations_menu_move": {
+        "message": "移动到分类"
+    },
+    "conversations_menu_rename": {
+        "message": "重命名"
+    },
+    "conversations_menu_rename_description": {
+        "message": "为这个对话输入新名称。"
+    },
+    "conversations_menu_save": {
+        "message": "保存"
+    },
+    "conversations_menu_title_placeholder": {
+        "message": "对话标题"
+    },
+    "conversations_move_failed": {
+        "message": "无法移动对话。"
+    },
+    "conversations_new": {
+        "message": "新对话"
+    },
+    "conversations_retry": {
+        "message": "重试"
+    },
+    "conversations_search_close": {
+        "message": "关闭搜索"
+    },
+    "conversations_search_no_results": {
+        "message": "没有匹配 \"{{query}}\" 的对话"
+    },
+    "conversations_search_open": {
+        "message": "搜索对话"
+    },
+    "conversations_search_placeholder": {
+        "message": "搜索对话"
+    },
+    "conversations_search_tooltip": {
+        "message": "搜索对话（{{shortcut}}）"
+    },
+    "conversations_untitled": {
+        "message": "未命名对话"
+    },
+    "current_tab_confirm": {
+        "message": "确认"
+    },
+    "current_tab_confirm_description": {
+        "message": "请确认以下操作后继续。"
+    },
+    "current_tab_confirm_failed": {
+        "message": "确认发送失败，请重试"
+    },
+    "current_tab_confirm_title": {
+        "message": "确认在当前标签页执行"
+    },
+    "current_tab_deny": {
+        "message": "拒绝"
+    },
+    "current_tab_no_active_tab": {
+        "message": "当前没有可用的标签页，已关闭当前标签页模式"
+    },
+    "current_tab_risk_high": {
+        "message": "高"
+    },
+    "current_tab_risk_label": {
+        "message": "风险"
+    },
+    "current_tab_risk_low": {
+        "message": "低"
+    },
+    "current_tab_risk_medium": {
+        "message": "中"
+    },
+    "current_tab_screenshot_alt": {
+        "message": "确认截图"
+    },
+    "dev_entry_agent_memory": {
+        "message": "Agent Memory"
+    },
+    "dev_entry_shadow_tasks": {
+        "message": "Shadow 任务"
+    },
+    "drag_drop_subtitle": {
+        "message": "松开即可将文件添加到消息中"
+    },
+    "drag_drop_title": {
+        "message": "拖放文件以上传"
+    },
+    "errors_balance_alert_threshold": {
+        "message": "余额已低于预警阈值。"
+    },
+    "errors_chat_forbidden": {
+        "message": "你没有权限访问此对话。"
+    },
+    "errors_chat_not_found": {
+        "message": "未找到对话。"
+    },
+    "errors_run_failed": {
+        "message": "运行失败"
+    },
+    "errors_token_invalid": {
+        "message": "无效或已过期的认证令牌。"
+    },
+    "errors_upload_not_available": {
+        "message": "暂时无法上传文件。"
+    },
+    "features_chat_with_tabs": {
+        "message": "网页聊天"
+    },
+    "features_loading_context": {
+        "message": "正在加载上下文…"
+    },
+    "features_web_search": {
+        "message": "网页搜索"
+    },
+    "file_upload_failed": {
+        "message": "文件上传失败"
+    },
+    "message_activity_fallback_default1": {
+        "message": "正在仔细思考..."
+    },
+    "message_activity_fallback_default2": {
+        "message": "正在处理..."
+    },
+    "message_activity_fallback_default3": {
+        "message": "正在理清思路..."
+    },
+    "message_activity_fallback_default4": {
+        "message": "正在仔细查看..."
+    },
+    "message_activity_fallback_default5": {
+        "message": "正在琢磨..."
+    },
+    "message_activity_fallback_interjection1": {
+        "message": "正在调整方向..."
+    },
+    "message_activity_fallback_interjection2": {
+        "message": "正在重新处理..."
+    },
+    "message_activity_fallback_interjection3": {
+        "message": "正在考虑你的补充..."
+    },
+    "message_activity_fallback_interjection4": {
+        "message": "正在更新计划..."
+    },
+    "message_activity_fallback_interjection5": {
+        "message": "正在把你的想法加进来..."
+    },
+    "message_collapse_raw_reasoning": {
+        "message": "收起原始推理"
+    },
+    "message_copy_formula": {
+        "message": "复制公式"
+    },
+    "message_error_occurred": {
+        "message": "发生错误"
+    },
+    "message_expand_raw_reasoning": {
+        "message": "展开原始推理"
+    },
+    "message_feedback_details_label": {
+        "message": "请提供详细信息：（可选）"
+    },
+    "message_feedback_negative_action": {
+        "message": "给出负面反馈"
+    },
+    "message_feedback_negative_placeholder": {
+        "message": "这条回答哪里让你不满意？"
+    },
+    "message_feedback_negative_reason_label": {
+        "message": "你想反馈哪类问题？（可选）"
+    },
+    "message_feedback_negative_title": {
+        "message": "给出负面反馈"
+    },
+    "message_feedback_positive_action": {
+        "message": "给出正面反馈"
+    },
+    "message_feedback_positive_placeholder": {
+        "message": "这条回答哪里让你满意？"
+    },
+    "message_feedback_positive_reason_label": {
+        "message": "你喜欢哪些方面？（可选）"
+    },
+    "message_feedback_positive_title": {
+        "message": "给出正面反馈"
+    },
+    "message_feedback_privacy_notice": {
+        "message": "你的反馈以及这条回复生成过程的技术细节（绝不包含回复内容）将用于改进 Phi"
+    },
+    "message_feedback_reasons_negative_incorrect": {
+        "message": "不正确或有误导性"
+    },
+    "message_feedback_reasons_negative_not_followed": {
+        "message": "未遵循指令"
+    },
+    "message_feedback_reasons_negative_other": {
+        "message": "其他"
+    },
+    "message_feedback_reasons_negative_unhelpful": {
+        "message": "没有帮助"
+    },
+    "message_feedback_reasons_negative_unsafe": {
+        "message": "不安全或不恰当"
+    },
+    "message_feedback_reasons_positive_accurate": {
+        "message": "准确可靠"
+    },
+    "message_feedback_reasons_positive_fast_response": {
+        "message": "响应迅速"
+    },
+    "message_feedback_reasons_positive_good_sources": {
+        "message": "内容有据可查"
+    },
+    "message_feedback_reasons_positive_helpful": {
+        "message": "回答有帮助"
+    },
+    "message_feedback_reasons_positive_memory_recall": {
+        "message": "记住了我的上下文"
+    },
+    "message_feedback_reasons_positive_other": {
+        "message": "其他"
+    },
+    "message_feedback_reasons_positive_page_context": {
+        "message": "理解了我的页面和标签页"
+    },
+    "message_feedback_reasons_positive_personality": {
+        "message": "个性讨喜"
+    },
+    "message_feedback_reasons_positive_task_execution": {
+        "message": "任务执行出色"
+    },
+    "message_file_audio": {
+        "message": "音频"
+    },
+    "message_file_document": {
+        "message": "文档"
+    },
+    "message_file_video": {
+        "message": "视频"
+    },
+    "message_im_messages_not_editable": {
+        "message": "来自已连接频道的消息不能编辑。"
+    },
+    "message_loading_phrases_p01": {
+        "message": "在钓答案"
+    },
+    "message_loading_phrases_p02": {
+        "message": "往深处潜一潜"
+    },
+    "message_loading_phrases_p03": {
+        "message": "在数据里游一圈"
+    },
+    "message_loading_phrases_p04": {
+        "message": "冲一波知识浪"
+    },
+    "message_loading_phrases_p05": {
+        "message": "酝酿点好东西"
+    },
+    "message_loading_phrases_p06": {
+        "message": "召唤智慧小鱼"
+    },
+    "message_loading_phrases_p07": {
+        "message": "把线索串起来"
+    },
+    "message_loading_phrases_p08": {
+        "message": "撒网捞一捞"
+    },
+    "message_loading_phrases_p09": {
+        "message": "结果快上钩了"
+    },
+    "message_loading_phrases_p10": {
+        "message": "去深水区看看"
+    },
+    "message_loading_phrases_p11": {
+        "message": "先摸清水路"
+    },
+    "message_loading_phrases_p12": {
+        "message": "摆摆尾巴想一想"
+    },
+    "message_loading_phrases_p13": {
+        "message": "想钓条大的"
+    },
+    "message_loading_phrases_p14": {
+        "message": "问问路过的螃蟹"
+    },
+    "message_loading_phrases_p15": {
+        "message": "钩几条灵感"
+    },
+    "message_loading_phrases_p16": {
+        "message": "去珊瑚礁探探路"
+    },
+    "message_loading_phrases_p17": {
+        "message": "在浅滩蹚一蹚"
+    },
+    "message_loading_phrases_p18": {
+        "message": "拖网寻宝"
+    },
+    "message_loading_phrases_p19": {
+        "message": "往湖里撒点饵"
+    },
+    "message_loading_phrases_p20": {
+        "message": "在思绪里游来游去"
+    },
+    "message_loading_phrases_p21": {
+        "message": "让新想法浮上来"
+    },
+    "message_loading_phrases_p22": {
+        "message": "慢慢漂向答案"
+    },
+    "message_loading_phrases_p23": {
+        "message": "追着思路鱼群跑"
+    },
+    "message_loading_phrases_p24": {
+        "message": "翻翻海底档案"
+    },
+    "message_loading_phrases_p25": {
+        "message": "先试试水"
+    },
+    "message_loading_phrases_p26": {
+        "message": "扑通一声下水"
+    },
+    "message_loading_phrases_p27": {
+        "message": "顺水推舟"
+    },
+    "message_loading_phrases_p28": {
+        "message": "结果正在冒泡"
+    },
+    "message_loading_phrases_p29": {
+        "message": "理一理渔网"
+    },
+    "message_loading_phrases_p30": {
+        "message": "扬帆去找资料"
+    },
+    "message_loading_phrases_p31": {
+        "message": "先掠一眼水面"
+    },
+    "message_loading_phrases_p32": {
+        "message": "一头扎进深海"
+    },
+    "message_loading_phrases_p33": {
+        "message": "在洋流里巡游"
+    },
+    "message_loading_phrases_p34": {
+        "message": "咬住一条线索"
+    },
+    "message_loading_phrases_p35": {
+        "message": "在水流里淘一淘"
+    },
+    "message_loading_phrases_p36": {
+        "message": "把贝壳一个个翻开"
+    },
+    "message_loading_phrases_p37": {
+        "message": "调一调声呐"
+    },
+    "message_loading_phrases_p38": {
+        "message": "吐几个泡泡想想"
+    },
+    "message_loading_phrases_p39": {
+        "message": "望一望海平线"
+    },
+    "message_loading_phrases_p40": {
+        "message": "派潜艇下去看看"
+    },
+    "message_loading_phrases_p41": {
+        "message": "破译海底信号"
+    },
+    "message_loading_phrases_p42": {
+        "message": "憋一个好主意"
+    },
+    "message_loading_phrases_p43": {
+        "message": "先热一热引擎"
+    },
+    "message_loading_phrases_p44": {
+        "message": "转一转罗盘"
+    },
+    "message_loading_phrases_p45": {
+        "message": "擦一擦望远镜"
+    },
+    "message_loading_phrases_p46": {
+        "message": "摇一摇神奇鱼缸"
+    },
+    "message_loading_phrases_p47": {
+        "message": "请教海底老神仙"
+    },
+    "message_loading_phrases_p48": {
+        "message": "看看潮汐"
+    },
+    "message_loading_phrases_p49": {
+        "message": "召集船员"
+    },
+    "message_loading_phrases_p50": {
+        "message": "规划航线"
+    },
+    "message_loading_phrases_p51": {
+        "message": "到更深的水域钓一钓"
+    },
+    "message_loading_phrases_p52": {
+        "message": "追一条金色小鱼"
+    },
+    "message_loading_phrases_p53": {
+        "message": "逆流而上"
+    },
+    "message_loading_phrases_p54": {
+        "message": "搅一搅漩涡"
+    },
+    "message_loading_phrases_p55": {
+        "message": "把珍珠串起来"
+    },
+    "message_loading_phrases_p56": {
+        "message": "赶上这一波"
+    },
+    "message_loading_phrases_p57": {
+        "message": "等鱼饵沉一沉"
+    },
+    "message_metrics_chars": {
+        "message": "{{value}} 字符"
+    },
+    "message_metrics_elapsed": {
+        "message": "耗时 {{value}}"
+    },
+    "message_metrics_label": {
+        "message": "响应速度"
+    },
+    "message_metrics_speed": {
+        "message": "{{value}} 字符/秒"
+    },
+    "message_metrics_ttft": {
+        "message": "首字 {{value}}"
+    },
+    "message_metrics_ttft_pending": {
+        "message": "等待首字…"
+    },
+    "message_open_in_new_tab": {
+        "message": "在新标签页打开"
+    },
+    "message_raw_reasoning_empty": {
+        "message": "暂未收到原始推理内容。"
+    },
+    "message_raw_reasoning_unavailable": {
+        "message": "当前模型提供方不提供原始思维链（raw CoT）。"
+    },
+    "message_reasoning_summary": {
+        "message": "推理摘要"
+    },
+    "message_role_card_directives": {
+        "message": "你希望我成为的样子"
+    },
+    "message_role_card_loading": {
+        "message": "加载中…"
+    },
+    "message_role_card_open": {
+        "message": "查看 {{name}} 的角色卡"
+    },
+    "message_role_card_remove_directive": {
+        "message": "移除这条指令"
+    },
+    "message_role_card_soul_empty": {
+        "message": "还在慢慢成形，尚未写下自画像。"
+    },
+    "message_role_card_subtitle": {
+        "message": "智能体"
+    },
+    "message_role_card_title": {
+        "message": "{{name}} 的角色卡"
+    },
+    "message_run_phase_executing": {
+        "message": "处理中…"
+    },
+    "message_run_phase_routing": {
+        "message": "思考中…"
+    },
+    "message_save": {
+        "message": "保存"
+    },
+    "message_skills_label": {
+        "message": "Skill"
+    },
+    "message_skills_sources_built_in": {
+        "message": "内置"
+    },
+    "message_skills_sources_user": {
+        "message": "我的 Skill"
+    },
+    "message_source": {
+        "message": "来源"
+    },
+    "message_sources_web_search": {
+        "message": "来源"
+    },
+    "message_stream_interrupted": {
+        "message": "响应已中断"
+    },
+    "message_thought": {
+        "message": "思考过程"
+    },
+    "message_tool_aborted": {
+        "message": "已中断"
+    },
+    "message_tool_calls": {
+        "message": "工具调用"
+    },
+    "message_tool_error_fallback": {
+        "message": "工具错误"
+    },
+    "message_tool_interrupted_by_user": {
+        "message": "已被用户中断"
+    },
+    "message_tool_web_search": {
+        "message": "网页搜索工具"
+    },
+    "message_warning_title": {
+        "message": "警告"
+    },
+    "message_worker_progress_browser": {
+        "message": "正在操作浏览器…"
+    },
+    "message_worker_progress_browser_task": {
+        "message": "正在执行浏览器任务…"
+    },
+    "message_worker_progress_fallback": {
+        "message": "正在执行任务…"
+    },
+    "message_worker_progress_run_script": {
+        "message": "正在运行 Skill…"
+    },
+    "message_worker_progress_search": {
+        "message": "正在搜索…"
+    },
+    "newtab_chat": {
+        "message": "聊天"
+    },
+    "newtab_chat_with_ai": {
+        "message": "与 {{name}} 对话"
+    },
+    "newtab_delete_suggestion": {
+        "message": "删除建议"
+    },
+    "newtab_greeting_afternoon": {
+        "message": "下午好"
+    },
+    "newtab_greeting_evening": {
+        "message": "晚上好"
+    },
+    "newtab_greeting_explain_message": {
+        "message": "我刚在新标签页上看到这条问候：「{{greeting}}」\n\n为什么给我挑了这一条？"
+    },
+    "newtab_greeting_morning": {
+        "message": "早上好"
+    },
+    "newtab_greeting_prompt_byte_count": {
+        "message": "{{count}} / {{max}} 字节"
+    },
+    "newtab_greeting_prompt_cancel": {
+        "message": "取消"
+    },
+    "newtab_greeting_prompt_customized": {
+        "message": "已自定义"
+    },
+    "newtab_greeting_prompt_default": {
+        "message": "默认"
+    },
+    "newtab_greeting_prompt_description": {
+        "message": "调整用于生成个性化新标签页问候语的内置 Prompt。可使用 soul 占位符插入当前 agent soul。"
+    },
+    "newtab_greeting_prompt_edit": {
+        "message": "编辑问候语 Prompt"
+    },
+    "newtab_greeting_prompt_empty_error": {
+        "message": "问候语指令不能为空。"
+    },
+    "newtab_greeting_prompt_hint": {
+        "message": "保存后会应用到后续生成的问候语批次。"
+    },
+    "newtab_greeting_prompt_label": {
+        "message": "指令"
+    },
+    "newtab_greeting_prompt_load_error": {
+        "message": "加载问候语 Prompt 失败。"
+    },
+    "newtab_greeting_prompt_loading": {
+        "message": "正在加载问候语 Prompt…"
+    },
+    "newtab_greeting_prompt_placeholder": {
+        "message": "编写用于生成问候语候选的指令。"
+    },
+    "newtab_greeting_prompt_reset": {
+        "message": "恢复默认"
+    },
+    "newtab_greeting_prompt_reset_error": {
+        "message": "重置问候语 Prompt 失败。"
+    },
+    "newtab_greeting_prompt_reset_saved": {
+        "message": "问候语 Prompt 已重置"
+    },
+    "newtab_greeting_prompt_save": {
+        "message": "保存"
+    },
+    "newtab_greeting_prompt_save_error": {
+        "message": "保存问候语 Prompt 失败。"
+    },
+    "newtab_greeting_prompt_saved": {
+        "message": "问候语 Prompt 已保存"
+    },
+    "newtab_greeting_prompt_title": {
+        "message": "问候语提示词"
+    },
+    "newtab_greeting_prompt_too_large_error": {
+        "message": "问候语指令不能超过 {{count}} 个 UTF-8 字节。"
+    },
+    "newtab_greeting_style_interest": {
+        "message": "轻度个性化"
+    },
+    "newtab_greeting_style_label": {
+        "message": "问候语风格"
+    },
+    "newtab_greeting_style_none": {
+        "message": "关闭"
+    },
+    "newtab_greeting_style_personal": {
+        "message": "个性化"
+    },
+    "newtab_hold_cmd_to_switch_tab": {
+        "message": "按住 <key/> 切换到已有标签页"
+    },
+    "newtab_like_greeting": {
+        "message": "喜欢这句问候语"
+    },
+    "newtab_open": {
+        "message": "打开"
+    },
+    "newtab_open_in_new_tab": {
+        "message": "在新标签页中打开"
+    },
+    "newtab_search_placeholder": {
+        "message": "搜索、AI 问答或输入网址"
+    },
+    "onboard_debug_avatar_alt": {
+        "message": "助手头像"
+    },
+    "onboard_debug_avatar_label": {
+        "message": "头像：{{value}}"
+    },
+    "onboard_debug_complete_failed": {
+        "message": "完成失败：{{error}}"
+    },
+    "onboard_debug_complete_success": {
+        "message": "Onboarding 已完成（已应用跳过默认值）"
+    },
+    "onboard_debug_completed_label": {
+        "message": "已完成：{{value}}"
+    },
+    "onboard_debug_load_failed": {
+        "message": "加载失败：{{error}}"
+    },
+    "onboard_debug_refresh": {
+        "message": "刷新"
+    },
+    "onboard_debug_reset_failed": {
+        "message": "重置失败：{{error}}"
+    },
+    "onboard_debug_reset_state": {
+        "message": "重置状态"
+    },
+    "onboard_debug_reset_success": {
+        "message": "Onboarding 状态已重置"
+    },
+    "onboard_debug_skip_complete": {
+        "message": "跳过并完成"
+    },
+    "onboard_debug_title": {
+        "message": "Onboarding 调试"
+    },
+    "onboarding_alert": {
+        "message": "让我们互相认识一下"
+    },
+    "onboarding_alert_description": {
+        "message": "聊几句，给我挑个性格、取个名字，全程点选即可，不用打字。"
+    },
+    "onboarding_avatar_card_alt": {
+        "message": "助手为自己画的脸"
+    },
+    "onboarding_avatar_card_cancelled": {
+        "message": "已取消绘制。"
+    },
+    "onboarding_avatar_card_drawing": {
+        "message": "正在画我的脸……"
+    },
+    "onboarding_avatar_card_failed": {
+        "message": "这张脸没画出来。"
+    },
+    "onboarding_avatar_card_title": {
+        "message": "我的样子"
+    },
+    "onboarding_completion_alert": {
+        "message": "设置完成！"
+    },
+    "onboarding_completion_alert_description": {
+        "message": "你的助手已就绪，此对话会作为引导记录保留在这里。"
+    },
+    "onboarding_invitation": {
+        "message": "认识你的助手"
+    },
+    "onboarding_invitation_description": {
+        "message": "在简短对话中挑选性格和名字，或跳过直接开始。"
+    },
+    "onboarding_skip_button": {
+        "message": "跳过引导"
+    },
+    "onboarding_start_button": {
+        "message": "开始"
+    },
+    "onboarding_start_chat_button": {
+        "message": "开始新对话"
+    },
+    "private_ai_banner_description": {
+        "message": "Private AI 的回答质量可能与在线模型有所不同。"
+    },
+    "private_ai_banner_dismiss_for_now": {
+        "message": "暂时关闭"
+    },
+    "private_ai_banner_dont_show_again": {
+        "message": "不再显示"
+    },
+    "private_ai_banner_title": {
+        "message": "你正在使用 Private AI"
+    },
+    "shadow_tasks_artifacts_empty": {
+        "message": "暂无产物"
+    },
+    "shadow_tasks_artifacts_no_shadow_task_call": {
+        "message": "本次运行未调用 SHADOW_TASK，因此没有录屏或 Shadow 浏览器产物。"
+    },
+    "shadow_tasks_artifacts_open": {
+        "message": "打开"
+    },
+    "shadow_tasks_artifacts_size_bytes": {
+        "message": "{{count}} 字节"
+    },
+    "shadow_tasks_back": {
+        "message": "返回"
+    },
+    "shadow_tasks_cancel": {
+        "message": "取消任务"
+    },
+    "shadow_tasks_cancel_confirm": {
+        "message": "确认取消该任务吗？"
+    },
+    "shadow_tasks_cancel_failed": {
+        "message": "取消任务失败"
+    },
+    "shadow_tasks_cancelled": {
+        "message": "任务已取消"
+    },
+    "shadow_tasks_default_task_title": {
+        "message": "Shadow 任务"
+    },
+    "shadow_tasks_empty": {
+        "message": "暂无 Shadow 任务"
+    },
+    "shadow_tasks_fields_created_at": {
+        "message": "创建时间"
+    },
+    "shadow_tasks_fields_finished_at": {
+        "message": "结束时间"
+    },
+    "shadow_tasks_fields_objective": {
+        "message": "目标"
+    },
+    "shadow_tasks_fields_run_id": {
+        "message": "运行 ID"
+    },
+    "shadow_tasks_fields_run_index": {
+        "message": "运行序号"
+    },
+    "shadow_tasks_fields_started_at": {
+        "message": "开始时间"
+    },
+    "shadow_tasks_fields_status": {
+        "message": "状态"
+    },
+    "shadow_tasks_fields_task_id": {
+        "message": "任务 ID"
+    },
+    "shadow_tasks_fields_task_status": {
+        "message": "任务状态"
+    },
+    "shadow_tasks_fields_tool_call_count": {
+        "message": "工具调用次数"
+    },
+    "shadow_tasks_fields_trigger_source": {
+        "message": "触发来源"
+    },
+    "shadow_tasks_fields_trigger_type": {
+        "message": "触发方式"
+    },
+    "shadow_tasks_filters_all_statuses": {
+        "message": "全部状态"
+    },
+    "shadow_tasks_filters_keyword": {
+        "message": "按标题 / 目标 / 任务 ID 搜索"
+    },
+    "shadow_tasks_history_empty": {
+        "message": "暂无运行历史"
+    },
+    "shadow_tasks_history_no_run_selected": {
+        "message": "请选择一条运行记录查看详情"
+    },
+    "shadow_tasks_invalid_objective": {
+        "message": "shadow: 前缀后的目标不能为空"
+    },
+    "shadow_tasks_list_title": {
+        "message": "Shadow 任务列表"
+    },
+    "shadow_tasks_load_error": {
+        "message": "后台任务数据加载失败。"
+    },
+    "shadow_tasks_loading": {
+        "message": "正在加载任务…"
+    },
+    "shadow_tasks_loading_detail": {
+        "message": "正在加载任务详情…"
+    },
+    "shadow_tasks_logs_empty": {
+        "message": "暂无日志"
+    },
+    "shadow_tasks_logs_load_more": {
+        "message": "加载更多日志"
+    },
+    "shadow_tasks_logs_loading": {
+        "message": "正在加载日志…"
+    },
+    "shadow_tasks_logs_title": {
+        "message": "时间线日志"
+    },
+    "shadow_tasks_page_title": {
+        "message": "Shadow 任务"
+    },
+    "shadow_tasks_prepare_failed": {
+        "message": "提交 Shadow 任务失败"
+    },
+    "shadow_tasks_prepare_success": {
+        "message": "Shadow 任务已启动"
+    },
+    "shadow_tasks_recordings_empty": {
+        "message": "当前任务暂无录像记录"
+    },
+    "shadow_tasks_recordings_fields_download_id": {
+        "message": "下载 ID"
+    },
+    "shadow_tasks_recordings_fields_file_size": {
+        "message": "文件大小"
+    },
+    "shadow_tasks_recordings_fields_started_at": {
+        "message": "开始时间"
+    },
+    "shadow_tasks_recordings_fields_stopped_at": {
+        "message": "结束时间"
+    },
+    "shadow_tasks_recordings_no_recordings": {
+        "message": "该标签页暂无录像记录"
+    },
+    "shadow_tasks_recordings_open": {
+        "message": "打开文件"
+    },
+    "shadow_tasks_recordings_open_failed": {
+        "message": "打开录像文件失败"
+    },
+    "shadow_tasks_recordings_open_success": {
+        "message": "已请求打开录像文件"
+    },
+    "shadow_tasks_recordings_show": {
+        "message": "在文件夹中显示"
+    },
+    "shadow_tasks_recordings_show_failed": {
+        "message": "在文件夹中显示录像文件失败"
+    },
+    "shadow_tasks_recordings_show_success": {
+        "message": "已请求在文件夹中显示录像文件"
+    },
+    "shadow_tasks_recordings_status_cancelled": {
+        "message": "已取消"
+    },
+    "shadow_tasks_recordings_status_failed": {
+        "message": "失败"
+    },
+    "shadow_tasks_recordings_status_label": {
+        "message": "状态：{{status}}"
+    },
+    "shadow_tasks_recordings_status_pending": {
+        "message": "待开始"
+    },
+    "shadow_tasks_recordings_status_recording": {
+        "message": "录制中"
+    },
+    "shadow_tasks_recordings_status_saved": {
+        "message": "已保存"
+    },
+    "shadow_tasks_recordings_status_starting": {
+        "message": "启动中"
+    },
+    "shadow_tasks_recordings_status_stopping": {
+        "message": "停止中"
+    },
+    "shadow_tasks_recordings_title": {
+        "message": "录像结果"
+    },
+    "shadow_tasks_refresh": {
+        "message": "刷新"
+    },
+    "shadow_tasks_refresh_detail": {
+        "message": "刷新详情"
+    },
+    "shadow_tasks_rerun": {
+        "message": "重新运行"
+    },
+    "shadow_tasks_rerun_failed": {
+        "message": "重新运行失败"
+    },
+    "shadow_tasks_rerun_success": {
+        "message": "已创建新的运行"
+    },
+    "shadow_tasks_result_error": {
+        "message": "错误信息"
+    },
+    "shadow_tasks_result_final_answer": {
+        "message": "最终结果"
+    },
+    "shadow_tasks_sections_artifacts": {
+        "message": "产物"
+    },
+    "shadow_tasks_sections_history": {
+        "message": "运行历史"
+    },
+    "shadow_tasks_sections_selected_run": {
+        "message": "当前选中运行"
+    },
+    "shadow_tasks_sections_summary": {
+        "message": "任务摘要"
+    },
+    "shadow_tasks_sections_tabs": {
+        "message": "运行标签页"
+    },
+    "shadow_tasks_sections_task_archived": {
+        "message": "已归档"
+    },
+    "shadow_tasks_sections_task_disabled": {
+        "message": "已禁用"
+    },
+    "shadow_tasks_sections_task_not_started": {
+        "message": "未开始"
+    },
+    "shadow_tasks_sections_task_ready": {
+        "message": "可运行"
+    },
+    "shadow_tasks_sections_user_original_message": {
+        "message": "用户原话"
+    },
+    "shadow_tasks_sections_worker_debug": {
+        "message": "Worker 调试信息"
+    },
+    "shadow_tasks_select_hint": {
+        "message": "请选择一个任务查看详情"
+    },
+    "shadow_tasks_status_cancelled": {
+        "message": "已取消"
+    },
+    "shadow_tasks_status_completed": {
+        "message": "已完成"
+    },
+    "shadow_tasks_status_failed": {
+        "message": "失败"
+    },
+    "shadow_tasks_status_queued": {
+        "message": "排队中"
+    },
+    "shadow_tasks_status_rejected": {
+        "message": "已拒绝"
+    },
+    "shadow_tasks_status_running": {
+        "message": "运行中"
+    },
+    "shadow_tasks_stream_closed_tab_hint": {
+        "message": "该标签页已关闭。如果底层画面仍然可用，可以重试。"
+    },
+    "shadow_tasks_stream_error_with_code": {
+        "message": "流传输错误（{{code}}）"
+    },
+    "shadow_tasks_stream_no_tab_selected": {
+        "message": "请选择一个标签页查看画面"
+    },
+    "shadow_tasks_stream_not_running": {
+        "message": "仅在任务运行时可以查看实时画面"
+    },
+    "shadow_tasks_stream_retry": {
+        "message": "重新连接"
+    },
+    "shadow_tasks_stream_switch_failed": {
+        "message": "切换画面失败"
+    },
+    "shadow_tasks_stream_title": {
+        "message": "实时画面"
+    },
+    "shadow_tasks_tabs_empty": {
+        "message": "当前任务还没有发现标签页"
+    },
+    "shadow_tasks_tabs_recording_status": {
+        "message": "录像：{{status}}"
+    },
+    "shadow_tasks_tabs_state_closed": {
+        "message": "已关闭"
+    },
+    "shadow_tasks_tabs_state_open": {
+        "message": "打开"
+    },
+    "shadow_tasks_tabs_tab_fallback": {
+        "message": "标签页 {{number}}"
+    },
+    "shadow_tasks_tabs_tab_with_index": {
+        "message": "标签页 {{index}} · {{title}}"
+    },
+    "shadow_tasks_tabs_title": {
+        "message": "任务标签页"
+    },
+    "shadow_tasks_worker_debug_client_name": {
+        "message": "Worker Room 名称"
+    },
+    "shadow_tasks_worker_debug_heartbeat": {
+        "message": "心跳"
+    },
+    "shadow_tasks_worker_debug_heartbeat_running": {
+        "message": "运行中"
+    },
+    "shadow_tasks_worker_debug_heartbeat_stopped": {
+        "message": "已停止"
+    },
+    "shadow_tasks_worker_debug_last_connected_at": {
+        "message": "最近连接时间"
+    },
+    "shadow_tasks_worker_debug_last_worker_registered_at": {
+        "message": "最近 worker_registered 时间"
+    },
+    "shadow_tasks_worker_debug_no": {
+        "message": "否"
+    },
+    "shadow_tasks_worker_debug_queued_messages": {
+        "message": "待发送消息数"
+    },
+    "shadow_tasks_worker_debug_registered_worker_connection_id": {
+        "message": "已注册 Worker Connection ID"
+    },
+    "shadow_tasks_worker_debug_socket_state_connected": {
+        "message": "已连接"
+    },
+    "shadow_tasks_worker_debug_socket_state_connecting": {
+        "message": "连接中"
+    },
+    "shadow_tasks_worker_debug_socket_state_disconnected": {
+        "message": "未连接"
+    },
+    "shadow_tasks_worker_debug_socket_status": {
+        "message": "Worker Socket"
+    },
+    "shadow_tasks_worker_debug_using_token_fallback": {
+        "message": "是否使用 token 回退"
+    },
+    "shadow_tasks_worker_debug_yes": {
+        "message": "是"
+    },
+    "shell_resize_list": {
+        "message": "调整对话列表宽度"
+    },
+    "sidebar_page_title": {
+        "message": "Phi AI"
+    },
+    "skill_creator_cancel": {
+        "message": "取消"
+    },
+    "skill_creator_create_failed": {
+        "message": "创建 Skill 失败。"
+    },
+    "skill_creator_created": {
+        "message": "Skill 已创建"
+    },
+    "skill_creator_description": {
+        "message": "使用简单或专业模式创建 Skill。"
+    },
+    "skill_creator_field_description": {
+        "message": "描述"
+    },
+    "skill_creator_field_name": {
+        "message": "名称"
+    },
+    "skill_creator_field_prompt": {
+        "message": "提示词"
+    },
+    "skill_creator_initial_prompt": {
+        "message": "简单描述一下你想实现的功能。"
+    },
+    "skill_creator_mode_professional": {
+        "message": "专业"
+    },
+    "skill_creator_mode_simple": {
+        "message": "简单"
+    },
+    "skill_creator_primary_create": {
+        "message": "创建 Skill"
+    },
+    "skill_creator_primary_next": {
+        "message": "下一步"
+    },
+    "skill_creator_submitting_create": {
+        "message": "创建中…"
+    },
+    "skill_creator_submitting_thinking": {
+        "message": "思考中"
+    },
+    "skill_creator_title": {
+        "message": "创建 Skill"
+    },
+    "skill_recorder_back": {
+        "message": "返回 Skill"
+    },
+    "skill_recorder_cancel": {
+        "message": "取消"
+    },
+    "skill_recorder_errors_cancel_failed": {
+        "message": "无法取消 Skill 录制"
+    },
+    "skill_recorder_errors_page_not_recordable": {
+        "message": "此页面无法录制"
+    },
+    "skill_recorder_errors_recording_active": {
+        "message": "已有一个 Skill 正在录制"
+    },
+    "skill_recorder_errors_start_failed": {
+        "message": "无法开始 Skill 录制"
+    },
+    "skill_recorder_errors_unavailable": {
+        "message": "Skill 录制器不可用"
+    },
+    "skill_recorder_loading_tabs": {
+        "message": "正在加载标签页…"
+    },
+    "skill_recorder_new_tab": {
+        "message": "新标签页"
+    },
+    "skill_recorder_new_tab_description": {
+        "message": "打开网页后开始录制"
+    },
+    "skill_recorder_no_tabs": {
+        "message": "没有可录制的标签页"
+    },
+    "skill_recorder_title": {
+        "message": "录制 Skill"
+    },
+    "skill_recorder_untitled": {
+        "message": "未命名"
+    },
+    "skill_recorder_waiting_for_page": {
+        "message": "已准备录制 · 打开网页后开始"
+    },
+    "skills_actions_add": {
+        "message": "添加"
+    },
+    "skills_actions_add_failed": {
+        "message": "添加失败"
+    },
+    "skills_actions_add_skill": {
+        "message": "将 {{name}} 添加到你的 Skill 库"
+    },
+    "skills_actions_added": {
+        "message": "已添加"
+    },
+    "skills_actions_added_toast": {
+        "message": "已添加此 Skill"
+    },
+    "skills_actions_delete_failed": {
+        "message": "删除失败"
+    },
+    "skills_actions_delete_skill": {
+        "message": "删除 {{name}}"
+    },
+    "skills_actions_deleted_toast": {
+        "message": "已删除此 Skill"
+    },
+    "skills_actions_disable_skill": {
+        "message": "禁用 {{name}}"
+    },
+    "skills_actions_edit_skill": {
+        "message": "编辑 {{name}}"
+    },
+    "skills_actions_enable_skill": {
+        "message": "启用 {{name}}"
+    },
+    "skills_actions_off": {
+        "message": "已禁用"
+    },
+    "skills_actions_on": {
+        "message": "已启用"
+    },
+    "skills_actions_remove_failed": {
+        "message": "移除失败"
+    },
+    "skills_actions_remove_skill": {
+        "message": "从你的 Skill 库移除 {{name}}"
+    },
+    "skills_actions_removed_toast": {
+        "message": "已移除此 Skill"
+    },
+    "skills_actions_skill_creator_locked": {
+        "message": "Skill 生成器不能被关闭"
+    },
+    "skills_actions_skill_disabled_removed": {
+        "message": "已移除已禁用的 Skill {{name}}"
+    },
+    "skills_actions_toggle_failed": {
+        "message": "切换 Skill 状态失败"
+    },
+    "skills_actions_try": {
+        "message": "试用"
+    },
+    "skills_actions_try_skill": {
+        "message": "试用 {{name}}"
+    },
+    "skills_actions_view_skill": {
+        "message": "查看 {{name}}"
+    },
+    "skills_all_skills": {
+        "message": "全部 Skill"
+    },
+    "skills_api_unavailable": {
+        "message": "登录就绪前 Skill 服务暂不可用。"
+    },
+    "skills_confirm_removal_built_in_confirm": {
+        "message": "移除"
+    },
+    "skills_confirm_removal_built_in_description": {
+        "message": "它会从你的 Skill 库中移除，需要时可以再次添加。"
+    },
+    "skills_confirm_removal_built_in_title": {
+        "message": "是否移除此内置 Skill？"
+    },
+    "skills_confirm_removal_cancel": {
+        "message": "取消"
+    },
+    "skills_confirm_removal_processing": {
+        "message": "处理中…"
+    },
+    "skills_confirm_removal_user_confirm": {
+        "message": "删除"
+    },
+    "skills_confirm_removal_user_description": {
+        "message": "此操作不可撤销。"
+    },
+    "skills_confirm_removal_user_title": {
+        "message": "是否删除此 Skill？"
+    },
+    "skills_edit_dialog_body_required": {
+        "message": "指令内容不能为空。"
+    },
+    "skills_edit_dialog_cancel": {
+        "message": "取消"
+    },
+    "skills_edit_dialog_description": {
+        "message": "更新这条可复用指令，并保存回你的 Skill 库。"
+    },
+    "skills_edit_dialog_description_label": {
+        "message": "描述"
+    },
+    "skills_edit_dialog_description_required": {
+        "message": "描述不能为空。"
+    },
+    "skills_edit_dialog_error": {
+        "message": "保存 Skill 失败。"
+    },
+    "skills_edit_dialog_friendly_name_required": {
+        "message": "显示名称不能为空。"
+    },
+    "skills_edit_dialog_instructions": {
+        "message": "指令内容"
+    },
+    "skills_edit_dialog_instructions_placeholder": {
+        "message": "填写这个 Skill 注入对话时使用的 Markdown 指令。"
+    },
+    "skills_edit_dialog_load_error": {
+        "message": "无法加载这个 Skill。"
+    },
+    "skills_edit_dialog_loading": {
+        "message": "正在加载 Skill…"
+    },
+    "skills_edit_dialog_name": {
+        "message": "名称"
+    },
+    "skills_edit_dialog_name_required": {
+        "message": "名称不能为空。"
+    },
+    "skills_edit_dialog_save": {
+        "message": "保存"
+    },
+    "skills_edit_dialog_saved": {
+        "message": "Skill 已保存。"
+    },
+    "skills_edit_dialog_saving": {
+        "message": "保存中…"
+    },
+    "skills_edit_dialog_title": {
+        "message": "编辑 Skill"
+    },
+    "skills_empty_description": {
+        "message": "可以换个关键词，或创建一个用户 Skill。"
+    },
+    "skills_empty_title": {
+        "message": "未找到 Skill"
+    },
+    "skills_error_title": {
+        "message": "加载 Skill 失败"
+    },
+    "skills_filters_all": {
+        "message": "全部"
+    },
+    "skills_filters_built_in": {
+        "message": "内置"
+    },
+    "skills_filters_enabled": {
+        "message": "已启用"
+    },
+    "skills_filters_user_created": {
+        "message": "用户创建"
+    },
+    "skills_form_advanced_label": {
+        "message": "高级"
+    },
+    "skills_form_friendly_name_help": {
+        "message": "用于 Skill 列表和对话中展示，内部名称会单独保留。"
+    },
+    "skills_form_friendly_name_label": {
+        "message": "显示名称"
+    },
+    "skills_form_friendly_name_placeholder": {
+        "message": "在界面中展示的名称"
+    },
+    "skills_form_name_auto_derived_hint": {
+        "message": "留空时会自动生成。"
+    },
+    "skills_form_name_read_only_hint": {
+        "message": "内部标识，不可编辑。"
+    },
+    "skills_form_slug_name_invalid_hint": {
+        "message": "使用小写 ASCII 字母、数字和单个连字符。"
+    },
+    "skills_form_slug_name_label": {
+        "message": "Slug 名称"
+    },
+    "skills_loading": {
+        "message": "正在加载 Skill…"
+    },
+    "skills_menu_label": {
+        "message": "Skill"
+    },
+    "skills_only_available_on_sites": {
+        "message": "「{{name}}」仅在 {{sitesLabel}} 上可用。"
+    },
+    "skills_pagination_label": {
+        "message": "Skill 分页"
+    },
+    "skills_pagination_next": {
+        "message": "下一页"
+    },
+    "skills_pagination_previous": {
+        "message": "上一页"
+    },
+    "skills_read_only_dialog_close": {
+        "message": "关闭"
+    },
+    "skills_read_only_dialog_description": {
+        "message": "查看这条可复用指令的内容。"
+    },
+    "skills_read_only_dialog_empty": {
+        "message": "这个 Skill 暂无指令内容。"
+    },
+    "skills_read_only_dialog_instructions": {
+        "message": "指令内容"
+    },
+    "skills_read_only_dialog_load_error": {
+        "message": "加载 Skill 内容失败。"
+    },
+    "skills_read_only_dialog_loading": {
+        "message": "正在加载 Skill 内容…"
+    },
+    "skills_read_only_dialog_title": {
+        "message": "Skill 详情"
+    },
+    "skills_search": {
+        "message": "搜索"
+    },
+    "skills_sources_built_in": {
+        "message": "内置"
+    },
+    "skills_sources_user": {
+        "message": "用户"
+    },
+    "skills_subtitle": {
+        "message": "管理可在对话中复用的指令。"
+    },
+    "skills_suggestion_all_description": {
+        "message": "浏览和管理你的 Skill 库"
+    },
+    "skills_suggestion_all_label": {
+        "message": "全部 Skill"
+    },
+    "skills_suggestion_create_description": {
+        "message": "也可以直接对话来创建 Skill"
+    },
+    "skills_suggestion_create_label": {
+        "message": "创建 Skill"
+    },
+    "skills_suggestion_group_title": {
+        "message": "Skill"
+    },
+    "skills_suggestion_record_description": {
+        "message": "录下一段浏览器操作流程"
+    },
+    "skills_suggestion_record_label": {
+        "message": "录制 Skill"
+    },
+    "skills_title": {
+        "message": "Skill"
+    },
+    "theme_dark": {
+        "message": "深色"
+    },
+    "theme_label": {
+        "message": "主题"
+    },
+    "theme_light": {
+        "message": "浅色"
+    },
+    "theme_system": {
+        "message": "跟随系统"
+    },
+    "token_error": {
+        "message": "获取认证令牌失败"
+    },
+    "token_error_description": {
+        "message": "请检查网络连接后重试"
+    },
+    "top_bar_close": {
+        "message": "关闭"
+    },
+    "top_bar_menu": {
+        "message": "菜单"
+    },
+    "top_bar_open_in_new_tab": {
+        "message": "在新标签页中打开"
+    },
+    "top_bar_phi_link": {
+        "message": "Phi Link"
+    },
+    "top_bar_settings": {
+        "message": "设置"
+    },
+    "top_bar_shadow_tasks": {
+        "message": "Shadow 任务"
+    },
+    "top_bar_show_response_speed": {
+        "message": "显示响应速度"
+    },
+    "user_action_aborted": {
+        "message": "操作已中止"
+    },
+    "user_action_cancelled": {
+        "message": "操作已取消"
+    },
+    "user_action_confirm": {
+        "message": "确认"
+    },
+    "user_action_confirm_description": {
+        "message": "请确认以下操作后继续。"
+    },
+    "user_action_confirm_failed": {
+        "message": "确认发送失败，请重试"
+    },
+    "user_action_confirm_title": {
+        "message": "确认操作"
+    },
+    "user_action_deny": {
+        "message": "拒绝"
+    },
+    "user_action_responded": {
+        "message": "操作已确认"
+    },
+    "user_action_risk_high": {
+        "message": "高"
+    },
+    "user_action_risk_label": {
+        "message": "风险"
+    },
+    "user_action_risk_low": {
+        "message": "低"
+    },
+    "user_action_risk_medium": {
+        "message": "中"
+    },
+    "user_action_screenshot_alt": {
+        "message": "操作截图"
+    },
+    "user_input_add_file": {
+        "message": "添加文件"
+    },
+    "user_input_add_image": {
+        "message": "添加图片"
+    },
+    "user_input_add_tab": {
+        "message": "添加标签页"
+    },
+    "user_input_add_website": {
+        "message": "添加网站"
+    },
+    "user_input_cancel": {
+        "message": "取消"
+    },
+    "user_input_confirm": {
+        "message": "确认"
+    },
+    "user_input_current_tab_toggle": {
+        "message": "在当前标签页执行"
+    },
+    "user_input_enter_website_url": {
+        "message": "输入网站地址"
+    },
+    "user_input_interject": {
+        "message": "排队，本轮结束后发送"
+    },
+    "user_input_no_available_skills": {
+        "message": "没有可用的 Skill"
+    },
+    "user_input_open_skills": {
+        "message": "打开 Skill"
+    },
+    "user_input_remove_attachment": {
+        "message": "移除附件"
+    },
+    "user_input_remove_split_view": {
+        "message": "移除分屏"
+    },
+    "user_input_remove_tab": {
+        "message": "移除标签页"
+    },
+    "user_input_remove_tab_group": {
+        "message": "移除标签页组"
+    },
+    "user_input_skill_fallback_name": {
+        "message": "Skill"
+    },
+    "user_input_skills": {
+        "message": "Skill"
+    },
+    "user_input_stop_not_confirmed": {
+        "message": "停止未确认"
+    },
+    "user_input_tab_fallback_title": {
+        "message": "标签页"
+    },
+    "user_input_tiptap_placeholder": {
+        "message": "输入 @ 来提及标签页…"
+    },
+    "user_input_upload_error": {
+        "message": "上传失败"
+    },
+    "user_input_uploading": {
+        "message": "上传中…"
+    },
+    "user_input_website_url_placeholder": {
+        "message": "https://example.com"
+    },
+    "welcome_subtitle": {
+        "message": "你可以搜索、提问，或与当前页面一起工作"
+    },
+    "widgets_pending_dismiss": {
+        "message": "忽略"
+    },
+    "widgets_pinned_iframe_title": {
+        "message": "已固定的小组件"
+    }
 }

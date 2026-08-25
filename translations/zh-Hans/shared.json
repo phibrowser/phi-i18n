@@ -1,443 +1,443 @@
 {
-  "conversation_default_title": {
-    "message": "新对话"
-  },
-  "conversation_new_chat": {
-    "message": "新建对话"
-  },
-  "errors_auto_save_failed_final": {
-    "message": "自动保存失败，请重试。"
-  },
-  "errors_auto_save_retrying": {
-    "message": "自动保存失败，正在重试（{{current}}/{{total}}）…"
-  },
-  "errors_balance_too_low": {
-    "message": "你的账户余额不足，请充值后继续使用。"
-  },
-  "errors_chat_id_required": {
-    "message": "需要提供对话 ID。"
-  },
-  "errors_chat_invalid_visibility": {
-    "message": "无效的可见性设置，必须为 'private' 或 'public'。"
-  },
-  "errors_chat_pagination_conflict": {
-    "message": "不能同时使用 starting_after 和 ending_before 参数。"
-  },
-  "errors_edit_delete_failed": {
-    "message": "编辑同步到服务器失败，更改将在回复完成后保存。"
-  },
-  "errors_forbidden": {
-    "message": "访问被拒绝，你没有执行此操作的权限。"
-  },
-  "errors_load_conversation_failed": {
-    "message": "加载对话失败，请重试。"
-  },
-  "errors_network": {
-    "message": "网络连接错误，请检查网络后重试。"
-  },
-  "errors_not_found": {
-    "message": "未找到请求的资源。"
-  },
-  "errors_save_message_failed": {
-    "message": "保存消息失败，请重试。"
-  },
-  "errors_server_error": {
-    "message": "服务器错误，请稍后重试。"
-  },
-  "errors_timeout": {
-    "message": "请求超时，请重试。"
-  },
-  "errors_token_subnet_restricted": {
-    "message": "此令牌只能从特定 IP 地址使用。"
-  },
-  "errors_types_aiproxy_error": {
-    "message": "服务错误，请稍后重试。"
-  },
-  "errors_types_bad_response": {
-    "message": "服务器响应无效，请重试。"
-  },
-  "errors_types_group_balance_not_enough": {
-    "message": "余额不足，请充值或联系管理员。"
-  },
-  "errors_types_invalid_request_error": {
-    "message": "请求无效，请检查输入后重试。"
-  },
-  "errors_types_overloaded_error": {
-    "message": "服务当前过载，请稍后重试。"
-  },
-  "errors_types_rate_limit_error": {
-    "message": "超过速率限制，请降低请求频率。"
-  },
-  "errors_types_request_too_large": {
-    "message": "请求过大，请减小内容大小。"
-  },
-  "errors_types_token_period_quota_exhausted": {
-    "message": "你的周期使用量已达上限，配额将在下个周期重置。"
-  },
-  "errors_types_token_quota_exhausted": {
-    "message": "你的使用量配额已耗尽，请联系管理员。"
-  },
-  "errors_types_upstream_error": {
-    "message": "AI 服务提供商错误，请稍后重试。"
-  },
-  "errors_unauthorized": {
-    "message": "认证失败，请检查登录凭据。"
-  },
-  "errors_unknown": {
-    "message": "发生意外错误，请重试。"
-  },
-  "errors_upload_failed": {
-    "message": "文件上传失败，请重试。"
-  },
-  "errors_upload_file_too_large": {
-    "message": "文件大小超过 10MB 限制，请选择较小的文件。"
-  },
-  "errors_upload_no_file": {
-    "message": "未选择文件，请选择要上传的文件。"
-  },
-  "errors_upload_read_failed": {
-    "message": "读取文件失败，请重试。"
-  },
-  "errors_upload_request_too_large": {
-    "message": "请求大小超过限制，请减小文件大小或文件数量。"
-  },
-  "errors_upload_service_unavailable": {
-    "message": "文件上传服务当前不可用，请稍后重试。"
-  },
-  "errors_upload_unsupported_type": {
-    "message": "不支持的文件类型，仅允许上传 JPEG、PNG、GIF、WebP 和 PDF 文件。"
-  },
-  "features_chat_with_tabs_tab_converted_to_pdf": {
-    "message": "PDF 标签页已转换为文件附件"
-  },
-  "features_chat_with_tabs_tab_removed_unsupported": {
-    "message": "已移除标签页来源：该页面不支持作为网页聊天来源"
-  },
-  "features_feature_error": {
-    "message": "加载上下文失败"
-  },
-  "features_loading_chat_with_tabs": {
-    "message": "正在加载标签页内容…"
-  },
-  "features_pdf_attach_failed": {
-    "message": "PDF 文件附加失败"
-  },
-  "features_retry": {
-    "message": "重试"
-  },
-  "file_remove": {
-    "message": "移除文件"
-  },
-  "file_text_file_too_large": {
-    "message": "文本文件过大，最大限制为 50KB"
-  },
-  "message_cancel": {
-    "message": "取消"
-  },
-  "message_collapse": {
-    "message": "收起"
-  },
-  "message_copy": {
-    "message": "复制"
-  },
-  "message_create_conversation_failed": {
-    "message": "创建对话失败"
-  },
-  "message_display_reasoning": {
-    "message": "显示推理过程"
-  },
-  "message_download": {
-    "message": "下载"
-  },
-  "message_edit": {
-    "message": "编辑"
-  },
-  "message_expand": {
-    "message": "展开"
-  },
-  "message_file_file": {
-    "message": "文件"
-  },
-  "message_file_image": {
-    "message": "图片"
-  },
-  "message_quota_exhausted": {
-    "message": "使用量已达上限"
-  },
-  "message_quota_exhausted_description": {
-    "message": "你的每日使用量已达上限，配额每天重置。"
-  },
-  "message_regenerate": {
-    "message": "重新生成"
-  },
-  "message_request_failed": {
-    "message": "请求失败"
-  },
-  "message_resume": {
-    "message": "继续"
-  },
-  "message_retry": {
-    "message": "重试"
-  },
-  "message_show_less": {
-    "message": "收起"
-  },
-  "message_show_more": {
-    "message": "展开更多"
-  },
-  "message_sources_unknown": {
-    "message": "未知来源"
-  },
-  "message_submit": {
-    "message": "提交"
-  },
-  "message_thinking": {
-    "message": "思考中…"
-  },
-  "message_tool_approve": {
-    "message": "批准"
-  },
-  "message_tool_awaiting_approval": {
-    "message": "等待批准"
-  },
-  "message_tool_completed": {
-    "message": "已完成"
-  },
-  "message_tool_denied": {
-    "message": "已拒绝"
-  },
-  "message_tool_deny": {
-    "message": "拒绝"
-  },
-  "message_tool_error": {
-    "message": "错误"
-  },
-  "message_tool_input": {
-    "message": "输入"
-  },
-  "message_tool_output": {
-    "message": "输出"
-  },
-  "message_tool_running": {
-    "message": "运行中"
-  },
-  "message_waiting_for_response": {
-    "message": "等待 AI 回复"
-  },
-  "newtab_custom": {
-    "message": "自定义"
-  },
-  "newtab_dismiss_suggestion": {
-    "message": "忽略建议"
-  },
-  "newtab_enter_chat": {
-    "message": "聊聊这条问候语"
-  },
-  "newtab_insight": {
-    "message": "洞察"
-  },
-  "newtab_insight_empty": {
-    "message": "继续浏览，洞察会随着模式的浮现而出现。"
-  },
-  "newtab_insight_evidence": {
-    "message": "证据"
-  },
-  "newtab_insight_loading": {
-    "message": "正在分析你的模式…"
-  },
-  "newtab_insight_title": {
-    "message": "洞察"
-  },
-  "newtab_memory": {
-    "message": "记忆"
-  },
-  "newtab_page_title": {
-    "message": "新标签页"
-  },
-  "newtab_profile": {
-    "message": "你"
-  },
-  "newtab_profile_empty": {
-    "message": "还没有人物侧写数据。继续浏览，我会逐渐了解你。"
-  },
-  "newtab_profile_feedback": {
-    "message": "这份人物侧写基于你的浏览行为生成。如果有偏差或想补充，告诉我，我会更新。"
-  },
-  "newtab_profile_input_placeholder": {
-    "message": "告诉我要更新什么…"
-  },
-  "newtab_profile_loading": {
-    "message": "正在加载人物侧写…"
-  },
-  "newtab_profile_title": {
-    "message": "你的人物侧写"
-  },
-  "newtab_profile_update_error": {
-    "message": "抱歉，人物侧写更新失败，请稍后再试。"
-  },
-  "newtab_profile_update_not_profile_instruction": {
-    "message": "这看上去不是在更新人物侧写。请在这里说明与你个人人物侧写相关的更正或补充，例如工作、兴趣或偏好等。"
-  },
-  "newtab_profile_update_success": {
-    "message": "完成！人物侧写已更新。"
-  },
-  "newtab_profile_updating": {
-    "message": "正在更新人物侧写…"
-  },
-  "newtab_search": {
-    "message": "搜索"
-  },
-  "newtab_share": {
-    "message": "分享这条问候语"
-  },
-  "newtab_share_dialog_close": {
-    "message": "关闭"
-  },
-  "newtab_share_dialog_copied": {
-    "message": "图片已复制到剪贴板"
-  },
-  "newtab_share_dialog_copied_for_discord": {
-    "message": "图片已复制，打开 Discord 后请粘贴。"
-  },
-  "newtab_share_dialog_copy_image": {
-    "message": "复制图片"
-  },
-  "newtab_share_dialog_description": {
-    "message": "将这条问候语作为图片分享。"
-  },
-  "newtab_share_dialog_download_image": {
-    "message": "下载图片"
-  },
-  "newtab_share_dialog_failed": {
-    "message": "分享问候语失败"
-  },
-  "newtab_share_dialog_share_label": {
-    "message": "分享"
-  },
-  "newtab_share_dialog_share_to_discord": {
-    "message": "分享到 Discord"
-  },
-  "newtab_share_dialog_share_to_x": {
-    "message": "分享到 X"
-  },
-  "newtab_share_dialog_title": {
-    "message": "分享你的问候语"
-  },
-  "user_input_add_attachment": {
-    "message": "添加附件"
-  },
-  "user_input_add_screenshot": {
-    "message": "添加截图"
-  },
-  "user_input_all_tabs_added": {
-    "message": "所有标签页已添加"
-  },
-  "user_input_capture_screenshot_failed": {
-    "message": "截图失败，请切换到普通网页后重试"
-  },
-  "user_input_no_available_tabs": {
-    "message": "没有可用的标签页"
-  },
-  "user_input_placeholder": {
-    "message": "输入消息…"
-  },
-  "user_input_send": {
-    "message": "发送"
-  },
-  "user_input_split_view": {
-    "message": "分屏"
-  },
-  "user_input_split_view_member_count": {
-    "message": "{{count}} 个标签页"
-  },
-  "user_input_stop": {
-    "message": "停止"
-  },
-  "user_input_tab_group_member_count": {
-    "message": "{{count}} 个标签页"
-  },
-  "user_input_tab_group_untitled": {
-    "message": "标签页组"
-  },
-  "user_input_tab_no_longer_exists": {
-    "message": "标签页「{{title}}」已关闭，已自动移除"
-  },
-  "user_input_tabs": {
-    "message": "标签页"
-  },
-  "user_input_upload_from_computer": {
-    "message": "从电脑上传"
-  },
-  "user_input_upload_section": {
-    "message": "上传 (PDF / 文本 / 图片)"
-  },
-  "welcome_title": {
-    "message": "你好，我是 {{name}}"
-  },
-  "widgets_bottom_panel_add": {
-    "message": "添加小组件"
-  },
-  "widgets_bottom_panel_back": {
-    "message": "返回"
-  },
-  "widgets_bottom_panel_collapse": {
-    "message": "隐藏面板"
-  },
-  "widgets_bottom_panel_label": {
-    "message": "小组件面板"
-  },
-  "widgets_bottom_panel_reload": {
-    "message": "刷新小组件"
-  },
-  "widgets_bottom_panel_tab_widgets": {
-    "message": "小组件"
-  },
-  "widgets_cancel": {
-    "message": "取消"
-  },
-  "widgets_drop_zone_label": {
-    "message": "在此放置小组件"
-  },
-  "widgets_library_delete_confirm": {
-    "message": "要删除「{{title}}」吗？"
-  },
-  "widgets_library_drag": {
-    "message": "拖到页面上"
-  },
-  "widgets_library_empty": {
-    "message": "暂时没有可添加的小组件，新的小组件建议会出现在这里。"
-  },
-  "widgets_library_untitled": {
-    "message": "未命名小组件"
-  },
-  "widgets_loading": {
-    "message": "请稍候…"
-  },
-  "widgets_menu_add_to_page": {
-    "message": "添加到页面"
-  },
-  "widgets_menu_delete": {
-    "message": "删除"
-  },
-  "widgets_menu_delete_all": {
-    "message": "全部删除"
-  },
-  "widgets_menu_delete_all_confirm": {
-    "message": "要从此面板中删除所有小组件吗？"
-  },
-  "widgets_menu_edit": {
-    "message": "编辑"
-  },
-  "widgets_menu_refresh": {
-    "message": "刷新"
-  },
-  "widgets_menu_trigger": {
-    "message": "小组件菜单"
-  },
-  "widgets_pending_install": {
-    "message": "安装"
-  },
-  "widgets_pending_refresh": {
-    "message": "刷新"
-  }
+    "conversation_default_title": {
+        "message": "新对话"
+    },
+    "conversation_new_chat": {
+        "message": "新建对话"
+    },
+    "errors_auto_save_failed_final": {
+        "message": "自动保存失败，请重试。"
+    },
+    "errors_auto_save_retrying": {
+        "message": "自动保存失败，正在重试（{{current}}/{{total}}）…"
+    },
+    "errors_balance_too_low": {
+        "message": "你的账户余额不足，请充值后继续使用。"
+    },
+    "errors_chat_id_required": {
+        "message": "需要提供对话 ID。"
+    },
+    "errors_chat_invalid_visibility": {
+        "message": "无效的可见性设置，必须为 'private' 或 'public'。"
+    },
+    "errors_chat_pagination_conflict": {
+        "message": "不能同时使用 starting_after 和 ending_before 参数。"
+    },
+    "errors_edit_delete_failed": {
+        "message": "编辑同步到服务器失败，更改将在回复完成后保存。"
+    },
+    "errors_forbidden": {
+        "message": "访问被拒绝，你没有执行此操作的权限。"
+    },
+    "errors_load_conversation_failed": {
+        "message": "加载对话失败，请重试。"
+    },
+    "errors_network": {
+        "message": "网络连接错误，请检查网络后重试。"
+    },
+    "errors_not_found": {
+        "message": "未找到请求的资源。"
+    },
+    "errors_save_message_failed": {
+        "message": "保存消息失败，请重试。"
+    },
+    "errors_server_error": {
+        "message": "服务器错误，请稍后重试。"
+    },
+    "errors_timeout": {
+        "message": "请求超时，请重试。"
+    },
+    "errors_token_subnet_restricted": {
+        "message": "此令牌只能从特定 IP 地址使用。"
+    },
+    "errors_types_aiproxy_error": {
+        "message": "服务错误，请稍后重试。"
+    },
+    "errors_types_bad_response": {
+        "message": "服务器响应无效，请重试。"
+    },
+    "errors_types_group_balance_not_enough": {
+        "message": "余额不足，请充值或联系管理员。"
+    },
+    "errors_types_invalid_request_error": {
+        "message": "请求无效，请检查输入后重试。"
+    },
+    "errors_types_overloaded_error": {
+        "message": "服务当前过载，请稍后重试。"
+    },
+    "errors_types_rate_limit_error": {
+        "message": "超过速率限制，请降低请求频率。"
+    },
+    "errors_types_request_too_large": {
+        "message": "请求过大，请减小内容大小。"
+    },
+    "errors_types_token_period_quota_exhausted": {
+        "message": "你的周期使用量已达上限，配额将在下个周期重置。"
+    },
+    "errors_types_token_quota_exhausted": {
+        "message": "你的使用量配额已耗尽，请联系管理员。"
+    },
+    "errors_types_upstream_error": {
+        "message": "AI 服务提供商错误，请稍后重试。"
+    },
+    "errors_unauthorized": {
+        "message": "认证失败，请检查登录凭据。"
+    },
+    "errors_unknown": {
+        "message": "发生意外错误，请重试。"
+    },
+    "errors_upload_failed": {
+        "message": "文件上传失败，请重试。"
+    },
+    "errors_upload_file_too_large": {
+        "message": "文件大小超过 10MB 限制，请选择较小的文件。"
+    },
+    "errors_upload_no_file": {
+        "message": "未选择文件，请选择要上传的文件。"
+    },
+    "errors_upload_read_failed": {
+        "message": "读取文件失败，请重试。"
+    },
+    "errors_upload_request_too_large": {
+        "message": "请求大小超过限制，请减小文件大小或文件数量。"
+    },
+    "errors_upload_service_unavailable": {
+        "message": "文件上传服务当前不可用，请稍后重试。"
+    },
+    "errors_upload_unsupported_type": {
+        "message": "不支持的文件类型，仅允许上传 JPEG、PNG、GIF、WebP 和 PDF 文件。"
+    },
+    "features_chat_with_tabs_tab_converted_to_pdf": {
+        "message": "PDF 标签页已转换为文件附件"
+    },
+    "features_chat_with_tabs_tab_removed_unsupported": {
+        "message": "已移除标签页来源：该页面不支持作为网页聊天来源"
+    },
+    "features_feature_error": {
+        "message": "加载上下文失败"
+    },
+    "features_loading_chat_with_tabs": {
+        "message": "正在加载标签页内容…"
+    },
+    "features_pdf_attach_failed": {
+        "message": "PDF 文件附加失败"
+    },
+    "features_retry": {
+        "message": "重试"
+    },
+    "file_remove": {
+        "message": "移除文件"
+    },
+    "file_text_file_too_large": {
+        "message": "文本文件过大，最大限制为 50KB"
+    },
+    "message_cancel": {
+        "message": "取消"
+    },
+    "message_collapse": {
+        "message": "收起"
+    },
+    "message_copy": {
+        "message": "复制"
+    },
+    "message_create_conversation_failed": {
+        "message": "创建对话失败"
+    },
+    "message_display_reasoning": {
+        "message": "显示推理过程"
+    },
+    "message_download": {
+        "message": "下载"
+    },
+    "message_edit": {
+        "message": "编辑"
+    },
+    "message_expand": {
+        "message": "展开"
+    },
+    "message_file_file": {
+        "message": "文件"
+    },
+    "message_file_image": {
+        "message": "图片"
+    },
+    "message_quota_exhausted": {
+        "message": "使用量已达上限"
+    },
+    "message_quota_exhausted_description": {
+        "message": "你的每日使用量已达上限，配额每天重置。"
+    },
+    "message_regenerate": {
+        "message": "重新生成"
+    },
+    "message_request_failed": {
+        "message": "请求失败"
+    },
+    "message_resume": {
+        "message": "继续"
+    },
+    "message_retry": {
+        "message": "重试"
+    },
+    "message_show_less": {
+        "message": "收起"
+    },
+    "message_show_more": {
+        "message": "展开更多"
+    },
+    "message_sources_unknown": {
+        "message": "未知来源"
+    },
+    "message_submit": {
+        "message": "提交"
+    },
+    "message_thinking": {
+        "message": "思考中…"
+    },
+    "message_tool_approve": {
+        "message": "批准"
+    },
+    "message_tool_awaiting_approval": {
+        "message": "等待批准"
+    },
+    "message_tool_completed": {
+        "message": "已完成"
+    },
+    "message_tool_denied": {
+        "message": "已拒绝"
+    },
+    "message_tool_deny": {
+        "message": "拒绝"
+    },
+    "message_tool_error": {
+        "message": "错误"
+    },
+    "message_tool_input": {
+        "message": "输入"
+    },
+    "message_tool_output": {
+        "message": "输出"
+    },
+    "message_tool_running": {
+        "message": "运行中"
+    },
+    "message_waiting_for_response": {
+        "message": "等待 AI 回复"
+    },
+    "newtab_custom": {
+        "message": "自定义"
+    },
+    "newtab_dismiss_suggestion": {
+        "message": "忽略建议"
+    },
+    "newtab_enter_chat": {
+        "message": "聊聊这条问候语"
+    },
+    "newtab_insight": {
+        "message": "洞察"
+    },
+    "newtab_insight_empty": {
+        "message": "继续浏览，洞察会随着模式的浮现而出现。"
+    },
+    "newtab_insight_evidence": {
+        "message": "证据"
+    },
+    "newtab_insight_loading": {
+        "message": "正在分析你的模式…"
+    },
+    "newtab_insight_title": {
+        "message": "洞察"
+    },
+    "newtab_memory": {
+        "message": "记忆"
+    },
+    "newtab_page_title": {
+        "message": "新标签页"
+    },
+    "newtab_profile": {
+        "message": "你"
+    },
+    "newtab_profile_empty": {
+        "message": "还没有人物侧写数据。继续浏览，我会逐渐了解你。"
+    },
+    "newtab_profile_feedback": {
+        "message": "这份人物侧写基于你的浏览行为生成。如果有偏差或想补充，告诉我，我会更新。"
+    },
+    "newtab_profile_input_placeholder": {
+        "message": "告诉我要更新什么…"
+    },
+    "newtab_profile_loading": {
+        "message": "正在加载人物侧写…"
+    },
+    "newtab_profile_title": {
+        "message": "你的人物侧写"
+    },
+    "newtab_profile_update_error": {
+        "message": "抱歉，人物侧写更新失败，请稍后再试。"
+    },
+    "newtab_profile_update_not_profile_instruction": {
+        "message": "这看上去不是在更新人物侧写。请在这里说明与你个人人物侧写相关的更正或补充，例如工作、兴趣或偏好等。"
+    },
+    "newtab_profile_update_success": {
+        "message": "完成！人物侧写已更新。"
+    },
+    "newtab_profile_updating": {
+        "message": "正在更新人物侧写…"
+    },
+    "newtab_search": {
+        "message": "搜索"
+    },
+    "newtab_share": {
+        "message": "分享这条问候语"
+    },
+    "newtab_share_dialog_close": {
+        "message": "关闭"
+    },
+    "newtab_share_dialog_copied": {
+        "message": "图片已复制到剪贴板"
+    },
+    "newtab_share_dialog_copied_for_discord": {
+        "message": "图片已复制，打开 Discord 后请粘贴。"
+    },
+    "newtab_share_dialog_copy_image": {
+        "message": "复制图片"
+    },
+    "newtab_share_dialog_description": {
+        "message": "将这条问候语作为图片分享。"
+    },
+    "newtab_share_dialog_download_image": {
+        "message": "下载图片"
+    },
+    "newtab_share_dialog_failed": {
+        "message": "分享问候语失败"
+    },
+    "newtab_share_dialog_share_label": {
+        "message": "分享"
+    },
+    "newtab_share_dialog_share_to_discord": {
+        "message": "分享到 Discord"
+    },
+    "newtab_share_dialog_share_to_x": {
+        "message": "分享到 X"
+    },
+    "newtab_share_dialog_title": {
+        "message": "分享你的问候语"
+    },
+    "user_input_add_attachment": {
+        "message": "添加附件"
+    },
+    "user_input_add_screenshot": {
+        "message": "添加截图"
+    },
+    "user_input_all_tabs_added": {
+        "message": "所有标签页已添加"
+    },
+    "user_input_capture_screenshot_failed": {
+        "message": "截图失败，请切换到普通网页后重试"
+    },
+    "user_input_no_available_tabs": {
+        "message": "没有可用的标签页"
+    },
+    "user_input_placeholder": {
+        "message": "输入消息…"
+    },
+    "user_input_send": {
+        "message": "发送"
+    },
+    "user_input_split_view": {
+        "message": "分屏"
+    },
+    "user_input_split_view_member_count": {
+        "message": "{{count}} 个标签页"
+    },
+    "user_input_stop": {
+        "message": "停止"
+    },
+    "user_input_tab_group_member_count": {
+        "message": "{{count}} 个标签页"
+    },
+    "user_input_tab_group_untitled": {
+        "message": "标签页组"
+    },
+    "user_input_tab_no_longer_exists": {
+        "message": "标签页「{{title}}」已关闭，已自动移除"
+    },
+    "user_input_tabs": {
+        "message": "标签页"
+    },
+    "user_input_upload_from_computer": {
+        "message": "从电脑上传"
+    },
+    "user_input_upload_section": {
+        "message": "上传 (PDF / 文本 / 图片)"
+    },
+    "welcome_title": {
+        "message": "你好，我是 {{name}}"
+    },
+    "widgets_bottom_panel_add": {
+        "message": "添加小组件"
+    },
+    "widgets_bottom_panel_back": {
+        "message": "返回"
+    },
+    "widgets_bottom_panel_collapse": {
+        "message": "隐藏面板"
+    },
+    "widgets_bottom_panel_label": {
+        "message": "小组件面板"
+    },
+    "widgets_bottom_panel_reload": {
+        "message": "刷新小组件"
+    },
+    "widgets_bottom_panel_tab_widgets": {
+        "message": "小组件"
+    },
+    "widgets_cancel": {
+        "message": "取消"
+    },
+    "widgets_drop_zone_label": {
+        "message": "在此放置小组件"
+    },
+    "widgets_library_delete_confirm": {
+        "message": "要删除「{{title}}」吗？"
+    },
+    "widgets_library_drag": {
+        "message": "拖到页面上"
+    },
+    "widgets_library_empty": {
+        "message": "暂时没有可添加的小组件，新的小组件建议会出现在这里。"
+    },
+    "widgets_library_untitled": {
+        "message": "未命名小组件"
+    },
+    "widgets_loading": {
+        "message": "请稍候…"
+    },
+    "widgets_menu_add_to_page": {
+        "message": "添加到页面"
+    },
+    "widgets_menu_delete": {
+        "message": "删除"
+    },
+    "widgets_menu_delete_all": {
+        "message": "全部删除"
+    },
+    "widgets_menu_delete_all_confirm": {
+        "message": "要从此面板中删除所有小组件吗？"
+    },
+    "widgets_menu_edit": {
+        "message": "编辑"
+    },
+    "widgets_menu_refresh": {
+        "message": "刷新"
+    },
+    "widgets_menu_trigger": {
+        "message": "小组件菜单"
+    },
+    "widgets_pending_install": {
+        "message": "安装"
+    },
+    "widgets_pending_refresh": {
+        "message": "刷新"
+    }
 }

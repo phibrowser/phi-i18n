@@ -1,443 +1,443 @@
 {
-  "conversation_default_title": {
-    "message": "新しい会話"
-  },
-  "conversation_new_chat": {
-    "message": "新しいチャット"
-  },
-  "errors_auto_save_failed_final": {
-    "message": "自動保存に失敗しました。もう一度お試しください。"
-  },
-  "errors_auto_save_retrying": {
-    "message": "自動保存に失敗しました。再試行しています ({{current}}/{{total}})…"
-  },
-  "errors_balance_too_low": {
-    "message": "クレジット残高が不足しています。引き続きサービスをご利用いただくには、チャージしてください。"
-  },
-  "errors_chat_id_required": {
-    "message": "チャットIDが必要です。"
-  },
-  "errors_chat_invalid_visibility": {
-    "message": "公開範囲の設定が無効です。'private' または 'public' のいずれかを指定してください。"
-  },
-  "errors_chat_pagination_conflict": {
-    "message": "starting_afterとending_beforeのパラメータは同時に使用できません。"
-  },
-  "errors_edit_delete_failed": {
-    "message": "編集内容をサーバーに同期できませんでした。変更は応答の完了時に保存されます。"
-  },
-  "errors_forbidden": {
-    "message": "アクセスが拒否されました。この操作を行う権限がありません。"
-  },
-  "errors_load_conversation_failed": {
-    "message": "会話を読み込めませんでした。もう一度お試しください。"
-  },
-  "errors_network": {
-    "message": "ネットワーク接続エラーです。接続を確認してから、もう一度お試しください。"
-  },
-  "errors_not_found": {
-    "message": "要求されたリソースが見つかりませんでした。"
-  },
-  "errors_save_message_failed": {
-    "message": "メッセージを保存できませんでした。もう一度お試しください。"
-  },
-  "errors_server_error": {
-    "message": "サーバーエラーが発生しました。しばらくしてからもう一度お試しください。"
-  },
-  "errors_timeout": {
-    "message": "リクエストがタイムアウトしました。もう一度お試しください。"
-  },
-  "errors_token_subnet_restricted": {
-    "message": "このトークンは特定のIPアドレスからのみ使用できます。"
-  },
-  "errors_types_aiproxy_error": {
-    "message": "サービスエラーが発生しました。しばらくしてからもう一度お試しください。"
-  },
-  "errors_types_bad_response": {
-    "message": "サーバーからの応答が無効です。もう一度お試しください。"
-  },
-  "errors_types_group_balance_not_enough": {
-    "message": "残高が不足しています。チャージするか、管理者にお問い合わせください。"
-  },
-  "errors_types_invalid_request_error": {
-    "message": "リクエストが無効です。入力内容を確認してから、もう一度お試しください。"
-  },
-  "errors_types_overloaded_error": {
-    "message": "サービスが現在混雑しています。しばらくしてからもう一度お試しください。"
-  },
-  "errors_types_rate_limit_error": {
-    "message": "レート制限を超えました。リクエストの頻度を下げてお試しください。"
-  },
-  "errors_types_request_too_large": {
-    "message": "リクエストが大きすぎます。コンテンツのサイズを減らしてください。"
-  },
-  "errors_types_token_period_quota_exhausted": {
-    "message": "期間ごとの使用量上限に達しました。上限は次のサイクルでリセットされます。"
-  },
-  "errors_types_token_quota_exhausted": {
-    "message": "使用量の上限に達しました。管理者にお問い合わせください。"
-  },
-  "errors_types_upstream_error": {
-    "message": "AIサービスプロバイダーでエラーが発生しました。しばらくしてからもう一度お試しください。"
-  },
-  "errors_unauthorized": {
-    "message": "認証に失敗しました。認証情報を確認してください。"
-  },
-  "errors_unknown": {
-    "message": "予期しないエラーが発生しました。もう一度お試しください。"
-  },
-  "errors_upload_failed": {
-    "message": "ファイルをアップロードできませんでした。もう一度お試しください。"
-  },
-  "errors_upload_file_too_large": {
-    "message": "ファイルサイズが10MBの上限を超えています。より小さいファイルを選択してください。"
-  },
-  "errors_upload_no_file": {
-    "message": "ファイルが選択されていません。アップロードするファイルを選択してください。"
-  },
-  "errors_upload_read_failed": {
-    "message": "ファイルを読み込めませんでした。もう一度お試しください。"
-  },
-  "errors_upload_request_too_large": {
-    "message": "リクエストサイズが上限を超えています。ファイルのサイズまたは数を減らしてください。"
-  },
-  "errors_upload_service_unavailable": {
-    "message": "ファイルアップロードサービスは現在利用できません。しばらくしてからもう一度お試しください。"
-  },
-  "errors_upload_unsupported_type": {
-    "message": "サポートされていないファイル形式です。JPEG、PNG、GIF、WebP、PDFのファイルのみ利用できます。"
-  },
-  "features_chat_with_tabs_tab_converted_to_pdf": {
-    "message": "PDFタブをファイル添付に変換しました。"
-  },
-  "features_chat_with_tabs_tab_removed_unsupported": {
-    "message": "サポートされていないページのため、タブのソースを削除しました。"
-  },
-  "features_feature_error": {
-    "message": "コンテキストを読み込めませんでした"
-  },
-  "features_loading_chat_with_tabs": {
-    "message": "タブのコンテンツを読み込んでいます…"
-  },
-  "features_pdf_attach_failed": {
-    "message": "PDFファイルを添付できませんでした。"
-  },
-  "features_retry": {
-    "message": "再試行"
-  },
-  "file_remove": {
-    "message": "ファイルを削除"
-  },
-  "file_text_file_too_large": {
-    "message": "テキストファイルが大きすぎます。最大サイズは50KBです"
-  },
-  "message_cancel": {
-    "message": "キャンセル"
-  },
-  "message_collapse": {
-    "message": "折りたたむ"
-  },
-  "message_copy": {
-    "message": "コピー"
-  },
-  "message_create_conversation_failed": {
-    "message": "会話を作成できませんでした"
-  },
-  "message_display_reasoning": {
-    "message": "思考を表示"
-  },
-  "message_download": {
-    "message": "ダウンロード"
-  },
-  "message_edit": {
-    "message": "編集"
-  },
-  "message_expand": {
-    "message": "展開"
-  },
-  "message_file_file": {
-    "message": "ファイル"
-  },
-  "message_file_image": {
-    "message": "画像"
-  },
-  "message_quota_exhausted": {
-    "message": "使用量の上限を超えました"
-  },
-  "message_quota_exhausted_description": {
-    "message": "1日の使用量上限に達しました。上限は毎日リセットされます。"
-  },
-  "message_regenerate": {
-    "message": "再生成"
-  },
-  "message_request_failed": {
-    "message": "リクエストに失敗しました"
-  },
-  "message_resume": {
-    "message": "再開"
-  },
-  "message_retry": {
-    "message": "再試行"
-  },
-  "message_show_less": {
-    "message": "表示を減らす"
-  },
-  "message_show_more": {
-    "message": "さらに表示"
-  },
-  "message_sources_unknown": {
-    "message": "不明な情報源"
-  },
-  "message_submit": {
-    "message": "送信"
-  },
-  "message_thinking": {
-    "message": "思考中…"
-  },
-  "message_tool_approve": {
-    "message": "承認"
-  },
-  "message_tool_awaiting_approval": {
-    "message": "承認待ち"
-  },
-  "message_tool_completed": {
-    "message": "完了"
-  },
-  "message_tool_denied": {
-    "message": "拒否済み"
-  },
-  "message_tool_deny": {
-    "message": "拒否"
-  },
-  "message_tool_error": {
-    "message": "エラー"
-  },
-  "message_tool_input": {
-    "message": "入力"
-  },
-  "message_tool_output": {
-    "message": "出力"
-  },
-  "message_tool_running": {
-    "message": "実行中"
-  },
-  "message_waiting_for_response": {
-    "message": "AIの応答を待っています"
-  },
-  "newtab_custom": {
-    "message": "カスタム"
-  },
-  "newtab_dismiss_suggestion": {
-    "message": "候補を閉じる"
-  },
-  "newtab_enter_chat": {
-    "message": "このあいさつについてチャットする"
-  },
-  "newtab_insight": {
-    "message": "インサイト"
-  },
-  "newtab_insight_empty": {
-    "message": "ブラウジングを続けると、パターンが見えてくるにつれてインサイトが表示されます。"
-  },
-  "newtab_insight_evidence": {
-    "message": "根拠"
-  },
-  "newtab_insight_loading": {
-    "message": "パターンを分析しています…"
-  },
-  "newtab_insight_title": {
-    "message": "インサイト"
-  },
-  "newtab_memory": {
-    "message": "メモリ"
-  },
-  "newtab_page_title": {
-    "message": "新しいタブ"
-  },
-  "newtab_profile": {
-    "message": "あなた"
-  },
-  "newtab_profile_empty": {
-    "message": "人物像のデータはまだありません。ブラウジングを続けるうちに、少しずつあなたのことを学んでいきます。"
-  },
-  "newtab_profile_feedback": {
-    "message": "この人物像は、あなたのブラウジング活動に基づいています。間違っている点や追加したいことがあれば、気軽に伝えてください。私が更新します。"
-  },
-  "newtab_profile_input_placeholder": {
-    "message": "更新したい内容を教えてください…"
-  },
-  "newtab_profile_loading": {
-    "message": "人物像を読み込んでいます…"
-  },
-  "newtab_profile_title": {
-    "message": "あなたの人物像"
-  },
-  "newtab_profile_update_error": {
-    "message": "すみません、人物像を更新できませんでした。もう一度お試しください。"
-  },
-  "newtab_profile_update_not_profile_instruction": {
-    "message": "人物像の変更内容ではないようです。この欄は、仕事や興味、好みなど、人物像に含まれるあなたに関する情報を修正したり追加したりしたいときに使ってください。"
-  },
-  "newtab_profile_update_success": {
-    "message": "完了です！あなたの人物像を更新しました。"
-  },
-  "newtab_profile_updating": {
-    "message": "人物像を更新しています…"
-  },
-  "newtab_search": {
-    "message": "検索"
-  },
-  "newtab_share": {
-    "message": "このあいさつを共有"
-  },
-  "newtab_share_dialog_close": {
-    "message": "閉じる"
-  },
-  "newtab_share_dialog_copied": {
-    "message": "画像をクリップボードにコピーしました"
-  },
-  "newtab_share_dialog_copied_for_discord": {
-    "message": "画像をコピーしました。Discordのメッセージに貼り付けてください。"
-  },
-  "newtab_share_dialog_copy_image": {
-    "message": "画像をコピー"
-  },
-  "newtab_share_dialog_description": {
-    "message": "このあいさつを画像として共有できます。"
-  },
-  "newtab_share_dialog_download_image": {
-    "message": "画像をダウンロード"
-  },
-  "newtab_share_dialog_failed": {
-    "message": "あいさつを共有できませんでした"
-  },
-  "newtab_share_dialog_share_label": {
-    "message": "共有"
-  },
-  "newtab_share_dialog_share_to_discord": {
-    "message": "Discordに共有"
-  },
-  "newtab_share_dialog_share_to_x": {
-    "message": "Xに共有"
-  },
-  "newtab_share_dialog_title": {
-    "message": "あいさつを共有"
-  },
-  "user_input_add_attachment": {
-    "message": "添付ファイルを追加"
-  },
-  "user_input_add_screenshot": {
-    "message": "スクリーンショットを追加"
-  },
-  "user_input_all_tabs_added": {
-    "message": "すべてのタブを追加済み"
-  },
-  "user_input_capture_screenshot_failed": {
-    "message": "スクリーンショットを撮影できませんでした。通常のウェブページでもう一度お試しください。"
-  },
-  "user_input_no_available_tabs": {
-    "message": "利用できるタブがありません"
-  },
-  "user_input_placeholder": {
-    "message": "メッセージを入力…"
-  },
-  "user_input_send": {
-    "message": "送信"
-  },
-  "user_input_split_view": {
-    "message": "分割表示"
-  },
-  "user_input_split_view_member_count": {
-    "message": "{{count}}個のタブ"
-  },
-  "user_input_stop": {
-    "message": "停止"
-  },
-  "user_input_tab_group_member_count": {
-    "message": "{{count}}個のタブ"
-  },
-  "user_input_tab_group_untitled": {
-    "message": "タブグループ"
-  },
-  "user_input_tab_no_longer_exists": {
-    "message": "タブ「{{title}}」は存在しなくなったため削除されました"
-  },
-  "user_input_tabs": {
-    "message": "タブ"
-  },
-  "user_input_upload_from_computer": {
-    "message": "パソコンからアップロード"
-  },
-  "user_input_upload_section": {
-    "message": "アップロード（PDF / TXT / 画像）"
-  },
-  "welcome_title": {
-    "message": "こんにちは、{{name}}です"
-  },
-  "widgets_bottom_panel_add": {
-    "message": "ウィジェットを追加"
-  },
-  "widgets_bottom_panel_back": {
-    "message": "戻る"
-  },
-  "widgets_bottom_panel_collapse": {
-    "message": "パネルを隠す"
-  },
-  "widgets_bottom_panel_label": {
-    "message": "ウィジェットパネル"
-  },
-  "widgets_bottom_panel_reload": {
-    "message": "ウィジェットを再読み込み"
-  },
-  "widgets_bottom_panel_tab_widgets": {
-    "message": "ウィジェット"
-  },
-  "widgets_cancel": {
-    "message": "キャンセル"
-  },
-  "widgets_drop_zone_label": {
-    "message": "ここにウィジェットをドロップ"
-  },
-  "widgets_library_delete_confirm": {
-    "message": "「{{title}}」を削除しますか？"
-  },
-  "widgets_library_drag": {
-    "message": "ページにドラッグして配置"
-  },
-  "widgets_library_empty": {
-    "message": "今は追加できるものがありません。新しいウィジェットの候補がここに表示されます。"
-  },
-  "widgets_library_untitled": {
-    "message": "無題のウィジェット"
-  },
-  "widgets_loading": {
-    "message": "少々お待ちください…"
-  },
-  "widgets_menu_add_to_page": {
-    "message": "ページに追加"
-  },
-  "widgets_menu_delete": {
-    "message": "削除"
-  },
-  "widgets_menu_delete_all": {
-    "message": "すべて削除"
-  },
-  "widgets_menu_delete_all_confirm": {
-    "message": "このパネルのウィジェットをすべて削除しますか？"
-  },
-  "widgets_menu_edit": {
-    "message": "編集"
-  },
-  "widgets_menu_refresh": {
-    "message": "再読み込み"
-  },
-  "widgets_menu_trigger": {
-    "message": "ウィジェットメニュー"
-  },
-  "widgets_pending_install": {
-    "message": "インストール"
-  },
-  "widgets_pending_refresh": {
-    "message": "再生成"
-  }
+    "conversation_default_title": {
+        "message": "新しい会話"
+    },
+    "conversation_new_chat": {
+        "message": "新しいチャット"
+    },
+    "errors_auto_save_failed_final": {
+        "message": "自動保存に失敗しました。もう一度お試しください。"
+    },
+    "errors_auto_save_retrying": {
+        "message": "自動保存に失敗しました。再試行しています ({{current}}/{{total}})…"
+    },
+    "errors_balance_too_low": {
+        "message": "クレジット残高が不足しています。引き続きサービスをご利用いただくには、チャージしてください。"
+    },
+    "errors_chat_id_required": {
+        "message": "チャットIDが必要です。"
+    },
+    "errors_chat_invalid_visibility": {
+        "message": "公開範囲の設定が無効です。'private' または 'public' のいずれかを指定してください。"
+    },
+    "errors_chat_pagination_conflict": {
+        "message": "starting_afterとending_beforeのパラメータは同時に使用できません。"
+    },
+    "errors_edit_delete_failed": {
+        "message": "編集内容をサーバーに同期できませんでした。変更は応答の完了時に保存されます。"
+    },
+    "errors_forbidden": {
+        "message": "アクセスが拒否されました。この操作を行う権限がありません。"
+    },
+    "errors_load_conversation_failed": {
+        "message": "会話を読み込めませんでした。もう一度お試しください。"
+    },
+    "errors_network": {
+        "message": "ネットワーク接続エラーです。接続を確認してから、もう一度お試しください。"
+    },
+    "errors_not_found": {
+        "message": "要求されたリソースが見つかりませんでした。"
+    },
+    "errors_save_message_failed": {
+        "message": "メッセージを保存できませんでした。もう一度お試しください。"
+    },
+    "errors_server_error": {
+        "message": "サーバーエラーが発生しました。しばらくしてからもう一度お試しください。"
+    },
+    "errors_timeout": {
+        "message": "リクエストがタイムアウトしました。もう一度お試しください。"
+    },
+    "errors_token_subnet_restricted": {
+        "message": "このトークンは特定のIPアドレスからのみ使用できます。"
+    },
+    "errors_types_aiproxy_error": {
+        "message": "サービスエラーが発生しました。しばらくしてからもう一度お試しください。"
+    },
+    "errors_types_bad_response": {
+        "message": "サーバーからの応答が無効です。もう一度お試しください。"
+    },
+    "errors_types_group_balance_not_enough": {
+        "message": "残高が不足しています。チャージするか、管理者にお問い合わせください。"
+    },
+    "errors_types_invalid_request_error": {
+        "message": "リクエストが無効です。入力内容を確認してから、もう一度お試しください。"
+    },
+    "errors_types_overloaded_error": {
+        "message": "サービスが現在混雑しています。しばらくしてからもう一度お試しください。"
+    },
+    "errors_types_rate_limit_error": {
+        "message": "レート制限を超えました。リクエストの頻度を下げてお試しください。"
+    },
+    "errors_types_request_too_large": {
+        "message": "リクエストが大きすぎます。コンテンツのサイズを減らしてください。"
+    },
+    "errors_types_token_period_quota_exhausted": {
+        "message": "期間ごとの使用量上限に達しました。上限は次のサイクルでリセットされます。"
+    },
+    "errors_types_token_quota_exhausted": {
+        "message": "使用量の上限に達しました。管理者にお問い合わせください。"
+    },
+    "errors_types_upstream_error": {
+        "message": "AIサービスプロバイダーでエラーが発生しました。しばらくしてからもう一度お試しください。"
+    },
+    "errors_unauthorized": {
+        "message": "認証に失敗しました。認証情報を確認してください。"
+    },
+    "errors_unknown": {
+        "message": "予期しないエラーが発生しました。もう一度お試しください。"
+    },
+    "errors_upload_failed": {
+        "message": "ファイルをアップロードできませんでした。もう一度お試しください。"
+    },
+    "errors_upload_file_too_large": {
+        "message": "ファイルサイズが10MBの上限を超えています。より小さいファイルを選択してください。"
+    },
+    "errors_upload_no_file": {
+        "message": "ファイルが選択されていません。アップロードするファイルを選択してください。"
+    },
+    "errors_upload_read_failed": {
+        "message": "ファイルを読み込めませんでした。もう一度お試しください。"
+    },
+    "errors_upload_request_too_large": {
+        "message": "リクエストサイズが上限を超えています。ファイルのサイズまたは数を減らしてください。"
+    },
+    "errors_upload_service_unavailable": {
+        "message": "ファイルアップロードサービスは現在利用できません。しばらくしてからもう一度お試しください。"
+    },
+    "errors_upload_unsupported_type": {
+        "message": "サポートされていないファイル形式です。JPEG、PNG、GIF、WebP、PDFのファイルのみ利用できます。"
+    },
+    "features_chat_with_tabs_tab_converted_to_pdf": {
+        "message": "PDFタブをファイル添付に変換しました。"
+    },
+    "features_chat_with_tabs_tab_removed_unsupported": {
+        "message": "サポートされていないページのため、タブのソースを削除しました。"
+    },
+    "features_feature_error": {
+        "message": "コンテキストを読み込めませんでした"
+    },
+    "features_loading_chat_with_tabs": {
+        "message": "タブのコンテンツを読み込んでいます…"
+    },
+    "features_pdf_attach_failed": {
+        "message": "PDFファイルを添付できませんでした。"
+    },
+    "features_retry": {
+        "message": "再試行"
+    },
+    "file_remove": {
+        "message": "ファイルを削除"
+    },
+    "file_text_file_too_large": {
+        "message": "テキストファイルが大きすぎます。最大サイズは50KBです"
+    },
+    "message_cancel": {
+        "message": "キャンセル"
+    },
+    "message_collapse": {
+        "message": "折りたたむ"
+    },
+    "message_copy": {
+        "message": "コピー"
+    },
+    "message_create_conversation_failed": {
+        "message": "会話を作成できませんでした"
+    },
+    "message_display_reasoning": {
+        "message": "思考を表示"
+    },
+    "message_download": {
+        "message": "ダウンロード"
+    },
+    "message_edit": {
+        "message": "編集"
+    },
+    "message_expand": {
+        "message": "展開"
+    },
+    "message_file_file": {
+        "message": "ファイル"
+    },
+    "message_file_image": {
+        "message": "画像"
+    },
+    "message_quota_exhausted": {
+        "message": "使用量の上限を超えました"
+    },
+    "message_quota_exhausted_description": {
+        "message": "1日の使用量上限に達しました。上限は毎日リセットされます。"
+    },
+    "message_regenerate": {
+        "message": "再生成"
+    },
+    "message_request_failed": {
+        "message": "リクエストに失敗しました"
+    },
+    "message_resume": {
+        "message": "再開"
+    },
+    "message_retry": {
+        "message": "再試行"
+    },
+    "message_show_less": {
+        "message": "表示を減らす"
+    },
+    "message_show_more": {
+        "message": "さらに表示"
+    },
+    "message_sources_unknown": {
+        "message": "不明な情報源"
+    },
+    "message_submit": {
+        "message": "送信"
+    },
+    "message_thinking": {
+        "message": "思考中…"
+    },
+    "message_tool_approve": {
+        "message": "承認"
+    },
+    "message_tool_awaiting_approval": {
+        "message": "承認待ち"
+    },
+    "message_tool_completed": {
+        "message": "完了"
+    },
+    "message_tool_denied": {
+        "message": "拒否済み"
+    },
+    "message_tool_deny": {
+        "message": "拒否"
+    },
+    "message_tool_error": {
+        "message": "エラー"
+    },
+    "message_tool_input": {
+        "message": "入力"
+    },
+    "message_tool_output": {
+        "message": "出力"
+    },
+    "message_tool_running": {
+        "message": "実行中"
+    },
+    "message_waiting_for_response": {
+        "message": "AIの応答を待っています"
+    },
+    "newtab_custom": {
+        "message": "カスタム"
+    },
+    "newtab_dismiss_suggestion": {
+        "message": "候補を閉じる"
+    },
+    "newtab_enter_chat": {
+        "message": "このあいさつについてチャットする"
+    },
+    "newtab_insight": {
+        "message": "インサイト"
+    },
+    "newtab_insight_empty": {
+        "message": "ブラウジングを続けると、パターンが見えてくるにつれてインサイトが表示されます。"
+    },
+    "newtab_insight_evidence": {
+        "message": "根拠"
+    },
+    "newtab_insight_loading": {
+        "message": "パターンを分析しています…"
+    },
+    "newtab_insight_title": {
+        "message": "インサイト"
+    },
+    "newtab_memory": {
+        "message": "メモリ"
+    },
+    "newtab_page_title": {
+        "message": "新しいタブ"
+    },
+    "newtab_profile": {
+        "message": "あなた"
+    },
+    "newtab_profile_empty": {
+        "message": "人物像のデータはまだありません。ブラウジングを続けるうちに、少しずつあなたのことを学んでいきます。"
+    },
+    "newtab_profile_feedback": {
+        "message": "この人物像は、あなたのブラウジング活動に基づいています。間違っている点や追加したいことがあれば、気軽に伝えてください。私が更新します。"
+    },
+    "newtab_profile_input_placeholder": {
+        "message": "更新したい内容を教えてください…"
+    },
+    "newtab_profile_loading": {
+        "message": "人物像を読み込んでいます…"
+    },
+    "newtab_profile_title": {
+        "message": "あなたの人物像"
+    },
+    "newtab_profile_update_error": {
+        "message": "すみません、人物像を更新できませんでした。もう一度お試しください。"
+    },
+    "newtab_profile_update_not_profile_instruction": {
+        "message": "人物像の変更内容ではないようです。この欄は、仕事や興味、好みなど、人物像に含まれるあなたに関する情報を修正したり追加したりしたいときに使ってください。"
+    },
+    "newtab_profile_update_success": {
+        "message": "完了です！あなたの人物像を更新しました。"
+    },
+    "newtab_profile_updating": {
+        "message": "人物像を更新しています…"
+    },
+    "newtab_search": {
+        "message": "検索"
+    },
+    "newtab_share": {
+        "message": "このあいさつを共有"
+    },
+    "newtab_share_dialog_close": {
+        "message": "閉じる"
+    },
+    "newtab_share_dialog_copied": {
+        "message": "画像をクリップボードにコピーしました"
+    },
+    "newtab_share_dialog_copied_for_discord": {
+        "message": "画像をコピーしました。Discordのメッセージに貼り付けてください。"
+    },
+    "newtab_share_dialog_copy_image": {
+        "message": "画像をコピー"
+    },
+    "newtab_share_dialog_description": {
+        "message": "このあいさつを画像として共有できます。"
+    },
+    "newtab_share_dialog_download_image": {
+        "message": "画像をダウンロード"
+    },
+    "newtab_share_dialog_failed": {
+        "message": "あいさつを共有できませんでした"
+    },
+    "newtab_share_dialog_share_label": {
+        "message": "共有"
+    },
+    "newtab_share_dialog_share_to_discord": {
+        "message": "Discordに共有"
+    },
+    "newtab_share_dialog_share_to_x": {
+        "message": "Xに共有"
+    },
+    "newtab_share_dialog_title": {
+        "message": "あいさつを共有"
+    },
+    "user_input_add_attachment": {
+        "message": "添付ファイルを追加"
+    },
+    "user_input_add_screenshot": {
+        "message": "スクリーンショットを追加"
+    },
+    "user_input_all_tabs_added": {
+        "message": "すべてのタブを追加済み"
+    },
+    "user_input_capture_screenshot_failed": {
+        "message": "スクリーンショットを撮影できませんでした。通常のウェブページでもう一度お試しください。"
+    },
+    "user_input_no_available_tabs": {
+        "message": "利用できるタブがありません"
+    },
+    "user_input_placeholder": {
+        "message": "メッセージを入力…"
+    },
+    "user_input_send": {
+        "message": "送信"
+    },
+    "user_input_split_view": {
+        "message": "分割表示"
+    },
+    "user_input_split_view_member_count": {
+        "message": "{{count}}個のタブ"
+    },
+    "user_input_stop": {
+        "message": "停止"
+    },
+    "user_input_tab_group_member_count": {
+        "message": "{{count}}個のタブ"
+    },
+    "user_input_tab_group_untitled": {
+        "message": "タブグループ"
+    },
+    "user_input_tab_no_longer_exists": {
+        "message": "タブ「{{title}}」は存在しなくなったため削除されました"
+    },
+    "user_input_tabs": {
+        "message": "タブ"
+    },
+    "user_input_upload_from_computer": {
+        "message": "パソコンからアップロード"
+    },
+    "user_input_upload_section": {
+        "message": "アップロード（PDF / TXT / 画像）"
+    },
+    "welcome_title": {
+        "message": "こんにちは、{{name}}です"
+    },
+    "widgets_bottom_panel_add": {
+        "message": "ウィジェットを追加"
+    },
+    "widgets_bottom_panel_back": {
+        "message": "戻る"
+    },
+    "widgets_bottom_panel_collapse": {
+        "message": "パネルを隠す"
+    },
+    "widgets_bottom_panel_label": {
+        "message": "ウィジェットパネル"
+    },
+    "widgets_bottom_panel_reload": {
+        "message": "ウィジェットを再読み込み"
+    },
+    "widgets_bottom_panel_tab_widgets": {
+        "message": "ウィジェット"
+    },
+    "widgets_cancel": {
+        "message": "キャンセル"
+    },
+    "widgets_drop_zone_label": {
+        "message": "ここにウィジェットをドロップ"
+    },
+    "widgets_library_delete_confirm": {
+        "message": "「{{title}}」を削除しますか？"
+    },
+    "widgets_library_drag": {
+        "message": "ページにドラッグして配置"
+    },
+    "widgets_library_empty": {
+        "message": "今は追加できるものがありません。新しいウィジェットの候補がここに表示されます。"
+    },
+    "widgets_library_untitled": {
+        "message": "無題のウィジェット"
+    },
+    "widgets_loading": {
+        "message": "少々お待ちください…"
+    },
+    "widgets_menu_add_to_page": {
+        "message": "ページに追加"
+    },
+    "widgets_menu_delete": {
+        "message": "削除"
+    },
+    "widgets_menu_delete_all": {
+        "message": "すべて削除"
+    },
+    "widgets_menu_delete_all_confirm": {
+        "message": "このパネルのウィジェットをすべて削除しますか？"
+    },
+    "widgets_menu_edit": {
+        "message": "編集"
+    },
+    "widgets_menu_refresh": {
+        "message": "再読み込み"
+    },
+    "widgets_menu_trigger": {
+        "message": "ウィジェットメニュー"
+    },
+    "widgets_pending_install": {
+        "message": "インストール"
+    },
+    "widgets_pending_refresh": {
+        "message": "再生成"
+    }
 }

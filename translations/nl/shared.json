@@ -1,443 +1,443 @@
 {
-  "conversation_default_title": {
-    "message": "Nieuw gesprek"
-  },
-  "conversation_new_chat": {
-    "message": "Nieuwe chat"
-  },
-  "errors_auto_save_failed_final": {
-    "message": "Automatisch opslaan is mislukt. Probeer het opnieuw."
-  },
-  "errors_auto_save_retrying": {
-    "message": "Automatisch opslaan is mislukt, opnieuw proberen ({{current}}/{{total}})…"
-  },
-  "errors_balance_too_low": {
-    "message": "Je tegoed is te laag. Vul je tegoed aan om de service te blijven gebruiken."
-  },
-  "errors_chat_id_required": {
-    "message": "Chat-ID is vereist."
-  },
-  "errors_chat_invalid_visibility": {
-    "message": "Ongeldige zichtbaarheidsinstelling. Moet 'private' of 'public' zijn."
-  },
-  "errors_chat_pagination_conflict": {
-    "message": "De parameters starting_after en ending_before kunnen niet samen worden gebruikt."
-  },
-  "errors_edit_delete_failed": {
-    "message": "Kan de bewerking niet synchroniseren met de server. Wijzigingen worden opgeslagen zodra het antwoord is voltooid."
-  },
-  "errors_forbidden": {
-    "message": "Toegang geweigerd. Je hebt geen toestemming om deze actie uit te voeren."
-  },
-  "errors_load_conversation_failed": {
-    "message": "Kan het gesprek niet laden. Probeer het opnieuw."
-  },
-  "errors_network": {
-    "message": "Netwerkverbindingsfout. Controleer je verbinding en probeer het opnieuw."
-  },
-  "errors_not_found": {
-    "message": "De opgevraagde bron is niet gevonden."
-  },
-  "errors_save_message_failed": {
-    "message": "Kan het bericht niet opslaan. Probeer het opnieuw."
-  },
-  "errors_server_error": {
-    "message": "Er is een serverfout opgetreden. Probeer het later opnieuw."
-  },
-  "errors_timeout": {
-    "message": "Er is een time-out opgetreden. Probeer het opnieuw."
-  },
-  "errors_token_subnet_restricted": {
-    "message": "Dit token kan alleen worden gebruikt vanaf specifieke IP-adressen."
-  },
-  "errors_types_aiproxy_error": {
-    "message": "Er is een servicefout opgetreden. Probeer het later opnieuw."
-  },
-  "errors_types_bad_response": {
-    "message": "Ongeldig antwoord van de server. Probeer het opnieuw."
-  },
-  "errors_types_group_balance_not_enough": {
-    "message": "Onvoldoende tegoed. Vul je tegoed aan of neem contact op met je beheerder."
-  },
-  "errors_types_invalid_request_error": {
-    "message": "Ongeldige aanvraag. Controleer je invoer en probeer het opnieuw."
-  },
-  "errors_types_overloaded_error": {
-    "message": "De service is momenteel overbelast. Probeer het zo meteen opnieuw."
-  },
-  "errors_types_rate_limit_error": {
-    "message": "Aanvraaglimiet overschreden. Verstuur je aanvragen minder snel."
-  },
-  "errors_types_request_too_large": {
-    "message": "De aanvraag is te groot. Verklein de inhoud."
-  },
-  "errors_types_token_period_quota_exhausted": {
-    "message": "Je periodieke gebruiksquotum is bereikt. Het quotum wordt bij de volgende cyclus opnieuw ingesteld."
-  },
-  "errors_types_token_quota_exhausted": {
-    "message": "Je gebruiksquotum is opgebruikt. Neem contact op met je beheerder."
-  },
-  "errors_types_upstream_error": {
-    "message": "Fout bij de AI-serviceprovider. Probeer het later opnieuw."
-  },
-  "errors_unauthorized": {
-    "message": "Authenticatie mislukt. Controleer je inloggegevens."
-  },
-  "errors_unknown": {
-    "message": "Er is een onverwachte fout opgetreden. Probeer het opnieuw."
-  },
-  "errors_upload_failed": {
-    "message": "Kan het bestand niet uploaden. Probeer het opnieuw."
-  },
-  "errors_upload_file_too_large": {
-    "message": "Het bestand is groter dan de limiet van 10 MB. Kies een kleiner bestand."
-  },
-  "errors_upload_no_file": {
-    "message": "Geen bestand geselecteerd. Kies een bestand om te uploaden."
-  },
-  "errors_upload_read_failed": {
-    "message": "Kan het bestand niet lezen. Probeer het opnieuw."
-  },
-  "errors_upload_request_too_large": {
-    "message": "De aanvraag is groter dan de limiet. Verklein het bestand of verminder het aantal bestanden."
-  },
-  "errors_upload_service_unavailable": {
-    "message": "De uploadservice is momenteel niet beschikbaar. Probeer het later opnieuw."
-  },
-  "errors_upload_unsupported_type": {
-    "message": "Niet-ondersteund bestandstype. Alleen JPEG-, PNG-, GIF-, WebP- en PDF-bestanden zijn toegestaan."
-  },
-  "features_chat_with_tabs_tab_converted_to_pdf": {
-    "message": "PDF-tabblad omgezet naar bestandsbijlage."
-  },
-  "features_chat_with_tabs_tab_removed_unsupported": {
-    "message": "Tabbladbron verwijderd: niet-ondersteunde pagina."
-  },
-  "features_feature_error": {
-    "message": "Kan de context niet laden"
-  },
-  "features_loading_chat_with_tabs": {
-    "message": "Tabbladinhoud laden…"
-  },
-  "features_pdf_attach_failed": {
-    "message": "Kan het PDF-bestand niet bijvoegen."
-  },
-  "features_retry": {
-    "message": "Opnieuw proberen"
-  },
-  "file_remove": {
-    "message": "Bestand verwijderen"
-  },
-  "file_text_file_too_large": {
-    "message": "Tekstbestand is te groot, de maximale grootte is 50 KB"
-  },
-  "message_cancel": {
-    "message": "Annuleren"
-  },
-  "message_collapse": {
-    "message": "Samenvouwen"
-  },
-  "message_copy": {
-    "message": "Kopiëren"
-  },
-  "message_create_conversation_failed": {
-    "message": "Kan het gesprek niet aanmaken"
-  },
-  "message_display_reasoning": {
-    "message": "Redenering weergeven"
-  },
-  "message_download": {
-    "message": "Downloaden"
-  },
-  "message_edit": {
-    "message": "Bewerken"
-  },
-  "message_expand": {
-    "message": "Uitvouwen"
-  },
-  "message_file_file": {
-    "message": "Bestand"
-  },
-  "message_file_image": {
-    "message": "Afbeelding"
-  },
-  "message_quota_exhausted": {
-    "message": "Gebruiksquotum overschreden"
-  },
-  "message_quota_exhausted_description": {
-    "message": "Je dagelijkse gebruiksquotum is bereikt. Het quotum wordt elke dag opnieuw ingesteld."
-  },
-  "message_regenerate": {
-    "message": "Opnieuw genereren"
-  },
-  "message_request_failed": {
-    "message": "Aanvraag mislukt"
-  },
-  "message_resume": {
-    "message": "Hervatten"
-  },
-  "message_retry": {
-    "message": "Opnieuw proberen"
-  },
-  "message_show_less": {
-    "message": "Minder weergeven"
-  },
-  "message_show_more": {
-    "message": "Meer weergeven"
-  },
-  "message_sources_unknown": {
-    "message": "Onbekende bron"
-  },
-  "message_submit": {
-    "message": "Verzenden"
-  },
-  "message_thinking": {
-    "message": "Nadenken…"
-  },
-  "message_tool_approve": {
-    "message": "Goedkeuren"
-  },
-  "message_tool_awaiting_approval": {
-    "message": "Wacht op goedkeuring"
-  },
-  "message_tool_completed": {
-    "message": "Voltooid"
-  },
-  "message_tool_denied": {
-    "message": "Geweigerd"
-  },
-  "message_tool_deny": {
-    "message": "Weigeren"
-  },
-  "message_tool_error": {
-    "message": "Fout"
-  },
-  "message_tool_input": {
-    "message": "Invoer"
-  },
-  "message_tool_output": {
-    "message": "Uitvoer"
-  },
-  "message_tool_running": {
-    "message": "Wordt uitgevoerd"
-  },
-  "message_waiting_for_response": {
-    "message": "Wachten op AI-antwoord"
-  },
-  "newtab_custom": {
-    "message": "Aangepast"
-  },
-  "newtab_dismiss_suggestion": {
-    "message": "Suggestie sluiten"
-  },
-  "newtab_enter_chat": {
-    "message": "Over deze begroeting chatten"
-  },
-  "newtab_insight": {
-    "message": "Inzicht"
-  },
-  "newtab_insight_empty": {
-    "message": "Blijf browsen, dan verschijnen hier inzichten zodra er patronen ontstaan."
-  },
-  "newtab_insight_evidence": {
-    "message": "Onderbouwing"
-  },
-  "newtab_insight_loading": {
-    "message": "Je patronen worden geanalyseerd…"
-  },
-  "newtab_insight_title": {
-    "message": "Inzicht"
-  },
-  "newtab_memory": {
-    "message": "Geheugen"
-  },
-  "newtab_page_title": {
-    "message": "Nieuw tabblad"
-  },
-  "newtab_profile": {
-    "message": "Jij"
-  },
-  "newtab_profile_empty": {
-    "message": "Nog geen portretgegevens. Blijf browsen, dan leer ik je gaandeweg kennen."
-  },
-  "newtab_profile_feedback": {
-    "message": "Dit portret is gebaseerd op je browseactiviteit. Klopt er iets niet of wil je iets toevoegen? Zeg het me, dan werk ik het bij."
-  },
-  "newtab_profile_input_placeholder": {
-    "message": "Vertel me wat ik moet bijwerken…"
-  },
-  "newtab_profile_loading": {
-    "message": "Portret laden…"
-  },
-  "newtab_profile_title": {
-    "message": "Jouw portret"
-  },
-  "newtab_profile_update_error": {
-    "message": "Sorry, ik kon het portret niet bijwerken. Probeer het opnieuw."
-  },
-  "newtab_profile_update_not_profile_instruction": {
-    "message": "Dat ziet er niet uit als een portretwijziging. Gebruik dit vak als je iets over jezelf in je portret wilt corrigeren of toevoegen, zoals je werk, interesses of voorkeuren."
-  },
-  "newtab_profile_update_success": {
-    "message": "Klaar! Ik heb je portret bijgewerkt."
-  },
-  "newtab_profile_updating": {
-    "message": "Je portret wordt bijgewerkt…"
-  },
-  "newtab_search": {
-    "message": "Zoeken"
-  },
-  "newtab_share": {
-    "message": "Deze begroeting delen"
-  },
-  "newtab_share_dialog_close": {
-    "message": "Sluiten"
-  },
-  "newtab_share_dialog_copied": {
-    "message": "Afbeelding gekopieerd naar klembord"
-  },
-  "newtab_share_dialog_copied_for_discord": {
-    "message": "Afbeelding gekopieerd. Plak deze in je Discord-bericht."
-  },
-  "newtab_share_dialog_copy_image": {
-    "message": "Afbeelding kopiëren"
-  },
-  "newtab_share_dialog_description": {
-    "message": "Deel deze begroeting als afbeelding."
-  },
-  "newtab_share_dialog_download_image": {
-    "message": "Afbeelding downloaden"
-  },
-  "newtab_share_dialog_failed": {
-    "message": "Kan begroeting niet delen"
-  },
-  "newtab_share_dialog_share_label": {
-    "message": "Delen"
-  },
-  "newtab_share_dialog_share_to_discord": {
-    "message": "Delen op Discord"
-  },
-  "newtab_share_dialog_share_to_x": {
-    "message": "Delen op X"
-  },
-  "newtab_share_dialog_title": {
-    "message": "Deel je begroeting"
-  },
-  "user_input_add_attachment": {
-    "message": "Bijlage toevoegen"
-  },
-  "user_input_add_screenshot": {
-    "message": "Screenshot toevoegen"
-  },
-  "user_input_all_tabs_added": {
-    "message": "Alle tabbladen toegevoegd"
-  },
-  "user_input_capture_screenshot_failed": {
-    "message": "Screenshot maken mislukt. Probeer het opnieuw op een gewone webpagina."
-  },
-  "user_input_no_available_tabs": {
-    "message": "Geen tabbladen beschikbaar"
-  },
-  "user_input_placeholder": {
-    "message": "Typ een bericht…"
-  },
-  "user_input_send": {
-    "message": "Verzenden"
-  },
-  "user_input_split_view": {
-    "message": "Split View"
-  },
-  "user_input_split_view_member_count": {
-    "message": "{{count}} tabblad(en)"
-  },
-  "user_input_stop": {
-    "message": "Stoppen"
-  },
-  "user_input_tab_group_member_count": {
-    "message": "{{count}} tabblad(en)"
-  },
-  "user_input_tab_group_untitled": {
-    "message": "Tabbladgroep"
-  },
-  "user_input_tab_no_longer_exists": {
-    "message": "Tabblad \"{{title}}\" bestaat niet meer en is verwijderd"
-  },
-  "user_input_tabs": {
-    "message": "Tabbladen"
-  },
-  "user_input_upload_from_computer": {
-    "message": "Uploaden vanaf je computer"
-  },
-  "user_input_upload_section": {
-    "message": "Uploaden (PDF / TXT / afbeelding)"
-  },
-  "welcome_title": {
-    "message": "Hoi, ik ben {{name}}"
-  },
-  "widgets_bottom_panel_add": {
-    "message": "Widget toevoegen"
-  },
-  "widgets_bottom_panel_back": {
-    "message": "Terug"
-  },
-  "widgets_bottom_panel_collapse": {
-    "message": "Paneel verbergen"
-  },
-  "widgets_bottom_panel_label": {
-    "message": "Widgetpaneel"
-  },
-  "widgets_bottom_panel_reload": {
-    "message": "Widgets opnieuw laden"
-  },
-  "widgets_bottom_panel_tab_widgets": {
-    "message": "Widgets"
-  },
-  "widgets_cancel": {
-    "message": "Annuleren"
-  },
-  "widgets_drop_zone_label": {
-    "message": "Plaats widgets hier"
-  },
-  "widgets_library_delete_confirm": {
-    "message": "\"{{title}}\" verwijderen?"
-  },
-  "widgets_library_drag": {
-    "message": "Sleep naar de pagina"
-  },
-  "widgets_library_empty": {
-    "message": "Er is nu niets om toe te voegen. Nieuwe widgetideeën verschijnen hier."
-  },
-  "widgets_library_untitled": {
-    "message": "Naamloze widget"
-  },
-  "widgets_loading": {
-    "message": "Een ogenblik…"
-  },
-  "widgets_menu_add_to_page": {
-    "message": "Toevoegen aan pagina"
-  },
-  "widgets_menu_delete": {
-    "message": "Verwijderen"
-  },
-  "widgets_menu_delete_all": {
-    "message": "ALLES verwijderen"
-  },
-  "widgets_menu_delete_all_confirm": {
-    "message": "Alle widgets uit dit paneel verwijderen?"
-  },
-  "widgets_menu_edit": {
-    "message": "Bewerken"
-  },
-  "widgets_menu_refresh": {
-    "message": "Vernieuwen"
-  },
-  "widgets_menu_trigger": {
-    "message": "Widgetmenu"
-  },
-  "widgets_pending_install": {
-    "message": "Installeren"
-  },
-  "widgets_pending_refresh": {
-    "message": "Vernieuwen"
-  }
+    "conversation_default_title": {
+        "message": "Nieuw gesprek"
+    },
+    "conversation_new_chat": {
+        "message": "Nieuwe chat"
+    },
+    "errors_auto_save_failed_final": {
+        "message": "Automatisch opslaan is mislukt. Probeer het opnieuw."
+    },
+    "errors_auto_save_retrying": {
+        "message": "Automatisch opslaan is mislukt, opnieuw proberen ({{current}}/{{total}})…"
+    },
+    "errors_balance_too_low": {
+        "message": "Je tegoed is te laag. Vul je tegoed aan om de service te blijven gebruiken."
+    },
+    "errors_chat_id_required": {
+        "message": "Chat-ID is vereist."
+    },
+    "errors_chat_invalid_visibility": {
+        "message": "Ongeldige zichtbaarheidsinstelling. Moet 'private' of 'public' zijn."
+    },
+    "errors_chat_pagination_conflict": {
+        "message": "De parameters starting_after en ending_before kunnen niet samen worden gebruikt."
+    },
+    "errors_edit_delete_failed": {
+        "message": "Kan de bewerking niet synchroniseren met de server. Wijzigingen worden opgeslagen zodra het antwoord is voltooid."
+    },
+    "errors_forbidden": {
+        "message": "Toegang geweigerd. Je hebt geen toestemming om deze actie uit te voeren."
+    },
+    "errors_load_conversation_failed": {
+        "message": "Kan het gesprek niet laden. Probeer het opnieuw."
+    },
+    "errors_network": {
+        "message": "Netwerkverbindingsfout. Controleer je verbinding en probeer het opnieuw."
+    },
+    "errors_not_found": {
+        "message": "De opgevraagde bron is niet gevonden."
+    },
+    "errors_save_message_failed": {
+        "message": "Kan het bericht niet opslaan. Probeer het opnieuw."
+    },
+    "errors_server_error": {
+        "message": "Er is een serverfout opgetreden. Probeer het later opnieuw."
+    },
+    "errors_timeout": {
+        "message": "Er is een time-out opgetreden. Probeer het opnieuw."
+    },
+    "errors_token_subnet_restricted": {
+        "message": "Dit token kan alleen worden gebruikt vanaf specifieke IP-adressen."
+    },
+    "errors_types_aiproxy_error": {
+        "message": "Er is een servicefout opgetreden. Probeer het later opnieuw."
+    },
+    "errors_types_bad_response": {
+        "message": "Ongeldig antwoord van de server. Probeer het opnieuw."
+    },
+    "errors_types_group_balance_not_enough": {
+        "message": "Onvoldoende tegoed. Vul je tegoed aan of neem contact op met je beheerder."
+    },
+    "errors_types_invalid_request_error": {
+        "message": "Ongeldige aanvraag. Controleer je invoer en probeer het opnieuw."
+    },
+    "errors_types_overloaded_error": {
+        "message": "De service is momenteel overbelast. Probeer het zo meteen opnieuw."
+    },
+    "errors_types_rate_limit_error": {
+        "message": "Aanvraaglimiet overschreden. Verstuur je aanvragen minder snel."
+    },
+    "errors_types_request_too_large": {
+        "message": "De aanvraag is te groot. Verklein de inhoud."
+    },
+    "errors_types_token_period_quota_exhausted": {
+        "message": "Je periodieke gebruiksquotum is bereikt. Het quotum wordt bij de volgende cyclus opnieuw ingesteld."
+    },
+    "errors_types_token_quota_exhausted": {
+        "message": "Je gebruiksquotum is opgebruikt. Neem contact op met je beheerder."
+    },
+    "errors_types_upstream_error": {
+        "message": "Fout bij de AI-serviceprovider. Probeer het later opnieuw."
+    },
+    "errors_unauthorized": {
+        "message": "Authenticatie mislukt. Controleer je inloggegevens."
+    },
+    "errors_unknown": {
+        "message": "Er is een onverwachte fout opgetreden. Probeer het opnieuw."
+    },
+    "errors_upload_failed": {
+        "message": "Kan het bestand niet uploaden. Probeer het opnieuw."
+    },
+    "errors_upload_file_too_large": {
+        "message": "Het bestand is groter dan de limiet van 10 MB. Kies een kleiner bestand."
+    },
+    "errors_upload_no_file": {
+        "message": "Geen bestand geselecteerd. Kies een bestand om te uploaden."
+    },
+    "errors_upload_read_failed": {
+        "message": "Kan het bestand niet lezen. Probeer het opnieuw."
+    },
+    "errors_upload_request_too_large": {
+        "message": "De aanvraag is groter dan de limiet. Verklein het bestand of verminder het aantal bestanden."
+    },
+    "errors_upload_service_unavailable": {
+        "message": "De uploadservice is momenteel niet beschikbaar. Probeer het later opnieuw."
+    },
+    "errors_upload_unsupported_type": {
+        "message": "Niet-ondersteund bestandstype. Alleen JPEG-, PNG-, GIF-, WebP- en PDF-bestanden zijn toegestaan."
+    },
+    "features_chat_with_tabs_tab_converted_to_pdf": {
+        "message": "PDF-tabblad omgezet naar bestandsbijlage."
+    },
+    "features_chat_with_tabs_tab_removed_unsupported": {
+        "message": "Tabbladbron verwijderd: niet-ondersteunde pagina."
+    },
+    "features_feature_error": {
+        "message": "Kan de context niet laden"
+    },
+    "features_loading_chat_with_tabs": {
+        "message": "Tabbladinhoud laden…"
+    },
+    "features_pdf_attach_failed": {
+        "message": "Kan het PDF-bestand niet bijvoegen."
+    },
+    "features_retry": {
+        "message": "Opnieuw proberen"
+    },
+    "file_remove": {
+        "message": "Bestand verwijderen"
+    },
+    "file_text_file_too_large": {
+        "message": "Tekstbestand is te groot, de maximale grootte is 50 KB"
+    },
+    "message_cancel": {
+        "message": "Annuleren"
+    },
+    "message_collapse": {
+        "message": "Samenvouwen"
+    },
+    "message_copy": {
+        "message": "Kopiëren"
+    },
+    "message_create_conversation_failed": {
+        "message": "Kan het gesprek niet aanmaken"
+    },
+    "message_display_reasoning": {
+        "message": "Redenering weergeven"
+    },
+    "message_download": {
+        "message": "Downloaden"
+    },
+    "message_edit": {
+        "message": "Bewerken"
+    },
+    "message_expand": {
+        "message": "Uitvouwen"
+    },
+    "message_file_file": {
+        "message": "Bestand"
+    },
+    "message_file_image": {
+        "message": "Afbeelding"
+    },
+    "message_quota_exhausted": {
+        "message": "Gebruiksquotum overschreden"
+    },
+    "message_quota_exhausted_description": {
+        "message": "Je dagelijkse gebruiksquotum is bereikt. Het quotum wordt elke dag opnieuw ingesteld."
+    },
+    "message_regenerate": {
+        "message": "Opnieuw genereren"
+    },
+    "message_request_failed": {
+        "message": "Aanvraag mislukt"
+    },
+    "message_resume": {
+        "message": "Hervatten"
+    },
+    "message_retry": {
+        "message": "Opnieuw proberen"
+    },
+    "message_show_less": {
+        "message": "Minder weergeven"
+    },
+    "message_show_more": {
+        "message": "Meer weergeven"
+    },
+    "message_sources_unknown": {
+        "message": "Onbekende bron"
+    },
+    "message_submit": {
+        "message": "Verzenden"
+    },
+    "message_thinking": {
+        "message": "Nadenken…"
+    },
+    "message_tool_approve": {
+        "message": "Goedkeuren"
+    },
+    "message_tool_awaiting_approval": {
+        "message": "Wacht op goedkeuring"
+    },
+    "message_tool_completed": {
+        "message": "Voltooid"
+    },
+    "message_tool_denied": {
+        "message": "Geweigerd"
+    },
+    "message_tool_deny": {
+        "message": "Weigeren"
+    },
+    "message_tool_error": {
+        "message": "Fout"
+    },
+    "message_tool_input": {
+        "message": "Invoer"
+    },
+    "message_tool_output": {
+        "message": "Uitvoer"
+    },
+    "message_tool_running": {
+        "message": "Wordt uitgevoerd"
+    },
+    "message_waiting_for_response": {
+        "message": "Wachten op AI-antwoord"
+    },
+    "newtab_custom": {
+        "message": "Aangepast"
+    },
+    "newtab_dismiss_suggestion": {
+        "message": "Suggestie sluiten"
+    },
+    "newtab_enter_chat": {
+        "message": "Over deze begroeting chatten"
+    },
+    "newtab_insight": {
+        "message": "Inzicht"
+    },
+    "newtab_insight_empty": {
+        "message": "Blijf browsen, dan verschijnen hier inzichten zodra er patronen ontstaan."
+    },
+    "newtab_insight_evidence": {
+        "message": "Onderbouwing"
+    },
+    "newtab_insight_loading": {
+        "message": "Je patronen worden geanalyseerd…"
+    },
+    "newtab_insight_title": {
+        "message": "Inzicht"
+    },
+    "newtab_memory": {
+        "message": "Geheugen"
+    },
+    "newtab_page_title": {
+        "message": "Nieuw tabblad"
+    },
+    "newtab_profile": {
+        "message": "Jij"
+    },
+    "newtab_profile_empty": {
+        "message": "Nog geen portretgegevens. Blijf browsen, dan leer ik je gaandeweg kennen."
+    },
+    "newtab_profile_feedback": {
+        "message": "Dit portret is gebaseerd op je browseactiviteit. Klopt er iets niet of wil je iets toevoegen? Zeg het me, dan werk ik het bij."
+    },
+    "newtab_profile_input_placeholder": {
+        "message": "Vertel me wat ik moet bijwerken…"
+    },
+    "newtab_profile_loading": {
+        "message": "Portret laden…"
+    },
+    "newtab_profile_title": {
+        "message": "Jouw portret"
+    },
+    "newtab_profile_update_error": {
+        "message": "Sorry, ik kon het portret niet bijwerken. Probeer het opnieuw."
+    },
+    "newtab_profile_update_not_profile_instruction": {
+        "message": "Dat ziet er niet uit als een portretwijziging. Gebruik dit vak als je iets over jezelf in je portret wilt corrigeren of toevoegen, zoals je werk, interesses of voorkeuren."
+    },
+    "newtab_profile_update_success": {
+        "message": "Klaar! Ik heb je portret bijgewerkt."
+    },
+    "newtab_profile_updating": {
+        "message": "Je portret wordt bijgewerkt…"
+    },
+    "newtab_search": {
+        "message": "Zoeken"
+    },
+    "newtab_share": {
+        "message": "Deze begroeting delen"
+    },
+    "newtab_share_dialog_close": {
+        "message": "Sluiten"
+    },
+    "newtab_share_dialog_copied": {
+        "message": "Afbeelding gekopieerd naar klembord"
+    },
+    "newtab_share_dialog_copied_for_discord": {
+        "message": "Afbeelding gekopieerd. Plak deze in je Discord-bericht."
+    },
+    "newtab_share_dialog_copy_image": {
+        "message": "Afbeelding kopiëren"
+    },
+    "newtab_share_dialog_description": {
+        "message": "Deel deze begroeting als afbeelding."
+    },
+    "newtab_share_dialog_download_image": {
+        "message": "Afbeelding downloaden"
+    },
+    "newtab_share_dialog_failed": {
+        "message": "Kan begroeting niet delen"
+    },
+    "newtab_share_dialog_share_label": {
+        "message": "Delen"
+    },
+    "newtab_share_dialog_share_to_discord": {
+        "message": "Delen op Discord"
+    },
+    "newtab_share_dialog_share_to_x": {
+        "message": "Delen op X"
+    },
+    "newtab_share_dialog_title": {
+        "message": "Deel je begroeting"
+    },
+    "user_input_add_attachment": {
+        "message": "Bijlage toevoegen"
+    },
+    "user_input_add_screenshot": {
+        "message": "Screenshot toevoegen"
+    },
+    "user_input_all_tabs_added": {
+        "message": "Alle tabbladen toegevoegd"
+    },
+    "user_input_capture_screenshot_failed": {
+        "message": "Screenshot maken mislukt. Probeer het opnieuw op een gewone webpagina."
+    },
+    "user_input_no_available_tabs": {
+        "message": "Geen tabbladen beschikbaar"
+    },
+    "user_input_placeholder": {
+        "message": "Typ een bericht…"
+    },
+    "user_input_send": {
+        "message": "Verzenden"
+    },
+    "user_input_split_view": {
+        "message": "Split View"
+    },
+    "user_input_split_view_member_count": {
+        "message": "{{count}} tabblad(en)"
+    },
+    "user_input_stop": {
+        "message": "Stoppen"
+    },
+    "user_input_tab_group_member_count": {
+        "message": "{{count}} tabblad(en)"
+    },
+    "user_input_tab_group_untitled": {
+        "message": "Tabbladgroep"
+    },
+    "user_input_tab_no_longer_exists": {
+        "message": "Tabblad \"{{title}}\" bestaat niet meer en is verwijderd"
+    },
+    "user_input_tabs": {
+        "message": "Tabbladen"
+    },
+    "user_input_upload_from_computer": {
+        "message": "Uploaden vanaf je computer"
+    },
+    "user_input_upload_section": {
+        "message": "Uploaden (PDF / TXT / afbeelding)"
+    },
+    "welcome_title": {
+        "message": "Hoi, ik ben {{name}}"
+    },
+    "widgets_bottom_panel_add": {
+        "message": "Widget toevoegen"
+    },
+    "widgets_bottom_panel_back": {
+        "message": "Terug"
+    },
+    "widgets_bottom_panel_collapse": {
+        "message": "Paneel verbergen"
+    },
+    "widgets_bottom_panel_label": {
+        "message": "Widgetpaneel"
+    },
+    "widgets_bottom_panel_reload": {
+        "message": "Widgets opnieuw laden"
+    },
+    "widgets_bottom_panel_tab_widgets": {
+        "message": "Widgets"
+    },
+    "widgets_cancel": {
+        "message": "Annuleren"
+    },
+    "widgets_drop_zone_label": {
+        "message": "Plaats widgets hier"
+    },
+    "widgets_library_delete_confirm": {
+        "message": "\"{{title}}\" verwijderen?"
+    },
+    "widgets_library_drag": {
+        "message": "Sleep naar de pagina"
+    },
+    "widgets_library_empty": {
+        "message": "Er is nu niets om toe te voegen. Nieuwe widgetideeën verschijnen hier."
+    },
+    "widgets_library_untitled": {
+        "message": "Naamloze widget"
+    },
+    "widgets_loading": {
+        "message": "Een ogenblik…"
+    },
+    "widgets_menu_add_to_page": {
+        "message": "Toevoegen aan pagina"
+    },
+    "widgets_menu_delete": {
+        "message": "Verwijderen"
+    },
+    "widgets_menu_delete_all": {
+        "message": "ALLES verwijderen"
+    },
+    "widgets_menu_delete_all_confirm": {
+        "message": "Alle widgets uit dit paneel verwijderen?"
+    },
+    "widgets_menu_edit": {
+        "message": "Bewerken"
+    },
+    "widgets_menu_refresh": {
+        "message": "Vernieuwen"
+    },
+    "widgets_menu_trigger": {
+        "message": "Widgetmenu"
+    },
+    "widgets_pending_install": {
+        "message": "Installeren"
+    },
+    "widgets_pending_refresh": {
+        "message": "Vernieuwen"
+    }
 }

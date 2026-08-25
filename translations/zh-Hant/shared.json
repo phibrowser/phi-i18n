@@ -1,443 +1,443 @@
 {
-  "conversation_default_title": {
-    "message": "新對話"
-  },
-  "conversation_new_chat": {
-    "message": "新增對話"
-  },
-  "errors_auto_save_failed_final": {
-    "message": "自動儲存失敗，請重試。"
-  },
-  "errors_auto_save_retrying": {
-    "message": "自動儲存失敗，正在重試（{{current}}/{{total}}）…"
-  },
-  "errors_balance_too_low": {
-    "message": "你的餘額過低，請儲值後繼續使用服務。"
-  },
-  "errors_chat_id_required": {
-    "message": "必須提供對話 ID。"
-  },
-  "errors_chat_invalid_visibility": {
-    "message": "可見性設定無效，只能是 'private' 或 'public'。"
-  },
-  "errors_chat_pagination_conflict": {
-    "message": "不能同時使用 starting_after 和 ending_before 參數。"
-  },
-  "errors_edit_delete_failed": {
-    "message": "無法將編輯同步到伺服器，變更會在回應完成後儲存。"
-  },
-  "errors_forbidden": {
-    "message": "存取遭拒，你沒有執行這項操作的權限。"
-  },
-  "errors_load_conversation_failed": {
-    "message": "載入對話失敗，請再試一次。"
-  },
-  "errors_network": {
-    "message": "網路連線錯誤，請檢查你的連線後再試一次。"
-  },
-  "errors_not_found": {
-    "message": "找不到要求的資源。"
-  },
-  "errors_save_message_failed": {
-    "message": "儲存訊息失敗，請再試一次。"
-  },
-  "errors_server_error": {
-    "message": "伺服器發生錯誤，請稍後再試。"
-  },
-  "errors_timeout": {
-    "message": "要求逾時，請再試一次。"
-  },
-  "errors_token_subnet_restricted": {
-    "message": "這個權杖只能從特定 IP 位址使用。"
-  },
-  "errors_types_aiproxy_error": {
-    "message": "服務發生錯誤，請稍後再試。"
-  },
-  "errors_types_bad_response": {
-    "message": "伺服器回應無效，請再試一次。"
-  },
-  "errors_types_group_balance_not_enough": {
-    "message": "餘額不足，請儲值或聯絡你的管理員。"
-  },
-  "errors_types_invalid_request_error": {
-    "message": "要求無效，請檢查輸入內容後再試一次。"
-  },
-  "errors_types_overloaded_error": {
-    "message": "服務目前過載，請稍後再試。"
-  },
-  "errors_types_rate_limit_error": {
-    "message": "已超過速率限制，請放慢傳送要求的頻率。"
-  },
-  "errors_types_request_too_large": {
-    "message": "要求內容過大，請縮減內容大小。"
-  },
-  "errors_types_token_period_quota_exhausted": {
-    "message": "你本週期的用量配額已達上限，配額會在下個週期重設。"
-  },
-  "errors_types_token_quota_exhausted": {
-    "message": "你的用量配額已用完，請聯絡你的管理員。"
-  },
-  "errors_types_upstream_error": {
-    "message": "AI 服務供應商發生錯誤，請稍後再試。"
-  },
-  "errors_unauthorized": {
-    "message": "驗證失敗，請檢查你的憑證。"
-  },
-  "errors_unknown": {
-    "message": "發生未預期的錯誤，請再試一次。"
-  },
-  "errors_upload_failed": {
-    "message": "上傳檔案失敗，請再試一次。"
-  },
-  "errors_upload_file_too_large": {
-    "message": "檔案大小超過 10MB 上限，請選擇較小的檔案。"
-  },
-  "errors_upload_no_file": {
-    "message": "尚未選取檔案，請選擇要上傳的檔案。"
-  },
-  "errors_upload_read_failed": {
-    "message": "讀取檔案失敗，請再試一次。"
-  },
-  "errors_upload_request_too_large": {
-    "message": "要求大小超過上限，請縮減檔案大小或減少檔案數量。"
-  },
-  "errors_upload_service_unavailable": {
-    "message": "檔案上傳服務目前無法使用，請稍後再試。"
-  },
-  "errors_upload_unsupported_type": {
-    "message": "不支援的檔案類型，僅允許 JPEG、PNG、GIF、WebP 和 PDF 檔案。"
-  },
-  "features_chat_with_tabs_tab_converted_to_pdf": {
-    "message": "PDF 分頁已轉為檔案附件。"
-  },
-  "features_chat_with_tabs_tab_removed_unsupported": {
-    "message": "已移除分頁來源：不支援的頁面。"
-  },
-  "features_feature_error": {
-    "message": "載入上下文失敗"
-  },
-  "features_loading_chat_with_tabs": {
-    "message": "正在載入分頁內容…"
-  },
-  "features_pdf_attach_failed": {
-    "message": "附加 PDF 檔案失敗。"
-  },
-  "features_retry": {
-    "message": "重試"
-  },
-  "file_remove": {
-    "message": "移除檔案"
-  },
-  "file_text_file_too_large": {
-    "message": "文字檔過大，大小上限為 50KB"
-  },
-  "message_cancel": {
-    "message": "取消"
-  },
-  "message_collapse": {
-    "message": "收合"
-  },
-  "message_copy": {
-    "message": "複製"
-  },
-  "message_create_conversation_failed": {
-    "message": "建立對話失敗"
-  },
-  "message_display_reasoning": {
-    "message": "顯示思考過程"
-  },
-  "message_download": {
-    "message": "下載"
-  },
-  "message_edit": {
-    "message": "編輯"
-  },
-  "message_expand": {
-    "message": "展開"
-  },
-  "message_file_file": {
-    "message": "檔案"
-  },
-  "message_file_image": {
-    "message": "圖片"
-  },
-  "message_quota_exhausted": {
-    "message": "已超過用量配額"
-  },
-  "message_quota_exhausted_description": {
-    "message": "你今天的用量配額已達上限，配額每天重設。"
-  },
-  "message_regenerate": {
-    "message": "重新生成"
-  },
-  "message_request_failed": {
-    "message": "要求失敗"
-  },
-  "message_resume": {
-    "message": "繼續"
-  },
-  "message_retry": {
-    "message": "重試"
-  },
-  "message_show_less": {
-    "message": "顯示較少"
-  },
-  "message_show_more": {
-    "message": "顯示更多"
-  },
-  "message_sources_unknown": {
-    "message": "未知來源"
-  },
-  "message_submit": {
-    "message": "送出"
-  },
-  "message_thinking": {
-    "message": "思考中…"
-  },
-  "message_tool_approve": {
-    "message": "核准"
-  },
-  "message_tool_awaiting_approval": {
-    "message": "等待核准"
-  },
-  "message_tool_completed": {
-    "message": "已完成"
-  },
-  "message_tool_denied": {
-    "message": "已拒絕"
-  },
-  "message_tool_deny": {
-    "message": "拒絕"
-  },
-  "message_tool_error": {
-    "message": "錯誤"
-  },
-  "message_tool_input": {
-    "message": "輸入"
-  },
-  "message_tool_output": {
-    "message": "輸出"
-  },
-  "message_tool_running": {
-    "message": "執行中"
-  },
-  "message_waiting_for_response": {
-    "message": "正在等待 AI 回應"
-  },
-  "newtab_custom": {
-    "message": "自訂"
-  },
-  "newtab_dismiss_suggestion": {
-    "message": "忽略建議"
-  },
-  "newtab_enter_chat": {
-    "message": "聊聊這則問候"
-  },
-  "newtab_insight": {
-    "message": "洞察"
-  },
-  "newtab_insight_empty": {
-    "message": "繼續瀏覽，隨著使用模式逐漸浮現，洞察也會出現。"
-  },
-  "newtab_insight_evidence": {
-    "message": "佐證"
-  },
-  "newtab_insight_loading": {
-    "message": "正在分析你的使用模式…"
-  },
-  "newtab_insight_title": {
-    "message": "洞察"
-  },
-  "newtab_memory": {
-    "message": "記憶"
-  },
-  "newtab_page_title": {
-    "message": "新分頁"
-  },
-  "newtab_profile": {
-    "message": "你"
-  },
-  "newtab_profile_empty": {
-    "message": "目前還沒有人物側寫資料。繼續瀏覽，我會慢慢認識你。"
-  },
-  "newtab_profile_feedback": {
-    "message": "這份人物側寫是根據你的瀏覽活動產生的。如果有哪裡不對，或你想補充什麼，直接告訴我，我會幫你更新。"
-  },
-  "newtab_profile_input_placeholder": {
-    "message": "告訴我要更新什麼…"
-  },
-  "newtab_profile_loading": {
-    "message": "正在載入人物側寫…"
-  },
-  "newtab_profile_title": {
-    "message": "你的人物側寫"
-  },
-  "newtab_profile_update_error": {
-    "message": "抱歉，我沒能更新人物側寫。請再試一次。"
-  },
-  "newtab_profile_update_not_profile_instruction": {
-    "message": "這看起來不像是人物側寫的修改要求。當你想修正或補充人物側寫中關於你的資訊（例如工作、興趣或偏好）時，再使用這個輸入框。"
-  },
-  "newtab_profile_update_success": {
-    "message": "完成！我已經更新你的人物側寫。"
-  },
-  "newtab_profile_updating": {
-    "message": "正在更新你的人物側寫…"
-  },
-  "newtab_search": {
-    "message": "搜尋"
-  },
-  "newtab_share": {
-    "message": "分享這則問候"
-  },
-  "newtab_share_dialog_close": {
-    "message": "關閉"
-  },
-  "newtab_share_dialog_copied": {
-    "message": "圖片已複製到剪貼簿"
-  },
-  "newtab_share_dialog_copied_for_discord": {
-    "message": "圖片已複製。請貼到你的 Discord 訊息中。"
-  },
-  "newtab_share_dialog_copy_image": {
-    "message": "複製圖片"
-  },
-  "newtab_share_dialog_description": {
-    "message": "將這則問候以圖片形式分享。"
-  },
-  "newtab_share_dialog_download_image": {
-    "message": "下載圖片"
-  },
-  "newtab_share_dialog_failed": {
-    "message": "無法分享問候"
-  },
-  "newtab_share_dialog_share_label": {
-    "message": "分享"
-  },
-  "newtab_share_dialog_share_to_discord": {
-    "message": "分享到 Discord"
-  },
-  "newtab_share_dialog_share_to_x": {
-    "message": "分享到 X"
-  },
-  "newtab_share_dialog_title": {
-    "message": "分享你的問候"
-  },
-  "user_input_add_attachment": {
-    "message": "加入附件"
-  },
-  "user_input_add_screenshot": {
-    "message": "加入截圖"
-  },
-  "user_input_all_tabs_added": {
-    "message": "所有分頁都已加入"
-  },
-  "user_input_capture_screenshot_failed": {
-    "message": "無法擷取截圖，請在一般網頁上再試一次。"
-  },
-  "user_input_no_available_tabs": {
-    "message": "沒有可用的分頁"
-  },
-  "user_input_placeholder": {
-    "message": "輸入訊息…"
-  },
-  "user_input_send": {
-    "message": "傳送"
-  },
-  "user_input_split_view": {
-    "message": "分割畫面"
-  },
-  "user_input_split_view_member_count": {
-    "message": "{{count}} 個分頁"
-  },
-  "user_input_stop": {
-    "message": "停止"
-  },
-  "user_input_tab_group_member_count": {
-    "message": "{{count}} 個分頁"
-  },
-  "user_input_tab_group_untitled": {
-    "message": "分頁群組"
-  },
-  "user_input_tab_no_longer_exists": {
-    "message": "分頁「{{title}}」已不存在，並已移除"
-  },
-  "user_input_tabs": {
-    "message": "分頁"
-  },
-  "user_input_upload_from_computer": {
-    "message": "從電腦上傳"
-  },
-  "user_input_upload_section": {
-    "message": "上傳（PDF / TXT / 圖片）"
-  },
-  "welcome_title": {
-    "message": "嗨，我是 {{name}}"
-  },
-  "widgets_bottom_panel_add": {
-    "message": "新增小工具"
-  },
-  "widgets_bottom_panel_back": {
-    "message": "返回"
-  },
-  "widgets_bottom_panel_collapse": {
-    "message": "隱藏面板"
-  },
-  "widgets_bottom_panel_label": {
-    "message": "小工具面板"
-  },
-  "widgets_bottom_panel_reload": {
-    "message": "重新載入小工具"
-  },
-  "widgets_bottom_panel_tab_widgets": {
-    "message": "小工具"
-  },
-  "widgets_cancel": {
-    "message": "取消"
-  },
-  "widgets_drop_zone_label": {
-    "message": "把小工具放到這裡"
-  },
-  "widgets_library_delete_confirm": {
-    "message": "要刪除「{{title}}」嗎？"
-  },
-  "widgets_library_drag": {
-    "message": "拖曳到頁面上"
-  },
-  "widgets_library_empty": {
-    "message": "目前沒有可新增的項目，新的小工具點子會出現在這裡。"
-  },
-  "widgets_library_untitled": {
-    "message": "未命名小工具"
-  },
-  "widgets_loading": {
-    "message": "請稍候…"
-  },
-  "widgets_menu_add_to_page": {
-    "message": "加到頁面"
-  },
-  "widgets_menu_delete": {
-    "message": "刪除"
-  },
-  "widgets_menu_delete_all": {
-    "message": "全部刪除"
-  },
-  "widgets_menu_delete_all_confirm": {
-    "message": "要刪除這個面板中的所有小工具嗎？"
-  },
-  "widgets_menu_edit": {
-    "message": "編輯"
-  },
-  "widgets_menu_refresh": {
-    "message": "重新整理"
-  },
-  "widgets_menu_trigger": {
-    "message": "小工具選單"
-  },
-  "widgets_pending_install": {
-    "message": "安裝"
-  },
-  "widgets_pending_refresh": {
-    "message": "重新產生"
-  }
+    "conversation_default_title": {
+        "message": "新對話"
+    },
+    "conversation_new_chat": {
+        "message": "新增對話"
+    },
+    "errors_auto_save_failed_final": {
+        "message": "自動儲存失敗，請重試。"
+    },
+    "errors_auto_save_retrying": {
+        "message": "自動儲存失敗，正在重試（{{current}}/{{total}}）…"
+    },
+    "errors_balance_too_low": {
+        "message": "你的餘額過低，請儲值後繼續使用服務。"
+    },
+    "errors_chat_id_required": {
+        "message": "必須提供對話 ID。"
+    },
+    "errors_chat_invalid_visibility": {
+        "message": "可見性設定無效，只能是 'private' 或 'public'。"
+    },
+    "errors_chat_pagination_conflict": {
+        "message": "不能同時使用 starting_after 和 ending_before 參數。"
+    },
+    "errors_edit_delete_failed": {
+        "message": "無法將編輯同步到伺服器，變更會在回應完成後儲存。"
+    },
+    "errors_forbidden": {
+        "message": "存取遭拒，你沒有執行這項操作的權限。"
+    },
+    "errors_load_conversation_failed": {
+        "message": "載入對話失敗，請再試一次。"
+    },
+    "errors_network": {
+        "message": "網路連線錯誤，請檢查你的連線後再試一次。"
+    },
+    "errors_not_found": {
+        "message": "找不到要求的資源。"
+    },
+    "errors_save_message_failed": {
+        "message": "儲存訊息失敗，請再試一次。"
+    },
+    "errors_server_error": {
+        "message": "伺服器發生錯誤，請稍後再試。"
+    },
+    "errors_timeout": {
+        "message": "要求逾時，請再試一次。"
+    },
+    "errors_token_subnet_restricted": {
+        "message": "這個權杖只能從特定 IP 位址使用。"
+    },
+    "errors_types_aiproxy_error": {
+        "message": "服務發生錯誤，請稍後再試。"
+    },
+    "errors_types_bad_response": {
+        "message": "伺服器回應無效，請再試一次。"
+    },
+    "errors_types_group_balance_not_enough": {
+        "message": "餘額不足，請儲值或聯絡你的管理員。"
+    },
+    "errors_types_invalid_request_error": {
+        "message": "要求無效，請檢查輸入內容後再試一次。"
+    },
+    "errors_types_overloaded_error": {
+        "message": "服務目前過載，請稍後再試。"
+    },
+    "errors_types_rate_limit_error": {
+        "message": "已超過速率限制，請放慢傳送要求的頻率。"
+    },
+    "errors_types_request_too_large": {
+        "message": "要求內容過大，請縮減內容大小。"
+    },
+    "errors_types_token_period_quota_exhausted": {
+        "message": "你本週期的用量配額已達上限，配額會在下個週期重設。"
+    },
+    "errors_types_token_quota_exhausted": {
+        "message": "你的用量配額已用完，請聯絡你的管理員。"
+    },
+    "errors_types_upstream_error": {
+        "message": "AI 服務供應商發生錯誤，請稍後再試。"
+    },
+    "errors_unauthorized": {
+        "message": "驗證失敗，請檢查你的憑證。"
+    },
+    "errors_unknown": {
+        "message": "發生未預期的錯誤，請再試一次。"
+    },
+    "errors_upload_failed": {
+        "message": "上傳檔案失敗，請再試一次。"
+    },
+    "errors_upload_file_too_large": {
+        "message": "檔案大小超過 10MB 上限，請選擇較小的檔案。"
+    },
+    "errors_upload_no_file": {
+        "message": "尚未選取檔案，請選擇要上傳的檔案。"
+    },
+    "errors_upload_read_failed": {
+        "message": "讀取檔案失敗，請再試一次。"
+    },
+    "errors_upload_request_too_large": {
+        "message": "要求大小超過上限，請縮減檔案大小或減少檔案數量。"
+    },
+    "errors_upload_service_unavailable": {
+        "message": "檔案上傳服務目前無法使用，請稍後再試。"
+    },
+    "errors_upload_unsupported_type": {
+        "message": "不支援的檔案類型，僅允許 JPEG、PNG、GIF、WebP 和 PDF 檔案。"
+    },
+    "features_chat_with_tabs_tab_converted_to_pdf": {
+        "message": "PDF 分頁已轉為檔案附件。"
+    },
+    "features_chat_with_tabs_tab_removed_unsupported": {
+        "message": "已移除分頁來源：不支援的頁面。"
+    },
+    "features_feature_error": {
+        "message": "載入上下文失敗"
+    },
+    "features_loading_chat_with_tabs": {
+        "message": "正在載入分頁內容…"
+    },
+    "features_pdf_attach_failed": {
+        "message": "附加 PDF 檔案失敗。"
+    },
+    "features_retry": {
+        "message": "重試"
+    },
+    "file_remove": {
+        "message": "移除檔案"
+    },
+    "file_text_file_too_large": {
+        "message": "文字檔過大，大小上限為 50KB"
+    },
+    "message_cancel": {
+        "message": "取消"
+    },
+    "message_collapse": {
+        "message": "收合"
+    },
+    "message_copy": {
+        "message": "複製"
+    },
+    "message_create_conversation_failed": {
+        "message": "建立對話失敗"
+    },
+    "message_display_reasoning": {
+        "message": "顯示思考過程"
+    },
+    "message_download": {
+        "message": "下載"
+    },
+    "message_edit": {
+        "message": "編輯"
+    },
+    "message_expand": {
+        "message": "展開"
+    },
+    "message_file_file": {
+        "message": "檔案"
+    },
+    "message_file_image": {
+        "message": "圖片"
+    },
+    "message_quota_exhausted": {
+        "message": "已超過用量配額"
+    },
+    "message_quota_exhausted_description": {
+        "message": "你今天的用量配額已達上限，配額每天重設。"
+    },
+    "message_regenerate": {
+        "message": "重新生成"
+    },
+    "message_request_failed": {
+        "message": "要求失敗"
+    },
+    "message_resume": {
+        "message": "繼續"
+    },
+    "message_retry": {
+        "message": "重試"
+    },
+    "message_show_less": {
+        "message": "顯示較少"
+    },
+    "message_show_more": {
+        "message": "顯示更多"
+    },
+    "message_sources_unknown": {
+        "message": "未知來源"
+    },
+    "message_submit": {
+        "message": "送出"
+    },
+    "message_thinking": {
+        "message": "思考中…"
+    },
+    "message_tool_approve": {
+        "message": "核准"
+    },
+    "message_tool_awaiting_approval": {
+        "message": "等待核准"
+    },
+    "message_tool_completed": {
+        "message": "已完成"
+    },
+    "message_tool_denied": {
+        "message": "已拒絕"
+    },
+    "message_tool_deny": {
+        "message": "拒絕"
+    },
+    "message_tool_error": {
+        "message": "錯誤"
+    },
+    "message_tool_input": {
+        "message": "輸入"
+    },
+    "message_tool_output": {
+        "message": "輸出"
+    },
+    "message_tool_running": {
+        "message": "執行中"
+    },
+    "message_waiting_for_response": {
+        "message": "正在等待 AI 回應"
+    },
+    "newtab_custom": {
+        "message": "自訂"
+    },
+    "newtab_dismiss_suggestion": {
+        "message": "忽略建議"
+    },
+    "newtab_enter_chat": {
+        "message": "聊聊這則問候"
+    },
+    "newtab_insight": {
+        "message": "洞察"
+    },
+    "newtab_insight_empty": {
+        "message": "繼續瀏覽，隨著使用模式逐漸浮現，洞察也會出現。"
+    },
+    "newtab_insight_evidence": {
+        "message": "佐證"
+    },
+    "newtab_insight_loading": {
+        "message": "正在分析你的使用模式…"
+    },
+    "newtab_insight_title": {
+        "message": "洞察"
+    },
+    "newtab_memory": {
+        "message": "記憶"
+    },
+    "newtab_page_title": {
+        "message": "新分頁"
+    },
+    "newtab_profile": {
+        "message": "你"
+    },
+    "newtab_profile_empty": {
+        "message": "目前還沒有人物側寫資料。繼續瀏覽，我會慢慢認識你。"
+    },
+    "newtab_profile_feedback": {
+        "message": "這份人物側寫是根據你的瀏覽活動產生的。如果有哪裡不對，或你想補充什麼，直接告訴我，我會幫你更新。"
+    },
+    "newtab_profile_input_placeholder": {
+        "message": "告訴我要更新什麼…"
+    },
+    "newtab_profile_loading": {
+        "message": "正在載入人物側寫…"
+    },
+    "newtab_profile_title": {
+        "message": "你的人物側寫"
+    },
+    "newtab_profile_update_error": {
+        "message": "抱歉，我沒能更新人物側寫。請再試一次。"
+    },
+    "newtab_profile_update_not_profile_instruction": {
+        "message": "這看起來不像是人物側寫的修改要求。當你想修正或補充人物側寫中關於你的資訊（例如工作、興趣或偏好）時，再使用這個輸入框。"
+    },
+    "newtab_profile_update_success": {
+        "message": "完成！我已經更新你的人物側寫。"
+    },
+    "newtab_profile_updating": {
+        "message": "正在更新你的人物側寫…"
+    },
+    "newtab_search": {
+        "message": "搜尋"
+    },
+    "newtab_share": {
+        "message": "分享這則問候"
+    },
+    "newtab_share_dialog_close": {
+        "message": "關閉"
+    },
+    "newtab_share_dialog_copied": {
+        "message": "圖片已複製到剪貼簿"
+    },
+    "newtab_share_dialog_copied_for_discord": {
+        "message": "圖片已複製。請貼到你的 Discord 訊息中。"
+    },
+    "newtab_share_dialog_copy_image": {
+        "message": "複製圖片"
+    },
+    "newtab_share_dialog_description": {
+        "message": "將這則問候以圖片形式分享。"
+    },
+    "newtab_share_dialog_download_image": {
+        "message": "下載圖片"
+    },
+    "newtab_share_dialog_failed": {
+        "message": "無法分享問候"
+    },
+    "newtab_share_dialog_share_label": {
+        "message": "分享"
+    },
+    "newtab_share_dialog_share_to_discord": {
+        "message": "分享到 Discord"
+    },
+    "newtab_share_dialog_share_to_x": {
+        "message": "分享到 X"
+    },
+    "newtab_share_dialog_title": {
+        "message": "分享你的問候"
+    },
+    "user_input_add_attachment": {
+        "message": "加入附件"
+    },
+    "user_input_add_screenshot": {
+        "message": "加入截圖"
+    },
+    "user_input_all_tabs_added": {
+        "message": "所有分頁都已加入"
+    },
+    "user_input_capture_screenshot_failed": {
+        "message": "無法擷取截圖，請在一般網頁上再試一次。"
+    },
+    "user_input_no_available_tabs": {
+        "message": "沒有可用的分頁"
+    },
+    "user_input_placeholder": {
+        "message": "輸入訊息…"
+    },
+    "user_input_send": {
+        "message": "傳送"
+    },
+    "user_input_split_view": {
+        "message": "分割畫面"
+    },
+    "user_input_split_view_member_count": {
+        "message": "{{count}} 個分頁"
+    },
+    "user_input_stop": {
+        "message": "停止"
+    },
+    "user_input_tab_group_member_count": {
+        "message": "{{count}} 個分頁"
+    },
+    "user_input_tab_group_untitled": {
+        "message": "分頁群組"
+    },
+    "user_input_tab_no_longer_exists": {
+        "message": "分頁「{{title}}」已不存在，並已移除"
+    },
+    "user_input_tabs": {
+        "message": "分頁"
+    },
+    "user_input_upload_from_computer": {
+        "message": "從電腦上傳"
+    },
+    "user_input_upload_section": {
+        "message": "上傳（PDF / TXT / 圖片）"
+    },
+    "welcome_title": {
+        "message": "嗨，我是 {{name}}"
+    },
+    "widgets_bottom_panel_add": {
+        "message": "新增小工具"
+    },
+    "widgets_bottom_panel_back": {
+        "message": "返回"
+    },
+    "widgets_bottom_panel_collapse": {
+        "message": "隱藏面板"
+    },
+    "widgets_bottom_panel_label": {
+        "message": "小工具面板"
+    },
+    "widgets_bottom_panel_reload": {
+        "message": "重新載入小工具"
+    },
+    "widgets_bottom_panel_tab_widgets": {
+        "message": "小工具"
+    },
+    "widgets_cancel": {
+        "message": "取消"
+    },
+    "widgets_drop_zone_label": {
+        "message": "把小工具放到這裡"
+    },
+    "widgets_library_delete_confirm": {
+        "message": "要刪除「{{title}}」嗎？"
+    },
+    "widgets_library_drag": {
+        "message": "拖曳到頁面上"
+    },
+    "widgets_library_empty": {
+        "message": "目前沒有可新增的項目，新的小工具點子會出現在這裡。"
+    },
+    "widgets_library_untitled": {
+        "message": "未命名小工具"
+    },
+    "widgets_loading": {
+        "message": "請稍候…"
+    },
+    "widgets_menu_add_to_page": {
+        "message": "加到頁面"
+    },
+    "widgets_menu_delete": {
+        "message": "刪除"
+    },
+    "widgets_menu_delete_all": {
+        "message": "全部刪除"
+    },
+    "widgets_menu_delete_all_confirm": {
+        "message": "要刪除這個面板中的所有小工具嗎？"
+    },
+    "widgets_menu_edit": {
+        "message": "編輯"
+    },
+    "widgets_menu_refresh": {
+        "message": "重新整理"
+    },
+    "widgets_menu_trigger": {
+        "message": "小工具選單"
+    },
+    "widgets_pending_install": {
+        "message": "安裝"
+    },
+    "widgets_pending_refresh": {
+        "message": "重新產生"
+    }
 }

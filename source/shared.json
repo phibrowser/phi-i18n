@@ -1,590 +1,590 @@
 {
-  "conversation_default_title": {
-    "message": "New Conversation",
-    "description": "Location: Chat | Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Initial title given to a brand-new conversation."
-  },
-  "conversation_new_chat": {
-    "message": "New Chat",
-    "description": "Location: Chat | Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Button: start a new conversation."
-  },
-  "errors_auto_save_failed_final": {
-    "message": "Auto-save failed. Please retry.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Auto-save gave up after retries."
-  },
-  "errors_auto_save_retrying": {
-    "message": "Auto-save failed, retrying ({{current}}/{{total}})...",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Auto-save retry progress; {{current}}/{{total}} = attempt counter."
-  },
-  "errors_balance_too_low": {
-    "message": "Your credit balance is too low. Please top up to continue using the service.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Account balance errors. Account balance exhausted."
-  },
-  "errors_chat_id_required": {
-    "message": "Chat ID is required.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. The request was missing the conversation's identifier."
-  },
-  "errors_chat_invalid_visibility": {
-    "message": "Invalid visibility setting. Must be either 'private' or 'public'.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. The visibility value was not one of the accepted ones; keep 'private' and 'public' untranslated."
-  },
-  "errors_chat_pagination_conflict": {
-    "message": "Cannot use both starting_after and ending_before parameters.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. Two mutually exclusive paging options were used together; keep the parameter names untranslated."
-  },
-  "errors_edit_delete_failed": {
-    "message": "Failed to sync edit to server. Changes will be saved when the response completes.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Syncing an edited message failed; it is retried once the answer finishes."
-  },
-  "errors_forbidden": {
-    "message": "Access denied. You don't have permission to perform this action.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The user is signed in but not allowed to do this (HTTP 403)."
-  },
-  "errors_load_conversation_failed": {
-    "message": "Failed to load conversation. Please try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Loading a conversation's messages failed."
-  },
-  "errors_network": {
-    "message": "Network connection error. Please check your connection and try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The device could not reach the service (offline or refused connection)."
-  },
-  "errors_not_found": {
-    "message": "The requested resource was not found.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The requested item does not exist (HTTP 404)."
-  },
-  "errors_save_message_failed": {
-    "message": "Failed to save message. Please try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Persisting a chat message failed."
-  },
-  "errors_server_error": {
-    "message": "Server error occurred. Please try again later.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The service failed while handling the request (HTTP 5xx)."
-  },
-  "errors_timeout": {
-    "message": "Request timed out. Please try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Request timeout."
-  },
-  "errors_token_subnet_restricted": {
-    "message": "This token can only be used from specific IP addresses.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors about the token that authenticates the user. The token may only be used from an allowed set of IP addresses."
-  },
-  "errors_types_aiproxy_error": {
-    "message": "Service error occurred. Please try again later.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The AI service reported an internal failure."
-  },
-  "errors_types_bad_response": {
-    "message": "Invalid response from server. Please try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The response could not be read."
-  },
-  "errors_types_group_balance_not_enough": {
-    "message": "Insufficient balance. Please top up or contact your administrator.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The shared balance the account draws on is empty."
-  },
-  "errors_types_invalid_request_error": {
-    "message": "Invalid request. Please check your input and try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The request was rejected as invalid."
-  },
-  "errors_types_overloaded_error": {
-    "message": "Service is currently overloaded. Please try again in a moment.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The service is temporarily overloaded."
-  },
-  "errors_types_rate_limit_error": {
-    "message": "Rate limit exceeded. Please slow down your requests.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. Too many requests were sent in a short time."
-  },
-  "errors_types_request_too_large": {
-    "message": "Request is too large. Please reduce the content size.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The request content is larger than the service accepts."
-  },
-  "errors_types_token_period_quota_exhausted": {
-    "message": "Your periodic usage quota has been reached. Quota will reset at the next cycle.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The quota for the current period is used up."
-  },
-  "errors_types_token_quota_exhausted": {
-    "message": "Your usage quota has been exhausted. Please contact your administrator.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The account's usage quota is used up."
-  },
-  "errors_types_upstream_error": {
-    "message": "AI service provider error. Please try again later.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The AI model provider reported an error."
-  },
-  "errors_unauthorized": {
-    "message": "Authentication failed. Please check your credentials.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The request was rejected because the user is not signed in (HTTP 401)."
-  },
-  "errors_unknown": {
-    "message": "An unexpected error occurred. Please try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Fallback for unrecognized errors."
-  },
-  "errors_upload_failed": {
-    "message": "Failed to upload file. Please try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Generic upload failure."
-  },
-  "errors_upload_file_too_large": {
-    "message": "File size exceeds 10MB limit. Please choose a smaller file.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. Validation: over the 10MB limit."
-  },
-  "errors_upload_no_file": {
-    "message": "No file selected. Please choose a file to upload.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. Validation: nothing selected."
-  },
-  "errors_upload_read_failed": {
-    "message": "Failed to read file. Please try again.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. Reading the local file failed."
-  },
-  "errors_upload_request_too_large": {
-    "message": "Request size exceeds limit. Please reduce the file size or number of files.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. The upload is larger than the service accepts (HTTP 413)."
-  },
-  "errors_upload_service_unavailable": {
-    "message": "File upload service is currently unavailable. Please try again later.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. The file upload service is temporarily unavailable."
-  },
-  "errors_upload_unsupported_type": {
-    "message": "Unsupported file type. Only JPEG, PNG, GIF, WebP, and PDF files are allowed.",
-    "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. Validation: file type not allowed; keep the format list."
-  },
-  "features_chat_with_tabs_tab_converted_to_pdf": {
-    "message": "PDF tab converted to file attachment.",
-    "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Toast: an attached PDF tab became a file attachment instead."
-  },
-  "features_chat_with_tabs_tab_removed_unsupported": {
-    "message": "Removed tab source: unsupported page.",
-    "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Toast: an attached tab was dropped because its page type is unsupported."
-  },
-  "features_feature_error": {
-    "message": "Failed to load context",
-    "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Error banner when feature context loading fails."
-  },
-  "features_loading_chat_with_tabs": {
-    "message": "Loading tab content...",
-    "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Progress text while attached tab content is extracted."
-  },
-  "features_pdf_attach_failed": {
-    "message": "Failed to attach PDF file.",
-    "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Toast: fetching a PDF tab's file failed."
-  },
-  "features_retry": {
-    "message": "Retry",
-    "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Button: retry loading feature context."
-  },
-  "file_remove": {
-    "message": "Remove file",
-    "description": "Location: Chat | Memory. File attachment errors and controls. aria/tooltip of the remove button on a file chip."
-  },
-  "file_text_file_too_large": {
-    "message": "Text file is too large, maximum size is 50KB",
-    "description": "Location: Chat | Memory. File attachment errors and controls. Toast: attached text file exceeds the 50KB limit."
-  },
-  "message_cancel": {
-    "message": "Cancel",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Cancel button in message edit mode."
-  },
-  "message_collapse": {
-    "message": "Collapse",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Button label that hides expanded message attachments and context items behind an overflow count."
-  },
-  "message_copy": {
-    "message": "Copy",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: copy message text to the clipboard."
-  },
-  "message_create_conversation_failed": {
-    "message": "Failed to create conversation",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error-banner prefix when a conversation cannot be created; a colon and the original error detail are appended."
-  },
-  "message_display_reasoning": {
-    "message": "Display reasoning",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Toggle: show the model's reasoning text."
-  },
-  "message_download": {
-    "message": "Download",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: download a generated file."
-  },
-  "message_edit": {
-    "message": "Edit",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: edit a sent user message."
-  },
-  "message_expand": {
-    "message": "Expand",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Button label that reveals message attachments and context items hidden behind an overflow count."
-  },
-  "message_file_file": {
-    "message": "File",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Generic type names for file-part thumbnails. Generic label of any other attachment thumbnail."
-  },
-  "message_file_image": {
-    "message": "Image",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Generic type names for file-part thumbnails. Generic label of an image attachment thumbnail."
-  },
-  "message_quota_exhausted": {
-    "message": "Usage quota exceeded",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner title when the usage quota is used up."
-  },
-  "message_quota_exhausted_description": {
-    "message": "Your daily usage quota has been reached. Quota resets daily.",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner body; explains the daily quota reset."
-  },
-  "message_regenerate": {
-    "message": "Regenerate",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: regenerate the last assistant answer."
-  },
-  "message_request_failed": {
-    "message": "Request failed",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner prefix; the underlying error text is appended after a colon."
-  },
-  "message_resume": {
-    "message": "Resume",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: resume an interrupted run."
-  },
-  "message_retry": {
-    "message": "Retry",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: retry after a failure."
-  },
-  "message_show_less": {
-    "message": "Show less",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Expander: collapse content again."
-  },
-  "message_show_more": {
-    "message": "Show more",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Expander: reveal clipped content."
-  },
-  "message_sources_unknown": {
-    "message": "Unknown source",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Labels for source badges attached to an assistant response. Fallback label when an attached source has no recognized type."
-  },
-  "message_submit": {
-    "message": "Submit",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Submit button in message edit mode."
-  },
-  "message_thinking": {
-    "message": "Thinking...",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Status text while the assistant prepares an answer."
-  },
-  "message_tool_approve": {
-    "message": "Approve",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Button: allow the pending tool call."
-  },
-  "message_tool_awaiting_approval": {
-    "message": "Awaiting approval",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: waiting for user approval."
-  },
-  "message_tool_completed": {
-    "message": "Completed",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: finished successfully."
-  },
-  "message_tool_denied": {
-    "message": "Denied",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: user denied the call."
-  },
-  "message_tool_deny": {
-    "message": "Deny",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Button: reject the pending tool call."
-  },
-  "message_tool_error": {
-    "message": "Error",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: failed."
-  },
-  "message_tool_input": {
-    "message": "Input",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Label of the tool-call arguments block."
-  },
-  "message_tool_output": {
-    "message": "Output",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Label of the tool-call result block."
-  },
-  "message_tool_running": {
-    "message": "Running",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: in progress."
-  },
-  "message_waiting_for_response": {
-    "message": "Waiting for AI response",
-    "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. aria-label of the animated waiting indicator."
-  },
-  "newtab_custom": {
-    "message": "Custom",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Bottom-center new-tab button that opens the widgets panel. Keep very short."
-  },
-  "newtab_dismiss_suggestion": {
-    "message": "Dismiss suggestion",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Accessible label for removing one suggestion from the new-tab search list."
-  },
-  "newtab_enter_chat": {
-    "message": "Chat about this greeting",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. aria/tooltip: open a chat about the shown greeting."
-  },
-  "newtab_insight": {
-    "message": "Insight",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Action beside the new-tab composer that opens the personal-insight panel. Keep very short."
-  },
-  "newtab_insight_empty": {
-    "message": "Keep browsing and insights will appear as patterns emerge.",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Insight-panel empty state shown before a pattern is available."
-  },
-  "newtab_insight_evidence": {
-    "message": "Evidence",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Heading above the evidence list supporting an insight."
-  },
-  "newtab_insight_loading": {
-    "message": "Analyzing your patterns...",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Progress message while the user's activity patterns are analyzed."
-  },
-  "newtab_insight_title": {
-    "message": "Insight",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Heading of the new-tab insight panel."
-  },
-  "newtab_memory": {
-    "message": "Memory",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Action pill beside the new-tab search box that opens the memory page. Keep very short."
-  },
-  "newtab_page_title": {
-    "message": "New Tab",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Browser tab title of the new-tab page."
-  },
-  "newtab_profile": {
-    "message": "You",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Menu entry: open the user-portrait panel. Informal 'you'."
-  },
-  "newtab_profile_empty": {
-    "message": "No portrait data yet. Keep browsing and I'll learn about you over time.",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Empty state; assistant speaks in first person."
-  },
-  "newtab_profile_feedback": {
-    "message": "This portrait is based on your browsing activity. If anything looks wrong or you'd like to add something, just tell me and I'll update it.",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Explainer inviting corrections; assistant speaks in first person."
-  },
-  "newtab_profile_input_placeholder": {
-    "message": "Tell me what to update...",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Placeholder of the portrait-update input."
-  },
-  "newtab_profile_loading": {
-    "message": "Loading portrait...",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Loading state of the portrait panel."
-  },
-  "newtab_profile_title": {
-    "message": "Your Portrait",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Heading of the portrait panel."
-  },
-  "newtab_profile_update_error": {
-    "message": "Sorry, I couldn't update the portrait. Please try again.",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Failure message for portrait updates."
-  },
-  "newtab_profile_update_not_profile_instruction": {
-    "message": "That doesn't look like a portrait change. Use this box when you want to correct or add something about you in your portrait, like your work, interests, or preferences.",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown when the input wasn't a portrait instruction; explains what the box is for."
-  },
-  "newtab_profile_update_success": {
-    "message": "Done! I've updated your portrait.",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Confirmation after the portrait updates."
-  },
-  "newtab_profile_updating": {
-    "message": "Updating your portrait...",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Progress while an update instruction is applied."
-  },
-  "newtab_search": {
-    "message": "Search",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. New-tab search-box submit button and disabled button's accessible label. Keep very short."
-  },
-  "newtab_share": {
-    "message": "Share this greeting",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. aria/tooltip: share the shown greeting."
-  },
-  "newtab_share_dialog_close": {
-    "message": "Close",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Accessible label on the button that closes the greeting-image sharing dialog."
-  },
-  "newtab_share_dialog_copied": {
-    "message": "Image copied to clipboard",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Success notice in the greeting-image dialog after the image is copied to the clipboard."
-  },
-  "newtab_share_dialog_copied_for_discord": {
-    "message": "Image copied. Paste it in your Discord message.",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Success notice after copying the greeting image, instructing the user to paste it into a Discord message; keep Discord unchanged."
-  },
-  "newtab_share_dialog_copy_image": {
-    "message": "Copy image",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Button in the greeting-image dialog that copies the generated image to the clipboard."
-  },
-  "newtab_share_dialog_description": {
-    "message": "Share this greeting as an image.",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Instruction below the sharing-dialog heading explaining that the greeting can be shared as an image."
-  },
-  "newtab_share_dialog_download_image": {
-    "message": "Download image",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Button in the greeting-image dialog that downloads the generated image."
-  },
-  "newtab_share_dialog_failed": {
-    "message": "Failed to share greeting",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Error notice in the greeting-image dialog when an image-sharing action fails."
-  },
-  "newtab_share_dialog_share_label": {
-    "message": "Share",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Section heading above the social-network and clipboard actions in the greeting-image dialog."
-  },
-  "newtab_share_dialog_share_to_discord": {
-    "message": "Share to Discord",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Button in the greeting-image dialog that prepares the image for pasting into Discord; keep Discord unchanged."
-  },
-  "newtab_share_dialog_share_to_x": {
-    "message": "Share to X",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Button in the greeting-image dialog that opens a post composer on X; keep X unchanged."
-  },
-  "newtab_share_dialog_title": {
-    "message": "Share your greeting",
-    "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Heading at the top of the greeting-image sharing dialog."
-  },
-  "user_input_add_attachment": {
-    "message": "Add attachment",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Attachment menu trigger tooltip/aria."
-  },
-  "user_input_add_screenshot": {
-    "message": "Add screenshot",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Attachment menu item: capture the visible tab as an image."
-  },
-  "user_input_all_tabs_added": {
-    "message": "All tabs added",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Disabled-state text when every open tab is already attached."
-  },
-  "user_input_capture_screenshot_failed": {
-    "message": "Failed to capture screenshot. Please try again on a regular webpage.",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Toast when screenshot capture fails (e.g. on chrome:// pages)."
-  },
-  "user_input_no_available_tabs": {
-    "message": "No available tabs",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Empty state of the @-mention tab list."
-  },
-  "user_input_placeholder": {
-    "message": "Type a message...",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Chat composer placeholder."
-  },
-  "user_input_send": {
-    "message": "Send",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Send button tooltip/aria."
-  },
-  "user_input_split_view": {
-    "message": "Split View",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Chip label for an attached split view (two tabs side by side)."
-  },
-  "user_input_split_view_member_count": {
-    "message": "{{count}} tab(s)",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Count-neutral tab total beneath a browser split-view source; {{count}} is the number of tabs."
-  },
-  "user_input_stop": {
-    "message": "Stop",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Stop-generation button label/aria."
-  },
-  "user_input_tab_group_member_count": {
-    "message": "{{count}} tab(s)",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Count-neutral tab total beneath a browser tab-group source; {{count}} is the number of tabs."
-  },
-  "user_input_tab_group_untitled": {
-    "message": "Tab group",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Fallback title for a browser tab group that has no name."
-  },
-  "user_input_tab_no_longer_exists": {
-    "message": "Tab \"{{title}}\" no longer exists and has been removed",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Toast when an attached tab was closed; {{title}} = tab title."
-  },
-  "user_input_tabs": {
-    "message": "Tabs",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Section header of the tab list in the @-mention popup."
-  },
-  "user_input_upload_from_computer": {
-    "message": "Upload from computer",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Attachment menu item: open the OS file picker."
-  },
-  "user_input_upload_section": {
-    "message": "Upload (PDF / TXT / Image)",
-    "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Header of the upload group in the attachment menu; keep the format list."
-  },
-  "welcome_title": {
-    "message": "Hi, I’m {{name}}",
-    "description": "Location: Chat | Memory. Empty-chat welcome header. Empty-chat greeting; {{name}} = assistant name."
-  },
-  "widgets_bottom_panel_add": {
-    "message": "Add widget",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Button: add a widget to the page."
-  },
-  "widgets_bottom_panel_back": {
-    "message": "Return",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Button: return from a drilled-in panel view."
-  },
-  "widgets_bottom_panel_collapse": {
-    "message": "Hide panel",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Button: hide the panel."
-  },
-  "widgets_bottom_panel_label": {
-    "message": "Widgets panel",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. aria-label of the bottom widgets panel."
-  },
-  "widgets_bottom_panel_reload": {
-    "message": "Reload widgets",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Button: reload all widgets."
-  },
-  "widgets_bottom_panel_tab_widgets": {
-    "message": "Widgets",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Panel tab title listing widgets."
-  },
-  "widgets_cancel": {
-    "message": "Cancel",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Generic cancel in widget dialogs."
-  },
-  "widgets_drop_zone_label": {
-    "message": "Put Widgets here",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Drop target shown while dragging a widget. Label of the drop target while dragging a widget."
-  },
-  "widgets_library_delete_confirm": {
-    "message": "Delete \"{{title}}\"?",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The widget library drawer (add widgets to the page). Confirm text before deleting a widget; {{title}} = widget title."
-  },
-  "widgets_library_drag": {
-    "message": "Drag onto the page",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The widget library drawer (add widgets to the page). Hint on a library card: drag it onto the page to place it."
-  },
-  "widgets_library_empty": {
-    "message": "Nothing to add right now. New widget ideas will show up here.",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The widget library drawer (add widgets to the page). Empty state of the widget library."
-  },
-  "widgets_library_untitled": {
-    "message": "Untitled widget",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The widget library drawer (add widgets to the page). Fallback title for a widget without one."
-  },
-  "widgets_loading": {
-    "message": "Just a moment...",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Loading placeholder while a widget renders."
-  },
-  "widgets_menu_add_to_page": {
-    "message": "Add to page",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: pin this widget onto the page."
-  },
-  "widgets_menu_delete": {
-    "message": "Delete",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: delete this widget."
-  },
-  "widgets_menu_delete_all": {
-    "message": "Delete ALL",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: delete every widget in the panel. Deliberately loud."
-  },
-  "widgets_menu_delete_all_confirm": {
-    "message": "Delete all widgets from this panel?",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Confirmation prompt shown before every widget in the panel is deleted."
-  },
-  "widgets_menu_edit": {
-    "message": "Edit",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: edit the widget."
-  },
-  "widgets_menu_refresh": {
-    "message": "Refresh",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: reload this widget."
-  },
-  "widgets_menu_trigger": {
-    "message": "Widget menu",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. aria of the per-widget menu trigger."
-  },
-  "widgets_pending_install": {
-    "message": "Install",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Prompts on a widget suggestion card awaiting install. Button: accept and install the suggested widget."
-  },
-  "widgets_pending_refresh": {
-    "message": "Refresh",
-    "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Prompts on a widget suggestion card awaiting install. Button: regenerate the suggestion."
-  }
+    "conversation_default_title": {
+        "message": "New Conversation",
+        "description": "Location: Chat | Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Initial title given to a brand-new conversation."
+    },
+    "conversation_new_chat": {
+        "message": "New Chat",
+        "description": "Location: Chat | Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Button: start a new conversation."
+    },
+    "errors_auto_save_failed_final": {
+        "message": "Auto-save failed. Please retry.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Auto-save gave up after retries."
+    },
+    "errors_auto_save_retrying": {
+        "message": "Auto-save failed, retrying ({{current}}/{{total}})...",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Auto-save retry progress; {{current}}/{{total}} = attempt counter."
+    },
+    "errors_balance_too_low": {
+        "message": "Your credit balance is too low. Please top up to continue using the service.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Account balance errors. Account balance exhausted."
+    },
+    "errors_chat_id_required": {
+        "message": "Chat ID is required.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. The request was missing the conversation's identifier."
+    },
+    "errors_chat_invalid_visibility": {
+        "message": "Invalid visibility setting. Must be either 'private' or 'public'.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. The visibility value was not one of the accepted ones; keep 'private' and 'public' untranslated."
+    },
+    "errors_chat_pagination_conflict": {
+        "message": "Cannot use both starting_after and ending_before parameters.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. Two mutually exclusive paging options were used together; keep the parameter names untranslated."
+    },
+    "errors_edit_delete_failed": {
+        "message": "Failed to sync edit to server. Changes will be saved when the response completes.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Syncing an edited message failed; it is retried once the answer finishes."
+    },
+    "errors_forbidden": {
+        "message": "Access denied. You don't have permission to perform this action.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The user is signed in but not allowed to do this (HTTP 403)."
+    },
+    "errors_load_conversation_failed": {
+        "message": "Failed to load conversation. Please try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Loading a conversation's messages failed."
+    },
+    "errors_network": {
+        "message": "Network connection error. Please check your connection and try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The device could not reach the service (offline or refused connection)."
+    },
+    "errors_not_found": {
+        "message": "The requested resource was not found.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The requested item does not exist (HTTP 404)."
+    },
+    "errors_save_message_failed": {
+        "message": "Failed to save message. Please try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Persisting a chat message failed."
+    },
+    "errors_server_error": {
+        "message": "Server error occurred. Please try again later.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The service failed while handling the request (HTTP 5xx)."
+    },
+    "errors_timeout": {
+        "message": "Request timed out. Please try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Request timeout."
+    },
+    "errors_token_subnet_restricted": {
+        "message": "This token can only be used from specific IP addresses.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors about the token that authenticates the user. The token may only be used from an allowed set of IP addresses."
+    },
+    "errors_types_aiproxy_error": {
+        "message": "Service error occurred. Please try again later.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The AI service reported an internal failure."
+    },
+    "errors_types_bad_response": {
+        "message": "Invalid response from server. Please try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The response could not be read."
+    },
+    "errors_types_group_balance_not_enough": {
+        "message": "Insufficient balance. Please top up or contact your administrator.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The shared balance the account draws on is empty."
+    },
+    "errors_types_invalid_request_error": {
+        "message": "Invalid request. Please check your input and try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The request was rejected as invalid."
+    },
+    "errors_types_overloaded_error": {
+        "message": "Service is currently overloaded. Please try again in a moment.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The service is temporarily overloaded."
+    },
+    "errors_types_rate_limit_error": {
+        "message": "Rate limit exceeded. Please slow down your requests.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. Too many requests were sent in a short time."
+    },
+    "errors_types_request_too_large": {
+        "message": "Request is too large. Please reduce the content size.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The request content is larger than the service accepts."
+    },
+    "errors_types_token_period_quota_exhausted": {
+        "message": "Your periodic usage quota has been reached. Quota will reset at the next cycle.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The quota for the current period is used up."
+    },
+    "errors_types_token_quota_exhausted": {
+        "message": "Your usage quota has been exhausted. Please contact your administrator.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The account's usage quota is used up."
+    },
+    "errors_types_upstream_error": {
+        "message": "AI service provider error. Please try again later.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The AI model provider reported an error."
+    },
+    "errors_unauthorized": {
+        "message": "Authentication failed. Please check your credentials.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. The request was rejected because the user is not signed in (HTTP 401)."
+    },
+    "errors_unknown": {
+        "message": "An unexpected error occurred. Please try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Fallback for unrecognized errors."
+    },
+    "errors_upload_failed": {
+        "message": "Failed to upload file. Please try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Generic upload failure."
+    },
+    "errors_upload_file_too_large": {
+        "message": "File size exceeds 10MB limit. Please choose a smaller file.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. Validation: over the 10MB limit."
+    },
+    "errors_upload_no_file": {
+        "message": "No file selected. Please choose a file to upload.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. Validation: nothing selected."
+    },
+    "errors_upload_read_failed": {
+        "message": "Failed to read file. Please try again.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. Reading the local file failed."
+    },
+    "errors_upload_request_too_large": {
+        "message": "Request size exceeds limit. Please reduce the file size or number of files.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. The upload is larger than the service accepts (HTTP 413)."
+    },
+    "errors_upload_service_unavailable": {
+        "message": "File upload service is currently unavailable. Please try again later.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. The file upload service is temporarily unavailable."
+    },
+    "errors_upload_unsupported_type": {
+        "message": "Unsupported file type. Only JPEG, PNG, GIF, WebP, and PDF files are allowed.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. File upload validation/service errors. Validation: file type not allowed; keep the format list."
+    },
+    "features_chat_with_tabs_tab_converted_to_pdf": {
+        "message": "PDF tab converted to file attachment.",
+        "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Toast: an attached PDF tab became a file attachment instead."
+    },
+    "features_chat_with_tabs_tab_removed_unsupported": {
+        "message": "Removed tab source: unsupported page.",
+        "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Toast: an attached tab was dropped because its page type is unsupported."
+    },
+    "features_feature_error": {
+        "message": "Failed to load context",
+        "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Error banner when feature context loading fails."
+    },
+    "features_loading_chat_with_tabs": {
+        "message": "Loading tab content...",
+        "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Progress text while attached tab content is extracted."
+    },
+    "features_pdf_attach_failed": {
+        "message": "Failed to attach PDF file.",
+        "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Toast: fetching a PDF tab's file failed."
+    },
+    "features_retry": {
+        "message": "Retry",
+        "description": "Location: Chat | Memory. Context features attached to a message (Chat with Tabs, web search). Button: retry loading feature context."
+    },
+    "file_remove": {
+        "message": "Remove file",
+        "description": "Location: Chat | Memory. File attachment errors and controls. aria/tooltip of the remove button on a file chip."
+    },
+    "file_text_file_too_large": {
+        "message": "Text file is too large, maximum size is 50KB",
+        "description": "Location: Chat | Memory. File attachment errors and controls. Toast: attached text file exceeds the 50KB limit."
+    },
+    "message_cancel": {
+        "message": "Cancel",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Cancel button in message edit mode."
+    },
+    "message_collapse": {
+        "message": "Collapse",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Button label that hides expanded message attachments and context items behind an overflow count."
+    },
+    "message_copy": {
+        "message": "Copy",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: copy message text to the clipboard."
+    },
+    "message_create_conversation_failed": {
+        "message": "Failed to create conversation",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error-banner prefix when a conversation cannot be created; a colon and the original error detail are appended."
+    },
+    "message_display_reasoning": {
+        "message": "Display reasoning",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Toggle: show the model's reasoning text."
+    },
+    "message_download": {
+        "message": "Download",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: download a generated file."
+    },
+    "message_edit": {
+        "message": "Edit",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: edit a sent user message."
+    },
+    "message_expand": {
+        "message": "Expand",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Button label that reveals message attachments and context items hidden behind an overflow count."
+    },
+    "message_file_file": {
+        "message": "File",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Generic type names for file-part thumbnails. Generic label of any other attachment thumbnail."
+    },
+    "message_file_image": {
+        "message": "Image",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Generic type names for file-part thumbnails. Generic label of an image attachment thumbnail."
+    },
+    "message_quota_exhausted": {
+        "message": "Usage quota exceeded",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner title when the usage quota is used up."
+    },
+    "message_quota_exhausted_description": {
+        "message": "Your daily usage quota has been reached. Quota resets daily.",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner body; explains the daily quota reset."
+    },
+    "message_regenerate": {
+        "message": "Regenerate",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: regenerate the last assistant answer."
+    },
+    "message_request_failed": {
+        "message": "Request failed",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner prefix; the underlying error text is appended after a colon."
+    },
+    "message_resume": {
+        "message": "Resume",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: resume an interrupted run."
+    },
+    "message_retry": {
+        "message": "Retry",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Action: retry after a failure."
+    },
+    "message_show_less": {
+        "message": "Show less",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Expander: collapse content again."
+    },
+    "message_show_more": {
+        "message": "Show more",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Expander: reveal clipped content."
+    },
+    "message_sources_unknown": {
+        "message": "Unknown source",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Labels for source badges attached to an assistant response. Fallback label when an attached source has no recognized type."
+    },
+    "message_submit": {
+        "message": "Submit",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Submit button in message edit mode."
+    },
+    "message_thinking": {
+        "message": "Thinking...",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Status text while the assistant prepares an answer."
+    },
+    "message_tool_approve": {
+        "message": "Approve",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Button: allow the pending tool call."
+    },
+    "message_tool_awaiting_approval": {
+        "message": "Awaiting approval",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: waiting for user approval."
+    },
+    "message_tool_completed": {
+        "message": "Completed",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: finished successfully."
+    },
+    "message_tool_denied": {
+        "message": "Denied",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: user denied the call."
+    },
+    "message_tool_deny": {
+        "message": "Deny",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Button: reject the pending tool call."
+    },
+    "message_tool_error": {
+        "message": "Error",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: failed."
+    },
+    "message_tool_input": {
+        "message": "Input",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Label of the tool-call arguments block."
+    },
+    "message_tool_output": {
+        "message": "Output",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Label of the tool-call result block."
+    },
+    "message_tool_running": {
+        "message": "Running",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Tool status: in progress."
+    },
+    "message_waiting_for_response": {
+        "message": "Waiting for AI response",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. aria-label of the animated waiting indicator."
+    },
+    "newtab_custom": {
+        "message": "Custom",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Bottom-center new-tab button that opens the widgets panel. Keep very short."
+    },
+    "newtab_dismiss_suggestion": {
+        "message": "Dismiss suggestion",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Accessible label for removing one suggestion from the new-tab search list."
+    },
+    "newtab_enter_chat": {
+        "message": "Chat about this greeting",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. aria/tooltip: open a chat about the shown greeting."
+    },
+    "newtab_insight": {
+        "message": "Insight",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Action beside the new-tab composer that opens the personal-insight panel. Keep very short."
+    },
+    "newtab_insight_empty": {
+        "message": "Keep browsing and insights will appear as patterns emerge.",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Insight-panel empty state shown before a pattern is available."
+    },
+    "newtab_insight_evidence": {
+        "message": "Evidence",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Heading above the evidence list supporting an insight."
+    },
+    "newtab_insight_loading": {
+        "message": "Analyzing your patterns...",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Progress message while the user's activity patterns are analyzed."
+    },
+    "newtab_insight_title": {
+        "message": "Insight",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Heading of the new-tab insight panel."
+    },
+    "newtab_memory": {
+        "message": "Memory",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Action pill beside the new-tab search box that opens the memory page. Keep very short."
+    },
+    "newtab_page_title": {
+        "message": "New Tab",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Browser tab title of the new-tab page."
+    },
+    "newtab_profile": {
+        "message": "You",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Menu entry: open the user-portrait panel. Informal 'you'."
+    },
+    "newtab_profile_empty": {
+        "message": "No portrait data yet. Keep browsing and I'll learn about you over time.",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Empty state; assistant speaks in first person."
+    },
+    "newtab_profile_feedback": {
+        "message": "This portrait is based on your browsing activity. If anything looks wrong or you'd like to add something, just tell me and I'll update it.",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Explainer inviting corrections; assistant speaks in first person."
+    },
+    "newtab_profile_input_placeholder": {
+        "message": "Tell me what to update...",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Placeholder of the portrait-update input."
+    },
+    "newtab_profile_loading": {
+        "message": "Loading portrait...",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Loading state of the portrait panel."
+    },
+    "newtab_profile_title": {
+        "message": "Your Portrait",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Heading of the portrait panel."
+    },
+    "newtab_profile_update_error": {
+        "message": "Sorry, I couldn't update the portrait. Please try again.",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Failure message for portrait updates."
+    },
+    "newtab_profile_update_not_profile_instruction": {
+        "message": "That doesn't look like a portrait change. Use this box when you want to correct or add something about you in your portrait, like your work, interests, or preferences.",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown when the input wasn't a portrait instruction; explains what the box is for."
+    },
+    "newtab_profile_update_success": {
+        "message": "Done! I've updated your portrait.",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Confirmation after the portrait updates."
+    },
+    "newtab_profile_updating": {
+        "message": "Updating your portrait...",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Progress while an update instruction is applied."
+    },
+    "newtab_search": {
+        "message": "Search",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. New-tab search-box submit button and disabled button's accessible label. Keep very short."
+    },
+    "newtab_share": {
+        "message": "Share this greeting",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. aria/tooltip: share the shown greeting."
+    },
+    "newtab_share_dialog_close": {
+        "message": "Close",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Accessible label on the button that closes the greeting-image sharing dialog."
+    },
+    "newtab_share_dialog_copied": {
+        "message": "Image copied to clipboard",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Success notice in the greeting-image dialog after the image is copied to the clipboard."
+    },
+    "newtab_share_dialog_copied_for_discord": {
+        "message": "Image copied. Paste it in your Discord message.",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Success notice after copying the greeting image, instructing the user to paste it into a Discord message; keep Discord unchanged."
+    },
+    "newtab_share_dialog_copy_image": {
+        "message": "Copy image",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Button in the greeting-image dialog that copies the generated image to the clipboard."
+    },
+    "newtab_share_dialog_description": {
+        "message": "Share this greeting as an image.",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Instruction below the sharing-dialog heading explaining that the greeting can be shared as an image."
+    },
+    "newtab_share_dialog_download_image": {
+        "message": "Download image",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Button in the greeting-image dialog that downloads the generated image."
+    },
+    "newtab_share_dialog_failed": {
+        "message": "Failed to share greeting",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Error notice in the greeting-image dialog when an image-sharing action fails."
+    },
+    "newtab_share_dialog_share_label": {
+        "message": "Share",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Section heading above the social-network and clipboard actions in the greeting-image dialog."
+    },
+    "newtab_share_dialog_share_to_discord": {
+        "message": "Share to Discord",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Button in the greeting-image dialog that prepares the image for pasting into Discord; keep Discord unchanged."
+    },
+    "newtab_share_dialog_share_to_x": {
+        "message": "Share to X",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Button in the greeting-image dialog that opens a post composer on X; keep X unchanged."
+    },
+    "newtab_share_dialog_title": {
+        "message": "Share your greeting",
+        "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Heading at the top of the greeting-image sharing dialog."
+    },
+    "user_input_add_attachment": {
+        "message": "Add attachment",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Attachment menu trigger tooltip/aria."
+    },
+    "user_input_add_screenshot": {
+        "message": "Add screenshot",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Attachment menu item: capture the visible tab as an image."
+    },
+    "user_input_all_tabs_added": {
+        "message": "All tabs added",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Disabled-state text when every open tab is already attached."
+    },
+    "user_input_capture_screenshot_failed": {
+        "message": "Failed to capture screenshot. Please try again on a regular webpage.",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Toast when screenshot capture fails (e.g. on chrome:// pages)."
+    },
+    "user_input_no_available_tabs": {
+        "message": "No available tabs",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Empty state of the @-mention tab list."
+    },
+    "user_input_placeholder": {
+        "message": "Type a message...",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Chat composer placeholder."
+    },
+    "user_input_send": {
+        "message": "Send",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Send button tooltip/aria."
+    },
+    "user_input_split_view": {
+        "message": "Split View",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Chip label for an attached split view (two tabs side by side)."
+    },
+    "user_input_split_view_member_count": {
+        "message": "{{count}} tab(s)",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Count-neutral tab total beneath a browser split-view source; {{count}} is the number of tabs."
+    },
+    "user_input_stop": {
+        "message": "Stop",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Stop-generation button label/aria."
+    },
+    "user_input_tab_group_member_count": {
+        "message": "{{count}} tab(s)",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Count-neutral tab total beneath a browser tab-group source; {{count}} is the number of tabs."
+    },
+    "user_input_tab_group_untitled": {
+        "message": "Tab group",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Fallback title for a browser tab group that has no name."
+    },
+    "user_input_tab_no_longer_exists": {
+        "message": "Tab \"{{title}}\" no longer exists and has been removed",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Toast when an attached tab was closed; {{title}} = tab title."
+    },
+    "user_input_tabs": {
+        "message": "Tabs",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Section header of the tab list in the @-mention popup."
+    },
+    "user_input_upload_from_computer": {
+        "message": "Upload from computer",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Attachment menu item: open the OS file picker."
+    },
+    "user_input_upload_section": {
+        "message": "Upload (PDF / TXT / Image)",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Header of the upload group in the attachment menu; keep the format list."
+    },
+    "welcome_title": {
+        "message": "Hi, I’m {{name}}",
+        "description": "Location: Chat | Memory. Empty-chat welcome header. Empty-chat greeting; {{name}} = assistant name."
+    },
+    "widgets_bottom_panel_add": {
+        "message": "Add widget",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Button: add a widget to the page."
+    },
+    "widgets_bottom_panel_back": {
+        "message": "Return",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Button: return from a drilled-in panel view."
+    },
+    "widgets_bottom_panel_collapse": {
+        "message": "Hide panel",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Button: hide the panel."
+    },
+    "widgets_bottom_panel_label": {
+        "message": "Widgets panel",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. aria-label of the bottom widgets panel."
+    },
+    "widgets_bottom_panel_reload": {
+        "message": "Reload widgets",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Button: reload all widgets."
+    },
+    "widgets_bottom_panel_tab_widgets": {
+        "message": "Widgets",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The collapsible widgets panel docked at the bottom of the new-tab page. Panel tab title listing widgets."
+    },
+    "widgets_cancel": {
+        "message": "Cancel",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Generic cancel in widget dialogs."
+    },
+    "widgets_drop_zone_label": {
+        "message": "Put Widgets here",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Drop target shown while dragging a widget. Label of the drop target while dragging a widget."
+    },
+    "widgets_library_delete_confirm": {
+        "message": "Delete \"{{title}}\"?",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The widget library drawer (add widgets to the page). Confirm text before deleting a widget; {{title}} = widget title."
+    },
+    "widgets_library_drag": {
+        "message": "Drag onto the page",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The widget library drawer (add widgets to the page). Hint on a library card: drag it onto the page to place it."
+    },
+    "widgets_library_empty": {
+        "message": "Nothing to add right now. New widget ideas will show up here.",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The widget library drawer (add widgets to the page). Empty state of the widget library."
+    },
+    "widgets_library_untitled": {
+        "message": "Untitled widget",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The widget library drawer (add widgets to the page). Fallback title for a widget without one."
+    },
+    "widgets_loading": {
+        "message": "Just a moment...",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Loading placeholder while a widget renders."
+    },
+    "widgets_menu_add_to_page": {
+        "message": "Add to page",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: pin this widget onto the page."
+    },
+    "widgets_menu_delete": {
+        "message": "Delete",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: delete this widget."
+    },
+    "widgets_menu_delete_all": {
+        "message": "Delete ALL",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: delete every widget in the panel. Deliberately loud."
+    },
+    "widgets_menu_delete_all_confirm": {
+        "message": "Delete all widgets from this panel?",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Confirmation prompt shown before every widget in the panel is deleted."
+    },
+    "widgets_menu_edit": {
+        "message": "Edit",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: edit the widget."
+    },
+    "widgets_menu_refresh": {
+        "message": "Refresh",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: reload this widget."
+    },
+    "widgets_menu_trigger": {
+        "message": "Widget menu",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. aria of the per-widget menu trigger."
+    },
+    "widgets_pending_install": {
+        "message": "Install",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Prompts on a widget suggestion card awaiting install. Button: accept and install the suggested widget."
+    },
+    "widgets_pending_refresh": {
+        "message": "Refresh",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Prompts on a widget suggestion card awaiting install. Button: regenerate the suggestion."
+    }
 }
