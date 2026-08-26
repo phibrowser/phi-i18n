@@ -263,6 +263,12 @@
     "and_will_be_deleted": {
         "message": "%1$@ 和 %2$@ 将被删除。"
     },
+    "answer_for": {
+        "message": "回答对象"
+    },
+    "answering_for": {
+        "message": "回答对象为「%@」"
+    },
     "any_agent_may_use_any_saved_login": {
         "message": "任何智能体无需询问即可使用任何已保存的登录信息。开启后，下方的按网站授权将不再需要。"
     },
@@ -863,6 +869,15 @@
     "comfortable_93045e": {
         "message": "舒适"
     },
+    "command": {
+        "message": "命令"
+    },
+    "command_and_process_tree": {
+        "message": "命令与进程树"
+    },
+    "command_unavailable": {
+        "message": "（无法获取命令）"
+    },
     "command_use": {
         "message": "命令使用"
     },
@@ -1225,6 +1240,9 @@
     },
     "describe_the_issue_in_detail": {
         "message": "详细描述问题"
+    },
+    "details": {
+        "message": "详细信息"
     },
     "dev_tools_console": {
         "message": "开发者工具控制台"
@@ -1712,6 +1730,9 @@
     "hide": {
         "message": "隐藏"
     },
+    "hide_the_agent_s_command_and_process": {
+        "message": "隐藏智能体的命令与进程树"
+    },
     "history": {
         "message": "历史记录"
     },
@@ -1909,6 +1930,9 @@
     },
     "launch_phi_sentinel_when_you_sign_in": {
         "message": "登录 Mac 时启动 Phi Sentinel"
+    },
+    "launched_by": {
+        "message": "启动来源"
     },
     "layout_mode": {
         "message": "布局模式"
@@ -3213,7 +3237,7 @@
         "message": "分享"
     },
     "shift_click_a_link_or_choose_open": {
-        "message": "按住 Shift 点按链接，或选择「在 Peek 视图中打开链接」，即可在页面上方的浮动面板中预览。适用于侧边栏布局。"
+        "message": "按住 Shift 点按链接，或选择「在 Peek 视图中打开链接」，即可在页面上方的浮动面板中预览。在「舒适」布局中不可用。"
     },
     "shortcuts": {
         "message": "快捷键"
@@ -3259,6 +3283,9 @@
     },
     "show_tab_switcher_reverse": {
         "message": "显示标签页切换器（反向）"
+    },
+    "show_the_agent_s_command_and_process": {
+        "message": "显示智能体的命令与进程树"
     },
     "show_transcript": {
         "message": "显示会话记录"
@@ -3548,6 +3575,9 @@
     "this_action_cannot_be_undone": {
         "message": "此操作无法撤销。"
     },
+    "this_agent": {
+        "message": "此智能体"
+    },
     "this_build_doesn_t_include_the_phi": {
         "message": "此版本不包含 phi-browser Skill 资源。请重新构建 Phi Browser 后重试。"
     },
@@ -3589,6 +3619,9 @@
     },
     "this_file_type_isn_t_commonly_downloaded": {
         "message": "此类文件不常被下载，可能有危险"
+    },
+    "this_process_carries_no_valid_code_signature": {
+        "message": "此进程没有有效的代码签名，因此它的名称来自启动它的命令，任何程序都可能冒用这个名称。在允许之前，请打开「详细信息」查看该命令。"
     },
     "this_replaces_the_phi_user_data_folder": {
         "message": "这会用归档替换 Phi 用户数据文件夹，并重启 Phi。请先保存你的工作。"
@@ -3781,6 +3814,9 @@
     },
     "unsigned_ab858c": {
         "message": "未签名"
+    },
+    "unsigned_phi_can_t_verify_this_agent": {
+        "message": "未签名：Phi 无法验证此智能体"
     },
     "unsupported_image_format": {
         "message": "不支持的图片格式"
@@ -3977,8 +4013,14 @@
     "your_account_is_ready_and_your_data": {
         "message": "你的账号已就绪，数据也很安全。Phi 会在下次启动时再次尝试移除旧的访客数据。"
     },
+    "your_answer_covers_every_agent_it_launches": {
+        "message": "你的回答适用于「%@」：它启动的每个智能体都会获得相同的回答，不会再次询问。"
+    },
     "your_answer_covers_every_agent_not_just": {
         "message": "你的选择适用于所有智能体，而不仅限于「%@」。"
+    },
+    "your_answer_is_about_pick_a_row": {
+        "message": "你的回答对象是「%@」。也可在上方选择一行，将回答对象改为启动它的进程。"
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "你当前的固定标签页会被复制到每个现有的目标位置。之后可以分别独立更改这些副本。"

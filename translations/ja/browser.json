@@ -263,6 +263,12 @@
     "and_will_be_deleted": {
         "message": "%1$@と%2$@が削除されます。"
     },
+    "answer_for": {
+        "message": "回答の対象"
+    },
+    "answering_for": {
+        "message": "「%@」を対象に回答"
+    },
     "any_agent_may_use_any_saved_login": {
         "message": "どのエージェントも確認なしで、保存されているどのログイン情報でも使用できます。これがオンの間、以下のサイトごとの許可は不要です。"
     },
@@ -863,6 +869,15 @@
     "comfortable_93045e": {
         "message": "ゆったり"
     },
+    "command": {
+        "message": "コマンド"
+    },
+    "command_and_process_tree": {
+        "message": "コマンドとプロセスツリー"
+    },
+    "command_unavailable": {
+        "message": "（コマンドを取得できません）"
+    },
     "command_use": {
         "message": "コマンド使用"
     },
@@ -1225,6 +1240,9 @@
     },
     "describe_the_issue_in_detail": {
         "message": "問題を詳しく説明してください"
+    },
+    "details": {
+        "message": "詳細"
     },
     "dev_tools_console": {
         "message": "デベロッパーツールのコンソール"
@@ -1712,6 +1730,9 @@
     "hide": {
         "message": "非表示"
     },
+    "hide_the_agent_s_command_and_process": {
+        "message": "エージェントのコマンドとプロセスツリーを非表示"
+    },
     "history": {
         "message": "履歴"
     },
@@ -1909,6 +1930,9 @@
     },
     "launch_phi_sentinel_when_you_sign_in": {
         "message": "MacにログインしたときにPhi Sentinelを起動"
+    },
+    "launched_by": {
+        "message": "起動元"
     },
     "layout_mode": {
         "message": "レイアウトモード"
@@ -3213,7 +3237,7 @@
         "message": "共有"
     },
     "shift_click_a_link_or_choose_open": {
-        "message": "Shiftキーを押しながらリンクをクリックするか、「リンクをPeekビューで開く」を選択すると、ページの上に重なるフローティングパネルでプレビューできます。サイドバーレイアウトで利用できます。"
+        "message": "Shiftキーを押しながらリンクをクリックするか、「リンクをPeekビューで開く」を選択すると、ページの上に重なるフローティングパネルでプレビューできます。ゆったりレイアウトでは利用できません。"
     },
     "shortcuts": {
         "message": "ショートカット"
@@ -3259,6 +3283,9 @@
     },
     "show_tab_switcher_reverse": {
         "message": "タブスイッチャーを表示（逆順）"
+    },
+    "show_the_agent_s_command_and_process": {
+        "message": "エージェントのコマンドとプロセスツリーを表示"
     },
     "show_transcript": {
         "message": "トランスクリプトを表示"
@@ -3548,6 +3575,9 @@
     "this_action_cannot_be_undone": {
         "message": "この操作は取り消せません。"
     },
+    "this_agent": {
+        "message": "このエージェント"
+    },
     "this_build_doesn_t_include_the_phi": {
         "message": "このビルドにはphi-browserスキルのリソースが含まれていません。Phi Browserを再ビルドして、もう一度お試しください。"
     },
@@ -3589,6 +3619,9 @@
     },
     "this_file_type_isn_t_commonly_downloaded": {
         "message": "この種類のファイルは一般的にダウンロードされておらず、危険な可能性があります"
+    },
+    "this_process_carries_no_valid_code_signature": {
+        "message": "このプロセスには有効なコード署名がありません。そのため、名前は起動時のコマンドに由来するもので、どのプロセスでも同じ名前を名乗ることができます。許可する前に「詳細」を開いて、そのコマンドを確認してください。"
     },
     "this_replaces_the_phi_user_data_folder": {
         "message": "Phiのユーザーデータフォルダをアーカイブの内容で置き換えて、Phiを再起動します。先に作業内容を保存してください。"
@@ -3781,6 +3814,9 @@
     },
     "unsigned_ab858c": {
         "message": "未署名"
+    },
+    "unsigned_phi_can_t_verify_this_agent": {
+        "message": "未署名：Phiはこのエージェントを検証できません"
     },
     "unsupported_image_format": {
         "message": "サポートされていない画像形式です"
@@ -3977,8 +4013,14 @@
     "your_account_is_ready_and_your_data": {
         "message": "アカウントの準備が整い、データも安全に保たれています。Phiは次回起動時に、古いゲストデータの削除をもう一度試みます。"
     },
+    "your_answer_covers_every_agent_it_launches": {
+        "message": "回答の対象は「%@」です。このプロセスが起動するすべてのエージェントに同じ回答が適用され、再度確認されることはありません。"
+    },
     "your_answer_covers_every_agent_not_just": {
         "message": "この回答は「%@」に限らず、すべてのエージェントに適用されます。"
+    },
+    "your_answer_is_about_pick_a_row": {
+        "message": "回答の対象は「%@」です。上のいずれかの行を選択すると、代わりにそれを起動したプロセスを対象に回答できます。"
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "現在の固定タブが、既存の各コピー先に複製されます。複製後は、それぞれ個別に変更できます。"

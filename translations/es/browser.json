@@ -263,6 +263,12 @@
     "and_will_be_deleted": {
         "message": "Se eliminarán %1$@ y %2$@."
     },
+    "answer_for": {
+        "message": "Respuesta para"
+    },
+    "answering_for": {
+        "message": "Respondiendo para “%@”"
+    },
     "any_agent_may_use_any_saved_login": {
         "message": "Cualquier agente puede usar cualquier inicio de sesión guardado sin pedir permiso. Mientras esta opción esté activada, las aprobaciones por sitio de abajo no son necesarias."
     },
@@ -863,6 +869,15 @@
     "comfortable_93045e": {
         "message": "Cómodo"
     },
+    "command": {
+        "message": "Comando"
+    },
+    "command_and_process_tree": {
+        "message": "Comando y árbol de procesos"
+    },
+    "command_unavailable": {
+        "message": "(comando no disponible)"
+    },
     "command_use": {
         "message": "Uso en comandos"
     },
@@ -1225,6 +1240,9 @@
     },
     "describe_the_issue_in_detail": {
         "message": "Describe el problema en detalle"
+    },
+    "details": {
+        "message": "Detalles"
     },
     "dev_tools_console": {
         "message": "Consola de DevTools"
@@ -1712,6 +1730,9 @@
     "hide": {
         "message": "Ocultar"
     },
+    "hide_the_agent_s_command_and_process": {
+        "message": "Ocultar el comando y el árbol de procesos del agente"
+    },
     "history": {
         "message": "Historial"
     },
@@ -1909,6 +1930,9 @@
     },
     "launch_phi_sentinel_when_you_sign_in": {
         "message": "Abrir Phi Sentinel al iniciar sesión en tu Mac"
+    },
+    "launched_by": {
+        "message": "Iniciado por"
     },
     "layout_mode": {
         "message": "Modo de diseño"
@@ -3213,7 +3237,7 @@
         "message": "Compartir"
     },
     "shift_click_a_link_or_choose_open": {
-        "message": "Haz clic en un enlace con la tecla Mayúsculas presionada, o elige “Abrir enlace en vista Peek”, para ver su vista previa en un panel flotante sobre la página. Disponible en los diseños con barra lateral."
+        "message": "Haz clic en un enlace con la tecla Mayúsculas presionada, o elige “Abrir enlace en vista Peek”, para ver su vista previa en un panel flotante sobre la página. No disponible en el diseño Cómodo."
     },
     "shortcuts": {
         "message": "Atajos"
@@ -3259,6 +3283,9 @@
     },
     "show_tab_switcher_reverse": {
         "message": "Mostrar selector de pestañas (orden inverso)"
+    },
+    "show_the_agent_s_command_and_process": {
+        "message": "Mostrar el comando y el árbol de procesos del agente"
     },
     "show_transcript": {
         "message": "Mostrar la transcripción"
@@ -3548,6 +3575,9 @@
     "this_action_cannot_be_undone": {
         "message": "Esta acción no se puede deshacer."
     },
+    "this_agent": {
+        "message": "este agente"
+    },
     "this_build_doesn_t_include_the_phi": {
         "message": "Esta compilación no incluye los recursos de la habilidad phi-browser. Vuelve a compilar Phi Browser e inténtalo de nuevo."
     },
@@ -3589,6 +3619,9 @@
     },
     "this_file_type_isn_t_commonly_downloaded": {
         "message": "Este tipo de archivo no se descarga con frecuencia y puede ser peligroso"
+    },
+    "this_process_carries_no_valid_code_signature": {
+        "message": "Este proceso no tiene una firma de código válida, por lo que su nombre proviene del comando con el que se inició y cualquier proceso podría atribuírselo. Abre Detalles para ver ese comando antes de permitirle el acceso."
     },
     "this_replaces_the_phi_user_data_folder": {
         "message": "Esto reemplaza la carpeta de datos de usuario de Phi por el archivo y reinicia Phi. Guarda tu trabajo antes."
@@ -3781,6 +3814,9 @@
     },
     "unsigned_ab858c": {
         "message": "Sin firmar"
+    },
+    "unsigned_phi_can_t_verify_this_agent": {
+        "message": "Sin firmar: Phi no puede verificar este agente"
     },
     "unsupported_image_format": {
         "message": "Formato de imagen no compatible"
@@ -3977,8 +4013,14 @@
     "your_account_is_ready_and_your_data": {
         "message": "Tu cuenta está lista y tus datos están a salvo. Phi intentará eliminar de nuevo los datos de invitado anteriores la próxima vez que se inicie."
     },
+    "your_answer_covers_every_agent_it_launches": {
+        "message": "Tu respuesta cubre “%@”: cada agente que este inicie recibirá la misma respuesta, sin volver a preguntar."
+    },
     "your_answer_covers_every_agent_not_just": {
         "message": "Tu respuesta cubre a todos los agentes, no solo a “%@”."
+    },
+    "your_answer_is_about_pick_a_row": {
+        "message": "Tu respuesta se refiere a “%@”. Elige una fila de arriba si prefieres responder sobre el proceso que lo inició."
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Tus pestañas fijadas actuales se copiarán en cada destino existente. Después, las copias se pueden modificar de forma independiente."

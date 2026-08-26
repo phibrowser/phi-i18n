@@ -351,6 +351,14 @@
         "message": "%1$@ and %2$@ will be deleted.",
         "description": "Location: Browser. Bookmark multi-selection delete confirmation body for mixed folders and bookmarks"
     },
+    "answer_for": {
+        "message": "Answer for",
+        "description": "Location: Browser. CDP consent - label of the top summary row once the answer has been retargeted onto a process that launched the agent, replacing the \"Agent\" label"
+    },
+    "answering_for": {
+        "message": "Answering for “%@”",
+        "description": "Location: Browser. CDP consent - value of the details row once the user has retargeted the answer onto a process that launched the agent; %@ is that process's name"
+    },
     "any_agent_may_use_any_saved_login": {
         "message": "Any agent may use any saved login without asking. The per-site grants below are unnecessary while this is on.",
         "description": "Location: Browser. Approvals sheet - all-access toggle explanation"
@@ -1151,6 +1159,18 @@
         "message": "Comfortable",
         "description": "Location: Browser. Layout option - Horizontal tabs"
     },
+    "command": {
+        "message": "Command",
+        "description": "Location: Browser. CDP consent - heading over the agent's command line in the details disclosure"
+    },
+    "command_and_process_tree": {
+        "message": "Command and process tree",
+        "description": "Location: Browser. CDP consent - value of the details row, naming what the disclosure reveals"
+    },
+    "command_unavailable": {
+        "message": "(command unavailable)",
+        "description": "Location: Browser. CDP consent - shown in the details disclosure when a process's command line cannot be read"
+    },
     "command_use": {
         "message": "Command use",
         "description": "Location: Browser. Approvals sheet - run-kind tag"
@@ -1634,6 +1654,10 @@
     "describe_the_issue_in_detail": {
         "message": "Describe the issue in detail",
         "description": "Location: Browser. Feedback form - Section header prompting user to describe the issue"
+    },
+    "details": {
+        "message": "Details",
+        "description": "Location: Browser. CDP consent - label of the row that expands the agent's command and process tree"
     },
     "dev_tools_console": {
         "message": "Dev Tools Console",
@@ -2283,6 +2307,10 @@
         "message": "Hide",
         "description": "Location: Browser. Phi Link - Hide token plaintext button"
     },
+    "hide_the_agent_s_command_and_process": {
+        "message": "Hide the agent's command and process tree",
+        "description": "Location: Browser. CDP consent - accessibility label of the details disclosure button while the details are open"
+    },
     "history": {
         "message": "History",
         "description": "Location: Browser. Shortcuts settings - Section title for browsing history commands"
@@ -2546,6 +2574,10 @@
     "launch_phi_sentinel_when_you_sign_in": {
         "message": "Launch Phi Sentinel when you sign in to your Mac",
         "description": "Location: Browser. AI settings - Toggle to auto-launch Phi Sentinel when signing in to the Mac"
+    },
+    "launched_by": {
+        "message": "Launched by",
+        "description": "Location: Browser. CDP consent - heading over the process ancestry in the details disclosure"
     },
     "layout_mode": {
         "message": "Layout Mode",
@@ -4284,7 +4316,7 @@
         "description": "Location: Browser. Account settings - Section title for sharing"
     },
     "shift_click_a_link_or_choose_open": {
-        "message": "Shift-click a link, or choose “Open Link in Peek View”, to preview it in a floating panel over the page. Available in the sidebar layouts.",
+        "message": "Shift-click a link, or choose “Open Link in Peek View”, to preview it in a floating panel over the page. Not available in the Comfortable layout.",
         "description": "Location: Browser. Navigations settings - Explanation of the Peek View toggle"
     },
     "shortcuts": {
@@ -4346,6 +4378,10 @@
     "show_tab_switcher_reverse": {
         "message": "Show Tab Switcher(Reverse)",
         "description": "Location: Browser. Shortcuts settings - Command title for showing the tab switcher in reverse order"
+    },
+    "show_the_agent_s_command_and_process": {
+        "message": "Show the agent's command and process tree",
+        "description": "Location: Browser. CDP consent - accessibility label of the details disclosure button while the details are closed"
     },
     "show_transcript": {
         "message": "Show Transcript",
@@ -4731,6 +4767,10 @@
         "message": "This action cannot be undone.",
         "description": "Location: Browser. Bookmark multi-selection delete confirmation irreversible warning"
     },
+    "this_agent": {
+        "message": "this agent",
+        "description": "Location: Browser. CDP consent - tag marking which row of the process tree is the agent asking for access"
+    },
     "this_build_doesn_t_include_the_phi": {
         "message": "This build doesn’t include the phi-browser skill resources. Rebuild Phi Browser and try again.",
         "description": "Location: Browser. Developer settings - Skill install failure body when the resource is missing"
@@ -4786,6 +4826,10 @@
     "this_file_type_isn_t_commonly_downloaded": {
         "message": "This file type isn't commonly downloaded and it may be dangerous",
         "description": "Location: Browser. Download safety - Suspicious file type warning (Chromium: IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_WARNING_DANGEROUS_FILE_TYPE)"
+    },
+    "this_process_carries_no_valid_code_signature": {
+        "message": "This process carries no valid code signature, so its name comes from the command it was launched with and anything could claim it. Open Details to see that command before you allow it.",
+        "description": "Location: Browser. CDP consent - body of the unsigned-agent warning banner"
     },
     "this_replaces_the_phi_user_data_folder": {
         "message": "This replaces the Phi user data folder with the archive and restarts Phi. Save your work first.",
@@ -5042,6 +5086,10 @@
     "unsigned_ab858c": {
         "message": "Unsigned",
         "description": "Location: Browser. Developer settings - CDP grant with no code signature"
+    },
+    "unsigned_phi_can_t_verify_this_agent": {
+        "message": "Unsigned — Phi can't verify this agent",
+        "description": "Location: Browser. CDP consent - headline of the banner shown when the asking process has no valid code signature"
     },
     "unsupported_image_format": {
         "message": "Unsupported image format",
@@ -5303,9 +5351,17 @@
         "message": "Your account is ready and your data is safe. Phi will try to remove the old Guest data again the next time it starts.",
         "description": "Location: Browser. Guest migration - Alert message for deferred deletion of the old Guest data directory"
     },
+    "your_answer_covers_every_agent_it_launches": {
+        "message": "Your answer covers “%@” — every agent it launches gets the same answer, without asking again.",
+        "description": "Location: Browser. CDP consent - warning under the process tree once the answer has been retargeted onto a process that launched the agent; %@ is that process's name"
+    },
     "your_answer_covers_every_agent_not_just": {
         "message": "Your answer covers every agent, not just “%@”.",
         "description": "Location: Browser. CDP consent - explanation of the all-agents switch; %@ is the name of the agent asking for access"
+    },
+    "your_answer_is_about_pick_a_row": {
+        "message": "Your answer is about “%@”. Pick a row above to answer about the process that launched it instead.",
+        "description": "Location: Browser. CDP consent - hint under the process tree explaining that a row can be picked to retarget the answer; %@ is the asking agent's name"
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Your current pinned tabs will be copied into each existing destination. The copies can then be changed independently.",

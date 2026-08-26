@@ -263,6 +263,12 @@
     "and_will_be_deleted": {
         "message": "%1$@ en %2$@ worden verwijderd."
     },
+    "answer_for": {
+        "message": "Antwoord voor"
+    },
+    "answering_for": {
+        "message": "Antwoord geldt voor “%@”"
+    },
     "any_agent_may_use_any_saved_login": {
         "message": "Elke agent mag zonder te vragen alle opgeslagen inloggegevens gebruiken. De goedkeuringen per site hieronder zijn niet nodig zolang dit aanstaat."
     },
@@ -863,6 +869,15 @@
     "comfortable_93045e": {
         "message": "Comfortabel"
     },
+    "command": {
+        "message": "Commando"
+    },
+    "command_and_process_tree": {
+        "message": "Commando en processtructuur"
+    },
+    "command_unavailable": {
+        "message": "(commando niet beschikbaar)"
+    },
     "command_use": {
         "message": "Commandogebruik"
     },
@@ -1225,6 +1240,9 @@
     },
     "describe_the_issue_in_detail": {
         "message": "Beschrijf het probleem in detail"
+    },
+    "details": {
+        "message": "Details"
     },
     "dev_tools_console": {
         "message": "DevTools-console"
@@ -1712,6 +1730,9 @@
     "hide": {
         "message": "Verberg"
     },
+    "hide_the_agent_s_command_and_process": {
+        "message": "Verberg het commando en de processtructuur van de agent"
+    },
     "history": {
         "message": "Geschiedenis"
     },
@@ -1909,6 +1930,9 @@
     },
     "launch_phi_sentinel_when_you_sign_in": {
         "message": "Start Phi Sentinel wanneer je op je Mac inlogt"
+    },
+    "launched_by": {
+        "message": "Gestart door"
     },
     "layout_mode": {
         "message": "Lay-outmodus"
@@ -3213,7 +3237,7 @@
         "message": "Delen"
     },
     "shift_click_a_link_or_choose_open": {
-        "message": "Shift-klik op een link, of kies “Link openen in Peek-weergave”, om er een voorbeeld van te zien in een zwevend paneel boven de pagina. Beschikbaar in de indelingen met zijbalk."
+        "message": "Shift-klik op een link, of kies “Link openen in Peek-weergave”, om er een voorbeeld van te zien in een zwevend paneel boven de pagina. Niet beschikbaar in de indeling Comfortabel."
     },
     "shortcuts": {
         "message": "Toetscombinaties"
@@ -3259,6 +3283,9 @@
     },
     "show_tab_switcher_reverse": {
         "message": "Toon tabbladwisselaar (omgekeerd)"
+    },
+    "show_the_agent_s_command_and_process": {
+        "message": "Toon het commando en de processtructuur van de agent"
     },
     "show_transcript": {
         "message": "Toon transcript"
@@ -3548,6 +3575,9 @@
     "this_action_cannot_be_undone": {
         "message": "Dit kan niet ongedaan worden gemaakt."
     },
+    "this_agent": {
+        "message": "deze agent"
+    },
     "this_build_doesn_t_include_the_phi": {
         "message": "Deze build bevat de skillbronnen van phi-browser niet. Bouw Phi Browser opnieuw en probeer het opnieuw."
     },
@@ -3589,6 +3619,9 @@
     },
     "this_file_type_isn_t_commonly_downloaded": {
         "message": "Dit bestandstype wordt niet vaak gedownload en kan gevaarlijk zijn"
+    },
+    "this_process_carries_no_valid_code_signature": {
+        "message": "Dit proces heeft geen geldige codehandtekening. De naam komt daarom uit het commando waarmee het is gestart, en alles kan die naam claimen. Open Details om dat commando te bekijken voordat je toestemming geeft."
     },
     "this_replaces_the_phi_user_data_folder": {
         "message": "Hiermee wordt de map met Phi-gebruikersgegevens vervangen door het archief en start Phi opnieuw. Bewaar eerst je werk."
@@ -3781,6 +3814,9 @@
     },
     "unsigned_ab858c": {
         "message": "Niet ondertekend"
+    },
+    "unsigned_phi_can_t_verify_this_agent": {
+        "message": "Niet ondertekend: Phi kan deze agent niet verifiëren"
     },
     "unsupported_image_format": {
         "message": "Niet-ondersteunde afbeeldingsindeling"
@@ -3977,8 +4013,14 @@
     "your_account_is_ready_and_your_data": {
         "message": "Je account is klaar en je gegevens zijn veilig. Phi probeert de oude gastgegevens de volgende keer bij het starten opnieuw te verwijderen."
     },
+    "your_answer_covers_every_agent_it_launches": {
+        "message": "Je antwoord geldt voor “%@”: elke agent die erdoor wordt gestart, krijgt hetzelfde antwoord zonder opnieuw te hoeven vragen."
+    },
     "your_answer_covers_every_agent_not_just": {
         "message": "Je antwoord geldt voor elke agent, niet alleen “%@”."
+    },
+    "your_answer_is_about_pick_a_row": {
+        "message": "Je antwoord gaat over “%@”. Kies hierboven een rij om in plaats daarvan te antwoorden over het proces dat het heeft gestart."
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Je huidige vastgezette tabbladen worden naar elke bestaande bestemming gekopieerd. De kopieën kun je daarna los van elkaar wijzigen."

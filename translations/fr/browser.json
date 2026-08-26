@@ -263,6 +263,12 @@
     "and_will_be_deleted": {
         "message": "%1$@ et %2$@ seront supprimés."
     },
+    "answer_for": {
+        "message": "Réponse pour"
+    },
+    "answering_for": {
+        "message": "Réponse appliquée à « %@ »"
+    },
     "any_agent_may_use_any_saved_login": {
         "message": "N'importe quel agent peut utiliser n'importe quel identifiant enregistré sans demander. Les autorisations par site ci-dessous sont inutiles tant que cette option est activée."
     },
@@ -863,6 +869,15 @@
     "comfortable_93045e": {
         "message": "Confortable"
     },
+    "command": {
+        "message": "Commande"
+    },
+    "command_and_process_tree": {
+        "message": "Commande et arborescence des processus"
+    },
+    "command_unavailable": {
+        "message": "(commande indisponible)"
+    },
     "command_use": {
         "message": "Utilisation de commandes"
     },
@@ -1225,6 +1240,9 @@
     },
     "describe_the_issue_in_detail": {
         "message": "Décrivez le problème en détail"
+    },
+    "details": {
+        "message": "Détails"
     },
     "dev_tools_console": {
         "message": "Console des Outils de développement"
@@ -1712,6 +1730,9 @@
     "hide": {
         "message": "Masquer"
     },
+    "hide_the_agent_s_command_and_process": {
+        "message": "Masquer la commande et l'arborescence des processus de l'agent"
+    },
     "history": {
         "message": "Historique"
     },
@@ -1909,6 +1930,9 @@
     },
     "launch_phi_sentinel_when_you_sign_in": {
         "message": "Lancer Phi Sentinel à l'ouverture de session sur votre Mac"
+    },
+    "launched_by": {
+        "message": "Lancé par"
     },
     "layout_mode": {
         "message": "Mode de disposition"
@@ -3213,7 +3237,7 @@
         "message": "Partage"
     },
     "shift_click_a_link_or_choose_open": {
-        "message": "Cliquez sur un lien en maintenant Maj, ou choisissez « Ouvrir le lien dans la vue Peek », pour le prévisualiser dans un panneau flottant au-dessus de la page. Disponible dans les dispositions avec barre latérale."
+        "message": "Cliquez sur un lien en maintenant Maj, ou choisissez « Ouvrir le lien dans la vue Peek », pour le prévisualiser dans un panneau flottant au-dessus de la page. Non disponible dans la disposition Confortable."
     },
     "shortcuts": {
         "message": "Raccourcis"
@@ -3259,6 +3283,9 @@
     },
     "show_tab_switcher_reverse": {
         "message": "Afficher le sélecteur d'onglets (ordre inverse)"
+    },
+    "show_the_agent_s_command_and_process": {
+        "message": "Afficher la commande et l'arborescence des processus de l'agent"
     },
     "show_transcript": {
         "message": "Afficher la transcription"
@@ -3548,6 +3575,9 @@
     "this_action_cannot_be_undone": {
         "message": "Cette action est irréversible."
     },
+    "this_agent": {
+        "message": "cet agent"
+    },
     "this_build_doesn_t_include_the_phi": {
         "message": "Cette version ne contient pas les ressources du Skill phi-browser. Recompilez Phi Browser et réessayez."
     },
@@ -3589,6 +3619,9 @@
     },
     "this_file_type_isn_t_commonly_downloaded": {
         "message": "Ce type de fichier n'est pas couramment téléchargé et peut être dangereux"
+    },
+    "this_process_carries_no_valid_code_signature": {
+        "message": "Ce processus ne comporte aucune signature de code valide : son nom provient de la commande avec laquelle il a été lancé, et n'importe quel programme pourrait se l'attribuer. Ouvrez Détails pour consulter cette commande avant d'autoriser l'accès."
     },
     "this_replaces_the_phi_user_data_folder": {
         "message": "Cette opération remplace le dossier de données utilisateur de Phi par l'archive, puis redémarre Phi. Enregistrez d'abord votre travail."
@@ -3781,6 +3814,9 @@
     },
     "unsigned_ab858c": {
         "message": "Non signé"
+    },
+    "unsigned_phi_can_t_verify_this_agent": {
+        "message": "Non signé : Phi ne peut pas vérifier cet agent"
     },
     "unsupported_image_format": {
         "message": "Format d'image non pris en charge"
@@ -3977,8 +4013,14 @@
     "your_account_is_ready_and_your_data": {
         "message": "Votre compte est prêt et vos données sont en sécurité. Phi tentera à nouveau de supprimer les anciennes données du mode Invité à son prochain démarrage."
     },
+    "your_answer_covers_every_agent_it_launches": {
+        "message": "Votre réponse s'applique à « %@ » : chaque agent qu'il lance reçoit la même réponse, sans nouvelle demande."
+    },
     "your_answer_covers_every_agent_not_just": {
         "message": "Votre réponse s'applique à tous les agents, pas seulement à « %@ »."
+    },
+    "your_answer_is_about_pick_a_row": {
+        "message": "Votre réponse porte sur « %@ ». Sélectionnez une ligne ci-dessus pour qu'elle porte plutôt sur le processus qui l'a lancé."
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Vos onglets épinglés actuels seront copiés dans chaque destination existante. Les copies pourront ensuite être modifiées indépendamment."

@@ -263,6 +263,12 @@
     "and_will_be_deleted": {
         "message": "%1$@ und %2$@ werden gelöscht."
     },
+    "answer_for": {
+        "message": "Antwort für"
+    },
+    "answering_for": {
+        "message": "Antwort gilt für „%@“"
+    },
     "any_agent_may_use_any_saved_login": {
         "message": "Jeder Agent darf alle gespeicherten Zugangsdaten ohne Nachfrage verwenden. Solange dies aktiviert ist, sind die Freigaben pro Website unten nicht nötig."
     },
@@ -863,6 +869,15 @@
     "comfortable_93045e": {
         "message": "Komfortabel"
     },
+    "command": {
+        "message": "Befehl"
+    },
+    "command_and_process_tree": {
+        "message": "Befehl und Prozessbaum"
+    },
+    "command_unavailable": {
+        "message": "(Befehl nicht verfügbar)"
+    },
     "command_use": {
         "message": "Befehlsausführung"
     },
@@ -1225,6 +1240,9 @@
     },
     "describe_the_issue_in_detail": {
         "message": "Beschreibe das Problem im Detail"
+    },
+    "details": {
+        "message": "Details"
     },
     "dev_tools_console": {
         "message": "Entwicklertools-Konsole"
@@ -1712,6 +1730,9 @@
     "hide": {
         "message": "Ausblenden"
     },
+    "hide_the_agent_s_command_and_process": {
+        "message": "Befehl und Prozessbaum des Agenten ausblenden"
+    },
     "history": {
         "message": "Verlauf"
     },
@@ -1909,6 +1930,9 @@
     },
     "launch_phi_sentinel_when_you_sign_in": {
         "message": "Phi Sentinel starten, wenn du dich an deinem Mac anmeldest"
+    },
+    "launched_by": {
+        "message": "Gestartet von"
     },
     "layout_mode": {
         "message": "Layout-Modus"
@@ -3213,7 +3237,7 @@
         "message": "Teilen"
     },
     "shift_click_a_link_or_choose_open": {
-        "message": "Klicke bei gedrückter Umschalttaste auf einen Link oder wähle „Link in Peek-Ansicht öffnen“, um ihn in einem schwebenden Panel über der Seite als Vorschau anzuzeigen. Verfügbar in den Seitenleisten-Layouts."
+        "message": "Klicke bei gedrückter Umschalttaste auf einen Link oder wähle „Link in Peek-Ansicht öffnen“, um ihn in einem schwebenden Panel über der Seite als Vorschau anzuzeigen. Nicht verfügbar im Layout „Komfortabel“."
     },
     "shortcuts": {
         "message": "Tastaturkurzbefehle"
@@ -3259,6 +3283,9 @@
     },
     "show_tab_switcher_reverse": {
         "message": "Tab-Umschalter anzeigen (rückwärts)"
+    },
+    "show_the_agent_s_command_and_process": {
+        "message": "Befehl und Prozessbaum des Agenten einblenden"
     },
     "show_transcript": {
         "message": "Transkript anzeigen"
@@ -3548,6 +3575,9 @@
     "this_action_cannot_be_undone": {
         "message": "Diese Aktion kann nicht rückgängig gemacht werden."
     },
+    "this_agent": {
+        "message": "dieser Agent"
+    },
     "this_build_doesn_t_include_the_phi": {
         "message": "Dieser Build enthält die Ressourcen des phi-browser-Skills nicht. Erstelle Phi Browser neu und versuche es erneut."
     },
@@ -3589,6 +3619,9 @@
     },
     "this_file_type_isn_t_commonly_downloaded": {
         "message": "Dieser Dateityp wird normalerweise nicht heruntergeladen und könnte schädlich sein"
+    },
+    "this_process_carries_no_valid_code_signature": {
+        "message": "Dieser Prozess hat keine gültige Codesignatur. Sein Name stammt daher aus dem Befehl, mit dem er gestartet wurde, und jedes beliebige Programm könnte ihn beanspruchen. Öffne die Details, um dir diesen Befehl anzusehen, bevor du den Zugriff erlaubst."
     },
     "this_replaces_the_phi_user_data_folder": {
         "message": "Dadurch wird der Ordner mit den Phi-Benutzerdaten durch das Archiv ersetzt und Phi neu gestartet. Speichere vorher deine Arbeit."
@@ -3781,6 +3814,9 @@
     },
     "unsigned_ab858c": {
         "message": "Nicht signiert"
+    },
+    "unsigned_phi_can_t_verify_this_agent": {
+        "message": "Nicht signiert: Phi kann diesen Agenten nicht verifizieren"
     },
     "unsupported_image_format": {
         "message": "Nicht unterstütztes Bildformat"
@@ -3977,8 +4013,14 @@
     "your_account_is_ready_and_your_data": {
         "message": "Dein Konto ist bereit und deine Daten sind sicher. Phi versucht beim nächsten Start erneut, die alten Gastdaten zu entfernen."
     },
+    "your_answer_covers_every_agent_it_launches": {
+        "message": "Deine Antwort gilt für „%@“: Jeder Agent, den dieser Prozess startet, erhält dieselbe Antwort, ohne dass erneut gefragt wird."
+    },
     "your_answer_covers_every_agent_not_just": {
         "message": "Deine Antwort gilt für jeden Agenten, nicht nur für „%@“."
+    },
+    "your_answer_is_about_pick_a_row": {
+        "message": "Deine Antwort bezieht sich auf „%@“. Wähle oben eine Zeile aus, damit deine Antwort stattdessen für den Prozess gilt, der diesen Agenten gestartet hat."
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Deine aktuellen angehefteten Tabs werden in jedes bestehende Ziel kopiert. Die Kopien können danach unabhängig voneinander geändert werden."
