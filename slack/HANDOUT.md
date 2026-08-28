@@ -104,3 +104,13 @@ unledgered inbox events, channel @-mentions with no bot reply after them
 If it reports anything owed, pipeline ALL of it: ack each thread first,
 then process oldest-first. The goal is zero missed requests, mechanically,
 not by memory.
+
+## Fallback ear (2026-08-29): persistent Monitor
+
+If the tracked slack_loop.sh background task gets repeatedly reaped by the
+harness (external SIGTERM seconds after arming, observed during login
+churn), switch the ear to a persistent Monitor watching `slack/inbox/` for
+event files not yet in `done` (3s poll, one alert line per new event). Same
+handling contract afterwards (outbox/<id>.reply + done + re-verify). The
+bridge's 900s reply window and outbox pickup are independent of which ear
+mechanism is armed. Never run both ears at once.
