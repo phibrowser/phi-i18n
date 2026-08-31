@@ -15,6 +15,14 @@
         "message": "A profile with this name already exists.",
         "description": "Location: Browser. Validation shown when a new or renamed profile name duplicates an existing profile"
     },
+    "a_space_is_using_this_profile_delete": {
+        "message": "A Space is using this profile. Delete that Space or change its profile first.",
+        "description": "Location: Browser. Body of the profile-delete error when a Space became bound to the profile before the deletion ran"
+    },
+    "a_space_is_using_this_profile_delete_a6279e": {
+        "message": "A Space is using this profile. Delete that Space or change its profile first.",
+        "description": "Location: Browser. Body of the profile-delete error when a Space became bound to the profile before the deletion ran"
+    },
     "about_version_company_name": {
         "message": "Phinomenon",
         "description": "Location: Browser. Company name on the about pages"
@@ -106,6 +114,10 @@
     "add_top_split": {
         "message": "Add Top Split",
         "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the top third of the page"
+    },
+    "added": {
+        "message": "%d added",
+        "description": "Location: Browser. Browser migration wizard - how many pinned tabs a migrated Profile received; %d is the number of pinned tabs"
     },
     "additional_browser_settings": {
         "message": "Additional browser settings",
@@ -463,6 +475,10 @@
         "message": "Back",
         "description": "Location: Browser. CDP consent - return from the deny scope step to the allow-or-deny decision"
     },
+    "back_6817d2": {
+        "message": "Back",
+        "description": "Location: Browser. Browser migration wizard - button returning from the preview to the source list"
+    },
     "back_6f24ff": {
         "message": "Back",
         "description": "Location: Browser. Shortcuts settings - Command title for navigating back"
@@ -619,6 +635,10 @@
         "message": "Bookmarks",
         "description": "Location: Browser. Search Tabs - Bookmark root menu title"
     },
+    "bookmarks_couldn_t_be_saved": {
+        "message": "Bookmarks couldn't be saved",
+        "description": "Location: Browser. Browser migration wizard - shown on a Space whose Bookmarks did not persist"
+    },
     "bookmarks_e84566": {
         "message": "Bookmarks",
         "description": "Location: Browser. Main menu - Top-level Bookmarks menu title in the application menu bar"
@@ -650,10 +670,6 @@
     "browser_data_can_t_be_imported_into": {
         "message": "Browser data can't be imported into Incognito. Switch to a regular Space or window, then try again.",
         "description": "Location: Browser. Import browser data - Alert body explaining import is unavailable off-the-record"
-    },
-    "browser_data_cb6965": {
-        "message": "Browser data",
-        "description": "Location: Browser. Import browser data page - Page title restored after resetting the import state"
     },
     "browser_memory": {
         "message": "Browser Memory",
@@ -687,6 +703,10 @@
         "message": "%@ can now use the phi-browser skill. Restart newly configured agents; in Pi, /reload is enough.",
         "description": "Location: Browser. Developer settings - Skill install success body; %@ is the agent name"
     },
+    "can_t_be_changed_while_a_migration": {
+        "message": "Can’t be changed while a migration from another browser is running.",
+        "description": "Location: Browser. Spaces settings - why the pinned-tab scope picker is disabled during a browser migration"
+    },
     "can_t_change_this_space_s_profile": {
         "message": "Can’t change this Space’s profile yet",
         "description": "Location: Browser. Title shown when changing a Space's profile is blocked by an in-progress import"
@@ -702,6 +722,10 @@
     "cancel": {
         "message": "Cancel",
         "description": "Location: Browser. Account data export - Button abandoning verification without cancelling a server task"
+    },
+    "cancel_042e54": {
+        "message": "Cancel",
+        "description": "Location: Browser. Browser migration wizard - button dismissing the second-migration confirmation without starting anything"
     },
     "cancel_0bd68f": {
         "message": "Cancel",
@@ -766,6 +790,10 @@
     "cancel_7d73f2": {
         "message": "Cancel",
         "description": "Location: Browser. AI settings - Cancel button in disable-AI confirmation alert"
+    },
+    "cancel_7e8473": {
+        "message": "Cancel",
+        "description": "Location: Browser. Browser migration wizard - button closing the wizard without migrating"
     },
     "cancel_9b3e6c": {
         "message": "Cancel",
@@ -987,6 +1015,10 @@
         "message": "Choose a download location for this profile.",
         "description": "Location: Browser. Profiles settings - download folder picker message"
     },
+    "choose_at_least_one_space_to_migrate": {
+        "message": "Choose at least one Space to migrate.",
+        "description": "Location: Browser. Browser migration wizard - why Start is disabled when the user has unticked everything"
+    },
     "choose_file": {
         "message": "Choose File…",
         "description": "Location: Browser. Import browser data page - Button to pick a file to import"
@@ -1062,6 +1094,10 @@
     "close": {
         "message": "Close",
         "description": "Location: Browser. Account deletion - Button closing the deletion flow dialog"
+    },
+    "close_2fe5df": {
+        "message": "Close",
+        "description": "Location: Browser. Browser migration wizard - button closing the window while the run carries on"
     },
     "close_412a1b": {
         "message": "Close",
@@ -1235,6 +1271,10 @@
         "message": "Connectors for Profile",
         "description": "Location: Browser. AI settings - Label for selecting the browser Profile whose connectors are managed"
     },
+    "container": {
+        "message": "Container %d",
+        "description": "Location: Browser. Browser migration wizard - name of the Profile made from a Zen container that has no readable name; %d is the container's number"
+    },
     "content_context_openlinkinspace": {
         "message": "Open Link In Space <ph name=\"SPACE\"/>",
         "description": "Location: Browser. In Title Case: The name of the open a link in a specific Phi Space command (shown when there is only one Space to choose)"
@@ -1257,7 +1297,7 @@
     },
     "continue": {
         "message": "Continue",
-        "description": "Location: Browser. Bitwarden login sheet - continue button"
+        "description": "Location: Browser. Browser migration wizard - button that opens the preview for the picked source"
     },
     "convert_to_horizontal_split": {
         "message": "Convert to Horizontal Split",
@@ -1395,6 +1435,10 @@
         "message": "Could not stage the AI data archive.",
         "description": "Location: Browser. User data export - Error when the prepared AI data archive cannot be staged for backup"
     },
+    "couldn_t_be_imported": {
+        "message": "Couldn't be imported",
+        "description": "Location: Browser. Browser migration wizard - shown when a migrated Profile's browser-data import came back failed: against its history, cookies and extensions rows in the detail grid, and as the outcome of the promoted failure"
+    },
     "couldn_t_delete_profile": {
         "message": "Couldn't delete profile",
         "description": "Location: Browser. Title of the profile-delete error"
@@ -1446,6 +1490,14 @@
     "create_space": {
         "message": "Create Space",
         "description": "Location: Browser. Confirm button in the create-Space panel"
+    },
+    "created_and": {
+        "message": "Created %1$@ and %2$@.",
+        "description": "Location: Browser. Browser migration wizard - summary of what a run created; %1$@ is a Profile count such as \"2 Profiles\", %2$@ a Space count such as \"5 Spaces\""
+    },
+    "creating": {
+        "message": "Creating %@",
+        "description": "Location: Browser. Browser migration wizard - the unit of the run being worked on; %@ is a Profile or Space name"
     },
     "credential": {
         "message": "Credential",
@@ -1741,7 +1793,7 @@
     },
     "done": {
         "message": "Done",
-        "description": "Location: Browser. Approvals sheet - done button"
+        "description": "Location: Browser. Browser migration wizard - button dismissing the report and closing the window"
     },
     "download_any_data_export_you_want_to": {
         "message": "Download any data export you want to keep before deleting your account. Deletion cancels exports in progress and permanently removes existing download files and links.",
@@ -2049,7 +2101,7 @@
     },
     "extensions": {
         "message": "Extensions",
-        "description": "Location: Browser. Address bar menu - Extensions submenu title"
+        "description": "Location: Browser. Browser migration wizard - label of a migrated Profile's extensions outcome"
     },
     "extensions_322ae4": {
         "message": "Extensions",
@@ -2255,6 +2307,10 @@
         "message": "Go back and try again",
         "description": "Location: Browser. Retry link text shown when login fails in onboarding"
     },
+    "go_to": {
+        "message": "Go to %@",
+        "description": "Location: Browser. Browser migration wizard - button switching to the first Space the run created; %@ is that Space's name"
+    },
     "go_to_space": {
         "message": "Go to Space \"%@\"",
         "description": "Location: Browser. Shortcuts settings - Command title to activate the Space at this position"
@@ -2314,6 +2370,14 @@
     "history": {
         "message": "History",
         "description": "Location: Browser. Shortcuts settings - Section title for browsing history commands"
+    },
+    "history_cookies": {
+        "message": "History & cookies",
+        "description": "Location: Browser. Browser migration wizard - label of a migrated Profile's history and cookies outcome in the report's detail grid"
+    },
+    "history_cookies_extensions": {
+        "message": "History, cookies & extensions",
+        "description": "Location: Browser. Browser migration wizard - subject of the promoted failure of a migrated Profile's browser-data import, which covers all three at once"
     },
     "hold_command_and_option_while_clicking_a": {
         "message": "Hold Command and Option while clicking a link to open it in a Kiosk window.",
@@ -2406,6 +2470,14 @@
     "import_failed": {
         "message": "Import Failed",
         "description": "Location: Browser. User data import - Alert title when extracting or applying backup fails"
+    },
+    "import_finished": {
+        "message": "Import finished",
+        "description": "Location: Browser. Browser migration wizard - shown when a migrated Profile's history and cookies import ran to completion; deliberately not a claim about what landed"
+    },
+    "import_from_another_browser": {
+        "message": "Import from Another Browser...",
+        "description": "Location: Browser. Phi menu - Menu item opening the window that imports bookmarks and settings from another browser"
     },
     "import_from_arc": {
         "message": "Arc",
@@ -2502,6 +2574,10 @@
     "install_on_quit": {
         "message": "Install on Quit",
         "description": "Location: Browser. Update window - Install downloaded update on quit button"
+    },
+    "install_started_for": {
+        "message": "Install started for %d",
+        "description": "Location: Browser. Browser migration wizard - how many extensions a migrated Profile had installation started for; %d is the number of extensions"
     },
     "install_the_phi_browser_skill": {
         "message": "Install the phi-browser skill",
@@ -2695,6 +2771,10 @@
         "message": "Logins for Phi and agent requests, held by a separate helper — passwords never touch the browser process.",
         "description": "Location: Browser. Phi & AI settings - Bitwarden toggle explanation"
     },
+    "macos_will_ask_to_use_s_encryption": {
+        "message": "macOS will ask to use %@'s encryption key so your cookies can come across. Choose “Always Allow”, or it asks again for every Profile.",
+        "description": "Location: Browser. Browser migration wizard - warns that the OS Keychain prompt is coming before a run starts; %@ is the source browser's name"
+    },
     "manage_bookmarks": {
         "message": "Manage Bookmarks",
         "description": "Location: Browser. Bookmarks menu - Menu item that opens the bookmark management page"
@@ -2730,6 +2810,34 @@
     "message_the_agent": {
         "message": "Message the agent (→ %@)",
         "description": "Location: Browser. Agent console - prompt placeholder naming the target task's Space"
+    },
+    "migrate_again": {
+        "message": "Migrate Again",
+        "description": "Location: Browser. Browser migration wizard - button starting a second migration from a source this account has already migrated from"
+    },
+    "migrate_from_again": {
+        "message": "Migrate from %@ again?",
+        "description": "Location: Browser. Browser migration wizard - title of the confirmation shown when this account has already migrated from the picked source; %@ is the source browser's name"
+    },
+    "migrate_from_another_browser": {
+        "message": "Migrate from Another Browser…",
+        "description": "Location: Browser. Phi menu - Menu item opening the wizard that recreates another browser's profiles and spaces in Phi"
+    },
+    "migrate_to_phi": {
+        "message": "Migrate to Phi",
+        "description": "Location: Browser. Browser migration wizard - heading of the source step; the window title is a key of its own"
+    },
+    "migrate_to_phi_217577": {
+        "message": "Migrate to Phi",
+        "description": "Location: Browser. Browser migration wizard - window title"
+    },
+    "migrating": {
+        "message": "Migrating…",
+        "description": "Location: Browser. Browser migration wizard - heading while a run is working"
+    },
+    "migration_finished": {
+        "message": "Migration finished",
+        "description": "Location: Browser. Browser migration wizard - heading of the report shown once a run has ended"
     },
     "min_ago": {
         "message": "%d min ago",
@@ -3087,6 +3195,14 @@
         "message": "No bookmarks in this Space",
         "description": "Location: Browser. Bookmark manager - Empty state when the current Space has no bookmarks"
     },
+    "no_bookmarks_this_space_had_none_in": {
+        "message": "No bookmarks — this Space had none in %@",
+        "description": "Location: Browser. Browser migration wizard - shown on a Space whose source tree carried no bookmarks; %@ is the source browser's name"
+    },
+    "no_bookmarks_were_saved": {
+        "message": "No bookmarks were saved",
+        "description": "Location: Browser. Browser migration wizard - shown on a Space whose source tree carried bookmarks of which none landed"
+    },
     "no_browser_memory_either": {
         "message": "No Browser Memory either",
         "description": "Location: Browser. Guest privacy confirmation - Notice that Browser Memory is unavailable without signing in"
@@ -3163,9 +3279,21 @@
         "message": "No share actions available",
         "description": "Location: Browser. Address bar menu - Placeholder when no sharing services are available"
     },
+    "no_spaces": {
+        "message": "No Spaces",
+        "description": "Location: Browser. Browser migration wizard - reason a source profile is skipped and creates nothing"
+    },
     "no_standing_approvals": {
         "message": "No standing approvals",
         "description": "Location: Browser. Phi & AI settings - approvals subtitle with no grants"
+    },
+    "none_found": {
+        "message": "None found",
+        "description": "Location: Browser. Browser migration wizard - shown against a migrated Profile's extensions when the source profile carried none"
+    },
+    "none_in": {
+        "message": "None in %@",
+        "description": "Location: Browser. Browser migration wizard - shown against a migrated Profile's pinned tabs when the source profile had none; %@ is the source browser's name"
     },
     "normal": {
         "message": "Normal",
@@ -3191,6 +3319,10 @@
         "message": "Not connected",
         "description": "Location: Browser. AI settings - Connector row status text when not connected"
     },
+    "not_created": {
+        "message": "Not created",
+        "description": "Location: Browser. Browser migration wizard - outcome of a Profile or Space the run failed to create"
+    },
     "not_linked": {
         "message": "Not linked",
         "description": "Location: Browser. Phi Link - Official bot not linked status"
@@ -3215,6 +3347,10 @@
         "message": "Not used",
         "description": "Location: Browser. Profiles settings - tag for a profile with no Spaces"
     },
+    "nothing_was_created": {
+        "message": "Nothing was created.",
+        "description": "Location: Browser. Browser migration wizard - summary of a run that created no Profile and no Space"
+    },
     "nothing_yet_agent_activity_appears_here_live": {
         "message": "Nothing yet — agent activity appears here live.",
         "description": "Location: Browser. Agent console - empty feed placeholder"
@@ -3222,6 +3358,10 @@
     "notifications": {
         "message": "Notifications",
         "description": "Location: Browser. Profiles settings - data link to notification settings"
+    },
+    "of_couldn_t_be_added": {
+        "message": "%1$d of %2$d couldn't be added",
+        "description": "Location: Browser. Browser migration wizard - how many of a Profile's pinned entries the run could not turn into pinned tabs; %1$d is the number that were dropped, %2$d how many the plan carried"
     },
     "off": {
         "message": "Off",
@@ -3507,13 +3647,29 @@
         "message": "Phi couldn’t move your Guest data. Your data is safe, and you can try again.",
         "description": "Location: Browser. Guest migration - Alert message explaining that Guest data remains safe and migration can be retried"
     },
+    "phi_couldn_t_read_s_data_open": {
+        "message": "Phi couldn't read %1$@'s data. Open %1$@ once so it writes its sidebar, then try again.",
+        "description": "Location: Browser. Browser migration wizard - shown when the picked source is installed but its data can't be parsed; %1$@ is the source browser's name, appearing twice"
+    },
     "phi_couldn_t_securely_clear_the_previous": {
         "message": "Phi couldn’t securely clear the previous session. Try again before continuing as Guest.",
         "description": "Location: Browser. Guest mode - Alert message asking the user to retry after credential cleanup failed"
     },
+    "phi_couldn_t_tell_which_profile_this": {
+        "message": "Phi couldn't tell which profile this belongs to, so it will go to %@.",
+        "description": "Location: Browser. Browser migration wizard - note on a Space whose source profile record is unreadable; %@ is the Profile it will be created under"
+    },
+    "phi_didn_t_find_arc_dia_or": {
+        "message": "Phi didn't find Arc, Dia or Zen on this Mac.",
+        "description": "Location: Browser. Browser migration wizard - shown in place of the source list when none of the browsers Phi can migrate from is installed"
+    },
     "phi_fills_the_saved_login_into_the": {
         "message": "Phi fills the saved login into the page itself. The agent triggers the fill but never receives the username or password.",
         "description": "Location: Browser. Credential approval - fill body"
+    },
+    "phi_found_but_there_s_nothing_here": {
+        "message": "Phi found %1$@, but there's nothing here to migrate — no %2$@ profile has data Phi can move.",
+        "description": "Location: Browser. Browser migration wizard - shown under the tree when the source read fine and offers nothing; %1$@ and %2$@ are both the source browser's name"
     },
     "phi_is_made_possible_by_the_open": {
         "message": "Phi is made possible by the %1$@ open source project, Chromium's %2$@, as well as other %3$@.",
@@ -3542,6 +3698,10 @@
     "phi_picture_in_picture_park_control_text": {
         "message": "Park at screen edge",
         "description": "Location: Browser. Text label of the button that parks (docks) the Picture-in-Picture window against the nearest screen edge, leaving only a handle visible for the user to click and restore it. The button appears when the user hovers over the Picture-in-Picture window."
+    },
+    "phi_recreates_your_profiles_and_spaces_from": {
+        "message": "Phi recreates your Profiles and Spaces from another browser. It only ever creates — nothing you already have is changed.",
+        "description": "Location: Browser. Browser migration wizard - explanation above the source list"
     },
     "phi_releases_the_saved_value_to_the": {
         "message": "Phi releases the saved value to the agent so the command it runs can use it. Phi can’t stop the agent from keeping the value — only approve for agents and sites you trust.",
@@ -3614,6 +3774,10 @@
     "pinned_tabs_from_the_existing_destinations_will": {
         "message": "Pinned tabs from the existing destinations will be merged. Unchanged copies will be combined, while different versions will be kept.",
         "description": "Location: Browser. Spaces settings - confirmation body for broadening pinned-tab scope"
+    },
+    "pinned_tabs_mk_7a66": {
+        "message": "Pinned tabs",
+        "description": "Location: Browser. Browser migration wizard - label of a migrated Profile's pinned tabs outcome"
     },
     "please_quit_safari_before_importing_its_data": {
         "message": "Please quit Safari before importing its data.",
@@ -3711,6 +3875,14 @@
         "message": "Profile name",
         "description": "Location: Browser. Placeholder for the profile-name field"
     },
+    "profile_not_created": {
+        "message": "Profile not created",
+        "description": "Location: Browser. Browser migration wizard - promoted failure of a Profile the run could not create"
+    },
+    "profile_of": {
+        "message": "Profile %1$d of %2$d",
+        "description": "Location: Browser. Browser migration wizard - where the Profile being created sits in the run; %1$d is its number, %2$d how many units the run has"
+    },
     "profiles": {
         "message": "Profiles",
         "description": "Location: Browser. Settings - Tab title for profiles management"
@@ -3758,6 +3930,10 @@
     "reauthentication_needed": {
         "message": "Reauthentication needed.",
         "description": "Location: Browser. Account settings - Warning shown when account tokens require reauthentication"
+    },
+    "recent_history": {
+        "message": "Recent history",
+        "description": "Location: Browser. Browser migration wizard - label of a migrated Profile's history outcome in the report's detail grid when history was the only data the source's import was asked for, as with Zen; \"recent\" because the import keeps only the most recent entries"
     },
     "recently_closed": {
         "message": "Recently Closed",
@@ -4042,6 +4218,10 @@
     "review_and_revoke_which_agents_may_use": {
         "message": "Review and revoke which agents may use your saved logins without asking",
         "description": "Location: Browser. Phi & AI settings - tooltip for the approvals row"
+    },
+    "review_what_will_be_created": {
+        "message": "Review what will be created",
+        "description": "Location: Browser. Browser migration wizard - heading of the review step"
     },
     "revoke": {
         "message": "Revoke",
@@ -4435,6 +4615,10 @@
         "message": "Sign in",
         "description": "Location: Browser. Bitwarden sign-in sheet - Password step title"
     },
+    "sign_in_to_phi_or_continue_as": {
+        "message": "Sign in to Phi — or continue as a guest — before migrating.",
+        "description": "Location: Browser. Browser migration wizard - shown instead of starting when no account is bound"
+    },
     "sign_in_to_the_account_you_previously": {
         "message": "Sign in to the account you previously selected to finish moving your Guest data.",
         "description": "Location: Browser. Guest migration recovery - Guidance shown when the original target account must sign in again"
@@ -4555,6 +4739,14 @@
         "message": "Space name",
         "description": "Location: Browser. Placeholder for the Space-name field"
     },
+    "space_not_created": {
+        "message": "Space not created",
+        "description": "Location: Browser. Browser migration wizard - promoted failure of a Space the run could not create"
+    },
+    "space_of": {
+        "message": "Space %1$d of %2$d",
+        "description": "Location: Browser. Browser migration wizard - where the Space being created sits in the run; %1$d is its number, %2$d how many units the run has"
+    },
     "spaces": {
         "message": "Spaces",
         "description": "Location: Browser. Main menu - Top-level Spaces menu title in the application menu bar"
@@ -4594,6 +4786,10 @@
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "Standing approvals can be reviewed and revoked anytime in Settings.",
         "description": "Location: Browser. Credential approval - always hint"
+    },
+    "start_migration": {
+        "message": "Start Migration",
+        "description": "Location: Browser. Browser migration wizard - button starting the migration run"
     },
     "starting_restore": {
         "message": "Starting restore...",
@@ -4747,6 +4943,10 @@
         "message": "The Phi browser data folder is no longer available.",
         "description": "Location: Browser. User data export - Error when browser data disappears before the backup starts"
     },
+    "the_pinned_tab_scope_can_t_be": {
+        "message": "The pinned tab scope can’t be changed while a migration from another browser is running. Try again when it has finished.",
+        "description": "Location: Browser. Pinned-tab scope migration error when a browser migration is in flight"
+    },
     "the_restored_phi_user_data_is_not": {
         "message": "The restored Phi user data is not a directory.",
         "description": "Location: Browser. User data import - Error message when extracted Phi item is not a directory"
@@ -4790,6 +4990,10 @@
     "this_build_doesn_t_include_the_pi": {
         "message": "This build doesn’t include the Pi companion extension. Rebuild Phi Browser and try again.",
         "description": "Location: Browser. Developer settings - Pi companion extension missing"
+    },
+    "this_can_take_a_few_minutes": {
+        "message": "This can take a few minutes.",
+        "description": "Location: Browser. Browser migration wizard - subtitle shown while a run is working"
     },
     "this_deletes_the_phi_account_and_everything": {
         "message": "This deletes the Phi account %@ and everything Phi has stored on this Mac — browsing history, cookies, passwords, bookmarks, and Spaces. None of it can be recovered.\n\nOnce the deletion request is submitted, Phi signs you out and quits.",
@@ -5121,7 +5325,7 @@
     },
     "untitled_space": {
         "message": "Untitled Space",
-        "description": "Location: Browser. Arc import - fallback name for an Arc Space with no title"
+        "description": "Location: Browser. Browser migration wizard - fallback name for a Zen workspace that has no name"
     },
     "untitled_space_41a209": {
         "message": "Untitled Space",
@@ -5323,6 +5527,10 @@
         "message": "%@ will be deleted.",
         "description": "Location: Browser. Bookmark multi-selection delete confirmation body for folders"
     },
+    "will_create_and": {
+        "message": "Will create %1$@ and %2$@.",
+        "description": "Location: Browser. Browser migration wizard - what the previewed run creates; %1$@ is a Profile count such as \"2 Profiles\", %2$@ a Space count such as \"4 Spaces\""
+    },
     "window": {
         "message": "Window",
         "description": "Location: Browser. Shortcuts settings - Section title for window commands"
@@ -5343,6 +5551,10 @@
         "message": "You",
         "description": "Location: Browser. Account settings - Default display name when user name is not available"
     },
+    "you_already_migrated_from_for_this_account": {
+        "message": "You already migrated from %@ for this account. Migrating again creates a second set of Profiles and Spaces — it doesn't update the first.",
+        "description": "Location: Browser. Browser migration wizard - stated before Start that a run would be a second migration; %@ is the source browser's name"
+    },
     "you_have_more_than_one_profile_so": {
         "message": "You have more than one profile, so each profile manages its own settings.",
         "description": "Location: Browser. General settings - Hint shown in place of the inline profile settings because multiple profiles exist"
@@ -5358,6 +5570,10 @@
     "you_re_using_phi_without_signing_in": {
         "message": "You’re using Phi without signing in",
         "description": "Location: Browser. Account settings - Title of the Guest account card"
+    },
+    "you_ve_migrated_from_this_browser_into": {
+        "message": "You've migrated from this browser into this account before. Phi will create a new set of Profiles and Spaces — the ones you already have stay exactly as they are.",
+        "description": "Location: Browser. Browser migration wizard - explains that a second migration creates a fresh set of Profiles and Spaces rather than updating the first one's"
     },
     "your_account_is_ready_and_your_data": {
         "message": "Your account is ready and your data is safe. Phi will try to remove the old Guest data again the next time it starts.",
@@ -5426,6 +5642,10 @@
     "your_spaces": {
         "message": "Your Spaces",
         "description": "Location: Browser. Spaces settings - list header"
+    },
+    "zen_is_running_quit_it_before_you": {
+        "message": "Zen is running. Quit it before you start so its latest changes come across — Phi reads copies of Zen's files, and anything Zen hasn't saved yet would be missed.",
+        "description": "Location: Browser. Browser migration wizard - advises quitting Zen before a run starts; shown only while Zen is running"
     },
     "zoom_in": {
         "message": "Zoom in",

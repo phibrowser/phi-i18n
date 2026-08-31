@@ -11,6 +11,12 @@
     "a_profile_with_this_name_already_exists": {
         "message": "Er bestaat al een profiel met deze naam."
     },
+    "a_space_is_using_this_profile_delete": {
+        "message": "Een Space gebruikt dit profiel. Verwijder eerst die Space of wijzig het profiel ervan."
+    },
+    "a_space_is_using_this_profile_delete_a6279e": {
+        "message": "Een Space gebruikt dit profiel. Verwijder eerst die Space of wijzig het profiel ervan."
+    },
     "about_version_company_name": {
         "message": "Phinomenon"
     },
@@ -79,6 +85,9 @@
     },
     "add_top_split": {
         "message": "Voeg split boven toe"
+    },
+    "added": {
+        "message": "%d toegevoegd"
     },
     "additional_browser_settings": {
         "message": "Aanvullende browserinstellingen"
@@ -347,6 +356,9 @@
     "back": {
         "message": "Terug"
     },
+    "back_6817d2": {
+        "message": "Terug"
+    },
     "back_6f24ff": {
         "message": "Terug"
     },
@@ -464,6 +476,9 @@
     "bookmarks_c9fbb8": {
         "message": "Bladwijzers"
     },
+    "bookmarks_couldn_t_be_saved": {
+        "message": "Bladwijzers konden niet worden bewaard"
+    },
     "bookmarks_e84566": {
         "message": "Bladwijzers"
     },
@@ -487,9 +502,6 @@
     },
     "browser_data_can_t_be_imported_into": {
         "message": "Browsergegevens kunnen niet in incognito worden geïmporteerd. Schakel over naar een gewone Space of een gewoon venster en probeer het opnieuw."
-    },
-    "browser_data_cb6965": {
-        "message": "Browsergegevens"
     },
     "browser_memory": {
         "message": "Browsergeheugen"
@@ -515,6 +527,9 @@
     "can_now_use_the_phi_browser_skill_b00121": {
         "message": "%@ kan nu de phi-browser-skill gebruiken. Start nieuw geconfigureerde agents opnieuw; in Pi is /reload voldoende."
     },
+    "can_t_be_changed_while_a_migration": {
+        "message": "Kan niet worden gewijzigd terwijl een migratie uit een andere browser bezig is."
+    },
     "can_t_change_this_space_s_profile": {
         "message": "Het profiel van deze Space kan nog niet worden gewijzigd"
     },
@@ -525,6 +540,9 @@
         "message": "Browsergegevens kunnen niet worden geïmporteerd"
     },
     "cancel": {
+        "message": "Annuleer"
+    },
+    "cancel_042e54": {
         "message": "Annuleer"
     },
     "cancel_0bd68f": {
@@ -573,6 +591,9 @@
         "message": "Annuleer"
     },
     "cancel_7d73f2": {
+        "message": "Annuleer"
+    },
+    "cancel_7e8473": {
         "message": "Annuleer"
     },
     "cancel_9b3e6c": {
@@ -740,6 +761,9 @@
     "choose_a_download_location_for_this_profile": {
         "message": "Kies een downloadlocatie voor dit profiel."
     },
+    "choose_at_least_one_space_to_migrate": {
+        "message": "Kies minstens één Space om te migreren."
+    },
     "choose_file": {
         "message": "Kies bestand…"
     },
@@ -795,6 +819,9 @@
         "message": "Kloon naar Space"
     },
     "close": {
+        "message": "Sluit"
+    },
+    "close_2fe5df": {
         "message": "Sluit"
     },
     "close_412a1b": {
@@ -926,6 +953,9 @@
     "connectors_for_profile": {
         "message": "Connectors voor profiel"
     },
+    "container": {
+        "message": "Container %d"
+    },
     "content_context_openlinkinspace": {
         "message": "Link openen in Space <ph name=\"SPACE\"/>"
     },
@@ -1046,6 +1076,9 @@
     "could_not_stage_the_ai_data_archive": {
         "message": "Kan het AI-gegevensarchief niet klaarzetten."
     },
+    "couldn_t_be_imported": {
+        "message": "Importeren mislukt"
+    },
     "couldn_t_delete_profile": {
         "message": "Kan profiel niet verwijderen"
     },
@@ -1084,6 +1117,12 @@
     },
     "create_space": {
         "message": "Maak Space aan"
+    },
+    "created_and": {
+        "message": "%1$@ en %2$@ aangemaakt."
+    },
+    "creating": {
+        "message": "%@ wordt aangemaakt"
     },
     "credential": {
         "message": "Inloggegevens"
@@ -1691,6 +1730,9 @@
     "go_back_and_try_again": {
         "message": "Ga terug en probeer het opnieuw"
     },
+    "go_to": {
+        "message": "Ga naar %@"
+    },
     "go_to_space": {
         "message": "Ga naar Space \"%@\""
     },
@@ -1735,6 +1777,12 @@
     },
     "history": {
         "message": "Geschiedenis"
+    },
+    "history_cookies": {
+        "message": "Geschiedenis en cookies"
+    },
+    "history_cookies_extensions": {
+        "message": "Geschiedenis, cookies en extensies"
     },
     "hold_command_and_option_while_clicking_a": {
         "message": "Houd Command en Option ingedrukt terwijl je op een link klikt om die in een Kiosk-venster te openen."
@@ -1804,6 +1852,12 @@
     },
     "import_failed": {
         "message": "Import mislukt"
+    },
+    "import_finished": {
+        "message": "Importeren voltooid"
+    },
+    "import_from_another_browser": {
+        "message": "Importeer uit een andere browser..."
     },
     "import_from_arc": {
         "message": "Arc"
@@ -1876,6 +1930,9 @@
     },
     "install_on_quit": {
         "message": "Installeer bij stoppen"
+    },
+    "install_started_for": {
+        "message": "Installatie gestart voor %d"
     },
     "install_the_phi_browser_skill": {
         "message": "De phi-browser-skill installeren"
@@ -2021,6 +2078,9 @@
     "logins_for_phi_and_agent_requests_held": {
         "message": "Inloggegevens voor Phi en agentverzoeken, bewaard door een aparte helper. Wachtwoorden komen nooit in het browserproces."
     },
+    "macos_will_ask_to_use_s_encryption": {
+        "message": "macOS vraagt om de versleutelingssleutel van %@ te gebruiken, zodat je cookies kunnen worden overgezet. Kies “Sta altijd toe”, anders vraagt macOS het voor elk Profiel opnieuw."
+    },
     "manage_bookmarks": {
         "message": "Beheer bladwijzers"
     },
@@ -2047,6 +2107,27 @@
     },
     "message_the_agent": {
         "message": "Stuur de agent een bericht (→ %@)"
+    },
+    "migrate_again": {
+        "message": "Migreer opnieuw"
+    },
+    "migrate_from_again": {
+        "message": "Opnieuw migreren uit %@?"
+    },
+    "migrate_from_another_browser": {
+        "message": "Migreer uit een andere browser…"
+    },
+    "migrate_to_phi": {
+        "message": "Naar Phi migreren"
+    },
+    "migrate_to_phi_217577": {
+        "message": "Naar Phi migreren"
+    },
+    "migrating": {
+        "message": "Bezig met migreren…"
+    },
+    "migration_finished": {
+        "message": "Migratie voltooid"
     },
     "min_ago": {
         "message": "%d min geleden"
@@ -2315,6 +2396,12 @@
     "no_bookmarks_in_this_space": {
         "message": "Geen bladwijzers in deze Space"
     },
+    "no_bookmarks_this_space_had_none_in": {
+        "message": "Geen bladwijzers: deze Space had er geen in %@"
+    },
+    "no_bookmarks_were_saved": {
+        "message": "Er zijn geen bladwijzers bewaard"
+    },
     "no_browser_memory_either": {
         "message": "Ook geen Browsergeheugen"
     },
@@ -2372,8 +2459,17 @@
     "no_share_actions_available_929d34": {
         "message": "Geen deelacties beschikbaar"
     },
+    "no_spaces": {
+        "message": "Geen Spaces"
+    },
     "no_standing_approvals": {
         "message": "Geen permanente goedkeuringen"
+    },
+    "none_found": {
+        "message": "Geen gevonden"
+    },
+    "none_in": {
+        "message": "Geen in %@"
     },
     "normal": {
         "message": "Normaal"
@@ -2393,6 +2489,9 @@
     "not_connected_f563cc": {
         "message": "Niet verbonden"
     },
+    "not_created": {
+        "message": "Niet aangemaakt"
+    },
     "not_linked": {
         "message": "Niet gekoppeld"
     },
@@ -2411,11 +2510,17 @@
     "not_used": {
         "message": "Niet gebruikt"
     },
+    "nothing_was_created": {
+        "message": "Er is niets aangemaakt."
+    },
     "nothing_yet_agent_activity_appears_here_live": {
         "message": "Nog niets. Agentactiviteit verschijnt hier live."
     },
     "notifications": {
         "message": "Meldingen"
+    },
+    "of_couldn_t_be_added": {
+        "message": "%1$d van %2$d niet toegevoegd"
     },
     "off": {
         "message": "Uit"
@@ -2630,11 +2735,23 @@
     "phi_couldn_t_move_your_guest_data": {
         "message": "Phi kon je gastgegevens niet verplaatsen. Je gegevens zijn veilig en je kunt het opnieuw proberen."
     },
+    "phi_couldn_t_read_s_data_open": {
+        "message": "Phi kon de gegevens van %1$@ niet lezen. Open %1$@ één keer zodat die zijn zijbalk wegschrijft, en probeer het daarna opnieuw."
+    },
     "phi_couldn_t_securely_clear_the_previous": {
         "message": "Phi kon de vorige sessie niet veilig wissen. Probeer het opnieuw voordat je als gast verdergaat."
     },
+    "phi_couldn_t_tell_which_profile_this": {
+        "message": "Phi kon niet bepalen bij welk profiel dit hoort, dus gaat het naar %@."
+    },
+    "phi_didn_t_find_arc_dia_or": {
+        "message": "Phi heeft Arc, Dia of Zen niet op deze Mac gevonden."
+    },
     "phi_fills_the_saved_login_into_the": {
         "message": "Phi vult de opgeslagen inloggegevens zelf in op de pagina. De agent start het invullen, maar krijgt de gebruikersnaam of het wachtwoord nooit te zien."
+    },
+    "phi_found_but_there_s_nothing_here": {
+        "message": "Phi heeft %1$@ gevonden, maar er valt hier niets te migreren: geen enkel %2$@-profiel heeft gegevens die Phi kan overzetten."
     },
     "phi_is_made_possible_by_the_open": {
         "message": "Phi is mogelijk gemaakt door het opensourceproject %1$@, de %2$@ van Chromium en andere %3$@."
@@ -2656,6 +2773,9 @@
     },
     "phi_picture_in_picture_park_control_text": {
         "message": "Vastzetten aan de schermrand"
+    },
+    "phi_recreates_your_profiles_and_spaces_from": {
+        "message": "Phi bouwt je Profielen en Spaces uit een andere browser opnieuw op. Er komt alleen iets bij: niets van wat je al hebt wordt gewijzigd."
     },
     "phi_releases_the_saved_value_to_the": {
         "message": "Phi geeft de opgeslagen waarde door aan de agent, zodat het commando dat de agent uitvoert die kan gebruiken. Phi kan niet voorkomen dat de agent de waarde bewaart. Keur dit alleen goed voor agents en sites die je vertrouwt."
@@ -2710,6 +2830,9 @@
     },
     "pinned_tabs_from_the_existing_destinations_will": {
         "message": "Vastgezette tabbladen van de bestaande bestemmingen worden samengevoegd. Ongewijzigde kopieën worden gecombineerd, verschillende versies blijven bewaard."
+    },
+    "pinned_tabs_mk_7a66": {
+        "message": "Vastgezette tabbladen"
     },
     "please_quit_safari_before_importing_its_data": {
         "message": "Stop Safari voordat je de gegevens ervan importeert."
@@ -2783,6 +2906,12 @@
     "profile_name": {
         "message": "Profielnaam"
     },
+    "profile_not_created": {
+        "message": "Profiel niet aangemaakt"
+    },
+    "profile_of": {
+        "message": "Profiel %1$d van %2$d"
+    },
     "profiles": {
         "message": "Profielen"
     },
@@ -2818,6 +2947,9 @@
     },
     "reauthentication_needed": {
         "message": "Opnieuw verifiëren is nodig."
+    },
+    "recent_history": {
+        "message": "Recente geschiedenis"
     },
     "recently_closed": {
         "message": "Onlangs gesloten"
@@ -3031,6 +3163,9 @@
     },
     "review_and_revoke_which_agents_may_use": {
         "message": "Bekijk welke agents je opgeslagen inloggegevens zonder vragen mogen gebruiken en trek goedkeuringen in"
+    },
+    "review_what_will_be_created": {
+        "message": "Bekijk wat er wordt aangemaakt"
     },
     "revoke": {
         "message": "Trek in"
@@ -3326,6 +3461,9 @@
     "sign_in_f425c4": {
         "message": "Inloggen"
     },
+    "sign_in_to_phi_or_continue_as": {
+        "message": "Log in bij Phi (of ga door als gast) voordat je migreert."
+    },
     "sign_in_to_the_account_you_previously": {
         "message": "Log in op het account dat je eerder hebt gekozen om het verplaatsen van je gastgegevens af te ronden."
     },
@@ -3416,6 +3554,12 @@
     "space_name": {
         "message": "Space-naam"
     },
+    "space_not_created": {
+        "message": "Space niet aangemaakt"
+    },
+    "space_of": {
+        "message": "Space %1$d van %2$d"
+    },
     "spaces": {
         "message": "Spaces"
     },
@@ -3445,6 +3589,9 @@
     },
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "Permanente goedkeuringen kun je altijd bekijken en intrekken in Instellingen."
+    },
+    "start_migration": {
+        "message": "Start migratie"
     },
     "starting_restore": {
         "message": "Terugzetten starten…"
@@ -3560,6 +3707,9 @@
     "the_phi_browser_data_folder_is_no": {
         "message": "De map met browsergegevens van Phi is niet meer beschikbaar."
     },
+    "the_pinned_tab_scope_can_t_be": {
+        "message": "Het bereik van vastgezette tabbladen kan niet worden gewijzigd terwijl een migratie uit een andere browser bezig is. Probeer het opnieuw wanneer die is voltooid."
+    },
     "the_restored_phi_user_data_is_not": {
         "message": "De teruggezette Phi-gebruikersgegevens zijn geen map."
     },
@@ -3592,6 +3742,9 @@
     },
     "this_build_doesn_t_include_the_pi": {
         "message": "Deze build bevat de Pi-companionextensie niet. Bouw Phi Browser opnieuw en probeer het opnieuw."
+    },
+    "this_can_take_a_few_minutes": {
+        "message": "Dit kan een paar minuten duren."
     },
     "this_deletes_the_phi_account_and_everything": {
         "message": "Hiermee verwijder je het Phi-account %@ en alles wat Phi op deze Mac heeft opgeslagen: browsegeschiedenis, cookies, wachtwoorden, bladwijzers en Spaces. Niets daarvan kan worden hersteld.\n\nZodra het verwijderingsverzoek is ingediend, logt Phi je uit en stopt het."
@@ -3992,6 +4145,9 @@
     "will_be_deleted_3ce758": {
         "message": "%@ wordt verwijderd."
     },
+    "will_create_and": {
+        "message": "Er worden %1$@ en %2$@ aangemaakt."
+    },
     "window": {
         "message": "Venster"
     },
@@ -4007,6 +4163,9 @@
     "you": {
         "message": "Jij"
     },
+    "you_already_migrated_from_for_this_account": {
+        "message": "Je hebt voor dit account al uit %@ gemigreerd. Opnieuw migreren maakt een tweede set Profielen en Spaces aan: de eerste wordt niet bijgewerkt."
+    },
     "you_have_more_than_one_profile_so": {
         "message": "Je hebt meer dan één profiel, dus elk profiel beheert zijn eigen instellingen."
     },
@@ -4018,6 +4177,9 @@
     },
     "you_re_using_phi_without_signing_in": {
         "message": "Je gebruikt Phi zonder in te loggen"
+    },
+    "you_ve_migrated_from_this_browser_into": {
+        "message": "Je hebt al eerder uit deze browser naar dit account gemigreerd. Phi maakt een nieuwe set Profielen en Spaces aan: alles wat je al hebt blijft precies zoals het is."
     },
     "your_account_is_ready_and_your_data": {
         "message": "Je account is klaar en je gegevens zijn veilig. Phi probeert de oude gastgegevens de volgende keer bij het starten opnieuw te verwijderen."
@@ -4069,6 +4231,9 @@
     },
     "your_spaces": {
         "message": "Je Spaces"
+    },
+    "zen_is_running_quit_it_before_you": {
+        "message": "Zen is actief. Stop Zen voordat je begint, zodat de laatste wijzigingen meekomen: Phi leest kopieën van de bestanden van Zen, en alles wat Zen nog niet heeft bewaard zou ontbreken."
     },
     "zoom_in": {
         "message": "Zoom in"

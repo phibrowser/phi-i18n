@@ -11,6 +11,12 @@
     "a_profile_with_this_name_already_exists": {
         "message": "Un profil portant ce nom existe déjà."
     },
+    "a_space_is_using_this_profile_delete": {
+        "message": "Un Espace utilise ce profil. Supprimez d'abord cet Espace ou attribuez-lui un autre profil."
+    },
+    "a_space_is_using_this_profile_delete_a6279e": {
+        "message": "Un Espace utilise ce profil. Supprimez d'abord cet Espace ou attribuez-lui un autre profil."
+    },
     "about_version_company_name": {
         "message": "Phinomenon"
     },
@@ -79,6 +85,9 @@
     },
     "add_top_split": {
         "message": "Ajouter un Split en haut"
+    },
+    "added": {
+        "message": "Ajouts : %d"
     },
     "additional_browser_settings": {
         "message": "Paramètres supplémentaires du navigateur"
@@ -347,6 +356,9 @@
     "back": {
         "message": "Retour"
     },
+    "back_6817d2": {
+        "message": "Retour"
+    },
     "back_6f24ff": {
         "message": "Retour"
     },
@@ -464,6 +476,9 @@
     "bookmarks_c9fbb8": {
         "message": "Favoris"
     },
+    "bookmarks_couldn_t_be_saved": {
+        "message": "Les favoris n'ont pas pu être enregistrés"
+    },
     "bookmarks_e84566": {
         "message": "Favoris"
     },
@@ -487,9 +502,6 @@
     },
     "browser_data_can_t_be_imported_into": {
         "message": "Les données du navigateur ne peuvent pas être importées en navigation privée. Passez à un Espace normal ou à une fenêtre normale, puis réessayez."
-    },
-    "browser_data_cb6965": {
-        "message": "Données du navigateur"
     },
     "browser_memory": {
         "message": "Mémoire du navigateur"
@@ -515,6 +527,9 @@
     "can_now_use_the_phi_browser_skill_b00121": {
         "message": "%@ peut désormais utiliser le skill phi-browser. Redémarrez les agents nouvellement configurés ; dans Pi, /reload suffit."
     },
+    "can_t_be_changed_while_a_migration": {
+        "message": "Modification impossible pendant une migration depuis un autre navigateur."
+    },
     "can_t_change_this_space_s_profile": {
         "message": "Impossible de changer le profil de cet Espace pour le moment"
     },
@@ -525,6 +540,9 @@
         "message": "Impossible d'importer les données du navigateur"
     },
     "cancel": {
+        "message": "Annuler"
+    },
+    "cancel_042e54": {
         "message": "Annuler"
     },
     "cancel_0bd68f": {
@@ -573,6 +591,9 @@
         "message": "Annuler"
     },
     "cancel_7d73f2": {
+        "message": "Annuler"
+    },
+    "cancel_7e8473": {
         "message": "Annuler"
     },
     "cancel_9b3e6c": {
@@ -740,6 +761,9 @@
     "choose_a_download_location_for_this_profile": {
         "message": "Choisissez un emplacement de téléchargement pour ce profil."
     },
+    "choose_at_least_one_space_to_migrate": {
+        "message": "Choisissez au moins un Espace à migrer."
+    },
     "choose_file": {
         "message": "Choisir un fichier…"
     },
@@ -795,6 +819,9 @@
         "message": "Cloner vers un Espace"
     },
     "close": {
+        "message": "Fermer"
+    },
+    "close_2fe5df": {
         "message": "Fermer"
     },
     "close_412a1b": {
@@ -926,6 +953,9 @@
     "connectors_for_profile": {
         "message": "Connecteurs du profil"
     },
+    "container": {
+        "message": "Conteneur %d"
+    },
     "content_context_openlinkinspace": {
         "message": "Ouvrir le lien dans l'espace <ph name=\"SPACE\"/>"
     },
@@ -1046,6 +1076,9 @@
     "could_not_stage_the_ai_data_archive": {
         "message": "Impossible de préparer l'archive de données IA pour la sauvegarde."
     },
+    "couldn_t_be_imported": {
+        "message": "Importation impossible"
+    },
     "couldn_t_delete_profile": {
         "message": "Impossible de supprimer le profil"
     },
@@ -1084,6 +1117,12 @@
     },
     "create_space": {
         "message": "Créer l'Espace"
+    },
+    "created_and": {
+        "message": "%1$@ et %2$@ ont été créés."
+    },
+    "creating": {
+        "message": "Création de %@"
     },
     "credential": {
         "message": "Identifiant"
@@ -1691,6 +1730,9 @@
     "go_back_and_try_again": {
         "message": "Revenir en arrière et réessayer"
     },
+    "go_to": {
+        "message": "Accéder à %@"
+    },
     "go_to_space": {
         "message": "Aller à l'Espace « %@ »"
     },
@@ -1735,6 +1777,12 @@
     },
     "history": {
         "message": "Historique"
+    },
+    "history_cookies": {
+        "message": "Historique et cookies"
+    },
+    "history_cookies_extensions": {
+        "message": "Historique, cookies et extensions"
     },
     "hold_command_and_option_while_clicking_a": {
         "message": "Maintenez les touches Commande et Option enfoncées en cliquant sur un lien pour l'ouvrir dans une fenêtre Kiosk."
@@ -1804,6 +1852,12 @@
     },
     "import_failed": {
         "message": "Échec de l'importation"
+    },
+    "import_finished": {
+        "message": "Importation terminée"
+    },
+    "import_from_another_browser": {
+        "message": "Importer depuis un autre navigateur…"
     },
     "import_from_arc": {
         "message": "Arc"
@@ -1876,6 +1930,9 @@
     },
     "install_on_quit": {
         "message": "Installer en quittant"
+    },
+    "install_started_for": {
+        "message": "Installation lancée pour %d"
     },
     "install_the_phi_browser_skill": {
         "message": "Installer le Skill phi-browser"
@@ -2021,6 +2078,9 @@
     "logins_for_phi_and_agent_requests_held": {
         "message": "Identifiants pour Phi et pour les requêtes des agents, conservés par un utilitaire distinct : les mots de passe ne transitent jamais par le processus du navigateur."
     },
+    "macos_will_ask_to_use_s_encryption": {
+        "message": "macOS demandera l'autorisation d'utiliser la clé de chiffrement de %@ pour que vos cookies puissent être transférés. Choisissez « Toujours autoriser », sinon la demande réapparaîtra pour chaque Profil."
+    },
     "manage_bookmarks": {
         "message": "Gérer les favoris"
     },
@@ -2047,6 +2107,27 @@
     },
     "message_the_agent": {
         "message": "Envoyer un message à l'agent (→ %@)"
+    },
+    "migrate_again": {
+        "message": "Migrer à nouveau"
+    },
+    "migrate_from_again": {
+        "message": "Migrer à nouveau depuis %@ ?"
+    },
+    "migrate_from_another_browser": {
+        "message": "Migrer depuis un autre navigateur…"
+    },
+    "migrate_to_phi": {
+        "message": "Migrer vers Phi"
+    },
+    "migrate_to_phi_217577": {
+        "message": "Migrer vers Phi"
+    },
+    "migrating": {
+        "message": "Migration en cours…"
+    },
+    "migration_finished": {
+        "message": "Migration terminée"
     },
     "min_ago": {
         "message": "Il y a %d min"
@@ -2315,6 +2396,12 @@
     "no_bookmarks_in_this_space": {
         "message": "Aucun favori dans cet Espace"
     },
+    "no_bookmarks_this_space_had_none_in": {
+        "message": "Aucun favori : cet Espace n'en avait pas dans %@"
+    },
+    "no_bookmarks_were_saved": {
+        "message": "Aucun favori n'a été enregistré"
+    },
     "no_browser_memory_either": {
         "message": "Pas de Mémoire de navigation non plus"
     },
@@ -2372,8 +2459,17 @@
     "no_share_actions_available_929d34": {
         "message": "Aucune action de partage disponible"
     },
+    "no_spaces": {
+        "message": "Aucun Espace"
+    },
     "no_standing_approvals": {
         "message": "Aucune approbation permanente"
+    },
+    "none_found": {
+        "message": "Aucune extension trouvée"
+    },
+    "none_in": {
+        "message": "Aucun dans %@"
     },
     "normal": {
         "message": "Normal"
@@ -2393,6 +2489,9 @@
     "not_connected_f563cc": {
         "message": "Non connecté"
     },
+    "not_created": {
+        "message": "Non créé"
+    },
     "not_linked": {
         "message": "Non associé"
     },
@@ -2411,11 +2510,17 @@
     "not_used": {
         "message": "Non utilisé"
     },
+    "nothing_was_created": {
+        "message": "Rien n'a été créé."
+    },
     "nothing_yet_agent_activity_appears_here_live": {
         "message": "Rien pour l'instant. L'activité des agents s'affiche ici en direct."
     },
     "notifications": {
         "message": "Notifications"
+    },
+    "of_couldn_t_be_added": {
+        "message": "Impossible d'ajouter %1$d sur %2$d"
     },
     "off": {
         "message": "Désactivé"
@@ -2630,11 +2735,23 @@
     "phi_couldn_t_move_your_guest_data": {
         "message": "Phi n'a pas pu transférer vos données du mode Invité. Vos données sont en sécurité et vous pouvez réessayer."
     },
+    "phi_couldn_t_read_s_data_open": {
+        "message": "Phi n'a pas pu lire les données de %1$@. Ouvrez %1$@ une fois pour qu'il enregistre sa barre latérale, puis réessayez."
+    },
     "phi_couldn_t_securely_clear_the_previous": {
         "message": "Phi n'a pas pu effacer de manière sécurisée la session précédente. Réessayez avant de continuer en tant qu'invité."
     },
+    "phi_couldn_t_tell_which_profile_this": {
+        "message": "Phi n'a pas pu déterminer à quel profil cet Espace appartient, il sera donc placé dans %@."
+    },
+    "phi_didn_t_find_arc_dia_or": {
+        "message": "Phi n'a trouvé ni Arc, ni Dia, ni Zen sur ce Mac."
+    },
     "phi_fills_the_saved_login_into_the": {
         "message": "Phi remplit lui-même la page avec l'identifiant enregistré. L'agent déclenche le remplissage mais ne reçoit jamais le nom d'utilisateur ni le mot de passe."
+    },
+    "phi_found_but_there_s_nothing_here": {
+        "message": "Phi a trouvé %1$@, mais il n'y a rien à migrer ici : aucun profil %2$@ ne contient de données que Phi puisse déplacer."
     },
     "phi_is_made_possible_by_the_open": {
         "message": "Phi est rendu possible par le projet open source %1$@, les %2$@ de Chromium, ainsi que d'autres %3$@."
@@ -2656,6 +2773,9 @@
     },
     "phi_picture_in_picture_park_control_text": {
         "message": "Ancrer au bord de l'écran"
+    },
+    "phi_recreates_your_profiles_and_spaces_from": {
+        "message": "Phi recrée vos Profils et vos Espaces depuis un autre navigateur. Il ne fait que créer : rien de ce que vous avez déjà n'est modifié."
     },
     "phi_releases_the_saved_value_to_the": {
         "message": "Phi transmet la valeur enregistrée à l'agent afin que la commande qu'il exécute puisse l'utiliser. Phi ne peut pas empêcher l'agent de conserver cette valeur : n'accordez votre approbation qu'aux agents et aux sites en lesquels vous avez confiance."
@@ -2710,6 +2830,9 @@
     },
     "pinned_tabs_from_the_existing_destinations_will": {
         "message": "Les onglets épinglés des destinations existantes seront fusionnés. Les copies identiques seront regroupées, tandis que les versions différentes seront conservées."
+    },
+    "pinned_tabs_mk_7a66": {
+        "message": "Onglets épinglés"
     },
     "please_quit_safari_before_importing_its_data": {
         "message": "Quittez Safari avant d'importer ses données."
@@ -2783,6 +2906,12 @@
     "profile_name": {
         "message": "Nom du profil"
     },
+    "profile_not_created": {
+        "message": "Profil non créé"
+    },
+    "profile_of": {
+        "message": "Profil %1$d sur %2$d"
+    },
     "profiles": {
         "message": "Profils"
     },
@@ -2818,6 +2947,9 @@
     },
     "reauthentication_needed": {
         "message": "Nouvelle authentification requise."
+    },
+    "recent_history": {
+        "message": "Historique récent"
     },
     "recently_closed": {
         "message": "Récemment fermés"
@@ -3031,6 +3163,9 @@
     },
     "review_and_revoke_which_agents_may_use": {
         "message": "Vérifiez et révoquez les agents autorisés à utiliser vos identifiants enregistrés sans demander confirmation"
+    },
+    "review_what_will_be_created": {
+        "message": "Vérifiez ce qui sera créé"
     },
     "revoke": {
         "message": "Révoquer"
@@ -3326,6 +3461,9 @@
     "sign_in_f425c4": {
         "message": "Se connecter"
     },
+    "sign_in_to_phi_or_continue_as": {
+        "message": "Avant de migrer, connectez-vous à Phi ou continuez en tant qu'invité."
+    },
     "sign_in_to_the_account_you_previously": {
         "message": "Connectez-vous au compte que vous aviez sélectionné pour terminer le transfert de vos données du mode Invité."
     },
@@ -3416,6 +3554,12 @@
     "space_name": {
         "message": "Nom de l'Espace"
     },
+    "space_not_created": {
+        "message": "Espace non créé"
+    },
+    "space_of": {
+        "message": "Espace %1$d sur %2$d"
+    },
     "spaces": {
         "message": "Espaces"
     },
@@ -3445,6 +3589,9 @@
     },
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "Les approbations permanentes peuvent être vérifiées et révoquées à tout moment dans les Paramètres."
+    },
+    "start_migration": {
+        "message": "Démarrer la migration"
     },
     "starting_restore": {
         "message": "Démarrage de la restauration…"
@@ -3560,6 +3707,9 @@
     "the_phi_browser_data_folder_is_no": {
         "message": "Le dossier de données du navigateur Phi n'est plus disponible."
     },
+    "the_pinned_tab_scope_can_t_be": {
+        "message": "La portée des onglets épinglés ne peut pas être modifiée pendant une migration depuis un autre navigateur. Réessayez une fois celle-ci terminée."
+    },
     "the_restored_phi_user_data_is_not": {
         "message": "Les données utilisateur Phi restaurées ne sont pas un dossier."
     },
@@ -3592,6 +3742,9 @@
     },
     "this_build_doesn_t_include_the_pi": {
         "message": "Cette version ne contient pas l'extension compagnon Pi. Recompilez Phi Browser et réessayez."
+    },
+    "this_can_take_a_few_minutes": {
+        "message": "Cette opération peut prendre quelques minutes."
     },
     "this_deletes_the_phi_account_and_everything": {
         "message": "Cette action supprime le compte Phi %@ et tout ce que Phi a stocké sur ce Mac : historique de navigation, cookies, mots de passe, favoris et Espaces. Rien de tout cela ne pourra être récupéré.\n\nUne fois la demande de suppression envoyée, Phi vous déconnecte et se ferme."
@@ -3992,6 +4145,9 @@
     "will_be_deleted_3ce758": {
         "message": "Cela supprimera %@."
     },
+    "will_create_and": {
+        "message": "%1$@ et %2$@ seront créés."
+    },
     "window": {
         "message": "Fenêtre"
     },
@@ -4007,6 +4163,9 @@
     "you": {
         "message": "Vous"
     },
+    "you_already_migrated_from_for_this_account": {
+        "message": "Vous avez déjà migré depuis %@ pour ce compte. Migrer à nouveau crée un second ensemble de Profils et d'Espaces, sans mettre à jour le premier."
+    },
     "you_have_more_than_one_profile_so": {
         "message": "Vous avez plusieurs profils, chacun gère donc ses propres paramètres."
     },
@@ -4018,6 +4177,9 @@
     },
     "you_re_using_phi_without_signing_in": {
         "message": "Vous utilisez Phi sans être connecté"
+    },
+    "you_ve_migrated_from_this_browser_into": {
+        "message": "Vous avez déjà migré depuis ce navigateur vers ce compte. Phi créera un nouvel ensemble de Profils et d'Espaces : ceux que vous avez déjà restent exactement tels quels."
     },
     "your_account_is_ready_and_your_data": {
         "message": "Votre compte est prêt et vos données sont en sécurité. Phi tentera à nouveau de supprimer les anciennes données du mode Invité à son prochain démarrage."
@@ -4069,6 +4231,9 @@
     },
     "your_spaces": {
         "message": "Vos Espaces"
+    },
+    "zen_is_running_quit_it_before_you": {
+        "message": "Zen est en cours d'exécution. Quittez-le avant de commencer pour que ses derniers changements soient transférés : Phi lit des copies des fichiers de Zen, et tout ce que Zen n'a pas encore enregistré serait ignoré."
     },
     "zoom_in": {
         "message": "Zoom avant"
