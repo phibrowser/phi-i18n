@@ -51,7 +51,9 @@ else:
 PYEOF
 echo "== ear check"
 if pgrep -f "phi-i18n/slack/slack_loop.sh" > /dev/null; then
-  echo "ear armed"
+  echo "ear armed (loop)"
+elif pgrep -f "SLACK EVENT" > /dev/null; then
+  echo "ear armed (monitor)"
 else
-  echo "EAR DOWN: re-arm slack_loop.sh as a tracked background task NOW"
+  echo "EAR DOWN: arm the persistent Monitor (HANDOUT fallback-ear section) or slack_loop.sh NOW"
 fi
