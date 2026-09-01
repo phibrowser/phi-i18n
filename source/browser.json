@@ -471,6 +471,10 @@
         "message": "Automatically download and install updates in the future",
         "description": "Location: Browser. Update window - Automatic update download checkbox"
     },
+    "automatically_peek_from_pinned_tabs_and_bookmarks": {
+        "message": "Automatically peek from pinned tabs and bookmarks",
+        "description": "Location: Browser. Navigations settings - Toggle title for automatically opening cross-site links from pinned tabs and bookmarks in Peek View"
+    },
     "back": {
         "message": "Back",
         "description": "Location: Browser. CDP consent - return from the deny scope step to the allow-or-deny decision"
@@ -2035,6 +2039,10 @@
         "message": "example.com",
         "description": "Location: Browser. URL rule value placeholder for Domain suffix match"
     },
+    "expand": {
+        "message": "Expand",
+        "description": "Location: Browser. Agent control pill - expand the collapsed pill"
+    },
     "expand_group": {
         "message": "Expand Group",
         "description": "Location: Browser. Tab group context menu - Expand a collapsed group"
@@ -2739,6 +2747,10 @@
         "message": "Links opened from other apps use a focused, single-page Kiosk window.",
         "description": "Location: Browser. Navigations settings - Explanation of the external-links Kiosk toggle"
     },
+    "links_that_leave_a_pinned_tab_s": {
+        "message": "Links that leave a pinned tab’s or bookmark’s site open in a Peek panel instead of a new tab.",
+        "description": "Location: Browser. Navigations settings - Explanation of the automatic Peek View toggle for pinned tabs and bookmarks"
+    },
     "links_the_skill_bundled_in_this_app": {
         "message": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Phi over the DevTools Protocol. Pi also gets a companion extension that wakes idle sessions from Agent Transcript commands. Requires Node 22+.",
         "description": "Location: Browser. Developer settings - Explanation for the phi-browser skill installer"
@@ -2842,6 +2854,10 @@
     "min_ago": {
         "message": "%d min ago",
         "description": "Location: Browser. Download item row - Relative time showing minutes since download completed"
+    },
+    "minimise": {
+        "message": "Minimise",
+        "description": "Location: Browser. Agent control pill - collapse the pill into the corner"
     },
     "mint": {
         "message": "Mint",
@@ -3009,7 +3025,7 @@
     },
     "new_incognito_space": {
         "message": "New Incognito Space",
-        "description": "Location: Browser. File menu - Create a new Incognito Space and bring it to the front"
+        "description": "Location: Browser. File menu and Shortcuts settings - Command title for creating a new Incognito Space"
     },
     "new_incognito_tab": {
         "message": "New Incognito Tab",
