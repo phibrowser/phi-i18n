@@ -89,23 +89,20 @@
     "added": {
         "message": "Añadidas: %d"
     },
-    "additional_browser_settings": {
-        "message": "Configuración adicional del navegador"
-    },
     "additional_info_optional": {
         "message": "Información adicional (opcional)"
     },
     "address": {
         "message": "Dirección"
     },
+    "advanced": {
+        "message": "Avanzado"
+    },
     "agent": {
         "message": "Agente"
     },
     "agent_03b075": {
         "message": "Agente"
-    },
-    "agent_access_permissions_and_the_password_manager": {
-        "message": "El acceso de agentes, los permisos y el administrador de contraseñas están en la pestaña Desarrollador."
     },
     "agent_autoview": {
         "message": "Vista automática del agente"
@@ -251,9 +248,6 @@
     "always_show_bookmark_bar": {
         "message": "Mostrar siempre la barra de marcadores"
     },
-    "always_show_full_url": {
-        "message": "Mostrar siempre la URL completa"
-    },
     "always_show_url_path": {
         "message": "Mostrar siempre la ruta de la URL"
     },
@@ -293,9 +287,6 @@
     "appearance": {
         "message": "Apariencia"
     },
-    "applies_to_copy_link_to_highlight_in": {
-        "message": "Se aplica a “Copiar enlace al texto destacado” del menú contextual. Desactiva esta opción para copiar el enlace completo."
-    },
     "apply_theme_to_text_selection_on_web": {
         "message": "Aplicar el tema a la selección de texto en las páginas web"
     },
@@ -334,9 +325,6 @@
     },
     "auto_denies_in_s": {
         "message": "Se rechaza automáticamente en %d s"
-    },
-    "auto_picture_in_picture": {
-        "message": "Imagen en imagen automática"
     },
     "autofill_only": {
         "message": "Solo autocompletar"
@@ -1304,9 +1292,6 @@
     "developer_df2e49": {
         "message": "Desarrollador"
     },
-    "developer_mode": {
-        "message": "Modo de desarrollador"
-    },
     "discard": {
         "message": "Descartar"
     },
@@ -2252,9 +2237,6 @@
     "never_ask_again": {
         "message": "No volver a preguntar"
     },
-    "never_pop_out_automatically_manual_picture_in": {
-        "message": "Nunca se abre la ventana flotante automáticamente; la imagen en imagen manual sigue funcionando"
-    },
     "new_conversation": {
         "message": "Nueva conversación"
     },
@@ -2507,9 +2489,6 @@
     "none_in": {
         "message": "Ninguna en %@"
     },
-    "normal": {
-        "message": "Normal"
-    },
     "not_assigned_to_a_profile": {
         "message": "No asignado a ningún Perfil"
     },
@@ -2557,9 +2536,6 @@
     },
     "of_couldn_t_be_added": {
         "message": "Sin añadir: %1$d de %2$d"
-    },
-    "off": {
-        "message": "Desactivado"
     },
     "official_phi_link_telegram_bot": {
         "message": "Bot de Telegram oficial de Phi Link"
@@ -2726,9 +2702,6 @@
     "organize_tabs_with_ai_e4d5d3": {
         "message": "Organizar las pestañas con IA"
     },
-    "park_at_edge": {
-        "message": "Acoplar al borde"
-    },
     "passwords_manager": {
         "message": "Administrador de contraseñas"
     },
@@ -2834,9 +2807,6 @@
     "phi_sentinel_service_is_unavailable_check_whether_95f407": {
         "message": "El servicio de Phi Sentinel no está disponible. Comprueba si se inició correctamente."
     },
-    "phi_starts_with_a_new_window_closing": {
-        "message": "Phi se abre con una ventana nueva. Al cerrar una ventana, es posible que se cierre tu sesión en algunos sitios."
-    },
     "phi_will_quit_and_restore_the_current": {
         "message": "Phi se cerrará y restaurará %@. Se reemplazarán la app actual y los datos de usuario seleccionados."
     },
@@ -2881,12 +2851,6 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "Vuelve a autenticarte para restaurar las funciones de la cuenta."
-    },
-    "pop_out_playing_video_parked_at_the": {
-        "message": "Muestra en una ventana flotante el contenido en reproducción y lo deja en el borde de la pantalla hasta que hagas clic en él"
-    },
-    "pop_out_playing_video_when_you_switch": {
-        "message": "Muestra en una ventana flotante el contenido en reproducción cuando cambies de pestaña o de app"
     },
     "pop_up": {
         "message": "Mostrar automáticamente"
@@ -3122,9 +3086,6 @@
     "reopen_closed_tab_de7200": {
         "message": "Volver a abrir pestaña cerrada"
     },
-    "reopen_your_windows_and_tabs_the_next": {
-        "message": "Se volverán a abrir tus ventanas y pestañas la próxima vez que abras Phi."
-    },
     "replace": {
         "message": "Reemplazar"
     },
@@ -3172,9 +3133,6 @@
     },
     "restore_all_shortcuts": {
         "message": "Restablecer todos los atajos"
-    },
-    "restore_last_session": {
-        "message": "Restaurar la última sesión"
     },
     "restore_time_machine_backup": {
         "message": "¿Restaurar la copia de seguridad de Time Machine?"
@@ -3440,14 +3398,11 @@
     "shortcuts_b6a37f": {
         "message": "Atajos de teclado"
     },
-    "shorten_links_to_selected_text": {
-        "message": "Acortar enlaces al texto seleccionado"
-    },
     "show": {
         "message": "Mostrar"
     },
-    "show_a_preview_card_when_hovering_over": {
-        "message": "Mostrar una tarjeta de vista previa al pasar el cursor sobre una pestaña"
+    "show_a_dot_on_inactive_pinned_tabs": {
+        "message": "Muestra un punto en las pestañas fijadas inactivas y en los marcadores que están abiertos actualmente."
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "Mostrar la barra de marcadores en la nueva pestaña"
@@ -3475,6 +3430,9 @@
     },
     "show_kiosk_open_in_menu": {
         "message": "Mostrar el menú “Abrir en” de Kiosk"
+    },
+    "show_open_tab_indicators": {
+        "message": "Mostrar indicadores de pestañas abiertas"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "Mostrar sugerencias proactivas en la página de nueva pestaña"
@@ -3952,9 +3910,6 @@
     },
     "turned_away_without_asking_you_from_a": {
         "message": "Se les rechaza sin preguntarte, por una denegación de «No volver a preguntar» o «Durante 30 min». Si desbloqueas uno, volverá a preguntarte la próxima vez que se conecte."
-    },
-    "turning_developer_mode_off_turns_off_agent": {
-        "message": "Al desactivar el modo de desarrollador se desactivan el acceso de los agentes y el gestor de contraseñas para agentes, y se revocan todos los agentes permitidos y las aprobaciones de credenciales. Un agente que se conecte más tarde puede pedirte que lo vuelvas a activar."
     },
     "two_step_login_code_if_enabled": {
         "message": "Código de inicio de sesión en dos pasos (si está activado)"

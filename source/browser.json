@@ -121,7 +121,7 @@
     },
     "additional_browser_settings": {
         "message": "Additional browser settings",
-        "description": "Location: Browser. General settings - Title for always more settings"
+        "description": "Location: Browser. Advanced settings - Title for always more settings"
     },
     "additional_info_optional": {
         "message": "Additional info (optional)",
@@ -130,6 +130,10 @@
     "address": {
         "message": "Address",
         "description": "Location: Browser. Bookmark manager - Header for the bookmark address column"
+    },
+    "advanced": {
+        "message": "Advanced",
+        "description": "Location: Browser. Settings - Tab title for advanced settings"
     },
     "agent": {
         "message": "Agent",
@@ -141,7 +145,7 @@
     },
     "agent_access_permissions_and_the_password_manager": {
         "message": "Agent access, permissions, and the password manager live in the Developer tab.",
-        "description": "Location: Browser. General settings - Hint under the developer mode toggle pointing at the Developer settings pane"
+        "description": "Location: Browser. Advanced settings - Hint under the developer mode toggle pointing at the Developer settings pane"
     },
     "agent_autoview": {
         "message": "Agent Autoview",
@@ -337,7 +341,7 @@
     },
     "always_show_full_url": {
         "message": "Always show full URL",
-        "description": "Location: Browser. General settings - Toggle title for always showing full URL in address bar"
+        "description": "Location: Browser. Advanced settings - Toggle title for always showing full URL in address bar"
     },
     "always_show_url_path": {
         "message": "Always Show URL Path",
@@ -393,7 +397,7 @@
     },
     "applies_to_copy_link_to_highlight_in": {
         "message": "Applies to “Copy Link to Highlight” in the right-click menu. Turn off to copy the full link.",
-        "description": "Location: Browser. General settings - Explains where the short-link toggle applies and that disabling it copies the full link to the selected text"
+        "description": "Location: Browser. Advanced settings - Explains where the short-link toggle applies and that disabling it copies the full link to the selected text"
     },
     "apply_theme_to_text_selection_on_web": {
         "message": "Apply theme to text selection on web pages",
@@ -449,7 +453,7 @@
     },
     "auto_picture_in_picture": {
         "message": "Auto picture-in-picture",
-        "description": "Location: Browser. General settings - Row title for the three-state auto picture-in-picture mode"
+        "description": "Location: Browser. Advanced settings - Row title for the three-state auto picture-in-picture mode"
     },
     "autofill_only": {
         "message": "Autofill only",
@@ -1733,7 +1737,7 @@
     },
     "developer": {
         "message": "Developer",
-        "description": "Location: Browser. General settings - Developer section title"
+        "description": "Location: Browser. Advanced settings - Developer section title"
     },
     "developer_df2e49": {
         "message": "Developer",
@@ -1741,7 +1745,7 @@
     },
     "developer_mode": {
         "message": "Developer mode",
-        "description": "Location: Browser. General settings - Toggle title for developer mode; turning it off also disables agent access and the agent password manager"
+        "description": "Location: Browser. Advanced settings - Toggle title for developer mode; turning it off also disables agent access and the agent password manager"
     },
     "discard": {
         "message": "Discard",
@@ -3005,7 +3009,7 @@
     },
     "never_pop_out_automatically_manual_picture_in": {
         "message": "Never pop out automatically; manual picture-in-picture still works",
-        "description": "Location: Browser. General settings - Hint for the Off auto picture-in-picture mode"
+        "description": "Location: Browser. Advanced settings - Hint for the Off auto picture-in-picture mode"
     },
     "new_conversation": {
         "message": "New Conversation",
@@ -3781,7 +3785,7 @@
     },
     "phi_starts_with_a_new_window_closing": {
         "message": "Phi starts with a new window. Closing a window may sign you out of some sites.",
-        "description": "Location: Browser. General settings - Hint shown when restore-last-session is off, noting session cookies may be cleared when a window closes"
+        "description": "Location: Browser. Advanced settings - Hint shown when restore-last-session is off, noting session cookies may be cleared when a window closes"
     },
     "phi_will_quit_and_restore_the_current": {
         "message": "Phi will quit and restore %@. The current app and selected user data will be replaced.",
@@ -3845,11 +3849,11 @@
     },
     "pop_out_playing_video_parked_at_the": {
         "message": "Pop out playing video, parked at the screen edge until you click it",
-        "description": "Location: Browser. General settings - Hint for the Park at edge auto picture-in-picture mode"
+        "description": "Location: Browser. Advanced settings - Hint for the Park at edge auto picture-in-picture mode"
     },
     "pop_out_playing_video_when_you_switch": {
         "message": "Pop out playing video when you switch tabs or apps",
-        "description": "Location: Browser. General settings - Hint for the Normal auto picture-in-picture mode"
+        "description": "Location: Browser. Advanced settings - Hint for the Normal auto picture-in-picture mode"
     },
     "pop_up": {
         "message": "Pop up",
@@ -4165,7 +4169,7 @@
     },
     "reopen_your_windows_and_tabs_the_next": {
         "message": "Reopen your windows and tabs the next time you open Phi.",
-        "description": "Location: Browser. General settings - Hint shown when restore-last-session is on"
+        "description": "Location: Browser. Advanced settings - Hint shown when restore-last-session is on"
     },
     "replace": {
         "message": "Replace",
@@ -4233,7 +4237,7 @@
     },
     "restore_last_session": {
         "message": "Restore last session",
-        "description": "Location: Browser. General settings - Row title for the app-level restore-previous-session toggle"
+        "description": "Location: Browser. Advanced settings - Row title for the app-level restore-previous-session toggle"
     },
     "restore_time_machine_backup": {
         "message": "Restore Time Machine Backup?",
@@ -4589,15 +4593,19 @@
     },
     "shorten_links_to_selected_text": {
         "message": "Shorten links to selected text",
-        "description": "Location: Browser. General settings - Toggle that controls whether Copy Link to Highlight generates a short link"
+        "description": "Location: Browser. Advanced settings - Toggle that controls whether Copy Link to Highlight generates a short link"
     },
     "show": {
         "message": "Show",
         "description": "Location: Browser. Phi Link - Show token plaintext button"
     },
+    "show_a_dot_on_inactive_pinned_tabs": {
+        "message": "Show a dot on inactive pinned tabs and bookmarks that are currently open.",
+        "description": "Location: Browser. Advanced settings - Explains which tabs and bookmarks display the open-state dot"
+    },
     "show_a_preview_card_when_hovering_over": {
         "message": "Show a preview card when hovering over a tab",
-        "description": "Location: Browser. General settings - Toggle title for showing custom preview cards when hovering over open tabs"
+        "description": "Location: Browser. Advanced settings - Toggle title for showing custom preview cards when hovering over open tabs"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "Show Bookmark Bar on New Tab",
@@ -4634,6 +4642,10 @@
     "show_kiosk_open_in_menu": {
         "message": "Show Kiosk \"Open in\" Menu",
         "description": "Location: Browser. Shortcuts settings - Show the Open in menu for selecting a destination Space in a Kiosk window"
+    },
+    "show_open_tab_indicators": {
+        "message": "Show open tab indicators",
+        "description": "Location: Browser. Advanced settings - Toggle title for showing dots on inactive open pinned tabs and bookmarks"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "Show proactive suggestions on the new tab page",
@@ -5273,7 +5285,7 @@
     },
     "turning_developer_mode_off_turns_off_agent": {
         "message": "Turning developer mode off turns off agent access and the agent password manager, and revokes every allowed agent and credential approval. An agent that connects later can ask you to turn it back on.",
-        "description": "Location: Browser. General settings - Hint under the developer mode toggle explaining the kill-switch behavior, the revoked approvals, and that an agent may request it back"
+        "description": "Location: Browser. Advanced settings - Hint under the developer mode toggle explaining the kill-switch behavior, the revoked approvals, and that an agent may request it back"
     },
     "two_step_login_code_if_enabled": {
         "message": "Two-step login code (if enabled)",

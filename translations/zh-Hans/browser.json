@@ -89,23 +89,20 @@
     "added": {
         "message": "已添加 %d 个"
     },
-    "additional_browser_settings": {
-        "message": "更多浏览器设置"
-    },
     "additional_info_optional": {
         "message": "补充信息（可选）"
     },
     "address": {
         "message": "地址"
     },
+    "advanced": {
+        "message": "高级"
+    },
     "agent": {
         "message": "智能体"
     },
     "agent_03b075": {
         "message": "智能体"
-    },
-    "agent_access_permissions_and_the_password_manager": {
-        "message": "智能体访问、权限和密码管理器都在「开发者」标签页中。"
     },
     "agent_autoview": {
         "message": "智能体自动视图"
@@ -251,9 +248,6 @@
     "always_show_bookmark_bar": {
         "message": "始终显示书签栏"
     },
-    "always_show_full_url": {
-        "message": "始终显示完整网址"
-    },
     "always_show_url_path": {
         "message": "始终显示网址路径"
     },
@@ -293,9 +287,6 @@
     "appearance": {
         "message": "外观"
     },
-    "applies_to_copy_link_to_highlight_in": {
-        "message": "适用于右键菜单中的「复制指向突出显示的内容的链接」。关闭后将复制完整链接。"
-    },
     "apply_theme_to_text_selection_on_web": {
         "message": "将主题应用于网页文本选中效果"
     },
@@ -334,9 +325,6 @@
     },
     "auto_denies_in_s": {
         "message": "%d 秒后自动拒绝"
-    },
-    "auto_picture_in_picture": {
-        "message": "自动画中画"
     },
     "autofill_only": {
         "message": "仅自动填充"
@@ -1304,9 +1292,6 @@
     "developer_df2e49": {
         "message": "开发者"
     },
-    "developer_mode": {
-        "message": "开发者模式"
-    },
     "discard": {
         "message": "舍弃"
     },
@@ -2252,9 +2237,6 @@
     "never_ask_again": {
         "message": "不再询问"
     },
-    "never_pop_out_automatically_manual_picture_in": {
-        "message": "永不自动弹出；手动画中画仍然可用"
-    },
     "new_conversation": {
         "message": "新建对话"
     },
@@ -2507,9 +2489,6 @@
     "none_in": {
         "message": "%@ 中没有"
     },
-    "normal": {
-        "message": "标准"
-    },
     "not_assigned_to_a_profile": {
         "message": "未分配给任何个人资料"
     },
@@ -2557,9 +2536,6 @@
     },
     "of_couldn_t_be_added": {
         "message": "%2$d 个中有 %1$d 个未能添加"
-    },
-    "off": {
-        "message": "关闭"
     },
     "official_phi_link_telegram_bot": {
         "message": "Phi Link 官方 Telegram 机器人"
@@ -2726,9 +2702,6 @@
     "organize_tabs_with_ai_e4d5d3": {
         "message": "用 AI 整理标签页"
     },
-    "park_at_edge": {
-        "message": "停靠在边缘"
-    },
     "passwords_manager": {
         "message": "密码管理器"
     },
@@ -2834,9 +2807,6 @@
     "phi_sentinel_service_is_unavailable_check_whether_95f407": {
         "message": "Phi Sentinel 服务不可用。请检查它是否正常启动。"
     },
-    "phi_starts_with_a_new_window_closing": {
-        "message": "Phi 启动时打开新窗口。关闭窗口可能会让你在部分网站上退出登录。"
-    },
     "phi_will_quit_and_restore_the_current": {
         "message": "Phi 将退出并恢复 %@。当前应用和所选用户数据将被替换。"
     },
@@ -2881,12 +2851,6 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "请重新验证身份以恢复账号功能。"
-    },
-    "pop_out_playing_video_parked_at_the": {
-        "message": "弹出正在播放的视频，并停靠在屏幕边缘，直到你点击它"
-    },
-    "pop_out_playing_video_when_you_switch": {
-        "message": "切换标签页或应用时弹出正在播放的视频"
     },
     "pop_up": {
         "message": "弹出"
@@ -3122,9 +3086,6 @@
     "reopen_closed_tab_de7200": {
         "message": "重新打开关闭的标签页"
     },
-    "reopen_your_windows_and_tabs_the_next": {
-        "message": "下次打开 Phi 时重新打开你的窗口和标签页。"
-    },
     "replace": {
         "message": "替换"
     },
@@ -3172,9 +3133,6 @@
     },
     "restore_all_shortcuts": {
         "message": "恢复所有快捷键"
-    },
-    "restore_last_session": {
-        "message": "恢复上次会话"
     },
     "restore_time_machine_backup": {
         "message": "要恢复时间机器备份吗？"
@@ -3440,14 +3398,11 @@
     "shortcuts_b6a37f": {
         "message": "快捷键"
     },
-    "shorten_links_to_selected_text": {
-        "message": "缩短指向所选文本的链接"
-    },
     "show": {
         "message": "显示"
     },
-    "show_a_preview_card_when_hovering_over": {
-        "message": "鼠标悬停在标签页上时显示预览卡片"
+    "show_a_dot_on_inactive_pinned_tabs": {
+        "message": "在当前已打开但非活动的固定标签页和书签上显示圆点。"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "在新标签页上显示书签栏"
@@ -3475,6 +3430,9 @@
     },
     "show_kiosk_open_in_menu": {
         "message": "显示 Kiosk 的「打开到」菜单"
+    },
+    "show_open_tab_indicators": {
+        "message": "为打开的标签页显示指示灯"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "在新标签页上显示主动建议"
@@ -3952,9 +3910,6 @@
     },
     "turned_away_without_asking_you_from_a": {
         "message": "这些智能体因为「不再询问」或「30 分钟内」的拒绝而被直接挡回，不会再询问你。解除对某个智能体的阻止后，它下次连接时会重新询问。"
-    },
-    "turning_developer_mode_off_turns_off_agent": {
-        "message": "关闭开发者模式会同时关闭智能体访问和智能体密码管理器，并撤销所有已允许的智能体和凭据授权。之后连接的智能体可以请求你重新开启。"
     },
     "two_step_login_code_if_enabled": {
         "message": "两步登录验证码（如已启用）"
