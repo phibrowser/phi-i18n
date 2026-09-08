@@ -527,6 +527,46 @@
         "message": "The reply failed",
         "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Error text replacing a reply that could not be produced."
     },
+    "chat_start_actions_create_skill": {
+        "message": "Help me create a skill",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask the assistant to help design a reusable skill; details can be clarified in chat."
+    },
+    "chat_start_actions_explain": {
+        "message": "Explain this page simply",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask for a simple explanation of the current page."
+    },
+    "chat_start_actions_fact_check": {
+        "message": "Fact-check this page",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask to verify factual claims on the current page."
+    },
+    "chat_start_actions_help": {
+        "message": "Help me get started with Phi Browser",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask for introductory help using Phi Browser when no web page is available."
+    },
+    "chat_start_actions_import_chat": {
+        "message": "Import this ChatGPT conversation",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask to import the currently open ChatGPT conversation into the local conversation list."
+    },
+    "chat_start_actions_markdown": {
+        "message": "Show this page as Markdown",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask to display the current page as Markdown in chat, not download a file."
+    },
+    "chat_start_actions_pdf": {
+        "message": "Save this page as PDF",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask to save the current page as a PDF file."
+    },
+    "chat_start_actions_video": {
+        "message": "Summarize this video",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask for a summary of the video currently open on YouTube or bilibili."
+    },
+    "chat_start_recommendations": {
+        "message": "Suggested skills for this page",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Accessible label for the suggested skill buttons beneath the sidebar composer."
+    },
+    "chat_start_title": {
+        "message": "What can I help you with?",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Short, welcoming heading above the empty conversation composer."
+    },
     "chat_tab_context_fallback": {
         "message": "Page context",
         "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Labels for browser page content the user attached to a message. Stands in for the page's title when it is unknown."
