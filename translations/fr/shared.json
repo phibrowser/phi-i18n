@@ -12,7 +12,7 @@
         "message": "Échec de l'enregistrement automatique, nouvelle tentative ({{current}}/{{total}})…"
     },
     "errors_balance_too_low": {
-        "message": "Votre solde de crédits est insuffisant. Veuillez recharger votre compte pour continuer à utiliser le service."
+        "message": "Vous avez bien fait travailler Phi. N'hésitez pas à revenir un peu plus tard."
     },
     "errors_chat_id_required": {
         "message": "L'identifiant de la conversation est requis."
@@ -57,7 +57,7 @@
         "message": "Réponse non valide du serveur. Veuillez réessayer."
     },
     "errors_types_group_balance_not_enough": {
-        "message": "Solde insuffisant. Veuillez recharger votre compte ou contacter votre administrateur."
+        "message": "Vous avez bien fait travailler Phi. N'hésitez pas à revenir un peu plus tard."
     },
     "errors_types_invalid_request_error": {
         "message": "Requête non valide. Veuillez vérifier votre saisie et réessayer."
@@ -72,10 +72,10 @@
         "message": "La requête est trop volumineuse. Veuillez réduire la taille du contenu."
     },
     "errors_types_token_period_quota_exhausted": {
-        "message": "Votre quota d'utilisation périodique est atteint. Le quota sera réinitialisé au prochain cycle."
+        "message": "Vous avez bien fait travailler Phi. Réessayez un peu plus tard."
     },
     "errors_types_token_quota_exhausted": {
-        "message": "Votre quota d'utilisation est épuisé. Veuillez contacter votre administrateur."
+        "message": "Vous avez bien fait travailler Phi. N'hésitez pas à revenir un peu plus tard."
     },
     "errors_types_upstream_error": {
         "message": "Erreur du fournisseur de service IA. Veuillez réessayer plus tard."
@@ -162,10 +162,10 @@
         "message": "Image"
     },
     "message_quota_exhausted": {
-        "message": "Quota d'utilisation dépassé"
+        "message": "Une petite pause s'impose"
     },
     "message_quota_exhausted_description": {
-        "message": "Votre quota d'utilisation quotidien est atteint. Le quota est réinitialisé chaque jour."
+        "message": "Vous avez bien fait travailler Phi. N'hésitez pas à revenir un peu plus tard."
     },
     "message_regenerate": {
         "message": "Régénérer"
@@ -322,6 +322,18 @@
     },
     "newtab_share_dialog_title": {
         "message": "Partager votre message d'accueil"
+    },
+    "quota_no_automatic_reset": {
+        "message": "Il n'y a pas encore d'heure fixée pour reprendre le fil."
+    },
+    "quota_period_exhausted": {
+        "message": "Vous avez bien fait travailler Phi. Une petite pause s'impose."
+    },
+    "quota_resets_at": {
+        "message": "Vous pourrez reprendre le fil {{relative}} ({{absolute}})."
+    },
+    "quota_total_exhausted": {
+        "message": "Vous avez bien fait travailler Phi. N'hésitez pas à revenir un peu plus tard."
     },
     "user_input_add_attachment": {
         "message": "Ajouter une pièce jointe"

@@ -12,7 +12,7 @@
         "message": "Automatisches Speichern fehlgeschlagen, neuer Versuch ({{current}}/{{total}})…"
     },
     "errors_balance_too_low": {
-        "message": "Dein Guthaben ist zu niedrig. Bitte lade es auf, um den Dienst weiter zu nutzen."
+        "message": "Du hast Phi ganz schön auf Trab gehalten. Schau gern später wieder vorbei."
     },
     "errors_chat_id_required": {
         "message": "Die Chat-ID ist erforderlich."
@@ -57,7 +57,7 @@
         "message": "Ungültige Antwort vom Server. Bitte versuche es erneut."
     },
     "errors_types_group_balance_not_enough": {
-        "message": "Unzureichendes Guthaben. Bitte lade Guthaben auf oder wende dich an deinen Administrator."
+        "message": "Du hast Phi ganz schön auf Trab gehalten. Schau gern später wieder vorbei."
     },
     "errors_types_invalid_request_error": {
         "message": "Ungültige Anfrage. Bitte überprüfe deine Eingabe und versuche es erneut."
@@ -72,10 +72,10 @@
         "message": "Die Anfrage ist zu groß. Bitte reduziere die Größe des Inhalts."
     },
     "errors_types_token_period_quota_exhausted": {
-        "message": "Dein Nutzungskontingent für diesen Zeitraum ist aufgebraucht. Das Kontingent wird im nächsten Zyklus zurückgesetzt."
+        "message": "Du hast Phi ganz schön auf Trab gehalten. Versuch es gern später noch einmal."
     },
     "errors_types_token_quota_exhausted": {
-        "message": "Dein Nutzungskontingent ist aufgebraucht. Bitte wende dich an deinen Administrator."
+        "message": "Du hast Phi ganz schön auf Trab gehalten. Schau gern später wieder vorbei."
     },
     "errors_types_upstream_error": {
         "message": "Fehler beim KI-Anbieter. Bitte versuche es später erneut."
@@ -162,10 +162,10 @@
         "message": "Bild"
     },
     "message_quota_exhausted": {
-        "message": "Nutzungskontingent überschritten"
+        "message": "Zeit für eine kleine Pause"
     },
     "message_quota_exhausted_description": {
-        "message": "Dein tägliches Nutzungskontingent ist aufgebraucht. Das Kontingent wird täglich zurückgesetzt."
+        "message": "Du hast Phi ganz schön auf Trab gehalten. Schau gern später wieder vorbei."
     },
     "message_regenerate": {
         "message": "Neu generieren"
@@ -322,6 +322,18 @@
     },
     "newtab_share_dialog_title": {
         "message": "Teile deine Begrüßung"
+    },
+    "quota_no_automatic_reset": {
+        "message": "Wann es weitergeht, steht gerade noch nicht fest."
+    },
+    "quota_period_exhausted": {
+        "message": "Du hast Phi ganz schön auf Trab gehalten. Zeit für eine kleine Pause."
+    },
+    "quota_resets_at": {
+        "message": "Du kannst {{relative}} ({{absolute}}) weitermachen."
+    },
+    "quota_total_exhausted": {
+        "message": "Du hast Phi ganz schön auf Trab gehalten. Schau gern später wieder vorbei."
     },
     "user_input_add_attachment": {
         "message": "Anhang hinzufügen"

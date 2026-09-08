@@ -723,7 +723,7 @@
         "message": "拖放文件以上传"
     },
     "errors_balance_alert_threshold": {
-        "message": "余额已低于预警阈值。"
+        "message": "Phi 陪你忙了好一阵子，可能快要歇一小会儿了。"
     },
     "errors_chat_forbidden": {
         "message": "你没有权限访问此对话。"
@@ -1388,9 +1388,6 @@
     "shadow_tasks_cancelled": {
         "message": "任务已取消"
     },
-    "shadow_tasks_default_task_title": {
-        "message": "Shadow 任务"
-    },
     "shadow_tasks_empty": {
         "message": "暂无 Shadow 任务"
     },
@@ -1409,9 +1406,6 @@
     "shadow_tasks_fields_run_index": {
         "message": "运行序号"
     },
-    "shadow_tasks_fields_started_at": {
-        "message": "开始时间"
-    },
     "shadow_tasks_fields_status": {
         "message": "状态"
     },
@@ -1427,9 +1421,6 @@
     "shadow_tasks_fields_trigger_source": {
         "message": "触发来源"
     },
-    "shadow_tasks_fields_trigger_type": {
-        "message": "触发方式"
-    },
     "shadow_tasks_filters_all_statuses": {
         "message": "全部状态"
     },
@@ -1441,9 +1432,6 @@
     },
     "shadow_tasks_history_no_run_selected": {
         "message": "请选择一条运行记录查看详情"
-    },
-    "shadow_tasks_invalid_objective": {
-        "message": "shadow: 前缀后的目标不能为空"
     },
     "shadow_tasks_list_title": {
         "message": "Shadow 任务列表"
@@ -1472,80 +1460,8 @@
     "shadow_tasks_page_title": {
         "message": "Shadow 任务"
     },
-    "shadow_tasks_prepare_failed": {
-        "message": "提交 Shadow 任务失败"
-    },
-    "shadow_tasks_prepare_success": {
-        "message": "Shadow 任务已启动"
-    },
-    "shadow_tasks_recordings_empty": {
-        "message": "当前任务暂无录像记录"
-    },
-    "shadow_tasks_recordings_fields_download_id": {
-        "message": "下载 ID"
-    },
-    "shadow_tasks_recordings_fields_file_size": {
-        "message": "文件大小"
-    },
-    "shadow_tasks_recordings_fields_started_at": {
-        "message": "开始时间"
-    },
-    "shadow_tasks_recordings_fields_stopped_at": {
-        "message": "结束时间"
-    },
-    "shadow_tasks_recordings_no_recordings": {
-        "message": "该标签页暂无录像记录"
-    },
-    "shadow_tasks_recordings_open": {
-        "message": "打开文件"
-    },
-    "shadow_tasks_recordings_open_failed": {
-        "message": "打开录像文件失败"
-    },
-    "shadow_tasks_recordings_open_success": {
-        "message": "已请求打开录像文件"
-    },
-    "shadow_tasks_recordings_show": {
-        "message": "在文件夹中显示"
-    },
-    "shadow_tasks_recordings_show_failed": {
-        "message": "在文件夹中显示录像文件失败"
-    },
-    "shadow_tasks_recordings_show_success": {
-        "message": "已请求在文件夹中显示录像文件"
-    },
-    "shadow_tasks_recordings_status_cancelled": {
-        "message": "已取消"
-    },
-    "shadow_tasks_recordings_status_failed": {
-        "message": "失败"
-    },
-    "shadow_tasks_recordings_status_label": {
-        "message": "状态：{{status}}"
-    },
-    "shadow_tasks_recordings_status_pending": {
-        "message": "待开始"
-    },
-    "shadow_tasks_recordings_status_recording": {
-        "message": "录制中"
-    },
-    "shadow_tasks_recordings_status_saved": {
-        "message": "已保存"
-    },
-    "shadow_tasks_recordings_status_starting": {
-        "message": "启动中"
-    },
-    "shadow_tasks_recordings_status_stopping": {
-        "message": "停止中"
-    },
-    "shadow_tasks_recordings_title": {
-        "message": "录像结果"
-    },
     "shadow_tasks_refresh": {
         "message": "刷新"
-    },
-    "shadow_tasks_refresh_detail": {
-        "message": "刷新详情"
     },
     "shadow_tasks_rerun": {
         "message": "重新运行"
@@ -1586,14 +1502,8 @@
     "shadow_tasks_sections_task_not_started": {
         "message": "未开始"
     },
-    "shadow_tasks_sections_task_ready": {
-        "message": "可运行"
-    },
     "shadow_tasks_sections_user_original_message": {
         "message": "用户原话"
-    },
-    "shadow_tasks_sections_worker_debug": {
-        "message": "Worker 调试信息"
     },
     "shadow_tasks_select_hint": {
         "message": "请选择一个任务查看详情"
@@ -1616,92 +1526,14 @@
     "shadow_tasks_status_running": {
         "message": "运行中"
     },
-    "shadow_tasks_stream_closed_tab_hint": {
-        "message": "该标签页已关闭。如果底层画面仍然可用，可以重试。"
-    },
-    "shadow_tasks_stream_error_with_code": {
-        "message": "流传输错误（{{code}}）"
-    },
-    "shadow_tasks_stream_no_tab_selected": {
-        "message": "请选择一个标签页查看画面"
-    },
-    "shadow_tasks_stream_not_running": {
-        "message": "仅在任务运行时可以查看实时画面"
-    },
-    "shadow_tasks_stream_retry": {
-        "message": "重新连接"
-    },
-    "shadow_tasks_stream_switch_failed": {
-        "message": "切换画面失败"
-    },
-    "shadow_tasks_stream_title": {
-        "message": "实时画面"
-    },
     "shadow_tasks_tabs_empty": {
         "message": "当前任务还没有发现标签页"
-    },
-    "shadow_tasks_tabs_recording_status": {
-        "message": "录像：{{status}}"
-    },
-    "shadow_tasks_tabs_state_closed": {
-        "message": "已关闭"
-    },
-    "shadow_tasks_tabs_state_open": {
-        "message": "打开"
     },
     "shadow_tasks_tabs_tab_fallback": {
         "message": "标签页 {{number}}"
     },
     "shadow_tasks_tabs_tab_with_index": {
         "message": "标签页 {{index}} · {{title}}"
-    },
-    "shadow_tasks_tabs_title": {
-        "message": "任务标签页"
-    },
-    "shadow_tasks_worker_debug_client_name": {
-        "message": "Worker Room 名称"
-    },
-    "shadow_tasks_worker_debug_heartbeat": {
-        "message": "心跳"
-    },
-    "shadow_tasks_worker_debug_heartbeat_running": {
-        "message": "运行中"
-    },
-    "shadow_tasks_worker_debug_heartbeat_stopped": {
-        "message": "已停止"
-    },
-    "shadow_tasks_worker_debug_last_connected_at": {
-        "message": "最近连接时间"
-    },
-    "shadow_tasks_worker_debug_last_worker_registered_at": {
-        "message": "最近 worker_registered 时间"
-    },
-    "shadow_tasks_worker_debug_no": {
-        "message": "否"
-    },
-    "shadow_tasks_worker_debug_queued_messages": {
-        "message": "待发送消息数"
-    },
-    "shadow_tasks_worker_debug_registered_worker_connection_id": {
-        "message": "已注册 Worker Connection ID"
-    },
-    "shadow_tasks_worker_debug_socket_state_connected": {
-        "message": "已连接"
-    },
-    "shadow_tasks_worker_debug_socket_state_connecting": {
-        "message": "连接中"
-    },
-    "shadow_tasks_worker_debug_socket_state_disconnected": {
-        "message": "未连接"
-    },
-    "shadow_tasks_worker_debug_socket_status": {
-        "message": "Worker Socket"
-    },
-    "shadow_tasks_worker_debug_using_token_fallback": {
-        "message": "是否使用 token 回退"
-    },
-    "shadow_tasks_worker_debug_yes": {
-        "message": "是"
     },
     "shell_resize_list": {
         "message": "调整对话列表宽度"

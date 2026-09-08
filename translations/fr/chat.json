@@ -723,7 +723,7 @@
         "message": "Déposez les fichiers pour les téléverser"
     },
     "errors_balance_alert_threshold": {
-        "message": "Votre solde est inférieur au seuil d'alerte."
+        "message": "Vous avez bien fait travailler Phi. Une petite pause pourrait bientôt s'imposer."
     },
     "errors_chat_forbidden": {
         "message": "Vous n'avez pas l'autorisation d'accéder à cette conversation."
@@ -1388,9 +1388,6 @@
     "shadow_tasks_cancelled": {
         "message": "Tâche annulée"
     },
-    "shadow_tasks_default_task_title": {
-        "message": "Tâche en arrière-plan"
-    },
     "shadow_tasks_empty": {
         "message": "Aucune tâche en arrière-plan pour le moment"
     },
@@ -1409,9 +1406,6 @@
     "shadow_tasks_fields_run_index": {
         "message": "Numéro d'exécution"
     },
-    "shadow_tasks_fields_started_at": {
-        "message": "Démarrée le"
-    },
     "shadow_tasks_fields_status": {
         "message": "Statut"
     },
@@ -1427,9 +1421,6 @@
     "shadow_tasks_fields_trigger_source": {
         "message": "Source du déclenchement"
     },
-    "shadow_tasks_fields_trigger_type": {
-        "message": "Type de déclenchement"
-    },
     "shadow_tasks_filters_all_statuses": {
         "message": "Tous les statuts"
     },
@@ -1441,9 +1432,6 @@
     },
     "shadow_tasks_history_no_run_selected": {
         "message": "Sélectionnez une exécution pour en voir les détails"
-    },
-    "shadow_tasks_invalid_objective": {
-        "message": "L'objectif ne peut pas être vide après le préfixe shadow"
     },
     "shadow_tasks_list_title": {
         "message": "Liste des tâches en arrière-plan"
@@ -1472,80 +1460,8 @@
     "shadow_tasks_page_title": {
         "message": "Tâches en arrière-plan"
     },
-    "shadow_tasks_prepare_failed": {
-        "message": "Échec de la soumission de la tâche en arrière-plan"
-    },
-    "shadow_tasks_prepare_success": {
-        "message": "Tâche en arrière-plan démarrée"
-    },
-    "shadow_tasks_recordings_empty": {
-        "message": "Aucun enregistrement disponible pour cette tâche"
-    },
-    "shadow_tasks_recordings_fields_download_id": {
-        "message": "ID du téléchargement"
-    },
-    "shadow_tasks_recordings_fields_file_size": {
-        "message": "Taille du fichier"
-    },
-    "shadow_tasks_recordings_fields_started_at": {
-        "message": "Démarré à"
-    },
-    "shadow_tasks_recordings_fields_stopped_at": {
-        "message": "Arrêté à"
-    },
-    "shadow_tasks_recordings_no_recordings": {
-        "message": "Aucun enregistrement pour cet onglet pour l'instant"
-    },
-    "shadow_tasks_recordings_open": {
-        "message": "Ouvrir le fichier"
-    },
-    "shadow_tasks_recordings_open_failed": {
-        "message": "Impossible d'ouvrir le fichier d'enregistrement"
-    },
-    "shadow_tasks_recordings_open_success": {
-        "message": "Demande d'ouverture du fichier d'enregistrement envoyée"
-    },
-    "shadow_tasks_recordings_show": {
-        "message": "Afficher dans le dossier"
-    },
-    "shadow_tasks_recordings_show_failed": {
-        "message": "Impossible d'afficher l'enregistrement dans le dossier"
-    },
-    "shadow_tasks_recordings_show_success": {
-        "message": "Demande d'affichage de l'enregistrement dans le dossier envoyée"
-    },
-    "shadow_tasks_recordings_status_cancelled": {
-        "message": "Annulé"
-    },
-    "shadow_tasks_recordings_status_failed": {
-        "message": "Échoué"
-    },
-    "shadow_tasks_recordings_status_label": {
-        "message": "Statut : {{status}}"
-    },
-    "shadow_tasks_recordings_status_pending": {
-        "message": "En attente"
-    },
-    "shadow_tasks_recordings_status_recording": {
-        "message": "Enregistrement en cours"
-    },
-    "shadow_tasks_recordings_status_saved": {
-        "message": "Sauvegardé"
-    },
-    "shadow_tasks_recordings_status_starting": {
-        "message": "Démarrage"
-    },
-    "shadow_tasks_recordings_status_stopping": {
-        "message": "Arrêt en cours"
-    },
-    "shadow_tasks_recordings_title": {
-        "message": "Enregistrements"
-    },
     "shadow_tasks_refresh": {
         "message": "Actualiser"
-    },
-    "shadow_tasks_refresh_detail": {
-        "message": "Actualiser les détails"
     },
     "shadow_tasks_rerun": {
         "message": "Relancer"
@@ -1586,14 +1502,8 @@
     "shadow_tasks_sections_task_not_started": {
         "message": "Non démarrée"
     },
-    "shadow_tasks_sections_task_ready": {
-        "message": "Prête"
-    },
     "shadow_tasks_sections_user_original_message": {
         "message": "Message d'origine de l'utilisateur"
-    },
-    "shadow_tasks_sections_worker_debug": {
-        "message": "Débogage du worker"
     },
     "shadow_tasks_select_hint": {
         "message": "Sélectionnez une tâche pour afficher les détails"
@@ -1616,92 +1526,14 @@
     "shadow_tasks_status_running": {
         "message": "En cours"
     },
-    "shadow_tasks_stream_closed_tab_hint": {
-        "message": "Cet onglet est déjà fermé. Réessayez uniquement si l'aperçu est encore disponible en dessous."
-    },
-    "shadow_tasks_stream_error_with_code": {
-        "message": "Erreur de flux ({{code}})"
-    },
-    "shadow_tasks_stream_no_tab_selected": {
-        "message": "Sélectionnez un onglet pour afficher l'aperçu"
-    },
-    "shadow_tasks_stream_not_running": {
-        "message": "Le stream n'est disponible que lorsque la tâche est en cours d'exécution"
-    },
-    "shadow_tasks_stream_retry": {
-        "message": "Relancer le stream"
-    },
-    "shadow_tasks_stream_switch_failed": {
-        "message": "Impossible de changer de stream"
-    },
-    "shadow_tasks_stream_title": {
-        "message": "Stream en direct"
-    },
     "shadow_tasks_tabs_empty": {
         "message": "Aucun onglet détecté pour cette tâche pour l'instant"
-    },
-    "shadow_tasks_tabs_recording_status": {
-        "message": "Enregistrement : {{status}}"
-    },
-    "shadow_tasks_tabs_state_closed": {
-        "message": "fermé"
-    },
-    "shadow_tasks_tabs_state_open": {
-        "message": "ouvert"
     },
     "shadow_tasks_tabs_tab_fallback": {
         "message": "Onglet {{number}}"
     },
     "shadow_tasks_tabs_tab_with_index": {
         "message": "Onglet {{index}} · {{title}}"
-    },
-    "shadow_tasks_tabs_title": {
-        "message": "Onglets de la tâche"
-    },
-    "shadow_tasks_worker_debug_client_name": {
-        "message": "Nom de la room du worker"
-    },
-    "shadow_tasks_worker_debug_heartbeat": {
-        "message": "Heartbeat"
-    },
-    "shadow_tasks_worker_debug_heartbeat_running": {
-        "message": "Actif"
-    },
-    "shadow_tasks_worker_debug_heartbeat_stopped": {
-        "message": "Arrêté"
-    },
-    "shadow_tasks_worker_debug_last_connected_at": {
-        "message": "Dernière connexion à"
-    },
-    "shadow_tasks_worker_debug_last_worker_registered_at": {
-        "message": "Dernier worker_registered à"
-    },
-    "shadow_tasks_worker_debug_no": {
-        "message": "Non"
-    },
-    "shadow_tasks_worker_debug_queued_messages": {
-        "message": "Messages sortants en file d'attente"
-    },
-    "shadow_tasks_worker_debug_registered_worker_connection_id": {
-        "message": "ID de connexion du worker enregistré"
-    },
-    "shadow_tasks_worker_debug_socket_state_connected": {
-        "message": "Connecté"
-    },
-    "shadow_tasks_worker_debug_socket_state_connecting": {
-        "message": "Connexion en cours"
-    },
-    "shadow_tasks_worker_debug_socket_state_disconnected": {
-        "message": "Déconnecté"
-    },
-    "shadow_tasks_worker_debug_socket_status": {
-        "message": "Socket du worker"
-    },
-    "shadow_tasks_worker_debug_using_token_fallback": {
-        "message": "Utilisation du token de secours"
-    },
-    "shadow_tasks_worker_debug_yes": {
-        "message": "Oui"
     },
     "shell_resize_list": {
         "message": "Redimensionner la liste des conversations"

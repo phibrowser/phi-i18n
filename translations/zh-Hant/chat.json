@@ -723,7 +723,7 @@
         "message": "拖放檔案上傳"
     },
     "errors_balance_alert_threshold": {
-        "message": "餘額已低於警示門檻。"
+        "message": "你最近讓 Phi 忙個不停，可能快要休息一下了。"
     },
     "errors_chat_forbidden": {
         "message": "你沒有存取這個對話的權限。"
@@ -1388,9 +1388,6 @@
     "shadow_tasks_cancelled": {
         "message": "任務已取消"
     },
-    "shadow_tasks_default_task_title": {
-        "message": "背景任務"
-    },
     "shadow_tasks_empty": {
         "message": "目前還沒有背景任務"
     },
@@ -1409,9 +1406,6 @@
     "shadow_tasks_fields_run_index": {
         "message": "執行序號"
     },
-    "shadow_tasks_fields_started_at": {
-        "message": "開始時間"
-    },
     "shadow_tasks_fields_status": {
         "message": "狀態"
     },
@@ -1427,9 +1421,6 @@
     "shadow_tasks_fields_trigger_source": {
         "message": "觸發來源"
     },
-    "shadow_tasks_fields_trigger_type": {
-        "message": "觸發類型"
-    },
     "shadow_tasks_filters_all_statuses": {
         "message": "所有狀態"
     },
@@ -1441,9 +1432,6 @@
     },
     "shadow_tasks_history_no_run_selected": {
         "message": "選取執行紀錄以檢視詳細資訊"
-    },
-    "shadow_tasks_invalid_objective": {
-        "message": "shadow 前綴後的目標不能為空"
     },
     "shadow_tasks_list_title": {
         "message": "背景任務清單"
@@ -1472,80 +1460,8 @@
     "shadow_tasks_page_title": {
         "message": "背景任務"
     },
-    "shadow_tasks_prepare_failed": {
-        "message": "無法送出背景任務"
-    },
-    "shadow_tasks_prepare_success": {
-        "message": "背景任務已開始執行"
-    },
-    "shadow_tasks_recordings_empty": {
-        "message": "此任務沒有可用的錄影"
-    },
-    "shadow_tasks_recordings_fields_download_id": {
-        "message": "下載 ID"
-    },
-    "shadow_tasks_recordings_fields_file_size": {
-        "message": "檔案大小"
-    },
-    "shadow_tasks_recordings_fields_started_at": {
-        "message": "開始時間"
-    },
-    "shadow_tasks_recordings_fields_stopped_at": {
-        "message": "停止時間"
-    },
-    "shadow_tasks_recordings_no_recordings": {
-        "message": "這個分頁還沒有任何錄影"
-    },
-    "shadow_tasks_recordings_open": {
-        "message": "開啟檔案"
-    },
-    "shadow_tasks_recordings_open_failed": {
-        "message": "無法開啟錄影檔案"
-    },
-    "shadow_tasks_recordings_open_success": {
-        "message": "已要求開啟錄影檔案"
-    },
-    "shadow_tasks_recordings_show": {
-        "message": "在資料夾中顯示"
-    },
-    "shadow_tasks_recordings_show_failed": {
-        "message": "無法在資料夾中顯示錄影"
-    },
-    "shadow_tasks_recordings_show_success": {
-        "message": "已要求在資料夾中顯示錄影"
-    },
-    "shadow_tasks_recordings_status_cancelled": {
-        "message": "已取消"
-    },
-    "shadow_tasks_recordings_status_failed": {
-        "message": "失敗"
-    },
-    "shadow_tasks_recordings_status_label": {
-        "message": "狀態：{{status}}"
-    },
-    "shadow_tasks_recordings_status_pending": {
-        "message": "等待中"
-    },
-    "shadow_tasks_recordings_status_recording": {
-        "message": "錄影中"
-    },
-    "shadow_tasks_recordings_status_saved": {
-        "message": "已儲存"
-    },
-    "shadow_tasks_recordings_status_starting": {
-        "message": "啟動中"
-    },
-    "shadow_tasks_recordings_status_stopping": {
-        "message": "停止中"
-    },
-    "shadow_tasks_recordings_title": {
-        "message": "錄影"
-    },
     "shadow_tasks_refresh": {
         "message": "重新整理"
-    },
-    "shadow_tasks_refresh_detail": {
-        "message": "重新整理詳細資料"
     },
     "shadow_tasks_rerun": {
         "message": "重新執行"
@@ -1586,14 +1502,8 @@
     "shadow_tasks_sections_task_not_started": {
         "message": "尚未開始"
     },
-    "shadow_tasks_sections_task_ready": {
-        "message": "就緒"
-    },
     "shadow_tasks_sections_user_original_message": {
         "message": "使用者原始訊息"
-    },
-    "shadow_tasks_sections_worker_debug": {
-        "message": "Worker 偵錯"
     },
     "shadow_tasks_select_hint": {
         "message": "選取任務以檢視詳細資料"
@@ -1616,92 +1526,14 @@
     "shadow_tasks_status_running": {
         "message": "執行中"
     },
-    "shadow_tasks_stream_closed_tab_hint": {
-        "message": "這個分頁已經關閉。只有在下方的預覽仍然可用時才需要重試。"
-    },
-    "shadow_tasks_stream_error_with_code": {
-        "message": "串流錯誤（{{code}}）"
-    },
-    "shadow_tasks_stream_no_tab_selected": {
-        "message": "選取要預覽的分頁"
-    },
-    "shadow_tasks_stream_not_running": {
-        "message": "只有在任務執行時才能使用串流"
-    },
-    "shadow_tasks_stream_retry": {
-        "message": "重試串流"
-    },
-    "shadow_tasks_stream_switch_failed": {
-        "message": "無法切換串流"
-    },
-    "shadow_tasks_stream_title": {
-        "message": "即時串流"
-    },
     "shadow_tasks_tabs_empty": {
         "message": "還沒有發現這個任務的任何分頁"
-    },
-    "shadow_tasks_tabs_recording_status": {
-        "message": "錄影：{{status}}"
-    },
-    "shadow_tasks_tabs_state_closed": {
-        "message": "已關閉"
-    },
-    "shadow_tasks_tabs_state_open": {
-        "message": "開啟中"
     },
     "shadow_tasks_tabs_tab_fallback": {
         "message": "分頁 {{number}}"
     },
     "shadow_tasks_tabs_tab_with_index": {
         "message": "分頁 {{index}} · {{title}}"
-    },
-    "shadow_tasks_tabs_title": {
-        "message": "任務分頁"
-    },
-    "shadow_tasks_worker_debug_client_name": {
-        "message": "Worker 房間名稱"
-    },
-    "shadow_tasks_worker_debug_heartbeat": {
-        "message": "心跳"
-    },
-    "shadow_tasks_worker_debug_heartbeat_running": {
-        "message": "執行中"
-    },
-    "shadow_tasks_worker_debug_heartbeat_stopped": {
-        "message": "已停止"
-    },
-    "shadow_tasks_worker_debug_last_connected_at": {
-        "message": "上次連線時間"
-    },
-    "shadow_tasks_worker_debug_last_worker_registered_at": {
-        "message": "上次 worker_registered 時間"
-    },
-    "shadow_tasks_worker_debug_no": {
-        "message": "否"
-    },
-    "shadow_tasks_worker_debug_queued_messages": {
-        "message": "佇列中的傳出訊息"
-    },
-    "shadow_tasks_worker_debug_registered_worker_connection_id": {
-        "message": "已註冊的 Worker 連線 ID"
-    },
-    "shadow_tasks_worker_debug_socket_state_connected": {
-        "message": "已連線"
-    },
-    "shadow_tasks_worker_debug_socket_state_connecting": {
-        "message": "連線中"
-    },
-    "shadow_tasks_worker_debug_socket_state_disconnected": {
-        "message": "已中斷連線"
-    },
-    "shadow_tasks_worker_debug_socket_status": {
-        "message": "Worker socket"
-    },
-    "shadow_tasks_worker_debug_using_token_fallback": {
-        "message": "使用備援權杖"
-    },
-    "shadow_tasks_worker_debug_yes": {
-        "message": "是"
     },
     "shell_resize_list": {
         "message": "調整對話清單大小"

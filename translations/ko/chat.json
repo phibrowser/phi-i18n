@@ -723,7 +723,7 @@
         "message": "파일을 놓아 업로드하세요"
     },
     "errors_balance_alert_threshold": {
-        "message": "잔액이 알림 기준보다 낮아요."
+        "message": "덕분에 Phi가 쉴 새 없이 일했어요. 곧 잠시 쉬어 갈 때가 올 수도 있어요."
     },
     "errors_chat_forbidden": {
         "message": "이 대화에 접근할 권한이 없어요."
@@ -1388,9 +1388,6 @@
     "shadow_tasks_cancelled": {
         "message": "작업이 취소됐어요"
     },
-    "shadow_tasks_default_task_title": {
-        "message": "백그라운드 작업"
-    },
     "shadow_tasks_empty": {
         "message": "아직 백그라운드 작업이 없어요"
     },
@@ -1409,9 +1406,6 @@
     "shadow_tasks_fields_run_index": {
         "message": "실행 순번"
     },
-    "shadow_tasks_fields_started_at": {
-        "message": "시작 시각"
-    },
     "shadow_tasks_fields_status": {
         "message": "상태"
     },
@@ -1427,9 +1421,6 @@
     "shadow_tasks_fields_trigger_source": {
         "message": "트리거 출처"
     },
-    "shadow_tasks_fields_trigger_type": {
-        "message": "트리거 유형"
-    },
     "shadow_tasks_filters_all_statuses": {
         "message": "모든 상태"
     },
@@ -1441,9 +1432,6 @@
     },
     "shadow_tasks_history_no_run_selected": {
         "message": "상세 정보를 보려면 실행을 선택하세요"
-    },
-    "shadow_tasks_invalid_objective": {
-        "message": "shadow 접두사 뒤의 목표는 비워 둘 수 없어요"
     },
     "shadow_tasks_list_title": {
         "message": "백그라운드 작업 목록"
@@ -1472,80 +1460,8 @@
     "shadow_tasks_page_title": {
         "message": "백그라운드 작업"
     },
-    "shadow_tasks_prepare_failed": {
-        "message": "백그라운드 작업을 제출하지 못했어요"
-    },
-    "shadow_tasks_prepare_success": {
-        "message": "백그라운드 작업이 시작됐어요"
-    },
-    "shadow_tasks_recordings_empty": {
-        "message": "이 작업에는 녹화가 없어요"
-    },
-    "shadow_tasks_recordings_fields_download_id": {
-        "message": "다운로드 ID"
-    },
-    "shadow_tasks_recordings_fields_file_size": {
-        "message": "파일 크기"
-    },
-    "shadow_tasks_recordings_fields_started_at": {
-        "message": "시작 시각"
-    },
-    "shadow_tasks_recordings_fields_stopped_at": {
-        "message": "중지 시각"
-    },
-    "shadow_tasks_recordings_no_recordings": {
-        "message": "이 탭에는 아직 녹화가 없어요"
-    },
-    "shadow_tasks_recordings_open": {
-        "message": "파일 열기"
-    },
-    "shadow_tasks_recordings_open_failed": {
-        "message": "녹화 파일을 열지 못했어요"
-    },
-    "shadow_tasks_recordings_open_success": {
-        "message": "녹화 파일 열기를 요청했어요"
-    },
-    "shadow_tasks_recordings_show": {
-        "message": "폴더에서 보기"
-    },
-    "shadow_tasks_recordings_show_failed": {
-        "message": "폴더에서 녹화 파일을 표시하지 못했어요"
-    },
-    "shadow_tasks_recordings_show_success": {
-        "message": "폴더에서 녹화 파일을 표시하도록 요청했어요"
-    },
-    "shadow_tasks_recordings_status_cancelled": {
-        "message": "취소됨"
-    },
-    "shadow_tasks_recordings_status_failed": {
-        "message": "실패"
-    },
-    "shadow_tasks_recordings_status_label": {
-        "message": "상태: {{status}}"
-    },
-    "shadow_tasks_recordings_status_pending": {
-        "message": "대기 중"
-    },
-    "shadow_tasks_recordings_status_recording": {
-        "message": "녹화 중"
-    },
-    "shadow_tasks_recordings_status_saved": {
-        "message": "저장됨"
-    },
-    "shadow_tasks_recordings_status_starting": {
-        "message": "시작 중"
-    },
-    "shadow_tasks_recordings_status_stopping": {
-        "message": "중지 중"
-    },
-    "shadow_tasks_recordings_title": {
-        "message": "녹화 목록"
-    },
     "shadow_tasks_refresh": {
         "message": "새로고침"
-    },
-    "shadow_tasks_refresh_detail": {
-        "message": "상세 정보 새로고침"
     },
     "shadow_tasks_rerun": {
         "message": "다시 실행"
@@ -1586,14 +1502,8 @@
     "shadow_tasks_sections_task_not_started": {
         "message": "시작 전"
     },
-    "shadow_tasks_sections_task_ready": {
-        "message": "준비됨"
-    },
     "shadow_tasks_sections_user_original_message": {
         "message": "사용자 원본 메시지"
-    },
-    "shadow_tasks_sections_worker_debug": {
-        "message": "워커 디버그"
     },
     "shadow_tasks_select_hint": {
         "message": "상세 정보를 보려면 작업을 선택하세요"
@@ -1616,92 +1526,14 @@
     "shadow_tasks_status_running": {
         "message": "실행 중"
     },
-    "shadow_tasks_stream_closed_tab_hint": {
-        "message": "이 탭은 이미 닫혔어요. 아래에 미리보기가 아직 남아 있을 때만 다시 시도하세요."
-    },
-    "shadow_tasks_stream_error_with_code": {
-        "message": "스트림 오류 ({{code}})"
-    },
-    "shadow_tasks_stream_no_tab_selected": {
-        "message": "미리 볼 탭을 선택하세요"
-    },
-    "shadow_tasks_stream_not_running": {
-        "message": "스트림은 작업이 실행 중일 때만 볼 수 있어요"
-    },
-    "shadow_tasks_stream_retry": {
-        "message": "스트림 다시 시도"
-    },
-    "shadow_tasks_stream_switch_failed": {
-        "message": "스트림을 전환하지 못했어요"
-    },
-    "shadow_tasks_stream_title": {
-        "message": "실시간 스트림"
-    },
     "shadow_tasks_tabs_empty": {
         "message": "이 작업에서 아직 발견된 탭이 없어요"
-    },
-    "shadow_tasks_tabs_recording_status": {
-        "message": "녹화: {{status}}"
-    },
-    "shadow_tasks_tabs_state_closed": {
-        "message": "닫힘"
-    },
-    "shadow_tasks_tabs_state_open": {
-        "message": "열림"
     },
     "shadow_tasks_tabs_tab_fallback": {
         "message": "{{number}}번 탭"
     },
     "shadow_tasks_tabs_tab_with_index": {
         "message": "탭 {{index}} · {{title}}"
-    },
-    "shadow_tasks_tabs_title": {
-        "message": "작업 탭"
-    },
-    "shadow_tasks_worker_debug_client_name": {
-        "message": "워커 룸 이름"
-    },
-    "shadow_tasks_worker_debug_heartbeat": {
-        "message": "하트비트"
-    },
-    "shadow_tasks_worker_debug_heartbeat_running": {
-        "message": "실행 중"
-    },
-    "shadow_tasks_worker_debug_heartbeat_stopped": {
-        "message": "중지됨"
-    },
-    "shadow_tasks_worker_debug_last_connected_at": {
-        "message": "마지막 연결 시각"
-    },
-    "shadow_tasks_worker_debug_last_worker_registered_at": {
-        "message": "마지막 worker_registered 시각"
-    },
-    "shadow_tasks_worker_debug_no": {
-        "message": "아니요"
-    },
-    "shadow_tasks_worker_debug_queued_messages": {
-        "message": "대기 중인 발신 메시지"
-    },
-    "shadow_tasks_worker_debug_registered_worker_connection_id": {
-        "message": "등록된 워커 연결 ID"
-    },
-    "shadow_tasks_worker_debug_socket_state_connected": {
-        "message": "연결됨"
-    },
-    "shadow_tasks_worker_debug_socket_state_connecting": {
-        "message": "연결 중"
-    },
-    "shadow_tasks_worker_debug_socket_state_disconnected": {
-        "message": "연결 끊김"
-    },
-    "shadow_tasks_worker_debug_socket_status": {
-        "message": "워커 소켓"
-    },
-    "shadow_tasks_worker_debug_using_token_fallback": {
-        "message": "토큰 폴백 사용"
-    },
-    "shadow_tasks_worker_debug_yes": {
-        "message": "예"
     },
     "shell_resize_list": {
         "message": "대화 목록 크기 조절"

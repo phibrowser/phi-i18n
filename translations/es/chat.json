@@ -723,7 +723,7 @@
         "message": "Suelta los archivos para subirlos"
     },
     "errors_balance_alert_threshold": {
-        "message": "El saldo está por debajo del umbral de alerta."
+        "message": "Has tenido a Phi muy ocupado. Puede que pronto toque un pequeño descanso."
     },
     "errors_chat_forbidden": {
         "message": "No tienes permiso para acceder a este chat."
@@ -1388,9 +1388,6 @@
     "shadow_tasks_cancelled": {
         "message": "Tarea cancelada"
     },
-    "shadow_tasks_default_task_title": {
-        "message": "Tarea en segundo plano"
-    },
     "shadow_tasks_empty": {
         "message": "Aún no hay tareas en segundo plano"
     },
@@ -1409,9 +1406,6 @@
     "shadow_tasks_fields_run_index": {
         "message": "Índice de ejecución"
     },
-    "shadow_tasks_fields_started_at": {
-        "message": "Iniciada el"
-    },
     "shadow_tasks_fields_status": {
         "message": "Estado"
     },
@@ -1427,9 +1421,6 @@
     "shadow_tasks_fields_trigger_source": {
         "message": "Origen de la activación"
     },
-    "shadow_tasks_fields_trigger_type": {
-        "message": "Tipo de activación"
-    },
     "shadow_tasks_filters_all_statuses": {
         "message": "Todos los estados"
     },
@@ -1441,9 +1432,6 @@
     },
     "shadow_tasks_history_no_run_selected": {
         "message": "Selecciona una ejecución para ver los detalles"
-    },
-    "shadow_tasks_invalid_objective": {
-        "message": "El objetivo no puede estar vacío después del prefijo shadow"
     },
     "shadow_tasks_list_title": {
         "message": "Lista de tareas en segundo plano"
@@ -1472,80 +1460,8 @@
     "shadow_tasks_page_title": {
         "message": "Tareas en segundo plano"
     },
-    "shadow_tasks_prepare_failed": {
-        "message": "No se pudo enviar la tarea en segundo plano"
-    },
-    "shadow_tasks_prepare_success": {
-        "message": "Tarea en segundo plano iniciada"
-    },
-    "shadow_tasks_recordings_empty": {
-        "message": "No hay grabaciones disponibles para esta tarea"
-    },
-    "shadow_tasks_recordings_fields_download_id": {
-        "message": "ID de la descarga"
-    },
-    "shadow_tasks_recordings_fields_file_size": {
-        "message": "Tamaño del archivo"
-    },
-    "shadow_tasks_recordings_fields_started_at": {
-        "message": "Hora de inicio"
-    },
-    "shadow_tasks_recordings_fields_stopped_at": {
-        "message": "Hora de fin"
-    },
-    "shadow_tasks_recordings_no_recordings": {
-        "message": "Aún no hay grabaciones para esta pestaña"
-    },
-    "shadow_tasks_recordings_open": {
-        "message": "Abrir archivo"
-    },
-    "shadow_tasks_recordings_open_failed": {
-        "message": "No se pudo abrir el archivo de la grabación"
-    },
-    "shadow_tasks_recordings_open_success": {
-        "message": "Se solicitó abrir el archivo de la grabación"
-    },
-    "shadow_tasks_recordings_show": {
-        "message": "Mostrar en la carpeta"
-    },
-    "shadow_tasks_recordings_show_failed": {
-        "message": "No se pudo mostrar la grabación en la carpeta"
-    },
-    "shadow_tasks_recordings_show_success": {
-        "message": "Se solicitó mostrar la grabación en la carpeta"
-    },
-    "shadow_tasks_recordings_status_cancelled": {
-        "message": "Cancelada"
-    },
-    "shadow_tasks_recordings_status_failed": {
-        "message": "Fallida"
-    },
-    "shadow_tasks_recordings_status_label": {
-        "message": "Estado: {{status}}"
-    },
-    "shadow_tasks_recordings_status_pending": {
-        "message": "Pendiente"
-    },
-    "shadow_tasks_recordings_status_recording": {
-        "message": "Grabando"
-    },
-    "shadow_tasks_recordings_status_saved": {
-        "message": "Guardada"
-    },
-    "shadow_tasks_recordings_status_starting": {
-        "message": "Iniciando"
-    },
-    "shadow_tasks_recordings_status_stopping": {
-        "message": "Deteniendo"
-    },
-    "shadow_tasks_recordings_title": {
-        "message": "Grabaciones"
-    },
     "shadow_tasks_refresh": {
         "message": "Actualizar"
-    },
-    "shadow_tasks_refresh_detail": {
-        "message": "Actualizar detalle"
     },
     "shadow_tasks_rerun": {
         "message": "Volver a ejecutar"
@@ -1586,14 +1502,8 @@
     "shadow_tasks_sections_task_not_started": {
         "message": "No iniciada"
     },
-    "shadow_tasks_sections_task_ready": {
-        "message": "Lista"
-    },
     "shadow_tasks_sections_user_original_message": {
         "message": "Mensaje original del usuario"
-    },
-    "shadow_tasks_sections_worker_debug": {
-        "message": "Depuración del worker"
     },
     "shadow_tasks_select_hint": {
         "message": "Selecciona una tarea para ver los detalles"
@@ -1616,92 +1526,14 @@
     "shadow_tasks_status_running": {
         "message": "En ejecución"
     },
-    "shadow_tasks_stream_closed_tab_hint": {
-        "message": "Esta pestaña ya está cerrada. Reintenta solo si la vista previa de abajo sigue disponible."
-    },
-    "shadow_tasks_stream_error_with_code": {
-        "message": "Error de transmisión ({{code}})"
-    },
-    "shadow_tasks_stream_no_tab_selected": {
-        "message": "Selecciona una pestaña para ver la vista previa"
-    },
-    "shadow_tasks_stream_not_running": {
-        "message": "La transmisión solo está disponible mientras la tarea está en ejecución"
-    },
-    "shadow_tasks_stream_retry": {
-        "message": "Reintentar transmisión"
-    },
-    "shadow_tasks_stream_switch_failed": {
-        "message": "No se pudo cambiar la transmisión"
-    },
-    "shadow_tasks_stream_title": {
-        "message": "Transmisión en vivo"
-    },
     "shadow_tasks_tabs_empty": {
         "message": "Aún no se han detectado pestañas para esta tarea"
-    },
-    "shadow_tasks_tabs_recording_status": {
-        "message": "Grabación: {{status}}"
-    },
-    "shadow_tasks_tabs_state_closed": {
-        "message": "cerrada"
-    },
-    "shadow_tasks_tabs_state_open": {
-        "message": "abierta"
     },
     "shadow_tasks_tabs_tab_fallback": {
         "message": "Pestaña {{number}}"
     },
     "shadow_tasks_tabs_tab_with_index": {
         "message": "Pestaña {{index}} · {{title}}"
-    },
-    "shadow_tasks_tabs_title": {
-        "message": "Pestañas de la tarea"
-    },
-    "shadow_tasks_worker_debug_client_name": {
-        "message": "Nombre de la sala del worker"
-    },
-    "shadow_tasks_worker_debug_heartbeat": {
-        "message": "Heartbeat"
-    },
-    "shadow_tasks_worker_debug_heartbeat_running": {
-        "message": "Activo"
-    },
-    "shadow_tasks_worker_debug_heartbeat_stopped": {
-        "message": "Detenido"
-    },
-    "shadow_tasks_worker_debug_last_connected_at": {
-        "message": "Última conexión"
-    },
-    "shadow_tasks_worker_debug_last_worker_registered_at": {
-        "message": "Último worker_registered"
-    },
-    "shadow_tasks_worker_debug_no": {
-        "message": "No"
-    },
-    "shadow_tasks_worker_debug_queued_messages": {
-        "message": "Mensajes salientes en cola"
-    },
-    "shadow_tasks_worker_debug_registered_worker_connection_id": {
-        "message": "ID de conexión del worker registrado"
-    },
-    "shadow_tasks_worker_debug_socket_state_connected": {
-        "message": "Conectado"
-    },
-    "shadow_tasks_worker_debug_socket_state_connecting": {
-        "message": "Conectando"
-    },
-    "shadow_tasks_worker_debug_socket_state_disconnected": {
-        "message": "Desconectado"
-    },
-    "shadow_tasks_worker_debug_socket_status": {
-        "message": "Socket del worker"
-    },
-    "shadow_tasks_worker_debug_using_token_fallback": {
-        "message": "Usando token de respaldo"
-    },
-    "shadow_tasks_worker_debug_yes": {
-        "message": "Sí"
     },
     "shell_resize_list": {
         "message": "Cambiar el tamaño de la lista de conversaciones"

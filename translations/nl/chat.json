@@ -723,7 +723,7 @@
         "message": "Laat bestanden los om te uploaden"
     },
     "errors_balance_alert_threshold": {
-        "message": "Je saldo ligt onder de waarschuwingsdrempel."
+        "message": "Je hebt Phi flink beziggehouden. Er zit misschien een pauzetje aan te komen."
     },
     "errors_chat_forbidden": {
         "message": "Je hebt geen toegang tot deze chat."
@@ -1388,9 +1388,6 @@
     "shadow_tasks_cancelled": {
         "message": "Taak geannuleerd"
     },
-    "shadow_tasks_default_task_title": {
-        "message": "Schaduwtaak"
-    },
     "shadow_tasks_empty": {
         "message": "Nog geen schaduwtaken"
     },
@@ -1409,9 +1406,6 @@
     "shadow_tasks_fields_run_index": {
         "message": "Uitvoeringsindex"
     },
-    "shadow_tasks_fields_started_at": {
-        "message": "Gestart op"
-    },
     "shadow_tasks_fields_status": {
         "message": "Status"
     },
@@ -1427,9 +1421,6 @@
     "shadow_tasks_fields_trigger_source": {
         "message": "Triggerbron"
     },
-    "shadow_tasks_fields_trigger_type": {
-        "message": "Triggertype"
-    },
     "shadow_tasks_filters_all_statuses": {
         "message": "Alle statussen"
     },
@@ -1441,9 +1432,6 @@
     },
     "shadow_tasks_history_no_run_selected": {
         "message": "Selecteer een uitvoering om de details te bekijken"
-    },
-    "shadow_tasks_invalid_objective": {
-        "message": "Het doel mag niet leeg zijn na het shadow-voorvoegsel"
     },
     "shadow_tasks_list_title": {
         "message": "Lijst met schaduwtaken"
@@ -1472,80 +1460,8 @@
     "shadow_tasks_page_title": {
         "message": "Schaduwtaken"
     },
-    "shadow_tasks_prepare_failed": {
-        "message": "Kan schaduwtaak niet indienen"
-    },
-    "shadow_tasks_prepare_success": {
-        "message": "Schaduwtaak gestart"
-    },
-    "shadow_tasks_recordings_empty": {
-        "message": "Geen opnamen beschikbaar voor deze taak"
-    },
-    "shadow_tasks_recordings_fields_download_id": {
-        "message": "Download-ID"
-    },
-    "shadow_tasks_recordings_fields_file_size": {
-        "message": "Bestandsgrootte"
-    },
-    "shadow_tasks_recordings_fields_started_at": {
-        "message": "Gestart om"
-    },
-    "shadow_tasks_recordings_fields_stopped_at": {
-        "message": "Gestopt om"
-    },
-    "shadow_tasks_recordings_no_recordings": {
-        "message": "Nog geen opnames voor dit tabblad"
-    },
-    "shadow_tasks_recordings_open": {
-        "message": "Bestand openen"
-    },
-    "shadow_tasks_recordings_open_failed": {
-        "message": "Kan het opnamebestand niet openen"
-    },
-    "shadow_tasks_recordings_open_success": {
-        "message": "Openen van het opnamebestand aangevraagd"
-    },
-    "shadow_tasks_recordings_show": {
-        "message": "Tonen in map"
-    },
-    "shadow_tasks_recordings_show_failed": {
-        "message": "Kan de opname niet in de map tonen"
-    },
-    "shadow_tasks_recordings_show_success": {
-        "message": "Tonen van de opname in de map aangevraagd"
-    },
-    "shadow_tasks_recordings_status_cancelled": {
-        "message": "Geannuleerd"
-    },
-    "shadow_tasks_recordings_status_failed": {
-        "message": "Mislukt"
-    },
-    "shadow_tasks_recordings_status_label": {
-        "message": "Status: {{status}}"
-    },
-    "shadow_tasks_recordings_status_pending": {
-        "message": "In afwachting"
-    },
-    "shadow_tasks_recordings_status_recording": {
-        "message": "Bezig met opnemen"
-    },
-    "shadow_tasks_recordings_status_saved": {
-        "message": "Opgeslagen"
-    },
-    "shadow_tasks_recordings_status_starting": {
-        "message": "Bezig met starten"
-    },
-    "shadow_tasks_recordings_status_stopping": {
-        "message": "Bezig met stoppen"
-    },
-    "shadow_tasks_recordings_title": {
-        "message": "Opnames"
-    },
     "shadow_tasks_refresh": {
         "message": "Vernieuwen"
-    },
-    "shadow_tasks_refresh_detail": {
-        "message": "Details vernieuwen"
     },
     "shadow_tasks_rerun": {
         "message": "Opnieuw uitvoeren"
@@ -1586,14 +1502,8 @@
     "shadow_tasks_sections_task_not_started": {
         "message": "Niet gestart"
     },
-    "shadow_tasks_sections_task_ready": {
-        "message": "Gereed"
-    },
     "shadow_tasks_sections_user_original_message": {
         "message": "Oorspronkelijk bericht van de gebruiker"
-    },
-    "shadow_tasks_sections_worker_debug": {
-        "message": "Worker-debug"
     },
     "shadow_tasks_select_hint": {
         "message": "Selecteer een taak om de details te bekijken"
@@ -1616,92 +1526,14 @@
     "shadow_tasks_status_running": {
         "message": "Actief"
     },
-    "shadow_tasks_stream_closed_tab_hint": {
-        "message": "Dit tabblad is al gesloten. Probeer alleen opnieuw als het voorbeeld eronder nog beschikbaar is."
-    },
-    "shadow_tasks_stream_error_with_code": {
-        "message": "Streamfout ({{code}})"
-    },
-    "shadow_tasks_stream_no_tab_selected": {
-        "message": "Selecteer een tabblad om een voorbeeld te bekijken"
-    },
-    "shadow_tasks_stream_not_running": {
-        "message": "De stream is alleen beschikbaar terwijl de taak wordt uitgevoerd"
-    },
-    "shadow_tasks_stream_retry": {
-        "message": "Stream opnieuw proberen"
-    },
-    "shadow_tasks_stream_switch_failed": {
-        "message": "Kan niet van stream wisselen"
-    },
-    "shadow_tasks_stream_title": {
-        "message": "Livestream"
-    },
     "shadow_tasks_tabs_empty": {
         "message": "Nog geen tabbladen gevonden voor deze taak"
-    },
-    "shadow_tasks_tabs_recording_status": {
-        "message": "Opname: {{status}}"
-    },
-    "shadow_tasks_tabs_state_closed": {
-        "message": "gesloten"
-    },
-    "shadow_tasks_tabs_state_open": {
-        "message": "open"
     },
     "shadow_tasks_tabs_tab_fallback": {
         "message": "Tabblad {{number}}"
     },
     "shadow_tasks_tabs_tab_with_index": {
         "message": "Tabblad {{index}} · {{title}}"
-    },
-    "shadow_tasks_tabs_title": {
-        "message": "Taaktabbladen"
-    },
-    "shadow_tasks_worker_debug_client_name": {
-        "message": "Naam van de worker-room"
-    },
-    "shadow_tasks_worker_debug_heartbeat": {
-        "message": "Heartbeat"
-    },
-    "shadow_tasks_worker_debug_heartbeat_running": {
-        "message": "Actief"
-    },
-    "shadow_tasks_worker_debug_heartbeat_stopped": {
-        "message": "Gestopt"
-    },
-    "shadow_tasks_worker_debug_last_connected_at": {
-        "message": "Laatst verbonden om"
-    },
-    "shadow_tasks_worker_debug_last_worker_registered_at": {
-        "message": "Laatste worker_registered om"
-    },
-    "shadow_tasks_worker_debug_no": {
-        "message": "Nee"
-    },
-    "shadow_tasks_worker_debug_queued_messages": {
-        "message": "Uitgaande berichten in wachtrij"
-    },
-    "shadow_tasks_worker_debug_registered_worker_connection_id": {
-        "message": "Verbindings-ID van de geregistreerde worker"
-    },
-    "shadow_tasks_worker_debug_socket_state_connected": {
-        "message": "Verbonden"
-    },
-    "shadow_tasks_worker_debug_socket_state_connecting": {
-        "message": "Bezig met verbinden"
-    },
-    "shadow_tasks_worker_debug_socket_state_disconnected": {
-        "message": "Verbinding verbroken"
-    },
-    "shadow_tasks_worker_debug_socket_status": {
-        "message": "Worker-socket"
-    },
-    "shadow_tasks_worker_debug_using_token_fallback": {
-        "message": "Token-fallback in gebruik"
-    },
-    "shadow_tasks_worker_debug_yes": {
-        "message": "Ja"
     },
     "shell_resize_list": {
         "message": "Formaat van de gesprekkenlijst aanpassen"

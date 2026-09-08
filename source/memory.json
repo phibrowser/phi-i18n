@@ -27,14 +27,6 @@
         "message": "Loading messages...",
         "description": "Location: Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Chat-composer placeholder while the conversation's initial message history is loading."
     },
-    "conversation_page_title": {
-        "message": "Phi Conversation",
-        "description": "Location: Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Document title of the standalone conversation page."
-    },
-    "conversation_recalled_memories": {
-        "message": "Recalled memories",
-        "description": "Location: Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Heading above memories recalled for a conversation response."
-    },
     "conversation_tabs_remove": {
         "message": "Remove tab",
         "description": "Location: Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Tab-context chips attached to a conversation message. Accessible label for the button that removes an attached browser tab."
@@ -42,10 +34,6 @@
     "conversation_tabs_untitled": {
         "message": "Untitled",
         "description": "Location: Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Tab-context chips attached to a conversation message. Fallback label when an attached browser tab has no title."
-    },
-    "conversation_typing": {
-        "message": "Assistant is typing",
-        "description": "Location: Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Accessible status announced while the assistant is streaming a response."
     },
     "features_prompt_timeout": {
         "message": "Feature prompt fetching timed out",
@@ -2316,7 +2304,7 @@
         "description": "Location: Memory. Standalone Anamnesis settings for the new-tab appearance and language-model providers. Optional model overrides. Label above the local embedding-model override."
     },
     "options_models_heavy_description": {
-        "message": "Used for demanding tasks such as deep research, knowledge briefs, and artifacts. Leave blank to use the recommended default (“{{model}}”).",
+        "message": "Used for demanding tasks such as deep research and artifacts. Leave blank to use the recommended default (“{{model}}”).",
         "description": "Location: Memory. Standalone Anamnesis settings for the new-tab appearance and language-model providers. Optional model overrides. Helper text for the demanding-task model override; {{model}} is the provider's recommended model identifier."
     },
     "options_models_heavy_label": {
@@ -2479,10 +2467,6 @@
         "message": "Memory Collection",
         "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Label beside the switch that enables or disables memory collection for the active website."
     },
-    "popup_navigation_chat": {
-        "message": "Chat",
-        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Links in the extension toolbar popup. Standalone-popup link that opens the chat page; shown only in development builds."
-    },
     "popup_navigation_llm_settings": {
         "message": "LLM Settings",
         "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Links in the extension toolbar popup. Popup link that opens language-model provider settings."
@@ -2491,17 +2475,37 @@
         "message": "Memory",
         "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Links in the extension toolbar popup. Popup link that opens the memory page in the standalone Anamnesis build."
     },
-    "popup_navigation_memory_management": {
-        "message": "Memory Management",
-        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Links in the extension toolbar popup. Embedded-extension popup link that opens the memory-management page."
-    },
-    "popup_navigation_new_tab": {
-        "message": "New Tab",
-        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Links in the extension toolbar popup. Embedded-extension popup link that opens the new-tab page; shown only in development builds."
-    },
     "popup_no_active_website": {
         "message": "No active website to configure.",
         "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Popup empty state when the active tab is not a configurable website."
+    },
+    "popup_remove_host_memories_button": {
+        "message": "Remove Site Memories",
+        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Embedded-extension popup flow that permanently deletes every memory collected from the active website. A first click arms a confirmation; a second click performs the removal. Initial label of the popup's per-site removal button, shown below the memory-collection switch."
+    },
+    "popup_remove_host_memories_confirm_button": {
+        "message": "Confirm Removal",
+        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Embedded-extension popup flow that permanently deletes every memory collected from the active website. A first click arms a confirmation; a second click performs the removal. Label of the per-site removal button after the first click, asking the user to confirm the deletion."
+    },
+    "popup_remove_host_memories_confirm_hint": {
+        "message": "Permanently removes every memory collected from {{host}} and its subdomains. This cannot be undone.",
+        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Embedded-extension popup flow that permanently deletes every memory collected from the active website. A first click arms a confirmation; a second click performs the removal. Warning shown under the armed removal button. {{host}} contains the active website's hostname, e.g. \"news.ycombinator.com\"."
+    },
+    "popup_remove_host_memories_done": {
+        "message": "Memories Removed",
+        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Embedded-extension popup flow that permanently deletes every memory collected from the active website. A first click arms a confirmation; a second click performs the removal. Label of the per-site removal button after the deletion succeeded; the button stays disabled."
+    },
+    "popup_remove_host_memories_error": {
+        "message": "Couldn't remove memories. Check your connection and try again.",
+        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Embedded-extension popup flow that permanently deletes every memory collected from the active website. A first click arms a confirmation; a second click performs the removal. Error line shown under the per-site removal button when the deletion request failed."
+    },
+    "popup_remove_host_memories_retry_button": {
+        "message": "Try Again",
+        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Embedded-extension popup flow that permanently deletes every memory collected from the active website. A first click arms a confirmation; a second click performs the removal. Label of the per-site removal button after the deletion failed, inviting the user to try again."
+    },
+    "popup_remove_host_memories_working": {
+        "message": "Removing…",
+        "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Embedded-extension popup flow that permanently deletes every memory collected from the active website. A first click arms a confirmation; a second click performs the removal. Label of the per-site removal button while the deletion request is running."
     },
     "popup_sign_in_phi_cloud_hint": {
         "message": "Sign in to enable Phi Cloud.",

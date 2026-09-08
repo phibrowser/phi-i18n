@@ -12,7 +12,7 @@
         "message": "自動儲存失敗，正在重試（{{current}}/{{total}}）…"
     },
     "errors_balance_too_low": {
-        "message": "你的餘額過低，請儲值後繼續使用服務。"
+        "message": "你最近讓 Phi 忙個不停，請晚點再回來看看。"
     },
     "errors_chat_id_required": {
         "message": "必須提供對話 ID。"
@@ -57,7 +57,7 @@
         "message": "伺服器回應無效，請再試一次。"
     },
     "errors_types_group_balance_not_enough": {
-        "message": "餘額不足，請儲值或聯絡你的管理員。"
+        "message": "你最近讓 Phi 忙個不停，請晚點再回來看看。"
     },
     "errors_types_invalid_request_error": {
         "message": "要求無效，請檢查輸入內容後再試一次。"
@@ -72,10 +72,10 @@
         "message": "要求內容過大，請縮減內容大小。"
     },
     "errors_types_token_period_quota_exhausted": {
-        "message": "你本週期的用量配額已達上限，配額會在下個週期重設。"
+        "message": "你最近讓 Phi 忙個不停，請晚點再試試。"
     },
     "errors_types_token_quota_exhausted": {
-        "message": "你的用量配額已用完，請聯絡你的管理員。"
+        "message": "你最近讓 Phi 忙個不停，請晚點再回來看看。"
     },
     "errors_types_upstream_error": {
         "message": "AI 服務供應商發生錯誤，請稍後再試。"
@@ -162,10 +162,10 @@
         "message": "圖片"
     },
     "message_quota_exhausted": {
-        "message": "已超過用量配額"
+        "message": "該休息一下了"
     },
     "message_quota_exhausted_description": {
-        "message": "你今天的用量配額已達上限，配額每天重設。"
+        "message": "你最近讓 Phi 忙個不停，請晚點再回來看看。"
     },
     "message_regenerate": {
         "message": "重新生成"
@@ -322,6 +322,18 @@
     },
     "newtab_share_dialog_title": {
         "message": "分享你的問候"
+    },
+    "quota_no_automatic_reset": {
+        "message": "目前還沒有確定什麼時候能再繼續。"
+    },
+    "quota_period_exhausted": {
+        "message": "你最近讓 Phi 忙個不停，該休息一下了。"
+    },
+    "quota_resets_at": {
+        "message": "{{relative}}（{{absolute}}）就可以再繼續了。"
+    },
+    "quota_total_exhausted": {
+        "message": "你最近讓 Phi 忙個不停，請晚點再回來看看。"
     },
     "user_input_add_attachment": {
         "message": "加入附件"

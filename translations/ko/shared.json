@@ -12,7 +12,7 @@
         "message": "자동 저장에 실패해 다시 시도 중이에요 ({{current}}/{{total}})…"
     },
     "errors_balance_too_low": {
-        "message": "크레딧 잔액이 부족해요. 서비스를 계속 이용하려면 충전해 주세요."
+        "message": "덕분에 Phi가 쉴 새 없이 일했어요. 나중에 다시 들러 주세요."
     },
     "errors_chat_id_required": {
         "message": "대화 ID가 필요해요."
@@ -57,7 +57,7 @@
         "message": "서버 응답이 올바르지 않아요. 다시 시도해 주세요."
     },
     "errors_types_group_balance_not_enough": {
-        "message": "잔액이 부족해요. 충전하거나 관리자에게 문의해 주세요."
+        "message": "덕분에 Phi가 쉴 새 없이 일했어요. 나중에 다시 들러 주세요."
     },
     "errors_types_invalid_request_error": {
         "message": "요청이 올바르지 않아요. 입력 내용을 확인하고 다시 시도해 주세요."
@@ -72,10 +72,10 @@
         "message": "요청이 너무 커요. 내용 크기를 줄여 주세요."
     },
     "errors_types_token_period_quota_exhausted": {
-        "message": "이번 주기의 사용 한도에 도달했어요. 한도는 다음 주기에 초기화돼요."
+        "message": "덕분에 Phi가 쉴 새 없이 일했어요. 나중에 다시 시도해 주세요."
     },
     "errors_types_token_quota_exhausted": {
-        "message": "사용 한도를 모두 사용했어요. 관리자에게 문의해 주세요."
+        "message": "덕분에 Phi가 쉴 새 없이 일했어요. 나중에 다시 들러 주세요."
     },
     "errors_types_upstream_error": {
         "message": "AI 서비스 제공업체에서 오류가 발생했어요. 잠시 후 다시 시도해 주세요."
@@ -162,10 +162,10 @@
         "message": "이미지"
     },
     "message_quota_exhausted": {
-        "message": "사용 한도 초과"
+        "message": "잠시 쉬어 갈 시간이에요"
     },
     "message_quota_exhausted_description": {
-        "message": "오늘의 사용 한도에 도달했어요. 한도는 매일 초기화돼요."
+        "message": "덕분에 Phi가 쉴 새 없이 일했어요. 나중에 다시 들러 주세요."
     },
     "message_regenerate": {
         "message": "다시 생성"
@@ -322,6 +322,18 @@
     },
     "newtab_share_dialog_title": {
         "message": "인사말 공유하기"
+    },
+    "quota_no_automatic_reset": {
+        "message": "다시 이어 갈 시간은 아직 정해지지 않았어요."
+    },
+    "quota_period_exhausted": {
+        "message": "덕분에 Phi가 쉴 새 없이 일했어요. 잠시 쉬어 갈 시간이에요."
+    },
+    "quota_resets_at": {
+        "message": "{{relative}}({{absolute}})부터 다시 이어 갈 수 있어요."
+    },
+    "quota_total_exhausted": {
+        "message": "덕분에 Phi가 쉴 새 없이 일했어요. 나중에 다시 들러 주세요."
     },
     "user_input_add_attachment": {
         "message": "첨부 파일 추가"

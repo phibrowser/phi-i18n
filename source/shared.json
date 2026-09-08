@@ -5,7 +5,7 @@
     },
     "conversation_new_chat": {
         "message": "New Chat",
-        "description": "Location: Chat | Memory. Standalone chat-page titles and shared labels used while composing or rendering a conversation. Button: start a new conversation."
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button: start a new conversation."
     },
     "errors_auto_save_failed_final": {
         "message": "Auto-save failed. Please retry.",
@@ -16,7 +16,7 @@
         "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Auto-save retry progress; {{current}}/{{total}} = attempt counter."
     },
     "errors_balance_too_low": {
-        "message": "Your credit balance is too low. Please top up to continue using the service.",
+        "message": "You've been keeping Phi busy. Please check back later.",
         "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Account balance errors. Account balance exhausted."
     },
     "errors_chat_id_required": {
@@ -76,8 +76,8 @@
         "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The response could not be read."
     },
     "errors_types_group_balance_not_enough": {
-        "message": "Insufficient balance. Please top up or contact your administrator.",
-        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The shared balance the account draws on is empty."
+        "message": "You've been keeping Phi busy. Please check back later.",
+        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The billing account has insufficient balance to use the AI service."
     },
     "errors_types_invalid_request_error": {
         "message": "Invalid request. Please check your input and try again.",
@@ -96,11 +96,11 @@
         "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The request content is larger than the service accepts."
     },
     "errors_types_token_period_quota_exhausted": {
-        "message": "Your periodic usage quota has been reached. Quota will reset at the next cycle.",
+        "message": "You've been keeping Phi busy. Please try again later.",
         "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The quota for the current period is used up."
     },
     "errors_types_token_quota_exhausted": {
-        "message": "Your usage quota has been exhausted. Please contact your administrator.",
+        "message": "You've been keeping Phi busy. Please check back later.",
         "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Messages for errors reported by the AI service. The key names are the service's own error codes; do not translate them. The account's usage quota is used up."
     },
     "errors_types_upstream_error": {
@@ -216,12 +216,12 @@
         "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Generic type names for file-part thumbnails. Generic label of an image attachment thumbnail."
     },
     "message_quota_exhausted": {
-        "message": "Usage quota exceeded",
+        "message": "Time for a little break",
         "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner title when the usage quota is used up."
     },
     "message_quota_exhausted_description": {
-        "message": "Your daily usage quota has been reached. Quota resets daily.",
-        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner body; explains the daily quota reset."
+        "message": "You've been keeping Phi busy. Please check back later.",
+        "description": "Location: Chat | Memory. Chat message rendering: actions, statuses, tool calls, sources, role card. Error banner body when a request was rejected because the usage quota is used up; used for both period and cumulative exhaustion."
     },
     "message_regenerate": {
         "message": "Regenerate",
@@ -430,6 +430,22 @@
     "newtab_share_dialog_title": {
         "message": "Share your greeting",
         "description": "Location: Chat | Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog that previews the current greeting as an image and offers sharing or download actions. Heading at the top of the greeting-image sharing dialog."
+    },
+    "quota_no_automatic_reset": {
+        "message": "There's no set time to pick things up again just yet.",
+        "description": "Location: Chat | Memory. Notice above the new tab chat composer while the Phi AI quota is used up; sending is paused until the reset. Notice body when no reset time exists (cumulative quota)."
+    },
+    "quota_period_exhausted": {
+        "message": "You've been keeping Phi busy. Time for a little break.",
+        "description": "Location: Chat | Memory. Notice above the new tab chat composer while the Phi AI quota is used up; sending is paused until the reset. Notice title when the per-period quota (hourly/daily/weekly/monthly) is used up."
+    },
+    "quota_resets_at": {
+        "message": "You can pick things up again {{relative}} ({{absolute}}).",
+        "description": "Location: Chat | Memory. Notice above the new tab chat composer while the Phi AI quota is used up; sending is paused until the reset. Notice body; {{relative}} is a localized countdown such as 'in 3 hours', {{absolute}} the reset time in the user's time zone."
+    },
+    "quota_total_exhausted": {
+        "message": "You've been keeping Phi busy. Please check back later.",
+        "description": "Location: Chat | Memory. Notice above the new tab chat composer while the Phi AI quota is used up; sending is paused until the reset. Notice title when the cumulative quota is used up; it has no automatic reset."
     },
     "user_input_add_attachment": {
         "message": "Add attachment",

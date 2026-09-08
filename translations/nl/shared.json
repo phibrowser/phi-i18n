@@ -12,7 +12,7 @@
         "message": "Automatisch opslaan is mislukt, opnieuw proberen ({{current}}/{{total}})…"
     },
     "errors_balance_too_low": {
-        "message": "Je tegoed is te laag. Vul je tegoed aan om de service te blijven gebruiken."
+        "message": "Je hebt Phi flink beziggehouden. Kom later gerust nog eens kijken."
     },
     "errors_chat_id_required": {
         "message": "Chat-ID is vereist."
@@ -57,7 +57,7 @@
         "message": "Ongeldig antwoord van de server. Probeer het opnieuw."
     },
     "errors_types_group_balance_not_enough": {
-        "message": "Onvoldoende tegoed. Vul je tegoed aan of neem contact op met je beheerder."
+        "message": "Je hebt Phi flink beziggehouden. Kom later gerust nog eens kijken."
     },
     "errors_types_invalid_request_error": {
         "message": "Ongeldige aanvraag. Controleer je invoer en probeer het opnieuw."
@@ -72,10 +72,10 @@
         "message": "De aanvraag is te groot. Verklein de inhoud."
     },
     "errors_types_token_period_quota_exhausted": {
-        "message": "Je periodieke gebruiksquotum is bereikt. Het quotum wordt bij de volgende cyclus opnieuw ingesteld."
+        "message": "Je hebt Phi flink beziggehouden. Probeer het later gerust nog eens."
     },
     "errors_types_token_quota_exhausted": {
-        "message": "Je gebruiksquotum is opgebruikt. Neem contact op met je beheerder."
+        "message": "Je hebt Phi flink beziggehouden. Kom later gerust nog eens kijken."
     },
     "errors_types_upstream_error": {
         "message": "Fout bij de AI-serviceprovider. Probeer het later opnieuw."
@@ -162,10 +162,10 @@
         "message": "Afbeelding"
     },
     "message_quota_exhausted": {
-        "message": "Gebruiksquotum overschreden"
+        "message": "Tijd voor een pauzetje"
     },
     "message_quota_exhausted_description": {
-        "message": "Je dagelijkse gebruiksquotum is bereikt. Het quotum wordt elke dag opnieuw ingesteld."
+        "message": "Je hebt Phi flink beziggehouden. Kom later gerust nog eens kijken."
     },
     "message_regenerate": {
         "message": "Opnieuw genereren"
@@ -322,6 +322,18 @@
     },
     "newtab_share_dialog_title": {
         "message": "Deel je begroeting"
+    },
+    "quota_no_automatic_reset": {
+        "message": "Er is nog geen vast moment om de draad weer op te pakken."
+    },
+    "quota_period_exhausted": {
+        "message": "Je hebt Phi flink beziggehouden. Tijd voor een pauzetje."
+    },
+    "quota_resets_at": {
+        "message": "Je kunt {{relative}} de draad weer oppakken ({{absolute}})."
+    },
+    "quota_total_exhausted": {
+        "message": "Je hebt Phi flink beziggehouden. Kom later gerust nog eens kijken."
     },
     "user_input_add_attachment": {
         "message": "Bijlage toevoegen"

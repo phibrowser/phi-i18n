@@ -12,7 +12,7 @@
         "message": "自動保存に失敗しました。再試行しています ({{current}}/{{total}})…"
     },
     "errors_balance_too_low": {
-        "message": "クレジット残高が不足しています。引き続きサービスをご利用いただくには、チャージしてください。"
+        "message": "Phiをたくさんご活用いただいています。しばらくしてから、また様子を見てみてください。"
     },
     "errors_chat_id_required": {
         "message": "チャットIDが必要です。"
@@ -57,7 +57,7 @@
         "message": "サーバーからの応答が無効です。もう一度お試しください。"
     },
     "errors_types_group_balance_not_enough": {
-        "message": "残高が不足しています。チャージするか、管理者にお問い合わせください。"
+        "message": "Phiをたくさんご活用いただいています。しばらくしてから、また様子を見てみてください。"
     },
     "errors_types_invalid_request_error": {
         "message": "リクエストが無効です。入力内容を確認してから、もう一度お試しください。"
@@ -72,10 +72,10 @@
         "message": "リクエストが大きすぎます。コンテンツのサイズを減らしてください。"
     },
     "errors_types_token_period_quota_exhausted": {
-        "message": "期間ごとの使用量上限に達しました。上限は次のサイクルでリセットされます。"
+        "message": "Phiをたくさんご活用いただいています。時間をおいて、もう一度お試しください。"
     },
     "errors_types_token_quota_exhausted": {
-        "message": "使用量の上限に達しました。管理者にお問い合わせください。"
+        "message": "Phiをたくさんご活用いただいています。しばらくしてから、また様子を見てみてください。"
     },
     "errors_types_upstream_error": {
         "message": "AIサービスプロバイダーでエラーが発生しました。しばらくしてからもう一度お試しください。"
@@ -162,10 +162,10 @@
         "message": "画像"
     },
     "message_quota_exhausted": {
-        "message": "使用量の上限を超えました"
+        "message": "ちょっとひと休み"
     },
     "message_quota_exhausted_description": {
-        "message": "1日の使用量上限に達しました。上限は毎日リセットされます。"
+        "message": "Phiをたくさんご活用いただいています。しばらくしてから、また様子を見てみてください。"
     },
     "message_regenerate": {
         "message": "再生成"
@@ -322,6 +322,18 @@
     },
     "newtab_share_dialog_title": {
         "message": "あいさつを共有"
+    },
+    "quota_no_automatic_reset": {
+        "message": "続きを始められる時間は、今のところまだ決まっていません。"
+    },
+    "quota_period_exhausted": {
+        "message": "Phiをたくさんご活用いただいています。ちょっとひと休みの時間です。"
+    },
+    "quota_resets_at": {
+        "message": "{{relative}}（{{absolute}}）に、また続きを始められます。"
+    },
+    "quota_total_exhausted": {
+        "message": "Phiをたくさんご活用いただいています。しばらくしてから、また様子を見てみてください。"
     },
     "user_input_add_attachment": {
         "message": "添付ファイルを追加"

@@ -723,7 +723,7 @@
         "message": "ファイルをドロップしてアップロード"
     },
     "errors_balance_alert_threshold": {
-        "message": "残高がアラートのしきい値を下回っています。"
+        "message": "Phiをたくさんご活用いただいています。そろそろひと休みの時間が近づいているかもしれません。"
     },
     "errors_chat_forbidden": {
         "message": "このチャットにアクセスする権限がありません。"
@@ -1388,9 +1388,6 @@
     "shadow_tasks_cancelled": {
         "message": "タスクをキャンセルしました"
     },
-    "shadow_tasks_default_task_title": {
-        "message": "バックグラウンドタスク"
-    },
     "shadow_tasks_empty": {
         "message": "バックグラウンドタスクはまだありません"
     },
@@ -1409,9 +1406,6 @@
     "shadow_tasks_fields_run_index": {
         "message": "実行番号"
     },
-    "shadow_tasks_fields_started_at": {
-        "message": "開始日時"
-    },
     "shadow_tasks_fields_status": {
         "message": "ステータス"
     },
@@ -1427,9 +1421,6 @@
     "shadow_tasks_fields_trigger_source": {
         "message": "トリガー元"
     },
-    "shadow_tasks_fields_trigger_type": {
-        "message": "トリガーの種類"
-    },
     "shadow_tasks_filters_all_statuses": {
         "message": "すべてのステータス"
     },
@@ -1441,9 +1432,6 @@
     },
     "shadow_tasks_history_no_run_selected": {
         "message": "詳細を表示する実行を選択してください"
-    },
-    "shadow_tasks_invalid_objective": {
-        "message": "「shadow」プレフィックスの後に目標を入力してください"
     },
     "shadow_tasks_list_title": {
         "message": "バックグラウンドタスク一覧"
@@ -1472,80 +1460,8 @@
     "shadow_tasks_page_title": {
         "message": "バックグラウンドタスク"
     },
-    "shadow_tasks_prepare_failed": {
-        "message": "バックグラウンドタスクを送信できませんでした"
-    },
-    "shadow_tasks_prepare_success": {
-        "message": "バックグラウンドタスクを開始しました"
-    },
-    "shadow_tasks_recordings_empty": {
-        "message": "このタスクの録画はありません"
-    },
-    "shadow_tasks_recordings_fields_download_id": {
-        "message": "ダウンロードID"
-    },
-    "shadow_tasks_recordings_fields_file_size": {
-        "message": "ファイルサイズ"
-    },
-    "shadow_tasks_recordings_fields_started_at": {
-        "message": "開始時刻"
-    },
-    "shadow_tasks_recordings_fields_stopped_at": {
-        "message": "停止時刻"
-    },
-    "shadow_tasks_recordings_no_recordings": {
-        "message": "このタブの録画はまだありません"
-    },
-    "shadow_tasks_recordings_open": {
-        "message": "ファイルを開く"
-    },
-    "shadow_tasks_recordings_open_failed": {
-        "message": "録画ファイルを開けませんでした"
-    },
-    "shadow_tasks_recordings_open_success": {
-        "message": "録画ファイルを開くようリクエストしました"
-    },
-    "shadow_tasks_recordings_show": {
-        "message": "フォルダで表示"
-    },
-    "shadow_tasks_recordings_show_failed": {
-        "message": "録画をフォルダで表示できませんでした"
-    },
-    "shadow_tasks_recordings_show_success": {
-        "message": "録画をフォルダで表示するようリクエストしました"
-    },
-    "shadow_tasks_recordings_status_cancelled": {
-        "message": "キャンセル済み"
-    },
-    "shadow_tasks_recordings_status_failed": {
-        "message": "失敗"
-    },
-    "shadow_tasks_recordings_status_label": {
-        "message": "ステータス: {{status}}"
-    },
-    "shadow_tasks_recordings_status_pending": {
-        "message": "待機中"
-    },
-    "shadow_tasks_recordings_status_recording": {
-        "message": "録画中"
-    },
-    "shadow_tasks_recordings_status_saved": {
-        "message": "保存済み"
-    },
-    "shadow_tasks_recordings_status_starting": {
-        "message": "開始中"
-    },
-    "shadow_tasks_recordings_status_stopping": {
-        "message": "停止中"
-    },
-    "shadow_tasks_recordings_title": {
-        "message": "録画"
-    },
     "shadow_tasks_refresh": {
         "message": "更新"
-    },
-    "shadow_tasks_refresh_detail": {
-        "message": "詳細を更新"
     },
     "shadow_tasks_rerun": {
         "message": "再実行"
@@ -1586,14 +1502,8 @@
     "shadow_tasks_sections_task_not_started": {
         "message": "未開始"
     },
-    "shadow_tasks_sections_task_ready": {
-        "message": "準備完了"
-    },
     "shadow_tasks_sections_user_original_message": {
         "message": "ユーザーの元のメッセージ"
-    },
-    "shadow_tasks_sections_worker_debug": {
-        "message": "ワーカーデバッグ"
     },
     "shadow_tasks_select_hint": {
         "message": "タスクを選択すると詳細が表示されます"
@@ -1616,92 +1526,14 @@
     "shadow_tasks_status_running": {
         "message": "実行中"
     },
-    "shadow_tasks_stream_closed_tab_hint": {
-        "message": "このタブはすでに閉じられています。下にプレビューがまだ表示されている場合のみ再試行してください。"
-    },
-    "shadow_tasks_stream_error_with_code": {
-        "message": "ストリームエラー（{{code}}）"
-    },
-    "shadow_tasks_stream_no_tab_selected": {
-        "message": "プレビューするタブを選択してください"
-    },
-    "shadow_tasks_stream_not_running": {
-        "message": "ストリームはタスクの実行中のみ利用できます"
-    },
-    "shadow_tasks_stream_retry": {
-        "message": "ストリームを再試行"
-    },
-    "shadow_tasks_stream_switch_failed": {
-        "message": "ストリームを切り替えられませんでした"
-    },
-    "shadow_tasks_stream_title": {
-        "message": "ライブストリーム"
-    },
     "shadow_tasks_tabs_empty": {
         "message": "このタスクのタブはまだ見つかっていません"
-    },
-    "shadow_tasks_tabs_recording_status": {
-        "message": "録画: {{status}}"
-    },
-    "shadow_tasks_tabs_state_closed": {
-        "message": "閉じている"
-    },
-    "shadow_tasks_tabs_state_open": {
-        "message": "開いている"
     },
     "shadow_tasks_tabs_tab_fallback": {
         "message": "タブ{{number}}"
     },
     "shadow_tasks_tabs_tab_with_index": {
         "message": "タブ{{index}} · {{title}}"
-    },
-    "shadow_tasks_tabs_title": {
-        "message": "タスクのタブ"
-    },
-    "shadow_tasks_worker_debug_client_name": {
-        "message": "ワーカールーム名"
-    },
-    "shadow_tasks_worker_debug_heartbeat": {
-        "message": "ハートビート"
-    },
-    "shadow_tasks_worker_debug_heartbeat_running": {
-        "message": "動作中"
-    },
-    "shadow_tasks_worker_debug_heartbeat_stopped": {
-        "message": "停止"
-    },
-    "shadow_tasks_worker_debug_last_connected_at": {
-        "message": "最終接続時刻"
-    },
-    "shadow_tasks_worker_debug_last_worker_registered_at": {
-        "message": "最終worker_registered時刻"
-    },
-    "shadow_tasks_worker_debug_no": {
-        "message": "いいえ"
-    },
-    "shadow_tasks_worker_debug_queued_messages": {
-        "message": "送信待ちメッセージ数"
-    },
-    "shadow_tasks_worker_debug_registered_worker_connection_id": {
-        "message": "登録済みワーカー接続ID"
-    },
-    "shadow_tasks_worker_debug_socket_state_connected": {
-        "message": "接続済み"
-    },
-    "shadow_tasks_worker_debug_socket_state_connecting": {
-        "message": "接続中"
-    },
-    "shadow_tasks_worker_debug_socket_state_disconnected": {
-        "message": "切断"
-    },
-    "shadow_tasks_worker_debug_socket_status": {
-        "message": "ワーカーソケット"
-    },
-    "shadow_tasks_worker_debug_using_token_fallback": {
-        "message": "トークンフォールバックを使用"
-    },
-    "shadow_tasks_worker_debug_yes": {
-        "message": "はい"
     },
     "shell_resize_list": {
         "message": "チャット一覧のサイズを変更"

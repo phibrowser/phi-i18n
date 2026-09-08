@@ -12,7 +12,7 @@
         "message": "Falló el guardado automático, reintentando ({{current}}/{{total}})…"
     },
     "errors_balance_too_low": {
-        "message": "Tu saldo de crédito es demasiado bajo. Recarga para seguir usando el servicio."
+        "message": "Has tenido a Phi muy ocupado. Vuelve a pasarte más tarde."
     },
     "errors_chat_id_required": {
         "message": "Se requiere el ID del chat."
@@ -57,7 +57,7 @@
         "message": "Respuesta no válida del servidor. Inténtalo de nuevo."
     },
     "errors_types_group_balance_not_enough": {
-        "message": "Saldo insuficiente. Recarga o contacta a tu administrador."
+        "message": "Has tenido a Phi muy ocupado. Vuelve a pasarte más tarde."
     },
     "errors_types_invalid_request_error": {
         "message": "Solicitud no válida. Comprueba los datos e inténtalo de nuevo."
@@ -72,10 +72,10 @@
         "message": "La solicitud es demasiado grande. Reduce el tamaño del contenido."
     },
     "errors_types_token_period_quota_exhausted": {
-        "message": "Se alcanzó tu cuota de uso del período. La cuota se restablecerá en el próximo ciclo."
+        "message": "Has tenido a Phi muy ocupado. Inténtalo de nuevo más tarde."
     },
     "errors_types_token_quota_exhausted": {
-        "message": "Se agotó tu cuota de uso. Contacta a tu administrador."
+        "message": "Has tenido a Phi muy ocupado. Vuelve a pasarte más tarde."
     },
     "errors_types_upstream_error": {
         "message": "Error del proveedor del servicio de IA. Inténtalo de nuevo más tarde."
@@ -162,10 +162,10 @@
         "message": "Imagen"
     },
     "message_quota_exhausted": {
-        "message": "Cuota de uso superada"
+        "message": "Hora de un pequeño descanso"
     },
     "message_quota_exhausted_description": {
-        "message": "Se alcanzó tu cuota de uso diaria. La cuota se restablece cada día."
+        "message": "Has tenido a Phi muy ocupado. Vuelve a pasarte más tarde."
     },
     "message_regenerate": {
         "message": "Regenerar"
@@ -322,6 +322,18 @@
     },
     "newtab_share_dialog_title": {
         "message": "Comparte tu saludo"
+    },
+    "quota_no_automatic_reset": {
+        "message": "Todavía no hay un momento previsto para retomar la conversación."
+    },
+    "quota_period_exhausted": {
+        "message": "Has tenido a Phi muy ocupado. Hora de un pequeño descanso."
+    },
+    "quota_resets_at": {
+        "message": "Puedes retomar la conversación {{relative}} ({{absolute}})."
+    },
+    "quota_total_exhausted": {
+        "message": "Has tenido a Phi muy ocupado. Vuelve a pasarte más tarde."
     },
     "user_input_add_attachment": {
         "message": "Agregar archivo adjunto"

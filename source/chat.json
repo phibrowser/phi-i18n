@@ -627,9 +627,21 @@
         "message": "Categories",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Section header of the category list."
     },
+    "conversation_category_menu": {
+        "message": "Category menu",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. aria-label of the active category chip's kebab menu button."
+    },
     "conversation_category_name_conflict": {
         "message": "A category with this name already exists.",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Validation error: duplicate category name."
+    },
+    "conversation_close_search": {
+        "message": "Close search",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. aria-label of the close button inside the conversation search dialog."
+    },
+    "conversation_conversation_menu": {
+        "message": "Conversation menu",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. aria-label of a conversation row's kebab menu button in the list pane."
     },
     "conversation_create_error": {
         "message": "Failed to create conversation",
@@ -687,9 +699,21 @@
         "message": "Failed to load conversations",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Error text when the conversation list fails to load."
     },
+    "conversation_load_more": {
+        "message": "Load more",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button at the end of the conversation list pane or of the search results that fetches the next page."
+    },
     "conversation_loading": {
         "message": "Loading...",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Generic loading indicator text."
+    },
+    "conversation_more_categories": {
+        "message": "More categories",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. aria-label of the overflow button that lists the category chips that do not fit in the row."
+    },
+    "conversation_move_error": {
+        "message": "Failed to move conversation",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Error text when moving a conversation to another category fails."
     },
     "conversation_move_to_category": {
         "message": "Move to category",
@@ -711,6 +735,22 @@
         "message": "No results for \"{{query}}\"",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Empty search result; {{query}} = the search text."
     },
+    "conversation_origin_chat": {
+        "message": "Phi Chat",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Origin badge next to a conversation title: the chat was started in the Phi Chat window (the chat workspace page). Product name: keep as is."
+    },
+    "conversation_origin_newtab": {
+        "message": "New Tab",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Origin badge next to a conversation title: the chat was started on the new-tab page. Shown only when the list is viewed from another surface."
+    },
+    "conversation_origin_sidebar": {
+        "message": "Sidebar",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Origin badge next to a conversation title: the chat was started in the browser's sidebar panel. Shown only when the list is viewed from another surface."
+    },
+    "conversation_pane_title": {
+        "message": "Conversations",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Heading of the conversation list pane on the chat workspace page."
+    },
     "conversation_recent_conversations": {
         "message": "Recent Conversations",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Section header for the recent list in the top-bar dropdown."
@@ -726,6 +766,14 @@
     "conversation_rename_description": {
         "message": "Enter a new name for this conversation.",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Helper text inside the rename dialog."
+    },
+    "conversation_resize_list": {
+        "message": "Resize conversation list",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. aria-label of the vertical divider that resizes the conversation list pane."
+    },
+    "conversation_retry": {
+        "message": "Retry",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button that retries a failed conversation list load."
     },
     "conversation_save": {
         "message": "Save",
@@ -743,6 +791,10 @@
         "message": "Search conversations",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Placeholder of the conversation search input."
     },
+    "conversation_search_shortcut": {
+        "message": "Search conversations ({{shortcut}})",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Tooltip of the search button; {{shortcut}} = the keyboard chord, for example ⌘K."
+    },
     "conversation_select_conversation": {
         "message": "Select Conversation",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Dialog title: pick a conversation."
@@ -758,6 +810,22 @@
     "conversation_title_placeholder": {
         "message": "Conversation title",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Input placeholder for the new conversation title."
+    },
+    "conversation_travel_back_error": {
+        "message": "Couldn't reopen that page",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu entries that take the user back to the web page a conversation was about. The page title is shown underneath each entry. Toast shown when the browser could not reopen that page."
+    },
+    "conversation_travel_back_latest": {
+        "message": "Back to the latest page",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu entries that take the user back to the web page a conversation was about. The page title is shown underneath each entry. Menu entry: reopen the page the user was on when they last sent a message in this conversation."
+    },
+    "conversation_travel_back_origin": {
+        "message": "Back to where it started",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu entries that take the user back to the web page a conversation was about. The page title is shown underneath each entry. Menu entry: reopen the page the conversation was started on."
+    },
+    "conversation_travel_back_sidebar_error": {
+        "message": "The page is open, but its sidebar didn't follow. Open the sidebar there to continue this chat.",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu entries that take the user back to the web page a conversation was about. The page title is shown underneath each entry. Toast shown when the page was reopened in another tab but that tab's sidebar could not be opened automatically; the conversation still loads when the user opens the sidebar there within a minute."
     },
     "conversation_untitled": {
         "message": "Untitled",
@@ -964,7 +1032,7 @@
         "description": "Location: Chat. Full-window overlay shown while dragging files over the chat. Overlay headline while dragging files over the chat."
     },
     "errors_balance_alert_threshold": {
-        "message": "Balance is below alert threshold.",
+        "message": "You've been keeping Phi busy. A little break may be coming up.",
         "description": "Location: Chat. Messages shown when a request to the service fails. Account balance errors. Balance near exhaustion."
     },
     "errors_chat_forbidden": {
@@ -1173,231 +1241,231 @@
     },
     "message_loading_phrases_p01": {
         "message": "Fishing for answers",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p02": {
         "message": "Diving deep",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p03": {
         "message": "Swimming through data",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p04": {
         "message": "Surfing the knowledge waves",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p05": {
         "message": "Brewing something good",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p06": {
         "message": "Summoning the brain fish",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p07": {
         "message": "Connecting the dots",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p08": {
         "message": "Casting the net wide",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p09": {
         "message": "Reeling in results",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p10": {
         "message": "Exploring the deep end",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p11": {
         "message": "Charting the waters",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p12": {
         "message": "Riding the current",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p13": {
         "message": "Catching a big one",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p14": {
         "message": "Navigating the stream",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p15": {
         "message": "Hooking some insights",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p16": {
         "message": "Scouting the reef",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p17": {
         "message": "Wading through the info",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p18": {
         "message": "Trolling for treasures",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p19": {
         "message": "Baiting the data lake",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p20": {
         "message": "Splashing through thoughts",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p21": {
         "message": "Floating new ideas",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p22": {
         "message": "Drifting toward answers",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p23": {
         "message": "Chasing the school of thought",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p24": {
         "message": "Trawling the archives",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p25": {
         "message": "Testing the waters",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p26": {
         "message": "Making a splash",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p27": {
         "message": "Going with the flow",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p28": {
         "message": "Bubbling up results",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p29": {
         "message": "Untangling the net",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p30": {
         "message": "Sailing through sources",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p31": {
         "message": "Skimming the surface",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p32": {
         "message": "Plunging into the deep",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p33": {
         "message": "Cruising the data stream",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p34": {
         "message": "Hooked on a lead",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p35": {
         "message": "Sifting through the current",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p36": {
         "message": "Mapping the ocean floor",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p37": {
         "message": "Tuning the sonar",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p38": {
         "message": "Following the ripples",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p39": {
         "message": "Scanning the horizon",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p40": {
         "message": "Launching the submarine",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p41": {
         "message": "Decoding the signal",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p42": {
         "message": "Hatching a plan",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p43": {
         "message": "Warming up the engines",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p44": {
         "message": "Spinning the compass",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p45": {
         "message": "Polishing the telescope",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p46": {
         "message": "Shaking the magic fish bowl",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p47": {
         "message": "Consulting the sea oracle",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p48": {
         "message": "Reading the tides",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p49": {
         "message": "Assembling the crew",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p50": {
         "message": "Plotting the course",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p51": {
         "message": "Fishing in deeper waters",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p52": {
         "message": "Chasing a golden fish",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p53": {
         "message": "Swimming upstream",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p54": {
         "message": "Stirring the whirlpool",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p55": {
         "message": "Anchoring the findings",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p56": {
         "message": "Catching the wave",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_loading_phrases_p57": {
         "message": "Letting the bait sink in",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply. Aquatic and fishing wordplay; translate the light, playful tone rather than the literal metaphor. Rotating loading phrase."
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
     },
     "message_metrics_chars": {
         "message": "{{value}} chars",
@@ -1851,10 +1919,6 @@
         "message": "Task cancelled",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Toast after cancelling succeeds."
     },
-    "shadow_tasks_default_task_title": {
-        "message": "Shadow Task",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Default title for a task created from the composer's /shadow command."
-    },
     "shadow_tasks_empty": {
         "message": "No shadow tasks yet",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Empty state: no tasks exist."
@@ -1879,10 +1943,6 @@
         "message": "Run index",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: the position of this run among the task's runs."
     },
-    "shadow_tasks_fields_started_at": {
-        "message": "Started at",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label (timestamp)."
-    },
     "shadow_tasks_fields_status": {
         "message": "Status",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: where the run currently stands."
@@ -1903,10 +1963,6 @@
         "message": "Trigger source",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: what started this run."
     },
-    "shadow_tasks_fields_trigger_type": {
-        "message": "Trigger type",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Field labels in the task/run detail panes. Field label: how the run was started (manually, on a schedule, …)."
-    },
     "shadow_tasks_filters_all_statuses": {
         "message": "All statuses",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Search and status filters above the task list. Status filter option meaning 'no filter'."
@@ -1922,10 +1978,6 @@
     "shadow_tasks_history_no_run_selected": {
         "message": "Select a run to inspect details",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). The run-history list. Placeholder before a run is picked."
-    },
-    "shadow_tasks_invalid_objective": {
-        "message": "Objective cannot be empty after shadow prefix",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Composer validation: the message begins with the 'shadow:' prefix but states no objective after it. Keep 'shadow' as typed by the user."
     },
     "shadow_tasks_list_title": {
         "message": "Shadow task list",
@@ -1963,105 +2015,9 @@
         "message": "Shadow Tasks",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Browser tab title of the Shadow Tasks page."
     },
-    "shadow_tasks_prepare_failed": {
-        "message": "Failed to submit shadow task",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Toast: creating the shadow task failed."
-    },
-    "shadow_tasks_prepare_success": {
-        "message": "Shadow task started",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Toast: the background task was created and has started running."
-    },
-    "shadow_tasks_recordings_empty": {
-        "message": "No recordings available for this task",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Empty state: task has no recordings."
-    },
-    "shadow_tasks_recordings_fields_download_id": {
-        "message": "Download ID",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Field labels on a recording card. Field label: identifier of the download that saved the file."
-    },
-    "shadow_tasks_recordings_fields_file_size": {
-        "message": "File size",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Field labels on a recording card. Field label: size of the recording file."
-    },
-    "shadow_tasks_recordings_fields_started_at": {
-        "message": "Started at",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Field labels on a recording card. Field label (timestamp): when the recording began."
-    },
-    "shadow_tasks_recordings_fields_stopped_at": {
-        "message": "Stopped at",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Field labels on a recording card. Field label (timestamp): when the recording ended."
-    },
-    "shadow_tasks_recordings_no_recordings": {
-        "message": "No recordings for this tab yet",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Empty state: this tab has no recordings."
-    },
-    "shadow_tasks_recordings_open": {
-        "message": "Open File",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Button: open the recording file locally."
-    },
-    "shadow_tasks_recordings_open_failed": {
-        "message": "Failed to open the recording file",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Toast when opening fails."
-    },
-    "shadow_tasks_recordings_open_success": {
-        "message": "Requested to open the recording file",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Toast after the open request is sent."
-    },
-    "shadow_tasks_recordings_show": {
-        "message": "Show in Folder",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Button: reveal the file in the OS file manager."
-    },
-    "shadow_tasks_recordings_show_failed": {
-        "message": "Failed to show the recording in folder",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Toast when revealing fails."
-    },
-    "shadow_tasks_recordings_show_success": {
-        "message": "Requested to show the recording in folder",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Toast after the reveal request is sent."
-    },
-    "shadow_tasks_recordings_status_cancelled": {
-        "message": "Cancelled",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Recording lifecycle states. Recording state."
-    },
-    "shadow_tasks_recordings_status_failed": {
-        "message": "Failed",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Recording lifecycle states. Recording state."
-    },
-    "shadow_tasks_recordings_status_label": {
-        "message": "Status: {{status}}",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Status line; {{status}} = a recordings.status.* value."
-    },
-    "shadow_tasks_recordings_status_pending": {
-        "message": "Pending",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Recording lifecycle states. Recording state."
-    },
-    "shadow_tasks_recordings_status_recording": {
-        "message": "Recording",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Recording lifecycle states. Recording state."
-    },
-    "shadow_tasks_recordings_status_saved": {
-        "message": "Saved",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Recording lifecycle states. Recording state."
-    },
-    "shadow_tasks_recordings_status_starting": {
-        "message": "Starting",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Recording lifecycle states. Recording state."
-    },
-    "shadow_tasks_recordings_status_stopping": {
-        "message": "Stopping",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Recording lifecycle states. Recording state."
-    },
-    "shadow_tasks_recordings_title": {
-        "message": "Recordings",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Screen recordings captured per task tab. Heading of the recordings list."
-    },
     "shadow_tasks_refresh": {
         "message": "Refresh",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Button: refresh the task list."
-    },
-    "shadow_tasks_refresh_detail": {
-        "message": "Refresh detail",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Button: refresh the selected task's detail."
     },
     "shadow_tasks_rerun": {
         "message": "Rerun",
@@ -2115,17 +2071,9 @@
         "message": "Not Started",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Section headings in the detail view. Task lifecycle label."
     },
-    "shadow_tasks_sections_task_ready": {
-        "message": "Ready",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Section headings in the detail view. Task lifecycle label."
-    },
     "shadow_tasks_sections_user_original_message": {
         "message": "User original message",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Section headings in the detail view. Section heading: the chat message that spawned the task."
-    },
-    "shadow_tasks_sections_worker_debug": {
-        "message": "Worker Debug",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Section headings in the detail view. Section heading of the advanced diagnostics block."
     },
     "shadow_tasks_select_hint": {
         "message": "Select a task to view details",
@@ -2155,49 +2103,9 @@
         "message": "Running",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Task/run status names (also used as filter options). Status: currently executing."
     },
-    "shadow_tasks_stream_closed_tab_hint": {
-        "message": "This tab is already closed. Retry only if preview is still available underneath.",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Hint under a closed tab's preview."
-    },
-    "shadow_tasks_stream_error_with_code": {
-        "message": "Stream error ({{code}})",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Error shown under the live tab preview when streaming fails. {{code}} is a technical reason code and stays untranslated."
-    },
-    "shadow_tasks_stream_no_tab_selected": {
-        "message": "Select a tab to preview",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Placeholder before a tab is chosen."
-    },
-    "shadow_tasks_stream_not_running": {
-        "message": "Stream is available only while task is running",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Placeholder when the task is not running."
-    },
-    "shadow_tasks_stream_retry": {
-        "message": "Retry Stream",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Button: reconnect the stream."
-    },
-    "shadow_tasks_stream_switch_failed": {
-        "message": "Failed to switch stream",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Toast when switching the streamed tab fails."
-    },
-    "shadow_tasks_stream_title": {
-        "message": "Live Stream",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Live tab-preview stream of a running task. Heading of the live preview pane."
-    },
     "shadow_tasks_tabs_empty": {
         "message": "No tabs discovered for this task yet",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Tabs the task opened. Empty state: no tabs discovered yet."
-    },
-    "shadow_tasks_tabs_recording_status": {
-        "message": "Recording: {{status}}",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Tabs the task opened. Recording state line; {{status}} = a recordings.status.* value."
-    },
-    "shadow_tasks_tabs_state_closed": {
-        "message": "closed",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Tabs the task opened. Open/closed state of a task tab. Tab state badge (lowercase by design)."
-    },
-    "shadow_tasks_tabs_state_open": {
-        "message": "open",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Tabs the task opened. Open/closed state of a task tab. Tab state badge (lowercase by design)."
     },
     "shadow_tasks_tabs_tab_fallback": {
         "message": "Tab {{number}}",
@@ -2206,70 +2114,6 @@
     "shadow_tasks_tabs_tab_with_index": {
         "message": "Tab {{index}} · {{title}}",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Tabs the task opened. Tab row; {{index}} = position, {{title}} = tab title."
-    },
-    "shadow_tasks_tabs_title": {
-        "message": "Task Tabs",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Tabs the task opened. Heading of the task-tabs list."
-    },
-    "shadow_tasks_worker_debug_client_name": {
-        "message": "Worker room name",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Diagnostic field label: name of the channel the connection joined."
-    },
-    "shadow_tasks_worker_debug_heartbeat": {
-        "message": "Heartbeat",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Diagnostic field label: the periodic keep-alive signal."
-    },
-    "shadow_tasks_worker_debug_heartbeat_running": {
-        "message": "Running",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Heartbeat state: active."
-    },
-    "shadow_tasks_worker_debug_heartbeat_stopped": {
-        "message": "Stopped",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Heartbeat state: stopped."
-    },
-    "shadow_tasks_worker_debug_last_connected_at": {
-        "message": "Last connected at",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Diagnostic field label (timestamp): when the connection last opened."
-    },
-    "shadow_tasks_worker_debug_last_worker_registered_at": {
-        "message": "Last worker_registered at",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Diagnostic field label (timestamp); 'worker_registered' is an event name; keep it as-is."
-    },
-    "shadow_tasks_worker_debug_no": {
-        "message": "No",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Boolean display value."
-    },
-    "shadow_tasks_worker_debug_queued_messages": {
-        "message": "Queued outbound messages",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Diagnostic field label (count): messages still waiting to be sent."
-    },
-    "shadow_tasks_worker_debug_registered_worker_connection_id": {
-        "message": "Registered worker connection ID",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Diagnostic field label: identifier of the registered connection."
-    },
-    "shadow_tasks_worker_debug_socket_state_connected": {
-        "message": "Connected",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Socket connection states. Socket state."
-    },
-    "shadow_tasks_worker_debug_socket_state_connecting": {
-        "message": "Connecting",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Socket connection states. Socket state."
-    },
-    "shadow_tasks_worker_debug_socket_state_disconnected": {
-        "message": "Disconnected",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Socket connection states. Socket state."
-    },
-    "shadow_tasks_worker_debug_socket_status": {
-        "message": "Worker socket",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Diagnostic field label: state of the connection that carries the task."
-    },
-    "shadow_tasks_worker_debug_using_token_fallback": {
-        "message": "Using token fallback",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Diagnostic field label (yes/no): whether a backup credential is in use."
-    },
-    "shadow_tasks_worker_debug_yes": {
-        "message": "Yes",
-        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Advanced diagnostics block on the task detail pane. These labels are for troubleshooting; the technical terms are deliberately kept. Boolean display value."
     },
     "shell_resize_list": {
         "message": "Resize conversation list",
@@ -2802,6 +2646,22 @@
     "top_bar_show_response_speed": {
         "message": "Show response speed",
         "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Menu switch that shows/hides the response-speed readout (the live banner above the composer and the per-message metrics line)."
+    },
+    "travel_back_banner_description": {
+        "message": "Reopen it to pick up where you left off.",
+        "description": "Location: Chat. Reminder banner above the chat composer, shown when the open conversation recorded the web page it was about and can reopen it. Its action buttons reuse the conversation.travelBack entries. Banner body: reopening the page lets the user continue where they were."
+    },
+    "travel_back_banner_dismiss": {
+        "message": "Dismiss",
+        "description": "Location: Chat. Reminder banner above the chat composer, shown when the open conversation recorded the web page it was about and can reopen it. Its action buttons reuse the conversation.travelBack entries. aria-label of the close (X) button: hide the banner until the conversation is opened again."
+    },
+    "travel_back_banner_dont_show_again": {
+        "message": "Don't show again",
+        "description": "Location: Chat. Reminder banner above the chat composer, shown when the open conversation recorded the web page it was about and can reopen it. Its action buttons reuse the conversation.travelBack entries. Button: permanently hide the banner for every conversation."
+    },
+    "travel_back_banner_title": {
+        "message": "This chat was about a web page",
+        "description": "Location: Chat. Reminder banner above the chat composer, shown when the open conversation recorded the web page it was about and can reopen it. Its action buttons reuse the conversation.travelBack entries. Banner headline."
     },
     "user_action_aborted": {
         "message": "Action aborted",
