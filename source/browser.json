@@ -391,6 +391,10 @@
         "message": "Appearance",
         "description": "Location: Browser. General settings - Appearance section title"
     },
+    "applies_to_copy_link_to_highlight_in": {
+        "message": "Applies to “Copy Link to Highlight” in the right-click menu. Turn off to copy the full link.",
+        "description": "Location: Browser. General settings - Explains where the short-link toggle applies and that disabling it copies the full link to the selected text"
+    },
     "apply_theme_to_text_selection_on_web": {
         "message": "Apply theme to text selection on web pages",
         "description": "Location: Browser. General settings - Toggle title for tinting ::selection on third-party pages with the window theme accent"
@@ -2667,6 +2671,10 @@
         "message": "Kiosk",
         "description": "Location: Browser. URL rules editor - Destination that opens matching URLs in a Kiosk window"
     },
+    "kiosk_peek": {
+        "message": "Kiosk & Peek",
+        "description": "Location: Browser. Shortcuts settings - Section title for Kiosk and Peek commands"
+    },
     "language": {
         "message": "Language",
         "description": "Location: Browser. General settings - Language section title"
@@ -2742,6 +2750,10 @@
     "link": {
         "message": "Link",
         "description": "Location: Browser. Phi Link - Official bot link button"
+    },
+    "link_copied_to_highlight": {
+        "message": "Link copied to highlight",
+        "description": "Location: Browser. Toast shown after copying a link to highlighted text, including when a short link is unavailable"
     },
     "link_telegram_to_chat_with": {
         "message": "Link Telegram to chat with %@.",
@@ -3519,6 +3531,10 @@
         "message": "Only once",
         "description": "Location: Browser. Credential approval - duration segment"
     },
+    "only_work_in_peek_or_kiosk_windows": {
+        "message": "Only work in Peek or Kiosk windows.",
+        "description": "Location: Browser. Shortcuts settings - Subtitle explaining that this group's shortcuts apply to Peek or Kiosk windows"
+    },
     "open_a_browser_window_for_the_selected": {
         "message": "Open a browser window for the selected Profile to continue.",
         "description": "Location: Browser. AI settings - OAuth authorization requires an open window for the selected browser Profile"
@@ -3562,6 +3578,10 @@
     "open_in_telegram": {
         "message": "Open in Telegram",
         "description": "Location: Browser. Phi Link - Open official bot link in Telegram"
+    },
+    "open_kiosk_or_peek_in_current_space": {
+        "message": "Open Kiosk or Peek in current Space",
+        "description": "Location: Browser. Shortcuts settings - Open the Kiosk page in the toolbar's target Space or expand Peek into a regular tab in the current Space"
     },
     "open_kiosk_when_clicking_links_with_held": {
         "message": "Open Kiosk when clicking links with ⌘⌥ held",
@@ -4543,6 +4563,18 @@
         "message": "Share",
         "description": "Location: Browser. Account settings - Section title for sharing"
     },
+    "share_bc6adc": {
+        "message": "Share",
+        "description": "Location: Browser. Highlight link copy confirmation - Button that opens the system sharing menu for the copied link"
+    },
+    "share_mk_ff4d": {
+        "message": "Share…",
+        "description": "Location: Browser. File menu - Share the current page via the macOS share picker"
+    },
+    "share_page": {
+        "message": "Share Page",
+        "description": "Location: Browser. Shortcuts settings - Command title for sharing the current page via the macOS share picker"
+    },
     "shift_click_a_link_or_choose_open": {
         "message": "Shift-click a link, or choose “Open Link in Peek View”, to preview it in a floating panel over the page. Not available in the Comfortable layout.",
         "description": "Location: Browser. Navigations settings - Explanation of the Peek View toggle"
@@ -4554,6 +4586,10 @@
     "shortcuts_b6a37f": {
         "message": "Shortcuts",
         "description": "Location: Browser. Shortcuts settings - Section title for keyboard shortcuts"
+    },
+    "shorten_links_to_selected_text": {
+        "message": "Shorten links to selected text",
+        "description": "Location: Browser. General settings - Toggle that controls whether Copy Link to Highlight generates a short link"
     },
     "show": {
         "message": "Show",
@@ -4594,6 +4630,10 @@
     "show_in_folder": {
         "message": "Show in Folder",
         "description": "Location: Browser. Bookmark manager context menu - Reveal a bookmark search result in its containing folder"
+    },
+    "show_kiosk_open_in_menu": {
+        "message": "Show Kiosk \"Open in\" Menu",
+        "description": "Location: Browser. Shortcuts settings - Show the Open in menu for selecting a destination Space in a Kiosk window"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "Show proactive suggestions on the new tab page",
