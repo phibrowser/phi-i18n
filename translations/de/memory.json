@@ -1727,6 +1727,9 @@
     "options_models_embedding_label": {
         "message": "Embedding-Modell"
     },
+    "options_models_heavy_description": {
+        "message": "Wird für anspruchsvolle Aufgaben wie tiefgehende Recherchen und Artefakte genutzt. Leer lassen, um den empfohlenen Standard („{{model}}“) zu verwenden."
+    },
     "options_models_heavy_label": {
         "message": "Großes Modell"
     },
@@ -1855,6 +1858,27 @@
     },
     "popup_no_active_website": {
         "message": "Keine aktive Website zum Konfigurieren."
+    },
+    "popup_remove_host_memories_button": {
+        "message": "Website-Erinnerungen entfernen"
+    },
+    "popup_remove_host_memories_confirm_button": {
+        "message": "Entfernen bestätigen"
+    },
+    "popup_remove_host_memories_confirm_hint": {
+        "message": "Entfernt dauerhaft alle Erinnerungen, die von {{host}} und seinen Subdomains gesammelt wurden. Diese Aktion kann nicht rückgängig gemacht werden."
+    },
+    "popup_remove_host_memories_done": {
+        "message": "Erinnerungen entfernt"
+    },
+    "popup_remove_host_memories_error": {
+        "message": "Erinnerungen konnten nicht entfernt werden. Prüfe deine Verbindung und versuche es erneut."
+    },
+    "popup_remove_host_memories_retry_button": {
+        "message": "Erneut versuchen"
+    },
+    "popup_remove_host_memories_working": {
+        "message": "Wird entfernt…"
     },
     "popup_sign_in_phi_cloud_hint": {
         "message": "Melde dich an, um Phi Cloud zu aktivieren."

@@ -1727,6 +1727,9 @@
     "options_models_embedding_label": {
         "message": "嵌入模型"
     },
+    "options_models_heavy_description": {
+        "message": "用于深度研究、小组件等高要求任务。留空则使用推荐的默认模型（「{{model}}」）。"
+    },
     "options_models_heavy_label": {
         "message": "高性能模型"
     },
@@ -1855,6 +1858,27 @@
     },
     "popup_no_active_website": {
         "message": "当前没有可配置的网站。"
+    },
+    "popup_remove_host_memories_button": {
+        "message": "删除此站点的记忆"
+    },
+    "popup_remove_host_memories_confirm_button": {
+        "message": "确认删除"
+    },
+    "popup_remove_host_memories_confirm_hint": {
+        "message": "将永久删除从 {{host}} 及其子域名收集的所有记忆。此操作无法撤销。"
+    },
+    "popup_remove_host_memories_done": {
+        "message": "记忆已删除"
+    },
+    "popup_remove_host_memories_error": {
+        "message": "无法删除记忆。请检查网络连接后重试。"
+    },
+    "popup_remove_host_memories_retry_button": {
+        "message": "重试"
+    },
+    "popup_remove_host_memories_working": {
+        "message": "正在删除…"
     },
     "popup_sign_in_phi_cloud_hint": {
         "message": "登录以启用 Phi Cloud。"

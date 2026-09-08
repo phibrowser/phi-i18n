@@ -1727,6 +1727,9 @@
     "options_models_embedding_label": {
         "message": "임베딩 모델"
     },
+    "options_models_heavy_description": {
+        "message": "딥 리서치나 아티팩트처럼 높은 성능이 필요한 작업에 사용해요. 비워 두면 권장 기본값(“{{model}}”)을 사용해요."
+    },
     "options_models_heavy_label": {
         "message": "고성능 모델"
     },
@@ -1855,6 +1858,27 @@
     },
     "popup_no_active_website": {
         "message": "설정할 수 있는 활성 웹사이트가 없어요."
+    },
+    "popup_remove_host_memories_button": {
+        "message": "이 사이트의 메모리 삭제"
+    },
+    "popup_remove_host_memories_confirm_button": {
+        "message": "삭제 확인"
+    },
+    "popup_remove_host_memories_confirm_hint": {
+        "message": "{{host}} 및 하위 도메인에서 수집한 모든 메모리를 영구적으로 삭제해요. 이 작업은 되돌릴 수 없어요."
+    },
+    "popup_remove_host_memories_done": {
+        "message": "메모리 삭제됨"
+    },
+    "popup_remove_host_memories_error": {
+        "message": "메모리를 삭제하지 못했어요. 연결 상태를 확인하고 다시 시도해 주세요."
+    },
+    "popup_remove_host_memories_retry_button": {
+        "message": "다시 시도"
+    },
+    "popup_remove_host_memories_working": {
+        "message": "삭제 중…"
     },
     "popup_sign_in_phi_cloud_hint": {
         "message": "Phi Cloud를 사용하려면 로그인해 주세요."
