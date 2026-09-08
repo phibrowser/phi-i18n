@@ -89,6 +89,9 @@
     "added": {
         "message": "%d件追加"
     },
+    "additional_browser_settings": {
+        "message": "その他のブラウザ設定"
+    },
     "additional_info_optional": {
         "message": "追加情報（任意）"
     },
@@ -103,6 +106,9 @@
     },
     "agent_03b075": {
         "message": "エージェント"
+    },
+    "agent_access_permissions_and_the_password_manager": {
+        "message": "エージェントのアクセス、権限、パスワードマネージャーは「開発者」タブにあります。"
     },
     "agent_autoview": {
         "message": "エージェント自動表示"
@@ -248,6 +254,9 @@
     "always_show_bookmark_bar": {
         "message": "ブックマークバーを常に表示"
     },
+    "always_show_full_url": {
+        "message": "常にURL全体を表示"
+    },
     "always_show_url_path": {
         "message": "URLパスを常に表示"
     },
@@ -287,6 +296,9 @@
     "appearance": {
         "message": "外観"
     },
+    "applies_to_copy_link_to_highlight_in": {
+        "message": "右クリックメニューの「選択箇所へのリンクをコピー」に適用されます。オフにすると、完全なリンクがコピーされます。"
+    },
     "apply_theme_to_text_selection_on_web": {
         "message": "Webページのテキスト選択にテーマを適用"
     },
@@ -325,6 +337,9 @@
     },
     "auto_denies_in_s": {
         "message": "%d秒後に自動拒否"
+    },
+    "auto_picture_in_picture": {
+        "message": "自動ピクチャ・イン・ピクチャ"
     },
     "autofill_only": {
         "message": "自動入力のみ"
@@ -1292,6 +1307,9 @@
     "developer_df2e49": {
         "message": "開発者"
     },
+    "developer_mode": {
+        "message": "開発者モード"
+    },
     "discard": {
         "message": "破棄"
     },
@@ -2237,6 +2255,9 @@
     "never_ask_again": {
         "message": "今後確認しない"
     },
+    "never_pop_out_automatically_manual_picture_in": {
+        "message": "自動ではポップアウトしません。手動のピクチャインピクチャは引き続き使えます"
+    },
     "new_conversation": {
         "message": "新しい会話"
     },
@@ -2489,6 +2510,9 @@
     "none_in": {
         "message": "%@にはありませんでした"
     },
+    "normal": {
+        "message": "標準"
+    },
     "not_assigned_to_a_profile": {
         "message": "プロファイル未割り当て"
     },
@@ -2536,6 +2560,9 @@
     },
     "of_couldn_t_be_added": {
         "message": "%2$d件中%1$d件を追加できませんでした"
+    },
+    "off": {
+        "message": "オフ"
     },
     "official_phi_link_telegram_bot": {
         "message": "Phi Link公式Telegramボット"
@@ -2702,6 +2729,9 @@
     "organize_tabs_with_ai_e4d5d3": {
         "message": "AIでタブを整理"
     },
+    "park_at_edge": {
+        "message": "画面端に待機"
+    },
     "passwords_manager": {
         "message": "パスワードマネージャー"
     },
@@ -2807,6 +2837,9 @@
     "phi_sentinel_service_is_unavailable_check_whether_95f407": {
         "message": "Phi Sentinelサービスを利用できません。正常に起動しているか確認してください。"
     },
+    "phi_starts_with_a_new_window_closing": {
+        "message": "Phiは新しいウインドウで起動します。ウインドウを閉じると、一部のサイトからログアウトされる場合があります。"
+    },
     "phi_will_quit_and_restore_the_current": {
         "message": "Phiを終了して%@を復元します。現在のアプリと選択したユーザーデータは置き換えられます。"
     },
@@ -2851,6 +2884,12 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "アカウント機能を復元するには、再認証してください。"
+    },
+    "pop_out_playing_video_parked_at_the": {
+        "message": "再生中の動画をポップアウトし、クリックするまで画面端に待機させます"
+    },
+    "pop_out_playing_video_when_you_switch": {
+        "message": "タブやアプリを切り替えたときに、再生中の動画をポップアウトします"
     },
     "pop_up": {
         "message": "ポップアップ表示"
@@ -3086,6 +3125,9 @@
     "reopen_closed_tab_de7200": {
         "message": "閉じたタブを再度開く"
     },
+    "reopen_your_windows_and_tabs_the_next": {
+        "message": "次にPhiを起動したときに、ウインドウとタブを再度開きます。"
+    },
     "replace": {
         "message": "置き換える"
     },
@@ -3133,6 +3175,9 @@
     },
     "restore_all_shortcuts": {
         "message": "すべてのショートカットをデフォルトに戻す"
+    },
+    "restore_last_session": {
+        "message": "前回のセッションを復元"
     },
     "restore_time_machine_backup": {
         "message": "Time Machineバックアップを復元しますか？"
@@ -3398,11 +3443,17 @@
     "shortcuts_b6a37f": {
         "message": "ショートカット"
     },
+    "shorten_links_to_selected_text": {
+        "message": "選択したテキストへのリンクを短縮する"
+    },
     "show": {
         "message": "表示"
     },
     "show_a_dot_on_inactive_pinned_tabs": {
         "message": "現在開いている非アクティブな固定タブとブックマークにドットを表示します。"
+    },
+    "show_a_preview_card_when_hovering_over": {
+        "message": "タブにポインタを合わせたときにプレビューカードを表示"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "新しいタブでブックマークバーを表示"
@@ -3910,6 +3961,9 @@
     },
     "turned_away_without_asking_you_from_a": {
         "message": "「今後確認しない」または「30分間」で拒否したため、確認なしで拒否されています。ブロックを解除すると、次に接続したときにもう一度確認されます。"
+    },
+    "turning_developer_mode_off_turns_off_agent": {
+        "message": "デベロッパーモードをオフにすると、エージェントのアクセスとエージェント用パスワードマネージャーがオフになり、許可済みのエージェントと認証情報の承認がすべて取り消されます。あとから接続したエージェントは、オンに戻すよう求めることができます。"
     },
     "two_step_login_code_if_enabled": {
         "message": "2段階認証コード（有効な場合）"

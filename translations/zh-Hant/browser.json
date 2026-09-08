@@ -89,6 +89,9 @@
     "added": {
         "message": "已加入 %d 個"
     },
+    "additional_browser_settings": {
+        "message": "其他瀏覽器設定"
+    },
     "additional_info_optional": {
         "message": "其他資訊（選填）"
     },
@@ -103,6 +106,9 @@
     },
     "agent_03b075": {
         "message": "AI 代理"
+    },
+    "agent_access_permissions_and_the_password_manager": {
+        "message": "AI 代理存取、權限與密碼管理員都在「開發者」分頁中。"
     },
     "agent_autoview": {
         "message": "AI 代理自動檢視"
@@ -248,6 +254,9 @@
     "always_show_bookmark_bar": {
         "message": "一律顯示書籤列"
     },
+    "always_show_full_url": {
+        "message": "一律顯示完整網址"
+    },
     "always_show_url_path": {
         "message": "一律顯示網址路徑"
     },
@@ -287,6 +296,9 @@
     "appearance": {
         "message": "外觀"
     },
+    "applies_to_copy_link_to_highlight_in": {
+        "message": "適用於右鍵選單中的「複製醒目顯示文字的連結」。關閉後會複製完整連結。"
+    },
     "apply_theme_to_text_selection_on_web": {
         "message": "將主題套用到網頁上的文字選取範圍"
     },
@@ -325,6 +337,9 @@
     },
     "auto_denies_in_s": {
         "message": "%d 秒後自動拒絕"
+    },
+    "auto_picture_in_picture": {
+        "message": "自動子母畫面"
     },
     "autofill_only": {
         "message": "僅自動填入"
@@ -1292,6 +1307,9 @@
     "developer_df2e49": {
         "message": "開發者"
     },
+    "developer_mode": {
+        "message": "開發者模式"
+    },
     "discard": {
         "message": "捨棄"
     },
@@ -2237,6 +2255,9 @@
     "never_ask_again": {
         "message": "不再詢問"
     },
+    "never_pop_out_automatically_manual_picture_in": {
+        "message": "永不自動彈出；手動子母畫面仍可使用"
+    },
     "new_conversation": {
         "message": "新增對話"
     },
@@ -2489,6 +2510,9 @@
     "none_in": {
         "message": "%@ 中沒有任何項目"
     },
+    "normal": {
+        "message": "一般"
+    },
     "not_assigned_to_a_profile": {
         "message": "尚未指派給任何設定檔"
     },
@@ -2536,6 +2560,9 @@
     },
     "of_couldn_t_be_added": {
         "message": "%2$d 個中有 %1$d 個無法加入"
+    },
+    "off": {
+        "message": "關閉"
     },
     "official_phi_link_telegram_bot": {
         "message": "Phi Link 官方 Telegram 機器人"
@@ -2702,6 +2729,9 @@
     "organize_tabs_with_ai_e4d5d3": {
         "message": "使用 AI 整理分頁"
     },
+    "park_at_edge": {
+        "message": "停靠於邊緣"
+    },
     "passwords_manager": {
         "message": "密碼管理員"
     },
@@ -2807,6 +2837,9 @@
     "phi_sentinel_service_is_unavailable_check_whether_95f407": {
         "message": "Phi Sentinel 服務無法使用。請檢查它是否正常啟動。"
     },
+    "phi_starts_with_a_new_window_closing": {
+        "message": "Phi 會以新視窗啟動。關閉視窗可能會讓你從某些網站登出。"
+    },
     "phi_will_quit_and_restore_the_current": {
         "message": "Phi 會結束並回復 %@。目前的 App 和所選的使用者資料將會被取代。"
     },
@@ -2851,6 +2884,12 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "請重新驗證身分以恢復帳號功能。"
+    },
+    "pop_out_playing_video_parked_at_the": {
+        "message": "讓播放中的影片彈出，並停靠在螢幕邊緣，直到你按一下為止"
+    },
+    "pop_out_playing_video_when_you_switch": {
+        "message": "切換分頁或 App 時，讓播放中的影片彈出"
     },
     "pop_up": {
         "message": "彈出顯示"
@@ -3086,6 +3125,9 @@
     "reopen_closed_tab_de7200": {
         "message": "重新開啟已關閉的分頁"
     },
+    "reopen_your_windows_and_tabs_the_next": {
+        "message": "下次開啟 Phi 時，重新開啟你的視窗和分頁。"
+    },
     "replace": {
         "message": "取代"
     },
@@ -3133,6 +3175,9 @@
     },
     "restore_all_shortcuts": {
         "message": "還原所有快速鍵"
+    },
+    "restore_last_session": {
+        "message": "還原上次的工作階段"
     },
     "restore_time_machine_backup": {
         "message": "要回復「時光機」備份嗎？"
@@ -3398,11 +3443,17 @@
     "shortcuts_b6a37f": {
         "message": "快速鍵"
     },
+    "shorten_links_to_selected_text": {
+        "message": "縮短指向所選文字的連結"
+    },
     "show": {
         "message": "顯示"
     },
     "show_a_dot_on_inactive_pinned_tabs": {
         "message": "在目前已開啟但非使用中的釘選分頁與書籤上顯示小圓點。"
+    },
+    "show_a_preview_card_when_hovering_over": {
+        "message": "游標停留在分頁上時顯示預覽卡片"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "在新分頁顯示書籤列"
@@ -3910,6 +3961,9 @@
     },
     "turned_away_without_asking_you_from_a": {
         "message": "因為「不再詢問」或「30 分鐘內」的拒絕，未經詢問就被擋下。解除封鎖其中一個後，它下次連線時會再次詢問你。"
+    },
+    "turning_developer_mode_off_turns_off_agent": {
+        "message": "關閉開發者模式時，也會一併關閉 AI 代理存取和 AI 代理密碼管理員，並撤銷所有已允許的 AI 代理與憑證核准。之後連線的 AI 代理可以要求你重新開啟。"
     },
     "two_step_login_code_if_enabled": {
         "message": "兩階段登入驗證碼（若已啟用）"
