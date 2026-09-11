@@ -2455,6 +2455,30 @@
         "message": "Signed out of Phi Cloud.",
         "description": "Location: Memory. Standalone Anamnesis settings for the new-tab appearance and language-model providers. Success, information, and error statuses produced by settings actions. Informational status after Phi Cloud sign-out completes."
     },
+    "phi_cloud_notice_expired": {
+        "message": "Sign in to Phi Cloud again to continue processing memories and using AI features.",
+        "description": "Location: Memory. Phi Cloud sign-in and availability notices in standalone Anamnesis. They never open a login window automatically. Notice shown when a previously signed-in Phi Cloud user must sign in again to continue memory processing and AI features."
+    },
+    "phi_cloud_notice_label": {
+        "message": "Phi Cloud status",
+        "description": "Location: Memory. Phi Cloud sign-in and availability notices in standalone Anamnesis. They never open a login window automatically. Accessible label for the Phi Cloud status card in the toolbar popup, new tab, and AI input areas."
+    },
+    "phi_cloud_notice_later": {
+        "message": "Later",
+        "description": "Location: Memory. Phi Cloud sign-in and availability notices in standalone Anamnesis. They never open a login window automatically. Button that hides the new-tab reminder for the current sign-in expiry only. The toolbar indicator and reminders beside AI inputs remain available."
+    },
+    "phi_cloud_notice_sign_in_again": {
+        "message": "Sign in again",
+        "description": "Location: Memory. Phi Cloud sign-in and availability notices in standalone Anamnesis. They never open a login window automatically. Link in a Phi Cloud sign-in notice that opens settings in a separate tab so the user can sign in again."
+    },
+    "phi_cloud_notice_signed_out": {
+        "message": "Sign in to Phi Cloud to use AI features. Your input will stay here.",
+        "description": "Location: Memory. Phi Cloud sign-in and availability notices in standalone Anamnesis. They never open a login window automatically. Notice beside an AI input when Phi Cloud is selected but the user is signed out. Attempting to send does not clear the input."
+    },
+    "phi_cloud_notice_unavailable": {
+        "message": "Phi Cloud is temporarily unavailable. Please try again later. Your input will stay here.",
+        "description": "Location: Memory. Phi Cloud sign-in and availability notices in standalone Anamnesis. They never open a login window automatically. Notice when Phi Cloud cannot currently be reached or checked. It asks the user to retry later, not to sign in again, and explains that input is retained."
+    },
     "popup_configure_llm_hint": {
         "message": "Set up an LLM provider to enable AI features.",
         "description": "Location: Memory. The extension toolbar popup, including memory collection, provider status, and navigation. Popup guidance shown under the unconfigured language-model status."
