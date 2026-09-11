@@ -47,6 +47,12 @@
     "add_new": {
         "message": "Agregar nuevo"
     },
+    "add_note": {
+        "message": "Agregar nota"
+    },
+    "add_note_1f822f": {
+        "message": "Agregar nota"
+    },
     "add_right_split": {
         "message": "Agregar división a la derecha"
     },
@@ -238,6 +244,12 @@
     },
     "already_exists_and_isn_t_a_link": {
         "message": "“%@” ya existe y no es un enlace creado por Phi Browser. ¿Reemplazarlo por un enlace a la habilidad incluida en esta app?"
+    },
+    "already_in_folio": {
+        "message": "Ya está en Folio"
+    },
+    "also_include_and_all_its_subdomains": {
+        "message": "Incluir también %@ y todos sus subdominios"
     },
     "always": {
         "message": "Siempre"
@@ -623,6 +635,9 @@
     "cancel_bb8536": {
         "message": "Cancelar"
     },
+    "cancel_bf11d3": {
+        "message": "Cancelar"
+    },
     "cancel_bfb477": {
         "message": "Cancelar"
     },
@@ -666,6 +681,9 @@
         "message": "Cancelar"
     },
     "cancel_eef4c0": {
+        "message": "Cancelar"
+    },
+    "cancel_effc57": {
         "message": "Cancelar"
     },
     "cancel_f46103": {
@@ -770,6 +788,9 @@
     "choose_1ca7d1": {
         "message": "Seleccionar…"
     },
+    "choose_22d339": {
+        "message": "Seleccionar"
+    },
     "choose_a_download_location_for_this_profile": {
         "message": "Elige una ubicación de descarga para este perfil."
     },
@@ -782,8 +803,17 @@
     "choose_files": {
         "message": "Seleccionar archivos"
     },
+    "choose_sites": {
+        "message": "Seleccionar sitios…"
+    },
     "choose_space": {
         "message": "Seleccionar Espacio"
+    },
+    "choose_where_saved_pages_are_stored": {
+        "message": "Elige dónde se almacenan las páginas guardadas."
+    },
+    "choose_where_this_profile_s_saved_pages": {
+        "message": "Elige dónde se almacenan las páginas guardadas de este perfil."
     },
     "choose_which_profiles_agents_may_create_their": {
         "message": "Elige en qué perfiles pueden crear los agentes sus propios Espacios. Desactivar un perfil impide que los agentes abran cualquier Espacio nuevo vinculado a él; los Espacios existentes no se ven afectados."
@@ -892,6 +922,9 @@
     },
     "collapse_group": {
         "message": "Contraer grupo"
+    },
+    "collect_site_memories": {
+        "message": "Recopilar recuerdos del sitio"
     },
     "color": {
         "message": "Color"
@@ -1091,11 +1124,17 @@
     "couldn_t_be_imported": {
         "message": "No se pudo importar"
     },
+    "couldn_t_change_memory_collection": {
+        "message": "No se pudo cambiar la recopilación de recuerdos"
+    },
     "couldn_t_delete_profile": {
         "message": "No se pudo eliminar el perfil"
     },
     "couldn_t_delete_profile_571082": {
         "message": "No se pudo eliminar el perfil"
+    },
+    "couldn_t_delete_site_memories": {
+        "message": "No se pudieron eliminar los recuerdos del sitio"
     },
     "couldn_t_finish_setting_up_your_account": {
         "message": "No se pudo terminar de configurar tu cuenta"
@@ -1114,6 +1153,9 @@
     },
     "couldn_t_rename_profile": {
         "message": "No se pudo cambiar el nombre del perfil"
+    },
+    "couldn_t_save_this_page": {
+        "message": "No se pudo guardar esta página"
     },
     "couldn_t_start_guest_mode": {
         "message": "No se pudo iniciar el modo Invitado"
@@ -1176,6 +1218,9 @@
         "message": "¿Eliminar “%@”?"
     },
     "delete_2d08a5": {
+        "message": "Eliminar"
+    },
+    "delete_432e88": {
         "message": "Eliminar"
     },
     "delete_4a29a4": {
@@ -1262,6 +1307,12 @@
     "delete_selected_space": {
         "message": "Eliminar el Espacio seleccionado"
     },
+    "delete_site_memories": {
+        "message": "¿Eliminar los recuerdos del sitio?"
+    },
+    "delete_site_memories_e9047e": {
+        "message": "Eliminar recuerdos del sitio…"
+    },
     "delete_space": {
         "message": "Eliminar Espacio…"
     },
@@ -1309,6 +1360,12 @@
     },
     "developer_mode": {
         "message": "Modo de desarrollador"
+    },
+    "dim_tab_icons_when_their_pages_are": {
+        "message": "Atenúa los iconos de las pestañas cuando sus páginas se liberan de la memoria."
+    },
+    "dim_unloaded_tab_icons": {
+        "message": "Atenuar los iconos de las pestañas liberadas de la memoria"
     },
     "discard": {
         "message": "Descartar"
@@ -1402,6 +1459,9 @@
     },
     "e_g_123456_abc_def": {
         "message": "p. ej. 123456:ABC-DEF…"
+    },
+    "each_save_writes_a_markdown_article_and": {
+        "message": "Cada guardado escribe un artículo en markdown y una copia de la página web, uno junto al otro. Los perfiles pueden reemplazar esta carpeta en su propia configuración."
     },
     "each_space_has_its_own_independent_bookmarks": {
         "message": "Cada Espacio tiene sus propios marcadores independientes"
@@ -1700,6 +1760,18 @@
     "folders_and_their_contents": {
         "message": "%d carpetas y su contenido"
     },
+    "folio": {
+        "message": "Folio"
+    },
+    "folio_folder": {
+        "message": "Carpeta de Folio"
+    },
+    "folio_needs_a_browser_restart": {
+        "message": "Folio necesita que reinicies el navegador"
+    },
+    "follow_the_general_settings_folder": {
+        "message": "Seguir la carpeta de la configuración General"
+    },
     "for_10_min": {
         "message": "Durante 10 min"
     },
@@ -1792,6 +1864,9 @@
     },
     "hide_the_agent_s_command_and_process": {
         "message": "Ocultar el comando y el árbol de procesos del agente"
+    },
+    "highlight_saved": {
+        "message": "Texto destacado guardado"
     },
     "history": {
         "message": "Historial"
@@ -2063,6 +2138,9 @@
     "light": {
         "message": "Claro"
     },
+    "liking_a_youtube_video_or_bookmarking_on": {
+        "message": "Cuando le das Me gusta a un video de YouTube o agregas un marcador en X, Reddit o Stack Overflow, esa página también se guarda aquí. Todo se queda en este Mac."
+    },
     "link": {
         "message": "Vincular"
     },
@@ -2125,6 +2203,9 @@
     },
     "manage_extensions_42bb17": {
         "message": "Administrar extensiones"
+    },
+    "manage_site_memories": {
+        "message": "Administrar recuerdos del sitio"
     },
     "manage_url_rules": {
         "message": "Administrar reglas de URL…"
@@ -2549,6 +2630,12 @@
     "not_used": {
         "message": "Sin usar"
     },
+    "note": {
+        "message": "Nota"
+    },
+    "nothing_could_be_written_to_the_folio": {
+        "message": "No se pudo escribir nada en la carpeta de Folio."
+    },
     "nothing_was_created": {
         "message": "No se creó nada."
     },
@@ -2651,6 +2738,9 @@
     "only_once": {
         "message": "Solo una vez"
     },
+    "only_web_pages_can_be_saved": {
+        "message": "Solo se pueden guardar páginas web."
+    },
     "only_work_in_peek_or_kiosk_windows": {
         "message": "Solo funcionan en ventanas de Peek o Kiosk."
     },
@@ -2677,6 +2767,9 @@
     },
     "open_external_links_in_kiosk": {
         "message": "Abrir enlaces externos en Kiosk"
+    },
+    "open_folio": {
+        "message": "Abrir Folio"
     },
     "open_in": {
         "message": "Abrir en"
@@ -2884,6 +2977,9 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "Vuelve a autenticarte para restaurar las funciones de la cuenta."
+    },
+    "please_try_again": {
+        "message": "Inténtalo de nuevo."
     },
     "pop_out_playing_video_parked_at_the": {
         "message": "Muestra en una ventana flotante el contenido en reproducción y lo deja en el borde de la pantalla hasta que hagas clic en él"
@@ -3233,6 +3329,9 @@
     "running": {
         "message": "%d en ejecución"
     },
+    "same_as_general": {
+        "message": "Igual que General"
+    },
     "saturation": {
         "message": "Saturación"
     },
@@ -3259,6 +3358,36 @@
     },
     "save_fde76b": {
         "message": "Guardar"
+    },
+    "save_note": {
+        "message": "Guardar nota"
+    },
+    "save_pages_to": {
+        "message": "Guardar páginas en"
+    },
+    "save_to_folio": {
+        "message": "Guardar en Folio"
+    },
+    "save_to_folio_c92294": {
+        "message": "Guardar en Folio"
+    },
+    "save_when_you_like_or_bookmark_on": {
+        "message": "Guardar al dar Me gusta o agregar un marcador en sitios compatibles"
+    },
+    "saved_memories_for_will_be_deleted_from": {
+        "message": "Los recuerdos guardados de %@ se eliminarán de este perfil del navegador. Esta acción no se puede deshacer."
+    },
+    "saved_only_what_had_loaded": {
+        "message": "Solo se guardó lo que estaba cargado"
+    },
+    "saved_to_folio": {
+        "message": "Guardado en Folio"
+    },
+    "saved_without_video_article": {
+        "message": "Guardado sin artículo del video"
+    },
+    "saved_without_webpage_copy": {
+        "message": "Guardado sin copia de la página web"
     },
     "scan_failed": {
         "message": "Error al analizar"
@@ -3767,8 +3896,14 @@
     "the_deletion_service_is_temporarily_unavailable_please": {
         "message": "El servicio de eliminación no está disponible temporalmente. Inténtalo de nuevo más tarde."
     },
+    "the_folio_folder_could_not_be_read": {
+        "message": "No se pudo leer la carpeta de Folio."
+    },
     "the_local_im_service_is_unavailable_check": {
         "message": "El servicio de mensajería local no está disponible. Comprueba si Phi Sentinel se inició correctamente y si el servicio de mensajería está en ejecución."
+    },
+    "the_note_is_written_into_the_saved": {
+        "message": "La nota se escribe en el markdown guardado, debajo del texto destacado."
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "La carpeta de datos del navegador Phi ya no está disponible."
@@ -3979,6 +4114,9 @@
     },
     "unblock": {
         "message": "Desbloquear"
+    },
+    "undo": {
+        "message": "Deshacer"
     },
     "ungroup": {
         "message": "Desagrupar"
@@ -4270,6 +4408,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "Se envió tu solicitud de eliminación. Recibirás un comprobante por correo electrónico cuando se complete la eliminación.\n\nAhora Phi cerrará tu sesión, eliminará sus datos de este Mac y se cerrará."
+    },
+    "your_note": {
+        "message": "Tu nota"
     },
     "your_organization_blocked_this_file_because_it": {
         "message": "Tu organización bloqueó este archivo porque está cifrado"

@@ -47,6 +47,12 @@
     "add_new": {
         "message": "新增"
     },
+    "add_note": {
+        "message": "加入備註"
+    },
+    "add_note_1f822f": {
+        "message": "加入備註"
+    },
     "add_right_split": {
         "message": "加入右側分割畫面"
     },
@@ -238,6 +244,12 @@
     },
     "already_exists_and_isn_t_a_link": {
         "message": "「%@」已存在，且不是 Phi Browser 建立的連結。要將它取代為指向此 App 內建 Skill 的連結嗎？"
+    },
+    "already_in_folio": {
+        "message": "已在 Folio 中"
+    },
+    "also_include_and_all_its_subdomains": {
+        "message": "同時包含 %@ 及其所有子網域"
     },
     "always": {
         "message": "一律"
@@ -623,6 +635,9 @@
     "cancel_bb8536": {
         "message": "取消"
     },
+    "cancel_bf11d3": {
+        "message": "取消"
+    },
     "cancel_bfb477": {
         "message": "取消"
     },
@@ -666,6 +681,9 @@
         "message": "取消"
     },
     "cancel_eef4c0": {
+        "message": "取消"
+    },
+    "cancel_effc57": {
         "message": "取消"
     },
     "cancel_f46103": {
@@ -770,6 +788,9 @@
     "choose_1ca7d1": {
         "message": "選擇…"
     },
+    "choose_22d339": {
+        "message": "選擇"
+    },
     "choose_a_download_location_for_this_profile": {
         "message": "請為此設定檔選擇下載位置。"
     },
@@ -782,8 +803,17 @@
     "choose_files": {
         "message": "選擇檔案"
     },
+    "choose_sites": {
+        "message": "選擇網站…"
+    },
     "choose_space": {
         "message": "選擇空間"
+    },
+    "choose_where_saved_pages_are_stored": {
+        "message": "請選擇網頁的儲存位置。"
+    },
+    "choose_where_this_profile_s_saved_pages": {
+        "message": "請為此設定檔選擇網頁的儲存位置。"
     },
     "choose_which_profiles_agents_may_create_their": {
         "message": "選擇 AI 代理可以在哪些設定檔中建立自己的空間。關閉某個設定檔後，AI 代理將無法再開啟綁定該設定檔的新空間；現有空間不受影響。"
@@ -892,6 +922,9 @@
     },
     "collapse_group": {
         "message": "收合群組"
+    },
+    "collect_site_memories": {
+        "message": "蒐集網站記憶"
     },
     "color": {
         "message": "顏色"
@@ -1091,11 +1124,17 @@
     "couldn_t_be_imported": {
         "message": "無法匯入"
     },
+    "couldn_t_change_memory_collection": {
+        "message": "無法更改記憶蒐集設定"
+    },
     "couldn_t_delete_profile": {
         "message": "無法刪除設定檔"
     },
     "couldn_t_delete_profile_571082": {
         "message": "無法刪除設定檔"
+    },
+    "couldn_t_delete_site_memories": {
+        "message": "無法刪除網站記憶"
     },
     "couldn_t_finish_setting_up_your_account": {
         "message": "無法完成帳號設定"
@@ -1114,6 +1153,9 @@
     },
     "couldn_t_rename_profile": {
         "message": "無法重新命名設定檔"
+    },
+    "couldn_t_save_this_page": {
+        "message": "無法儲存這個網頁"
     },
     "couldn_t_start_guest_mode": {
         "message": "無法啟動訪客模式"
@@ -1176,6 +1218,9 @@
         "message": "要刪除「%@」嗎？"
     },
     "delete_2d08a5": {
+        "message": "刪除"
+    },
+    "delete_432e88": {
         "message": "刪除"
     },
     "delete_4a29a4": {
@@ -1262,6 +1307,12 @@
     "delete_selected_space": {
         "message": "刪除所選空間"
     },
+    "delete_site_memories": {
+        "message": "要刪除網站記憶嗎？"
+    },
+    "delete_site_memories_e9047e": {
+        "message": "刪除網站記憶…"
+    },
     "delete_space": {
         "message": "刪除空間…"
     },
@@ -1309,6 +1360,12 @@
     },
     "developer_mode": {
         "message": "開發者模式"
+    },
+    "dim_tab_icons_when_their_pages_are": {
+        "message": "當標籤頁的網頁從記憶體中卸載時，調暗其圖示。"
+    },
+    "dim_unloaded_tab_icons": {
+        "message": "調暗已卸載標籤頁的圖示"
     },
     "discard": {
         "message": "捨棄"
@@ -1402,6 +1459,9 @@
     },
     "e_g_123456_abc_def": {
         "message": "例如：123456:ABC-DEF…"
+    },
+    "each_save_writes_a_markdown_article_and": {
+        "message": "每次儲存都會寫入一篇 Markdown 文章和一份網頁副本，兩者並列存放。各設定檔可以在自己的設定中覆寫此檔案夾。"
     },
     "each_space_has_its_own_independent_bookmarks": {
         "message": "每個空間都有自己獨立的書籤"
@@ -1700,6 +1760,18 @@
     "folders_and_their_contents": {
         "message": "%d 個資料夾及其內容"
     },
+    "folio": {
+        "message": "Folio"
+    },
+    "folio_folder": {
+        "message": "Folio 檔案夾"
+    },
+    "folio_needs_a_browser_restart": {
+        "message": "Folio 需要重新啟動瀏覽器"
+    },
+    "follow_the_general_settings_folder": {
+        "message": "依照「一般」設定中的檔案夾"
+    },
     "for_10_min": {
         "message": "10 分鐘"
     },
@@ -1792,6 +1864,9 @@
     },
     "hide_the_agent_s_command_and_process": {
         "message": "隱藏 AI 代理的指令與程序樹"
+    },
+    "highlight_saved": {
+        "message": "已儲存醒目顯示文字"
     },
     "history": {
         "message": "歷史記錄"
@@ -2063,6 +2138,9 @@
     "light": {
         "message": "淺色"
     },
+    "liking_a_youtube_video_or_bookmarking_on": {
+        "message": "為 YouTube 影片按讚，或在 X、Reddit 或 Stack Overflow 加入書籤時，也會將該網頁儲存到這裡。所有內容都會留在這部 Mac 上。"
+    },
     "link": {
         "message": "連結"
     },
@@ -2125,6 +2203,9 @@
     },
     "manage_extensions_42bb17": {
         "message": "管理擴充功能"
+    },
+    "manage_site_memories": {
+        "message": "管理網站記憶"
     },
     "manage_url_rules": {
         "message": "管理網址規則…"
@@ -2549,6 +2630,12 @@
     "not_used": {
         "message": "未使用"
     },
+    "note": {
+        "message": "備註"
+    },
+    "nothing_could_be_written_to_the_folio": {
+        "message": "無法將任何內容寫入 Folio 檔案夾。"
+    },
     "nothing_was_created": {
         "message": "未建立任何項目。"
     },
@@ -2651,6 +2738,9 @@
     "only_once": {
         "message": "只限一次"
     },
+    "only_web_pages_can_be_saved": {
+        "message": "只能儲存網頁。"
+    },
     "only_work_in_peek_or_kiosk_windows": {
         "message": "僅適用於 Peek 或 Kiosk 視窗。"
     },
@@ -2677,6 +2767,9 @@
     },
     "open_external_links_in_kiosk": {
         "message": "在 Kiosk 中開啟外部連結"
+    },
+    "open_folio": {
+        "message": "開啟 Folio"
     },
     "open_in": {
         "message": "開啟於"
@@ -2884,6 +2977,9 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "請重新驗證身分以恢復帳號功能。"
+    },
+    "please_try_again": {
+        "message": "請再試一次。"
     },
     "pop_out_playing_video_parked_at_the": {
         "message": "讓播放中的影片彈出，並停靠在螢幕邊緣，直到你按一下為止"
@@ -3233,6 +3329,9 @@
     "running": {
         "message": "%d 個執行中"
     },
+    "same_as_general": {
+        "message": "與「一般」設定相同"
+    },
     "saturation": {
         "message": "飽和度"
     },
@@ -3259,6 +3358,36 @@
     },
     "save_fde76b": {
         "message": "儲存"
+    },
+    "save_note": {
+        "message": "儲存備註"
+    },
+    "save_pages_to": {
+        "message": "將網頁儲存到"
+    },
+    "save_to_folio": {
+        "message": "儲存到 Folio"
+    },
+    "save_to_folio_c92294": {
+        "message": "儲存到 Folio"
+    },
+    "save_when_you_like_or_bookmark_on": {
+        "message": "在支援的網站按讚或加入書籤時儲存"
+    },
+    "saved_memories_for_will_be_deleted_from": {
+        "message": "為 %@ 儲存的記憶將從此瀏覽器設定檔中刪除。此動作無法復原。"
+    },
+    "saved_only_what_had_loaded": {
+        "message": "只儲存了已載入的內容"
+    },
+    "saved_to_folio": {
+        "message": "已儲存到 Folio"
+    },
+    "saved_without_video_article": {
+        "message": "已儲存，但沒有影片文章"
+    },
+    "saved_without_webpage_copy": {
+        "message": "已儲存，但沒有網頁副本"
     },
     "scan_failed": {
         "message": "掃描失敗"
@@ -3767,8 +3896,14 @@
     "the_deletion_service_is_temporarily_unavailable_please": {
         "message": "刪除服務暫時無法使用，請稍後再試。"
     },
+    "the_folio_folder_could_not_be_read": {
+        "message": "無法讀取 Folio 檔案夾。"
+    },
     "the_local_im_service_is_unavailable_check": {
         "message": "本機 IM 服務無法使用。請檢查 Phi Sentinel 是否正常啟動，以及 IM 服務是否正在執行。"
+    },
+    "the_note_is_written_into_the_saved": {
+        "message": "備註會寫入已儲存的 Markdown 檔案，位於醒目顯示文字下方。"
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "Phi 瀏覽器資料的資料夾已無法使用。"
@@ -3979,6 +4114,9 @@
     },
     "unblock": {
         "message": "解除封鎖"
+    },
+    "undo": {
+        "message": "還原"
     },
     "ungroup": {
         "message": "取消群組"
@@ -4270,6 +4408,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "你的刪除要求已送出。刪除完成後，你會收到一封確認電子郵件。\n\nPhi 現在會將你登出、移除它在這部 Mac 上的資料，然後結束。"
+    },
+    "your_note": {
+        "message": "你的備註"
     },
     "your_organization_blocked_this_file_because_it": {
         "message": "你的組織封鎖了這個檔案，因為它已加密"

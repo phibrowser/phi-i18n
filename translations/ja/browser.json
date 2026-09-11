@@ -47,6 +47,12 @@
     "add_new": {
         "message": "新規追加"
     },
+    "add_note": {
+        "message": "メモを追加"
+    },
+    "add_note_1f822f": {
+        "message": "メモを追加"
+    },
     "add_right_split": {
         "message": "右に分割表示を追加"
     },
@@ -238,6 +244,12 @@
     },
     "already_exists_and_isn_t_a_link": {
         "message": "「%@」はすでに存在し、Phi Browserが作成したリンクではありません。このアプリに同梱されているスキルへのリンクに置き換えますか？"
+    },
+    "already_in_folio": {
+        "message": "すでにFolioに保存されています"
+    },
+    "also_include_and_all_its_subdomains": {
+        "message": "%@とそのすべてのサブドメインも含める"
     },
     "always": {
         "message": "常に"
@@ -623,6 +635,9 @@
     "cancel_bb8536": {
         "message": "キャンセル"
     },
+    "cancel_bf11d3": {
+        "message": "キャンセル"
+    },
     "cancel_bfb477": {
         "message": "キャンセル"
     },
@@ -666,6 +681,9 @@
         "message": "キャンセル"
     },
     "cancel_eef4c0": {
+        "message": "キャンセル"
+    },
+    "cancel_effc57": {
         "message": "キャンセル"
     },
     "cancel_f46103": {
@@ -770,6 +788,9 @@
     "choose_1ca7d1": {
         "message": "選択…"
     },
+    "choose_22d339": {
+        "message": "選択"
+    },
     "choose_a_download_location_for_this_profile": {
         "message": "このプロファイルのダウンロード先を選択してください。"
     },
@@ -782,8 +803,17 @@
     "choose_files": {
         "message": "ファイルを選択"
     },
+    "choose_sites": {
+        "message": "サイトを選択…"
+    },
     "choose_space": {
         "message": "スペースを選択"
+    },
+    "choose_where_saved_pages_are_stored": {
+        "message": "保存したページの保存先を選択してください。"
+    },
+    "choose_where_this_profile_s_saved_pages": {
+        "message": "このプロファイルで保存したページの保存先を選択してください。"
     },
     "choose_which_profiles_agents_may_create_their": {
         "message": "エージェントが自身のスペースを作成できるプロファイルを選択してください。プロファイルをオフにすると、そのプロファイルに紐づく新しいスペースをエージェントは開けなくなります。既存のスペースには影響しません。"
@@ -892,6 +922,9 @@
     },
     "collapse_group": {
         "message": "グループを折りたたむ"
+    },
+    "collect_site_memories": {
+        "message": "サイトのメモリを収集"
     },
     "color": {
         "message": "カラー"
@@ -1091,11 +1124,17 @@
     "couldn_t_be_imported": {
         "message": "インポートできませんでした"
     },
+    "couldn_t_change_memory_collection": {
+        "message": "メモリの収集を変更できませんでした"
+    },
     "couldn_t_delete_profile": {
         "message": "プロファイルを削除できませんでした"
     },
     "couldn_t_delete_profile_571082": {
         "message": "プロファイルを削除できませんでした"
+    },
+    "couldn_t_delete_site_memories": {
+        "message": "サイトのメモリを削除できませんでした"
     },
     "couldn_t_finish_setting_up_your_account": {
         "message": "アカウントのセットアップを完了できませんでした"
@@ -1114,6 +1153,9 @@
     },
     "couldn_t_rename_profile": {
         "message": "プロファイルの名前を変更できませんでした"
+    },
+    "couldn_t_save_this_page": {
+        "message": "このページを保存できませんでした"
     },
     "couldn_t_start_guest_mode": {
         "message": "ゲストモードを開始できませんでした"
@@ -1176,6 +1218,9 @@
         "message": "「%@」を削除しますか？"
     },
     "delete_2d08a5": {
+        "message": "削除"
+    },
+    "delete_432e88": {
         "message": "削除"
     },
     "delete_4a29a4": {
@@ -1262,6 +1307,12 @@
     "delete_selected_space": {
         "message": "選択したスペースを削除"
     },
+    "delete_site_memories": {
+        "message": "サイトのメモリを削除しますか？"
+    },
+    "delete_site_memories_e9047e": {
+        "message": "サイトのメモリを削除…"
+    },
     "delete_space": {
         "message": "スペースを削除…"
     },
@@ -1309,6 +1360,12 @@
     },
     "developer_mode": {
         "message": "開発者モード"
+    },
+    "dim_tab_icons_when_their_pages_are": {
+        "message": "ページがメモリから解放されたタブのアイコンを淡色表示します。"
+    },
+    "dim_unloaded_tab_icons": {
+        "message": "解放されたタブのアイコンを淡色表示"
     },
     "discard": {
         "message": "破棄"
@@ -1402,6 +1459,9 @@
     },
     "e_g_123456_abc_def": {
         "message": "例: 123456:ABC-DEF…"
+    },
+    "each_save_writes_a_markdown_article_and": {
+        "message": "保存するたびに、Markdownの記事とWebページのコピーが並んで書き込まれます。プロファイルごとの設定でこのフォルダを変更できます。"
     },
     "each_space_has_its_own_independent_bookmarks": {
         "message": "各スペースには独立したブックマークがあります"
@@ -1700,6 +1760,18 @@
     "folders_and_their_contents": {
         "message": "%d個のフォルダとその内容"
     },
+    "folio": {
+        "message": "Folio"
+    },
+    "folio_folder": {
+        "message": "Folioフォルダ"
+    },
+    "folio_needs_a_browser_restart": {
+        "message": "Folioにはブラウザの再起動が必要です"
+    },
+    "follow_the_general_settings_folder": {
+        "message": "「一般」設定のフォルダに従う"
+    },
     "for_10_min": {
         "message": "10分間"
     },
@@ -1792,6 +1864,9 @@
     },
     "hide_the_agent_s_command_and_process": {
         "message": "エージェントのコマンドとプロセスツリーを非表示"
+    },
+    "highlight_saved": {
+        "message": "ハイライトを保存しました"
     },
     "history": {
         "message": "履歴"
@@ -2063,6 +2138,9 @@
     "light": {
         "message": "ライト"
     },
+    "liking_a_youtube_video_or_bookmarking_on": {
+        "message": "YouTubeの動画を高評価にしたり、X、Reddit、Stack Overflowでブックマークしたりすると、そのページもここに保存されます。すべてこのMac上にのみ保存されます。"
+    },
     "link": {
         "message": "連携"
     },
@@ -2125,6 +2203,9 @@
     },
     "manage_extensions_42bb17": {
         "message": "拡張機能を管理"
+    },
+    "manage_site_memories": {
+        "message": "サイトのメモリを管理"
     },
     "manage_url_rules": {
         "message": "URLルールを管理…"
@@ -2549,6 +2630,12 @@
     "not_used": {
         "message": "未使用"
     },
+    "note": {
+        "message": "メモ"
+    },
+    "nothing_could_be_written_to_the_folio": {
+        "message": "Folioフォルダに何も書き込めませんでした。"
+    },
     "nothing_was_created": {
         "message": "何も作成されませんでした。"
     },
@@ -2651,6 +2738,9 @@
     "only_once": {
         "message": "今回のみ"
     },
+    "only_web_pages_can_be_saved": {
+        "message": "保存できるのはWebページのみです。"
+    },
     "only_work_in_peek_or_kiosk_windows": {
         "message": "PeekまたはKioskのウインドウでのみ動作します。"
     },
@@ -2677,6 +2767,9 @@
     },
     "open_external_links_in_kiosk": {
         "message": "外部リンクをKioskで開く"
+    },
+    "open_folio": {
+        "message": "Folioを開く"
     },
     "open_in": {
         "message": "開く:"
@@ -2884,6 +2977,9 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "アカウント機能を復元するには、再認証してください。"
+    },
+    "please_try_again": {
+        "message": "もう一度お試しください。"
     },
     "pop_out_playing_video_parked_at_the": {
         "message": "再生中の動画をポップアウトし、クリックするまで画面端に待機させます"
@@ -3233,6 +3329,9 @@
     "running": {
         "message": "%d件実行中"
     },
+    "same_as_general": {
+        "message": "「一般」と同じ"
+    },
     "saturation": {
         "message": "彩度"
     },
@@ -3259,6 +3358,36 @@
     },
     "save_fde76b": {
         "message": "保存"
+    },
+    "save_note": {
+        "message": "メモを保存"
+    },
+    "save_pages_to": {
+        "message": "ページの保存先"
+    },
+    "save_to_folio": {
+        "message": "Folioに保存"
+    },
+    "save_to_folio_c92294": {
+        "message": "Folioに保存"
+    },
+    "save_when_you_like_or_bookmark_on": {
+        "message": "対応サイトで高評価やブックマークをしたときに保存"
+    },
+    "saved_memories_for_will_be_deleted_from": {
+        "message": "%@について保存されたメモリがこのブラウザプロファイルから削除されます。この操作は元に戻せません。"
+    },
+    "saved_only_what_had_loaded": {
+        "message": "読み込み済みの部分のみを保存しました"
+    },
+    "saved_to_folio": {
+        "message": "Folioに保存しました"
+    },
+    "saved_without_video_article": {
+        "message": "動画の記事なしで保存しました"
+    },
+    "saved_without_webpage_copy": {
+        "message": "Webページのコピーなしで保存しました"
     },
     "scan_failed": {
         "message": "スキャンに失敗しました"
@@ -3767,8 +3896,14 @@
     "the_deletion_service_is_temporarily_unavailable_please": {
         "message": "削除サービスが一時的に利用できません。しばらくしてからもう一度お試しください。"
     },
+    "the_folio_folder_could_not_be_read": {
+        "message": "Folioフォルダを読み込めませんでした。"
+    },
     "the_local_im_service_is_unavailable_check": {
         "message": "ローカルのIMサービスが利用できません。Phi Sentinelが正常に起動し、IMサービスが動作しているか確認してください。"
+    },
+    "the_note_is_written_into_the_saved": {
+        "message": "メモは保存されたMarkdown内のハイライトの下に書き込まれます。"
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "Phiのブラウザデータフォルダは利用できなくなりました。"
@@ -3979,6 +4114,9 @@
     },
     "unblock": {
         "message": "ブロックを解除"
+    },
+    "undo": {
+        "message": "取り消す"
     },
     "ungroup": {
         "message": "グループを解除"
@@ -4270,6 +4408,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "削除リクエストを送信しました。削除が完了すると、確認のメールが届きます。\n\nこれからPhiはログアウトし、このMacからデータを削除して終了します。"
+    },
+    "your_note": {
+        "message": "メモを入力"
     },
     "your_organization_blocked_this_file_because_it": {
         "message": "暗号化されているため、組織によってこのファイルがブロックされました"

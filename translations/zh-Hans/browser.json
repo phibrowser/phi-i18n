@@ -47,6 +47,12 @@
     "add_new": {
         "message": "添加快捷键"
     },
+    "add_note": {
+        "message": "添加笔记"
+    },
+    "add_note_1f822f": {
+        "message": "添加笔记"
+    },
     "add_right_split": {
         "message": "在右侧添加分屏"
     },
@@ -238,6 +244,12 @@
     },
     "already_exists_and_isn_t_a_link": {
         "message": "「%@」已存在，且不是由 Phi Browser 创建的链接。要将其替换为指向本应用内置 Skill 的链接吗？"
+    },
+    "already_in_folio": {
+        "message": "已在 Folio 中"
+    },
+    "also_include_and_all_its_subdomains": {
+        "message": "同时包括 %@ 及其所有子域名"
     },
     "always": {
         "message": "始终"
@@ -623,6 +635,9 @@
     "cancel_bb8536": {
         "message": "取消"
     },
+    "cancel_bf11d3": {
+        "message": "取消"
+    },
     "cancel_bfb477": {
         "message": "取消"
     },
@@ -666,6 +681,9 @@
         "message": "取消"
     },
     "cancel_eef4c0": {
+        "message": "取消"
+    },
+    "cancel_effc57": {
         "message": "取消"
     },
     "cancel_f46103": {
@@ -770,6 +788,9 @@
     "choose_1ca7d1": {
         "message": "选取…"
     },
+    "choose_22d339": {
+        "message": "选取"
+    },
     "choose_a_download_location_for_this_profile": {
         "message": "为此个人资料选取下载位置。"
     },
@@ -782,8 +803,17 @@
     "choose_files": {
         "message": "选取文件"
     },
+    "choose_sites": {
+        "message": "选取网站…"
+    },
     "choose_space": {
         "message": "选择空间"
+    },
+    "choose_where_saved_pages_are_stored": {
+        "message": "选取存储页面的位置。"
+    },
+    "choose_where_this_profile_s_saved_pages": {
+        "message": "为此个人资料选取存储页面的位置。"
     },
     "choose_which_profiles_agents_may_create_their": {
         "message": "选择智能体可以在哪些个人资料中创建自己的空间。关闭某个个人资料后，智能体将无法打开任何绑定到该个人资料的新空间；现有空间不受影响。"
@@ -892,6 +922,9 @@
     },
     "collapse_group": {
         "message": "折叠标签页组"
+    },
+    "collect_site_memories": {
+        "message": "收集网站记忆"
     },
     "color": {
         "message": "颜色"
@@ -1091,11 +1124,17 @@
     "couldn_t_be_imported": {
         "message": "未能导入"
     },
+    "couldn_t_change_memory_collection": {
+        "message": "无法更改记忆收集设置"
+    },
     "couldn_t_delete_profile": {
         "message": "无法删除个人资料"
     },
     "couldn_t_delete_profile_571082": {
         "message": "无法删除个人资料"
+    },
+    "couldn_t_delete_site_memories": {
+        "message": "无法删除网站记忆"
     },
     "couldn_t_finish_setting_up_your_account": {
         "message": "未能完成账号设置"
@@ -1114,6 +1153,9 @@
     },
     "couldn_t_rename_profile": {
         "message": "无法重命名个人资料"
+    },
+    "couldn_t_save_this_page": {
+        "message": "无法存储此网页"
     },
     "couldn_t_start_guest_mode": {
         "message": "无法启动访客模式"
@@ -1176,6 +1218,9 @@
         "message": "要删除「%@」吗？"
     },
     "delete_2d08a5": {
+        "message": "删除"
+    },
+    "delete_432e88": {
         "message": "删除"
     },
     "delete_4a29a4": {
@@ -1262,6 +1307,12 @@
     "delete_selected_space": {
         "message": "删除所选空间"
     },
+    "delete_site_memories": {
+        "message": "要删除网站记忆吗？"
+    },
+    "delete_site_memories_e9047e": {
+        "message": "删除网站记忆…"
+    },
     "delete_space": {
         "message": "删除空间…"
     },
@@ -1309,6 +1360,12 @@
     },
     "developer_mode": {
         "message": "开发者模式"
+    },
+    "dim_tab_icons_when_their_pages_are": {
+        "message": "当标签页的页面从内存中卸载时，调暗其图标。"
+    },
+    "dim_unloaded_tab_icons": {
+        "message": "调暗已卸载标签页的图标"
     },
     "discard": {
         "message": "舍弃"
@@ -1402,6 +1459,9 @@
     },
     "e_g_123456_abc_def": {
         "message": "例如 123456:ABC-DEF…"
+    },
+    "each_save_writes_a_markdown_article_and": {
+        "message": "每次存储都会并排写入一篇 Markdown 文章和一份网页副本。个人资料可在各自的设置中覆盖此文件夹。"
     },
     "each_space_has_its_own_independent_bookmarks": {
         "message": "每个空间都有自己独立的书签"
@@ -1700,6 +1760,18 @@
     "folders_and_their_contents": {
         "message": "%d 个文件夹及其内容"
     },
+    "folio": {
+        "message": "Folio"
+    },
+    "folio_folder": {
+        "message": "Folio 文件夹"
+    },
+    "folio_needs_a_browser_restart": {
+        "message": "Folio 需要重新启动浏览器"
+    },
+    "follow_the_general_settings_folder": {
+        "message": "跟随通用设置中的文件夹"
+    },
     "for_10_min": {
         "message": "10 分钟"
     },
@@ -1792,6 +1864,9 @@
     },
     "hide_the_agent_s_command_and_process": {
         "message": "隐藏智能体的命令与进程树"
+    },
+    "highlight_saved": {
+        "message": "已存储突出显示的内容"
     },
     "history": {
         "message": "历史记录"
@@ -2063,6 +2138,9 @@
     "light": {
         "message": "浅色"
     },
+    "liking_a_youtube_video_or_bookmarking_on": {
+        "message": "在 YouTube 上点赞视频，或在 X、Reddit 或 Stack Overflow 上添加书签时，也会将该页面存储到这里。所有内容都只保留在这台 Mac 上。"
+    },
     "link": {
         "message": "关联"
     },
@@ -2125,6 +2203,9 @@
     },
     "manage_extensions_42bb17": {
         "message": "管理扩展程序"
+    },
+    "manage_site_memories": {
+        "message": "管理网站记忆"
     },
     "manage_url_rules": {
         "message": "管理网址规则…"
@@ -2549,6 +2630,12 @@
     "not_used": {
         "message": "未使用"
     },
+    "note": {
+        "message": "笔记"
+    },
+    "nothing_could_be_written_to_the_folio": {
+        "message": "无法向 Folio 文件夹写入任何内容。"
+    },
     "nothing_was_created": {
         "message": "未创建任何内容。"
     },
@@ -2651,6 +2738,9 @@
     "only_once": {
         "message": "仅此一次"
     },
+    "only_web_pages_can_be_saved": {
+        "message": "只能存储网页。"
+    },
     "only_work_in_peek_or_kiosk_windows": {
         "message": "仅在 Peek 或 Kiosk 窗口中有效。"
     },
@@ -2677,6 +2767,9 @@
     },
     "open_external_links_in_kiosk": {
         "message": "在 Kiosk 中打开外部链接"
+    },
+    "open_folio": {
+        "message": "打开 Folio"
     },
     "open_in": {
         "message": "打开到"
@@ -2884,6 +2977,9 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "请重新验证身份以恢复账号功能。"
+    },
+    "please_try_again": {
+        "message": "请重试。"
     },
     "pop_out_playing_video_parked_at_the": {
         "message": "弹出正在播放的视频，并停靠在屏幕边缘，直到你点击它"
@@ -3233,6 +3329,9 @@
     "running": {
         "message": "%d 个运行中"
     },
+    "same_as_general": {
+        "message": "与通用设置相同"
+    },
     "saturation": {
         "message": "饱和度"
     },
@@ -3259,6 +3358,36 @@
     },
     "save_fde76b": {
         "message": "保存"
+    },
+    "save_note": {
+        "message": "存储笔记"
+    },
+    "save_pages_to": {
+        "message": "将页面存储到"
+    },
+    "save_to_folio": {
+        "message": "存储到 Folio"
+    },
+    "save_to_folio_c92294": {
+        "message": "存储到 Folio"
+    },
+    "save_when_you_like_or_bookmark_on": {
+        "message": "在支持的网站上点赞或添加书签时存储"
+    },
+    "saved_memories_for_will_be_deleted_from": {
+        "message": "为 %@ 存储的记忆将从此浏览器个人资料中删除。此操作无法撤销。"
+    },
+    "saved_only_what_had_loaded": {
+        "message": "仅存储了已加载的内容"
+    },
+    "saved_to_folio": {
+        "message": "已存储到 Folio"
+    },
+    "saved_without_video_article": {
+        "message": "已存储，但未生成视频文章"
+    },
+    "saved_without_webpage_copy": {
+        "message": "已存储，但无网页副本"
     },
     "scan_failed": {
         "message": "扫描失败"
@@ -3767,8 +3896,14 @@
     "the_deletion_service_is_temporarily_unavailable_please": {
         "message": "删除服务暂时不可用。请稍后再试。"
     },
+    "the_folio_folder_could_not_be_read": {
+        "message": "无法读取 Folio 文件夹。"
+    },
     "the_local_im_service_is_unavailable_check": {
         "message": "本地 IM 服务不可用。请检查 Phi Sentinel 是否正常启动，以及 IM 服务是否正在运行。"
+    },
+    "the_note_is_written_into_the_saved": {
+        "message": "笔记会写入存储的 Markdown 文件，位于突出显示的内容下方。"
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "Phi 浏览器数据文件夹已不再可用。"
@@ -3979,6 +4114,9 @@
     },
     "unblock": {
         "message": "解除阻止"
+    },
+    "undo": {
+        "message": "撤销"
     },
     "ungroup": {
         "message": "取消分组"
@@ -4270,6 +4408,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "你的删除请求已提交。删除完成后，你会收到一封确认邮件。\n\nPhi 现在会将你退出登录，移除它在这台 Mac 上的数据，然后退出。"
+    },
+    "your_note": {
+        "message": "你的笔记"
     },
     "your_organization_blocked_this_file_because_it": {
         "message": "你的组织已阻止此文件，因为它已加密"

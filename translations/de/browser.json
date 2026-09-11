@@ -47,6 +47,12 @@
     "add_new": {
         "message": "Neu hinzufügen"
     },
+    "add_note": {
+        "message": "Notiz hinzufügen"
+    },
+    "add_note_1f822f": {
+        "message": "Notiz hinzufügen"
+    },
     "add_right_split": {
         "message": "Rechten Split hinzufügen"
     },
@@ -238,6 +244,12 @@
     },
     "already_exists_and_isn_t_a_link": {
         "message": "„%@“ existiert bereits und ist kein von Phi Browser erstellter Link. Durch einen Link auf den in dieser App enthaltenen Skill ersetzen?"
+    },
+    "already_in_folio": {
+        "message": "Bereits in Folio"
+    },
+    "also_include_and_all_its_subdomains": {
+        "message": "Auch %@ und alle zugehörigen Subdomains einbeziehen"
     },
     "always": {
         "message": "Immer"
@@ -623,6 +635,9 @@
     "cancel_bb8536": {
         "message": "Abbrechen"
     },
+    "cancel_bf11d3": {
+        "message": "Abbrechen"
+    },
     "cancel_bfb477": {
         "message": "Abbrechen"
     },
@@ -666,6 +681,9 @@
         "message": "Abbrechen"
     },
     "cancel_eef4c0": {
+        "message": "Abbrechen"
+    },
+    "cancel_effc57": {
         "message": "Abbrechen"
     },
     "cancel_f46103": {
@@ -770,6 +788,9 @@
     "choose_1ca7d1": {
         "message": "Auswählen…"
     },
+    "choose_22d339": {
+        "message": "Auswählen"
+    },
     "choose_a_download_location_for_this_profile": {
         "message": "Wähle einen Download-Speicherort für dieses Profil."
     },
@@ -782,8 +803,17 @@
     "choose_files": {
         "message": "Dateien auswählen"
     },
+    "choose_sites": {
+        "message": "Websites auswählen…"
+    },
     "choose_space": {
         "message": "Space auswählen"
+    },
+    "choose_where_saved_pages_are_stored": {
+        "message": "Wähle einen Speicherort für gesicherte Seiten."
+    },
+    "choose_where_this_profile_s_saved_pages": {
+        "message": "Wähle einen Speicherort für die gesicherten Seiten dieses Profils."
     },
     "choose_which_profiles_agents_may_create_their": {
         "message": "Wähle, in welchen Profilen Agenten eigene Spaces erstellen dürfen. Wird ein Profil deaktiviert, können Agenten keine neuen daran gebundenen Spaces mehr öffnen; bestehende Spaces bleiben unberührt."
@@ -892,6 +922,9 @@
     },
     "collapse_group": {
         "message": "Gruppe einklappen"
+    },
+    "collect_site_memories": {
+        "message": "Website-Erinnerungen sammeln"
     },
     "color": {
         "message": "Farbe"
@@ -1091,11 +1124,17 @@
     "couldn_t_be_imported": {
         "message": "Import fehlgeschlagen"
     },
+    "couldn_t_change_memory_collection": {
+        "message": "Sammeln von Erinnerungen konnte nicht geändert werden"
+    },
     "couldn_t_delete_profile": {
         "message": "Profil konnte nicht gelöscht werden"
     },
     "couldn_t_delete_profile_571082": {
         "message": "Profil konnte nicht gelöscht werden"
+    },
+    "couldn_t_delete_site_memories": {
+        "message": "Website-Erinnerungen konnten nicht gelöscht werden"
     },
     "couldn_t_finish_setting_up_your_account": {
         "message": "Die Einrichtung deines Kontos konnte nicht abgeschlossen werden"
@@ -1114,6 +1153,9 @@
     },
     "couldn_t_rename_profile": {
         "message": "Profil konnte nicht umbenannt werden"
+    },
+    "couldn_t_save_this_page": {
+        "message": "Diese Seite konnte nicht gesichert werden"
     },
     "couldn_t_start_guest_mode": {
         "message": "Gastmodus konnte nicht gestartet werden"
@@ -1176,6 +1218,9 @@
         "message": "„%@“ löschen?"
     },
     "delete_2d08a5": {
+        "message": "Löschen"
+    },
+    "delete_432e88": {
         "message": "Löschen"
     },
     "delete_4a29a4": {
@@ -1262,6 +1307,12 @@
     "delete_selected_space": {
         "message": "Ausgewählten Space löschen"
     },
+    "delete_site_memories": {
+        "message": "Website-Erinnerungen löschen?"
+    },
+    "delete_site_memories_e9047e": {
+        "message": "Website-Erinnerungen löschen…"
+    },
     "delete_space": {
         "message": "Space löschen…"
     },
@@ -1309,6 +1360,12 @@
     },
     "developer_mode": {
         "message": "Entwicklermodus"
+    },
+    "dim_tab_icons_when_their_pages_are": {
+        "message": "Dunkelt Symbole von Tabs ab, deren Seiten aus dem Speicher entladen wurden."
+    },
+    "dim_unloaded_tab_icons": {
+        "message": "Symbole entladener Tabs abdunkeln"
     },
     "discard": {
         "message": "Verwerfen"
@@ -1402,6 +1459,9 @@
     },
     "e_g_123456_abc_def": {
         "message": "z. B. 123456:ABC-DEF…"
+    },
+    "each_save_writes_a_markdown_article_and": {
+        "message": "Bei jedem Sichern werden ein Markdown-Artikel und eine Webseitenkopie nebeneinander abgelegt. Profile können in ihren eigenen Einstellungen einen anderen Ordner festlegen."
     },
     "each_space_has_its_own_independent_bookmarks": {
         "message": "Jeder Space hat seine eigenen Lesezeichen"
@@ -1700,6 +1760,18 @@
     "folders_and_their_contents": {
         "message": "%d Ordner und ihre Inhalte"
     },
+    "folio": {
+        "message": "Folio"
+    },
+    "folio_folder": {
+        "message": "Folio-Ordner"
+    },
+    "folio_needs_a_browser_restart": {
+        "message": "Folio benötigt einen Browser-Neustart"
+    },
+    "follow_the_general_settings_folder": {
+        "message": "Den Ordner aus den Einstellungen „Allgemein“ verwenden"
+    },
     "for_10_min": {
         "message": "Für 10 Min."
     },
@@ -1792,6 +1864,9 @@
     },
     "hide_the_agent_s_command_and_process": {
         "message": "Befehl und Prozessbaum des Agenten ausblenden"
+    },
+    "highlight_saved": {
+        "message": "Markierung gesichert"
     },
     "history": {
         "message": "Verlauf"
@@ -2063,6 +2138,9 @@
     "light": {
         "message": "Hell"
     },
+    "liking_a_youtube_video_or_bookmarking_on": {
+        "message": "Wenn du ein YouTube-Video mit „Gefällt mir“ markierst oder auf X, Reddit oder Stack Overflow ein Lesezeichen setzt, wird die Seite ebenfalls hier gesichert. Alles bleibt auf diesem Mac."
+    },
     "link": {
         "message": "Verknüpfen"
     },
@@ -2125,6 +2203,9 @@
     },
     "manage_extensions_42bb17": {
         "message": "Erweiterungen verwalten"
+    },
+    "manage_site_memories": {
+        "message": "Website-Erinnerungen verwalten"
     },
     "manage_url_rules": {
         "message": "URL-Regeln verwalten…"
@@ -2549,6 +2630,12 @@
     "not_used": {
         "message": "Nicht verwendet"
     },
+    "note": {
+        "message": "Notiz"
+    },
+    "nothing_could_be_written_to_the_folio": {
+        "message": "In den Folio-Ordner konnte nichts geschrieben werden."
+    },
     "nothing_was_created": {
         "message": "Es wurde nichts erstellt."
     },
@@ -2651,6 +2738,9 @@
     "only_once": {
         "message": "Nur einmal"
     },
+    "only_web_pages_can_be_saved": {
+        "message": "Nur Webseiten können gesichert werden."
+    },
     "only_work_in_peek_or_kiosk_windows": {
         "message": "Funktionieren nur in Peek- oder Kiosk-Fenstern."
     },
@@ -2677,6 +2767,9 @@
     },
     "open_external_links_in_kiosk": {
         "message": "Externe Links in Kiosk öffnen"
+    },
+    "open_folio": {
+        "message": "Folio öffnen"
     },
     "open_in": {
         "message": "Öffnen in"
@@ -2884,6 +2977,9 @@
     },
     "please_reauthenticate_to_restore_account_features": {
         "message": "Authentifiziere dich erneut, um die Kontofunktionen wiederherzustellen."
+    },
+    "please_try_again": {
+        "message": "Bitte versuche es erneut."
     },
     "pop_out_playing_video_parked_at_the": {
         "message": "Laufendes Video als Bild-in-Bild öffnen und am Bildschirmrand parken, bis du es anklickst"
@@ -3233,6 +3329,9 @@
     "running": {
         "message": "%d aktiv"
     },
+    "same_as_general": {
+        "message": "Wie „Allgemein“"
+    },
     "saturation": {
         "message": "Sättigung"
     },
@@ -3259,6 +3358,36 @@
     },
     "save_fde76b": {
         "message": "Speichern"
+    },
+    "save_note": {
+        "message": "Notiz sichern"
+    },
+    "save_pages_to": {
+        "message": "Speicherort für gesicherte Seiten"
+    },
+    "save_to_folio": {
+        "message": "In Folio sichern"
+    },
+    "save_to_folio_c92294": {
+        "message": "In Folio sichern"
+    },
+    "save_when_you_like_or_bookmark_on": {
+        "message": "Bei „Gefällt mir“ oder Lesezeichen auf unterstützten Websites sichern"
+    },
+    "saved_memories_for_will_be_deleted_from": {
+        "message": "Die für %@ gesicherten Erinnerungen werden aus diesem Browser-Profil gelöscht. Dies kann nicht rückgängig gemacht werden."
+    },
+    "saved_only_what_had_loaded": {
+        "message": "Nur bereits geladene Inhalte gesichert"
+    },
+    "saved_to_folio": {
+        "message": "In Folio gesichert"
+    },
+    "saved_without_video_article": {
+        "message": "Ohne Videoartikel gesichert"
+    },
+    "saved_without_webpage_copy": {
+        "message": "Ohne Webseitenkopie gesichert"
     },
     "scan_failed": {
         "message": "Fehler beim Scannen"
@@ -3767,8 +3896,14 @@
     "the_deletion_service_is_temporarily_unavailable_please": {
         "message": "Der Löschdienst ist vorübergehend nicht verfügbar. Bitte versuche es später erneut."
     },
+    "the_folio_folder_could_not_be_read": {
+        "message": "Der Folio-Ordner konnte nicht gelesen werden."
+    },
     "the_local_im_service_is_unavailable_check": {
         "message": "Der lokale IM-Dienst ist nicht verfügbar. Prüfe, ob Phi Sentinel normal gestartet ist und der IM-Dienst läuft."
+    },
+    "the_note_is_written_into_the_saved": {
+        "message": "Die Notiz wird unterhalb der Markierung in die gesicherte Markdown-Datei geschrieben."
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "Der Ordner mit den Phi Browserdaten ist nicht mehr verfügbar."
@@ -3979,6 +4114,9 @@
     },
     "unblock": {
         "message": "Entsperren"
+    },
+    "undo": {
+        "message": "Widerrufen"
     },
     "ungroup": {
         "message": "Gruppierung aufheben"
@@ -4270,6 +4408,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "Deine Löschanfrage wurde übermittelt. Du erhältst eine E-Mail-Bestätigung, sobald die Löschung abgeschlossen ist.\n\nPhi meldet dich jetzt ab, entfernt seine Daten von diesem Mac und beendet sich."
+    },
+    "your_note": {
+        "message": "Deine Notiz"
     },
     "your_organization_blocked_this_file_because_it": {
         "message": "Deine Organisation hat diese Datei blockiert, weil sie verschlüsselt ist"
