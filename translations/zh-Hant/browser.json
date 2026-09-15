@@ -1362,10 +1362,7 @@
         "message": "開發者模式"
     },
     "dim_tab_icons_when_their_pages_are": {
-        "message": "當標籤頁的網頁從記憶體中卸載時，調暗其圖示。"
-    },
-    "dim_unloaded_tab_icons": {
-        "message": "調暗已卸載標籤頁的圖示"
+        "message": "當分頁的網頁已從記憶體卸載時，在分頁圖示周圍顯示虛線外框。"
     },
     "discard": {
         "message": "捨棄"
@@ -2327,6 +2324,9 @@
     "needs_a_credential_for_but_your_vault": {
         "message": "「%1$@」需要 %2$@ 的憑證，但你的密碼庫已鎖定。請輸入主密碼來解鎖。"
     },
+    "neither_the_article_nor_a_webpage_copy": {
+        "message": "文章內容和網頁副本都無法擷取。"
+    },
     "never": {
         "message": "永不"
     },
@@ -2912,6 +2912,9 @@
     "phi_picture_in_picture_park_control_text": {
         "message": "停靠至螢幕邊緣"
     },
+    "phi_quit_unexpectedly_last_time": {
+        "message": "Phi 上次意外結束"
+    },
     "phi_recreates_your_profiles_and_spaces_from": {
         "message": "Phi 會重新建立你在其他瀏覽器中的設定檔和空間。整個過程只會新增，不會變更你現有的任何內容。"
     },
@@ -2992,6 +2995,9 @@
     },
     "preparing_installer": {
         "message": "正在準備安裝程式…"
+    },
+    "preparing_reader_view": {
+        "message": "正在準備閱讀模式…"
     },
     "preparing_restore": {
         "message": "正在準備回復…"
@@ -3476,6 +3482,9 @@
     "send_code": {
         "message": "傳送驗證碼"
     },
+    "send_feedback": {
+        "message": "傳送意見回饋"
+    },
     "send_feedback_to_phi": {
         "message": "傳送意見回饋給 Phi"
     },
@@ -3629,6 +3638,9 @@
     "show_transcript": {
         "message": "顯示逐字稿"
     },
+    "show_unloaded_tab_indicators": {
+        "message": "為已卸載的分頁顯示指示燈"
+    },
     "sign_in": {
         "message": "登入"
     },
@@ -3739,6 +3751,9 @@
     },
     "something_went_wrong_when_signing_out": {
         "message": "登出時發生問題"
+    },
+    "sorry_for_the_interruption_a_few_details": {
+        "message": "很抱歉造成中斷。提供一些當機前發生的細節，可以幫助我們瞭解問題，讓 Phi 更加可靠。"
     },
     "space": {
         "message": "空間"
@@ -3904,6 +3919,12 @@
     },
     "the_note_is_written_into_the_saved": {
         "message": "備註會寫入已儲存的 Markdown 檔案，位於醒目顯示文字下方。"
+    },
+    "the_page_closed_before_it_could_be": {
+        "message": "網頁在儲存完成前已關閉。"
+    },
+    "the_page_took_too_long_to_read": {
+        "message": "讀取這個網頁的時間過久。"
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "Phi 瀏覽器資料的資料夾已無法使用。"

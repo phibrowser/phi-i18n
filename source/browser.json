@@ -1816,12 +1816,8 @@
         "description": "Location: Browser. Advanced settings - Toggle title for developer mode; turning it off also disables agent access and the agent password manager"
     },
     "dim_tab_icons_when_their_pages_are": {
-        "message": "Dim tab icons when their pages are unloaded from memory.",
-        "description": "Location: Browser. Advanced settings - Explains icon dimming for tabs whose pages are unloaded from memory"
-    },
-    "dim_unloaded_tab_icons": {
-        "message": "Dim unloaded tab icons",
-        "description": "Location: Browser. Advanced settings - Toggle title for dimming icons of tabs whose pages are unloaded from memory"
+        "message": "Show a dashed outline around tab icons when their pages are unloaded from memory.",
+        "description": "Location: Browser. Advanced settings - Explains the dashed outline on icons of tabs whose pages are unloaded from memory"
     },
     "discard": {
         "message": "Discard",
@@ -3103,6 +3099,10 @@
         "message": "“%1$@” needs a credential for %2$@, but your vault is locked. Enter your master password to unlock.",
         "description": "Location: Browser. Credential unlock - body"
     },
+    "neither_the_article_nor_a_webpage_copy": {
+        "message": "Neither the article nor a webpage copy could be captured.",
+        "description": "Location: Browser. Folio - Failure toast detail: the page stayed open but yielded no article and no webpage copy, so nothing was kept"
+    },
     "never": {
         "message": "Never",
         "description": "Location: Browser. Developer settings - permanent block pill"
@@ -3883,6 +3883,10 @@
         "message": "Park at screen edge",
         "description": "Location: Browser. Text label of the button that parks (docks) the Picture-in-Picture window against the nearest screen edge, leaving only a handle visible for the user to click and restore it. The button appears when the user hovers over the Picture-in-Picture window."
     },
+    "phi_quit_unexpectedly_last_time": {
+        "message": "Phi quit unexpectedly last time",
+        "description": "Location: Browser. Crash feedback - Heading shown after restarting following an app crash"
+    },
     "phi_recreates_your_profiles_and_spaces_from": {
         "message": "Phi recreates your Profiles and Spaces from another browser. It only ever creates — nothing you already have is changed.",
         "description": "Location: Browser. Browser migration wizard - explanation above the source list"
@@ -3990,6 +3994,10 @@
     "preparing_installer": {
         "message": "Preparing installer...",
         "description": "Location: Browser. Time Machine restore progress stage"
+    },
+    "preparing_reader_view": {
+        "message": "Preparing Reader View…",
+        "description": "Location: Browser. Reader View - Toast shown while the article is being extracted after the user asked to open Reader View"
     },
     "preparing_restore": {
         "message": "Preparing restore...",
@@ -4635,6 +4643,10 @@
         "message": "Send Code",
         "description": "Location: Browser. Account data export - Button requesting the verification email"
     },
+    "send_feedback": {
+        "message": "Send Feedback",
+        "description": "Location: Browser. Crash feedback - Submit the user's description and diagnostic logs"
+    },
     "send_feedback_to_phi": {
         "message": "Send Feedback to Phi",
         "description": "Location: Browser. Feedback window - Window title for feedback submission"
@@ -4839,6 +4851,10 @@
         "message": "Show Transcript",
         "description": "Location: Browser. Agent pip context menu - open the agent console for this task"
     },
+    "show_unloaded_tab_indicators": {
+        "message": "Show unloaded tab indicators",
+        "description": "Location: Browser. Advanced settings - Toggle title for marking tabs whose pages are unloaded from memory"
+    },
     "sign_in": {
         "message": "Sign in",
         "description": "Location: Browser. Account-required presentation - Button that opens the Phi sign-in window"
@@ -4986,6 +5002,10 @@
     "something_went_wrong_when_signing_out": {
         "message": "Something went wrong when signing out",
         "description": "Location: Browser. Account settings - Alert message when sign-out fails"
+    },
+    "sorry_for_the_interruption_a_few_details": {
+        "message": "Sorry for the interruption. A few details about what happened before the crash can help us understand the issue and make Phi more reliable.",
+        "description": "Location: Browser. Crash feedback - Apology and invitation to share details about what happened before the crash"
     },
     "space": {
         "message": "Space",
@@ -5206,6 +5226,14 @@
     "the_note_is_written_into_the_saved": {
         "message": "The note is written into the saved markdown, under the highlight.",
         "description": "Location: Browser. Folio - Explanatory text of the add-note dialog"
+    },
+    "the_page_closed_before_it_could_be": {
+        "message": "The page closed before it could be saved.",
+        "description": "Location: Browser. Folio - Failure toast detail: the tab went away while the save was still reading it, so neither the article nor the webpage copy was captured"
+    },
+    "the_page_took_too_long_to_read": {
+        "message": "The page took too long to read.",
+        "description": "Location: Browser. Folio - Failure toast detail: reading the page for the save exceeded its time budget, so the save was abandoned"
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "The Phi browser data folder is no longer available.",

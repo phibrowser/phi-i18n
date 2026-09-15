@@ -1362,10 +1362,7 @@
         "message": "開発者モード"
     },
     "dim_tab_icons_when_their_pages_are": {
-        "message": "ページがメモリから解放されたタブのアイコンを淡色表示します。"
-    },
-    "dim_unloaded_tab_icons": {
-        "message": "解放されたタブのアイコンを淡色表示"
+        "message": "ページがメモリから解放されたタブのアイコンの周囲に破線の枠を表示します。"
     },
     "discard": {
         "message": "破棄"
@@ -2327,6 +2324,9 @@
     "needs_a_credential_for_but_your_vault": {
         "message": "「%1$@」が%2$@の認証情報を必要としていますが、保管庫がロックされています。マスターパスワードを入力してロックを解除してください。"
     },
+    "neither_the_article_nor_a_webpage_copy": {
+        "message": "記事もWebページのコピーも取得できませんでした。"
+    },
     "never": {
         "message": "なし"
     },
@@ -2912,6 +2912,9 @@
     "phi_picture_in_picture_park_control_text": {
         "message": "画面の端にドッキング"
     },
+    "phi_quit_unexpectedly_last_time": {
+        "message": "前回、Phiが予期せず終了しました"
+    },
     "phi_recreates_your_profiles_and_spaces_from": {
         "message": "他のブラウザのプロファイルとスペースをPhiが再現します。新しく作成するだけで、今あるものは何も変更されません。"
     },
@@ -2992,6 +2995,9 @@
     },
     "preparing_installer": {
         "message": "インストーラを準備中…"
+    },
+    "preparing_reader_view": {
+        "message": "リーダー表示を準備中…"
     },
     "preparing_restore": {
         "message": "復元を準備中…"
@@ -3476,6 +3482,9 @@
     "send_code": {
         "message": "コードを送信"
     },
+    "send_feedback": {
+        "message": "フィードバックを送信"
+    },
     "send_feedback_to_phi": {
         "message": "Phiにフィードバックを送信"
     },
@@ -3629,6 +3638,9 @@
     "show_transcript": {
         "message": "トランスクリプトを表示"
     },
+    "show_unloaded_tab_indicators": {
+        "message": "メモリから解放されたタブのインジケーターを表示"
+    },
     "sign_in": {
         "message": "ログイン"
     },
@@ -3739,6 +3751,9 @@
     },
     "something_went_wrong_when_signing_out": {
         "message": "ログアウト中に問題が発生しました"
+    },
+    "sorry_for_the_interruption_a_few_details": {
+        "message": "ご迷惑をおかけして申し訳ありません。クラッシュ前に何が起きていたかを少しお知らせいただくと、問題の把握とPhiの信頼性向上に役立ちます。"
     },
     "space": {
         "message": "スペース"
@@ -3904,6 +3919,12 @@
     },
     "the_note_is_written_into_the_saved": {
         "message": "メモは保存されたMarkdown内のハイライトの下に書き込まれます。"
+    },
+    "the_page_closed_before_it_could_be": {
+        "message": "保存が完了する前にページが閉じられました。"
+    },
+    "the_page_took_too_long_to_read": {
+        "message": "ページの読み取りに時間がかかりすぎました。"
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "Phiのブラウザデータフォルダは利用できなくなりました。"

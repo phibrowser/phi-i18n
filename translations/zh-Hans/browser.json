@@ -1362,10 +1362,7 @@
         "message": "开发者模式"
     },
     "dim_tab_icons_when_their_pages_are": {
-        "message": "当标签页的页面从内存中卸载时，调暗其图标。"
-    },
-    "dim_unloaded_tab_icons": {
-        "message": "调暗已卸载标签页的图标"
+        "message": "在页面已从内存中卸载的标签页图标周围显示虚线边框。"
     },
     "discard": {
         "message": "舍弃"
@@ -2327,6 +2324,9 @@
     "needs_a_credential_for_but_your_vault": {
         "message": "「%1$@」需要用于 %2$@ 的凭据，但你的保险库已锁定。请输入主密码解锁。"
     },
+    "neither_the_article_nor_a_webpage_copy": {
+        "message": "文章和网页副本都无法获取。"
+    },
     "never": {
         "message": "永不"
     },
@@ -2912,6 +2912,9 @@
     "phi_picture_in_picture_park_control_text": {
         "message": "停靠到屏幕边缘"
     },
+    "phi_quit_unexpectedly_last_time": {
+        "message": "Phi 上次意外退出"
+    },
     "phi_recreates_your_profiles_and_spaces_from": {
         "message": "Phi 会重新创建你在其他浏览器中的个人资料和空间。整个过程只会新建内容，你已有的一切都不会被更改。"
     },
@@ -2992,6 +2995,9 @@
     },
     "preparing_installer": {
         "message": "正在准备安装程序…"
+    },
+    "preparing_reader_view": {
+        "message": "正在准备阅读模式…"
     },
     "preparing_restore": {
         "message": "正在准备恢复…"
@@ -3476,6 +3482,9 @@
     "send_code": {
         "message": "发送验证码"
     },
+    "send_feedback": {
+        "message": "发送反馈"
+    },
     "send_feedback_to_phi": {
         "message": "向 Phi 发送反馈"
     },
@@ -3629,6 +3638,9 @@
     "show_transcript": {
         "message": "显示会话记录"
     },
+    "show_unloaded_tab_indicators": {
+        "message": "为已卸载的标签页显示指示灯"
+    },
     "sign_in": {
         "message": "登录"
     },
@@ -3739,6 +3751,9 @@
     },
     "something_went_wrong_when_signing_out": {
         "message": "退出登录时出了点问题"
+    },
+    "sorry_for_the_interruption_a_few_details": {
+        "message": "很抱歉打断了你的使用。简单说说崩溃前发生了什么，可以帮助我们了解问题，让 Phi 更可靠。"
     },
     "space": {
         "message": "空间"
@@ -3904,6 +3919,12 @@
     },
     "the_note_is_written_into_the_saved": {
         "message": "笔记会写入存储的 Markdown 文件，位于突出显示的内容下方。"
+    },
+    "the_page_closed_before_it_could_be": {
+        "message": "此网页在存储完成前就已关闭。"
+    },
+    "the_page_took_too_long_to_read": {
+        "message": "读取此网页耗时过长。"
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "Phi 浏览器数据文件夹已不再可用。"

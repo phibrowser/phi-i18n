@@ -1362,10 +1362,7 @@
         "message": "Modo de desarrollador"
     },
     "dim_tab_icons_when_their_pages_are": {
-        "message": "Atenúa los iconos de las pestañas cuando sus páginas se liberan de la memoria."
-    },
-    "dim_unloaded_tab_icons": {
-        "message": "Atenuar los iconos de las pestañas liberadas de la memoria"
+        "message": "Muestra un contorno discontinuo alrededor de los iconos de las pestañas cuando sus páginas se descargan de la memoria."
     },
     "discard": {
         "message": "Descartar"
@@ -2327,6 +2324,9 @@
     "needs_a_credential_for_but_your_vault": {
         "message": "“%1$@” necesita una credencial para %2$@, pero tu caja fuerte está bloqueada. Introduce tu contraseña maestra para desbloquearla."
     },
+    "neither_the_article_nor_a_webpage_copy": {
+        "message": "No se pudo capturar ni el artículo ni una copia de la página web."
+    },
     "never": {
         "message": "Nunca"
     },
@@ -2912,6 +2912,9 @@
     "phi_picture_in_picture_park_control_text": {
         "message": "Acoplar al borde de la pantalla"
     },
+    "phi_quit_unexpectedly_last_time": {
+        "message": "Phi se cerró inesperadamente la última vez"
+    },
     "phi_recreates_your_profiles_and_spaces_from": {
         "message": "Phi recrea tus Perfiles y Espacios desde otro navegador. Solo crea elementos nuevos: no se modifica nada de lo que ya tienes."
     },
@@ -2992,6 +2995,9 @@
     },
     "preparing_installer": {
         "message": "Preparando el instalador…"
+    },
+    "preparing_reader_view": {
+        "message": "Preparando el Lector…"
     },
     "preparing_restore": {
         "message": "Preparando la restauración…"
@@ -3476,6 +3482,9 @@
     "send_code": {
         "message": "Enviar código"
     },
+    "send_feedback": {
+        "message": "Enviar comentarios"
+    },
     "send_feedback_to_phi": {
         "message": "Enviar comentarios a Phi"
     },
@@ -3629,6 +3638,9 @@
     "show_transcript": {
         "message": "Mostrar la transcripción"
     },
+    "show_unloaded_tab_indicators": {
+        "message": "Mostrar indicadores de pestañas descargadas"
+    },
     "sign_in": {
         "message": "Iniciar sesión"
     },
@@ -3739,6 +3751,9 @@
     },
     "something_went_wrong_when_signing_out": {
         "message": "Se produjo un error al cerrar sesión"
+    },
+    "sorry_for_the_interruption_a_few_details": {
+        "message": "Sentimos la interrupción. Algunos detalles sobre lo que ocurrió antes del fallo pueden ayudarnos a entender el problema y a hacer que Phi sea más fiable."
     },
     "space": {
         "message": "Espacio"
@@ -3904,6 +3919,12 @@
     },
     "the_note_is_written_into_the_saved": {
         "message": "La nota se escribe en el markdown guardado, debajo del texto destacado."
+    },
+    "the_page_closed_before_it_could_be": {
+        "message": "La página se cerró antes de que pudiera guardarse."
+    },
+    "the_page_took_too_long_to_read": {
+        "message": "La página tardó demasiado en leerse."
     },
     "the_phi_browser_data_folder_is_no": {
         "message": "La carpeta de datos del navegador Phi ya no está disponible."
