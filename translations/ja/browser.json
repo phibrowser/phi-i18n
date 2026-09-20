@@ -38,8 +38,14 @@
     "active": {
         "message": "アクティブ"
     },
+    "add": {
+        "message": "追加"
+    },
     "add_bottom_split": {
         "message": "下に分割表示を追加"
+    },
+    "add_filter": {
+        "message": "フィルタを追加…"
     },
     "add_left_split": {
         "message": "左に分割表示を追加"
@@ -103,6 +109,42 @@
     },
     "address": {
         "message": "アドレス"
+    },
+    "adguard_chinese": {
+        "message": "AdGuard Chinese (中文)"
+    },
+    "adguard_dutch_nederlands": {
+        "message": "AdGuard Dutch (Nederlands)"
+    },
+    "adguard_french_fran_ais": {
+        "message": "AdGuard French (Français)"
+    },
+    "adguard_german_deutsch": {
+        "message": "AdGuard German (Deutsch)"
+    },
+    "adguard_japanese": {
+        "message": "AdGuard Japanese (日本語)"
+    },
+    "adguard_spanish_portuguese_espa_ol_portugu_s": {
+        "message": "AdGuard Spanish/Portuguese (Español/Português)"
+    },
+    "ads_and_trackers_on_chinese_websites": {
+        "message": "中国語のウェブサイトの広告とトラッカーをブロックします。"
+    },
+    "ads_and_trackers_on_dutch_websites": {
+        "message": "オランダ語のウェブサイトの広告とトラッカーをブロックします。"
+    },
+    "ads_and_trackers_on_french_websites": {
+        "message": "フランス語のウェブサイトの広告とトラッカーをブロックします。"
+    },
+    "ads_and_trackers_on_german_websites": {
+        "message": "ドイツ語のウェブサイトの広告とトラッカーをブロックします。"
+    },
+    "ads_and_trackers_on_japanese_websites": {
+        "message": "日本語のウェブサイトの広告とトラッカーをブロックします。"
+    },
+    "ads_and_trackers_on_spanish_and_portuguese": {
+        "message": "スペイン語とポルトガル語のウェブサイトの広告とトラッカーをブロックします。"
     },
     "advanced": {
         "message": "詳細"
@@ -419,6 +461,15 @@
     "bitwarden_password_manager": {
         "message": "Bitwardenパスワードマネージャー"
     },
+    "block_ads": {
+        "message": "広告をブロック"
+    },
+    "block_cookie_banners": {
+        "message": "Cookieバナーをブロック"
+    },
+    "block_trackers": {
+        "message": "トラッカーをブロック"
+    },
     "blocked": {
         "message": "ブロック済み"
     },
@@ -427,6 +478,9 @@
     },
     "blocked_agents_can_be_unblocked_anytime_in": {
         "message": "ブロックしたエージェントは、「設定」▸「デベロッパー」でいつでも解除できます。"
+    },
+    "blocks_tracking_scripts_beacons_and_analytics": {
+        "message": "トラッキングスクリプト、ビーコン、アクセス解析をブロックします。"
     },
     "blue": {
         "message": "ブルー"
@@ -544,6 +598,9 @@
     },
     "browsing_history": {
         "message": "閲覧履歴"
+    },
+    "built_into_phi": {
+        "message": "Phiに内蔵"
     },
     "can_now_use_the_phi_browser_skill": {
         "message": "%@がphi-browserスキルを使用できるようになりました。新しく設定したエージェントは再起動してください。Piでは/reloadだけで十分です。"
@@ -665,6 +722,9 @@
     "cancel_cde7e9": {
         "message": "キャンセル"
     },
+    "cancel_ce279a": {
+        "message": "キャンセル"
+    },
     "cancel_cf75bd": {
         "message": "キャンセル"
     },
@@ -779,6 +839,9 @@
     "check_for_update_9e397e": {
         "message": "アップデートを確認…"
     },
+    "check_the_rule_sets_to_use_done": {
+        "message": "使用するルールセットにチェックを入れてください。「完了」をクリックすると、チェックした項目のうち未ダウンロードのものが提供元からダウンロードされます。指示するまで何もダウンロードされません。カスタムリストは3つのスイッチすべてに適用されます。"
+    },
     "checking_for_updates": {
         "message": "アップデートを確認中…"
     },
@@ -793,6 +856,9 @@
     },
     "choose_a_download_location_for_this_profile": {
         "message": "このプロファイルのダウンロード先を選択してください。"
+    },
+    "choose_and_download_rule_sets": {
+        "message": "ルールセットを選択してダウンロード"
     },
     "choose_at_least_one_space_to_migrate": {
         "message": "移行するスペースを1つ以上選択してください。"
@@ -1001,6 +1067,12 @@
     "container": {
         "message": "コンテナー%d"
     },
+    "content_blocking": {
+        "message": "コンテンツブロック"
+    },
+    "content_blocking_on_this_site": {
+        "message": "このサイトでのコンテンツブロック"
+    },
     "content_context_openlinkinspace": {
         "message": "リンクをスペース <ph name=\"SPACE\"/> で開く"
     },
@@ -1027,6 +1099,12 @@
     },
     "cookies": {
         "message": "Cookie"
+    },
+    "cookies_history_extensions_and_other_browser_data": {
+        "message": "このプロファイルのCookie、履歴、拡張機能、その他のブラウザデータは完全に削除されます。会話はPhi Chatの「未分類」に保持されます。AIが無効または利用できない場合は、AIが再び有効になり利用可能になったときに会話が移動されます。"
+    },
+    "cookies_history_extensions_and_other_browser_data_75aa07": {
+        "message": "このプロファイルのCookie、履歴、拡張機能、その他のブラウザデータは完全に削除されます。会話はPhi Chatの「未分類」に保持されます。AIが無効または利用できない場合は、AIが再び有効になり利用可能になったときに会話が移動されます。"
     },
     "copy_bottom_url": {
         "message": "下のURLをコピー"
@@ -1118,6 +1196,9 @@
     "could_not_save_feedback": {
         "message": "フィードバックを保存できませんでした"
     },
+    "could_not_save_the_conversation_recovery_record": {
+        "message": "会話の復元記録を保存できませんでした。もう一度お試しください。"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "AIデータアーカイブをバックアップ用に準備できませんでした。"
     },
@@ -1189,6 +1270,15 @@
     },
     "current_space": {
         "message": "現在のスペース"
+    },
+    "custom": {
+        "message": "カスタム"
+    },
+    "custom_filter": {
+        "message": "カスタムフィルタ"
+    },
+    "custom_lists": {
+        "message": "%d件のカスタムリスト"
     },
     "custom_telegram_bot": {
         "message": "カスタムTelegramボット"
@@ -1415,6 +1505,9 @@
     "done": {
         "message": "完了"
     },
+    "done_73789c": {
+        "message": "完了"
+    },
     "download_any_data_export_you_want_to": {
         "message": "アカウントを削除する前に、残しておきたいデータエクスポートをダウンロードしてください。削除すると、進行中のエクスポートはキャンセルされ、既存のダウンロードファイルとリンクは完全に削除されます。"
     },
@@ -1424,11 +1517,26 @@
     "download_location": {
         "message": "ダウンロード先"
     },
+    "download_this_list": {
+        "message": "このリストをダウンロード"
+    },
     "downloading": {
+        "message": "ダウンロード中…"
+    },
+    "downloading_081046": {
+        "message": "ダウンロード中…"
+    },
+    "downloading_14c986": {
         "message": "ダウンロード中…"
     },
     "downloading_53885b": {
         "message": "ダウンロード中"
+    },
+    "downloading_e7efd8": {
+        "message": "ダウンロード中… %@"
+    },
+    "downloading_of": {
+        "message": "ダウンロード中… %1$@/%2$@"
     },
     "downloading_rollback_package": {
         "message": "ロールバックパッケージをダウンロード中…"
@@ -1460,6 +1568,9 @@
     "e_g_123456_abc_def": {
         "message": "例: 123456:ABC-DEF…"
     },
+    "e_g_my_filter": {
+        "message": "例: マイフィルタ"
+    },
     "each_save_writes_a_markdown_article_and": {
         "message": "保存するたびに、Markdownの記事とWebページのコピーが並んで書き込まれます。プロファイルごとの設定でこのフォルダを変更できます。"
     },
@@ -1468,6 +1579,15 @@
     },
     "each_space_has_its_own_pinned_tabs": {
         "message": "各スペースには独自の固定タブがあります。"
+    },
+    "easylist": {
+        "message": "EasyList"
+    },
+    "easylist_cookie_notices": {
+        "message": "EasyList - Cookie Notices"
+    },
+    "easyprivacy": {
+        "message": "EasyPrivacy"
     },
     "edit": {
         "message": "編集..."
@@ -1553,6 +1673,9 @@
     "enjoy_using_phi_browser": {
         "message": "Phi Browserをお楽しみください🎉"
     },
+    "enter_a_full_http_s_url": {
+        "message": "http(s)で始まる完全なURLを入力してください。"
+    },
     "enter_a_name_for_the_new_folder": {
         "message": "新しいフォルダの名前を入力してください。"
     },
@@ -1576,6 +1699,9 @@
     },
     "enter_a_valid_self_hosted_server_url_4e1f52": {
         "message": "有効なセルフホストサーバーのURLを入力してください。"
+    },
+    "enter_at_least_one_filter_rule": {
+        "message": "フィルタルールを1つ以上入力してください。"
     },
     "enter_the_6_digit_code_sent_to": {
         "message": "%@に送信された6桁のコードを入力してください。"
@@ -1709,8 +1835,17 @@
     "feedback_report_page_title": {
         "message": "Phinomenon にフィードバックを送信"
     },
+    "fetch_the_latest_rules_for_the_lists": {
+        "message": "ここでダウンロードしたリストの最新ルールを取得"
+    },
     "file": {
         "message": "ファイル"
+    },
+    "filter_rules": {
+        "message": "フィルタルール"
+    },
+    "filtering_is_running_with_the_last_good": {
+        "message": "最後に正常に機能したルールでフィルタリングを実行中"
     },
     "find": {
         "message": "検索"
@@ -1735,6 +1870,9 @@
     },
     "finish_signing_out_in_your_browser": {
         "message": "ブラウザでログアウトを完了してください。"
+    },
+    "fixes_and_rules_maintained_by_phi_keep": {
+        "message": "Phiが管理する修正とルールです。サイトの動作に問題が出ない限り、オンのままにしてください。"
     },
     "focus_address_bar": {
         "message": "アドレスバーにフォーカス"
@@ -1814,6 +1952,9 @@
     "general": {
         "message": "一般"
     },
+    "give_the_filter_a_name": {
+        "message": "フィルタに名前を付けてください。"
+    },
     "give_this_folder_a_name_to_organize": {
         "message": "ブックマークを整理するために、このフォルダに名前を付けてください。"
     },
@@ -1864,6 +2005,9 @@
     },
     "hide_the_agent_s_command_and_process": {
         "message": "エージェントのコマンドとプロセスツリーを非表示"
+    },
+    "hides_cookie_consent_banners_and_unlocks_scrolling": {
+        "message": "Cookie同意バナーを非表示にし、バナーによるスクロールのロックを解除します。"
     },
     "highlight_saved": {
         "message": "ハイライトを保存しました"
@@ -2135,6 +2279,9 @@
     "lets_every_agent_connect_without_asking_you": {
         "message": "Phiが一度も見たことのないエージェントも含め、すべてのエージェントが確認なしに接続できるようになります。オンにしている間は承認プロンプトが表示されず、オンにすると継続中の拒否も解除されます。すぐに適用されます。"
     },
+    "license": {
+        "message": "ライセンス: %@"
+    },
     "light": {
         "message": "ライト"
     },
@@ -2291,6 +2438,9 @@
     "mute_site": {
         "message": "サイトをミュート"
     },
+    "n1_custom_list": {
+        "message": "1件のカスタムリスト"
+    },
     "n1_hour": {
         "message": "1時間"
     },
@@ -2304,6 +2454,9 @@
         "message": "名前"
     },
     "name_520aa0": {
+        "message": "名前"
+    },
+    "name_9dab22": {
         "message": "名前"
     },
     "name_cannot_be_empty": {
@@ -2573,6 +2726,9 @@
     "no_results_0fd379": {
         "message": "結果がありません"
     },
+    "no_rule_sets_selected": {
+        "message": "ルールセットが選択されていません"
+    },
     "no_rules_yet": {
         "message": "ルールはまだありません。"
     },
@@ -2615,6 +2771,15 @@
     "not_created": {
         "message": "作成されませんでした"
     },
+    "not_downloaded": {
+        "message": "未ダウンロード: %@"
+    },
+    "not_downloaded_a3d91e": {
+        "message": "%d件未ダウンロード"
+    },
+    "not_downloaded_yet": {
+        "message": "まだダウンロードされていません"
+    },
     "not_linked": {
         "message": "未連携"
     },
@@ -2638,6 +2803,9 @@
     },
     "nothing_could_be_written_to_the_folio": {
         "message": "Folioフォルダに何も書き込めませんでした。"
+    },
+    "nothing_is_blocked_until_a_rule_set": {
+        "message": "ルールセットがダウンロードされるまで、何もブロックされません。"
     },
     "nothing_was_created": {
         "message": "何も作成されませんでした。"
@@ -2860,6 +3028,9 @@
     },
     "phi_and_phi_sentinel_will_quit_browsing": {
         "message": "PhiとPhi Sentinelが終了します。このバージョンのPhiの閲覧データ、会話、AIメモリ、サービスデータ、ローカルAIモデルは完全に削除されます。この操作は取り消せません。"
+    },
+    "phi_blocklists": {
+        "message": "Phi Blocklists"
     },
     "phi_could_not_be_uninstalled": {
         "message": "Phiをアンインストールできませんでした"
@@ -3170,6 +3341,9 @@
     "remove_rule_b25daa": {
         "message": "ルールを削除"
     },
+    "remove_this_filter": {
+        "message": "このフィルタを削除"
+    },
     "rename": {
         "message": "名前を変更"
     },
@@ -3331,6 +3505,18 @@
     },
     "route_matching_domains_or_urls_to_a": {
         "message": "一致するドメインやURLを、スペース、シークレット、またはKioskに振り分けます。"
+    },
+    "rule_sets": {
+        "message": "%d件のルールセット"
+    },
+    "rule_sets_for_blocking_ads": {
+        "message": "広告をブロックするルールセット"
+    },
+    "rule_sets_for_blocking_cookie_banners": {
+        "message": "Cookieバナーをブロックするルールセット"
+    },
+    "rule_sets_for_blocking_trackers": {
+        "message": "トラッカーをブロックするルールセット"
     },
     "run": {
         "message": "実行"
@@ -3758,6 +3944,9 @@
     "sorry_for_the_interruption_a_few_details": {
         "message": "ご迷惑をおかけして申し訳ありません。クラッシュ前に何が起きていたかを少しお知らせいただくと、問題の把握とPhiの信頼性向上に役立ちます。"
     },
+    "source": {
+        "message": "提供元"
+    },
     "space": {
         "message": "スペース"
     },
@@ -3922,6 +4111,9 @@
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "ローカルのIMサービスが利用できません。Phi Sentinelが正常に起動し、IMサービスが動作しているか確認してください。"
+    },
+    "the_most_widely_used_list_of_ad": {
+        "message": "最も広く使われている、広告サーバーと広告要素のリストです。"
     },
     "the_note_is_written_into_the_saved": {
         "message": "メモは保存されたMarkdown内のハイライトの下に書き込まれます。"
@@ -4235,13 +4427,25 @@
     "update_available": {
         "message": "アップデートがあります"
     },
+    "update_downloaded": {
+        "message": "ダウンロード済みのリストを更新"
+    },
     "update_phi_to_open_local_data": {
         "message": "ローカルデータを開くにはPhiをアップデートしてください"
+    },
+    "updated": {
+        "message": "%@に更新"
     },
     "url": {
         "message": "URL"
     },
+    "url_24a044": {
+        "message": "URL"
+    },
     "url_7a8da1": {
+        "message": "URL"
+    },
+    "url_abe6bd": {
         "message": "URL"
     },
     "url_b6d133": {
@@ -4426,6 +4630,9 @@
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "現在の固定タブが、既存の各コピー先に複製されます。複製後は、それぞれ個別に変更できます。"
+    },
+    "your_custom_lists_apply_to_every_switch": {
+        "message": "カスタムリスト（すべてのスイッチに適用）"
     },
     "your_data_and_settings": {
         "message": "データと設定"

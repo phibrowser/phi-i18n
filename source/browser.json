@@ -51,9 +51,17 @@
         "message": "Active",
         "description": "Location: Browser. Search Tabs - Trailing label for the active tab result"
     },
+    "add": {
+        "message": "Add",
+        "description": "Location: Browser. Custom filter sheet - Button that adds the filter"
+    },
     "add_bottom_split": {
         "message": "Add Bottom Split",
         "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the bottom third of the page"
+    },
+    "add_filter": {
+        "message": "Add Filter…",
+        "description": "Location: Browser. Choose rule sets sheet - Button opening the sheet that adds a custom filter list"
     },
     "add_left_split": {
         "message": "Add Left Split",
@@ -138,6 +146,54 @@
     "address": {
         "message": "Address",
         "description": "Location: Browser. Bookmark manager - Header for the bookmark address column"
+    },
+    "adguard_chinese": {
+        "message": "AdGuard Chinese (中文)",
+        "description": "Location: Browser. Privacy settings - Name of the AdGuard Chinese regional filter list"
+    },
+    "adguard_dutch_nederlands": {
+        "message": "AdGuard Dutch (Nederlands)",
+        "description": "Location: Browser. Privacy settings - Name of the AdGuard Dutch regional filter list"
+    },
+    "adguard_french_fran_ais": {
+        "message": "AdGuard French (Français)",
+        "description": "Location: Browser. Privacy settings - Name of the AdGuard French regional filter list"
+    },
+    "adguard_german_deutsch": {
+        "message": "AdGuard German (Deutsch)",
+        "description": "Location: Browser. Privacy settings - Name of the AdGuard German regional filter list"
+    },
+    "adguard_japanese": {
+        "message": "AdGuard Japanese (日本語)",
+        "description": "Location: Browser. Privacy settings - Name of the AdGuard Japanese regional filter list"
+    },
+    "adguard_spanish_portuguese_espa_ol_portugu_s": {
+        "message": "AdGuard Spanish/Portuguese (Español/Português)",
+        "description": "Location: Browser. Privacy settings - Name of the AdGuard Spanish and Portuguese regional filter list"
+    },
+    "ads_and_trackers_on_chinese_websites": {
+        "message": "Ads and trackers on Chinese websites.",
+        "description": "Location: Browser. Privacy settings - Description of the AdGuard Chinese regional filter list"
+    },
+    "ads_and_trackers_on_dutch_websites": {
+        "message": "Ads and trackers on Dutch websites.",
+        "description": "Location: Browser. Privacy settings - Description of the AdGuard Dutch regional filter list"
+    },
+    "ads_and_trackers_on_french_websites": {
+        "message": "Ads and trackers on French websites.",
+        "description": "Location: Browser. Privacy settings - Description of the AdGuard French regional filter list"
+    },
+    "ads_and_trackers_on_german_websites": {
+        "message": "Ads and trackers on German websites.",
+        "description": "Location: Browser. Privacy settings - Description of the AdGuard German regional filter list"
+    },
+    "ads_and_trackers_on_japanese_websites": {
+        "message": "Ads and trackers on Japanese websites.",
+        "description": "Location: Browser. Privacy settings - Description of the AdGuard Japanese regional filter list"
+    },
+    "ads_and_trackers_on_spanish_and_portuguese": {
+        "message": "Ads and trackers on Spanish and Portuguese websites.",
+        "description": "Location: Browser. Privacy settings - Description of the AdGuard Spanish and Portuguese regional filter list"
     },
     "advanced": {
         "message": "Advanced",
@@ -559,6 +615,18 @@
         "message": "Bitwarden password manager",
         "description": "Location: Browser. Phi & AI settings - Bitwarden toggle title"
     },
+    "block_ads": {
+        "message": "Block ads",
+        "description": "Location: Browser. Profile settings - Toggle title for blocking ads"
+    },
+    "block_cookie_banners": {
+        "message": "Block cookie banners",
+        "description": "Location: Browser. Profile settings - Toggle title for hiding cookie consent banners"
+    },
+    "block_trackers": {
+        "message": "Block trackers",
+        "description": "Location: Browser. Profile settings - Toggle title for blocking trackers"
+    },
     "blocked": {
         "message": "Blocked",
         "description": "Location: Browser. Short status - generic policy blocked (Chromium: IDS_DOWNLOAD_BUBBLE_STATUS_BLOCKED)"
@@ -570,6 +638,10 @@
     "blocked_agents_can_be_unblocked_anytime_in": {
         "message": "Blocked agents can be unblocked anytime in Settings ▸ Developer.",
         "description": "Location: Browser. CDP consent - hint shown when the permanent deny scope is selected"
+    },
+    "blocks_tracking_scripts_beacons_and_analytics": {
+        "message": "Blocks tracking scripts, beacons and analytics.",
+        "description": "Location: Browser. Privacy settings - Description of the EasyPrivacy tracker filter list"
     },
     "blue": {
         "message": "Blue",
@@ -726,6 +798,10 @@
     "browsing_history": {
         "message": "Browsing history",
         "description": "Location: Browser. Import data type - Browsing history toggle label"
+    },
+    "built_into_phi": {
+        "message": "Built into Phi",
+        "description": "Location: Browser. Advanced ad block settings - Details line for a filter list shipped with the browser"
     },
     "can_now_use_the_phi_browser_skill": {
         "message": "%@ can now use the phi-browser skill. Restart newly configured agents; in Pi, /reload is enough.",
@@ -887,6 +963,10 @@
         "message": "Cancel",
         "description": "Location: Browser. Cancel button"
     },
+    "cancel_ce279a": {
+        "message": "Cancel",
+        "description": "Location: Browser. Custom filter sheet - Cancel button"
+    },
     "cancel_cf75bd": {
         "message": "Cancel",
         "description": "Location: Browser. Cancel button"
@@ -1039,6 +1119,10 @@
         "message": "Check for Update...",
         "description": "Location: Browser. Phi menu - Menu item text when no update operation is active"
     },
+    "check_the_rule_sets_to_use_done": {
+        "message": "Check the rule sets to use. Done downloads any that are missing from their publishers; nothing is downloaded until you ask. Custom lists apply to all three switches.",
+        "description": "Location: Browser. Choose rule sets sheet - Introductory sentence"
+    },
     "checking_for_updates": {
         "message": "Checking for updates...",
         "description": "Location: Browser. Phi menu - Menu item text while checking for updates"
@@ -1058,6 +1142,10 @@
     "choose_a_download_location_for_this_profile": {
         "message": "Choose a download location for this profile.",
         "description": "Location: Browser. Profiles settings - download folder picker message"
+    },
+    "choose_and_download_rule_sets": {
+        "message": "Choose and download rule sets",
+        "description": "Location: Browser. Profile settings - Tooltip of the options button next to a content blocking toggle that opens the rule set chooser"
     },
     "choose_at_least_one_space_to_migrate": {
         "message": "Choose at least one Space to migrate.",
@@ -1335,6 +1423,14 @@
         "message": "Container %d",
         "description": "Location: Browser. Browser migration wizard - name of the Profile made from a Zen container that has no readable name; %d is the container's number"
     },
+    "content_blocking": {
+        "message": "Content blocking",
+        "description": "Location: Browser. Profile settings - Section title above the ad, cookie banner and tracker toggles"
+    },
+    "content_blocking_on_this_site": {
+        "message": "Content blocking on this site",
+        "description": "Location: Browser. Address bar menu - Checkmark item that turns ad, tracker and cookie banner blocking off or on for the current website"
+    },
     "content_context_openlinkinspace": {
         "message": "Open Link In Space <ph name=\"SPACE\"/>",
         "description": "Location: Browser. In Title Case: The name of the open a link in a specific Phi Space command (shown when there is only one Space to choose)"
@@ -1370,6 +1466,14 @@
     "cookies": {
         "message": "Cookies",
         "description": "Location: Browser. Import data type - Cookies toggle label"
+    },
+    "cookies_history_extensions_and_other_browser_data": {
+        "message": "Cookies, history, extensions, and other browser data in this profile will be permanently removed. Conversations will be kept in Phi Chat under Uncategorized. If AI is disabled or unavailable, conversations will be moved when AI is enabled and available again.",
+        "description": "Location: Browser. Spaces menu - Profile deletion confirmation distinguishing permanently removed browser data from retained conversations and explaining deferred organization while AI is unavailable"
+    },
+    "cookies_history_extensions_and_other_browser_data_75aa07": {
+        "message": "Cookies, history, extensions, and other browser data in this profile will be permanently removed. Conversations will be kept in Phi Chat under Uncategorized. If AI is disabled or unavailable, conversations will be moved when AI is enabled and available again.",
+        "description": "Location: Browser. Profiles settings - Profile deletion confirmation distinguishing permanently removed browser data from retained conversations and explaining deferred organization while AI is unavailable"
     },
     "copy_bottom_url": {
         "message": "Copy Bottom URL",
@@ -1491,6 +1595,10 @@
         "message": "Could Not Save Feedback",
         "description": "Location: Browser. Feedback form - Alert title when local outbox save fails"
     },
+    "could_not_save_the_conversation_recovery_record": {
+        "message": "Could not save the conversation recovery record. Please try again.",
+        "description": "Location: Browser. Profile deletion - Error when the local recovery record could not be saved before deleting a profile"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "Could not stage the AI data archive.",
         "description": "Location: Browser. User data export - Error when the prepared AI data archive cannot be staged for backup"
@@ -1586,6 +1694,18 @@
     "current_space": {
         "message": "Current Space",
         "description": "Location: Browser. Fallback label for the import-target Space when it can't be resolved by id"
+    },
+    "custom": {
+        "message": "Custom",
+        "description": "Location: Browser. Custom filter sheet - Segment for pasted filter rules"
+    },
+    "custom_filter": {
+        "message": "Custom filter",
+        "description": "Location: Browser. Custom filter sheet - Title"
+    },
+    "custom_lists": {
+        "message": "%d custom lists",
+        "description": "Location: Browser. Profile settings - Part of the line under a content blocking toggle counting the user's custom lists, which apply to every toggle; %d is the count"
     },
     "custom_telegram_bot": {
         "message": "Custom Telegram bot",
@@ -1887,6 +2007,10 @@
         "message": "Done",
         "description": "Location: Browser. Browser migration wizard - button dismissing the report and closing the window"
     },
+    "done_73789c": {
+        "message": "Done",
+        "description": "Location: Browser. Choose rule sets sheet - Button that downloads the chosen lists still missing and closes the sheet"
+    },
     "download_any_data_export_you_want_to": {
         "message": "Download any data export you want to keep before deleting your account. Deletion cancels exports in progress and permanently removes existing download files and links.",
         "description": "Location: Browser. Account deletion - Warning that account deletion cancels and removes data exports"
@@ -1899,13 +2023,33 @@
         "message": "Download Location",
         "description": "Location: Browser. Profiles settings - download location row label"
     },
+    "download_this_list": {
+        "message": "Download this list",
+        "description": "Location: Browser. Advanced ad block settings - Tooltip of the button downloading a filter list"
+    },
     "downloading": {
         "message": "Downloading...",
         "description": "Location: Browser. Placeholder text when download filename is not yet available"
     },
+    "downloading_081046": {
+        "message": "Downloading…",
+        "description": "Location: Browser. Choose rule sets sheet - Done button label while the chosen lists are being downloaded"
+    },
+    "downloading_14c986": {
+        "message": "Downloading…",
+        "description": "Location: Browser. Advanced ad block settings - Line under a filter list whose download is in progress"
+    },
     "downloading_53885b": {
         "message": "Downloading",
         "description": "Location: Browser. Download state"
+    },
+    "downloading_e7efd8": {
+        "message": "Downloading… %@",
+        "description": "Location: Browser. Advanced ad block settings - Line under a filter list being downloaded when the total size is unknown; the value is bytes received"
+    },
+    "downloading_of": {
+        "message": "Downloading… %1$@ of %2$@",
+        "description": "Location: Browser. Advanced ad block settings - Line under a filter list being downloaded; the two values are bytes received and the total size"
     },
     "downloading_rollback_package": {
         "message": "Downloading rollback package...",
@@ -1947,6 +2091,10 @@
         "message": "e.g. 123456:ABC-DEF...",
         "description": "Location: Browser. "
     },
+    "e_g_my_filter": {
+        "message": "e.g. My filter",
+        "description": "Location: Browser. Custom filter sheet - Placeholder of the name field"
+    },
     "each_save_writes_a_markdown_article_and": {
         "message": "Each save writes a markdown article and a webpage copy side by side. Profiles can override this folder in their own settings.",
         "description": "Location: Browser. General settings - Hint under the Folio folder row describing the saved file pair and the per-profile override"
@@ -1958,6 +2106,18 @@
     "each_space_has_its_own_pinned_tabs": {
         "message": "Each Space has its own pinned tabs.",
         "description": "Location: Browser. Spaces settings - description of Space pinned-tab scope"
+    },
+    "easylist": {
+        "message": "EasyList",
+        "description": "Location: Browser. Privacy settings - Name of the EasyList ad filter list"
+    },
+    "easylist_cookie_notices": {
+        "message": "EasyList - Cookie Notices",
+        "description": "Location: Browser. Privacy settings - Name of the EasyList cookie notice filter list"
+    },
+    "easyprivacy": {
+        "message": "EasyPrivacy",
+        "description": "Location: Browser. Privacy settings - Name of the EasyPrivacy tracker filter list"
     },
     "edit": {
         "message": "Edit...",
@@ -2071,6 +2231,10 @@
         "message": "Enjoy using Phi Browser 🎉",
         "description": "Location: Browser. Onboarding next steps - Fourth guide step welcoming the user to Phi Browser"
     },
+    "enter_a_full_http_s_url": {
+        "message": "Enter a full http(s) URL.",
+        "description": "Location: Browser. Custom filter sheet - Validation message when the URL is missing or not http(s)"
+    },
     "enter_a_name_for_the_new_folder": {
         "message": "Enter a name for the new folder.",
         "description": "Location: Browser. Bookmark editor - Inline new folder creation subtitle"
@@ -2102,6 +2266,10 @@
     "enter_a_valid_self_hosted_server_url_4e1f52": {
         "message": "Enter a valid self-hosted server URL.",
         "description": "Location: Browser. Bitwarden login sheet - Invalid self-hosted URL error during login submission"
+    },
+    "enter_at_least_one_filter_rule": {
+        "message": "Enter at least one filter rule.",
+        "description": "Location: Browser. Custom filter sheet - Validation message when the rules text is empty"
     },
     "enter_the_6_digit_code_sent_to": {
         "message": "Enter the 6-digit code sent to %@.",
@@ -2279,9 +2447,21 @@
         "message": "Send Feedback to Phinomenon",
         "description": "Location: Browser. Label showing the title of the page that will be reported"
     },
+    "fetch_the_latest_rules_for_the_lists": {
+        "message": "Fetch the latest rules for the lists downloaded here",
+        "description": "Location: Browser. Choose rule sets sheet - Tooltip of the Update Downloaded button"
+    },
     "file": {
         "message": "File",
         "description": "Location: Browser. Shortcuts settings - Section title for file commands"
+    },
+    "filter_rules": {
+        "message": "Filter rules",
+        "description": "Location: Browser. Custom filter sheet - Label of the rules text area"
+    },
+    "filtering_is_running_with_the_last_good": {
+        "message": "Filtering is running with the last good rules",
+        "description": "Location: Browser. Profile settings - Status line shown when the latest rule build failed and the previous rules stay in use"
     },
     "find": {
         "message": "Find",
@@ -2314,6 +2494,10 @@
     "finish_signing_out_in_your_browser": {
         "message": "Finish signing out in your browser.",
         "description": "Location: Browser. Account settings - Status shown while waiting for sign-out to finish"
+    },
+    "fixes_and_rules_maintained_by_phi_keep": {
+        "message": "Fixes and rules maintained by Phi. Keep this on unless a site misbehaves.",
+        "description": "Location: Browser. Privacy settings - Description of Phi's own first-party filter list"
     },
     "focus_address_bar": {
         "message": "Focus Address Bar",
@@ -2419,6 +2603,10 @@
         "message": "General",
         "description": "Location: Browser. Settings - Tab title for general settings"
     },
+    "give_the_filter_a_name": {
+        "message": "Give the filter a name.",
+        "description": "Location: Browser. Custom filter sheet - Validation message when the name is empty"
+    },
     "give_this_folder_a_name_to_organize": {
         "message": "Give this folder a name to organize your bookmarks.",
         "description": "Location: Browser. Folder editor - Subtitle explaining folder naming"
@@ -2486,6 +2674,10 @@
     "hide_the_agent_s_command_and_process": {
         "message": "Hide the agent's command and process tree",
         "description": "Location: Browser. CDP consent - accessibility label of the details disclosure button while the details are open"
+    },
+    "hides_cookie_consent_banners_and_unlocks_scrolling": {
+        "message": "Hides cookie consent banners and unlocks scrolling behind them.",
+        "description": "Location: Browser. Privacy settings - Description of the EasyList cookie notice filter list"
     },
     "highlight_saved": {
         "message": "Highlight saved",
@@ -2847,6 +3039,10 @@
         "message": "Lets every agent connect without asking you, including ones Phi has never seen. The approval prompt stops appearing while this is on, and turning it on lifts any standing refusal. Applies immediately.",
         "description": "Location: Browser. Developer settings - Security note for the blanket all-agents grant toggle"
     },
+    "license": {
+        "message": "License: %@",
+        "description": "Location: Browser. Advanced ad block settings - License line in a filter list's details; %@ is the license name"
+    },
     "light": {
         "message": "Light",
         "description": "Location: Browser. Appearance choice: always light mode"
@@ -3055,6 +3251,10 @@
         "message": "Mute Site",
         "description": "Location: Browser. Shortcuts settings - Command title for muting audio from the current site"
     },
+    "n1_custom_list": {
+        "message": "1 custom list",
+        "description": "Location: Browser. Profile settings - Part of the line under a content blocking toggle when the user has one custom list, which applies to every toggle"
+    },
     "n1_hour": {
         "message": "1 hour",
         "description": "Location: Browser. Bitwarden session timeout - 1 hour"
@@ -3074,6 +3274,10 @@
     "name_520aa0": {
         "message": "Name",
         "description": "Location: Browser. Editor - Label for the title/name input field"
+    },
+    "name_9dab22": {
+        "message": "Name",
+        "description": "Location: Browser. Custom filter sheet - Label of the name field"
     },
     "name_cannot_be_empty": {
         "message": "Name cannot be empty",
@@ -3431,6 +3635,10 @@
         "message": "No Results",
         "description": "Location: Browser. Shortcuts settings - Empty state text when no shortcuts match search"
     },
+    "no_rule_sets_selected": {
+        "message": "No rule sets selected",
+        "description": "Location: Browser. Profile settings - Line under a content blocking toggle when no filter list is checked for it"
+    },
     "no_rules_yet": {
         "message": "No rules yet.",
         "description": "Location: Browser. Empty state label in the URL rules editor"
@@ -3487,6 +3695,18 @@
         "message": "Not created",
         "description": "Location: Browser. Browser migration wizard - outcome of a Profile or Space the run failed to create"
     },
+    "not_downloaded": {
+        "message": "Not downloaded: %@",
+        "description": "Location: Browser. Advanced ad block settings - Line under a filter list whose download failed; %@ is the error"
+    },
+    "not_downloaded_a3d91e": {
+        "message": "%d not downloaded",
+        "description": "Location: Browser. Profile settings - Suffix under a content blocking toggle; %d is how many of its checked lists are not downloaded"
+    },
+    "not_downloaded_yet": {
+        "message": "Not downloaded yet",
+        "description": "Location: Browser. Advanced ad block settings - Details line for a filter list that has not been downloaded"
+    },
     "not_linked": {
         "message": "Not linked",
         "description": "Location: Browser. Phi Link - Official bot not linked status"
@@ -3518,6 +3738,10 @@
     "nothing_could_be_written_to_the_folio": {
         "message": "Nothing could be written to the Folio folder.",
         "description": "Location: Browser. Folio - Failure toast detail: the destination folder could not be written to"
+    },
+    "nothing_is_blocked_until_a_rule_set": {
+        "message": "Nothing is blocked until a rule set is downloaded.",
+        "description": "Location: Browser. Profile settings - Status line shown when a toggle is on but none of its filter lists has been downloaded"
     },
     "nothing_was_created": {
         "message": "Nothing was created.",
@@ -3814,6 +4038,10 @@
     "phi_and_phi_sentinel_will_quit_browsing": {
         "message": "Phi and Phi Sentinel will quit. Browsing data, conversations, AI memory, service data, and local AI models for this version of Phi will be permanently deleted. This cannot be undone.",
         "description": "Location: Browser. Phi uninstall - Critical confirmation message describing the channel-scoped data that will be permanently removed"
+    },
+    "phi_blocklists": {
+        "message": "Phi Blocklists",
+        "description": "Location: Browser. Privacy settings - Name of Phi's own first-party filter list"
     },
     "phi_could_not_be_uninstalled": {
         "message": "Phi Could Not Be Uninstalled",
@@ -4227,6 +4455,10 @@
         "message": "Remove rule",
         "description": "Location: Browser. Tooltip for remove-rule button"
     },
+    "remove_this_filter": {
+        "message": "Remove this filter",
+        "description": "Location: Browser. Advanced ad block settings - Tooltip of the button removing a custom filter list"
+    },
     "rename": {
         "message": "Rename",
         "description": "Location: Browser. Rename folder or bookmark dialog title"
@@ -4442,6 +4674,22 @@
     "route_matching_domains_or_urls_to_a": {
         "message": "Route matching domains or URLs to a Space, Incognito, or Kiosk.",
         "description": "Location: Browser. Navigations settings - Description below the URL Rules editor row title"
+    },
+    "rule_sets": {
+        "message": "%d rule sets",
+        "description": "Location: Browser. Profile settings - Line under a content blocking toggle when two or more filter lists are chosen for it; %d is the count"
+    },
+    "rule_sets_for_blocking_ads": {
+        "message": "Rule sets for blocking ads",
+        "description": "Location: Browser. Choose rule sets sheet - Title for the ads toggle"
+    },
+    "rule_sets_for_blocking_cookie_banners": {
+        "message": "Rule sets for blocking cookie banners",
+        "description": "Location: Browser. Choose rule sets sheet - Title for the cookie banners toggle"
+    },
+    "rule_sets_for_blocking_trackers": {
+        "message": "Rule sets for blocking trackers",
+        "description": "Location: Browser. Choose rule sets sheet - Title for the trackers toggle"
     },
     "run": {
         "message": "Run",
@@ -5011,6 +5259,10 @@
         "message": "Sorry for the interruption. A few details about what happened before the crash can help us understand the issue and make Phi more reliable.",
         "description": "Location: Browser. Crash feedback - Apology and invitation to share details about what happened before the crash"
     },
+    "source": {
+        "message": "Source",
+        "description": "Location: Browser. Advanced ad block settings - Link label pointing at a filter list's home page"
+    },
     "space": {
         "message": "Space",
         "description": "Location: Browser. Spaces settings - Space pinned-tab scope option"
@@ -5230,6 +5482,10 @@
     "the_local_im_service_is_unavailable_check": {
         "message": "The local IM service is unavailable. Check whether Phi Sentinel started normally and the IM service is running.",
         "description": "Location: Browser. IM Channels - Message shown when im-server is not connected"
+    },
+    "the_most_widely_used_list_of_ad": {
+        "message": "The most widely used list of ad servers and ad elements.",
+        "description": "Location: Browser. Privacy settings - Description of the EasyList ad filter list"
     },
     "the_note_is_written_into_the_saved": {
         "message": "The note is written into the saved markdown, under the highlight.",
@@ -5647,17 +5903,33 @@
         "message": "Update available",
         "description": "Location: Browser. Sidebar update reminder - Accessibility description for update icon"
     },
+    "update_downloaded": {
+        "message": "Update Downloaded",
+        "description": "Location: Browser. Choose rule sets sheet - Button at the bottom left that downloads the sheet's already-downloaded lists again to pick up new rules"
+    },
     "update_phi_to_open_local_data": {
         "message": "Update Phi to Open Local Data",
         "description": "Location: Browser. Local store compatibility alert - title when the local database was opened by a newer app version"
+    },
+    "updated": {
+        "message": "Updated %@",
+        "description": "Location: Browser. Advanced ad block settings - Details line with when a filter list was last downloaded; %@ is a relative time like '3 hours ago'"
     },
     "url": {
         "message": "URL",
         "description": "Location: Browser. Editor - Label for the URL input field"
     },
+    "url_24a044": {
+        "message": "URL",
+        "description": "Location: Browser. Custom filter sheet - Label of the URL field"
+    },
     "url_7a8da1": {
         "message": "URL",
         "description": "Location: Browser. Feedback form - Label for URL input field"
+    },
+    "url_abe6bd": {
+        "message": "URL",
+        "description": "Location: Browser. Custom filter sheet - Segment for a filter list downloaded from a URL"
     },
     "url_b6d133": {
         "message": "URL",
@@ -5902,6 +6174,10 @@
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Your current pinned tabs will be copied into each existing destination. The copies can then be changed independently.",
         "description": "Location: Browser. Spaces settings - confirmation body for narrowing pinned-tab scope"
+    },
+    "your_custom_lists_apply_to_every_switch": {
+        "message": "Your custom lists (apply to every switch)",
+        "description": "Location: Browser. Choose rule sets sheet - Section title above the user's custom lists"
     },
     "your_data_and_settings": {
         "message": "Your Data and Settings",

@@ -38,8 +38,14 @@
     "active": {
         "message": "使用中"
     },
+    "add": {
+        "message": "加入"
+    },
     "add_bottom_split": {
         "message": "加入下方分割畫面"
+    },
+    "add_filter": {
+        "message": "加入過濾器…"
     },
     "add_left_split": {
         "message": "加入左側分割畫面"
@@ -103,6 +109,42 @@
     },
     "address": {
         "message": "網址"
+    },
+    "adguard_chinese": {
+        "message": "AdGuard Chinese (中文)"
+    },
+    "adguard_dutch_nederlands": {
+        "message": "AdGuard Dutch (Nederlands)"
+    },
+    "adguard_french_fran_ais": {
+        "message": "AdGuard French (Français)"
+    },
+    "adguard_german_deutsch": {
+        "message": "AdGuard German (Deutsch)"
+    },
+    "adguard_japanese": {
+        "message": "AdGuard Japanese (日本語)"
+    },
+    "adguard_spanish_portuguese_espa_ol_portugu_s": {
+        "message": "AdGuard Spanish/Portuguese (Español/Português)"
+    },
+    "ads_and_trackers_on_chinese_websites": {
+        "message": "中文網站上的廣告與追蹤器。"
+    },
+    "ads_and_trackers_on_dutch_websites": {
+        "message": "荷蘭文網站上的廣告與追蹤器。"
+    },
+    "ads_and_trackers_on_french_websites": {
+        "message": "法文網站上的廣告與追蹤器。"
+    },
+    "ads_and_trackers_on_german_websites": {
+        "message": "德文網站上的廣告與追蹤器。"
+    },
+    "ads_and_trackers_on_japanese_websites": {
+        "message": "日文網站上的廣告與追蹤器。"
+    },
+    "ads_and_trackers_on_spanish_and_portuguese": {
+        "message": "西班牙文與葡萄牙文網站上的廣告與追蹤器。"
     },
     "advanced": {
         "message": "進階"
@@ -419,6 +461,15 @@
     "bitwarden_password_manager": {
         "message": "Bitwarden 密碼管理員"
     },
+    "block_ads": {
+        "message": "封鎖廣告"
+    },
+    "block_cookie_banners": {
+        "message": "封鎖 Cookie 橫幅"
+    },
+    "block_trackers": {
+        "message": "封鎖追蹤器"
+    },
     "blocked": {
         "message": "已封鎖"
     },
@@ -427,6 +478,9 @@
     },
     "blocked_agents_can_be_unblocked_anytime_in": {
         "message": "已封鎖的 AI 代理可隨時在「設定」▸「開發者」中解除封鎖。"
+    },
+    "blocks_tracking_scripts_beacons_and_analytics": {
+        "message": "封鎖追蹤指令碼、信標與分析工具。"
     },
     "blue": {
         "message": "藍色"
@@ -544,6 +598,9 @@
     },
     "browsing_history": {
         "message": "瀏覽記錄"
+    },
+    "built_into_phi": {
+        "message": "Phi 內建"
     },
     "can_now_use_the_phi_browser_skill": {
         "message": "%@ 現在可以使用 phi-browser Skill。請重新啟動新設定的 AI 代理；在 Pi 中，執行 /reload 即可。"
@@ -665,6 +722,9 @@
     "cancel_cde7e9": {
         "message": "取消"
     },
+    "cancel_ce279a": {
+        "message": "取消"
+    },
     "cancel_cf75bd": {
         "message": "取消"
     },
@@ -779,6 +839,9 @@
     "check_for_update_9e397e": {
         "message": "檢查更新…"
     },
+    "check_the_rule_sets_to_use_done": {
+        "message": "勾選要使用的規則集。按「完成」會從發佈者下載尚未下載的規則集；未經你要求，不會下載任何內容。自訂清單會套用於全部三個開關。"
+    },
     "checking_for_updates": {
         "message": "正在檢查更新…"
     },
@@ -793,6 +856,9 @@
     },
     "choose_a_download_location_for_this_profile": {
         "message": "請為此設定檔選擇下載位置。"
+    },
+    "choose_and_download_rule_sets": {
+        "message": "選擇並下載規則集"
     },
     "choose_at_least_one_space_to_migrate": {
         "message": "請至少選擇一個要移轉的空間。"
@@ -1001,6 +1067,12 @@
     "container": {
         "message": "容器 %d"
     },
+    "content_blocking": {
+        "message": "內容封鎖"
+    },
+    "content_blocking_on_this_site": {
+        "message": "在此網站封鎖內容"
+    },
     "content_context_openlinkinspace": {
         "message": "在空間 <ph name=\"SPACE\"/> 中開啟連結"
     },
@@ -1027,6 +1099,12 @@
     },
     "cookies": {
         "message": "Cookie"
+    },
+    "cookies_history_extensions_and_other_browser_data": {
+        "message": "此設定檔中的 Cookie、歷史記錄、擴充功能與其他瀏覽器資料都將永久移除。對話會保留在 Phi Chat 的「未分類」中。若 AI 已停用或無法使用，對話會在 AI 重新啟用且可用時移入。"
+    },
+    "cookies_history_extensions_and_other_browser_data_75aa07": {
+        "message": "此設定檔中的 Cookie、歷史記錄、擴充功能與其他瀏覽器資料都將永久移除。對話會保留在 Phi Chat 的「未分類」中。若 AI 已停用或無法使用，對話會在 AI 重新啟用且可用時移入。"
     },
     "copy_bottom_url": {
         "message": "拷貝下方網址"
@@ -1118,6 +1196,9 @@
     "could_not_save_feedback": {
         "message": "無法儲存意見回饋"
     },
+    "could_not_save_the_conversation_recovery_record": {
+        "message": "無法儲存對話復原記錄，請再試一次。"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "無法準備 AI 資料封存檔。"
     },
@@ -1189,6 +1270,15 @@
     },
     "current_space": {
         "message": "目前空間"
+    },
+    "custom": {
+        "message": "自訂"
+    },
+    "custom_filter": {
+        "message": "自訂過濾器"
+    },
+    "custom_lists": {
+        "message": "%d 個自訂清單"
     },
     "custom_telegram_bot": {
         "message": "自訂 Telegram 機器人"
@@ -1415,6 +1505,9 @@
     "done": {
         "message": "完成"
     },
+    "done_73789c": {
+        "message": "完成"
+    },
     "download_any_data_export_you_want_to": {
         "message": "刪除帳號前，請先下載你要保留的資料匯出檔。刪除帳號會取消進行中的匯出，並永久移除現有的下載檔案和連結。"
     },
@@ -1424,11 +1517,26 @@
     "download_location": {
         "message": "下載位置"
     },
+    "download_this_list": {
+        "message": "下載此清單"
+    },
     "downloading": {
+        "message": "下載中…"
+    },
+    "downloading_081046": {
+        "message": "下載中…"
+    },
+    "downloading_14c986": {
         "message": "下載中…"
     },
     "downloading_53885b": {
         "message": "下載中"
+    },
+    "downloading_e7efd8": {
+        "message": "下載中… %@"
+    },
+    "downloading_of": {
+        "message": "下載中… %1$@（共 %2$@）"
     },
     "downloading_rollback_package": {
         "message": "正在下載還原套件…"
@@ -1460,6 +1568,9 @@
     "e_g_123456_abc_def": {
         "message": "例如：123456:ABC-DEF…"
     },
+    "e_g_my_filter": {
+        "message": "例如：我的過濾器"
+    },
     "each_save_writes_a_markdown_article_and": {
         "message": "每次儲存都會寫入一篇 Markdown 文章和一份網頁副本，兩者並列存放。各設定檔可以在自己的設定中覆寫此檔案夾。"
     },
@@ -1468,6 +1579,15 @@
     },
     "each_space_has_its_own_pinned_tabs": {
         "message": "每個空間都有自己的釘選分頁。"
+    },
+    "easylist": {
+        "message": "EasyList"
+    },
+    "easylist_cookie_notices": {
+        "message": "EasyList - Cookie Notices"
+    },
+    "easyprivacy": {
+        "message": "EasyPrivacy"
     },
     "edit": {
         "message": "編輯…"
@@ -1553,6 +1673,9 @@
     "enjoy_using_phi_browser": {
         "message": "盡情使用 Phi Browser 🎉"
     },
+    "enter_a_full_http_s_url": {
+        "message": "請輸入完整的 http(s) URL。"
+    },
     "enter_a_name_for_the_new_folder": {
         "message": "請輸入新資料夾的名稱。"
     },
@@ -1576,6 +1699,9 @@
     },
     "enter_a_valid_self_hosted_server_url_4e1f52": {
         "message": "請輸入有效的自架伺服器網址。"
+    },
+    "enter_at_least_one_filter_rule": {
+        "message": "請輸入至少一條過濾規則。"
     },
     "enter_the_6_digit_code_sent_to": {
         "message": "請輸入傳送至 %@ 的 6 位數驗證碼。"
@@ -1709,8 +1835,17 @@
     "feedback_report_page_title": {
         "message": "向 Phinomenon 傳送意見回饋"
     },
+    "fetch_the_latest_rules_for_the_lists": {
+        "message": "為此處已下載的清單取得最新規則"
+    },
     "file": {
         "message": "檔案"
+    },
+    "filter_rules": {
+        "message": "過濾規則"
+    },
+    "filtering_is_running_with_the_last_good": {
+        "message": "過濾功能正以最近一次有效的規則執行"
     },
     "find": {
         "message": "尋找"
@@ -1735,6 +1870,9 @@
     },
     "finish_signing_out_in_your_browser": {
         "message": "請在瀏覽器中完成登出。"
+    },
+    "fixes_and_rules_maintained_by_phi_keep": {
+        "message": "由 Phi 維護的修正與規則。除非網站出現異常，否則請保持開啟。"
     },
     "focus_address_bar": {
         "message": "選取網址列"
@@ -1814,6 +1952,9 @@
     "general": {
         "message": "一般"
     },
+    "give_the_filter_a_name": {
+        "message": "請為過濾器命名。"
+    },
     "give_this_folder_a_name_to_organize": {
         "message": "為這個資料夾命名，以便整理你的書籤。"
     },
@@ -1864,6 +2005,9 @@
     },
     "hide_the_agent_s_command_and_process": {
         "message": "隱藏 AI 代理的指令與程序樹"
+    },
+    "hides_cookie_consent_banners_and_unlocks_scrolling": {
+        "message": "隱藏 Cookie 同意橫幅，並解除橫幅造成的捲動鎖定。"
     },
     "highlight_saved": {
         "message": "已儲存醒目顯示文字"
@@ -2135,6 +2279,9 @@
     "lets_every_agent_connect_without_asking_you": {
         "message": "讓每個 AI 代理都能在不詢問你的情況下連線，包括 Phi 從未見過的 AI 代理。開啟時將不再顯示核准提示，且開啟後會解除任何現行的拒絕。此設定立即生效。"
     },
+    "license": {
+        "message": "授權：%@"
+    },
     "light": {
         "message": "淺色"
     },
@@ -2291,6 +2438,9 @@
     "mute_site": {
         "message": "關閉網站音訊"
     },
+    "n1_custom_list": {
+        "message": "1 個自訂清單"
+    },
     "n1_hour": {
         "message": "1 小時"
     },
@@ -2304,6 +2454,9 @@
         "message": "名稱"
     },
     "name_520aa0": {
+        "message": "名稱"
+    },
+    "name_9dab22": {
         "message": "名稱"
     },
     "name_cannot_be_empty": {
@@ -2573,6 +2726,9 @@
     "no_results_0fd379": {
         "message": "沒有結果"
     },
+    "no_rule_sets_selected": {
+        "message": "未勾選任何規則集"
+    },
     "no_rules_yet": {
         "message": "尚未建立任何規則。"
     },
@@ -2615,6 +2771,15 @@
     "not_created": {
         "message": "未建立"
     },
+    "not_downloaded": {
+        "message": "未下載：%@"
+    },
+    "not_downloaded_a3d91e": {
+        "message": "%d 個未下載"
+    },
+    "not_downloaded_yet": {
+        "message": "尚未下載"
+    },
     "not_linked": {
         "message": "尚未連結"
     },
@@ -2638,6 +2803,9 @@
     },
     "nothing_could_be_written_to_the_folio": {
         "message": "無法將任何內容寫入 Folio 檔案夾。"
+    },
+    "nothing_is_blocked_until_a_rule_set": {
+        "message": "在下載規則集之前，不會封鎖任何內容。"
     },
     "nothing_was_created": {
         "message": "未建立任何項目。"
@@ -2860,6 +3028,9 @@
     },
     "phi_and_phi_sentinel_will_quit_browsing": {
         "message": "Phi 和 Phi Sentinel 將會結束。此版本 Phi 的瀏覽資料、對話、AI 記憶、服務資料與本機 AI 模型都會被永久刪除。此操作無法復原。"
+    },
+    "phi_blocklists": {
+        "message": "Phi Blocklists"
     },
     "phi_could_not_be_uninstalled": {
         "message": "無法解除安裝 Phi"
@@ -3170,6 +3341,9 @@
     "remove_rule_b25daa": {
         "message": "移除規則"
     },
+    "remove_this_filter": {
+        "message": "移除此過濾器"
+    },
     "rename": {
         "message": "重新命名"
     },
@@ -3331,6 +3505,18 @@
     },
     "route_matching_domains_or_urls_to_a": {
         "message": "將符合規則的網域或網址導向空間、無痕模式或 Kiosk。"
+    },
+    "rule_sets": {
+        "message": "%d 個規則集"
+    },
+    "rule_sets_for_blocking_ads": {
+        "message": "封鎖廣告的規則集"
+    },
+    "rule_sets_for_blocking_cookie_banners": {
+        "message": "封鎖 Cookie 橫幅的規則集"
+    },
+    "rule_sets_for_blocking_trackers": {
+        "message": "封鎖追蹤器的規則集"
     },
     "run": {
         "message": "執行"
@@ -3758,6 +3944,9 @@
     "sorry_for_the_interruption_a_few_details": {
         "message": "很抱歉造成中斷。提供一些當機前發生的細節，可以幫助我們瞭解問題，讓 Phi 更加可靠。"
     },
+    "source": {
+        "message": "來源"
+    },
     "space": {
         "message": "空間"
     },
@@ -3922,6 +4111,9 @@
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "本機 IM 服務無法使用。請檢查 Phi Sentinel 是否正常啟動，以及 IM 服務是否正在執行。"
+    },
+    "the_most_widely_used_list_of_ad": {
+        "message": "最廣泛使用的廣告伺服器與廣告元素清單。"
     },
     "the_note_is_written_into_the_saved": {
         "message": "備註會寫入已儲存的 Markdown 檔案，位於醒目顯示文字下方。"
@@ -4235,14 +4427,26 @@
     "update_available": {
         "message": "有可用的更新"
     },
+    "update_downloaded": {
+        "message": "更新已下載的清單"
+    },
     "update_phi_to_open_local_data": {
         "message": "請更新 Phi 以開啟本機資料"
+    },
+    "updated": {
+        "message": "上次更新：%@"
     },
     "url": {
         "message": "網址"
     },
+    "url_24a044": {
+        "message": "URL"
+    },
     "url_7a8da1": {
         "message": "網址"
+    },
+    "url_abe6bd": {
+        "message": "URL"
     },
     "url_b6d133": {
         "message": "網址"
@@ -4426,6 +4630,9 @@
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "你目前的釘選分頁會複製到每個現有的目的地，之後這些副本可以各自獨立修改。"
+    },
+    "your_custom_lists_apply_to_every_switch": {
+        "message": "你的自訂清單（套用於所有開關）"
     },
     "your_data_and_settings": {
         "message": "你的資料與設定"

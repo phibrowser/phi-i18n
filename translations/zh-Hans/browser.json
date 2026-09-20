@@ -38,8 +38,14 @@
     "active": {
         "message": "当前"
     },
+    "add": {
+        "message": "添加"
+    },
     "add_bottom_split": {
         "message": "在底部添加分屏"
+    },
+    "add_filter": {
+        "message": "添加过滤器…"
     },
     "add_left_split": {
         "message": "在左侧添加分屏"
@@ -103,6 +109,42 @@
     },
     "address": {
         "message": "地址"
+    },
+    "adguard_chinese": {
+        "message": "AdGuard Chinese (中文)"
+    },
+    "adguard_dutch_nederlands": {
+        "message": "AdGuard Dutch (Nederlands)"
+    },
+    "adguard_french_fran_ais": {
+        "message": "AdGuard French (Français)"
+    },
+    "adguard_german_deutsch": {
+        "message": "AdGuard German (Deutsch)"
+    },
+    "adguard_japanese": {
+        "message": "AdGuard Japanese (日本語)"
+    },
+    "adguard_spanish_portuguese_espa_ol_portugu_s": {
+        "message": "AdGuard Spanish/Portuguese (Español/Português)"
+    },
+    "ads_and_trackers_on_chinese_websites": {
+        "message": "中文网站上的广告和跟踪器。"
+    },
+    "ads_and_trackers_on_dutch_websites": {
+        "message": "荷兰语网站上的广告和跟踪器。"
+    },
+    "ads_and_trackers_on_french_websites": {
+        "message": "法语网站上的广告和跟踪器。"
+    },
+    "ads_and_trackers_on_german_websites": {
+        "message": "德语网站上的广告和跟踪器。"
+    },
+    "ads_and_trackers_on_japanese_websites": {
+        "message": "日语网站上的广告和跟踪器。"
+    },
+    "ads_and_trackers_on_spanish_and_portuguese": {
+        "message": "西班牙语和葡萄牙语网站上的广告和跟踪器。"
     },
     "advanced": {
         "message": "高级"
@@ -419,6 +461,15 @@
     "bitwarden_password_manager": {
         "message": "Bitwarden 密码管理器"
     },
+    "block_ads": {
+        "message": "拦截广告"
+    },
+    "block_cookie_banners": {
+        "message": "拦截 Cookie 横幅"
+    },
+    "block_trackers": {
+        "message": "拦截跟踪器"
+    },
     "blocked": {
         "message": "已阻止"
     },
@@ -427,6 +478,9 @@
     },
     "blocked_agents_can_be_unblocked_anytime_in": {
         "message": "已阻止的智能体可以随时在「设置」▸「开发者」中解除阻止。"
+    },
+    "blocks_tracking_scripts_beacons_and_analytics": {
+        "message": "拦截跟踪脚本、信标和分析服务。"
     },
     "blue": {
         "message": "蓝色"
@@ -544,6 +598,9 @@
     },
     "browsing_history": {
         "message": "浏览历史记录"
+    },
+    "built_into_phi": {
+        "message": "Phi 内置"
     },
     "can_now_use_the_phi_browser_skill": {
         "message": "%@ 现在可以使用 phi-browser Skill 了。请重启新配置的智能体；在 Pi 中，执行 /reload 即可。"
@@ -665,6 +722,9 @@
     "cancel_cde7e9": {
         "message": "取消"
     },
+    "cancel_ce279a": {
+        "message": "取消"
+    },
     "cancel_cf75bd": {
         "message": "取消"
     },
@@ -779,6 +839,9 @@
     "check_for_update_9e397e": {
         "message": "检查更新…"
     },
+    "check_the_rule_sets_to_use_done": {
+        "message": "勾选要使用的规则集。点按“完成”会从发布方下载缺失的规则集；未经你确认，不会下载任何内容。自定义列表对全部三个开关生效。"
+    },
     "checking_for_updates": {
         "message": "正在检查更新…"
     },
@@ -793,6 +856,9 @@
     },
     "choose_a_download_location_for_this_profile": {
         "message": "为此个人资料选取下载位置。"
+    },
+    "choose_and_download_rule_sets": {
+        "message": "选择并下载规则集"
     },
     "choose_at_least_one_space_to_migrate": {
         "message": "请至少选择一个要迁移的空间。"
@@ -1001,6 +1067,12 @@
     "container": {
         "message": "容器 %d"
     },
+    "content_blocking": {
+        "message": "内容拦截"
+    },
+    "content_blocking_on_this_site": {
+        "message": "在此网站上拦截内容"
+    },
     "content_context_openlinkinspace": {
         "message": "在空间 <ph name=\"SPACE\"/> 中打开链接"
     },
@@ -1027,6 +1099,12 @@
     },
     "cookies": {
         "message": "Cookie"
+    },
+    "cookies_history_extensions_and_other_browser_data": {
+        "message": "此个人资料中的 Cookie、历史记录、扩展程序和其他浏览器数据将被永久移除。对话将保留在 Phi Chat 的“未分类”中。如果 AI 已停用或不可用，对话将在 AI 重新启用并恢复可用后再移入其中。"
+    },
+    "cookies_history_extensions_and_other_browser_data_75aa07": {
+        "message": "此个人资料中的 Cookie、历史记录、扩展程序和其他浏览器数据将被永久移除。对话将保留在 Phi Chat 的“未分类”中。如果 AI 已停用或不可用，对话将在 AI 重新启用并恢复可用后再移入其中。"
     },
     "copy_bottom_url": {
         "message": "拷贝底部网址"
@@ -1118,6 +1196,9 @@
     "could_not_save_feedback": {
         "message": "无法保存反馈"
     },
+    "could_not_save_the_conversation_recovery_record": {
+        "message": "无法保存对话恢复记录。请重试。"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "无法暂存 AI 数据归档。"
     },
@@ -1189,6 +1270,15 @@
     },
     "current_space": {
         "message": "当前空间"
+    },
+    "custom": {
+        "message": "自定义"
+    },
+    "custom_filter": {
+        "message": "自定义过滤器"
+    },
+    "custom_lists": {
+        "message": "%d 个自定义列表"
     },
     "custom_telegram_bot": {
         "message": "自定义 Telegram 机器人"
@@ -1415,6 +1505,9 @@
     "done": {
         "message": "完成"
     },
+    "done_73789c": {
+        "message": "完成"
+    },
     "download_any_data_export_you_want_to": {
         "message": "请在删除账号前下载你想保留的数据导出。删除操作会取消正在进行的导出，并永久移除现有的下载文件和链接。"
     },
@@ -1424,11 +1517,26 @@
     "download_location": {
         "message": "下载位置"
     },
+    "download_this_list": {
+        "message": "下载此列表"
+    },
     "downloading": {
+        "message": "正在下载…"
+    },
+    "downloading_081046": {
+        "message": "正在下载…"
+    },
+    "downloading_14c986": {
         "message": "正在下载…"
     },
     "downloading_53885b": {
         "message": "正在下载"
+    },
+    "downloading_e7efd8": {
+        "message": "正在下载… %@"
+    },
+    "downloading_of": {
+        "message": "正在下载… %1$@（共 %2$@）"
     },
     "downloading_rollback_package": {
         "message": "正在下载回滚软件包…"
@@ -1460,6 +1568,9 @@
     "e_g_123456_abc_def": {
         "message": "例如 123456:ABC-DEF…"
     },
+    "e_g_my_filter": {
+        "message": "例如：我的过滤器"
+    },
     "each_save_writes_a_markdown_article_and": {
         "message": "每次存储都会并排写入一篇 Markdown 文章和一份网页副本。个人资料可在各自的设置中覆盖此文件夹。"
     },
@@ -1468,6 +1579,15 @@
     },
     "each_space_has_its_own_pinned_tabs": {
         "message": "每个空间都有自己的固定标签页。"
+    },
+    "easylist": {
+        "message": "EasyList"
+    },
+    "easylist_cookie_notices": {
+        "message": "EasyList - Cookie Notices"
+    },
+    "easyprivacy": {
+        "message": "EasyPrivacy"
     },
     "edit": {
         "message": "编辑…"
@@ -1553,6 +1673,9 @@
     "enjoy_using_phi_browser": {
         "message": "祝你使用 Phi Browser 愉快 🎉"
     },
+    "enter_a_full_http_s_url": {
+        "message": "请输入完整的 http(s) URL。"
+    },
     "enter_a_name_for_the_new_folder": {
         "message": "输入新文件夹的名称。"
     },
@@ -1576,6 +1699,9 @@
     },
     "enter_a_valid_self_hosted_server_url_4e1f52": {
         "message": "请输入有效的自托管服务器网址。"
+    },
+    "enter_at_least_one_filter_rule": {
+        "message": "请至少输入一条过滤规则。"
     },
     "enter_the_6_digit_code_sent_to": {
         "message": "输入发送到 %@ 的 6 位验证码。"
@@ -1709,8 +1835,17 @@
     "feedback_report_page_title": {
         "message": "向 Phinomenon 发送反馈"
     },
+    "fetch_the_latest_rules_for_the_lists": {
+        "message": "获取此处已下载列表的最新规则"
+    },
     "file": {
         "message": "文件"
+    },
+    "filter_rules": {
+        "message": "过滤规则"
+    },
+    "filtering_is_running_with_the_last_good": {
+        "message": "过滤正在使用上次有效的规则运行"
     },
     "find": {
         "message": "查找"
@@ -1735,6 +1870,9 @@
     },
     "finish_signing_out_in_your_browser": {
         "message": "请在浏览器中完成退出登录。"
+    },
+    "fixes_and_rules_maintained_by_phi_keep": {
+        "message": "由 Phi 维护的修复和规则。除非网站出现异常，否则请保持开启。"
     },
     "focus_address_bar": {
         "message": "聚焦地址栏"
@@ -1814,6 +1952,9 @@
     "general": {
         "message": "通用"
     },
+    "give_the_filter_a_name": {
+        "message": "请为过滤器命名。"
+    },
     "give_this_folder_a_name_to_organize": {
         "message": "为此文件夹命名，以便整理你的书签。"
     },
@@ -1864,6 +2005,9 @@
     },
     "hide_the_agent_s_command_and_process": {
         "message": "隐藏智能体的命令与进程树"
+    },
+    "hides_cookie_consent_banners_and_unlocks_scrolling": {
+        "message": "隐藏 Cookie 同意横幅，并恢复被其锁定的页面滚动。"
     },
     "highlight_saved": {
         "message": "已存储突出显示的内容"
@@ -2135,6 +2279,9 @@
     "lets_every_agent_connect_without_asking_you": {
         "message": "让所有智能体无需询问你即可连接，包括 Phi 从未见过的智能体。开启期间不再显示批准提示，开启时会解除任何仍在生效的拒绝。立即生效。"
     },
+    "license": {
+        "message": "许可证：%@"
+    },
     "light": {
         "message": "浅色"
     },
@@ -2291,6 +2438,9 @@
     "mute_site": {
         "message": "将网站静音"
     },
+    "n1_custom_list": {
+        "message": "1 个自定义列表"
+    },
     "n1_hour": {
         "message": "1 小时"
     },
@@ -2304,6 +2454,9 @@
         "message": "名称"
     },
     "name_520aa0": {
+        "message": "名称"
+    },
+    "name_9dab22": {
         "message": "名称"
     },
     "name_cannot_be_empty": {
@@ -2573,6 +2726,9 @@
     "no_results_0fd379": {
         "message": "无结果"
     },
+    "no_rule_sets_selected": {
+        "message": "未选择任何规则集"
+    },
     "no_rules_yet": {
         "message": "暂无规则。"
     },
@@ -2615,6 +2771,15 @@
     "not_created": {
         "message": "未创建"
     },
+    "not_downloaded": {
+        "message": "未下载：%@"
+    },
+    "not_downloaded_a3d91e": {
+        "message": "%d 个未下载"
+    },
+    "not_downloaded_yet": {
+        "message": "尚未下载"
+    },
     "not_linked": {
         "message": "未关联"
     },
@@ -2638,6 +2803,9 @@
     },
     "nothing_could_be_written_to_the_folio": {
         "message": "无法向 Folio 文件夹写入任何内容。"
+    },
+    "nothing_is_blocked_until_a_rule_set": {
+        "message": "在下载规则集之前，不会拦截任何内容。"
     },
     "nothing_was_created": {
         "message": "未创建任何内容。"
@@ -2860,6 +3028,9 @@
     },
     "phi_and_phi_sentinel_will_quit_browsing": {
         "message": "Phi 和 Phi Sentinel 将会退出。此版本 Phi 的浏览数据、对话、AI 记忆、服务数据和本地 AI 模型都将被永久删除。此操作无法撤销。"
+    },
+    "phi_blocklists": {
+        "message": "Phi Blocklists"
     },
     "phi_could_not_be_uninstalled": {
         "message": "无法卸载 Phi"
@@ -3170,6 +3341,9 @@
     "remove_rule_b25daa": {
         "message": "移除规则"
     },
+    "remove_this_filter": {
+        "message": "移除此过滤器"
+    },
     "rename": {
         "message": "重命名"
     },
@@ -3331,6 +3505,18 @@
     },
     "route_matching_domains_or_urls_to_a": {
         "message": "将匹配的域名或网址转到指定的空间、无痕或 Kiosk。"
+    },
+    "rule_sets": {
+        "message": "%d 个规则集"
+    },
+    "rule_sets_for_blocking_ads": {
+        "message": "用于拦截广告的规则集"
+    },
+    "rule_sets_for_blocking_cookie_banners": {
+        "message": "用于拦截 Cookie 横幅的规则集"
+    },
+    "rule_sets_for_blocking_trackers": {
+        "message": "用于拦截跟踪器的规则集"
     },
     "run": {
         "message": "运行"
@@ -3758,6 +3944,9 @@
     "sorry_for_the_interruption_a_few_details": {
         "message": "很抱歉打断了你的使用。简单说说崩溃前发生了什么，可以帮助我们了解问题，让 Phi 更可靠。"
     },
+    "source": {
+        "message": "来源"
+    },
     "space": {
         "message": "空间"
     },
@@ -3922,6 +4111,9 @@
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "本地 IM 服务不可用。请检查 Phi Sentinel 是否正常启动，以及 IM 服务是否正在运行。"
+    },
+    "the_most_widely_used_list_of_ad": {
+        "message": "使用最广泛的广告服务器和广告元素列表。"
     },
     "the_note_is_written_into_the_saved": {
         "message": "笔记会写入存储的 Markdown 文件，位于突出显示的内容下方。"
@@ -4235,14 +4427,26 @@
     "update_available": {
         "message": "有可用更新"
     },
+    "update_downloaded": {
+        "message": "更新已下载的列表"
+    },
     "update_phi_to_open_local_data": {
         "message": "更新 Phi 以打开本地数据"
+    },
+    "updated": {
+        "message": "已于 %@ 更新"
     },
     "url": {
         "message": "网址"
     },
+    "url_24a044": {
+        "message": "URL"
+    },
     "url_7a8da1": {
         "message": "网址"
+    },
+    "url_abe6bd": {
+        "message": "URL"
     },
     "url_b6d133": {
         "message": "网址"
@@ -4426,6 +4630,9 @@
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "你当前的固定标签页会被复制到每个现有的目标位置。之后可以分别独立更改这些副本。"
+    },
+    "your_custom_lists_apply_to_every_switch": {
+        "message": "你的自定义列表（对每个开关生效）"
     },
     "your_data_and_settings": {
         "message": "你的数据和设置"
