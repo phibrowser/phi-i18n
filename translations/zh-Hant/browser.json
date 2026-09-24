@@ -2156,11 +2156,224 @@
     "folio_62c10d": {
         "message": "Folio"
     },
+    "folio_document_highlight_verb": {
+        "message": "醒目顯示於"
+    },
+    "folio_document_no_article_note": {
+        "message": "無法從這個網頁擷取文章。已儲存的網頁副本保留了完整內容。"
+    },
+    "folio_document_original_video_label": {
+        "message": "原始影片"
+    },
+    "folio_document_partial_note": {
+        "message": "這個網頁需要專屬的閱讀來源才能完整讀取，但這次該來源沒有回應，所以這裡只有已載入的部分。已儲存的網頁副本保留了當時畫面上的內容。"
+    },
+    "folio_document_source_label": {
+        "message": "來源"
+    },
+    "folio_document_video_failed_note": {
+        "message": "無法產生影片文章。上方的連結指向原始影片。"
+    },
+    "folio_document_video_pending_note": {
+        "message": "影片正在轉換成文章…"
+    },
+    "folio_document_video_truncated_note": {
+        "message": "由於影片較長，文章內容被截短；上方的連結指向原始影片。"
+    },
     "folio_folder": {
         "message": "Folio 檔案夾"
     },
+    "folio_highlight_context_menu": {
+        "message": "將醒目顯示文字儲存到 Folio"
+    },
+    "folio_import_already_running": {
+        "message": "已有一項匯入正在進行。"
+    },
+    "folio_import_capped": {
+        "message": "只處理了清單的前 {max} 個項目。"
+    },
+    "folio_import_close": {
+        "message": "關閉"
+    },
+    "folio_import_collecting": {
+        "message": "正在讀取清單，目前已找到 {found} 個項目。"
+    },
+    "folio_import_count_failed": {
+        "message": "失敗"
+    },
+    "folio_import_count_saved": {
+        "message": "已儲存"
+    },
+    "folio_import_count_skipped": {
+        "message": "已在 Folio 中"
+    },
+    "folio_import_done": {
+        "message": "匯入完成。"
+    },
+    "folio_import_empty": {
+        "message": "沒有找到任何項目。如果清單當時還在載入，請把視窗移到最前面再試一次。"
+    },
+    "folio_import_failed": {
+        "message": "匯入無法執行。"
+    },
+    "folio_import_group_title": {
+        "message": "Folio 匯入"
+    },
+    "folio_import_importing": {
+        "message": "正在儲存 {found} 個項目。"
+    },
+    "folio_import_intro": {
+        "message": "你的書籤、喜歡、儲存和讚成票，都是你早已留下的東西。Folio 會把每一項存成一篇文章和一份網頁副本。它會開啟一個分頁來讀取清單，再為每個項目各開一個分頁；讓它持續執行，它會告訴你進行到哪裡。"
+    },
+    "folio_import_reddit_saved": {
+        "message": "已儲存"
+    },
+    "folio_import_reddit_upvoted": {
+        "message": "已投讚成票"
+    },
+    "folio_import_site_reddit": {
+        "message": "Reddit"
+    },
+    "folio_import_site_reddit_note": {
+        "message": "你儲存或投過讚成票的貼文。"
+    },
+    "folio_import_site_x": {
+        "message": "X"
+    },
+    "folio_import_site_x_note": {
+        "message": "你加入書籤或喜歡的貼文。"
+    },
+    "folio_import_site_youtube": {
+        "message": "YouTube"
+    },
+    "folio_import_site_youtube_note": {
+        "message": "你喜歡或加入「稍後觀看」的影片。"
+    },
+    "folio_import_starting": {
+        "message": "正在開啟 {site}…"
+    },
+    "folio_import_stop": {
+        "message": "停止"
+    },
+    "folio_import_stopped": {
+        "message": "匯入已停止。"
+    },
+    "folio_import_title": {
+        "message": "匯入到 Folio"
+    },
+    "folio_import_x_bookmarks": {
+        "message": "書籤"
+    },
+    "folio_import_x_likes": {
+        "message": "喜歡的內容"
+    },
+    "folio_import_youtube_liked": {
+        "message": "喜歡的影片"
+    },
+    "folio_import_youtube_watch_later": {
+        "message": "稍後觀看"
+    },
+    "folio_library_badge_video": {
+        "message": "影片"
+    },
+    "folio_library_copy_unavailable": {
+        "message": "無法讀取副本"
+    },
+    "folio_library_delete": {
+        "message": "刪除"
+    },
+    "folio_library_delete_confirm": {
+        "message": "確定永久刪除？"
+    },
+    "folio_library_delete_failed": {
+        "message": "無法刪除"
+    },
+    "folio_library_empty": {
+        "message": "Folio 中還沒有任何內容。"
+    },
+    "folio_library_empty_hint": {
+        "message": "Folio 中還沒有任何內容。按 ⌥⌘S 即可儲存網頁。"
+    },
+    "folio_library_highlight_count": {
+        "message": "{count} 處醒目顯示"
+    },
+    "folio_library_highlight_count_one": {
+        "message": "1 處醒目顯示"
+    },
+    "folio_library_import": {
+        "message": "匯入"
+    },
+    "folio_library_item_count": {
+        "message": "{count} 個項目"
+    },
+    "folio_library_item_count_one": {
+        "message": "1 個項目"
+    },
+    "folio_library_item_unreadable": {
+        "message": "無法讀取這個項目。"
+    },
+    "folio_library_list_label": {
+        "message": "已儲存的項目"
+    },
+    "folio_library_nav_next": {
+        "message": "下一個項目"
+    },
+    "folio_library_nav_previous": {
+        "message": "上一個項目"
+    },
+    "folio_library_open_original": {
+        "message": "開啟原始網頁"
+    },
+    "folio_library_requires_phi": {
+        "message": "收藏庫只能在 Phi 中使用。"
+    },
+    "folio_library_reveal": {
+        "message": "在 Finder 中顯示"
+    },
+    "folio_library_show_article": {
+        "message": "顯示文章"
+    },
+    "folio_library_sidebar_hide": {
+        "message": "隱藏側邊欄"
+    },
+    "folio_library_sidebar_pin": {
+        "message": "固定側邊欄"
+    },
+    "folio_library_sidebar_show": {
+        "message": "顯示側邊欄"
+    },
+    "folio_library_unavailable": {
+        "message": "目前無法取得已儲存的項目。"
+    },
+    "folio_library_webpage_copy": {
+        "message": "網頁副本"
+    },
     "folio_needs_a_browser_restart": {
         "message": "Folio 需要重新啟動瀏覽器"
+    },
+    "folio_triggers_intro": {
+        "message": "這些按鈕按下時也會將網頁儲存到 Folio。想讓哪個保持安靜，就把它關閉；喜歡一部影片和把影片加入播放清單，是兩種不同的意圖。「設定」中的開關統一管理這裡的所有按鈕。"
+    },
+    "folio_triggers_on_count": {
+        "message": "{all} 個中有 {on} 個開啟"
+    },
+    "folio_triggers_title": {
+        "message": "自動儲存的網站"
+    },
+    "folio_video_reason_disabled": {
+        "message": "影片文章功能目前已關閉。"
+    },
+    "folio_video_reason_offline": {
+        "message": "Phi 無法連上產生影片文章的服務。"
+    },
+    "folio_video_reason_quota": {
+        "message": "最近儲存的影片太多，請稍後再試這一部。"
+    },
+    "folio_video_reason_too_long": {
+        "message": "這部影片的長度超出這項功能可處理的範圍。"
+    },
+    "folio_video_reason_unavailable": {
+        "message": "影片文章目前無法使用；請登入並開啟 Phi AI 以產生影片文章。"
     },
     "follow_the_general_settings_folder": {
         "message": "依照「一般」設定中的檔案夾"

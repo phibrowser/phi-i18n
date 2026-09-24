@@ -2156,11 +2156,224 @@
     "folio_62c10d": {
         "message": "Folio"
     },
+    "folio_document_highlight_verb": {
+        "message": "ハイライト日"
+    },
+    "folio_document_no_article_note": {
+        "message": "このページから記事を抽出できませんでした。保存したWebページのコピーにはすべての内容が残っています。"
+    },
+    "folio_document_original_video_label": {
+        "message": "元の動画"
+    },
+    "folio_document_partial_note": {
+        "message": "このページ全体を読み取るには専用の読み取り元が必要ですが、今回は応答がなかったため、読み込み済みの部分のみが収められています。保存したWebページのコピーには、画面に表示されていた内容が残っています。"
+    },
+    "folio_document_source_label": {
+        "message": "出典"
+    },
+    "folio_document_video_failed_note": {
+        "message": "動画の記事を生成できませんでした。元の動画は上のリンクから開けます。"
+    },
+    "folio_document_video_pending_note": {
+        "message": "動画を記事に変換しています…"
+    },
+    "folio_document_video_truncated_note": {
+        "message": "動画が長いため、記事は途中までとなっています。元の動画は上のリンクから開けます。"
+    },
     "folio_folder": {
         "message": "Folioフォルダ"
     },
+    "folio_highlight_context_menu": {
+        "message": "ハイライトをFolioに保存"
+    },
+    "folio_import_already_running": {
+        "message": "インポートはすでに実行中です。"
+    },
+    "folio_import_capped": {
+        "message": "リストの最初の{max}件で停止しました。"
+    },
+    "folio_import_close": {
+        "message": "閉じる"
+    },
+    "folio_import_collecting": {
+        "message": "リストを読み込んでいます。ここまでに{found}件見つかりました。"
+    },
+    "folio_import_count_failed": {
+        "message": "件失敗"
+    },
+    "folio_import_count_saved": {
+        "message": "件保存"
+    },
+    "folio_import_count_skipped": {
+        "message": "件はすでにFolioに保存済み"
+    },
+    "folio_import_done": {
+        "message": "インポートが完了しました。"
+    },
+    "folio_import_empty": {
+        "message": "何も見つかりませんでした。リストがまだ読み込み中だった場合は、ウインドウを手前に移動してからもう一度お試しください。"
+    },
+    "folio_import_failed": {
+        "message": "インポートを実行できませんでした。"
+    },
+    "folio_import_group_title": {
+        "message": "Folioインポート"
+    },
+    "folio_import_importing": {
+        "message": "{found}件の項目を保存しています。"
+    },
+    "folio_import_intro": {
+        "message": "ブックマーク、いいね、保存、アップボートは、どれもあなたがすでに手元に残すと決めたものです。Folioはその一つひとつを、記事とページのコピーとして保存します。まずリストを読むタブを開き、続いて項目ごとに1つのタブを開きます。そのまま実行しておけば、進行状況を随時お知らせします。"
+    },
+    "folio_import_reddit_saved": {
+        "message": "保存済み"
+    },
+    "folio_import_reddit_upvoted": {
+        "message": "アップボート済み"
+    },
+    "folio_import_site_reddit": {
+        "message": "Reddit"
+    },
+    "folio_import_site_reddit_note": {
+        "message": "保存またはアップボートした投稿。"
+    },
+    "folio_import_site_x": {
+        "message": "X"
+    },
+    "folio_import_site_x_note": {
+        "message": "ブックマークまたはいいねした投稿。"
+    },
+    "folio_import_site_youtube": {
+        "message": "YouTube"
+    },
+    "folio_import_site_youtube_note": {
+        "message": "高評価にした動画や、「後で見る」に保存した動画。"
+    },
+    "folio_import_starting": {
+        "message": "{site}を開いています…"
+    },
+    "folio_import_stop": {
+        "message": "停止"
+    },
+    "folio_import_stopped": {
+        "message": "インポートを停止しました。"
+    },
+    "folio_import_title": {
+        "message": "Folioにインポート"
+    },
+    "folio_import_x_bookmarks": {
+        "message": "ブックマーク"
+    },
+    "folio_import_x_likes": {
+        "message": "いいね"
+    },
+    "folio_import_youtube_liked": {
+        "message": "高く評価した動画"
+    },
+    "folio_import_youtube_watch_later": {
+        "message": "後で見る"
+    },
+    "folio_library_badge_video": {
+        "message": "動画"
+    },
+    "folio_library_copy_unavailable": {
+        "message": "コピーを利用できません"
+    },
+    "folio_library_delete": {
+        "message": "削除"
+    },
+    "folio_library_delete_confirm": {
+        "message": "完全に削除しますか？"
+    },
+    "folio_library_delete_failed": {
+        "message": "削除できませんでした"
+    },
+    "folio_library_empty": {
+        "message": "Folioにはまだ何もありません。"
+    },
+    "folio_library_empty_hint": {
+        "message": "Folioにはまだ何もありません。⌥⌘Sでページを保存できます。"
+    },
+    "folio_library_highlight_count": {
+        "message": "{count}件のハイライト"
+    },
+    "folio_library_highlight_count_one": {
+        "message": "1件のハイライト"
+    },
+    "folio_library_import": {
+        "message": "インポート"
+    },
+    "folio_library_item_count": {
+        "message": "{count}項目"
+    },
+    "folio_library_item_count_one": {
+        "message": "1項目"
+    },
+    "folio_library_item_unreadable": {
+        "message": "この項目を読み込めませんでした。"
+    },
+    "folio_library_list_label": {
+        "message": "保存した項目"
+    },
+    "folio_library_nav_next": {
+        "message": "次の項目"
+    },
+    "folio_library_nav_previous": {
+        "message": "前の項目"
+    },
+    "folio_library_open_original": {
+        "message": "元のページを開く"
+    },
+    "folio_library_requires_phi": {
+        "message": "ライブラリはPhi内でのみ利用できます。"
+    },
+    "folio_library_reveal": {
+        "message": "Finderに表示"
+    },
+    "folio_library_show_article": {
+        "message": "記事を表示"
+    },
+    "folio_library_sidebar_hide": {
+        "message": "サイドバーを隠す"
+    },
+    "folio_library_sidebar_pin": {
+        "message": "サイドバーを固定"
+    },
+    "folio_library_sidebar_show": {
+        "message": "サイドバーを表示"
+    },
+    "folio_library_unavailable": {
+        "message": "保存した項目は現在利用できません。"
+    },
+    "folio_library_webpage_copy": {
+        "message": "Webページのコピー"
+    },
     "folio_needs_a_browser_restart": {
         "message": "Folioにはブラウザの再起動が必要です"
+    },
+    "folio_triggers_intro": {
+        "message": "ここに並んでいるのは、押すとページがFolioにも保存されるボタンです。保存させたくないものはオフにしてください。動画に高評価を付けることと、プレイリストに保存することは、別の意図だからです。設定のスイッチがこれらすべてを制御します。"
+    },
+    "folio_triggers_on_count": {
+        "message": "{all}個中{on}個がオン"
+    },
+    "folio_triggers_title": {
+        "message": "自動保存サイト"
+    },
+    "folio_video_reason_disabled": {
+        "message": "動画の記事は現在オフになっています。"
+    },
+    "folio_video_reason_offline": {
+        "message": "Phiは動画の記事を作成するサービスに接続できませんでした。"
+    },
+    "folio_video_reason_quota": {
+        "message": "最近保存した動画が多すぎるため、この動画はしばらくしてからもう一度お試しください。"
+    },
+    "folio_video_reason_too_long": {
+        "message": "この動画は、この機能で処理できる長さを超えています。"
+    },
+    "folio_video_reason_unavailable": {
+        "message": "動画の記事は利用できません。生成するには、サインインしてPhi AIをオンにしてください。"
     },
     "follow_the_general_settings_folder": {
         "message": "「一般」設定のフォルダに従う"

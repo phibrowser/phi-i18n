@@ -2156,11 +2156,224 @@
     "folio_62c10d": {
         "message": "Folio"
     },
+    "folio_document_highlight_verb": {
+        "message": "突出显示于"
+    },
+    "folio_document_no_article_note": {
+        "message": "无法从此页面提取文章。存储的网页副本保留了完整内容。"
+    },
+    "folio_document_original_video_label": {
+        "message": "原始视频"
+    },
+    "folio_document_partial_note": {
+        "message": "完整读取此页面需要其专用的阅读来源，但这次它没有响应，因此这里只有已加载的部分。存储的网页副本保留了当时屏幕上的内容。"
+    },
+    "folio_document_source_label": {
+        "message": "来源"
+    },
+    "folio_document_video_failed_note": {
+        "message": "无法生成视频文章。上方链接指向原始视频。"
+    },
+    "folio_document_video_pending_note": {
+        "message": "正在将视频转换为文章…"
+    },
+    "folio_document_video_truncated_note": {
+        "message": "由于视频较长，文章被截断；上方链接指向原始视频。"
+    },
     "folio_folder": {
         "message": "Folio 文件夹"
     },
+    "folio_highlight_context_menu": {
+        "message": "将突出显示的内容存储到 Folio"
+    },
+    "folio_import_already_running": {
+        "message": "已有一项导入正在进行。"
+    },
+    "folio_import_capped": {
+        "message": "本次只处理了列表中的前 {max} 项。"
+    },
+    "folio_import_close": {
+        "message": "关闭"
+    },
+    "folio_import_collecting": {
+        "message": "正在读取列表，目前已找到 {found} 个项目。"
+    },
+    "folio_import_count_failed": {
+        "message": "项失败"
+    },
+    "folio_import_count_saved": {
+        "message": "项已存储"
+    },
+    "folio_import_count_skipped": {
+        "message": "项已在 Folio 中"
+    },
+    "folio_import_done": {
+        "message": "导入已完成。"
+    },
+    "folio_import_empty": {
+        "message": "未找到任何内容。如果列表当时还在加载，请将窗口置于最前，然后重试。"
+    },
+    "folio_import_failed": {
+        "message": "无法运行本次导入。"
+    },
+    "folio_import_group_title": {
+        "message": "Folio 导入"
+    },
+    "folio_import_importing": {
+        "message": "正在存储 {found} 个项目。"
+    },
+    "folio_import_intro": {
+        "message": "你的书签、点赞、保存和顶过的帖子，都是你已经留下的东西。Folio 会把每一项存储为一篇文章和一份网页副本。它会先打开一个标签页读取列表，再为每一项各打开一个标签页；让它继续运行就好，它会随时告诉你进行到了哪里。"
+    },
+    "folio_import_reddit_saved": {
+        "message": "已保存"
+    },
+    "folio_import_reddit_upvoted": {
+        "message": "已顶"
+    },
+    "folio_import_site_reddit": {
+        "message": "Reddit"
+    },
+    "folio_import_site_reddit_note": {
+        "message": "你保存过或顶过的帖子。"
+    },
+    "folio_import_site_x": {
+        "message": "X"
+    },
+    "folio_import_site_x_note": {
+        "message": "你添加过书签或点赞过的帖子。"
+    },
+    "folio_import_site_youtube": {
+        "message": "YouTube"
+    },
+    "folio_import_site_youtube_note": {
+        "message": "你点赞过或加入稍后观看的视频。"
+    },
+    "folio_import_starting": {
+        "message": "正在打开 {site}…"
+    },
+    "folio_import_stop": {
+        "message": "停止"
+    },
+    "folio_import_stopped": {
+        "message": "导入已停止。"
+    },
+    "folio_import_title": {
+        "message": "导入到 Folio"
+    },
+    "folio_import_x_bookmarks": {
+        "message": "书签"
+    },
+    "folio_import_x_likes": {
+        "message": "已点赞"
+    },
+    "folio_import_youtube_liked": {
+        "message": "点赞的视频"
+    },
+    "folio_import_youtube_watch_later": {
+        "message": "稍后观看"
+    },
+    "folio_library_badge_video": {
+        "message": "视频"
+    },
+    "folio_library_copy_unavailable": {
+        "message": "副本不可用"
+    },
+    "folio_library_delete": {
+        "message": "删除"
+    },
+    "folio_library_delete_confirm": {
+        "message": "永久删除？"
+    },
+    "folio_library_delete_failed": {
+        "message": "无法删除"
+    },
+    "folio_library_empty": {
+        "message": "Folio 中还没有任何内容。"
+    },
+    "folio_library_empty_hint": {
+        "message": "Folio 中还没有任何内容。按 ⌥⌘S 存储页面。"
+    },
+    "folio_library_highlight_count": {
+        "message": "{count} 处突出显示的内容"
+    },
+    "folio_library_highlight_count_one": {
+        "message": "1 处突出显示的内容"
+    },
+    "folio_library_import": {
+        "message": "导入"
+    },
+    "folio_library_item_count": {
+        "message": "{count} 个项目"
+    },
+    "folio_library_item_count_one": {
+        "message": "1 个项目"
+    },
+    "folio_library_item_unreadable": {
+        "message": "无法读取此项目。"
+    },
+    "folio_library_list_label": {
+        "message": "已存储的项目"
+    },
+    "folio_library_nav_next": {
+        "message": "下一个项目"
+    },
+    "folio_library_nav_previous": {
+        "message": "上一个项目"
+    },
+    "folio_library_open_original": {
+        "message": "打开原始页面"
+    },
+    "folio_library_requires_phi": {
+        "message": "资料库只能在 Phi 中使用。"
+    },
+    "folio_library_reveal": {
+        "message": "在访达中显示"
+    },
+    "folio_library_show_article": {
+        "message": "显示文章"
+    },
+    "folio_library_sidebar_hide": {
+        "message": "隐藏边栏"
+    },
+    "folio_library_sidebar_pin": {
+        "message": "固定边栏"
+    },
+    "folio_library_sidebar_show": {
+        "message": "显示边栏"
+    },
+    "folio_library_unavailable": {
+        "message": "目前无法访问已存储的项目。"
+    },
+    "folio_library_webpage_copy": {
+        "message": "网页副本"
+    },
     "folio_needs_a_browser_restart": {
         "message": "Folio 需要重新启动浏览器"
+    },
+    "folio_triggers_intro": {
+        "message": "这些按钮也会将页面存储到 Folio。想让哪个保持安静，就把它关掉；给视频点赞和把它加入播放列表是两种不同的意图。「设置」中的开关统一控制它们全部。"
+    },
+    "folio_triggers_on_count": {
+        "message": "{all} 个中有 {on} 个开启"
+    },
+    "folio_triggers_title": {
+        "message": "自动存储的网站"
+    },
+    "folio_video_reason_disabled": {
+        "message": "视频文章功能目前已关闭。"
+    },
+    "folio_video_reason_offline": {
+        "message": "Phi 无法连接用于生成视频文章的服务。"
+    },
+    "folio_video_reason_quota": {
+        "message": "最近存储的视频太多，这一条请稍后再试。"
+    },
+    "folio_video_reason_too_long": {
+        "message": "视频长度超出了此功能可处理的范围。"
+    },
+    "folio_video_reason_unavailable": {
+        "message": "视频文章不可用：登录并开启 Phi AI 后即可生成。"
     },
     "follow_the_general_settings_folder": {
         "message": "跟随通用设置中的文件夹"

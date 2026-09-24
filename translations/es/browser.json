@@ -2156,11 +2156,224 @@
     "folio_62c10d": {
         "message": "Folio"
     },
+    "folio_document_highlight_verb": {
+        "message": "Destacado"
+    },
+    "folio_document_no_article_note": {
+        "message": "No se pudo extraer ningún artículo de esta página. La copia guardada de la página web conserva el contenido completo."
+    },
+    "folio_document_original_video_label": {
+        "message": "Video original"
+    },
+    "folio_document_partial_note": {
+        "message": "Esta página necesita su propia fuente de lectura para poder leerse completa, y esta vez no respondió, así que aquí solo está la parte que ya se había cargado. La copia guardada de la página web conserva lo que estaba en pantalla."
+    },
+    "folio_document_source_label": {
+        "message": "Fuente"
+    },
+    "folio_document_video_failed_note": {
+        "message": "No se pudo generar el artículo del video. El enlace de arriba lleva al video original."
+    },
+    "folio_document_video_pending_note": {
+        "message": "El video se está convirtiendo en un artículo…"
+    },
+    "folio_document_video_truncated_note": {
+        "message": "El artículo quedó incompleto porque el video era largo; el enlace de arriba lleva al original."
+    },
     "folio_folder": {
         "message": "Carpeta de Folio"
     },
+    "folio_highlight_context_menu": {
+        "message": "Guardar texto destacado en Folio"
+    },
+    "folio_import_already_running": {
+        "message": "Ya hay una importación en curso."
+    },
+    "folio_import_capped": {
+        "message": "Se detuvo en los primeros {max} de la lista."
+    },
+    "folio_import_close": {
+        "message": "Cerrar"
+    },
+    "folio_import_collecting": {
+        "message": "Leyendo la lista: {found} elementos hasta ahora."
+    },
+    "folio_import_count_failed": {
+        "message": "fallidos"
+    },
+    "folio_import_count_saved": {
+        "message": "guardados"
+    },
+    "folio_import_count_skipped": {
+        "message": "ya en Folio"
+    },
+    "folio_import_done": {
+        "message": "Importación finalizada."
+    },
+    "folio_import_empty": {
+        "message": "No se encontró nada. Si la lista aún se estaba cargando, trae la ventana al frente y vuelve a intentarlo."
+    },
+    "folio_import_failed": {
+        "message": "La importación no se pudo ejecutar."
+    },
+    "folio_import_group_title": {
+        "message": "Importación de Folio"
+    },
+    "folio_import_importing": {
+        "message": "Guardando {found} elementos."
+    },
+    "folio_import_intro": {
+        "message": "Tus marcadores, tus Me gusta, tus guardados y tus votos positivos son cosas que ya conservaste. Folio guarda cada una como un artículo y una copia de la página. Abre una pestaña para leer la lista y luego una pestaña por elemento; déjalo en marcha y te irá diciendo por dónde va."
+    },
+    "folio_import_reddit_saved": {
+        "message": "Guardados"
+    },
+    "folio_import_reddit_upvoted": {
+        "message": "Votos positivos"
+    },
+    "folio_import_site_reddit": {
+        "message": "Reddit"
+    },
+    "folio_import_site_reddit_note": {
+        "message": "Publicaciones que guardaste o a las que diste voto positivo."
+    },
+    "folio_import_site_x": {
+        "message": "X"
+    },
+    "folio_import_site_x_note": {
+        "message": "Publicaciones que agregaste a Marcadores o a las que diste Me gusta."
+    },
+    "folio_import_site_youtube": {
+        "message": "YouTube"
+    },
+    "folio_import_site_youtube_note": {
+        "message": "Videos a los que diste Me gusta o que guardaste para ver más tarde."
+    },
+    "folio_import_starting": {
+        "message": "Abriendo {site}…"
+    },
+    "folio_import_stop": {
+        "message": "Detener"
+    },
+    "folio_import_stopped": {
+        "message": "Importación detenida."
+    },
+    "folio_import_title": {
+        "message": "Importar a Folio"
+    },
+    "folio_import_x_bookmarks": {
+        "message": "Marcadores"
+    },
+    "folio_import_x_likes": {
+        "message": "Me gusta"
+    },
+    "folio_import_youtube_liked": {
+        "message": "Videos que me gustan"
+    },
+    "folio_import_youtube_watch_later": {
+        "message": "Ver más tarde"
+    },
+    "folio_library_badge_video": {
+        "message": "video"
+    },
+    "folio_library_copy_unavailable": {
+        "message": "Copia no disponible"
+    },
+    "folio_library_delete": {
+        "message": "Eliminar"
+    },
+    "folio_library_delete_confirm": {
+        "message": "¿Eliminar definitivamente?"
+    },
+    "folio_library_delete_failed": {
+        "message": "No se pudo eliminar"
+    },
+    "folio_library_empty": {
+        "message": "Aún no hay nada en Folio."
+    },
+    "folio_library_empty_hint": {
+        "message": "Aún no hay nada en Folio. Guarda una página con ⌥⌘S."
+    },
+    "folio_library_highlight_count": {
+        "message": "{count} textos destacados"
+    },
+    "folio_library_highlight_count_one": {
+        "message": "1 texto destacado"
+    },
+    "folio_library_import": {
+        "message": "Importar"
+    },
+    "folio_library_item_count": {
+        "message": "{count} elementos"
+    },
+    "folio_library_item_count_one": {
+        "message": "1 elemento"
+    },
+    "folio_library_item_unreadable": {
+        "message": "No se pudo leer este elemento."
+    },
+    "folio_library_list_label": {
+        "message": "Elementos guardados"
+    },
+    "folio_library_nav_next": {
+        "message": "Elemento siguiente"
+    },
+    "folio_library_nav_previous": {
+        "message": "Elemento anterior"
+    },
+    "folio_library_open_original": {
+        "message": "Abrir el original"
+    },
+    "folio_library_requires_phi": {
+        "message": "La biblioteca solo está disponible dentro de Phi."
+    },
+    "folio_library_reveal": {
+        "message": "Mostrar en Finder"
+    },
+    "folio_library_show_article": {
+        "message": "Mostrar el artículo"
+    },
+    "folio_library_sidebar_hide": {
+        "message": "Ocultar la barra lateral"
+    },
+    "folio_library_sidebar_pin": {
+        "message": "Mantener la barra lateral en su lugar"
+    },
+    "folio_library_sidebar_show": {
+        "message": "Mostrar la barra lateral"
+    },
+    "folio_library_unavailable": {
+        "message": "Los elementos guardados no están disponibles en este momento."
+    },
+    "folio_library_webpage_copy": {
+        "message": "Copia de la página web"
+    },
     "folio_needs_a_browser_restart": {
         "message": "Folio necesita que reinicies el navegador"
+    },
+    "folio_triggers_intro": {
+        "message": "Estos son los botones que también guardan una página en Folio. Desactiva cualquiera que prefieras mantener en silencio: darle Me gusta a un video y guardarlo en una lista de reproducción son intenciones distintas. El interruptor de la Configuración los controla a todos."
+    },
+    "folio_triggers_on_count": {
+        "message": "{on} de {all} activados"
+    },
+    "folio_triggers_title": {
+        "message": "Sitios de guardado automático"
+    },
+    "folio_video_reason_disabled": {
+        "message": "Los artículos de video están desactivados en este momento."
+    },
+    "folio_video_reason_offline": {
+        "message": "Phi no pudo conectarse al servicio que escribe los artículos de video."
+    },
+    "folio_video_reason_quota": {
+        "message": "Se guardaron demasiados videos recientemente; intenta con este de nuevo más tarde."
+    },
+    "folio_video_reason_too_long": {
+        "message": "El video es más largo de lo que esta función puede procesar."
+    },
+    "folio_video_reason_unavailable": {
+        "message": "Los artículos de video no están disponibles: inicia sesión y activa Phi AI para generarlos."
     },
     "follow_the_general_settings_folder": {
         "message": "Seguir la carpeta de la configuración General"

@@ -2875,13 +2875,297 @@
         "message": "Folio",
         "description": "Location: Browser. Library - Saved content category"
     },
+    "folio_document_highlight_verb": {
+        "message": "Highlighted",
+        "description": "Location: Browser. Link text of the attribution line under a saved passage; the link jumps back to that passage on the original page. Past participle, as in 'Highlighted: <date>'."
+    },
+    "folio_document_no_article_note": {
+        "message": "No article could be extracted from this page. The saved webpage copy holds the full content.",
+        "description": "Location: Browser. Sentence written into a saved markdown file when the page's article text could not be extracted. It tells the reader the saved copy of the original web page still has everything."
+    },
+    "folio_document_original_video_label": {
+        "message": "Original video",
+        "description": "Location: Browser. Bold lead-in word of the line linking a saved video item back to the video it came from, as in 'Original video: <link>'."
+    },
+    "folio_document_partial_note": {
+        "message": "This page needs its own reader source to be read whole, and it did not answer this time, so only the part already loaded is here. The saved webpage copy holds what was on screen.",
+        "description": "Location: Browser. Sentence written at the top of a saved markdown file when the site-specific reader source failed and only the page's loaded content could be extracted."
+    },
+    "folio_document_source_label": {
+        "message": "Source",
+        "description": "Location: Browser. Bold lead-in word of the line linking a saved item back to the page it came from, as in 'Source: <link>'."
+    },
+    "folio_document_video_failed_note": {
+        "message": "The video article could not be generated. The link above points to the original video.",
+        "description": "Location: Browser. Sentence written into a saved markdown file when a video could not be turned into a written article. 'The link above' refers to a link to the original video on the line before it."
+    },
+    "folio_document_video_pending_note": {
+        "message": "The video is being converted into an article…",
+        "description": "Location: Browser. Sentence written into a saved markdown file for a video whose written article is still being generated. Ends with an ellipsis character."
+    },
+    "folio_document_video_truncated_note": {
+        "message": "The article was cut short because the video was long; the link above points to the original.",
+        "description": "Location: Browser. Sentence added to a saved video article when the generated text hit the backend's length cap and is incomplete. 'The link above' refers to a link to the original video earlier in the file."
+    },
     "folio_folder": {
         "message": "Folio Folder",
         "description": "Location: Browser. Profiles settings - per-profile Folio destination override row label"
     },
+    "folio_highlight_context_menu": {
+        "message": "Save Highlight to Folio",
+        "description": "Location: Browser. Page context-menu entry shown on a text selection. Saves the selected passage into Folio, the browser's local library of kept pages. Keep the product name Folio unchanged."
+    },
+    "folio_import_already_running": {
+        "message": "An import is already running.",
+        "description": "Location: Browser. Status when the user starts an import while one is still going."
+    },
+    "folio_import_capped": {
+        "message": "It stopped at the first {max} on the list.",
+        "description": "Location: Browser. Sentence added to the finished status when the import hit its per-run cap and did not read the whole list. {max} is a number."
+    },
+    "folio_import_close": {
+        "message": "Close",
+        "description": "Location: Browser. Label of the button that closes the Folio import sheet."
+    },
+    "folio_import_collecting": {
+        "message": "Reading the list — {found} items so far.",
+        "description": "Location: Browser. Status while the import scrolls the list collecting items. {found} is a number."
+    },
+    "folio_import_count_failed": {
+        "message": "failed",
+        "description": "Location: Browser. Label of the counter for items the import could not save. Shown after a number."
+    },
+    "folio_import_count_saved": {
+        "message": "saved",
+        "description": "Location: Browser. Label of the counter for items this import wrote to Folio. Shown after a number."
+    },
+    "folio_import_count_skipped": {
+        "message": "already in Folio",
+        "description": "Location: Browser. Label of the counter for items the import skipped because Folio holds them already. Shown after a number. Keep the product name Folio unchanged."
+    },
+    "folio_import_done": {
+        "message": "Import finished.",
+        "description": "Location: Browser. Status when the import has been through every item it collected."
+    },
+    "folio_import_empty": {
+        "message": "Nothing found. If the list was still loading, put the window in front and try again.",
+        "description": "Location: Browser. Status when an import finished having collected nothing, which usually means the list had not finished loading."
+    },
+    "folio_import_failed": {
+        "message": "The import could not run.",
+        "description": "Location: Browser. Status when the import failed for a reason the page cannot explain further."
+    },
+    "folio_import_group_title": {
+        "message": "Folio import",
+        "description": "Location: Browser. Name of the tab group holding the tabs an import works in. Keep the product name Folio unchanged."
+    },
+    "folio_import_importing": {
+        "message": "Saving {found} items.",
+        "description": "Location: Browser. Status while the import saves each collected item. {found} is a number."
+    },
+    "folio_import_intro": {
+        "message": "Your bookmarks, likes, saves and upvotes are things you already kept. Folio saves each one as an article and a copy of the page. It opens a tab to read the list, then one tab per item — leave it running and it will tell you where it is.",
+        "description": "Location: Browser. Sentence under the title of the Folio import page explaining what the import does and that it opens tabs while it works. Keep the product name Folio unchanged."
+    },
+    "folio_import_reddit_saved": {
+        "message": "Saved",
+        "description": "Location: Browser. Button that starts importing the posts the account saved on Reddit into Folio."
+    },
+    "folio_import_reddit_upvoted": {
+        "message": "Upvoted",
+        "description": "Location: Browser. Button that starts importing the posts the account upvoted on Reddit into Folio."
+    },
+    "folio_import_site_reddit": {
+        "message": "Reddit",
+        "description": "Location: Browser. Heading of the Reddit section on the Folio import page. This is the site's own name; leave it as it is."
+    },
+    "folio_import_site_reddit_note": {
+        "message": "Posts you saved or upvoted.",
+        "description": "Location: Browser. One line under the Reddit heading on the Folio import page, saying what its lists hold."
+    },
+    "folio_import_site_x": {
+        "message": "X",
+        "description": "Location: Browser. Heading of the X section on the Folio import page. This is the site's own name; leave it as it is."
+    },
+    "folio_import_site_x_note": {
+        "message": "Posts you bookmarked or liked.",
+        "description": "Location: Browser. One line under the X heading on the Folio import page, saying what its lists hold."
+    },
+    "folio_import_site_youtube": {
+        "message": "YouTube",
+        "description": "Location: Browser. Heading of the YouTube section on the Folio import page. This is the site's own name; leave it as it is."
+    },
+    "folio_import_site_youtube_note": {
+        "message": "Videos you liked or kept for later.",
+        "description": "Location: Browser. One line under the YouTube heading on the Folio import page, saying what its lists hold."
+    },
+    "folio_import_starting": {
+        "message": "Opening {site}…",
+        "description": "Location: Browser. Status shown while the import is opening the tab it reads the list from. {site} is the name of the site, such as Reddit."
+    },
+    "folio_import_stop": {
+        "message": "Stop",
+        "description": "Location: Browser. Button that stops an import that is running."
+    },
+    "folio_import_stopped": {
+        "message": "Import stopped.",
+        "description": "Location: Browser. Status when the user stopped the import before it finished."
+    },
+    "folio_import_title": {
+        "message": "Import to Folio",
+        "description": "Location: Browser. Title of the page that brings items already kept on another site into Folio."
+    },
+    "folio_import_x_bookmarks": {
+        "message": "Bookmarks",
+        "description": "Location: Browser. Button that starts importing the account's X bookmarks into Folio."
+    },
+    "folio_import_x_likes": {
+        "message": "Likes",
+        "description": "Location: Browser. Button that starts importing the account's liked posts on X into Folio."
+    },
+    "folio_import_youtube_liked": {
+        "message": "Liked videos",
+        "description": "Location: Browser. Button that starts importing the videos the account liked on YouTube into Folio."
+    },
+    "folio_import_youtube_watch_later": {
+        "message": "Watch later",
+        "description": "Location: Browser. Button that starts importing the account's YouTube Watch later playlist into Folio. Watch later is YouTube's own name for the list."
+    },
+    "folio_library_badge_video": {
+        "message": "video",
+        "description": "Location: Browser. Small badge on a list row marking a saved item that came from a video rather than an article. Lowercase in English by design."
+    },
+    "folio_library_copy_unavailable": {
+        "message": "Copy unavailable",
+        "description": "Location: Browser. Temporary button text shown when the saved copy of the web page could not be read from disk."
+    },
+    "folio_library_delete": {
+        "message": "Delete",
+        "description": "Location: Browser. Button that removes a saved item. The first click arms it; the second confirms."
+    },
+    "folio_library_delete_confirm": {
+        "message": "Delete for good?",
+        "description": "Location: Browser. Label the Folio library's delete button takes on once armed, asking for the second click that removes the item's files permanently."
+    },
+    "folio_library_delete_failed": {
+        "message": "Couldn't delete",
+        "description": "Location: Browser. Temporary button text shown when removing a saved item failed and its files are still on disk."
+    },
+    "folio_library_empty": {
+        "message": "Nothing in Folio yet.",
+        "description": "Location: Browser. Placeholder shown when the library holds no saved items at all. Keep the product name Folio unchanged."
+    },
+    "folio_library_empty_hint": {
+        "message": "Nothing in Folio yet. Save a page with ⌥⌘S.",
+        "description": "Location: Browser. Shown in place of the Folio library's list when nothing has been saved. Keep the product name Folio and the keyboard shortcut unchanged."
+    },
+    "folio_library_highlight_count": {
+        "message": "{count} highlights",
+        "description": "Location: Browser. Badge on a Folio item carrying several highlights. {count} is a number of two or more."
+    },
+    "folio_library_highlight_count_one": {
+        "message": "1 highlight",
+        "description": "Location: Browser. Badge on a Folio item that carries exactly one highlight."
+    },
+    "folio_library_import": {
+        "message": "Import",
+        "description": "Location: Browser. Button in the Folio library sidebar that opens the page for importing posts kept on other sites."
+    },
+    "folio_library_item_count": {
+        "message": "{count} items",
+        "description": "Location: Browser. Count beside the Folio library's title. {count} is a number of two or more."
+    },
+    "folio_library_item_count_one": {
+        "message": "1 item",
+        "description": "Location: Browser. Count beside the Folio library's title when it holds exactly one item."
+    },
+    "folio_library_item_unreadable": {
+        "message": "This item could not be read.",
+        "description": "Location: Browser. Placeholder shown when a saved item's file exists but its contents could not be read from disk."
+    },
+    "folio_library_list_label": {
+        "message": "Saved items",
+        "description": "Location: Browser. Accessibility label of the sidebar listing every page kept in Folio."
+    },
+    "folio_library_nav_next": {
+        "message": "Next item",
+        "description": "Location: Browser. Accessibility label of the button that opens the saved item after the current one."
+    },
+    "folio_library_nav_previous": {
+        "message": "Previous item",
+        "description": "Location: Browser. Accessibility label of the button that opens the saved item before the current one."
+    },
+    "folio_library_open_original": {
+        "message": "Open Original",
+        "description": "Location: Browser. Button that opens the live web page a saved item was captured from."
+    },
+    "folio_library_requires_phi": {
+        "message": "The library is only available inside Phi.",
+        "description": "Location: Browser. Placeholder shown when the library page is open outside the Phi browser, where it has no way to reach the saved files. Phi is the product name; keep it unchanged."
+    },
+    "folio_library_reveal": {
+        "message": "Show in Finder",
+        "description": "Location: Browser. Button that reveals the saved item's files in the macOS Finder. Finder is the macOS file manager; use the name Apple uses in this language."
+    },
+    "folio_library_show_article": {
+        "message": "Show Article",
+        "description": "Location: Browser. Button that switches back from the saved copy of the web page to the saved article text."
+    },
+    "folio_library_sidebar_hide": {
+        "message": "Hide the sidebar",
+        "description": "Location: Browser. Tooltip on the Folio library's sidebar button when the sidebar is docked; pressing it lets the sidebar float away."
+    },
+    "folio_library_sidebar_pin": {
+        "message": "Keep the sidebar in place",
+        "description": "Location: Browser. Tooltip on the Folio library's sidebar button when the sidebar floats over the article; pressing it docks the sidebar."
+    },
+    "folio_library_sidebar_show": {
+        "message": "Show the sidebar",
+        "description": "Location: Browser. Accessibility label of the button that reveals the hidden list of saved items."
+    },
+    "folio_library_unavailable": {
+        "message": "The saved items are not available right now.",
+        "description": "Location: Browser. Placeholder shown when the library could not reach the app to list the saved items at all: distinct from the library being empty."
+    },
+    "folio_library_webpage_copy": {
+        "message": "Webpage Copy",
+        "description": "Location: Browser. Button that switches from the saved article text to the saved copy of the original web page."
+    },
     "folio_needs_a_browser_restart": {
         "message": "Folio needs a browser restart",
         "description": "Location: Browser. Folio - Toast shown when the page-side extension is older than the app and can no longer save a highlight"
+    },
+    "folio_triggers_intro": {
+        "message": "These are the buttons that also save a page to Folio. Turn off any one you would rather keep quiet — liking a video and saving it to a playlist are different intentions. The switch in Settings governs all of them.",
+        "description": "Location: Browser. Sentence under the title of the Folio auto-save page, explaining that each switch is one site control and that the app's own setting is the master switch. Keep the product name Folio unchanged."
+    },
+    "folio_triggers_on_count": {
+        "message": "{on} of {all} on",
+        "description": "Location: Browser. Count on a site's card on the Folio auto-save page saying how many of its buttons still save. Both placeholders are numbers."
+    },
+    "folio_triggers_title": {
+        "message": "Auto-save sites",
+        "description": "Location: Browser. Title of the Folio page listing the sites whose like/bookmark buttons also save the page."
+    },
+    "folio_video_reason_disabled": {
+        "message": "Video articles are turned off right now.",
+        "description": "Location: Browser. Reason added to a saved video's file when the article-generation feature is switched off on the service side."
+    },
+    "folio_video_reason_offline": {
+        "message": "Phi could not reach the service that writes video articles.",
+        "description": "Location: Browser. Reason added to a saved video's file when the request never reached the backend at all: offline, or the service was unreachable. Phi is the product name; keep it unchanged."
+    },
+    "folio_video_reason_quota": {
+        "message": "Too many videos were saved recently; try this one again later.",
+        "description": "Location: Browser. Reason added to a saved video's file when the account has reached its limit on generating video articles for now."
+    },
+    "folio_video_reason_too_long": {
+        "message": "The video is longer than this feature can process.",
+        "description": "Location: Browser. Reason added to a saved video's file when the video exceeded the maximum length the article generator accepts."
+    },
+    "folio_video_reason_unavailable": {
+        "message": "Video articles are unavailable — sign in and turn on Phi AI to generate them.",
+        "description": "Location: Browser. Reason added to a saved video's file when article generation is off: the user is signed out, or the browser's AI features are disabled. Phi AI is a product name; keep it unchanged."
     },
     "follow_the_general_settings_folder": {
         "message": "Follow the General settings folder",
