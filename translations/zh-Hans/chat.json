@@ -80,15 +80,6 @@
     "agent_persona_variables": {
         "message": "变量"
     },
-    "ai_mode_copy_logs": {
-        "message": "复制日志"
-    },
-    "ai_mode_expert": {
-        "message": "专家"
-    },
-    "ai_mode_fast": {
-        "message": "快速"
-    },
     "app_title": {
         "message": "Phi Chat"
     },
@@ -97,6 +88,498 @@
     },
     "artifacts_panel_aria_label": {
         "message": "小组件面板"
+    },
+    "browser_manage_bookmarks_move_body_bookmark": {
+        "message": "将书签「{{name}}」移动到其他位置。"
+    },
+    "browser_manage_bookmarks_move_body_folder": {
+        "message": "将文件夹「{{name}}」移动到其他位置。"
+    },
+    "browser_manage_bookmarks_move_summary_bookmark": {
+        "message": "已移动书签「{{name}}」"
+    },
+    "browser_manage_bookmarks_move_summary_folder": {
+        "message": "已移动文件夹「{{name}}」"
+    },
+    "browser_manage_bookmarks_move_title": {
+        "message": "移动书签"
+    },
+    "browser_manage_bookmarks_remove_body_bookmark": {
+        "message": "删除书签「{{name}}」。"
+    },
+    "browser_manage_bookmarks_remove_body_folder": {
+        "message": "删除文件夹「{{name}}」及其中的 {{count}} 个项目。"
+    },
+    "browser_manage_bookmarks_remove_summary_bookmark": {
+        "message": "已删除书签「{{name}}」"
+    },
+    "browser_manage_bookmarks_remove_summary_folder": {
+        "message": "已删除书签文件夹「{{name}}」（内含 {{count}} 个项目）"
+    },
+    "browser_manage_bookmarks_remove_title_bookmark": {
+        "message": "删除书签"
+    },
+    "browser_manage_bookmarks_remove_title_folder": {
+        "message": "删除书签文件夹"
+    },
+    "browser_manage_bookmarks_update_body": {
+        "message": "更改书签「{{name}}」。"
+    },
+    "browser_manage_bookmarks_update_new_link": {
+        "message": "新链接：{{host}}。"
+    },
+    "browser_manage_bookmarks_update_new_title": {
+        "message": "新标题：「{{title}}」。"
+    },
+    "browser_manage_bookmarks_update_summary": {
+        "message": "已编辑书签「{{name}}」"
+    },
+    "browser_manage_bookmarks_update_title": {
+        "message": "编辑书签"
+    },
+    "browser_manage_downloads_cancel_body": {
+        "message": "取消下载「{{name}}」。"
+    },
+    "browser_manage_downloads_cancel_title": {
+        "message": "取消下载"
+    },
+    "browser_manage_downloads_pause_body": {
+        "message": "暂停下载「{{name}}」。"
+    },
+    "browser_manage_downloads_pause_title": {
+        "message": "暂停下载"
+    },
+    "browser_manage_downloads_remove_body": {
+        "message": "移除「{{name}}」的下载记录。"
+    },
+    "browser_manage_downloads_remove_title": {
+        "message": "移除下载记录"
+    },
+    "browser_manage_downloads_resume_body": {
+        "message": "继续下载「{{name}}」。"
+    },
+    "browser_manage_downloads_resume_title": {
+        "message": "继续下载"
+    },
+    "browser_manage_emulation_clear_body": {
+        "message": "清除我在此标签页上启用的设备与设置模拟。"
+    },
+    "browser_manage_emulation_clear_title": {
+        "message": "停止模拟"
+    },
+    "browser_manage_emulation_item_cpu": {
+        "message": "更慢的 CPU。"
+    },
+    "browser_manage_emulation_item_geolocation": {
+        "message": "指定的地理位置。"
+    },
+    "browser_manage_emulation_item_locale": {
+        "message": "语言 {{locale}}。"
+    },
+    "browser_manage_emulation_item_media": {
+        "message": "媒体特性（如深色模式）。"
+    },
+    "browser_manage_emulation_item_network": {
+        "message": "更慢的网络。"
+    },
+    "browser_manage_emulation_item_screen": {
+        "message": "屏幕尺寸 {{width}}×{{height}}。"
+    },
+    "browser_manage_emulation_item_timezone": {
+        "message": "时区 {{timezone}}。"
+    },
+    "browser_manage_emulation_item_user_agent": {
+        "message": "自定义用户代理。"
+    },
+    "browser_manage_emulation_set_body": {
+        "message": "让此标签页以不同方式运行，直到我清除设置或本次任务结束："
+    },
+    "browser_manage_emulation_set_title": {
+        "message": "模拟设备或设置"
+    },
+    "browser_manage_option_cancel": {
+        "message": "取消"
+    },
+    "browser_manage_option_confirm": {
+        "message": "确认"
+    },
+    "browser_manage_option_delete_only": {
+        "message": "不导出，直接删除"
+    },
+    "browser_manage_option_export_then_delete": {
+        "message": "先导出，再删除"
+    },
+    "browser_manage_option_keep_current": {
+        "message": "保持现状"
+    },
+    "browser_manage_option_merge": {
+        "message": "合并"
+    },
+    "browser_manage_option_overwrite": {
+        "message": "覆盖"
+    },
+    "browser_manage_pinned_tabs_remove_body": {
+        "message": "从此个人资料的所有空间中移除固定标签页「{{name}}」。"
+    },
+    "browser_manage_pinned_tabs_remove_summary": {
+        "message": "已移除固定标签页「{{name}}」"
+    },
+    "browser_manage_pinned_tabs_remove_title": {
+        "message": "移除固定标签页"
+    },
+    "browser_manage_pinned_tabs_update_body": {
+        "message": "更改固定标签页「{{name}}」。"
+    },
+    "browser_manage_pinned_tabs_update_summary": {
+        "message": "已编辑固定标签页「{{name}}」"
+    },
+    "browser_manage_pinned_tabs_update_title": {
+        "message": "编辑固定标签页"
+    },
+    "browser_manage_profiles_rename_body": {
+        "message": "将个人资料「{{from}}」重命名为「{{to}}」。"
+    },
+    "browser_manage_profiles_rename_title": {
+        "message": "重命名个人资料"
+    },
+    "browser_manage_raw_on_browser": {
+        "message": "在浏览器上运行 {{method}}。"
+    },
+    "browser_manage_raw_on_tab": {
+        "message": "在「{{name}}」（{{host}}）上运行 {{method}}。"
+    },
+    "browser_manage_raw_on_tab_no_host": {
+        "message": "在「{{name}}」上运行 {{method}}。"
+    },
+    "browser_manage_raw_params": {
+        "message": "参数：{{params}}"
+    },
+    "browser_manage_raw_title": {
+        "message": "运行浏览器命令"
+    },
+    "browser_manage_restore_choices_duplicate": {
+        "message": "「覆盖」会照样重新创建一份；「合并」会保留现有的一份，只补充它缺少的内容；「保持现状」不做任何更改。"
+    },
+    "browser_manage_restore_choices_field": {
+        "message": "「覆盖」会把一切恢复原样；「合并」只恢复此后未被更改的部分；「保持现状」不做任何更改。"
+    },
+    "browser_manage_restore_choices_structural": {
+        "message": "「覆盖」会把它放回仍然存在的最近位置；「保持现状」不做任何更改。"
+    },
+    "browser_manage_restore_choices_structural_mergeable": {
+        "message": "「覆盖」会把它放回原处，并重新创建已不存在的文件夹；「合并」与之相同，但在已有同名文件夹或书签时会直接使用现有的；「保持现状」不做任何更改。"
+    },
+    "browser_manage_restore_detail_bookmark_exists": {
+        "message": "那里已存在相同的书签。"
+    },
+    "browser_manage_restore_detail_changed_since": {
+        "message": "此后它又被更改过。"
+    },
+    "browser_manage_restore_detail_folder_gone": {
+        "message": "它所在的文件夹已不存在。"
+    },
+    "browser_manage_restore_detail_gone": {
+        "message": "它已不存在。"
+    },
+    "browser_manage_restore_detail_group_exists": {
+        "message": "该窗口中已存在同名的标签页组。"
+    },
+    "browser_manage_restore_detail_group_gone": {
+        "message": "该标签页组已不存在。"
+    },
+    "browser_manage_restore_detail_pin_exists": {
+        "message": "同一页面已被固定。"
+    },
+    "browser_manage_restore_detail_rule_changed": {
+        "message": "此后该规则已被更改或移除。"
+    },
+    "browser_manage_restore_detail_rule_exists": {
+        "message": "已存在针对同一网站的规则。"
+    },
+    "browser_manage_restore_detail_split_ended": {
+        "message": "此后分屏已结束。"
+    },
+    "browser_manage_restore_detail_split_exists": {
+        "message": "这两个页面已处于分屏中。"
+    },
+    "browser_manage_restore_detail_tab_open": {
+        "message": "同一页面已在该窗口中打开。"
+    },
+    "browser_manage_restore_detail_unpinned": {
+        "message": "此后它已被取消固定。"
+    },
+    "browser_manage_restore_detail_window_closed": {
+        "message": "它所在的窗口已关闭。"
+    },
+    "browser_manage_restore_put_back": {
+        "message": "放回：{{what}}。"
+    },
+    "browser_manage_restore_summary": {
+        "message": "已恢复：{{what}}"
+    },
+    "browser_manage_restore_tab_note": {
+        "message": "重新打开的标签页会丢失前进/后退历史和页面状态。"
+    },
+    "browser_manage_restore_title_duplicate": {
+        "message": "撤销更改：它已存在"
+    },
+    "browser_manage_restore_title_field": {
+        "message": "撤销更改：此后又被更改过"
+    },
+    "browser_manage_restore_title_none": {
+        "message": "撤销更改"
+    },
+    "browser_manage_restore_title_structural": {
+        "message": "撤销更改：部分内容已不存在"
+    },
+    "browser_manage_scope_other_space": {
+        "message": "它位于空间「{{name}}」中，而不是你正在查看的空间。"
+    },
+    "browser_manage_site_data_cache_delete_body": {
+        "message": "删除 {{site}} 的一个缓存。"
+    },
+    "browser_manage_site_data_cache_delete_title": {
+        "message": "删除网站缓存"
+    },
+    "browser_manage_site_data_cache_list_body": {
+        "message": "列出 {{site}} 的缓存。"
+    },
+    "browser_manage_site_data_cache_list_title": {
+        "message": "列出网站缓存"
+    },
+    "browser_manage_site_data_clear_origin_body": {
+        "message": "清除 {{site}} 存储的所有数据（Cookie、存储、数据库、缓存）。"
+    },
+    "browser_manage_site_data_clear_origin_title": {
+        "message": "清除所有网站数据"
+    },
+    "browser_manage_site_data_cookies_delete_body": {
+        "message": "删除 {{site}} 的 Cookie。"
+    },
+    "browser_manage_site_data_cookies_delete_title": {
+        "message": "删除 Cookie"
+    },
+    "browser_manage_site_data_cookies_get_body": {
+        "message": "读取 {{site}} 的 Cookie。"
+    },
+    "browser_manage_site_data_cookies_get_title": {
+        "message": "读取 Cookie"
+    },
+    "browser_manage_site_data_cookies_set_body": {
+        "message": "为 {{site}} 设置一个 Cookie。"
+    },
+    "browser_manage_site_data_cookies_set_title": {
+        "message": "设置 Cookie"
+    },
+    "browser_manage_site_data_current_tab": {
+        "message": "该标签页中打开的网站"
+    },
+    "browser_manage_site_data_indexed_db_delete_body": {
+        "message": "删除 {{site}} 的一个 IndexedDB 数据库。"
+    },
+    "browser_manage_site_data_indexed_db_delete_title": {
+        "message": "删除网站数据库"
+    },
+    "browser_manage_site_data_indexed_db_list_body": {
+        "message": "列出 {{site}} 的 IndexedDB 数据库。"
+    },
+    "browser_manage_site_data_indexed_db_list_title": {
+        "message": "列出网站数据库"
+    },
+    "browser_manage_site_data_indexed_db_read_body": {
+        "message": "读取 {{site}} 的 IndexedDB 条目。"
+    },
+    "browser_manage_site_data_indexed_db_read_title": {
+        "message": "读取网站数据库"
+    },
+    "browser_manage_site_data_local_storage_clear_body": {
+        "message": "清除 {{site}} 的本地存储。"
+    },
+    "browser_manage_site_data_local_storage_clear_title": {
+        "message": "清除网站存储"
+    },
+    "browser_manage_site_data_local_storage_get_body": {
+        "message": "读取 {{site}} 的本地存储。"
+    },
+    "browser_manage_site_data_local_storage_get_title": {
+        "message": "读取网站存储"
+    },
+    "browser_manage_site_data_local_storage_remove_body": {
+        "message": "删除 {{site}} 的一个本地存储项。"
+    },
+    "browser_manage_site_data_local_storage_remove_title": {
+        "message": "从网站存储中删除"
+    },
+    "browser_manage_site_data_local_storage_set_body": {
+        "message": "写入 {{site}} 的本地存储。"
+    },
+    "browser_manage_site_data_local_storage_set_title": {
+        "message": "更改网站存储"
+    },
+    "browser_manage_site_data_names_only_note": {
+        "message": "仅向 AI 显示名称和大小，不显示具体值。"
+    },
+    "browser_manage_site_data_service_worker_unregister_body": {
+        "message": "注销 {{site}} 的 Service Worker。"
+    },
+    "browser_manage_site_data_service_worker_unregister_title": {
+        "message": "移除网站 Service Worker"
+    },
+    "browser_manage_site_data_values_note": {
+        "message": "具体值将传给 AI。"
+    },
+    "browser_manage_spaces_delete_body": {
+        "message": "删除空间「{{name}}」：其中的 {{bookmarks}} 个书签和 {{rules}} 条网址规则将一并删除，{{tabs}} 个标签页将关闭。"
+    },
+    "browser_manage_spaces_delete_export_note": {
+        "message": "先导出会把全部内容保存为一个 JSON 文件。"
+    },
+    "browser_manage_spaces_delete_title": {
+        "message": "删除空间"
+    },
+    "browser_manage_spaces_update_body": {
+        "message": "更改空间「{{name}}」。"
+    },
+    "browser_manage_spaces_update_title": {
+        "message": "编辑空间"
+    },
+    "browser_manage_split_view_remove_body": {
+        "message": "结束「{{first}}」和「{{second}}」的分屏；两个标签页都保持打开。"
+    },
+    "browser_manage_split_view_remove_summary": {
+        "message": "已结束分屏「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_remove_title": {
+        "message": "结束分屏"
+    },
+    "browser_manage_split_view_swap_body": {
+        "message": "交换「{{first}}」和「{{second}}」分屏的两侧。"
+    },
+    "browser_manage_split_view_swap_summary": {
+        "message": "已交换分屏「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_swap_title": {
+        "message": "交换分屏两侧"
+    },
+    "browser_manage_split_view_update_body": {
+        "message": "更改「{{first}}」和「{{second}}」的分屏。"
+    },
+    "browser_manage_split_view_update_summary": {
+        "message": "已更改分屏「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_update_title": {
+        "message": "更改分屏"
+    },
+    "browser_manage_tab_groups_add_tabs_body": {
+        "message": "将 {{count}} 个标签页添加到标签页组「{{name}}」。"
+    },
+    "browser_manage_tab_groups_add_tabs_summary": {
+        "message": "已将 {{count}} 个标签页添加到标签页组「{{name}}」"
+    },
+    "browser_manage_tab_groups_add_tabs_title": {
+        "message": "将标签页添加到标签页组"
+    },
+    "browser_manage_tab_groups_close_body": {
+        "message": "关闭标签页组「{{name}}」及其中的 {{count}} 个标签页。"
+    },
+    "browser_manage_tab_groups_close_summary": {
+        "message": "已关闭标签页组「{{name}}」及其中的 {{count}} 个标签页"
+    },
+    "browser_manage_tab_groups_close_title": {
+        "message": "关闭标签页组"
+    },
+    "browser_manage_tab_groups_remove_tabs_body_many": {
+        "message": "将 {{count}} 个标签页移出 {{groups}} 个标签页组；这些标签页保持打开。"
+    },
+    "browser_manage_tab_groups_remove_tabs_body_one": {
+        "message": "将 {{count}} 个标签页移出标签页组「{{name}}」；这些标签页保持打开。"
+    },
+    "browser_manage_tab_groups_remove_tabs_summary": {
+        "message": "已将 {{count}} 个标签页移出 {{groups}} 个标签页组"
+    },
+    "browser_manage_tab_groups_remove_tabs_title": {
+        "message": "将标签页移出标签页组"
+    },
+    "browser_manage_tab_groups_ungroup_body": {
+        "message": "取消分组「{{name}}」；其中的 {{count}} 个标签页保持打开。"
+    },
+    "browser_manage_tab_groups_ungroup_summary": {
+        "message": "已取消标签页组「{{name}}」的分组（{{count}} 个标签页）"
+    },
+    "browser_manage_tab_groups_ungroup_title": {
+        "message": "取消标签页分组"
+    },
+    "browser_manage_tab_groups_update_body": {
+        "message": "更改标签页组「{{name}}」。"
+    },
+    "browser_manage_tab_groups_update_summary": {
+        "message": "已编辑标签页组「{{name}}」"
+    },
+    "browser_manage_tab_groups_update_title": {
+        "message": "编辑标签页组"
+    },
+    "browser_manage_tabs_close_body": {
+        "message": "关闭标签页「{{name}}」（{{host}}）。"
+    },
+    "browser_manage_tabs_close_body_no_host": {
+        "message": "关闭标签页「{{name}}」。"
+    },
+    "browser_manage_tabs_close_summary": {
+        "message": "已关闭标签页「{{name}}」"
+    },
+    "browser_manage_tabs_close_title": {
+        "message": "关闭标签页"
+    },
+    "browser_manage_undo_approximate": {
+        "message": "你可以稍后让我撤销此操作；重新打开的标签页会丢失前进/后退历史和页面状态。"
+    },
+    "browser_manage_undo_not_restorable": {
+        "message": "此操作无法撤销。"
+    },
+    "browser_manage_undo_restorable": {
+        "message": "你可以稍后让我撤销此操作。"
+    },
+    "browser_manage_untitled": {
+        "message": "（无标题）"
+    },
+    "browser_manage_url_rules_delete_body": {
+        "message": "删除 {{rule}} 的规则。"
+    },
+    "browser_manage_url_rules_delete_summary": {
+        "message": "已删除网址规则 {{rule}}"
+    },
+    "browser_manage_url_rules_delete_title": {
+        "message": "删除网址规则"
+    },
+    "browser_manage_url_rules_update_body": {
+        "message": "更改 {{rule}} 的规则。"
+    },
+    "browser_manage_url_rules_update_summary": {
+        "message": "已编辑网址规则 {{rule}}"
+    },
+    "browser_manage_url_rules_update_title": {
+        "message": "编辑网址规则"
+    },
+    "browser_manage_windows_set_bounds_body": {
+        "message": "移动浏览器窗口或调整其大小。"
+    },
+    "browser_manage_windows_set_bounds_body_size": {
+        "message": "将浏览器窗口移动或调整为 {{width}}×{{height}}。"
+    },
+    "browser_manage_windows_set_bounds_body_state": {
+        "message": "将浏览器窗口{{state}}。"
+    },
+    "browser_manage_windows_set_bounds_title": {
+        "message": "调整窗口大小"
+    },
+    "browser_manage_windows_state_fullscreen": {
+        "message": "全屏"
+    },
+    "browser_manage_windows_state_maximized": {
+        "message": "最大化"
+    },
+    "browser_manage_windows_state_minimized": {
+        "message": "最小化"
     },
     "chat_attachments_add": {
         "message": "添加附件"
@@ -464,6 +947,9 @@
     "context_menu_ask_about_selection": {
         "message": "向 {{agentName}} 询问「{{selection}}」"
     },
+    "context_menu_watch_page": {
+        "message": "让 {{agentName}} 关注此页面"
+    },
     "conversation_add_category": {
         "message": "新建分类"
     },
@@ -476,23 +962,14 @@
     "conversation_all_category": {
         "message": "全部"
     },
-    "conversation_all_conversations": {
-        "message": "全部对话"
-    },
-    "conversation_all_conversations_description": {
-        "message": "浏览和管理对话历史"
-    },
-    "conversation_back": {
-        "message": "返回"
+    "conversation_batch_delete_error": {
+        "message": "删除选中的对话失败"
     },
     "conversation_batch_mode": {
         "message": "选择"
     },
-    "conversation_browse_all": {
-        "message": "浏览全部…"
-    },
-    "conversation_browse_all_categories": {
-        "message": "浏览全部分类…"
+    "conversation_by_profile": {
+        "message": "按个人资料"
     },
     "conversation_cancel": {
         "message": "取消"
@@ -515,9 +992,6 @@
     "conversation_create_error": {
         "message": "创建对话失败"
     },
-    "conversation_default_category_name": {
-        "message": "和 {{name}} 的对话"
-    },
     "conversation_delete": {
         "message": "删除"
     },
@@ -531,7 +1005,7 @@
         "message": "删除分类"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "该分类下的对话会回到「和 {{name}} 的对话」。"
+        "message": "此分类中的对话将移动到「{{category}}」。"
     },
     "conversation_delete_category_confirm_title": {
         "message": "删除分类"
@@ -545,11 +1019,14 @@
     "conversation_delete_selected": {
         "message": "删除 ({{count}})"
     },
-    "conversation_deselect_item": {
-        "message": "取消选中"
+    "conversation_deselect_all": {
+        "message": "取消全选"
     },
     "conversation_exit_batch_mode": {
         "message": "完成"
+    },
+    "conversation_filter_conversations": {
+        "message": "筛选对话"
     },
     "conversation_load_error": {
         "message": "加载对话失败"
@@ -570,16 +1047,22 @@
         "message": "移动到分类"
     },
     "conversation_move_to_default": {
-        "message": "移动到「和 {{name}} 的对话」"
+        "message": "移动到「{{category}}」"
     },
-    "conversation_no_categories_found": {
-        "message": "未找到分类"
+    "conversation_move_to_profile": {
+        "message": "移动到个人资料"
+    },
+    "conversation_my_categories": {
+        "message": "分类"
     },
     "conversation_no_conversations": {
         "message": "暂无对话"
     },
     "conversation_no_search_results": {
         "message": "没有匹配「{{query}}」的对话"
+    },
+    "conversation_no_task_conversations": {
+        "message": "创建过任务的对话会显示在这里"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -592,6 +1075,12 @@
     },
     "conversation_pane_title": {
         "message": "对话"
+    },
+    "conversation_phi_chat_management_hint": {
+        "message": "如需查看所有个人资料中的对话或更多管理选项，请使用 Phi Chat。"
+    },
+    "conversation_profile_category_name": {
+        "message": "个人资料「{{name}}」"
     },
     "conversation_recent_conversations": {
         "message": "最近对话"
@@ -611,11 +1100,14 @@
     "conversation_retry": {
         "message": "重试"
     },
+    "conversation_retry_profiles": {
+        "message": "无法加载个人资料。重试"
+    },
     "conversation_save": {
         "message": "保存"
     },
-    "conversation_search_categories": {
-        "message": "搜索分类"
+    "conversation_search_filters": {
+        "message": "查找个人资料或分类…"
     },
     "conversation_search_label": {
         "message": "搜索对话"
@@ -626,14 +1118,26 @@
     "conversation_search_shortcut": {
         "message": "搜索对话（{{shortcut}}）"
     },
+    "conversation_select_all": {
+        "message": "全选"
+    },
     "conversation_select_conversation": {
         "message": "选择对话"
     },
-    "conversation_select_item": {
-        "message": "选中"
-    },
     "conversation_select_placeholder": {
         "message": "选择对话"
+    },
+    "conversation_selected_count": {
+        "message": "已选 {{count}} 项"
+    },
+    "conversation_switch_conversation": {
+        "message": "切换对话"
+    },
+    "conversation_switch_discard_draft": {
+        "message": "未发送的文字和附件将被丢弃。要切换对话吗？"
+    },
+    "conversation_tasks_category": {
+        "message": "任务"
     },
     "conversation_title_placeholder": {
         "message": "对话标题"
@@ -648,10 +1152,19 @@
         "message": "回到对话开始的页面"
     },
     "conversation_travel_back_sidebar_error": {
-        "message": "页面已打开，但侧边栏没有跟着打开。在该页面打开侧边栏，即可继续这个对话。"
+        "message": "页面已打开，但此对话未能在该页面恢复。你的对话仍在这里。请重试。"
+    },
+    "conversation_travel_back_target_unavailable": {
+        "message": "原来的空间或个人资料已不可用。你的对话仍在这里。"
+    },
+    "conversation_uncategorized": {
+        "message": "未分类"
     },
     "conversation_untitled": {
         "message": "未命名"
+    },
+    "conversation_without_profile": {
+        "message": "无个人资料"
     },
     "conversations_categories_all": {
         "message": "全部"
@@ -812,6 +1325,9 @@
     "errors_chat_not_found": {
         "message": "未找到对话。"
     },
+    "errors_image_preview_awaiting_upload": {
+        "message": "此图片过大，无法在上传完成前预览。请等待上传完成后再试。"
+    },
     "errors_run_failed": {
         "message": "运行失败"
     },
@@ -820,6 +1336,12 @@
     },
     "errors_upload_not_available": {
         "message": "暂时无法上传文件。"
+    },
+    "errors_upload_preparing": {
+        "message": "上传功能正在准备中。请稍后再试。文本文件仍然可用。"
+    },
+    "errors_upload_sign_in_required": {
+        "message": "登录后即可添加图片或 PDF。文本文件仍然可用。"
     },
     "features_chat_with_tabs": {
         "message": "网页聊天"
@@ -1226,9 +1748,6 @@
     "message_tool_web_search": {
         "message": "网页搜索工具"
     },
-    "message_warning_title": {
-        "message": "警告"
-    },
     "message_worker_progress_browser": {
         "message": "正在操作浏览器…"
     },
@@ -1441,6 +1960,15 @@
     },
     "private_ai_banner_title": {
         "message": "你正在使用 Private AI"
+    },
+    "prompt_preferences_restore": {
+        "message": "恢复已隐藏的提示"
+    },
+    "prompt_preferences_restore_error": {
+        "message": "部分提示未能恢复。请重试。"
+    },
+    "prompt_preferences_restore_success": {
+        "message": "提示已恢复。它们会在相关场景中再次显示。"
     },
     "shadow_tasks_artifacts_empty": {
         "message": "暂无产物"
@@ -1907,9 +2435,6 @@
     "skills_menu_label": {
         "message": "Skill"
     },
-    "skills_only_available_on_sites": {
-        "message": "「{{name}}」仅在 {{sitesLabel}} 上可用。"
-    },
     "skills_pagination_label": {
         "message": "Skill 分页"
     },
@@ -2000,8 +2525,32 @@
     "top_bar_menu": {
         "message": "菜单"
     },
-    "top_bar_open_in_new_tab": {
-        "message": "在新标签页中打开"
+    "top_bar_open_in_phi_chat": {
+        "message": "在 Phi Chat 中打开"
+    },
+    "top_bar_open_in_sidebar": {
+        "message": "在侧边栏中打开"
+    },
+    "top_bar_open_in_sidebar_no_page": {
+        "message": "此对话尚未关联任何网页，因此无法在侧边栏中打开。"
+    },
+    "top_bar_phi_chat_ai_off": {
+        "message": "AI 功能已关闭，无法打开 Phi Chat。"
+    },
+    "top_bar_phi_chat_discard_draft_confirm": {
+        "message": "丢弃并打开"
+    },
+    "top_bar_phi_chat_discard_draft_description": {
+        "message": "在 Phi Chat 中打开此对话会清除侧边栏输入框中的文字和附件，它们不会带入 Phi Chat 窗口。"
+    },
+    "top_bar_phi_chat_discard_draft_title": {
+        "message": "丢弃未发送的草稿？"
+    },
+    "top_bar_phi_chat_open_error": {
+        "message": "无法打开 Phi Chat。你的对话仍在这里。请重试。"
+    },
+    "top_bar_phi_chat_unavailable": {
+        "message": "当前浏览器版本无法从侧边栏打开 Phi Chat。请更新 Phi Browser。"
     },
     "top_bar_phi_link": {
         "message": "Phi Link"
@@ -2015,20 +2564,14 @@
     "top_bar_show_response_speed": {
         "message": "显示响应速度"
     },
-    "travel_back_banner_description": {
-        "message": "重新打开该网页，即可从上次离开的地方继续。"
-    },
-    "travel_back_banner_dismiss": {
-        "message": "关闭"
-    },
-    "travel_back_banner_dont_show_again": {
-        "message": "不再显示"
-    },
-    "travel_back_banner_title": {
-        "message": "这个对话与一个网页有关"
-    },
     "user_action_aborted": {
         "message": "操作已中止"
+    },
+    "user_action_ask_from": {
+        "message": "来自 {{name}} 的提问"
+    },
+    "user_action_ask_from_assistant": {
+        "message": "来自助手的提问"
     },
     "user_action_cancelled": {
         "message": "操作已取消"
@@ -2048,6 +2591,12 @@
     "user_action_deny": {
         "message": "拒绝"
     },
+    "user_action_expired": {
+        "message": "此问题已不再等待回答。"
+    },
+    "user_action_required": {
+        "message": "必填"
+    },
     "user_action_responded": {
         "message": "操作已确认"
     },
@@ -2065,6 +2614,12 @@
     },
     "user_action_screenshot_alt": {
         "message": "操作截图"
+    },
+    "user_action_skip": {
+        "message": "跳过"
+    },
+    "user_action_submit": {
+        "message": "提交"
     },
     "user_input_add_file": {
         "message": "添加文件"
@@ -2093,6 +2648,12 @@
     "user_input_interject": {
         "message": "排队，本轮结束后发送"
     },
+    "user_input_journey_context": {
+        "message": "当前活动"
+    },
+    "user_input_journey_working_toward": {
+        "message": "正在朝「{{label}}」推进"
+    },
     "user_input_no_available_skills": {
         "message": "没有可用的 Skill"
     },
@@ -2101,6 +2662,9 @@
     },
     "user_input_remove_attachment": {
         "message": "移除附件"
+    },
+    "user_input_remove_journey_context": {
+        "message": "移除活动上下文"
     },
     "user_input_remove_split_view": {
         "message": "移除分屏"
@@ -2135,6 +2699,9 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
+    "watch_page_kickoff_message": {
+        "message": "帮我盯着这个页面，有重要变化（比如价格）时告诉我：{{url}}"
+    },
     "welcome_subtitle": {
         "message": "你可以搜索、提问，或与当前页面一起工作"
     },
@@ -2143,5 +2710,32 @@
     },
     "widgets_pinned_iframe_title": {
         "message": "已固定的小组件"
+    },
+    "worker_target_body": {
+        "message": "此任务需要打开浏览器页面。请选择一个空间，任务会在那里打开标签页。"
+    },
+    "worker_target_field_remember": {
+        "message": "在本次对话中继续使用此空间"
+    },
+    "worker_target_field_space": {
+        "message": "空间"
+    },
+    "worker_target_option_cancel": {
+        "message": "取消"
+    },
+    "worker_target_option_run": {
+        "message": "在此运行"
+    },
+    "worker_target_space_in_profile": {
+        "message": "{{name}}（{{profile}}）"
+    },
+    "worker_target_stale": {
+        "message": "你之前选择的空间已不存在，需要重新选择。"
+    },
+    "worker_target_stale_profile": {
+        "message": "你之前选择的空间和此对话现在分属不同的浏览器个人资料，需要重新选择。"
+    },
+    "worker_target_title": {
+        "message": "此任务应在哪里运行？"
     }
 }

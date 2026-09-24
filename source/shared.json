@@ -29,7 +29,7 @@
     },
     "errors_chat_pagination_conflict": {
         "message": "Cannot use both starting_after and ending_before parameters.",
-        "description": "Location: Chat | Memory. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. Two mutually exclusive paging options were used together; keep the parameter names untranslated."
+        "description": "Location: Memory. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. Two mutually exclusive paging options were used together; keep the parameter names untranslated."
     },
     "errors_edit_delete_failed": {
         "message": "Failed to sync edit to server. Changes will be saved when the response completes.",
@@ -513,7 +513,7 @@
     },
     "welcome_title": {
         "message": "Hi, I’m {{name}}",
-        "description": "Location: Chat | Memory. Empty-chat welcome header. Empty-chat greeting; {{name}} = assistant name."
+        "description": "Location: Chat | Memory. Empty-chat welcome header. Empty-chat greeting shown as the heading under the assistant's avatar; {{name}} = assistant name."
     },
     "widgets_bottom_panel_add": {
         "message": "Add widget",
@@ -587,6 +587,10 @@
         "message": "Edit",
         "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: edit the widget."
     },
+    "widgets_menu_inspect": {
+        "message": "Inspect source",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item, dev builds only: open a read-only view of the widget's generated source (markup/code, data fetch, manifest)."
+    },
     "widgets_menu_refresh": {
         "message": "Refresh",
         "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. The per-widget context menu. Menu item: reload this widget."
@@ -602,5 +606,33 @@
     "widgets_pending_refresh": {
         "message": "Refresh",
         "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Prompts on a widget suggestion card awaiting install. Button: regenerate the suggestion."
+    },
+    "widgets_suggested_badge": {
+        "message": "Suggested",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Corner label on the installed suggestion, marking it as one."
+    },
+    "widgets_suggested_keep": {
+        "message": "Keep this widget",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Menu item: keep this suggestion; it stops being a suggestion."
+    },
+    "widgets_suggested_keep_short": {
+        "message": "Keep",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Button on the suggestion card itself, beside the remove ✕; same action as the menu item above."
+    },
+    "widgets_suggested_remove": {
+        "message": "Remove this suggestion",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Accessible name of the button that takes the suggestion off the page."
+    },
+    "widgets_suggested_removed": {
+        "message": "Suggestion removed",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Strip shown in the suggestion's place right after it is removed."
+    },
+    "widgets_suggested_stop": {
+        "message": "Stop suggesting",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Turns suggestions off entirely, from the removal strip."
+    },
+    "widgets_suggested_undo": {
+        "message": "Undo",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Puts the just-removed suggestion back."
     }
 }

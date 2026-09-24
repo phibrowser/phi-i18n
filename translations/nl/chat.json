@@ -80,15 +80,6 @@
     "agent_persona_variables": {
         "message": "Variabelen"
     },
-    "ai_mode_copy_logs": {
-        "message": "Logs kopiëren"
-    },
-    "ai_mode_expert": {
-        "message": "Expert"
-    },
-    "ai_mode_fast": {
-        "message": "Snel"
-    },
     "app_title": {
         "message": "Phi Chat"
     },
@@ -97,6 +88,498 @@
     },
     "artifacts_panel_aria_label": {
         "message": "Widgetpaneel"
+    },
+    "browser_manage_bookmarks_move_body_bookmark": {
+        "message": "Bladwijzer \"{{name}}\" naar een andere plek verplaatsen."
+    },
+    "browser_manage_bookmarks_move_body_folder": {
+        "message": "Map \"{{name}}\" naar een andere plek verplaatsen."
+    },
+    "browser_manage_bookmarks_move_summary_bookmark": {
+        "message": "Bladwijzer \"{{name}}\" verplaatst"
+    },
+    "browser_manage_bookmarks_move_summary_folder": {
+        "message": "Map \"{{name}}\" verplaatst"
+    },
+    "browser_manage_bookmarks_move_title": {
+        "message": "Bladwijzer verplaatsen"
+    },
+    "browser_manage_bookmarks_remove_body_bookmark": {
+        "message": "Bladwijzer \"{{name}}\" verwijderen."
+    },
+    "browser_manage_bookmarks_remove_body_folder": {
+        "message": "Map \"{{name}}\" en de {{count}} item(s) erin verwijderen."
+    },
+    "browser_manage_bookmarks_remove_summary_bookmark": {
+        "message": "Bladwijzer \"{{name}}\" verwijderd"
+    },
+    "browser_manage_bookmarks_remove_summary_folder": {
+        "message": "Bladwijzermap \"{{name}}\" verwijderd ({{count}} item(s) erin)"
+    },
+    "browser_manage_bookmarks_remove_title_bookmark": {
+        "message": "Bladwijzer verwijderen"
+    },
+    "browser_manage_bookmarks_remove_title_folder": {
+        "message": "Bladwijzermap verwijderen"
+    },
+    "browser_manage_bookmarks_update_body": {
+        "message": "Bladwijzer \"{{name}}\" wijzigen."
+    },
+    "browser_manage_bookmarks_update_new_link": {
+        "message": "Nieuwe link: {{host}}."
+    },
+    "browser_manage_bookmarks_update_new_title": {
+        "message": "Nieuwe titel: \"{{title}}\"."
+    },
+    "browser_manage_bookmarks_update_summary": {
+        "message": "Bladwijzer \"{{name}}\" bewerkt"
+    },
+    "browser_manage_bookmarks_update_title": {
+        "message": "Bladwijzer bewerken"
+    },
+    "browser_manage_downloads_cancel_body": {
+        "message": "Het downloaden van \"{{name}}\" annuleren."
+    },
+    "browser_manage_downloads_cancel_title": {
+        "message": "Download annuleren"
+    },
+    "browser_manage_downloads_pause_body": {
+        "message": "Het downloaden van \"{{name}}\" pauzeren."
+    },
+    "browser_manage_downloads_pause_title": {
+        "message": "Download pauzeren"
+    },
+    "browser_manage_downloads_remove_body": {
+        "message": "De downloadvermelding van \"{{name}}\" verwijderen."
+    },
+    "browser_manage_downloads_remove_title": {
+        "message": "Downloadvermelding verwijderen"
+    },
+    "browser_manage_downloads_resume_body": {
+        "message": "Het downloaden van \"{{name}}\" hervatten."
+    },
+    "browser_manage_downloads_resume_title": {
+        "message": "Download hervatten"
+    },
+    "browser_manage_emulation_clear_body": {
+        "message": "De apparaat- en instellingsemulatie die ik op dit tabblad heb ingesteld, wissen."
+    },
+    "browser_manage_emulation_clear_title": {
+        "message": "Stoppen met emuleren"
+    },
+    "browser_manage_emulation_item_cpu": {
+        "message": "Een langzamere CPU."
+    },
+    "browser_manage_emulation_item_geolocation": {
+        "message": "Een ingestelde locatie."
+    },
+    "browser_manage_emulation_item_locale": {
+        "message": "Taal {{locale}}."
+    },
+    "browser_manage_emulation_item_media": {
+        "message": "Mediafuncties (zoals donkere modus)."
+    },
+    "browser_manage_emulation_item_network": {
+        "message": "Een langzamer netwerk."
+    },
+    "browser_manage_emulation_item_screen": {
+        "message": "Schermformaat {{width}}×{{height}}."
+    },
+    "browser_manage_emulation_item_timezone": {
+        "message": "Tijdzone {{timezone}}."
+    },
+    "browser_manage_emulation_item_user_agent": {
+        "message": "Een aangepaste user agent."
+    },
+    "browser_manage_emulation_set_body": {
+        "message": "Dit tabblad zich anders laten gedragen totdat ik dit wis of deze taak eindigt:"
+    },
+    "browser_manage_emulation_set_title": {
+        "message": "Een apparaat of instelling emuleren"
+    },
+    "browser_manage_option_cancel": {
+        "message": "Annuleren"
+    },
+    "browser_manage_option_confirm": {
+        "message": "Bevestigen"
+    },
+    "browser_manage_option_delete_only": {
+        "message": "Verwijderen zonder export"
+    },
+    "browser_manage_option_export_then_delete": {
+        "message": "Eerst exporteren, dan verwijderen"
+    },
+    "browser_manage_option_keep_current": {
+        "message": "Huidige behouden"
+    },
+    "browser_manage_option_merge": {
+        "message": "Samenvoegen"
+    },
+    "browser_manage_option_overwrite": {
+        "message": "Overschrijven"
+    },
+    "browser_manage_pinned_tabs_remove_body": {
+        "message": "Vastgezet tabblad \"{{name}}\" uit elke Space van dit profiel verwijderen."
+    },
+    "browser_manage_pinned_tabs_remove_summary": {
+        "message": "Vastgezet tabblad \"{{name}}\" verwijderd"
+    },
+    "browser_manage_pinned_tabs_remove_title": {
+        "message": "Vastgezet tabblad verwijderen"
+    },
+    "browser_manage_pinned_tabs_update_body": {
+        "message": "Vastgezet tabblad \"{{name}}\" wijzigen."
+    },
+    "browser_manage_pinned_tabs_update_summary": {
+        "message": "Vastgezet tabblad \"{{name}}\" bewerkt"
+    },
+    "browser_manage_pinned_tabs_update_title": {
+        "message": "Vastgezet tabblad bewerken"
+    },
+    "browser_manage_profiles_rename_body": {
+        "message": "De naam van profiel \"{{from}}\" wijzigen in \"{{to}}\"."
+    },
+    "browser_manage_profiles_rename_title": {
+        "message": "Profielnaam wijzigen"
+    },
+    "browser_manage_raw_on_browser": {
+        "message": "{{method}} uitvoeren op de browser."
+    },
+    "browser_manage_raw_on_tab": {
+        "message": "{{method}} uitvoeren op \"{{name}}\" ({{host}})."
+    },
+    "browser_manage_raw_on_tab_no_host": {
+        "message": "{{method}} uitvoeren op \"{{name}}\"."
+    },
+    "browser_manage_raw_params": {
+        "message": "Parameters: {{params}}"
+    },
+    "browser_manage_raw_title": {
+        "message": "Een browseropdracht uitvoeren"
+    },
+    "browser_manage_restore_choices_duplicate": {
+        "message": "Overschrijven maakt het toch opnieuw aan; samenvoegen behoudt het bestaande en voegt alleen toe wat ontbreekt; huidige behouden laat alles zoals het is."
+    },
+    "browser_manage_restore_choices_field": {
+        "message": "Overschrijven zet alles terug zoals het was; samenvoegen zet alleen terug wat sindsdien niet is gewijzigd; huidige behouden laat het zoals het is."
+    },
+    "browser_manage_restore_choices_structural": {
+        "message": "Overschrijven zet het terug op de dichtstbijzijnde plek die nog bestaat; huidige behouden laat alles zoals het is."
+    },
+    "browser_manage_restore_choices_structural_mergeable": {
+        "message": "Overschrijven zet het terug waar het stond en maakt verdwenen mappen opnieuw aan; samenvoegen doet hetzelfde, maar gebruikt een map of bladwijzer met dezelfde naam waar die bestaat; huidige behouden laat alles zoals het is."
+    },
+    "browser_manage_restore_detail_bookmark_exists": {
+        "message": "Er bestaat daar al een gelijkwaardige bladwijzer."
+    },
+    "browser_manage_restore_detail_changed_since": {
+        "message": "Het is sindsdien opnieuw gewijzigd."
+    },
+    "browser_manage_restore_detail_folder_gone": {
+        "message": "De bijbehorende map bestaat niet meer."
+    },
+    "browser_manage_restore_detail_gone": {
+        "message": "Het bestaat niet meer."
+    },
+    "browser_manage_restore_detail_group_exists": {
+        "message": "In dat venster bestaat al een groep met dezelfde naam."
+    },
+    "browser_manage_restore_detail_group_gone": {
+        "message": "De groep bestaat niet meer."
+    },
+    "browser_manage_restore_detail_pin_exists": {
+        "message": "Dezelfde pagina is al vastgezet."
+    },
+    "browser_manage_restore_detail_rule_changed": {
+        "message": "De regel is sindsdien gewijzigd of verwijderd."
+    },
+    "browser_manage_restore_detail_rule_exists": {
+        "message": "Er bestaat al een regel voor dezelfde site."
+    },
+    "browser_manage_restore_detail_split_ended": {
+        "message": "De Split View is sindsdien beëindigd."
+    },
+    "browser_manage_restore_detail_split_exists": {
+        "message": "Dezelfde twee pagina's staan al in Split View."
+    },
+    "browser_manage_restore_detail_tab_open": {
+        "message": "Dezelfde pagina is al open in dat venster."
+    },
+    "browser_manage_restore_detail_unpinned": {
+        "message": "Het is sindsdien losgemaakt."
+    },
+    "browser_manage_restore_detail_window_closed": {
+        "message": "Het bijbehorende venster is gesloten."
+    },
+    "browser_manage_restore_put_back": {
+        "message": "Terugzetten: {{what}}."
+    },
+    "browser_manage_restore_summary": {
+        "message": "Teruggezet: {{what}}"
+    },
+    "browser_manage_restore_tab_note": {
+        "message": "Opnieuw geopende tabbladen verliezen hun terug- en vooruitgeschiedenis en paginastatus."
+    },
+    "browser_manage_restore_title_duplicate": {
+        "message": "Wijziging ongedaan maken: het bestaat al"
+    },
+    "browser_manage_restore_title_field": {
+        "message": "Wijziging ongedaan maken: het is sindsdien gewijzigd"
+    },
+    "browser_manage_restore_title_none": {
+        "message": "Wijziging ongedaan maken"
+    },
+    "browser_manage_restore_title_structural": {
+        "message": "Wijziging ongedaan maken: een deel ervan is weg"
+    },
+    "browser_manage_scope_other_space": {
+        "message": "Dit staat in de Space \"{{name}}\", niet in de Space die je nu bekijkt."
+    },
+    "browser_manage_site_data_cache_delete_body": {
+        "message": "Een cache van {{site}} verwijderen."
+    },
+    "browser_manage_site_data_cache_delete_title": {
+        "message": "Sitecache verwijderen"
+    },
+    "browser_manage_site_data_cache_list_body": {
+        "message": "De caches van {{site}} weergeven."
+    },
+    "browser_manage_site_data_cache_list_title": {
+        "message": "Sitecaches weergeven"
+    },
+    "browser_manage_site_data_clear_origin_body": {
+        "message": "Alle opgeslagen gegevens (cookies, opslag, databases, caches) van {{site}} wissen."
+    },
+    "browser_manage_site_data_clear_origin_title": {
+        "message": "Alle sitegegevens wissen"
+    },
+    "browser_manage_site_data_cookies_delete_body": {
+        "message": "Cookies van {{site}} verwijderen."
+    },
+    "browser_manage_site_data_cookies_delete_title": {
+        "message": "Cookies verwijderen"
+    },
+    "browser_manage_site_data_cookies_get_body": {
+        "message": "De cookies van {{site}} lezen."
+    },
+    "browser_manage_site_data_cookies_get_title": {
+        "message": "Cookies lezen"
+    },
+    "browser_manage_site_data_cookies_set_body": {
+        "message": "Een cookie voor {{site}} instellen."
+    },
+    "browser_manage_site_data_cookies_set_title": {
+        "message": "Een cookie instellen"
+    },
+    "browser_manage_site_data_current_tab": {
+        "message": "de site die in dat tabblad is geopend"
+    },
+    "browser_manage_site_data_indexed_db_delete_body": {
+        "message": "Een IndexedDB-database van {{site}} verwijderen."
+    },
+    "browser_manage_site_data_indexed_db_delete_title": {
+        "message": "Sitedatabase verwijderen"
+    },
+    "browser_manage_site_data_indexed_db_list_body": {
+        "message": "De IndexedDB-databases van {{site}} weergeven."
+    },
+    "browser_manage_site_data_indexed_db_list_title": {
+        "message": "Sitedatabases weergeven"
+    },
+    "browser_manage_site_data_indexed_db_read_body": {
+        "message": "IndexedDB-items van {{site}} lezen."
+    },
+    "browser_manage_site_data_indexed_db_read_title": {
+        "message": "Sitedatabase lezen"
+    },
+    "browser_manage_site_data_local_storage_clear_body": {
+        "message": "De lokale opslag van {{site}} wissen."
+    },
+    "browser_manage_site_data_local_storage_clear_title": {
+        "message": "Siteopslag wissen"
+    },
+    "browser_manage_site_data_local_storage_get_body": {
+        "message": "De lokale opslag van {{site}} lezen."
+    },
+    "browser_manage_site_data_local_storage_get_title": {
+        "message": "Siteopslag lezen"
+    },
+    "browser_manage_site_data_local_storage_remove_body": {
+        "message": "Een item uit de lokale opslag van {{site}} verwijderen."
+    },
+    "browser_manage_site_data_local_storage_remove_title": {
+        "message": "Uit siteopslag verwijderen"
+    },
+    "browser_manage_site_data_local_storage_set_body": {
+        "message": "Naar de lokale opslag van {{site}} schrijven."
+    },
+    "browser_manage_site_data_local_storage_set_title": {
+        "message": "Siteopslag wijzigen"
+    },
+    "browser_manage_site_data_names_only_note": {
+        "message": "Alleen namen en groottes worden aan de AI getoond, niet de waarden."
+    },
+    "browser_manage_site_data_service_worker_unregister_body": {
+        "message": "De service worker van {{site}} afmelden."
+    },
+    "browser_manage_site_data_service_worker_unregister_title": {
+        "message": "Service worker van site verwijderen"
+    },
+    "browser_manage_site_data_values_note": {
+        "message": "De waarden worden doorgegeven aan de AI."
+    },
+    "browser_manage_spaces_delete_body": {
+        "message": "Space \"{{name}}\" verwijderen: de {{bookmarks}} bladwijzer(s) en {{rules}} URL-regel(s) worden mee verwijderd en de {{tabs}} tabblad(en) worden gesloten."
+    },
+    "browser_manage_spaces_delete_export_note": {
+        "message": "Eerst exporteren slaat alles op in een JSON-bestand."
+    },
+    "browser_manage_spaces_delete_title": {
+        "message": "Space verwijderen"
+    },
+    "browser_manage_spaces_update_body": {
+        "message": "Space \"{{name}}\" wijzigen."
+    },
+    "browser_manage_spaces_update_title": {
+        "message": "Space bewerken"
+    },
+    "browser_manage_split_view_remove_body": {
+        "message": "De Split View van \"{{first}}\" en \"{{second}}\" beëindigen; beide tabbladen blijven open."
+    },
+    "browser_manage_split_view_remove_summary": {
+        "message": "Split View \"{{first}}\" + \"{{second}}\" beëindigd"
+    },
+    "browser_manage_split_view_remove_title": {
+        "message": "Split View beëindigen"
+    },
+    "browser_manage_split_view_swap_body": {
+        "message": "De twee kanten van de Split View van \"{{first}}\" en \"{{second}}\" omwisselen."
+    },
+    "browser_manage_split_view_swap_summary": {
+        "message": "Split View \"{{first}}\" + \"{{second}}\" omgewisseld"
+    },
+    "browser_manage_split_view_swap_title": {
+        "message": "Kanten van Split View omwisselen"
+    },
+    "browser_manage_split_view_update_body": {
+        "message": "De Split View van \"{{first}}\" en \"{{second}}\" wijzigen."
+    },
+    "browser_manage_split_view_update_summary": {
+        "message": "Split View \"{{first}}\" + \"{{second}}\" gewijzigd"
+    },
+    "browser_manage_split_view_update_title": {
+        "message": "Split View wijzigen"
+    },
+    "browser_manage_tab_groups_add_tabs_body": {
+        "message": "{{count}} tabblad(en) toevoegen aan tabbladgroep \"{{name}}\"."
+    },
+    "browser_manage_tab_groups_add_tabs_summary": {
+        "message": "{{count}} tabblad(en) toegevoegd aan tabbladgroep \"{{name}}\""
+    },
+    "browser_manage_tab_groups_add_tabs_title": {
+        "message": "Tabbladen aan groep toevoegen"
+    },
+    "browser_manage_tab_groups_close_body": {
+        "message": "Tabbladgroep \"{{name}}\" en de bijbehorende {{count}} tabblad(en) sluiten."
+    },
+    "browser_manage_tab_groups_close_summary": {
+        "message": "Tabbladgroep \"{{name}}\" met {{count}} tabblad(en) gesloten"
+    },
+    "browser_manage_tab_groups_close_title": {
+        "message": "Tabbladgroep sluiten"
+    },
+    "browser_manage_tab_groups_remove_tabs_body_many": {
+        "message": "{{count}} tabblad(en) uit {{groups}} tabbladgroepen halen; de tabbladen blijven open."
+    },
+    "browser_manage_tab_groups_remove_tabs_body_one": {
+        "message": "{{count}} tabblad(en) uit tabbladgroep \"{{name}}\" halen; de tabbladen blijven open."
+    },
+    "browser_manage_tab_groups_remove_tabs_summary": {
+        "message": "{{count}} tabblad(en) uit {{groups}} groep(en) gehaald"
+    },
+    "browser_manage_tab_groups_remove_tabs_title": {
+        "message": "Tabbladen uit hun groep halen"
+    },
+    "browser_manage_tab_groups_ungroup_body": {
+        "message": "Groep \"{{name}}\" opheffen; de {{count}} tabblad(en) blijven open."
+    },
+    "browser_manage_tab_groups_ungroup_summary": {
+        "message": "Tabbladgroep \"{{name}}\" opgeheven ({{count}} tabblad(en))"
+    },
+    "browser_manage_tab_groups_ungroup_title": {
+        "message": "Groep opheffen"
+    },
+    "browser_manage_tab_groups_update_body": {
+        "message": "Tabbladgroep \"{{name}}\" wijzigen."
+    },
+    "browser_manage_tab_groups_update_summary": {
+        "message": "Tabbladgroep \"{{name}}\" bewerkt"
+    },
+    "browser_manage_tab_groups_update_title": {
+        "message": "Tabbladgroep bewerken"
+    },
+    "browser_manage_tabs_close_body": {
+        "message": "Tabblad \"{{name}}\" ({{host}}) sluiten."
+    },
+    "browser_manage_tabs_close_body_no_host": {
+        "message": "Tabblad \"{{name}}\" sluiten."
+    },
+    "browser_manage_tabs_close_summary": {
+        "message": "Tabblad \"{{name}}\" gesloten"
+    },
+    "browser_manage_tabs_close_title": {
+        "message": "Tabblad sluiten"
+    },
+    "browser_manage_undo_approximate": {
+        "message": "Je kunt me later vragen dit ongedaan te maken; opnieuw geopende tabbladen verliezen hun terug- en vooruitgeschiedenis en paginastatus."
+    },
+    "browser_manage_undo_not_restorable": {
+        "message": "Dit kan niet ongedaan worden gemaakt."
+    },
+    "browser_manage_undo_restorable": {
+        "message": "Je kunt me later vragen dit ongedaan te maken."
+    },
+    "browser_manage_untitled": {
+        "message": "(naamloos)"
+    },
+    "browser_manage_url_rules_delete_body": {
+        "message": "De regel voor {{rule}} verwijderen."
+    },
+    "browser_manage_url_rules_delete_summary": {
+        "message": "URL-regel {{rule}} verwijderd"
+    },
+    "browser_manage_url_rules_delete_title": {
+        "message": "URL-regel verwijderen"
+    },
+    "browser_manage_url_rules_update_body": {
+        "message": "De regel voor {{rule}} wijzigen."
+    },
+    "browser_manage_url_rules_update_summary": {
+        "message": "URL-regel {{rule}} bewerkt"
+    },
+    "browser_manage_url_rules_update_title": {
+        "message": "URL-regel bewerken"
+    },
+    "browser_manage_windows_set_bounds_body": {
+        "message": "Een browservenster verplaatsen of het formaat ervan wijzigen."
+    },
+    "browser_manage_windows_set_bounds_body_size": {
+        "message": "Een browservenster verplaatsen of het formaat wijzigen naar {{width}}×{{height}}."
+    },
+    "browser_manage_windows_set_bounds_body_state": {
+        "message": "Een browservenster wijzigen naar {{state}}."
+    },
+    "browser_manage_windows_set_bounds_title": {
+        "message": "Vensterformaat wijzigen"
+    },
+    "browser_manage_windows_state_fullscreen": {
+        "message": "volledig scherm"
+    },
+    "browser_manage_windows_state_maximized": {
+        "message": "gemaximaliseerd"
+    },
+    "browser_manage_windows_state_minimized": {
+        "message": "geminimaliseerd"
     },
     "chat_attachments_add": {
         "message": "Bestanden bijvoegen"
@@ -464,6 +947,9 @@
     "context_menu_ask_about_selection": {
         "message": "Vraag {{agentName}} naar ‘{{selection}}’"
     },
+    "context_menu_watch_page": {
+        "message": "Laat {{agentName}} deze pagina in de gaten houden"
+    },
     "conversation_add_category": {
         "message": "Nieuwe categorie"
     },
@@ -476,23 +962,14 @@
     "conversation_all_category": {
         "message": "Alle"
     },
-    "conversation_all_conversations": {
-        "message": "Alle gesprekken"
-    },
-    "conversation_all_conversations_description": {
-        "message": "Bekijk en beheer je gespreksgeschiedenis"
-    },
-    "conversation_back": {
-        "message": "Terug"
+    "conversation_batch_delete_error": {
+        "message": "Kan de geselecteerde gesprekken niet verwijderen"
     },
     "conversation_batch_mode": {
         "message": "Selecteren"
     },
-    "conversation_browse_all": {
-        "message": "Alles bekijken…"
-    },
-    "conversation_browse_all_categories": {
-        "message": "Alle categorieën bekijken…"
+    "conversation_by_profile": {
+        "message": "Per profiel"
     },
     "conversation_cancel": {
         "message": "Annuleren"
@@ -515,14 +992,11 @@
     "conversation_create_error": {
         "message": "Kan gesprek niet maken"
     },
-    "conversation_default_category_name": {
-        "message": "Met {{name}}"
-    },
     "conversation_delete": {
         "message": "Verwijderen"
     },
     "conversation_delete_batch_confirm_description": {
-        "message": "Weet je zeker dat je {{count}} gesprekken wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+        "message": "Weet je zeker dat je {{count}} gesprek(ken) wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
     },
     "conversation_delete_batch_confirm_title": {
         "message": "Geselecteerde gesprekken verwijderen"
@@ -531,7 +1005,7 @@
         "message": "Categorie verwijderen"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "Gesprekken in deze categorie gaan terug naar \"Met {{name}}\"."
+        "message": "Gesprekken in deze categorie worden verplaatst naar \"{{category}}\"."
     },
     "conversation_delete_category_confirm_title": {
         "message": "Categorie verwijderen"
@@ -545,11 +1019,14 @@
     "conversation_delete_selected": {
         "message": "Verwijderen ({{count}})"
     },
-    "conversation_deselect_item": {
-        "message": "Deselecteren"
+    "conversation_deselect_all": {
+        "message": "Alles deselecteren"
     },
     "conversation_exit_batch_mode": {
         "message": "Klaar"
+    },
+    "conversation_filter_conversations": {
+        "message": "Gesprekken filteren"
     },
     "conversation_load_error": {
         "message": "Kan gesprekken niet laden"
@@ -570,16 +1047,22 @@
         "message": "Naar categorie verplaatsen"
     },
     "conversation_move_to_default": {
-        "message": "Verplaatsen naar \"Met {{name}}\""
+        "message": "Verplaatsen naar \"{{category}}\""
     },
-    "conversation_no_categories_found": {
-        "message": "Geen categorieën gevonden"
+    "conversation_move_to_profile": {
+        "message": "Naar een profiel verplaatsen"
+    },
+    "conversation_my_categories": {
+        "message": "Categorieën"
     },
     "conversation_no_conversations": {
         "message": "Nog geen gesprekken"
     },
     "conversation_no_search_results": {
         "message": "Geen resultaten voor \"{{query}}\""
+    },
+    "conversation_no_task_conversations": {
+        "message": "Gesprekken waarin een taak is gemaakt, verschijnen hier"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -592,6 +1075,12 @@
     },
     "conversation_pane_title": {
         "message": "Gesprekken"
+    },
+    "conversation_phi_chat_management_hint": {
+        "message": "Gebruik Phi Chat voor gesprekken uit alle profielen en voor meer beheeropties."
+    },
+    "conversation_profile_category_name": {
+        "message": "Profiel \"{{name}}\""
     },
     "conversation_recent_conversations": {
         "message": "Recente gesprekken"
@@ -611,11 +1100,14 @@
     "conversation_retry": {
         "message": "Opnieuw proberen"
     },
+    "conversation_retry_profiles": {
+        "message": "Kan profielen niet laden. Opnieuw proberen"
+    },
     "conversation_save": {
         "message": "Opslaan"
     },
-    "conversation_search_categories": {
-        "message": "Categorieën zoeken"
+    "conversation_search_filters": {
+        "message": "Zoek een profiel of categorie…"
     },
     "conversation_search_label": {
         "message": "Gesprekken zoeken"
@@ -626,14 +1118,26 @@
     "conversation_search_shortcut": {
         "message": "Gesprekken doorzoeken ({{shortcut}})"
     },
+    "conversation_select_all": {
+        "message": "Alles selecteren"
+    },
     "conversation_select_conversation": {
         "message": "Gesprek selecteren"
     },
-    "conversation_select_item": {
-        "message": "Selecteren"
-    },
     "conversation_select_placeholder": {
         "message": "Selecteer een gesprek"
+    },
+    "conversation_selected_count": {
+        "message": "{{count}} geselecteerd"
+    },
+    "conversation_switch_conversation": {
+        "message": "Van gesprek wisselen"
+    },
+    "conversation_switch_discard_draft": {
+        "message": "Je niet-verzonden tekst en bijlagen gaan verloren. Van gesprek wisselen?"
+    },
+    "conversation_tasks_category": {
+        "message": "Taken"
     },
     "conversation_title_placeholder": {
         "message": "Gesprekstitel"
@@ -648,10 +1152,19 @@
         "message": "Terug naar waar het begon"
     },
     "conversation_travel_back_sidebar_error": {
-        "message": "De pagina is geopend, maar de zijbalk is niet meegegaan. Open daar de zijbalk om deze chat voort te zetten."
+        "message": "De pagina is geopend, maar deze chat kon daar niet worden hersteld. Je gesprek staat nog steeds hier. Probeer het opnieuw."
+    },
+    "conversation_travel_back_target_unavailable": {
+        "message": "De oorspronkelijke Space of het oorspronkelijke profiel is niet meer beschikbaar. Je gesprek staat nog steeds hier."
+    },
+    "conversation_uncategorized": {
+        "message": "Zonder categorie"
     },
     "conversation_untitled": {
         "message": "Naamloos"
+    },
+    "conversation_without_profile": {
+        "message": "Zonder profiel"
     },
     "conversations_categories_all": {
         "message": "Alle"
@@ -812,6 +1325,9 @@
     "errors_chat_not_found": {
         "message": "Chat niet gevonden."
     },
+    "errors_image_preview_awaiting_upload": {
+        "message": "Deze afbeelding is te groot om vóór het uploaden een voorbeeld te tonen. Wacht tot de upload is voltooid en probeer het dan opnieuw."
+    },
     "errors_run_failed": {
         "message": "Uitvoering mislukt"
     },
@@ -820,6 +1336,12 @@
     },
     "errors_upload_not_available": {
         "message": "Bestanden uploaden is momenteel niet mogelijk."
+    },
+    "errors_upload_preparing": {
+        "message": "Uploads worden voorbereid. Probeer het over een ogenblik opnieuw. Tekstbestanden blijven gewoon beschikbaar."
+    },
+    "errors_upload_sign_in_required": {
+        "message": "Log in om afbeeldingen of PDF's toe te voegen. Tekstbestanden blijven gewoon beschikbaar."
     },
     "features_chat_with_tabs": {
         "message": "Chatten met tabbladen"
@@ -1226,9 +1748,6 @@
     "message_tool_web_search": {
         "message": "Tool voor zoeken op internet"
     },
-    "message_warning_title": {
-        "message": "Waarschuwing"
-    },
     "message_worker_progress_browser": {
         "message": "De browser bedienen…"
     },
@@ -1441,6 +1960,15 @@
     },
     "private_ai_banner_title": {
         "message": "Je gebruikt Privé-AI"
+    },
+    "prompt_preferences_restore": {
+        "message": "Verborgen meldingen terugzetten"
+    },
+    "prompt_preferences_restore_error": {
+        "message": "Sommige meldingen konden niet worden teruggezet. Probeer het opnieuw."
+    },
+    "prompt_preferences_restore_success": {
+        "message": "Meldingen teruggezet. Ze verschijnen weer wanneer ze relevant zijn."
     },
     "shadow_tasks_artifacts_empty": {
         "message": "Geen artefacten beschikbaar"
@@ -1907,9 +2435,6 @@
     "skills_menu_label": {
         "message": "Skills"
     },
-    "skills_only_available_on_sites": {
-        "message": "“{{name}}” is alleen beschikbaar op {{sitesLabel}}."
-    },
     "skills_pagination_label": {
         "message": "Paginering van skills"
     },
@@ -2000,8 +2525,32 @@
     "top_bar_menu": {
         "message": "Menu"
     },
-    "top_bar_open_in_new_tab": {
-        "message": "Openen in nieuw tabblad"
+    "top_bar_open_in_phi_chat": {
+        "message": "Openen in Phi Chat"
+    },
+    "top_bar_open_in_sidebar": {
+        "message": "Openen in zijbalk"
+    },
+    "top_bar_open_in_sidebar_no_page": {
+        "message": "Dit gesprek is nog niet aan een webpagina gekoppeld en kan daarom niet in een zijbalk worden geopend."
+    },
+    "top_bar_phi_chat_ai_off": {
+        "message": "AI-functies zijn uitgeschakeld. Phi Chat kan niet worden geopend."
+    },
+    "top_bar_phi_chat_discard_draft_confirm": {
+        "message": "Verwijderen en openen"
+    },
+    "top_bar_phi_chat_discard_draft_description": {
+        "message": "Als je dit gesprek in Phi Chat opent, worden de tekst en bijlagen in het invoerveld van de zijbalk gewist. Ze worden niet meegenomen naar het Phi Chat-venster."
+    },
+    "top_bar_phi_chat_discard_draft_title": {
+        "message": "Je niet-verzonden concept verwijderen?"
+    },
+    "top_bar_phi_chat_open_error": {
+        "message": "Kan Phi Chat niet openen. Je gesprek staat nog steeds hier. Probeer het opnieuw."
+    },
+    "top_bar_phi_chat_unavailable": {
+        "message": "Deze browserversie kan Phi Chat niet openen vanuit de zijbalk. Werk Phi Browser bij."
     },
     "top_bar_phi_link": {
         "message": "Phi Link"
@@ -2015,20 +2564,14 @@
     "top_bar_show_response_speed": {
         "message": "Reactiesnelheid tonen"
     },
-    "travel_back_banner_description": {
-        "message": "Open de pagina opnieuw om verder te gaan waar je gebleven was."
-    },
-    "travel_back_banner_dismiss": {
-        "message": "Sluiten"
-    },
-    "travel_back_banner_dont_show_again": {
-        "message": "Niet meer tonen"
-    },
-    "travel_back_banner_title": {
-        "message": "Deze chat ging over een webpagina"
-    },
     "user_action_aborted": {
         "message": "Actie afgebroken"
+    },
+    "user_action_ask_from": {
+        "message": "Vraag van {{name}}"
+    },
+    "user_action_ask_from_assistant": {
+        "message": "Vraag van de assistent"
     },
     "user_action_cancelled": {
         "message": "Actie geannuleerd"
@@ -2048,6 +2591,12 @@
     "user_action_deny": {
         "message": "Weigeren"
     },
+    "user_action_expired": {
+        "message": "Deze vraag wacht niet meer op een antwoord."
+    },
+    "user_action_required": {
+        "message": "Verplicht"
+    },
     "user_action_responded": {
         "message": "Actie bevestigd"
     },
@@ -2065,6 +2614,12 @@
     },
     "user_action_screenshot_alt": {
         "message": "Screenshot van de actie"
+    },
+    "user_action_skip": {
+        "message": "Overslaan"
+    },
+    "user_action_submit": {
+        "message": "Verzenden"
     },
     "user_input_add_file": {
         "message": "Bestand toevoegen"
@@ -2093,6 +2648,12 @@
     "user_input_interject": {
         "message": "In de wachtrij zetten voor na deze beurt"
     },
+    "user_input_journey_context": {
+        "message": "Huidige activiteit"
+    },
+    "user_input_journey_working_toward": {
+        "message": "Op weg naar {{label}}"
+    },
     "user_input_no_available_skills": {
         "message": "Geen skills beschikbaar"
     },
@@ -2101,6 +2662,9 @@
     },
     "user_input_remove_attachment": {
         "message": "Bijlage verwijderen"
+    },
+    "user_input_remove_journey_context": {
+        "message": "Activiteitscontext verwijderen"
     },
     "user_input_remove_split_view": {
         "message": "Split View verwijderen"
@@ -2135,6 +2699,9 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
+    "watch_page_kickoff_message": {
+        "message": "Houd deze pagina voor me in de gaten en laat het me weten als er iets belangrijks verandert, zoals de prijs: {{url}}"
+    },
     "welcome_subtitle": {
         "message": "Je kunt zoeken, vragen stellen of met de huidige pagina werken"
     },
@@ -2143,5 +2710,32 @@
     },
     "widgets_pinned_iframe_title": {
         "message": "Vastgezette widget"
+    },
+    "worker_target_body": {
+        "message": "Deze taak moet browserpagina's openen. Kies een Space; de taak opent daar zijn tabbladen."
+    },
+    "worker_target_field_remember": {
+        "message": "Deze Space gebruiken voor de rest van dit gesprek"
+    },
+    "worker_target_field_space": {
+        "message": "Space"
+    },
+    "worker_target_option_cancel": {
+        "message": "Annuleren"
+    },
+    "worker_target_option_run": {
+        "message": "Hier uitvoeren"
+    },
+    "worker_target_space_in_profile": {
+        "message": "{{name}} ({{profile}})"
+    },
+    "worker_target_stale": {
+        "message": "De Space die je eerder koos, bestaat niet meer; daarom moet je opnieuw kiezen."
+    },
+    "worker_target_stale_profile": {
+        "message": "De Space die je eerder koos, hoort bij een ander browserprofiel dan dit gesprek nu; daarom moet je opnieuw kiezen."
+    },
+    "worker_target_title": {
+        "message": "Waar moet deze taak worden uitgevoerd?"
     }
 }

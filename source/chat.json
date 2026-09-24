@@ -107,18 +107,6 @@
         "message": "Variables",
         "description": "Location: Chat. Advanced dialog for editing the assistant's persona template. 'Agent Persona' is the dialog's own name. Tab/label of the variables editor."
     },
-    "ai_mode_copy_logs": {
-        "message": "Copy logs",
-        "description": "Location: Chat. The Fast / Expert mode selector in the top bar. Menu item: copy chat debug logs."
-    },
-    "ai_mode_expert": {
-        "message": "Expert",
-        "description": "Location: Chat. The Fast / Expert mode selector in the top bar. Mode name: stronger/slower model. Keep very short."
-    },
-    "ai_mode_fast": {
-        "message": "Fast",
-        "description": "Location: Chat. The Fast / Expert mode selector in the top bar. Mode name: fast default model. Keep very short."
-    },
     "app_title": {
         "message": "Phi Chat",
         "description": "Location: Chat. Application-level labels. Product name, shown as the heading above the conversation list. A brand name; leave it in Latin script unless the product is officially branded differently in your language."
@@ -130,6 +118,662 @@
     "artifacts_panel_aria_label": {
         "message": "Widgets panel",
         "description": "Location: Chat. Legacy names for the widgets feature (menu entry, panel aria). aria-label of the widgets panel region."
+    },
+    "browser_manage_bookmarks_move_body_bookmark": {
+        "message": "Move bookmark \"{{name}}\" to another place.",
+        "description": "Location: Chat. Body of that card when a bookmark moves. {{name}} is its title."
+    },
+    "browser_manage_bookmarks_move_body_folder": {
+        "message": "Move folder \"{{name}}\" to another place.",
+        "description": "Location: Chat. Body of that card when a folder moves. {{name}} is its name."
+    },
+    "browser_manage_bookmarks_move_summary_bookmark": {
+        "message": "Moved bookmark \"{{name}}\"",
+        "description": "Location: Chat. One line about a bookmark that was moved, listed later as something the user can undo."
+    },
+    "browser_manage_bookmarks_move_summary_folder": {
+        "message": "Moved folder \"{{name}}\"",
+        "description": "Location: Chat. One line about a folder that was moved, listed later as something the user can undo."
+    },
+    "browser_manage_bookmarks_move_title": {
+        "message": "Move bookmark",
+        "description": "Location: Chat. Title of the card asking to move a bookmark or a bookmark folder."
+    },
+    "browser_manage_bookmarks_remove_body_bookmark": {
+        "message": "Delete bookmark \"{{name}}\".",
+        "description": "Location: Chat. Body of that card for one bookmark. {{name}} is its title."
+    },
+    "browser_manage_bookmarks_remove_body_folder": {
+        "message": "Delete folder \"{{name}}\" and the {{count}} item(s) inside it.",
+        "description": "Location: Chat. Body of that card for a folder. {{name}} is the folder, {{count}} how many items go with it."
+    },
+    "browser_manage_bookmarks_remove_summary_bookmark": {
+        "message": "Deleted bookmark \"{{name}}\"",
+        "description": "Location: Chat. One line about a bookmark that was deleted, listed later as something the user can undo."
+    },
+    "browser_manage_bookmarks_remove_summary_folder": {
+        "message": "Deleted bookmark folder \"{{name}}\" ({{count}} item(s) inside)",
+        "description": "Location: Chat. One line about a folder that was deleted, listed later as something the user can undo. {{count}} is how many items were inside."
+    },
+    "browser_manage_bookmarks_remove_title_bookmark": {
+        "message": "Delete bookmark",
+        "description": "Location: Chat. Title of the card asking to delete one bookmark."
+    },
+    "browser_manage_bookmarks_remove_title_folder": {
+        "message": "Delete bookmark folder",
+        "description": "Location: Chat. Title of the card asking to delete a bookmark folder."
+    },
+    "browser_manage_bookmarks_update_body": {
+        "message": "Change bookmark \"{{name}}\".",
+        "description": "Location: Chat. Body of that card. {{name}} is the bookmark's current title."
+    },
+    "browser_manage_bookmarks_update_new_link": {
+        "message": "New link: {{host}}.",
+        "description": "Location: Chat. An extra line of that card, when the link changes. {{host}} is the new link's site."
+    },
+    "browser_manage_bookmarks_update_new_title": {
+        "message": "New title: \"{{title}}\".",
+        "description": "Location: Chat. An extra line of that card, when the title changes. {{title}} is the new title."
+    },
+    "browser_manage_bookmarks_update_summary": {
+        "message": "Edited bookmark \"{{name}}\"",
+        "description": "Location: Chat. One line about a bookmark that was changed, listed later as something the user can undo. {{name}} is its title."
+    },
+    "browser_manage_bookmarks_update_title": {
+        "message": "Edit bookmark",
+        "description": "Location: Chat. Title of the card asking to change a bookmark."
+    },
+    "browser_manage_downloads_cancel_body": {
+        "message": "Cancel downloading \"{{name}}\".",
+        "description": "Location: Chat. Body of that card. {{name}} is the file being downloaded."
+    },
+    "browser_manage_downloads_cancel_title": {
+        "message": "Cancel download",
+        "description": "Location: Chat. Title of the card asking to cancel a download."
+    },
+    "browser_manage_downloads_pause_body": {
+        "message": "Pause downloading \"{{name}}\".",
+        "description": "Location: Chat. Body of that card. {{name}} is the file being downloaded."
+    },
+    "browser_manage_downloads_pause_title": {
+        "message": "Pause download",
+        "description": "Location: Chat. Title of the card asking to pause a download."
+    },
+    "browser_manage_downloads_remove_body": {
+        "message": "Remove the download record of \"{{name}}\".",
+        "description": "Location: Chat. Body of that card; the downloaded file itself stays on disk."
+    },
+    "browser_manage_downloads_remove_title": {
+        "message": "Remove download record",
+        "description": "Location: Chat. Title of the card asking to remove a download from the browser's list."
+    },
+    "browser_manage_downloads_resume_body": {
+        "message": "Resume downloading \"{{name}}\".",
+        "description": "Location: Chat. Body of that card. {{name}} is the file being downloaded."
+    },
+    "browser_manage_downloads_resume_title": {
+        "message": "Resume download",
+        "description": "Location: Chat. Title of the card asking to continue a paused download."
+    },
+    "browser_manage_emulation_clear_body": {
+        "message": "Clear the device and setting emulation I set on this tab.",
+        "description": "Location: Chat. Body of that card."
+    },
+    "browser_manage_emulation_clear_title": {
+        "message": "Stop emulating",
+        "description": "Location: Chat. Title of the card asking to stop emulating on a tab."
+    },
+    "browser_manage_emulation_item_cpu": {
+        "message": "A slower CPU.",
+        "description": "Location: Chat. One emulated setting: a slower CPU."
+    },
+    "browser_manage_emulation_item_geolocation": {
+        "message": "A set location.",
+        "description": "Location: Chat. One emulated setting: a set location."
+    },
+    "browser_manage_emulation_item_locale": {
+        "message": "Language {{locale}}.",
+        "description": "Location: Chat. One emulated setting: the language the page sees. {{locale}} is a locale such as de_DE."
+    },
+    "browser_manage_emulation_item_media": {
+        "message": "Media features (such as dark mode).",
+        "description": "Location: Chat. One emulated setting: media features such as dark mode."
+    },
+    "browser_manage_emulation_item_network": {
+        "message": "A slower network.",
+        "description": "Location: Chat. One emulated setting: a slower network."
+    },
+    "browser_manage_emulation_item_screen": {
+        "message": "Screen size {{width}}×{{height}}.",
+        "description": "Location: Chat. One emulated setting: the screen size. {{width}} and {{height}} are in pixels."
+    },
+    "browser_manage_emulation_item_timezone": {
+        "message": "Time zone {{timezone}}.",
+        "description": "Location: Chat. One emulated setting: the time zone. {{timezone}} is an IANA id such as Europe/Dublin."
+    },
+    "browser_manage_emulation_item_user_agent": {
+        "message": "A custom user agent.",
+        "description": "Location: Chat. One emulated setting: a custom user agent."
+    },
+    "browser_manage_emulation_set_body": {
+        "message": "Make this tab behave differently until I clear it or this task ends:",
+        "description": "Location: Chat. First line of that card; the settings themselves follow, one sentence each."
+    },
+    "browser_manage_emulation_set_title": {
+        "message": "Emulate a device or setting",
+        "description": "Location: Chat. Title of the card asking to make a tab behave as another device or setting."
+    },
+    "browser_manage_option_cancel": {
+        "message": "Cancel",
+        "description": "Location: Chat. A button on a browser confirmation card: do not make the change."
+    },
+    "browser_manage_option_confirm": {
+        "message": "Confirm",
+        "description": "Location: Chat. A button on a browser confirmation card: go ahead with the change."
+    },
+    "browser_manage_option_delete_only": {
+        "message": "Delete without export",
+        "description": "Location: Chat. A button on the card for deleting a Space: delete it without saving anything first."
+    },
+    "browser_manage_option_export_then_delete": {
+        "message": "Export, then delete",
+        "description": "Location: Chat. A button on the card for deleting a Space: save its contents to a JSON file first, then delete it."
+    },
+    "browser_manage_option_keep_current": {
+        "message": "Keep current",
+        "description": "Location: Chat. A button on the card for undoing a change: leave things as they are."
+    },
+    "browser_manage_option_merge": {
+        "message": "Merge",
+        "description": "Location: Chat. A button on the card for undoing a change: put back only what is missing, keeping what the user changed since."
+    },
+    "browser_manage_option_overwrite": {
+        "message": "Overwrite",
+        "description": "Location: Chat. A button on the card for undoing a change: put the old state back, over whatever is there now."
+    },
+    "browser_manage_pinned_tabs_remove_body": {
+        "message": "Remove pinned tab \"{{name}}\" from every Space of this profile.",
+        "description": "Location: Chat. Body of that card. A pin belongs to a profile, so it goes from all of that profile's Spaces."
+    },
+    "browser_manage_pinned_tabs_remove_summary": {
+        "message": "Removed pinned tab \"{{name}}\"",
+        "description": "Location: Chat. One line about a pinned tab that was removed, listed later as something the user can undo."
+    },
+    "browser_manage_pinned_tabs_remove_title": {
+        "message": "Remove pinned tab",
+        "description": "Location: Chat. Title of the card asking to remove a pinned tab."
+    },
+    "browser_manage_pinned_tabs_update_body": {
+        "message": "Change pinned tab \"{{name}}\".",
+        "description": "Location: Chat. Body of that card. {{name}} is the pinned tab's title."
+    },
+    "browser_manage_pinned_tabs_update_summary": {
+        "message": "Edited pinned tab \"{{name}}\"",
+        "description": "Location: Chat. One line about a pinned tab that was changed, listed later as something the user can undo."
+    },
+    "browser_manage_pinned_tabs_update_title": {
+        "message": "Edit pinned tab",
+        "description": "Location: Chat. Title of the card asking to change a pinned tab."
+    },
+    "browser_manage_profiles_rename_body": {
+        "message": "Rename profile \"{{from}}\" to \"{{to}}\".",
+        "description": "Location: Chat. Body of that card. {{from}} is the current name, {{to}} the new one."
+    },
+    "browser_manage_profiles_rename_title": {
+        "message": "Rename profile",
+        "description": "Location: Chat. Title of the card asking to rename a browser profile."
+    },
+    "browser_manage_raw_on_browser": {
+        "message": "Run {{method}} on the browser.",
+        "description": "Location: Chat. Body of that card when the command is about the browser itself, not a page."
+    },
+    "browser_manage_raw_on_tab": {
+        "message": "Run {{method}} on \"{{name}}\" ({{host}}).",
+        "description": "Location: Chat. Body of that card when it runs on a page. {{method}} is the command, {{name}} the page's title, {{host}} its site."
+    },
+    "browser_manage_raw_on_tab_no_host": {
+        "message": "Run {{method}} on \"{{name}}\".",
+        "description": "Location: Chat. Body of that card when the page has no site to name."
+    },
+    "browser_manage_raw_params": {
+        "message": "Parameters: {{params}}",
+        "description": "Location: Chat. A line of that card showing the command's arguments. {{params}} is JSON, possibly shortened."
+    },
+    "browser_manage_raw_title": {
+        "message": "Run a browser command",
+        "description": "Location: Chat. Title of the card asking to run a browser command the other tools do not cover."
+    },
+    "browser_manage_restore_choices_duplicate": {
+        "message": "Overwrite creates it again anyway; merge keeps the existing one and adds only what it lacks; keep current leaves things as they are.",
+        "description": "Location: Chat. Explains the buttons when something equivalent already exists."
+    },
+    "browser_manage_restore_choices_field": {
+        "message": "Overwrite puts everything back as it was; merge puts back only what was not changed since; keep current leaves it as it is.",
+        "description": "Location: Chat. Explains the buttons when the user changed the same thing again afterwards."
+    },
+    "browser_manage_restore_choices_structural": {
+        "message": "Overwrite puts it back in the nearest place that still exists; keep current leaves things as they are.",
+        "description": "Location: Chat. Explains the buttons when part of what would be put back is gone."
+    },
+    "browser_manage_restore_choices_structural_mergeable": {
+        "message": "Overwrite puts it back where it was, recreating any folders that are gone; merge does the same but uses a folder or bookmark of the same name where one exists; keep current leaves things as they are.",
+        "description": "Location: Chat. Explains the buttons when the missing part can be rebuilt (a bookmark's folders)."
+    },
+    "browser_manage_restore_detail_bookmark_exists": {
+        "message": "An equivalent bookmark already exists there.",
+        "description": "Location: Chat. Says what the conflict is: the same bookmark is already there."
+    },
+    "browser_manage_restore_detail_changed_since": {
+        "message": "It was changed again since.",
+        "description": "Location: Chat. Says what the conflict is: it was changed again since."
+    },
+    "browser_manage_restore_detail_folder_gone": {
+        "message": "Its folder no longer exists.",
+        "description": "Location: Chat. Says what the conflict is: the bookmark's folder is gone."
+    },
+    "browser_manage_restore_detail_gone": {
+        "message": "It no longer exists.",
+        "description": "Location: Chat. Says what the conflict is: the thing itself is gone."
+    },
+    "browser_manage_restore_detail_group_exists": {
+        "message": "A group with the same name exists in that window.",
+        "description": "Location: Chat. Says what the conflict is: a group of the same name is in that window."
+    },
+    "browser_manage_restore_detail_group_gone": {
+        "message": "The group no longer exists.",
+        "description": "Location: Chat. Says what the conflict is: the tab group no longer exists."
+    },
+    "browser_manage_restore_detail_pin_exists": {
+        "message": "The same page is pinned already.",
+        "description": "Location: Chat. Says what the conflict is: the same page is pinned already."
+    },
+    "browser_manage_restore_detail_rule_changed": {
+        "message": "The rule was changed or removed since.",
+        "description": "Location: Chat. Says what the conflict is: the rule was changed or deleted since."
+    },
+    "browser_manage_restore_detail_rule_exists": {
+        "message": "A rule for the same site already exists.",
+        "description": "Location: Chat. Says what the conflict is: a rule for the same site is already there."
+    },
+    "browser_manage_restore_detail_split_ended": {
+        "message": "The split view was ended since.",
+        "description": "Location: Chat. Says what the conflict is: the split view was ended since."
+    },
+    "browser_manage_restore_detail_split_exists": {
+        "message": "The same two pages are already split.",
+        "description": "Location: Chat. Says what the conflict is: those two pages are already split."
+    },
+    "browser_manage_restore_detail_tab_open": {
+        "message": "The same page is open in that window.",
+        "description": "Location: Chat. Says what the conflict is: the same page is open in that window."
+    },
+    "browser_manage_restore_detail_unpinned": {
+        "message": "It was unpinned since.",
+        "description": "Location: Chat. Says what the conflict is: it was unpinned since."
+    },
+    "browser_manage_restore_detail_window_closed": {
+        "message": "Its window was closed.",
+        "description": "Location: Chat. Says what the conflict is: the window it was in has been closed."
+    },
+    "browser_manage_restore_put_back": {
+        "message": "Put back: {{what}}.",
+        "description": "Location: Chat. First line of that card. {{what}} is the change itself, one of the summary lines above."
+    },
+    "browser_manage_restore_summary": {
+        "message": "Restored: {{what}}",
+        "description": "Location: Chat. One line about an undo that was done, listed later as something the user can undo in turn. {{what}} is the change that was put back."
+    },
+    "browser_manage_restore_tab_note": {
+        "message": "Reopened tabs lose their back/forward history and page state.",
+        "description": "Location: Chat. A line on the card when tabs would be reopened: they come back as their page, not as they were."
+    },
+    "browser_manage_restore_title_duplicate": {
+        "message": "Undo change: it exists already",
+        "description": "Location: Chat. Title of that card when something equivalent already exists."
+    },
+    "browser_manage_restore_title_field": {
+        "message": "Undo change: it was changed since",
+        "description": "Location: Chat. Title of that card when the user changed the same thing again afterwards."
+    },
+    "browser_manage_restore_title_none": {
+        "message": "Undo change",
+        "description": "Location: Chat. Title of the card asking to undo a change the browser tools made."
+    },
+    "browser_manage_restore_title_structural": {
+        "message": "Undo change: part of it is gone",
+        "description": "Location: Chat. Title of that card when part of what it would put back is gone (its folder, its window)."
+    },
+    "browser_manage_scope_other_space": {
+        "message": "This is in the Space \"{{name}}\", not the one you are looking at.",
+        "description": "Location: Chat. A line added to a browser confirmation card when the thing it is about to change lives in a Space other than the one the request came from."
+    },
+    "browser_manage_site_data_cache_delete_body": {
+        "message": "Delete a cache of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_cache_delete_title": {
+        "message": "Delete site cache",
+        "description": "Location: Chat. Title of the card asking to delete one of a site's caches."
+    },
+    "browser_manage_site_data_cache_list_body": {
+        "message": "List the caches of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_cache_list_title": {
+        "message": "List site caches",
+        "description": "Location: Chat. Title of the card asking to list a site's caches."
+    },
+    "browser_manage_site_data_clear_origin_body": {
+        "message": "Clear all stored data (cookies, storage, databases, caches) of {{site}}.",
+        "description": "Location: Chat. Body of that card, listing what goes. {{site}} is the site."
+    },
+    "browser_manage_site_data_clear_origin_title": {
+        "message": "Clear all site data",
+        "description": "Location: Chat. Title of the card asking to clear everything a site has stored."
+    },
+    "browser_manage_site_data_cookies_delete_body": {
+        "message": "Delete cookies of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_cookies_delete_title": {
+        "message": "Delete cookies",
+        "description": "Location: Chat. Title of the card asking to delete a cookie."
+    },
+    "browser_manage_site_data_cookies_get_body": {
+        "message": "Read the cookies of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_cookies_get_title": {
+        "message": "Read cookies",
+        "description": "Location: Chat. Title of the card asking to read a site's cookies."
+    },
+    "browser_manage_site_data_cookies_set_body": {
+        "message": "Set a cookie for {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_cookies_set_title": {
+        "message": "Set a cookie",
+        "description": "Location: Chat. Title of the card asking to set a cookie."
+    },
+    "browser_manage_site_data_current_tab": {
+        "message": "the site open in that tab",
+        "description": "Location: Chat. Stands in for a site's name when the request did not name one: the site the tab is showing. Shown inside another message."
+    },
+    "browser_manage_site_data_indexed_db_delete_body": {
+        "message": "Delete an IndexedDB database of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_indexed_db_delete_title": {
+        "message": "Delete site database",
+        "description": "Location: Chat. Title of the card asking to delete a site's database."
+    },
+    "browser_manage_site_data_indexed_db_list_body": {
+        "message": "List the IndexedDB databases of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_indexed_db_list_title": {
+        "message": "List site databases",
+        "description": "Location: Chat. Title of the card asking to list a site's databases."
+    },
+    "browser_manage_site_data_indexed_db_read_body": {
+        "message": "Read IndexedDB entries of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_indexed_db_read_title": {
+        "message": "Read site database",
+        "description": "Location: Chat. Title of the card asking to read entries from a site's database."
+    },
+    "browser_manage_site_data_local_storage_clear_body": {
+        "message": "Clear the local storage of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_local_storage_clear_title": {
+        "message": "Clear site storage",
+        "description": "Location: Chat. Title of the card asking to clear a site's local storage."
+    },
+    "browser_manage_site_data_local_storage_get_body": {
+        "message": "Read the local storage of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_local_storage_get_title": {
+        "message": "Read site storage",
+        "description": "Location: Chat. Title of the card asking to read a site's local storage."
+    },
+    "browser_manage_site_data_local_storage_remove_body": {
+        "message": "Delete a local-storage item of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_local_storage_remove_title": {
+        "message": "Delete from site storage",
+        "description": "Location: Chat. Title of the card asking to remove one item from a site's local storage."
+    },
+    "browser_manage_site_data_local_storage_set_body": {
+        "message": "Write to the local storage of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_local_storage_set_title": {
+        "message": "Change site storage",
+        "description": "Location: Chat. Title of the card asking to write one item into a site's local storage."
+    },
+    "browser_manage_site_data_names_only_note": {
+        "message": "Only names and sizes are shown to the AI, not the values.",
+        "description": "Location: Chat. A line on a site-data card saying only names and sizes go to the AI."
+    },
+    "browser_manage_site_data_service_worker_unregister_body": {
+        "message": "Unregister the service worker of {{site}}.",
+        "description": "Location: Chat. Body of that card. {{site}} is the site."
+    },
+    "browser_manage_site_data_service_worker_unregister_title": {
+        "message": "Remove site service worker",
+        "description": "Location: Chat. Title of the card asking to unregister a site's service worker (its background script)."
+    },
+    "browser_manage_site_data_values_note": {
+        "message": "The values will be passed to the AI.",
+        "description": "Location: Chat. A line on a site-data card warning that the stored values themselves go to the AI, not just their names."
+    },
+    "browser_manage_spaces_delete_body": {
+        "message": "Delete Space \"{{name}}\": its {{bookmarks}} bookmark(s) and {{rules}} URL rule(s) go with it, and its {{tabs}} tab(s) close.",
+        "description": "Location: Chat. Body of that card: what goes with the Space. {{bookmarks}}, {{rules}} and {{tabs}} are how many of each."
+    },
+    "browser_manage_spaces_delete_export_note": {
+        "message": "Exporting first saves all of it to a JSON file.",
+        "description": "Location: Chat. A line on that card offering to save the Space's contents to a file first."
+    },
+    "browser_manage_spaces_delete_title": {
+        "message": "Delete Space",
+        "description": "Location: Chat. Title of the card asking to delete a Space."
+    },
+    "browser_manage_spaces_update_body": {
+        "message": "Change Space \"{{name}}\".",
+        "description": "Location: Chat. Body of that card. {{name}} is the Space's name."
+    },
+    "browser_manage_spaces_update_title": {
+        "message": "Edit Space",
+        "description": "Location: Chat. Title of the card asking to change a Space (rename it, or change its colour or icon)."
+    },
+    "browser_manage_split_view_remove_body": {
+        "message": "End the split view of \"{{first}}\" and \"{{second}}\"; both tabs stay open.",
+        "description": "Location: Chat. Body of that card; both pages stay open afterwards."
+    },
+    "browser_manage_split_view_remove_summary": {
+        "message": "Ended split view \"{{first}}\" + \"{{second}}\"",
+        "description": "Location: Chat. One line about a split view that was ended, listed later as something the user can undo."
+    },
+    "browser_manage_split_view_remove_title": {
+        "message": "End split view",
+        "description": "Location: Chat. Title of the card asking to end a split view."
+    },
+    "browser_manage_split_view_swap_body": {
+        "message": "Swap the two sides of the split view of \"{{first}}\" and \"{{second}}\".",
+        "description": "Location: Chat. Body of that card. {{first}} and {{second}} are the two pages' titles."
+    },
+    "browser_manage_split_view_swap_summary": {
+        "message": "Swapped split view \"{{first}}\" + \"{{second}}\"",
+        "description": "Location: Chat. One line about a split view whose sides were swapped, listed later as something the user can undo."
+    },
+    "browser_manage_split_view_swap_title": {
+        "message": "Swap split view sides",
+        "description": "Location: Chat. Title of the card asking to swap the two sides of a split view."
+    },
+    "browser_manage_split_view_update_body": {
+        "message": "Change the split view of \"{{first}}\" and \"{{second}}\".",
+        "description": "Location: Chat. Body of that card. {{first}} and {{second}} are the two pages' titles."
+    },
+    "browser_manage_split_view_update_summary": {
+        "message": "Changed split view \"{{first}}\" + \"{{second}}\"",
+        "description": "Location: Chat. One line about a split view that was changed, listed later as something the user can undo."
+    },
+    "browser_manage_split_view_update_title": {
+        "message": "Change split view",
+        "description": "Location: Chat. Title of the card asking to change a split view (two pages side by side)."
+    },
+    "browser_manage_tab_groups_add_tabs_body": {
+        "message": "Add {{count}} tab(s) to tab group \"{{name}}\".",
+        "description": "Location: Chat. Body of that card. {{count}} is how many tabs, {{name}} the group."
+    },
+    "browser_manage_tab_groups_add_tabs_summary": {
+        "message": "Added {{count}} tab(s) to tab group \"{{name}}\"",
+        "description": "Location: Chat. One line about tabs added to a group, listed later as something the user can undo."
+    },
+    "browser_manage_tab_groups_add_tabs_title": {
+        "message": "Add tabs to group",
+        "description": "Location: Chat. Title of the card asking to add tabs to a group."
+    },
+    "browser_manage_tab_groups_close_body": {
+        "message": "Close tab group \"{{name}}\" and its {{count}} tab(s).",
+        "description": "Location: Chat. Body of that card. {{name}} is the group, {{count}} how many tabs close with it."
+    },
+    "browser_manage_tab_groups_close_summary": {
+        "message": "Closed tab group \"{{name}}\" with {{count}} tab(s)",
+        "description": "Location: Chat. One line about a tab group that was closed, listed later as something the user can undo."
+    },
+    "browser_manage_tab_groups_close_title": {
+        "message": "Close tab group",
+        "description": "Location: Chat. Title of the card asking to close a tab group and its tabs."
+    },
+    "browser_manage_tab_groups_remove_tabs_body_many": {
+        "message": "Take {{count}} tab(s) out of {{groups}} tab groups; the tabs stay open.",
+        "description": "Location: Chat. Body of that card when the tabs come from several groups. {{groups}} is how many groups."
+    },
+    "browser_manage_tab_groups_remove_tabs_body_one": {
+        "message": "Take {{count}} tab(s) out of tab group \"{{name}}\"; the tabs stay open.",
+        "description": "Location: Chat. Body of that card when all the tabs are in one group. {{count}} is how many, {{name}} the group."
+    },
+    "browser_manage_tab_groups_remove_tabs_summary": {
+        "message": "Took {{count}} tab(s) out of {{groups}} group(s)",
+        "description": "Location: Chat. One line about tabs taken out of their groups, listed later as something the user can undo."
+    },
+    "browser_manage_tab_groups_remove_tabs_title": {
+        "message": "Take tabs out of their group",
+        "description": "Location: Chat. Title of the card asking to take tabs out of their group."
+    },
+    "browser_manage_tab_groups_ungroup_body": {
+        "message": "Ungroup \"{{name}}\"; its {{count}} tab(s) stay open.",
+        "description": "Location: Chat. Body of that card. {{name}} is the group, {{count}} how many tabs stay open."
+    },
+    "browser_manage_tab_groups_ungroup_summary": {
+        "message": "Ungrouped tab group \"{{name}}\" ({{count}} tab(s))",
+        "description": "Location: Chat. One line about a tab group that was dissolved, listed later as something the user can undo."
+    },
+    "browser_manage_tab_groups_ungroup_title": {
+        "message": "Ungroup tabs",
+        "description": "Location: Chat. Title of the card asking to dissolve a tab group."
+    },
+    "browser_manage_tab_groups_update_body": {
+        "message": "Change tab group \"{{name}}\".",
+        "description": "Location: Chat. Body of that card. {{name}} is the group's name."
+    },
+    "browser_manage_tab_groups_update_summary": {
+        "message": "Edited tab group \"{{name}}\"",
+        "description": "Location: Chat. One line about a tab group that was changed, listed later as something the user can undo."
+    },
+    "browser_manage_tab_groups_update_title": {
+        "message": "Edit tab group",
+        "description": "Location: Chat. Title of the card asking to change a tab group."
+    },
+    "browser_manage_tabs_close_body": {
+        "message": "Close tab \"{{name}}\" ({{host}}).",
+        "description": "Location: Chat. Body of that card. {{name}} is the page's title, {{host}} the site it is on."
+    },
+    "browser_manage_tabs_close_body_no_host": {
+        "message": "Close tab \"{{name}}\".",
+        "description": "Location: Chat. Body of that card when the tab has no site to name."
+    },
+    "browser_manage_tabs_close_summary": {
+        "message": "Closed tab \"{{name}}\"",
+        "description": "Location: Chat. One line about a tab that was closed, listed later as something the user can undo."
+    },
+    "browser_manage_tabs_close_title": {
+        "message": "Close tab",
+        "description": "Location: Chat. Title of the card asking to close a tab."
+    },
+    "browser_manage_undo_approximate": {
+        "message": "You can ask me to undo this later; reopened tabs lose their back/forward history and page state.",
+        "description": "Location: Chat. The last line of a card for closing tabs: it can be undone, but a reopened tab is not exactly the one that closed."
+    },
+    "browser_manage_undo_not_restorable": {
+        "message": "This cannot be undone.",
+        "description": "Location: Chat. The last line of a card whose change cannot be undone."
+    },
+    "browser_manage_undo_restorable": {
+        "message": "You can ask me to undo this later.",
+        "description": "Location: Chat. The last line of a card whose change the user can have undone later."
+    },
+    "browser_manage_untitled": {
+        "message": "(untitled)",
+        "description": "Location: Chat. Stands in for a name the page or bookmark does not have. Shown inside another message, where a title would be."
+    },
+    "browser_manage_url_rules_delete_body": {
+        "message": "Delete the rule for {{rule}}.",
+        "description": "Location: Chat. Body of that card. {{rule}} is the site the rule matches."
+    },
+    "browser_manage_url_rules_delete_summary": {
+        "message": "Deleted URL rule {{rule}}",
+        "description": "Location: Chat. One line about a URL rule that was deleted, listed later as something the user can undo."
+    },
+    "browser_manage_url_rules_delete_title": {
+        "message": "Delete URL rule",
+        "description": "Location: Chat. Title of the card asking to delete such a rule."
+    },
+    "browser_manage_url_rules_update_body": {
+        "message": "Change the rule for {{rule}}.",
+        "description": "Location: Chat. Body of that card. {{rule}} is the site the rule matches, such as mail.google.com/calendar."
+    },
+    "browser_manage_url_rules_update_summary": {
+        "message": "Edited URL rule {{rule}}",
+        "description": "Location: Chat. One line about a URL rule that was changed, listed later as something the user can undo."
+    },
+    "browser_manage_url_rules_update_title": {
+        "message": "Edit URL rule",
+        "description": "Location: Chat. Title of the card asking to change a rule that opens a site's links in a chosen Space."
+    },
+    "browser_manage_windows_set_bounds_body": {
+        "message": "Move or resize a browser window.",
+        "description": "Location: Chat. Body of that card when neither a size nor a state is given."
+    },
+    "browser_manage_windows_set_bounds_body_size": {
+        "message": "Move or resize a browser window to {{width}}×{{height}}.",
+        "description": "Location: Chat. Body of that card when a size is given. {{width}} and {{height}} are in pixels."
+    },
+    "browser_manage_windows_set_bounds_body_state": {
+        "message": "Change a browser window to {{state}}.",
+        "description": "Location: Chat. Body of that card when the window is minimized, maximized or made full screen. {{state}} is one of those words."
+    },
+    "browser_manage_windows_set_bounds_title": {
+        "message": "Resize window",
+        "description": "Location: Chat. Title of the card asking to move or resize a browser window."
+    },
+    "browser_manage_windows_state_fullscreen": {
+        "message": "full screen",
+        "description": "Location: Chat. A window state, shown inside the line above."
+    },
+    "browser_manage_windows_state_maximized": {
+        "message": "maximized",
+        "description": "Location: Chat. A window state, shown inside the line above."
+    },
+    "browser_manage_windows_state_minimized": {
+        "message": "minimized",
+        "description": "Location: Chat. A window state, shown inside the line above."
     },
     "chat_attachments_add": {
         "message": "Attach files",
@@ -565,7 +1209,7 @@
     },
     "chat_start_title": {
         "message": "What can I help you with?",
-        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Short, welcoming heading above the empty conversation composer."
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Short, welcoming line above the empty conversation composer, shown beneath the assistant's avatar and its greeting by name."
     },
     "chat_tab_context_fallback": {
         "message": "Page context",
@@ -613,11 +1257,15 @@
     },
     "context_menu_ask_about": {
         "message": "Ask {{agentName}} about ...",
-        "description": "Location: Chat. Menu shown when the user right-clicks selected text and wants to ask the assistant about it. Default menu action before a selection preview is available; {{agentName}} is the assistant's name."
+        "description": "Location: Chat. Items Sidecar adds to the browser's right-click menu: asking the assistant about selected text, and having it watch the current page. Default menu action before a selection preview is available; {{agentName}} is the assistant's name."
     },
     "context_menu_ask_about_selection": {
         "message": "Ask {{agentName}} about “{{selection}}”",
-        "description": "Location: Chat. Menu shown when the user right-clicks selected text and wants to ask the assistant about it. Menu action with a selected-text preview; {{agentName}} is the assistant's name and {{selection}} is the selected text, possibly truncated."
+        "description": "Location: Chat. Items Sidecar adds to the browser's right-click menu: asking the assistant about selected text, and having it watch the current page. Menu action with a selected-text preview; {{agentName}} is the assistant's name and {{selection}} is the selected text, possibly truncated."
+    },
+    "context_menu_watch_page": {
+        "message": "Have {{agentName}} watch this page",
+        "description": "Location: Chat. Items Sidecar adds to the browser's right-click menu: asking the assistant about selected text, and having it watch the current page. Menu action shown when the user right-clicks a web page (no selection). The assistant will keep checking the page in the background and report important changes; {{agentName}} is the assistant's name."
     },
     "conversation_add_category": {
         "message": "New category",
@@ -635,29 +1283,17 @@
         "message": "All",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Category filter chip meaning 'no category filter'."
     },
-    "conversation_all_conversations": {
-        "message": "All Conversations",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Title of the full conversation-history browser page."
-    },
-    "conversation_all_conversations_description": {
-        "message": "Browse and manage your conversation history",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Subtitle under allConversations."
-    },
-    "conversation_back": {
-        "message": "Back",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Back navigation button."
+    "conversation_batch_delete_error": {
+        "message": "Failed to delete the selected conversations",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Error text when deleting the selected conversations fails."
     },
     "conversation_batch_mode": {
         "message": "Select",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button: enter multi-select mode. Keep short."
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Conversation row menu item in the Phi Chat list: enter multi-select mode with that row selected. Keep short."
     },
-    "conversation_browse_all": {
-        "message": "Browse All...",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Link at the bottom of the recent list to the full history page."
-    },
-    "conversation_browse_all_categories": {
-        "message": "Browse all categories…",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu item opening the full category picker dialog."
+    "conversation_by_profile": {
+        "message": "By Profile",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Section heading above browser Profile filters in the conversation filter chooser."
     },
     "conversation_cancel": {
         "message": "Cancel",
@@ -687,16 +1323,12 @@
         "message": "Failed to create conversation",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Error text when creating a conversation fails."
     },
-    "conversation_default_category_name": {
-        "message": "With {{name}}",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Name of the default category; {{name}} = the assistant's name."
-    },
     "conversation_delete": {
         "message": "Delete",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu item / button: delete the conversation."
     },
     "conversation_delete_batch_confirm_description": {
-        "message": "Are you sure you want to delete {{count}} conversations? This action cannot be undone.",
+        "message": "Are you sure you want to delete {{count}} conversation(s)? This action cannot be undone.",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Confirm-dialog body; {{count}} = number of selected conversations."
     },
     "conversation_delete_batch_confirm_title": {
@@ -708,8 +1340,8 @@
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu item: delete a category."
     },
     "conversation_delete_category_confirm_description": {
-        "message": "Conversations in this category will move back to \"With {{name}}\".",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Confirm body; {{name}} = assistant name of the default category the conversations return to."
+        "message": "Conversations in this category will move to \"{{category}}\".",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Category deletion confirmation; {{category}} is the localized protected Uncategorized category receiving the conversations."
     },
     "conversation_delete_category_confirm_title": {
         "message": "Delete category",
@@ -725,15 +1357,19 @@
     },
     "conversation_delete_selected": {
         "message": "Delete ({{count}})",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button: delete selection; {{count}} = number selected."
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Tooltip and aria-label of the delete button in multi-select mode; {{count}} = number selected."
     },
-    "conversation_deselect_item": {
-        "message": "Deselect",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. aria-label of a row's checkbox in multi-select mode (checked)."
+    "conversation_deselect_all": {
+        "message": "Deselect all",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button (tooltip and aria-label) in multi-select mode, shown when every loaded conversation is selected: clear the selection."
     },
     "conversation_exit_batch_mode": {
         "message": "Done",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button: leave multi-select mode. Keep short."
+    },
+    "conversation_filter_conversations": {
+        "message": "Filter conversations",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Accessible action label for opening the conversation filter chooser."
     },
     "conversation_load_error": {
         "message": "Failed to load conversations",
@@ -760,12 +1396,16 @@
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu item: move a conversation into a category."
     },
     "conversation_move_to_default": {
-        "message": "Move to \"With {{name}}\"",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu item: move back to the default category; {{name}} = assistant name."
+        "message": "Move to \"{{category}}\"",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu item to remove custom categorization; {{category}} is the localized protected Uncategorized category."
     },
-    "conversation_no_categories_found": {
-        "message": "No categories found",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Empty state of the category picker search."
+    "conversation_move_to_profile": {
+        "message": "Move to a Profile",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Submenu in the standalone Phi Chat list that gives a conversation without a Profile to one browser Profile; Profile means the browser Profile, as elsewhere in this catalog."
+    },
+    "conversation_my_categories": {
+        "message": "Categories",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Section heading above user and built-in conversation categories in the filter chooser."
     },
     "conversation_no_conversations": {
         "message": "No conversations yet",
@@ -774,6 +1414,10 @@
     "conversation_no_search_results": {
         "message": "No results for \"{{query}}\"",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Empty search result; {{query}} = the search text."
+    },
+    "conversation_no_task_conversations": {
+        "message": "Conversations where a Task was created will appear here",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Empty state of the built-in Tasks view of the conversation list: no conversation has created a Task yet."
     },
     "conversation_origin_chat": {
         "message": "Phi Chat",
@@ -791,9 +1435,17 @@
         "message": "Conversations",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Heading of the conversation list pane on the chat workspace page."
     },
+    "conversation_phi_chat_management_hint": {
+        "message": "For conversations across all Profiles and more management options, use Phi Chat.",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Informational footer in the sidebar conversation picker. Phi Chat is the application name. Profile refers to a browser Profile. This is not a clickable launch control."
+    },
+    "conversation_profile_category_name": {
+        "message": "Profile \"{{name}}\"",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Profile filter label in the conversation list and its selected view; {{name}} is the browser Profile's display name. Keep the Profile prefix and quotation marks to distinguish this from user categories."
+    },
     "conversation_recent_conversations": {
         "message": "Recent Conversations",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Section header for the recent list in the top-bar dropdown."
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Expandable section header for the recent list in the sidebar top-bar dropdown; expanded by default."
     },
     "conversation_rename": {
         "message": "Rename",
@@ -815,13 +1467,17 @@
         "message": "Retry",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button that retries a failed conversation list load."
     },
+    "conversation_retry_profiles": {
+        "message": "Could not load Profiles. Retry",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Action shown when browser Profiles could not be loaded; choosing it retries loading without changing the conversation selection."
+    },
     "conversation_save": {
         "message": "Save",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Dialog confirm button: save changes."
     },
-    "conversation_search_categories": {
-        "message": "Search categories",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Placeholder of the category search input in the picker dialog."
+    "conversation_search_filters": {
+        "message": "Find a Profile or category…",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Search field hint in the chooser listing browser Profiles and conversation categories. Profile is a browser feature name."
     },
     "conversation_search_label": {
         "message": "Search conversations",
@@ -835,17 +1491,33 @@
         "message": "Search conversations ({{shortcut}})",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Tooltip of the search button; {{shortcut}} = the keyboard chord, for example ⌘K."
     },
+    "conversation_select_all": {
+        "message": "Select all",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Button (tooltip and aria-label) in multi-select mode: select every conversation loaded in the list."
+    },
     "conversation_select_conversation": {
         "message": "Select Conversation",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Dialog title: pick a conversation."
     },
-    "conversation_select_item": {
-        "message": "Select",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. aria-label of a row's checkbox in multi-select mode (unchecked)."
-    },
     "conversation_select_placeholder": {
         "message": "Select conversation",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Placeholder of the conversation <select> while none is chosen."
+    },
+    "conversation_selected_count": {
+        "message": "{{count}} selected",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Heading of the conversation list while multi-select mode is on; {{count}} = number of selected conversations. Keep short, the pane is narrow."
+    },
+    "conversation_switch_conversation": {
+        "message": "Switch conversation",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Picker title and confirmation action for selecting another conversation without leaving the current web page."
+    },
+    "conversation_switch_discard_draft": {
+        "message": "Your unsent text and attachments will be discarded. Switch conversations?",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Confirmation before switching conversations when the composer contains unsent text or attachments. Switching discards that draft."
+    },
+    "conversation_tasks_category": {
+        "message": "Tasks",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Built-in conversation list view, shown right after 'All': conversations in which the assistant created a Task (a background or scheduled job managed in Sentinel). Not a user category; use the same word Sentinel uses for its Tasks page."
     },
     "conversation_title_placeholder": {
         "message": "Conversation title",
@@ -853,23 +1525,35 @@
     },
     "conversation_travel_back_error": {
         "message": "Couldn't reopen that page",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu entries that take the user back to the web page a conversation was about. The page title is shown underneath each entry. Toast shown when the browser could not reopen that page."
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Restore the conversation's latest web page and recorded split view. The page title is shown underneath the single entry. Toast shown when the browser could not reopen that page."
     },
     "conversation_travel_back_latest": {
         "message": "Back to the latest page",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu entries that take the user back to the web page a conversation was about. The page title is shown underneath each entry. Menu entry: reopen the page the user was on when they last sent a message in this conversation."
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Restore the conversation's latest web page and recorded split view. The page title is shown underneath the single entry. Single restore entry: resume the latest page and split view recorded on arrival, navigation, layout changes or sending a message."
     },
     "conversation_travel_back_origin": {
         "message": "Back to where it started",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu entries that take the user back to the web page a conversation was about. The page title is shown underneath each entry. Menu entry: reopen the page the conversation was started on."
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Restore the conversation's latest web page and recorded split view. The page title is shown underneath the single entry. Retired menu entry, no longer displayed: reopen the page the conversation was started on."
     },
     "conversation_travel_back_sidebar_error": {
-        "message": "The page is open, but its sidebar didn't follow. Open the sidebar there to continue this chat.",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu entries that take the user back to the web page a conversation was about. The page title is shown underneath each entry. Toast shown when the page was reopened in another tab but that tab's sidebar could not be opened automatically; the conversation still loads when the user opens the sidebar there within a minute."
+        "message": "The page is open, but this chat couldn't be restored there. Your conversation is still here. Try again.",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Restore the conversation's latest web page and recorded split view. The page title is shown underneath the single entry. Toast when the destination page opened but continuing the conversation there could not be confirmed. The original conversation is kept; ask the user to retry rather than promising that opening the sidebar manually will recover it."
+    },
+    "conversation_travel_back_target_unavailable": {
+        "message": "The original Space or Profile is no longer available. Your conversation is still here.",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Restore the conversation's latest web page and recorded split view. The page title is shown underneath the single entry. Toast when a conversation cannot return to its recorded browser workspace or browsing identity because that Space or Profile was deleted or the Space now belongs to a different Profile. The conversation is kept. Space and Profile are browser feature names."
+    },
+    "conversation_uncategorized": {
+        "message": "Uncategorized",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Name of the protected category receiving conversations whose browser Profile was deleted. It is separate from the default conversation group. Users can move conversations out, but cannot rename or delete this category."
     },
     "conversation_untitled": {
         "message": "Untitled",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Fallback title for a conversation without a name."
+    },
+    "conversation_without_profile": {
+        "message": "Without a Profile",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Conversation filter selecting chats not assigned to a browser Profile, including chats created in Phi Chat and chats kept after a Profile was deleted."
     },
     "conversations_categories_all": {
         "message": "All",
@@ -1083,6 +1767,10 @@
         "message": "Chat not found.",
         "description": "Location: Chat. Messages shown when a request to the service fails. Errors shown when loading, creating, or updating a conversation. The conversation does not exist."
     },
+    "errors_image_preview_awaiting_upload": {
+        "message": "This image is too large to preview before uploading. Wait for the upload to finish, then try again.",
+        "description": "Location: Chat. Messages shown when a request to the service fails. Toast when an image is too large for preview before its existing upload finishes. Ask the user to wait and click again; preview does not start another upload."
+    },
     "errors_run_failed": {
         "message": "Run failed",
         "description": "Location: Chat. Messages shown when a request to the service fails. Generic chat error shown when a reply fails without a specific reason."
@@ -1094,6 +1782,14 @@
     "errors_upload_not_available": {
         "message": "File uploads are not available right now.",
         "description": "Location: Chat. Messages shown when a request to the service fails. Toast shown when a file upload cannot start because uploads are temporarily unavailable."
+    },
+    "errors_upload_preparing": {
+        "message": "Uploads are getting ready. Please try again shortly. Text files are still available.",
+        "description": "Location: Chat. Messages shown when a request to the service fails. Menu hint and toast while attachment uploads are getting ready. Text files can still be added without uploading; the user must retry images or PDFs."
+    },
+    "errors_upload_sign_in_required": {
+        "message": "Sign in to add images or PDFs. Text files are still available.",
+        "description": "Location: Chat. Messages shown when a request to the service fails. Menu hint and toast when images and PDFs require sign-in. Text files can still be added without uploading."
     },
     "features_chat_with_tabs": {
         "message": "Chat with Tabs",
@@ -1635,10 +2331,6 @@
         "message": "Web search tool",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Tool-call blocks inside an assistant message. Display name of the built-in web search tool."
     },
-    "message_warning_title": {
-        "message": "Warning",
-        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Title of a warning activity bubble injected into the chat."
-    },
     "message_worker_progress_browser": {
         "message": "Operating the browser…",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Live status text shown while the assistant carries out an action on the user's behalf. Keep these short and in the present continuous. Activity: clicking and typing in the browser."
@@ -1922,6 +2614,18 @@
     "private_ai_banner_title": {
         "message": "You're using Private AI",
         "description": "Location: Chat. Banner shown while chatting with the local (Private AI) model. Banner headline; 'Private AI' is the local-model feature name."
+    },
+    "prompt_preferences_restore": {
+        "message": "Restore hidden prompts",
+        "description": "Location: Chat. The new-tab and chat overflow menus can restore hidden reminders in the current browser profile. This affects the return-to-page and Private AI Chat reminders only, not onboarding or other settings. Menu action: undo Don't show again for these reminders. Keep the label short."
+    },
+    "prompt_preferences_restore_error": {
+        "message": "Some prompts could not be restored. Please try again.",
+        "description": "Location: Chat. The new-tab and chat overflow menus can restore hidden reminders in the current browser profile. This affects the return-to-page and Private AI Chat reminders only, not onboarding or other settings. Error toast when restoring reminders failed. Some reminders may already have been restored; retrying is safe."
+    },
+    "prompt_preferences_restore_success": {
+        "message": "Prompts restored. They will appear again when relevant.",
+        "description": "Location: Chat. The new-tab and chat overflow menus can restore hidden reminders in the current browser profile. This affects the return-to-page and Private AI Chat reminders only, not onboarding or other settings. Success toast after restoring reminders. They still require the relevant context; reminders dismissed just for this visit stay hidden until the next visit."
     },
     "shadow_tasks_artifacts_empty": {
         "message": "No artifacts available",
@@ -2543,10 +3247,6 @@
         "message": "Skills",
         "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Menu entry opening the Skills page."
     },
-    "skills_only_available_on_sites": {
-        "message": "“{{name}}” is only available on {{sitesLabel}}.",
-        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Toast when a site-restricted skill can't run here; {{name}} = skill, {{sitesLabel}} = allowed sites list."
-    },
     "skills_pagination_label": {
         "message": "Skills pagination",
         "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Pager under the skills grid. aria-label of the pager."
@@ -2667,9 +3367,41 @@
         "message": "Menu",
         "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. aria of the … overflow menu trigger."
     },
-    "top_bar_open_in_new_tab": {
-        "message": "Open in new tab",
-        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Menu item: open this chat as a full tab."
+    "top_bar_open_in_phi_chat": {
+        "message": "Open in Phi Chat",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Toolbar button tooltip and accessible label: open the current conversation in a separate Phi Chat window. Keep the product name Phi Chat unchanged."
+    },
+    "top_bar_open_in_sidebar": {
+        "message": "Open in sidebar",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Toolbar button tooltip and accessible label on full-page chat surfaces (the Phi Chat window and the new tab page): reopen the web page this conversation last worked with and continue the conversation in that page's sidebar. Counterpart of topBar.openInPhiChat."
+    },
+    "top_bar_open_in_sidebar_no_page": {
+        "message": "This conversation isn't linked to a web page yet, so it can't open in a sidebar.",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Tooltip shown instead of topBar.openInSidebar while the button is disabled because the conversation has no recorded web page to reopen (for example it started in Phi Chat or in a messaging app)."
+    },
+    "top_bar_phi_chat_ai_off": {
+        "message": "AI features are turned off. Phi Chat cannot be opened.",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Error notice when Phi Chat cannot open because AI features are turned off. The current conversation remains available; this is not a browser version or installation error."
+    },
+    "top_bar_phi_chat_discard_draft_confirm": {
+        "message": "Discard and open",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Confirmation dialog action button: discard the draft and open Phi Chat. The cancel button reuses conversation.cancel."
+    },
+    "top_bar_phi_chat_discard_draft_description": {
+        "message": "Opening this conversation in Phi Chat clears the text and attachments in the sidebar composer. They are not carried over to the Phi Chat window.",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Confirmation dialog body: explains that opening in Phi Chat clears the composer text and attachments and that they do not reach the Phi Chat window. Keep the product name Phi Chat unchanged."
+    },
+    "top_bar_phi_chat_discard_draft_title": {
+        "message": "Discard your unsent draft?",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Confirmation dialog title shown when the sidebar composer still holds unsent text or attachments and the user clicks Open in Phi Chat."
+    },
+    "top_bar_phi_chat_open_error": {
+        "message": "Could not open Phi Chat. Your conversation is still here. Please try again.",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Error notice when a Phi Chat window could not be opened. Reassure the user that the current conversation is still available and suggest retrying."
+    },
+    "top_bar_phi_chat_unavailable": {
+        "message": "This browser version cannot open Phi Chat from the sidebar. Please update Phi Browser.",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Error notice when the browser does not support opening Phi Chat from the sidebar. The current conversation remains open; ask the user to update Phi Browser."
     },
     "top_bar_phi_link": {
         "message": "Phi Link",
@@ -2687,25 +3419,17 @@
         "message": "Show response speed",
         "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Menu switch that shows/hides the response-speed readout (the live banner above the composer and the per-message metrics line)."
     },
-    "travel_back_banner_description": {
-        "message": "Reopen it to pick up where you left off.",
-        "description": "Location: Chat. Reminder banner above the chat composer, shown when the open conversation recorded the web page it was about and can reopen it. Its action buttons reuse the conversation.travelBack entries. Banner body: reopening the page lets the user continue where they were."
-    },
-    "travel_back_banner_dismiss": {
-        "message": "Dismiss",
-        "description": "Location: Chat. Reminder banner above the chat composer, shown when the open conversation recorded the web page it was about and can reopen it. Its action buttons reuse the conversation.travelBack entries. aria-label of the close (X) button: hide the banner until the conversation is opened again."
-    },
-    "travel_back_banner_dont_show_again": {
-        "message": "Don't show again",
-        "description": "Location: Chat. Reminder banner above the chat composer, shown when the open conversation recorded the web page it was about and can reopen it. Its action buttons reuse the conversation.travelBack entries. Button: permanently hide the banner for every conversation."
-    },
-    "travel_back_banner_title": {
-        "message": "This chat was about a web page",
-        "description": "Location: Chat. Reminder banner above the chat composer, shown when the open conversation recorded the web page it was about and can reopen it. Its action buttons reuse the conversation.travelBack entries. Banner headline."
-    },
     "user_action_aborted": {
         "message": "Action aborted",
         "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Badge when the run ended before a decision."
+    },
+    "user_action_ask_from": {
+        "message": "Question from {{name}}",
+        "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Tag on a card where the assistant, mid-task, asks the user a question it wrote itself. {{name}} is the assistant's name."
+    },
+    "user_action_ask_from_assistant": {
+        "message": "Question from the assistant",
+        "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Same tag when the assistant's name is not known."
     },
     "user_action_cancelled": {
         "message": "Action cancelled",
@@ -2731,6 +3455,14 @@
         "message": "Deny",
         "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Button: reject the requested action."
     },
+    "user_action_expired": {
+        "message": "This question is no longer waiting for an answer.",
+        "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Toast when the clicked card is no longer the question the run waits on."
+    },
+    "user_action_required": {
+        "message": "Required",
+        "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Accessible label of the asterisk marking a form field that must be filled in."
+    },
     "user_action_responded": {
         "message": "Action confirmed",
         "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Badge after the user approved."
@@ -2754,6 +3486,14 @@
     "user_action_screenshot_alt": {
         "message": "Action screenshot",
         "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. alt text of the screenshot attached to the request."
+    },
+    "user_action_skip": {
+        "message": "Skip",
+        "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Button on the assistant's question card: decline to answer."
+    },
+    "user_action_submit": {
+        "message": "Submit",
+        "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Button on the assistant's question card: send the answers."
     },
     "user_input_add_file": {
         "message": "Add file",
@@ -2791,6 +3531,14 @@
         "message": "Queue for after this turn",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Send-button variant while a run is active: message queues for after the turn."
     },
+    "user_input_journey_context": {
+        "message": "Current activity",
+        "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Accessible label of the composer card showing what the user is currently doing (their browsing activity as the memory service reads it), attached as context for the next message."
+    },
+    "user_input_journey_working_toward": {
+        "message": "Working toward {{label}}",
+        "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Second line of the composer activity card: the larger goal the user's current activity serves. {{label}} is that goal's short name, generated in the user's language."
+    },
     "user_input_no_available_skills": {
         "message": "No available skills",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Empty state of the skill list."
@@ -2802,6 +3550,10 @@
     "user_input_remove_attachment": {
         "message": "Remove attachment",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. aria/tooltip on an attachment chip's remove button."
+    },
+    "user_input_remove_journey_context": {
+        "message": "Remove activity context",
+        "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. aria of the remove button on the composer activity card; removing it keeps the user's current activity out of the next message."
     },
     "user_input_remove_split_view": {
         "message": "Remove split view",
@@ -2847,6 +3599,10 @@
         "message": "https://example.com",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. URL input placeholder; keep as an example URL."
     },
+    "watch_page_kickoff_message": {
+        "message": "Keep an eye on this page for me and tell me when something important changes, like the price: {{url}}",
+        "description": "Location: Chat. First message of the conversation that the watch-this-page context-menu action opens in the Phi Chat window. First chat message sent on the user's behalf after they choose the watch-this-page menu action; it is an instruction to the assistant, written in the user's voice. {{url}} is the page address."
+    },
     "welcome_subtitle": {
         "message": "You can search, ask questions, or work with the current page",
         "description": "Location: Chat. Empty-chat welcome header. Capabilities hint under the greeting."
@@ -2858,5 +3614,41 @@
     "widgets_pinned_iframe_title": {
         "message": "Pinned widget",
         "description": "Location: Chat. New-tab-page widgets: bottom panel, library drawer, per-widget menu. title attribute of a pinned widget's iframe (accessibility name)."
+    },
+    "worker_target_body": {
+        "message": "This task needs to open browser pages. Pick a space — it will open its tabs there.",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. First sentence of the card: why the choice is needed."
+    },
+    "worker_target_field_remember": {
+        "message": "Use this space for the rest of this conversation",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Checkbox, ticked by default: keep using the chosen space for the rest of this conversation instead of asking again."
+    },
+    "worker_target_field_space": {
+        "message": "Space",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Label of the dropdown listing the spaces to choose from."
+    },
+    "worker_target_option_cancel": {
+        "message": "Cancel",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Button: do not run the task."
+    },
+    "worker_target_option_run": {
+        "message": "Run here",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Button: run the task in the chosen space."
+    },
+    "worker_target_space_in_profile": {
+        "message": "{{name}} ({{profile}})",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. One entry of the space dropdown when the spaces come from more than one browser profile: {{name}} is the space, {{profile}} the profile's name."
+    },
+    "worker_target_stale": {
+        "message": "The space you picked earlier no longer exists, so this has to be chosen again.",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Shown above the other sentences when the card is being asked a second time because the space chosen earlier has since been deleted."
+    },
+    "worker_target_stale_profile": {
+        "message": "The space you picked earlier belongs to a different browser profile than this conversation now does, so this has to be chosen again.",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Shown above the other sentences when the card is being asked a second time because the conversation now belongs to a different browser profile than the space it remembered."
+    },
+    "worker_target_title": {
+        "message": "Where should this task run?",
+        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Card title: asking which space the task should run in."
     }
 }

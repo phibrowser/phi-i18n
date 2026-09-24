@@ -21,7 +21,7 @@
         "message": "公開範囲の設定が無効です。'private' または 'public' のいずれかを指定してください。"
     },
     "errors_chat_pagination_conflict": {
-        "message": "starting_afterとending_beforeのパラメータは同時に使用できません。"
+        "message": "starting_afterとending_beforeを同時に指定することはできません。"
     },
     "errors_edit_delete_failed": {
         "message": "編集内容をサーバーに同期できませんでした。変更は応答の完了時に保存されます。"
@@ -440,6 +440,9 @@
     "widgets_menu_edit": {
         "message": "編集"
     },
+    "widgets_menu_inspect": {
+        "message": "ソースを検証"
+    },
     "widgets_menu_refresh": {
         "message": "再読み込み"
     },
@@ -451,5 +454,26 @@
     },
     "widgets_pending_refresh": {
         "message": "再生成"
+    },
+    "widgets_suggested_badge": {
+        "message": "おすすめ"
+    },
+    "widgets_suggested_keep": {
+        "message": "このウィジェットを残す"
+    },
+    "widgets_suggested_keep_short": {
+        "message": "残す"
+    },
+    "widgets_suggested_remove": {
+        "message": "このおすすめを削除"
+    },
+    "widgets_suggested_removed": {
+        "message": "おすすめを削除しました"
+    },
+    "widgets_suggested_stop": {
+        "message": "おすすめを表示しない"
+    },
+    "widgets_suggested_undo": {
+        "message": "元に戻す"
     }
 }

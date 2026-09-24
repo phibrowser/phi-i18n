@@ -1411,6 +1411,10 @@
         "message": "Relationship",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Closed observation-category names shown on memory badges; unknown future categories remain raw data. Display name for the relationship observation category."
     },
+    "memory_management_observation_categories_surface_preference": {
+        "message": "Surface preference",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Closed observation-category names shown on memory badges; unknown future categories remain raw data. Display name for the observation category that holds a standing request the user made about one of Phi's memory surfaces (for example the style of the new-tab greetings)."
+    },
     "memory_management_observation_categories_work": {
         "message": "Work",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Closed observation-category names shown on memory badges; unknown future categories remain raw data. Display name for the work observation category."
@@ -2011,6 +2015,10 @@
         "message": "Cancel",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Button that cancels widget generation in progress."
     },
+    "newtab_artifact_preview_compile_error_hint": {
+        "message": "This version could not run, so it can't be saved. Regenerate to try again.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Status line under the widget preview when the generated source fails to compile, which disables Save; the button beside it (newtab.artifactPreview.regenerate) re-runs the request."
+    },
     "newtab_artifact_preview_current_preview": {
         "message": "Current preview",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Label marking the widget version currently shown in the preview."
@@ -2047,9 +2055,25 @@
         "message": "Artifact preview",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Accessible title of the frame containing a generated widget preview."
     },
+    "newtab_artifact_preview_layout_fit_hint": {
+        "message": "Some content may not fit. You can regenerate it.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Status line under the widget preview when the generated layout may not fit its grid cell; the button beside it (newtab.artifactPreview.regenerate) re-runs the request."
+    },
+    "newtab_artifact_preview_phases_adjusting_layout": {
+        "message": "Adjusting the layout...",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while the assistant reworks the widget to fix a layout problem."
+    },
+    "newtab_artifact_preview_phases_adjusting_styles": {
+        "message": "Adjusting styles (attempt {{attempt}})...",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while the assistant rewrites a widget a design-language check rejected; {{attempt}} is the 1-based number of the attempt now being written."
+    },
     "newtab_artifact_preview_phases_calling_tool": {
         "message": "Calling {{tool}}...",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while a tool runs; {{tool}} is its raw snake_case identifier."
+    },
+    "newtab_artifact_preview_phases_checking_layout": {
+        "message": "Checking layout...",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while the finished widget is measured off-screen against the layout rules."
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "Composing widget...",
@@ -2062,6 +2086,10 @@
     "newtab_artifact_preview_phases_ready": {
         "message": "Ready",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label after widget generation finishes."
+    },
+    "newtab_artifact_preview_phases_resizing": {
+        "message": "Trying another size...",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while the widget is re-measured at a different grid size."
     },
     "newtab_artifact_preview_phases_starting": {
         "message": "Starting...",
@@ -2099,10 +2127,6 @@
         "message": "Retry",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Button label for retrying failed widget generation."
     },
-    "newtab_artifact_preview_runtime_error": {
-        "message": "Widget runtime error",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Heading above technical error detail when a generated widget crashes while running."
-    },
     "newtab_artifact_preview_save": {
         "message": "Save",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Compact button that saves the current widget."
@@ -2135,9 +2159,9 @@
         "message": "Composing widget…",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Fallback and error cards rendered inside the isolated generated-widget frame. Loading-card text while partial generated widget code is being composed."
     },
-    "newtab_artifact_sandbox_failed_to_load": {
-        "message": "Widget failed to load",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Fallback and error cards rendered inside the isolated generated-widget frame. Error-card title when the widget cannot load its data."
+    "newtab_artifact_sandbox_loading_data": {
+        "message": "Loading…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Fallback and error cards rendered inside the isolated generated-widget frame. First-load badge shown while a widget's first data fetch is in flight."
     },
     "newtab_artifact_sandbox_page_title": {
         "message": "Phi Artifact Sandbox",
@@ -2222,6 +2246,390 @@
     "newtab_widget_library_page_title": {
         "message": "Widget Library",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Browser document title for the standalone widget-library frame."
+    },
+    "newtab_widget_templates_air_quality_alder": {
+        "message": "Alder",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Pollen source, used in the pollen pill."
+    },
+    "newtab_widget_templates_air_quality_birch": {
+        "message": "Birch",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Pollen source, used in the pollen pill."
+    },
+    "newtab_widget_templates_air_quality_current_location": {
+        "message": "Current location",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Card title when the reading is for the browser's own location, which has no place name."
+    },
+    "newtab_widget_templates_air_quality_european_aqi": {
+        "message": "European AQI",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Name of the European air quality index scale, after the category (\"Good · European AQI\")."
+    },
+    "newtab_widget_templates_air_quality_extremely_poor": {
+        "message": "Extremely poor",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). European air quality category, the worst."
+    },
+    "newtab_widget_templates_air_quality_fair": {
+        "message": "Fair",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). European air quality category between Good and Moderate."
+    },
+    "newtab_widget_templates_air_quality_good": {
+        "message": "Good",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Air quality category (both scales)."
+    },
+    "newtab_widget_templates_air_quality_grass": {
+        "message": "Grass",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Pollen source, used in the pollen pill."
+    },
+    "newtab_widget_templates_air_quality_hazardous": {
+        "message": "Hazardous",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). US air quality category, the worst."
+    },
+    "newtab_widget_templates_air_quality_loading": {
+        "message": "Loading air quality…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Shown under the empty index while the reading is loading."
+    },
+    "newtab_widget_templates_air_quality_moderate": {
+        "message": "Moderate",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Air quality category (both scales)."
+    },
+    "newtab_widget_templates_air_quality_mugwort": {
+        "message": "Mugwort",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Pollen source, used in the pollen pill."
+    },
+    "newtab_widget_templates_air_quality_olive": {
+        "message": "Olive",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Pollen source, used in the pollen pill."
+    },
+    "newtab_widget_templates_air_quality_pollen": {
+        "message": "{{name}} pollen {{value}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Pill with the strongest pollen. {{name}} is the plant (\"Grass\"), {{value}} the grains per cubic metre."
+    },
+    "newtab_widget_templates_air_quality_poor": {
+        "message": "Poor",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). European air quality category."
+    },
+    "newtab_widget_templates_air_quality_ragweed": {
+        "message": "Ragweed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Pollen source, used in the pollen pill."
+    },
+    "newtab_widget_templates_air_quality_title": {
+        "message": "Air quality",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Card title before a place is known and no label is set."
+    },
+    "newtab_widget_templates_air_quality_unavailable": {
+        "message": "Air quality unavailable",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Shown under the empty index when the reading could not be loaded."
+    },
+    "newtab_widget_templates_air_quality_unhealthy": {
+        "message": "Unhealthy",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). US air quality category."
+    },
+    "newtab_widget_templates_air_quality_unhealthy_for_sensitive": {
+        "message": "Unhealthy for sensitive groups",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). US air quality category. Keep it short; the card is narrow."
+    },
+    "newtab_widget_templates_air_quality_us_aqi": {
+        "message": "US AQI",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). Name of the US air quality index scale, after the category (\"Good · US AQI\")."
+    },
+    "newtab_widget_templates_air_quality_very_poor": {
+        "message": "Very poor",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). European air quality category."
+    },
+    "newtab_widget_templates_air_quality_very_unhealthy": {
+        "message": "Very unhealthy",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). US air quality category."
+    },
+    "newtab_widget_templates_clock_local_time": {
+        "message": "Local time",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Clock catalog widget (a small new-tab card showing the time). Card title when no timezone or label is set: the time shown is the device's own."
+    },
+    "newtab_widget_templates_daily_report_empty": {
+        "message": "No browser activity yet today",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Daily report catalog widget (a new-tab card with a short AI-written summary of today's browsing). Shown when there is no browser activity today, so no report is written."
+    },
+    "newtab_widget_templates_daily_report_failed": {
+        "message": "Couldn't write today's report",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Daily report catalog widget (a new-tab card with a short AI-written summary of today's browsing). Shown when no report arrived after about 45 seconds."
+    },
+    "newtab_widget_templates_daily_report_fallback": {
+        "message": "Today so far: {{items}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Daily report catalog widget (a new-tab card with a short AI-written summary of today's browsing). Shown when the AI report could not be written; {{items}} is a comma-separated list of today's activity names."
+    },
+    "newtab_widget_templates_daily_report_today": {
+        "message": "Today",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Daily report catalog widget (a new-tab card with a short AI-written summary of today's browsing). Card title word before the date, e.g. \"Today · Tue, Sep 22\"."
+    },
+    "newtab_widget_templates_daily_report_writing": {
+        "message": "Writing today's report…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Daily report catalog widget (a new-tab card with a short AI-written summary of today's browsing). Shown while the AI is writing today's report."
+    },
+    "newtab_widget_templates_github_stars_cant_load": {
+        "message": "Can't load this repo",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Status copy inside the GitHub stars catalog widget (a small new-tab card). Short line under the empty star count when the repository could not be loaded."
+    },
+    "newtab_widget_templates_github_stars_forks": {
+        "message": "{{count}} forks",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Status copy inside the GitHub stars catalog widget (a small new-tab card). Pill with the fork count. {{count}} is the formatted number."
+    },
+    "newtab_widget_templates_github_stars_load_failed": {
+        "message": "Couldn't load right now",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Status copy inside the GitHub stars catalog widget (a small new-tab card). Replaces the loading line when no data arrived after about 15 seconds."
+    },
+    "newtab_widget_templates_github_stars_loading": {
+        "message": "Loading repository…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Status copy inside the GitHub stars catalog widget (a small new-tab card). Shown under the empty star count while the repository data is loading."
+    },
+    "newtab_widget_templates_github_stars_open": {
+        "message": "Open",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Status copy inside the GitHub stars catalog widget (a small new-tab card). Link that opens the repository on GitHub."
+    },
+    "newtab_widget_templates_github_stars_private_or_limit": {
+        "message": "Private, or GitHub's hourly limit hit",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Status copy inside the GitHub stars catalog widget (a small new-tab card). One-line explanation under a failed load: the repository may be private, or the hourly GitHub API limit was reached. Keep it short; the card is narrow."
+    },
+    "newtab_widget_templates_github_stars_stars": {
+        "message": "Stars · {{repo}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Status copy inside the GitHub stars catalog widget (a small new-tab card). Line under the star count. {{repo}} is the repository, such as \"vercel/next.js\"."
+    },
+    "newtab_widget_templates_package_releases_empty": {
+        "message": "No releases yet",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). Shown when the package has no releases."
+    },
+    "newtab_widget_templates_package_releases_failed": {
+        "message": "Can't load releases",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). Shown when the release data could not be loaded, or nothing arrived after about 15 seconds."
+    },
+    "newtab_widget_templates_package_releases_github_hint": {
+        "message": "Private, or GitHub's hourly limit hit",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). One-line explanation under a failed GitHub load: the repository may be private, or the hourly GitHub API limit was reached. Keep it short; the card is narrow."
+    },
+    "newtab_widget_templates_package_releases_latest": {
+        "message": "Latest",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). Small badge on the newest release."
+    },
+    "newtab_widget_templates_package_releases_loading": {
+        "message": "Loading…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). Shown while the release data loads."
+    },
+    "newtab_widget_templates_package_releases_open": {
+        "message": "Open",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). Link at the bottom of the card that opens the package page."
+    },
+    "newtab_widget_templates_package_releases_pre": {
+        "message": "Pre",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). Small badge on a pre-release; keep it very short."
+    },
+    "newtab_widget_templates_package_releases_yanked": {
+        "message": "Yanked",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). Small badge on a release that was withdrawn (yanked) by its publisher; keep it short."
+    },
+    "newtab_widget_templates_pomodoro_break": {
+        "message": "Break",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Card title during a break interval."
+    },
+    "newtab_widget_templates_pomodoro_cycle": {
+        "message": "{{work}}/{{break}}m",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Compact pill with the interval lengths, such as \"25/5m\". {{work}} is the work interval and {{break}} the break interval, both in minutes. Keep it very short."
+    },
+    "newtab_widget_templates_pomodoro_focus": {
+        "message": "Focus",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Card title during a work interval."
+    },
+    "newtab_widget_templates_pomodoro_pause": {
+        "message": "Pause",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Button that pauses the running timer."
+    },
+    "newtab_widget_templates_pomodoro_reset": {
+        "message": "Reset",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Button that resets the timer to a fresh work interval."
+    },
+    "newtab_widget_templates_pomodoro_start": {
+        "message": "Start",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Button that starts or resumes the timer."
+    },
+    "newtab_widget_templates_quick_translator_auto": {
+        "message": "Auto",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Source-language option that detects the language automatically."
+    },
+    "newtab_widget_templates_quick_translator_empty": {
+        "message": "Translation appears here.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Shown in the result area before anything is translated."
+    },
+    "newtab_widget_templates_quick_translator_failed": {
+        "message": "Could not translate right now.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Shown in the result area when a translation failed."
+    },
+    "newtab_widget_templates_quick_translator_placeholder": {
+        "message": "Enter text here…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Placeholder in the empty text box."
+    },
+    "newtab_widget_templates_quick_translator_shortcut": {
+        "message": "Ctrl or Cmd + Enter",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Keyboard hint next to the Translate button."
+    },
+    "newtab_widget_templates_quick_translator_source_language": {
+        "message": "Source language",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Accessible label of the source-language picker."
+    },
+    "newtab_widget_templates_quick_translator_swap": {
+        "message": "Swap languages",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Accessible label and tooltip of the button that swaps source and target."
+    },
+    "newtab_widget_templates_quick_translator_swap_needs_source": {
+        "message": "Pick a source language to swap",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Tooltip of the disabled swap button while the source is Auto."
+    },
+    "newtab_widget_templates_quick_translator_target_language": {
+        "message": "Target language",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Accessible label of the target-language picker."
+    },
+    "newtab_widget_templates_quick_translator_text_label": {
+        "message": "Text to translate",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Accessible label of the text box."
+    },
+    "newtab_widget_templates_quick_translator_title": {
+        "message": "Quick translator",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Card title."
+    },
+    "newtab_widget_templates_quick_translator_translate": {
+        "message": "Translate",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Button that translates the text."
+    },
+    "newtab_widget_templates_quick_translator_translating": {
+        "message": "Translating…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Translate button label while a translation is running."
+    },
+    "newtab_widget_templates_quick_translator_unavailable": {
+        "message": "Translation service unavailable.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quick translator catalog widget (a new-tab card that translates short text). Shown in the result area when the card cannot reach the translation service."
+    },
+    "newtab_widget_templates_quote_of_the_day_caption": {
+        "message": "Quote of the day",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quote of the day catalog widget (a small new-tab card with one short quote). Card title above the quote."
+    },
+    "newtab_widget_templates_recent_reads_empty": {
+        "message": "Articles you read will show up here",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Recent reads catalog widget (a small new-tab card listing three recently read articles). Shown when there are no recently read articles yet."
+    },
+    "newtab_widget_templates_recent_reads_failed": {
+        "message": "Couldn't read your browsing history",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Recent reads catalog widget (a small new-tab card listing three recently read articles). Shown when the browsing history could not be read, or nothing arrived after about 15 seconds."
+    },
+    "newtab_widget_templates_recent_reads_loading": {
+        "message": "Loading…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Recent reads catalog widget (a small new-tab card listing three recently read articles). Shown while the card reads the user's browsing history."
+    },
+    "newtab_widget_templates_recent_reads_title": {
+        "message": "Recent reads",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Recent reads catalog widget (a small new-tab card listing three recently read articles). Card title above the list of recently read articles."
+    },
+    "newtab_widget_templates_recent_reads_untitled": {
+        "message": "Untitled",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Recent reads catalog widget (a small new-tab card listing three recently read articles). Row title for a page that has neither a title nor a host."
+    },
+    "newtab_widget_templates_top_sites_empty": {
+        "message": "Sites you visit often will show up here",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Top sites catalog widget (a small new-tab card of three frequently visited sites). Shown when browsing history has no frequently visited sites yet."
+    },
+    "newtab_widget_templates_top_sites_failed": {
+        "message": "Couldn't read your browsing history",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Top sites catalog widget (a small new-tab card of three frequently visited sites). Shown when the browsing history could not be read, or nothing arrived after about 15 seconds."
+    },
+    "newtab_widget_templates_top_sites_loading": {
+        "message": "Loading…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Top sites catalog widget (a small new-tab card of three frequently visited sites). Shown while the card reads the user's browsing history."
+    },
+    "newtab_widget_templates_top_sites_title": {
+        "message": "Top sites",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Top sites catalog widget (a small new-tab card of three frequently visited sites). Card title above the three most-visited sites."
+    },
+    "newtab_widget_templates_weather_clear": {
+        "message": "Clear",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: clear sky."
+    },
+    "newtab_widget_templates_weather_current_location": {
+        "message": "Current location",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Card title when the forecast is for the browser's own location, which has no place name."
+    },
+    "newtab_widget_templates_weather_drizzle": {
+        "message": "Drizzle",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: drizzle."
+    },
+    "newtab_widget_templates_weather_fog": {
+        "message": "Fog",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: fog."
+    },
+    "newtab_widget_templates_weather_heavy_rain": {
+        "message": "Heavy rain",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: heavy rain."
+    },
+    "newtab_widget_templates_weather_heavy_showers": {
+        "message": "Heavy showers",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: violent rain showers."
+    },
+    "newtab_widget_templates_weather_heavy_snow": {
+        "message": "Heavy snow",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: heavy snowfall."
+    },
+    "newtab_widget_templates_weather_loading": {
+        "message": "Loading weather…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Shown under the empty temperature while the forecast is loading."
+    },
+    "newtab_widget_templates_weather_mostly_clear": {
+        "message": "Mostly clear",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: mainly clear sky."
+    },
+    "newtab_widget_templates_weather_overcast": {
+        "message": "Overcast",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: overcast sky."
+    },
+    "newtab_widget_templates_weather_partly_cloudy": {
+        "message": "Partly cloudy",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: partly cloudy."
+    },
+    "newtab_widget_templates_weather_rain": {
+        "message": "Rain",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: rain."
+    },
+    "newtab_widget_templates_weather_showers": {
+        "message": "Showers",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: rain showers."
+    },
+    "newtab_widget_templates_weather_snow": {
+        "message": "Snow",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: snowfall."
+    },
+    "newtab_widget_templates_weather_thunderstorm": {
+        "message": "Thunderstorm",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Weather condition: thunderstorm."
+    },
+    "newtab_widget_templates_weather_title": {
+        "message": "Weather",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Card title before a place is known and no label is set."
+    },
+    "newtab_widget_templates_weather_unavailable": {
+        "message": "Weather unavailable",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Shown under the empty temperature when the forecast could not be loaded."
+    },
+    "newtab_widget_templates_weather_wind": {
+        "message": "Wind {{speed}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Pill with the wind speed. {{speed}} is the number and unit, such as \"12 km/h\"."
+    },
+    "newtab_widget_templates_world_clocks_loading": {
+        "message": "Loading clocks…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the World clocks catalog widget (a small new-tab card listing times in up to three timezones). Shown while the timezone data is loading."
+    },
+    "newtab_widget_templates_world_clocks_timezone": {
+        "message": "Timezone",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the World clocks catalog widget (a small new-tab card listing times in up to three timezones). Row name for a zone that has neither a label nor an IANA name."
+    },
+    "newtab_widget_templates_world_clocks_title": {
+        "message": "World clocks",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the World clocks catalog widget (a small new-tab card listing times in up to three timezones). Card title when the user set no label."
+    },
+    "newtab_widget_templates_world_clocks_unavailable": {
+        "message": "Timezone data unavailable",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the World clocks catalog widget (a small new-tab card listing times in up to three timezones). Shown instead of the rows when the timezone data could not be loaded."
     },
     "newtab_widgets_overflow": {
         "message": "+{{count}} more",
@@ -2582,6 +2990,42 @@
     "widgets_customization_resize_top": {
         "message": "Resize widget from top",
         "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Accessible labels for moving and resizing pinned widgets while page customization is active. Accessible label on the handle that resizes a pinned widget from its top edge."
+    },
+    "widgets_inspect_source_category": {
+        "message": "Category: {{value}}",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row: the artifact's category. {{value}} is the category name."
+    },
+    "widgets_inspect_source_component": {
+        "message": "Component (TSX)",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Section label when the widget's markup is a TSX component."
+    },
+    "widgets_inspect_source_data_fetch": {
+        "message": "Data fetch",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Section label for the widget's data-fetch source code."
+    },
+    "widgets_inspect_source_data_manifest": {
+        "message": "Data manifest",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Section label for the widget's declarative data manifest, shown as pretty-printed JSON."
+    },
+    "widgets_inspect_source_html": {
+        "message": "HTML",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Section label when the widget's markup is an HTML fragment."
+    },
+    "widgets_inspect_source_preferred_size": {
+        "message": "Preferred size: {{value}}",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row: the artifact's preferred grid size. {{value}} is the size, e.g. 2x1."
+    },
+    "widgets_inspect_source_refresh_interval": {
+        "message": "Refresh interval: {{ms}}ms",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row: how often the widget refetches its data. {{ms}} is the interval in milliseconds."
+    },
+    "widgets_inspect_source_select": {
+        "message": "Select",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Button that selects the section's source text in the page, so the user can copy it with the keyboard themselves."
+    },
+    "widgets_inspect_source_template_id": {
+        "message": "Template: {{value}}",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row, shown only when the artifact was installed from the catalog: the source template id. {{value}} is the template id."
     },
     "widgets_library_disclaimer": {
         "message": "Widgets are AI-generated and may occasionally be inaccurate.",

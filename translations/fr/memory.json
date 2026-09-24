@@ -1058,6 +1058,9 @@
     "memory_management_observation_categories_relationship": {
         "message": "Relation"
     },
+    "memory_management_observation_categories_surface_preference": {
+        "message": "Préférence de surface"
+    },
     "memory_management_observation_categories_work": {
         "message": "Travail"
     },
@@ -1508,6 +1511,9 @@
     "newtab_artifact_preview_cancel": {
         "message": "Annuler"
     },
+    "newtab_artifact_preview_compile_error_hint": {
+        "message": "Cette version n'a pas pu s'exécuter et ne peut donc pas être enregistrée. Régénérez pour réessayer."
+    },
     "newtab_artifact_preview_current_preview": {
         "message": "Aperçu actuel"
     },
@@ -1535,8 +1541,20 @@
     "newtab_artifact_preview_iframe_title": {
         "message": "Aperçu de l'artefact"
     },
+    "newtab_artifact_preview_layout_fit_hint": {
+        "message": "Une partie du contenu risque de ne pas tenir. Vous pouvez régénérer le widget."
+    },
+    "newtab_artifact_preview_phases_adjusting_layout": {
+        "message": "Ajustement de la mise en page…"
+    },
+    "newtab_artifact_preview_phases_adjusting_styles": {
+        "message": "Ajustement des styles (tentative {{attempt}})…"
+    },
     "newtab_artifact_preview_phases_calling_tool": {
         "message": "Appel de {{tool}}…"
+    },
+    "newtab_artifact_preview_phases_checking_layout": {
+        "message": "Vérification de la mise en page…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "Composition du widget…"
@@ -1546,6 +1564,9 @@
     },
     "newtab_artifact_preview_phases_ready": {
         "message": "Prêt"
+    },
+    "newtab_artifact_preview_phases_resizing": {
+        "message": "Essai d'une autre taille…"
     },
     "newtab_artifact_preview_phases_starting": {
         "message": "Démarrage…"
@@ -1574,9 +1595,6 @@
     "newtab_artifact_preview_retry": {
         "message": "Réessayer"
     },
-    "newtab_artifact_preview_runtime_error": {
-        "message": "Erreur d'exécution du widget"
-    },
     "newtab_artifact_preview_save": {
         "message": "Enregistrer"
     },
@@ -1601,8 +1619,8 @@
     "newtab_artifact_sandbox_composing": {
         "message": "Composition du widget…"
     },
-    "newtab_artifact_sandbox_failed_to_load": {
-        "message": "Échec du chargement du widget"
+    "newtab_artifact_sandbox_loading_data": {
+        "message": "Chargement…"
     },
     "newtab_artifact_sandbox_page_title": {
         "message": "Phi Artifact Sandbox"
@@ -1666,6 +1684,294 @@
     },
     "newtab_widget_library_page_title": {
         "message": "Bibliothèque de widgets"
+    },
+    "newtab_widget_templates_air_quality_alder": {
+        "message": "Aulne"
+    },
+    "newtab_widget_templates_air_quality_birch": {
+        "message": "Bouleau"
+    },
+    "newtab_widget_templates_air_quality_current_location": {
+        "message": "Position actuelle"
+    },
+    "newtab_widget_templates_air_quality_european_aqi": {
+        "message": "IQA européen"
+    },
+    "newtab_widget_templates_air_quality_extremely_poor": {
+        "message": "Extrêmement mauvais"
+    },
+    "newtab_widget_templates_air_quality_fair": {
+        "message": "Moyen"
+    },
+    "newtab_widget_templates_air_quality_good": {
+        "message": "Bon"
+    },
+    "newtab_widget_templates_air_quality_grass": {
+        "message": "Graminées"
+    },
+    "newtab_widget_templates_air_quality_hazardous": {
+        "message": "Dangereux"
+    },
+    "newtab_widget_templates_air_quality_loading": {
+        "message": "Chargement de la qualité de l'air…"
+    },
+    "newtab_widget_templates_air_quality_moderate": {
+        "message": "Modéré"
+    },
+    "newtab_widget_templates_air_quality_mugwort": {
+        "message": "Armoise"
+    },
+    "newtab_widget_templates_air_quality_olive": {
+        "message": "Olivier"
+    },
+    "newtab_widget_templates_air_quality_pollen": {
+        "message": "Pollen : {{name}} {{value}}"
+    },
+    "newtab_widget_templates_air_quality_poor": {
+        "message": "Mauvais"
+    },
+    "newtab_widget_templates_air_quality_ragweed": {
+        "message": "Ambroisie"
+    },
+    "newtab_widget_templates_air_quality_title": {
+        "message": "Qualité de l'air"
+    },
+    "newtab_widget_templates_air_quality_unavailable": {
+        "message": "Qualité de l'air indisponible"
+    },
+    "newtab_widget_templates_air_quality_unhealthy": {
+        "message": "Mauvais pour la santé"
+    },
+    "newtab_widget_templates_air_quality_unhealthy_for_sensitive": {
+        "message": "Mauvais pour les groupes sensibles"
+    },
+    "newtab_widget_templates_air_quality_us_aqi": {
+        "message": "IQA américain"
+    },
+    "newtab_widget_templates_air_quality_very_poor": {
+        "message": "Très mauvais"
+    },
+    "newtab_widget_templates_air_quality_very_unhealthy": {
+        "message": "Très mauvais pour la santé"
+    },
+    "newtab_widget_templates_clock_local_time": {
+        "message": "Heure locale"
+    },
+    "newtab_widget_templates_daily_report_empty": {
+        "message": "Pas encore d'activité de navigation aujourd'hui"
+    },
+    "newtab_widget_templates_daily_report_failed": {
+        "message": "Impossible de rédiger le rapport du jour"
+    },
+    "newtab_widget_templates_daily_report_fallback": {
+        "message": "Jusqu'ici aujourd'hui : {{items}}"
+    },
+    "newtab_widget_templates_daily_report_today": {
+        "message": "Aujourd'hui"
+    },
+    "newtab_widget_templates_daily_report_writing": {
+        "message": "Rédaction du rapport du jour…"
+    },
+    "newtab_widget_templates_github_stars_cant_load": {
+        "message": "Impossible de charger ce dépôt"
+    },
+    "newtab_widget_templates_github_stars_forks": {
+        "message": "{{count}} forks"
+    },
+    "newtab_widget_templates_github_stars_load_failed": {
+        "message": "Chargement impossible pour le moment"
+    },
+    "newtab_widget_templates_github_stars_loading": {
+        "message": "Chargement du dépôt…"
+    },
+    "newtab_widget_templates_github_stars_open": {
+        "message": "Ouvrir"
+    },
+    "newtab_widget_templates_github_stars_private_or_limit": {
+        "message": "Dépôt privé ou limite horaire GitHub atteinte"
+    },
+    "newtab_widget_templates_github_stars_stars": {
+        "message": "Étoiles · {{repo}}"
+    },
+    "newtab_widget_templates_package_releases_empty": {
+        "message": "Pas encore de version publiée"
+    },
+    "newtab_widget_templates_package_releases_failed": {
+        "message": "Impossible de charger les versions"
+    },
+    "newtab_widget_templates_package_releases_github_hint": {
+        "message": "Dépôt privé ou limite horaire GitHub atteinte"
+    },
+    "newtab_widget_templates_package_releases_latest": {
+        "message": "Dernière"
+    },
+    "newtab_widget_templates_package_releases_loading": {
+        "message": "Chargement…"
+    },
+    "newtab_widget_templates_package_releases_open": {
+        "message": "Ouvrir"
+    },
+    "newtab_widget_templates_package_releases_pre": {
+        "message": "Pré"
+    },
+    "newtab_widget_templates_package_releases_yanked": {
+        "message": "Yanked"
+    },
+    "newtab_widget_templates_pomodoro_break": {
+        "message": "Pause"
+    },
+    "newtab_widget_templates_pomodoro_cycle": {
+        "message": "{{work}}/{{break}} min"
+    },
+    "newtab_widget_templates_pomodoro_focus": {
+        "message": "Concentration"
+    },
+    "newtab_widget_templates_pomodoro_pause": {
+        "message": "Suspendre"
+    },
+    "newtab_widget_templates_pomodoro_reset": {
+        "message": "Réinitialiser"
+    },
+    "newtab_widget_templates_pomodoro_start": {
+        "message": "Démarrer"
+    },
+    "newtab_widget_templates_quick_translator_auto": {
+        "message": "Auto"
+    },
+    "newtab_widget_templates_quick_translator_empty": {
+        "message": "La traduction s'affiche ici."
+    },
+    "newtab_widget_templates_quick_translator_failed": {
+        "message": "Traduction impossible pour le moment."
+    },
+    "newtab_widget_templates_quick_translator_placeholder": {
+        "message": "Saisissez votre texte ici…"
+    },
+    "newtab_widget_templates_quick_translator_shortcut": {
+        "message": "Ctrl ou Cmd + Entrée"
+    },
+    "newtab_widget_templates_quick_translator_source_language": {
+        "message": "Langue source"
+    },
+    "newtab_widget_templates_quick_translator_swap": {
+        "message": "Inverser les langues"
+    },
+    "newtab_widget_templates_quick_translator_swap_needs_source": {
+        "message": "Choisissez une langue source pour inverser"
+    },
+    "newtab_widget_templates_quick_translator_target_language": {
+        "message": "Langue cible"
+    },
+    "newtab_widget_templates_quick_translator_text_label": {
+        "message": "Texte à traduire"
+    },
+    "newtab_widget_templates_quick_translator_title": {
+        "message": "Traducteur rapide"
+    },
+    "newtab_widget_templates_quick_translator_translate": {
+        "message": "Traduire"
+    },
+    "newtab_widget_templates_quick_translator_translating": {
+        "message": "Traduction…"
+    },
+    "newtab_widget_templates_quick_translator_unavailable": {
+        "message": "Service de traduction indisponible."
+    },
+    "newtab_widget_templates_quote_of_the_day_caption": {
+        "message": "Citation du jour"
+    },
+    "newtab_widget_templates_recent_reads_empty": {
+        "message": "Les articles que vous lisez apparaîtront ici"
+    },
+    "newtab_widget_templates_recent_reads_failed": {
+        "message": "Impossible de lire votre historique de navigation"
+    },
+    "newtab_widget_templates_recent_reads_loading": {
+        "message": "Chargement…"
+    },
+    "newtab_widget_templates_recent_reads_title": {
+        "message": "Lectures récentes"
+    },
+    "newtab_widget_templates_recent_reads_untitled": {
+        "message": "Sans titre"
+    },
+    "newtab_widget_templates_top_sites_empty": {
+        "message": "Les sites que vous visitez souvent apparaîtront ici"
+    },
+    "newtab_widget_templates_top_sites_failed": {
+        "message": "Impossible de lire votre historique de navigation"
+    },
+    "newtab_widget_templates_top_sites_loading": {
+        "message": "Chargement…"
+    },
+    "newtab_widget_templates_top_sites_title": {
+        "message": "Sites les plus visités"
+    },
+    "newtab_widget_templates_weather_clear": {
+        "message": "Dégagé"
+    },
+    "newtab_widget_templates_weather_current_location": {
+        "message": "Position actuelle"
+    },
+    "newtab_widget_templates_weather_drizzle": {
+        "message": "Bruine"
+    },
+    "newtab_widget_templates_weather_fog": {
+        "message": "Brouillard"
+    },
+    "newtab_widget_templates_weather_heavy_rain": {
+        "message": "Pluie forte"
+    },
+    "newtab_widget_templates_weather_heavy_showers": {
+        "message": "Fortes averses"
+    },
+    "newtab_widget_templates_weather_heavy_snow": {
+        "message": "Neige forte"
+    },
+    "newtab_widget_templates_weather_loading": {
+        "message": "Chargement de la météo…"
+    },
+    "newtab_widget_templates_weather_mostly_clear": {
+        "message": "Plutôt dégagé"
+    },
+    "newtab_widget_templates_weather_overcast": {
+        "message": "Couvert"
+    },
+    "newtab_widget_templates_weather_partly_cloudy": {
+        "message": "Partiellement nuageux"
+    },
+    "newtab_widget_templates_weather_rain": {
+        "message": "Pluie"
+    },
+    "newtab_widget_templates_weather_showers": {
+        "message": "Averses"
+    },
+    "newtab_widget_templates_weather_snow": {
+        "message": "Neige"
+    },
+    "newtab_widget_templates_weather_thunderstorm": {
+        "message": "Orage"
+    },
+    "newtab_widget_templates_weather_title": {
+        "message": "Météo"
+    },
+    "newtab_widget_templates_weather_unavailable": {
+        "message": "Météo indisponible"
+    },
+    "newtab_widget_templates_weather_wind": {
+        "message": "Vent {{speed}}"
+    },
+    "newtab_widget_templates_world_clocks_loading": {
+        "message": "Chargement des horloges…"
+    },
+    "newtab_widget_templates_world_clocks_timezone": {
+        "message": "Fuseau horaire"
+    },
+    "newtab_widget_templates_world_clocks_title": {
+        "message": "Horloges mondiales"
+    },
+    "newtab_widget_templates_world_clocks_unavailable": {
+        "message": "Données de fuseaux horaires indisponibles"
     },
     "newtab_widgets_overflow": {
         "message": "+{{count}} de plus"
@@ -1936,6 +2242,33 @@
     },
     "widgets_customization_resize_top": {
         "message": "Redimensionner le widget depuis le bord supérieur"
+    },
+    "widgets_inspect_source_category": {
+        "message": "Catégorie : {{value}}"
+    },
+    "widgets_inspect_source_component": {
+        "message": "Composant (TSX)"
+    },
+    "widgets_inspect_source_data_fetch": {
+        "message": "Récupération des données"
+    },
+    "widgets_inspect_source_data_manifest": {
+        "message": "Manifeste de données"
+    },
+    "widgets_inspect_source_html": {
+        "message": "HTML"
+    },
+    "widgets_inspect_source_preferred_size": {
+        "message": "Taille préférée : {{value}}"
+    },
+    "widgets_inspect_source_refresh_interval": {
+        "message": "Intervalle d'actualisation : {{ms}} ms"
+    },
+    "widgets_inspect_source_select": {
+        "message": "Sélectionner"
+    },
+    "widgets_inspect_source_template_id": {
+        "message": "Modèle : {{value}}"
     },
     "widgets_library_disclaimer": {
         "message": "Les widgets sont générés par IA et peuvent parfois être inexacts."

@@ -21,7 +21,7 @@
         "message": "可見性設定無效，只能是 'private' 或 'public'。"
     },
     "errors_chat_pagination_conflict": {
-        "message": "不能同時使用 starting_after 和 ending_before 參數。"
+        "message": "無法同時使用 starting_after 和 ending_before 參數。"
     },
     "errors_edit_delete_failed": {
         "message": "無法將編輯同步到伺服器，變更會在回應完成後儲存。"
@@ -440,6 +440,9 @@
     "widgets_menu_edit": {
         "message": "編輯"
     },
+    "widgets_menu_inspect": {
+        "message": "檢視原始碼"
+    },
     "widgets_menu_refresh": {
         "message": "重新整理"
     },
@@ -451,5 +454,26 @@
     },
     "widgets_pending_refresh": {
         "message": "重新產生"
+    },
+    "widgets_suggested_badge": {
+        "message": "推薦"
+    },
+    "widgets_suggested_keep": {
+        "message": "保留這個小工具"
+    },
+    "widgets_suggested_keep_short": {
+        "message": "保留"
+    },
+    "widgets_suggested_remove": {
+        "message": "移除這個推薦"
+    },
+    "widgets_suggested_removed": {
+        "message": "已移除推薦"
+    },
+    "widgets_suggested_stop": {
+        "message": "停止推薦"
+    },
+    "widgets_suggested_undo": {
+        "message": "復原"
     }
 }

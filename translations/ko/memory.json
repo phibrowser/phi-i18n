@@ -1058,6 +1058,9 @@
     "memory_management_observation_categories_relationship": {
         "message": "관계"
     },
+    "memory_management_observation_categories_surface_preference": {
+        "message": "화면 표시 선호"
+    },
     "memory_management_observation_categories_work": {
         "message": "업무"
     },
@@ -1508,6 +1511,9 @@
     "newtab_artifact_preview_cancel": {
         "message": "취소"
     },
+    "newtab_artifact_preview_compile_error_hint": {
+        "message": "이 버전은 실행되지 않아 저장할 수 없어요. 다시 생성해 보세요."
+    },
     "newtab_artifact_preview_current_preview": {
         "message": "현재 미리보기"
     },
@@ -1535,8 +1541,20 @@
     "newtab_artifact_preview_iframe_title": {
         "message": "아티팩트 미리보기"
     },
+    "newtab_artifact_preview_layout_fit_hint": {
+        "message": "일부 내용이 잘릴 수 있어요. 다시 생성할 수 있어요."
+    },
+    "newtab_artifact_preview_phases_adjusting_layout": {
+        "message": "레이아웃 조정 중…"
+    },
+    "newtab_artifact_preview_phases_adjusting_styles": {
+        "message": "스타일 조정 중 ({{attempt}}번째 시도)…"
+    },
     "newtab_artifact_preview_phases_calling_tool": {
         "message": "{{tool}} 호출 중…"
+    },
+    "newtab_artifact_preview_phases_checking_layout": {
+        "message": "레이아웃 확인 중…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "위젯 구성 중…"
@@ -1546,6 +1564,9 @@
     },
     "newtab_artifact_preview_phases_ready": {
         "message": "준비 완료"
+    },
+    "newtab_artifact_preview_phases_resizing": {
+        "message": "다른 크기 시도 중…"
     },
     "newtab_artifact_preview_phases_starting": {
         "message": "시작하는 중…"
@@ -1574,9 +1595,6 @@
     "newtab_artifact_preview_retry": {
         "message": "다시 시도"
     },
-    "newtab_artifact_preview_runtime_error": {
-        "message": "위젯 실행 오류"
-    },
     "newtab_artifact_preview_save": {
         "message": "저장"
     },
@@ -1601,8 +1619,8 @@
     "newtab_artifact_sandbox_composing": {
         "message": "위젯 구성 중…"
     },
-    "newtab_artifact_sandbox_failed_to_load": {
-        "message": "위젯을 불러오지 못했어요"
+    "newtab_artifact_sandbox_loading_data": {
+        "message": "불러오는 중…"
     },
     "newtab_artifact_sandbox_page_title": {
         "message": "Phi 아티팩트 샌드박스"
@@ -1666,6 +1684,294 @@
     },
     "newtab_widget_library_page_title": {
         "message": "위젯 라이브러리"
+    },
+    "newtab_widget_templates_air_quality_alder": {
+        "message": "오리나무"
+    },
+    "newtab_widget_templates_air_quality_birch": {
+        "message": "자작나무"
+    },
+    "newtab_widget_templates_air_quality_current_location": {
+        "message": "현재 위치"
+    },
+    "newtab_widget_templates_air_quality_european_aqi": {
+        "message": "유럽 AQI"
+    },
+    "newtab_widget_templates_air_quality_extremely_poor": {
+        "message": "극히 나쁨"
+    },
+    "newtab_widget_templates_air_quality_fair": {
+        "message": "양호"
+    },
+    "newtab_widget_templates_air_quality_good": {
+        "message": "좋음"
+    },
+    "newtab_widget_templates_air_quality_grass": {
+        "message": "잔디"
+    },
+    "newtab_widget_templates_air_quality_hazardous": {
+        "message": "위험"
+    },
+    "newtab_widget_templates_air_quality_loading": {
+        "message": "대기질 불러오는 중…"
+    },
+    "newtab_widget_templates_air_quality_moderate": {
+        "message": "보통"
+    },
+    "newtab_widget_templates_air_quality_mugwort": {
+        "message": "쑥"
+    },
+    "newtab_widget_templates_air_quality_olive": {
+        "message": "올리브"
+    },
+    "newtab_widget_templates_air_quality_pollen": {
+        "message": "{{name}} 꽃가루 {{value}}"
+    },
+    "newtab_widget_templates_air_quality_poor": {
+        "message": "나쁨"
+    },
+    "newtab_widget_templates_air_quality_ragweed": {
+        "message": "돼지풀"
+    },
+    "newtab_widget_templates_air_quality_title": {
+        "message": "대기질"
+    },
+    "newtab_widget_templates_air_quality_unavailable": {
+        "message": "대기질을 불러올 수 없어요"
+    },
+    "newtab_widget_templates_air_quality_unhealthy": {
+        "message": "나쁨"
+    },
+    "newtab_widget_templates_air_quality_unhealthy_for_sensitive": {
+        "message": "민감군 나쁨"
+    },
+    "newtab_widget_templates_air_quality_us_aqi": {
+        "message": "미국 AQI"
+    },
+    "newtab_widget_templates_air_quality_very_poor": {
+        "message": "매우 나쁨"
+    },
+    "newtab_widget_templates_air_quality_very_unhealthy": {
+        "message": "매우 나쁨"
+    },
+    "newtab_widget_templates_clock_local_time": {
+        "message": "현지 시간"
+    },
+    "newtab_widget_templates_daily_report_empty": {
+        "message": "오늘은 아직 브라우저 활동이 없어요"
+    },
+    "newtab_widget_templates_daily_report_failed": {
+        "message": "오늘의 리포트를 작성하지 못했어요"
+    },
+    "newtab_widget_templates_daily_report_fallback": {
+        "message": "오늘 지금까지: {{items}}"
+    },
+    "newtab_widget_templates_daily_report_today": {
+        "message": "오늘"
+    },
+    "newtab_widget_templates_daily_report_writing": {
+        "message": "오늘의 리포트를 작성하는 중…"
+    },
+    "newtab_widget_templates_github_stars_cant_load": {
+        "message": "이 저장소를 불러올 수 없어요"
+    },
+    "newtab_widget_templates_github_stars_forks": {
+        "message": "포크 {{count}}개"
+    },
+    "newtab_widget_templates_github_stars_load_failed": {
+        "message": "지금은 불러올 수 없어요"
+    },
+    "newtab_widget_templates_github_stars_loading": {
+        "message": "저장소 불러오는 중…"
+    },
+    "newtab_widget_templates_github_stars_open": {
+        "message": "열기"
+    },
+    "newtab_widget_templates_github_stars_private_or_limit": {
+        "message": "비공개이거나 GitHub 시간당 한도에 도달했어요"
+    },
+    "newtab_widget_templates_github_stars_stars": {
+        "message": "스타 · {{repo}}"
+    },
+    "newtab_widget_templates_package_releases_empty": {
+        "message": "아직 릴리스가 없어요"
+    },
+    "newtab_widget_templates_package_releases_failed": {
+        "message": "릴리스를 불러올 수 없어요"
+    },
+    "newtab_widget_templates_package_releases_github_hint": {
+        "message": "비공개이거나 GitHub 시간당 한도에 도달했어요"
+    },
+    "newtab_widget_templates_package_releases_latest": {
+        "message": "최신"
+    },
+    "newtab_widget_templates_package_releases_loading": {
+        "message": "불러오는 중…"
+    },
+    "newtab_widget_templates_package_releases_open": {
+        "message": "열기"
+    },
+    "newtab_widget_templates_package_releases_pre": {
+        "message": "프리"
+    },
+    "newtab_widget_templates_package_releases_yanked": {
+        "message": "Yanked"
+    },
+    "newtab_widget_templates_pomodoro_break": {
+        "message": "휴식"
+    },
+    "newtab_widget_templates_pomodoro_cycle": {
+        "message": "{{work}}/{{break}}분"
+    },
+    "newtab_widget_templates_pomodoro_focus": {
+        "message": "집중"
+    },
+    "newtab_widget_templates_pomodoro_pause": {
+        "message": "일시정지"
+    },
+    "newtab_widget_templates_pomodoro_reset": {
+        "message": "초기화"
+    },
+    "newtab_widget_templates_pomodoro_start": {
+        "message": "시작"
+    },
+    "newtab_widget_templates_quick_translator_auto": {
+        "message": "자동 감지"
+    },
+    "newtab_widget_templates_quick_translator_empty": {
+        "message": "번역 결과가 여기에 표시돼요."
+    },
+    "newtab_widget_templates_quick_translator_failed": {
+        "message": "지금은 번역할 수 없어요."
+    },
+    "newtab_widget_templates_quick_translator_placeholder": {
+        "message": "여기에 텍스트를 입력하세요…"
+    },
+    "newtab_widget_templates_quick_translator_shortcut": {
+        "message": "Ctrl 또는 Cmd + Enter"
+    },
+    "newtab_widget_templates_quick_translator_source_language": {
+        "message": "원본 언어"
+    },
+    "newtab_widget_templates_quick_translator_swap": {
+        "message": "언어 바꾸기"
+    },
+    "newtab_widget_templates_quick_translator_swap_needs_source": {
+        "message": "언어를 바꾸려면 원본 언어를 선택하세요"
+    },
+    "newtab_widget_templates_quick_translator_target_language": {
+        "message": "대상 언어"
+    },
+    "newtab_widget_templates_quick_translator_text_label": {
+        "message": "번역할 텍스트"
+    },
+    "newtab_widget_templates_quick_translator_title": {
+        "message": "빠른 번역"
+    },
+    "newtab_widget_templates_quick_translator_translate": {
+        "message": "번역"
+    },
+    "newtab_widget_templates_quick_translator_translating": {
+        "message": "번역 중…"
+    },
+    "newtab_widget_templates_quick_translator_unavailable": {
+        "message": "번역 서비스를 사용할 수 없어요."
+    },
+    "newtab_widget_templates_quote_of_the_day_caption": {
+        "message": "오늘의 명언"
+    },
+    "newtab_widget_templates_recent_reads_empty": {
+        "message": "읽은 글이 여기에 표시돼요"
+    },
+    "newtab_widget_templates_recent_reads_failed": {
+        "message": "방문 기록을 읽을 수 없어요"
+    },
+    "newtab_widget_templates_recent_reads_loading": {
+        "message": "불러오는 중…"
+    },
+    "newtab_widget_templates_recent_reads_title": {
+        "message": "최근 읽은 글"
+    },
+    "newtab_widget_templates_recent_reads_untitled": {
+        "message": "제목 없음"
+    },
+    "newtab_widget_templates_top_sites_empty": {
+        "message": "자주 방문한 사이트가 여기에 표시돼요"
+    },
+    "newtab_widget_templates_top_sites_failed": {
+        "message": "방문 기록을 읽을 수 없어요"
+    },
+    "newtab_widget_templates_top_sites_loading": {
+        "message": "불러오는 중…"
+    },
+    "newtab_widget_templates_top_sites_title": {
+        "message": "자주 방문한 사이트"
+    },
+    "newtab_widget_templates_weather_clear": {
+        "message": "맑음"
+    },
+    "newtab_widget_templates_weather_current_location": {
+        "message": "현재 위치"
+    },
+    "newtab_widget_templates_weather_drizzle": {
+        "message": "이슬비"
+    },
+    "newtab_widget_templates_weather_fog": {
+        "message": "안개"
+    },
+    "newtab_widget_templates_weather_heavy_rain": {
+        "message": "폭우"
+    },
+    "newtab_widget_templates_weather_heavy_showers": {
+        "message": "강한 소나기"
+    },
+    "newtab_widget_templates_weather_heavy_snow": {
+        "message": "폭설"
+    },
+    "newtab_widget_templates_weather_loading": {
+        "message": "날씨 불러오는 중…"
+    },
+    "newtab_widget_templates_weather_mostly_clear": {
+        "message": "대체로 맑음"
+    },
+    "newtab_widget_templates_weather_overcast": {
+        "message": "흐림"
+    },
+    "newtab_widget_templates_weather_partly_cloudy": {
+        "message": "구름 조금"
+    },
+    "newtab_widget_templates_weather_rain": {
+        "message": "비"
+    },
+    "newtab_widget_templates_weather_showers": {
+        "message": "소나기"
+    },
+    "newtab_widget_templates_weather_snow": {
+        "message": "눈"
+    },
+    "newtab_widget_templates_weather_thunderstorm": {
+        "message": "뇌우"
+    },
+    "newtab_widget_templates_weather_title": {
+        "message": "날씨"
+    },
+    "newtab_widget_templates_weather_unavailable": {
+        "message": "날씨를 불러올 수 없어요"
+    },
+    "newtab_widget_templates_weather_wind": {
+        "message": "바람 {{speed}}"
+    },
+    "newtab_widget_templates_world_clocks_loading": {
+        "message": "시계 불러오는 중…"
+    },
+    "newtab_widget_templates_world_clocks_timezone": {
+        "message": "시간대"
+    },
+    "newtab_widget_templates_world_clocks_title": {
+        "message": "세계 시계"
+    },
+    "newtab_widget_templates_world_clocks_unavailable": {
+        "message": "시간대 정보를 불러올 수 없어요"
     },
     "newtab_widgets_overflow": {
         "message": "+{{count}}개 더"
@@ -1936,6 +2242,33 @@
     },
     "widgets_customization_resize_top": {
         "message": "위젯 위쪽 크기 조절"
+    },
+    "widgets_inspect_source_category": {
+        "message": "카테고리: {{value}}"
+    },
+    "widgets_inspect_source_component": {
+        "message": "컴포넌트(TSX)"
+    },
+    "widgets_inspect_source_data_fetch": {
+        "message": "데이터 가져오기"
+    },
+    "widgets_inspect_source_data_manifest": {
+        "message": "데이터 매니페스트"
+    },
+    "widgets_inspect_source_html": {
+        "message": "HTML"
+    },
+    "widgets_inspect_source_preferred_size": {
+        "message": "선호 크기: {{value}}"
+    },
+    "widgets_inspect_source_refresh_interval": {
+        "message": "새로고침 간격: {{ms}}ms"
+    },
+    "widgets_inspect_source_select": {
+        "message": "선택"
+    },
+    "widgets_inspect_source_template_id": {
+        "message": "템플릿: {{value}}"
     },
     "widgets_library_disclaimer": {
         "message": "위젯은 AI가 생성하므로 가끔 부정확할 수 있어요."

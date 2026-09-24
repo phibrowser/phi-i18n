@@ -80,15 +80,6 @@
     "agent_persona_variables": {
         "message": "變數"
     },
-    "ai_mode_copy_logs": {
-        "message": "複製記錄"
-    },
-    "ai_mode_expert": {
-        "message": "專家"
-    },
-    "ai_mode_fast": {
-        "message": "快速"
-    },
     "app_title": {
         "message": "Phi Chat"
     },
@@ -97,6 +88,498 @@
     },
     "artifacts_panel_aria_label": {
         "message": "小工具面板"
+    },
+    "browser_manage_bookmarks_move_body_bookmark": {
+        "message": "將書籤「{{name}}」移至其他位置。"
+    },
+    "browser_manage_bookmarks_move_body_folder": {
+        "message": "將資料夾「{{name}}」移至其他位置。"
+    },
+    "browser_manage_bookmarks_move_summary_bookmark": {
+        "message": "已移動書籤「{{name}}」"
+    },
+    "browser_manage_bookmarks_move_summary_folder": {
+        "message": "已移動資料夾「{{name}}」"
+    },
+    "browser_manage_bookmarks_move_title": {
+        "message": "移動書籤"
+    },
+    "browser_manage_bookmarks_remove_body_bookmark": {
+        "message": "刪除書籤「{{name}}」。"
+    },
+    "browser_manage_bookmarks_remove_body_folder": {
+        "message": "刪除資料夾「{{name}}」及其中的 {{count}} 個項目。"
+    },
+    "browser_manage_bookmarks_remove_summary_bookmark": {
+        "message": "已刪除書籤「{{name}}」"
+    },
+    "browser_manage_bookmarks_remove_summary_folder": {
+        "message": "已刪除書籤資料夾「{{name}}」（內含 {{count}} 個項目）"
+    },
+    "browser_manage_bookmarks_remove_title_bookmark": {
+        "message": "刪除書籤"
+    },
+    "browser_manage_bookmarks_remove_title_folder": {
+        "message": "刪除書籤資料夾"
+    },
+    "browser_manage_bookmarks_update_body": {
+        "message": "變更書籤「{{name}}」。"
+    },
+    "browser_manage_bookmarks_update_new_link": {
+        "message": "新連結：{{host}}。"
+    },
+    "browser_manage_bookmarks_update_new_title": {
+        "message": "新標題：「{{title}}」。"
+    },
+    "browser_manage_bookmarks_update_summary": {
+        "message": "已編輯書籤「{{name}}」"
+    },
+    "browser_manage_bookmarks_update_title": {
+        "message": "編輯書籤"
+    },
+    "browser_manage_downloads_cancel_body": {
+        "message": "取消下載「{{name}}」。"
+    },
+    "browser_manage_downloads_cancel_title": {
+        "message": "取消下載"
+    },
+    "browser_manage_downloads_pause_body": {
+        "message": "暫停下載「{{name}}」。"
+    },
+    "browser_manage_downloads_pause_title": {
+        "message": "暫停下載"
+    },
+    "browser_manage_downloads_remove_body": {
+        "message": "移除「{{name}}」的下載記錄。"
+    },
+    "browser_manage_downloads_remove_title": {
+        "message": "移除下載記錄"
+    },
+    "browser_manage_downloads_resume_body": {
+        "message": "繼續下載「{{name}}」。"
+    },
+    "browser_manage_downloads_resume_title": {
+        "message": "繼續下載"
+    },
+    "browser_manage_emulation_clear_body": {
+        "message": "清除我在這個分頁上設定的裝置與設定模擬。"
+    },
+    "browser_manage_emulation_clear_title": {
+        "message": "停止模擬"
+    },
+    "browser_manage_emulation_item_cpu": {
+        "message": "較慢的 CPU。"
+    },
+    "browser_manage_emulation_item_geolocation": {
+        "message": "指定的位置。"
+    },
+    "browser_manage_emulation_item_locale": {
+        "message": "語言 {{locale}}。"
+    },
+    "browser_manage_emulation_item_media": {
+        "message": "媒體功能（例如深色模式）。"
+    },
+    "browser_manage_emulation_item_network": {
+        "message": "較慢的網路。"
+    },
+    "browser_manage_emulation_item_screen": {
+        "message": "螢幕大小 {{width}}×{{height}}。"
+    },
+    "browser_manage_emulation_item_timezone": {
+        "message": "時區 {{timezone}}。"
+    },
+    "browser_manage_emulation_item_user_agent": {
+        "message": "自訂的使用者代理程式。"
+    },
+    "browser_manage_emulation_set_body": {
+        "message": "讓這個分頁表現出不同的行為，直到我清除設定或這項任務結束為止："
+    },
+    "browser_manage_emulation_set_title": {
+        "message": "模擬裝置或設定"
+    },
+    "browser_manage_option_cancel": {
+        "message": "取消"
+    },
+    "browser_manage_option_confirm": {
+        "message": "確認"
+    },
+    "browser_manage_option_delete_only": {
+        "message": "直接刪除，不匯出"
+    },
+    "browser_manage_option_export_then_delete": {
+        "message": "先匯出再刪除"
+    },
+    "browser_manage_option_keep_current": {
+        "message": "保留目前狀態"
+    },
+    "browser_manage_option_merge": {
+        "message": "合併"
+    },
+    "browser_manage_option_overwrite": {
+        "message": "覆寫"
+    },
+    "browser_manage_pinned_tabs_remove_body": {
+        "message": "從這個設定檔的所有空間中移除釘選分頁「{{name}}」。"
+    },
+    "browser_manage_pinned_tabs_remove_summary": {
+        "message": "已移除釘選分頁「{{name}}」"
+    },
+    "browser_manage_pinned_tabs_remove_title": {
+        "message": "移除釘選分頁"
+    },
+    "browser_manage_pinned_tabs_update_body": {
+        "message": "變更釘選分頁「{{name}}」。"
+    },
+    "browser_manage_pinned_tabs_update_summary": {
+        "message": "已編輯釘選分頁「{{name}}」"
+    },
+    "browser_manage_pinned_tabs_update_title": {
+        "message": "編輯釘選分頁"
+    },
+    "browser_manage_profiles_rename_body": {
+        "message": "將設定檔「{{from}}」重新命名為「{{to}}」。"
+    },
+    "browser_manage_profiles_rename_title": {
+        "message": "重新命名設定檔"
+    },
+    "browser_manage_raw_on_browser": {
+        "message": "在瀏覽器上執行 {{method}}。"
+    },
+    "browser_manage_raw_on_tab": {
+        "message": "在「{{name}}」（{{host}}）上執行 {{method}}。"
+    },
+    "browser_manage_raw_on_tab_no_host": {
+        "message": "在「{{name}}」上執行 {{method}}。"
+    },
+    "browser_manage_raw_params": {
+        "message": "參數：{{params}}"
+    },
+    "browser_manage_raw_title": {
+        "message": "執行瀏覽器指令"
+    },
+    "browser_manage_restore_choices_duplicate": {
+        "message": "「覆寫」無論如何都會再建立一次；「合併」會保留現有項目，只補上缺少的部分；「保留目前狀態」則維持現狀。"
+    },
+    "browser_manage_restore_choices_field": {
+        "message": "「覆寫」會將一切還原成原本的樣子；「合併」只還原之後未再變更的部分；「保留目前狀態」則維持現狀。"
+    },
+    "browser_manage_restore_choices_structural": {
+        "message": "「覆寫」會將它放回仍存在的最接近位置；「保留目前狀態」則維持現狀。"
+    },
+    "browser_manage_restore_choices_structural_mergeable": {
+        "message": "「覆寫」會將它放回原位，並重新建立已不存在的資料夾；「合併」做法相同，但在已有同名資料夾或書籤時會直接沿用；「保留目前狀態」則維持現狀。"
+    },
+    "browser_manage_restore_detail_bookmark_exists": {
+        "message": "該位置已有相同的書籤。"
+    },
+    "browser_manage_restore_detail_changed_since": {
+        "message": "它之後又被變更過。"
+    },
+    "browser_manage_restore_detail_folder_gone": {
+        "message": "它所在的資料夾已不存在。"
+    },
+    "browser_manage_restore_detail_gone": {
+        "message": "它已不存在。"
+    },
+    "browser_manage_restore_detail_group_exists": {
+        "message": "該視窗中已有同名的群組。"
+    },
+    "browser_manage_restore_detail_group_gone": {
+        "message": "該群組已不存在。"
+    },
+    "browser_manage_restore_detail_pin_exists": {
+        "message": "同一個頁面已被釘選。"
+    },
+    "browser_manage_restore_detail_rule_changed": {
+        "message": "該規則之後已被變更或移除。"
+    },
+    "browser_manage_restore_detail_rule_exists": {
+        "message": "已有適用於同一個網站的規則。"
+    },
+    "browser_manage_restore_detail_split_ended": {
+        "message": "該分割畫面之後已結束。"
+    },
+    "browser_manage_restore_detail_split_exists": {
+        "message": "這兩個頁面已在分割畫面中。"
+    },
+    "browser_manage_restore_detail_tab_open": {
+        "message": "同一個頁面已在該視窗中開啟。"
+    },
+    "browser_manage_restore_detail_unpinned": {
+        "message": "它之後已被取消釘選。"
+    },
+    "browser_manage_restore_detail_window_closed": {
+        "message": "它所在的視窗已關閉。"
+    },
+    "browser_manage_restore_put_back": {
+        "message": "還原：{{what}}。"
+    },
+    "browser_manage_restore_summary": {
+        "message": "已還原：{{what}}"
+    },
+    "browser_manage_restore_tab_note": {
+        "message": "重新開啟的分頁會失去返回與前進的歷史記錄和頁面狀態。"
+    },
+    "browser_manage_restore_title_duplicate": {
+        "message": "復原變更：已有相同項目"
+    },
+    "browser_manage_restore_title_field": {
+        "message": "復原變更：之後又被變更過"
+    },
+    "browser_manage_restore_title_none": {
+        "message": "復原變更"
+    },
+    "browser_manage_restore_title_structural": {
+        "message": "復原變更：部分內容已不存在"
+    },
+    "browser_manage_scope_other_space": {
+        "message": "這位於空間「{{name}}」中，而不是你目前檢視的空間。"
+    },
+    "browser_manage_site_data_cache_delete_body": {
+        "message": "刪除 {{site}} 的一個快取。"
+    },
+    "browser_manage_site_data_cache_delete_title": {
+        "message": "刪除網站快取"
+    },
+    "browser_manage_site_data_cache_list_body": {
+        "message": "列出 {{site}} 的快取。"
+    },
+    "browser_manage_site_data_cache_list_title": {
+        "message": "列出網站快取"
+    },
+    "browser_manage_site_data_clear_origin_body": {
+        "message": "清除 {{site}} 儲存的所有資料（Cookie、儲存空間、資料庫、快取）。"
+    },
+    "browser_manage_site_data_clear_origin_title": {
+        "message": "清除所有網站資料"
+    },
+    "browser_manage_site_data_cookies_delete_body": {
+        "message": "刪除 {{site}} 的 Cookie。"
+    },
+    "browser_manage_site_data_cookies_delete_title": {
+        "message": "刪除 Cookie"
+    },
+    "browser_manage_site_data_cookies_get_body": {
+        "message": "讀取 {{site}} 的 Cookie。"
+    },
+    "browser_manage_site_data_cookies_get_title": {
+        "message": "讀取 Cookie"
+    },
+    "browser_manage_site_data_cookies_set_body": {
+        "message": "為 {{site}} 設定一個 Cookie。"
+    },
+    "browser_manage_site_data_cookies_set_title": {
+        "message": "設定 Cookie"
+    },
+    "browser_manage_site_data_current_tab": {
+        "message": "該分頁中開啟的網站"
+    },
+    "browser_manage_site_data_indexed_db_delete_body": {
+        "message": "刪除 {{site}} 的一個 IndexedDB 資料庫。"
+    },
+    "browser_manage_site_data_indexed_db_delete_title": {
+        "message": "刪除網站資料庫"
+    },
+    "browser_manage_site_data_indexed_db_list_body": {
+        "message": "列出 {{site}} 的 IndexedDB 資料庫。"
+    },
+    "browser_manage_site_data_indexed_db_list_title": {
+        "message": "列出網站資料庫"
+    },
+    "browser_manage_site_data_indexed_db_read_body": {
+        "message": "讀取 {{site}} 的 IndexedDB 項目。"
+    },
+    "browser_manage_site_data_indexed_db_read_title": {
+        "message": "讀取網站資料庫"
+    },
+    "browser_manage_site_data_local_storage_clear_body": {
+        "message": "清除 {{site}} 的本機儲存空間。"
+    },
+    "browser_manage_site_data_local_storage_clear_title": {
+        "message": "清除網站儲存空間"
+    },
+    "browser_manage_site_data_local_storage_get_body": {
+        "message": "讀取 {{site}} 的本機儲存空間。"
+    },
+    "browser_manage_site_data_local_storage_get_title": {
+        "message": "讀取網站儲存空間"
+    },
+    "browser_manage_site_data_local_storage_remove_body": {
+        "message": "刪除 {{site}} 本機儲存空間中的一個項目。"
+    },
+    "browser_manage_site_data_local_storage_remove_title": {
+        "message": "從網站儲存空間刪除"
+    },
+    "browser_manage_site_data_local_storage_set_body": {
+        "message": "寫入 {{site}} 的本機儲存空間。"
+    },
+    "browser_manage_site_data_local_storage_set_title": {
+        "message": "變更網站儲存空間"
+    },
+    "browser_manage_site_data_names_only_note": {
+        "message": "只會向 AI 顯示名稱和大小，不會顯示其中的值。"
+    },
+    "browser_manage_site_data_service_worker_unregister_body": {
+        "message": "取消註冊 {{site}} 的 Service Worker。"
+    },
+    "browser_manage_site_data_service_worker_unregister_title": {
+        "message": "移除網站 Service Worker"
+    },
+    "browser_manage_site_data_values_note": {
+        "message": "這些值會傳送給 AI。"
+    },
+    "browser_manage_spaces_delete_body": {
+        "message": "刪除空間「{{name}}」：其中的 {{bookmarks}} 個書籤和 {{rules}} 條網址規則會一併刪除，{{tabs}} 個分頁也會關閉。"
+    },
+    "browser_manage_spaces_delete_export_note": {
+        "message": "先匯出會將其中所有內容儲存為 JSON 檔案。"
+    },
+    "browser_manage_spaces_delete_title": {
+        "message": "刪除空間"
+    },
+    "browser_manage_spaces_update_body": {
+        "message": "變更空間「{{name}}」。"
+    },
+    "browser_manage_spaces_update_title": {
+        "message": "編輯空間"
+    },
+    "browser_manage_split_view_remove_body": {
+        "message": "結束「{{first}}」和「{{second}}」的分割畫面；兩個分頁都會保持開啟。"
+    },
+    "browser_manage_split_view_remove_summary": {
+        "message": "已結束分割畫面「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_remove_title": {
+        "message": "結束分割畫面"
+    },
+    "browser_manage_split_view_swap_body": {
+        "message": "交換「{{first}}」和「{{second}}」分割畫面的兩側。"
+    },
+    "browser_manage_split_view_swap_summary": {
+        "message": "已交換分割畫面「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_swap_title": {
+        "message": "交換分割畫面兩側"
+    },
+    "browser_manage_split_view_update_body": {
+        "message": "變更「{{first}}」和「{{second}}」的分割畫面。"
+    },
+    "browser_manage_split_view_update_summary": {
+        "message": "已變更分割畫面「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_update_title": {
+        "message": "變更分割畫面"
+    },
+    "browser_manage_tab_groups_add_tabs_body": {
+        "message": "將 {{count}} 個分頁加入分頁群組「{{name}}」。"
+    },
+    "browser_manage_tab_groups_add_tabs_summary": {
+        "message": "已將 {{count}} 個分頁加入分頁群組「{{name}}」"
+    },
+    "browser_manage_tab_groups_add_tabs_title": {
+        "message": "將分頁加入群組"
+    },
+    "browser_manage_tab_groups_close_body": {
+        "message": "關閉分頁群組「{{name}}」及其中的 {{count}} 個分頁。"
+    },
+    "browser_manage_tab_groups_close_summary": {
+        "message": "已關閉分頁群組「{{name}}」及其中的 {{count}} 個分頁"
+    },
+    "browser_manage_tab_groups_close_title": {
+        "message": "關閉分頁群組"
+    },
+    "browser_manage_tab_groups_remove_tabs_body_many": {
+        "message": "將 {{count}} 個分頁移出 {{groups}} 個分頁群組；分頁會保持開啟。"
+    },
+    "browser_manage_tab_groups_remove_tabs_body_one": {
+        "message": "將 {{count}} 個分頁移出分頁群組「{{name}}」；分頁會保持開啟。"
+    },
+    "browser_manage_tab_groups_remove_tabs_summary": {
+        "message": "已將 {{count}} 個分頁移出 {{groups}} 個群組"
+    },
+    "browser_manage_tab_groups_remove_tabs_title": {
+        "message": "將分頁移出群組"
+    },
+    "browser_manage_tab_groups_ungroup_body": {
+        "message": "取消「{{name}}」的群組；其中的 {{count}} 個分頁會保持開啟。"
+    },
+    "browser_manage_tab_groups_ungroup_summary": {
+        "message": "已取消分頁群組「{{name}}」（{{count}} 個分頁）"
+    },
+    "browser_manage_tab_groups_ungroup_title": {
+        "message": "取消分頁群組"
+    },
+    "browser_manage_tab_groups_update_body": {
+        "message": "變更分頁群組「{{name}}」。"
+    },
+    "browser_manage_tab_groups_update_summary": {
+        "message": "已編輯分頁群組「{{name}}」"
+    },
+    "browser_manage_tab_groups_update_title": {
+        "message": "編輯分頁群組"
+    },
+    "browser_manage_tabs_close_body": {
+        "message": "關閉分頁「{{name}}」（{{host}}）。"
+    },
+    "browser_manage_tabs_close_body_no_host": {
+        "message": "關閉分頁「{{name}}」。"
+    },
+    "browser_manage_tabs_close_summary": {
+        "message": "已關閉分頁「{{name}}」"
+    },
+    "browser_manage_tabs_close_title": {
+        "message": "關閉分頁"
+    },
+    "browser_manage_undo_approximate": {
+        "message": "你之後可以要求我復原這個動作；重新開啟的分頁會失去返回與前進的歷史記錄和頁面狀態。"
+    },
+    "browser_manage_undo_not_restorable": {
+        "message": "這個動作無法復原。"
+    },
+    "browser_manage_undo_restorable": {
+        "message": "你之後可以要求我復原這個動作。"
+    },
+    "browser_manage_untitled": {
+        "message": "（未命名）"
+    },
+    "browser_manage_url_rules_delete_body": {
+        "message": "刪除 {{rule}} 的規則。"
+    },
+    "browser_manage_url_rules_delete_summary": {
+        "message": "已刪除網址規則 {{rule}}"
+    },
+    "browser_manage_url_rules_delete_title": {
+        "message": "刪除網址規則"
+    },
+    "browser_manage_url_rules_update_body": {
+        "message": "變更 {{rule}} 的規則。"
+    },
+    "browser_manage_url_rules_update_summary": {
+        "message": "已編輯網址規則 {{rule}}"
+    },
+    "browser_manage_url_rules_update_title": {
+        "message": "編輯網址規則"
+    },
+    "browser_manage_windows_set_bounds_body": {
+        "message": "移動瀏覽器視窗或調整其大小。"
+    },
+    "browser_manage_windows_set_bounds_body_size": {
+        "message": "移動瀏覽器視窗或將其大小調整為 {{width}}×{{height}}。"
+    },
+    "browser_manage_windows_set_bounds_body_state": {
+        "message": "將瀏覽器視窗變更為 {{state}}。"
+    },
+    "browser_manage_windows_set_bounds_title": {
+        "message": "調整視窗大小"
+    },
+    "browser_manage_windows_state_fullscreen": {
+        "message": "全螢幕"
+    },
+    "browser_manage_windows_state_maximized": {
+        "message": "最大化"
+    },
+    "browser_manage_windows_state_minimized": {
+        "message": "最小化"
     },
     "chat_attachments_add": {
         "message": "附加檔案"
@@ -464,6 +947,9 @@
     "context_menu_ask_about_selection": {
         "message": "向 {{agentName}} 詢問「{{selection}}」"
     },
+    "context_menu_watch_page": {
+        "message": "讓 {{agentName}} 關注這個網頁"
+    },
     "conversation_add_category": {
         "message": "新增分類"
     },
@@ -476,23 +962,14 @@
     "conversation_all_category": {
         "message": "全部"
     },
-    "conversation_all_conversations": {
-        "message": "所有對話"
-    },
-    "conversation_all_conversations_description": {
-        "message": "瀏覽並管理你的對話記錄"
-    },
-    "conversation_back": {
-        "message": "返回"
+    "conversation_batch_delete_error": {
+        "message": "無法刪除所選對話"
     },
     "conversation_batch_mode": {
         "message": "選取"
     },
-    "conversation_browse_all": {
-        "message": "瀏覽全部…"
-    },
-    "conversation_browse_all_categories": {
-        "message": "瀏覽所有分類…"
+    "conversation_by_profile": {
+        "message": "依設定檔"
     },
     "conversation_cancel": {
         "message": "取消"
@@ -515,9 +992,6 @@
     "conversation_create_error": {
         "message": "無法建立對話"
     },
-    "conversation_default_category_name": {
-        "message": "與 {{name}} 的對話"
-    },
     "conversation_delete": {
         "message": "刪除"
     },
@@ -531,7 +1005,7 @@
         "message": "刪除分類"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "這個分類中的對話會移回「與 {{name}} 的對話」。"
+        "message": "這個分類中的對話會移至「{{category}}」。"
     },
     "conversation_delete_category_confirm_title": {
         "message": "刪除分類"
@@ -545,11 +1019,14 @@
     "conversation_delete_selected": {
         "message": "刪除（{{count}}）"
     },
-    "conversation_deselect_item": {
-        "message": "取消選取"
+    "conversation_deselect_all": {
+        "message": "取消全選"
     },
     "conversation_exit_batch_mode": {
         "message": "完成"
+    },
+    "conversation_filter_conversations": {
+        "message": "篩選對話"
     },
     "conversation_load_error": {
         "message": "無法載入對話"
@@ -570,16 +1047,22 @@
         "message": "移至分類"
     },
     "conversation_move_to_default": {
-        "message": "移至「與 {{name}} 的對話」"
+        "message": "移至「{{category}}」"
     },
-    "conversation_no_categories_found": {
-        "message": "找不到分類"
+    "conversation_move_to_profile": {
+        "message": "移至設定檔"
+    },
+    "conversation_my_categories": {
+        "message": "分類"
     },
     "conversation_no_conversations": {
         "message": "目前還沒有對話"
     },
     "conversation_no_search_results": {
         "message": "找不到「{{query}}」的相關結果"
+    },
+    "conversation_no_task_conversations": {
+        "message": "建立過任務的對話會顯示在這裡"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -592,6 +1075,12 @@
     },
     "conversation_pane_title": {
         "message": "對話"
+    },
+    "conversation_phi_chat_management_hint": {
+        "message": "若要查看所有設定檔的對話和更多管理選項，請使用 Phi Chat。"
+    },
+    "conversation_profile_category_name": {
+        "message": "設定檔「{{name}}」"
     },
     "conversation_recent_conversations": {
         "message": "最近的對話"
@@ -611,11 +1100,14 @@
     "conversation_retry": {
         "message": "重試"
     },
+    "conversation_retry_profiles": {
+        "message": "無法載入設定檔。重試"
+    },
     "conversation_save": {
         "message": "儲存"
     },
-    "conversation_search_categories": {
-        "message": "搜尋分類"
+    "conversation_search_filters": {
+        "message": "尋找設定檔或分類…"
     },
     "conversation_search_label": {
         "message": "搜尋對話"
@@ -626,14 +1118,26 @@
     "conversation_search_shortcut": {
         "message": "搜尋對話（{{shortcut}}）"
     },
+    "conversation_select_all": {
+        "message": "全選"
+    },
     "conversation_select_conversation": {
         "message": "選取對話"
     },
-    "conversation_select_item": {
-        "message": "選取"
-    },
     "conversation_select_placeholder": {
         "message": "選取對話"
+    },
+    "conversation_selected_count": {
+        "message": "已選取 {{count}} 個"
+    },
+    "conversation_switch_conversation": {
+        "message": "切換對話"
+    },
+    "conversation_switch_discard_draft": {
+        "message": "尚未傳送的文字和附件將被捨棄。要切換對話嗎？"
+    },
+    "conversation_tasks_category": {
+        "message": "任務"
     },
     "conversation_title_placeholder": {
         "message": "對話標題"
@@ -648,10 +1152,19 @@
         "message": "回到對話開始的頁面"
     },
     "conversation_travel_back_sidebar_error": {
-        "message": "頁面已開啟，但側邊欄沒有跟著開啟。在該頁面開啟側邊欄，即可繼續這個對話。"
+        "message": "頁面已開啟，但無法在該頁面還原這個對話。你的對話仍保留在這裡。請再試一次。"
+    },
+    "conversation_travel_back_target_unavailable": {
+        "message": "原本的空間或設定檔已無法使用。你的對話仍保留在這裡。"
+    },
+    "conversation_uncategorized": {
+        "message": "未分類"
     },
     "conversation_untitled": {
         "message": "未命名"
+    },
+    "conversation_without_profile": {
+        "message": "未指定設定檔"
     },
     "conversations_categories_all": {
         "message": "全部"
@@ -812,6 +1325,9 @@
     "errors_chat_not_found": {
         "message": "找不到這個對話。"
     },
+    "errors_image_preview_awaiting_upload": {
+        "message": "這張圖片太大，上傳完成前無法預覽。請等上傳完成後再試一次。"
+    },
     "errors_run_failed": {
         "message": "執行失敗"
     },
@@ -820,6 +1336,12 @@
     },
     "errors_upload_not_available": {
         "message": "暫時無法上傳檔案。"
+    },
+    "errors_upload_preparing": {
+        "message": "上傳功能正在準備中。請稍後再試。文字檔案仍可使用。"
+    },
+    "errors_upload_sign_in_required": {
+        "message": "登入後才能加入圖片或 PDF。文字檔案仍可使用。"
     },
     "features_chat_with_tabs": {
         "message": "與分頁對話"
@@ -1226,9 +1748,6 @@
     "message_tool_web_search": {
         "message": "網頁搜尋工具"
     },
-    "message_warning_title": {
-        "message": "警告"
-    },
     "message_worker_progress_browser": {
         "message": "正在操作瀏覽器…"
     },
@@ -1441,6 +1960,15 @@
     },
     "private_ai_banner_title": {
         "message": "你正在使用私有 AI"
+    },
+    "prompt_preferences_restore": {
+        "message": "還原隱藏的提示"
+    },
+    "prompt_preferences_restore_error": {
+        "message": "部分提示無法還原。請再試一次。"
+    },
+    "prompt_preferences_restore_success": {
+        "message": "提示已還原。它們會在適當時機再次顯示。"
     },
     "shadow_tasks_artifacts_empty": {
         "message": "沒有可用的產出物"
@@ -1907,9 +2435,6 @@
     "skills_menu_label": {
         "message": "Skill"
     },
-    "skills_only_available_on_sites": {
-        "message": "「{{name}}」只能在 {{sitesLabel}} 使用。"
-    },
     "skills_pagination_label": {
         "message": "Skill 分頁導覽"
     },
@@ -2000,8 +2525,32 @@
     "top_bar_menu": {
         "message": "選單"
     },
-    "top_bar_open_in_new_tab": {
-        "message": "在新分頁開啟"
+    "top_bar_open_in_phi_chat": {
+        "message": "在 Phi Chat 中開啟"
+    },
+    "top_bar_open_in_sidebar": {
+        "message": "在側邊欄中開啟"
+    },
+    "top_bar_open_in_sidebar_no_page": {
+        "message": "這個對話尚未連結任何網頁，因此無法在側邊欄中開啟。"
+    },
+    "top_bar_phi_chat_ai_off": {
+        "message": "AI 功能已關閉，無法開啟 Phi Chat。"
+    },
+    "top_bar_phi_chat_discard_draft_confirm": {
+        "message": "捨棄並開啟"
+    },
+    "top_bar_phi_chat_discard_draft_description": {
+        "message": "在 Phi Chat 中開啟這個對話會清除側邊欄輸入框中的文字和附件。這些內容不會帶入 Phi Chat 視窗。"
+    },
+    "top_bar_phi_chat_discard_draft_title": {
+        "message": "要捨棄尚未傳送的草稿嗎？"
+    },
+    "top_bar_phi_chat_open_error": {
+        "message": "無法開啟 Phi Chat。你的對話仍保留在這裡。請再試一次。"
+    },
+    "top_bar_phi_chat_unavailable": {
+        "message": "這個瀏覽器版本無法從側邊欄開啟 Phi Chat。請更新 Phi Browser。"
     },
     "top_bar_phi_link": {
         "message": "Phi Link"
@@ -2015,20 +2564,14 @@
     "top_bar_show_response_speed": {
         "message": "顯示回應速度"
     },
-    "travel_back_banner_description": {
-        "message": "重新開啟該網頁，即可從上次離開的地方繼續。"
-    },
-    "travel_back_banner_dismiss": {
-        "message": "關閉"
-    },
-    "travel_back_banner_dont_show_again": {
-        "message": "不再顯示"
-    },
-    "travel_back_banner_title": {
-        "message": "這個對話與一個網頁有關"
-    },
     "user_action_aborted": {
         "message": "動作已中止"
+    },
+    "user_action_ask_from": {
+        "message": "來自 {{name}} 的問題"
+    },
+    "user_action_ask_from_assistant": {
+        "message": "來自助理的問題"
     },
     "user_action_cancelled": {
         "message": "動作已取消"
@@ -2048,6 +2591,12 @@
     "user_action_deny": {
         "message": "拒絕"
     },
+    "user_action_expired": {
+        "message": "這個問題已不再等待回答。"
+    },
+    "user_action_required": {
+        "message": "必填"
+    },
     "user_action_responded": {
         "message": "動作已確認"
     },
@@ -2065,6 +2614,12 @@
     },
     "user_action_screenshot_alt": {
         "message": "動作截圖"
+    },
+    "user_action_skip": {
+        "message": "略過"
+    },
+    "user_action_submit": {
+        "message": "送出"
     },
     "user_input_add_file": {
         "message": "加入檔案"
@@ -2093,6 +2648,12 @@
     "user_input_interject": {
         "message": "這輪回應結束後再傳送"
     },
+    "user_input_journey_context": {
+        "message": "目前的活動"
+    },
+    "user_input_journey_working_toward": {
+        "message": "正在朝 {{label}} 邁進"
+    },
     "user_input_no_available_skills": {
         "message": "沒有可用的 Skill"
     },
@@ -2101,6 +2662,9 @@
     },
     "user_input_remove_attachment": {
         "message": "移除附件"
+    },
+    "user_input_remove_journey_context": {
+        "message": "移除活動上下文"
     },
     "user_input_remove_split_view": {
         "message": "移除分割畫面"
@@ -2135,6 +2699,9 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
+    "watch_page_kickoff_message": {
+        "message": "幫我留意這個網頁，當有重要變化（例如價格）時告訴我：{{url}}"
+    },
     "welcome_subtitle": {
         "message": "你可以搜尋、提問，或處理目前的頁面"
     },
@@ -2143,5 +2710,32 @@
     },
     "widgets_pinned_iframe_title": {
         "message": "已釘選的小工具"
+    },
+    "worker_target_body": {
+        "message": "這項任務需要開啟瀏覽器頁面。請選擇一個空間，任務的分頁會在那裡開啟。"
+    },
+    "worker_target_field_remember": {
+        "message": "在這個對話接下來都使用這個空間"
+    },
+    "worker_target_field_space": {
+        "message": "空間"
+    },
+    "worker_target_option_cancel": {
+        "message": "取消"
+    },
+    "worker_target_option_run": {
+        "message": "在這裡執行"
+    },
+    "worker_target_space_in_profile": {
+        "message": "{{name}}（{{profile}}）"
+    },
+    "worker_target_stale": {
+        "message": "你先前選擇的空間已不存在，因此需要重新選擇。"
+    },
+    "worker_target_stale_profile": {
+        "message": "你先前選擇的空間所屬的瀏覽器設定檔，與這個對話目前所屬的設定檔不同，因此需要重新選擇。"
+    },
+    "worker_target_title": {
+        "message": "要在哪裡執行這項任務？"
     }
 }

@@ -21,7 +21,7 @@
         "message": "Configuración de visibilidad no válida. Debe ser 'private' o 'public'."
     },
     "errors_chat_pagination_conflict": {
-        "message": "No se pueden usar los parámetros starting_after y ending_before a la vez."
+        "message": "No se pueden usar los parámetros starting_after y ending_before al mismo tiempo."
     },
     "errors_edit_delete_failed": {
         "message": "No se pudo sincronizar la edición con el servidor. Los cambios se guardarán cuando se complete la respuesta."
@@ -440,6 +440,9 @@
     "widgets_menu_edit": {
         "message": "Editar"
     },
+    "widgets_menu_inspect": {
+        "message": "Inspeccionar código fuente"
+    },
     "widgets_menu_refresh": {
         "message": "Actualizar"
     },
@@ -451,5 +454,26 @@
     },
     "widgets_pending_refresh": {
         "message": "Actualizar"
+    },
+    "widgets_suggested_badge": {
+        "message": "Sugerido"
+    },
+    "widgets_suggested_keep": {
+        "message": "Conservar este widget"
+    },
+    "widgets_suggested_keep_short": {
+        "message": "Conservar"
+    },
+    "widgets_suggested_remove": {
+        "message": "Quitar esta sugerencia"
+    },
+    "widgets_suggested_removed": {
+        "message": "Sugerencia quitada"
+    },
+    "widgets_suggested_stop": {
+        "message": "Dejar de sugerir"
+    },
+    "widgets_suggested_undo": {
+        "message": "Deshacer"
     }
 }

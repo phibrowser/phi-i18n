@@ -15,126 +15,6 @@
         "message": "Version: %@",
         "description": "Location: Sentinel. About dialog - Application version label. %@ is the application version"
     },
-    "agent_is_working": {
-        "message": "Agent is working...",
-        "description": "Location: Sentinel. Status shown while the development agent session is starting or running."
-    },
-    "agent_log_abort_request_failed": {
-        "message": "Stop request failed",
-        "description": "Location: Sentinel. Fallback timeline error when the request to stop a development agent session fails."
-    },
-    "agent_log_aborted": {
-        "message": "Aborted",
-        "description": "Location: Sentinel. Timeline entry when a development agent session is aborted without a specific reason."
-    },
-    "agent_log_aborted_detail": {
-        "message": "Aborted: $ERROR$",
-        "description": "Location: Sentinel. Timeline entry when a development agent session is aborted with a reason. ERROR is the original runtime error and must be preserved verbatim."
-    },
-    "agent_log_aborting": {
-        "message": "Stopping agent...",
-        "description": "Location: Sentinel. Timeline entry while a development agent session is being stopped."
-    },
-    "agent_log_closed_tab": {
-        "message": "Closed tab: $URL$",
-        "description": "Location: Sentinel. Timeline entry when the development agent closes a browser tab. URL is the tab address and must not be translated."
-    },
-    "agent_log_completed": {
-        "message": "Completed",
-        "description": "Location: Sentinel. Timeline entry when a development agent session completes successfully."
-    },
-    "agent_log_completed_with_errors": {
-        "message": "Completed (with errors)",
-        "description": "Location: Sentinel. Timeline entry when a development agent session reaches completion but reports errors."
-    },
-    "agent_log_error": {
-        "message": "Agent error",
-        "description": "Location: Sentinel. Fallback timeline error when a development agent session reports no specific message."
-    },
-    "agent_log_failed": {
-        "message": "Failed",
-        "description": "Location: Sentinel. Timeline entry when a development agent session fails without a specific error."
-    },
-    "agent_log_failed_detail": {
-        "message": "Failed: $ERROR$",
-        "description": "Location: Sentinel. Timeline entry when a development agent session fails. ERROR is the original runtime error and must be preserved verbatim."
-    },
-    "agent_log_failed_to_start": {
-        "message": "Failed to start agent",
-        "description": "Location: Sentinel. Fallback timeline error when a development agent session cannot be created."
-    },
-    "agent_log_opened_tab": {
-        "message": "Opened tab: $URL$",
-        "description": "Location: Sentinel. Timeline entry when the development agent opens a browser tab. URL is the tab address and must not be translated."
-    },
-    "agent_log_received_response": {
-        "message": "Received response",
-        "description": "Location: Sentinel. Timeline entry when the development agent receives a response payload."
-    },
-    "agent_log_started": {
-        "message": "Started ($TASK_TYPE$)",
-        "description": "Location: Sentinel. Timeline entry when a development agent session starts. TASK_TYPE is an internal task-type identifier and must be preserved verbatim."
-    },
-    "agent_log_starting": {
-        "message": "Starting agent...",
-        "description": "Location: Sentinel. Timeline entry while a development agent session is being created."
-    },
-    "agent_log_updated_tab": {
-        "message": "Updated tab: $URL$",
-        "description": "Location: Sentinel. Timeline entry when the development agent updates a browser tab. URL is the tab address and must not be translated."
-    },
-    "agent_logo_alt": {
-        "message": "Phi Browser logo",
-        "description": "Location: Sentinel. Alternative text for the Phi Browser logo in the development agent playground."
-    },
-    "agent_objective_placeholder": {
-        "message": "What would you like me to do?",
-        "description": "Location: Sentinel. Placeholder in the development agent playground input where the user enters a browser task."
-    },
-    "agent_page_screenshot_alt": {
-        "message": "Page screenshot",
-        "description": "Location: Sentinel. Alternative text for a webpage screenshot in the development agent timeline."
-    },
-    "agent_page_title": {
-        "message": "Phi Agent",
-        "description": "Location: Sentinel. Browser document title for the development agent playground. Phi Agent is a product name."
-    },
-    "agent_result": {
-        "message": "Result",
-        "description": "Location: Sentinel. Heading above the final result of a completed development agent session."
-    },
-    "agent_session_aborted": {
-        "message": "Session aborted",
-        "description": "Location: Sentinel. Development agent timeline status after the user stops a session."
-    },
-    "agent_session_completed": {
-        "message": "Session completed",
-        "description": "Location: Sentinel. Development agent timeline status after a session finishes successfully."
-    },
-    "agent_session_failed": {
-        "message": "Session failed",
-        "description": "Location: Sentinel. Development agent timeline status after a session fails."
-    },
-    "agent_session_idle": {
-        "message": "Session idle",
-        "description": "Location: Sentinel. Development agent timeline status when no session is active."
-    },
-    "agent_steps_completed": {
-        "message": "$COUNT$ step(s) completed",
-        "description": "Location: Sentinel. Collapsible timeline heading in the development agent playground. COUNT is the number of completed log steps."
-    },
-    "agent_stop_session": {
-        "message": "Stop session",
-        "description": "Location: Sentinel. Label and tooltip for the control that stops a running development agent session."
-    },
-    "agent_tab_screenshot": {
-        "message": "Tab screenshot",
-        "description": "Location: Sentinel. Heading above a screenshot produced by a completed browser-tool step in the development agent timeline."
-    },
-    "agent_taking_screenshot": {
-        "message": "Taking screenshot",
-        "description": "Location: Sentinel. Heading above a screenshot while the development agent timeline is capturing it."
-    },
     "app_dev_mode": {
         "message": "Dev Mode",
         "description": "Location: Sentinel. Text in the application identity area. Badge shown beside the product name when development mode is active."
@@ -315,26 +195,6 @@
         "message": "Phi Sentinel Dashboard",
         "description": "Location: Sentinel. Dashboard window - Native window title used by macOS window management and accessibility"
     },
-    "debugger_approval_allow": {
-        "message": "Allow",
-        "description": "Location: Sentinel. Button label that grants a debugger-access approval request."
-    },
-    "debugger_approval_deny": {
-        "message": "Deny",
-        "description": "Location: Sentinel. Button label that rejects a debugger-access approval request."
-    },
-    "debugger_approval_description": {
-        "message": "This step uses debugger access to inspect page or browser state.",
-        "description": "Location: Sentinel. Explanation in a high-risk approval prompt. It tells the user why the current browser-task step requests debugging access."
-    },
-    "debugger_approval_summary": {
-        "message": "Approve debugger access for this step.",
-        "description": "Location: Sentinel. Short summary in the debugger-access approval prompt."
-    },
-    "debugger_approval_title": {
-        "message": "Allow debugger access",
-        "description": "Location: Sentinel. Title of a high-risk approval prompt shown before a browser task attaches debugging access to a page."
-    },
     "directory_access_panel_grant_button": {
         "message": "Grant Access",
         "description": "Location: Sentinel. Directory access panel - Confirmation button that grants the application access to the selected folder"
@@ -342,10 +202,6 @@
     "directory_access_panel_message": {
         "message": "Select a directory to grant access",
         "description": "Location: Sentinel. Directory access panel - Instruction asking the user to choose a folder the application may access"
-    },
-    "element_picker_instruction": {
-        "message": "Click an element to select it. Press Esc to cancel.",
-        "description": "Location: Sentinel. Instruction banner shown over a webpage while the user is choosing an element for the agent. Esc names the keyboard key."
     },
     "errors_ai_gateway_provider_test_timed_out": {
         "message": "Provider test timed out. The provider may still be loading the model; try again in a moment.",
@@ -4910,10 +4766,6 @@
     "settings_update_channel_description": {
         "message": "Select the update channel for components",
         "description": "Location: Sentinel. Application preferences, backup tools, and data-reset controls. Guidance explaining how the selected release track affects future updates."
-    },
-    "shadow_task_approval_title": {
-        "message": "Shadow Task",
-        "description": "Location: Sentinel. Fallback title for a background-task approval card when the task provides no title. Shadow Task is a product feature name."
     },
     "sidebar_alerts": {
         "message": "Alerts",

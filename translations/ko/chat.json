@@ -80,15 +80,6 @@
     "agent_persona_variables": {
         "message": "변수"
     },
-    "ai_mode_copy_logs": {
-        "message": "로그 복사"
-    },
-    "ai_mode_expert": {
-        "message": "전문가"
-    },
-    "ai_mode_fast": {
-        "message": "빠름"
-    },
     "app_title": {
         "message": "Phi Chat"
     },
@@ -97,6 +88,498 @@
     },
     "artifacts_panel_aria_label": {
         "message": "위젯 패널"
+    },
+    "browser_manage_bookmarks_move_body_bookmark": {
+        "message": "\"{{name}}\" 북마크를 다른 위치로 이동해요."
+    },
+    "browser_manage_bookmarks_move_body_folder": {
+        "message": "\"{{name}}\" 폴더를 다른 위치로 이동해요."
+    },
+    "browser_manage_bookmarks_move_summary_bookmark": {
+        "message": "\"{{name}}\" 북마크를 이동했어요"
+    },
+    "browser_manage_bookmarks_move_summary_folder": {
+        "message": "\"{{name}}\" 폴더를 이동했어요"
+    },
+    "browser_manage_bookmarks_move_title": {
+        "message": "북마크 이동"
+    },
+    "browser_manage_bookmarks_remove_body_bookmark": {
+        "message": "\"{{name}}\" 북마크를 삭제해요."
+    },
+    "browser_manage_bookmarks_remove_body_folder": {
+        "message": "\"{{name}}\" 폴더와 그 안의 항목 {{count}}개를 삭제해요."
+    },
+    "browser_manage_bookmarks_remove_summary_bookmark": {
+        "message": "\"{{name}}\" 북마크를 삭제했어요"
+    },
+    "browser_manage_bookmarks_remove_summary_folder": {
+        "message": "\"{{name}}\" 북마크 폴더를 삭제했어요 (항목 {{count}}개 포함)"
+    },
+    "browser_manage_bookmarks_remove_title_bookmark": {
+        "message": "북마크 삭제"
+    },
+    "browser_manage_bookmarks_remove_title_folder": {
+        "message": "북마크 폴더 삭제"
+    },
+    "browser_manage_bookmarks_update_body": {
+        "message": "\"{{name}}\" 북마크를 변경해요."
+    },
+    "browser_manage_bookmarks_update_new_link": {
+        "message": "새 링크: {{host}}."
+    },
+    "browser_manage_bookmarks_update_new_title": {
+        "message": "새 제목: \"{{title}}\"."
+    },
+    "browser_manage_bookmarks_update_summary": {
+        "message": "\"{{name}}\" 북마크를 수정했어요"
+    },
+    "browser_manage_bookmarks_update_title": {
+        "message": "북마크 수정"
+    },
+    "browser_manage_downloads_cancel_body": {
+        "message": "\"{{name}}\" 다운로드를 취소해요."
+    },
+    "browser_manage_downloads_cancel_title": {
+        "message": "다운로드 취소"
+    },
+    "browser_manage_downloads_pause_body": {
+        "message": "\"{{name}}\" 다운로드를 일시중지해요."
+    },
+    "browser_manage_downloads_pause_title": {
+        "message": "다운로드 일시중지"
+    },
+    "browser_manage_downloads_remove_body": {
+        "message": "\"{{name}}\"의 다운로드 기록을 삭제해요."
+    },
+    "browser_manage_downloads_remove_title": {
+        "message": "다운로드 기록 삭제"
+    },
+    "browser_manage_downloads_resume_body": {
+        "message": "\"{{name}}\" 다운로드를 재개해요."
+    },
+    "browser_manage_downloads_resume_title": {
+        "message": "다운로드 재개"
+    },
+    "browser_manage_emulation_clear_body": {
+        "message": "제가 이 탭에 설정한 기기 및 설정 에뮬레이션을 해제해요."
+    },
+    "browser_manage_emulation_clear_title": {
+        "message": "에뮬레이션 중지"
+    },
+    "browser_manage_emulation_item_cpu": {
+        "message": "더 느린 CPU."
+    },
+    "browser_manage_emulation_item_geolocation": {
+        "message": "지정된 위치."
+    },
+    "browser_manage_emulation_item_locale": {
+        "message": "언어 {{locale}}."
+    },
+    "browser_manage_emulation_item_media": {
+        "message": "미디어 기능 (다크 모드 등)."
+    },
+    "browser_manage_emulation_item_network": {
+        "message": "더 느린 네트워크."
+    },
+    "browser_manage_emulation_item_screen": {
+        "message": "화면 크기 {{width}}×{{height}}."
+    },
+    "browser_manage_emulation_item_timezone": {
+        "message": "시간대 {{timezone}}."
+    },
+    "browser_manage_emulation_item_user_agent": {
+        "message": "맞춤 사용자 에이전트."
+    },
+    "browser_manage_emulation_set_body": {
+        "message": "제가 해제하거나 이 작업이 끝날 때까지 이 탭이 다르게 동작하도록 설정해요:"
+    },
+    "browser_manage_emulation_set_title": {
+        "message": "기기 또는 설정 에뮬레이션"
+    },
+    "browser_manage_option_cancel": {
+        "message": "취소"
+    },
+    "browser_manage_option_confirm": {
+        "message": "확인"
+    },
+    "browser_manage_option_delete_only": {
+        "message": "내보내지 않고 삭제"
+    },
+    "browser_manage_option_export_then_delete": {
+        "message": "내보낸 후 삭제"
+    },
+    "browser_manage_option_keep_current": {
+        "message": "현재 상태 유지"
+    },
+    "browser_manage_option_merge": {
+        "message": "병합"
+    },
+    "browser_manage_option_overwrite": {
+        "message": "덮어쓰기"
+    },
+    "browser_manage_pinned_tabs_remove_body": {
+        "message": "\"{{name}}\" 고정 탭을 이 프로필의 모든 스페이스에서 제거해요."
+    },
+    "browser_manage_pinned_tabs_remove_summary": {
+        "message": "\"{{name}}\" 고정 탭을 제거했어요"
+    },
+    "browser_manage_pinned_tabs_remove_title": {
+        "message": "고정 탭 제거"
+    },
+    "browser_manage_pinned_tabs_update_body": {
+        "message": "\"{{name}}\" 고정 탭을 변경해요."
+    },
+    "browser_manage_pinned_tabs_update_summary": {
+        "message": "\"{{name}}\" 고정 탭을 수정했어요"
+    },
+    "browser_manage_pinned_tabs_update_title": {
+        "message": "고정 탭 수정"
+    },
+    "browser_manage_profiles_rename_body": {
+        "message": "\"{{from}}\" 프로필의 이름을 \"{{to}}\"(으)로 바꿔요."
+    },
+    "browser_manage_profiles_rename_title": {
+        "message": "프로필 이름 바꾸기"
+    },
+    "browser_manage_raw_on_browser": {
+        "message": "브라우저에서 {{method}} 명령을 실행해요."
+    },
+    "browser_manage_raw_on_tab": {
+        "message": "\"{{name}}\" ({{host}}) 페이지에서 {{method}} 명령을 실행해요."
+    },
+    "browser_manage_raw_on_tab_no_host": {
+        "message": "\"{{name}}\" 페이지에서 {{method}} 명령을 실행해요."
+    },
+    "browser_manage_raw_params": {
+        "message": "매개변수: {{params}}"
+    },
+    "browser_manage_raw_title": {
+        "message": "브라우저 명령 실행"
+    },
+    "browser_manage_restore_choices_duplicate": {
+        "message": "덮어쓰기는 어쨌든 새로 다시 만들어요. 병합은 기존 항목을 유지하고 부족한 부분만 추가해요. 현재 상태 유지는 지금 그대로 둬요."
+    },
+    "browser_manage_restore_choices_field": {
+        "message": "덮어쓰기는 모든 것을 원래대로 되돌려요. 병합은 그 뒤로 변경되지 않은 부분만 되돌려요. 현재 상태 유지는 지금 그대로 둬요."
+    },
+    "browser_manage_restore_choices_structural": {
+        "message": "덮어쓰기는 아직 남아 있는 가장 가까운 위치에 되돌려 놓아요. 현재 상태 유지는 지금 그대로 둬요."
+    },
+    "browser_manage_restore_choices_structural_mergeable": {
+        "message": "덮어쓰기는 사라진 폴더를 다시 만들어 원래 위치에 되돌려 놓아요. 병합도 같은 방식이지만 같은 이름의 폴더나 북마크가 있으면 그것을 사용해요. 현재 상태 유지는 지금 그대로 둬요."
+    },
+    "browser_manage_restore_detail_bookmark_exists": {
+        "message": "같은 북마크가 이미 그곳에 있어요."
+    },
+    "browser_manage_restore_detail_changed_since": {
+        "message": "그 뒤로 다시 변경되었어요."
+    },
+    "browser_manage_restore_detail_folder_gone": {
+        "message": "해당 폴더가 더 이상 없어요."
+    },
+    "browser_manage_restore_detail_gone": {
+        "message": "해당 항목이 더 이상 없어요."
+    },
+    "browser_manage_restore_detail_group_exists": {
+        "message": "같은 이름의 그룹이 그 창에 있어요."
+    },
+    "browser_manage_restore_detail_group_gone": {
+        "message": "해당 그룹이 더 이상 없어요."
+    },
+    "browser_manage_restore_detail_pin_exists": {
+        "message": "같은 페이지가 이미 고정되어 있어요."
+    },
+    "browser_manage_restore_detail_rule_changed": {
+        "message": "그 뒤로 규칙이 변경되거나 삭제되었어요."
+    },
+    "browser_manage_restore_detail_rule_exists": {
+        "message": "같은 사이트에 대한 규칙이 이미 있어요."
+    },
+    "browser_manage_restore_detail_split_ended": {
+        "message": "그 뒤로 분할 보기가 종료되었어요."
+    },
+    "browser_manage_restore_detail_split_exists": {
+        "message": "같은 두 페이지가 이미 분할되어 있어요."
+    },
+    "browser_manage_restore_detail_tab_open": {
+        "message": "같은 페이지가 그 창에 열려 있어요."
+    },
+    "browser_manage_restore_detail_unpinned": {
+        "message": "그 뒤로 고정이 해제되었어요."
+    },
+    "browser_manage_restore_detail_window_closed": {
+        "message": "해당 항목이 있던 창이 닫혔어요."
+    },
+    "browser_manage_restore_put_back": {
+        "message": "되돌릴 내용: {{what}}."
+    },
+    "browser_manage_restore_summary": {
+        "message": "되돌렸어요: {{what}}"
+    },
+    "browser_manage_restore_tab_note": {
+        "message": "다시 연 탭은 뒤로/앞으로 탐색 기록과 페이지 상태가 사라져요."
+    },
+    "browser_manage_restore_title_duplicate": {
+        "message": "변경 사항 되돌리기: 이미 존재함"
+    },
+    "browser_manage_restore_title_field": {
+        "message": "변경 사항 되돌리기: 이후에 변경됨"
+    },
+    "browser_manage_restore_title_none": {
+        "message": "변경 사항 되돌리기"
+    },
+    "browser_manage_restore_title_structural": {
+        "message": "변경 사항 되돌리기: 일부가 사라짐"
+    },
+    "browser_manage_scope_other_space": {
+        "message": "이 항목은 지금 보고 있는 스페이스가 아니라 \"{{name}}\" 스페이스에 있어요."
+    },
+    "browser_manage_site_data_cache_delete_body": {
+        "message": "{{site}}의 캐시를 삭제해요."
+    },
+    "browser_manage_site_data_cache_delete_title": {
+        "message": "사이트 캐시 삭제"
+    },
+    "browser_manage_site_data_cache_list_body": {
+        "message": "{{site}}의 캐시 목록을 확인해요."
+    },
+    "browser_manage_site_data_cache_list_title": {
+        "message": "사이트 캐시 목록 확인"
+    },
+    "browser_manage_site_data_clear_origin_body": {
+        "message": "{{site}}에 저장된 모든 데이터(쿠키, 저장소, 데이터베이스, 캐시)를 지워요."
+    },
+    "browser_manage_site_data_clear_origin_title": {
+        "message": "모든 사이트 데이터 지우기"
+    },
+    "browser_manage_site_data_cookies_delete_body": {
+        "message": "{{site}}의 쿠키를 삭제해요."
+    },
+    "browser_manage_site_data_cookies_delete_title": {
+        "message": "쿠키 삭제"
+    },
+    "browser_manage_site_data_cookies_get_body": {
+        "message": "{{site}}의 쿠키를 읽어요."
+    },
+    "browser_manage_site_data_cookies_get_title": {
+        "message": "쿠키 읽기"
+    },
+    "browser_manage_site_data_cookies_set_body": {
+        "message": "{{site}}에 쿠키를 설정해요."
+    },
+    "browser_manage_site_data_cookies_set_title": {
+        "message": "쿠키 설정"
+    },
+    "browser_manage_site_data_current_tab": {
+        "message": "해당 탭에 열려 있는 사이트"
+    },
+    "browser_manage_site_data_indexed_db_delete_body": {
+        "message": "{{site}}의 IndexedDB 데이터베이스를 삭제해요."
+    },
+    "browser_manage_site_data_indexed_db_delete_title": {
+        "message": "사이트 데이터베이스 삭제"
+    },
+    "browser_manage_site_data_indexed_db_list_body": {
+        "message": "{{site}}의 IndexedDB 데이터베이스 목록을 확인해요."
+    },
+    "browser_manage_site_data_indexed_db_list_title": {
+        "message": "사이트 데이터베이스 목록 확인"
+    },
+    "browser_manage_site_data_indexed_db_read_body": {
+        "message": "{{site}}의 IndexedDB 항목을 읽어요."
+    },
+    "browser_manage_site_data_indexed_db_read_title": {
+        "message": "사이트 데이터베이스 읽기"
+    },
+    "browser_manage_site_data_local_storage_clear_body": {
+        "message": "{{site}}의 로컬 저장소를 지워요."
+    },
+    "browser_manage_site_data_local_storage_clear_title": {
+        "message": "사이트 저장소 지우기"
+    },
+    "browser_manage_site_data_local_storage_get_body": {
+        "message": "{{site}}의 로컬 저장소를 읽어요."
+    },
+    "browser_manage_site_data_local_storage_get_title": {
+        "message": "사이트 저장소 읽기"
+    },
+    "browser_manage_site_data_local_storage_remove_body": {
+        "message": "{{site}}의 로컬 저장소 항목 하나를 삭제해요."
+    },
+    "browser_manage_site_data_local_storage_remove_title": {
+        "message": "사이트 저장소에서 삭제"
+    },
+    "browser_manage_site_data_local_storage_set_body": {
+        "message": "{{site}}의 로컬 저장소에 기록해요."
+    },
+    "browser_manage_site_data_local_storage_set_title": {
+        "message": "사이트 저장소 변경"
+    },
+    "browser_manage_site_data_names_only_note": {
+        "message": "AI에는 값이 아니라 이름과 크기만 표시돼요."
+    },
+    "browser_manage_site_data_service_worker_unregister_body": {
+        "message": "{{site}}의 서비스 워커 등록을 해제해요."
+    },
+    "browser_manage_site_data_service_worker_unregister_title": {
+        "message": "사이트 서비스 워커 제거"
+    },
+    "browser_manage_site_data_values_note": {
+        "message": "값이 AI에 전달돼요."
+    },
+    "browser_manage_spaces_delete_body": {
+        "message": "\"{{name}}\" 스페이스를 삭제해요. 북마크 {{bookmarks}}개와 URL 규칙 {{rules}}개가 함께 삭제되고, 탭 {{tabs}}개가 닫혀요."
+    },
+    "browser_manage_spaces_delete_export_note": {
+        "message": "먼저 내보내면 전체 내용이 JSON 파일로 저장돼요."
+    },
+    "browser_manage_spaces_delete_title": {
+        "message": "스페이스 삭제"
+    },
+    "browser_manage_spaces_update_body": {
+        "message": "\"{{name}}\" 스페이스를 변경해요."
+    },
+    "browser_manage_spaces_update_title": {
+        "message": "스페이스 수정"
+    },
+    "browser_manage_split_view_remove_body": {
+        "message": "\"{{first}}\", \"{{second}}\" 분할 보기를 종료해요. 두 탭은 계속 열려 있어요."
+    },
+    "browser_manage_split_view_remove_summary": {
+        "message": "\"{{first}}\" + \"{{second}}\" 분할 보기를 종료했어요"
+    },
+    "browser_manage_split_view_remove_title": {
+        "message": "분할 보기 종료"
+    },
+    "browser_manage_split_view_swap_body": {
+        "message": "\"{{first}}\", \"{{second}}\" 분할 보기의 양쪽 위치를 서로 바꿔요."
+    },
+    "browser_manage_split_view_swap_summary": {
+        "message": "\"{{first}}\" + \"{{second}}\" 분할 보기의 양쪽을 바꿨어요"
+    },
+    "browser_manage_split_view_swap_title": {
+        "message": "분할 보기 양쪽 바꾸기"
+    },
+    "browser_manage_split_view_update_body": {
+        "message": "\"{{first}}\", \"{{second}}\" 분할 보기를 변경해요."
+    },
+    "browser_manage_split_view_update_summary": {
+        "message": "\"{{first}}\" + \"{{second}}\" 분할 보기를 변경했어요"
+    },
+    "browser_manage_split_view_update_title": {
+        "message": "분할 보기 변경"
+    },
+    "browser_manage_tab_groups_add_tabs_body": {
+        "message": "\"{{name}}\" 탭 그룹에 탭 {{count}}개를 추가해요."
+    },
+    "browser_manage_tab_groups_add_tabs_summary": {
+        "message": "\"{{name}}\" 탭 그룹에 탭 {{count}}개를 추가했어요"
+    },
+    "browser_manage_tab_groups_add_tabs_title": {
+        "message": "그룹에 탭 추가"
+    },
+    "browser_manage_tab_groups_close_body": {
+        "message": "\"{{name}}\" 탭 그룹과 그 안의 탭 {{count}}개를 닫아요."
+    },
+    "browser_manage_tab_groups_close_summary": {
+        "message": "탭 {{count}}개가 있는 \"{{name}}\" 탭 그룹을 닫았어요"
+    },
+    "browser_manage_tab_groups_close_title": {
+        "message": "탭 그룹 닫기"
+    },
+    "browser_manage_tab_groups_remove_tabs_body_many": {
+        "message": "탭 그룹 {{groups}}개에서 탭 {{count}}개를 꺼내요. 탭은 계속 열려 있어요."
+    },
+    "browser_manage_tab_groups_remove_tabs_body_one": {
+        "message": "\"{{name}}\" 탭 그룹에서 탭 {{count}}개를 꺼내요. 탭은 계속 열려 있어요."
+    },
+    "browser_manage_tab_groups_remove_tabs_summary": {
+        "message": "그룹 {{groups}}개에서 탭 {{count}}개를 꺼냈어요"
+    },
+    "browser_manage_tab_groups_remove_tabs_title": {
+        "message": "그룹에서 탭 꺼내기"
+    },
+    "browser_manage_tab_groups_ungroup_body": {
+        "message": "\"{{name}}\" 그룹을 해제해요. 탭 {{count}}개는 계속 열려 있어요."
+    },
+    "browser_manage_tab_groups_ungroup_summary": {
+        "message": "\"{{name}}\" 탭 그룹을 해제했어요 (탭 {{count}}개)"
+    },
+    "browser_manage_tab_groups_ungroup_title": {
+        "message": "탭 그룹 해제"
+    },
+    "browser_manage_tab_groups_update_body": {
+        "message": "\"{{name}}\" 탭 그룹을 변경해요."
+    },
+    "browser_manage_tab_groups_update_summary": {
+        "message": "\"{{name}}\" 탭 그룹을 수정했어요"
+    },
+    "browser_manage_tab_groups_update_title": {
+        "message": "탭 그룹 수정"
+    },
+    "browser_manage_tabs_close_body": {
+        "message": "\"{{name}}\" ({{host}}) 탭을 닫아요."
+    },
+    "browser_manage_tabs_close_body_no_host": {
+        "message": "\"{{name}}\" 탭을 닫아요."
+    },
+    "browser_manage_tabs_close_summary": {
+        "message": "\"{{name}}\" 탭을 닫았어요"
+    },
+    "browser_manage_tabs_close_title": {
+        "message": "탭 닫기"
+    },
+    "browser_manage_undo_approximate": {
+        "message": "나중에 저에게 되돌려 달라고 요청할 수 있어요. 다만 다시 연 탭은 뒤로/앞으로 탐색 기록과 페이지 상태가 사라져요."
+    },
+    "browser_manage_undo_not_restorable": {
+        "message": "이 작업은 되돌릴 수 없어요."
+    },
+    "browser_manage_undo_restorable": {
+        "message": "나중에 저에게 되돌려 달라고 요청할 수 있어요."
+    },
+    "browser_manage_untitled": {
+        "message": "(제목 없음)"
+    },
+    "browser_manage_url_rules_delete_body": {
+        "message": "{{rule}}에 대한 규칙을 삭제해요."
+    },
+    "browser_manage_url_rules_delete_summary": {
+        "message": "{{rule}} URL 규칙을 삭제했어요"
+    },
+    "browser_manage_url_rules_delete_title": {
+        "message": "URL 규칙 삭제"
+    },
+    "browser_manage_url_rules_update_body": {
+        "message": "{{rule}}에 대한 규칙을 변경해요."
+    },
+    "browser_manage_url_rules_update_summary": {
+        "message": "{{rule}} URL 규칙을 수정했어요"
+    },
+    "browser_manage_url_rules_update_title": {
+        "message": "URL 규칙 수정"
+    },
+    "browser_manage_windows_set_bounds_body": {
+        "message": "브라우저 창을 이동하거나 크기를 조절해요."
+    },
+    "browser_manage_windows_set_bounds_body_size": {
+        "message": "브라우저 창을 이동하거나 {{width}}×{{height}} 크기로 조절해요."
+    },
+    "browser_manage_windows_set_bounds_body_state": {
+        "message": "브라우저 창을 {{state}} 상태로 변경해요."
+    },
+    "browser_manage_windows_set_bounds_title": {
+        "message": "창 크기 조절"
+    },
+    "browser_manage_windows_state_fullscreen": {
+        "message": "전체 화면"
+    },
+    "browser_manage_windows_state_maximized": {
+        "message": "최대화"
+    },
+    "browser_manage_windows_state_minimized": {
+        "message": "최소화"
     },
     "chat_attachments_add": {
         "message": "파일 첨부"
@@ -464,6 +947,9 @@
     "context_menu_ask_about_selection": {
         "message": "{{agentName}}에게 “{{selection}}”에 대해 묻기"
     },
+    "context_menu_watch_page": {
+        "message": "{{agentName}}에게 이 페이지를 지켜보게 하기"
+    },
     "conversation_add_category": {
         "message": "새 카테고리"
     },
@@ -476,23 +962,14 @@
     "conversation_all_category": {
         "message": "전체"
     },
-    "conversation_all_conversations": {
-        "message": "모든 대화"
-    },
-    "conversation_all_conversations_description": {
-        "message": "대화 기록을 살펴보고 관리하세요"
-    },
-    "conversation_back": {
-        "message": "뒤로"
+    "conversation_batch_delete_error": {
+        "message": "선택한 대화를 삭제하지 못했어요"
     },
     "conversation_batch_mode": {
         "message": "선택"
     },
-    "conversation_browse_all": {
-        "message": "전체 보기…"
-    },
-    "conversation_browse_all_categories": {
-        "message": "모든 카테고리 보기…"
+    "conversation_by_profile": {
+        "message": "프로필별"
     },
     "conversation_cancel": {
         "message": "취소"
@@ -515,9 +992,6 @@
     "conversation_create_error": {
         "message": "대화를 만들지 못했어요"
     },
-    "conversation_default_category_name": {
-        "message": "{{name}}와의 대화"
-    },
     "conversation_delete": {
         "message": "삭제"
     },
@@ -531,7 +1005,7 @@
         "message": "카테고리 삭제"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "이 카테고리의 대화는 \"{{name}}와의 대화\"로 다시 이동해요."
+        "message": "이 카테고리의 대화는 \"{{category}}\"(으)로 이동해요."
     },
     "conversation_delete_category_confirm_title": {
         "message": "카테고리 삭제"
@@ -545,11 +1019,14 @@
     "conversation_delete_selected": {
         "message": "삭제 ({{count}})"
     },
-    "conversation_deselect_item": {
-        "message": "선택 해제"
+    "conversation_deselect_all": {
+        "message": "전체 선택 해제"
     },
     "conversation_exit_batch_mode": {
         "message": "완료"
+    },
+    "conversation_filter_conversations": {
+        "message": "대화 필터링"
     },
     "conversation_load_error": {
         "message": "대화를 불러오지 못했어요"
@@ -570,16 +1047,22 @@
         "message": "카테고리로 이동"
     },
     "conversation_move_to_default": {
-        "message": "\"{{name}}와의 대화\"로 이동"
+        "message": "\"{{category}}\"(으)로 이동"
     },
-    "conversation_no_categories_found": {
-        "message": "카테고리를 찾을 수 없어요"
+    "conversation_move_to_profile": {
+        "message": "프로필로 이동"
+    },
+    "conversation_my_categories": {
+        "message": "카테고리"
     },
     "conversation_no_conversations": {
         "message": "아직 대화가 없어요"
     },
     "conversation_no_search_results": {
         "message": "\"{{query}}\"에 대한 결과가 없어요"
+    },
+    "conversation_no_task_conversations": {
+        "message": "작업이 생성된 대화가 여기에 표시돼요"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -592,6 +1075,12 @@
     },
     "conversation_pane_title": {
         "message": "대화"
+    },
+    "conversation_phi_chat_management_hint": {
+        "message": "모든 프로필의 대화와 더 많은 관리 옵션을 보려면 Phi Chat을 사용하세요."
+    },
+    "conversation_profile_category_name": {
+        "message": "프로필 \"{{name}}\""
     },
     "conversation_recent_conversations": {
         "message": "최근 대화"
@@ -611,11 +1100,14 @@
     "conversation_retry": {
         "message": "다시 시도"
     },
+    "conversation_retry_profiles": {
+        "message": "프로필을 불러오지 못했어요. 다시 시도"
+    },
     "conversation_save": {
         "message": "저장"
     },
-    "conversation_search_categories": {
-        "message": "카테고리 검색"
+    "conversation_search_filters": {
+        "message": "프로필 또는 카테고리 찾기…"
     },
     "conversation_search_label": {
         "message": "대화 검색"
@@ -626,14 +1118,26 @@
     "conversation_search_shortcut": {
         "message": "대화 검색 ({{shortcut}})"
     },
+    "conversation_select_all": {
+        "message": "전체 선택"
+    },
     "conversation_select_conversation": {
         "message": "대화 선택"
     },
-    "conversation_select_item": {
-        "message": "선택"
-    },
     "conversation_select_placeholder": {
         "message": "대화 선택"
+    },
+    "conversation_selected_count": {
+        "message": "{{count}}개 선택됨"
+    },
+    "conversation_switch_conversation": {
+        "message": "대화 전환"
+    },
+    "conversation_switch_discard_draft": {
+        "message": "보내지 않은 텍스트와 첨부 파일이 사라져요. 대화를 전환할까요?"
+    },
+    "conversation_tasks_category": {
+        "message": "작업"
     },
     "conversation_title_placeholder": {
         "message": "대화 제목"
@@ -648,10 +1152,19 @@
         "message": "시작한 페이지로 돌아가기"
     },
     "conversation_travel_back_sidebar_error": {
-        "message": "페이지는 열렸지만 사이드바가 함께 열리지 않았어요. 이 대화를 이어 가려면 그 페이지에서 사이드바를 열어 주세요."
+        "message": "페이지는 열렸지만 이 대화를 그곳에 복원하지 못했어요. 대화는 여기 그대로 있어요. 다시 시도해 주세요."
+    },
+    "conversation_travel_back_target_unavailable": {
+        "message": "원래의 스페이스 또는 프로필을 더 이상 사용할 수 없어요. 대화는 여기 그대로 있어요."
+    },
+    "conversation_uncategorized": {
+        "message": "미분류"
     },
     "conversation_untitled": {
         "message": "제목 없음"
+    },
+    "conversation_without_profile": {
+        "message": "프로필 없음"
     },
     "conversations_categories_all": {
         "message": "전체"
@@ -812,6 +1325,9 @@
     "errors_chat_not_found": {
         "message": "대화를 찾을 수 없어요."
     },
+    "errors_image_preview_awaiting_upload": {
+        "message": "이 이미지는 너무 커서 업로드 전에 미리 볼 수 없어요. 업로드가 끝날 때까지 기다렸다가 다시 시도해 주세요."
+    },
     "errors_run_failed": {
         "message": "실행에 실패했어요"
     },
@@ -820,6 +1336,12 @@
     },
     "errors_upload_not_available": {
         "message": "지금은 파일을 업로드할 수 없어요."
+    },
+    "errors_upload_preparing": {
+        "message": "업로드를 준비하고 있어요. 잠시 후 다시 시도해 주세요. 텍스트 파일은 지금도 추가할 수 있어요."
+    },
+    "errors_upload_sign_in_required": {
+        "message": "이미지나 PDF를 추가하려면 로그인해 주세요. 텍스트 파일은 지금도 추가할 수 있어요."
     },
     "features_chat_with_tabs": {
         "message": "탭과 대화"
@@ -1226,9 +1748,6 @@
     "message_tool_web_search": {
         "message": "웹 검색 도구"
     },
-    "message_warning_title": {
-        "message": "경고"
-    },
     "message_worker_progress_browser": {
         "message": "브라우저를 조작하는 중…"
     },
@@ -1441,6 +1960,15 @@
     },
     "private_ai_banner_title": {
         "message": "프라이빗 AI를 사용하고 있어요"
+    },
+    "prompt_preferences_restore": {
+        "message": "숨긴 안내 복원"
+    },
+    "prompt_preferences_restore_error": {
+        "message": "일부 안내를 복원하지 못했어요. 다시 시도해 주세요."
+    },
+    "prompt_preferences_restore_success": {
+        "message": "안내를 복원했어요. 관련 상황이 되면 다시 표시돼요."
     },
     "shadow_tasks_artifacts_empty": {
         "message": "아티팩트가 없어요"
@@ -1907,9 +2435,6 @@
     "skills_menu_label": {
         "message": "스킬"
     },
-    "skills_only_available_on_sites": {
-        "message": "“{{name}}” 스킬은 {{sitesLabel}}에서만 사용할 수 있어요."
-    },
     "skills_pagination_label": {
         "message": "스킬 페이지 탐색"
     },
@@ -2000,8 +2525,32 @@
     "top_bar_menu": {
         "message": "메뉴"
     },
-    "top_bar_open_in_new_tab": {
-        "message": "새 탭에서 열기"
+    "top_bar_open_in_phi_chat": {
+        "message": "Phi Chat에서 열기"
+    },
+    "top_bar_open_in_sidebar": {
+        "message": "사이드바에서 열기"
+    },
+    "top_bar_open_in_sidebar_no_page": {
+        "message": "이 대화는 아직 웹 페이지와 연결되어 있지 않아 사이드바에서 열 수 없어요."
+    },
+    "top_bar_phi_chat_ai_off": {
+        "message": "AI 기능이 꺼져 있어서 Phi Chat을 열 수 없어요."
+    },
+    "top_bar_phi_chat_discard_draft_confirm": {
+        "message": "버리고 열기"
+    },
+    "top_bar_phi_chat_discard_draft_description": {
+        "message": "이 대화를 Phi Chat에서 열면 사이드바 입력창의 텍스트와 첨부 파일이 지워져요. 해당 내용은 Phi Chat 창으로 옮겨지지 않아요."
+    },
+    "top_bar_phi_chat_discard_draft_title": {
+        "message": "보내지 않은 초안을 버릴까요?"
+    },
+    "top_bar_phi_chat_open_error": {
+        "message": "Phi Chat을 열지 못했어요. 대화는 여기 그대로 있어요. 다시 시도해 주세요."
+    },
+    "top_bar_phi_chat_unavailable": {
+        "message": "이 버전의 브라우저에서는 사이드바에서 Phi Chat을 열 수 없어요. Phi Browser를 업데이트해 주세요."
     },
     "top_bar_phi_link": {
         "message": "Phi Link"
@@ -2015,20 +2564,14 @@
     "top_bar_show_response_speed": {
         "message": "응답 속도 표시"
     },
-    "travel_back_banner_description": {
-        "message": "페이지를 다시 열면 멈춘 곳부터 이어 갈 수 있어요."
-    },
-    "travel_back_banner_dismiss": {
-        "message": "닫기"
-    },
-    "travel_back_banner_dont_show_again": {
-        "message": "다시 보지 않기"
-    },
-    "travel_back_banner_title": {
-        "message": "웹 페이지에 관한 대화예요"
-    },
     "user_action_aborted": {
         "message": "작업 중단됨"
+    },
+    "user_action_ask_from": {
+        "message": "{{name}}의 질문"
+    },
+    "user_action_ask_from_assistant": {
+        "message": "어시스턴트의 질문"
     },
     "user_action_cancelled": {
         "message": "작업 취소됨"
@@ -2048,6 +2591,12 @@
     "user_action_deny": {
         "message": "거부"
     },
+    "user_action_expired": {
+        "message": "이 질문은 더 이상 답변을 기다리지 않아요."
+    },
+    "user_action_required": {
+        "message": "필수"
+    },
     "user_action_responded": {
         "message": "작업 확인됨"
     },
@@ -2065,6 +2614,12 @@
     },
     "user_action_screenshot_alt": {
         "message": "작업 스크린샷"
+    },
+    "user_action_skip": {
+        "message": "건너뛰기"
+    },
+    "user_action_submit": {
+        "message": "제출"
     },
     "user_input_add_file": {
         "message": "파일 추가"
@@ -2093,6 +2648,12 @@
     "user_input_interject": {
         "message": "이 답변이 끝난 후에 보내기"
     },
+    "user_input_journey_context": {
+        "message": "현재 활동"
+    },
+    "user_input_journey_working_toward": {
+        "message": "{{label}} 목표를 향해 진행 중"
+    },
     "user_input_no_available_skills": {
         "message": "사용할 수 있는 스킬이 없어요"
     },
@@ -2101,6 +2662,9 @@
     },
     "user_input_remove_attachment": {
         "message": "첨부 파일 제거"
+    },
+    "user_input_remove_journey_context": {
+        "message": "활동 컨텍스트 제거"
     },
     "user_input_remove_split_view": {
         "message": "분할 보기 제거"
@@ -2135,6 +2699,9 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
+    "watch_page_kickoff_message": {
+        "message": "이 페이지를 계속 지켜보다가 가격처럼 중요한 변화가 있으면 알려 주세요: {{url}}"
+    },
     "welcome_subtitle": {
         "message": "검색하거나 질문하거나 현재 페이지를 활용해 작업할 수 있어요"
     },
@@ -2143,5 +2710,32 @@
     },
     "widgets_pinned_iframe_title": {
         "message": "고정된 위젯"
+    },
+    "worker_target_body": {
+        "message": "이 작업은 브라우저 페이지를 열어야 해요. 스페이스를 선택하면 그곳에 탭이 열려요."
+    },
+    "worker_target_field_remember": {
+        "message": "이 대화가 끝날 때까지 이 스페이스 사용"
+    },
+    "worker_target_field_space": {
+        "message": "스페이스"
+    },
+    "worker_target_option_cancel": {
+        "message": "취소"
+    },
+    "worker_target_option_run": {
+        "message": "여기서 실행"
+    },
+    "worker_target_space_in_profile": {
+        "message": "{{name}} ({{profile}})"
+    },
+    "worker_target_stale": {
+        "message": "이전에 선택한 스페이스가 더 이상 없어서 다시 선택해야 해요."
+    },
+    "worker_target_stale_profile": {
+        "message": "이전에 선택한 스페이스가 지금 이 대화의 브라우저 프로필과 다른 프로필에 속해 있어서 다시 선택해야 해요."
+    },
+    "worker_target_title": {
+        "message": "이 작업을 어디에서 실행할까요?"
     }
 }

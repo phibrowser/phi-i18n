@@ -1058,6 +1058,9 @@
     "memory_management_observation_categories_relationship": {
         "message": "人际关系"
     },
+    "memory_management_observation_categories_surface_preference": {
+        "message": "界面偏好"
+    },
     "memory_management_observation_categories_work": {
         "message": "工作"
     },
@@ -1508,6 +1511,9 @@
     "newtab_artifact_preview_cancel": {
         "message": "取消"
     },
+    "newtab_artifact_preview_compile_error_hint": {
+        "message": "这个版本无法运行，因此无法保存。可以重新生成再试。"
+    },
     "newtab_artifact_preview_current_preview": {
         "message": "当前预览"
     },
@@ -1535,8 +1541,20 @@
     "newtab_artifact_preview_iframe_title": {
         "message": "小组件预览"
     },
+    "newtab_artifact_preview_layout_fit_hint": {
+        "message": "部分内容可能显示不全。你可以重新生成。"
+    },
+    "newtab_artifact_preview_phases_adjusting_layout": {
+        "message": "正在调整布局…"
+    },
+    "newtab_artifact_preview_phases_adjusting_styles": {
+        "message": "正在调整样式（第 {{attempt}} 次尝试）…"
+    },
     "newtab_artifact_preview_phases_calling_tool": {
         "message": "正在调用 {{tool}}…"
+    },
+    "newtab_artifact_preview_phases_checking_layout": {
+        "message": "正在检查布局…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "正在编写小组件…"
@@ -1546,6 +1564,9 @@
     },
     "newtab_artifact_preview_phases_ready": {
         "message": "已就绪"
+    },
+    "newtab_artifact_preview_phases_resizing": {
+        "message": "正在尝试其他尺寸…"
     },
     "newtab_artifact_preview_phases_starting": {
         "message": "正在启动…"
@@ -1574,9 +1595,6 @@
     "newtab_artifact_preview_retry": {
         "message": "重试"
     },
-    "newtab_artifact_preview_runtime_error": {
-        "message": "小组件运行时错误"
-    },
     "newtab_artifact_preview_save": {
         "message": "保存"
     },
@@ -1601,8 +1619,8 @@
     "newtab_artifact_sandbox_composing": {
         "message": "正在编写小组件…"
     },
-    "newtab_artifact_sandbox_failed_to_load": {
-        "message": "小组件加载失败"
+    "newtab_artifact_sandbox_loading_data": {
+        "message": "加载中…"
     },
     "newtab_artifact_sandbox_page_title": {
         "message": "Phi Artifact 沙盒"
@@ -1666,6 +1684,294 @@
     },
     "newtab_widget_library_page_title": {
         "message": "小组件库"
+    },
+    "newtab_widget_templates_air_quality_alder": {
+        "message": "桤木"
+    },
+    "newtab_widget_templates_air_quality_birch": {
+        "message": "桦树"
+    },
+    "newtab_widget_templates_air_quality_current_location": {
+        "message": "当前位置"
+    },
+    "newtab_widget_templates_air_quality_european_aqi": {
+        "message": "欧洲 AQI"
+    },
+    "newtab_widget_templates_air_quality_extremely_poor": {
+        "message": "极差"
+    },
+    "newtab_widget_templates_air_quality_fair": {
+        "message": "尚可"
+    },
+    "newtab_widget_templates_air_quality_good": {
+        "message": "良好"
+    },
+    "newtab_widget_templates_air_quality_grass": {
+        "message": "草"
+    },
+    "newtab_widget_templates_air_quality_hazardous": {
+        "message": "危险"
+    },
+    "newtab_widget_templates_air_quality_loading": {
+        "message": "正在加载空气质量…"
+    },
+    "newtab_widget_templates_air_quality_moderate": {
+        "message": "中等"
+    },
+    "newtab_widget_templates_air_quality_mugwort": {
+        "message": "艾蒿"
+    },
+    "newtab_widget_templates_air_quality_olive": {
+        "message": "橄榄"
+    },
+    "newtab_widget_templates_air_quality_pollen": {
+        "message": "{{name}}花粉 {{value}}"
+    },
+    "newtab_widget_templates_air_quality_poor": {
+        "message": "较差"
+    },
+    "newtab_widget_templates_air_quality_ragweed": {
+        "message": "豚草"
+    },
+    "newtab_widget_templates_air_quality_title": {
+        "message": "空气质量"
+    },
+    "newtab_widget_templates_air_quality_unavailable": {
+        "message": "空气质量不可用"
+    },
+    "newtab_widget_templates_air_quality_unhealthy": {
+        "message": "不健康"
+    },
+    "newtab_widget_templates_air_quality_unhealthy_for_sensitive": {
+        "message": "对敏感人群不健康"
+    },
+    "newtab_widget_templates_air_quality_us_aqi": {
+        "message": "美国 AQI"
+    },
+    "newtab_widget_templates_air_quality_very_poor": {
+        "message": "很差"
+    },
+    "newtab_widget_templates_air_quality_very_unhealthy": {
+        "message": "非常不健康"
+    },
+    "newtab_widget_templates_clock_local_time": {
+        "message": "本地时间"
+    },
+    "newtab_widget_templates_daily_report_empty": {
+        "message": "今天还没有浏览活动"
+    },
+    "newtab_widget_templates_daily_report_failed": {
+        "message": "今天的总结没能写出来"
+    },
+    "newtab_widget_templates_daily_report_fallback": {
+        "message": "今天到现在：{{items}}"
+    },
+    "newtab_widget_templates_daily_report_today": {
+        "message": "今天"
+    },
+    "newtab_widget_templates_daily_report_writing": {
+        "message": "正在写今天的总结…"
+    },
+    "newtab_widget_templates_github_stars_cant_load": {
+        "message": "无法加载这个仓库"
+    },
+    "newtab_widget_templates_github_stars_forks": {
+        "message": "{{count}} 个 Fork"
+    },
+    "newtab_widget_templates_github_stars_load_failed": {
+        "message": "暂时无法加载"
+    },
+    "newtab_widget_templates_github_stars_loading": {
+        "message": "正在加载仓库…"
+    },
+    "newtab_widget_templates_github_stars_open": {
+        "message": "打开"
+    },
+    "newtab_widget_templates_github_stars_private_or_limit": {
+        "message": "仓库私有，或已达 GitHub 每小时上限"
+    },
+    "newtab_widget_templates_github_stars_stars": {
+        "message": "星标 · {{repo}}"
+    },
+    "newtab_widget_templates_package_releases_empty": {
+        "message": "暂无发布版本"
+    },
+    "newtab_widget_templates_package_releases_failed": {
+        "message": "无法加载发布版本"
+    },
+    "newtab_widget_templates_package_releases_github_hint": {
+        "message": "仓库私有，或已达 GitHub 每小时上限"
+    },
+    "newtab_widget_templates_package_releases_latest": {
+        "message": "最新"
+    },
+    "newtab_widget_templates_package_releases_loading": {
+        "message": "加载中…"
+    },
+    "newtab_widget_templates_package_releases_open": {
+        "message": "打开"
+    },
+    "newtab_widget_templates_package_releases_pre": {
+        "message": "预发"
+    },
+    "newtab_widget_templates_package_releases_yanked": {
+        "message": "已撤回"
+    },
+    "newtab_widget_templates_pomodoro_break": {
+        "message": "休息"
+    },
+    "newtab_widget_templates_pomodoro_cycle": {
+        "message": "{{work}}/{{break}} 分钟"
+    },
+    "newtab_widget_templates_pomodoro_focus": {
+        "message": "专注"
+    },
+    "newtab_widget_templates_pomodoro_pause": {
+        "message": "暂停"
+    },
+    "newtab_widget_templates_pomodoro_reset": {
+        "message": "重置"
+    },
+    "newtab_widget_templates_pomodoro_start": {
+        "message": "开始"
+    },
+    "newtab_widget_templates_quick_translator_auto": {
+        "message": "自动检测"
+    },
+    "newtab_widget_templates_quick_translator_empty": {
+        "message": "译文会显示在这里。"
+    },
+    "newtab_widget_templates_quick_translator_failed": {
+        "message": "暂时无法翻译。"
+    },
+    "newtab_widget_templates_quick_translator_placeholder": {
+        "message": "在这里输入文字…"
+    },
+    "newtab_widget_templates_quick_translator_shortcut": {
+        "message": "Ctrl 或 Cmd + Enter"
+    },
+    "newtab_widget_templates_quick_translator_source_language": {
+        "message": "源语言"
+    },
+    "newtab_widget_templates_quick_translator_swap": {
+        "message": "交换语言"
+    },
+    "newtab_widget_templates_quick_translator_swap_needs_source": {
+        "message": "选择源语言后即可交换"
+    },
+    "newtab_widget_templates_quick_translator_target_language": {
+        "message": "目标语言"
+    },
+    "newtab_widget_templates_quick_translator_text_label": {
+        "message": "要翻译的文字"
+    },
+    "newtab_widget_templates_quick_translator_title": {
+        "message": "快速翻译"
+    },
+    "newtab_widget_templates_quick_translator_translate": {
+        "message": "翻译"
+    },
+    "newtab_widget_templates_quick_translator_translating": {
+        "message": "翻译中…"
+    },
+    "newtab_widget_templates_quick_translator_unavailable": {
+        "message": "翻译服务不可用。"
+    },
+    "newtab_widget_templates_quote_of_the_day_caption": {
+        "message": "每日一句"
+    },
+    "newtab_widget_templates_recent_reads_empty": {
+        "message": "你读过的文章会显示在这里"
+    },
+    "newtab_widget_templates_recent_reads_failed": {
+        "message": "无法读取你的浏览记录"
+    },
+    "newtab_widget_templates_recent_reads_loading": {
+        "message": "加载中…"
+    },
+    "newtab_widget_templates_recent_reads_title": {
+        "message": "最近阅读"
+    },
+    "newtab_widget_templates_recent_reads_untitled": {
+        "message": "无标题"
+    },
+    "newtab_widget_templates_top_sites_empty": {
+        "message": "你常访问的网站会显示在这里"
+    },
+    "newtab_widget_templates_top_sites_failed": {
+        "message": "无法读取你的浏览记录"
+    },
+    "newtab_widget_templates_top_sites_loading": {
+        "message": "加载中…"
+    },
+    "newtab_widget_templates_top_sites_title": {
+        "message": "常用网站"
+    },
+    "newtab_widget_templates_weather_clear": {
+        "message": "晴"
+    },
+    "newtab_widget_templates_weather_current_location": {
+        "message": "当前位置"
+    },
+    "newtab_widget_templates_weather_drizzle": {
+        "message": "毛毛雨"
+    },
+    "newtab_widget_templates_weather_fog": {
+        "message": "雾"
+    },
+    "newtab_widget_templates_weather_heavy_rain": {
+        "message": "大雨"
+    },
+    "newtab_widget_templates_weather_heavy_showers": {
+        "message": "强阵雨"
+    },
+    "newtab_widget_templates_weather_heavy_snow": {
+        "message": "大雪"
+    },
+    "newtab_widget_templates_weather_loading": {
+        "message": "正在加载天气…"
+    },
+    "newtab_widget_templates_weather_mostly_clear": {
+        "message": "少云"
+    },
+    "newtab_widget_templates_weather_overcast": {
+        "message": "阴"
+    },
+    "newtab_widget_templates_weather_partly_cloudy": {
+        "message": "多云"
+    },
+    "newtab_widget_templates_weather_rain": {
+        "message": "雨"
+    },
+    "newtab_widget_templates_weather_showers": {
+        "message": "阵雨"
+    },
+    "newtab_widget_templates_weather_snow": {
+        "message": "雪"
+    },
+    "newtab_widget_templates_weather_thunderstorm": {
+        "message": "雷暴"
+    },
+    "newtab_widget_templates_weather_title": {
+        "message": "天气"
+    },
+    "newtab_widget_templates_weather_unavailable": {
+        "message": "天气信息不可用"
+    },
+    "newtab_widget_templates_weather_wind": {
+        "message": "风速 {{speed}}"
+    },
+    "newtab_widget_templates_world_clocks_loading": {
+        "message": "正在加载时钟…"
+    },
+    "newtab_widget_templates_world_clocks_timezone": {
+        "message": "时区"
+    },
+    "newtab_widget_templates_world_clocks_title": {
+        "message": "世界时钟"
+    },
+    "newtab_widget_templates_world_clocks_unavailable": {
+        "message": "时区数据不可用"
     },
     "newtab_widgets_overflow": {
         "message": "还有 {{count}} 项"
@@ -1936,6 +2242,33 @@
     },
     "widgets_customization_resize_top": {
         "message": "从顶部调整小组件大小"
+    },
+    "widgets_inspect_source_category": {
+        "message": "类别：{{value}}"
+    },
+    "widgets_inspect_source_component": {
+        "message": "组件（TSX）"
+    },
+    "widgets_inspect_source_data_fetch": {
+        "message": "数据获取"
+    },
+    "widgets_inspect_source_data_manifest": {
+        "message": "数据清单"
+    },
+    "widgets_inspect_source_html": {
+        "message": "HTML"
+    },
+    "widgets_inspect_source_preferred_size": {
+        "message": "首选尺寸：{{value}}"
+    },
+    "widgets_inspect_source_refresh_interval": {
+        "message": "刷新间隔：{{ms}}ms"
+    },
+    "widgets_inspect_source_select": {
+        "message": "全选"
+    },
+    "widgets_inspect_source_template_id": {
+        "message": "模板：{{value}}"
     },
     "widgets_library_disclaimer": {
         "message": "小组件由 AI 生成，偶尔可能不准确。"

@@ -80,15 +80,6 @@
     "agent_persona_variables": {
         "message": "Variables"
     },
-    "ai_mode_copy_logs": {
-        "message": "Copier les journaux"
-    },
-    "ai_mode_expert": {
-        "message": "Expert"
-    },
-    "ai_mode_fast": {
-        "message": "Rapide"
-    },
     "app_title": {
         "message": "Phi Chat"
     },
@@ -97,6 +88,498 @@
     },
     "artifacts_panel_aria_label": {
         "message": "Panneau des widgets"
+    },
+    "browser_manage_bookmarks_move_body_bookmark": {
+        "message": "Déplacer le favori « {{name}} » vers un autre emplacement."
+    },
+    "browser_manage_bookmarks_move_body_folder": {
+        "message": "Déplacer le dossier « {{name}} » vers un autre emplacement."
+    },
+    "browser_manage_bookmarks_move_summary_bookmark": {
+        "message": "Favori « {{name}} » déplacé"
+    },
+    "browser_manage_bookmarks_move_summary_folder": {
+        "message": "Dossier « {{name}} » déplacé"
+    },
+    "browser_manage_bookmarks_move_title": {
+        "message": "Déplacer le favori"
+    },
+    "browser_manage_bookmarks_remove_body_bookmark": {
+        "message": "Supprimer le favori « {{name}} »."
+    },
+    "browser_manage_bookmarks_remove_body_folder": {
+        "message": "Supprimer le dossier « {{name}} » ainsi que ses {{count}} élément(s)."
+    },
+    "browser_manage_bookmarks_remove_summary_bookmark": {
+        "message": "Favori « {{name}} » supprimé"
+    },
+    "browser_manage_bookmarks_remove_summary_folder": {
+        "message": "Dossier de favoris « {{name}} » supprimé ({{count}} élément(s) à l'intérieur)"
+    },
+    "browser_manage_bookmarks_remove_title_bookmark": {
+        "message": "Supprimer le favori"
+    },
+    "browser_manage_bookmarks_remove_title_folder": {
+        "message": "Supprimer le dossier de favoris"
+    },
+    "browser_manage_bookmarks_update_body": {
+        "message": "Modifier le favori « {{name}} »."
+    },
+    "browser_manage_bookmarks_update_new_link": {
+        "message": "Nouveau lien : {{host}}."
+    },
+    "browser_manage_bookmarks_update_new_title": {
+        "message": "Nouveau titre : « {{title}} »."
+    },
+    "browser_manage_bookmarks_update_summary": {
+        "message": "Favori « {{name}} » modifié"
+    },
+    "browser_manage_bookmarks_update_title": {
+        "message": "Modifier le favori"
+    },
+    "browser_manage_downloads_cancel_body": {
+        "message": "Annuler le téléchargement de « {{name}} »."
+    },
+    "browser_manage_downloads_cancel_title": {
+        "message": "Annuler le téléchargement"
+    },
+    "browser_manage_downloads_pause_body": {
+        "message": "Mettre en pause le téléchargement de « {{name}} »."
+    },
+    "browser_manage_downloads_pause_title": {
+        "message": "Mettre en pause le téléchargement"
+    },
+    "browser_manage_downloads_remove_body": {
+        "message": "Retirer « {{name}} » de la liste des téléchargements."
+    },
+    "browser_manage_downloads_remove_title": {
+        "message": "Retirer le téléchargement de la liste"
+    },
+    "browser_manage_downloads_resume_body": {
+        "message": "Reprendre le téléchargement de « {{name}} »."
+    },
+    "browser_manage_downloads_resume_title": {
+        "message": "Reprendre le téléchargement"
+    },
+    "browser_manage_emulation_clear_body": {
+        "message": "Effacer l'émulation d'appareil et de réglages que j'ai définie sur cet onglet."
+    },
+    "browser_manage_emulation_clear_title": {
+        "message": "Arrêter l'émulation"
+    },
+    "browser_manage_emulation_item_cpu": {
+        "message": "Un processeur plus lent."
+    },
+    "browser_manage_emulation_item_geolocation": {
+        "message": "Une position définie."
+    },
+    "browser_manage_emulation_item_locale": {
+        "message": "Langue {{locale}}."
+    },
+    "browser_manage_emulation_item_media": {
+        "message": "Des caractéristiques média (comme le mode sombre)."
+    },
+    "browser_manage_emulation_item_network": {
+        "message": "Un réseau plus lent."
+    },
+    "browser_manage_emulation_item_screen": {
+        "message": "Taille d'écran {{width}}×{{height}}."
+    },
+    "browser_manage_emulation_item_timezone": {
+        "message": "Fuseau horaire {{timezone}}."
+    },
+    "browser_manage_emulation_item_user_agent": {
+        "message": "Un agent utilisateur personnalisé."
+    },
+    "browser_manage_emulation_set_body": {
+        "message": "Faire en sorte que cet onglet se comporte différemment jusqu'à ce que j'efface ces réglages ou que cette tâche se termine :"
+    },
+    "browser_manage_emulation_set_title": {
+        "message": "Émuler un appareil ou un réglage"
+    },
+    "browser_manage_option_cancel": {
+        "message": "Annuler"
+    },
+    "browser_manage_option_confirm": {
+        "message": "Confirmer"
+    },
+    "browser_manage_option_delete_only": {
+        "message": "Supprimer sans exporter"
+    },
+    "browser_manage_option_export_then_delete": {
+        "message": "Exporter, puis supprimer"
+    },
+    "browser_manage_option_keep_current": {
+        "message": "Conserver l'état actuel"
+    },
+    "browser_manage_option_merge": {
+        "message": "Fusionner"
+    },
+    "browser_manage_option_overwrite": {
+        "message": "Écraser"
+    },
+    "browser_manage_pinned_tabs_remove_body": {
+        "message": "Retirer l'onglet épinglé « {{name}} » de tous les Espaces de ce profil."
+    },
+    "browser_manage_pinned_tabs_remove_summary": {
+        "message": "Onglet épinglé « {{name}} » retiré"
+    },
+    "browser_manage_pinned_tabs_remove_title": {
+        "message": "Retirer l'onglet épinglé"
+    },
+    "browser_manage_pinned_tabs_update_body": {
+        "message": "Modifier l'onglet épinglé « {{name}} »."
+    },
+    "browser_manage_pinned_tabs_update_summary": {
+        "message": "Onglet épinglé « {{name}} » modifié"
+    },
+    "browser_manage_pinned_tabs_update_title": {
+        "message": "Modifier l'onglet épinglé"
+    },
+    "browser_manage_profiles_rename_body": {
+        "message": "Renommer le profil « {{from}} » en « {{to}} »."
+    },
+    "browser_manage_profiles_rename_title": {
+        "message": "Renommer le profil"
+    },
+    "browser_manage_raw_on_browser": {
+        "message": "Exécuter {{method}} sur le navigateur."
+    },
+    "browser_manage_raw_on_tab": {
+        "message": "Exécuter {{method}} sur « {{name}} » ({{host}})."
+    },
+    "browser_manage_raw_on_tab_no_host": {
+        "message": "Exécuter {{method}} sur « {{name}} »."
+    },
+    "browser_manage_raw_params": {
+        "message": "Paramètres : {{params}}"
+    },
+    "browser_manage_raw_title": {
+        "message": "Exécuter une commande du navigateur"
+    },
+    "browser_manage_restore_choices_duplicate": {
+        "message": "Écraser le recrée malgré tout ; Fusionner conserve l'élément existant et n'ajoute que ce qui lui manque ; Conserver l'état actuel laisse les choses en l'état."
+    },
+    "browser_manage_restore_choices_field": {
+        "message": "Écraser rétablit tout comme avant ; Fusionner ne rétablit que ce qui n'a pas été modifié depuis ; Conserver l'état actuel laisse les choses telles quelles."
+    },
+    "browser_manage_restore_choices_structural": {
+        "message": "Écraser le rétablit à l'emplacement existant le plus proche ; Conserver l'état actuel laisse les choses en l'état."
+    },
+    "browser_manage_restore_choices_structural_mergeable": {
+        "message": "Écraser le remet là où il était en recréant les dossiers disparus ; Fusionner fait de même mais réutilise un dossier ou un favori du même nom lorsqu'il en existe un ; Conserver l'état actuel laisse les choses en l'état."
+    },
+    "browser_manage_restore_detail_bookmark_exists": {
+        "message": "Un favori équivalent existe déjà à cet endroit."
+    },
+    "browser_manage_restore_detail_changed_since": {
+        "message": "Il a de nouveau été modifié depuis."
+    },
+    "browser_manage_restore_detail_folder_gone": {
+        "message": "Son dossier n'existe plus."
+    },
+    "browser_manage_restore_detail_gone": {
+        "message": "Il n'existe plus."
+    },
+    "browser_manage_restore_detail_group_exists": {
+        "message": "Un groupe du même nom existe dans cette fenêtre."
+    },
+    "browser_manage_restore_detail_group_gone": {
+        "message": "Le groupe n'existe plus."
+    },
+    "browser_manage_restore_detail_pin_exists": {
+        "message": "La même page est déjà épinglée."
+    },
+    "browser_manage_restore_detail_rule_changed": {
+        "message": "La règle a été modifiée ou supprimée depuis."
+    },
+    "browser_manage_restore_detail_rule_exists": {
+        "message": "Une règle pour le même site existe déjà."
+    },
+    "browser_manage_restore_detail_split_ended": {
+        "message": "La Split View a pris fin depuis."
+    },
+    "browser_manage_restore_detail_split_exists": {
+        "message": "Les deux mêmes pages sont déjà en Split View."
+    },
+    "browser_manage_restore_detail_tab_open": {
+        "message": "La même page est ouverte dans cette fenêtre."
+    },
+    "browser_manage_restore_detail_unpinned": {
+        "message": "Il a été désépinglé depuis."
+    },
+    "browser_manage_restore_detail_window_closed": {
+        "message": "Sa fenêtre a été fermée."
+    },
+    "browser_manage_restore_put_back": {
+        "message": "Rétablir : {{what}}."
+    },
+    "browser_manage_restore_summary": {
+        "message": "Rétabli : {{what}}"
+    },
+    "browser_manage_restore_tab_note": {
+        "message": "Les onglets rouverts perdent leur historique de navigation et l'état de la page."
+    },
+    "browser_manage_restore_title_duplicate": {
+        "message": "Annuler la modification : l'élément existe déjà"
+    },
+    "browser_manage_restore_title_field": {
+        "message": "Annuler la modification : l'élément a été modifié depuis"
+    },
+    "browser_manage_restore_title_none": {
+        "message": "Annuler la modification"
+    },
+    "browser_manage_restore_title_structural": {
+        "message": "Annuler la modification : une partie de l'élément a disparu"
+    },
+    "browser_manage_scope_other_space": {
+        "message": "Ceci se trouve dans l'Espace « {{name}} », pas dans celui que vous consultez."
+    },
+    "browser_manage_site_data_cache_delete_body": {
+        "message": "Supprimer un cache de {{site}}."
+    },
+    "browser_manage_site_data_cache_delete_title": {
+        "message": "Supprimer le cache du site"
+    },
+    "browser_manage_site_data_cache_list_body": {
+        "message": "Lister les caches de {{site}}."
+    },
+    "browser_manage_site_data_cache_list_title": {
+        "message": "Lister les caches du site"
+    },
+    "browser_manage_site_data_clear_origin_body": {
+        "message": "Effacer toutes les données stockées (cookies, stockage, bases de données, caches) de {{site}}."
+    },
+    "browser_manage_site_data_clear_origin_title": {
+        "message": "Effacer toutes les données du site"
+    },
+    "browser_manage_site_data_cookies_delete_body": {
+        "message": "Supprimer des cookies de {{site}}."
+    },
+    "browser_manage_site_data_cookies_delete_title": {
+        "message": "Supprimer les cookies"
+    },
+    "browser_manage_site_data_cookies_get_body": {
+        "message": "Lire les cookies de {{site}}."
+    },
+    "browser_manage_site_data_cookies_get_title": {
+        "message": "Lire les cookies"
+    },
+    "browser_manage_site_data_cookies_set_body": {
+        "message": "Définir un cookie pour {{site}}."
+    },
+    "browser_manage_site_data_cookies_set_title": {
+        "message": "Définir un cookie"
+    },
+    "browser_manage_site_data_current_tab": {
+        "message": "le site ouvert dans cet onglet"
+    },
+    "browser_manage_site_data_indexed_db_delete_body": {
+        "message": "Supprimer une base de données IndexedDB de {{site}}."
+    },
+    "browser_manage_site_data_indexed_db_delete_title": {
+        "message": "Supprimer la base de données du site"
+    },
+    "browser_manage_site_data_indexed_db_list_body": {
+        "message": "Lister les bases de données IndexedDB de {{site}}."
+    },
+    "browser_manage_site_data_indexed_db_list_title": {
+        "message": "Lister les bases de données du site"
+    },
+    "browser_manage_site_data_indexed_db_read_body": {
+        "message": "Lire des entrées IndexedDB de {{site}}."
+    },
+    "browser_manage_site_data_indexed_db_read_title": {
+        "message": "Lire la base de données du site"
+    },
+    "browser_manage_site_data_local_storage_clear_body": {
+        "message": "Effacer le stockage local de {{site}}."
+    },
+    "browser_manage_site_data_local_storage_clear_title": {
+        "message": "Effacer le stockage du site"
+    },
+    "browser_manage_site_data_local_storage_get_body": {
+        "message": "Lire le stockage local de {{site}}."
+    },
+    "browser_manage_site_data_local_storage_get_title": {
+        "message": "Lire le stockage du site"
+    },
+    "browser_manage_site_data_local_storage_remove_body": {
+        "message": "Supprimer un élément du stockage local de {{site}}."
+    },
+    "browser_manage_site_data_local_storage_remove_title": {
+        "message": "Supprimer du stockage du site"
+    },
+    "browser_manage_site_data_local_storage_set_body": {
+        "message": "Écrire dans le stockage local de {{site}}."
+    },
+    "browser_manage_site_data_local_storage_set_title": {
+        "message": "Modifier le stockage du site"
+    },
+    "browser_manage_site_data_names_only_note": {
+        "message": "Seuls les noms et les tailles sont montrés à l'IA, pas les valeurs."
+    },
+    "browser_manage_site_data_service_worker_unregister_body": {
+        "message": "Désinscrire le service worker de {{site}}."
+    },
+    "browser_manage_site_data_service_worker_unregister_title": {
+        "message": "Retirer le service worker du site"
+    },
+    "browser_manage_site_data_values_note": {
+        "message": "Les valeurs seront transmises à l'IA."
+    },
+    "browser_manage_spaces_delete_body": {
+        "message": "Supprimer l'Espace « {{name}} » : ses {{bookmarks}} favori(s) et ses {{rules}} règle(s) d'URL disparaissent avec lui, et ses {{tabs}} onglet(s) se ferment."
+    },
+    "browser_manage_spaces_delete_export_note": {
+        "message": "Exporter d'abord enregistre l'ensemble dans un fichier JSON."
+    },
+    "browser_manage_spaces_delete_title": {
+        "message": "Supprimer l'Espace"
+    },
+    "browser_manage_spaces_update_body": {
+        "message": "Modifier l'Espace « {{name}} »."
+    },
+    "browser_manage_spaces_update_title": {
+        "message": "Modifier l'Espace"
+    },
+    "browser_manage_split_view_remove_body": {
+        "message": "Mettre fin à la Split View de « {{first}} » et « {{second}} » ; les deux onglets restent ouverts."
+    },
+    "browser_manage_split_view_remove_summary": {
+        "message": "Split View « {{first}} » + « {{second}} » terminée"
+    },
+    "browser_manage_split_view_remove_title": {
+        "message": "Mettre fin à la Split View"
+    },
+    "browser_manage_split_view_swap_body": {
+        "message": "Échanger les deux côtés de la Split View de « {{first}} » et « {{second}} »."
+    },
+    "browser_manage_split_view_swap_summary": {
+        "message": "Côtés de la Split View « {{first}} » + « {{second}} » échangés"
+    },
+    "browser_manage_split_view_swap_title": {
+        "message": "Échanger les côtés de la Split View"
+    },
+    "browser_manage_split_view_update_body": {
+        "message": "Modifier la Split View de « {{first}} » et « {{second}} »."
+    },
+    "browser_manage_split_view_update_summary": {
+        "message": "Split View « {{first}} » + « {{second}} » modifiée"
+    },
+    "browser_manage_split_view_update_title": {
+        "message": "Modifier la Split View"
+    },
+    "browser_manage_tab_groups_add_tabs_body": {
+        "message": "Ajouter {{count}} onglet(s) au groupe d'onglets « {{name}} »."
+    },
+    "browser_manage_tab_groups_add_tabs_summary": {
+        "message": "{{count}} onglet(s) ajouté(s) au groupe d'onglets « {{name}} »"
+    },
+    "browser_manage_tab_groups_add_tabs_title": {
+        "message": "Ajouter des onglets au groupe"
+    },
+    "browser_manage_tab_groups_close_body": {
+        "message": "Fermer le groupe d'onglets « {{name}} » et ses {{count}} onglet(s)."
+    },
+    "browser_manage_tab_groups_close_summary": {
+        "message": "Groupe d'onglets « {{name}} » fermé avec {{count}} onglet(s)"
+    },
+    "browser_manage_tab_groups_close_title": {
+        "message": "Fermer le groupe d'onglets"
+    },
+    "browser_manage_tab_groups_remove_tabs_body_many": {
+        "message": "Sortir {{count}} onglet(s) de {{groups}} groupes d'onglets ; les onglets restent ouverts."
+    },
+    "browser_manage_tab_groups_remove_tabs_body_one": {
+        "message": "Sortir {{count}} onglet(s) du groupe d'onglets « {{name}} » ; les onglets restent ouverts."
+    },
+    "browser_manage_tab_groups_remove_tabs_summary": {
+        "message": "{{count}} onglet(s) sorti(s) de {{groups}} groupe(s)"
+    },
+    "browser_manage_tab_groups_remove_tabs_title": {
+        "message": "Sortir des onglets de leur groupe"
+    },
+    "browser_manage_tab_groups_ungroup_body": {
+        "message": "Dissocier « {{name}} » ; ses {{count}} onglet(s) restent ouverts."
+    },
+    "browser_manage_tab_groups_ungroup_summary": {
+        "message": "Groupe d'onglets « {{name}} » dissocié ({{count}} onglet(s))"
+    },
+    "browser_manage_tab_groups_ungroup_title": {
+        "message": "Dissocier les onglets"
+    },
+    "browser_manage_tab_groups_update_body": {
+        "message": "Modifier le groupe d'onglets « {{name}} »."
+    },
+    "browser_manage_tab_groups_update_summary": {
+        "message": "Groupe d'onglets « {{name}} » modifié"
+    },
+    "browser_manage_tab_groups_update_title": {
+        "message": "Modifier le groupe d'onglets"
+    },
+    "browser_manage_tabs_close_body": {
+        "message": "Fermer l'onglet « {{name}} » ({{host}})."
+    },
+    "browser_manage_tabs_close_body_no_host": {
+        "message": "Fermer l'onglet « {{name}} »."
+    },
+    "browser_manage_tabs_close_summary": {
+        "message": "Onglet « {{name}} » fermé"
+    },
+    "browser_manage_tabs_close_title": {
+        "message": "Fermer l'onglet"
+    },
+    "browser_manage_undo_approximate": {
+        "message": "Vous pourrez me demander d'annuler cette action plus tard ; les onglets rouverts perdent leur historique de navigation et l'état de la page."
+    },
+    "browser_manage_undo_not_restorable": {
+        "message": "Cette action est irréversible."
+    },
+    "browser_manage_undo_restorable": {
+        "message": "Vous pourrez me demander d'annuler cette action plus tard."
+    },
+    "browser_manage_untitled": {
+        "message": "(sans titre)"
+    },
+    "browser_manage_url_rules_delete_body": {
+        "message": "Supprimer la règle pour {{rule}}."
+    },
+    "browser_manage_url_rules_delete_summary": {
+        "message": "Règle d'URL {{rule}} supprimée"
+    },
+    "browser_manage_url_rules_delete_title": {
+        "message": "Supprimer la règle d'URL"
+    },
+    "browser_manage_url_rules_update_body": {
+        "message": "Modifier la règle pour {{rule}}."
+    },
+    "browser_manage_url_rules_update_summary": {
+        "message": "Règle d'URL {{rule}} modifiée"
+    },
+    "browser_manage_url_rules_update_title": {
+        "message": "Modifier la règle d'URL"
+    },
+    "browser_manage_windows_set_bounds_body": {
+        "message": "Déplacer ou redimensionner une fenêtre du navigateur."
+    },
+    "browser_manage_windows_set_bounds_body_size": {
+        "message": "Déplacer ou redimensionner une fenêtre du navigateur en {{width}}×{{height}}."
+    },
+    "browser_manage_windows_set_bounds_body_state": {
+        "message": "Passer une fenêtre du navigateur en mode {{state}}."
+    },
+    "browser_manage_windows_set_bounds_title": {
+        "message": "Redimensionner la fenêtre"
+    },
+    "browser_manage_windows_state_fullscreen": {
+        "message": "plein écran"
+    },
+    "browser_manage_windows_state_maximized": {
+        "message": "agrandi"
+    },
+    "browser_manage_windows_state_minimized": {
+        "message": "réduit"
     },
     "chat_attachments_add": {
         "message": "Joindre des fichiers"
@@ -464,6 +947,9 @@
     "context_menu_ask_about_selection": {
         "message": "Demander à {{agentName}} à propos de « {{selection}} »"
     },
+    "context_menu_watch_page": {
+        "message": "Demander à {{agentName}} de surveiller cette page"
+    },
     "conversation_add_category": {
         "message": "Nouvelle catégorie"
     },
@@ -476,23 +962,14 @@
     "conversation_all_category": {
         "message": "Toutes"
     },
-    "conversation_all_conversations": {
-        "message": "Toutes les conversations"
-    },
-    "conversation_all_conversations_description": {
-        "message": "Parcourez et gérez votre historique de conversations"
-    },
-    "conversation_back": {
-        "message": "Retour"
+    "conversation_batch_delete_error": {
+        "message": "Impossible de supprimer les conversations sélectionnées"
     },
     "conversation_batch_mode": {
         "message": "Sélectionner"
     },
-    "conversation_browse_all": {
-        "message": "Tout parcourir…"
-    },
-    "conversation_browse_all_categories": {
-        "message": "Parcourir toutes les catégories…"
+    "conversation_by_profile": {
+        "message": "Par profil"
     },
     "conversation_cancel": {
         "message": "Annuler"
@@ -515,14 +992,11 @@
     "conversation_create_error": {
         "message": "Impossible de créer la conversation"
     },
-    "conversation_default_category_name": {
-        "message": "Avec {{name}}"
-    },
     "conversation_delete": {
         "message": "Supprimer"
     },
     "conversation_delete_batch_confirm_description": {
-        "message": "Voulez-vous vraiment supprimer {{count}} conversations ? Cette action est irréversible."
+        "message": "Voulez-vous vraiment supprimer {{count}} conversation(s) ? Cette action est irréversible."
     },
     "conversation_delete_batch_confirm_title": {
         "message": "Supprimer les conversations sélectionnées"
@@ -531,7 +1005,7 @@
         "message": "Supprimer la catégorie"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "Les conversations de cette catégorie seront replacées dans « Avec {{name}} »."
+        "message": "Les conversations de cette catégorie seront déplacées vers « {{category}} »."
     },
     "conversation_delete_category_confirm_title": {
         "message": "Supprimer la catégorie"
@@ -545,11 +1019,14 @@
     "conversation_delete_selected": {
         "message": "Supprimer ({{count}})"
     },
-    "conversation_deselect_item": {
-        "message": "Désélectionner"
+    "conversation_deselect_all": {
+        "message": "Tout désélectionner"
     },
     "conversation_exit_batch_mode": {
         "message": "Terminé"
+    },
+    "conversation_filter_conversations": {
+        "message": "Filtrer les conversations"
     },
     "conversation_load_error": {
         "message": "Impossible de charger les conversations"
@@ -570,16 +1047,22 @@
         "message": "Déplacer vers une catégorie"
     },
     "conversation_move_to_default": {
-        "message": "Déplacer vers « Avec {{name}} »"
+        "message": "Déplacer vers « {{category}} »"
     },
-    "conversation_no_categories_found": {
-        "message": "Aucune catégorie trouvée"
+    "conversation_move_to_profile": {
+        "message": "Déplacer vers un profil"
+    },
+    "conversation_my_categories": {
+        "message": "Catégories"
     },
     "conversation_no_conversations": {
         "message": "Aucune conversation pour le moment"
     },
     "conversation_no_search_results": {
         "message": "Aucun résultat pour « {{query}} »"
+    },
+    "conversation_no_task_conversations": {
+        "message": "Les conversations dans lesquelles une Tâche a été créée apparaîtront ici"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -592,6 +1075,12 @@
     },
     "conversation_pane_title": {
         "message": "Conversations"
+    },
+    "conversation_phi_chat_management_hint": {
+        "message": "Pour retrouver les conversations de tous les profils et plus d'options de gestion, utilisez Phi Chat."
+    },
+    "conversation_profile_category_name": {
+        "message": "Profil « {{name}} »"
     },
     "conversation_recent_conversations": {
         "message": "Conversations récentes"
@@ -611,11 +1100,14 @@
     "conversation_retry": {
         "message": "Réessayer"
     },
+    "conversation_retry_profiles": {
+        "message": "Impossible de charger les profils. Réessayer"
+    },
     "conversation_save": {
         "message": "Enregistrer"
     },
-    "conversation_search_categories": {
-        "message": "Rechercher des catégories"
+    "conversation_search_filters": {
+        "message": "Rechercher un profil ou une catégorie…"
     },
     "conversation_search_label": {
         "message": "Rechercher des conversations"
@@ -626,14 +1118,26 @@
     "conversation_search_shortcut": {
         "message": "Rechercher des conversations ({{shortcut}})"
     },
+    "conversation_select_all": {
+        "message": "Tout sélectionner"
+    },
     "conversation_select_conversation": {
         "message": "Sélectionner une conversation"
     },
-    "conversation_select_item": {
-        "message": "Sélectionner"
-    },
     "conversation_select_placeholder": {
         "message": "Sélectionner une conversation"
+    },
+    "conversation_selected_count": {
+        "message": "{{count}} sélectionnée(s)"
+    },
+    "conversation_switch_conversation": {
+        "message": "Changer de conversation"
+    },
+    "conversation_switch_discard_draft": {
+        "message": "Votre texte non envoyé et vos pièces jointes seront perdus. Changer de conversation ?"
+    },
+    "conversation_tasks_category": {
+        "message": "Tâches"
     },
     "conversation_title_placeholder": {
         "message": "Titre de la conversation"
@@ -648,10 +1152,19 @@
         "message": "Revenir au point de départ"
     },
     "conversation_travel_back_sidebar_error": {
-        "message": "La page est ouverte, mais sa barre latérale n'a pas suivi. Ouvrez la barre latérale sur cette page pour poursuivre cette conversation."
+        "message": "La page est ouverte, mais la conversation n'a pas pu y être rétablie. Votre conversation est toujours ici. Réessayez."
+    },
+    "conversation_travel_back_target_unavailable": {
+        "message": "L'Espace ou le profil d'origine n'est plus disponible. Votre conversation est toujours ici."
+    },
+    "conversation_uncategorized": {
+        "message": "Sans catégorie"
     },
     "conversation_untitled": {
         "message": "Sans titre"
+    },
+    "conversation_without_profile": {
+        "message": "Sans profil"
     },
     "conversations_categories_all": {
         "message": "Toutes"
@@ -812,6 +1325,9 @@
     "errors_chat_not_found": {
         "message": "Conversation introuvable."
     },
+    "errors_image_preview_awaiting_upload": {
+        "message": "Cette image est trop volumineuse pour être prévisualisée avant le téléversement. Attendez la fin du téléversement, puis réessayez."
+    },
     "errors_run_failed": {
         "message": "Échec de l'exécution"
     },
@@ -820,6 +1336,12 @@
     },
     "errors_upload_not_available": {
         "message": "Le téléversement de fichiers n'est pas disponible pour le moment."
+    },
+    "errors_upload_preparing": {
+        "message": "Les téléversements se préparent. Veuillez réessayer dans un instant. Les fichiers texte restent disponibles."
+    },
+    "errors_upload_sign_in_required": {
+        "message": "Connectez-vous pour ajouter des images ou des PDF. Les fichiers texte restent disponibles."
     },
     "features_chat_with_tabs": {
         "message": "Conversation avec les onglets"
@@ -1226,9 +1748,6 @@
     "message_tool_web_search": {
         "message": "Outil de recherche web"
     },
-    "message_warning_title": {
-        "message": "Avertissement"
-    },
     "message_worker_progress_browser": {
         "message": "Utilisation du navigateur…"
     },
@@ -1441,6 +1960,15 @@
     },
     "private_ai_banner_title": {
         "message": "Vous utilisez l'IA privée"
+    },
+    "prompt_preferences_restore": {
+        "message": "Rétablir les rappels masqués"
+    },
+    "prompt_preferences_restore_error": {
+        "message": "Certains rappels n'ont pas pu être rétablis. Veuillez réessayer."
+    },
+    "prompt_preferences_restore_success": {
+        "message": "Rappels rétablis. Ils réapparaîtront lorsque ce sera pertinent."
     },
     "shadow_tasks_artifacts_empty": {
         "message": "Aucun artefact disponible"
@@ -1907,9 +2435,6 @@
     "skills_menu_label": {
         "message": "Skills"
     },
-    "skills_only_available_on_sites": {
-        "message": "« {{name}} » n'est disponible que sur {{sitesLabel}}."
-    },
     "skills_pagination_label": {
         "message": "Pagination des Skills"
     },
@@ -2000,8 +2525,32 @@
     "top_bar_menu": {
         "message": "Menu"
     },
-    "top_bar_open_in_new_tab": {
-        "message": "Ouvrir dans un nouvel onglet"
+    "top_bar_open_in_phi_chat": {
+        "message": "Ouvrir dans Phi Chat"
+    },
+    "top_bar_open_in_sidebar": {
+        "message": "Ouvrir dans la barre latérale"
+    },
+    "top_bar_open_in_sidebar_no_page": {
+        "message": "Cette conversation n'est pas encore liée à une page web, elle ne peut donc pas s'ouvrir dans une barre latérale."
+    },
+    "top_bar_phi_chat_ai_off": {
+        "message": "Les fonctionnalités d'IA sont désactivées. Phi Chat ne peut pas être ouvert."
+    },
+    "top_bar_phi_chat_discard_draft_confirm": {
+        "message": "Abandonner et ouvrir"
+    },
+    "top_bar_phi_chat_discard_draft_description": {
+        "message": "Ouvrir cette conversation dans Phi Chat efface le texte et les pièces jointes de la zone de saisie de la barre latérale. Ils ne sont pas transférés vers la fenêtre Phi Chat."
+    },
+    "top_bar_phi_chat_discard_draft_title": {
+        "message": "Abandonner votre brouillon non envoyé ?"
+    },
+    "top_bar_phi_chat_open_error": {
+        "message": "Impossible d'ouvrir Phi Chat. Votre conversation est toujours ici. Veuillez réessayer."
+    },
+    "top_bar_phi_chat_unavailable": {
+        "message": "Cette version du navigateur ne peut pas ouvrir Phi Chat depuis la barre latérale. Veuillez mettre à jour Phi Browser."
     },
     "top_bar_phi_link": {
         "message": "Phi Link"
@@ -2015,20 +2564,14 @@
     "top_bar_show_response_speed": {
         "message": "Afficher la vitesse de réponse"
     },
-    "travel_back_banner_description": {
-        "message": "Rouvrez-la pour reprendre là où vous en étiez."
-    },
-    "travel_back_banner_dismiss": {
-        "message": "Ignorer"
-    },
-    "travel_back_banner_dont_show_again": {
-        "message": "Ne plus afficher"
-    },
-    "travel_back_banner_title": {
-        "message": "Cette conversation portait sur une page web"
-    },
     "user_action_aborted": {
         "message": "Action interrompue"
+    },
+    "user_action_ask_from": {
+        "message": "Question de {{name}}"
+    },
+    "user_action_ask_from_assistant": {
+        "message": "Question de l'assistant"
     },
     "user_action_cancelled": {
         "message": "Action annulée"
@@ -2048,6 +2591,12 @@
     "user_action_deny": {
         "message": "Refuser"
     },
+    "user_action_expired": {
+        "message": "Cette question n'attend plus de réponse."
+    },
+    "user_action_required": {
+        "message": "Obligatoire"
+    },
     "user_action_responded": {
         "message": "Action confirmée"
     },
@@ -2065,6 +2614,12 @@
     },
     "user_action_screenshot_alt": {
         "message": "Capture d'écran de l'action"
+    },
+    "user_action_skip": {
+        "message": "Ignorer"
+    },
+    "user_action_submit": {
+        "message": "Envoyer"
     },
     "user_input_add_file": {
         "message": "Ajouter un fichier"
@@ -2093,6 +2648,12 @@
     "user_input_interject": {
         "message": "Envoyer après ce tour"
     },
+    "user_input_journey_context": {
+        "message": "Activité en cours"
+    },
+    "user_input_journey_working_toward": {
+        "message": "Objectif : {{label}}"
+    },
     "user_input_no_available_skills": {
         "message": "Aucune Skill disponible"
     },
@@ -2101,6 +2662,9 @@
     },
     "user_input_remove_attachment": {
         "message": "Retirer la pièce jointe"
+    },
+    "user_input_remove_journey_context": {
+        "message": "Retirer le contexte d'activité"
     },
     "user_input_remove_split_view": {
         "message": "Retirer Split View"
@@ -2135,6 +2699,9 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
+    "watch_page_kickoff_message": {
+        "message": "Garde un œil sur cette page pour moi et préviens-moi quand quelque chose d'important change, comme le prix : {{url}}"
+    },
     "welcome_subtitle": {
         "message": "Vous pouvez effectuer des recherches, poser des questions ou travailler avec la page actuelle"
     },
@@ -2143,5 +2710,32 @@
     },
     "widgets_pinned_iframe_title": {
         "message": "Widget épinglé"
+    },
+    "worker_target_body": {
+        "message": "Cette tâche doit ouvrir des pages du navigateur. Choisissez un Espace : la tâche y ouvrira ses onglets."
+    },
+    "worker_target_field_remember": {
+        "message": "Utiliser cet Espace pour le reste de cette conversation"
+    },
+    "worker_target_field_space": {
+        "message": "Espace"
+    },
+    "worker_target_option_cancel": {
+        "message": "Annuler"
+    },
+    "worker_target_option_run": {
+        "message": "Exécuter ici"
+    },
+    "worker_target_space_in_profile": {
+        "message": "{{name}} ({{profile}})"
+    },
+    "worker_target_stale": {
+        "message": "L'Espace que vous aviez choisi n'existe plus, ce choix doit donc être refait."
+    },
+    "worker_target_stale_profile": {
+        "message": "L'Espace que vous aviez choisi appartient à un autre profil de navigateur que celui de cette conversation, ce choix doit donc être refait."
+    },
+    "worker_target_title": {
+        "message": "Où cette tâche doit-elle s'exécuter ?"
     }
 }

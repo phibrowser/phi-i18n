@@ -21,7 +21,7 @@
         "message": "Ungültige Sichtbarkeitseinstellung. Muss entweder 'private' oder 'public' sein."
     },
     "errors_chat_pagination_conflict": {
-        "message": "Die Parameter starting_after und ending_before können nicht zusammen verwendet werden."
+        "message": "Die Parameter starting_after und ending_before können nicht gleichzeitig verwendet werden."
     },
     "errors_edit_delete_failed": {
         "message": "Die Bearbeitung konnte nicht mit dem Server synchronisiert werden. Die Änderungen werden gespeichert, sobald die Antwort abgeschlossen ist."
@@ -440,6 +440,9 @@
     "widgets_menu_edit": {
         "message": "Bearbeiten"
     },
+    "widgets_menu_inspect": {
+        "message": "Quelltext untersuchen"
+    },
     "widgets_menu_refresh": {
         "message": "Aktualisieren"
     },
@@ -451,5 +454,26 @@
     },
     "widgets_pending_refresh": {
         "message": "Aktualisieren"
+    },
+    "widgets_suggested_badge": {
+        "message": "Vorgeschlagen"
+    },
+    "widgets_suggested_keep": {
+        "message": "Dieses Widget behalten"
+    },
+    "widgets_suggested_keep_short": {
+        "message": "Behalten"
+    },
+    "widgets_suggested_remove": {
+        "message": "Diesen Vorschlag entfernen"
+    },
+    "widgets_suggested_removed": {
+        "message": "Vorschlag entfernt"
+    },
+    "widgets_suggested_stop": {
+        "message": "Nicht mehr vorschlagen"
+    },
+    "widgets_suggested_undo": {
+        "message": "Rückgängig"
     }
 }
