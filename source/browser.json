@@ -3,6 +3,14 @@
         "message": "A deletion request for this account is already being processed. You will receive an email receipt once the deletion is complete.\n\nPhi will now sign you out, remove its data from this Mac, and quit.",
         "description": "Location: Browser. Account deletion - Text shown when a previous deletion request is already running server-side; the finalize confirmation comes next, as after a submission"
     },
+    "a_little_library_of_things_worth_keeping": {
+        "message": "A little library of things worth keeping.",
+        "description": "Location: Browser. Folio library - Subtitle beneath the library name"
+    },
+    "a_new_verification_code_is_on_its": {
+        "message": "A new verification code is on its way to your inbox.",
+        "description": "Location: Browser. Bitwarden sign-in sheet - Confirmation that another new-device verification code has been emailed"
+    },
     "a_new_version_of_phi_is_available": {
         "message": "A new version of Phi is available",
         "description": "Location: Browser. Update window - Title"
@@ -47,6 +55,14 @@
         "message": "Accessing:",
         "description": "Location: Browser. Bitwarden login sheet - server region prefix"
     },
+    "account": {
+        "message": "Account",
+        "description": "Location: Browser. Sync setup Space matching - header of the column listing account Spaces"
+    },
+    "account_space_for": {
+        "message": "Account Space for “%@”",
+        "description": "Location: Browser. Sync setup Space matching - VoiceOver label for the account Space picker; %@ is the Space name on this Mac"
+    },
     "active": {
         "message": "Active",
         "description": "Location: Browser. Search Tabs - Trailing label for the active tab result"
@@ -54,6 +70,14 @@
     "add": {
         "message": "Add",
         "description": "Location: Browser. Custom filter sheet - Button that adds the filter"
+    },
+    "add_all_as_new": {
+        "message": "Add all as new",
+        "description": "Location: Browser. Sync setup Space matching - button that adds every undecided Space to the account as a new Space"
+    },
+    "add_as_new": {
+        "message": "Add as new",
+        "description": "Location: Browser. Sync setup Space matching - picker option that adds this Space to the account as a new Space"
     },
     "add_bottom_split": {
         "message": "Add Bottom Split",
@@ -79,6 +103,10 @@
         "message": "Add Note",
         "description": "Location: Browser. Folio - Title of the dialog that attaches a note to a saved highlight"
     },
+    "add_pinned_tab_bookmark_or_folder": {
+        "message": "Add pinned tab, bookmark or folder",
+        "description": "Location: Browser. Library Space card - add item button"
+    },
     "add_right_split": {
         "message": "Add Right Split",
         "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the right third of the page"
@@ -102,6 +130,10 @@
     "add_tabs_to_new_group": {
         "message": "Add Tabs to New Group",
         "description": "Location: Browser. Tab multi-selection context menu - create a new tab group from selected tabs"
+    },
+    "add_this_device_to_your_account": {
+        "message": "Add this device to your account",
+        "description": "Location: Browser. Sync setup - title of the page that asks how this device joins the account"
     },
     "add_to_bookmark": {
         "message": "Add to Bookmark",
@@ -303,6 +335,10 @@
         "message": "AI Sidebar",
         "description": "Location: Browser. AI settings - Section title for AI sidebar options"
     },
+    "all": {
+        "message": "All",
+        "description": "Location: Browser. All downloads window - Filter including all regular profiles"
+    },
     "all_agents": {
         "message": "All agents",
         "description": "Location: Browser. Developer settings - name of the blocked-agents entry that covers every agent"
@@ -330,6 +366,10 @@
     "all_downloads": {
         "message": "All Downloads",
         "description": "Location: Browser. Downloads list - Button to open full downloads page"
+    },
+    "all_items": {
+        "message": "All Items",
+        "description": "Location: Browser. Folio library - Filter showing every saved item"
     },
     "all_sites": {
         "message": "All sites",
@@ -386,6 +426,10 @@
     "already_in_folio": {
         "message": "Already in Folio",
         "description": "Location: Browser. Folio - Toast shown when a page is saved again: the item it already has is kept rather than a second copy being written"
+    },
+    "already_in_your_account": {
+        "message": "Already in your account",
+        "description": "Location: Browser. Sync setup Space matching - account column text for the default Space, which always exists in the account"
     },
     "also_include_and_all_its_subdomains": {
         "message": "Also include %@ and all its subdomains",
@@ -471,6 +515,10 @@
         "message": "Applies to “Copy Link to Highlight” in the right-click menu. Turn off to copy the full link.",
         "description": "Location: Browser. Advanced settings - Explains where the short-link toggle applies and that disabling it copies the full link to the selected text"
     },
+    "apply": {
+        "message": "Apply",
+        "description": "Location: Browser. Sync setup review - button that accepts the listed changes and starts sync"
+    },
     "apply_theme_to_text_selection_on_web": {
         "message": "Apply theme to text selection on web pages",
         "description": "Location: Browser. General settings - Toggle title for tinting ::selection on third-party pages with the window theme accent"
@@ -483,9 +531,13 @@
         "message": "Apply to all agents",
         "description": "Location: Browser. Credential approval - all-agents row title"
     },
+    "applying_your_choices": {
+        "message": "Applying your choices…",
+        "description": "Location: Browser. Sync setup - progress title while the chosen matches are applied"
+    },
     "approve": {
         "message": "Approve",
-        "description": "Location: Browser. Credential approval - approve"
+        "description": "Location: Browser. Devices settings - button that approves a device waiting to join"
     },
     "approve_an_agent_request_for_10_minutes": {
         "message": "Approve an agent request for 10 minutes or always and it will appear here.",
@@ -503,6 +555,18 @@
         "message": "Article",
         "description": "Location: Browser. Reader View - Fallback file name when an article has no title"
     },
+    "article_19d9b3": {
+        "message": "Article",
+        "description": "Location: Browser. Folio library - Reading mode showing the saved article"
+    },
+    "articles": {
+        "message": "Articles",
+        "description": "Location: Browser. Folio library - Filter showing saved articles"
+    },
+    "articles_to_return_to_ideas_to_sit": {
+        "message": "Articles to return to, ideas to sit with, and passages you don't want to lose. Give them a place of their own.",
+        "description": "Location: Browser. Folio library - Explanation on the empty library welcome screen"
+    },
     "ask_every_time": {
         "message": "Ask every time",
         "description": "Location: Browser. Special target in the URL rule Space picker: prompt for a Space on each match"
@@ -510,6 +574,10 @@
     "assign": {
         "message": "Assign",
         "description": "Location: Browser. AI settings - Button that assigns an existing unassigned connector to the selected browser Profile"
+    },
+    "assign_to": {
+        "message": "Assign to %@",
+        "description": "Location: Browser. Sync setup profile matching - option that matches an account profile to a profile on this Mac; %@ is that profile's name"
     },
     "attach_files": {
         "message": "Attach files",
@@ -567,6 +635,14 @@
         "message": "Back",
         "description": "Location: Browser. Shortcuts settings - Command title for navigating back"
     },
+    "back_76900f": {
+        "message": "Back",
+        "description": "Location: Browser. Web content header - Accessibility description for back navigation button"
+    },
+    "back_to_browsing": {
+        "message": "Back to browsing",
+        "description": "Location: Browser. Library - Close button label"
+    },
     "back_to_saved_url": {
         "message": "Back to Saved URL",
         "description": "Location: Browser. Bookmark favicon hover hint - Navigate the open bookmark tab back to its saved URL"
@@ -606,6 +682,10 @@
     "bitwarden": {
         "message": "Bitwarden",
         "description": "Location: Browser. Onboarding password manager - Bitwarden option"
+    },
+    "bitwarden_does_not_recognize_this_device_enter": {
+        "message": "Bitwarden does not recognize this device. Enter the code it just emailed you.",
+        "description": "Location: Browser. Bitwarden sign-in sheet - Explanation shown above the new-device verification code field"
     },
     "bitwarden_helper_not_available": {
         "message": "Bitwarden helper not available",
@@ -687,6 +767,10 @@
         "message": "Bookmarks",
         "description": "Location: Browser. Bookmarks menu - Menu title"
     },
+    "bookmarks_114a6c": {
+        "message": "Bookmarks",
+        "description": "Location: Browser. Library Space card - bookmarks section"
+    },
     "bookmarks_53ba99": {
         "message": "Bookmarks",
         "description": "Location: Browser. Bookmark manager - Title shown for the native bookmark management tab"
@@ -763,6 +847,10 @@
         "message": "Bot Token",
         "description": "Location: Browser. Phi Link - Custom bot token label"
     },
+    "bring_your_spaces_bookmarks_pinned_tabs_and": {
+        "message": "Bring your Spaces, bookmarks, pinned tabs and supported browsing data to your other devices. Save a recovery code, then choose how this Mac joins your account.",
+        "description": "Location: Browser. Sync setup introduction explanation"
+    },
     "browser_data": {
         "message": "Browser data",
         "description": "Location: Browser. User data export - Checkbox label for including browser data in the backup"
@@ -799,6 +887,10 @@
         "message": "Browsing history",
         "description": "Location: Browser. Import data type - Browsing history toggle label"
     },
+    "browsing_history_bc3833": {
+        "message": "Browsing history",
+        "description": "Location: Browser. Enabled Chromium history category"
+    },
     "built_into_phi": {
         "message": "Built into Phi",
         "description": "Location: Browser. Advanced ad block settings - Details line for a filter list shipped with the browser"
@@ -814,6 +906,10 @@
     "can_t_be_changed_while_a_migration": {
         "message": "Can’t be changed while a migration from another browser is running.",
         "description": "Location: Browser. Spaces settings - why the pinned-tab scope picker is disabled during a browser migration"
+    },
+    "can_t_be_read_right_now_phi": {
+        "message": "Can’t be read right now — Phi keeps retrying in the background",
+        "description": "Location: Browser. Sync setup profile matching - status of an account profile that cannot be decrypted yet"
     },
     "can_t_change_this_space_s_profile": {
         "message": "Can’t change this Space’s profile yet",
@@ -842,6 +938,10 @@
     "cancel_1389c3": {
         "message": "Cancel",
         "description": "Location: Browser. User data import - Alert button to cancel importing user data"
+    },
+    "cancel_19766e": {
+        "message": "Cancel",
+        "description": "Location: Browser. Self-revoke confirmation - cancel\nWaiting - cancel"
     },
     "cancel_1bd60a": {
         "message": "Cancel",
@@ -902,6 +1002,10 @@
     "cancel_7e8473": {
         "message": "Cancel",
         "description": "Location: Browser. Browser migration wizard - button closing the wizard without migrating"
+    },
+    "cancel_957ba8": {
+        "message": "Cancel",
+        "description": "Location: Browser. Folio library - Cancels moving an item to Trash"
     },
     "cancel_9b3e6c": {
         "message": "Cancel",
@@ -982,6 +1086,10 @@
     "cancel_dc1e31": {
         "message": "Cancel",
         "description": "Location: Browser. Help menu - Button that cancels Time Machine backup deletion"
+    },
+    "cancel_e121cc": {
+        "message": "Cancel",
+        "description": "Location: Browser. Sync setup - button that cancels the pending join request"
     },
     "cancel_ee61d8": {
         "message": "Cancel",
@@ -1099,6 +1207,10 @@
         "message": "Change Scope",
         "description": "Location: Browser. Spaces settings - confirm pinned-tab scope change"
     },
+    "change_space_icon": {
+        "message": "Change Space icon",
+        "description": "Location: Browser. Library Space card - icon picker button"
+    },
     "change_theme": {
         "message": "Change Theme",
         "description": "Location: Browser. Spaces context menu - Theme picker accessibility label"
@@ -1106,6 +1218,14 @@
     "change_theme_c8cd55": {
         "message": "Change Theme",
         "description": "Location: Browser. Spaces context menu - Change Theme submenu title"
+    },
+    "changes_from_to": {
+        "message": "%1$@ changes from %2$@ to %3$@",
+        "description": "Location: Browser. Sync setup review - VoiceOver label for one changed value; %1$@ is the field name, %2$@ the value on this Mac, %3$@ the account value"
+    },
+    "changes_to_space": {
+        "message": "Changes to Space “%@”",
+        "description": "Location: Browser. Sync setup review - VoiceOver label for one Space's changes; %@ is the Space name"
     },
     "chat": {
         "message": "Chat",
@@ -1123,13 +1243,21 @@
         "message": "Check the rule sets to use. Done downloads any that are missing from their publishers; nothing is downloaded until you ask. Custom lists apply to all three switches.",
         "description": "Location: Browser. Choose rule sets sheet - Introductory sentence"
     },
+    "check_your_recovery_code_and_try_again": {
+        "message": "Check your recovery code and try again.",
+        "description": "Location: Browser. Sync recovery input rejected"
+    },
     "checking_for_updates": {
         "message": "Checking for updates...",
         "description": "Location: Browser. Phi menu - Menu item text while checking for updates"
     },
+    "checking_sync_status": {
+        "message": "Checking sync status…",
+        "description": "Location: Browser. Sync status not yet known"
+    },
     "choose": {
         "message": "Choose",
-        "description": "Location: Browser. Profiles settings - download folder picker confirm button"
+        "description": "Location: Browser. General settings - Folio folder picker confirm button"
     },
     "choose_1ca7d1": {
         "message": "Choose…",
@@ -1143,6 +1271,18 @@
         "message": "Choose a download location for this profile.",
         "description": "Location: Browser. Profiles settings - download folder picker message"
     },
+    "choose_a_name_address_and_folder_for": {
+        "message": "Choose a name, address, and folder for this bookmark.",
+        "description": "Location: Browser. Bookmark creator - subtitle of the sheet to create a bookmark"
+    },
+    "choose_a_name_and_address_for_this": {
+        "message": "Choose a name and address for this pinned tab.",
+        "description": "Location: Browser. Pinned tab creator - subtitle of the sheet to create a pinned tab"
+    },
+    "choose_an_item_from_your_collection_and": {
+        "message": "Choose an item from your collection and make a little room to read.",
+        "description": "Location: Browser. Folio library - Prompt to select a saved article"
+    },
     "choose_and_download_rule_sets": {
         "message": "Choose and download rule sets",
         "description": "Location: Browser. Profile settings - Tooltip of the options button next to a content blocking toggle that opens the rule set chooser"
@@ -1151,6 +1291,14 @@
         "message": "Choose at least one Space to migrate.",
         "description": "Location: Browser. Browser migration wizard - why Start is disabled when the user has unticked everything"
     },
+    "choose_e7d3c0": {
+        "message": "Choose…",
+        "description": "Location: Browser. Sync setup Space matching - picker placeholder before a choice is made"
+    },
+    "choose_f62813": {
+        "message": "Choose",
+        "description": "Location: Browser. Profiles settings - download folder picker confirm button"
+    },
     "choose_file": {
         "message": "Choose File…",
         "description": "Location: Browser. Import browser data page - Button to pick a file to import"
@@ -1158,6 +1306,18 @@
     "choose_files": {
         "message": "Choose Files",
         "description": "Location: Browser. Feedback form - Button to open file picker for attachments"
+    },
+    "choose_how_profiles_on_this_mac_connect": {
+        "message": "Choose how profiles on this Mac connect to your account. Sync starts after you finish matching profiles and Spaces. You can finish later and keep browsing.",
+        "description": "Location: Browser. Sync setup profile matching explanation"
+    },
+    "choose_how_to_set_up_sync_on": {
+        "message": "Choose how to set up sync on this device.",
+        "description": "Location: Browser. Sync setup - explanation under the join method title"
+    },
+    "choose_mk_1e86": {
+        "message": "Choose…",
+        "description": "Location: Browser. Sync setup profile matching - picker placeholder before a choice is made"
     },
     "choose_sites": {
         "message": "Choose sites…",
@@ -1214,6 +1374,10 @@
     "clear_search": {
         "message": "Clear search",
         "description": "Location: Browser. Icon picker - Accessibility label for clearing search"
+    },
+    "clear_search_c9a806": {
+        "message": "Clear Search",
+        "description": "Location: Browser. Folio library - Accessible label for clearing the search field"
     },
     "click": {
         "message": "Click ",
@@ -1323,9 +1487,13 @@
         "message": "Collect Site Memories",
         "description": "Location: Browser. Website menus - Toggle memory collection for the current website in this browser profile"
     },
+    "collection": {
+        "message": "COLLECTION",
+        "description": "Location: Browser. Folio library - Small heading above the saved item list"
+    },
     "color": {
         "message": "Color",
-        "description": "Location: Browser. General settings - Theme color row title"
+        "description": "Location: Browser. Sync setup review - Space field name: the Space color"
     },
     "color_04b3bf": {
         "message": "Color",
@@ -1342,6 +1510,10 @@
     "comfortable_93045e": {
         "message": "Comfortable",
         "description": "Location: Browser. Layout option - Horizontal tabs"
+    },
+    "coming_soon": {
+        "message": "Coming soon",
+        "description": "Location: Browser. Library - Placeholder for a category not yet available"
     },
     "command": {
         "message": "Command",
@@ -1369,7 +1541,11 @@
     },
     "confirm": {
         "message": "Confirm",
-        "description": "Location: Browser. New folder dialog confirm button title"
+        "description": "Location: Browser. Sync setup profile matching - button that confirms the chosen matches"
+    },
+    "confirm_eebdd2": {
+        "message": "Confirm",
+        "description": "Location: Browser. Profile pairing - confirm button"
     },
     "conflicts_with": {
         "message": "Conflicts with: %@",
@@ -1455,6 +1631,18 @@
         "message": "Continue",
         "description": "Location: Browser. Browser migration wizard - button that opens the preview for the picked source"
     },
+    "continue_00d1c8": {
+        "message": "Continue",
+        "description": "Location: Browser. Start sync setup"
+    },
+    "continue_31fbef": {
+        "message": "Continue",
+        "description": "Location: Browser. Pairing wizard - finish step 1"
+    },
+    "continue_setup": {
+        "message": "Continue setup",
+        "description": "Location: Browser. Reopen sync setup with fresh account data"
+    },
     "convert_to_horizontal_split": {
         "message": "Convert to Horizontal Split",
         "description": "Location: Browser. Split context menu - Switch a stacked split to a side-by-side split"
@@ -1475,6 +1663,14 @@
         "message": "Cookies, history, extensions, and other browser data in this profile will be permanently removed. Conversations will be kept in Phi Chat under Uncategorized. If AI is disabled or unavailable, conversations will be moved when AI is enabled and available again.",
         "description": "Location: Browser. Profiles settings - Profile deletion confirmation distinguishing permanently removed browser data from retained conversations and explaining deferred organization while AI is unavailable"
     },
+    "copied": {
+        "message": "Copied",
+        "description": "Location: Browser. Sync setup - copy button title right after the recovery code was copied"
+    },
+    "copy": {
+        "message": "Copy",
+        "description": "Location: Browser. Sync setup - button that copies the recovery code"
+    },
     "copy_bottom_url": {
         "message": "Copy Bottom URL",
         "description": "Location: Browser. Bookmark context menu - Copy the bottom (secondary) URL of a stacked split-view bookmark"
@@ -1482,6 +1678,10 @@
     "copy_bottom_url_20a2c6": {
         "message": "Copy Bottom URL",
         "description": "Location: Browser. Tab context menu - Copy the bottom pane's URL for a stacked split"
+    },
+    "copy_e21f93": {
+        "message": "Copy",
+        "description": "Location: Browser. Recovery code display - copy button"
     },
     "copy_left_url": {
         "message": "Copy Left URL",
@@ -1603,6 +1803,10 @@
         "message": "Could not stage the AI data archive.",
         "description": "Location: Browser. User data export - Error when the prepared AI data archive cannot be staged for backup"
     },
+    "couldn_t_apply_one_of_your_profile": {
+        "message": "Couldn’t apply one of your profile choices. Check your connection and retry.",
+        "description": "Location: Browser. Sync setup - error shown when one profile match could not be applied"
+    },
     "couldn_t_be_imported": {
         "message": "Couldn't be imported",
         "description": "Location: Browser. Browser migration wizard - shown when a migrated Profile's browser-data import came back failed: against its history, cookies and extensions rows in the detail grid, and as the outcome of the promoted failure"
@@ -1610,6 +1814,14 @@
     "couldn_t_change_memory_collection": {
         "message": "Couldn’t Change Memory Collection",
         "description": "Location: Browser. Website menus - Error title when saving the website memory collection setting fails"
+    },
+    "couldn_t_connect_to_sync_check_your": {
+        "message": "Couldn’t connect to sync. Check your connection and try again.",
+        "description": "Location: Browser. Sync setup request failed"
+    },
+    "couldn_t_create_a_profile_named_on": {
+        "message": "Couldn’t create a profile named “%@” on this Mac.",
+        "description": "Location: Browser. Profile matching - error shown when a profile could not be created on this Mac; %@ is the profile name"
     },
     "couldn_t_delete_profile": {
         "message": "Couldn't delete profile",
@@ -1623,6 +1835,14 @@
         "message": "Couldn’t Delete Site Memories",
         "description": "Location: Browser. Website menus - Error title when deleting the website memories fails"
     },
+    "couldn_t_finish_clearing_this_mac_s": {
+        "message": "Couldn’t finish clearing this Mac’s sync setup. Sync remains paused. Try setting up sync again.",
+        "description": "Location: Browser. Local metadata cleanup failed and may be retried"
+    },
+    "couldn_t_finish_setting_up_sync_nothing": {
+        "message": "Couldn’t finish setting up sync. Nothing was lost — check your connection and retry.",
+        "description": "Location: Browser. Sync setup - error shown when the chosen matches could not be applied"
+    },
     "couldn_t_finish_setting_up_your_account": {
         "message": "Couldn’t finish setting up your account",
         "description": "Location: Browser. Guest migration - Alert title when Guest data could not be moved before account publication"
@@ -1635,6 +1855,30 @@
         "message": "Couldn’t install the skill",
         "description": "Location: Browser. Developer settings - Skill install error title"
     },
+    "couldn_t_load_all_of_your_account": {
+        "message": "Couldn’t load all of your account’s Spaces. Check your connection and retry.",
+        "description": "Location: Browser. Sync setup - error shown when only part of the account's Spaces could be loaded"
+    },
+    "couldn_t_load_sync_information_check_your": {
+        "message": "Couldn’t load sync information. Check your connection and retry.",
+        "description": "Location: Browser. Sync settings request failed"
+    },
+    "couldn_t_load_the_account_s_profiles": {
+        "message": "Couldn’t load the account’s profiles in time. Check your connection and retry.",
+        "description": "Location: Browser. Profile matching - error shown when the account's profiles did not load in time"
+    },
+    "couldn_t_load_your_account_s_profiles": {
+        "message": "Couldn’t load your account’s profiles. Check your connection and retry.",
+        "description": "Location: Browser. Sync setup - error shown when the account's profiles could not be loaded"
+    },
+    "couldn_t_load_your_account_s_spaces": {
+        "message": "Couldn’t load your account’s Spaces. Check your connection and retry.",
+        "description": "Location: Browser. Sync setup - error shown when the account's Spaces could not be loaded"
+    },
+    "couldn_t_load_your_account_s_spaces_68c629": {
+        "message": "Couldn’t load your account’s Spaces in time. Check your connection and retry.",
+        "description": "Location: Browser. Sync setup - error shown when the account's Spaces did not load in time"
+    },
     "couldn_t_reach_the_data_export_service": {
         "message": "Couldn't reach the data export service. Check your internet connection and try again.",
         "description": "Location: Browser. Account data export - Error when the network request cannot complete"
@@ -1642,6 +1886,10 @@
     "couldn_t_reach_the_deletion_service_check": {
         "message": "Couldn't reach the deletion service. Check your internet connection and try again.",
         "description": "Location: Browser. Account deletion - Error when the network request could not complete"
+    },
+    "couldn_t_read_your_folio": {
+        "message": "Couldn't read your Folio",
+        "description": "Location: Browser. Folio library - Heading for a file or folder access error"
     },
     "couldn_t_rename_profile": {
         "message": "Couldn't rename profile",
@@ -1666,6 +1914,10 @@
     "create_a_space": {
         "message": "Create a Space",
         "description": "Location: Browser. Title of the create-Space panel"
+    },
+    "create_on_this_mac": {
+        "message": "Create on this Mac",
+        "description": "Location: Browser. Sync setup profile matching - option that creates a new profile on this Mac for an account profile"
     },
     "create_space": {
         "message": "Create Space",
@@ -1723,6 +1975,10 @@
         "message": "Dark",
         "description": "Location: Browser. Appearance choice: always dark mode"
     },
+    "dark_overlay_opacity": {
+        "message": "Dark overlay opacity",
+        "description": "Location: Browser. Sync setup review - Space field name: overlay opacity in dark appearance"
+    },
     "days_ago": {
         "message": "%d days ago",
         "description": "Location: Browser. Download item row - Relative time showing days since download completed"
@@ -1754,6 +2010,10 @@
     "delete_4a29a4": {
         "message": "Delete “%@”?",
         "description": "Location: Browser. Title of the delete-Space confirmation"
+    },
+    "delete_578694": {
+        "message": "Delete",
+        "description": "Location: Browser. Library Space menu - delete item"
     },
     "delete_6a460b": {
         "message": "Delete",
@@ -1883,6 +2143,10 @@
         "message": "Delete Space…",
         "description": "Location: Browser. Spaces menu - Delete the active Space"
     },
+    "delete_space_be8bb0": {
+        "message": "Delete Space…",
+        "description": "Location: Browser. Library Space menu - delete this Space after confirmation"
+    },
     "delete_time_machine_backup": {
         "message": "Delete Time Machine Backup?",
         "description": "Location: Browser. Help menu - Title of the Time Machine backup deletion confirmation"
@@ -1905,7 +2169,7 @@
     },
     "deny": {
         "message": "Deny",
-        "description": "Location: Browser. CDP consent - deny"
+        "description": "Location: Browser. Devices settings - button that denies a device waiting to join"
     },
     "deny_baaa45": {
         "message": "Deny",
@@ -1918,6 +2182,10 @@
     "details": {
         "message": "Details",
         "description": "Location: Browser. CDP consent - label of the row that expands the agent's command and process tree"
+    },
+    "details_32dfa9": {
+        "message": "Details",
+        "description": "Location: Browser. Expand individual sync context status"
     },
     "dev_tools_console": {
         "message": "Dev Tools Console",
@@ -1938,6 +2206,14 @@
     "developer_mode": {
         "message": "Developer mode",
         "description": "Location: Browser. Advanced settings - Toggle title for developer mode; turning it off also disables agent access and the agent password manager"
+    },
+    "devices": {
+        "message": "Devices",
+        "description": "Location: Browser. Devices settings - header\nSettings - Tab title for device management"
+    },
+    "devices_35c3f3": {
+        "message": "Devices",
+        "description": "Location: Browser. Devices authorized for this account"
     },
     "dim_tab_icons_when_their_pages_are": {
         "message": "Show a dashed outline around tab icons when their pages are unloaded from memory.",
@@ -2019,6 +2295,10 @@
         "message": "Download image",
         "description": "Location: Browser. Account settings - Button to download profile card as image"
     },
+    "download_list": {
+        "message": "Download List",
+        "description": "Location: Browser. Profile menu - Download List action"
+    },
     "download_location": {
         "message": "Download Location",
         "description": "Location: Browser. Profiles settings - download location row label"
@@ -2063,6 +2343,10 @@
         "message": "Downloads",
         "description": "Location: Browser. Header more menu - Downloads action"
     },
+    "downloads_318498": {
+        "message": "Downloads",
+        "description": "Location: Browser. Library - Downloads category"
+    },
     "downloads_d41551": {
         "message": "Downloads",
         "description": "Location: Browser. Shortcuts settings - Command title for showing downloads"
@@ -2070,6 +2354,10 @@
     "drag_tabs_here_or_pin_them_from": {
         "message": "Drag tabs here or pin them from the tab list",
         "description": "Location: Browser. Drag tabs here or pin them from the tab list"
+    },
+    "drag_to_reorder_space": {
+        "message": "Drag to reorder Space",
+        "description": "Location: Browser. Library Spaces - card drag handle tooltip"
     },
     "duplicate": {
         "message": "Duplicate",
@@ -2119,7 +2407,7 @@
         "message": "EasyPrivacy",
         "description": "Location: Browser. Privacy settings - Name of the EasyPrivacy tracker filter list"
     },
-    "edit": {
+    "edit_043b21": {
         "message": "Edit...",
         "description": "Location: Browser. Edit bookmark url menu item title"
     },
@@ -2146,6 +2434,10 @@
     "edit_in_spaces_settings": {
         "message": "Edit in Spaces settings…",
         "description": "Location: Browser. General settings - Link that jumps to the Spaces settings pane"
+    },
+    "edit_mk_a2f1": {
+        "message": "Edit…",
+        "description": "Location: Browser. Library Space menu - edit item"
     },
     "edit_pinned_split": {
         "message": "Edit Pinned Split",
@@ -2183,6 +2475,10 @@
         "message": "Edit Theme",
         "description": "Location: Browser. Spaces menu - opens the theme editor for the active Space"
     },
+    "edit_theme_c71004": {
+        "message": "Edit Theme",
+        "description": "Location: Browser. Library Space card - theme editor button"
+    },
     "edit_theme_f7ce4c": {
         "message": "Edit Theme",
         "description": "Location: Browser. Spaces menu - Theme submenu title for the active Space"
@@ -2190,6 +2486,10 @@
     "email_address": {
         "message": "Email address",
         "description": "Location: Browser. Bitwarden login sheet - email field label"
+    },
+    "email_me_a_new_code": {
+        "message": "Email me a new code",
+        "description": "Location: Browser. Bitwarden sign-in sheet - Link that asks the server to send another new-device verification code"
     },
     "emoji": {
         "message": "Emoji",
@@ -2259,6 +2559,10 @@
         "message": "Enter a new name for this Space.",
         "description": "Location: Browser. Body of the rename-Space dialog"
     },
+    "enter_a_recovery_code": {
+        "message": "Enter a recovery code",
+        "description": "Location: Browser. Sync setup - option that joins this device with a saved recovery code"
+    },
     "enter_a_valid_self_hosted_server_url": {
         "message": "Enter a valid self-hosted server URL.",
         "description": "Location: Browser. Bitwarden login sheet - Invalid self-hosted URL error before continuing from the email step"
@@ -2275,9 +2579,21 @@
         "message": "Enter the 6-digit code sent to %@.",
         "description": "Location: Browser. Account deletion - Prompt above the verification code boxes. %@ is the masked account email"
     },
+    "enter_the_recovery_code_you_saved_when": {
+        "message": "Enter the recovery code you saved when you set up sync on another device.",
+        "description": "Location: Browser. Sync setup - explanation on the page for entering a recovery code"
+    },
+    "enter_the_verification_code_emailed_to_you": {
+        "message": "Enter the verification code emailed to you to finish signing in.",
+        "description": "Location: Browser. Bitwarden sign-in sheet - Error shown when the account requires verifying this device before signing in"
+    },
     "enter_your_email_address": {
         "message": "Enter your email address.",
         "description": "Location: Browser. Bitwarden login sheet - missing email error"
+    },
+    "enter_your_recovery_code": {
+        "message": "Enter your recovery code",
+        "description": "Location: Browser. Sync setup - title of the page for entering a recovery code"
     },
     "error": {
         "message": "Error",
@@ -2310,6 +2626,14 @@
     "expanding_rollback_package": {
         "message": "Expanding rollback package...",
         "description": "Location: Browser. Time Machine restore progress stage"
+    },
+    "expires": {
+        "message": "Expires: %@",
+        "description": "Location: Browser. Devices settings - when a pending join request expires; %@ is the time"
+    },
+    "expires_in": {
+        "message": "Expires in",
+        "description": "Location: Browser. Approval request time remaining prefix"
     },
     "expires_in_min": {
         "message": "expires in %d min",
@@ -2481,11 +2805,23 @@
     },
     "finish": {
         "message": "Finish",
+        "description": "Location: Browser. Sync setup - button that applies the chosen matches"
+    },
+    "finish_a6c7a8": {
+        "message": "Finish",
         "description": "Location: Browser. Onboarding password manager - Finish button"
+    },
+    "finish_later": {
+        "message": "Finish later",
+        "description": "Location: Browser. Leave sync setup unfinished and continue browsing"
     },
     "finish_moving_your_guest_data": {
         "message": "Finish moving your Guest data",
         "description": "Location: Browser. Guest migration - Alert title when imported target data requires retrying the same account"
+    },
+    "finish_setting_up_sync": {
+        "message": "Finish setting up sync",
+        "description": "Location: Browser. Sync setup - window title"
     },
     "finish_signing_in_in_your_browser": {
         "message": "Finish signing in in your browser",
@@ -2533,7 +2869,11 @@
     },
     "folio": {
         "message": "Folio",
-        "description": "Location: Browser. General settings - Folio section title"
+        "description": "Location: Browser. Folio library - Window title and wordmark; keep the product name Folio"
+    },
+    "folio_62c10d": {
+        "message": "Folio",
+        "description": "Location: Browser. Library - Saved content category"
     },
     "folio_folder": {
         "message": "Folio Folder",
@@ -2554,6 +2894,10 @@
     "for_30_min": {
         "message": "For 30 min",
         "description": "Location: Browser. CDP consent - deny scope segment: refuse without asking again for thirty minutes"
+    },
+    "for_web_development_while_an_agent_operates": {
+        "message": "For web development. While an agent operates a page, Phi stops recoloring it, makes the operating mask transparent, and minimises the Take control bar. The page still ignores your input until you take control. Applies immediately.",
+        "description": "Location: Browser. Developer settings - Explanation for the toggle that shows agent-operated pages without the agent styling"
     },
     "forward": {
         "message": "Forward",
@@ -2671,6 +3015,10 @@
         "message": "Hide",
         "description": "Location: Browser. Phi Link - Hide token plaintext button"
     },
+    "hide_sidebar": {
+        "message": "Hide Sidebar",
+        "description": "Location: Browser. Library - Tooltip and accessibility label for collapsing the navigation sidebar"
+    },
     "hide_the_agent_s_command_and_process": {
         "message": "Hide the agent's command and process tree",
         "description": "Location: Browser. CDP consent - accessibility label of the details disclosure button while the details are open"
@@ -2682,6 +3030,10 @@
     "highlight_saved": {
         "message": "Highlight saved",
         "description": "Location: Browser. Folio - Toast shown when a selected passage was added to the page's saved item"
+    },
+    "highlights": {
+        "message": "Highlights",
+        "description": "Location: Browser. Folio library - Saved highlights and their notes"
     },
     "history": {
         "message": "History",
@@ -2739,6 +3091,10 @@
         "message": "I'll setup my own",
         "description": "Location: Browser. Onboarding password manager - Manual setup option"
     },
+    "i_ve_saved_it": {
+        "message": "I've saved it",
+        "description": "Location: Browser. Sync setup - button confirming the user saved the recovery code"
+    },
     "icloud_passwords": {
         "message": "iCloud Passwords",
         "description": "Location: Browser. Onboarding password manager - iCloud Passwords option"
@@ -2746,6 +3102,10 @@
     "icon": {
         "message": "Icon",
         "description": "Location: Browser. Icon picker - Tab for choosing a Phi icon; translate using the locale's standard term for an icon"
+    },
+    "icon_a35abc": {
+        "message": "Icon",
+        "description": "Location: Browser. Spaces settings - icon section header"
     },
     "identity": {
         "message": "Identity",
@@ -2766,6 +3126,10 @@
     "image_file_not_found": {
         "message": "Image file not found",
         "description": "Location: Browser. Image preview error"
+    },
+    "image_preview": {
+        "message": "Image Preview",
+        "description": "Location: Browser. Image preview - Title of the separate image viewer window"
     },
     "import": {
         "message": "Import...",
@@ -2883,6 +3247,10 @@
         "message": "Incognito",
         "description": "Location: Browser. Built-in Incognito Space name when only one is open"
     },
+    "initial_sync_in_progress": {
+        "message": "Initial sync in progress",
+        "description": "Location: Browser. First sync is receiving account data"
+    },
     "insecure_download_blocked": {
         "message": "Insecure download blocked",
         "description": "Location: Browser. Short status - insecure download (Chromium: IDS_DOWNLOAD_BUBBLE_STATUS_WARNING_INSECURE)"
@@ -2927,6 +3295,10 @@
         "message": "Invalid Input",
         "description": "Location: Browser. Account settings - Alert title for invalid input"
     },
+    "invalid_recovery_code_please_check_it_and": {
+        "message": "Invalid recovery code. Please check it and try again.",
+        "description": "Location: Browser. Key layer recovery code entry - error shown when the entered code is rejected"
+    },
     "invitation_code": {
         "message": "Invitation Code",
         "description": "Location: Browser. Account settings - Label for invitation code field"
@@ -2959,6 +3331,10 @@
         "message": "Keep",
         "description": "Location: Browser. Tooltip for keep button on safety warning in living downloads toast"
     },
+    "keep_what_stays_with_you": {
+        "message": "Keep what stays with you.",
+        "description": "Location: Browser. Folio library - Main heading of the empty library"
+    },
     "kiosk": {
         "message": "Kiosk",
         "description": "Location: Browser. Navigations settings - Kiosk section title"
@@ -2974,6 +3350,14 @@
     "language": {
         "message": "Language",
         "description": "Location: Browser. General settings - Language section title"
+    },
+    "larger_text": {
+        "message": "Larger Text",
+        "description": "Location: Browser. Folio library - Increases reading text size"
+    },
+    "last_successful_sync_on_this_mac": {
+        "message": "Last successful sync on this Mac: %@",
+        "description": "Location: Browser. Devices settings - time of the last successful sync on this Mac; %@ is the date and time"
     },
     "later": {
         "message": "Later",
@@ -3007,6 +3391,10 @@
         "message": "Layout selection",
         "description": "Location: Browser. Onboarding layout selection - Page title"
     },
+    "least_recently_updated_first": {
+        "message": "Least Recently Updated First",
+        "description": "Location: Browser. Folio library - Sorts by oldest modification date"
+    },
     "leave_empty_to_use_the_auto_generated": {
         "message": "Leave empty to use the auto-generated name.",
         "description": "Location: Browser. Tab group rename alert - Hint that empty title clears to auto-name"
@@ -3039,6 +3427,10 @@
         "message": "Lets every agent connect without asking you, including ones Phi has never seen. The approval prompt stops appearing while this is on, and turning it on lifts any standing refusal. Applies immediately.",
         "description": "Location: Browser. Developer settings - Security note for the blanket all-agents grant toggle"
     },
+    "library": {
+        "message": "Library",
+        "description": "Location: Browser. Library - Title and entry button label"
+    },
     "license": {
         "message": "License: %@",
         "description": "Location: Browser. Advanced ad block settings - License line in a filter list's details; %@ is the license name"
@@ -3046,6 +3438,10 @@
     "light": {
         "message": "Light",
         "description": "Location: Browser. Appearance choice: always light mode"
+    },
+    "light_overlay_opacity": {
+        "message": "Light overlay opacity",
+        "description": "Location: Browser. Sync setup review - Space field name: overlay opacity in light appearance"
     },
     "liking_a_youtube_video_or_bookmarking_on": {
         "message": "Liking a YouTube video or bookmarking on X, Reddit, or Stack Overflow also saves that page here. Everything stays on this Mac.",
@@ -3095,6 +3491,10 @@
         "message": "%1$d live · %2$d running",
         "description": "Location: Browser. Agent console - live vs actively running agent task counts"
     },
+    "loading_downloads": {
+        "message": "Loading Downloads…",
+        "description": "Location: Browser. All downloads window - Loading profile download histories"
+    },
     "loading_image": {
         "message": "Loading image…",
         "description": "Location: Browser. Image preview loading"
@@ -3102,6 +3502,10 @@
     "loading_release_notes": {
         "message": "Loading release notes...",
         "description": "Location: Browser. Update window - Release notes loading placeholder"
+    },
+    "loading_your_account": {
+        "message": "Loading your account…",
+        "description": "Location: Browser. Sync setup - title while the account's profiles and Spaces are loading"
     },
     "local_browser_data_is_unavailable": {
         "message": "Local browser data is unavailable.",
@@ -3127,6 +3531,10 @@
         "message": "Manage Bookmarks",
         "description": "Location: Browser. Bookmarks menu - Menu item that opens the bookmark management page"
     },
+    "manage_bookmarks_52837b": {
+        "message": "Manage Bookmarks",
+        "description": "Location: Browser. Profile menu - Manage Bookmarks action"
+    },
     "manage_extensions": {
         "message": "Manage Extensions",
         "description": "Location: Browser. Address bar menu - Extensions submenu item to open extension management"
@@ -3135,9 +3543,17 @@
         "message": "Manage Extensions",
         "description": "Location: Browser. Extension list - Button to open extensions management page"
     },
+    "manage_extensions_52d065": {
+        "message": "Manage Extensions",
+        "description": "Location: Browser. Profile menu - Manage Extensions action"
+    },
     "manage_site_memories": {
         "message": "Manage Site Memories",
         "description": "Location: Browser. Address bar - Button tooltip for opening memory controls for the current website"
+    },
+    "manage_spaces_in_library": {
+        "message": "Manage Spaces in Library",
+        "description": "Location: Browser. Spaces settings - Opens Library with Spaces selected and closes Settings"
     },
     "manage_url_rules": {
         "message": "Manage URL Rules…",
@@ -3158,6 +3574,14 @@
     "master_password_e7a9a0": {
         "message": "Master password",
         "description": "Location: Browser. Bitwarden login sheet - master password field label"
+    },
+    "match_your_profiles": {
+        "message": "Match your profiles",
+        "description": "Location: Browser. Sync setup - title of the profile matching step"
+    },
+    "match_your_spaces": {
+        "message": "Match your Spaces",
+        "description": "Location: Browser. Sync setup - title of the Space matching step"
     },
     "message_the_agent": {
         "message": "Message the agent (→ %@)",
@@ -3207,6 +3631,10 @@
         "message": "Mist",
         "description": "Location: Browser. Mist theme color name"
     },
+    "more_actions": {
+        "message": "More Actions",
+        "description": "Location: Browser. Library Space card - more actions button"
+    },
     "more_settings": {
         "message": "More Settings",
         "description": "Location: Browser. Address bar menu - Settings submenu item to open settings page"
@@ -3222,6 +3650,10 @@
     "move_tabs_to_group": {
         "message": "Move Tabs to Group",
         "description": "Location: Browser. Tab multi-selection context menu - submenu to move selected tabs to an existing tab group"
+    },
+    "move_this_item_to_trash": {
+        "message": "Move this item to Trash?",
+        "description": "Location: Browser. Folio library - Confirmation before removing a saved item"
     },
     "move_to_group": {
         "message": "Move to Group",
@@ -3243,6 +3675,14 @@
         "message": "Move to Space",
         "description": "Location: Browser. Bookmark context menu - Submenu to move this bookmark or folder to another Space"
     },
+    "move_to_space_90b3a5": {
+        "message": "Move to Space",
+        "description": "Location: Browser. Library Space menu - move items to another Space"
+    },
+    "move_to_trash": {
+        "message": "Move to Trash",
+        "description": "Location: Browser. Folio library - Moves a saved item and its webpage copy to Trash"
+    },
     "mute": {
         "message": "Mute",
         "description": "Location: Browser. Notification menu option - Disable auto popup for notification cards"
@@ -3250,6 +3690,10 @@
     "mute_site": {
         "message": "Mute Site",
         "description": "Location: Browser. Shortcuts settings - Command title for muting audio from the current site"
+    },
+    "n1_1f": {
+        "message": "%1$.1f%%",
+        "description": "Location: Browser. Sync setup review - an overlay opacity as a percentage with one decimal; %1$.1f is the number"
     },
     "n1_custom_list": {
         "message": "1 custom list",
@@ -3269,7 +3713,7 @@
     },
     "name": {
         "message": "Name",
-        "description": "Location: Browser. Editor - Label for the title/name input field"
+        "description": "Location: Browser. Sync setup review - Space field name: the Space name"
     },
     "name_520aa0": {
         "message": "Name",
@@ -3291,6 +3735,10 @@
         "message": "Name cannot exceed %d characters",
         "description": "Location: Browser. Account settings - Error message when user name is too long"
     },
+    "name_dcd1d5": {
+        "message": "Name",
+        "description": "Location: Browser. Editor - Label for the title/name input field"
+    },
     "name_group": {
         "message": "Name group",
         "description": "Location: Browser. Tab group overview editor - Placeholder for the editable group title field"
@@ -3306,6 +3754,10 @@
     "needs_a_credential_for_but_your_vault": {
         "message": "“%1$@” needs a credential for %2$@, but your vault is locked. Enter your master password to unlock.",
         "description": "Location: Browser. Credential unlock - body"
+    },
+    "needs_attention": {
+        "message": "Needs attention",
+        "description": "Location: Browser. Sync has a failure requiring attention"
     },
     "neither_the_article_nor_a_webpage_copy": {
         "message": "Neither the article nor a webpage copy could be captured.",
@@ -3327,6 +3779,14 @@
         "message": "Never pop out automatically; manual picture-in-picture still works",
         "description": "Location: Browser. Advanced settings - Hint for the Off auto picture-in-picture mode"
     },
+    "new_bookmark": {
+        "message": "New Bookmark",
+        "description": "Location: Browser. Bookmark creator - title of the sheet to create a bookmark"
+    },
+    "new_bookmark_d719a2": {
+        "message": "New Bookmark…",
+        "description": "Location: Browser. Library Space menu - create bookmark"
+    },
     "new_conversation": {
         "message": "New Conversation",
         "description": "Location: Browser. View menu - Menu item to start a new AI conversation in the sidebar"
@@ -3338,6 +3798,10 @@
     "new_folder": {
         "message": "New Folder",
         "description": "Location: Browser. New folder dialog title"
+    },
+    "new_folder_3b42af": {
+        "message": "New Folder…",
+        "description": "Location: Browser. Library Space menu - create folder"
     },
     "new_folder_48293d": {
         "message": "New Folder",
@@ -3379,6 +3843,10 @@
         "message": "New Incognito Space",
         "description": "Location: Browser. File menu and Shortcuts settings - Command title for creating a new Incognito Space"
     },
+    "new_incognito_space_76e2c5": {
+        "message": "New Incognito Space",
+        "description": "Location: Browser. Profile menu - New Incognito Space action"
+    },
     "new_incognito_tab": {
         "message": "New Incognito Tab",
         "description": "Location: Browser. Tab title shown for an incognito new-tab page rendered by the native NTP"
@@ -3398,6 +3866,14 @@
     "new_nested_folder": {
         "message": "New Nested Folder...",
         "description": "Location: Browser. Bookmark New Folder menu item"
+    },
+    "new_pinned_tab": {
+        "message": "New Pinned Tab",
+        "description": "Location: Browser. Pinned tab creator - title of the sheet to create a pinned tab"
+    },
+    "new_pinned_tab_acc806": {
+        "message": "New Pinned Tab…",
+        "description": "Location: Browser. Library Space menu - create pinned tab"
     },
     "new_profile": {
         "message": "New Profile…",
@@ -3431,6 +3907,10 @@
         "message": "New Space",
         "description": "Location: Browser. Spaces settings - new Space tooltip"
     },
+    "new_space_7909da": {
+        "message": "New Space",
+        "description": "Location: Browser. Library Spaces - add card button"
+    },
     "new_space_cdfb24": {
         "message": "New Space…",
         "description": "Location: Browser. Space switcher menu - Create a new Space"
@@ -3446,6 +3926,10 @@
     "new_tab_303fee": {
         "message": "New Tab",
         "description": "Location: Browser. Shortcuts settings - Command title for opening a new tab"
+    },
+    "new_tab_94ed4c": {
+        "message": "New Tab",
+        "description": "Location: Browser. Profile menu - New Tab action"
     },
     "new_tab_behavior": {
         "message": "New tab behavior",
@@ -3579,13 +4063,21 @@
         "message": "No certificate available",
         "description": "Location: Browser. No certificate tooltip"
     },
+    "no_custom_value": {
+        "message": "No custom value",
+        "description": "Location: Browser. Sync setup review - shown for a Space value that is not customized, such as no pinned theme"
+    },
     "no_data_was_deleted": {
         "message": "Phi and its local files were not removed. Some sign-in data may already have been cleared. %@",
         "description": "Location: Browser. Phi uninstall - Error alert message after uninstall preparation fails; the placeholder is the technical reason and sign-in cleanup may have partially completed"
     },
+    "no_devices_are_waiting_for_approval": {
+        "message": "No devices are waiting for approval.",
+        "description": "Location: Browser. Devices settings - shown when no device is waiting for approval"
+    },
     "no_downloads": {
         "message": "No Downloads",
-        "description": "Location: Browser. Downloads list - Empty state text when no downloads exist"
+        "description": "Location: Browser. All downloads window - No downloads in the selected profile scope"
     },
     "no_extensions_found": {
         "message": "No extensions found",
@@ -3603,9 +4095,21 @@
         "message": "No file selected",
         "description": "Location: Browser. Import browser data page - Placeholder when no file has been chosen for import yet"
     },
+    "no_highlights_yet_highlight_a_passage_on": {
+        "message": "No highlights yet. Highlight a passage on the original page to keep it here.",
+        "description": "Location: Browser. Folio library - Empty highlights reading pane"
+    },
+    "no_items_match_this_view": {
+        "message": "No items match this view.",
+        "description": "Location: Browser. Folio library - Shown when search or filters have no matches"
+    },
     "no_matching_bookmarks": {
         "message": "No matching bookmarks",
         "description": "Location: Browser. Bookmark manager - Empty state when a search has no results"
+    },
+    "no_matching_downloads": {
+        "message": "No Matching Downloads",
+        "description": "Location: Browser. All downloads window - No downloads in the selected profiles match the search"
     },
     "no_phi_or_sentinel_log_folders_were": {
         "message": "No Phi or Sentinel log folders were found.",
@@ -3675,6 +4179,10 @@
         "message": "Not assigned to a Profile",
         "description": "Location: Browser. AI settings - Connector row status for an existing connection that has not yet been assigned to a browser Profile"
     },
+    "not_assigned_yet": {
+        "message": "Not assigned yet",
+        "description": "Location: Browser. Sync setup Space matching - account column text for a Space with no choice yet"
+    },
     "not_configured": {
         "message": "Not configured",
         "description": "Location: Browser. Phi Link - Custom bot not configured status"
@@ -3723,6 +4231,10 @@
         "message": "Not Now",
         "description": "Location: Browser. Phi & AI settings - Button that dismisses the Bitwarden extension install suggestion"
     },
+    "not_paired": {
+        "message": "Not paired",
+        "description": "Location: Browser. Sync status before matching completes"
+    },
     "not_signed_in": {
         "message": "Not signed in",
         "description": "Location: Browser. Phi & AI settings - Bitwarden signed-out status"
@@ -3767,6 +4279,10 @@
         "message": "Official Phi Link Telegram bot",
         "description": "Location: Browser. Phi Link - Official Bot title"
     },
+    "offline_changes_will_sync_when_connected": {
+        "message": "Offline — changes will sync when connected",
+        "description": "Location: Browser. Eligible data waits for connectivity"
+    },
     "ok": {
         "message": "OK",
         "description": "Location: Browser. Extension info alert - OK button to dismiss the alert"
@@ -3794,6 +4310,10 @@
     "ok_47e119": {
         "message": "OK",
         "description": "Location: Browser. Time Machine restore - Failure alert dismiss button"
+    },
+    "ok_565339": {
+        "message": "OK",
+        "description": "Location: Browser. Key layer - dismiss the save-your-recovery-code alert"
     },
     "ok_5880a0": {
         "message": "OK",
@@ -3863,6 +4383,18 @@
         "message": "Omnibox",
         "description": "Location: Browser. General settings - Option to open Omnibox search when pressing ⌘+T"
     },
+    "on_a_device_that_s_already_signed": {
+        "message": "On a device that’s already signed in, open Settings → Devices and approve this request. Make sure this code matches:",
+        "description": "Location: Browser. Waiting - explanation"
+    },
+    "on_an_authorized_device_open_settings_sync": {
+        "message": "On an authorized device, open Settings → Sync and approve this request. Make sure this code matches:",
+        "description": "Location: Browser. Instructions for approving another device"
+    },
+    "on_any_webpage_choose_file_save_to": {
+        "message": "On any webpage, choose File → Save to Folio",
+        "description": "Location: Browser. Folio library - Explains how to save the first item"
+    },
     "on_browser_restart": {
         "message": "On browser restart",
         "description": "Location: Browser. Bitwarden session timeout - on browser restart"
@@ -3886,6 +4418,10 @@
     "only_work_in_peek_or_kiosk_windows": {
         "message": "Only work in Peek or Kiosk windows.",
         "description": "Location: Browser. Shortcuts settings - Subtitle explaining that this group's shortcuts apply to Peek or Kiosk windows"
+    },
+    "open": {
+        "message": "Open",
+        "description": "Location: Browser. Library Space menu - open item"
     },
     "open_a_browser_window_for_the_selected": {
         "message": "Open a browser window for the selected Profile to continue.",
@@ -3931,6 +4467,10 @@
         "message": "Open in New Tab",
         "description": "Location: Browser. Open in New Tab menu item"
     },
+    "open_in_new_window": {
+        "message": "Open in New Window",
+        "description": "Location: Browser. Image preview - Button that opens the current image list in a separate window"
+    },
     "open_in_telegram": {
         "message": "Open in Telegram",
         "description": "Location: Browser. Phi Link - Open official bot link in Telegram"
@@ -3947,9 +4487,21 @@
         "message": "Open Kiosk when pressing %@ in any app",
         "description": "Location: Browser. Navigations settings - Toggle title for enabling the system-wide Kiosk shortcut; %@ is replaced by the current New Kiosk Window shortcut"
     },
+    "open_library_in_new_window": {
+        "message": "Open Library in New Window",
+        "description": "Location: Browser. Profile menu - Opens Library in a separate window"
+    },
     "open_links_in_a_lightweight_window_one": {
         "message": "Open links in a lightweight window, one page at a time.",
         "description": "Location: Browser. Navigations settings - Description of Kiosk windows"
+    },
+    "open_original": {
+        "message": "Open Original",
+        "description": "Location: Browser. Folio library - Opens the original website in the owning browser window"
+    },
+    "open_saved_webpage": {
+        "message": "Open Saved Webpage",
+        "description": "Location: Browser. Folio library - Opens the saved webpage copy in a browser tab"
     },
     "open_settings": {
         "message": "Open Settings",
@@ -3991,9 +4543,17 @@
         "message": "Organize tabs with AI",
         "description": "Location: Browser. Organize Tabs - Button tooltip and accessibility label"
     },
+    "pairing_isn_t_available_right_now": {
+        "message": "Pairing isn’t available right now.",
+        "description": "Location: Browser. Sync setup - error shown when profile matching cannot start on this device right now"
+    },
     "park_at_edge": {
         "message": "Park at edge",
         "description": "Location: Browser. Auto picture-in-picture option - pop out, then park at the screen edge until clicked"
+    },
+    "passwords_cookies_and_autofill_aren_t_included": {
+        "message": "Passwords, cookies and autofill aren’t included. Ordinary open tabs aren’t automatically recreated. Phi Chat and conversations are separate. Profile data availability depends on this version of Phi.",
+        "description": "Location: Browser. Sync exclusions and compatibility explanation"
     },
     "passwords_manager": {
         "message": "Passwords Manager",
@@ -4075,6 +4635,10 @@
         "message": "Phi couldn't tell which profile this belongs to, so it will go to %@.",
         "description": "Location: Browser. Browser migration wizard - note on a Space whose source profile record is unreadable; %@ is the Profile it will be created under"
     },
+    "phi_data": {
+        "message": "Phi data",
+        "description": "Location: Browser. Native sync context display name"
+    },
     "phi_didn_t_find_arc_dia_or": {
         "message": "Phi didn't find Arc, Dia or Zen on this Mac.",
         "description": "Location: Browser. Browser migration wizard - shown in place of the source list when none of the browsers Phi can migrate from is installed"
@@ -4086,6 +4650,10 @@
     "phi_found_but_there_s_nothing_here": {
         "message": "Phi found %1$@, but there's nothing here to migrate — no %2$@ profile has data Phi can move.",
         "description": "Location: Browser. Browser migration wizard - shown under the tree when the source read fine and offers nothing; %1$@ and %2$@ are both the source browser's name"
+    },
+    "phi_is_counting_the_spaces_in_your": {
+        "message": "Phi is counting the Spaces in your account. This can take up to two minutes.",
+        "description": "Location: Browser. Sync setup - detail shown while the account's Spaces are loading"
     },
     "phi_is_made_possible_by_the_open": {
         "message": "Phi is made possible by the %1$@ open source project, Chromium's %2$@, as well as other %3$@.",
@@ -4110,6 +4678,10 @@
     "phi_needs_full_disk_access_to_import": {
         "message": "Phi needs Full Disk Access to import your data from Safari.",
         "description": "Location: Browser. Import browser data page - Description explaining why Full Disk Access permission is needed"
+    },
+    "phi_needs_one_account_profile_for_every": {
+        "message": "Phi needs one account profile for every profile on this Mac before it can sync Spaces and bookmarks to the right place. The browser stays unavailable until this is done.",
+        "description": "Location: Browser. Pairing wizard - step 1 explanation"
     },
     "phi_picture_in_picture_park_control_text": {
         "message": "Park at screen edge",
@@ -4159,6 +4731,10 @@
         "message": "Pick a target Space and enter a host like “github.com”.",
         "description": "Location: Browser. Empty state hint in the universal URL rules editor"
     },
+    "pick_the_account_space_each_space_on": {
+        "message": "Pick the account Space each Space on this Mac belongs to, or add it to your account as a new Space. Spaces in your account that aren’t on this Mac are added here automatically. Nothing on this Mac is deleted.",
+        "description": "Location: Browser. Sync setup Space matching - explanation above the list of Spaces to match"
+    },
     "pin": {
         "message": "Pin",
         "description": "Location: Browser. Tab context menu - Menu item to pin the selected tab"
@@ -4190,6 +4766,10 @@
     "pinned_tabs_are_shared_across_all_profiles": {
         "message": "Pinned tabs are shared across all profiles and Spaces.",
         "description": "Location: Browser. Spaces settings - description of App pinned-tab scope"
+    },
+    "pinned_tabs_c143dc": {
+        "message": "Pinned Tabs",
+        "description": "Location: Browser. Library Space card - pinned tabs section"
     },
     "pinned_tabs_from_the_existing_destinations_will": {
         "message": "Pinned tabs from the existing destinations will be merged. Unchanged copies will be combined, while different versions will be kept.",
@@ -4289,15 +4869,27 @@
     },
     "profile": {
         "message": "Profile",
-        "description": "Location: Browser. General settings - Profile section title"
+        "description": "Location: Browser. Sync setup - name given to a local profile created for an account profile that has no name"
     },
     "profile_87c3dd": {
         "message": "Profile",
         "description": "Location: Browser. Spaces settings - Profile pinned-tab scope option"
     },
+    "profile_9001aa": {
+        "message": "Profile",
+        "description": "Location: Browser. Unknown profile display name"
+    },
     "profile_928f7c": {
         "message": "Profile",
         "description": "Location: Browser. Label for the profile picker in the create-Space panel"
+    },
+    "profile_d696a3": {
+        "message": "Profile",
+        "description": "Location: Browser. Fallback name for an account profile registered with no name"
+    },
+    "profile_menu": {
+        "message": "Profile menu",
+        "description": "Location: Browser. Profile button - Opens the account and browser actions menu"
     },
     "profile_name": {
         "message": "Profile name",
@@ -4313,11 +4905,19 @@
     },
     "profiles": {
         "message": "Profiles",
+        "description": "Location: Browser. Sync setup step bar - label of the profile matching step"
+    },
+    "profiles_535e52": {
+        "message": "Profiles",
         "description": "Location: Browser. Settings - Tab title for profiles management"
     },
     "profiles_agents_can_use": {
         "message": "Profiles agents can use",
         "description": "Location: Browser. Developer settings - Title for the per-profile agent-Space allowlist"
+    },
+    "profiles_need_pairing": {
+        "message": "Profiles need pairing",
+        "description": "Location: Browser. Devices - pairing banner title"
     },
     "pure": {
         "message": "Pure",
@@ -4351,6 +4951,14 @@
         "message": "Reader View is unavailable on this page",
         "description": "Location: Browser. Reader View - Toast shown when reader extraction could not run at all"
     },
+    "reading_mode": {
+        "message": "Reading Mode",
+        "description": "Location: Browser. Folio library - Switches between the article and its highlights"
+    },
+    "reading_options_and_actions": {
+        "message": "Reading Options and Actions",
+        "description": "Location: Browser. Folio library - Accessible label for the article options menu"
+    },
     "reauthenticate": {
         "message": "Reauthenticate",
         "description": "Location: Browser. Auth reauthentication - Primary action to start Auth0 web authentication"
@@ -4367,9 +4975,21 @@
         "message": "Recently Closed",
         "description": "Location: Browser. Search Tabs - Recently closed section title"
     },
+    "recently_updated_first": {
+        "message": "Recently Updated First",
+        "description": "Location: Browser. Folio library - Sorts by most recently modified file, matching the web library"
+    },
     "recommended": {
         "message": "Recommended",
         "description": "Location: Browser. Onboarding password manager - Recommended label for iCloud Passwords"
+    },
+    "recovery_and_removal": {
+        "message": "Recovery and removal",
+        "description": "Location: Browser. Recovery guidance and device removal"
+    },
+    "recovery_code": {
+        "message": "Recovery code",
+        "description": "Location: Browser. Sync setup - placeholder of the recovery code text field"
     },
     "red": {
         "message": "Red",
@@ -4387,9 +5007,17 @@
         "message": "Refresh connector status",
         "description": "Location: Browser. AI settings - Tooltip for refreshing connector status"
     },
+    "refresh_library": {
+        "message": "Refresh Library",
+        "description": "Location: Browser. Folio library - Reloads saved files from disk"
+    },
     "refused_without_asking": {
         "message": "Refused without asking",
         "description": "Location: Browser. Developer settings - subtitle for a permanent single-agent block"
+    },
+    "register_as_new": {
+        "message": "Register as new",
+        "description": "Location: Browser. Sync setup profile matching - option that adds a profile on this Mac to the account as a new profile"
     },
     "released_into_a_command": {
         "message": "Released into a command",
@@ -4455,9 +5083,25 @@
         "message": "Remove rule",
         "description": "Location: Browser. Tooltip for remove-rule button"
     },
+    "remove_this_device": {
+        "message": "Remove This Device",
+        "description": "Location: Browser. Remove this device from sync - confirmation dialog button that removes the device"
+    },
+    "remove_this_device_from_sync": {
+        "message": "Remove this device from sync…",
+        "description": "Location: Browser. Devices settings - button that removes this device from sync"
+    },
+    "remove_this_device_from_sync_6c96aa": {
+        "message": "Remove this device from sync…",
+        "description": "Location: Browser. Sync setup - button that removes this device from sync instead of finishing setup"
+    },
     "remove_this_filter": {
         "message": "Remove this filter",
         "description": "Location: Browser. Advanced ad block settings - Tooltip of the button removing a custom filter list"
+    },
+    "remove_this_mac_from_account_sync": {
+        "message": "Remove this Mac from account sync?",
+        "description": "Location: Browser. Remove this device from sync - confirmation dialog title"
     },
     "rename": {
         "message": "Rename",
@@ -4567,6 +5211,18 @@
         "message": "Replace Top",
         "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the top/primary pane of a horizontal split to replace it"
     },
+    "request_approval_from_another_device": {
+        "message": "Request approval from another device",
+        "description": "Location: Browser. Sync setup - option that asks another signed-in device to approve this one"
+    },
+    "request_denied": {
+        "message": "Request denied",
+        "description": "Location: Browser. Sync setup - title shown when another device denied this device's join request"
+    },
+    "request_expired": {
+        "message": "Request expired",
+        "description": "Location: Browser. Sync setup - title shown when this device's join request timed out"
+    },
     "resend_code": {
         "message": "Resend Code",
         "description": "Location: Browser. Account data export - Button requesting a fresh verification code"
@@ -4578,6 +5234,10 @@
     "resend_code_cbc823": {
         "message": "Resend Code (%ds)",
         "description": "Location: Browser. Account data export - Disabled resend label. %d is the seconds remaining"
+    },
+    "resolve": {
+        "message": "Resolve",
+        "description": "Location: Browser. Devices - pairing banner button"
     },
     "restart_phi": {
         "message": "Restart Phi",
@@ -4623,6 +5283,10 @@
         "message": "Retry",
         "description": "Location: Browser. Download item row - Tooltip for retry download button"
     },
+    "retry_39f08b": {
+        "message": "Retry",
+        "description": "Location: Browser. Reload sync settings"
+    },
     "retry_5b6d51": {
         "message": "Retry",
         "description": "Location: Browser. Phi Link - Retry loading official bot"
@@ -4630,6 +5294,10 @@
     "retry_67671c": {
         "message": "Retry",
         "description": "Location: Browser. Tooltip for button to retry interrupted download in living downloads toast"
+    },
+    "retry_942087": {
+        "message": "Retry",
+        "description": "Location: Browser. Phi Link - Retry loading official bot"
     },
     "retry_after_phi_sentinel_is_running_normally": {
         "message": "Retry after Phi Sentinel is running normally.",
@@ -4650,6 +5318,10 @@
     "review_and_revoke_which_agents_may_use": {
         "message": "Review and revoke which agents may use your saved logins without asking",
         "description": "Location: Browser. Phi & AI settings - tooltip for the approvals row"
+    },
+    "review_what_changes": {
+        "message": "Review what changes",
+        "description": "Location: Browser. Sync setup - title of the review page listing Space values the account will replace"
     },
     "review_what_will_be_created": {
         "message": "Review what will be created",
@@ -4759,6 +5431,18 @@
         "message": "Save when you like or bookmark on supported sites",
         "description": "Location: Browser. General settings - Toggle title for the site-action auto-save: liking or bookmarking on supported sites also saves the page"
     },
+    "save_your_recovery_code": {
+        "message": "Save your recovery code",
+        "description": "Location: Browser. Sync setup - title of the page that shows a new recovery code"
+    },
+    "save_your_recovery_code_first": {
+        "message": "Save your recovery code first",
+        "description": "Location: Browser. Key layer - title of the alert shown when closing the window before confirming the recovery code was saved"
+    },
+    "saved": {
+        "message": "Saved",
+        "description": "Location: Browser. Folio library - Prefix before the date an item was saved"
+    },
     "saved_memories_for_will_be_deleted_from": {
         "message": "Saved memories for %@ will be deleted from this browser profile. This can’t be undone.",
         "description": "Location: Browser. Website memory deletion - Confirmation message; %@ is the current page host"
@@ -4803,6 +5487,10 @@
         "message": "Search",
         "description": "Location: Browser. Address bar - Accessibility description for the fallback search icon shown with suggestions"
     },
+    "search_downloads": {
+        "message": "Search Downloads",
+        "description": "Location: Browser. All downloads window - Placeholder for searching by file name or source URL"
+    },
     "search_emoji": {
         "message": "Search emoji",
         "description": "Location: Browser. Icon picker - Search field placeholder for emoji"
@@ -4846,6 +5534,10 @@
     "search_the_web": {
         "message": "Search the Web...",
         "description": "Location: Browser. Shortcuts settings - Command title for starting a web search"
+    },
+    "search_your_library": {
+        "message": "Search your library",
+        "description": "Location: Browser. Folio library - Search field placeholder for titles and sources"
     },
     "select_a_profile_to_view_its_settings": {
         "message": "Select a profile to view its settings.",
@@ -4931,6 +5623,26 @@
         "message": "Set as default",
         "description": "Location: Browser. Account settings - Button to set Phi as default browser"
     },
+    "set_profile": {
+        "message": "Set Profile",
+        "description": "Location: Browser. Library Space menu - choose the Space profile"
+    },
+    "set_up_sync": {
+        "message": "Set up sync",
+        "description": "Location: Browser. Key layer window title"
+    },
+    "set_up_sync_08031b": {
+        "message": "Set up sync",
+        "description": "Location: Browser. Sync setup introduction title"
+    },
+    "set_up_sync_again": {
+        "message": "Set up sync again",
+        "description": "Location: Browser. Action to explicitly reset local sync state and configure it again"
+    },
+    "set_up_sync_on_this_device": {
+        "message": "Set up sync on this device",
+        "description": "Location: Browser. Devices settings - button that starts sync setup on this device"
+    },
     "setting": {
         "message": "Setting",
         "description": "Location: Browser. Extension list - Section title for extension settings"
@@ -4942,6 +5654,10 @@
     "settings": {
         "message": "Settings",
         "description": "Location: Browser. Extension list - Website settings entry"
+    },
+    "settings_978896": {
+        "message": "Settings",
+        "description": "Location: Browser. Profile menu - Settings action"
     },
     "settings_c717bd": {
         "message": "Settings",
@@ -5043,6 +5759,10 @@
         "message": "Show a preview card when hovering over a tab",
         "description": "Location: Browser. Advanced settings - Toggle title for showing custom preview cards when hovering over open tabs"
     },
+    "show_all_items": {
+        "message": "Show All Items",
+        "description": "Location: Browser. Folio library - Clears search and filters"
+    },
     "show_bookmark_bar_on_new_tab": {
         "message": "Show Bookmark Bar on New Tab",
         "description": "Location: Browser. View menu - Menu item to show the bookmark bar on new tab pages"
@@ -5071,6 +5791,10 @@
         "message": "Show in Finder",
         "description": "Location: Browser. Download item row - Tooltip for show in finder button"
     },
+    "show_in_finder_bb73ef": {
+        "message": "Show in Finder",
+        "description": "Location: Browser. Folio library - Reveals the saved Markdown file"
+    },
     "show_in_folder": {
         "message": "Show in Folder",
         "description": "Location: Browser. Bookmark manager context menu - Reveal a bookmark search result in its containing folder"
@@ -5083,9 +5807,17 @@
         "message": "Show open tab indicators",
         "description": "Location: Browser. Advanced settings - Toggle title for showing dots on inactive open pinned tabs and bookmarks"
     },
+    "show_operated_pages_exactly_as_rendered": {
+        "message": "Show operated pages exactly as rendered",
+        "description": "Location: Browser. Developer settings - Toggle title for showing a page an agent is operating without the agent styling"
+    },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "Show proactive suggestions on the new tab page",
         "description": "Location: Browser. AI settings - Toggle to show proactive suggestions on the new tab page"
+    },
+    "show_sidebar": {
+        "message": "Show Sidebar",
+        "description": "Location: Browser. Library - Tooltip and accessibility label for expanding the navigation sidebar"
     },
     "show_tab_switcher": {
         "message": "Show Tab Switcher",
@@ -5127,6 +5859,10 @@
         "message": "Sign in",
         "description": "Location: Browser. Bitwarden sign-in sheet - Email step title"
     },
+    "sign_in_7313f2": {
+        "message": "Sign in",
+        "description": "Location: Browser. Sync settings sign in action"
+    },
     "sign_in_8b3ad2": {
         "message": "Sign in…",
         "description": "Location: Browser. Phi & AI settings - Bitwarden sign-in action"
@@ -5134,6 +5870,10 @@
     "sign_in_again_to_continue": {
         "message": "Sign in again to continue",
         "description": "Location: Browser. Auth reauthentication - Alert title when the access token can no longer be renewed"
+    },
+    "sign_in_again_to_continue_setting_up": {
+        "message": "Sign in again to continue setting up sync.",
+        "description": "Location: Browser. Sync setup authentication expired"
     },
     "sign_in_b8f853": {
         "message": "Sign in",
@@ -5143,9 +5883,17 @@
         "message": "Sign in",
         "description": "Location: Browser. Bitwarden sign-in sheet - Password step title"
     },
+    "sign_in_to_manage_devices": {
+        "message": "Sign in to manage devices.",
+        "description": "Location: Browser. Devices - signed out"
+    },
     "sign_in_to_phi_or_continue_as": {
         "message": "Sign in to Phi — or continue as a guest — before migrating.",
         "description": "Location: Browser. Browser migration wizard - shown instead of starting when no account is bound"
+    },
+    "sign_in_to_sync_across_devices": {
+        "message": "Sign in to sync across devices",
+        "description": "Location: Browser. Sync settings signed out explanation"
     },
     "sign_in_to_the_account_you_previously": {
         "message": "Sign in to the account you previously selected to finish moving your Guest data.",
@@ -5235,17 +5983,33 @@
         "message": "Skip This Version",
         "description": "Location: Browser. Update window - Skip update button"
     },
+    "smaller_text": {
+        "message": "Smaller Text",
+        "description": "Location: Browser. Folio library - Decreases reading text size"
+    },
     "some_account_and_system_information_may_be": {
         "message": "Some account and system information may be sent to Phinomenon. We will use the information you give us to help address technical issues and to improve our services, subject to our Privacy Policy and Terms of Service.",
         "description": "Location: Browser. Feedback form - Legal disclaimer text explaining data usage, contains links to Privacy Policy and Terms of Service"
+    },
+    "some_content_needs_attention_check_the_details": {
+        "message": "Some content needs attention. Check the details and your connection.",
+        "description": "Location: Browser. One or more sync contexts failed"
     },
     "some_data_has_already_been_moved_to": {
         "message": "Some data has already been moved to this account. Phi must retry with the same account before Guest data can be used again.",
         "description": "Location: Browser. Guest migration - Alert message explaining why the same account migration must be retried"
     },
+    "some_profiles_could_not_be_loaded": {
+        "message": "Some profiles could not be loaded.",
+        "description": "Location: Browser. All downloads window - Partial failure while loading profile download histories"
+    },
     "something_went_wrong": {
         "message": "Something went wrong? ",
         "description": "Location: Browser. Retry hint prefix text shown when login fails in onboarding"
+    },
+    "something_went_wrong_mk_b43c": {
+        "message": "Something went wrong",
+        "description": "Location: Browser. Sync setup - title of the error page"
     },
     "something_went_wrong_please_try_again_later": {
         "message": "Something went wrong. Please try again later.",
@@ -5255,9 +6019,17 @@
         "message": "Something went wrong when signing out",
         "description": "Location: Browser. Account settings - Alert message when sign-out fails"
     },
+    "something_worth_returning_to": {
+        "message": "Something worth returning to.",
+        "description": "Location: Browser. Folio library - Heading when no article is selected"
+    },
     "sorry_for_the_interruption_a_few_details": {
         "message": "Sorry for the interruption. A few details about what happened before the crash can help us understand the issue and make Phi more reliable.",
         "description": "Location: Browser. Crash feedback - Apology and invitation to share details about what happened before the crash"
+    },
+    "sort_collection": {
+        "message": "Sort Collection",
+        "description": "Location: Browser. Folio library - Accessible label for the sorting menu"
     },
     "source": {
         "message": "Source",
@@ -5271,9 +6043,13 @@
         "message": "Space %d",
         "description": "Location: Browser. Default name for a newly created Space"
     },
+    "space_is_the_default_space_and_is": {
+        "message": "Space “%@” is the default Space and is already in your account",
+        "description": "Location: Browser. Sync setup Space matching - VoiceOver label for the default Space row; %@ is the Space name"
+    },
     "space_name": {
         "message": "Space name",
-        "description": "Location: Browser. Placeholder for the Space-name field"
+        "description": "Location: Browser. Library Space card - inline name editor"
     },
     "space_not_created": {
         "message": "Space not created",
@@ -5283,9 +6059,21 @@
         "message": "Space %1$d of %2$d",
         "description": "Location: Browser. Browser migration wizard - where the Space being created sits in the run; %1$d is its number, %2$d how many units the run has"
     },
+    "space_on_this_mac_in_profile": {
+        "message": "Space “%1$@” on this Mac, in profile %2$@",
+        "description": "Location: Browser. Sync setup Space matching - VoiceOver label for a Space on this Mac; %1$@ is the Space name, %2$@ its profile"
+    },
     "spaces": {
         "message": "Spaces",
         "description": "Location: Browser. Main menu - Top-level Spaces menu title in the application menu bar"
+    },
+    "spaces_077a29": {
+        "message": "Spaces",
+        "description": "Location: Browser. Settings - Tab title for profiles and spaces management"
+    },
+    "spaces_3cd822": {
+        "message": "Spaces",
+        "description": "Location: Browser. Library - Spaces category"
     },
     "spaces_552a6e": {
         "message": "Spaces",
@@ -5295,9 +6083,21 @@
         "message": "Spaces",
         "description": "Location: Browser. Accessibility label for the Spaces picker affordance"
     },
+    "spaces_and_phi_data": {
+        "message": "Spaces and Phi data",
+        "description": "Location: Browser. Native sync context label"
+    },
+    "spaces_bookmarks_and_folders_pinned_tabs_url": {
+        "message": "Spaces · Bookmarks and folders · Pinned tabs · URL rules · Supported settings",
+        "description": "Location: Browser. Supported native sync categories"
+    },
     "spaces_c454bf": {
         "message": "Spaces",
         "description": "Location: Browser. Settings - Tab title for profiles and spaces management"
+    },
+    "spaces_to_add_from_your_account": {
+        "message": "Spaces to add from your account",
+        "description": "Location: Browser. Space pairing - heading for account Spaces that will be created on this Mac"
     },
     "spaces_using_the_same_profile_share_pinned": {
         "message": "Spaces using the same profile share pinned tabs.",
@@ -5331,6 +6131,10 @@
         "message": "Starting restore...",
         "description": "Location: Browser. Time Machine restore progress stage"
     },
+    "step_of": {
+        "message": "Step %1$d of %2$d: %3$@",
+        "description": "Location: Browser. Sync setup step bar - VoiceOver label; %1$d is the current step, %2$d the step count, %3$@ the step name"
+    },
     "stop": {
         "message": "Stop",
         "description": "Location: Browser. Web content header - Accessibility description for stop loading button"
@@ -5338,6 +6142,22 @@
     "stop_022eb3": {
         "message": "Stop",
         "description": "Location: Browser. Shortcuts settings - Command title for stopping the current page from loading"
+    },
+    "store_this_code_somewhere_safe_you_will": {
+        "message": "Store this code somewhere safe. You will need it to add another device to your account.",
+        "description": "Location: Browser. Sync setup - explanation on the page that shows a new recovery code"
+    },
+    "stored_on_your_mac": {
+        "message": "Stored on your Mac",
+        "description": "Location: Browser. Folio library - Opens the local storage folder in Finder"
+    },
+    "submit": {
+        "message": "Submit",
+        "description": "Location: Browser. Sync setup - button that submits the entered recovery code"
+    },
+    "supported_profile_preferences": {
+        "message": "Supported profile preferences",
+        "description": "Location: Browser. Enabled Chromium preference category"
     },
     "suspicious_download_blocked": {
         "message": "Suspicious download blocked",
@@ -5350,6 +6170,34 @@
     "switch_to_agent_space": {
         "message": "Switch to Agent Space",
         "description": "Location: Browser. Agent handoff prompt - open the agent Space"
+    },
+    "sync": {
+        "message": "Sync",
+        "description": "Location: Browser. Settings pane title for cross-device synchronization"
+    },
+    "sync_contents": {
+        "message": "Sync contents",
+        "description": "Location: Browser. Read-only list of synchronized content"
+    },
+    "sync_has_not_started": {
+        "message": "Sync has not started",
+        "description": "Location: Browser. All sync waits for pairing completion"
+    },
+    "sync_isn_t_available_right_now_so": {
+        "message": "Sync isn’t available right now, so your account’s Spaces couldn’t be loaded.",
+        "description": "Location: Browser. Sync setup - error shown when sync is unavailable so the account's Spaces cannot be loaded"
+    },
+    "sync_isn_t_available_right_now_so_312469": {
+        "message": "Sync isn’t available right now, so this device wasn’t removed. Check that you’re still signed in, then try again.",
+        "description": "Location: Browser. Remove this device from sync - error shown when sync is unavailable so the device was not removed"
+    },
+    "sync_needs_to_be_set_up_again": {
+        "message": "Sync needs to be set up again. Finish later, then choose Set up sync again in Settings → Sync. Your local browsing data is kept.",
+        "description": "Location: Browser. Pairing cannot continue until an explicit local sync reset is confirmed in settings"
+    },
+    "syncing": {
+        "message": "Syncing…",
+        "description": "Location: Browser. Sync has pending work"
     },
     "system": {
         "message": "System",
@@ -5435,6 +6283,18 @@
         "message": "That export is no longer available. Try again to request a new one.",
         "description": "Location: Browser. Account data export - Error when a previously returned export task has ended without an available download"
     },
+    "that_request_already_expired": {
+        "message": "That request already expired.",
+        "description": "Location: Browser. Devices settings - error shown when approving a request that already expired"
+    },
+    "that_verification_code_is_incorrect_or_has": {
+        "message": "That verification code is incorrect or has expired.",
+        "description": "Location: Browser. Bitwarden sign-in sheet - Error shown when the entered new-device verification code is rejected"
+    },
+    "the_account_s_sync_data_has_changed": {
+        "message": "The account’s sync data has changed. Syncing Phi data is paused. Review your account and connection before setting up sync again.",
+        "description": "Location: Browser. Native sync paused after the server rejected its previous identity"
+    },
     "the_agent_handed_control_back_to_you": {
         "message": "The agent handed control back to you to finish a step — for example, signing in.",
         "description": "Location: Browser. Agent handoff prompt - default body"
@@ -5454,6 +6314,10 @@
     "the_archive_does_not_contain_a_top": {
         "message": "The archive does not contain a top-level Phi folder.",
         "description": "Location: Browser. User data import - Error message when zip does not include the expected Phi directory at archive root"
+    },
+    "the_article_and_its_saved_webpage_copy": {
+        "message": "The article and its saved webpage copy will be moved to Trash. You can restore them in Finder.",
+        "description": "Location: Browser. Folio library - Explains what removing an item does"
     },
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "The Bitwarden browser extension autofills your vault logins on web pages. Phi can install it from the Chrome Web Store now.",
@@ -5490,6 +6354,10 @@
     "the_note_is_written_into_the_saved": {
         "message": "The note is written into the saved markdown, under the highlight.",
         "description": "Location: Browser. Folio - Explanatory text of the add-note dialog"
+    },
+    "the_other_device_denied_this_request": {
+        "message": "The other device denied this request.",
+        "description": "Location: Browser. Sync setup - message shown when another device denied this device's join request"
     },
     "the_page_closed_before_it_could_be": {
         "message": "The page closed before it could be saved.",
@@ -5529,11 +6397,19 @@
     },
     "theme": {
         "message": "Theme",
-        "description": "Location: Browser. General settings - Theme section title"
+        "description": "Location: Browser. Sync setup review - Space field name: the Space theme"
     },
     "these_grants_let_agents_use_your_saved": {
         "message": "These grants let agents use your saved logins without asking each time. “Always” grants persist until you revoke them here.",
         "description": "Location: Browser. Approvals sheet - explanation"
+    },
+    "these_spaces_already_exist_in_your_account": {
+        "message": "These Spaces already exist in your account. When sync starts, the account’s values replace what’s on this Mac. The Space may also move to the profile it has in your account. Your tabs, bookmarks, pinned tabs and URL rules aren’t touched. To keep this Mac’s values instead, go back and add that Space as a new one.",
+        "description": "Location: Browser. Sync setup - explanation on the review page listing Space values the account will replace"
+    },
+    "these_spaces_will_be_added_automatically_when": {
+        "message": "These Spaces will be added automatically when you finish pairing.",
+        "description": "Location: Browser. Space pairing - explanation for account Spaces not matched to a local Space"
     },
     "this_action_cannot_be_undone": {
         "message": "This action cannot be undone.",
@@ -5555,9 +6431,21 @@
         "message": "This can take a few minutes.",
         "description": "Location: Browser. Browser migration wizard - subtitle shown while a run is working"
     },
+    "this_code_is_shown_only_once_without": {
+        "message": "This code is shown only once. Without it, no other device can join your account if this Mac is lost. Confirm you have saved it to continue.",
+        "description": "Location: Browser. Key layer - body of the alert shown when closing the window before confirming the recovery code was saved"
+    },
     "this_deletes_the_phi_account_and_everything": {
         "message": "This deletes the Phi account %@ and everything Phi has stored on this Mac — browsing history, cookies, passwords, bookmarks, and Spaces. None of it can be recovered.\n\nOnce the deletion request is submitted, Phi signs you out and quits.",
         "description": "Location: Browser. Account deletion - Warning explaining what deleting the Phi account destroys. %@ is the account's email address"
+    },
+    "this_device_isn_t_set_up_for": {
+        "message": "This device isn’t set up for sync yet.",
+        "description": "Location: Browser. Devices settings - shown when this device has not joined sync"
+    },
+    "this_device_isn_t_unlocked_yet": {
+        "message": "This device isn’t unlocked yet.",
+        "description": "Location: Browser. Devices settings - error shown when approving a device before this device is unlocked"
     },
     "this_feature_requires_a_phi_account": {
         "message": "This feature requires a Phi account.",
@@ -5603,6 +6491,42 @@
         "message": "This file type isn't commonly downloaded and it may be dangerous",
         "description": "Location: Browser. Download safety - Suspicious file type warning (Chromium: IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_WARNING_DANGEROUS_FILE_TYPE)"
     },
+    "this_is_the_last_authorized_device_and": {
+        "message": "This is the last authorized device and can’t be removed yet. Set up sync on another device first. You can still finish this setup later.",
+        "description": "Location: Browser. Last device removal restriction does not prevent deferring setup"
+    },
+    "this_is_the_last_device_on_the": {
+        "message": "This is the last device on the account, so it can’t be removed. Finish pairing on this device (profiles that can’t be read don’t block it), or set up sync on another device first, then try again.",
+        "description": "Location: Browser. Self-revoke - last active device"
+    },
+    "this_item_has_no_article_text_you": {
+        "message": "This item has no article text. You can open the original or its saved webpage copy.",
+        "description": "Location: Browser. Folio library - Shown when the saved item has no readable article"
+    },
+    "this_mac": {
+        "message": "This Mac",
+        "description": "Location: Browser. Sync setup Space matching - header of the column listing Spaces on this Mac"
+    },
+    "this_mac_932e93": {
+        "message": "This Mac",
+        "description": "Location: Browser. Current authorized device marker"
+    },
+    "this_mac_hasn_t_finished_syncing_the": {
+        "message": "This Mac hasn’t finished syncing the Spaces in your account yet. After you delete this profile, Spaces on your other devices that use it may not open.",
+        "description": "Location: Browser. Extra warning shown when the account's Spaces have not been synced yet"
+    },
+    "this_mac_leaves_the_account_s_sync": {
+        "message": "This Mac leaves the account's sync. The server revokes this device, its device key is rotated, and the cached account key, profile mappings and sync cursors are cleared.\n\nBrowsing data on this Mac — Spaces, bookmarks, history and pinned tabs — is kept in full; it simply stops syncing with your other devices. Joining again needs approval from another device or your recovery code.",
+        "description": "Location: Browser. Self-revoke confirmation - body"
+    },
+    "this_mac_registration_could_not_be_checked": {
+        "message": "This Mac — registration could not be checked",
+        "description": "Location: Browser. Device list unavailable; local identity is not proof of registration"
+    },
+    "this_mac_will_stop_syncing_your_local": {
+        "message": "This Mac will stop syncing. Your local browsing data stays on this Mac. To join again, use approval from another device or your saved recovery code.",
+        "description": "Location: Browser. Consequences of removing this device from sync"
+    },
     "this_process_carries_no_valid_code_signature": {
         "message": "This process carries no valid code signature, so its name comes from the command it was launched with and anything could claim it. Open Details to see that command before you allow it.",
         "description": "Location: Browser. CDP consent - body of the unsigned-agent warning banner"
@@ -5610,6 +6534,14 @@
     "this_replaces_the_phi_user_data_folder": {
         "message": "This replaces the Phi user data folder with the archive and restarts Phi. Save your work first.",
         "description": "Location: Browser. User data import - Confirmation alert body warning data replacement and relaunch"
+    },
+    "this_request_expires_at": {
+        "message": "This request expires at ",
+        "description": "Location: Browser. Waiting - expiry prefix"
+    },
+    "this_request_timed_out_you_can_try": {
+        "message": "This request timed out. You can try again.",
+        "description": "Location: Browser. Sync setup - message shown when this device's join request timed out"
     },
     "this_session": {
         "message": "This session",
@@ -5651,6 +6583,10 @@
         "message": "This will also close this Incognito Space, are you sure?",
         "description": "Location: Browser. Title of the confirmation shown when a close would tear down an Incognito Space"
     },
+    "this_will_clear_this_mac_s_sync": {
+        "message": "This will clear this Mac’s sync setup and matching information, then let you set up sync again. Your local browsing data and account’s synced data will be kept.",
+        "description": "Location: Browser. Confirmation before clearing only local sync metadata"
+    },
     "time_machine_backup": {
         "message": "Time Machine Backup",
         "description": "Location: Browser. Time Machine backup deletion progress window title"
@@ -5678,6 +6614,10 @@
     "timeout_action": {
         "message": "Timeout action",
         "description": "Location: Browser. Phi & AI settings - Row title for what happens when the Bitwarden session times out"
+    },
+    "to_join_on_another_device_approve_its": {
+        "message": "To join on another device, approve its request here or use your saved recovery code. The code is shown only when sync is first set up.",
+        "description": "Location: Browser. Explain existing recovery options without offering retrieval"
     },
     "today": {
         "message": "Today",
@@ -5723,9 +6663,21 @@
         "message": "Too many attempts for now. Please wait a few minutes and try again.",
         "description": "Location: Browser. Account deletion - Error when the deletion service rate limit is hit"
     },
+    "too_many_pending_requests_try_again_later": {
+        "message": "Too many pending requests. Try again later or use a recovery code.",
+        "description": "Location: Browser. Key layer - too many pending join requests"
+    },
+    "too_many_pending_requests_try_again_later_c50c39": {
+        "message": "Too many pending requests. Try again later or use a recovery code.",
+        "description": "Location: Browser. Sync setup error shown when the account already has too many pending requests to join from a new device"
+    },
     "try_again": {
         "message": "Try Again",
         "description": "Location: Browser. Account deletion - Button retrying the failed deletion request"
+    },
+    "try_again_45f6d9": {
+        "message": "Try again",
+        "description": "Location: Browser. Sync setup error screen - button that retries setup from the start"
     },
     "try_again_b15319": {
         "message": "Try Again",
@@ -5734,6 +6686,14 @@
     "try_again_ba7845": {
         "message": "Try Again",
         "description": "Location: Browser. Guest migration - Button that retries migration for the journal-bound account"
+    },
+    "try_again_cd0a4c": {
+        "message": "Try Again",
+        "description": "Location: Browser. Folio library - Retries reading the library after an error"
+    },
+    "try_another_way": {
+        "message": "Try another way",
+        "description": "Location: Browser. Sync setup - button on a denied or expired join request page that returns to the join method choice"
     },
     "turn_off": {
         "message": "Turn Off",
@@ -5779,6 +6739,10 @@
         "message": "Unblock",
         "description": "Location: Browser. Developer settings - Lift a standing refusal"
     },
+    "unclaimed_account_profiles": {
+        "message": "Unclaimed account profiles",
+        "description": "Location: Browser. Sync setup profile matching - header of account profiles no profile on this Mac is matched to"
+    },
     "undo": {
         "message": "Undo",
         "description": "Location: Browser. Folio - Undo button on the toast after an automatic site-action save; moves the just-saved files to the Trash"
@@ -5802,6 +6766,10 @@
     "unknown": {
         "message": "Unknown",
         "description": "Location: Browser. Address bar menu - Website security unknown"
+    },
+    "unknown_date": {
+        "message": "Unknown Date",
+        "description": "Location: Browser. All downloads window - Section heading for downloads without a start date"
     },
     "unknown_error": {
         "message": "Unknown error",
@@ -5842,6 +6810,10 @@
     "unlock_d1fd02": {
         "message": "Unlock…",
         "description": "Location: Browser. Phi & AI settings - Bitwarden unlock action"
+    },
+    "unnamed_profile": {
+        "message": "Unnamed profile (%@)",
+        "description": "Location: Browser. Sync setup profile matching - account profile whose name cannot be decrypted; %@ is a short identifier"
     },
     "unpin": {
         "message": "Unpin",
@@ -5894,6 +6866,10 @@
     "untitled_space_41a209": {
         "message": "Untitled Space",
         "description": "Location: Browser. Arc import - fallback name for an Arc Space with no title"
+    },
+    "up_to_date": {
+        "message": "Up to date",
+        "description": "Location: Browser. All required contexts completed sync"
     },
     "update": {
         "message": "Update",
@@ -5971,6 +6947,10 @@
         "message": "URLs matching any rule will open in the selected destination, no matter where you click or type them.",
         "description": "Location: Browser. Subtitle of the universal URL rules editor"
     },
+    "use_a_recovery_code": {
+        "message": "Use a recovery code",
+        "description": "Location: Browser. Switch from approval to recovery code"
+    },
     "using_telegram_to_send_and_receive_messages": {
         "message": "Using Telegram to send and receive messages with %@",
         "description": "Location: Browser. Phi Link - Section subtitle with agent name"
@@ -5982,6 +6962,10 @@
     "verification_code": {
         "message": "Verification code",
         "description": "Location: Browser. Account data export - Accessibility label for the verification code field"
+    },
+    "verification_code_2ced3f": {
+        "message": "Verification code",
+        "description": "Location: Browser. Bitwarden sign-in sheet - Label of the field for the one-time code emailed when signing in from a device the account has not seen before"
     },
     "verification_failed_please_check_the_token_and": {
         "message": "Verification failed. Please check the token and try again.",
@@ -6003,6 +6987,10 @@
         "message": "Verify",
         "description": "Location: Browser. IM Channels - Custom bot verify button"
     },
+    "verify_this_code_matches_the_other_device": {
+        "message": "Verify this code matches the other device: %@",
+        "description": "Location: Browser. Devices settings - asks to compare a join request's code with the other device; %@ is the code"
+    },
     "verifying_the_code": {
         "message": "Verifying the code…",
         "description": "Location: Browser. Account deletion - Progress text while the verification code is being checked"
@@ -6010,6 +6998,14 @@
     "version": {
         "message": "Version %1$@ (%2$@)",
         "description": "Location: Browser. About window - App version and build number label"
+    },
+    "video": {
+        "message": "Video",
+        "description": "Location: Browser. Folio library - Content type for a saved video summary"
+    },
+    "videos": {
+        "message": "Videos",
+        "description": "Location: Browser. Folio library - Filter showing saved video summaries"
     },
     "view": {
         "message": "View",
@@ -6027,9 +7023,17 @@
         "message": "View Page Source",
         "description": "Location: Browser. Shortcuts settings - Command title for viewing the current page source"
     },
+    "waiting_for_approval": {
+        "message": "Waiting for approval",
+        "description": "Location: Browser. Sync setup - title while waiting for another device to approve this one"
+    },
     "wants_to_control_phi_browser": {
         "message": "“%@” wants to control Phi Browser",
         "description": "Location: Browser. CDP consent - title"
+    },
+    "we_found_profiles_on_this_mac_and": {
+        "message": "We found profiles on this Mac and on your account that we couldn’t match automatically. Pick which account profile each local profile belongs to.",
+        "description": "Location: Browser. Sync setup profile matching - explanation above the list of profiles to match"
     },
     "we_ll_send_a_verification_code_to": {
         "message": "We'll send a verification code to %@. Once verified, we'll prepare a copy of the personal data associated with your Phi Browser account and email you a download link. The link will be available for seven days.",
@@ -6091,6 +7095,10 @@
         "message": "Welcome",
         "description": "Location: Browser. Onboarding welcome page - Main title greeting the user"
     },
+    "what_s_included": {
+        "message": "What’s included",
+        "description": "Location: Browser. Expand sync scope and exclusions"
+    },
     "what_s_new": {
         "message": "What's New",
         "description": "Location: Browser. Help menu - Menu item that opens the chrome://whats-new page in a new tab, placed right below 'Report an Issue'"
@@ -6147,6 +7155,10 @@
         "message": "You’ll return to the sign-in screen.",
         "description": "Location: Browser. Account settings - Sign-out confirmation dialog message"
     },
+    "you_re_not_signed_in": {
+        "message": "You’re not signed in.",
+        "description": "Location: Browser. Key layer - not signed in"
+    },
     "you_re_using_phi_without_signing_in": {
         "message": "You’re using Phi without signing in",
         "description": "Location: Browser. Account settings - Title of the Guest account card"
@@ -6170,6 +7182,10 @@
     "your_answer_is_about_pick_a_row": {
         "message": "Your answer is about “%@”. Pick a row above to answer about the process that launched it instead.",
         "description": "Location: Browser. CDP consent - hint under the process tree explaining that a row can be picked to retarget the answer; %@ is the asking agent's name"
+    },
+    "your_collection_starts_here": {
+        "message": "Your collection starts here.",
+        "description": "Location: Browser. Folio library - Empty collection list placeholder"
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Your current pinned tabs will be copied into each existing destination. The copies can then be changed independently.",
@@ -6214,6 +7230,10 @@
     "your_phi_session_has_expired_please_sign": {
         "message": "Your Phi session has expired. Please sign in again, then retry Phi Link.",
         "description": "Location: Browser. Phi Link - Message shown when phi-agent returns 401 unauthorized"
+    },
+    "your_pinned_tabs_and_bookmarks_will_appear": {
+        "message": "Your pinned tabs and bookmarks will appear here.",
+        "description": "Location: Browser. Library Space card - empty contents message"
     },
     "your_profiles": {
         "message": "Your Profiles",
