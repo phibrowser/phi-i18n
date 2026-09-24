@@ -1547,6 +1547,10 @@
         "message": "Confirm",
         "description": "Location: Browser. Profile pairing - confirm button"
     },
+    "confirm_your_recovery_code": {
+        "message": "Confirm your recovery code",
+        "description": "Location: Browser. Sync setup - title requiring re-entry of the saved recovery code"
+    },
     "conflicts_with": {
         "message": "Conflicts with: %@",
         "description": "Location: Browser. Shortcuts settings - Warning text showing conflicting shortcuts"
@@ -1894,6 +1898,10 @@
     "couldn_t_rename_profile": {
         "message": "Couldn't rename profile",
         "description": "Location: Browser. Title of the profile-rename error"
+    },
+    "couldn_t_save_sync_setup_on_this": {
+        "message": "Couldn’t save sync setup on this device. Try again.",
+        "description": "Location: Browser. Sync setup - local enrollment or recovery confirmation could not be saved"
     },
     "couldn_t_save_this_page": {
         "message": "Couldn't save this page",
@@ -2578,6 +2586,10 @@
     "enter_the_6_digit_code_sent_to": {
         "message": "Enter the 6-digit code sent to %@.",
         "description": "Location: Browser. Account deletion - Prompt above the verification code boxes. %@ is the masked account email"
+    },
+    "enter_the_recovery_code_you_just_saved": {
+        "message": "Enter the recovery code you just saved. Sync will stay off until you confirm the code and finish setup.",
+        "description": "Location: Browser. Sync setup - explanation of required recovery code verification"
     },
     "enter_the_recovery_code_you_saved_when": {
         "message": "Enter the recovery code you saved when you set up sync on another device.",
@@ -6822,6 +6834,10 @@
     "this_process_carries_no_valid_code_signature": {
         "message": "This process carries no valid code signature, so its name comes from the command it was launched with and anything could claim it. Open Details to see that command before you allow it.",
         "description": "Location: Browser. CDP consent - body of the unsigned-agent warning banner"
+    },
+    "this_recovery_code_is_shown_only_once": {
+        "message": "This recovery code is shown only once. Save it somewhere safe. On the next screen, enter it to confirm you saved it before continuing sync setup.",
+        "description": "Location: Browser. Recovery code display - one-time visibility warning and required next-step verification"
     },
     "this_replaces_the_phi_user_data_folder": {
         "message": "This replaces the Phi user data folder with the archive and restarts Phi. Save your work first.",
