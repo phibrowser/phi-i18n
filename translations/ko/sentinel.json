@@ -134,12 +134,6 @@
     "common_save": {
         "message": "저장"
     },
-    "common_task_run_approval_actions_label_approve": {
-        "message": "승인"
-    },
-    "common_task_run_approval_actions_label_reject": {
-        "message": "거부"
-    },
     "common_unknown": {
         "message": "알 수 없음"
     },
@@ -941,6 +935,9 @@
     "local_ai_local_llm_tooltip_view_logs": {
         "message": "로그 보기"
     },
+    "local_ai_model_select_label_no_matching_models": {
+        "message": "일치하는 모델이 없어요"
+    },
     "local_ai_models_accessible_label_cancel_model_download": {
         "message": "모델 다운로드 취소"
     },
@@ -1547,6 +1544,12 @@
     "menu_bar_dashboard_title": {
         "message": "대시보드"
     },
+    "menu_bar_phi_chat_open_title": {
+        "message": "Phi Chat 열기"
+    },
+    "menu_bar_phi_chat_unread_accessibility_label": {
+        "message": "읽지 않은 메시지"
+    },
     "menu_bar_quit_title": {
         "message": "종료"
     },
@@ -1847,17 +1850,8 @@
     "notifications_settings_track_changed_with_failures": {
         "message": "업데이트 트랙을 변경했지만 구성 요소 {{count}}개의 업데이트에 실패했어요"
     },
-    "notifications_tasks_approval_no_longer_pending": {
-        "message": "승인 요청이 이미 처리됐어요"
-    },
-    "notifications_tasks_approval_submit_failed": {
-        "message": "승인 결정을 제출하지 못했어요"
-    },
     "notifications_tasks_no_active_run": {
         "message": "취소할 진행 중인 실행이 없어요"
-    },
-    "notifications_tasks_run_approved": {
-        "message": "실행을 승인했어요"
     },
     "notifications_tasks_run_cancel_failed": {
         "message": "실행을 취소하지 못했어요"
@@ -1867,9 +1861,6 @@
     },
     "notifications_tasks_run_failed": {
         "message": "작업을 실행하지 못했어요"
-    },
-    "notifications_tasks_run_rejected": {
-        "message": "실행을 거부했어요"
     },
     "notifications_tasks_run_started": {
         "message": "실행을 시작했어요"
@@ -2303,17 +2294,65 @@
     "private_ai_providers_action_add_custom_provider": {
         "message": "사용자 지정 제공자 추가"
     },
+    "private_ai_providers_action_discard_changes": {
+        "message": "변경 사항 버리기"
+    },
+    "private_ai_providers_action_keep_editing": {
+        "message": "계속 편집하기"
+    },
+    "private_ai_providers_action_save_changes": {
+        "message": "변경 사항 저장"
+    },
     "private_ai_providers_description_custom_endpoint": {
         "message": "사용자 지정 OpenAI 호환 엔드포인트."
     },
     "private_ai_providers_description_legacy_endpoint": {
         "message": "레거시 호환 엔드포인트."
     },
+    "private_ai_providers_description_unsaved_changes": {
+        "message": "이 제공자의 변경 사항이 저장되지 않았어요."
+    },
+    "private_ai_providers_error_duplicate_provider": {
+        "message": "이 ID를 사용하는 제공자가 이미 있어요."
+    },
+    "private_ai_providers_error_incomplete_provider": {
+        "message": "필수 항목을 입력하고, '선택한 모델만' 모드에서는 모델을 하나 이상 선택해 주세요."
+    },
+    "private_ai_providers_error_select_model": {
+        "message": "모델을 하나 이상 선택해 주세요."
+    },
+    "private_ai_providers_label_all_models": {
+        "message": "모든 모델 허용"
+    },
+    "private_ai_providers_label_model_access": {
+        "message": "모델 액세스"
+    },
+    "private_ai_providers_label_saving": {
+        "message": "저장 중…"
+    },
+    "private_ai_providers_label_selected_model_count": {
+        "message": "모델 {{count}}개 선택됨"
+    },
+    "private_ai_providers_label_selected_models": {
+        "message": "선택한 모델만"
+    },
+    "private_ai_providers_label_unavailable_model": {
+        "message": "사용할 수 없음"
+    },
+    "private_ai_providers_label_unsaved_changes": {
+        "message": "저장되지 않은 변경 사항"
+    },
+    "private_ai_providers_title_unsaved_changes": {
+        "message": "저장되지 않은 제공자 변경 사항"
+    },
     "private_ai_setup_wizard_action_done": {
         "message": "완료"
     },
     "private_ai_setup_wizard_action_minimize": {
         "message": "최소화"
+    },
+    "private_ai_setup_wizard_action_repair_setup": {
+        "message": "로컬 설정 복구"
     },
     "private_ai_setup_wizard_action_start_setup": {
         "message": "설정 시작"
@@ -2347,6 +2386,9 @@
     },
     "private_ai_setup_wizard_label_checking_your_device": {
         "message": "기기 확인 중…"
+    },
+    "private_ai_setup_wizard_label_routing_preserved": {
+        "message": "기존 작업 할당은 그대로 유지돼요."
     },
     "private_ai_setup_wizard_label_text": {
         "message": "✓"
@@ -2447,6 +2489,9 @@
     "private_ai_task_routing_description_source_assignments": {
         "message": "각 브라우저 기능이 어떤 AI 소스를 사용할지 선택하세요."
     },
+    "private_ai_task_routing_description_vision_fallback": {
+        "message": "선택한 모델이 이미지를 처리할 수 없을 때만 사용돼요."
+    },
     "private_ai_task_routing_label_aitab_organization": {
         "message": "AI 탭 정리"
     },
@@ -2459,17 +2504,29 @@
     "private_ai_task_routing_label_no_capability_models": {
         "message": "이 기능에 사용 설정된 모델이 없어요"
     },
+    "private_ai_task_routing_label_no_vision_models": {
+        "message": "사용 설정된 비전 모델이 없어요"
+    },
     "private_ai_task_routing_label_pause_features_option": {
         "message": "영향받는 AI 기능 일시 중지(클라우드로 데이터를 절대 보내지 않음)"
     },
     "private_ai_task_routing_label_unavailable_source_policy": {
         "message": "로컬 또는 자체 호스팅 소스를 사용할 수 없을 때"
     },
+    "private_ai_task_routing_label_vision_fallback": {
+        "message": "비전 대체 모델"
+    },
     "private_ai_task_routing_placeholder_phi_cloud": {
         "message": "Phi Cloud"
     },
     "private_ai_task_routing_placeholder_search_task_models": {
         "message": "{{task}} 모델 검색…"
+    },
+    "private_ai_task_routing_placeholder_search_vision_models": {
+        "message": "비전 모델 검색…"
+    },
+    "private_ai_task_routing_placeholder_vision_fallback": {
+        "message": "설정되지 않음"
     },
     "private_ai_task_routing_status_apple_intelligence_available": {
         "message": "Apple Intelligence · 사용 가능"
@@ -2689,9 +2746,6 @@
     },
     "scheduled_task_detail_description_no_runs_yet": {
         "message": "아직 실행된 적이 없어요."
-    },
-    "scheduled_task_detail_field_label_approval": {
-        "message": "승인"
     },
     "scheduled_task_detail_field_label_cadence": {
         "message": "주기"
@@ -2951,9 +3005,6 @@
     "scheduled_tasks_label_artifact_count": {
         "message": "아티팩트 {{count}}개"
     },
-    "scheduled_tasks_label_ask_before_run": {
-        "message": "실행 전 확인"
-    },
     "scheduled_tasks_label_calendar_schedule": {
         "message": "캘린더 일정"
     },
@@ -3056,9 +3107,6 @@
     "scheduled_tasks_label_runs": {
         "message": "실행"
     },
-    "scheduled_tasks_label_runs_automatically": {
-        "message": "자동 실행"
-    },
     "scheduled_tasks_label_runs_automatically_on_aschedule": {
         "message": "일정에 따라 자동으로 실행돼요."
     },
@@ -3152,9 +3200,6 @@
     "scheduled_tasks_status_failed": {
         "message": "실패"
     },
-    "scheduled_tasks_status_needs_approval": {
-        "message": "승인 대기 중"
-    },
     "scheduled_tasks_status_no_schedule": {
         "message": "일정 없음"
     },
@@ -3167,17 +3212,8 @@
     "scheduled_tasks_status_queued": {
         "message": "대기 중"
     },
-    "scheduled_tasks_status_rejected": {
-        "message": "거부됨"
-    },
-    "scheduled_tasks_status_requires_approval": {
-        "message": "승인 필요"
-    },
     "scheduled_tasks_status_running_now": {
         "message": "실행 중"
-    },
-    "scheduled_tasks_status_runs_automatically": {
-        "message": "자동 실행"
     },
     "scheduled_tasks_status_scheduled": {
         "message": "예약됨"
@@ -3672,13 +3708,13 @@
         "message": "%1$@: %2$@"
     },
     "uninstall_dialog_confirmation_delete_and_quit_button": {
-        "message": "삭제 후 종료"
+        "message": "제거"
     },
     "uninstall_dialog_confirmation_message": {
-        "message": "이 작업은 되돌릴 수 없어요."
+        "message": "Phi와 Phi Sentinel이 종료돼요. 이 버전의 Phi에 있는 브라우징 데이터, 대화, AI 메모리, 서비스 데이터, 로컬 AI 모델이 영구적으로 삭제돼요. 이 작업은 되돌릴 수 없어요."
     },
     "uninstall_dialog_confirmation_title": {
-        "message": "선택한 데이터를 영구적으로 삭제할까요?"
+        "message": "Phi를 제거할까요?"
     },
     "uninstall_dialog_models_description": {
         "message": "다운로드한 모델 및 MLX 런타임"

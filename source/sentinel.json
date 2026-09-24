@@ -179,14 +179,6 @@
         "message": "Save",
         "description": "Location: Sentinel. Text reused by dialogs and controls in several dashboard areas. Button that commits changes made in the current dialog."
     },
-    "common_task_run_approval_actions_label_approve": {
-        "message": "Approve",
-        "description": "Location: Sentinel. Text reused by dialogs and controls in several dashboard areas. Approval controls shown when a task run is waiting for a decision. Text on the task-run approve decision button."
-    },
-    "common_task_run_approval_actions_label_reject": {
-        "message": "Reject",
-        "description": "Location: Sentinel. Text reused by dialogs and controls in several dashboard areas. Approval controls shown when a task run is waiting for a decision. Text on the task-run reject decision button."
-    },
     "common_unknown": {
         "message": "Unknown",
         "description": "Location: Sentinel. Text reused by dialogs and controls in several dashboard areas. Fallback state shown when no recognized state value is available."
@@ -1255,6 +1247,10 @@
         "message": "View logs",
         "description": "Location: Sentinel. On-device AI runtime, model, provider, and role configuration. On-device AI runtime setup and status panel. Tooltip for the View logs control."
     },
+    "local_ai_model_select_label_no_matching_models": {
+        "message": "No matching models",
+        "description": "Location: Sentinel. On-device AI runtime, model, provider, and role configuration. Empty-state text in a model selector when no available model matches the search query."
+    },
     "local_ai_models_accessible_label_cancel_model_download": {
         "message": "Cancel model download",
         "description": "Location: Sentinel. On-device AI runtime, model, provider, and role configuration. Model catalog, installation progress, and model actions. Screen-reader name for the Cancel model download control."
@@ -2063,6 +2059,14 @@
         "message": "Dashboard",
         "description": "Location: Sentinel. Menu bar - Command that opens the dashboard"
     },
+    "menu_bar_phi_chat_open_title": {
+        "message": "Open Phi Chat",
+        "description": "Location: Sentinel. Menu bar - Command that opens the chat window. Translate the action verb and keep the product name unchanged"
+    },
+    "menu_bar_phi_chat_unread_accessibility_label": {
+        "message": "Unread messages",
+        "description": "Location: Sentinel. Menu bar - Accessibility label for the dot indicating unread chat messages"
+    },
     "menu_bar_quit_title": {
         "message": "Quit",
         "description": "Location: Sentinel. Menu bar - Command that quits the application"
@@ -2463,129 +2467,113 @@
         "message": "Update track changed with {{count}} component update failure(s)",
         "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after changing update preferences. Warning after changing update tracks. {{count}} is the number of component update failures; the wording intentionally avoids plural key variants."
     },
-    "notifications_tasks_approval_no_longer_pending": {
-        "message": "Approval is no longer pending",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Information notification shown when a run approval was already resolved."
-    },
-    "notifications_tasks_approval_submit_failed": {
-        "message": "Failed to submit approval decision",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when an approval decision cannot be submitted."
-    },
     "notifications_tasks_no_active_run": {
         "message": "No active run to cancel",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Information shown when cancellation finds no active run."
-    },
-    "notifications_tasks_run_approved": {
-        "message": "Run approved",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after approving a task run."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Information shown when cancellation finds no active run."
     },
     "notifications_tasks_run_cancel_failed": {
         "message": "Failed to cancel run",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a task run cannot be cancelled."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a task run cannot be cancelled."
     },
     "notifications_tasks_run_cancelled": {
         "message": "Run cancelled",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after cancelling a task run."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after cancelling a task run."
     },
     "notifications_tasks_run_failed": {
         "message": "Failed to run task",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a task run cannot start."
-    },
-    "notifications_tasks_run_rejected": {
-        "message": "Run rejected",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after rejecting a task run."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a task run cannot start."
     },
     "notifications_tasks_run_started": {
         "message": "Run started",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after starting a task run."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after starting a task run."
     },
     "notifications_tasks_schedule_create_partial_failure": {
         "message": "Task created, but schedule creation failed",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Warning shown when a task is created but its schedule cannot be created."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Warning shown when a task is created but its schedule cannot be created."
     },
     "notifications_tasks_schedule_delete_failed": {
         "message": "Failed to delete schedule",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a schedule cannot be deleted."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a schedule cannot be deleted."
     },
     "notifications_tasks_schedule_deleted": {
         "message": "Schedule deleted",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after deleting a schedule."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after deleting a schedule."
     },
     "notifications_tasks_schedule_pause_failed": {
         "message": "Failed to pause schedule",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a schedule cannot be paused."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a schedule cannot be paused."
     },
     "notifications_tasks_schedule_paused": {
         "message": "Schedule paused",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after pausing a schedule."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after pausing a schedule."
     },
     "notifications_tasks_schedule_resume_failed": {
         "message": "Failed to resume schedule",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a schedule cannot be resumed."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a schedule cannot be resumed."
     },
     "notifications_tasks_schedule_resumed": {
         "message": "Schedule resumed",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after resuming a schedule."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after resuming a schedule."
     },
     "notifications_tasks_schedule_run_failed": {
         "message": "Failed to run schedule now",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a schedule cannot be run immediately."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a schedule cannot be run immediately."
     },
     "notifications_tasks_schedule_run_started": {
         "message": "Schedule run started",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after manually starting a schedule run."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after manually starting a schedule run."
     },
     "notifications_tasks_scheduled_task_create_failed": {
         "message": "Failed to create scheduled task",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a scheduled task cannot be created."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a scheduled task cannot be created."
     },
     "notifications_tasks_scheduled_task_created": {
         "message": "Scheduled task created",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after creating a scheduled task."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after creating a scheduled task."
     },
     "notifications_tasks_scheduled_task_update_failed": {
         "message": "Failed to update scheduled task",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a scheduled task cannot be updated."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a scheduled task cannot be updated."
     },
     "notifications_tasks_scheduled_task_updated": {
         "message": "Scheduled task updated",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after updating a scheduled task."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after updating a scheduled task."
     },
     "notifications_tasks_settings_update_failed": {
         "message": "Failed to update task settings",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when task settings cannot be updated."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when task settings cannot be updated."
     },
     "notifications_tasks_settings_updated": {
         "message": "Task settings updated",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after updating task settings."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after updating task settings."
     },
     "notifications_tasks_task_create_failed": {
         "message": "Failed to create task",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a task cannot be created."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a task cannot be created."
     },
     "notifications_tasks_task_created": {
         "message": "Task created",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after creating a task."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after creating a task."
     },
     "notifications_tasks_task_delete_failed": {
         "message": "Failed to delete task",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a task cannot be deleted."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a task cannot be deleted."
     },
     "notifications_tasks_task_deleted": {
         "message": "Task deleted",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after archiving a task from the interface."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after archiving a task from the interface."
     },
     "notifications_tasks_task_update_failed": {
         "message": "Failed to update task",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Error notification shown when a task cannot be updated."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a task cannot be updated."
     },
     "notifications_tasks_task_update_partial_failure": {
         "message": "Schedule updated, but task update failed",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Warning shown when a schedule is updated but its task cannot be updated."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Warning shown when a schedule is updated but its task cannot be updated."
     },
     "notifications_tasks_task_updated": {
         "message": "Task updated",
-        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, runs, and approvals. Success notification shown after updating a task."
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after updating a task."
     },
     "notifications_unknown_error": {
         "message": "Unknown error",
@@ -3071,6 +3059,18 @@
         "message": "Add Custom Provider",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Runs the add custom provider operation when the button is selected."
     },
+    "private_ai_providers_action_discard_changes": {
+        "message": "Discard changes",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Button that discards the edited provider form."
+    },
+    "private_ai_providers_action_keep_editing": {
+        "message": "Keep editing",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Button that cancels navigation and keeps the provider draft."
+    },
+    "private_ai_providers_action_save_changes": {
+        "message": "Save changes",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Button that persists the current provider form."
+    },
     "private_ai_providers_description_custom_endpoint": {
         "message": "Custom OpenAI-compatible endpoint.",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Description for a user-defined OpenAI-compatible endpoint."
@@ -3079,6 +3079,54 @@
         "message": "Legacy compatible endpoint.",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Description for a user-defined legacy Anthropic-compatible endpoint."
     },
+    "private_ai_providers_description_unsaved_changes": {
+        "message": "Changes to this provider have not been saved.",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Warning that the current provider form contains unsaved changes."
+    },
+    "private_ai_providers_error_duplicate_provider": {
+        "message": "A provider with this ID already exists.",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Validation error when an edited provider identifier collides with another provider."
+    },
+    "private_ai_providers_error_incomplete_provider": {
+        "message": "Complete the required fields and select at least one model in selected-only mode.",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Validation error for incomplete provider fields or an empty restricted model selection."
+    },
+    "private_ai_providers_error_select_model": {
+        "message": "Select at least one model.",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Validation error for an empty selected-only model list."
+    },
+    "private_ai_providers_label_all_models": {
+        "message": "Allow all models",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Radio option allowing every model offered by the provider."
+    },
+    "private_ai_providers_label_model_access": {
+        "message": "Model access",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Legend for choosing all models or a selected model allowlist."
+    },
+    "private_ai_providers_label_saving": {
+        "message": "Saving...",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Status of the provider save operation."
+    },
+    "private_ai_providers_label_selected_model_count": {
+        "message": "{{count}} model(s) selected",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Count of models in the selected-only list; {{count}} is the number selected."
+    },
+    "private_ai_providers_label_selected_models": {
+        "message": "Selected models only",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Radio option restricting the provider to selected models."
+    },
+    "private_ai_providers_label_unavailable_model": {
+        "message": "Unavailable",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Warning on a configured model that is not in the current choices."
+    },
+    "private_ai_providers_label_unsaved_changes": {
+        "message": "Unsaved changes",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Status of a provider form with edits not yet saved."
+    },
+    "private_ai_providers_title_unsaved_changes": {
+        "message": "Unsaved provider changes",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. AI provider list and add-provider control. Title of the confirmation shown when leaving an edited provider."
+    },
     "private_ai_setup_wizard_action_done": {
         "message": "Done",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Guided private AI setup flow. Button that closes the setup flow after completion."
@@ -3086,6 +3134,10 @@
     "private_ai_setup_wizard_action_minimize": {
         "message": "Minimize",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Guided private AI setup flow. Button that collapses the setup flow while work continues."
+    },
+    "private_ai_setup_wizard_action_repair_setup": {
+        "message": "Repair local setup",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Guided private AI setup flow. Button that starts recovery of an existing local setup without replacing task assignments."
     },
     "private_ai_setup_wizard_action_start_setup": {
         "message": "Start setup",
@@ -3130,6 +3182,10 @@
     "private_ai_setup_wizard_label_checking_your_device": {
         "message": "Checking your device…",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Guided private AI setup flow. Progress label shown while setup checks device compatibility."
+    },
+    "private_ai_setup_wizard_label_routing_preserved": {
+        "message": "Existing task assignments are unchanged.",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Guided private AI setup flow. Status confirming that local setup repair retains existing task assignments."
     },
     "private_ai_setup_wizard_label_text": {
         "message": "✓",
@@ -3263,6 +3319,10 @@
         "message": "Choose which AI source each browser feature uses.",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Guidance helping the user choose which AI source each browser feature uses."
     },
+    "private_ai_task_routing_description_vision_fallback": {
+        "message": "Used only when a selected model cannot accept images.",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Description of when the image fallback model is used."
+    },
     "private_ai_task_routing_label_aitab_organization": {
         "message": "AI tab organization",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Capability row label for AI-assisted tab organization."
@@ -3279,6 +3339,10 @@
         "message": "No enabled models for this capability",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Empty-state label indicating no enabled models for this capability."
     },
+    "private_ai_task_routing_label_no_vision_models": {
+        "message": "No enabled vision models",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Empty search result for the image fallback model selector."
+    },
     "private_ai_task_routing_label_pause_features_option": {
         "message": "Pause affected AI features (never send data to the cloud)",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Instruction directing the user to pause affected AI features (never send data to the cloud)."
@@ -3287,6 +3351,10 @@
         "message": "When a local or self-hosted source is unavailable",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Fallback-policy prompt introducing what should happen when a selected source is unavailable."
     },
+    "private_ai_task_routing_label_vision_fallback": {
+        "message": "Vision fallback",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Label of the optional model used when image input is unsupported."
+    },
     "private_ai_task_routing_placeholder_phi_cloud": {
         "message": "Phi Cloud",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Hint shown in the phi cloud field before the user enters a value."
@@ -3294,6 +3362,14 @@
     "private_ai_task_routing_placeholder_search_task_models": {
         "message": "Search {{task}} models...",
         "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Search placeholder in a task model selector. {{task}} is the translated lowercase task capability name."
+    },
+    "private_ai_task_routing_placeholder_search_vision_models": {
+        "message": "Search vision models...",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Search field placeholder in the image fallback model selector."
+    },
+    "private_ai_task_routing_placeholder_vision_fallback": {
+        "message": "Not configured",
+        "description": "Location: Sentinel. Private AI setup, routing, provider, and diagnostic interfaces. Controls for choosing an AI source for each browser capability. Empty value for the optional image fallback model."
     },
     "private_ai_task_routing_status_apple_intelligence_available": {
         "message": "Apple Intelligence · Available",
@@ -3586,10 +3662,6 @@
     "scheduled_task_detail_description_no_runs_yet": {
         "message": "No runs yet.",
         "description": "Location: Sentinel. Scheduled-task details, run history, artifacts, and logs. Empty-state message indicating no runs yet."
-    },
-    "scheduled_task_detail_field_label_approval": {
-        "message": "Approval",
-        "description": "Location: Sentinel. Scheduled-task details, run history, artifacts, and logs. Field label for approval."
     },
     "scheduled_task_detail_field_label_cadence": {
         "message": "Cadence",
@@ -3935,10 +4007,6 @@
         "message": "{{count}} artifact(s)",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Artifact count label. {{count}} is the count; the wording intentionally avoids plural key variants."
     },
-    "scheduled_tasks_label_ask_before_run": {
-        "message": "Ask before run",
-        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task-type option for ask before run."
-    },
     "scheduled_tasks_label_calendar_schedule": {
         "message": "Calendar schedule",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Label for a cron-style calendar schedule."
@@ -4075,10 +4143,6 @@
         "message": "Runs",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task-management tab label for runs."
     },
-    "scheduled_tasks_label_runs_automatically": {
-        "message": "Runs automatically",
-        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task-type option for runs automatically."
-    },
     "scheduled_tasks_label_runs_automatically_on_aschedule": {
         "message": "Runs automatically on a schedule.",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task or schedule interface label for runs automatically on a schedule."
@@ -4203,10 +4267,6 @@
         "message": "Failed",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Status shown for a failed task run."
     },
-    "scheduled_tasks_status_needs_approval": {
-        "message": "Needs approval",
-        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Status shown for a task run waiting for user approval."
-    },
     "scheduled_tasks_status_no_schedule": {
         "message": "No schedule",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task status shown when the task has no automatic schedule."
@@ -4223,21 +4283,9 @@
         "message": "Queued",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Status shown for a queued task run."
     },
-    "scheduled_tasks_status_rejected": {
-        "message": "Rejected",
-        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Status shown for a rejected task run."
-    },
-    "scheduled_tasks_status_requires_approval": {
-        "message": "Requires approval",
-        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task approval mode that requires user confirmation."
-    },
     "scheduled_tasks_status_running_now": {
         "message": "Running now",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Status shown for a task run currently in progress."
-    },
-    "scheduled_tasks_status_runs_automatically": {
-        "message": "Runs automatically",
-        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task approval mode that starts runs automatically."
     },
     "scheduled_tasks_status_scheduled": {
         "message": "Scheduled",
@@ -4896,16 +4944,16 @@
         "description": "Location: Sentinel. Uninstall dialog - Data category label with disk usage. %1$@ is the localized category name and %2$@ is the formatted size"
     },
     "uninstall_dialog_confirmation_delete_and_quit_button": {
-        "message": "Delete & Quit",
-        "description": "Location: Sentinel. Uninstall confirmation - Primary button that permanently deletes selected user data and quits"
+        "message": "Uninstall",
+        "description": "Location: Sentinel. Uninstall confirmation - Destructive button that starts removing the application and local data"
     },
     "uninstall_dialog_confirmation_message": {
-        "message": "This cannot be undone.",
-        "description": "Location: Sentinel. Uninstall confirmation - Explains that deleting the selected user data is irreversible"
+        "message": "Phi and Phi Sentinel will quit. Browsing data, conversations, AI memory, service data, and local AI models for this version of Phi will be permanently deleted. This cannot be undone.",
+        "description": "Location: Sentinel. Uninstall confirmation - Critical message describing the application-scoped data that will be permanently removed"
     },
     "uninstall_dialog_confirmation_title": {
-        "message": "Permanently delete the selected data?",
-        "description": "Location: Sentinel. Uninstall confirmation - Warning title before permanently deleting selected user data"
+        "message": "Uninstall Phi?",
+        "description": "Location: Sentinel. Uninstall confirmation - Critical alert title before permanently removing the app and local data"
     },
     "uninstall_dialog_models_description": {
         "message": "Downloaded models and MLX runtime",

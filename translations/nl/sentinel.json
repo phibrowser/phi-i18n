@@ -134,12 +134,6 @@
     "common_save": {
         "message": "Opslaan"
     },
-    "common_task_run_approval_actions_label_approve": {
-        "message": "Goedkeuren"
-    },
-    "common_task_run_approval_actions_label_reject": {
-        "message": "Afwijzen"
-    },
     "common_unknown": {
         "message": "Onbekend"
     },
@@ -941,6 +935,9 @@
     "local_ai_local_llm_tooltip_view_logs": {
         "message": "Logboeken bekijken"
     },
+    "local_ai_model_select_label_no_matching_models": {
+        "message": "Geen overeenkomende modellen"
+    },
     "local_ai_models_accessible_label_cancel_model_download": {
         "message": "Modeldownload annuleren"
     },
@@ -1547,6 +1544,12 @@
     "menu_bar_dashboard_title": {
         "message": "Dashboard"
     },
+    "menu_bar_phi_chat_open_title": {
+        "message": "Open Phi Chat"
+    },
+    "menu_bar_phi_chat_unread_accessibility_label": {
+        "message": "Ongelezen berichten"
+    },
     "menu_bar_quit_title": {
         "message": "Stop"
     },
@@ -1847,17 +1850,8 @@
     "notifications_settings_track_changed_with_failures": {
         "message": "Updatekanaal gewijzigd, {{count}} componentupdate(s) mislukt"
     },
-    "notifications_tasks_approval_no_longer_pending": {
-        "message": "Goedkeuring staat niet meer open"
-    },
-    "notifications_tasks_approval_submit_failed": {
-        "message": "Indienen van goedkeuringsbeslissing mislukt"
-    },
     "notifications_tasks_no_active_run": {
         "message": "Geen actieve run om te annuleren"
-    },
-    "notifications_tasks_run_approved": {
-        "message": "Run goedgekeurd"
     },
     "notifications_tasks_run_cancel_failed": {
         "message": "Annuleren van run mislukt"
@@ -1867,9 +1861,6 @@
     },
     "notifications_tasks_run_failed": {
         "message": "Uitvoeren van taak mislukt"
-    },
-    "notifications_tasks_run_rejected": {
-        "message": "Run afgewezen"
     },
     "notifications_tasks_run_started": {
         "message": "Run gestart"
@@ -2303,17 +2294,65 @@
     "private_ai_providers_action_add_custom_provider": {
         "message": "Aangepaste provider toevoegen"
     },
+    "private_ai_providers_action_discard_changes": {
+        "message": "Wijzigingen negeren"
+    },
+    "private_ai_providers_action_keep_editing": {
+        "message": "Doorgaan met bewerken"
+    },
+    "private_ai_providers_action_save_changes": {
+        "message": "Wijzigingen opslaan"
+    },
     "private_ai_providers_description_custom_endpoint": {
         "message": "Aangepast OpenAI-compatibel eindpunt."
     },
     "private_ai_providers_description_legacy_endpoint": {
         "message": "Legacy-compatibel eindpunt."
     },
+    "private_ai_providers_description_unsaved_changes": {
+        "message": "Wijzigingen aan deze provider zijn niet opgeslagen."
+    },
+    "private_ai_providers_error_duplicate_provider": {
+        "message": "Er bestaat al een provider met dit ID."
+    },
+    "private_ai_providers_error_incomplete_provider": {
+        "message": "Vul de verplichte velden in en selecteer ten minste één model in de modus 'Alleen geselecteerde modellen'."
+    },
+    "private_ai_providers_error_select_model": {
+        "message": "Selecteer ten minste één model."
+    },
+    "private_ai_providers_label_all_models": {
+        "message": "Alle modellen toestaan"
+    },
+    "private_ai_providers_label_model_access": {
+        "message": "Modeltoegang"
+    },
+    "private_ai_providers_label_saving": {
+        "message": "Opslaan…"
+    },
+    "private_ai_providers_label_selected_model_count": {
+        "message": "Geselecteerde modellen: {{count}}"
+    },
+    "private_ai_providers_label_selected_models": {
+        "message": "Alleen geselecteerde modellen"
+    },
+    "private_ai_providers_label_unavailable_model": {
+        "message": "Niet beschikbaar"
+    },
+    "private_ai_providers_label_unsaved_changes": {
+        "message": "Niet-opgeslagen wijzigingen"
+    },
+    "private_ai_providers_title_unsaved_changes": {
+        "message": "Niet-opgeslagen providerwijzigingen"
+    },
     "private_ai_setup_wizard_action_done": {
         "message": "Klaar"
     },
     "private_ai_setup_wizard_action_minimize": {
         "message": "Minimaliseren"
+    },
+    "private_ai_setup_wizard_action_repair_setup": {
+        "message": "Lokale installatie herstellen"
     },
     "private_ai_setup_wizard_action_start_setup": {
         "message": "Installatie starten"
@@ -2347,6 +2386,9 @@
     },
     "private_ai_setup_wizard_label_checking_your_device": {
         "message": "Je apparaat wordt gecontroleerd…"
+    },
+    "private_ai_setup_wizard_label_routing_preserved": {
+        "message": "Bestaande taaktoewijzingen blijven ongewijzigd."
     },
     "private_ai_setup_wizard_label_text": {
         "message": "✓"
@@ -2447,6 +2489,9 @@
     "private_ai_task_routing_description_source_assignments": {
         "message": "Kies welke AI-bron elke browserfunctie gebruikt."
     },
+    "private_ai_task_routing_description_vision_fallback": {
+        "message": "Wordt alleen gebruikt wanneer een geselecteerd model geen afbeeldingen accepteert."
+    },
     "private_ai_task_routing_label_aitab_organization": {
         "message": "Tabbladen ordenen met AI"
     },
@@ -2459,17 +2504,29 @@
     "private_ai_task_routing_label_no_capability_models": {
         "message": "Geen ingeschakelde modellen voor deze functie"
     },
+    "private_ai_task_routing_label_no_vision_models": {
+        "message": "Geen ingeschakelde vision-modellen"
+    },
     "private_ai_task_routing_label_pause_features_option": {
         "message": "Getroffen AI-functies pauzeren (nooit gegevens naar de cloud sturen)"
     },
     "private_ai_task_routing_label_unavailable_source_policy": {
         "message": "Wanneer een lokale of zelfgehoste bron niet beschikbaar is"
     },
+    "private_ai_task_routing_label_vision_fallback": {
+        "message": "Vision-fallback"
+    },
     "private_ai_task_routing_placeholder_phi_cloud": {
         "message": "Phi Cloud"
     },
     "private_ai_task_routing_placeholder_search_task_models": {
         "message": "Zoek modellen voor {{task}}…"
+    },
+    "private_ai_task_routing_placeholder_search_vision_models": {
+        "message": "Vision-modellen zoeken…"
+    },
+    "private_ai_task_routing_placeholder_vision_fallback": {
+        "message": "Niet ingesteld"
     },
     "private_ai_task_routing_status_apple_intelligence_available": {
         "message": "Apple Intelligence · Beschikbaar"
@@ -2689,9 +2746,6 @@
     },
     "scheduled_task_detail_description_no_runs_yet": {
         "message": "Nog geen uitvoeringen."
-    },
-    "scheduled_task_detail_field_label_approval": {
-        "message": "Goedkeuring"
     },
     "scheduled_task_detail_field_label_cadence": {
         "message": "Frequentie"
@@ -2951,9 +3005,6 @@
     "scheduled_tasks_label_artifact_count": {
         "message": "{{count}} artefact(en)"
     },
-    "scheduled_tasks_label_ask_before_run": {
-        "message": "Vragen vóór uitvoering"
-    },
     "scheduled_tasks_label_calendar_schedule": {
         "message": "Kalenderschema"
     },
@@ -3056,9 +3107,6 @@
     "scheduled_tasks_label_runs": {
         "message": "Uitvoeringen"
     },
-    "scheduled_tasks_label_runs_automatically": {
-        "message": "Wordt automatisch uitgevoerd"
-    },
     "scheduled_tasks_label_runs_automatically_on_aschedule": {
         "message": "Wordt automatisch uitgevoerd volgens een schema."
     },
@@ -3152,9 +3200,6 @@
     "scheduled_tasks_status_failed": {
         "message": "Mislukt"
     },
-    "scheduled_tasks_status_needs_approval": {
-        "message": "Wacht op goedkeuring"
-    },
     "scheduled_tasks_status_no_schedule": {
         "message": "Geen schema"
     },
@@ -3167,17 +3212,8 @@
     "scheduled_tasks_status_queued": {
         "message": "In wachtrij"
     },
-    "scheduled_tasks_status_rejected": {
-        "message": "Afgewezen"
-    },
-    "scheduled_tasks_status_requires_approval": {
-        "message": "Goedkeuring vereist"
-    },
     "scheduled_tasks_status_running_now": {
         "message": "Wordt nu uitgevoerd"
-    },
-    "scheduled_tasks_status_runs_automatically": {
-        "message": "Wordt automatisch uitgevoerd"
     },
     "scheduled_tasks_status_scheduled": {
         "message": "Gepland"
@@ -3672,13 +3708,13 @@
         "message": "%1$@ - %2$@"
     },
     "uninstall_dialog_confirmation_delete_and_quit_button": {
-        "message": "Verwijder en stop"
+        "message": "Verwijder"
     },
     "uninstall_dialog_confirmation_message": {
-        "message": "Dit kan niet ongedaan worden gemaakt."
+        "message": "Phi en Phi Sentinel worden gestopt. Browsegegevens, gesprekken, AI-geheugen, servicegegevens en lokale AI-modellen van deze versie van Phi worden definitief verwijderd. Dit kan niet ongedaan worden gemaakt."
     },
     "uninstall_dialog_confirmation_title": {
-        "message": "Geselecteerde gegevens definitief verwijderen?"
+        "message": "Phi verwijderen?"
     },
     "uninstall_dialog_models_description": {
         "message": "Gedownloade modellen en MLX-runtime"

@@ -134,12 +134,6 @@
     "common_save": {
         "message": "保存"
     },
-    "common_task_run_approval_actions_label_approve": {
-        "message": "承認"
-    },
-    "common_task_run_approval_actions_label_reject": {
-        "message": "拒否"
-    },
     "common_unknown": {
         "message": "不明"
     },
@@ -941,6 +935,9 @@
     "local_ai_local_llm_tooltip_view_logs": {
         "message": "ログを表示"
     },
+    "local_ai_model_select_label_no_matching_models": {
+        "message": "一致するモデルはありません"
+    },
     "local_ai_models_accessible_label_cancel_model_download": {
         "message": "モデルのダウンロードをキャンセル"
     },
@@ -1547,6 +1544,12 @@
     "menu_bar_dashboard_title": {
         "message": "ダッシュボード"
     },
+    "menu_bar_phi_chat_open_title": {
+        "message": "Phi Chatを開く"
+    },
+    "menu_bar_phi_chat_unread_accessibility_label": {
+        "message": "未読メッセージ"
+    },
     "menu_bar_quit_title": {
         "message": "終了"
     },
@@ -1847,17 +1850,8 @@
     "notifications_settings_track_changed_with_failures": {
         "message": "アップデートトラックを変更しましたが、{{count}}件のコンポーネントのアップデートに失敗しました"
     },
-    "notifications_tasks_approval_no_longer_pending": {
-        "message": "この承認は既に処理されています"
-    },
-    "notifications_tasks_approval_submit_failed": {
-        "message": "承認結果の送信に失敗しました"
-    },
     "notifications_tasks_no_active_run": {
         "message": "キャンセルできる実行はありません"
-    },
-    "notifications_tasks_run_approved": {
-        "message": "実行を承認しました"
     },
     "notifications_tasks_run_cancel_failed": {
         "message": "実行のキャンセルに失敗しました"
@@ -1867,9 +1861,6 @@
     },
     "notifications_tasks_run_failed": {
         "message": "タスクの実行に失敗しました"
-    },
-    "notifications_tasks_run_rejected": {
-        "message": "実行を却下しました"
     },
     "notifications_tasks_run_started": {
         "message": "実行を開始しました"
@@ -2303,17 +2294,65 @@
     "private_ai_providers_action_add_custom_provider": {
         "message": "カスタムプロバイダーを追加"
     },
+    "private_ai_providers_action_discard_changes": {
+        "message": "変更を破棄"
+    },
+    "private_ai_providers_action_keep_editing": {
+        "message": "編集を続ける"
+    },
+    "private_ai_providers_action_save_changes": {
+        "message": "変更を保存"
+    },
     "private_ai_providers_description_custom_endpoint": {
         "message": "カスタムのOpenAI互換エンドポイントです。"
     },
     "private_ai_providers_description_legacy_endpoint": {
         "message": "レガシー互換エンドポイントです。"
     },
+    "private_ai_providers_description_unsaved_changes": {
+        "message": "このプロバイダーに加えた変更は保存されていません。"
+    },
+    "private_ai_providers_error_duplicate_provider": {
+        "message": "このIDのプロバイダーはすでに存在します。"
+    },
+    "private_ai_providers_error_incomplete_provider": {
+        "message": "必須項目を入力し、「選択したモデルのみ」モードでは少なくとも1つのモデルを選択してください。"
+    },
+    "private_ai_providers_error_select_model": {
+        "message": "少なくとも1つのモデルを選択してください。"
+    },
+    "private_ai_providers_label_all_models": {
+        "message": "すべてのモデルを許可"
+    },
+    "private_ai_providers_label_model_access": {
+        "message": "モデルへのアクセス"
+    },
+    "private_ai_providers_label_saving": {
+        "message": "保存中…"
+    },
+    "private_ai_providers_label_selected_model_count": {
+        "message": "{{count}}個のモデルを選択済み"
+    },
+    "private_ai_providers_label_selected_models": {
+        "message": "選択したモデルのみ"
+    },
+    "private_ai_providers_label_unavailable_model": {
+        "message": "利用不可"
+    },
+    "private_ai_providers_label_unsaved_changes": {
+        "message": "未保存の変更"
+    },
+    "private_ai_providers_title_unsaved_changes": {
+        "message": "プロバイダーの変更が保存されていません"
+    },
     "private_ai_setup_wizard_action_done": {
         "message": "完了"
     },
     "private_ai_setup_wizard_action_minimize": {
         "message": "最小化"
+    },
+    "private_ai_setup_wizard_action_repair_setup": {
+        "message": "ローカルセットアップを修復"
     },
     "private_ai_setup_wizard_action_start_setup": {
         "message": "セットアップを開始"
@@ -2347,6 +2386,9 @@
     },
     "private_ai_setup_wizard_label_checking_your_device": {
         "message": "デバイスを確認中…"
+    },
+    "private_ai_setup_wizard_label_routing_preserved": {
+        "message": "既存のタスクの割り当てはそのまま維持されます。"
     },
     "private_ai_setup_wizard_label_text": {
         "message": "✓"
@@ -2447,6 +2489,9 @@
     "private_ai_task_routing_description_source_assignments": {
         "message": "各ブラウザ機能が使用するAIソースを選択してください。"
     },
+    "private_ai_task_routing_description_vision_fallback": {
+        "message": "選択したモデルが画像に対応していない場合にのみ使用されます。"
+    },
     "private_ai_task_routing_label_aitab_organization": {
         "message": "AIによるタブ整理"
     },
@@ -2459,17 +2504,29 @@
     "private_ai_task_routing_label_no_capability_models": {
         "message": "この機能で有効になっているモデルはありません"
     },
+    "private_ai_task_routing_label_no_vision_models": {
+        "message": "有効になっているビジョンモデルはありません"
+    },
     "private_ai_task_routing_label_pause_features_option": {
         "message": "影響を受けるAI機能を一時停止（クラウドにデータを送信しない）"
     },
     "private_ai_task_routing_label_unavailable_source_policy": {
         "message": "ローカルまたはセルフホストのソースが利用できない場合"
     },
+    "private_ai_task_routing_label_vision_fallback": {
+        "message": "ビジョンフォールバック"
+    },
     "private_ai_task_routing_placeholder_phi_cloud": {
         "message": "Phi Cloud"
     },
     "private_ai_task_routing_placeholder_search_task_models": {
         "message": "{{task}}のモデルを検索…"
+    },
+    "private_ai_task_routing_placeholder_search_vision_models": {
+        "message": "ビジョンモデルを検索…"
+    },
+    "private_ai_task_routing_placeholder_vision_fallback": {
+        "message": "未設定"
     },
     "private_ai_task_routing_status_apple_intelligence_available": {
         "message": "Apple Intelligence · 利用可能"
@@ -2689,9 +2746,6 @@
     },
     "scheduled_task_detail_description_no_runs_yet": {
         "message": "まだ実行はありません。"
-    },
-    "scheduled_task_detail_field_label_approval": {
-        "message": "承認"
     },
     "scheduled_task_detail_field_label_cadence": {
         "message": "頻度"
@@ -2951,9 +3005,6 @@
     "scheduled_tasks_label_artifact_count": {
         "message": "{{count}}件の成果物"
     },
-    "scheduled_tasks_label_ask_before_run": {
-        "message": "実行前に確認"
-    },
     "scheduled_tasks_label_calendar_schedule": {
         "message": "カレンダースケジュール"
     },
@@ -3056,9 +3107,6 @@
     "scheduled_tasks_label_runs": {
         "message": "実行"
     },
-    "scheduled_tasks_label_runs_automatically": {
-        "message": "自動実行"
-    },
     "scheduled_tasks_label_runs_automatically_on_aschedule": {
         "message": "スケジュールに従って自動的に実行されます。"
     },
@@ -3152,9 +3200,6 @@
     "scheduled_tasks_status_failed": {
         "message": "失敗"
     },
-    "scheduled_tasks_status_needs_approval": {
-        "message": "承認待ち"
-    },
     "scheduled_tasks_status_no_schedule": {
         "message": "スケジュールなし"
     },
@@ -3167,17 +3212,8 @@
     "scheduled_tasks_status_queued": {
         "message": "待機中"
     },
-    "scheduled_tasks_status_rejected": {
-        "message": "却下"
-    },
-    "scheduled_tasks_status_requires_approval": {
-        "message": "承認が必要"
-    },
     "scheduled_tasks_status_running_now": {
         "message": "実行中"
-    },
-    "scheduled_tasks_status_runs_automatically": {
-        "message": "自動実行"
     },
     "scheduled_tasks_status_scheduled": {
         "message": "スケジュール済み"
@@ -3672,13 +3708,13 @@
         "message": "%1$@: %2$@"
     },
     "uninstall_dialog_confirmation_delete_and_quit_button": {
-        "message": "削除して終了"
+        "message": "アンインストール"
     },
     "uninstall_dialog_confirmation_message": {
-        "message": "この操作は取り消せません。"
+        "message": "PhiとPhi Sentinelが終了します。このバージョンのPhiの閲覧データ、会話、AIメモリ、サービスデータ、ローカルAIモデルは完全に削除されます。この操作は取り消せません。"
     },
     "uninstall_dialog_confirmation_title": {
-        "message": "選択したデータを完全に削除しますか？"
+        "message": "Phiをアンインストールしますか？"
     },
     "uninstall_dialog_models_description": {
         "message": "ダウンロード済みのモデルとMLXランタイム"

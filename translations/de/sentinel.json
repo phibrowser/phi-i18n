@@ -134,12 +134,6 @@
     "common_save": {
         "message": "Speichern"
     },
-    "common_task_run_approval_actions_label_approve": {
-        "message": "Genehmigen"
-    },
-    "common_task_run_approval_actions_label_reject": {
-        "message": "Ablehnen"
-    },
     "common_unknown": {
         "message": "Unbekannt"
     },
@@ -941,6 +935,9 @@
     "local_ai_local_llm_tooltip_view_logs": {
         "message": "Protokolle anzeigen"
     },
+    "local_ai_model_select_label_no_matching_models": {
+        "message": "Keine passenden Modelle"
+    },
     "local_ai_models_accessible_label_cancel_model_download": {
         "message": "Modell-Download abbrechen"
     },
@@ -1547,6 +1544,12 @@
     "menu_bar_dashboard_title": {
         "message": "Dashboard"
     },
+    "menu_bar_phi_chat_open_title": {
+        "message": "Phi Chat öffnen"
+    },
+    "menu_bar_phi_chat_unread_accessibility_label": {
+        "message": "Ungelesene Nachrichten"
+    },
     "menu_bar_quit_title": {
         "message": "Beenden"
     },
@@ -1847,17 +1850,8 @@
     "notifications_settings_track_changed_with_failures": {
         "message": "Update-Kanal geändert, aber {{count}} Komponenten-Update(s) fehlgeschlagen"
     },
-    "notifications_tasks_approval_no_longer_pending": {
-        "message": "Die Genehmigung ist nicht mehr ausstehend"
-    },
-    "notifications_tasks_approval_submit_failed": {
-        "message": "Genehmigungsentscheidung konnte nicht übermittelt werden"
-    },
     "notifications_tasks_no_active_run": {
         "message": "Keine aktive Ausführung zum Abbrechen"
-    },
-    "notifications_tasks_run_approved": {
-        "message": "Ausführung genehmigt"
     },
     "notifications_tasks_run_cancel_failed": {
         "message": "Ausführung konnte nicht abgebrochen werden"
@@ -1867,9 +1861,6 @@
     },
     "notifications_tasks_run_failed": {
         "message": "Aufgabe konnte nicht ausgeführt werden"
-    },
-    "notifications_tasks_run_rejected": {
-        "message": "Ausführung abgelehnt"
     },
     "notifications_tasks_run_started": {
         "message": "Ausführung gestartet"
@@ -2303,17 +2294,65 @@
     "private_ai_providers_action_add_custom_provider": {
         "message": "Eigenen Anbieter hinzufügen"
     },
+    "private_ai_providers_action_discard_changes": {
+        "message": "Änderungen verwerfen"
+    },
+    "private_ai_providers_action_keep_editing": {
+        "message": "Weiter bearbeiten"
+    },
+    "private_ai_providers_action_save_changes": {
+        "message": "Änderungen speichern"
+    },
     "private_ai_providers_description_custom_endpoint": {
         "message": "Eigener OpenAI-kompatibler Endpunkt."
     },
     "private_ai_providers_description_legacy_endpoint": {
         "message": "Kompatibler Legacy-Endpunkt."
     },
+    "private_ai_providers_description_unsaved_changes": {
+        "message": "Die Änderungen an diesem Anbieter wurden noch nicht gespeichert."
+    },
+    "private_ai_providers_error_duplicate_provider": {
+        "message": "Ein Anbieter mit dieser ID existiert bereits."
+    },
+    "private_ai_providers_error_incomplete_provider": {
+        "message": "Fülle die Pflichtfelder aus und wähle im Modus „Nur ausgewählte Modelle“ mindestens ein Modell aus."
+    },
+    "private_ai_providers_error_select_model": {
+        "message": "Wähle mindestens ein Modell aus."
+    },
+    "private_ai_providers_label_all_models": {
+        "message": "Alle Modelle zulassen"
+    },
+    "private_ai_providers_label_model_access": {
+        "message": "Modellzugriff"
+    },
+    "private_ai_providers_label_saving": {
+        "message": "Wird gespeichert…"
+    },
+    "private_ai_providers_label_selected_model_count": {
+        "message": "Ausgewählte Modelle: {{count}}"
+    },
+    "private_ai_providers_label_selected_models": {
+        "message": "Nur ausgewählte Modelle"
+    },
+    "private_ai_providers_label_unavailable_model": {
+        "message": "Nicht verfügbar"
+    },
+    "private_ai_providers_label_unsaved_changes": {
+        "message": "Ungespeicherte Änderungen"
+    },
+    "private_ai_providers_title_unsaved_changes": {
+        "message": "Ungespeicherte Änderungen am Anbieter"
+    },
     "private_ai_setup_wizard_action_done": {
         "message": "Fertig"
     },
     "private_ai_setup_wizard_action_minimize": {
         "message": "Minimieren"
+    },
+    "private_ai_setup_wizard_action_repair_setup": {
+        "message": "Lokale Einrichtung reparieren"
     },
     "private_ai_setup_wizard_action_start_setup": {
         "message": "Einrichtung starten"
@@ -2347,6 +2386,9 @@
     },
     "private_ai_setup_wizard_label_checking_your_device": {
         "message": "Dein Gerät wird geprüft…"
+    },
+    "private_ai_setup_wizard_label_routing_preserved": {
+        "message": "Bestehende Aufgabenzuweisungen bleiben unverändert."
     },
     "private_ai_setup_wizard_label_text": {
         "message": "✓"
@@ -2447,6 +2489,9 @@
     "private_ai_task_routing_description_source_assignments": {
         "message": "Lege fest, welche KI-Quelle jede Browserfunktion nutzt."
     },
+    "private_ai_task_routing_description_vision_fallback": {
+        "message": "Wird nur verwendet, wenn ein ausgewähltes Modell keine Bilder verarbeiten kann."
+    },
     "private_ai_task_routing_label_aitab_organization": {
         "message": "KI-gestützte Tab-Organisation"
     },
@@ -2459,17 +2504,29 @@
     "private_ai_task_routing_label_no_capability_models": {
         "message": "Keine aktivierten Modelle für diese Funktion"
     },
+    "private_ai_task_routing_label_no_vision_models": {
+        "message": "Keine aktivierten Vision-Modelle"
+    },
     "private_ai_task_routing_label_pause_features_option": {
         "message": "Betroffene KI-Funktionen pausieren (niemals Daten an die Cloud senden)"
     },
     "private_ai_task_routing_label_unavailable_source_policy": {
         "message": "Wenn eine lokale oder selbst gehostete Quelle nicht verfügbar ist"
     },
+    "private_ai_task_routing_label_vision_fallback": {
+        "message": "Vision-Fallback"
+    },
     "private_ai_task_routing_placeholder_phi_cloud": {
         "message": "Phi Cloud"
     },
     "private_ai_task_routing_placeholder_search_task_models": {
         "message": "Modelle für {{task}} durchsuchen…"
+    },
+    "private_ai_task_routing_placeholder_search_vision_models": {
+        "message": "Vision-Modelle suchen…"
+    },
+    "private_ai_task_routing_placeholder_vision_fallback": {
+        "message": "Nicht konfiguriert"
     },
     "private_ai_task_routing_status_apple_intelligence_available": {
         "message": "Apple Intelligence · Verfügbar"
@@ -2689,9 +2746,6 @@
     },
     "scheduled_task_detail_description_no_runs_yet": {
         "message": "Noch keine Ausführungen."
-    },
-    "scheduled_task_detail_field_label_approval": {
-        "message": "Genehmigung"
     },
     "scheduled_task_detail_field_label_cadence": {
         "message": "Intervall"
@@ -2951,9 +3005,6 @@
     "scheduled_tasks_label_artifact_count": {
         "message": "{{count}} Artefakt(e)"
     },
-    "scheduled_tasks_label_ask_before_run": {
-        "message": "Vor Ausführung fragen"
-    },
     "scheduled_tasks_label_calendar_schedule": {
         "message": "Kalenderzeitplan"
     },
@@ -3056,9 +3107,6 @@
     "scheduled_tasks_label_runs": {
         "message": "Ausführungen"
     },
-    "scheduled_tasks_label_runs_automatically": {
-        "message": "Wird automatisch ausgeführt"
-    },
     "scheduled_tasks_label_runs_automatically_on_aschedule": {
         "message": "Wird automatisch nach Zeitplan ausgeführt."
     },
@@ -3152,9 +3200,6 @@
     "scheduled_tasks_status_failed": {
         "message": "Fehlgeschlagen"
     },
-    "scheduled_tasks_status_needs_approval": {
-        "message": "Wartet auf Genehmigung"
-    },
     "scheduled_tasks_status_no_schedule": {
         "message": "Kein Zeitplan"
     },
@@ -3167,17 +3212,8 @@
     "scheduled_tasks_status_queued": {
         "message": "In der Warteschlange"
     },
-    "scheduled_tasks_status_rejected": {
-        "message": "Abgelehnt"
-    },
-    "scheduled_tasks_status_requires_approval": {
-        "message": "Genehmigung erforderlich"
-    },
     "scheduled_tasks_status_running_now": {
         "message": "Läuft gerade"
-    },
-    "scheduled_tasks_status_runs_automatically": {
-        "message": "Wird automatisch ausgeführt"
     },
     "scheduled_tasks_status_scheduled": {
         "message": "Geplant"
@@ -3672,13 +3708,13 @@
         "message": "%1$@ - %2$@"
     },
     "uninstall_dialog_confirmation_delete_and_quit_button": {
-        "message": "Löschen und beenden"
+        "message": "Deinstallieren"
     },
     "uninstall_dialog_confirmation_message": {
-        "message": "Das kann nicht rückgängig gemacht werden."
+        "message": "Phi und Phi Sentinel werden beendet. Browserdaten, Unterhaltungen, KI-Erinnerungen, Dienstdaten und lokale KI-Modelle dieser Phi-Version werden dauerhaft gelöscht. Das kann nicht rückgängig gemacht werden."
     },
     "uninstall_dialog_confirmation_title": {
-        "message": "Ausgewählte Daten endgültig löschen?"
+        "message": "Phi deinstallieren?"
     },
     "uninstall_dialog_models_description": {
         "message": "Heruntergeladene Modelle und MLX-Laufzeitumgebung"
