@@ -2343,6 +2343,38 @@
         "message": "Local time",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Clock catalog widget (a small new-tab card showing the time). Card title when no timezone or label is set: the time shown is the device's own."
     },
+    "newtab_widget_templates_current_news_default_label": {
+        "message": "Current news",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Caption used when the user set no label of their own."
+    },
+    "newtab_widget_templates_current_news_empty": {
+        "message": "No coverage in this window",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown when the topic has no timestamped articles inside the lookback window."
+    },
+    "newtab_widget_templates_current_news_failed": {
+        "message": "Can't load this topic",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown when the news lookup failed. Says nothing about why: the provider's own message is developer text."
+    },
+    "newtab_widget_templates_current_news_loading": {
+        "message": "Loading…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown on the news card while the first articles load."
+    },
+    "newtab_widget_templates_current_news_sources": {
+        "message": "Sources",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Link at the bottom of the news card, opening the provider's result page."
+    },
+    "newtab_widget_templates_current_news_unknown_source": {
+        "message": "Unknown source",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Stands in for an article whose publisher is missing."
+    },
+    "newtab_widget_templates_current_news_untitled": {
+        "message": "Untitled article",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Stands in for an article that carries no title."
+    },
+    "newtab_widget_templates_current_news_updated": {
+        "message": "Updated {{time}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Freshness stamp at the bottom of the news card; {{time}} = when the articles were fetched."
+    },
     "newtab_widget_templates_daily_report_empty": {
         "message": "No browser activity yet today",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Daily report catalog widget (a new-tab card with a short AI-written summary of today's browsing). Shown when there is no browser activity today, so no report is written."
@@ -2527,6 +2559,34 @@
         "message": "Untitled",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Recent reads catalog widget (a small new-tab card listing three recently read articles). Row title for a page that has neither a title nor a host."
     },
+    "newtab_widget_templates_rss_feed_default_label": {
+        "message": "Latest from feed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Caption used when neither the user's label nor the feed names itself."
+    },
+    "newtab_widget_templates_rss_feed_empty": {
+        "message": "No entries yet",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown when the feed returned no entries."
+    },
+    "newtab_widget_templates_rss_feed_failed": {
+        "message": "Can't load this feed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown when the feed could not be read. Deliberately says nothing about why: the provider's own message is developer text."
+    },
+    "newtab_widget_templates_rss_feed_loading": {
+        "message": "Loading…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown on the feed card while the first entries load."
+    },
+    "newtab_widget_templates_rss_feed_open": {
+        "message": "Open",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Link at the bottom of the feed card, opening the feed's own site."
+    },
+    "newtab_widget_templates_rss_feed_untitled": {
+        "message": "Untitled entry",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Stands in for a feed entry that carries no title."
+    },
+    "newtab_widget_templates_rss_feed_updated": {
+        "message": "Updated {{time}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Freshness stamp at the bottom of the feed card; {{time}} = the time the entries were fetched."
+    },
     "newtab_widget_templates_top_sites_empty": {
         "message": "Sites you visit often will show up here",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Top sites catalog widget (a small new-tab card of three frequently visited sites). Shown when browsing history has no frequently visited sites yet."
@@ -2614,6 +2674,26 @@
     "newtab_widget_templates_weather_wind": {
         "message": "Wind {{speed}}",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Weather catalog widget (a small new-tab card with the current temperature and condition). Pill with the wind speed. {{speed}} is the number and unit, such as \"12 km/h\"."
+    },
+    "newtab_widget_templates_weekly_report_empty": {
+        "message": "No browser activity yet this week",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown when the past week holds no activity to report on."
+    },
+    "newtab_widget_templates_weekly_report_failed": {
+        "message": "Couldn't write this week's report",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown when writing the weekly report failed or timed out."
+    },
+    "newtab_widget_templates_weekly_report_fallback": {
+        "message": "This week so far: {{items}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Used when the model could not write the report; {{items}} = a comma-separated list of activity labels."
+    },
+    "newtab_widget_templates_weekly_report_range": {
+        "message": "Past week",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Caption on the weekly report card, followed by the date range."
+    },
+    "newtab_widget_templates_weekly_report_writing": {
+        "message": "Writing this week's report…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Shown while the model is still writing the weekly report; mirrors the daily card's wording."
     },
     "newtab_widget_templates_world_clocks_loading": {
         "message": "Loading clocks…",
