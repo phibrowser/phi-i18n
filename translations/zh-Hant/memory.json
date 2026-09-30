@@ -1754,8 +1754,77 @@
     "newtab_widget_templates_air_quality_very_unhealthy": {
         "message": "非常不健康"
     },
+    "newtab_widget_templates_airport_delays_airport": {
+        "message": "機場"
+    },
+    "newtab_widget_templates_airport_delays_arrival_delay": {
+        "message": "抵達延誤"
+    },
+    "newtab_widget_templates_airport_delays_clear": {
+        "message": "{{airports}} 沒有延誤"
+    },
+    "newtab_widget_templates_airport_delays_clear_all": {
+        "message": "目前沒有機場延誤"
+    },
+    "newtab_widget_templates_airport_delays_closure": {
+        "message": "機場關閉"
+    },
+    "newtab_widget_templates_airport_delays_deicing": {
+        "message": "除冰"
+    },
+    "newtab_widget_templates_airport_delays_departure_delay": {
+        "message": "起飛延誤"
+    },
+    "newtab_widget_templates_airport_delays_event": {
+        "message": "航務事件"
+    },
+    "newtab_widget_templates_airport_delays_failed": {
+        "message": "無法載入機場狀態"
+    },
+    "newtab_widget_templates_airport_delays_ground_delay": {
+        "message": "地面延誤"
+    },
+    "newtab_widget_templates_airport_delays_ground_stop": {
+        "message": "地面停飛"
+    },
+    "newtab_widget_templates_airport_delays_load_failed": {
+        "message": "目前無法載入"
+    },
+    "newtab_widget_templates_airport_delays_loading": {
+        "message": "正在載入機場狀態…"
+    },
+    "newtab_widget_templates_airport_delays_minutes": {
+        "message": "{{count}} 分"
+    },
+    "newtab_widget_templates_airport_delays_open": {
+        "message": "完整狀態"
+    },
+    "newtab_widget_templates_airport_delays_title": {
+        "message": "美國機場狀態"
+    },
+    "newtab_widget_templates_airport_delays_until": {
+        "message": "至 {{time}}"
+    },
     "newtab_widget_templates_clock_local_time": {
         "message": "本地時間"
+    },
+    "newtab_widget_templates_currency_fx_as_of": {
+        "message": "{{date}} 匯率"
+    },
+    "newtab_widget_templates_currency_fx_failed": {
+        "message": "無法載入這個匯率"
+    },
+    "newtab_widget_templates_currency_fx_load_failed": {
+        "message": "目前無法載入"
+    },
+    "newtab_widget_templates_currency_fx_loading": {
+        "message": "正在取得匯率…"
+    },
+    "newtab_widget_templates_currency_fx_reference": {
+        "message": "參考匯率"
+    },
+    "newtab_widget_templates_currency_fx_title": {
+        "message": "匯率"
     },
     "newtab_widget_templates_current_news_default_label": {
         "message": "最新新聞"
@@ -1817,6 +1886,39 @@
     "newtab_widget_templates_github_stars_stars": {
         "message": "星標 · {{repo}}"
     },
+    "newtab_widget_templates_hot_posts_empty": {
+        "message": "目前沒有貼文"
+    },
+    "newtab_widget_templates_hot_posts_failed": {
+        "message": "無法載入這個訂閱源"
+    },
+    "newtab_widget_templates_hot_posts_load_failed": {
+        "message": "目前無法載入"
+    },
+    "newtab_widget_templates_hot_posts_loading": {
+        "message": "正在載入貼文…"
+    },
+    "newtab_widget_templates_hot_posts_open": {
+        "message": "開啟訂閱源"
+    },
+    "newtab_widget_templates_hot_posts_title": {
+        "message": "熱門貼文"
+    },
+    "newtab_widget_templates_hot_posts_untitled": {
+        "message": "無標題貼文"
+    },
+    "newtab_widget_templates_memory_image_failed": {
+        "message": "無法產生今天的圖片"
+    },
+    "newtab_widget_templates_memory_image_inspired_by": {
+        "message": "靈感來自 {{theme}}"
+    },
+    "newtab_widget_templates_memory_image_painting": {
+        "message": "正在繪製今天的圖片…"
+    },
+    "newtab_widget_templates_memory_image_title": {
+        "message": "今日圖片"
+    },
     "newtab_widget_templates_package_releases_empty": {
         "message": "還沒有發行版本"
     },
@@ -1850,6 +1952,9 @@
     "newtab_widget_templates_pomodoro_focus": {
         "message": "專注"
     },
+    "newtab_widget_templates_pomodoro_focus_on": {
+        "message": "專注於 {{project}}"
+    },
     "newtab_widget_templates_pomodoro_pause": {
         "message": "暫停"
     },
@@ -1858,6 +1963,24 @@
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "開始"
+    },
+    "newtab_widget_templates_public_holidays_empty": {
+        "message": "今年沒有更多假日了"
+    },
+    "newtab_widget_templates_public_holidays_failed": {
+        "message": "無法載入這個行事曆"
+    },
+    "newtab_widget_templates_public_holidays_load_failed": {
+        "message": "目前無法載入"
+    },
+    "newtab_widget_templates_public_holidays_loading": {
+        "message": "正在載入假日…"
+    },
+    "newtab_widget_templates_public_holidays_title": {
+        "message": "近期假日"
+    },
+    "newtab_widget_templates_public_holidays_untitled": {
+        "message": "假日"
     },
     "newtab_widget_templates_quick_translator_auto": {
         "message": "自動偵測"
@@ -1903,6 +2026,15 @@
     },
     "newtab_widget_templates_quote_of_the_day_caption": {
         "message": "每日一句"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_design": {
+        "message": "談設計"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_engineering": {
+        "message": "談打造"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_thinking": {
+        "message": "談思考"
     },
     "newtab_widget_templates_recent_reads_empty": {
         "message": "你讀過的文章會顯示在這裡"
@@ -1951,6 +2083,72 @@
     },
     "newtab_widget_templates_top_sites_title": {
         "message": "常用網站"
+    },
+    "newtab_widget_templates_transit_status_accessibility": {
+        "message": "無障礙設施異常"
+    },
+    "newtab_widget_templates_transit_status_alert": {
+        "message": "服務警示"
+    },
+    "newtab_widget_templates_transit_status_clear": {
+        "message": "{{agency}} 目前沒有警示"
+    },
+    "newtab_widget_templates_transit_status_clear_all": {
+        "message": "目前沒有服務警示"
+    },
+    "newtab_widget_templates_transit_status_delays": {
+        "message": "嚴重延誤"
+    },
+    "newtab_widget_templates_transit_status_detour": {
+        "message": "改道"
+    },
+    "newtab_widget_templates_transit_status_early": {
+        "message": "提早 {{count}} 分"
+    },
+    "newtab_widget_templates_transit_status_failed": {
+        "message": "無法載入服務狀態"
+    },
+    "newtab_widget_templates_transit_status_info": {
+        "message": "資訊"
+    },
+    "newtab_widget_templates_transit_status_late": {
+        "message": "誤點 {{count}} 分"
+    },
+    "newtab_widget_templates_transit_status_load_failed": {
+        "message": "目前無法載入"
+    },
+    "newtab_widget_templates_transit_status_loading": {
+        "message": "正在載入服務狀態…"
+    },
+    "newtab_widget_templates_transit_status_modified_service": {
+        "message": "營運調整"
+    },
+    "newtab_widget_templates_transit_status_no_service": {
+        "message": "停駛"
+    },
+    "newtab_widget_templates_transit_status_open": {
+        "message": "業者警示"
+    },
+    "newtab_widget_templates_transit_status_reduced_service": {
+        "message": "減班"
+    },
+    "newtab_widget_templates_transit_status_route": {
+        "message": "路線 {{id}}"
+    },
+    "newtab_widget_templates_transit_status_severe": {
+        "message": "嚴重"
+    },
+    "newtab_widget_templates_transit_status_stop_moved": {
+        "message": "站牌遷移"
+    },
+    "newtab_widget_templates_transit_status_title": {
+        "message": "大眾運輸狀態"
+    },
+    "newtab_widget_templates_transit_status_trip": {
+        "message": "班次更新"
+    },
+    "newtab_widget_templates_transit_status_warning": {
+        "message": "警告"
     },
     "newtab_widget_templates_weather_clear": {
         "message": "晴朗"

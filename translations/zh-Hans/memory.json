@@ -1754,8 +1754,77 @@
     "newtab_widget_templates_air_quality_very_unhealthy": {
         "message": "非常不健康"
     },
+    "newtab_widget_templates_airport_delays_airport": {
+        "message": "机场"
+    },
+    "newtab_widget_templates_airport_delays_arrival_delay": {
+        "message": "到达延误"
+    },
+    "newtab_widget_templates_airport_delays_clear": {
+        "message": "{{airports}} 无延误"
+    },
+    "newtab_widget_templates_airport_delays_clear_all": {
+        "message": "目前机场无延误"
+    },
+    "newtab_widget_templates_airport_delays_closure": {
+        "message": "机场关闭"
+    },
+    "newtab_widget_templates_airport_delays_deicing": {
+        "message": "除冰"
+    },
+    "newtab_widget_templates_airport_delays_departure_delay": {
+        "message": "出发延误"
+    },
+    "newtab_widget_templates_airport_delays_event": {
+        "message": "交通事件"
+    },
+    "newtab_widget_templates_airport_delays_failed": {
+        "message": "无法加载机场状态"
+    },
+    "newtab_widget_templates_airport_delays_ground_delay": {
+        "message": "地面延误"
+    },
+    "newtab_widget_templates_airport_delays_ground_stop": {
+        "message": "地面停飞"
+    },
+    "newtab_widget_templates_airport_delays_load_failed": {
+        "message": "暂时无法加载"
+    },
+    "newtab_widget_templates_airport_delays_loading": {
+        "message": "正在加载机场状态…"
+    },
+    "newtab_widget_templates_airport_delays_minutes": {
+        "message": "{{count}} 分钟"
+    },
+    "newtab_widget_templates_airport_delays_open": {
+        "message": "完整状态"
+    },
+    "newtab_widget_templates_airport_delays_title": {
+        "message": "美国机场状态"
+    },
+    "newtab_widget_templates_airport_delays_until": {
+        "message": "持续至 {{time}}"
+    },
     "newtab_widget_templates_clock_local_time": {
         "message": "本地时间"
+    },
+    "newtab_widget_templates_currency_fx_as_of": {
+        "message": "{{date}} 汇率"
+    },
+    "newtab_widget_templates_currency_fx_failed": {
+        "message": "无法加载这个汇率"
+    },
+    "newtab_widget_templates_currency_fx_load_failed": {
+        "message": "暂时无法加载"
+    },
+    "newtab_widget_templates_currency_fx_loading": {
+        "message": "正在获取汇率…"
+    },
+    "newtab_widget_templates_currency_fx_reference": {
+        "message": "参考汇率"
+    },
+    "newtab_widget_templates_currency_fx_title": {
+        "message": "货币"
     },
     "newtab_widget_templates_current_news_default_label": {
         "message": "时事新闻"
@@ -1817,6 +1886,39 @@
     "newtab_widget_templates_github_stars_stars": {
         "message": "星标 · {{repo}}"
     },
+    "newtab_widget_templates_hot_posts_empty": {
+        "message": "目前暂无帖子"
+    },
+    "newtab_widget_templates_hot_posts_failed": {
+        "message": "无法加载这个社区"
+    },
+    "newtab_widget_templates_hot_posts_load_failed": {
+        "message": "暂时无法加载"
+    },
+    "newtab_widget_templates_hot_posts_loading": {
+        "message": "正在加载帖子…"
+    },
+    "newtab_widget_templates_hot_posts_open": {
+        "message": "打开社区"
+    },
+    "newtab_widget_templates_hot_posts_title": {
+        "message": "热门帖子"
+    },
+    "newtab_widget_templates_hot_posts_untitled": {
+        "message": "无标题帖子"
+    },
+    "newtab_widget_templates_memory_image_failed": {
+        "message": "今天的图片没能生成"
+    },
+    "newtab_widget_templates_memory_image_inspired_by": {
+        "message": "灵感来自 {{theme}}"
+    },
+    "newtab_widget_templates_memory_image_painting": {
+        "message": "正在绘制今天的图片…"
+    },
+    "newtab_widget_templates_memory_image_title": {
+        "message": "今日图片"
+    },
     "newtab_widget_templates_package_releases_empty": {
         "message": "暂无发布版本"
     },
@@ -1850,6 +1952,9 @@
     "newtab_widget_templates_pomodoro_focus": {
         "message": "专注"
     },
+    "newtab_widget_templates_pomodoro_focus_on": {
+        "message": "专注于 {{project}}"
+    },
     "newtab_widget_templates_pomodoro_pause": {
         "message": "暂停"
     },
@@ -1858,6 +1963,24 @@
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "开始"
+    },
+    "newtab_widget_templates_public_holidays_empty": {
+        "message": "今年没有更多节假日了"
+    },
+    "newtab_widget_templates_public_holidays_failed": {
+        "message": "无法加载这个日历"
+    },
+    "newtab_widget_templates_public_holidays_load_failed": {
+        "message": "暂时无法加载"
+    },
+    "newtab_widget_templates_public_holidays_loading": {
+        "message": "正在加载节假日…"
+    },
+    "newtab_widget_templates_public_holidays_title": {
+        "message": "即将到来的节假日"
+    },
+    "newtab_widget_templates_public_holidays_untitled": {
+        "message": "假日"
     },
     "newtab_widget_templates_quick_translator_auto": {
         "message": "自动检测"
@@ -1903,6 +2026,15 @@
     },
     "newtab_widget_templates_quote_of_the_day_caption": {
         "message": "每日一句"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_design": {
+        "message": "关于设计"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_engineering": {
+        "message": "关于创造"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_thinking": {
+        "message": "关于思考"
     },
     "newtab_widget_templates_recent_reads_empty": {
         "message": "你读过的文章会显示在这里"
@@ -1951,6 +2083,72 @@
     },
     "newtab_widget_templates_top_sites_title": {
         "message": "常用网站"
+    },
+    "newtab_widget_templates_transit_status_accessibility": {
+        "message": "无障碍问题"
+    },
+    "newtab_widget_templates_transit_status_alert": {
+        "message": "服务提醒"
+    },
+    "newtab_widget_templates_transit_status_clear": {
+        "message": "{{agency}} 暂无提醒"
+    },
+    "newtab_widget_templates_transit_status_clear_all": {
+        "message": "暂无服务提醒"
+    },
+    "newtab_widget_templates_transit_status_delays": {
+        "message": "严重延误"
+    },
+    "newtab_widget_templates_transit_status_detour": {
+        "message": "绕行"
+    },
+    "newtab_widget_templates_transit_status_early": {
+        "message": "早到 {{count}} 分钟"
+    },
+    "newtab_widget_templates_transit_status_failed": {
+        "message": "无法加载服务状态"
+    },
+    "newtab_widget_templates_transit_status_info": {
+        "message": "信息"
+    },
+    "newtab_widget_templates_transit_status_late": {
+        "message": "晚点 {{count}} 分钟"
+    },
+    "newtab_widget_templates_transit_status_load_failed": {
+        "message": "暂时无法加载"
+    },
+    "newtab_widget_templates_transit_status_loading": {
+        "message": "正在加载服务状态…"
+    },
+    "newtab_widget_templates_transit_status_modified_service": {
+        "message": "服务调整"
+    },
+    "newtab_widget_templates_transit_status_no_service": {
+        "message": "停运"
+    },
+    "newtab_widget_templates_transit_status_open": {
+        "message": "官方提醒"
+    },
+    "newtab_widget_templates_transit_status_reduced_service": {
+        "message": "减少班次"
+    },
+    "newtab_widget_templates_transit_status_route": {
+        "message": "线路 {{id}}"
+    },
+    "newtab_widget_templates_transit_status_severe": {
+        "message": "严重"
+    },
+    "newtab_widget_templates_transit_status_stop_moved": {
+        "message": "站点迁移"
+    },
+    "newtab_widget_templates_transit_status_title": {
+        "message": "公共交通状态"
+    },
+    "newtab_widget_templates_transit_status_trip": {
+        "message": "行程更新"
+    },
+    "newtab_widget_templates_transit_status_warning": {
+        "message": "警告"
     },
     "newtab_widget_templates_weather_clear": {
         "message": "晴"

@@ -2339,9 +2339,101 @@
         "message": "Very unhealthy",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Air quality catalog widget (a small new-tab card with the air quality index). US air quality category."
     },
+    "newtab_widget_templates_airport_delays_airport": {
+        "message": "Airport",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Stands in for an airport whose code the provider did not give. One word."
+    },
+    "newtab_widget_templates_airport_delays_arrival_delay": {
+        "message": "Arrival delays",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Arriving flights are running late."
+    },
+    "newtab_widget_templates_airport_delays_clear": {
+        "message": "No delays at {{airports}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Shown when the watched airports are all running normally. {{airports}} is a comma-separated list of airport codes, never translated."
+    },
+    "newtab_widget_templates_airport_delays_clear_all": {
+        "message": "No active airport delays",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Shown when nothing is delayed and no airport list is available to name."
+    },
+    "newtab_widget_templates_airport_delays_closure": {
+        "message": "Airport closed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). The airport itself is closed to traffic."
+    },
+    "newtab_widget_templates_airport_delays_deicing": {
+        "message": "Deicing",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Aircraft are being deiced, which slows departures. One word if the language has one."
+    },
+    "newtab_widget_templates_airport_delays_departure_delay": {
+        "message": "Departure delays",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Departing flights are running late."
+    },
+    "newtab_widget_templates_airport_delays_event": {
+        "message": "Traffic event",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Names an event of a kind this card does not have its own wording for. Two words at most."
+    },
+    "newtab_widget_templates_airport_delays_failed": {
+        "message": "Can't load airport status",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Shown when the lookup failed. Says it in the reader's terms: never name the data source or repeat its error text."
+    },
+    "newtab_widget_templates_airport_delays_ground_delay": {
+        "message": "Ground delay",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Departures to the airport are metered, so flights wait before taking off."
+    },
+    "newtab_widget_templates_airport_delays_ground_stop": {
+        "message": "Ground stop",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Departures to the airport are held on the ground. Keep it as short as the English."
+    },
+    "newtab_widget_templates_airport_delays_load_failed": {
+        "message": "Couldn't load right now",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Shown when nothing has arrived after fifteen seconds."
+    },
+    "newtab_widget_templates_airport_delays_loading": {
+        "message": "Loading airport status…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Shown while the airport status is still being fetched."
+    },
+    "newtab_widget_templates_airport_delays_minutes": {
+        "message": "{{count}} min",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Average delay on one row. {{count}} is a whole number of minutes. Keep it very short: it sits at the end of the row."
+    },
+    "newtab_widget_templates_airport_delays_open": {
+        "message": "Full status",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Footer link to the full airport status. Two words at most."
+    },
+    "newtab_widget_templates_airport_delays_title": {
+        "message": "US airport status",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). Card title when the user has not named the card themselves."
+    },
+    "newtab_widget_templates_airport_delays_until": {
+        "message": "Until {{time}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the US Airport Delays catalog widget (a small new-tab card listing active FAA delay events at a few airports). How long the event is expected to last. {{time}} is a local clock time."
+    },
     "newtab_widget_templates_clock_local_time": {
         "message": "Local time",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Clock catalog widget (a small new-tab card showing the time). Card title when no timezone or label is set: the time shown is the device's own."
+    },
+    "newtab_widget_templates_currency_fx_as_of": {
+        "message": "Rate from {{date}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Currency converter catalog widget (a small new-tab card converting one amount between two currencies at a reference rate). How fresh the rate is. {{date}} is the business day the reference rate was fixed on, formatted by the host. Keep it very short: it is the card's last line."
+    },
+    "newtab_widget_templates_currency_fx_failed": {
+        "message": "Can't load this rate",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Currency converter catalog widget (a small new-tab card converting one amount between two currencies at a reference rate). Shown when the lookup failed. Says it in the reader's terms: never name the data source or repeat its error text."
+    },
+    "newtab_widget_templates_currency_fx_load_failed": {
+        "message": "Couldn't load right now",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Currency converter catalog widget (a small new-tab card converting one amount between two currencies at a reference rate). Shown when nothing has arrived after fifteen seconds."
+    },
+    "newtab_widget_templates_currency_fx_loading": {
+        "message": "Getting the rate…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Currency converter catalog widget (a small new-tab card converting one amount between two currencies at a reference rate). Shown while the rate is still being fetched."
+    },
+    "newtab_widget_templates_currency_fx_reference": {
+        "message": "Reference rate",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Currency converter catalog widget (a small new-tab card converting one amount between two currencies at a reference rate). Stands in for the line above when the rate carries no date. Says it is a reference, not a live trading rate."
+    },
+    "newtab_widget_templates_currency_fx_title": {
+        "message": "Currency",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Currency converter catalog widget (a small new-tab card converting one amount between two currencies at a reference rate). Card title before the pair is known. One word."
     },
     "newtab_widget_templates_current_news_default_label": {
         "message": "Current news",
@@ -2423,6 +2515,50 @@
         "message": "Stars · {{repo}}",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Status copy inside the GitHub stars catalog widget (a small new-tab card). Line under the star count. {{repo}} is the repository, such as \"vercel/next.js\"."
     },
+    "newtab_widget_templates_hot_posts_empty": {
+        "message": "No posts right now",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Hot Posts catalog widget (a small new-tab card listing trending posts from one community). Shown when the feed came back with nothing."
+    },
+    "newtab_widget_templates_hot_posts_failed": {
+        "message": "Can't load this feed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Hot Posts catalog widget (a small new-tab card listing trending posts from one community). Shown when the lookup failed. Says it in the reader's terms: never name the data source or repeat its error text."
+    },
+    "newtab_widget_templates_hot_posts_load_failed": {
+        "message": "Couldn't load right now",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Hot Posts catalog widget (a small new-tab card listing trending posts from one community). Shown when nothing has arrived after fifteen seconds."
+    },
+    "newtab_widget_templates_hot_posts_loading": {
+        "message": "Loading posts…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Hot Posts catalog widget (a small new-tab card listing trending posts from one community). Shown while the feed is still being fetched."
+    },
+    "newtab_widget_templates_hot_posts_open": {
+        "message": "Open feed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Hot Posts catalog widget (a small new-tab card listing trending posts from one community). Footer link to the community's own front page, used when the feed supplies no label of its own. Two words at most."
+    },
+    "newtab_widget_templates_hot_posts_title": {
+        "message": "Hot posts",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Hot Posts catalog widget (a small new-tab card listing trending posts from one community). Card title when neither the user nor the feed named it."
+    },
+    "newtab_widget_templates_hot_posts_untitled": {
+        "message": "Untitled post",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Hot Posts catalog widget (a small new-tab card listing trending posts from one community). Stands in for a post the feed gave no title for. Two words at most."
+    },
+    "newtab_widget_templates_memory_image_failed": {
+        "message": "Couldn't make today's image",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Image of the day catalog widget (a new-tab card showing one picture generated each day from the user's recent memory themes). Shown when the image could not be made. Says it in the reader's terms: never repeat the error text."
+    },
+    "newtab_widget_templates_memory_image_inspired_by": {
+        "message": "Inspired by {{theme}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Image of the day catalog widget (a new-tab card showing one picture generated each day from the user's recent memory themes). Card title naming what the day's image drew on. {{theme}} is a topic from the user's own memory, in their own words, never translated. Keep the surrounding words very short: it is one line."
+    },
+    "newtab_widget_templates_memory_image_painting": {
+        "message": "Painting today's image…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Image of the day catalog widget (a new-tab card showing one picture generated each day from the user's recent memory themes). Shown while the image is being generated, which legitimately takes tens of seconds."
+    },
+    "newtab_widget_templates_memory_image_title": {
+        "message": "Today's image",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Image of the day catalog widget (a new-tab card showing one picture generated each day from the user's recent memory themes). Card title when neither the model nor the day's themes named the picture."
+    },
     "newtab_widget_templates_package_releases_empty": {
         "message": "No releases yet",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Package releases catalog widget (a small new-tab card listing a package's three latest releases). Shown when the package has no releases."
@@ -2467,6 +2603,10 @@
         "message": "Focus",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Card title during a work interval."
     },
+    "newtab_widget_templates_pomodoro_focus_on": {
+        "message": "Focus on {{project}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Card title during a work interval when the user named a project. {{project}} is that name, written as the user writes it, and is never translated. Keep the surrounding words very short: the caption is one line on a small card."
+    },
     "newtab_widget_templates_pomodoro_pause": {
         "message": "Pause",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Button that pauses the running timer."
@@ -2478,6 +2618,30 @@
     "newtab_widget_templates_pomodoro_start": {
         "message": "Start",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Button that starts or resumes the timer."
+    },
+    "newtab_widget_templates_public_holidays_empty": {
+        "message": "No more holidays this year",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Public Holidays catalog widget (a small new-tab card listing the next public holidays for a country). Shown when the calendar year holds no further holidays."
+    },
+    "newtab_widget_templates_public_holidays_failed": {
+        "message": "Can't load this calendar",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Public Holidays catalog widget (a small new-tab card listing the next public holidays for a country). Shown when the lookup failed. Says it in the reader's terms: never name the data source or repeat its error text."
+    },
+    "newtab_widget_templates_public_holidays_load_failed": {
+        "message": "Couldn't load right now",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Public Holidays catalog widget (a small new-tab card listing the next public holidays for a country). Shown when nothing has arrived after fifteen seconds."
+    },
+    "newtab_widget_templates_public_holidays_loading": {
+        "message": "Loading holidays…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Public Holidays catalog widget (a small new-tab card listing the next public holidays for a country). Shown while the holidays are still being fetched."
+    },
+    "newtab_widget_templates_public_holidays_title": {
+        "message": "Upcoming holidays",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Public Holidays catalog widget (a small new-tab card listing the next public holidays for a country). Card title. The region code is appended after it by the card, so keep this short."
+    },
+    "newtab_widget_templates_public_holidays_untitled": {
+        "message": "Holiday",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Public Holidays catalog widget (a small new-tab card listing the next public holidays for a country). Stands in for a holiday the calendar gave no name for. One or two words."
     },
     "newtab_widget_templates_quick_translator_auto": {
         "message": "Auto",
@@ -2538,6 +2702,18 @@
     "newtab_widget_templates_quote_of_the_day_caption": {
         "message": "Quote of the day",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quote of the day catalog widget (a small new-tab card with one short quote). Card title above the quote."
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_design": {
+        "message": "On design",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quote of the day catalog widget (a small new-tab card with one short quote). Card title when the card draws from the design pool. A short phrase, not a sentence: it sits on one line above the quote."
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_engineering": {
+        "message": "On building",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quote of the day catalog widget (a small new-tab card with one short quote). Card title when the card draws from the engineering pool. A short phrase, not a sentence: it sits on one line above the quote."
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_thinking": {
+        "message": "On thinking",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Quote of the day catalog widget (a small new-tab card with one short quote). Card title when the card draws from the philosophy pool. A short phrase, not a sentence: it sits on one line above the quote."
     },
     "newtab_widget_templates_recent_reads_empty": {
         "message": "Articles you read will show up here",
@@ -2602,6 +2778,94 @@
     "newtab_widget_templates_top_sites_title": {
         "message": "Top sites",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Top sites catalog widget (a small new-tab card of three frequently visited sites). Card title above the three most-visited sites."
+    },
+    "newtab_widget_templates_transit_status_accessibility": {
+        "message": "Access issue",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert effect: an accessibility feature such as a lift is out."
+    },
+    "newtab_widget_templates_transit_status_alert": {
+        "message": "Service alert",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Stands in for an alert the feed gave no headline for. Two words at most."
+    },
+    "newtab_widget_templates_transit_status_clear": {
+        "message": "No active alerts on {{agency}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Shown when the agency has no alerts and no late trips. {{agency}} is the transit agency's own name (MBTA), never translated."
+    },
+    "newtab_widget_templates_transit_status_clear_all": {
+        "message": "No active service alerts",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Shown when service is clear and no agency name is available to include."
+    },
+    "newtab_widget_templates_transit_status_delays": {
+        "message": "Major delays",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert effect: significant delays."
+    },
+    "newtab_widget_templates_transit_status_detour": {
+        "message": "Detour",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert effect: vehicles are running a different way."
+    },
+    "newtab_widget_templates_transit_status_early": {
+        "message": "{{count}} min early",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). How early one trip is running. {{count}} is whole minutes. Very short: it sits at the end of the row."
+    },
+    "newtab_widget_templates_transit_status_failed": {
+        "message": "Can't load service status",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Shown when the lookup failed. Says it in the reader's terms: never name the data source or repeat its error text."
+    },
+    "newtab_widget_templates_transit_status_info": {
+        "message": "Info",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert severity, the mildest. One word."
+    },
+    "newtab_widget_templates_transit_status_late": {
+        "message": "{{count}} min late",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). How late one trip is running. {{count}} is whole minutes. Very short: it sits at the end of the row."
+    },
+    "newtab_widget_templates_transit_status_load_failed": {
+        "message": "Couldn't load right now",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Shown when nothing has arrived after fifteen seconds."
+    },
+    "newtab_widget_templates_transit_status_loading": {
+        "message": "Loading service status…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Shown while the agency's feed is still being fetched."
+    },
+    "newtab_widget_templates_transit_status_modified_service": {
+        "message": "Changed service",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert effect: service is altered in some other way."
+    },
+    "newtab_widget_templates_transit_status_no_service": {
+        "message": "No service",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert effect: service is suspended. Keep it as short as the English."
+    },
+    "newtab_widget_templates_transit_status_open": {
+        "message": "Agency alerts",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Footer link to the agency's own alerts page. Two words at most."
+    },
+    "newtab_widget_templates_transit_status_reduced_service": {
+        "message": "Reduced service",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert effect: fewer trips than scheduled."
+    },
+    "newtab_widget_templates_transit_status_route": {
+        "message": "Route {{id}}",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Names one route's trip update. {{id}} is the agency's own route id (Red, Green-B), never translated."
+    },
+    "newtab_widget_templates_transit_status_severe": {
+        "message": "Severe",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert severity, the worst. One word."
+    },
+    "newtab_widget_templates_transit_status_stop_moved": {
+        "message": "Stop moved",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert effect: a stop has been relocated."
+    },
+    "newtab_widget_templates_transit_status_title": {
+        "message": "Transit status",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Card title when neither the user nor the feed named the agency."
+    },
+    "newtab_widget_templates_transit_status_trip": {
+        "message": "Trip update",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). Stands in for a trip update with no route attached. Two words at most."
+    },
+    "newtab_widget_templates_transit_status_warning": {
+        "message": "Warning",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Transit Status catalog widget (a small new-tab card showing a transit agency's active alerts, or how late its trips are running). GTFS alert severity, the middle one. One word."
     },
     "newtab_widget_templates_weather_clear": {
         "message": "Clear",

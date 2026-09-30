@@ -1754,8 +1754,77 @@
     "newtab_widget_templates_air_quality_very_unhealthy": {
         "message": "非常に健康に良くない"
     },
+    "newtab_widget_templates_airport_delays_airport": {
+        "message": "空港"
+    },
+    "newtab_widget_templates_airport_delays_arrival_delay": {
+        "message": "到着遅延"
+    },
+    "newtab_widget_templates_airport_delays_clear": {
+        "message": "{{airports}}に遅延なし"
+    },
+    "newtab_widget_templates_airport_delays_clear_all": {
+        "message": "空港の遅延はありません"
+    },
+    "newtab_widget_templates_airport_delays_closure": {
+        "message": "空港閉鎖"
+    },
+    "newtab_widget_templates_airport_delays_deicing": {
+        "message": "除氷作業"
+    },
+    "newtab_widget_templates_airport_delays_departure_delay": {
+        "message": "出発遅延"
+    },
+    "newtab_widget_templates_airport_delays_event": {
+        "message": "運航イベント"
+    },
+    "newtab_widget_templates_airport_delays_failed": {
+        "message": "空港の状況を読み込めません"
+    },
+    "newtab_widget_templates_airport_delays_ground_delay": {
+        "message": "地上遅延"
+    },
+    "newtab_widget_templates_airport_delays_ground_stop": {
+        "message": "地上待機"
+    },
+    "newtab_widget_templates_airport_delays_load_failed": {
+        "message": "読み込めませんでした"
+    },
+    "newtab_widget_templates_airport_delays_loading": {
+        "message": "空港の状況を読み込み中…"
+    },
+    "newtab_widget_templates_airport_delays_minutes": {
+        "message": "{{count}}分"
+    },
+    "newtab_widget_templates_airport_delays_open": {
+        "message": "詳細を表示"
+    },
+    "newtab_widget_templates_airport_delays_title": {
+        "message": "米国の空港状況"
+    },
+    "newtab_widget_templates_airport_delays_until": {
+        "message": "{{time}}まで"
+    },
     "newtab_widget_templates_clock_local_time": {
         "message": "現地時間"
+    },
+    "newtab_widget_templates_currency_fx_as_of": {
+        "message": "{{date}}のレート"
+    },
+    "newtab_widget_templates_currency_fx_failed": {
+        "message": "このレートを読み込めません"
+    },
+    "newtab_widget_templates_currency_fx_load_failed": {
+        "message": "読み込めませんでした"
+    },
+    "newtab_widget_templates_currency_fx_loading": {
+        "message": "レートを取得中…"
+    },
+    "newtab_widget_templates_currency_fx_reference": {
+        "message": "参考レート"
+    },
+    "newtab_widget_templates_currency_fx_title": {
+        "message": "通貨"
     },
     "newtab_widget_templates_current_news_default_label": {
         "message": "最新ニュース"
@@ -1817,6 +1886,39 @@
     "newtab_widget_templates_github_stars_stars": {
         "message": "スター · {{repo}}"
     },
+    "newtab_widget_templates_hot_posts_empty": {
+        "message": "現在、投稿はありません"
+    },
+    "newtab_widget_templates_hot_posts_failed": {
+        "message": "このフィードを読み込めません"
+    },
+    "newtab_widget_templates_hot_posts_load_failed": {
+        "message": "読み込めませんでした"
+    },
+    "newtab_widget_templates_hot_posts_loading": {
+        "message": "投稿を読み込み中…"
+    },
+    "newtab_widget_templates_hot_posts_open": {
+        "message": "フィードを開く"
+    },
+    "newtab_widget_templates_hot_posts_title": {
+        "message": "人気の投稿"
+    },
+    "newtab_widget_templates_hot_posts_untitled": {
+        "message": "無題の投稿"
+    },
+    "newtab_widget_templates_memory_image_failed": {
+        "message": "今日の画像を作成できませんでした"
+    },
+    "newtab_widget_templates_memory_image_inspired_by": {
+        "message": "{{theme}}から着想"
+    },
+    "newtab_widget_templates_memory_image_painting": {
+        "message": "今日の画像を描いています…"
+    },
+    "newtab_widget_templates_memory_image_title": {
+        "message": "今日の画像"
+    },
     "newtab_widget_templates_package_releases_empty": {
         "message": "リリースはまだありません"
     },
@@ -1850,6 +1952,9 @@
     "newtab_widget_templates_pomodoro_focus": {
         "message": "集中"
     },
+    "newtab_widget_templates_pomodoro_focus_on": {
+        "message": "{{project}}に集中"
+    },
     "newtab_widget_templates_pomodoro_pause": {
         "message": "一時停止"
     },
@@ -1858,6 +1963,24 @@
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "開始"
+    },
+    "newtab_widget_templates_public_holidays_empty": {
+        "message": "今年の祝日はもうありません"
+    },
+    "newtab_widget_templates_public_holidays_failed": {
+        "message": "このカレンダーを読み込めません"
+    },
+    "newtab_widget_templates_public_holidays_load_failed": {
+        "message": "読み込めませんでした"
+    },
+    "newtab_widget_templates_public_holidays_loading": {
+        "message": "祝日を読み込み中…"
+    },
+    "newtab_widget_templates_public_holidays_title": {
+        "message": "今後の祝日"
+    },
+    "newtab_widget_templates_public_holidays_untitled": {
+        "message": "祝日"
     },
     "newtab_widget_templates_quick_translator_auto": {
         "message": "自動"
@@ -1903,6 +2026,15 @@
     },
     "newtab_widget_templates_quote_of_the_day_caption": {
         "message": "今日の名言"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_design": {
+        "message": "デザインについて"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_engineering": {
+        "message": "ものづくりについて"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_thinking": {
+        "message": "思考について"
     },
     "newtab_widget_templates_recent_reads_empty": {
         "message": "読んだ記事がここに表示されます"
@@ -1951,6 +2083,72 @@
     },
     "newtab_widget_templates_top_sites_title": {
         "message": "よく見るサイト"
+    },
+    "newtab_widget_templates_transit_status_accessibility": {
+        "message": "アクセシビリティの問題"
+    },
+    "newtab_widget_templates_transit_status_alert": {
+        "message": "運行情報"
+    },
+    "newtab_widget_templates_transit_status_clear": {
+        "message": "{{agency}}は平常運転です"
+    },
+    "newtab_widget_templates_transit_status_clear_all": {
+        "message": "現在は平常運転です"
+    },
+    "newtab_widget_templates_transit_status_delays": {
+        "message": "大幅な遅延"
+    },
+    "newtab_widget_templates_transit_status_detour": {
+        "message": "迂回運行"
+    },
+    "newtab_widget_templates_transit_status_early": {
+        "message": "{{count}}分早い"
+    },
+    "newtab_widget_templates_transit_status_failed": {
+        "message": "運行状況を読み込めません"
+    },
+    "newtab_widget_templates_transit_status_info": {
+        "message": "情報"
+    },
+    "newtab_widget_templates_transit_status_late": {
+        "message": "{{count}}分遅れ"
+    },
+    "newtab_widget_templates_transit_status_load_failed": {
+        "message": "読み込めませんでした"
+    },
+    "newtab_widget_templates_transit_status_loading": {
+        "message": "運行状況を読み込み中…"
+    },
+    "newtab_widget_templates_transit_status_modified_service": {
+        "message": "運行変更"
+    },
+    "newtab_widget_templates_transit_status_no_service": {
+        "message": "運休"
+    },
+    "newtab_widget_templates_transit_status_open": {
+        "message": "運行情報を見る"
+    },
+    "newtab_widget_templates_transit_status_reduced_service": {
+        "message": "減便"
+    },
+    "newtab_widget_templates_transit_status_route": {
+        "message": "路線 {{id}}"
+    },
+    "newtab_widget_templates_transit_status_severe": {
+        "message": "重大"
+    },
+    "newtab_widget_templates_transit_status_stop_moved": {
+        "message": "停留所移設"
+    },
+    "newtab_widget_templates_transit_status_title": {
+        "message": "運行状況"
+    },
+    "newtab_widget_templates_transit_status_trip": {
+        "message": "運行更新"
+    },
+    "newtab_widget_templates_transit_status_warning": {
+        "message": "警告"
     },
     "newtab_widget_templates_weather_clear": {
         "message": "快晴"

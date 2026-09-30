@@ -1754,8 +1754,77 @@
     "newtab_widget_templates_air_quality_very_unhealthy": {
         "message": "Sehr ungesund"
     },
+    "newtab_widget_templates_airport_delays_airport": {
+        "message": "Flughafen"
+    },
+    "newtab_widget_templates_airport_delays_arrival_delay": {
+        "message": "Ankunftsverspätungen"
+    },
+    "newtab_widget_templates_airport_delays_clear": {
+        "message": "Keine Verspätungen an {{airports}}"
+    },
+    "newtab_widget_templates_airport_delays_clear_all": {
+        "message": "Derzeit keine Flughafenverspätungen"
+    },
+    "newtab_widget_templates_airport_delays_closure": {
+        "message": "Flughafen geschlossen"
+    },
+    "newtab_widget_templates_airport_delays_deicing": {
+        "message": "Enteisung"
+    },
+    "newtab_widget_templates_airport_delays_departure_delay": {
+        "message": "Abflugverspätungen"
+    },
+    "newtab_widget_templates_airport_delays_event": {
+        "message": "Verkehrsereignis"
+    },
+    "newtab_widget_templates_airport_delays_failed": {
+        "message": "Flughafenstatus kann nicht geladen werden"
+    },
+    "newtab_widget_templates_airport_delays_ground_delay": {
+        "message": "Bodenverzögerung"
+    },
+    "newtab_widget_templates_airport_delays_ground_stop": {
+        "message": "Startstopp"
+    },
+    "newtab_widget_templates_airport_delays_load_failed": {
+        "message": "Laden gerade nicht möglich"
+    },
+    "newtab_widget_templates_airport_delays_loading": {
+        "message": "Flughafenstatus wird geladen…"
+    },
+    "newtab_widget_templates_airport_delays_minutes": {
+        "message": "{{count}} min"
+    },
+    "newtab_widget_templates_airport_delays_open": {
+        "message": "Vollständiger Status"
+    },
+    "newtab_widget_templates_airport_delays_title": {
+        "message": "US-Flughafenstatus"
+    },
+    "newtab_widget_templates_airport_delays_until": {
+        "message": "Bis {{time}}"
+    },
     "newtab_widget_templates_clock_local_time": {
         "message": "Ortszeit"
+    },
+    "newtab_widget_templates_currency_fx_as_of": {
+        "message": "Kurs vom {{date}}"
+    },
+    "newtab_widget_templates_currency_fx_failed": {
+        "message": "Dieser Kurs kann nicht geladen werden"
+    },
+    "newtab_widget_templates_currency_fx_load_failed": {
+        "message": "Laden gerade nicht möglich"
+    },
+    "newtab_widget_templates_currency_fx_loading": {
+        "message": "Kurs wird abgerufen…"
+    },
+    "newtab_widget_templates_currency_fx_reference": {
+        "message": "Referenzkurs"
+    },
+    "newtab_widget_templates_currency_fx_title": {
+        "message": "Währung"
     },
     "newtab_widget_templates_current_news_default_label": {
         "message": "Aktuelle Nachrichten"
@@ -1817,6 +1886,39 @@
     "newtab_widget_templates_github_stars_stars": {
         "message": "Stars · {{repo}}"
     },
+    "newtab_widget_templates_hot_posts_empty": {
+        "message": "Gerade keine Beiträge"
+    },
+    "newtab_widget_templates_hot_posts_failed": {
+        "message": "Dieser Feed kann nicht geladen werden"
+    },
+    "newtab_widget_templates_hot_posts_load_failed": {
+        "message": "Laden gerade nicht möglich"
+    },
+    "newtab_widget_templates_hot_posts_loading": {
+        "message": "Beiträge werden geladen…"
+    },
+    "newtab_widget_templates_hot_posts_open": {
+        "message": "Feed öffnen"
+    },
+    "newtab_widget_templates_hot_posts_title": {
+        "message": "Angesagte Beiträge"
+    },
+    "newtab_widget_templates_hot_posts_untitled": {
+        "message": "Beitrag ohne Titel"
+    },
+    "newtab_widget_templates_memory_image_failed": {
+        "message": "Bild des Tages konnte nicht erstellt werden"
+    },
+    "newtab_widget_templates_memory_image_inspired_by": {
+        "message": "Inspiriert von {{theme}}"
+    },
+    "newtab_widget_templates_memory_image_painting": {
+        "message": "Bild des Tages wird gemalt…"
+    },
+    "newtab_widget_templates_memory_image_title": {
+        "message": "Bild des Tages"
+    },
     "newtab_widget_templates_package_releases_empty": {
         "message": "Noch keine Releases"
     },
@@ -1850,6 +1952,9 @@
     "newtab_widget_templates_pomodoro_focus": {
         "message": "Fokus"
     },
+    "newtab_widget_templates_pomodoro_focus_on": {
+        "message": "Fokus auf {{project}}"
+    },
     "newtab_widget_templates_pomodoro_pause": {
         "message": "Pausieren"
     },
@@ -1858,6 +1963,24 @@
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "Starten"
+    },
+    "newtab_widget_templates_public_holidays_empty": {
+        "message": "Keine weiteren Feiertage in diesem Jahr"
+    },
+    "newtab_widget_templates_public_holidays_failed": {
+        "message": "Dieser Kalender kann nicht geladen werden"
+    },
+    "newtab_widget_templates_public_holidays_load_failed": {
+        "message": "Laden gerade nicht möglich"
+    },
+    "newtab_widget_templates_public_holidays_loading": {
+        "message": "Feiertage werden geladen…"
+    },
+    "newtab_widget_templates_public_holidays_title": {
+        "message": "Nächste Feiertage"
+    },
+    "newtab_widget_templates_public_holidays_untitled": {
+        "message": "Feiertag"
     },
     "newtab_widget_templates_quick_translator_auto": {
         "message": "Automatisch"
@@ -1903,6 +2026,15 @@
     },
     "newtab_widget_templates_quote_of_the_day_caption": {
         "message": "Zitat des Tages"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_design": {
+        "message": "Über Design"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_engineering": {
+        "message": "Über das Bauen"
+    },
+    "newtab_widget_templates_quote_of_the_day_theme_thinking": {
+        "message": "Über das Denken"
     },
     "newtab_widget_templates_recent_reads_empty": {
         "message": "Gelesene Artikel erscheinen hier"
@@ -1951,6 +2083,72 @@
     },
     "newtab_widget_templates_top_sites_title": {
         "message": "Meistbesuchte Seiten"
+    },
+    "newtab_widget_templates_transit_status_accessibility": {
+        "message": "Barrierefreiheit eingeschränkt"
+    },
+    "newtab_widget_templates_transit_status_alert": {
+        "message": "Störungsmeldung"
+    },
+    "newtab_widget_templates_transit_status_clear": {
+        "message": "Keine aktiven Meldungen bei {{agency}}"
+    },
+    "newtab_widget_templates_transit_status_clear_all": {
+        "message": "Keine aktiven Störungsmeldungen"
+    },
+    "newtab_widget_templates_transit_status_delays": {
+        "message": "Erhebliche Verspätungen"
+    },
+    "newtab_widget_templates_transit_status_detour": {
+        "message": "Umleitung"
+    },
+    "newtab_widget_templates_transit_status_early": {
+        "message": "{{count}} min zu früh"
+    },
+    "newtab_widget_templates_transit_status_failed": {
+        "message": "Betriebslage kann nicht geladen werden"
+    },
+    "newtab_widget_templates_transit_status_info": {
+        "message": "Info"
+    },
+    "newtab_widget_templates_transit_status_late": {
+        "message": "{{count}} min zu spät"
+    },
+    "newtab_widget_templates_transit_status_load_failed": {
+        "message": "Laden gerade nicht möglich"
+    },
+    "newtab_widget_templates_transit_status_loading": {
+        "message": "Betriebslage wird geladen…"
+    },
+    "newtab_widget_templates_transit_status_modified_service": {
+        "message": "Geänderter Betrieb"
+    },
+    "newtab_widget_templates_transit_status_no_service": {
+        "message": "Kein Betrieb"
+    },
+    "newtab_widget_templates_transit_status_open": {
+        "message": "Alle Meldungen"
+    },
+    "newtab_widget_templates_transit_status_reduced_service": {
+        "message": "Eingeschränkter Betrieb"
+    },
+    "newtab_widget_templates_transit_status_route": {
+        "message": "Linie {{id}}"
+    },
+    "newtab_widget_templates_transit_status_severe": {
+        "message": "Schwerwiegend"
+    },
+    "newtab_widget_templates_transit_status_stop_moved": {
+        "message": "Haltestelle verlegt"
+    },
+    "newtab_widget_templates_transit_status_title": {
+        "message": "Betriebslage"
+    },
+    "newtab_widget_templates_transit_status_trip": {
+        "message": "Fahrt-Update"
+    },
+    "newtab_widget_templates_transit_status_warning": {
+        "message": "Warnung"
     },
     "newtab_widget_templates_weather_clear": {
         "message": "Klar"
