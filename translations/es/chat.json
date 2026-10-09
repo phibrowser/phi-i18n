@@ -911,6 +911,150 @@
     "chat_tab_context_fallback": {
         "message": "Contexto de la página"
     },
+    "chat_tasks_action_failed": {
+        "message": "No se pudo actualizar la tarea"
+    },
+    "chat_tasks_button": {
+        "message": "Tareas en esta conversación ({{count}})"
+    },
+    "chat_tasks_cron_daily": {
+        "message": "Todos los días a las {{time}}"
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "El día {{day}} de cada mes a las {{time}}"
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "De lunes a viernes a las {{time}}"
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "Cada {{days}} a las {{time}}"
+    },
+    "chat_tasks_empty": {
+        "message": "No hay tareas en esta conversación"
+    },
+    "chat_tasks_every_day": {
+        "message": "Todos los días"
+    },
+    "chat_tasks_every_hour": {
+        "message": "Cada hora"
+    },
+    "chat_tasks_every_minute": {
+        "message": "Cada minuto"
+    },
+    "chat_tasks_load_error": {
+        "message": "No se pudieron cargar las tareas"
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "Más acciones para {{title}}"
+    },
+    "chat_tasks_mute_reports": {
+        "message": "Dejar de informar aquí"
+    },
+    "chat_tasks_muted_toast": {
+        "message": "Esta tarea ya no informará en esta conversación"
+    },
+    "chat_tasks_next_run": {
+        "message": "Próxima ejecución: {{time}}"
+    },
+    "chat_tasks_no_schedule": {
+        "message": "Solo se ejecuta al iniciarla"
+    },
+    "chat_tasks_pause": {
+        "message": "Pausar programación"
+    },
+    "chat_tasks_report_every_run": {
+        "message": "Cada ejecución"
+    },
+    "chat_tasks_report_here": {
+        "message": "Informar en esta conversación"
+    },
+    "chat_tasks_report_menu": {
+        "message": "Acciones de la tarea"
+    },
+    "chat_tasks_report_on_change": {
+        "message": "Solo los cambios"
+    },
+    "chat_tasks_report_policy": {
+        "message": "Qué informar"
+    },
+    "chat_tasks_resume": {
+        "message": "Reanudar programación"
+    },
+    "chat_tasks_run_index": {
+        "message": "Ejecución n.º {{index}}"
+    },
+    "chat_tasks_run_now": {
+        "message": "Ejecutar ahora"
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "Tarea iniciada"
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "Programación personalizada ({{expr}})"
+    },
+    "chat_tasks_schedule_every": {
+        "message": "Cada {{interval}}"
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "Finalizada"
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "Condición cumplida, detenida"
+    },
+    "chat_tasks_schedule_once": {
+        "message": "Una vez, {{time}}"
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "Pausada"
+    },
+    "chat_tasks_schedule_until": {
+        "message": "hasta el {{time}}"
+    },
+    "chat_tasks_status_completed": {
+        "message": "Completada"
+    },
+    "chat_tasks_status_failed": {
+        "message": "Fallida"
+    },
+    "chat_tasks_status_queued": {
+        "message": "En cola"
+    },
+    "chat_tasks_status_running": {
+        "message": "En ejecución"
+    },
+    "chat_tasks_stop_condition": {
+        "message": "Se detiene cuando: {{condition}}"
+    },
+    "chat_tasks_task_active": {
+        "message": "Activa"
+    },
+    "chat_tasks_task_finished": {
+        "message": "Finalizada"
+    },
+    "chat_tasks_task_gone": {
+        "message": "Esta tarea ya no existe"
+    },
+    "chat_tasks_task_manual": {
+        "message": "Manual"
+    },
+    "chat_tasks_task_paused": {
+        "message": "Pausada"
+    },
+    "chat_tasks_task_stopped": {
+        "message": "Detenida"
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}} ({{zone}})"
+    },
+    "chat_tasks_title": {
+        "message": "Tareas en esta conversación"
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "Volver a informar aquí"
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "Esta tarea volverá a informar en esta conversación"
+    },
     "chat_thinking": {
         "message": "Pensando…"
     },
@@ -977,11 +1121,20 @@
     "conversation_categories": {
         "message": "Categorías"
     },
+    "conversation_categories_menu": {
+        "message": "Categorías"
+    },
     "conversation_category_menu": {
         "message": "Menú de categoría"
     },
     "conversation_category_name_conflict": {
         "message": "Ya existe una categoría con este nombre."
+    },
+    "conversation_category_update_error": {
+        "message": "No se pudieron actualizar las categorías"
+    },
+    "conversation_clear_categories": {
+        "message": "Quitar de todas las categorías"
     },
     "conversation_close_search": {
         "message": "Cerrar la búsqueda"
@@ -1005,7 +1158,7 @@
         "message": "Eliminar categoría"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "Las conversaciones de esta categoría se moverán a \"{{category}}\"."
+        "message": "Las conversaciones de esta categoría conservan sus otras categorías. Las que se queden sin ninguna pasan a \"{{category}}\"."
     },
     "conversation_delete_category_confirm_title": {
         "message": "Eliminar categoría"
@@ -1028,6 +1181,9 @@
     "conversation_filter_conversations": {
         "message": "Filtrar conversaciones"
     },
+    "conversation_has_tasks": {
+        "message": "Tiene tareas programadas"
+    },
     "conversation_load_error": {
         "message": "No se pudieron cargar las conversaciones"
     },
@@ -1042,9 +1198,6 @@
     },
     "conversation_move_error": {
         "message": "No se pudo mover la conversación"
-    },
-    "conversation_move_to_category": {
-        "message": "Mover a una categoría"
     },
     "conversation_move_to_default": {
         "message": "Mover a \"{{category}}\""
@@ -1062,7 +1215,7 @@
         "message": "No hay resultados para \"{{query}}\""
     },
     "conversation_no_task_conversations": {
-        "message": "Las conversaciones en las que se creó una Tarea aparecerán aquí"
+        "message": "Pídele al agente que haga algo de forma programada y la conversación aparecerá aquí"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -1159,6 +1312,9 @@
     },
     "conversation_uncategorized": {
         "message": "Sin categoría"
+    },
+    "conversation_unread": {
+        "message": "Sin leer"
     },
     "conversation_untitled": {
         "message": "Sin título"
@@ -1871,6 +2027,9 @@
     "newtab_search_placeholder": {
         "message": "Busca, pregunta a la IA o escribe una URL"
     },
+    "notification_card_view_details": {
+        "message": "Ver detalles"
+    },
     "onboard_debug_avatar_alt": {
         "message": "Avatar del asistente"
     },
@@ -2237,6 +2396,24 @@
     "skill_recorder_waiting_for_page": {
         "message": "Todo listo para grabar · Abre un sitio web para comenzar"
     },
+    "skill_target_body": {
+        "message": "{{skill}} funciona en una sola página. Elige la pestaña en la que ejecutarla."
+    },
+    "skill_target_field_tab": {
+        "message": "Página"
+    },
+    "skill_target_option_cancel": {
+        "message": "Cancelar"
+    },
+    "skill_target_option_run": {
+        "message": "Ejecutar"
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}} · {{space}}"
+    },
+    "skill_target_title": {
+        "message": "¿En qué página debe ejecutarse?"
+    },
     "skills_actions_add": {
         "message": "Agregar"
     },
@@ -2531,6 +2708,12 @@
     "top_bar_open_in_sidebar": {
         "message": "Abrir en la barra lateral"
     },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "No se pudo comprobar el Espacio y el Perfil originales. Vuelve a abrir esta conversación para intentarlo de nuevo."
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "Comprobando si el Espacio y el Perfil originales están disponibles…"
+    },
     "top_bar_open_in_sidebar_no_page": {
         "message": "Esta conversación aún no está vinculada a una página web, así que no se puede abrir en una barra lateral."
     },
@@ -2566,6 +2749,12 @@
     },
     "user_action_aborted": {
         "message": "Acción interrumpida"
+    },
+    "user_action_answer": {
+        "message": "Responder"
+    },
+    "user_action_answer_placeholder": {
+        "message": "Escribe tu respuesta"
     },
     "user_action_ask_from": {
         "message": "Pregunta de {{name}}"
@@ -2699,8 +2888,8 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
-    "watch_page_kickoff_message": {
-        "message": "Vigila esta página por mí y avísame cuando cambie algo importante, como el precio: {{url}}"
+    "watch_page_message": {
+        "message": "Vigila esta página por mí: {{url}}"
     },
     "welcome_subtitle": {
         "message": "Puedes buscar, hacer preguntas o trabajar con la página actual"

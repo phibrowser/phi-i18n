@@ -3072,24 +3072,16 @@
         "description": "Location: Browser. Shown in place of the Folio library's list when nothing has been saved. Keep the product name Folio and the keyboard shortcut unchanged."
     },
     "folio_library_highlight_count": {
-        "message": "{count} highlights",
-        "description": "Location: Browser. Badge on a Folio item carrying several highlights. {count} is a number of two or more."
-    },
-    "folio_library_highlight_count_one": {
-        "message": "1 highlight",
-        "description": "Location: Browser. Badge on a Folio item that carries exactly one highlight."
+        "message": "Highlights: {count}",
+        "description": "Location: Browser. Badge on a Folio item carrying highlights. {count} is the number of highlights, including one. Use a count-neutral label without plural variants."
     },
     "folio_library_import": {
         "message": "Import",
         "description": "Location: Browser. Button in the Folio library sidebar that opens the page for importing posts kept on other sites."
     },
     "folio_library_item_count": {
-        "message": "{count} items",
-        "description": "Location: Browser. Count beside the Folio library's title. {count} is a number of two or more."
-    },
-    "folio_library_item_count_one": {
-        "message": "1 item",
-        "description": "Location: Browser. Count beside the Folio library's title when it holds exactly one item."
+        "message": "Items: {count}",
+        "description": "Location: Browser. Count beside the Folio library's title. {count} is the total number of saved items, including zero or one. Use a count-neutral label without plural variants."
     },
     "folio_library_item_unreadable": {
         "message": "This item could not be read.",

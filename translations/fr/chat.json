@@ -911,6 +911,150 @@
     "chat_tab_context_fallback": {
         "message": "Contexte de la page"
     },
+    "chat_tasks_action_failed": {
+        "message": "Impossible de mettre à jour la tâche"
+    },
+    "chat_tasks_button": {
+        "message": "Tâches de cette conversation ({{count}})"
+    },
+    "chat_tasks_cron_daily": {
+        "message": "Tous les jours à {{time}}"
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "Le {{day}} de chaque mois à {{time}}"
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "Du lundi au vendredi à {{time}}"
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "Chaque {{days}} à {{time}}"
+    },
+    "chat_tasks_empty": {
+        "message": "Aucune tâche dans cette conversation"
+    },
+    "chat_tasks_every_day": {
+        "message": "Tous les jours"
+    },
+    "chat_tasks_every_hour": {
+        "message": "Toutes les heures"
+    },
+    "chat_tasks_every_minute": {
+        "message": "Toutes les minutes"
+    },
+    "chat_tasks_load_error": {
+        "message": "Impossible de charger les tâches"
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "Plus d'actions pour {{title}}"
+    },
+    "chat_tasks_mute_reports": {
+        "message": "Ne plus envoyer de rapport ici"
+    },
+    "chat_tasks_muted_toast": {
+        "message": "Cette tâche n'enverra plus de rapport dans cette conversation"
+    },
+    "chat_tasks_next_run": {
+        "message": "Prochaine exécution : {{time}}"
+    },
+    "chat_tasks_no_schedule": {
+        "message": "S'exécute uniquement sur demande"
+    },
+    "chat_tasks_pause": {
+        "message": "Suspendre la planification"
+    },
+    "chat_tasks_report_every_run": {
+        "message": "Chaque exécution"
+    },
+    "chat_tasks_report_here": {
+        "message": "Envoyer les rapports dans cette conversation"
+    },
+    "chat_tasks_report_menu": {
+        "message": "Actions de la tâche"
+    },
+    "chat_tasks_report_on_change": {
+        "message": "Uniquement les changements"
+    },
+    "chat_tasks_report_policy": {
+        "message": "Rapports à envoyer"
+    },
+    "chat_tasks_resume": {
+        "message": "Reprendre la planification"
+    },
+    "chat_tasks_run_index": {
+        "message": "Exécution n° {{index}}"
+    },
+    "chat_tasks_run_now": {
+        "message": "Exécuter maintenant"
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "Tâche lancée"
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "Planification personnalisée ({{expr}})"
+    },
+    "chat_tasks_schedule_every": {
+        "message": "Intervalle : {{interval}}"
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "Terminée"
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "Condition remplie, arrêtée"
+    },
+    "chat_tasks_schedule_once": {
+        "message": "Une fois, {{time}}"
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "Suspendue"
+    },
+    "chat_tasks_schedule_until": {
+        "message": "jusqu'au {{time}}"
+    },
+    "chat_tasks_status_completed": {
+        "message": "Terminée"
+    },
+    "chat_tasks_status_failed": {
+        "message": "Échouée"
+    },
+    "chat_tasks_status_queued": {
+        "message": "En file d'attente"
+    },
+    "chat_tasks_status_running": {
+        "message": "En cours"
+    },
+    "chat_tasks_stop_condition": {
+        "message": "S'arrête quand : {{condition}}"
+    },
+    "chat_tasks_task_active": {
+        "message": "Active"
+    },
+    "chat_tasks_task_finished": {
+        "message": "Terminée"
+    },
+    "chat_tasks_task_gone": {
+        "message": "Cette tâche n'existe plus"
+    },
+    "chat_tasks_task_manual": {
+        "message": "Manuelle"
+    },
+    "chat_tasks_task_paused": {
+        "message": "Suspendue"
+    },
+    "chat_tasks_task_stopped": {
+        "message": "Arrêtée"
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}} ({{zone}})"
+    },
+    "chat_tasks_title": {
+        "message": "Tâches de cette conversation"
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "Reprendre l'envoi des rapports ici"
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "Cette tâche enverra de nouveau ses rapports dans cette conversation"
+    },
     "chat_thinking": {
         "message": "Réflexion…"
     },
@@ -977,11 +1121,20 @@
     "conversation_categories": {
         "message": "Catégories"
     },
+    "conversation_categories_menu": {
+        "message": "Catégories"
+    },
     "conversation_category_menu": {
         "message": "Menu de la catégorie"
     },
     "conversation_category_name_conflict": {
         "message": "Une catégorie portant ce nom existe déjà."
+    },
+    "conversation_category_update_error": {
+        "message": "Impossible de mettre à jour les catégories"
+    },
+    "conversation_clear_categories": {
+        "message": "Retirer de toutes les catégories"
     },
     "conversation_close_search": {
         "message": "Fermer la recherche"
@@ -1005,7 +1158,7 @@
         "message": "Supprimer la catégorie"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "Les conversations de cette catégorie seront déplacées vers « {{category}} »."
+        "message": "Les conversations de cette catégorie conservent leurs autres catégories. Celles qui n'en ont plus aucune sont déplacées vers « {{category}} »."
     },
     "conversation_delete_category_confirm_title": {
         "message": "Supprimer la catégorie"
@@ -1028,6 +1181,9 @@
     "conversation_filter_conversations": {
         "message": "Filtrer les conversations"
     },
+    "conversation_has_tasks": {
+        "message": "Contient des tâches planifiées"
+    },
     "conversation_load_error": {
         "message": "Impossible de charger les conversations"
     },
@@ -1042,9 +1198,6 @@
     },
     "conversation_move_error": {
         "message": "Impossible de déplacer la conversation"
-    },
-    "conversation_move_to_category": {
-        "message": "Déplacer vers une catégorie"
     },
     "conversation_move_to_default": {
         "message": "Déplacer vers « {{category}} »"
@@ -1062,7 +1215,7 @@
         "message": "Aucun résultat pour « {{query}} »"
     },
     "conversation_no_task_conversations": {
-        "message": "Les conversations dans lesquelles une Tâche a été créée apparaîtront ici"
+        "message": "Demandez à l'agent d'effectuer une action de manière planifiée, et la conversation apparaîtra ici"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -1159,6 +1312,9 @@
     },
     "conversation_uncategorized": {
         "message": "Sans catégorie"
+    },
+    "conversation_unread": {
+        "message": "Non lue"
     },
     "conversation_untitled": {
         "message": "Sans titre"
@@ -1871,6 +2027,9 @@
     "newtab_search_placeholder": {
         "message": "Rechercher, interroger l'IA ou saisir une URL"
     },
+    "notification_card_view_details": {
+        "message": "Afficher les détails"
+    },
     "onboard_debug_avatar_alt": {
         "message": "Avatar de l'assistant"
     },
@@ -2237,6 +2396,24 @@
     "skill_recorder_waiting_for_page": {
         "message": "Prêt à enregistrer · Ouvrez un site web pour commencer"
     },
+    "skill_target_body": {
+        "message": "{{skill}} agit sur une seule page. Choisissez l'onglet sur lequel l'exécuter."
+    },
+    "skill_target_field_tab": {
+        "message": "Page"
+    },
+    "skill_target_option_cancel": {
+        "message": "Annuler"
+    },
+    "skill_target_option_run": {
+        "message": "Exécuter"
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}} ({{space}})"
+    },
+    "skill_target_title": {
+        "message": "Sur quelle page faut-il l'exécuter ?"
+    },
     "skills_actions_add": {
         "message": "Ajouter"
     },
@@ -2531,6 +2708,12 @@
     "top_bar_open_in_sidebar": {
         "message": "Ouvrir dans la barre latérale"
     },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "Impossible de vérifier l'Espace et le profil d'origine. Réessayez en rouvrant cette conversation."
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "Vérification de la disponibilité de l'Espace et du profil d'origine…"
+    },
     "top_bar_open_in_sidebar_no_page": {
         "message": "Cette conversation n'est pas encore liée à une page web, elle ne peut donc pas s'ouvrir dans une barre latérale."
     },
@@ -2566,6 +2749,12 @@
     },
     "user_action_aborted": {
         "message": "Action interrompue"
+    },
+    "user_action_answer": {
+        "message": "Répondre"
+    },
+    "user_action_answer_placeholder": {
+        "message": "Saisissez votre réponse"
     },
     "user_action_ask_from": {
         "message": "Question de {{name}}"
@@ -2699,8 +2888,8 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
-    "watch_page_kickoff_message": {
-        "message": "Garde un œil sur cette page pour moi et préviens-moi quand quelque chose d'important change, comme le prix : {{url}}"
+    "watch_page_message": {
+        "message": "Surveille cette page pour moi : {{url}}"
     },
     "welcome_subtitle": {
         "message": "Vous pouvez effectuer des recherches, poser des questions ou travailler avec la page actuelle"

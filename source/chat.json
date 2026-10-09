@@ -1215,6 +1215,198 @@
         "message": "Page context",
         "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Labels for browser page content the user attached to a message. Stands in for the page's title when it is unknown."
     },
+    "chat_tasks_action_failed": {
+        "message": "Couldn't update the task",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task action (mute, run now, pause, resume) failed."
+    },
+    "chat_tasks_button": {
+        "message": "Tasks in this conversation ({{count}})",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Accessible label of the chat toolbar's clock button; {{count}} = number of tasks created in the conversation."
+    },
+    "chat_tasks_cron_daily": {
+        "message": "Every day at {{time}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task that runs every day at one time; {{time}} = a localized time of day, possibly followed by its time zone."
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "Day {{day}} of every month at {{time}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task that runs on one day of every month; {{day}} = 1 to 31, {{time}} as in cronDaily."
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "Weekdays at {{time}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task that runs Monday to Friday at one time; {{time}} as in cronDaily."
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "Every {{days}} at {{time}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task that runs on some days of the week at one time; {{days}} = localized weekday names joined as a list (e.g. 'Monday and Wednesday'), {{time}} as in cronDaily."
+    },
+    "chat_tasks_empty": {
+        "message": "No tasks in this conversation",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. The task panel when the conversation's tasks were all archived meanwhile."
+    },
+    "chat_tasks_every_day": {
+        "message": "Every day",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task that repeats every day."
+    },
+    "chat_tasks_every_hour": {
+        "message": "Every hour",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task that repeats every hour."
+    },
+    "chat_tasks_every_minute": {
+        "message": "Every minute",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task that repeats every minute."
+    },
+    "chat_tasks_load_error": {
+        "message": "Couldn't load tasks",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. The task panel could not read the conversation's tasks."
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "More actions for {{title}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Accessible label of one task's menu button in the task panel (Run now, Pause, Resume); {{title}} = the task's title."
+    },
+    "chat_tasks_mute_reports": {
+        "message": "Stop reporting here",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Report strip menu item: the task keeps running but no longer posts its results into this conversation."
+    },
+    "chat_tasks_muted_toast": {
+        "message": "This task will no longer report in this conversation",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Confirmation after Stop reporting here."
+    },
+    "chat_tasks_next_run": {
+        "message": "Next run {{time}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. When the schedule runs next; {{time}} = a localized date and time. Follows the schedule's description after a dot."
+    },
+    "chat_tasks_no_schedule": {
+        "message": "Runs only when started",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task without a schedule (it ran once when created and runs again only on Run now)."
+    },
+    "chat_tasks_pause": {
+        "message": "Pause schedule",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Stops the task's schedule until it is resumed; nothing is deleted."
+    },
+    "chat_tasks_report_every_run": {
+        "message": "Every run",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Option of the task panel's report dropdown: every run of the task posts its result."
+    },
+    "chat_tasks_report_here": {
+        "message": "Report in this conversation",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Checkbox in the task panel: when on, each run of the task posts its result as a message in this conversation; off mutes those reports (the task still runs)."
+    },
+    "chat_tasks_report_menu": {
+        "message": "Task actions",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Accessible label of the menu button on a report message's task strip."
+    },
+    "chat_tasks_report_on_change": {
+        "message": "Only changes",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Option of the task panel's report dropdown: only runs that found something new post their result (the first run and failures always do)."
+    },
+    "chat_tasks_report_policy": {
+        "message": "What to report",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Label of a dropdown in the task panel: which runs of the task post their result in this conversation."
+    },
+    "chat_tasks_resume": {
+        "message": "Resume schedule",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Restarts a paused schedule of the task."
+    },
+    "chat_tasks_run_index": {
+        "message": "Run #{{index}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Which run of the task a report message is about; {{index}} = 1, 2, 3..."
+    },
+    "chat_tasks_run_now": {
+        "message": "Run now",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Runs the task once right away, whatever its schedule says."
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "Task started",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Confirmation after Run now."
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "Custom schedule ({{expr}})",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task scheduled with a cron expression the app cannot put into words; {{expr}} is the raw expression (and time zone), shown as is."
+    },
+    "chat_tasks_schedule_every": {
+        "message": "Every {{interval}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A repeating task's interval; {{interval}} is a localized amount with its unit and is never one unit (e.g. '2 hours', '30 minutes')."
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "Finished",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A one-off schedule that already ran and will not run again; follows the schedule's description after a dot."
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "Condition met, stopped",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. State of a schedule in the task panel: the task found the condition the user gave for stopping, and paused its schedule itself."
+    },
+    "chat_tasks_schedule_once": {
+        "message": "Once, {{time}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. When a one-off task runs; {{time}} = a localized date and time."
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "Paused",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A paused schedule; follows the schedule's description after a dot."
+    },
+    "chat_tasks_schedule_until": {
+        "message": "until {{time}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Appended to a schedule's description in the task panel: the schedule stops running after this date and time. {{time}} is a localized date and time."
+    },
+    "chat_tasks_status_completed": {
+        "message": "Completed",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Status badge of a task run that finished."
+    },
+    "chat_tasks_status_failed": {
+        "message": "Failed",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Status badge of a task run that failed."
+    },
+    "chat_tasks_status_queued": {
+        "message": "Queued",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Status badge of a task run waiting to start; also the task panel badge of a task whose run is waiting to start."
+    },
+    "chat_tasks_status_running": {
+        "message": "Running",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Status badge of a task run in progress; also the task panel badge of a task with a run in progress."
+    },
+    "chat_tasks_stop_condition": {
+        "message": "Stops when: {{condition}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Line in the task panel: the condition, in the user's own words, that stops the task once a run finds it true. {{condition}} is that text."
+    },
+    "chat_tasks_task_active": {
+        "message": "Active",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Task panel badge beside a task's title: it has a running schedule and will run again (not about its last run)."
+    },
+    "chat_tasks_task_finished": {
+        "message": "Finished",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Task panel badge: the task's schedule has ended (its end time passed, or a one-time run is done)."
+    },
+    "chat_tasks_task_gone": {
+        "message": "This task no longer exists",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task action failed because the task was deleted."
+    },
+    "chat_tasks_task_manual": {
+        "message": "Manual",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Task panel badge: the task has no schedule and runs only when someone starts it."
+    },
+    "chat_tasks_task_paused": {
+        "message": "Paused",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Task panel badge: someone paused the task's schedule."
+    },
+    "chat_tasks_task_stopped": {
+        "message": "Stopped",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Task panel badge: the task stopped itself because its stop condition was met."
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}} ({{zone}})",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A time of day in a time zone other than this computer's; {{zone}} = an IANA name such as Europe/Paris."
+    },
+    "chat_tasks_title": {
+        "message": "Tasks in this conversation",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Heading of the task panel opened from the chat toolbar's clock button."
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "Resume reporting here",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Report strip menu item shown instead of Stop reporting here once the task's reports are stopped in this conversation: they start appearing here again."
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "This task will report in this conversation again",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Confirmation after Resume reporting here."
+    },
     "chat_thinking": {
         "message": "Thinking…",
         "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Status shown beside the assistant's name while it is working, when no more specific activity is known. Ends with an ellipsis character; keep whatever your language uses."
@@ -1303,6 +1495,10 @@
         "message": "Categories",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Section header of the category list."
     },
+    "conversation_categories_menu": {
+        "message": "Categories",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Submenu (conversation row menu, chat toolbar menu) and multi-select toolbar button listing the user's categories as checkboxes. A conversation can be in several categories; none checked means Uncategorized."
+    },
     "conversation_category_menu": {
         "message": "Category menu",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. aria-label of the active category chip's kebab menu button."
@@ -1310,6 +1506,14 @@
     "conversation_category_name_conflict": {
         "message": "A category with this name already exists.",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Validation error: duplicate category name."
+    },
+    "conversation_category_update_error": {
+        "message": "Couldn't update categories",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Banner or toast when adding a conversation to a category, or removing it, failed; nothing was changed."
+    },
+    "conversation_clear_categories": {
+        "message": "Remove from all categories",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Last item of the multi-select Categories menu: removes every category from all selected conversations, which leaves them Uncategorized."
     },
     "conversation_close_search": {
         "message": "Close search",
@@ -1340,8 +1544,8 @@
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu item: delete a category."
     },
     "conversation_delete_category_confirm_description": {
-        "message": "Conversations in this category will move to \"{{category}}\".",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Category deletion confirmation; {{category}} is the localized protected Uncategorized category receiving the conversations."
+        "message": "Conversations in this category keep their other categories. Those left without one move to \"{{category}}\".",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Category deletion confirmation. A conversation can be in several categories and only loses this one; {{category}} is the localized protected Uncategorized view that holds conversations with no category left."
     },
     "conversation_delete_category_confirm_title": {
         "message": "Delete category",
@@ -1371,6 +1575,10 @@
         "message": "Filter conversations",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Accessible action label for opening the conversation filter chooser."
     },
+    "conversation_has_tasks": {
+        "message": "Has scheduled tasks",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Accessible label of the clock icon after a conversation's title: tasks (background or scheduled jobs) were created in this conversation and report into it."
+    },
     "conversation_load_error": {
         "message": "Failed to load conversations",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Error text when the conversation list fails to load."
@@ -1390,10 +1598,6 @@
     "conversation_move_error": {
         "message": "Failed to move conversation",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Error text when moving a conversation to another category fails."
-    },
-    "conversation_move_to_category": {
-        "message": "Move to category",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Menu item: move a conversation into a category."
     },
     "conversation_move_to_default": {
         "message": "Move to \"{{category}}\"",
@@ -1416,8 +1620,8 @@
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Empty search result; {{query}} = the search text."
     },
     "conversation_no_task_conversations": {
-        "message": "Conversations where a Task was created will appear here",
-        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Empty state of the built-in Tasks view of the conversation list: no conversation has created a Task yet."
+        "message": "Ask the agent to do something on a schedule, and the conversation will appear here",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Empty state of the built-in Tasks view: a conversation appears here once the agent was asked in it to do something on a schedule (a task linked to the conversation)."
     },
     "conversation_origin_chat": {
         "message": "Phi Chat",
@@ -1546,6 +1750,10 @@
     "conversation_uncategorized": {
         "message": "Uncategorized",
         "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Name of the protected category receiving conversations whose browser Profile was deleted. It is separate from the default conversation group. Users can move conversations out, but cannot rename or delete this category."
+    },
+    "conversation_unread": {
+        "message": "Unread",
+        "description": "Location: Chat. Conversation list, history browser, categories, and the rename/delete dialogs. Accessible label of the blue dot before a conversation's title: a background task reported into the conversation since it was last opened."
     },
     "conversation_untitled": {
         "message": "Untitled",
@@ -2495,6 +2703,10 @@
         "message": "Search, ask AI, or enter a URL",
         "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Placeholder of the unified search box."
     },
+    "notification_card_view_details": {
+        "message": "View details",
+        "description": "Location: Chat. The browser's notification card shown when a scheduled task's report is posted into its conversation. The card's only button; it opens the task's conversation in the Phi Chat window. Keep it short: it is a button on a small card."
+    },
     "onboard_debug_avatar_alt": {
         "message": "Assistant avatar",
         "description": "Location: Chat. Diagnostic console for the first-run onboarding flow. alt text of the avatar preview."
@@ -2983,6 +3195,30 @@
         "message": "Ready to record · Open a website to begin",
         "description": "Location: Chat. The skill-recording flow (pick a tab, record a browser workflow). Status bar text while waiting for the user to open a site."
     },
+    "skill_target_body": {
+        "message": "{{skill}} works on one page. Pick the tab to run it on.",
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. The card's sentence: {{skill}} is the skill's name; the user picks one tab for it."
+    },
+    "skill_target_field_tab": {
+        "message": "Page",
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. Label of the dropdown listing the open tabs to choose from."
+    },
+    "skill_target_option_cancel": {
+        "message": "Cancel",
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. Button: do not run the skill."
+    },
+    "skill_target_option_run": {
+        "message": "Run",
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. Button: run the skill on the chosen tab."
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}} — {{space}}",
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. One entry of the tab dropdown when the tabs come from more than one space: {{title}} is the tab's title, {{space}} the space's name."
+    },
+    "skill_target_title": {
+        "message": "Which page should this run on?",
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. Card title: asking which open tab (web page) the skill should run on."
+    },
     "skills_actions_add": {
         "message": "Add",
         "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Per-skill actions (add/remove/enable/edit) and their toasts. Button: add a skill to the library."
@@ -3375,6 +3611,14 @@
         "message": "Open in sidebar",
         "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Toolbar button tooltip and accessible label on full-page chat surfaces (the Phi Chat window and the new tab page): reopen the web page this conversation last worked with and continue the conversation in that page's sidebar. Counterpart of topBar.openInPhiChat."
     },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "Couldn't check the original Space and Profile. Try again by reopening this conversation.",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Tooltip on the disabled Open in sidebar button when the browser could not check whether the conversation's original Space and Profile still exist. Reopening the conversation tries again; do not suggest that the page, Space or Profile was deleted."
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "Checking whether the original Space and Profile are available…",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Tooltip on the disabled Open in sidebar button while the browser checks whether the conversation's original Space and Profile still exist. Nothing opens and no window switches."
+    },
     "top_bar_open_in_sidebar_no_page": {
         "message": "This conversation isn't linked to a web page yet, so it can't open in a sidebar.",
         "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Tooltip shown instead of topBar.openInSidebar while the button is disabled because the conversation has no recorded web page to reopen (for example it started in Phi Chat or in a messaging app)."
@@ -3422,6 +3666,14 @@
     "user_action_aborted": {
         "message": "Action aborted",
         "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Badge when the run ended before a decision."
+    },
+    "user_action_answer": {
+        "message": "Answer",
+        "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Button on an open-question card from the assistant: sends what the user typed as their answer."
+    },
+    "user_action_answer_placeholder": {
+        "message": "Type your answer",
+        "description": "Location: Chat. Generic in-chat confirm/deny card for agent-requested user actions. Placeholder in the text box of an open-question card from the assistant, when the assistant gave no example answer of its own."
     },
     "user_action_ask_from": {
         "message": "Question from {{name}}",
@@ -3599,9 +3851,9 @@
         "message": "https://example.com",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. URL input placeholder; keep as an example URL."
     },
-    "watch_page_kickoff_message": {
-        "message": "Keep an eye on this page for me and tell me when something important changes, like the price: {{url}}",
-        "description": "Location: Chat. First message of the conversation that the watch-this-page context-menu action opens in the Phi Chat window. First chat message sent on the user's behalf after they choose the watch-this-page menu action; it is an instruction to the assistant, written in the user's voice. {{url}} is the page address."
+    "watch_page_message": {
+        "message": "Keep an eye on this page for me: {{url}}",
+        "description": "Location: Chat. Text for the watch-this-page context-menu action, which starts a new conversation in the browser sidebar. First chat message sent on the user's behalf after they choose the watch-this-page menu action; it is an instruction to the assistant, written in the user's voice, and the assistant then asks what to watch. {{url}} is the page address."
     },
     "welcome_subtitle": {
         "message": "You can search, ask questions, or work with the current page",
@@ -3617,38 +3869,38 @@
     },
     "worker_target_body": {
         "message": "This task needs to open browser pages. Pick a space — it will open its tabs there.",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. First sentence of the card: why the choice is needed."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. First sentence of the card: why the choice is needed."
     },
     "worker_target_field_remember": {
         "message": "Use this space for the rest of this conversation",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Checkbox, ticked by default: keep using the chosen space for the rest of this conversation instead of asking again."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Checkbox, ticked by default: keep using the chosen space for the rest of this conversation instead of asking again."
     },
     "worker_target_field_space": {
         "message": "Space",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Label of the dropdown listing the spaces to choose from."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Label of the dropdown listing the spaces to choose from."
     },
     "worker_target_option_cancel": {
         "message": "Cancel",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Button: do not run the task."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Button: do not run the task."
     },
     "worker_target_option_run": {
         "message": "Run here",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Button: run the task in the chosen space."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Button: run the task in the chosen space."
     },
     "worker_target_space_in_profile": {
         "message": "{{name}} ({{profile}})",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. One entry of the space dropdown when the spaces come from more than one browser profile: {{name}} is the space, {{profile}} the profile's name."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. One entry of the space dropdown when the spaces come from more than one browser profile: {{name}} is the space, {{profile}} the profile's name."
     },
     "worker_target_stale": {
         "message": "The space you picked earlier no longer exists, so this has to be chosen again.",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Shown above the other sentences when the card is being asked a second time because the space chosen earlier has since been deleted."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Shown above the other sentences when the card is being asked a second time because the space chosen earlier has since been deleted."
     },
     "worker_target_stale_profile": {
         "message": "The space you picked earlier belongs to a different browser profile than this conversation now does, so this has to be chosen again.",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Shown above the other sentences when the card is being asked a second time because the conversation now belongs to a different browser profile than the space it remembered."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Shown above the other sentences when the card is being asked a second time because the conversation now belongs to a different browser profile than the space it remembered."
     },
     "worker_target_title": {
         "message": "Where should this task run?",
-        "description": "Location: Chat. A card phi-agent puts up in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Card title: asking which space the task should run in."
+        "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. Card title: asking which space the task should run in."
     }
 }

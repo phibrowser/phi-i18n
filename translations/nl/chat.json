@@ -911,6 +911,150 @@
     "chat_tab_context_fallback": {
         "message": "Paginacontext"
     },
+    "chat_tasks_action_failed": {
+        "message": "Kan de taak niet bijwerken"
+    },
+    "chat_tasks_button": {
+        "message": "Taken in dit gesprek ({{count}})"
+    },
+    "chat_tasks_cron_daily": {
+        "message": "Elke dag om {{time}}"
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "Elke maand op dag {{day}} om {{time}}"
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "Op werkdagen om {{time}}"
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "Elke {{days}} om {{time}}"
+    },
+    "chat_tasks_empty": {
+        "message": "Geen taken in dit gesprek"
+    },
+    "chat_tasks_every_day": {
+        "message": "Elke dag"
+    },
+    "chat_tasks_every_hour": {
+        "message": "Elk uur"
+    },
+    "chat_tasks_every_minute": {
+        "message": "Elke minuut"
+    },
+    "chat_tasks_load_error": {
+        "message": "Kan taken niet laden"
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "Meer acties voor {{title}}"
+    },
+    "chat_tasks_mute_reports": {
+        "message": "Hier niet meer rapporteren"
+    },
+    "chat_tasks_muted_toast": {
+        "message": "Deze taak rapporteert niet meer in dit gesprek"
+    },
+    "chat_tasks_next_run": {
+        "message": "Volgende uitvoering {{time}}"
+    },
+    "chat_tasks_no_schedule": {
+        "message": "Wordt alleen uitgevoerd wanneer je de taak start"
+    },
+    "chat_tasks_pause": {
+        "message": "Planning pauzeren"
+    },
+    "chat_tasks_report_every_run": {
+        "message": "Elke uitvoering"
+    },
+    "chat_tasks_report_here": {
+        "message": "Rapporteren in dit gesprek"
+    },
+    "chat_tasks_report_menu": {
+        "message": "Taakacties"
+    },
+    "chat_tasks_report_on_change": {
+        "message": "Alleen wijzigingen"
+    },
+    "chat_tasks_report_policy": {
+        "message": "Wat wordt gerapporteerd"
+    },
+    "chat_tasks_resume": {
+        "message": "Planning hervatten"
+    },
+    "chat_tasks_run_index": {
+        "message": "Uitvoering {{index}}"
+    },
+    "chat_tasks_run_now": {
+        "message": "Nu uitvoeren"
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "Taak gestart"
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "Aangepaste planning ({{expr}})"
+    },
+    "chat_tasks_schedule_every": {
+        "message": "Elke {{interval}}"
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "Beëindigd"
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "Voorwaarde vervuld, gestopt"
+    },
+    "chat_tasks_schedule_once": {
+        "message": "Eenmalig, {{time}}"
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "Gepauzeerd"
+    },
+    "chat_tasks_schedule_until": {
+        "message": "tot {{time}}"
+    },
+    "chat_tasks_status_completed": {
+        "message": "Voltooid"
+    },
+    "chat_tasks_status_failed": {
+        "message": "Mislukt"
+    },
+    "chat_tasks_status_queued": {
+        "message": "In wachtrij"
+    },
+    "chat_tasks_status_running": {
+        "message": "Actief"
+    },
+    "chat_tasks_stop_condition": {
+        "message": "Stopt wanneer: {{condition}}"
+    },
+    "chat_tasks_task_active": {
+        "message": "Gepland"
+    },
+    "chat_tasks_task_finished": {
+        "message": "Beëindigd"
+    },
+    "chat_tasks_task_gone": {
+        "message": "Deze taak bestaat niet meer"
+    },
+    "chat_tasks_task_manual": {
+        "message": "Handmatig"
+    },
+    "chat_tasks_task_paused": {
+        "message": "Gepauzeerd"
+    },
+    "chat_tasks_task_stopped": {
+        "message": "Gestopt"
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}} ({{zone}})"
+    },
+    "chat_tasks_title": {
+        "message": "Taken in dit gesprek"
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "Hier weer rapporteren"
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "Deze taak rapporteert weer in dit gesprek"
+    },
     "chat_thinking": {
         "message": "Aan het nadenken…"
     },
@@ -977,11 +1121,20 @@
     "conversation_categories": {
         "message": "Categorieën"
     },
+    "conversation_categories_menu": {
+        "message": "Categorieën"
+    },
     "conversation_category_menu": {
         "message": "Categoriemenu"
     },
     "conversation_category_name_conflict": {
         "message": "Er bestaat al een categorie met deze naam."
+    },
+    "conversation_category_update_error": {
+        "message": "Kan categorieën niet bijwerken"
+    },
+    "conversation_clear_categories": {
+        "message": "Uit alle categorieën verwijderen"
     },
     "conversation_close_search": {
         "message": "Zoeken sluiten"
@@ -1005,7 +1158,7 @@
         "message": "Categorie verwijderen"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "Gesprekken in deze categorie worden verplaatst naar \"{{category}}\"."
+        "message": "Gesprekken in deze categorie behouden hun andere categorieën. Gesprekken die er dan geen meer hebben, gaan naar \"{{category}}\"."
     },
     "conversation_delete_category_confirm_title": {
         "message": "Categorie verwijderen"
@@ -1028,6 +1181,9 @@
     "conversation_filter_conversations": {
         "message": "Gesprekken filteren"
     },
+    "conversation_has_tasks": {
+        "message": "Heeft geplande taken"
+    },
     "conversation_load_error": {
         "message": "Kan gesprekken niet laden"
     },
@@ -1042,9 +1198,6 @@
     },
     "conversation_move_error": {
         "message": "Kan gesprek niet verplaatsen"
-    },
-    "conversation_move_to_category": {
-        "message": "Naar categorie verplaatsen"
     },
     "conversation_move_to_default": {
         "message": "Verplaatsen naar \"{{category}}\""
@@ -1062,7 +1215,7 @@
         "message": "Geen resultaten voor \"{{query}}\""
     },
     "conversation_no_task_conversations": {
-        "message": "Gesprekken waarin een taak is gemaakt, verschijnen hier"
+        "message": "Vraag de agent om iets volgens een planning te doen, dan verschijnt het gesprek hier"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -1159,6 +1312,9 @@
     },
     "conversation_uncategorized": {
         "message": "Zonder categorie"
+    },
+    "conversation_unread": {
+        "message": "Ongelezen"
     },
     "conversation_untitled": {
         "message": "Naamloos"
@@ -1871,6 +2027,9 @@
     "newtab_search_placeholder": {
         "message": "Zoeken, AI vragen of een URL typen"
     },
+    "notification_card_view_details": {
+        "message": "Details bekijken"
+    },
     "onboard_debug_avatar_alt": {
         "message": "Avatar van de assistent"
     },
@@ -2237,6 +2396,24 @@
     "skill_recorder_waiting_for_page": {
         "message": "Klaar om op te nemen · Open een website om te beginnen"
     },
+    "skill_target_body": {
+        "message": "{{skill}} werkt op één pagina. Kies het tabblad waarop je de skill wilt uitvoeren."
+    },
+    "skill_target_field_tab": {
+        "message": "Pagina"
+    },
+    "skill_target_option_cancel": {
+        "message": "Annuleren"
+    },
+    "skill_target_option_run": {
+        "message": "Uitvoeren"
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}} · {{space}}"
+    },
+    "skill_target_title": {
+        "message": "Op welke pagina moet dit worden uitgevoerd?"
+    },
     "skills_actions_add": {
         "message": "Toevoegen"
     },
@@ -2531,6 +2708,12 @@
     "top_bar_open_in_sidebar": {
         "message": "Openen in zijbalk"
     },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "Kan de oorspronkelijke Space en het oorspronkelijke profiel niet controleren. Open dit gesprek opnieuw om het nog eens te proberen."
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "Controleren of de oorspronkelijke Space en het oorspronkelijke profiel beschikbaar zijn…"
+    },
     "top_bar_open_in_sidebar_no_page": {
         "message": "Dit gesprek is nog niet aan een webpagina gekoppeld en kan daarom niet in een zijbalk worden geopend."
     },
@@ -2566,6 +2749,12 @@
     },
     "user_action_aborted": {
         "message": "Actie afgebroken"
+    },
+    "user_action_answer": {
+        "message": "Antwoorden"
+    },
+    "user_action_answer_placeholder": {
+        "message": "Typ je antwoord"
     },
     "user_action_ask_from": {
         "message": "Vraag van {{name}}"
@@ -2699,8 +2888,8 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
-    "watch_page_kickoff_message": {
-        "message": "Houd deze pagina voor me in de gaten en laat het me weten als er iets belangrijks verandert, zoals de prijs: {{url}}"
+    "watch_page_message": {
+        "message": "Houd deze pagina voor me in de gaten: {{url}}"
     },
     "welcome_subtitle": {
         "message": "Je kunt zoeken, vragen stellen of met de huidige pagina werken"

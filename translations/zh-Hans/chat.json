@@ -911,6 +911,150 @@
     "chat_tab_context_fallback": {
         "message": "页面上下文"
     },
+    "chat_tasks_action_failed": {
+        "message": "无法更新任务"
+    },
+    "chat_tasks_button": {
+        "message": "此对话中的任务（{{count}}）"
+    },
+    "chat_tasks_cron_daily": {
+        "message": "每天 {{time}}"
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "每月 {{day}} 日 {{time}}"
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "工作日 {{time}}"
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "每{{days}} {{time}}"
+    },
+    "chat_tasks_empty": {
+        "message": "此对话中暂无任务"
+    },
+    "chat_tasks_every_day": {
+        "message": "每天"
+    },
+    "chat_tasks_every_hour": {
+        "message": "每小时"
+    },
+    "chat_tasks_every_minute": {
+        "message": "每分钟"
+    },
+    "chat_tasks_load_error": {
+        "message": "无法加载任务"
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "更多操作：{{title}}"
+    },
+    "chat_tasks_mute_reports": {
+        "message": "停止在此对话中汇报"
+    },
+    "chat_tasks_muted_toast": {
+        "message": "此任务将不再向此对话汇报"
+    },
+    "chat_tasks_next_run": {
+        "message": "下次运行：{{time}}"
+    },
+    "chat_tasks_no_schedule": {
+        "message": "仅在手动启动时运行"
+    },
+    "chat_tasks_pause": {
+        "message": "暂停定时运行"
+    },
+    "chat_tasks_report_every_run": {
+        "message": "每次运行"
+    },
+    "chat_tasks_report_here": {
+        "message": "在此对话中汇报"
+    },
+    "chat_tasks_report_menu": {
+        "message": "任务操作"
+    },
+    "chat_tasks_report_on_change": {
+        "message": "仅有变化时"
+    },
+    "chat_tasks_report_policy": {
+        "message": "汇报时机"
+    },
+    "chat_tasks_resume": {
+        "message": "恢复定时运行"
+    },
+    "chat_tasks_run_index": {
+        "message": "第 {{index}} 次运行"
+    },
+    "chat_tasks_run_now": {
+        "message": "立即运行"
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "任务已开始"
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "自定义计划（{{expr}}）"
+    },
+    "chat_tasks_schedule_every": {
+        "message": "每 {{interval}}"
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "已结束"
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "条件已满足，已停止"
+    },
+    "chat_tasks_schedule_once": {
+        "message": "仅一次，{{time}}"
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "已暂停"
+    },
+    "chat_tasks_schedule_until": {
+        "message": "直到 {{time}}"
+    },
+    "chat_tasks_status_completed": {
+        "message": "已完成"
+    },
+    "chat_tasks_status_failed": {
+        "message": "失败"
+    },
+    "chat_tasks_status_queued": {
+        "message": "排队中"
+    },
+    "chat_tasks_status_running": {
+        "message": "运行中"
+    },
+    "chat_tasks_stop_condition": {
+        "message": "停止条件：{{condition}}"
+    },
+    "chat_tasks_task_active": {
+        "message": "已启用"
+    },
+    "chat_tasks_task_finished": {
+        "message": "已结束"
+    },
+    "chat_tasks_task_gone": {
+        "message": "此任务已不存在"
+    },
+    "chat_tasks_task_manual": {
+        "message": "手动"
+    },
+    "chat_tasks_task_paused": {
+        "message": "已暂停"
+    },
+    "chat_tasks_task_stopped": {
+        "message": "已停止"
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}}（{{zone}}）"
+    },
+    "chat_tasks_title": {
+        "message": "此对话中的任务"
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "恢复在此对话中汇报"
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "此任务将重新向此对话汇报"
+    },
     "chat_thinking": {
         "message": "思考中…"
     },
@@ -977,11 +1121,20 @@
     "conversation_categories": {
         "message": "分类"
     },
+    "conversation_categories_menu": {
+        "message": "分类"
+    },
     "conversation_category_menu": {
         "message": "分类菜单"
     },
     "conversation_category_name_conflict": {
         "message": "已存在同名分类。"
+    },
+    "conversation_category_update_error": {
+        "message": "无法更新分类"
+    },
+    "conversation_clear_categories": {
+        "message": "从所有分类中移除"
     },
     "conversation_close_search": {
         "message": "关闭搜索"
@@ -1005,7 +1158,7 @@
         "message": "删除分类"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "此分类中的对话将移动到「{{category}}」。"
+        "message": "此分类中的对话会保留其他分类。不再属于任何分类的对话将移至「{{category}}」。"
     },
     "conversation_delete_category_confirm_title": {
         "message": "删除分类"
@@ -1028,6 +1181,9 @@
     "conversation_filter_conversations": {
         "message": "筛选对话"
     },
+    "conversation_has_tasks": {
+        "message": "有定时任务"
+    },
     "conversation_load_error": {
         "message": "加载对话失败"
     },
@@ -1042,9 +1198,6 @@
     },
     "conversation_move_error": {
         "message": "移动对话失败"
-    },
-    "conversation_move_to_category": {
-        "message": "移动到分类"
     },
     "conversation_move_to_default": {
         "message": "移动到「{{category}}」"
@@ -1062,7 +1215,7 @@
         "message": "没有匹配「{{query}}」的对话"
     },
     "conversation_no_task_conversations": {
-        "message": "创建过任务的对话会显示在这里"
+        "message": "让智能体按计划执行某项操作后，相关对话会显示在这里"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -1159,6 +1312,9 @@
     },
     "conversation_uncategorized": {
         "message": "未分类"
+    },
+    "conversation_unread": {
+        "message": "未读"
     },
     "conversation_untitled": {
         "message": "未命名"
@@ -1871,6 +2027,9 @@
     "newtab_search_placeholder": {
         "message": "搜索、AI 问答或输入网址"
     },
+    "notification_card_view_details": {
+        "message": "查看详情"
+    },
     "onboard_debug_avatar_alt": {
         "message": "助手头像"
     },
@@ -2237,6 +2396,24 @@
     "skill_recorder_waiting_for_page": {
         "message": "已准备录制 · 打开网页后开始"
     },
+    "skill_target_body": {
+        "message": "{{skill}} 只作用于单个页面。请选择要在哪个标签页上运行。"
+    },
+    "skill_target_field_tab": {
+        "message": "页面"
+    },
+    "skill_target_option_cancel": {
+        "message": "取消"
+    },
+    "skill_target_option_run": {
+        "message": "运行"
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}}（{{space}}）"
+    },
+    "skill_target_title": {
+        "message": "要在哪个页面上运行？"
+    },
     "skills_actions_add": {
         "message": "添加"
     },
@@ -2531,6 +2708,12 @@
     "top_bar_open_in_sidebar": {
         "message": "在侧边栏中打开"
     },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "无法检查原来的空间和个人资料。请重新打开此对话再试。"
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "正在检查原来的空间和个人资料是否可用…"
+    },
     "top_bar_open_in_sidebar_no_page": {
         "message": "此对话尚未关联任何网页，因此无法在侧边栏中打开。"
     },
@@ -2566,6 +2749,12 @@
     },
     "user_action_aborted": {
         "message": "操作已中止"
+    },
+    "user_action_answer": {
+        "message": "回答"
+    },
+    "user_action_answer_placeholder": {
+        "message": "输入你的回答"
     },
     "user_action_ask_from": {
         "message": "来自 {{name}} 的提问"
@@ -2699,8 +2888,8 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
-    "watch_page_kickoff_message": {
-        "message": "帮我盯着这个页面，有重要变化（比如价格）时告诉我：{{url}}"
+    "watch_page_message": {
+        "message": "帮我留意这个页面：{{url}}"
     },
     "welcome_subtitle": {
         "message": "你可以搜索、提问，或与当前页面一起工作"

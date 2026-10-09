@@ -911,6 +911,150 @@
     "chat_tab_context_fallback": {
         "message": "Seitenkontext"
     },
+    "chat_tasks_action_failed": {
+        "message": "Die Aufgabe konnte nicht aktualisiert werden"
+    },
+    "chat_tasks_button": {
+        "message": "Aufgaben in dieser Unterhaltung ({{count}})"
+    },
+    "chat_tasks_cron_daily": {
+        "message": "Täglich um {{time}}"
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "Am {{day}}. jedes Monats um {{time}}"
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "Werktags um {{time}}"
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "Jeden {{days}} um {{time}}"
+    },
+    "chat_tasks_empty": {
+        "message": "Keine Aufgaben in dieser Unterhaltung"
+    },
+    "chat_tasks_every_day": {
+        "message": "Täglich"
+    },
+    "chat_tasks_every_hour": {
+        "message": "Stündlich"
+    },
+    "chat_tasks_every_minute": {
+        "message": "Jede Minute"
+    },
+    "chat_tasks_load_error": {
+        "message": "Aufgaben konnten nicht geladen werden"
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "Weitere Aktionen für {{title}}"
+    },
+    "chat_tasks_mute_reports": {
+        "message": "Nicht mehr hier berichten"
+    },
+    "chat_tasks_muted_toast": {
+        "message": "Diese Aufgabe berichtet nicht mehr in dieser Unterhaltung"
+    },
+    "chat_tasks_next_run": {
+        "message": "Nächste Ausführung {{time}}"
+    },
+    "chat_tasks_no_schedule": {
+        "message": "Wird nur bei manuellem Start ausgeführt"
+    },
+    "chat_tasks_pause": {
+        "message": "Zeitplan pausieren"
+    },
+    "chat_tasks_report_every_run": {
+        "message": "Jede Ausführung"
+    },
+    "chat_tasks_report_here": {
+        "message": "In dieser Unterhaltung berichten"
+    },
+    "chat_tasks_report_menu": {
+        "message": "Aufgabenaktionen"
+    },
+    "chat_tasks_report_on_change": {
+        "message": "Nur Änderungen"
+    },
+    "chat_tasks_report_policy": {
+        "message": "Was berichtet wird"
+    },
+    "chat_tasks_resume": {
+        "message": "Zeitplan fortsetzen"
+    },
+    "chat_tasks_run_index": {
+        "message": "Ausführung Nr. {{index}}"
+    },
+    "chat_tasks_run_now": {
+        "message": "Jetzt ausführen"
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "Aufgabe gestartet"
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "Benutzerdefinierter Zeitplan ({{expr}})"
+    },
+    "chat_tasks_schedule_every": {
+        "message": "Alle {{interval}}"
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "Beendet"
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "Bedingung erfüllt, gestoppt"
+    },
+    "chat_tasks_schedule_once": {
+        "message": "Einmalig, {{time}}"
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "Pausiert"
+    },
+    "chat_tasks_schedule_until": {
+        "message": "bis {{time}}"
+    },
+    "chat_tasks_status_completed": {
+        "message": "Abgeschlossen"
+    },
+    "chat_tasks_status_failed": {
+        "message": "Fehlgeschlagen"
+    },
+    "chat_tasks_status_queued": {
+        "message": "In Warteschlange"
+    },
+    "chat_tasks_status_running": {
+        "message": "Wird ausgeführt"
+    },
+    "chat_tasks_stop_condition": {
+        "message": "Stoppt, wenn: {{condition}}"
+    },
+    "chat_tasks_task_active": {
+        "message": "Aktiv"
+    },
+    "chat_tasks_task_finished": {
+        "message": "Beendet"
+    },
+    "chat_tasks_task_gone": {
+        "message": "Diese Aufgabe existiert nicht mehr"
+    },
+    "chat_tasks_task_manual": {
+        "message": "Manuell"
+    },
+    "chat_tasks_task_paused": {
+        "message": "Pausiert"
+    },
+    "chat_tasks_task_stopped": {
+        "message": "Gestoppt"
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}} ({{zone}})"
+    },
+    "chat_tasks_title": {
+        "message": "Aufgaben in dieser Unterhaltung"
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "Wieder hier berichten"
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "Diese Aufgabe berichtet wieder in dieser Unterhaltung"
+    },
     "chat_thinking": {
         "message": "Denkt nach…"
     },
@@ -977,11 +1121,20 @@
     "conversation_categories": {
         "message": "Kategorien"
     },
+    "conversation_categories_menu": {
+        "message": "Kategorien"
+    },
     "conversation_category_menu": {
         "message": "Kategoriemenü"
     },
     "conversation_category_name_conflict": {
         "message": "Eine Kategorie mit diesem Namen existiert bereits."
+    },
+    "conversation_category_update_error": {
+        "message": "Kategorien konnten nicht aktualisiert werden"
+    },
+    "conversation_clear_categories": {
+        "message": "Aus allen Kategorien entfernen"
     },
     "conversation_close_search": {
         "message": "Suche schließen"
@@ -1005,7 +1158,7 @@
         "message": "Kategorie löschen"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "Unterhaltungen in dieser Kategorie werden in „{{category}}“ verschoben."
+        "message": "Unterhaltungen in dieser Kategorie behalten ihre anderen Kategorien. Unterhaltungen ohne verbleibende Kategorie werden in „{{category}}“ verschoben."
     },
     "conversation_delete_category_confirm_title": {
         "message": "Kategorie löschen"
@@ -1028,6 +1181,9 @@
     "conversation_filter_conversations": {
         "message": "Unterhaltungen filtern"
     },
+    "conversation_has_tasks": {
+        "message": "Hat geplante Aufgaben"
+    },
     "conversation_load_error": {
         "message": "Unterhaltungen konnten nicht geladen werden"
     },
@@ -1042,9 +1198,6 @@
     },
     "conversation_move_error": {
         "message": "Unterhaltung konnte nicht verschoben werden"
-    },
-    "conversation_move_to_category": {
-        "message": "In Kategorie verschieben"
     },
     "conversation_move_to_default": {
         "message": "In „{{category}}“ verschieben"
@@ -1062,7 +1215,7 @@
         "message": "Keine Ergebnisse für „{{query}}“"
     },
     "conversation_no_task_conversations": {
-        "message": "Unterhaltungen, in denen eine Aufgabe erstellt wurde, erscheinen hier"
+        "message": "Bitte den Agenten, etwas nach Zeitplan zu erledigen, und die Unterhaltung erscheint hier"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -1159,6 +1312,9 @@
     },
     "conversation_uncategorized": {
         "message": "Nicht kategorisiert"
+    },
+    "conversation_unread": {
+        "message": "Ungelesen"
     },
     "conversation_untitled": {
         "message": "Ohne Titel"
@@ -1871,6 +2027,9 @@
     "newtab_search_placeholder": {
         "message": "Suchen, KI fragen oder URL eingeben"
     },
+    "notification_card_view_details": {
+        "message": "Details anzeigen"
+    },
     "onboard_debug_avatar_alt": {
         "message": "Avatar des Assistenten"
     },
@@ -2237,6 +2396,24 @@
     "skill_recorder_waiting_for_page": {
         "message": "Bereit zur Aufzeichnung · Öffne eine Website, um zu beginnen"
     },
+    "skill_target_body": {
+        "message": "{{skill}} arbeitet auf einer einzelnen Seite. Wähle den Tab aus, auf dem der Skill ausgeführt werden soll."
+    },
+    "skill_target_field_tab": {
+        "message": "Seite"
+    },
+    "skill_target_option_cancel": {
+        "message": "Abbrechen"
+    },
+    "skill_target_option_run": {
+        "message": "Ausführen"
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}} ({{space}})"
+    },
+    "skill_target_title": {
+        "message": "Auf welcher Seite soll das ausgeführt werden?"
+    },
     "skills_actions_add": {
         "message": "Hinzufügen"
     },
@@ -2531,6 +2708,12 @@
     "top_bar_open_in_sidebar": {
         "message": "In der Seitenleiste öffnen"
     },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "Der ursprüngliche Space und das ursprüngliche Profil konnten nicht geprüft werden. Öffne diese Unterhaltung erneut, um es noch einmal zu versuchen."
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "Es wird geprüft, ob der ursprüngliche Space und das ursprüngliche Profil verfügbar sind…"
+    },
     "top_bar_open_in_sidebar_no_page": {
         "message": "Diese Unterhaltung ist noch mit keiner Webseite verknüpft und kann daher nicht in einer Seitenleiste geöffnet werden."
     },
@@ -2566,6 +2749,12 @@
     },
     "user_action_aborted": {
         "message": "Aktion vorzeitig beendet"
+    },
+    "user_action_answer": {
+        "message": "Antworten"
+    },
+    "user_action_answer_placeholder": {
+        "message": "Gib deine Antwort ein"
     },
     "user_action_ask_from": {
         "message": "Frage von {{name}}"
@@ -2699,8 +2888,8 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
-    "watch_page_kickoff_message": {
-        "message": "Behalte diese Seite für mich im Auge und sag mir Bescheid, wenn sich etwas Wichtiges ändert, zum Beispiel der Preis: {{url}}"
+    "watch_page_message": {
+        "message": "Behalte diese Seite für mich im Auge: {{url}}"
     },
     "welcome_subtitle": {
         "message": "Du kannst suchen, Fragen stellen oder mit der aktuellen Seite arbeiten"

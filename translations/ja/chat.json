@@ -911,6 +911,150 @@
     "chat_tab_context_fallback": {
         "message": "ページのコンテキスト"
     },
+    "chat_tasks_action_failed": {
+        "message": "タスクを更新できませんでした"
+    },
+    "chat_tasks_button": {
+        "message": "この会話のタスク（{{count}}）"
+    },
+    "chat_tasks_cron_daily": {
+        "message": "毎日{{time}}"
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "毎月{{day}}日の{{time}}"
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "平日{{time}}"
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "毎週{{days}}の{{time}}"
+    },
+    "chat_tasks_empty": {
+        "message": "この会話にタスクはありません"
+    },
+    "chat_tasks_every_day": {
+        "message": "毎日"
+    },
+    "chat_tasks_every_hour": {
+        "message": "1時間ごと"
+    },
+    "chat_tasks_every_minute": {
+        "message": "1分ごと"
+    },
+    "chat_tasks_load_error": {
+        "message": "タスクを読み込めませんでした"
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "「{{title}}」のその他の操作"
+    },
+    "chat_tasks_mute_reports": {
+        "message": "ここへの報告を停止"
+    },
+    "chat_tasks_muted_toast": {
+        "message": "このタスクはこの会話に報告しなくなります"
+    },
+    "chat_tasks_next_run": {
+        "message": "次回の実行：{{time}}"
+    },
+    "chat_tasks_no_schedule": {
+        "message": "手動で開始したときのみ実行"
+    },
+    "chat_tasks_pause": {
+        "message": "スケジュールを一時停止"
+    },
+    "chat_tasks_report_every_run": {
+        "message": "すべての実行"
+    },
+    "chat_tasks_report_here": {
+        "message": "この会話に報告する"
+    },
+    "chat_tasks_report_menu": {
+        "message": "タスクの操作"
+    },
+    "chat_tasks_report_on_change": {
+        "message": "変更があったときのみ"
+    },
+    "chat_tasks_report_policy": {
+        "message": "報告する内容"
+    },
+    "chat_tasks_resume": {
+        "message": "スケジュールを再開"
+    },
+    "chat_tasks_run_index": {
+        "message": "{{index}}回目の実行"
+    },
+    "chat_tasks_run_now": {
+        "message": "今すぐ実行"
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "タスクを開始しました"
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "カスタムスケジュール（{{expr}}）"
+    },
+    "chat_tasks_schedule_every": {
+        "message": "{{interval}}ごと"
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "終了"
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "条件を満たしたため停止"
+    },
+    "chat_tasks_schedule_once": {
+        "message": "{{time}}に1回のみ"
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "一時停止中"
+    },
+    "chat_tasks_schedule_until": {
+        "message": "{{time}}まで"
+    },
+    "chat_tasks_status_completed": {
+        "message": "完了"
+    },
+    "chat_tasks_status_failed": {
+        "message": "失敗"
+    },
+    "chat_tasks_status_queued": {
+        "message": "実行待ち"
+    },
+    "chat_tasks_status_running": {
+        "message": "実行中"
+    },
+    "chat_tasks_stop_condition": {
+        "message": "停止条件：{{condition}}"
+    },
+    "chat_tasks_task_active": {
+        "message": "有効"
+    },
+    "chat_tasks_task_finished": {
+        "message": "終了"
+    },
+    "chat_tasks_task_gone": {
+        "message": "このタスクはすでに存在しません"
+    },
+    "chat_tasks_task_manual": {
+        "message": "手動"
+    },
+    "chat_tasks_task_paused": {
+        "message": "一時停止中"
+    },
+    "chat_tasks_task_stopped": {
+        "message": "停止"
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}}（{{zone}}）"
+    },
+    "chat_tasks_title": {
+        "message": "この会話のタスク"
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "ここへの報告を再開"
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "このタスクは再びこの会話に報告するようになります"
+    },
     "chat_thinking": {
         "message": "思考中…"
     },
@@ -977,11 +1121,20 @@
     "conversation_categories": {
         "message": "カテゴリ"
     },
+    "conversation_categories_menu": {
+        "message": "カテゴリ"
+    },
     "conversation_category_menu": {
         "message": "カテゴリメニュー"
     },
     "conversation_category_name_conflict": {
         "message": "この名前のカテゴリは既に存在します。"
+    },
+    "conversation_category_update_error": {
+        "message": "カテゴリを更新できませんでした"
+    },
+    "conversation_clear_categories": {
+        "message": "すべてのカテゴリから削除"
     },
     "conversation_close_search": {
         "message": "検索を閉じる"
@@ -1005,7 +1158,7 @@
         "message": "カテゴリを削除"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "このカテゴリ内の会話は「{{category}}」に移動されます。"
+        "message": "このカテゴリ内の会話は、ほかのカテゴリにはそのまま残ります。カテゴリがなくなった会話は「{{category}}」に移動します。"
     },
     "conversation_delete_category_confirm_title": {
         "message": "カテゴリを削除"
@@ -1028,6 +1181,9 @@
     "conversation_filter_conversations": {
         "message": "会話を絞り込む"
     },
+    "conversation_has_tasks": {
+        "message": "スケジュールされたタスクあり"
+    },
     "conversation_load_error": {
         "message": "会話を読み込めませんでした"
     },
@@ -1042,9 +1198,6 @@
     },
     "conversation_move_error": {
         "message": "会話を移動できませんでした"
-    },
-    "conversation_move_to_category": {
-        "message": "カテゴリに移動"
     },
     "conversation_move_to_default": {
         "message": "「{{category}}」に移動"
@@ -1062,7 +1215,7 @@
         "message": "「{{query}}」に一致する結果はありません"
     },
     "conversation_no_task_conversations": {
-        "message": "タスクが作成された会話がここに表示されます"
+        "message": "エージェントにスケジュールに沿った作業を依頼すると、その会話がここに表示されます"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -1159,6 +1312,9 @@
     },
     "conversation_uncategorized": {
         "message": "未分類"
+    },
+    "conversation_unread": {
+        "message": "未読"
     },
     "conversation_untitled": {
         "message": "無題"
@@ -1871,6 +2027,9 @@
     "newtab_search_placeholder": {
         "message": "検索、AIへの質問、またはURLを入力"
     },
+    "notification_card_view_details": {
+        "message": "詳細を表示"
+    },
     "onboard_debug_avatar_alt": {
         "message": "アシスタントのアバター"
     },
@@ -2237,6 +2396,24 @@
     "skill_recorder_waiting_for_page": {
         "message": "記録の準備完了 · ウェブサイトを開いて開始してください"
     },
+    "skill_target_body": {
+        "message": "{{skill}}は1つのページで動作します。実行するタブを選択してください。"
+    },
+    "skill_target_field_tab": {
+        "message": "ページ"
+    },
+    "skill_target_option_cancel": {
+        "message": "キャンセル"
+    },
+    "skill_target_option_run": {
+        "message": "実行"
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}}（{{space}}）"
+    },
+    "skill_target_title": {
+        "message": "どのページで実行しますか？"
+    },
     "skills_actions_add": {
         "message": "追加"
     },
@@ -2531,6 +2708,12 @@
     "top_bar_open_in_sidebar": {
         "message": "サイドバーで開く"
     },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "元のスペースとプロファイルを確認できませんでした。この会話を開き直して、もう一度お試しください。"
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "元のスペースとプロファイルが利用できるか確認しています…"
+    },
     "top_bar_open_in_sidebar_no_page": {
         "message": "この会話はまだWebページに関連付けられていないため、サイドバーでは開けません。"
     },
@@ -2566,6 +2749,12 @@
     },
     "user_action_aborted": {
         "message": "中断"
+    },
+    "user_action_answer": {
+        "message": "回答"
+    },
+    "user_action_answer_placeholder": {
+        "message": "回答を入力"
     },
     "user_action_ask_from": {
         "message": "{{name}}からの質問"
@@ -2699,8 +2888,8 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
-    "watch_page_kickoff_message": {
-        "message": "このページをウォッチして、価格など重要な変化があったら教えて：{{url}}"
+    "watch_page_message": {
+        "message": "このページを見守っておいて：{{url}}"
     },
     "welcome_subtitle": {
         "message": "検索や質問のほか、現在のページに関する作業もできます"

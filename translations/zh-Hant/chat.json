@@ -911,6 +911,150 @@
     "chat_tab_context_fallback": {
         "message": "頁面上下文"
     },
+    "chat_tasks_action_failed": {
+        "message": "無法更新這項任務"
+    },
+    "chat_tasks_button": {
+        "message": "這個對話中的任務（{{count}}）"
+    },
+    "chat_tasks_cron_daily": {
+        "message": "每天 {{time}}"
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "每月 {{day}} 日 {{time}}"
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "週一到週五 {{time}}"
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "每{{days}} {{time}}"
+    },
+    "chat_tasks_empty": {
+        "message": "這個對話中沒有任務"
+    },
+    "chat_tasks_every_day": {
+        "message": "每天"
+    },
+    "chat_tasks_every_hour": {
+        "message": "每小時"
+    },
+    "chat_tasks_every_minute": {
+        "message": "每分鐘"
+    },
+    "chat_tasks_load_error": {
+        "message": "無法載入任務"
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "{{title}} 的更多動作"
+    },
+    "chat_tasks_mute_reports": {
+        "message": "停止在這裡回報"
+    },
+    "chat_tasks_muted_toast": {
+        "message": "這項任務不會再在這個對話中回報"
+    },
+    "chat_tasks_next_run": {
+        "message": "下次執行：{{time}}"
+    },
+    "chat_tasks_no_schedule": {
+        "message": "只在手動啟動時執行"
+    },
+    "chat_tasks_pause": {
+        "message": "暫停排程"
+    },
+    "chat_tasks_report_every_run": {
+        "message": "每次執行"
+    },
+    "chat_tasks_report_here": {
+        "message": "在這個對話中回報"
+    },
+    "chat_tasks_report_menu": {
+        "message": "任務動作"
+    },
+    "chat_tasks_report_on_change": {
+        "message": "只在有變化時"
+    },
+    "chat_tasks_report_policy": {
+        "message": "回報時機"
+    },
+    "chat_tasks_resume": {
+        "message": "恢復排程"
+    },
+    "chat_tasks_run_index": {
+        "message": "第 {{index}} 次執行"
+    },
+    "chat_tasks_run_now": {
+        "message": "立即執行"
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "任務已開始"
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "自訂排程（{{expr}}）"
+    },
+    "chat_tasks_schedule_every": {
+        "message": "每 {{interval}}"
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "已結束"
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "條件已達成，已停止"
+    },
+    "chat_tasks_schedule_once": {
+        "message": "單次，{{time}}"
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "已暫停"
+    },
+    "chat_tasks_schedule_until": {
+        "message": "直到 {{time}}"
+    },
+    "chat_tasks_status_completed": {
+        "message": "已完成"
+    },
+    "chat_tasks_status_failed": {
+        "message": "失敗"
+    },
+    "chat_tasks_status_queued": {
+        "message": "排隊中"
+    },
+    "chat_tasks_status_running": {
+        "message": "執行中"
+    },
+    "chat_tasks_stop_condition": {
+        "message": "停止條件：{{condition}}"
+    },
+    "chat_tasks_task_active": {
+        "message": "啟用中"
+    },
+    "chat_tasks_task_finished": {
+        "message": "已結束"
+    },
+    "chat_tasks_task_gone": {
+        "message": "這項任務已不存在"
+    },
+    "chat_tasks_task_manual": {
+        "message": "手動"
+    },
+    "chat_tasks_task_paused": {
+        "message": "已暫停"
+    },
+    "chat_tasks_task_stopped": {
+        "message": "已停止"
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}}（{{zone}}）"
+    },
+    "chat_tasks_title": {
+        "message": "這個對話中的任務"
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "恢復在這裡回報"
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "這項任務會再次在這個對話中回報"
+    },
     "chat_thinking": {
         "message": "思考中…"
     },
@@ -977,11 +1121,20 @@
     "conversation_categories": {
         "message": "分類"
     },
+    "conversation_categories_menu": {
+        "message": "分類"
+    },
     "conversation_category_menu": {
         "message": "分類選單"
     },
     "conversation_category_name_conflict": {
         "message": "已有同名的分類。"
+    },
+    "conversation_category_update_error": {
+        "message": "無法更新分類"
+    },
+    "conversation_clear_categories": {
+        "message": "從所有分類中移除"
     },
     "conversation_close_search": {
         "message": "關閉搜尋"
@@ -1005,7 +1158,7 @@
         "message": "刪除分類"
     },
     "conversation_delete_category_confirm_description": {
-        "message": "這個分類中的對話會移至「{{category}}」。"
+        "message": "這個分類中的對話會保留其他分類。沒有其他分類的對話會移至「{{category}}」。"
     },
     "conversation_delete_category_confirm_title": {
         "message": "刪除分類"
@@ -1028,6 +1181,9 @@
     "conversation_filter_conversations": {
         "message": "篩選對話"
     },
+    "conversation_has_tasks": {
+        "message": "有排程任務"
+    },
     "conversation_load_error": {
         "message": "無法載入對話"
     },
@@ -1042,9 +1198,6 @@
     },
     "conversation_move_error": {
         "message": "無法移動這個對話。"
-    },
-    "conversation_move_to_category": {
-        "message": "移至分類"
     },
     "conversation_move_to_default": {
         "message": "移至「{{category}}」"
@@ -1062,7 +1215,7 @@
         "message": "找不到「{{query}}」的相關結果"
     },
     "conversation_no_task_conversations": {
-        "message": "建立過任務的對話會顯示在這裡"
+        "message": "請 AI 代理依排程執行某件事，該對話就會顯示在這裡"
     },
     "conversation_origin_chat": {
         "message": "Phi Chat"
@@ -1159,6 +1312,9 @@
     },
     "conversation_uncategorized": {
         "message": "未分類"
+    },
+    "conversation_unread": {
+        "message": "未讀"
     },
     "conversation_untitled": {
         "message": "未命名"
@@ -1871,6 +2027,9 @@
     "newtab_search_placeholder": {
         "message": "搜尋、詢問 AI，或輸入網址"
     },
+    "notification_card_view_details": {
+        "message": "檢視詳細資訊"
+    },
     "onboard_debug_avatar_alt": {
         "message": "助理頭像"
     },
@@ -2237,6 +2396,24 @@
     "skill_recorder_waiting_for_page": {
         "message": "準備錄製 · 開啟網站即可開始"
     },
+    "skill_target_body": {
+        "message": "{{skill}} 只處理單一網頁。請選擇要在哪個分頁執行。"
+    },
+    "skill_target_field_tab": {
+        "message": "網頁"
+    },
+    "skill_target_option_cancel": {
+        "message": "取消"
+    },
+    "skill_target_option_run": {
+        "message": "執行"
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}}（{{space}}）"
+    },
+    "skill_target_title": {
+        "message": "要在哪個網頁執行？"
+    },
     "skills_actions_add": {
         "message": "加入"
     },
@@ -2531,6 +2708,12 @@
     "top_bar_open_in_sidebar": {
         "message": "在側邊欄中開啟"
     },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "無法檢查原本的空間和設定檔。請重新開啟這個對話再試一次。"
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "正在檢查原本的空間和設定檔是否可用…"
+    },
     "top_bar_open_in_sidebar_no_page": {
         "message": "這個對話尚未連結任何網頁，因此無法在側邊欄中開啟。"
     },
@@ -2566,6 +2749,12 @@
     },
     "user_action_aborted": {
         "message": "動作已中止"
+    },
+    "user_action_answer": {
+        "message": "回答"
+    },
+    "user_action_answer_placeholder": {
+        "message": "輸入你的回答"
     },
     "user_action_ask_from": {
         "message": "來自 {{name}} 的問題"
@@ -2699,8 +2888,8 @@
     "user_input_website_url_placeholder": {
         "message": "https://example.com"
     },
-    "watch_page_kickoff_message": {
-        "message": "幫我留意這個網頁，當有重要變化（例如價格）時告訴我：{{url}}"
+    "watch_page_message": {
+        "message": "幫我留意這個網頁：{{url}}"
     },
     "welcome_subtitle": {
         "message": "你可以搜尋、提問，或處理目前的頁面"
