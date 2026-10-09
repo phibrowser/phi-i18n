@@ -3212,7 +3212,7 @@
         "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. Button: run the skill on the chosen tab."
     },
     "skill_target_tab_in_space": {
-        "message": "{{title}} — {{space}}",
+        "message": "{{title}} ({{space}})",
         "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. One entry of the tab dropdown when the tabs come from more than one space: {{title}} is the tab's title, {{space}} the space's name."
     },
     "skill_target_title": {
@@ -3868,7 +3868,7 @@
         "description": "Location: Chat. New-tab-page widgets: bottom panel, library drawer, per-widget menu. title attribute of a pinned widget's iframe (accessibility name)."
     },
     "worker_target_body": {
-        "message": "This task needs to open browser pages. Pick a space — it will open its tabs there.",
+        "message": "This task needs to open browser pages. Pick the space where it should open its tabs.",
         "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window the first time a conversation needs a browser task. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. {{name}} is a space's name and {{profile}} a browser profile's name, both shown verbatim. First sentence of the card: why the choice is needed."
     },
     "worker_target_field_remember": {
