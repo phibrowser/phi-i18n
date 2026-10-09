@@ -1999,6 +1999,50 @@
         "message": "Sign in to add images or PDFs. Text files are still available.",
         "description": "Location: Chat. Messages shown when a request to the service fails. Menu hint and toast when images and PDFs require sign-in. Text files can still be added without uploading."
     },
+    "extension_update_check": {
+        "message": "Check for updates",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Menu action: check now whether a newer version of the extension is available. Keep it short."
+    },
+    "extension_update_checking": {
+        "message": "Checking for updates…",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Menu item label while the update check is running."
+    },
+    "extension_update_current_version": {
+        "message": "Version {{version}}",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Second line under the menu item: the installed extension version, for example 2026.10.9.1530."
+    },
+    "extension_update_downloading": {
+        "message": "Downloading update…",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Menu item label while a found update is being downloaded."
+    },
+    "extension_update_downloading_version": {
+        "message": "Getting version {{version}}",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Second line while downloading: the version being downloaded."
+    },
+    "extension_update_failed": {
+        "message": "Couldn't check for updates. Try again later.",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Second line when the update check failed for another reason."
+    },
+    "extension_update_ready": {
+        "message": "Version {{version}} is ready",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Second line under the restart action: the new version is downloaded and waiting for the restart."
+    },
+    "extension_update_restart": {
+        "message": "Restart to update",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Menu action once an update is ready: restart the extension to apply it. The chat window reloads."
+    },
+    "extension_update_restart_blocked": {
+        "message": "Wait for the reply to finish, then send or clear your draft.",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Second line when the restart action is disabled: restarting would interrupt a reply that is still being written or discard the unsent message in the composer."
+    },
+    "extension_update_throttled": {
+        "message": "Checked too often. Try again later.",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Second line when the browser refused the check because it was asked too often in a short time."
+    },
+    "extension_update_up_to_date": {
+        "message": "Up to date, version {{version}}",
+        "description": "Location: Chat. Manual Sidecar update in the Phi Chat window's overflow menu, shown only on test (Canary) builds. The menu item checks for a newer version of the extension and, once one is downloaded, restarts it to apply the update. The second line under the item shows the current state. Second line after a check found nothing newer; shows the installed version."
+    },
     "features_chat_with_tabs": {
         "message": "Chat with Tabs",
         "description": "Location: Chat. Context features attached to a message (Chat with Tabs, web search). Feature chip name: answer using attached tabs."
@@ -3830,6 +3874,14 @@
     "user_input_stop_not_confirmed": {
         "message": "Stop not confirmed",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Toast shown when the stop request was not acknowledged."
+    },
+    "user_input_stop_unconfirmed": {
+        "message": "Stopping has not been confirmed. Please try again.",
+        "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Error when cancellation could not be sent or has not been confirmed within five seconds."
+    },
+    "user_input_stopping": {
+        "message": "Stopping…",
+        "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Stop button label while waiting for the server to confirm cancellation."
     },
     "user_input_tab_fallback_title": {
         "message": "Tab",
