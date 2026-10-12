@@ -1679,6 +1679,10 @@
         "message": "Continue setup",
         "description": "Location: Browser. Reopen sync setup with fresh account data"
     },
+    "control_media_playing_in_background_tabs_from": {
+        "message": "Control media playing in background tabs from the sidebar.",
+        "description": "Location: Browser. Advanced settings - Description of Mini Player controls in the sidebar for media playing in background tabs"
+    },
     "convert_to_horizontal_split": {
         "message": "Convert to Horizontal Split",
         "description": "Location: Browser. Split context menu - Switch a stacked split to a side-by-side split"
@@ -2448,8 +2452,8 @@
         "description": "Location: Browser. Tab multi-selection context menu - duplicate all selected tabs"
     },
     "dynamic_expand_on_hover": {
-        "message": "Dynamic (expand on hover)",
-        "description": "Location: Browser. Sidebar media presentation option - Expand after a brief pointer hover, or immediately using keyboard focus or VoiceOver"
+        "message": "Auto",
+        "description": "Location: Browser. Mini Player display option - Expand after a brief pointer hover, or immediately using keyboard focus or VoiceOver"
     },
     "e_g_123456_abc_def": {
         "message": "e.g. 123456:ABC-DEF...",
@@ -3999,6 +4003,10 @@
         "message": "%d min ago",
         "description": "Location: Browser. Download item row - Relative time showing minutes since download completed"
     },
+    "mini_player": {
+        "message": "Mini Player",
+        "description": "Location: Browser. Advanced settings - Menu for turning Mini Player off or choosing its display mode"
+    },
     "minimise": {
         "message": "Minimise",
         "description": "Location: Browser. Agent control pill - collapse the pill into the corner"
@@ -5224,8 +5232,8 @@
         "description": "Location: Browser. Sidebar media player - Adjust the tab playback volume from zero to one hundred percent"
     },
     "player_display": {
-        "message": "Player display",
-        "description": "Location: Browser. General settings - Independent menu for the sidebar media player presentation mode"
+        "message": "Mini Player display mode",
+        "description": "Location: Browser. Advanced settings - Menu for choosing how Mini Player expands or stays compact"
     },
     "please_quit_safari_before_importing_its_data": {
         "message": "Please quit Safari before importing its data.",
@@ -5394,6 +5402,10 @@
     "reader_view": {
         "message": "Reader View",
         "description": "Location: Browser. Reader View shortcut tooltip title in the address bar"
+    },
+    "reader_view_1b15be": {
+        "message": "Reader View",
+        "description": "Location: Browser. Peek popup panel - Tooltip of the button that opens or closes Reader View for the page shown in the floating page preview"
     },
     "reader_view_596d66": {
         "message": "Reader View",
@@ -6336,8 +6348,8 @@
         "description": "Location: Browser. Library - Tooltip and accessibility label for expanding the navigation sidebar"
     },
     "show_sidebar_media_player": {
-        "message": "Show sidebar media player",
-        "description": "Location: Browser. General settings - Toggle for controls for media playing in background tabs"
+        "message": "Show Mini Player",
+        "description": "Location: Browser. Advanced settings - Toggle for showing Mini Player controls for media playing in background tabs"
     },
     "show_tab_switcher": {
         "message": "Show Tab Switcher",
@@ -6360,8 +6372,8 @@
         "description": "Location: Browser. Advanced settings - Toggle title for marking tabs whose pages are unloaded from memory"
     },
     "sidebar_media": {
-        "message": "Sidebar media",
-        "description": "Location: Browser. General settings - Section title for sidebar media player preferences"
+        "message": "Mini Player",
+        "description": "Location: Browser. General settings - Section title for Mini Player preferences"
     },
     "sign_in": {
         "message": "Sign in",
@@ -7320,8 +7332,8 @@
         "description": "Location: Browser. Advanced settings - Hint under the developer mode toggle explaining the kill-switch behavior, the revoked approvals, and that an agent may request it back"
     },
     "turning_the_player_off_leaves_media_playing": {
-        "message": "Turning the player off leaves media playing. Dynamic expands after a brief hover; keyboard focus and VoiceOver can reveal its details immediately.",
-        "description": "Location: Browser. General settings - Explanation of independent enable and presentation preferences, including accessible expansion in Dynamic mode"
+        "message": "Control media playing in background tabs from the sidebar.",
+        "description": "Location: Browser. Advanced settings - Description of Mini Player controls in the sidebar for media playing in background tabs"
     },
     "two_step_login_code_if_enabled": {
         "message": "Two-step login code (if enabled)",
