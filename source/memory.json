@@ -3359,6 +3359,10 @@
         "message": "Preferred size: {{value}}",
         "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row: the artifact's preferred grid size. {{value}} is the size, e.g. 2x1."
     },
+    "widgets_inspect_source_record": {
+        "message": "Record",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Section label for the card's stored record, shown as pretty-printed JSON: id, saved params, origin, timestamps and privileges. Dev builds only."
+    },
     "widgets_inspect_source_refresh_interval": {
         "message": "Refresh interval: {{ms}}ms",
         "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row: how often the widget refetches its data. {{ms}} is the interval in milliseconds."
@@ -3366,6 +3370,18 @@
     "widgets_inspect_source_select": {
         "message": "Select",
         "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Button that selects the section's source text in the page, so the user can copy it with the keyboard themselves."
+    },
+    "widgets_inspect_source_source_changed": {
+        "message": "Source: changed since install",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row, shown for a catalog card whose sources no longer match the template's: it was refined or edited after install, so the template id says where it came from, not what it is now."
+    },
+    "widgets_inspect_source_source_unchanged": {
+        "message": "Source: unchanged copy of the template",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row, shown for a catalog card whose sources are still identical to the template's: nothing has been refined or edited since install."
+    },
+    "widgets_inspect_source_suggested": {
+        "message": "Origin: suggested card",
+        "description": "Location: Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. Dev builds only: the read-only, full-page view of a pinned widget's raw generated source, opened as a Sidecar side sheet from the shared widget menu's Inspect source item. Metadata row, shown when the card was installed automatically as the daily suggestion rather than chosen by the user."
     },
     "widgets_inspect_source_template_id": {
         "message": "Template: {{value}}",
