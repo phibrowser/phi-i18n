@@ -14,6 +14,9 @@
     "a_new_version_of_phi_is_ready": {
         "message": "Er staat een nieuwe versie van Phi klaar om te installeren"
     },
+    "a_profile_is_not_set_up_for": {
+        "message": "Een profiel is nog niet ingesteld voor synchronisatie"
+    },
     "a_profile_with_this_name_already_exists": {
         "message": "Er bestaat al een profiel met deze naam."
     },
@@ -335,8 +338,14 @@
     "always_allow": {
         "message": "Sta altijd toe"
     },
+    "always_compact": {
+        "message": "Altijd compact"
+    },
     "always_e28941": {
         "message": "Altijd"
+    },
+    "always_expanded": {
+        "message": "Altijd uitgeklapt"
     },
     "always_show_bookmark_bar": {
         "message": "Toon bladwijzerbalk altijd"
@@ -470,6 +479,9 @@
     "back": {
         "message": "Terug"
     },
+    "back_10_seconds": {
+        "message": "10 seconden terug"
+    },
     "back_6817d2": {
         "message": "Terug"
     },
@@ -573,6 +585,9 @@
         "message": "Maak bladwijzer van dit tabblad…"
     },
     "bookmarks": {
+        "message": "Bladwijzers"
+    },
+    "bookmarks_06faef": {
         "message": "Bladwijzers"
     },
     "bookmarks_114a6c": {
@@ -848,6 +863,9 @@
     "cancelled": {
         "message": "Geannuleerd"
     },
+    "capture_full_page": {
+        "message": "Leg volledige pagina vast"
+    },
     "certificate_is_invalid": {
         "message": "Certificaat is ongeldig"
     },
@@ -1088,6 +1106,9 @@
     "close_peek_d9aa2e": {
         "message": "Sluit Peek"
     },
+    "close_picture_in_picture": {
+        "message": "Sluit beeld in beeld"
+    },
     "close_side_panel": {
         "message": "Sluit zijvenster"
     },
@@ -1111,6 +1132,9 @@
     },
     "collapse_group": {
         "message": "Klap groep in"
+    },
+    "collapsed": {
+        "message": "Ingeklapt"
     },
     "collect_site_memories": {
         "message": "Verzamel siteherinneringen"
@@ -1337,6 +1361,9 @@
     "could_not_add_attachment": {
         "message": "Kan bijlage niet toevoegen"
     },
+    "could_not_copy_the_screenshot": {
+        "message": "Kan de schermafbeelding niet kopiëren"
+    },
     "could_not_export_bookmarks": {
         "message": "Kan bladwijzers niet exporteren"
     },
@@ -1352,8 +1379,14 @@
     "could_not_save_the_conversation_recovery_record": {
         "message": "Kan het herstelrecord voor gesprekken niet opslaan. Probeer het opnieuw."
     },
+    "could_not_save_the_screenshot": {
+        "message": "Kan de schermafbeelding niet bewaren"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "Kan het AI-gegevensarchief niet klaarzetten."
+    },
+    "could_not_take_a_screenshot_of_this": {
+        "message": "Kan geen schermafbeelding van deze pagina maken"
     },
     "couldn_t_apply_one_of_your_profile": {
         "message": "Kan een van je profielkeuzes niet toepassen. Controleer je verbinding en probeer het opnieuw."
@@ -1418,6 +1451,9 @@
     "couldn_t_reach_the_deletion_service_check": {
         "message": "Kan de verwijderservice niet bereiken. Controleer je internetverbinding en probeer het opnieuw."
     },
+    "couldn_t_read_data_on_this_mac": {
+        "message": "Kan gegevens op deze Mac niet lezen"
+    },
     "couldn_t_read_your_folio": {
         "message": "Kan je Folio niet lezen"
     },
@@ -1427,11 +1463,20 @@
     "couldn_t_save_sync_setup_on_this": {
         "message": "Kan de synchronisatie-instellingen op dit apparaat niet bewaren. Probeer het opnieuw."
     },
+    "couldn_t_save_sync_state_on_this": {
+        "message": "Kan de synchronisatievoortgang op deze Mac niet bewaren"
+    },
     "couldn_t_save_this_page": {
         "message": "Kan deze pagina niet bewaren"
     },
+    "couldn_t_set_up_a_profile_for": {
+        "message": "Kan nog geen profiel instellen voor synchronisatie. Er wordt automatisch opnieuw geprobeerd."
+    },
     "couldn_t_start_guest_mode": {
         "message": "Kon de gastmodus niet starten"
+    },
+    "couldn_t_start_sync_try_again_later": {
+        "message": "Kan synchronisatie niet starten. Probeer het later opnieuw."
     },
     "create": {
         "message": "Maak aan"
@@ -1694,6 +1739,9 @@
     "dismiss_cb343b": {
         "message": "Sluit"
     },
+    "dismiss_media_player": {
+        "message": "Verberg mediaspeler"
+    },
     "display_language": {
         "message": "Weergavetaal"
     },
@@ -1786,6 +1834,9 @@
     },
     "duplicate_tabs": {
         "message": "Dupliceer tabbladen"
+    },
+    "dynamic_expand_on_hover": {
+        "message": "Dynamisch (uitklappen bij aanwijzen)"
     },
     "e_g_123456_abc_def": {
         "message": "bijv. 123456:ABC-DEF…"
@@ -1975,6 +2026,9 @@
     },
     "expand_group": {
         "message": "Vouw groep uit"
+    },
+    "expanded": {
+        "message": "Uitgeklapt"
     },
     "expanding_rollback_package": {
         "message": "Rollbackpakket wordt uitgepakt…"
@@ -2393,6 +2447,9 @@
     "forward": {
         "message": "Vooruit"
     },
+    "forward_10_seconds": {
+        "message": "10 seconden vooruit"
+    },
     "forward_e876ba": {
         "message": "Vooruit"
     },
@@ -2422,6 +2479,9 @@
     },
     "full_control_of_this_browser": {
         "message": "Volledige controle over deze browser"
+    },
+    "full_page_screenshot_copied": {
+        "message": "Schermafbeelding van volledige pagina gekopieerd"
     },
     "general": {
         "message": "Algemeen"
@@ -2732,6 +2792,9 @@
     "larger_text": {
         "message": "Grotere tekst"
     },
+    "last_problem": {
+        "message": "Laatste probleem: %1$@ (%2$@)"
+    },
     "last_successful_sync_on_this_mac": {
         "message": "Laatste geslaagde synchronisatie op deze Mac: %@"
     },
@@ -2831,6 +2894,9 @@
     "links_the_skill_bundled_in_this_app": {
         "message": "Koppelt de skill die met deze app wordt meegeleverd aan de skills-map van een AI-coding-agent, zodat die Phi via het DevTools Protocol kan aansturen. Pi krijgt ook een bijbehorende extensie die inactieve sessies wekt via Agent Transcript-opdrachten. Vereist Node 22+."
     },
+    "live_or_duration_unavailable": {
+        "message": "Live of duur niet beschikbaar"
+    },
     "live_running": {
         "message": "%1$d live · %2$d actief"
     },
@@ -2902,6 +2968,9 @@
     },
     "match_your_spaces": {
         "message": "Koppel je Spaces"
+    },
+    "media": {
+        "message": "Media"
     },
     "message_the_agent": {
         "message": "Stuur de agent een bericht (→ %@)"
@@ -2984,6 +3053,12 @@
     "mute_site": {
         "message": "Demp site"
     },
+    "mute_tab": {
+        "message": "Schakel geluid van tabblad uit"
+    },
+    "muted": {
+        "message": "Geluid uit"
+    },
     "n1_1f": {
         "message": "%1$.1f%%"
     },
@@ -3034,6 +3109,9 @@
     },
     "needs_attention": {
         "message": "Vereist aandacht"
+    },
+    "needs_attention_a_profile_couldn_t_be": {
+        "message": "Vereist aandacht: een profiel kan niet worden ingesteld voor synchronisatie."
     },
     "neither_the_article_nor_a_webpage_copy": {
         "message": "Noch het artikel, noch een webpaginakopie kon worden vastgelegd."
@@ -3215,6 +3293,9 @@
     "next_image": {
         "message": "Volgende afbeelding"
     },
+    "next_media_source": {
+        "message": "Volgende mediabron"
+    },
     "next_space": {
         "message": "Volgende Space"
     },
@@ -3223,6 +3304,9 @@
     },
     "next_steps": {
         "message": "Volgende stappen"
+    },
+    "next_track": {
+        "message": "Volgend nummer"
     },
     "no_active_agent_task": {
         "message": "Geen actieve agenttaak"
@@ -3262,6 +3346,12 @@
     },
     "no_certificate_available": {
         "message": "Geen certificaat beschikbaar"
+    },
+    "no_connection": {
+        "message": "Geen verbinding"
+    },
+    "no_connection_sync_continues_when_this_mac": {
+        "message": "Geen verbinding. De synchronisatie gaat verder zodra deze Mac weer online is."
     },
     "no_custom_value": {
         "message": "Geen aangepaste waarde"
@@ -3307,6 +3397,9 @@
     },
     "no_profiles_to_delete": {
         "message": "Geen profielen om te verwijderen"
+    },
+    "no_recent_changes": {
+        "message": "Geen recente wijzigingen"
     },
     "no_release_notes_available": {
         "message": "Geen release-opmerkingen beschikbaar."
@@ -3392,6 +3485,9 @@
     "not_paired": {
         "message": "Niet gekoppeld"
     },
+    "not_set_up_for_sync_yet": {
+        "message": "Nog niet ingesteld voor synchronisatie: %@"
+    },
     "not_signed_in": {
         "message": "Niet ingelogd"
     },
@@ -3415,6 +3511,9 @@
     },
     "notifications": {
         "message": "Meldingen"
+    },
+    "of": {
+        "message": "%1$@ van %2$@"
     },
     "of_couldn_t_be_added": {
         "message": "%1$d van %2$d niet toegevoegd"
@@ -3590,6 +3689,9 @@
     "open_original": {
         "message": "Open origineel"
     },
+    "open_picture_in_picture": {
+        "message": "Open beeld in beeld"
+    },
     "open_saved_webpage": {
         "message": "Open bewaarde webpagina"
     },
@@ -3637,6 +3739,9 @@
     },
     "pause": {
         "message": "Pauzeren"
+    },
+    "pause_6167f6": {
+        "message": "Pauzeer"
     },
     "paused": {
         "message": "・Gepauzeerd"
@@ -3794,11 +3899,26 @@
     "pinned_tabs_c143dc": {
         "message": "Vastgemaakte tabbladen"
     },
+    "pinned_tabs_f42436": {
+        "message": "Vastgezette tabbladen"
+    },
     "pinned_tabs_from_the_existing_destinations_will": {
         "message": "Vastgezette tabbladen van de bestaande bestemmingen worden samengevoegd. Ongewijzigde kopieën worden gecombineerd, verschillende versies blijven bewaard."
     },
     "pinned_tabs_mk_7a66": {
         "message": "Vastgezette tabbladen"
+    },
+    "play": {
+        "message": "Speel af"
+    },
+    "playback_position": {
+        "message": "Afspeelpositie"
+    },
+    "playback_volume": {
+        "message": "Afspeelvolume"
+    },
+    "player_display": {
+        "message": "Spelerweergave"
     },
     "please_quit_safari_before_importing_its_data": {
         "message": "Stop Safari voordat je de gegevens ervan importeert."
@@ -3847,6 +3967,9 @@
     },
     "previous_space_700580": {
         "message": "Vorige Space"
+    },
+    "previous_track": {
+        "message": "Vorig nummer"
     },
     "print": {
         "message": "Druk af…"
@@ -3897,6 +4020,9 @@
         "message": "Profielen"
     },
     "profiles_535e52": {
+        "message": "Profielen"
+    },
+    "profiles_5d5809": {
         "message": "Profielen"
     },
     "profiles_agents_can_use": {
@@ -4190,8 +4316,14 @@
     "retry_942087": {
         "message": "Opnieuw proberen"
     },
+    "retry_aefddd": {
+        "message": "Opnieuw proberen"
+    },
     "retry_after_phi_sentinel_is_running_normally": {
         "message": "Probeer het opnieuw zodra Phi Sentinel normaal draait."
+    },
+    "retry_setting_up_profiles_for_sync": {
+        "message": "Probeer profielen opnieuw in te stellen voor synchronisatie"
     },
     "return_to_bookmark_url": {
         "message": "Terug naar bladwijzer-URL"
@@ -4259,6 +4391,9 @@
     "save_08f3f4": {
         "message": "Bewaar"
     },
+    "save_1e63b3": {
+        "message": "Bewaar"
+    },
     "save_5ddd29": {
         "message": "Bewaar"
     },
@@ -4322,6 +4457,15 @@
     "scanning": {
         "message": "Scannen…"
     },
+    "screenshot": {
+        "message": "Schermafbeelding"
+    },
+    "screenshot_not_copied_because_the_clipboard_changed": {
+        "message": "Schermafbeelding niet gekopieerd omdat het klembord is gewijzigd"
+    },
+    "screenshot_timed_out_please_try_again": {
+        "message": "De schermafbeelding duurde te lang. Probeer het opnieuw."
+    },
     "search": {
         "message": "Zoeken"
     },
@@ -4330,6 +4474,12 @@
     },
     "search_458d4f": {
         "message": "Zoeken"
+    },
+    "search_6b6ab8": {
+        "message": "Zoek met %@"
+    },
+    "search_ac220a": {
+        "message": "Zoek…"
     },
     "search_downloads": {
         "message": "Zoek in downloads"
@@ -4342,6 +4492,9 @@
     },
     "search_icons": {
         "message": "Zoek symbolen"
+    },
+    "search_mk_3074": {
+        "message": "Zoek met %@"
     },
     "search_or_enter_url": {
         "message": "Zoek of voer URL in"
@@ -4421,6 +4574,12 @@
     "separate_window": {
         "message": "Apart venster"
     },
+    "server_error": {
+        "message": "Serverfout"
+    },
+    "server_rejected_changes": {
+        "message": "Server heeft wijzigingen geweigerd"
+    },
     "service_issue": {
         "message": "Serviceprobleem"
     },
@@ -4451,6 +4610,9 @@
     "setting": {
         "message": "Instelling"
     },
+    "setting_up_a_profile_for_sync": {
+        "message": "Profiel wordt ingesteld voor synchronisatie…"
+    },
     "setting_up_your_own_telegram_bot_using": {
         "message": "Je eigen Telegram-bot instellen via @BotFather van Telegram"
     },
@@ -4461,6 +4623,9 @@
         "message": "Instellingen"
     },
     "settings_c717bd": {
+        "message": "Instellingen"
+    },
+    "settings_ecd152": {
         "message": "Instellingen"
     },
     "settings_enable_logging_pref": {
@@ -4568,17 +4733,26 @@
     "show_kiosk_open_in_menu": {
         "message": "Toon het “Openen in”-menu van Kiosk"
     },
+    "show_media_details": {
+        "message": "Toon mediadetails"
+    },
     "show_open_tab_indicators": {
         "message": "Toon indicatoren voor geopende tabbladen"
     },
     "show_operated_pages_exactly_as_rendered": {
         "message": "Toon bediende pagina's precies zoals ze worden gerenderd"
     },
+    "show_playing_tab": {
+        "message": "Toon afspelend tabblad"
+    },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "Proactieve suggesties tonen op de pagina Nieuw tabblad"
     },
     "show_sidebar": {
         "message": "Toon navigatiekolom"
+    },
+    "show_sidebar_media_player": {
+        "message": "Toon mediaspeler in zijbalk"
     },
     "show_tab_switcher": {
         "message": "Toon tabbladwisselaar"
@@ -4594,6 +4768,9 @@
     },
     "show_unloaded_tab_indicators": {
         "message": "Toon indicatoren voor ontladen tabbladen"
+    },
+    "sidebar_media": {
+        "message": "Media in zijbalk"
     },
     "sign_in": {
         "message": "Inloggen"
@@ -4627,6 +4804,9 @@
     },
     "sign_in_b8f853": {
         "message": "Inloggen"
+    },
+    "sign_in_expired": {
+        "message": "Inlogsessie verlopen"
     },
     "sign_in_f425c4": {
         "message": "Inloggen"
@@ -4721,6 +4901,9 @@
     "some_profiles_could_not_be_loaded": {
         "message": "Sommige profielen konden niet worden geladen."
     },
+    "some_synced_data_couldn_t_be_read": {
+        "message": "Sommige gesynchroniseerde gegevens kunnen niet worden gelezen"
+    },
     "something_went_wrong": {
         "message": "Er ging iets mis? "
     },
@@ -4732,6 +4915,9 @@
     },
     "something_went_wrong_when_signing_out": {
         "message": "Er is iets misgegaan bij het uitloggen"
+    },
+    "something_went_wrong_while_setting_up_the": {
+        "message": "Er is iets misgegaan bij het instellen van het profiel."
     },
     "something_worth_returning_to": {
         "message": "Iets om naar terug te keren."
@@ -4779,6 +4965,9 @@
         "message": "Spaces"
     },
     "spaces_785f2c": {
+        "message": "Spaces"
+    },
+    "spaces_87c33b": {
         "message": "Spaces"
     },
     "spaces_and_phi_data": {
@@ -4856,8 +5045,17 @@
     "sync_contents": {
         "message": "Synchronisatie-inhoud"
     },
+    "sync_did_not_finish": {
+        "message": "Synchronisatie is niet voltooid"
+    },
+    "sync_finished": {
+        "message": "Synchronisatie voltooid"
+    },
     "sync_has_not_started": {
         "message": "Synchronisatie is nog niet gestart"
+    },
+    "sync_in_progress": {
+        "message": "Synchronisatie bezig"
     },
     "sync_isn_t_available_right_now_so": {
         "message": "Synchronisatie is op dit moment niet beschikbaar, dus de Spaces van je account konden niet worden geladen."
@@ -4865,8 +5063,23 @@
     "sync_isn_t_available_right_now_so_312469": {
         "message": "Synchronisatie is op dit moment niet beschikbaar, dus dit apparaat is niet verwijderd. Controleer of je nog bent ingelogd en probeer het daarna opnieuw."
     },
+    "sync_needs_to_be_reset": {
+        "message": "Synchronisatie moet opnieuw worden ingesteld"
+    },
     "sync_needs_to_be_set_up_again": {
         "message": "Synchronisatie moet opnieuw worden ingesteld. Kies Voltooi later en kies daarna Stel synchronisatie opnieuw in via Instellingen → Synchronisatie. Je lokale browsegegevens blijven bewaard."
+    },
+    "sync_now": {
+        "message": "Synchroniseer nu"
+    },
+    "sync_paused": {
+        "message": "Synchronisatie gepauzeerd"
+    },
+    "sync_resumed": {
+        "message": "Synchronisatie hervat"
+    },
+    "sync_will_start_shortly": {
+        "message": "Synchronisatie start binnenkort…"
     },
     "syncing": {
         "message": "Synchroniseren…"
@@ -4898,11 +5111,20 @@
     "tab_name": {
         "message": "Tabbladnaam"
     },
+    "tab_or_space_to_search": {
+        "message": "Tab of spatiebalk om te zoeken met %@"
+    },
     "tab_search": {
         "message": "Zoek in tabbladen"
     },
+    "tab_to_search": {
+        "message": "Tab om te zoeken met %@"
+    },
     "tabs": {
         "message": "%1$@ · %2$d tabbladen"
+    },
+    "taking_full_page_screenshot": {
+        "message": "Schermafbeelding van volledige pagina wordt gemaakt…"
     },
     "target_space_unavailable": {
         "message": "Doel-Space niet beschikbaar"
@@ -5014,6 +5236,9 @@
     },
     "the_selected_time_machine_backup_is_no": {
         "message": "De geselecteerde Time Machine-back-up is niet meer beschikbaar."
+    },
+    "the_sync_service_returned_an_error": {
+        "message": "De synchronisatieservice heeft een fout teruggegeven."
     },
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "Het verwijderen van de Time Machine-back-up is onderbroken."
@@ -5264,6 +5489,9 @@
     "turning_developer_mode_off_turns_off_agent": {
         "message": "Als je de ontwikkelaarsmodus uitschakelt, worden agenttoegang en de wachtwoordmanager voor agents uitgeschakeld en worden alle toegestane agents en goedkeuringen voor inloggegevens ingetrokken. Een agent die later verbinding maakt, kan je vragen om de modus weer in te schakelen."
     },
+    "turning_the_player_off_leaves_media_playing": {
+        "message": "Als je de speler uitschakelt, blijft media gewoon afspelen. Dynamisch klapt uit na kort aanwijzen; met toetsenbordfocus en VoiceOver kun je de details meteen tonen."
+    },
     "two_step_login_code_if_enabled": {
         "message": "Code voor tweestapsverificatie (indien ingeschakeld)"
     },
@@ -5332,6 +5560,12 @@
     },
     "unlock_d1fd02": {
         "message": "Ontgrendel…"
+    },
+    "unmute_tab": {
+        "message": "Schakel geluid van tabblad in"
+    },
+    "unmuted": {
+        "message": "Geluid aan"
     },
     "unnamed_profile": {
         "message": "Naamloos profiel (%@)"
@@ -5426,6 +5660,9 @@
     "url_rules_84ffe4": {
         "message": "URL-regels"
     },
+    "url_rules_89e3ca": {
+        "message": "URL-regels"
+    },
     "url_rules_dc27b3": {
         "message": "URL-regels"
     },
@@ -5492,8 +5729,23 @@
     "view_page_source": {
         "message": "Toon paginabron"
     },
+    "volume_click_to_toggle_mute": {
+        "message": "Volume (⌥-klik om geluid in of uit te schakelen)"
+    },
+    "waiting_for_a_profile_to_be_paired": {
+        "message": "Wachten tot een profiel is gekoppeld"
+    },
+    "waiting_for_all_profiles_to_be_available": {
+        "message": "Wachten tot alle profielen beschikbaar zijn"
+    },
     "waiting_for_approval": {
         "message": "Wachten op goedkeuring"
+    },
+    "waiting_for_current_sync": {
+        "message": "Wachten op huidige synchronisatie…"
+    },
+    "waiting_for_profiles_to_load": {
+        "message": "Wachten tot profielen zijn geladen"
     },
     "wants_to_control_phi_browser": {
         "message": "“%@” wil Phi Browser besturen"
@@ -5659,6 +5911,9 @@
     },
     "your_session_has_expired_please_sign_in_0829": {
         "message": "Je sessie is verlopen. Log opnieuw in en start daarna de export opnieuw."
+    },
+    "your_sign_in_needs_to_be_renewed": {
+        "message": "Je moet opnieuw inloggen."
     },
     "your_spaces": {
         "message": "Je Spaces"

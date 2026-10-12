@@ -19,6 +19,10 @@
         "message": "A new version of Phi is ready to install",
         "description": "Location: Browser. Update window - Ready to install title"
     },
+    "a_profile_is_not_set_up_for": {
+        "message": "A profile is not set up for sync yet",
+        "description": "Location: Browser. Sync settings - line under Sync paused when the browser profile that is not set up for sync has no name to show"
+    },
     "a_profile_with_this_name_already_exists": {
         "message": "A profile with this name already exists.",
         "description": "Location: Browser. Validation shown when a new or renamed profile name duplicates an existing profile"
@@ -447,9 +451,17 @@
         "message": "Always Allow",
         "description": "Location: Browser. CDP consent - allow and remember"
     },
+    "always_compact": {
+        "message": "Always compact",
+        "description": "Location: Browser. Sidebar media presentation option - Keep transport controls compact without pointer or keyboard expansion"
+    },
     "always_e28941": {
         "message": "Always",
         "description": "Location: Browser. Developer settings - persisted CDP grant pill"
+    },
+    "always_expanded": {
+        "message": "Always expanded",
+        "description": "Location: Browser. Sidebar media presentation option - Show the full player whenever background media is available"
     },
     "always_show_bookmark_bar": {
         "message": "Always Show Bookmark Bar",
@@ -627,6 +639,10 @@
         "message": "Back",
         "description": "Location: Browser. CDP consent - return from the deny scope step to the allow-or-deny decision"
     },
+    "back_10_seconds": {
+        "message": "Back 10 seconds",
+        "description": "Location: Browser. Sidebar media player - Seek backward ten seconds"
+    },
     "back_6817d2": {
         "message": "Back",
         "description": "Location: Browser. Browser migration wizard - button returning from the preview to the source list"
@@ -766,6 +782,10 @@
     "bookmarks": {
         "message": "Bookmarks",
         "description": "Location: Browser. Bookmarks menu - Menu title"
+    },
+    "bookmarks_06faef": {
+        "message": "Bookmarks",
+        "description": "Location: Browser. Sync settings - per-kind status row for synced bookmarks and folders"
     },
     "bookmarks_114a6c": {
         "message": "Bookmarks",
@@ -1131,6 +1151,10 @@
         "message": "Cancelled",
         "description": "Location: Browser. Download state"
     },
+    "capture_full_page": {
+        "message": "Capture Full Page",
+        "description": "Location: Browser. File menu - Capture the entire current webpage and copy it as an image"
+    },
     "certificate_is_invalid": {
         "message": "Certificate is invalid",
         "description": "Location: Browser. Address bar menu - Certificate validity status"
@@ -1451,6 +1475,10 @@
         "message": "Close Peek",
         "description": "Location: Browser. Pinned tab cell - Tooltip of the corner badge that closes the floating page preview opened from this pinned tab"
     },
+    "close_picture_in_picture": {
+        "message": "Close picture in picture",
+        "description": "Location: Browser. Sidebar media player - Return a picture-in-picture video to its page"
+    },
     "close_side_panel": {
         "message": "Close Side Panel",
         "description": "Location: Browser. Extension side panel - Tooltip and accessibility label for the header control that closes the panel"
@@ -1482,6 +1510,10 @@
     "collapse_group": {
         "message": "Collapse Group",
         "description": "Location: Browser. Tab group context menu - Collapse an expanded group"
+    },
+    "collapsed": {
+        "message": "Collapsed",
+        "description": "Location: Browser. Sync settings - VoiceOver value of the Details disclosure while per-context status is hidden"
     },
     "collect_site_memories": {
         "message": "Collect Site Memories",
@@ -1783,6 +1815,10 @@
         "message": "Could Not Add Attachment",
         "description": "Location: Browser. Feedback form - Alert title when selected attachments cannot be added"
     },
+    "could_not_copy_the_screenshot": {
+        "message": "Could not copy the screenshot",
+        "description": "Location: Browser. Screenshot - Error toast when the system clipboard write fails"
+    },
     "could_not_export_bookmarks": {
         "message": "Could Not Export Bookmarks",
         "description": "Location: Browser. Export bookmarks failure alert - title shown when writing the exported HTML file fails"
@@ -1803,9 +1839,17 @@
         "message": "Could not save the conversation recovery record. Please try again.",
         "description": "Location: Browser. Profile deletion - Error when the local recovery record could not be saved before deleting a profile"
     },
+    "could_not_save_the_screenshot": {
+        "message": "Could not save the screenshot",
+        "description": "Location: Browser. Screenshot - Error toast when writing the selected JPEG file fails"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "Could not stage the AI data archive.",
         "description": "Location: Browser. User data export - Error when the prepared AI data archive cannot be staged for backup"
+    },
+    "could_not_take_a_screenshot_of_this": {
+        "message": "Could not take a screenshot of this page",
+        "description": "Location: Browser. Screenshot - Error toast when page capture fails or returns an invalid image"
     },
     "couldn_t_apply_one_of_your_profile": {
         "message": "Couldn’t apply one of your profile choices. Check your connection and retry.",
@@ -1891,6 +1935,10 @@
         "message": "Couldn't reach the deletion service. Check your internet connection and try again.",
         "description": "Location: Browser. Account deletion - Error when the network request could not complete"
     },
+    "couldn_t_read_data_on_this_mac": {
+        "message": "Couldn’t read data on this Mac",
+        "description": "Location: Browser. Sync settings - last sync problem: this Mac could not read its own local data of one kind, such as Bookmarks, to sync it"
+    },
     "couldn_t_read_your_folio": {
         "message": "Couldn't read your Folio",
         "description": "Location: Browser. Folio library - Heading for a file or folder access error"
@@ -1903,13 +1951,25 @@
         "message": "Couldn’t save sync setup on this device. Try again.",
         "description": "Location: Browser. Sync setup - local enrollment or recovery confirmation could not be saved"
     },
+    "couldn_t_save_sync_state_on_this": {
+        "message": "Couldn’t save sync state on this Mac",
+        "description": "Location: Browser. Sync settings - last sync problem: this Mac could not store its sync progress"
+    },
     "couldn_t_save_this_page": {
         "message": "Couldn't save this page",
         "description": "Location: Browser. Folio - Toast shown when nothing could be written to the destination folder"
     },
+    "couldn_t_set_up_a_profile_for": {
+        "message": "Couldn’t set up a profile for sync yet. Trying again automatically.",
+        "description": "Location: Browser. Sync settings - line under Sync paused after setting up a browser profile for sync failed in a way that is retried on its own"
+    },
     "couldn_t_start_guest_mode": {
         "message": "Couldn’t start Guest Mode",
         "description": "Location: Browser. Guest mode - Alert title when authenticated credentials could not be cleared"
+    },
+    "couldn_t_start_sync_try_again_later": {
+        "message": "Couldn’t start sync. Try again later.",
+        "description": "Location: Browser. Sync settings - shown under the sync status when this Mac refused to start the sync the user requested with Sync Now"
     },
     "create": {
         "message": "Create",
@@ -2259,6 +2319,10 @@
         "message": "Dismiss",
         "description": "Location: Browser. Living downloads - Tooltip for dismissing a completed download"
     },
+    "dismiss_media_player": {
+        "message": "Dismiss media player",
+        "description": "Location: Browser. Sidebar media player - Hide this media source without changing playback"
+    },
     "display_language": {
         "message": "Display language",
         "description": "Location: Browser. General settings - Row title for choosing Phi's native interface language"
@@ -2382,6 +2446,10 @@
     "duplicate_tabs": {
         "message": "Duplicate Tabs",
         "description": "Location: Browser. Tab multi-selection context menu - duplicate all selected tabs"
+    },
+    "dynamic_expand_on_hover": {
+        "message": "Dynamic (expand on hover)",
+        "description": "Location: Browser. Sidebar media presentation option - Expand after a brief pointer hover, or immediately using keyboard focus or VoiceOver"
     },
     "e_g_123456_abc_def": {
         "message": "e.g. 123456:ABC-DEF...",
@@ -2634,6 +2702,10 @@
     "expand_group": {
         "message": "Expand Group",
         "description": "Location: Browser. Tab group context menu - Expand a collapsed group"
+    },
+    "expanded": {
+        "message": "Expanded",
+        "description": "Location: Browser. Sync settings - VoiceOver value of the Details disclosure while it shows per-context status"
     },
     "expanding_rollback_package": {
         "message": "Expanding rollback package...",
@@ -3191,6 +3263,10 @@
         "message": "Forward",
         "description": "Location: Browser. Web content header - Accessibility description for forward navigation button"
     },
+    "forward_10_seconds": {
+        "message": "Forward 10 seconds",
+        "description": "Location: Browser. Sidebar media player - Seek forward ten seconds"
+    },
     "forward_e876ba": {
         "message": "Forward",
         "description": "Location: Browser. Shortcuts settings - Command title for navigating forward"
@@ -3230,6 +3306,10 @@
     "full_control_of_this_browser": {
         "message": "Full control of this browser",
         "description": "Location: Browser. CDP consent - headline naming what agent access grants"
+    },
+    "full_page_screenshot_copied": {
+        "message": "Full page screenshot copied",
+        "description": "Location: Browser. Screenshot - Success toast after copying the JPEG to the clipboard"
     },
     "general": {
         "message": "General",
@@ -3643,6 +3723,10 @@
         "message": "Larger Text",
         "description": "Location: Browser. Folio library - Increases reading text size"
     },
+    "last_problem": {
+        "message": "Last problem: %1$@ (%2$@)",
+        "description": "Location: Browser. Sync settings - the most recent sync problem on this Mac; %1$@ is the kind of problem, such as No connection, %2$@ is how long ago it happened, such as 5 minutes ago"
+    },
     "last_successful_sync_on_this_mac": {
         "message": "Last successful sync on this Mac: %@",
         "description": "Location: Browser. Devices settings - time of the last successful sync on this Mac; %@ is the date and time"
@@ -3775,6 +3859,10 @@
         "message": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Phi over the DevTools Protocol. Pi also gets a companion extension that wakes idle sessions from Agent Transcript commands. Requires Node 22+.",
         "description": "Location: Browser. Developer settings - Explanation for the phi-browser skill installer"
     },
+    "live_or_duration_unavailable": {
+        "message": "Live or duration unavailable",
+        "description": "Location: Browser. Sidebar media player - Status when playback has no finite duration"
+    },
     "live_running": {
         "message": "%1$d live · %2$d running",
         "description": "Location: Browser. Agent console - live vs actively running agent task counts"
@@ -3870,6 +3958,10 @@
     "match_your_spaces": {
         "message": "Match your Spaces",
         "description": "Location: Browser. Sync setup - title of the Space matching step"
+    },
+    "media": {
+        "message": "Media",
+        "description": "Location: Browser. Sidebar media player - Fallback title when the page and media session have no title"
     },
     "message_the_agent": {
         "message": "Message the agent (→ %@)",
@@ -3979,6 +4071,14 @@
         "message": "Mute Site",
         "description": "Location: Browser. Shortcuts settings - Command title for muting audio from the current site"
     },
+    "mute_tab": {
+        "message": "Mute tab",
+        "description": "Location: Browser. Sidebar media player - Mute the tab that owns the media"
+    },
+    "muted": {
+        "message": "Muted",
+        "description": "Location: Browser. Sidebar media player - Accessible status when the source tab is muted"
+    },
     "n1_1f": {
         "message": "%1$.1f%%",
         "description": "Location: Browser. Sync setup review - an overlay opacity as a percentage with one decimal; %1$.1f is the number"
@@ -4046,6 +4146,10 @@
     "needs_attention": {
         "message": "Needs attention",
         "description": "Location: Browser. Sync has a failure requiring attention"
+    },
+    "needs_attention_a_profile_couldn_t_be": {
+        "message": "Needs attention: a profile couldn’t be set up for sync.",
+        "description": "Location: Browser. Sync settings - line under Sync paused after the sync service refused to set up a browser profile; the user can press Retry"
     },
     "neither_the_article_nor_a_webpage_copy": {
         "message": "Neither the article nor a webpage copy could be captured.",
@@ -4287,6 +4391,10 @@
         "message": "Next image",
         "description": "Location: Browser. Image preview: accessibility label for next image control"
     },
+    "next_media_source": {
+        "message": "Next media source",
+        "description": "Location: Browser. Sidebar media accessibility action - Cycle to the next background media tab without changing playback or tab focus"
+    },
     "next_space": {
         "message": "Next Space",
         "description": "Location: Browser. Spaces menu - Activate the next Space in the strip"
@@ -4298,6 +4406,10 @@
     "next_steps": {
         "message": "Next steps",
         "description": "Location: Browser. Onboarding next steps - Page title"
+    },
+    "next_track": {
+        "message": "Next track",
+        "description": "Location: Browser. Sidebar media player - Play the next track in the page queue"
     },
     "no_active_agent_task": {
         "message": "No active agent task",
@@ -4350,6 +4462,14 @@
     "no_certificate_available": {
         "message": "No certificate available",
         "description": "Location: Browser. No certificate tooltip"
+    },
+    "no_connection": {
+        "message": "No connection",
+        "description": "Location: Browser. Sync settings - last sync problem: this Mac could not reach the sync service"
+    },
+    "no_connection_sync_continues_when_this_mac": {
+        "message": "No connection. Sync continues when this Mac is back online.",
+        "description": "Location: Browser. Sync settings - line under Sync paused when setting up a browser profile for sync failed because this Mac could not reach the sync service"
     },
     "no_custom_value": {
         "message": "No custom value",
@@ -4410,6 +4530,10 @@
     "no_profiles_to_delete": {
         "message": "No Profiles to Delete",
         "description": "Location: Browser. Spaces menu - Delete Profile submenu empty state"
+    },
+    "no_recent_changes": {
+        "message": "No recent changes",
+        "description": "Location: Browser. Sync settings - shown for one kind of content, such as Bookmarks, when no sync since the app started has sent or received changes of that kind"
     },
     "no_release_notes_available": {
         "message": "No release notes available.",
@@ -4523,6 +4647,10 @@
         "message": "Not paired",
         "description": "Location: Browser. Sync status before matching completes"
     },
+    "not_set_up_for_sync_yet": {
+        "message": "Not set up for sync yet: %@",
+        "description": "Location: Browser. Sync settings - line under Sync paused naming the browser profiles on this Mac that are not set up for sync; %@ is a list of one to three profile names"
+    },
     "not_signed_in": {
         "message": "Not signed in",
         "description": "Location: Browser. Phi & AI settings - Bitwarden signed-out status"
@@ -4554,6 +4682,10 @@
     "notifications": {
         "message": "Notifications",
         "description": "Location: Browser. Profiles settings - data link to notification settings"
+    },
+    "of": {
+        "message": "%1$@ of %2$@",
+        "description": "Location: Browser. Sidebar media player - Accessible playback position; first time is elapsed, second time is total duration"
     },
     "of_couldn_t_be_added": {
         "message": "%1$d of %2$d couldn't be added",
@@ -4787,6 +4919,10 @@
         "message": "Open Original",
         "description": "Location: Browser. Folio library - Opens the original website in the owning browser window"
     },
+    "open_picture_in_picture": {
+        "message": "Open picture in picture",
+        "description": "Location: Browser. Sidebar media player - Pop the playing video into a floating picture-in-picture window"
+    },
     "open_saved_webpage": {
         "message": "Open Saved Webpage",
         "description": "Location: Browser. Folio library - Opens the saved webpage copy in a browser tab"
@@ -4850,6 +4986,10 @@
     "pause": {
         "message": "Pause",
         "description": "Location: Browser. Download item row - Tooltip for pause download button"
+    },
+    "pause_6167f6": {
+        "message": "Pause",
+        "description": "Location: Browser. Sidebar media player - Pause the current page media"
     },
     "paused": {
         "message": "・Paused",
@@ -5059,6 +5199,10 @@
         "message": "Pinned Tabs",
         "description": "Location: Browser. Library Space card - pinned tabs section"
     },
+    "pinned_tabs_f42436": {
+        "message": "Pinned tabs",
+        "description": "Location: Browser. Sync settings - per-kind status row for synced pinned tabs"
+    },
     "pinned_tabs_from_the_existing_destinations_will": {
         "message": "Pinned tabs from the existing destinations will be merged. Unchanged copies will be combined, while different versions will be kept.",
         "description": "Location: Browser. Spaces settings - confirmation body for broadening pinned-tab scope"
@@ -5066,6 +5210,22 @@
     "pinned_tabs_mk_7a66": {
         "message": "Pinned tabs",
         "description": "Location: Browser. Browser migration wizard - label of a migrated Profile's pinned tabs outcome"
+    },
+    "play": {
+        "message": "Play",
+        "description": "Location: Browser. Sidebar media player - Resume the current page media"
+    },
+    "playback_position": {
+        "message": "Playback position",
+        "description": "Location: Browser. Sidebar media player - Accessible label for the seek timeline"
+    },
+    "playback_volume": {
+        "message": "Playback volume",
+        "description": "Location: Browser. Sidebar media player - Adjust the tab playback volume from zero to one hundred percent"
+    },
+    "player_display": {
+        "message": "Player display",
+        "description": "Location: Browser. General settings - Independent menu for the sidebar media player presentation mode"
     },
     "please_quit_safari_before_importing_its_data": {
         "message": "Please quit Safari before importing its data.",
@@ -5130,6 +5290,10 @@
     "previous_space_700580": {
         "message": "Previous Space",
         "description": "Location: Browser. Shortcuts settings - Command title for selecting the previous Space"
+    },
+    "previous_track": {
+        "message": "Previous track",
+        "description": "Location: Browser. Sidebar media player - Play the previous track in the page queue"
     },
     "print": {
         "message": "Print…",
@@ -5198,6 +5362,10 @@
     "profiles_535e52": {
         "message": "Profiles",
         "description": "Location: Browser. Settings - Tab title for profiles management"
+    },
+    "profiles_5d5809": {
+        "message": "Profiles",
+        "description": "Location: Browser. Sync settings - group row in Details above the sync status of each browser profile on this Mac"
     },
     "profiles_agents_can_use": {
         "message": "Profiles agents can use",
@@ -5587,9 +5755,17 @@
         "message": "Retry",
         "description": "Location: Browser. Phi Link - Retry loading official bot"
     },
+    "retry_aefddd": {
+        "message": "Retry",
+        "description": "Location: Browser. Sync settings - button in place of Sync Now while sync is paused; it tries again at once to set up the browser profiles that are not set up for sync"
+    },
     "retry_after_phi_sentinel_is_running_normally": {
         "message": "Retry after Phi Sentinel is running normally.",
         "description": "Location: Browser. IM Channels - Official bot retry hint when service is unavailable"
+    },
+    "retry_setting_up_profiles_for_sync": {
+        "message": "Retry setting up profiles for sync",
+        "description": "Location: Browser. Sync settings - VoiceOver label of the Retry button shown while sync is paused until every browser profile on this Mac is set up for sync"
     },
     "return_to_bookmark_url": {
         "message": "Return to Bookmark URL",
@@ -5679,6 +5855,10 @@
         "message": "Save",
         "description": "Location: Browser. Account settings - Save button in rename dialog"
     },
+    "save_1e63b3": {
+        "message": "Save",
+        "description": "Location: Browser. Screenshot - Button on the copied screenshot toast to save the JPEG to a file"
+    },
     "save_5ddd29": {
         "message": "Save",
         "description": "Location: Browser. Save button"
@@ -5763,6 +5943,18 @@
         "message": "Scanning…",
         "description": "Location: Browser. Short status - scanning in progress"
     },
+    "screenshot": {
+        "message": "Screenshot",
+        "description": "Location: Browser. Screenshot - Fallback JPEG file name when the page title is empty or unusable"
+    },
+    "screenshot_not_copied_because_the_clipboard_changed": {
+        "message": "Screenshot not copied because the clipboard changed",
+        "description": "Location: Browser. Screenshot - Toast when preserving content the user copied during capture"
+    },
+    "screenshot_timed_out_please_try_again": {
+        "message": "Screenshot timed out. Please try again.",
+        "description": "Location: Browser. Screenshot - Error toast when the page capture does not finish in time"
+    },
     "search": {
         "message": "Search",
         "description": "Location: Browser. Address bar - Initial accessibility description for the search icon"
@@ -5774,6 +5966,14 @@
     "search_458d4f": {
         "message": "Search",
         "description": "Location: Browser. Address bar - Accessibility description for the fallback search icon shown with suggestions"
+    },
+    "search_6b6ab8": {
+        "message": "Search %@",
+        "description": "Location: Browser. Address bar - Suggestion that selects the named search engine"
+    },
+    "search_ac220a": {
+        "message": "Search…",
+        "description": "Location: Browser. Address bar - Empty query placeholder beside the selected search engine badge"
     },
     "search_downloads": {
         "message": "Search Downloads",
@@ -5790,6 +5990,10 @@
     "search_icons": {
         "message": "Search icons",
         "description": "Location: Browser. Icon picker - Search field placeholder for Phi icons"
+    },
+    "search_mk_3074": {
+        "message": "Search %@",
+        "description": "Location: Browser. Address bar - Placeholder after selecting a search engine; the placeholder is its name"
     },
     "search_or_enter_url": {
         "message": "Search or Enter URL",
@@ -5895,6 +6099,14 @@
         "message": "Separate Window",
         "description": "Location: Browser. Agent console placement - standalone window"
     },
+    "server_error": {
+        "message": "Server error",
+        "description": "Location: Browser. Sync settings - last sync problem: the sync service returned an error"
+    },
+    "server_rejected_changes": {
+        "message": "Server rejected changes",
+        "description": "Location: Browser. Sync settings - last sync problem: the sync service did not accept changes sent from this Mac"
+    },
     "service_issue": {
         "message": "Service issue",
         "description": "Location: Browser. Phi Link - Custom bot service issue status"
@@ -5935,6 +6147,10 @@
         "message": "Setting",
         "description": "Location: Browser. Extension list - Section title for extension settings"
     },
+    "setting_up_a_profile_for_sync": {
+        "message": "Setting up a profile for sync…",
+        "description": "Location: Browser. Sync settings - line under Sync paused while this Mac sets up a new browser profile for sync; nothing has failed"
+    },
     "setting_up_your_own_telegram_bot_using": {
         "message": "Setting up your own Telegram bot using Telegram's @BotFather",
         "description": "Location: Browser. Phi Link - Custom bot subtitle"
@@ -5950,6 +6166,10 @@
     "settings_c717bd": {
         "message": "Settings",
         "description": "Location: Browser. Shortcuts settings - Command title for opening Phi settings"
+    },
+    "settings_ecd152": {
+        "message": "Settings",
+        "description": "Location: Browser. Sync settings - per-kind status row for synced app settings"
     },
     "settings_enable_logging_pref": {
         "message": "Help improve Phi's features and performance",
@@ -6091,6 +6311,10 @@
         "message": "Show Kiosk \"Open in\" Menu",
         "description": "Location: Browser. Shortcuts settings - Show the Open in menu for selecting a destination Space in a Kiosk window"
     },
+    "show_media_details": {
+        "message": "Show media details",
+        "description": "Location: Browser. Sidebar media player - VoiceOver action to reveal metadata and seeking controls without pointer hover"
+    },
     "show_open_tab_indicators": {
         "message": "Show open tab indicators",
         "description": "Location: Browser. Advanced settings - Toggle title for showing dots on inactive open pinned tabs and bookmarks"
@@ -6099,6 +6323,10 @@
         "message": "Show operated pages exactly as rendered",
         "description": "Location: Browser. Developer settings - Toggle title for showing a page an agent is operating without the agent styling"
     },
+    "show_playing_tab": {
+        "message": "Show playing tab",
+        "description": "Location: Browser. Sidebar media player - Switch to the tab that owns the media"
+    },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "Show proactive suggestions on the new tab page",
         "description": "Location: Browser. AI settings - Toggle to show proactive suggestions on the new tab page"
@@ -6106,6 +6334,10 @@
     "show_sidebar": {
         "message": "Show Sidebar",
         "description": "Location: Browser. Library - Tooltip and accessibility label for expanding the navigation sidebar"
+    },
+    "show_sidebar_media_player": {
+        "message": "Show sidebar media player",
+        "description": "Location: Browser. General settings - Toggle for controls for media playing in background tabs"
     },
     "show_tab_switcher": {
         "message": "Show Tab Switcher",
@@ -6126,6 +6358,10 @@
     "show_unloaded_tab_indicators": {
         "message": "Show unloaded tab indicators",
         "description": "Location: Browser. Advanced settings - Toggle title for marking tabs whose pages are unloaded from memory"
+    },
+    "sidebar_media": {
+        "message": "Sidebar media",
+        "description": "Location: Browser. General settings - Section title for sidebar media player preferences"
     },
     "sign_in": {
         "message": "Sign in",
@@ -6170,6 +6406,10 @@
     "sign_in_b8f853": {
         "message": "Sign in",
         "description": "Location: Browser. Bitwarden sign-in sheet - Submit button"
+    },
+    "sign_in_expired": {
+        "message": "Sign-in expired",
+        "description": "Location: Browser. Sync settings - last sync problem: the account sign-in is no longer valid"
     },
     "sign_in_f425c4": {
         "message": "Sign in",
@@ -6295,6 +6535,10 @@
         "message": "Some profiles could not be loaded.",
         "description": "Location: Browser. All downloads window - Partial failure while loading profile download histories"
     },
+    "some_synced_data_couldn_t_be_read": {
+        "message": "Some synced data couldn’t be read",
+        "description": "Location: Browser. Sync settings - last sync problem: some data from the account could not be read on this Mac"
+    },
     "something_went_wrong": {
         "message": "Something went wrong? ",
         "description": "Location: Browser. Retry hint prefix text shown when login fails in onboarding"
@@ -6310,6 +6554,10 @@
     "something_went_wrong_when_signing_out": {
         "message": "Something went wrong when signing out",
         "description": "Location: Browser. Account settings - Alert message when sign-out fails"
+    },
+    "something_went_wrong_while_setting_up_the": {
+        "message": "Something went wrong while setting up the profile.",
+        "description": "Location: Browser. Sync settings - line under Sync paused when setting up a browser profile for sync failed for another reason"
     },
     "something_worth_returning_to": {
         "message": "Something worth returning to.",
@@ -6374,6 +6622,10 @@
     "spaces_785f2c": {
         "message": "Spaces",
         "description": "Location: Browser. Accessibility label for the Spaces picker affordance"
+    },
+    "spaces_87c33b": {
+        "message": "Spaces",
+        "description": "Location: Browser. Sync settings - per-kind status row for synced Spaces"
     },
     "spaces_and_phi_data": {
         "message": "Spaces and Phi data",
@@ -6475,9 +6727,21 @@
         "message": "Sync contents",
         "description": "Location: Browser. Read-only list of synchronized content"
     },
+    "sync_did_not_finish": {
+        "message": "Sync did not finish",
+        "description": "Location: Browser. Sync settings - shown under the sync status, and announced by VoiceOver, when a sync the user started with Sync Now ended without finishing and no specific problem is known"
+    },
+    "sync_finished": {
+        "message": "Sync finished",
+        "description": "Location: Browser. Sync settings - VoiceOver announcement when a sync the user started with Sync Now has finished"
+    },
     "sync_has_not_started": {
         "message": "Sync has not started",
         "description": "Location: Browser. All sync waits for pairing completion"
+    },
+    "sync_in_progress": {
+        "message": "Sync in progress",
+        "description": "Location: Browser. Sync settings - VoiceOver label of the progress indicator beside Sync Now while a sync runs or a requested sync waits"
     },
     "sync_isn_t_available_right_now_so": {
         "message": "Sync isn’t available right now, so your account’s Spaces couldn’t be loaded.",
@@ -6487,9 +6751,29 @@
         "message": "Sync isn’t available right now, so this device wasn’t removed. Check that you’re still signed in, then try again.",
         "description": "Location: Browser. Remove this device from sync - error shown when sync is unavailable so the device was not removed"
     },
+    "sync_needs_to_be_reset": {
+        "message": "Sync needs to be reset",
+        "description": "Location: Browser. Sync settings - last sync problem: sync must be set up again before it can continue"
+    },
     "sync_needs_to_be_set_up_again": {
         "message": "Sync needs to be set up again. Finish later, then choose Set up sync again in Settings → Sync. Your local browsing data is kept.",
         "description": "Location: Browser. Pairing cannot continue until an explicit local sync reset is confirmed in settings"
+    },
+    "sync_now": {
+        "message": "Sync Now",
+        "description": "Location: Browser. Sync settings - button that asks this Mac to sync all content now"
+    },
+    "sync_paused": {
+        "message": "Sync paused",
+        "description": "Location: Browser. Sync settings - sync status while all sync waits until every browser profile on this Mac is set up for sync"
+    },
+    "sync_resumed": {
+        "message": "Sync resumed",
+        "description": "Location: Browser. Sync settings - VoiceOver announcement when sync, paused until every browser profile on this Mac was set up for sync, continues"
+    },
+    "sync_will_start_shortly": {
+        "message": "Sync will start shortly…",
+        "description": "Location: Browser. Sync settings - tooltip and VoiceOver hint of Sync Now when the requested sync waits because a sync ran moments ago; it starts on its own within a minute"
     },
     "syncing": {
         "message": "Syncing…",
@@ -6531,13 +6815,25 @@
         "message": "Tab Name",
         "description": "Location: Browser. Pinned tab editor - Placeholder for pinned tab name input"
     },
+    "tab_or_space_to_search": {
+        "message": "Tab or Space to search %@",
+        "description": "Location: Browser. Address bar - Hint shown when Tab or Space can select the highlighted search engine; %@ is the engine name"
+    },
     "tab_search": {
         "message": "Tab Search",
         "description": "Location: Browser. Shortcuts settings - Command title for searching open tabs"
     },
+    "tab_to_search": {
+        "message": "Tab to search %@",
+        "description": "Location: Browser. Address bar - Hint to press Tab to search with the named search engine"
+    },
     "tabs": {
         "message": "%1$@ · %2$d tabs",
         "description": "Location: Browser. Tab Groups - auto-generated group title, e.g. 'Blue · 3 tabs'"
+    },
+    "taking_full_page_screenshot": {
+        "message": "Taking full page screenshot…",
+        "description": "Location: Browser. Screenshot - Progress toast while capturing the current webpage"
     },
     "target_space_unavailable": {
         "message": "Target Space unavailable",
@@ -6686,6 +6982,10 @@
     "the_selected_time_machine_backup_is_no": {
         "message": "The selected Time Machine backup is no longer available.",
         "description": "Location: Browser. Help menu - Time Machine backup deletion error when the selected backup disappears"
+    },
+    "the_sync_service_returned_an_error": {
+        "message": "The sync service returned an error.",
+        "description": "Location: Browser. Sync settings - line under Sync paused when setting up a browser profile for sync failed because of an error on the sync service"
     },
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "The Time Machine backup deletion was interrupted.",
@@ -7019,6 +7319,10 @@
         "message": "Turning developer mode off turns off agent access and the agent password manager, and revokes every allowed agent and credential approval. An agent that connects later can ask you to turn it back on.",
         "description": "Location: Browser. Advanced settings - Hint under the developer mode toggle explaining the kill-switch behavior, the revoked approvals, and that an agent may request it back"
     },
+    "turning_the_player_off_leaves_media_playing": {
+        "message": "Turning the player off leaves media playing. Dynamic expands after a brief hover; keyboard focus and VoiceOver can reveal its details immediately.",
+        "description": "Location: Browser. General settings - Explanation of independent enable and presentation preferences, including accessible expansion in Dynamic mode"
+    },
     "two_step_login_code_if_enabled": {
         "message": "Two-step login code (if enabled)",
         "description": "Location: Browser. Bitwarden sign-in sheet - Official two-step login field label"
@@ -7110,6 +7414,14 @@
     "unlock_d1fd02": {
         "message": "Unlock…",
         "description": "Location: Browser. Phi & AI settings - Bitwarden unlock action"
+    },
+    "unmute_tab": {
+        "message": "Unmute tab",
+        "description": "Location: Browser. Sidebar media player - Unmute the tab that owns the media"
+    },
+    "unmuted": {
+        "message": "Unmuted",
+        "description": "Location: Browser. Sidebar media player - Accessible status when the source tab is not muted"
     },
     "unnamed_profile": {
         "message": "Unnamed profile (%@)",
@@ -7235,6 +7547,10 @@
         "message": "URL Rules",
         "description": "Location: Browser. Navigations settings - URL Rules section title"
     },
+    "url_rules_89e3ca": {
+        "message": "URL rules",
+        "description": "Location: Browser. Sync settings - per-kind status row for synced URL rules, the rules that open matching URLs in a chosen Space"
+    },
     "url_rules_dc27b3": {
         "message": "URL Rules",
         "description": "Location: Browser. Window title for the universal URL rules editor"
@@ -7323,9 +7639,29 @@
         "message": "View Page Source",
         "description": "Location: Browser. Shortcuts settings - Command title for viewing the current page source"
     },
+    "volume_click_to_toggle_mute": {
+        "message": "Volume (⌥-click to toggle mute)",
+        "description": "Location: Browser. Sidebar media player - Open volume slider; Option-click toggles tab mute"
+    },
+    "waiting_for_a_profile_to_be_paired": {
+        "message": "Waiting for a profile to be paired",
+        "description": "Location: Browser. Sync settings - last sync problem: some synced items wait until a browser profile on this Mac is paired with the account"
+    },
+    "waiting_for_all_profiles_to_be_available": {
+        "message": "Waiting for all profiles to be available",
+        "description": "Location: Browser. Sync settings - tooltip and VoiceOver hint of Sync Now when the requested sync waits until every browser profile reports its sync status"
+    },
     "waiting_for_approval": {
         "message": "Waiting for approval",
         "description": "Location: Browser. Sync setup - title while waiting for another device to approve this one"
+    },
+    "waiting_for_current_sync": {
+        "message": "Waiting for current sync…",
+        "description": "Location: Browser. Sync settings - tooltip and VoiceOver hint of Sync Now when the requested sync waits for a sync already running"
+    },
+    "waiting_for_profiles_to_load": {
+        "message": "Waiting for profiles to load",
+        "description": "Location: Browser. Sync settings - problem line under the sync status while this Mac has not yet read its list of browser profiles; sync starts once it has, and it keeps trying on its own"
     },
     "wants_to_control_phi_browser": {
         "message": "“%@” wants to control Phi Browser",
@@ -7546,6 +7882,10 @@
     "your_session_has_expired_please_sign_in_0829": {
         "message": "Your session has expired. Please sign in again, then restart the export.",
         "description": "Location: Browser. Account data export - Error when the access token remains rejected after renewal"
+    },
+    "your_sign_in_needs_to_be_renewed": {
+        "message": "Your sign-in needs to be renewed.",
+        "description": "Location: Browser. Sync settings - line under Sync paused when setting up a browser profile for sync failed because the account sign-in is no longer valid"
     },
     "your_spaces": {
         "message": "Your Spaces",

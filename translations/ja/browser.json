@@ -14,6 +14,9 @@
     "a_new_version_of_phi_is_ready": {
         "message": "Phiの新しいバージョンをインストールする準備ができました"
     },
+    "a_profile_is_not_set_up_for": {
+        "message": "同期がまだ設定されていないプロファイルがあります"
+    },
     "a_profile_with_this_name_already_exists": {
         "message": "この名前のプロファイルはすでに存在します。"
     },
@@ -335,8 +338,14 @@
     "always_allow": {
         "message": "常に許可"
     },
+    "always_compact": {
+        "message": "常にコンパクト"
+    },
     "always_e28941": {
         "message": "常に"
+    },
+    "always_expanded": {
+        "message": "常に展開"
     },
     "always_show_bookmark_bar": {
         "message": "ブックマークバーを常に表示"
@@ -470,6 +479,9 @@
     "back": {
         "message": "戻る"
     },
+    "back_10_seconds": {
+        "message": "10秒前にスキップ"
+    },
     "back_6817d2": {
         "message": "戻る"
     },
@@ -573,6 +585,9 @@
         "message": "このタブをブックマークに追加…"
     },
     "bookmarks": {
+        "message": "ブックマーク"
+    },
+    "bookmarks_06faef": {
         "message": "ブックマーク"
     },
     "bookmarks_114a6c": {
@@ -848,6 +863,9 @@
     "cancelled": {
         "message": "キャンセル済み"
     },
+    "capture_full_page": {
+        "message": "ページ全体をキャプチャ"
+    },
     "certificate_is_invalid": {
         "message": "証明書は無効です"
     },
@@ -1088,6 +1106,9 @@
     "close_peek_d9aa2e": {
         "message": "Peekを閉じる"
     },
+    "close_picture_in_picture": {
+        "message": "ピクチャインピクチャを閉じる"
+    },
     "close_side_panel": {
         "message": "サイドパネルを閉じる"
     },
@@ -1111,6 +1132,9 @@
     },
     "collapse_group": {
         "message": "グループを折りたたむ"
+    },
+    "collapsed": {
+        "message": "折りたたみ"
     },
     "collect_site_memories": {
         "message": "サイトのメモリを収集"
@@ -1337,6 +1361,9 @@
     "could_not_add_attachment": {
         "message": "添付ファイルを追加できませんでした"
     },
+    "could_not_copy_the_screenshot": {
+        "message": "スクリーンショットをコピーできませんでした"
+    },
     "could_not_export_bookmarks": {
         "message": "ブックマークを書き出せませんでした"
     },
@@ -1352,8 +1379,14 @@
     "could_not_save_the_conversation_recovery_record": {
         "message": "会話の復元記録を保存できませんでした。もう一度お試しください。"
     },
+    "could_not_save_the_screenshot": {
+        "message": "スクリーンショットを保存できませんでした"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "AIデータアーカイブをバックアップ用に準備できませんでした。"
+    },
+    "could_not_take_a_screenshot_of_this": {
+        "message": "このページのスクリーンショットを撮れませんでした"
     },
     "couldn_t_apply_one_of_your_profile": {
         "message": "プロファイルの選択内容のうち1つを適用できませんでした。接続を確認して、再試行してください。"
@@ -1418,6 +1451,9 @@
     "couldn_t_reach_the_deletion_service_check": {
         "message": "削除サービスに接続できませんでした。インターネット接続を確認して、もう一度お試しください。"
     },
+    "couldn_t_read_data_on_this_mac": {
+        "message": "このMacのデータを読み取れませんでした"
+    },
     "couldn_t_read_your_folio": {
         "message": "Folioを読み込めませんでした"
     },
@@ -1427,11 +1463,20 @@
     "couldn_t_save_sync_setup_on_this": {
         "message": "このデバイスに同期設定を保存できませんでした。もう一度お試しください。"
     },
+    "couldn_t_save_sync_state_on_this": {
+        "message": "このMacに同期状態を保存できませんでした"
+    },
     "couldn_t_save_this_page": {
         "message": "このページを保存できませんでした"
     },
+    "couldn_t_set_up_a_profile_for": {
+        "message": "プロファイルの同期をまだ設定できていません。自動的にもう一度試します。"
+    },
     "couldn_t_start_guest_mode": {
         "message": "ゲストモードを開始できませんでした"
+    },
+    "couldn_t_start_sync_try_again_later": {
+        "message": "同期を開始できませんでした。しばらくしてからもう一度お試しください。"
     },
     "create": {
         "message": "作成"
@@ -1694,6 +1739,9 @@
     "dismiss_cb343b": {
         "message": "閉じる"
     },
+    "dismiss_media_player": {
+        "message": "メディアプレーヤーを非表示"
+    },
     "display_language": {
         "message": "表示言語"
     },
@@ -1786,6 +1834,9 @@
     },
     "duplicate_tabs": {
         "message": "タブを複製"
+    },
+    "dynamic_expand_on_hover": {
+        "message": "ダイナミック（ポインタを置くと展開）"
     },
     "e_g_123456_abc_def": {
         "message": "例: 123456:ABC-DEF…"
@@ -1975,6 +2026,9 @@
     },
     "expand_group": {
         "message": "グループを展開"
+    },
+    "expanded": {
+        "message": "展開"
     },
     "expanding_rollback_package": {
         "message": "ロールバックパッケージを展開中…"
@@ -2393,6 +2447,9 @@
     "forward": {
         "message": "進む"
     },
+    "forward_10_seconds": {
+        "message": "10秒先にスキップ"
+    },
     "forward_e876ba": {
         "message": "進む"
     },
@@ -2422,6 +2479,9 @@
     },
     "full_control_of_this_browser": {
         "message": "このブラウザの完全な操作権限"
+    },
+    "full_page_screenshot_copied": {
+        "message": "ページ全体のスクリーンショットをコピーしました"
     },
     "general": {
         "message": "一般"
@@ -2732,6 +2792,9 @@
     "larger_text": {
         "message": "文字を大きく"
     },
+    "last_problem": {
+        "message": "最後の問題: %1$@（%2$@）"
+    },
     "last_successful_sync_on_this_mac": {
         "message": "このMacで最後に成功した同期: %@"
     },
@@ -2831,6 +2894,9 @@
     "links_the_skill_bundled_in_this_app": {
         "message": "このアプリに同梱されているスキルをAIコーディングエージェントのスキルフォルダにリンクし、DevTools ProtocolでPhiを操作できるようにします。あわせて、アイドル状態のセッションをAgent Transcriptのコマンドから復帰させるコンパニオン拡張機能もPhiに追加されます。Node 22以降が必要です。"
     },
+    "live_or_duration_unavailable": {
+        "message": "ライブ、または再生時間が不明"
+    },
     "live_running": {
         "message": "ライブ%1$d件 · 実行中%2$d件"
     },
@@ -2902,6 +2968,9 @@
     },
     "match_your_spaces": {
         "message": "スペースを対応付ける"
+    },
+    "media": {
+        "message": "メディア"
     },
     "message_the_agent": {
         "message": "エージェントにメッセージを送信 (→ %@)"
@@ -2984,6 +3053,12 @@
     "mute_site": {
         "message": "サイトをミュート"
     },
+    "mute_tab": {
+        "message": "タブをミュート"
+    },
+    "muted": {
+        "message": "ミュート中"
+    },
     "n1_1f": {
         "message": "%1$.1f%%"
     },
@@ -3034,6 +3109,9 @@
     },
     "needs_attention": {
         "message": "対応が必要"
+    },
+    "needs_attention_a_profile_couldn_t_be": {
+        "message": "対応が必要: プロファイルの同期を設定できませんでした。"
     },
     "neither_the_article_nor_a_webpage_copy": {
         "message": "記事もWebページのコピーも取得できませんでした。"
@@ -3215,6 +3293,9 @@
     "next_image": {
         "message": "次の画像"
     },
+    "next_media_source": {
+        "message": "次のメディアソース"
+    },
     "next_space": {
         "message": "次のスペース"
     },
@@ -3223,6 +3304,9 @@
     },
     "next_steps": {
         "message": "次のステップ"
+    },
+    "next_track": {
+        "message": "次のトラック"
     },
     "no_active_agent_task": {
         "message": "実行中のエージェントタスクはありません"
@@ -3262,6 +3346,12 @@
     },
     "no_certificate_available": {
         "message": "利用できる証明書がありません"
+    },
+    "no_connection": {
+        "message": "接続なし"
+    },
+    "no_connection_sync_continues_when_this_mac": {
+        "message": "接続がありません。このMacがオンラインに戻ると同期を続けます。"
     },
     "no_custom_value": {
         "message": "カスタム値なし"
@@ -3307,6 +3397,9 @@
     },
     "no_profiles_to_delete": {
         "message": "削除できるプロファイルがありません"
+    },
+    "no_recent_changes": {
+        "message": "最近の変更なし"
     },
     "no_release_notes_available": {
         "message": "リリースノートはありません。"
@@ -3392,6 +3485,9 @@
     "not_paired": {
         "message": "未ペアリング"
     },
+    "not_set_up_for_sync_yet": {
+        "message": "同期がまだ設定されていません: %@"
+    },
     "not_signed_in": {
         "message": "未ログイン"
     },
@@ -3415,6 +3511,9 @@
     },
     "notifications": {
         "message": "通知"
+    },
+    "of": {
+        "message": "%2$@中%1$@"
     },
     "of_couldn_t_be_added": {
         "message": "%2$d件中%1$d件を追加できませんでした"
@@ -3590,6 +3689,9 @@
     "open_original": {
         "message": "元のページを開く"
     },
+    "open_picture_in_picture": {
+        "message": "ピクチャインピクチャにする"
+    },
     "open_saved_webpage": {
         "message": "保存したWebページを開く"
     },
@@ -3636,6 +3738,9 @@
         "message": "パスワードマネージャー"
     },
     "pause": {
+        "message": "一時停止"
+    },
+    "pause_6167f6": {
         "message": "一時停止"
     },
     "paused": {
@@ -3794,11 +3899,26 @@
     "pinned_tabs_c143dc": {
         "message": "固定タブ"
     },
+    "pinned_tabs_f42436": {
+        "message": "固定タブ"
+    },
     "pinned_tabs_from_the_existing_destinations_will": {
         "message": "既存の保存先にある固定タブは統合されます。変更のないものはまとめられ、内容が異なるものはそのまま残ります。"
     },
     "pinned_tabs_mk_7a66": {
         "message": "固定タブ"
+    },
+    "play": {
+        "message": "再生"
+    },
+    "playback_position": {
+        "message": "再生位置"
+    },
+    "playback_volume": {
+        "message": "再生音量"
+    },
+    "player_display": {
+        "message": "プレーヤーの表示"
     },
     "please_quit_safari_before_importing_its_data": {
         "message": "Safariのデータをインポートする前に、Safariを終了してください。"
@@ -3847,6 +3967,9 @@
     },
     "previous_space_700580": {
         "message": "前のスペース"
+    },
+    "previous_track": {
+        "message": "前のトラック"
     },
     "print": {
         "message": "プリント…"
@@ -3897,6 +4020,9 @@
         "message": "プロファイル"
     },
     "profiles_535e52": {
+        "message": "プロファイル"
+    },
+    "profiles_5d5809": {
         "message": "プロファイル"
     },
     "profiles_agents_can_use": {
@@ -4190,8 +4316,14 @@
     "retry_942087": {
         "message": "再試行"
     },
+    "retry_aefddd": {
+        "message": "再試行"
+    },
     "retry_after_phi_sentinel_is_running_normally": {
         "message": "Phi Sentinelが正常に動作してから再試行してください。"
+    },
+    "retry_setting_up_profiles_for_sync": {
+        "message": "プロファイルの同期設定を再試行"
     },
     "return_to_bookmark_url": {
         "message": "ブックマークのURLに戻る"
@@ -4259,6 +4391,9 @@
     "save_08f3f4": {
         "message": "保存"
     },
+    "save_1e63b3": {
+        "message": "保存"
+    },
     "save_5ddd29": {
         "message": "保存"
     },
@@ -4322,6 +4457,15 @@
     "scanning": {
         "message": "スキャン中…"
     },
+    "screenshot": {
+        "message": "スクリーンショット"
+    },
+    "screenshot_not_copied_because_the_clipboard_changed": {
+        "message": "クリップボードが変更されたため、スクリーンショットはコピーされませんでした"
+    },
+    "screenshot_timed_out_please_try_again": {
+        "message": "スクリーンショットがタイムアウトしました。もう一度お試しください。"
+    },
     "search": {
         "message": "検索"
     },
@@ -4330,6 +4474,12 @@
     },
     "search_458d4f": {
         "message": "検索"
+    },
+    "search_6b6ab8": {
+        "message": "%@で検索"
+    },
+    "search_ac220a": {
+        "message": "検索…"
     },
     "search_downloads": {
         "message": "ダウンロードを検索"
@@ -4342,6 +4492,9 @@
     },
     "search_icons": {
         "message": "アイコンを検索"
+    },
+    "search_mk_3074": {
+        "message": "%@で検索"
     },
     "search_or_enter_url": {
         "message": "検索またはURLを入力"
@@ -4421,6 +4574,12 @@
     "separate_window": {
         "message": "別のウインドウ"
     },
+    "server_error": {
+        "message": "サーバエラー"
+    },
+    "server_rejected_changes": {
+        "message": "サーバが変更を拒否"
+    },
     "service_issue": {
         "message": "サービス障害"
     },
@@ -4451,6 +4610,9 @@
     "setting": {
         "message": "設定"
     },
+    "setting_up_a_profile_for_sync": {
+        "message": "プロファイルの同期を設定中…"
+    },
     "setting_up_your_own_telegram_bot_using": {
         "message": "Telegramの@BotFatherを使って独自のTelegramボットを設定します"
     },
@@ -4461,6 +4623,9 @@
         "message": "設定"
     },
     "settings_c717bd": {
+        "message": "設定"
+    },
+    "settings_ecd152": {
         "message": "設定"
     },
     "settings_enable_logging_pref": {
@@ -4568,17 +4733,26 @@
     "show_kiosk_open_in_menu": {
         "message": "Kioskの「開く」メニューを表示"
     },
+    "show_media_details": {
+        "message": "メディアの詳細を表示"
+    },
     "show_open_tab_indicators": {
         "message": "開いているタブのインジケーターを表示"
     },
     "show_operated_pages_exactly_as_rendered": {
         "message": "操作中のページをレンダリングどおりに表示"
     },
+    "show_playing_tab": {
+        "message": "再生中のタブを表示"
+    },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "新しいタブページにプロアクティブな提案を表示"
     },
     "show_sidebar": {
         "message": "サイドバーを表示"
+    },
+    "show_sidebar_media_player": {
+        "message": "サイドバーのメディアプレーヤーを表示"
     },
     "show_tab_switcher": {
         "message": "タブスイッチャーを表示"
@@ -4594,6 +4768,9 @@
     },
     "show_unloaded_tab_indicators": {
         "message": "メモリから解放されたタブのインジケーターを表示"
+    },
+    "sidebar_media": {
+        "message": "サイドバーのメディア"
     },
     "sign_in": {
         "message": "ログイン"
@@ -4627,6 +4804,9 @@
     },
     "sign_in_b8f853": {
         "message": "ログイン"
+    },
+    "sign_in_expired": {
+        "message": "サインインの期限切れ"
     },
     "sign_in_f425c4": {
         "message": "ログイン"
@@ -4721,6 +4901,9 @@
     "some_profiles_could_not_be_loaded": {
         "message": "一部のプロファイルを読み込めませんでした。"
     },
+    "some_synced_data_couldn_t_be_read": {
+        "message": "一部の同期データを読み取れませんでした"
+    },
     "something_went_wrong": {
         "message": "問題が発生しましたか？ "
     },
@@ -4732,6 +4915,9 @@
     },
     "something_went_wrong_when_signing_out": {
         "message": "ログアウト中に問題が発生しました"
+    },
+    "something_went_wrong_while_setting_up_the": {
+        "message": "プロファイルの設定中に問題が発生しました。"
     },
     "something_worth_returning_to": {
         "message": "また戻りたくなるものを。"
@@ -4779,6 +4965,9 @@
         "message": "スペース"
     },
     "spaces_785f2c": {
+        "message": "スペース"
+    },
+    "spaces_87c33b": {
         "message": "スペース"
     },
     "spaces_and_phi_data": {
@@ -4856,8 +5045,17 @@
     "sync_contents": {
         "message": "同期の内容"
     },
+    "sync_did_not_finish": {
+        "message": "同期が完了しませんでした"
+    },
+    "sync_finished": {
+        "message": "同期が完了しました"
+    },
     "sync_has_not_started": {
         "message": "同期は開始されていません"
+    },
+    "sync_in_progress": {
+        "message": "同期中"
     },
     "sync_isn_t_available_right_now_so": {
         "message": "同期が現在利用できないため、アカウントのスペースを読み込めませんでした。"
@@ -4865,8 +5063,23 @@
     "sync_isn_t_available_right_now_so_312469": {
         "message": "同期が現在利用できないため、このデバイスは削除されませんでした。まだサインインしているか確認してから、もう一度お試しください。"
     },
+    "sync_needs_to_be_reset": {
+        "message": "同期の再設定が必要"
+    },
     "sync_needs_to_be_set_up_again": {
         "message": "同期をもう一度設定する必要があります。「あとで完了」を選択してから、設定 → 同期で「同期をもう一度設定」を選択してください。ローカルの閲覧データは保持されます。"
+    },
+    "sync_now": {
+        "message": "今すぐ同期"
+    },
+    "sync_paused": {
+        "message": "同期を一時停止中"
+    },
+    "sync_resumed": {
+        "message": "同期を再開しました"
+    },
+    "sync_will_start_shortly": {
+        "message": "まもなく同期が始まります…"
     },
     "syncing": {
         "message": "同期中…"
@@ -4898,11 +5111,20 @@
     "tab_name": {
         "message": "タブ名"
     },
+    "tab_or_space_to_search": {
+        "message": "Tabキーまたはスペースキーで%@を検索"
+    },
     "tab_search": {
         "message": "タブを検索"
     },
+    "tab_to_search": {
+        "message": "Tabキーで%@を検索"
+    },
     "tabs": {
         "message": "%1$@・%2$d個のタブ"
+    },
+    "taking_full_page_screenshot": {
+        "message": "ページ全体のスクリーンショットを撮影中…"
     },
     "target_space_unavailable": {
         "message": "対象のスペースは利用できません"
@@ -5014,6 +5236,9 @@
     },
     "the_selected_time_machine_backup_is_no": {
         "message": "選択したTime Machineバックアップは利用できなくなりました。"
+    },
+    "the_sync_service_returned_an_error": {
+        "message": "同期サービスがエラーを返しました。"
     },
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "Time Machineバックアップの削除が中断されました。"
@@ -5264,6 +5489,9 @@
     "turning_developer_mode_off_turns_off_agent": {
         "message": "デベロッパーモードをオフにすると、エージェントのアクセスとエージェント用パスワードマネージャーがオフになり、許可済みのエージェントと認証情報の承認がすべて取り消されます。あとから接続したエージェントは、オンに戻すよう求めることができます。"
     },
+    "turning_the_player_off_leaves_media_playing": {
+        "message": "プレーヤーをオフにしてもメディアの再生は続きます。「ダイナミック」ではポインタをしばらく置くと展開します。キーボードフォーカスとVoiceOverでは詳細をすぐに表示できます。"
+    },
     "two_step_login_code_if_enabled": {
         "message": "2段階認証コード（有効な場合）"
     },
@@ -5332,6 +5560,12 @@
     },
     "unlock_d1fd02": {
         "message": "ロック解除…"
+    },
+    "unmute_tab": {
+        "message": "タブのミュートを解除"
+    },
+    "unmuted": {
+        "message": "ミュートされていません"
     },
     "unnamed_profile": {
         "message": "名称未設定のプロファイル（%@）"
@@ -5426,6 +5660,9 @@
     "url_rules_84ffe4": {
         "message": "URLルール"
     },
+    "url_rules_89e3ca": {
+        "message": "URLルール"
+    },
     "url_rules_dc27b3": {
         "message": "URLルール"
     },
@@ -5492,8 +5729,23 @@
     "view_page_source": {
         "message": "ページのソースを表示"
     },
+    "volume_click_to_toggle_mute": {
+        "message": "音量（⌥-クリックでミュートを切り替え）"
+    },
+    "waiting_for_a_profile_to_be_paired": {
+        "message": "プロファイルのペアリングを待機中"
+    },
+    "waiting_for_all_profiles_to_be_available": {
+        "message": "すべてのプロファイルが利用可能になるのを待機中"
+    },
     "waiting_for_approval": {
         "message": "承認を待っています"
+    },
+    "waiting_for_current_sync": {
+        "message": "現在の同期を待機中…"
+    },
+    "waiting_for_profiles_to_load": {
+        "message": "プロファイルの読み込みを待機中"
     },
     "wants_to_control_phi_browser": {
         "message": "「%@」がPhi Browserを制御しようとしています"
@@ -5659,6 +5911,9 @@
     },
     "your_session_has_expired_please_sign_in_0829": {
         "message": "セッションの有効期限が切れました。もう一度ログインしてから、エクスポートをやり直してください。"
+    },
+    "your_sign_in_needs_to_be_renewed": {
+        "message": "もう一度サインインする必要があります。"
     },
     "your_spaces": {
         "message": "スペース"

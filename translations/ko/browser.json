@@ -14,6 +14,9 @@
     "a_new_version_of_phi_is_ready": {
         "message": "Phi의 새 버전을 설치할 준비가 됐어요"
     },
+    "a_profile_is_not_set_up_for": {
+        "message": "아직 동기화가 설정되지 않은 프로필이 있어요"
+    },
     "a_profile_with_this_name_already_exists": {
         "message": "같은 이름의 프로필이 이미 있어요."
     },
@@ -335,8 +338,14 @@
     "always_allow": {
         "message": "항상 허용"
     },
+    "always_compact": {
+        "message": "항상 축소"
+    },
     "always_e28941": {
         "message": "항상"
+    },
+    "always_expanded": {
+        "message": "항상 확장"
     },
     "always_show_bookmark_bar": {
         "message": "북마크 바 항상 표시"
@@ -470,6 +479,9 @@
     "back": {
         "message": "뒤로"
     },
+    "back_10_seconds": {
+        "message": "10초 뒤로 건너뛰기"
+    },
     "back_6817d2": {
         "message": "뒤로"
     },
@@ -573,6 +585,9 @@
         "message": "이 탭을 북마크에 추가…"
     },
     "bookmarks": {
+        "message": "북마크"
+    },
+    "bookmarks_06faef": {
         "message": "북마크"
     },
     "bookmarks_114a6c": {
@@ -848,6 +863,9 @@
     "cancelled": {
         "message": "취소됨"
     },
+    "capture_full_page": {
+        "message": "전체 페이지 캡처"
+    },
     "certificate_is_invalid": {
         "message": "인증서가 유효하지 않음"
     },
@@ -1088,6 +1106,9 @@
     "close_peek_d9aa2e": {
         "message": "Peek 닫기"
     },
+    "close_picture_in_picture": {
+        "message": "화면 속 화면 닫기"
+    },
     "close_side_panel": {
         "message": "측면 패널 닫기"
     },
@@ -1111,6 +1132,9 @@
     },
     "collapse_group": {
         "message": "그룹 접기"
+    },
+    "collapsed": {
+        "message": "접힘"
     },
     "collect_site_memories": {
         "message": "사이트 메모리 수집"
@@ -1337,6 +1361,9 @@
     "could_not_add_attachment": {
         "message": "첨부 파일을 추가할 수 없음"
     },
+    "could_not_copy_the_screenshot": {
+        "message": "스크린샷을 복사하지 못했어요"
+    },
     "could_not_export_bookmarks": {
         "message": "북마크를 내보낼 수 없음"
     },
@@ -1352,8 +1379,14 @@
     "could_not_save_the_conversation_recovery_record": {
         "message": "대화 복구 기록을 저장하지 못했어요. 다시 시도해 주세요."
     },
+    "could_not_save_the_screenshot": {
+        "message": "스크린샷을 저장하지 못했어요"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "AI 데이터 아카이브를 백업용으로 준비할 수 없어요."
+    },
+    "could_not_take_a_screenshot_of_this": {
+        "message": "이 페이지의 스크린샷을 찍지 못했어요"
     },
     "couldn_t_apply_one_of_your_profile": {
         "message": "프로필 선택 사항 중 하나를 적용하지 못했어요. 연결 상태를 확인하고 다시 시도해 주세요."
@@ -1418,6 +1451,9 @@
     "couldn_t_reach_the_deletion_service_check": {
         "message": "삭제 서비스에 연결할 수 없어요. 인터넷 연결을 확인하고 다시 시도해 주세요."
     },
+    "couldn_t_read_data_on_this_mac": {
+        "message": "이 Mac의 데이터를 읽을 수 없음"
+    },
     "couldn_t_read_your_folio": {
         "message": "Folio를 읽지 못했어요"
     },
@@ -1427,11 +1463,20 @@
     "couldn_t_save_sync_setup_on_this": {
         "message": "이 기기에 동기화 설정을 저장하지 못했어요. 다시 시도해 주세요."
     },
+    "couldn_t_save_sync_state_on_this": {
+        "message": "이 Mac에 동기화 상태를 저장할 수 없음"
+    },
     "couldn_t_save_this_page": {
         "message": "이 페이지를 저장하지 못했어요"
     },
+    "couldn_t_set_up_a_profile_for": {
+        "message": "아직 프로필을 동기화용으로 설정하지 못했어요. 자동으로 다시 시도해요."
+    },
     "couldn_t_start_guest_mode": {
         "message": "게스트 모드를 시작하지 못했어요"
+    },
+    "couldn_t_start_sync_try_again_later": {
+        "message": "동기화를 시작하지 못했어요. 나중에 다시 시도해 주세요."
     },
     "create": {
         "message": "만들기"
@@ -1694,6 +1739,9 @@
     "dismiss_cb343b": {
         "message": "닫기"
     },
+    "dismiss_media_player": {
+        "message": "미디어 플레이어 숨기기"
+    },
     "display_language": {
         "message": "표시 언어"
     },
@@ -1786,6 +1834,9 @@
     },
     "duplicate_tabs": {
         "message": "탭 복제"
+    },
+    "dynamic_expand_on_hover": {
+        "message": "동적(포인터를 올리면 확장)"
     },
     "e_g_123456_abc_def": {
         "message": "예: 123456:ABC-DEF…"
@@ -1975,6 +2026,9 @@
     },
     "expand_group": {
         "message": "그룹 펼치기"
+    },
+    "expanded": {
+        "message": "펼쳐짐"
     },
     "expanding_rollback_package": {
         "message": "롤백 패키지 압축 해제 중…"
@@ -2393,6 +2447,9 @@
     "forward": {
         "message": "앞으로"
     },
+    "forward_10_seconds": {
+        "message": "10초 앞으로 건너뛰기"
+    },
     "forward_e876ba": {
         "message": "앞으로"
     },
@@ -2422,6 +2479,9 @@
     },
     "full_control_of_this_browser": {
         "message": "이 브라우저의 전체 제어 권한"
+    },
+    "full_page_screenshot_copied": {
+        "message": "전체 페이지 스크린샷이 복사됐어요"
     },
     "general": {
         "message": "일반"
@@ -2732,6 +2792,9 @@
     "larger_text": {
         "message": "텍스트 크게"
     },
+    "last_problem": {
+        "message": "최근 문제: %1$@ (%2$@)"
+    },
     "last_successful_sync_on_this_mac": {
         "message": "이 Mac에서 마지막으로 성공한 동기화: %@"
     },
@@ -2831,6 +2894,9 @@
     "links_the_skill_bundled_in_this_app": {
         "message": "이 앱에 포함된 스킬을 AI 코딩 에이전트의 스킬 폴더에 연결해 DevTools 프로토콜로 Phi를 제어할 수 있게 해요. Pi에는 Agent Transcript 명령으로 유휴 세션을 깨우는 컴패니언 확장 프로그램도 함께 제공돼요. Node 22 이상이 필요해요."
     },
+    "live_or_duration_unavailable": {
+        "message": "라이브이거나 재생 시간을 알 수 없음"
+    },
     "live_running": {
         "message": "라이브 %1$d개 · 실행 중 %2$d개"
     },
@@ -2902,6 +2968,9 @@
     },
     "match_your_spaces": {
         "message": "스페이스 연결"
+    },
+    "media": {
+        "message": "미디어"
     },
     "message_the_agent": {
         "message": "에이전트에게 메시지 보내기 (→ %@)"
@@ -2984,6 +3053,12 @@
     "mute_site": {
         "message": "사이트 음소거"
     },
+    "mute_tab": {
+        "message": "탭 음소거"
+    },
+    "muted": {
+        "message": "음소거됨"
+    },
     "n1_1f": {
         "message": "%1$.1f%%"
     },
@@ -3034,6 +3109,9 @@
     },
     "needs_attention": {
         "message": "주의 필요"
+    },
+    "needs_attention_a_profile_couldn_t_be": {
+        "message": "주의 필요: 프로필을 동기화용으로 설정하지 못했어요."
     },
     "neither_the_article_nor_a_webpage_copy": {
         "message": "기사도 웹페이지 사본도 가져오지 못했어요."
@@ -3215,6 +3293,9 @@
     "next_image": {
         "message": "다음 이미지"
     },
+    "next_media_source": {
+        "message": "다음 미디어 소스"
+    },
     "next_space": {
         "message": "다음 스페이스"
     },
@@ -3223,6 +3304,9 @@
     },
     "next_steps": {
         "message": "다음 단계"
+    },
+    "next_track": {
+        "message": "다음 트랙"
     },
     "no_active_agent_task": {
         "message": "진행 중인 에이전트 작업 없음"
@@ -3262,6 +3346,12 @@
     },
     "no_certificate_available": {
         "message": "사용 가능한 인증서 없음"
+    },
+    "no_connection": {
+        "message": "연결 없음"
+    },
+    "no_connection_sync_continues_when_this_mac": {
+        "message": "연결이 없어요. 이 Mac이 다시 온라인 상태가 되면 동기화가 계속돼요."
     },
     "no_custom_value": {
         "message": "사용자화된 값 없음"
@@ -3307,6 +3397,9 @@
     },
     "no_profiles_to_delete": {
         "message": "삭제할 프로필 없음"
+    },
+    "no_recent_changes": {
+        "message": "최근 변경 사항 없음"
     },
     "no_release_notes_available": {
         "message": "사용할 수 있는 릴리스 노트가 없어요."
@@ -3392,6 +3485,9 @@
     "not_paired": {
         "message": "페어링되지 않음"
     },
+    "not_set_up_for_sync_yet": {
+        "message": "아직 동기화가 설정되지 않음: %@"
+    },
     "not_signed_in": {
         "message": "로그인되지 않음"
     },
@@ -3415,6 +3511,9 @@
     },
     "notifications": {
         "message": "알림"
+    },
+    "of": {
+        "message": "%2$@ 중 %1$@"
     },
     "of_couldn_t_be_added": {
         "message": "%2$d개 중 %1$d개를 추가하지 못함"
@@ -3590,6 +3689,9 @@
     "open_original": {
         "message": "원본 열기"
     },
+    "open_picture_in_picture": {
+        "message": "화면 속 화면 열기"
+    },
     "open_saved_webpage": {
         "message": "저장된 웹페이지 열기"
     },
@@ -3636,6 +3738,9 @@
         "message": "비밀번호 관리자"
     },
     "pause": {
+        "message": "일시 정지"
+    },
+    "pause_6167f6": {
         "message": "일시 정지"
     },
     "paused": {
@@ -3794,11 +3899,26 @@
     "pinned_tabs_c143dc": {
         "message": "고정된 탭"
     },
+    "pinned_tabs_f42436": {
+        "message": "고정된 탭"
+    },
     "pinned_tabs_from_the_existing_destinations_will": {
         "message": "기존 대상의 고정된 탭이 병합돼요. 동일한 사본은 하나로 합쳐지고, 서로 다른 버전은 모두 유지돼요."
     },
     "pinned_tabs_mk_7a66": {
         "message": "고정된 탭"
+    },
+    "play": {
+        "message": "재생"
+    },
+    "playback_position": {
+        "message": "재생 위치"
+    },
+    "playback_volume": {
+        "message": "재생 음량"
+    },
+    "player_display": {
+        "message": "플레이어 표시"
     },
     "please_quit_safari_before_importing_its_data": {
         "message": "Safari 데이터를 가져오기 전에 Safari를 종료해 주세요."
@@ -3847,6 +3967,9 @@
     },
     "previous_space_700580": {
         "message": "이전 스페이스"
+    },
+    "previous_track": {
+        "message": "이전 트랙"
     },
     "print": {
         "message": "프린트…"
@@ -3897,6 +4020,9 @@
         "message": "프로필"
     },
     "profiles_535e52": {
+        "message": "프로필"
+    },
+    "profiles_5d5809": {
         "message": "프로필"
     },
     "profiles_agents_can_use": {
@@ -4190,8 +4316,14 @@
     "retry_942087": {
         "message": "다시 시도"
     },
+    "retry_aefddd": {
+        "message": "다시 시도"
+    },
     "retry_after_phi_sentinel_is_running_normally": {
         "message": "Phi Sentinel이 정상적으로 실행된 뒤에 다시 시도해 주세요."
+    },
+    "retry_setting_up_profiles_for_sync": {
+        "message": "프로필 동기화 설정 다시 시도하기"
     },
     "return_to_bookmark_url": {
         "message": "북마크 URL로 돌아가기"
@@ -4259,6 +4391,9 @@
     "save_08f3f4": {
         "message": "저장"
     },
+    "save_1e63b3": {
+        "message": "저장"
+    },
     "save_5ddd29": {
         "message": "저장"
     },
@@ -4322,6 +4457,15 @@
     "scanning": {
         "message": "검사 중…"
     },
+    "screenshot": {
+        "message": "스크린샷"
+    },
+    "screenshot_not_copied_because_the_clipboard_changed": {
+        "message": "클립보드가 변경되어 스크린샷을 복사하지 않았어요"
+    },
+    "screenshot_timed_out_please_try_again": {
+        "message": "스크린샷 시간이 초과됐어요. 다시 시도해 주세요."
+    },
     "search": {
         "message": "검색"
     },
@@ -4330,6 +4474,12 @@
     },
     "search_458d4f": {
         "message": "검색"
+    },
+    "search_6b6ab8": {
+        "message": "%@ 검색"
+    },
+    "search_ac220a": {
+        "message": "검색…"
     },
     "search_downloads": {
         "message": "다운로드 검색"
@@ -4342,6 +4492,9 @@
     },
     "search_icons": {
         "message": "아이콘 검색"
+    },
+    "search_mk_3074": {
+        "message": "%@ 검색"
     },
     "search_or_enter_url": {
         "message": "검색어 또는 URL 입력"
@@ -4421,6 +4574,12 @@
     "separate_window": {
         "message": "별도 윈도우"
     },
+    "server_error": {
+        "message": "서버 오류"
+    },
+    "server_rejected_changes": {
+        "message": "서버가 변경 사항을 거부함"
+    },
     "service_issue": {
         "message": "서비스 문제"
     },
@@ -4451,6 +4610,9 @@
     "setting": {
         "message": "설정"
     },
+    "setting_up_a_profile_for_sync": {
+        "message": "프로필을 동기화용으로 설정하는 중…"
+    },
     "setting_up_your_own_telegram_bot_using": {
         "message": "Telegram의 @BotFather로 나만의 Telegram 봇 설정하기"
     },
@@ -4461,6 +4623,9 @@
         "message": "설정"
     },
     "settings_c717bd": {
+        "message": "설정"
+    },
+    "settings_ecd152": {
         "message": "설정"
     },
     "settings_enable_logging_pref": {
@@ -4568,17 +4733,26 @@
     "show_kiosk_open_in_menu": {
         "message": "Kiosk “열기 위치” 메뉴 표시"
     },
+    "show_media_details": {
+        "message": "미디어 세부사항 보기"
+    },
     "show_open_tab_indicators": {
         "message": "열린 탭 표시기 보기"
     },
     "show_operated_pages_exactly_as_rendered": {
         "message": "조작 중인 페이지를 렌더링된 그대로 표시"
     },
+    "show_playing_tab": {
+        "message": "재생 중인 탭 보기"
+    },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "새 탭 페이지에 추천 제안 표시"
     },
     "show_sidebar": {
         "message": "사이드바 표시"
+    },
+    "show_sidebar_media_player": {
+        "message": "사이드바 미디어 플레이어 표시"
     },
     "show_tab_switcher": {
         "message": "탭 전환기 보기"
@@ -4594,6 +4768,9 @@
     },
     "show_unloaded_tab_indicators": {
         "message": "메모리에서 해제된 탭 표시기 보기"
+    },
+    "sidebar_media": {
+        "message": "사이드바 미디어"
     },
     "sign_in": {
         "message": "로그인"
@@ -4627,6 +4804,9 @@
     },
     "sign_in_b8f853": {
         "message": "로그인"
+    },
+    "sign_in_expired": {
+        "message": "로그인 만료됨"
     },
     "sign_in_f425c4": {
         "message": "로그인"
@@ -4721,6 +4901,9 @@
     "some_profiles_could_not_be_loaded": {
         "message": "일부 프로필을 불러오지 못했어요."
     },
+    "some_synced_data_couldn_t_be_read": {
+        "message": "일부 동기화된 데이터를 읽을 수 없음"
+    },
     "something_went_wrong": {
         "message": "문제가 생겼나요? "
     },
@@ -4732,6 +4915,9 @@
     },
     "something_went_wrong_when_signing_out": {
         "message": "로그아웃하는 중 문제가 발생했어요"
+    },
+    "something_went_wrong_while_setting_up_the": {
+        "message": "프로필을 설정하는 중에 문제가 발생했어요."
     },
     "something_worth_returning_to": {
         "message": "다시 돌아올 만한 무언가."
@@ -4779,6 +4965,9 @@
         "message": "스페이스"
     },
     "spaces_785f2c": {
+        "message": "스페이스"
+    },
+    "spaces_87c33b": {
         "message": "스페이스"
     },
     "spaces_and_phi_data": {
@@ -4856,8 +5045,17 @@
     "sync_contents": {
         "message": "동기화 콘텐츠"
     },
+    "sync_did_not_finish": {
+        "message": "동기화가 완료되지 않았어요"
+    },
+    "sync_finished": {
+        "message": "동기화가 완료됐어요"
+    },
     "sync_has_not_started": {
         "message": "동기화가 시작되지 않음"
+    },
+    "sync_in_progress": {
+        "message": "동기화 진행 중"
     },
     "sync_isn_t_available_right_now_so": {
         "message": "지금은 동기화를 사용할 수 없어서 계정의 스페이스를 불러오지 못했어요."
@@ -4865,8 +5063,23 @@
     "sync_isn_t_available_right_now_so_312469": {
         "message": "지금은 동기화를 사용할 수 없어서 이 기기가 제거되지 않았어요. 여전히 로그인되어 있는지 확인한 다음 다시 시도해 주세요."
     },
+    "sync_needs_to_be_reset": {
+        "message": "동기화를 다시 설정해야 함"
+    },
     "sync_needs_to_be_set_up_again": {
         "message": "동기화를 다시 설정해야 해요. 나중에 완료를 선택한 다음, 설정 → 동기화에서 동기화 다시 설정을 선택하세요. 로컬 브라우징 데이터는 유지돼요."
+    },
+    "sync_now": {
+        "message": "지금 동기화"
+    },
+    "sync_paused": {
+        "message": "동기화 일시 중지됨"
+    },
+    "sync_resumed": {
+        "message": "동기화가 다시 시작됐어요"
+    },
+    "sync_will_start_shortly": {
+        "message": "곧 동기화가 시작돼요…"
     },
     "syncing": {
         "message": "동기화 중…"
@@ -4898,11 +5111,20 @@
     "tab_name": {
         "message": "탭 이름"
     },
+    "tab_or_space_to_search": {
+        "message": "Tab 또는 스페이스 바를 눌러 %@ 검색"
+    },
     "tab_search": {
         "message": "탭 검색"
     },
+    "tab_to_search": {
+        "message": "Tab 키를 눌러 %@ 검색"
+    },
     "tabs": {
         "message": "%1$@ · 탭 %2$d개"
+    },
+    "taking_full_page_screenshot": {
+        "message": "전체 페이지 스크린샷 찍는 중…"
     },
     "target_space_unavailable": {
         "message": "대상 스페이스를 사용할 수 없음"
@@ -5014,6 +5236,9 @@
     },
     "the_selected_time_machine_backup_is_no": {
         "message": "선택한 Time Machine 백업을 더 이상 사용할 수 없어요."
+    },
+    "the_sync_service_returned_an_error": {
+        "message": "동기화 서비스에서 오류가 반환됐어요."
     },
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "Time Machine 백업 삭제가 중단됐어요."
@@ -5264,6 +5489,9 @@
     "turning_developer_mode_off_turns_off_agent": {
         "message": "개발자 모드를 끄면 에이전트 접근과 에이전트용 비밀번호 관리자가 꺼지고, 허용된 모든 에이전트와 자격 증명 승인이 취소돼요. 이후에 연결하는 에이전트가 다시 켜 달라고 요청할 수 있어요."
     },
+    "turning_the_player_off_leaves_media_playing": {
+        "message": "플레이어를 꺼도 미디어는 계속 재생돼요. 동적 모드에서는 포인터를 잠시 올리면 확장되고, 키보드 포커스와 VoiceOver로는 바로 세부사항을 볼 수 있어요."
+    },
     "two_step_login_code_if_enabled": {
         "message": "2단계 로그인 코드 (사용 중인 경우)"
     },
@@ -5332,6 +5560,12 @@
     },
     "unlock_d1fd02": {
         "message": "잠금 해제…"
+    },
+    "unmute_tab": {
+        "message": "탭 음소거 해제"
+    },
+    "unmuted": {
+        "message": "음소거 해제됨"
     },
     "unnamed_profile": {
         "message": "이름 없는 프로필 (%@)"
@@ -5426,6 +5660,9 @@
     "url_rules_84ffe4": {
         "message": "URL 규칙"
     },
+    "url_rules_89e3ca": {
+        "message": "URL 규칙"
+    },
     "url_rules_dc27b3": {
         "message": "URL 규칙"
     },
@@ -5492,8 +5729,23 @@
     "view_page_source": {
         "message": "페이지 소스 보기"
     },
+    "volume_click_to_toggle_mute": {
+        "message": "음량 (⌥-클릭으로 음소거 전환)"
+    },
+    "waiting_for_a_profile_to_be_paired": {
+        "message": "프로필 페어링 대기 중"
+    },
+    "waiting_for_all_profiles_to_be_available": {
+        "message": "모든 프로필을 사용할 수 있을 때까지 기다리는 중"
+    },
     "waiting_for_approval": {
         "message": "승인 대기 중"
+    },
+    "waiting_for_current_sync": {
+        "message": "현재 동기화를 기다리는 중…"
+    },
+    "waiting_for_profiles_to_load": {
+        "message": "프로필을 불러올 때까지 기다리는 중"
     },
     "wants_to_control_phi_browser": {
         "message": "“%@”이(가) Phi Browser를 제어하려고 해요"
@@ -5659,6 +5911,9 @@
     },
     "your_session_has_expired_please_sign_in_0829": {
         "message": "세션이 만료됐어요. 다시 로그인한 다음 내보내기를 다시 시작해 주세요."
+    },
+    "your_sign_in_needs_to_be_renewed": {
+        "message": "다시 로그인해야 해요."
     },
     "your_spaces": {
         "message": "내 스페이스"
