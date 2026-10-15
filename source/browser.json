@@ -1795,6 +1795,10 @@
         "message": "Could Not Export Bookmarks",
         "description": "Location: Browser. Export bookmarks failure alert - title shown when writing the exported HTML file fails"
     },
+    "could_not_export_the_image": {
+        "message": "Could not export the image",
+        "description": "Location: Browser. Image preview - Error shown when writing the exported image file fails"
+    },
     "could_not_inspect_the_ai_data_archive": {
         "message": "Could not inspect the AI data archive.",
         "description": "Location: Browser. User data export - Error when the prepared AI data archive cannot be inspected"
@@ -2703,6 +2707,10 @@
         "message": "Export Failed",
         "description": "Location: Browser. Help menu - Log export error alert title"
     },
+    "export_image": {
+        "message": "Export Image",
+        "description": "Location: Browser. Image preview - Tooltip and accessibility label for saving the current image to a file"
+    },
     "export_logs": {
         "message": "Export Logs...",
         "description": "Location: Browser. Help menu - Menu item to export Phi and Sentinel logs as a zip archive; visible only when holding Option key"
@@ -3446,6 +3454,10 @@
     "if_you_deny": {
         "message": "How long should Phi refuse?",
         "description": "Location: Browser. CDP consent - label over the picker that scopes the refusal, shown after the user presses Deny"
+    },
+    "image": {
+        "message": "Image",
+        "description": "Location: Browser. Image preview - Default export filename when the image has no usable name"
     },
     "image_file_not_found": {
         "message": "Image file not found",
