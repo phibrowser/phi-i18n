@@ -1,4 +1,8 @@
 {
+    "a_browser_migration_is_running": {
+        "message": "A browser migration is running",
+        "description": "Location: Browser. Sync settings - reason a pinned tab scope change is not applied yet: a migration from another browser is in progress"
+    },
     "a_deletion_request_for_this_account_is": {
         "message": "A deletion request for this account is already being processed. You will receive an email receipt once the deletion is complete.\n\nPhi will now sign you out, remove its data from this Mac, and quit.",
         "description": "Location: Browser. Account deletion - Text shown when a previous deletion request is already running server-side; the finalize confirmation comes next, as after a submission"
@@ -6,6 +10,10 @@
     "a_little_library_of_things_worth_keeping": {
         "message": "A little library of things worth keeping.",
         "description": "Location: Browser. Folio library - Subtitle beneath the library name"
+    },
+    "a_migration_is_already_running_try_again": {
+        "message": "A migration is already running. Try again when it has finished.",
+        "description": "Location: Browser. Browser migration wizard - shown after Start when another migration run is still in progress"
     },
     "a_new_verification_code_is_on_its": {
         "message": "A new verification code is on its way to your inbox.",
@@ -26,10 +34,6 @@
     "a_profile_with_this_name_already_exists": {
         "message": "A profile with this name already exists.",
         "description": "Location: Browser. Validation shown when a new or renamed profile name duplicates an existing profile"
-    },
-    "a_space_is_using_this_profile_delete": {
-        "message": "A Space is using this profile. Delete that Space or change its profile first.",
-        "description": "Location: Browser. Body of the profile-delete error when a Space became bound to the profile before the deletion ran"
     },
     "a_space_is_using_this_profile_delete_a6279e": {
         "message": "A Space is using this profile. Delete that Space or change its profile first.",
@@ -358,10 +362,6 @@
     "all_connected_connectors_will_be_disconnected": {
         "message": "All connected Connectors will be disconnected.",
         "description": "Location: Browser. AI settings - Alert message explaining consequences of disabling connectors"
-    },
-    "all_cookies_history_extensions_and_saved_data": {
-        "message": "All cookies, history, extensions, and saved data on this profile will be permanently removed. This cannot be undone.",
-        "description": "Location: Browser. Body of the delete-profile confirmation"
     },
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "All cookies, history, extensions, and saved data on this profile will be permanently removed. This cannot be undone.",
@@ -807,14 +807,6 @@
         "message": "Bookmarks",
         "description": "Location: Browser. Main menu - Top-level Bookmarks menu title in the application menu bar"
     },
-    "bookmarks_and_pinned_tabs_belonging_to_this": {
-        "message": "Bookmarks and pinned tabs belonging to this Space will also be removed. This action cannot be undone.",
-        "description": "Location: Browser. Body of the delete-Space confirmation with Space-scoped pinned tabs"
-    },
-    "bookmarks_and_pinned_tabs_belonging_to_this_2b342c": {
-        "message": "Bookmarks and pinned tabs belonging to this Space will also be removed. This action cannot be undone.",
-        "description": "Location: Browser. Body of the delete-Space confirmation with Space-scoped pinned tabs"
-    },
     "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
         "message": "Bookmarks and pinned tabs belonging to this Space will also be removed. This action cannot be undone.",
         "description": "Location: Browser. Body of the delete-Space confirmation with Space-scoped pinned tabs"
@@ -826,14 +818,6 @@
     "bookmarks_bar": {
         "message": "Bookmarks Bar",
         "description": "Location: Browser. Bookmark editor - Root bookmark folder display name in folder picker"
-    },
-    "bookmarks_belonging_to_this_space_will_also": {
-        "message": "Bookmarks belonging to this Space will also be removed. This action cannot be undone.",
-        "description": "Location: Browser. Body of the delete-Space confirmation"
-    },
-    "bookmarks_belonging_to_this_space_will_also_26c9e7": {
-        "message": "Bookmarks belonging to this Space will also be removed. This action cannot be undone.",
-        "description": "Location: Browser. Body of the delete-Space confirmation"
     },
     "bookmarks_belonging_to_this_space_will_also_83cfcd": {
         "message": "Bookmarks belonging to this Space will also be removed. This action cannot be undone.",
@@ -963,10 +947,6 @@
         "message": "Cancel",
         "description": "Location: Browser. Self-revoke confirmation - cancel\nWaiting - cancel"
     },
-    "cancel_1bd60a": {
-        "message": "Cancel",
-        "description": "Location: Browser. Cancel button"
-    },
     "cancel_1c7fd4": {
         "message": "Cancel",
         "description": "Location: Browser. Cancel button"
@@ -1043,10 +1023,6 @@
         "message": "Cancel",
         "description": "Location: Browser. Download item row - Tooltip for cancel download button"
     },
-    "cancel_bb8536": {
-        "message": "Cancel",
-        "description": "Location: Browser. Cancel button"
-    },
     "cancel_bf11d3": {
         "message": "Cancel",
         "description": "Location: Browser. Website memory deletion - Cancel removal button"
@@ -1072,10 +1048,6 @@
         "description": "Location: Browser. Cancel button"
     },
     "cancel_c787ed": {
-        "message": "Cancel",
-        "description": "Location: Browser. Cancel button"
-    },
-    "cancel_c88f49": {
         "message": "Cancel",
         "description": "Location: Browser. Cancel button"
     },
@@ -1695,10 +1667,6 @@
         "message": "Cookies",
         "description": "Location: Browser. Import data type - Cookies toggle label"
     },
-    "cookies_history_extensions_and_other_browser_data": {
-        "message": "Cookies, history, extensions, and other browser data in this profile will be permanently removed. Conversations will be kept in Phi Chat under Uncategorized. If AI is disabled or unavailable, conversations will be moved when AI is enabled and available again.",
-        "description": "Location: Browser. Spaces menu - Profile deletion confirmation distinguishing permanently removed browser data from retained conversations and explaining deferred organization while AI is unavailable"
-    },
     "cookies_history_extensions_and_other_browser_data_75aa07": {
         "message": "Cookies, history, extensions, and other browser data in this profile will be permanently removed. Conversations will be kept in Phi Chat under Uncategorized. If AI is disabled or unavailable, conversations will be moved when AI is enabled and available again.",
         "description": "Location: Browser. Profiles settings - Profile deletion confirmation distinguishing permanently removed browser data from retained conversations and explaining deferred organization while AI is unavailable"
@@ -1847,6 +1815,10 @@
         "message": "Could not save the screenshot",
         "description": "Location: Browser. Screenshot - Error toast when writing the selected JPEG file fails"
     },
+    "could_not_save_the_sync_deletion_record": {
+        "message": "Could not save the sync deletion record. Please try again.",
+        "description": "Location: Browser. Delete-profile error - Reason shown when the profile could not be deleted because its deletion could not be saved for sync to the user's other devices"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "Could not stage the AI data archive.",
         "description": "Location: Browser. User data export - Error when the prepared AI data archive cannot be staged for backup"
@@ -1874,10 +1846,6 @@
     "couldn_t_create_a_profile_named_on": {
         "message": "Couldn’t create a profile named “%@” on this Mac.",
         "description": "Location: Browser. Profile matching - error shown when a profile could not be created on this Mac; %@ is the profile name"
-    },
-    "couldn_t_delete_profile": {
-        "message": "Couldn't delete profile",
-        "description": "Location: Browser. Title of the profile-delete error"
     },
     "couldn_t_delete_profile_571082": {
         "message": "Couldn't delete profile",
@@ -1950,6 +1918,10 @@
     "couldn_t_rename_profile": {
         "message": "Couldn't rename profile",
         "description": "Location: Browser. Title of the profile-rename error"
+    },
+    "couldn_t_save_pinned_tabs_on_this": {
+        "message": "Couldn’t save pinned tabs on this Mac",
+        "description": "Location: Browser. Sync settings - reason a pinned tab scope change is not applied yet: saving the rearranged pinned tabs on this Mac failed"
     },
     "couldn_t_save_sync_setup_on_this": {
         "message": "Couldn’t save sync setup on this device. Try again.",
@@ -2063,14 +2035,6 @@
         "message": "Delete",
         "description": "Location: Browser. Bookmark manager delete confirmation - Destructive button title"
     },
-    "delete_0acc0d": {
-        "message": "Delete “%@”?",
-        "description": "Location: Browser. Title of the delete-Space confirmation"
-    },
-    "delete_1bd0ca": {
-        "message": "Delete “%@”?",
-        "description": "Location: Browser. Title of the delete-Space confirmation"
-    },
     "delete_2d08a5": {
         "message": "Delete",
         "description": "Location: Browser. Help menu - Destructive button that confirms Time Machine backup deletion"
@@ -2135,14 +2099,6 @@
         "message": "Delete %d Bookmarks",
         "description": "Location: Browser. Tab multi-selection context menu - delete selected bookmarks"
     },
-    "delete_e0e1bc": {
-        "message": "Delete",
-        "description": "Location: Browser. Destructive button"
-    },
-    "delete_f94027": {
-        "message": "Delete",
-        "description": "Location: Browser. Destructive button"
-    },
     "delete_folder": {
         "message": "Delete %d Folder?",
         "description": "Location: Browser. Bookmark multi-selection delete confirmation title"
@@ -2174,10 +2130,6 @@
     "delete_phi_account": {
         "message": "Delete Phi Account",
         "description": "Location: Browser. Account deletion - Title of the deletion flow dialog"
-    },
-    "delete_profile": {
-        "message": "Delete profile “%@”?",
-        "description": "Location: Browser. Title of the delete-profile confirmation"
     },
     "delete_profile_029da2": {
         "message": "Delete Profile",
@@ -3891,6 +3843,10 @@
         "message": "Local browser data is unavailable.",
         "description": "Location: Browser. Pinned-tab scope migration error when the local store cannot be opened"
     },
+    "local_browser_data_is_unavailable_mk_5586": {
+        "message": "Local browser data is unavailable",
+        "description": "Location: Browser. Sync settings - reason a pinned tab scope change is not applied yet: this Mac could not open its local browser data"
+    },
     "lock": {
         "message": "Lock",
         "description": "Location: Browser. Bitwarden timeout action - lock"
@@ -5191,6 +5147,10 @@
         "message": "Pinned tab scope",
         "description": "Location: Browser. Spaces settings - pinned-tab scope row label"
     },
+    "pinned_tab_scope_change_not_applied_yet": {
+        "message": "Pinned tab scope change not applied yet (%1$lld attempts; %2$@)",
+        "description": "Location: Browser. Sync settings - problem line under the sync status while this Mac keeps failing to apply a pinned tab scope change and keeps retrying on its own; %1$lld is the number of failed attempts in a row, %2$@ is the most recent reason, such as A browser migration is running"
+    },
     "pinned_tab_scope_wasn_t_changed": {
         "message": "Pinned Tab Scope Wasn’t Changed",
         "description": "Location: Browser. Spaces settings - pinned-tab scope migration error title"
@@ -5198,6 +5158,10 @@
     "pinned_tabs": {
         "message": "Pinned Tabs",
         "description": "Location: Browser. Search Tabs - Pinned tabs section title"
+    },
+    "pinned_tabs_are_being_rearranged_for_a": {
+        "message": "Pinned tabs are being rearranged for a new pinned tab scope. Try again in a moment.",
+        "description": "Location: Browser. Browser migration wizard - shown after Start when a pinned tab scope change is still being applied on this Mac"
     },
     "pinned_tabs_are_shared_across_all_profiles": {
         "message": "Pinned tabs are shared across all profiles and Spaces.",
@@ -6927,6 +6891,10 @@
         "message": "The Bitwarden browser extension autofills your vault logins on web pages. Phi can install it from the Chrome Web Store now.",
         "description": "Location: Browser. Phi & AI settings - Alert message explaining the suggested Bitwarden extension install"
     },
+    "the_change_will_finish_in_the_background": {
+        "message": "The change will finish in the background.",
+        "description": "Location: Browser. Spaces settings - note under the pinned tab scope picker when the new scope was saved but rearranging the pinned tabs on this Mac has not finished yet; it keeps retrying on its own"
+    },
     "the_connector_authorization_url_is_invalid": {
         "message": "The connector authorization URL is invalid.",
         "description": "Location: Browser. AI settings - OAuth authorization URL error"
@@ -7131,6 +7099,10 @@
         "message": "This Mac — registration could not be checked",
         "description": "Location: Browser. Device list unavailable; local identity is not proof of registration"
     },
+    "this_mac_s_default_profile_can_only": {
+        "message": "This Mac’s default profile can only be matched with the account’s default profile. Review the matches and try again.",
+        "description": "Location: Browser. Profile matching - error shown when a chosen match would pair a default profile with a non-default one"
+    },
     "this_mac_will_stop_syncing_your_local": {
         "message": "This Mac will stop syncing. Your local browsing data stays on this Mac. To join again, use approval from another device or your saved recovery code.",
         "description": "Location: Browser. Consequences of removing this device from sync"
@@ -7138,6 +7110,10 @@
     "this_process_carries_no_valid_code_signature": {
         "message": "This process carries no valid code signature, so its name comes from the command it was launched with and anything could claim it. Open Details to see that command before you allow it.",
         "description": "Location: Browser. CDP consent - body of the unsigned-agent warning banner"
+    },
+    "this_profile_will_also_be_deleted_from": {
+        "message": "This profile will also be deleted from your other synced devices.",
+        "description": "Location: Browser. Delete-profile confirmation - Extra sentence shown when sync is on and the profile syncs to the user's other devices"
     },
     "this_recovery_code_is_shown_only_once": {
         "message": "This recovery code is shown only once. Save it somewhere safe. On the next screen, enter it to confirm you saved it before continuing sync setup.",
@@ -7186,6 +7162,10 @@
     "this_space_s_window_will_be_reopened_ff677d": {
         "message": "This Space's window will be reopened with the new profile and its open tabs will be reloaded there. Site logins won't carry over. Bookmarks and pinned tabs stay with the Space.",
         "description": "Location: Browser. Body of the change-Space-profile confirmation with Space-scoped pinned tabs"
+    },
+    "this_space_will_also_be_deleted_from": {
+        "message": "This Space will also be deleted from your other synced devices.",
+        "description": "Location: Browser. Delete-Space confirmation - Extra sentence shown when sync is on and the Space syncs to the user's other devices"
     },
     "this_version_of_phi_cannot_open_local": {
         "message": "This version of Phi cannot open local browser data that was updated by a newer version. Install the latest Phi version and try again.",
@@ -7386,10 +7366,6 @@
     "unknown_date": {
         "message": "Unknown Date",
         "description": "Location: Browser. All downloads window - Section heading for downloads without a start date"
-    },
-    "unknown_error": {
-        "message": "Unknown error",
-        "description": "Location: Browser. Fallback profile-delete error reason"
     },
     "unknown_error_145286": {
         "message": "Unknown error",
@@ -7882,6 +7858,10 @@
     "your_pinned_tabs_and_bookmarks_will_appear": {
         "message": "Your pinned tabs and bookmarks will appear here.",
         "description": "Location: Browser. Library Space card - empty contents message"
+    },
+    "your_pinned_tabs_couldn_t_be_rearranged": {
+        "message": "Your pinned tabs couldn’t be rearranged on this Mac. Try again.",
+        "description": "Location: Browser. Spaces settings - pinned-tab scope change error body when saving the rearranged pinned tabs failed"
     },
     "your_profiles": {
         "message": "Your Profiles",

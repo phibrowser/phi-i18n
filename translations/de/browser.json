@@ -1,9 +1,15 @@
 {
+    "a_browser_migration_is_running": {
+        "message": "Eine Migration aus einem anderen Browser läuft"
+    },
     "a_deletion_request_for_this_account_is": {
         "message": "Ein Löschantrag für dieses Konto wird bereits bearbeitet. Du erhältst eine Bestätigung per E-Mail, sobald die Löschung abgeschlossen ist.\n\nPhi meldet dich jetzt ab, entfernt seine Daten von diesem Mac und wird beendet."
     },
     "a_little_library_of_things_worth_keeping": {
         "message": "Eine kleine Bibliothek für Dinge, die du behalten möchtest."
+    },
+    "a_migration_is_already_running_try_again": {
+        "message": "Es läuft bereits eine Migration. Versuche es erneut, sobald sie abgeschlossen ist."
     },
     "a_new_verification_code_is_on_its": {
         "message": "Ein neuer Bestätigungscode ist auf dem Weg in dein Postfach."
@@ -19,9 +25,6 @@
     },
     "a_profile_with_this_name_already_exists": {
         "message": "Ein Profil mit diesem Namen existiert bereits."
-    },
-    "a_space_is_using_this_profile_delete": {
-        "message": "Ein Space verwendet dieses Profil. Lösche zuerst diesen Space oder ändere dessen Profil."
     },
     "a_space_is_using_this_profile_delete_a6279e": {
         "message": "Ein Space verwendet dieses Profil. Lösche zuerst diesen Space oder ändere dessen Profil."
@@ -268,9 +271,6 @@
     },
     "all_connected_connectors_will_be_disconnected": {
         "message": "Alle verbundenen Connectors werden getrennt."
-    },
-    "all_cookies_history_extensions_and_saved_data": {
-        "message": "Alle Cookies, der Verlauf, Erweiterungen und gespeicherte Daten dieses Profils werden dauerhaft entfernt. Das kann nicht rückgängig gemacht werden."
     },
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "Alle Cookies, der Verlauf, Erweiterungen und gespeicherte Daten dieses Profils werden dauerhaft entfernt. Das kann nicht rückgängig gemacht werden."
@@ -605,12 +605,6 @@
     "bookmarks_7980a2": {
         "message": "Lesezeichen"
     },
-    "bookmarks_and_pinned_tabs_belonging_to_this": {
-        "message": "Zu diesem Space gehörende Lesezeichen und angeheftete Tabs werden ebenfalls entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
-    },
-    "bookmarks_and_pinned_tabs_belonging_to_this_2b342c": {
-        "message": "Zu diesem Space gehörende Lesezeichen und angeheftete Tabs werden ebenfalls entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
-    },
     "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
         "message": "Zu diesem Space gehörende Lesezeichen und angeheftete Tabs werden ebenfalls entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
     },
@@ -619,12 +613,6 @@
     },
     "bookmarks_bar": {
         "message": "Lesezeichenleiste"
-    },
-    "bookmarks_belonging_to_this_space_will_also": {
-        "message": "Zu diesem Space gehörende Lesezeichen werden ebenfalls entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
-    },
-    "bookmarks_belonging_to_this_space_will_also_26c9e7": {
-        "message": "Zu diesem Space gehörende Lesezeichen werden ebenfalls entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
     },
     "bookmarks_belonging_to_this_space_will_also_83cfcd": {
         "message": "Zu diesem Space gehörende Lesezeichen werden ebenfalls entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
@@ -722,9 +710,6 @@
     "cancel_19766e": {
         "message": "Abbrechen"
     },
-    "cancel_1bd60a": {
-        "message": "Abbrechen"
-    },
     "cancel_1c7fd4": {
         "message": "Abbrechen"
     },
@@ -782,9 +767,6 @@
     "cancel_aafe8f": {
         "message": "Abbrechen"
     },
-    "cancel_bb8536": {
-        "message": "Abbrechen"
-    },
     "cancel_bf11d3": {
         "message": "Abbrechen"
     },
@@ -804,9 +786,6 @@
         "message": "Abbrechen"
     },
     "cancel_c787ed": {
-        "message": "Abbrechen"
-    },
-    "cancel_c88f49": {
         "message": "Abbrechen"
     },
     "cancel_cce92d": {
@@ -1271,9 +1250,6 @@
     "cookies": {
         "message": "Cookies"
     },
-    "cookies_history_extensions_and_other_browser_data": {
-        "message": "Cookies, Verlauf, Erweiterungen und andere Browserdaten in diesem Profil werden dauerhaft entfernt. Unterhaltungen bleiben in Phi Chat unter „Ohne Kategorie“ erhalten. Wenn KI deaktiviert oder nicht verfügbar ist, werden die Unterhaltungen verschoben, sobald KI wieder aktiviert und verfügbar ist."
-    },
     "cookies_history_extensions_and_other_browser_data_75aa07": {
         "message": "Cookies, Verlauf, Erweiterungen und andere Browserdaten in diesem Profil werden dauerhaft entfernt. Unterhaltungen bleiben in Phi Chat unter „Ohne Kategorie“ erhalten. Wenn KI deaktiviert oder nicht verfügbar ist, werden die Unterhaltungen verschoben, sobald KI wieder aktiviert und verfügbar ist."
     },
@@ -1385,6 +1361,9 @@
     "could_not_save_the_screenshot": {
         "message": "Bildschirmfoto konnte nicht gesichert werden"
     },
+    "could_not_save_the_sync_deletion_record": {
+        "message": "Der Löschdatensatz für die Synchronisierung konnte nicht gespeichert werden. Bitte versuche es erneut."
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "Das KI-Datenarchiv konnte nicht für das Backup bereitgestellt werden."
     },
@@ -1405,9 +1384,6 @@
     },
     "couldn_t_create_a_profile_named_on": {
         "message": "Auf diesem Mac konnte kein Profil mit dem Namen „%@“ erstellt werden."
-    },
-    "couldn_t_delete_profile": {
-        "message": "Profil konnte nicht gelöscht werden"
     },
     "couldn_t_delete_profile_571082": {
         "message": "Profil konnte nicht gelöscht werden"
@@ -1462,6 +1438,9 @@
     },
     "couldn_t_rename_profile": {
         "message": "Profil konnte nicht umbenannt werden"
+    },
+    "couldn_t_save_pinned_tabs_on_this": {
+        "message": "Angeheftete Tabs konnten auf diesem Mac nicht gespeichert werden"
     },
     "couldn_t_save_sync_setup_on_this": {
         "message": "Die Synchronisierungseinrichtung konnte auf diesem Gerät nicht gespeichert werden. Versuche es erneut."
@@ -1547,12 +1526,6 @@
     "delete": {
         "message": "Löschen"
     },
-    "delete_0acc0d": {
-        "message": "„%@“ löschen?"
-    },
-    "delete_1bd0ca": {
-        "message": "„%@“ löschen?"
-    },
     "delete_2d08a5": {
         "message": "Löschen"
     },
@@ -1601,12 +1574,6 @@
     "delete_bookmarks_93bf2f": {
         "message": "%d Lesezeichen löschen"
     },
-    "delete_e0e1bc": {
-        "message": "Löschen"
-    },
-    "delete_f94027": {
-        "message": "Löschen"
-    },
     "delete_folder": {
         "message": "%d Ordner löschen?"
     },
@@ -1630,9 +1597,6 @@
     },
     "delete_phi_account": {
         "message": "Phi-Konto löschen"
-    },
-    "delete_profile": {
-        "message": "Profil „%@“ löschen?"
     },
     "delete_profile_029da2": {
         "message": "Profil löschen"
@@ -2918,6 +2882,9 @@
     "local_browser_data_is_unavailable": {
         "message": "Lokale Browserdaten sind nicht verfügbar."
     },
+    "local_browser_data_is_unavailable_mk_5586": {
+        "message": "Lokale Browserdaten sind nicht verfügbar"
+    },
     "lock": {
         "message": "Sperren"
     },
@@ -3893,11 +3860,17 @@
     "pinned_tab_scope": {
         "message": "Geltungsbereich angehefteter Tabs"
     },
+    "pinned_tab_scope_change_not_applied_yet": {
+        "message": "Änderung des Geltungsbereichs angehefteter Tabs noch nicht angewendet (Versuche: %1$lld; %2$@)"
+    },
     "pinned_tab_scope_wasn_t_changed": {
         "message": "Geltungsbereich angehefteter Tabs wurde nicht geändert"
     },
     "pinned_tabs": {
         "message": "Angeheftete Tabs"
+    },
+    "pinned_tabs_are_being_rearranged_for_a": {
+        "message": "Angeheftete Tabs werden gerade für einen neuen Geltungsbereich neu angeordnet. Versuche es in Kürze erneut."
     },
     "pinned_tabs_are_shared_across_all_profiles": {
         "message": "Angeheftete Tabs werden von allen Profilen und Spaces gemeinsam genutzt."
@@ -5195,6 +5168,9 @@
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "Die Bitwarden-Browsererweiterung füllt deine im Tresor gespeicherten Zugangsdaten auf Webseiten automatisch aus. Phi kann sie jetzt aus dem Chrome Web Store installieren."
     },
+    "the_change_will_finish_in_the_background": {
+        "message": "Die Änderung wird im Hintergrund abgeschlossen."
+    },
     "the_connector_authorization_url_is_invalid": {
         "message": "Die Autorisierungs-URL des Connectors ist ungültig."
     },
@@ -5348,11 +5324,17 @@
     "this_mac_registration_could_not_be_checked": {
         "message": "Dieser Mac: Registrierung konnte nicht überprüft werden"
     },
+    "this_mac_s_default_profile_can_only": {
+        "message": "Das Standardprofil dieses Mac kann nur dem Standardprofil des Accounts zugeordnet werden. Überprüfe die Zuordnungen und versuche es erneut."
+    },
     "this_mac_will_stop_syncing_your_local": {
         "message": "Dieser Mac stellt die Synchronisierung ein. Deine lokalen Browserdaten bleiben auf diesem Mac erhalten. Um wieder beizutreten, verwende die Genehmigung eines anderen Geräts oder deinen gesicherten Wiederherstellungscode."
     },
     "this_process_carries_no_valid_code_signature": {
         "message": "Dieser Prozess hat keine gültige Codesignatur. Sein Name stammt daher aus dem Befehl, mit dem er gestartet wurde, und jedes beliebige Programm könnte ihn beanspruchen. Öffne die Details, um dir diesen Befehl anzusehen, bevor du den Zugriff erlaubst."
+    },
+    "this_profile_will_also_be_deleted_from": {
+        "message": "Dieses Profil wird auch auf deinen anderen synchronisierten Geräten gelöscht."
     },
     "this_recovery_code_is_shown_only_once": {
         "message": "Dieser Wiederherstellungscode wird nur einmal angezeigt. Sichere ihn an einem sicheren Ort. Gib ihn auf dem nächsten Bildschirm ein, um zu bestätigen, dass du ihn gesichert hast, bevor du mit der Einrichtung der Synchronisierung fortfährst."
@@ -5389,6 +5371,9 @@
     },
     "this_space_s_window_will_be_reopened_ff677d": {
         "message": "Das Fenster dieses Space wird mit dem neuen Profil erneut geöffnet und seine offenen Tabs werden dort neu geladen. Website-Anmeldungen werden nicht übernommen. Lesezeichen und angeheftete Tabs bleiben beim Space."
+    },
+    "this_space_will_also_be_deleted_from": {
+        "message": "Dieser Space wird auch auf deinen anderen synchronisierten Geräten gelöscht."
     },
     "this_version_of_phi_cannot_open_local": {
         "message": "Diese Version von Phi kann keine lokalen Browserdaten öffnen, die von einer neueren Version aktualisiert wurden. Installiere die neueste Phi-Version und versuche es erneut."
@@ -5539,9 +5524,6 @@
     },
     "unknown_date": {
         "message": "Unbekanntes Datum"
-    },
-    "unknown_error": {
-        "message": "Unbekannter Fehler"
     },
     "unknown_error_145286": {
         "message": "Unbekannter Fehler"
@@ -5911,6 +5893,9 @@
     },
     "your_pinned_tabs_and_bookmarks_will_appear": {
         "message": "Deine angehefteten Tabs und Lesezeichen werden hier angezeigt."
+    },
+    "your_pinned_tabs_couldn_t_be_rearranged": {
+        "message": "Deine angehefteten Tabs konnten auf diesem Mac nicht neu angeordnet werden. Versuche es erneut."
     },
     "your_profiles": {
         "message": "Deine Profile"

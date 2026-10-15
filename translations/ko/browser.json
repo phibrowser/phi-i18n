@@ -1,9 +1,15 @@
 {
+    "a_browser_migration_is_running": {
+        "message": "브라우저 마이그레이션이 진행 중이에요"
+    },
     "a_deletion_request_for_this_account_is": {
         "message": "이 계정의 삭제 요청이 이미 처리되고 있어요. 삭제가 완료되면 확인 이메일을 받게 돼요.\n\n이제 Phi에서 로그아웃되고, 이 Mac에서 Phi 데이터가 제거된 후 앱이 종료돼요."
     },
     "a_little_library_of_things_worth_keeping": {
         "message": "간직할 만한 것들을 모아 둔 작은 라이브러리예요."
+    },
+    "a_migration_is_already_running_try_again": {
+        "message": "마이그레이션이 이미 진행 중이에요. 마이그레이션이 끝난 후 다시 시도해 주세요."
     },
     "a_new_verification_code_is_on_its": {
         "message": "새 인증 코드가 받은 편지함으로 발송되었어요."
@@ -19,9 +25,6 @@
     },
     "a_profile_with_this_name_already_exists": {
         "message": "같은 이름의 프로필이 이미 있어요."
-    },
-    "a_space_is_using_this_profile_delete": {
-        "message": "스페이스가 이 프로필을 사용하고 있어요. 먼저 해당 스페이스를 삭제하거나 그 스페이스의 프로필을 변경해 주세요."
     },
     "a_space_is_using_this_profile_delete_a6279e": {
         "message": "스페이스가 이 프로필을 사용하고 있어요. 먼저 해당 스페이스를 삭제하거나 그 스페이스의 프로필을 변경해 주세요."
@@ -268,9 +271,6 @@
     },
     "all_connected_connectors_will_be_disconnected": {
         "message": "연결된 모든 커넥터의 연결이 해제돼요."
-    },
-    "all_cookies_history_extensions_and_saved_data": {
-        "message": "이 프로필의 모든 쿠키, 방문 기록, 확장 프로그램, 저장된 데이터가 영구적으로 제거돼요. 이 작업은 되돌릴 수 없어요."
     },
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "이 프로필의 모든 쿠키, 방문 기록, 확장 프로그램, 저장된 데이터가 영구적으로 제거돼요. 이 작업은 되돌릴 수 없어요."
@@ -605,12 +605,6 @@
     "bookmarks_7980a2": {
         "message": "북마크"
     },
-    "bookmarks_and_pinned_tabs_belonging_to_this": {
-        "message": "이 스페이스에 속한 북마크와 고정된 탭도 함께 제거돼요. 이 작업은 되돌릴 수 없어요."
-    },
-    "bookmarks_and_pinned_tabs_belonging_to_this_2b342c": {
-        "message": "이 스페이스에 속한 북마크와 고정된 탭도 함께 제거돼요. 이 작업은 되돌릴 수 없어요."
-    },
     "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
         "message": "이 스페이스에 속한 북마크와 고정된 탭도 함께 제거돼요. 이 작업은 되돌릴 수 없어요."
     },
@@ -619,12 +613,6 @@
     },
     "bookmarks_bar": {
         "message": "북마크 바"
-    },
-    "bookmarks_belonging_to_this_space_will_also": {
-        "message": "이 스페이스에 속한 북마크도 함께 제거돼요. 이 작업은 되돌릴 수 없어요."
-    },
-    "bookmarks_belonging_to_this_space_will_also_26c9e7": {
-        "message": "이 스페이스에 속한 북마크도 함께 제거돼요. 이 작업은 되돌릴 수 없어요."
     },
     "bookmarks_belonging_to_this_space_will_also_83cfcd": {
         "message": "이 스페이스에 속한 북마크도 함께 제거돼요. 이 작업은 되돌릴 수 없어요."
@@ -722,9 +710,6 @@
     "cancel_19766e": {
         "message": "취소"
     },
-    "cancel_1bd60a": {
-        "message": "취소"
-    },
     "cancel_1c7fd4": {
         "message": "취소"
     },
@@ -782,9 +767,6 @@
     "cancel_aafe8f": {
         "message": "취소"
     },
-    "cancel_bb8536": {
-        "message": "취소"
-    },
     "cancel_bf11d3": {
         "message": "취소"
     },
@@ -804,9 +786,6 @@
         "message": "취소"
     },
     "cancel_c787ed": {
-        "message": "취소"
-    },
-    "cancel_c88f49": {
         "message": "취소"
     },
     "cancel_cce92d": {
@@ -1271,9 +1250,6 @@
     "cookies": {
         "message": "쿠키"
     },
-    "cookies_history_extensions_and_other_browser_data": {
-        "message": "이 프로필의 쿠키, 방문 기록, 확장 프로그램 및 기타 브라우저 데이터가 영구적으로 제거돼요. 대화는 Phi Chat의 '미분류'에 보관돼요. AI가 비활성화되어 있거나 사용할 수 없는 경우, 대화는 AI가 다시 활성화되고 사용 가능해질 때 이동돼요."
-    },
     "cookies_history_extensions_and_other_browser_data_75aa07": {
         "message": "이 프로필의 쿠키, 방문 기록, 확장 프로그램 및 기타 브라우저 데이터가 영구적으로 제거돼요. 대화는 Phi Chat의 '미분류'에 보관돼요. AI가 비활성화되어 있거나 사용할 수 없는 경우, 대화는 AI가 다시 활성화되고 사용 가능해질 때 이동돼요."
     },
@@ -1385,6 +1361,9 @@
     "could_not_save_the_screenshot": {
         "message": "스크린샷을 저장하지 못했어요"
     },
+    "could_not_save_the_sync_deletion_record": {
+        "message": "동기화 삭제 기록을 저장하지 못했어요. 다시 시도해 주세요."
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "AI 데이터 아카이브를 백업용으로 준비할 수 없어요."
     },
@@ -1405,9 +1384,6 @@
     },
     "couldn_t_create_a_profile_named_on": {
         "message": "이 Mac에 “%@”(이)라는 이름의 프로필을 만들지 못했어요."
-    },
-    "couldn_t_delete_profile": {
-        "message": "프로필을 삭제할 수 없음"
     },
     "couldn_t_delete_profile_571082": {
         "message": "프로필을 삭제할 수 없음"
@@ -1462,6 +1438,9 @@
     },
     "couldn_t_rename_profile": {
         "message": "프로필 이름을 변경할 수 없음"
+    },
+    "couldn_t_save_pinned_tabs_on_this": {
+        "message": "이 Mac에 고정된 탭을 저장하지 못했어요"
     },
     "couldn_t_save_sync_setup_on_this": {
         "message": "이 기기에 동기화 설정을 저장하지 못했어요. 다시 시도해 주세요."
@@ -1547,12 +1526,6 @@
     "delete": {
         "message": "삭제"
     },
-    "delete_0acc0d": {
-        "message": "“%@”을(를) 삭제할까요?"
-    },
-    "delete_1bd0ca": {
-        "message": "“%@”을(를) 삭제할까요?"
-    },
     "delete_2d08a5": {
         "message": "삭제"
     },
@@ -1601,12 +1574,6 @@
     "delete_bookmarks_93bf2f": {
         "message": "북마크 %d개 삭제"
     },
-    "delete_e0e1bc": {
-        "message": "삭제"
-    },
-    "delete_f94027": {
-        "message": "삭제"
-    },
     "delete_folder": {
         "message": "폴더 %d개를 삭제할까요?"
     },
@@ -1630,9 +1597,6 @@
     },
     "delete_phi_account": {
         "message": "Phi 계정 삭제"
-    },
-    "delete_profile": {
-        "message": "프로필 “%@”을(를) 삭제할까요?"
     },
     "delete_profile_029da2": {
         "message": "프로필 삭제"
@@ -2918,6 +2882,9 @@
     "local_browser_data_is_unavailable": {
         "message": "로컬 브라우저 데이터를 사용할 수 없어요."
     },
+    "local_browser_data_is_unavailable_mk_5586": {
+        "message": "로컬 브라우저 데이터를 사용할 수 없어요"
+    },
     "lock": {
         "message": "잠금"
     },
@@ -3893,11 +3860,17 @@
     "pinned_tab_scope": {
         "message": "고정 탭 범위"
     },
+    "pinned_tab_scope_change_not_applied_yet": {
+        "message": "고정 탭 범위 변경이 아직 적용되지 않았어요 (%1$lld회 시도, %2$@)"
+    },
     "pinned_tab_scope_wasn_t_changed": {
         "message": "고정 탭 범위가 변경되지 않았어요"
     },
     "pinned_tabs": {
         "message": "고정된 탭"
+    },
+    "pinned_tabs_are_being_rearranged_for_a": {
+        "message": "새 고정 탭 범위에 맞춰 고정된 탭을 다시 정리하는 중이에요. 잠시 후 다시 시도해 주세요."
     },
     "pinned_tabs_are_shared_across_all_profiles": {
         "message": "고정된 탭은 모든 프로필과 스페이스에서 공유돼요."
@@ -5195,6 +5168,9 @@
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "Bitwarden 브라우저 확장 프로그램은 웹 페이지에서 보관함의 로그인 정보를 자동으로 입력해요. 지금 Phi가 Chrome 웹 스토어에서 설치할 수 있어요."
     },
+    "the_change_will_finish_in_the_background": {
+        "message": "변경 사항은 백그라운드에서 완료돼요."
+    },
     "the_connector_authorization_url_is_invalid": {
         "message": "커넥터 인증 URL이 올바르지 않아요."
     },
@@ -5348,11 +5324,17 @@
     "this_mac_registration_could_not_be_checked": {
         "message": "이 Mac: 등록 상태를 확인할 수 없음"
     },
+    "this_mac_s_default_profile_can_only": {
+        "message": "이 Mac의 기본 프로필은 계정의 기본 프로필과만 연결할 수 있어요. 연결 항목을 확인하고 다시 시도해 주세요."
+    },
     "this_mac_will_stop_syncing_your_local": {
         "message": "이 Mac의 동기화가 중단돼요. 로컬 브라우징 데이터는 이 Mac에 그대로 남아요. 다시 참여하려면 다른 기기의 승인이나 저장해 둔 복구 코드를 사용하세요."
     },
     "this_process_carries_no_valid_code_signature": {
         "message": "이 프로세스에는 유효한 코드 서명이 없어요. 이름은 실행에 사용된 명령어에서 가져온 것이라 어떤 프로세스든 같은 이름을 내세울 수 있어요. 허용하기 전에 세부사항을 열어 해당 명령어를 확인하세요."
+    },
+    "this_profile_will_also_be_deleted_from": {
+        "message": "이 프로필은 동기화된 다른 기기에서도 삭제돼요."
     },
     "this_recovery_code_is_shown_only_once": {
         "message": "이 복구 코드는 한 번만 표시돼요. 안전한 곳에 저장해 주세요. 다음 화면에서 이 코드를 입력해 저장했는지 확인한 후 동기화 설정을 계속하세요."
@@ -5389,6 +5371,9 @@
     },
     "this_space_s_window_will_be_reopened_ff677d": {
         "message": "이 스페이스의 창이 새 프로필로 다시 열리고, 열려 있던 탭도 그곳에서 다시 불러와요. 사이트 로그인 정보는 이어지지 않아요. 북마크와 고정된 탭은 스페이스에 남아요."
+    },
+    "this_space_will_also_be_deleted_from": {
+        "message": "이 스페이스는 동기화된 다른 기기에서도 삭제돼요."
     },
     "this_version_of_phi_cannot_open_local": {
         "message": "이 버전의 Phi는 더 새로운 버전이 업데이트한 로컬 브라우저 데이터를 열 수 없어요. 최신 Phi 버전을 설치하고 다시 시도해 주세요."
@@ -5539,9 +5524,6 @@
     },
     "unknown_date": {
         "message": "알 수 없는 날짜"
-    },
-    "unknown_error": {
-        "message": "알 수 없는 오류"
     },
     "unknown_error_145286": {
         "message": "알 수 없는 오류"
@@ -5911,6 +5893,9 @@
     },
     "your_pinned_tabs_and_bookmarks_will_appear": {
         "message": "고정된 탭과 북마크가 여기에 표시돼요."
+    },
+    "your_pinned_tabs_couldn_t_be_rearranged": {
+        "message": "이 Mac에서 고정된 탭을 다시 정리하지 못했어요. 다시 시도해 주세요."
     },
     "your_profiles": {
         "message": "내 프로필"

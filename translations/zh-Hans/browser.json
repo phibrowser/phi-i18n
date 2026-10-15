@@ -1,9 +1,15 @@
 {
+    "a_browser_migration_is_running": {
+        "message": "正在从其他浏览器迁移"
+    },
     "a_deletion_request_for_this_account_is": {
         "message": "此账号的删除请求已在处理中。删除完成后，你会收到一封确认邮件。\n\nPhi 现在会将你退出登录，移除它在这台 Mac 上的数据，然后退出。"
     },
     "a_little_library_of_things_worth_keeping": {
         "message": "一座小小的资料库，存放值得留下的东西。"
+    },
+    "a_migration_is_already_running_try_again": {
+        "message": "已有一个迁移正在进行。请等它完成后再试。"
     },
     "a_new_verification_code_is_on_its": {
         "message": "新的验证码正在发往你的收件箱。"
@@ -19,9 +25,6 @@
     },
     "a_profile_with_this_name_already_exists": {
         "message": "已存在同名的个人资料。"
-    },
-    "a_space_is_using_this_profile_delete": {
-        "message": "有空间正在使用此个人资料。请先删除该空间或更改其个人资料。"
     },
     "a_space_is_using_this_profile_delete_a6279e": {
         "message": "有空间正在使用此个人资料。请先删除该空间或更改其个人资料。"
@@ -268,9 +271,6 @@
     },
     "all_connected_connectors_will_be_disconnected": {
         "message": "所有已连接的连接器都将断开连接。"
-    },
-    "all_cookies_history_extensions_and_saved_data": {
-        "message": "此个人资料中的所有 Cookie、历史记录、扩展程序和已保存的数据都将被永久移除。此操作无法撤销。"
     },
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "此个人资料中的所有 Cookie、历史记录、扩展程序和已保存的数据都将被永久移除。此操作无法撤销。"
@@ -605,12 +605,6 @@
     "bookmarks_7980a2": {
         "message": "书签"
     },
-    "bookmarks_and_pinned_tabs_belonging_to_this": {
-        "message": "属于此空间的书签和固定标签页也将被移除。此操作无法撤销。"
-    },
-    "bookmarks_and_pinned_tabs_belonging_to_this_2b342c": {
-        "message": "属于此空间的书签和固定标签页也将被移除。此操作无法撤销。"
-    },
     "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
         "message": "属于此空间的书签和固定标签页也将被移除。此操作无法撤销。"
     },
@@ -619,12 +613,6 @@
     },
     "bookmarks_bar": {
         "message": "书签栏"
-    },
-    "bookmarks_belonging_to_this_space_will_also": {
-        "message": "属于此空间的书签也将被移除。此操作无法撤销。"
-    },
-    "bookmarks_belonging_to_this_space_will_also_26c9e7": {
-        "message": "属于此空间的书签也将被移除。此操作无法撤销。"
     },
     "bookmarks_belonging_to_this_space_will_also_83cfcd": {
         "message": "属于此空间的书签也将被移除。此操作无法撤销。"
@@ -722,9 +710,6 @@
     "cancel_19766e": {
         "message": "取消"
     },
-    "cancel_1bd60a": {
-        "message": "取消"
-    },
     "cancel_1c7fd4": {
         "message": "取消"
     },
@@ -782,9 +767,6 @@
     "cancel_aafe8f": {
         "message": "取消"
     },
-    "cancel_bb8536": {
-        "message": "取消"
-    },
     "cancel_bf11d3": {
         "message": "取消"
     },
@@ -804,9 +786,6 @@
         "message": "取消"
     },
     "cancel_c787ed": {
-        "message": "取消"
-    },
-    "cancel_c88f49": {
         "message": "取消"
     },
     "cancel_cce92d": {
@@ -1271,9 +1250,6 @@
     "cookies": {
         "message": "Cookie"
     },
-    "cookies_history_extensions_and_other_browser_data": {
-        "message": "此个人资料中的 Cookie、历史记录、扩展程序和其他浏览器数据将被永久移除。对话将保留在 Phi Chat 的“未分类”中。如果 AI 已停用或不可用，对话将在 AI 重新启用并恢复可用后再移入其中。"
-    },
     "cookies_history_extensions_and_other_browser_data_75aa07": {
         "message": "此个人资料中的 Cookie、历史记录、扩展程序和其他浏览器数据将被永久移除。对话将保留在 Phi Chat 的“未分类”中。如果 AI 已停用或不可用，对话将在 AI 重新启用并恢复可用后再移入其中。"
     },
@@ -1385,6 +1361,9 @@
     "could_not_save_the_screenshot": {
         "message": "无法存储截屏"
     },
+    "could_not_save_the_sync_deletion_record": {
+        "message": "无法保存同步删除记录。请重试。"
+    },
     "could_not_stage_the_ai_data_archive": {
         "message": "无法暂存 AI 数据归档。"
     },
@@ -1405,9 +1384,6 @@
     },
     "couldn_t_create_a_profile_named_on": {
         "message": "无法在这台 Mac 上创建名为「%@」的个人资料。"
-    },
-    "couldn_t_delete_profile": {
-        "message": "无法删除个人资料"
     },
     "couldn_t_delete_profile_571082": {
         "message": "无法删除个人资料"
@@ -1462,6 +1438,9 @@
     },
     "couldn_t_rename_profile": {
         "message": "无法重命名个人资料"
+    },
+    "couldn_t_save_pinned_tabs_on_this": {
+        "message": "无法在这台 Mac 上保存固定标签页"
     },
     "couldn_t_save_sync_setup_on_this": {
         "message": "无法在此设备上保存同步设置。请重试。"
@@ -1547,12 +1526,6 @@
     "delete": {
         "message": "删除"
     },
-    "delete_0acc0d": {
-        "message": "要删除「%@」吗？"
-    },
-    "delete_1bd0ca": {
-        "message": "要删除「%@」吗？"
-    },
     "delete_2d08a5": {
         "message": "删除"
     },
@@ -1601,12 +1574,6 @@
     "delete_bookmarks_93bf2f": {
         "message": "删除 %d 个书签"
     },
-    "delete_e0e1bc": {
-        "message": "删除"
-    },
-    "delete_f94027": {
-        "message": "删除"
-    },
     "delete_folder": {
         "message": "要删除 %d 个文件夹吗？"
     },
@@ -1630,9 +1597,6 @@
     },
     "delete_phi_account": {
         "message": "删除 Phi 账号"
-    },
-    "delete_profile": {
-        "message": "要删除个人资料「%@」吗？"
     },
     "delete_profile_029da2": {
         "message": "删除个人资料"
@@ -2918,6 +2882,9 @@
     "local_browser_data_is_unavailable": {
         "message": "无法访问本地浏览器数据。"
     },
+    "local_browser_data_is_unavailable_mk_5586": {
+        "message": "无法访问本地浏览器数据"
+    },
     "lock": {
         "message": "锁定"
     },
@@ -3893,11 +3860,17 @@
     "pinned_tab_scope": {
         "message": "固定标签页范围"
     },
+    "pinned_tab_scope_change_not_applied_yet": {
+        "message": "固定标签页范围更改尚未应用（已尝试 %1$lld 次；%2$@）"
+    },
     "pinned_tab_scope_wasn_t_changed": {
         "message": "固定标签页范围未更改"
     },
     "pinned_tabs": {
         "message": "固定的标签页"
+    },
+    "pinned_tabs_are_being_rearranged_for_a": {
+        "message": "正在按新的固定标签页范围重新整理固定标签页。请稍后再试。"
     },
     "pinned_tabs_are_shared_across_all_profiles": {
         "message": "固定标签页在所有个人资料和空间之间共享。"
@@ -5195,6 +5168,9 @@
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "Bitwarden 浏览器扩展程序可以在网页上自动填充你密码库中的登录信息。Phi 现在可以从 Chrome 网上应用店安装它。"
     },
+    "the_change_will_finish_in_the_background": {
+        "message": "此更改将在后台完成。"
+    },
     "the_connector_authorization_url_is_invalid": {
         "message": "连接器授权网址无效。"
     },
@@ -5348,11 +5324,17 @@
     "this_mac_registration_could_not_be_checked": {
         "message": "这台 Mac（无法检查注册状态）"
     },
+    "this_mac_s_default_profile_can_only": {
+        "message": "这台 Mac 的默认个人资料只能与账户的默认个人资料匹配。请检查匹配项后重试。"
+    },
     "this_mac_will_stop_syncing_your_local": {
         "message": "这台 Mac 将停止同步。你的本地浏览数据会保留在这台 Mac 上。若要重新加入，请使用另一台设备的批准或你保存的恢复代码。"
     },
     "this_process_carries_no_valid_code_signature": {
         "message": "此进程没有有效的代码签名，因此它的名称来自启动它的命令，任何程序都可能冒用这个名称。在允许之前，请打开「详细信息」查看该命令。"
+    },
+    "this_profile_will_also_be_deleted_from": {
+        "message": "此个人资料也将从你其他已同步的设备上删除。"
     },
     "this_recovery_code_is_shown_only_once": {
         "message": "此恢复代码只会显示一次。请将它保存在安全的地方。在下一个屏幕上，输入该代码以确认你已保存，然后再继续设置同步。"
@@ -5389,6 +5371,9 @@
     },
     "this_space_s_window_will_be_reopened_ff677d": {
         "message": "此空间的窗口将以新的个人资料重新打开，其中已打开的标签页会在那里重新加载。网站登录状态不会保留。书签和固定标签页仍归此空间所有。"
+    },
+    "this_space_will_also_be_deleted_from": {
+        "message": "此空间也将从你其他已同步的设备上删除。"
     },
     "this_version_of_phi_cannot_open_local": {
         "message": "此版本的 Phi 无法打开由更新版本更新过的本地浏览器数据。请安装最新版 Phi 后重试。"
@@ -5539,9 +5524,6 @@
     },
     "unknown_date": {
         "message": "未知日期"
-    },
-    "unknown_error": {
-        "message": "未知错误"
     },
     "unknown_error_145286": {
         "message": "未知错误"
@@ -5911,6 +5893,9 @@
     },
     "your_pinned_tabs_and_bookmarks_will_appear": {
         "message": "你的固定标签页和书签将显示在这里。"
+    },
+    "your_pinned_tabs_couldn_t_be_rearranged": {
+        "message": "无法在这台 Mac 上重新整理你的固定标签页。请重试。"
     },
     "your_profiles": {
         "message": "你的个人资料"
