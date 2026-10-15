@@ -1529,8 +1529,8 @@
     "newtab_artifact_preview_generating_widget": {
         "message": "正在產生小工具…"
     },
-    "newtab_artifact_preview_generation_error_hint": {
-        "message": "請再試一次。如果問題持續發生，請重新啟動瀏覽器。"
+    "newtab_artifact_preview_generation_error_retry_hint": {
+        "message": "請再試一次，或換個說法描述你想要的小工具。"
     },
     "newtab_artifact_preview_generation_failed": {
         "message": "產生失敗"
@@ -1550,20 +1550,17 @@
     "newtab_artifact_preview_phases_adjusting_styles": {
         "message": "正在調整樣式（第 {{attempt}} 次嘗試）…"
     },
-    "newtab_artifact_preview_phases_calling_tool": {
-        "message": "正在呼叫 {{tool}}…"
-    },
     "newtab_artifact_preview_phases_checking_layout": {
         "message": "正在檢查版面配置…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "正在組合小工具…"
     },
-    "newtab_artifact_preview_phases_looking_up_memory": {
-        "message": "正在查閱你的記憶…"
-    },
     "newtab_artifact_preview_phases_ready": {
         "message": "完成"
+    },
+    "newtab_artifact_preview_phases_researching": {
+        "message": "正在蒐集資料…"
     },
     "newtab_artifact_preview_phases_resizing": {
         "message": "正在嘗試其他尺寸…"
@@ -1918,6 +1915,63 @@
     },
     "newtab_widget_templates_memory_image_title": {
         "message": "今日圖片"
+    },
+    "newtab_widget_templates_my_tasks_empty": {
+        "message": "還沒有任務。在對話中請 Phi 依排程執行某件事，任務就會顯示在這裡。"
+    },
+    "newtab_widget_templates_my_tasks_failed": {
+        "message": "目前無法讀取你的任務。"
+    },
+    "newtab_widget_templates_my_tasks_loading": {
+        "message": "正在載入你的任務…"
+    },
+    "newtab_widget_templates_my_tasks_next": {
+        "message": "下次"
+    },
+    "newtab_widget_templates_my_tasks_signed_out": {
+        "message": "登入後即可查看你的任務。"
+    },
+    "newtab_widget_templates_my_tasks_status_cancelled": {
+        "message": "已取消"
+    },
+    "newtab_widget_templates_my_tasks_status_completed": {
+        "message": "已完成"
+    },
+    "newtab_widget_templates_my_tasks_status_failed": {
+        "message": "失敗"
+    },
+    "newtab_widget_templates_my_tasks_status_missed": {
+        "message": "已錯過"
+    },
+    "newtab_widget_templates_my_tasks_status_not_started": {
+        "message": "尚未執行"
+    },
+    "newtab_widget_templates_my_tasks_status_paused": {
+        "message": "已暫停"
+    },
+    "newtab_widget_templates_my_tasks_status_queued": {
+        "message": "排隊中"
+    },
+    "newtab_widget_templates_my_tasks_status_rejected": {
+        "message": "已拒絕"
+    },
+    "newtab_widget_templates_my_tasks_status_running": {
+        "message": "執行中"
+    },
+    "newtab_widget_templates_my_tasks_suggestion_description": {
+        "message": "你的 Phi 排程任務：每項任務上次執行的結果，以及下次執行的時間。"
+    },
+    "newtab_widget_templates_my_tasks_suggestion_title": {
+        "message": "我的任務"
+    },
+    "newtab_widget_templates_my_tasks_title": {
+        "message": "我的任務"
+    },
+    "newtab_widget_templates_my_tasks_unavailable": {
+        "message": "Phi 未執行，因此無法讀取你的任務。"
+    },
+    "newtab_widget_templates_my_tasks_untitled": {
+        "message": "無標題任務"
     },
     "newtab_widget_templates_package_releases_empty": {
         "message": "還沒有發行版本"

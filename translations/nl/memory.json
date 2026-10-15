@@ -1529,8 +1529,8 @@
     "newtab_artifact_preview_generating_widget": {
         "message": "Widget wordt gegenereerd…"
     },
-    "newtab_artifact_preview_generation_error_hint": {
-        "message": "Probeer het opnieuw. Als het probleem aanhoudt, start je de browser opnieuw op."
+    "newtab_artifact_preview_generation_error_retry_hint": {
+        "message": "Probeer het opnieuw, of beschrijf de widget die je wilt met andere woorden."
     },
     "newtab_artifact_preview_generation_failed": {
         "message": "Genereren mislukt"
@@ -1550,20 +1550,17 @@
     "newtab_artifact_preview_phases_adjusting_styles": {
         "message": "Stijlen worden aangepast (poging {{attempt}})…"
     },
-    "newtab_artifact_preview_phases_calling_tool": {
-        "message": "{{tool}} wordt aangeroepen…"
-    },
     "newtab_artifact_preview_phases_checking_layout": {
         "message": "Lay-out wordt gecontroleerd…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "Widget wordt samengesteld…"
     },
-    "newtab_artifact_preview_phases_looking_up_memory": {
-        "message": "Je geheugen wordt doorzocht…"
-    },
     "newtab_artifact_preview_phases_ready": {
         "message": "Klaar"
+    },
+    "newtab_artifact_preview_phases_researching": {
+        "message": "Aan het onderzoeken…"
     },
     "newtab_artifact_preview_phases_resizing": {
         "message": "Een ander formaat wordt geprobeerd…"
@@ -1918,6 +1915,63 @@
     },
     "newtab_widget_templates_memory_image_title": {
         "message": "Afbeelding van vandaag"
+    },
+    "newtab_widget_templates_my_tasks_empty": {
+        "message": "Nog geen taken. Vraag Phi in een gesprek om iets volgens een planning te doen, dan verschijnt het hier."
+    },
+    "newtab_widget_templates_my_tasks_failed": {
+        "message": "Kan je taken nu niet lezen."
+    },
+    "newtab_widget_templates_my_tasks_loading": {
+        "message": "Je taken worden geladen…"
+    },
+    "newtab_widget_templates_my_tasks_next": {
+        "message": "volgende"
+    },
+    "newtab_widget_templates_my_tasks_signed_out": {
+        "message": "Log in om je taken te zien."
+    },
+    "newtab_widget_templates_my_tasks_status_cancelled": {
+        "message": "Geannuleerd"
+    },
+    "newtab_widget_templates_my_tasks_status_completed": {
+        "message": "Voltooid"
+    },
+    "newtab_widget_templates_my_tasks_status_failed": {
+        "message": "Mislukt"
+    },
+    "newtab_widget_templates_my_tasks_status_missed": {
+        "message": "Gemist"
+    },
+    "newtab_widget_templates_my_tasks_status_not_started": {
+        "message": "Niet gestart"
+    },
+    "newtab_widget_templates_my_tasks_status_paused": {
+        "message": "Gepauzeerd"
+    },
+    "newtab_widget_templates_my_tasks_status_queued": {
+        "message": "In wachtrij"
+    },
+    "newtab_widget_templates_my_tasks_status_rejected": {
+        "message": "Afgewezen"
+    },
+    "newtab_widget_templates_my_tasks_status_running": {
+        "message": "Actief"
+    },
+    "newtab_widget_templates_my_tasks_suggestion_description": {
+        "message": "Je geplande taken in Phi: hoe de laatste uitvoering van elke taak verliep en wanneer de volgende gepland staat."
+    },
+    "newtab_widget_templates_my_tasks_suggestion_title": {
+        "message": "Mijn taken"
+    },
+    "newtab_widget_templates_my_tasks_title": {
+        "message": "Mijn taken"
+    },
+    "newtab_widget_templates_my_tasks_unavailable": {
+        "message": "Phi is niet actief, dus je taken kunnen niet worden gelezen."
+    },
+    "newtab_widget_templates_my_tasks_untitled": {
+        "message": "Naamloze taak"
     },
     "newtab_widget_templates_package_releases_empty": {
         "message": "Nog geen releases"

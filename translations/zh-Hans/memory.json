@@ -1529,8 +1529,8 @@
     "newtab_artifact_preview_generating_widget": {
         "message": "正在生成小组件…"
     },
-    "newtab_artifact_preview_generation_error_hint": {
-        "message": "请重试。如果问题仍未解决，请重启浏览器。"
+    "newtab_artifact_preview_generation_error_retry_hint": {
+        "message": "重试一次，或者换个说法描述你想要的小组件。"
     },
     "newtab_artifact_preview_generation_failed": {
         "message": "生成失败"
@@ -1550,20 +1550,17 @@
     "newtab_artifact_preview_phases_adjusting_styles": {
         "message": "正在调整样式（第 {{attempt}} 次尝试）…"
     },
-    "newtab_artifact_preview_phases_calling_tool": {
-        "message": "正在调用 {{tool}}…"
-    },
     "newtab_artifact_preview_phases_checking_layout": {
         "message": "正在检查布局…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "正在编写小组件…"
     },
-    "newtab_artifact_preview_phases_looking_up_memory": {
-        "message": "正在查找你的记忆…"
-    },
     "newtab_artifact_preview_phases_ready": {
         "message": "已就绪"
+    },
+    "newtab_artifact_preview_phases_researching": {
+        "message": "正在搜集资料…"
     },
     "newtab_artifact_preview_phases_resizing": {
         "message": "正在尝试其他尺寸…"
@@ -1918,6 +1915,63 @@
     },
     "newtab_widget_templates_memory_image_title": {
         "message": "今日图片"
+    },
+    "newtab_widget_templates_my_tasks_empty": {
+        "message": "还没有任务。在对话中让 Phi 按计划执行某项操作，任务就会显示在这里。"
+    },
+    "newtab_widget_templates_my_tasks_failed": {
+        "message": "目前无法读取你的任务。"
+    },
+    "newtab_widget_templates_my_tasks_loading": {
+        "message": "正在加载你的任务…"
+    },
+    "newtab_widget_templates_my_tasks_next": {
+        "message": "下次运行"
+    },
+    "newtab_widget_templates_my_tasks_signed_out": {
+        "message": "登录后即可查看你的任务。"
+    },
+    "newtab_widget_templates_my_tasks_status_cancelled": {
+        "message": "已取消"
+    },
+    "newtab_widget_templates_my_tasks_status_completed": {
+        "message": "已完成"
+    },
+    "newtab_widget_templates_my_tasks_status_failed": {
+        "message": "失败"
+    },
+    "newtab_widget_templates_my_tasks_status_missed": {
+        "message": "已错过"
+    },
+    "newtab_widget_templates_my_tasks_status_not_started": {
+        "message": "未开始"
+    },
+    "newtab_widget_templates_my_tasks_status_paused": {
+        "message": "已暂停"
+    },
+    "newtab_widget_templates_my_tasks_status_queued": {
+        "message": "排队中"
+    },
+    "newtab_widget_templates_my_tasks_status_rejected": {
+        "message": "已拒绝"
+    },
+    "newtab_widget_templates_my_tasks_status_running": {
+        "message": "运行中"
+    },
+    "newtab_widget_templates_my_tasks_suggestion_description": {
+        "message": "你的 Phi 定时任务：每个任务上次运行的结果，以及下次运行的时间。"
+    },
+    "newtab_widget_templates_my_tasks_suggestion_title": {
+        "message": "我的任务"
+    },
+    "newtab_widget_templates_my_tasks_title": {
+        "message": "我的任务"
+    },
+    "newtab_widget_templates_my_tasks_unavailable": {
+        "message": "Phi 未在运行，无法读取你的任务。"
+    },
+    "newtab_widget_templates_my_tasks_untitled": {
+        "message": "无标题任务"
     },
     "newtab_widget_templates_package_releases_empty": {
         "message": "暂无发布版本"

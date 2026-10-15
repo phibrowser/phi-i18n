@@ -1529,8 +1529,8 @@
     "newtab_artifact_preview_generating_widget": {
         "message": "Génération du widget…"
     },
-    "newtab_artifact_preview_generation_error_hint": {
-        "message": "Réessayez. Si le problème persiste, redémarrez le navigateur."
+    "newtab_artifact_preview_generation_error_retry_hint": {
+        "message": "Réessayez, ou décrivez le widget souhaité avec d'autres mots."
     },
     "newtab_artifact_preview_generation_failed": {
         "message": "Échec de la génération"
@@ -1550,20 +1550,17 @@
     "newtab_artifact_preview_phases_adjusting_styles": {
         "message": "Ajustement des styles (tentative {{attempt}})…"
     },
-    "newtab_artifact_preview_phases_calling_tool": {
-        "message": "Appel de {{tool}}…"
-    },
     "newtab_artifact_preview_phases_checking_layout": {
         "message": "Vérification de la mise en page…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "Composition du widget…"
     },
-    "newtab_artifact_preview_phases_looking_up_memory": {
-        "message": "Recherche dans vos souvenirs…"
-    },
     "newtab_artifact_preview_phases_ready": {
         "message": "Prêt"
+    },
+    "newtab_artifact_preview_phases_researching": {
+        "message": "Recherche…"
     },
     "newtab_artifact_preview_phases_resizing": {
         "message": "Essai d'une autre taille…"
@@ -1918,6 +1915,63 @@
     },
     "newtab_widget_templates_memory_image_title": {
         "message": "Image du jour"
+    },
+    "newtab_widget_templates_my_tasks_empty": {
+        "message": "Pas encore de tâches. Demandez à Phi dans une conversation d'effectuer une action de manière planifiée, et elle apparaîtra ici."
+    },
+    "newtab_widget_templates_my_tasks_failed": {
+        "message": "Impossible de lire vos tâches pour le moment."
+    },
+    "newtab_widget_templates_my_tasks_loading": {
+        "message": "Chargement de vos tâches…"
+    },
+    "newtab_widget_templates_my_tasks_next": {
+        "message": "prochaine"
+    },
+    "newtab_widget_templates_my_tasks_signed_out": {
+        "message": "Connectez-vous pour voir vos tâches."
+    },
+    "newtab_widget_templates_my_tasks_status_cancelled": {
+        "message": "Annulée"
+    },
+    "newtab_widget_templates_my_tasks_status_completed": {
+        "message": "Terminée"
+    },
+    "newtab_widget_templates_my_tasks_status_failed": {
+        "message": "Échouée"
+    },
+    "newtab_widget_templates_my_tasks_status_missed": {
+        "message": "Manquée"
+    },
+    "newtab_widget_templates_my_tasks_status_not_started": {
+        "message": "Non démarrée"
+    },
+    "newtab_widget_templates_my_tasks_status_paused": {
+        "message": "Suspendue"
+    },
+    "newtab_widget_templates_my_tasks_status_queued": {
+        "message": "En file d'attente"
+    },
+    "newtab_widget_templates_my_tasks_status_rejected": {
+        "message": "Rejetée"
+    },
+    "newtab_widget_templates_my_tasks_status_running": {
+        "message": "En cours"
+    },
+    "newtab_widget_templates_my_tasks_suggestion_description": {
+        "message": "Vos tâches planifiées Phi : comment s'est passée la dernière exécution de chacune et quand la prochaine est prévue."
+    },
+    "newtab_widget_templates_my_tasks_suggestion_title": {
+        "message": "Mes tâches"
+    },
+    "newtab_widget_templates_my_tasks_title": {
+        "message": "Mes tâches"
+    },
+    "newtab_widget_templates_my_tasks_unavailable": {
+        "message": "Phi n'est pas en cours d'exécution, vos tâches ne peuvent donc pas être lues."
+    },
+    "newtab_widget_templates_my_tasks_untitled": {
+        "message": "Tâche sans titre"
     },
     "newtab_widget_templates_package_releases_empty": {
         "message": "Pas encore de version publiée"

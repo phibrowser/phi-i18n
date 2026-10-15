@@ -1529,8 +1529,8 @@
     "newtab_artifact_preview_generating_widget": {
         "message": "위젯 생성 중…"
     },
-    "newtab_artifact_preview_generation_error_hint": {
-        "message": "다시 시도해 주세요. 문제가 계속되면 브라우저를 다시 시작해 주세요."
+    "newtab_artifact_preview_generation_error_retry_hint": {
+        "message": "다시 시도하거나, 원하는 위젯을 다른 말로 설명해 보세요."
     },
     "newtab_artifact_preview_generation_failed": {
         "message": "생성 실패"
@@ -1550,20 +1550,17 @@
     "newtab_artifact_preview_phases_adjusting_styles": {
         "message": "스타일 조정 중 ({{attempt}}번째 시도)…"
     },
-    "newtab_artifact_preview_phases_calling_tool": {
-        "message": "{{tool}} 호출 중…"
-    },
     "newtab_artifact_preview_phases_checking_layout": {
         "message": "레이아웃 확인 중…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "위젯 구성 중…"
     },
-    "newtab_artifact_preview_phases_looking_up_memory": {
-        "message": "메모리를 살펴보는 중…"
-    },
     "newtab_artifact_preview_phases_ready": {
         "message": "준비 완료"
+    },
+    "newtab_artifact_preview_phases_researching": {
+        "message": "자료 조사 중…"
     },
     "newtab_artifact_preview_phases_resizing": {
         "message": "다른 크기 시도 중…"
@@ -1918,6 +1915,63 @@
     },
     "newtab_widget_templates_memory_image_title": {
         "message": "오늘의 이미지"
+    },
+    "newtab_widget_templates_my_tasks_empty": {
+        "message": "아직 작업이 없어요. 채팅에서 Phi에게 일정에 따라 할 일을 요청하면 여기에 표시돼요."
+    },
+    "newtab_widget_templates_my_tasks_failed": {
+        "message": "지금은 작업을 불러올 수 없어요."
+    },
+    "newtab_widget_templates_my_tasks_loading": {
+        "message": "작업을 불러오는 중…"
+    },
+    "newtab_widget_templates_my_tasks_next": {
+        "message": "다음 실행"
+    },
+    "newtab_widget_templates_my_tasks_signed_out": {
+        "message": "작업을 보려면 로그인하세요."
+    },
+    "newtab_widget_templates_my_tasks_status_cancelled": {
+        "message": "중단됨"
+    },
+    "newtab_widget_templates_my_tasks_status_completed": {
+        "message": "완료됨"
+    },
+    "newtab_widget_templates_my_tasks_status_failed": {
+        "message": "실패"
+    },
+    "newtab_widget_templates_my_tasks_status_missed": {
+        "message": "누락됨"
+    },
+    "newtab_widget_templates_my_tasks_status_not_started": {
+        "message": "시작 전"
+    },
+    "newtab_widget_templates_my_tasks_status_paused": {
+        "message": "일시 중지됨"
+    },
+    "newtab_widget_templates_my_tasks_status_queued": {
+        "message": "대기 중"
+    },
+    "newtab_widget_templates_my_tasks_status_rejected": {
+        "message": "거부됨"
+    },
+    "newtab_widget_templates_my_tasks_status_running": {
+        "message": "실행 중"
+    },
+    "newtab_widget_templates_my_tasks_suggestion_description": {
+        "message": "Phi의 예약된 작업: 각 작업의 마지막 실행 결과와 다음 실행 예정 시간을 보여줘요."
+    },
+    "newtab_widget_templates_my_tasks_suggestion_title": {
+        "message": "내 작업"
+    },
+    "newtab_widget_templates_my_tasks_title": {
+        "message": "내 작업"
+    },
+    "newtab_widget_templates_my_tasks_unavailable": {
+        "message": "Phi가 실행되고 있지 않아 작업을 불러올 수 없어요."
+    },
+    "newtab_widget_templates_my_tasks_untitled": {
+        "message": "제목 없는 작업"
     },
     "newtab_widget_templates_package_releases_empty": {
         "message": "아직 릴리스가 없어요"

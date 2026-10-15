@@ -2039,9 +2039,9 @@
         "message": "Generating widget...",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Fallback title while the first widget version is being generated."
     },
-    "newtab_artifact_preview_generation_error_hint": {
-        "message": "Try again. If the problem continues, restart the browser.",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. User-facing recovery hint below widget-generation error detail."
+    "newtab_artifact_preview_generation_error_retry_hint": {
+        "message": "Try again, or describe the widget you want in other words.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Sole text under the \"Generation failed\" heading when a widget could not be generated: the user can retry, or rephrase the request. No error detail is shown."
     },
     "newtab_artifact_preview_generation_failed": {
         "message": "Generation failed",
@@ -2067,10 +2067,6 @@
         "message": "Adjusting styles (attempt {{attempt}})...",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while the assistant rewrites a widget a design-language check rejected; {{attempt}} is the 1-based number of the attempt now being written."
     },
-    "newtab_artifact_preview_phases_calling_tool": {
-        "message": "Calling {{tool}}...",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while a tool runs; {{tool}} is its raw snake_case identifier."
-    },
     "newtab_artifact_preview_phases_checking_layout": {
         "message": "Checking layout...",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while the finished widget is measured off-screen against the layout rules."
@@ -2079,13 +2075,13 @@
         "message": "Composing widget...",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while generated widget code is being composed."
     },
-    "newtab_artifact_preview_phases_looking_up_memory": {
-        "message": "Looking up your memory...",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label while relevant personal memory is retrieved."
-    },
     "newtab_artifact_preview_phases_ready": {
         "message": "Ready",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label after widget generation finishes."
+    },
+    "newtab_artifact_preview_phases_researching": {
+        "message": "Researching...",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Widget creation and refinement preview shown from the new-tab page. Progress labels shown while a widget is generated or refined. Progress label, beside the progress bar, while the assistant gathers what the widget needs (searching, reading pages, looking up memory) before writing it."
     },
     "newtab_artifact_preview_phases_resizing": {
         "message": "Trying another size...",
@@ -2558,6 +2554,82 @@
     "newtab_widget_templates_memory_image_title": {
         "message": "Today's image",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Image of the day catalog widget (a new-tab card showing one picture generated each day from the user's recent memory themes). Card title when neither the model nor the day's themes named the picture."
+    },
+    "newtab_widget_templates_my_tasks_empty": {
+        "message": "No tasks yet. Ask Phi in a chat to do something on a schedule, and it shows up here.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Shown when the user has no scheduled tasks."
+    },
+    "newtab_widget_templates_my_tasks_failed": {
+        "message": "Couldn't read your tasks right now.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Shown when reading the tasks failed for another reason."
+    },
+    "newtab_widget_templates_my_tasks_loading": {
+        "message": "Loading your tasks…",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Shown while the tasks are first read."
+    },
+    "newtab_widget_templates_my_tasks_next": {
+        "message": "next",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Lowercase word before the next run time, e.g. 'next 16:00'."
+    },
+    "newtab_widget_templates_my_tasks_signed_out": {
+        "message": "Sign in to see your tasks.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Shown when the user is not signed in, so tasks cannot be read."
+    },
+    "newtab_widget_templates_my_tasks_status_cancelled": {
+        "message": "Cancelled",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. Last run was cancelled."
+    },
+    "newtab_widget_templates_my_tasks_status_completed": {
+        "message": "Completed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. Last run finished successfully."
+    },
+    "newtab_widget_templates_my_tasks_status_failed": {
+        "message": "Failed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. Last run failed."
+    },
+    "newtab_widget_templates_my_tasks_status_missed": {
+        "message": "Missed",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. A run came due while Phi was not running and never started."
+    },
+    "newtab_widget_templates_my_tasks_status_not_started": {
+        "message": "Not run yet",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. The task has never run."
+    },
+    "newtab_widget_templates_my_tasks_status_paused": {
+        "message": "Paused",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. The task's schedules are turned off."
+    },
+    "newtab_widget_templates_my_tasks_status_queued": {
+        "message": "Queued",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. Run is waiting to start."
+    },
+    "newtab_widget_templates_my_tasks_status_rejected": {
+        "message": "Rejected",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. Last run was refused before starting."
+    },
+    "newtab_widget_templates_my_tasks_status_running": {
+        "message": "Running",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Status of a task's most recent run, shown at the right of its row. Run is in progress."
+    },
+    "newtab_widget_templates_my_tasks_suggestion_description": {
+        "message": "Your Phi scheduled tasks: how each last run went and when the next one is due.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. One-sentence description on the suggestion card in the widget library."
+    },
+    "newtab_widget_templates_my_tasks_suggestion_title": {
+        "message": "My tasks",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Title of the suggestion card in the widget library."
+    },
+    "newtab_widget_templates_my_tasks_title": {
+        "message": "My tasks",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Card title above the list of scheduled tasks; a count follows it."
+    },
+    "newtab_widget_templates_my_tasks_unavailable": {
+        "message": "Phi isn't running, so your tasks can't be read.",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Shown when the Phi agent is not running on this computer."
+    },
+    "newtab_widget_templates_my_tasks_untitled": {
+        "message": "Untitled task",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Row title for a task that has no title."
     },
     "newtab_widget_templates_package_releases_empty": {
         "message": "No releases yet",

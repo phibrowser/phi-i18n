@@ -1529,8 +1529,8 @@
     "newtab_artifact_preview_generating_widget": {
         "message": "Widget wird generiert…"
     },
-    "newtab_artifact_preview_generation_error_hint": {
-        "message": "Versuch es erneut. Wenn das Problem weiterhin besteht, starte den Browser neu."
+    "newtab_artifact_preview_generation_error_retry_hint": {
+        "message": "Versuch es erneut oder beschreibe das gewünschte Widget mit anderen Worten."
     },
     "newtab_artifact_preview_generation_failed": {
         "message": "Generierung fehlgeschlagen"
@@ -1550,20 +1550,17 @@
     "newtab_artifact_preview_phases_adjusting_styles": {
         "message": "Stile werden angepasst (Versuch {{attempt}})…"
     },
-    "newtab_artifact_preview_phases_calling_tool": {
-        "message": "{{tool}} wird aufgerufen…"
-    },
     "newtab_artifact_preview_phases_checking_layout": {
         "message": "Layout wird geprüft…"
     },
     "newtab_artifact_preview_phases_composing": {
         "message": "Widget wird zusammengesetzt…"
     },
-    "newtab_artifact_preview_phases_looking_up_memory": {
-        "message": "Deine Erinnerungen werden durchsucht…"
-    },
     "newtab_artifact_preview_phases_ready": {
         "message": "Fertig"
+    },
+    "newtab_artifact_preview_phases_researching": {
+        "message": "Recherchiere…"
     },
     "newtab_artifact_preview_phases_resizing": {
         "message": "Andere Größe wird ausprobiert…"
@@ -1918,6 +1915,63 @@
     },
     "newtab_widget_templates_memory_image_title": {
         "message": "Bild des Tages"
+    },
+    "newtab_widget_templates_my_tasks_empty": {
+        "message": "Noch keine Aufgaben. Bitte Phi in einem Chat, etwas nach Zeitplan zu erledigen, und die Aufgabe erscheint hier."
+    },
+    "newtab_widget_templates_my_tasks_failed": {
+        "message": "Deine Aufgaben konnten gerade nicht gelesen werden."
+    },
+    "newtab_widget_templates_my_tasks_loading": {
+        "message": "Deine Aufgaben werden geladen…"
+    },
+    "newtab_widget_templates_my_tasks_next": {
+        "message": "nächste Ausführung"
+    },
+    "newtab_widget_templates_my_tasks_signed_out": {
+        "message": "Melde dich an, um deine Aufgaben zu sehen."
+    },
+    "newtab_widget_templates_my_tasks_status_cancelled": {
+        "message": "Abgebrochen"
+    },
+    "newtab_widget_templates_my_tasks_status_completed": {
+        "message": "Abgeschlossen"
+    },
+    "newtab_widget_templates_my_tasks_status_failed": {
+        "message": "Fehlgeschlagen"
+    },
+    "newtab_widget_templates_my_tasks_status_missed": {
+        "message": "Verpasst"
+    },
+    "newtab_widget_templates_my_tasks_status_not_started": {
+        "message": "Noch nicht gestartet"
+    },
+    "newtab_widget_templates_my_tasks_status_paused": {
+        "message": "Pausiert"
+    },
+    "newtab_widget_templates_my_tasks_status_queued": {
+        "message": "In der Warteschlange"
+    },
+    "newtab_widget_templates_my_tasks_status_rejected": {
+        "message": "Abgelehnt"
+    },
+    "newtab_widget_templates_my_tasks_status_running": {
+        "message": "Wird ausgeführt"
+    },
+    "newtab_widget_templates_my_tasks_suggestion_description": {
+        "message": "Deine geplanten Aufgaben von Phi: wie die letzte Ausführung jeder Aufgabe lief und wann die nächste ansteht."
+    },
+    "newtab_widget_templates_my_tasks_suggestion_title": {
+        "message": "Meine Aufgaben"
+    },
+    "newtab_widget_templates_my_tasks_title": {
+        "message": "Meine Aufgaben"
+    },
+    "newtab_widget_templates_my_tasks_unavailable": {
+        "message": "Phi läuft nicht, deshalb können deine Aufgaben nicht gelesen werden."
+    },
+    "newtab_widget_templates_my_tasks_untitled": {
+        "message": "Aufgabe ohne Titel"
     },
     "newtab_widget_templates_package_releases_empty": {
         "message": "Noch keine Releases"
