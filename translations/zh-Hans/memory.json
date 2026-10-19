@@ -149,6 +149,9 @@
     "memory_management_actions_delete_browser_memory": {
         "message": "删除浏览器记忆"
     },
+    "memory_management_actions_delete_intent": {
+        "message": "删除意图"
+    },
     "memory_management_actions_delete_observation": {
         "message": "删除观察记录"
     },
@@ -740,8 +743,8 @@
     "memory_management_markdown_memory_description": {
         "message": "{{indentation}}  _{{description}}_"
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}**（{{duration}}，{{momentCount}} 个时刻）"
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}**：{{duration}}，来源：{{sourceCount}}"
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}"
@@ -1169,6 +1172,12 @@
     "memory_management_status_delete_observations_failed_detail": {
         "message": "删除此来源的观察记录失败：{{detail}}"
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "忽略意图失败"
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "忽略意图失败：{{detail}}"
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "已删除支撑记录：{{count}} 条"
     },
@@ -1183,6 +1192,9 @@
     },
     "memory_management_status_import_succeeded": {
         "message": "导入完成：{{details}}"
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "意图已忽略"
     },
     "memory_management_status_load_data_failed": {
         "message": "加载记忆数据失败"
@@ -2000,6 +2012,9 @@
     "newtab_widget_templates_pomodoro_break": {
         "message": "休息"
     },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "取消"
+    },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}} 分钟"
     },
@@ -2014,6 +2029,9 @@
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "重置"
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "继续"
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "开始"

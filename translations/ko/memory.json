@@ -149,6 +149,9 @@
     "memory_management_actions_delete_browser_memory": {
         "message": "브라우저 메모리 삭제"
     },
+    "memory_management_actions_delete_intent": {
+        "message": "의도 삭제"
+    },
     "memory_management_actions_delete_observation": {
         "message": "관찰 기록 삭제"
     },
@@ -740,8 +743,8 @@
     "memory_management_markdown_memory_description": {
         "message": "{{indentation}}  _{{description}}_"
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}** | {{duration}}, 순간 {{momentCount}}개"
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}**: {{duration}}, 소스: {{sourceCount}}"
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}"
@@ -1169,6 +1172,12 @@
     "memory_management_status_delete_observations_failed_detail": {
         "message": "관찰 항목 삭제에 실패했어요: {{detail}}"
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "의도를 무시하지 못했어요"
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "의도를 무시하지 못했어요: {{detail}}"
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "삭제된 소스 기록: {{count}}개"
     },
@@ -1183,6 +1192,9 @@
     },
     "memory_management_status_import_succeeded": {
         "message": "가져오기 완료: {{details}}"
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "의도를 무시했어요"
     },
     "memory_management_status_load_data_failed": {
         "message": "메모리 데이터를 불러오지 못했어요"
@@ -2000,6 +2012,9 @@
     "newtab_widget_templates_pomodoro_break": {
         "message": "휴식"
     },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "취소"
+    },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}}분"
     },
@@ -2014,6 +2029,9 @@
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "초기화"
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "계속"
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "시작"

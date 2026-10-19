@@ -149,6 +149,9 @@
     "memory_management_actions_delete_browser_memory": {
         "message": "刪除瀏覽器記憶"
     },
+    "memory_management_actions_delete_intent": {
+        "message": "刪除意圖"
+    },
     "memory_management_actions_delete_observation": {
         "message": "刪除觀察記錄"
     },
@@ -740,8 +743,8 @@
     "memory_management_markdown_memory_description": {
         "message": "{{indentation}}  _{{description}}_"
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}**（{{duration}}，時刻數：{{momentCount}}）"
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}**：{{duration}}，來源：{{sourceCount}}"
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}"
@@ -1169,6 +1172,12 @@
     "memory_management_status_delete_observations_failed_detail": {
         "message": "無法刪除相關觀察：{{detail}}"
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "無法忽略意圖"
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "無法忽略意圖：{{detail}}"
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "已刪除 {{count}} 筆來源記錄"
     },
@@ -1183,6 +1192,9 @@
     },
     "memory_management_status_import_succeeded": {
         "message": "匯入完成：{{details}}"
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "已忽略意圖"
     },
     "memory_management_status_load_data_failed": {
         "message": "無法載入記憶資料"
@@ -2000,6 +2012,9 @@
     "newtab_widget_templates_pomodoro_break": {
         "message": "休息"
     },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "取消"
+    },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}} 分"
     },
@@ -2014,6 +2029,9 @@
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "重設"
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "繼續"
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "開始"

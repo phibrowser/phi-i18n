@@ -149,6 +149,9 @@
     "memory_management_actions_delete_browser_memory": {
         "message": "Browser-Erinnerung löschen"
     },
+    "memory_management_actions_delete_intent": {
+        "message": "Absicht löschen"
+    },
     "memory_management_actions_delete_observation": {
         "message": "Beobachtung löschen"
     },
@@ -740,8 +743,8 @@
     "memory_management_markdown_memory_description": {
         "message": "{{indentation}}  _{{description}}_"
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}**, {{duration}}, Momente: {{momentCount}}"
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}**: {{duration}}, Quellen: {{sourceCount}}"
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}"
@@ -1169,6 +1172,12 @@
     "memory_management_status_delete_observations_failed_detail": {
         "message": "Beobachtungen konnten nicht gelöscht werden: {{detail}}"
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "Absicht konnte nicht verworfen werden"
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "Absicht konnte nicht verworfen werden: {{detail}}"
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "Quelleinträge gelöscht: {{count}}"
     },
@@ -1183,6 +1192,9 @@
     },
     "memory_management_status_import_succeeded": {
         "message": "Import abgeschlossen: {{details}}"
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "Absicht verworfen"
     },
     "memory_management_status_load_data_failed": {
         "message": "Erinnerungsdaten konnten nicht geladen werden"
@@ -1926,7 +1938,7 @@
         "message": "Deine Aufgaben werden geladen…"
     },
     "newtab_widget_templates_my_tasks_next": {
-        "message": "nächste Ausführung"
+        "message": "Nächste Ausführung"
     },
     "newtab_widget_templates_my_tasks_signed_out": {
         "message": "Melde dich an, um deine Aufgaben zu sehen."
@@ -2000,6 +2012,9 @@
     "newtab_widget_templates_pomodoro_break": {
         "message": "Pause"
     },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "Abbrechen"
+    },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}} min"
     },
@@ -2014,6 +2029,9 @@
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "Zurücksetzen"
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "Fortsetzen"
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "Starten"

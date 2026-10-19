@@ -149,6 +149,9 @@
     "memory_management_actions_delete_browser_memory": {
         "message": "Eliminar recuerdo del navegador"
     },
+    "memory_management_actions_delete_intent": {
+        "message": "Eliminar intención"
+    },
     "memory_management_actions_delete_observation": {
         "message": "Eliminar observación"
     },
@@ -740,8 +743,8 @@
     "memory_management_markdown_memory_description": {
         "message": "{{indentation}}  _{{description}}_"
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}**: {{duration}}, momentos: {{momentCount}}"
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}**: {{duration}}, fuentes: {{sourceCount}}"
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}"
@@ -1169,6 +1172,12 @@
     "memory_management_status_delete_observations_failed_detail": {
         "message": "No se pudieron eliminar las observaciones: {{detail}}"
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "No se pudo descartar la intención"
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "No se pudo descartar la intención: {{detail}}"
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "Registros de origen eliminados: {{count}}"
     },
@@ -1183,6 +1192,9 @@
     },
     "memory_management_status_import_succeeded": {
         "message": "Importación completada: {{details}}"
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "Intención descartada"
     },
     "memory_management_status_load_data_failed": {
         "message": "No se pudieron cargar los datos de memoria"
@@ -1926,7 +1938,7 @@
         "message": "Cargando tus tareas…"
     },
     "newtab_widget_templates_my_tasks_next": {
-        "message": "próxima"
+        "message": "Próxima"
     },
     "newtab_widget_templates_my_tasks_signed_out": {
         "message": "Inicia sesión para ver tus tareas."
@@ -2000,6 +2012,9 @@
     "newtab_widget_templates_pomodoro_break": {
         "message": "Descanso"
     },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "Cancelar"
+    },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}}m"
     },
@@ -2014,6 +2029,9 @@
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "Reiniciar"
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "Reanudar"
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "Iniciar"

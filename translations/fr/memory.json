@@ -149,6 +149,9 @@
     "memory_management_actions_delete_browser_memory": {
         "message": "Supprimer le souvenir de navigation"
     },
+    "memory_management_actions_delete_intent": {
+        "message": "Supprimer l'intention"
+    },
     "memory_management_actions_delete_observation": {
         "message": "Supprimer l'observation"
     },
@@ -740,8 +743,8 @@
     "memory_management_markdown_memory_description": {
         "message": "{{indentation}}  _{{description}}_"
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}** ({{duration}}, moments : {{momentCount}})"
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}** : {{duration}}, sources : {{sourceCount}}"
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}"
@@ -1169,6 +1172,12 @@
     "memory_management_status_delete_observations_failed_detail": {
         "message": "Impossible de supprimer les observations : {{detail}}"
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "Impossible d'ignorer l'intention"
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "Impossible d'ignorer l'intention : {{detail}}"
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "Enregistrements sources supprimés : {{count}}"
     },
@@ -1183,6 +1192,9 @@
     },
     "memory_management_status_import_succeeded": {
         "message": "Importation terminée : {{details}}"
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "Intention ignorée"
     },
     "memory_management_status_load_data_failed": {
         "message": "Impossible de charger les données de mémoire"
@@ -1926,7 +1938,7 @@
         "message": "Chargement de vos tâches…"
     },
     "newtab_widget_templates_my_tasks_next": {
-        "message": "prochaine"
+        "message": "Prochaine"
     },
     "newtab_widget_templates_my_tasks_signed_out": {
         "message": "Connectez-vous pour voir vos tâches."
@@ -2000,6 +2012,9 @@
     "newtab_widget_templates_pomodoro_break": {
         "message": "Pause"
     },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "Annuler"
+    },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}} min"
     },
@@ -2014,6 +2029,9 @@
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "Réinitialiser"
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "Reprendre"
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "Démarrer"

@@ -199,6 +199,10 @@
         "message": "Delete browser memory",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Buttons and accessible labels used throughout memory management. Accessible label on the button that deletes one browser memory."
     },
+    "memory_management_actions_delete_intent": {
+        "message": "Delete intent",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Buttons and accessible labels used throughout memory management. Title of the bin button on an intent card: deleting hides the intent and the agent never proposes it again."
+    },
     "memory_management_actions_delete_observation": {
         "message": "Delete observation",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Buttons and accessible labels used throughout memory management. Accessible label on the button that deletes one observation."
@@ -285,7 +289,7 @@
     },
     "memory_management_counts_moments": {
         "message": "Moments: {{count}}",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Count-neutral metric chips on memory and observation cards. Metric chip on browser-memory cards and galaxy explorer details; {{count}} is the number of recorded moments."
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Count-neutral metric chips on memory and observation cards. Metric chip on galaxy explorer node details; {{count}} is the number of memory records the node draws on."
     },
     "memory_management_counts_observations": {
         "message": "Observations: {{count}}",
@@ -987,9 +991,9 @@
         "message": "{{indentation}}  _{{description}}_",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Localized content written into the downloadable Markdown memory export; retain the Markdown punctuation. Indented italic Markdown description under a memory; {{indentation}} preserves tree depth and {{description}} is the stored memory description."
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}**: {{duration}}, moments: {{momentCount}}",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Localized content written into the downloadable Markdown memory export; retain the Markdown punctuation. Markdown row for one browser memory; {{prefix}} contains indentation and the list marker, {{title}} is the memory title, {{duration}} is its localized duration, and {{momentCount}} is its moment count."
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}**: {{duration}}, sources: {{sourceCount}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Localized content written into the downloadable Markdown memory export; retain the Markdown punctuation. Markdown row for one browser memory; {{prefix}} contains indentation and the list marker, {{title}} is the memory title, {{duration}} is its localized duration, and {{sourceCount}} is the number of distinct source URLs it draws on."
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}",
@@ -1559,6 +1563,14 @@
         "message": "Failed to delete observations: {{detail}}",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Memory-page error banner when deleting the observations associated with one source fails; {{detail}} is the technical failure detail shown after the message."
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "Failed to dismiss intent",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Status shown when dismissing an intent fails without technical detail."
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "Failed to dismiss intent: {{detail}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Status shown when dismissing an intent fails; {{detail}} is the technical error text."
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "Supporting records deleted: {{count}}",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Success notice after deleting the records supporting one Galaxy node; {{count}} includes deleted memory subtrees and observations."
@@ -1578,6 +1590,10 @@
     "memory_management_status_import_succeeded": {
         "message": "Import complete: {{details}}",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Success notice after a ZIP import changes memory data; {{details}} is a semicolon-separated localized summary of the changes."
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "Intent dismissed",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Success and error notices produced by memory-management actions; technical details follow a translated action-specific prefix. Status shown after an intent card was dismissed."
     },
     "memory_management_status_load_data_failed": {
         "message": "Failed to load memory data",
@@ -2568,7 +2584,7 @@
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Shown while the tasks are first read."
     },
     "newtab_widget_templates_my_tasks_next": {
-        "message": "next",
+        "message": "Next",
         "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the My tasks catalog widget (a new-tab card listing the user's Phi scheduled tasks) and its library suggestion. Lowercase word before the next run time, e.g. 'next 16:00'."
     },
     "newtab_widget_templates_my_tasks_signed_out": {
@@ -2665,31 +2681,39 @@
     },
     "newtab_widget_templates_pomodoro_break": {
         "message": "Break",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Card title during a break interval."
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Card title during a break interval."
+    },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "Cancel",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Button that stops the countdown and returns the card to its empty time fields."
     },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}}m",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Compact pill with the interval lengths, such as \"25/5m\". {{work}} is the work interval and {{break}} the break interval, both in minutes. Keep it very short."
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Compact pill with the interval lengths, such as \"25/5m\". {{work}} is the work interval and {{break}} the break interval, both in minutes. Keep it very short."
     },
     "newtab_widget_templates_pomodoro_focus": {
         "message": "Focus",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Card title during a work interval."
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Card title during a work interval."
     },
     "newtab_widget_templates_pomodoro_focus_on": {
         "message": "Focus on {{project}}",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Card title during a work interval when the user named a project. {{project}} is that name, written as the user writes it, and is never translated. Keep the surrounding words very short: the caption is one line on a small card."
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Card title during a work interval when the user named a project. {{project}} is that name, written as the user writes it, and is never translated. Keep the surrounding words very short: the caption is one line on a small card."
     },
     "newtab_widget_templates_pomodoro_pause": {
         "message": "Pause",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Button that pauses the running timer."
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Button that pauses the running timer."
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "Reset",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Button that resets the timer to a fresh work interval."
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Button that resets the timer to a fresh work interval."
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "Resume",
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Button that continues a paused countdown."
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "Start",
-        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus timer). Button that starts or resumes the timer."
+        "description": "Location: Memory. The new-tab page: unified search box, portrait/insight panels, greeting. Copy inside the Pomodoro catalog widget (a small new-tab focus countdown: six digit fields, hh:mm:ss, then Start, or Cancel beside Pause / Resume). break, reset and cycle remain only for cards installed before 2026-10-17. Button that starts or resumes the timer."
     },
     "newtab_widget_templates_public_holidays_empty": {
         "message": "No more holidays this year",

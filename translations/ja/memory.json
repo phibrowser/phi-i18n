@@ -149,6 +149,9 @@
     "memory_management_actions_delete_browser_memory": {
         "message": "ブラウザのメモリを削除"
     },
+    "memory_management_actions_delete_intent": {
+        "message": "意図を削除"
+    },
     "memory_management_actions_delete_observation": {
         "message": "観察記録を削除"
     },
@@ -740,8 +743,8 @@
     "memory_management_markdown_memory_description": {
         "message": "{{indentation}}  _{{description}}_"
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}**（{{duration}}、モーメント数: {{momentCount}}）"
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}**: {{duration}}、ソース: {{sourceCount}}件"
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}"
@@ -1169,6 +1172,12 @@
     "memory_management_status_delete_observations_failed_detail": {
         "message": "観察記録を削除できませんでした：{{detail}}"
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "意図を非表示にできませんでした"
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "意図を非表示にできませんでした：{{detail}}"
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "ソース記録を{{count}}件削除しました"
     },
@@ -1183,6 +1192,9 @@
     },
     "memory_management_status_import_succeeded": {
         "message": "インポートが完了しました：{{details}}"
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "意図を非表示にしました"
     },
     "memory_management_status_load_data_failed": {
         "message": "メモリデータを読み込めませんでした"
@@ -2000,6 +2012,9 @@
     "newtab_widget_templates_pomodoro_break": {
         "message": "休憩"
     },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "キャンセル"
+    },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}}分"
     },
@@ -2014,6 +2029,9 @@
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "リセット"
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "再開"
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "開始"

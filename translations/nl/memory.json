@@ -149,6 +149,9 @@
     "memory_management_actions_delete_browser_memory": {
         "message": "Browserherinnering verwijderen"
     },
+    "memory_management_actions_delete_intent": {
+        "message": "Intentie verwijderen"
+    },
     "memory_management_actions_delete_observation": {
         "message": "Observatie verwijderen"
     },
@@ -740,8 +743,8 @@
     "memory_management_markdown_memory_description": {
         "message": "{{indentation}}  _{{description}}_"
     },
-    "memory_management_markdown_memory_item": {
-        "message": "{{prefix}} **{{title}}** ({{duration}}, momenten: {{momentCount}})"
+    "memory_management_markdown_memory_row": {
+        "message": "{{prefix}} **{{title}}**: {{duration}}, bronnen: {{sourceCount}}"
     },
     "memory_management_markdown_observation_title": {
         "message": "### {{content}}"
@@ -1169,6 +1172,12 @@
     "memory_management_status_delete_observations_failed_detail": {
         "message": "Kan observaties niet verwijderen: {{detail}}"
     },
+    "memory_management_status_dismiss_intent_failed": {
+        "message": "Kan intentie niet negeren"
+    },
+    "memory_management_status_dismiss_intent_failed_detail": {
+        "message": "Kan intentie niet negeren: {{detail}}"
+    },
     "memory_management_status_galaxy_source_records_deleted": {
         "message": "Ondersteunende records verwijderd: {{count}}"
     },
@@ -1183,6 +1192,9 @@
     },
     "memory_management_status_import_succeeded": {
         "message": "Import voltooid: {{details}}"
+    },
+    "memory_management_status_intent_dismissed": {
+        "message": "Intentie genegeerd"
     },
     "memory_management_status_load_data_failed": {
         "message": "Kan geheugengegevens niet laden"
@@ -1926,7 +1938,7 @@
         "message": "Je taken worden geladen…"
     },
     "newtab_widget_templates_my_tasks_next": {
-        "message": "volgende"
+        "message": "Volgende"
     },
     "newtab_widget_templates_my_tasks_signed_out": {
         "message": "Log in om je taken te zien."
@@ -2000,6 +2012,9 @@
     "newtab_widget_templates_pomodoro_break": {
         "message": "Pauze"
     },
+    "newtab_widget_templates_pomodoro_cancel": {
+        "message": "Annuleren"
+    },
     "newtab_widget_templates_pomodoro_cycle": {
         "message": "{{work}}/{{break}}m"
     },
@@ -2014,6 +2029,9 @@
     },
     "newtab_widget_templates_pomodoro_reset": {
         "message": "Resetten"
+    },
+    "newtab_widget_templates_pomodoro_resume": {
+        "message": "Hervatten"
     },
     "newtab_widget_templates_pomodoro_start": {
         "message": "Starten"
