@@ -917,6 +917,30 @@
     "chat_tasks_button": {
         "message": "이 대화의 작업 ({{count}})"
     },
+    "chat_tasks_catch_up_busy": {
+        "message": "이 작업은 이미 실행 중이에요"
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "만료됨"
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "무시"
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "무시됨"
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "{{time}}에 실행됨"
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "실행됨"
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "필요 없음: 예정대로 실행됨"
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "지금 실행"
+    },
     "chat_tasks_cron_daily": {
         "message": "매일 {{time}}"
     },
@@ -1016,6 +1040,12 @@
     "chat_tasks_status_failed": {
         "message": "실패"
     },
+    "chat_tasks_status_interrupted": {
+        "message": "중단됨"
+    },
+    "chat_tasks_status_missed": {
+        "message": "미실행"
+    },
     "chat_tasks_status_queued": {
         "message": "대기 중"
     },
@@ -1066,6 +1096,21 @@
     },
     "chat_tool_call_succeeded": {
         "message": "완료"
+    },
+    "chat_trace_consent_body": {
+        "message": "Phi가 이 대화의 트레이스(내 메시지, 답변, 페이지 내용, 도구 결과)를 로그 파일로 저장해서 피드백과 함께 Phi 팀에 보내요."
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "공유 안 함"
+    },
+    "chat_trace_consent_note_label": {
+        "message": "덧붙일 내용이 있나요? (선택 사항)"
+    },
+    "chat_trace_consent_share": {
+        "message": "공유"
+    },
+    "chat_trace_consent_title": {
+        "message": "이 대화의 트레이스를 공유할까요?"
     },
     "chat_unsupported_part": {
         "message": "이 콘텐츠는 아직 Phi Chat에서 지원되지 않아요({{type}})."
@@ -1544,6 +1589,42 @@
     "file_upload_failed": {
         "message": "파일 업로드에 실패했어요"
     },
+    "live_chat_badge": {
+        "message": "라이브"
+    },
+    "live_chat_move_turn_button": {
+        "message": "새 대화로 옮기기"
+    },
+    "live_chat_move_turn_error": {
+        "message": "새 대화로 옮기지 못했어요. 다시 시도해 주세요."
+    },
+    "live_chat_move_turn_moved": {
+        "message": "새 대화로 옮겼어요"
+    },
+    "live_chat_move_turn_open": {
+        "message": "열기"
+    },
+    "live_chat_open_error": {
+        "message": "라이브 모드를 열지 못했어요. 다시 시도해 주세요."
+    },
+    "live_chat_title": {
+        "message": "라이브"
+    },
+    "live_chat_wake_reading": {
+        "message": "바뀐 내용을 살펴보고 있어요…"
+    },
+    "live_chat_wake_recalling": {
+        "message": "제 메모리를 들여다보고 있어요…"
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "메모리에서 \"{{subject}}\"에 대해 찾아보고 있어요"
+    },
+    "live_chat_wake_recording": {
+        "message": "지금 뭘 하고 계신지 가늠해 보고 있어요…"
+    },
+    "live_chat_wake_writing": {
+        "message": "메모를 적고 있어요…"
+    },
     "message_activity_fallback_default1": {
         "message": "생각을 정리하는 중..."
     },
@@ -1669,6 +1750,9 @@
     },
     "message_im_messages_not_editable": {
         "message": "연결된 채널에서 온 메시지는 수정할 수 없어요."
+    },
+    "message_invalid_source_reference": {
+        "message": "출처 참조가 올바르지 않아요. 기존 마커를 그대로 쓰거나, 일반 텍스트로 쓰려면 앞에 백슬래시를 붙여 주세요."
     },
     "message_loading_phrases_p01": {
         "message": "낚싯대 드리우는 중"
@@ -1840,6 +1924,81 @@
     },
     "message_loading_phrases_p57": {
         "message": "미끼 가라앉길 기다리는 중"
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}}개 더"
+    },
+    "message_memory_agent_status_done": {
+        "message": "완료"
+    },
+    "message_memory_agent_status_failed": {
+        "message": "실패"
+    },
+    "message_memory_agent_status_running": {
+        "message": "진행 중"
+    },
+    "message_memory_agent_step_check": {
+        "message": "업데이트 확인"
+    },
+    "message_memory_agent_step_describe": {
+        "message": "메모리 내용 확인"
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "내 인물 스케치 수정"
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "메모리 확인"
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "브라우징 활동 살펴보기"
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "인물과 주제 살펴보기"
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "저장된 사실 살펴보기"
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "지난 작업 살펴보기"
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "내 선호 설정 확인"
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "자주 가는 사이트 살펴보기"
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "업데이트 준비"
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "메모리 항목 읽기"
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "내 인물 스케치 읽기"
+    },
+    "message_memory_agent_step_recall": {
+        "message": "메모리 검색"
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "메모리에서 \"{{query}}\" 검색"
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "사실 제거"
+    },
+    "message_memory_agent_step_save": {
+        "message": "업데이트 저장"
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "사실 저장"
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "내 선호 설정 저장"
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "상시 지침 업데이트"
+    },
+    "message_memory_agent_title": {
+        "message": "메모리 단계"
     },
     "message_metrics_chars": {
         "message": "{{value}}자"
@@ -2057,8 +2216,8 @@
     "newtab_open_in_new_tab": {
         "message": "새 탭에서 열기"
     },
-    "newtab_search_placeholder": {
-        "message": "검색, AI 질문 또는 URL 입력"
+    "newtab_search_placeholder_ask_agent": {
+        "message": "검색, {{name}} 질문 또는 URL 입력"
     },
     "notification_card_view_details": {
         "message": "세부정보 보기"
@@ -2317,6 +2476,9 @@
     },
     "shadow_tasks_status_failed": {
         "message": "실패"
+    },
+    "shadow_tasks_status_missed": {
+        "message": "미실행"
     },
     "shadow_tasks_status_queued": {
         "message": "대기 중"
@@ -2732,6 +2894,9 @@
     "top_bar_close": {
         "message": "닫기"
     },
+    "top_bar_live_mode": {
+        "message": "라이브 모드"
+    },
     "top_bar_menu": {
         "message": "메뉴"
     },
@@ -2870,12 +3035,6 @@
     "user_input_interject": {
         "message": "이 답변이 끝난 후에 보내기"
     },
-    "user_input_journey_context": {
-        "message": "현재 활동"
-    },
-    "user_input_journey_working_toward": {
-        "message": "{{label}} 목표를 향해 진행 중"
-    },
     "user_input_no_available_skills": {
         "message": "사용할 수 있는 스킬이 없어요"
     },
@@ -2884,9 +3043,6 @@
     },
     "user_input_remove_attachment": {
         "message": "첨부 파일 제거"
-    },
-    "user_input_remove_journey_context": {
-        "message": "활동 컨텍스트 제거"
     },
     "user_input_remove_split_view": {
         "message": "분할 보기 제거"

@@ -1223,6 +1223,38 @@
         "message": "Tasks in this conversation ({{count}})",
         "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Accessible label of the chat toolbar's clock button; {{count}} = number of tasks created in the conversation."
     },
+    "chat_tasks_catch_up_busy": {
+        "message": "This task is already running",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Error toast: the missed task cannot be run now because a run of it is already in progress."
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "Expired",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Shown in place of the buttons when the question about the missed task expired unanswered."
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "Ignore",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Button next to Run now: do not run the missed task."
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "Ignored",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Shown in place of the buttons once the user chose not to run the missed task."
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "Ran at {{time}}",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Shown in place of the buttons once the missed task was run; {{time}} = when, already formatted."
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "Ran",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Shown in place of the buttons once the missed task was run, when the time is unknown."
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "Not needed: it ran on schedule",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Shown in place of the buttons when the task's next scheduled run started before the user answered."
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "Run now",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Button under a message asking whether to run a task Phi missed while it was not running: run it once now."
+    },
     "chat_tasks_cron_daily": {
         "message": "Every day at {{time}}",
         "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. A task that runs every day at one time; {{time}} = a localized time of day, possibly followed by its time zone."
@@ -1355,6 +1387,14 @@
         "message": "Failed",
         "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Status badge of a task run that failed."
     },
+    "chat_tasks_status_interrupted": {
+        "message": "Cut off",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Status badge of a task run that was cut off because Phi stopped while it ran."
+    },
+    "chat_tasks_status_missed": {
+        "message": "Did not run",
+        "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Status badge of a task run that never ran: it came due while Phi was not running."
+    },
     "chat_tasks_status_queued": {
         "message": "Queued",
         "description": "Location: Chat. Tasks (background or scheduled jobs) created in a conversation: the chat toolbar's task panel, and the strip above a task's report message in the conversation. Status badge of a task run waiting to start; also the task panel badge of a task whose run is waiting to start."
@@ -1422,6 +1462,26 @@
     "chat_tool_call_succeeded": {
         "message": "Finished",
         "description": "Location: Chat. The conversation view: the message timeline and the composer beneath it. Status of a tool the assistant ran while composing its reply. All three are aria-labels on a small status icon, so they must stay short. The tool finished successfully."
+    },
+    "chat_trace_consent_body": {
+        "message": "Phi will save this conversation's trace (your messages, the replies, page content and tool results) as a log file and send it to the Phi team with your feedback.",
+        "description": "Location: Chat. The card phi-agent shows before this conversation's trace is shared with the Phi team (the chat_trace.export tool). Card body: what is in the trace and where it goes."
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "Don't share",
+        "description": "Location: Chat. The card phi-agent shows before this conversation's trace is shared with the Phi team (the chat_trace.export tool). Button: do not share; nothing is sent."
+    },
+    "chat_trace_consent_note_label": {
+        "message": "Anything you want to add? (optional)",
+        "description": "Location: Chat. The card phi-agent shows before this conversation's trace is shared with the Phi team (the chat_trace.export tool). Label of an optional text box where the user can add a note to the report."
+    },
+    "chat_trace_consent_share": {
+        "message": "Share",
+        "description": "Location: Chat. The card phi-agent shows before this conversation's trace is shared with the Phi team (the chat_trace.export tool). Button: share the trace."
+    },
+    "chat_trace_consent_title": {
+        "message": "Share this conversation's trace?",
+        "description": "Location: Chat. The card phi-agent shows before this conversation's trace is shared with the Phi team (the chat_trace.export tool). Card title: asks whether to share this conversation's trace."
     },
     "chat_unsupported_part": {
         "message": "This content isn't supported in Phi Chat yet ({{type}}).",
@@ -2059,6 +2119,54 @@
         "message": "File upload failed",
         "description": "Location: Chat. File attachment errors and controls. Toast when a file upload fails."
     },
+    "live_chat_badge": {
+        "message": "Live",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Badge next to the live-mode conversation's title, in the top bar and the conversation list."
+    },
+    "live_chat_move_turn_button": {
+        "message": "Move to a new conversation",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Live mode: while Phi works on a turn the person sent in the live conversation, a button beside Stop moves that turn out to its own conversation so the live conversation is free again. Nothing restarts: the work goes on in the moved conversation, which opens in the background, and live mode continues on screen. Tooltip and aria of the icon button beside Stop. Imperative, short."
+    },
+    "live_chat_move_turn_error": {
+        "message": "Couldn't move this to a new conversation. Please try again.",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Live mode: while Phi works on a turn the person sent in the live conversation, a button beside Stop moves that turn out to its own conversation so the live conversation is free again. Nothing restarts: the work goes on in the moved conversation, which opens in the background, and live mode continues on screen. Toast when the turn could not be moved out; it stays in the live conversation and the button stays."
+    },
+    "live_chat_move_turn_moved": {
+        "message": "Moved to a new conversation",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Live mode: while Phi works on a turn the person sent in the live conversation, a button beside Stop moves that turn out to its own conversation so the live conversation is free again. Nothing restarts: the work goes on in the moved conversation, which opens in the background, and live mode continues on screen. Toast after the turn moved to its own conversation. Short, past tense."
+    },
+    "live_chat_move_turn_open": {
+        "message": "Open",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Live mode: while Phi works on a turn the person sent in the live conversation, a button beside Stop moves that turn out to its own conversation so the live conversation is free again. Nothing restarts: the work goes on in the moved conversation, which opens in the background, and live mode continues on screen. Action button in that toast: opens the moved conversation. One word."
+    },
+    "live_chat_open_error": {
+        "message": "Couldn't open live mode. Please try again.",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Toast shown when the live-mode conversation could not be opened or created."
+    },
+    "live_chat_title": {
+        "message": "Live",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Title the live-mode conversation is created with."
+    },
+    "live_chat_wake_reading": {
+        "message": "I'm reading the changes…",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Activity line under Phi's name in the live-mode conversation while Phi works on its next note, one entry per phase. Phi speaks in the first person ('I'm …'), never 'Phi is …'. Phi, first person: reading what changed in the person's browsing. Trailing ellipsis."
+    },
+    "live_chat_wake_recalling": {
+        "message": "I'm reading my memory…",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Activity line under Phi's name in the live-mode conversation while Phi works on its next note, one entry per phase. Phi speaks in the first person ('I'm …'), never 'Phi is …'. Phi, first person: reading its own memory, when the read has nothing to name. Trailing ellipsis."
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "I'm searching my memory for “{{subject}}”",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Activity line under Phi's name in the live-mode conversation while Phi works on its next note, one entry per phase. Phi speaks in the first person ('I'm …'), never 'Phi is …'. Phi, first person: searching its own memory for {{subject}}, a short phrase the agent wrote (any language, possibly ending in '…'). Quote it with the locale's quotation marks; no ellipsis after the closing quote."
+    },
+    "live_chat_wake_recording": {
+        "message": "I'm weighing what you're up to…",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Activity line under Phi's name in the live-mode conversation while Phi works on its next note, one entry per phase. Phi speaks in the first person ('I'm …'), never 'Phi is …'. Phi, first person: deciding what the person is trying to do. Trailing ellipsis."
+    },
+    "live_chat_wake_writing": {
+        "message": "I'm writing the note…",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Activity line under Phi's name in the live-mode conversation while Phi works on its next note, one entry per phase. Phi speaks in the first person ('I'm …'), never 'Phi is …'. Phi, first person: writing the note that appears next. Trailing ellipsis."
+    },
     "message_activity_fallback_default1": {
         "message": "Thinking it through...",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Short transient status labels shown while the assistant is working and no specific activity is reported. The interjection variants appear right after the user sends a mid-run interjection, acknowledging that the assistant is adjusting. Generic in-progress status label."
@@ -2226,6 +2334,10 @@
     "message_im_messages_not_editable": {
         "message": "Messages from connected channels cannot be edited.",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Toast: messages synced from IM channels (e.g. Telegram) can't be edited."
+    },
+    "message_invalid_source_reference": {
+        "message": "A source reference is invalid. Keep an existing marker, or escape it with a backslash to use literal text.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Toast when editing a sent message with an unknown or damaged source marker such as @tab1 or @split2. A backslash before the marker makes it literal text instead of a source reference."
     },
     "message_loading_phrases_p01": {
         "message": "Fishing for answers",
@@ -2454,6 +2566,106 @@
     "message_loading_phrases_p57": {
         "message": "Letting the bait sink in",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Playful rotating status phrases shown beside the assistant's name while it prepares a reply; one is picked at random and swapped every few seconds. The English set uses aquatic and fishing wordplay. Each locale carries its own independently authored set of playful \"working on it\" phrases written in that language's natural spoken idiom, drawing on its own sayings and local cultural imagery; a loose water and fishing thread is welcome but not required. A locale's phrase is not a translation of the English phrase in the same slot and must not be aligned to it word for word. Keep each phrase short, casual, and natural in the target language, one short line, no trailing punctuation (the UI appends an animated ellipsis). Rotating loading phrase."
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}} more",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. Line above the newest steps when older ones are folded away. {{count}} is the number of folded steps (1 or more)."
+    },
+    "message_memory_agent_status_done": {
+        "message": "Done",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. Accessible names of a step's status icon (screen readers only). The step finished."
+    },
+    "message_memory_agent_status_failed": {
+        "message": "Didn't work",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. Accessible names of a step's status icon (screen readers only). The step failed; the agent usually recovers on its own."
+    },
+    "message_memory_agent_status_running": {
+        "message": "In progress",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. Accessible names of a step's status icon (screen readers only). The step is still running."
+    },
+    "message_memory_agent_step_check": {
+        "message": "Check the update",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Validating an update without saving it."
+    },
+    "message_memory_agent_step_describe": {
+        "message": "Check what memory holds",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Looking up what kinds of records the memory holds."
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "Edit your portrait",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Removing or rewording a passage of the user's portrait."
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "Check memory",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. A memory step of a kind not listed here."
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "Look through browsing activity",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Going through the user's past browsing activities."
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "Look through people and topics",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Going through people, places and topics the memory links to the user."
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "Look through saved facts",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Going through stored facts about the user."
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "Look through past tasks",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Going through tasks the assistant carried out earlier."
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "Check your preferences",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Going through the standing requests the user made about Phi's surfaces (greeting style and similar)."
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "Look through frequent sites",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Going through the user's most-visited websites."
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "Prepare an update",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Loading the instructions for an update to one of Phi's surfaces."
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "Read a memory",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Opening one stored record."
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "Read your portrait",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Reading the user's portrait (their stored profile text)."
+    },
+    "message_memory_agent_step_recall": {
+        "message": "Search memory",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Searching the user's browsing memory, with no search term known."
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "Search memory for “{{query}}”",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Searching the user's browsing memory for {{query}}, a short phrase or a list of names the agent chose. Keep the quotes of your language around it."
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "Remove a fact",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Removing a stored fact about the user."
+    },
+    "message_memory_agent_step_save": {
+        "message": "Save the update",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Saving an update to one of Phi's surfaces."
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "Save a fact",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Storing a fact about the user, or correcting one."
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "Save your preference",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Storing a lasting request about one of Phi's surfaces."
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "Update standing instructions",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Adding or dropping a standing instruction the user gave the assistant about how it behaves."
+    },
+    "message_memory_agent_title": {
+        "message": "Memory steps",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. Accessible name of the step list (screen readers only)."
     },
     "message_metrics_chars": {
         "message": "{{value}} chars",
@@ -2743,9 +2955,9 @@
         "message": "Open in new tab",
         "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Suggestion row hint: result opens in a new tab."
     },
-    "newtab_search_placeholder": {
-        "message": "Search, ask AI, or enter a URL",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Placeholder of the unified search box."
+    "newtab_search_placeholder_ask_agent": {
+        "message": "Search, ask {{name}}, or enter a URL",
+        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Placeholder of the unified search box outside AI mode; {{name}} = assistant name. In Chinese, write {{name}} between Han characters with no spaces; the code adds a space beside a Latin name."
     },
     "notification_card_view_details": {
         "message": "View details",
@@ -3090,6 +3302,10 @@
     "shadow_tasks_status_failed": {
         "message": "Failed",
         "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Task/run status names (also used as filter options). Status: ended with an error."
+    },
+    "shadow_tasks_status_missed": {
+        "message": "Did not run",
+        "description": "Location: Chat. The Shadow Tasks inspector page (background agent task runs). Task/run status names (also used as filter options). Status: the run came due while Phi was not running and never started."
     },
     "shadow_tasks_status_queued": {
         "message": "Queued",
@@ -3643,6 +3859,10 @@
         "message": "Close",
         "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. aria of generic close (X) buttons: sidebar, panels, drawers."
     },
+    "top_bar_live_mode": {
+        "message": "Live mode",
+        "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. Menu item: open the live-mode conversation (see the liveChat namespace), creating it on first use."
+    },
     "top_bar_menu": {
         "message": "Menu",
         "description": "Location: Chat. The chat view's top toolbar and its dropdown menu. aria of the … overflow menu trigger."
@@ -3827,14 +4047,6 @@
         "message": "Queue for after this turn",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Send-button variant while a run is active: message queues for after the turn."
     },
-    "user_input_journey_context": {
-        "message": "Current activity",
-        "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Accessible label of the composer card showing what the user is currently doing (their browsing activity as the memory service reads it), attached as context for the next message."
-    },
-    "user_input_journey_working_toward": {
-        "message": "Working toward {{label}}",
-        "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Second line of the composer activity card: the larger goal the user's current activity serves. {{label}} is that goal's short name, generated in the user's language."
-    },
     "user_input_no_available_skills": {
         "message": "No available skills",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Empty state of the skill list."
@@ -3846,10 +4058,6 @@
     "user_input_remove_attachment": {
         "message": "Remove attachment",
         "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. aria/tooltip on an attachment chip's remove button."
-    },
-    "user_input_remove_journey_context": {
-        "message": "Remove activity context",
-        "description": "Location: Chat. The chat composer: attachment menu, tab/skill mentions, send/stop controls. aria of the remove button on the composer activity card; removing it keeps the user's current activity out of the next message."
     },
     "user_input_remove_split_view": {
         "message": "Remove split view",

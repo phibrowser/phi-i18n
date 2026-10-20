@@ -617,7 +617,19 @@
     },
     "widgets_suggested_badge": {
         "message": "Suggested",
-        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Corner label on the installed suggestion, marking it as one."
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Corner label on the installed suggestion, marking it as one. Unused since 2026-10-19 (the corner badge is gone); retire at the next handoff."
+    },
+    "widgets_suggested_close": {
+        "message": "Close",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Menu item on a suggested widget: takes the suggestion off the page (an Undo stays open for a few seconds). Sits right after \"Keep this widget\"."
+    },
+    "widgets_suggested_hint": {
+        "message": "Phi suggested this widget. Keep it or close it from the ··· menu.",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Bubble opened by the small ? beside a suggested widget's menu trigger. Tells the user the card was suggested by Phi and that the ··· menu holds the two answers, Keep and Close. \"···\" is the menu trigger's glyph; keep it."
+    },
+    "widgets_suggested_hint_trigger": {
+        "message": "About this suggestion",
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Accessible name of the small ? button beside a suggested widget's menu trigger that opens the bubble above."
     },
     "widgets_suggested_keep": {
         "message": "Keep this widget",
@@ -625,11 +637,11 @@
     },
     "widgets_suggested_keep_short": {
         "message": "Keep",
-        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Button on the suggestion card itself, beside the remove ✕; same action as the menu item above."
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Button on the suggestion card itself, beside the remove ✕; same action as the menu item above. Unused since 2026-10-19 (the corner badge is gone); retire at the next handoff."
     },
     "widgets_suggested_remove": {
         "message": "Remove this suggestion",
-        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Accessible name of the button that takes the suggestion off the page."
+        "description": "Location: Chat | Memory. New-tab-page widgets: bottom panel, library drawer, per-widget menu. A widget the extension installed on its own for a user who had none. Accessible name of the button that takes the suggestion off the page. Unused since 2026-10-19 (the menu's Close replaced the ✕); retire at the next handoff."
     },
     "widgets_suggested_removed": {
         "message": "Removing",

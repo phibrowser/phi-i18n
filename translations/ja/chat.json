@@ -917,6 +917,30 @@
     "chat_tasks_button": {
         "message": "この会話のタスク（{{count}}）"
     },
+    "chat_tasks_catch_up_busy": {
+        "message": "このタスクはすでに実行中です"
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "期限切れ"
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "無視"
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "無視済み"
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "{{time}}に実行済み"
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "実行済み"
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "不要：スケジュールどおりに実行済み"
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "今すぐ実行"
+    },
     "chat_tasks_cron_daily": {
         "message": "毎日{{time}}"
     },
@@ -1016,6 +1040,12 @@
     "chat_tasks_status_failed": {
         "message": "失敗"
     },
+    "chat_tasks_status_interrupted": {
+        "message": "中断"
+    },
+    "chat_tasks_status_missed": {
+        "message": "未実行"
+    },
     "chat_tasks_status_queued": {
         "message": "実行待ち"
     },
@@ -1066,6 +1096,21 @@
     },
     "chat_tool_call_succeeded": {
         "message": "完了"
+    },
+    "chat_trace_consent_body": {
+        "message": "Phiはこの会話の記録（あなたのメッセージ、返答、ページの内容、ツールの結果）をログファイルとして保存し、フィードバックと一緒にPhiチームに送信します。"
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "共有しない"
+    },
+    "chat_trace_consent_note_label": {
+        "message": "補足があれば入力してください（任意）"
+    },
+    "chat_trace_consent_share": {
+        "message": "共有"
+    },
+    "chat_trace_consent_title": {
+        "message": "この会話の記録を共有しますか？"
     },
     "chat_unsupported_part": {
         "message": "このコンテンツはPhi Chatではまだサポートされていません（{{type}}）。"
@@ -1544,6 +1589,42 @@
     "file_upload_failed": {
         "message": "ファイルのアップロードに失敗しました"
     },
+    "live_chat_badge": {
+        "message": "ライブ"
+    },
+    "live_chat_move_turn_button": {
+        "message": "新しい会話に移動"
+    },
+    "live_chat_move_turn_error": {
+        "message": "新しい会話に移動できませんでした。もう一度お試しください。"
+    },
+    "live_chat_move_turn_moved": {
+        "message": "新しい会話に移動しました"
+    },
+    "live_chat_move_turn_open": {
+        "message": "開く"
+    },
+    "live_chat_open_error": {
+        "message": "ライブモードを開けませんでした。もう一度お試しください。"
+    },
+    "live_chat_title": {
+        "message": "ライブ"
+    },
+    "live_chat_wake_reading": {
+        "message": "変わったところを読んでいます…"
+    },
+    "live_chat_wake_recalling": {
+        "message": "自分のメモリを読み返しています…"
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "自分のメモリから「{{subject}}」を探しています"
+    },
+    "live_chat_wake_recording": {
+        "message": "あなたが何をしているか考えています…"
+    },
+    "live_chat_wake_writing": {
+        "message": "メモを書いています…"
+    },
     "message_activity_fallback_default1": {
         "message": "考えをまとめています..."
     },
@@ -1669,6 +1750,9 @@
     },
     "message_im_messages_not_editable": {
         "message": "連携チャンネルからのメッセージは編集できません。"
+    },
+    "message_invalid_source_reference": {
+        "message": "情報源の参照が無効です。既存のマーカーを使うか、前にバックスラッシュを付けて通常のテキストとして扱ってください。"
     },
     "message_loading_phrases_p01": {
         "message": "答えを一本釣り"
@@ -1840,6 +1924,81 @@
     },
     "message_loading_phrases_p57": {
         "message": "餌が沈むのを待つ"
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}}件"
+    },
+    "message_memory_agent_status_done": {
+        "message": "完了"
+    },
+    "message_memory_agent_status_failed": {
+        "message": "失敗"
+    },
+    "message_memory_agent_status_running": {
+        "message": "実行中"
+    },
+    "message_memory_agent_step_check": {
+        "message": "更新内容を確認"
+    },
+    "message_memory_agent_step_describe": {
+        "message": "メモリの内容を確認"
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "人物像を編集"
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "メモリを確認"
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "ブラウジング活動を確認"
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "人物とトピックを確認"
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "保存済みの事実を確認"
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "過去のタスクを確認"
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "あなたの好みを確認"
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "よく見るサイトを確認"
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "更新を準備"
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "メモリの記録を読み取り"
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "人物像を読み取り"
+    },
+    "message_memory_agent_step_recall": {
+        "message": "メモリを検索"
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "メモリで「{{query}}」を検索"
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "事実を削除"
+    },
+    "message_memory_agent_step_save": {
+        "message": "更新を保存"
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "事実を保存"
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "あなたの好みを保存"
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "振る舞いの指示を更新"
+    },
+    "message_memory_agent_title": {
+        "message": "メモリの手順"
     },
     "message_metrics_chars": {
         "message": "{{value}}文字"
@@ -2057,8 +2216,8 @@
     "newtab_open_in_new_tab": {
         "message": "新しいタブで開く"
     },
-    "newtab_search_placeholder": {
-        "message": "検索、AIへの質問、またはURLを入力"
+    "newtab_search_placeholder_ask_agent": {
+        "message": "検索、{{name}}への質問、またはURLを入力"
     },
     "notification_card_view_details": {
         "message": "詳細を表示"
@@ -2317,6 +2476,9 @@
     },
     "shadow_tasks_status_failed": {
         "message": "失敗"
+    },
+    "shadow_tasks_status_missed": {
+        "message": "未実行"
     },
     "shadow_tasks_status_queued": {
         "message": "実行待ち"
@@ -2732,6 +2894,9 @@
     "top_bar_close": {
         "message": "閉じる"
     },
+    "top_bar_live_mode": {
+        "message": "ライブモード"
+    },
     "top_bar_menu": {
         "message": "メニュー"
     },
@@ -2870,12 +3035,6 @@
     "user_input_interject": {
         "message": "このターンの後に送信"
     },
-    "user_input_journey_context": {
-        "message": "現在のアクティビティ"
-    },
-    "user_input_journey_working_toward": {
-        "message": "「{{label}}」に向けて作業中"
-    },
     "user_input_no_available_skills": {
         "message": "利用できるスキルがありません"
     },
@@ -2884,9 +3043,6 @@
     },
     "user_input_remove_attachment": {
         "message": "添付ファイルを削除"
-    },
-    "user_input_remove_journey_context": {
-        "message": "アクティビティのコンテキストを削除"
     },
     "user_input_remove_split_view": {
         "message": "分割表示を削除"

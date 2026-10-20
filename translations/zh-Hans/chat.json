@@ -917,6 +917,30 @@
     "chat_tasks_button": {
         "message": "此对话中的任务（{{count}}）"
     },
+    "chat_tasks_catch_up_busy": {
+        "message": "此任务正在运行中"
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "已过期"
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "忽略"
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "已忽略"
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "已于 {{time}} 运行"
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "已运行"
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "无需运行：已按计划运行"
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "立即运行"
+    },
     "chat_tasks_cron_daily": {
         "message": "每天 {{time}}"
     },
@@ -1016,6 +1040,12 @@
     "chat_tasks_status_failed": {
         "message": "失败"
     },
+    "chat_tasks_status_interrupted": {
+        "message": "已中断"
+    },
+    "chat_tasks_status_missed": {
+        "message": "未运行"
+    },
     "chat_tasks_status_queued": {
         "message": "排队中"
     },
@@ -1066,6 +1096,21 @@
     },
     "chat_tool_call_succeeded": {
         "message": "已完成"
+    },
+    "chat_trace_consent_body": {
+        "message": "Phi 会把此对话的追踪记录（你的消息、回复、页面内容和工具结果）保存为日志文件，并连同你的反馈一起发送给 Phi 团队。"
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "不分享"
+    },
+    "chat_trace_consent_note_label": {
+        "message": "还有什么想补充的吗？（可选）"
+    },
+    "chat_trace_consent_share": {
+        "message": "分享"
+    },
+    "chat_trace_consent_title": {
+        "message": "分享此对话的追踪记录？"
     },
     "chat_unsupported_part": {
         "message": "Phi Chat 暂不支持此内容（{{type}}）。"
@@ -1544,6 +1589,42 @@
     "file_upload_failed": {
         "message": "文件上传失败"
     },
+    "live_chat_badge": {
+        "message": "实时"
+    },
+    "live_chat_move_turn_button": {
+        "message": "移到新对话"
+    },
+    "live_chat_move_turn_error": {
+        "message": "无法移到新对话，请重试。"
+    },
+    "live_chat_move_turn_moved": {
+        "message": "已移到新对话"
+    },
+    "live_chat_move_turn_open": {
+        "message": "打开"
+    },
+    "live_chat_open_error": {
+        "message": "无法打开实时模式，请重试。"
+    },
+    "live_chat_title": {
+        "message": "实时"
+    },
+    "live_chat_wake_reading": {
+        "message": "我在看看有什么变化…"
+    },
+    "live_chat_wake_recalling": {
+        "message": "我在翻翻我的记忆…"
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "我在记忆里找「{{subject}}」"
+    },
+    "live_chat_wake_recording": {
+        "message": "我在琢磨你在忙什么…"
+    },
+    "live_chat_wake_writing": {
+        "message": "我在写笔记…"
+    },
     "message_activity_fallback_default1": {
         "message": "正在仔细思考..."
     },
@@ -1669,6 +1750,9 @@
     },
     "message_im_messages_not_editable": {
         "message": "来自已连接频道的消息不能编辑。"
+    },
+    "message_invalid_source_reference": {
+        "message": "来源引用无效。请保留已有的标记，或在标记前加反斜杠将其作为普通文本。"
     },
     "message_loading_phrases_p01": {
         "message": "姜太公钓鱼中"
@@ -1840,6 +1924,81 @@
     },
     "message_loading_phrases_p57": {
         "message": "把鱼篓拎过来"
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}} 项"
+    },
+    "message_memory_agent_status_done": {
+        "message": "已完成"
+    },
+    "message_memory_agent_status_failed": {
+        "message": "未成功"
+    },
+    "message_memory_agent_status_running": {
+        "message": "进行中"
+    },
+    "message_memory_agent_step_check": {
+        "message": "检查更新内容"
+    },
+    "message_memory_agent_step_describe": {
+        "message": "查看记忆里有什么"
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "编辑你的人物侧写"
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "查看记忆"
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "翻看浏览活动"
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "翻看人物和话题"
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "翻看已保存的事实"
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "翻看过往任务"
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "查看你的偏好"
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "翻看常去的网站"
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "准备更新"
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "读取一条记忆"
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "读取你的人物侧写"
+    },
+    "message_memory_agent_step_recall": {
+        "message": "搜索记忆"
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "在记忆里搜索「{{query}}」"
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "移除一条事实"
+    },
+    "message_memory_agent_step_save": {
+        "message": "保存更新"
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "保存一条事实"
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "保存你的偏好"
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "更新长期指令"
+    },
+    "message_memory_agent_title": {
+        "message": "记忆步骤"
     },
     "message_metrics_chars": {
         "message": "{{value}} 字符"
@@ -2057,8 +2216,8 @@
     "newtab_open_in_new_tab": {
         "message": "在新标签页中打开"
     },
-    "newtab_search_placeholder": {
-        "message": "搜索、AI 问答或输入网址"
+    "newtab_search_placeholder_ask_agent": {
+        "message": "搜索、{{name}}问答或输入网址"
     },
     "notification_card_view_details": {
         "message": "查看详情"
@@ -2317,6 +2476,9 @@
     },
     "shadow_tasks_status_failed": {
         "message": "失败"
+    },
+    "shadow_tasks_status_missed": {
+        "message": "未运行"
     },
     "shadow_tasks_status_queued": {
         "message": "排队中"
@@ -2732,6 +2894,9 @@
     "top_bar_close": {
         "message": "关闭"
     },
+    "top_bar_live_mode": {
+        "message": "实时模式"
+    },
     "top_bar_menu": {
         "message": "菜单"
     },
@@ -2870,12 +3035,6 @@
     "user_input_interject": {
         "message": "排队，本轮结束后发送"
     },
-    "user_input_journey_context": {
-        "message": "当前活动"
-    },
-    "user_input_journey_working_toward": {
-        "message": "正在朝「{{label}}」推进"
-    },
     "user_input_no_available_skills": {
         "message": "没有可用的 Skill"
     },
@@ -2884,9 +3043,6 @@
     },
     "user_input_remove_attachment": {
         "message": "移除附件"
-    },
-    "user_input_remove_journey_context": {
-        "message": "移除活动上下文"
     },
     "user_input_remove_split_view": {
         "message": "移除分屏"

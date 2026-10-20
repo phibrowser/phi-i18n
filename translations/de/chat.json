@@ -917,6 +917,30 @@
     "chat_tasks_button": {
         "message": "Aufgaben in dieser Unterhaltung ({{count}})"
     },
+    "chat_tasks_catch_up_busy": {
+        "message": "Diese Aufgabe wird bereits ausgeführt"
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "Abgelaufen"
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "Ignorieren"
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "Ignoriert"
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "Ausgeführt {{time}}"
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "Ausgeführt"
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "Nicht nötig: wurde planmäßig ausgeführt"
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "Jetzt ausführen"
+    },
     "chat_tasks_cron_daily": {
         "message": "Täglich um {{time}}"
     },
@@ -1016,6 +1040,12 @@
     "chat_tasks_status_failed": {
         "message": "Fehlgeschlagen"
     },
+    "chat_tasks_status_interrupted": {
+        "message": "Unterbrochen"
+    },
+    "chat_tasks_status_missed": {
+        "message": "Nicht ausgeführt"
+    },
     "chat_tasks_status_queued": {
         "message": "In Warteschlange"
     },
@@ -1066,6 +1096,21 @@
     },
     "chat_tool_call_succeeded": {
         "message": "Abgeschlossen"
+    },
+    "chat_trace_consent_body": {
+        "message": "Phi speichert das Protokoll dieser Unterhaltung (deine Nachrichten, die Antworten, Seiteninhalte und Tool-Ergebnisse) als Datei und sendet es zusammen mit deinem Feedback an das Phi-Team."
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "Nicht teilen"
+    },
+    "chat_trace_consent_note_label": {
+        "message": "Möchtest du noch etwas hinzufügen? (optional)"
+    },
+    "chat_trace_consent_share": {
+        "message": "Teilen"
+    },
+    "chat_trace_consent_title": {
+        "message": "Protokoll dieser Unterhaltung teilen?"
     },
     "chat_unsupported_part": {
         "message": "Dieser Inhalt wird in Phi Chat noch nicht unterstützt ({{type}})."
@@ -1544,6 +1589,42 @@
     "file_upload_failed": {
         "message": "Datei-Upload fehlgeschlagen"
     },
+    "live_chat_badge": {
+        "message": "Live"
+    },
+    "live_chat_move_turn_button": {
+        "message": "In neue Unterhaltung verschieben"
+    },
+    "live_chat_move_turn_error": {
+        "message": "Das konnte nicht in eine neue Unterhaltung verschoben werden. Bitte versuche es erneut."
+    },
+    "live_chat_move_turn_moved": {
+        "message": "In neue Unterhaltung verschoben"
+    },
+    "live_chat_move_turn_open": {
+        "message": "Öffnen"
+    },
+    "live_chat_open_error": {
+        "message": "Der Live-Modus konnte nicht geöffnet werden. Bitte versuche es erneut."
+    },
+    "live_chat_title": {
+        "message": "Live"
+    },
+    "live_chat_wake_reading": {
+        "message": "Ich lese, was sich geändert hat…"
+    },
+    "live_chat_wake_recalling": {
+        "message": "Ich schaue in meiner Erinnerung nach…"
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "Ich durchsuche meine Erinnerung nach „{{subject}}“"
+    },
+    "live_chat_wake_recording": {
+        "message": "Ich überlege, was du gerade vorhast…"
+    },
+    "live_chat_wake_writing": {
+        "message": "Ich schreibe die Notiz…"
+    },
     "message_activity_fallback_default1": {
         "message": "Denkt das durch..."
     },
@@ -1669,6 +1750,9 @@
     },
     "message_im_messages_not_editable": {
         "message": "Nachrichten aus verbundenen Kanälen können nicht bearbeitet werden."
+    },
+    "message_invalid_source_reference": {
+        "message": "Ein Quellenverweis ist ungültig. Behalte eine vorhandene Markierung oder setze einen Backslash davor, damit sie als normaler Text gilt."
     },
     "message_loading_phrases_p01": {
         "message": "Butter bei die Fische"
@@ -1840,6 +1924,81 @@
     },
     "message_loading_phrases_p57": {
         "message": "Den Köder sinken lassen"
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}} weitere"
+    },
+    "message_memory_agent_status_done": {
+        "message": "Fertig"
+    },
+    "message_memory_agent_status_failed": {
+        "message": "Hat nicht geklappt"
+    },
+    "message_memory_agent_status_running": {
+        "message": "Läuft"
+    },
+    "message_memory_agent_step_check": {
+        "message": "Aktualisierung prüfen"
+    },
+    "message_memory_agent_step_describe": {
+        "message": "Inhalt der Erinnerung prüfen"
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "Dein Porträt bearbeiten"
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "Erinnerung prüfen"
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "Surfverhalten durchsehen"
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "Personen und Themen durchsehen"
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "Gespeicherte Fakten durchsehen"
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "Frühere Aufgaben durchsehen"
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "Deine Vorlieben prüfen"
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "Häufig besuchte Seiten durchsehen"
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "Aktualisierung vorbereiten"
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "Eine Erinnerung lesen"
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "Dein Porträt lesen"
+    },
+    "message_memory_agent_step_recall": {
+        "message": "Erinnerung durchsuchen"
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "Erinnerung nach „{{query}}“ durchsuchen"
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "Einen Fakt entfernen"
+    },
+    "message_memory_agent_step_save": {
+        "message": "Aktualisierung speichern"
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "Einen Fakt speichern"
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "Deine Vorliebe speichern"
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "Feste Anweisungen aktualisieren"
+    },
+    "message_memory_agent_title": {
+        "message": "Erinnerungsschritte"
     },
     "message_metrics_chars": {
         "message": "{{value}} Zeichen"
@@ -2057,8 +2216,8 @@
     "newtab_open_in_new_tab": {
         "message": "In neuem Tab öffnen"
     },
-    "newtab_search_placeholder": {
-        "message": "Suchen, KI fragen oder URL eingeben"
+    "newtab_search_placeholder_ask_agent": {
+        "message": "Suchen, {{name}} fragen oder URL eingeben"
     },
     "notification_card_view_details": {
         "message": "Details anzeigen"
@@ -2317,6 +2476,9 @@
     },
     "shadow_tasks_status_failed": {
         "message": "Fehlgeschlagen"
+    },
+    "shadow_tasks_status_missed": {
+        "message": "Nicht ausgeführt"
     },
     "shadow_tasks_status_queued": {
         "message": "In Warteschlange"
@@ -2732,6 +2894,9 @@
     "top_bar_close": {
         "message": "Schließen"
     },
+    "top_bar_live_mode": {
+        "message": "Live-Modus"
+    },
     "top_bar_menu": {
         "message": "Menü"
     },
@@ -2870,12 +3035,6 @@
     "user_input_interject": {
         "message": "Nach dieser Ausführung senden"
     },
-    "user_input_journey_context": {
-        "message": "Aktuelle Aktivität"
-    },
-    "user_input_journey_working_toward": {
-        "message": "Auf dem Weg zu {{label}}"
-    },
     "user_input_no_available_skills": {
         "message": "Keine Skills verfügbar"
     },
@@ -2884,9 +3043,6 @@
     },
     "user_input_remove_attachment": {
         "message": "Anhang entfernen"
-    },
-    "user_input_remove_journey_context": {
-        "message": "Aktivitätskontext entfernen"
     },
     "user_input_remove_split_view": {
         "message": "Split View entfernen"

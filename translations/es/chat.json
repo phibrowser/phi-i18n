@@ -917,6 +917,30 @@
     "chat_tasks_button": {
         "message": "Tareas en esta conversación ({{count}})"
     },
+    "chat_tasks_catch_up_busy": {
+        "message": "Esta tarea ya se está ejecutando"
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "Caducada"
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "Ignorar"
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "Ignorada"
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "Ejecutada: {{time}}"
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "Ejecutada"
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "No hace falta: se ejecutó según lo programado"
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "Ejecutar ahora"
+    },
     "chat_tasks_cron_daily": {
         "message": "Todos los días a las {{time}}"
     },
@@ -1016,6 +1040,12 @@
     "chat_tasks_status_failed": {
         "message": "Fallida"
     },
+    "chat_tasks_status_interrupted": {
+        "message": "Interrumpida"
+    },
+    "chat_tasks_status_missed": {
+        "message": "No se ejecutó"
+    },
     "chat_tasks_status_queued": {
         "message": "En cola"
     },
@@ -1066,6 +1096,21 @@
     },
     "chat_tool_call_succeeded": {
         "message": "Completado"
+    },
+    "chat_trace_consent_body": {
+        "message": "Phi guardará el registro de esta conversación (tus mensajes, las respuestas, el contenido de las páginas y los resultados de las herramientas) en un archivo y lo enviará al equipo de Phi junto con tus comentarios."
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "No compartir"
+    },
+    "chat_trace_consent_note_label": {
+        "message": "¿Quieres agregar algo? (opcional)"
+    },
+    "chat_trace_consent_share": {
+        "message": "Compartir"
+    },
+    "chat_trace_consent_title": {
+        "message": "¿Compartir el registro de esta conversación?"
     },
     "chat_unsupported_part": {
         "message": "Este contenido aún no es compatible con Phi Chat ({{type}})."
@@ -1544,6 +1589,42 @@
     "file_upload_failed": {
         "message": "Error al subir el archivo"
     },
+    "live_chat_badge": {
+        "message": "En vivo"
+    },
+    "live_chat_move_turn_button": {
+        "message": "Mover a una conversación nueva"
+    },
+    "live_chat_move_turn_error": {
+        "message": "No se pudo mover a una conversación nueva. Inténtalo de nuevo."
+    },
+    "live_chat_move_turn_moved": {
+        "message": "Movido a una conversación nueva"
+    },
+    "live_chat_move_turn_open": {
+        "message": "Abrir"
+    },
+    "live_chat_open_error": {
+        "message": "No se pudo abrir el modo en vivo. Inténtalo de nuevo."
+    },
+    "live_chat_title": {
+        "message": "En vivo"
+    },
+    "live_chat_wake_reading": {
+        "message": "Estoy leyendo los cambios…"
+    },
+    "live_chat_wake_recalling": {
+        "message": "Estoy repasando mi memoria…"
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "Estoy buscando «{{subject}}» en mi memoria"
+    },
+    "live_chat_wake_recording": {
+        "message": "Estoy pensando en qué estás haciendo…"
+    },
+    "live_chat_wake_writing": {
+        "message": "Estoy escribiendo la nota…"
+    },
     "message_activity_fallback_default1": {
         "message": "Pensándolo bien..."
     },
@@ -1669,6 +1750,9 @@
     },
     "message_im_messages_not_editable": {
         "message": "Los mensajes de canales conectados no se pueden editar."
+    },
+    "message_invalid_source_reference": {
+        "message": "Hay una referencia a una fuente que no es válida. Conserva un marcador existente o antepón una barra invertida para usarlo como texto literal."
     },
     "message_loading_phrases_p01": {
         "message": "A ver qué pica"
@@ -1840,6 +1924,81 @@
     },
     "message_loading_phrases_p57": {
         "message": "Dejando que el cebo se hunda"
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}} más"
+    },
+    "message_memory_agent_status_done": {
+        "message": "Listo"
+    },
+    "message_memory_agent_status_failed": {
+        "message": "No funcionó"
+    },
+    "message_memory_agent_status_running": {
+        "message": "En curso"
+    },
+    "message_memory_agent_step_check": {
+        "message": "Comprobar la actualización"
+    },
+    "message_memory_agent_step_describe": {
+        "message": "Ver qué hay en la memoria"
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "Editar tu retrato"
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "Consultar la memoria"
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "Repasar la actividad de navegación"
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "Repasar personas y temas"
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "Repasar los datos guardados"
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "Repasar tareas anteriores"
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "Consultar tus preferencias"
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "Repasar los sitios frecuentes"
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "Preparar una actualización"
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "Leer un recuerdo"
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "Leer tu retrato"
+    },
+    "message_memory_agent_step_recall": {
+        "message": "Buscar en la memoria"
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "Buscar «{{query}}» en la memoria"
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "Eliminar un dato"
+    },
+    "message_memory_agent_step_save": {
+        "message": "Guardar la actualización"
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "Guardar un dato"
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "Guardar tu preferencia"
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "Actualizar las instrucciones permanentes"
+    },
+    "message_memory_agent_title": {
+        "message": "Pasos de memoria"
     },
     "message_metrics_chars": {
         "message": "{{value}} caracteres"
@@ -2057,8 +2216,8 @@
     "newtab_open_in_new_tab": {
         "message": "Abrir en una nueva pestaña"
     },
-    "newtab_search_placeholder": {
-        "message": "Busca, pregunta a la IA o escribe una URL"
+    "newtab_search_placeholder_ask_agent": {
+        "message": "Busca, pregunta a {{name}} o escribe una URL"
     },
     "notification_card_view_details": {
         "message": "Ver detalles"
@@ -2317,6 +2476,9 @@
     },
     "shadow_tasks_status_failed": {
         "message": "Fallida"
+    },
+    "shadow_tasks_status_missed": {
+        "message": "No se ejecutó"
     },
     "shadow_tasks_status_queued": {
         "message": "En cola"
@@ -2732,6 +2894,9 @@
     "top_bar_close": {
         "message": "Cerrar"
     },
+    "top_bar_live_mode": {
+        "message": "Modo en vivo"
+    },
     "top_bar_menu": {
         "message": "Menú"
     },
@@ -2870,12 +3035,6 @@
     "user_input_interject": {
         "message": "Poner en cola para después de este turno"
     },
-    "user_input_journey_context": {
-        "message": "Actividad actual"
-    },
-    "user_input_journey_working_toward": {
-        "message": "Avanzando hacia {{label}}"
-    },
     "user_input_no_available_skills": {
         "message": "No hay habilidades disponibles"
     },
@@ -2884,9 +3043,6 @@
     },
     "user_input_remove_attachment": {
         "message": "Quitar archivo adjunto"
-    },
-    "user_input_remove_journey_context": {
-        "message": "Quitar el contexto de actividad"
     },
     "user_input_remove_split_view": {
         "message": "Quitar vista dividida"

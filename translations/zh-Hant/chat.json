@@ -917,6 +917,30 @@
     "chat_tasks_button": {
         "message": "這個對話中的任務（{{count}}）"
     },
+    "chat_tasks_catch_up_busy": {
+        "message": "這項任務已在執行中"
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "已過期"
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "忽略"
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "已忽略"
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "已於 {{time}} 執行"
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "已執行"
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "不需要了：已依排程執行"
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "立即執行"
+    },
     "chat_tasks_cron_daily": {
         "message": "每天 {{time}}"
     },
@@ -1016,6 +1040,12 @@
     "chat_tasks_status_failed": {
         "message": "失敗"
     },
+    "chat_tasks_status_interrupted": {
+        "message": "已中斷"
+    },
+    "chat_tasks_status_missed": {
+        "message": "未執行"
+    },
     "chat_tasks_status_queued": {
         "message": "排隊中"
     },
@@ -1066,6 +1096,21 @@
     },
     "chat_tool_call_succeeded": {
         "message": "已完成"
+    },
+    "chat_trace_consent_body": {
+        "message": "Phi 會將這個對話的追蹤記錄（你的訊息、回覆、網頁內容和工具結果）儲存為記錄檔，並連同你的意見回饋一起傳送給 Phi 團隊。"
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "不分享"
+    },
+    "chat_trace_consent_note_label": {
+        "message": "還有什麼想補充的嗎？（選填）"
+    },
+    "chat_trace_consent_share": {
+        "message": "分享"
+    },
+    "chat_trace_consent_title": {
+        "message": "要分享這個對話的追蹤記錄嗎？"
     },
     "chat_unsupported_part": {
         "message": "Phi Chat 尚不支援這類內容（{{type}}）。"
@@ -1544,6 +1589,42 @@
     "file_upload_failed": {
         "message": "檔案上傳失敗"
     },
+    "live_chat_badge": {
+        "message": "即時"
+    },
+    "live_chat_move_turn_button": {
+        "message": "移到新對話"
+    },
+    "live_chat_move_turn_error": {
+        "message": "無法移到新對話。請再試一次。"
+    },
+    "live_chat_move_turn_moved": {
+        "message": "已移到新對話"
+    },
+    "live_chat_move_turn_open": {
+        "message": "開啟"
+    },
+    "live_chat_open_error": {
+        "message": "無法開啟即時模式。請再試一次。"
+    },
+    "live_chat_title": {
+        "message": "即時"
+    },
+    "live_chat_wake_reading": {
+        "message": "我正在看看有什麼新變化…"
+    },
+    "live_chat_wake_recalling": {
+        "message": "我正在翻閱我的記憶…"
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "我正在記憶中搜尋「{{subject}}」"
+    },
+    "live_chat_wake_recording": {
+        "message": "我正在揣摩你在忙什麼…"
+    },
+    "live_chat_wake_writing": {
+        "message": "我正在寫筆記…"
+    },
     "message_activity_fallback_default1": {
         "message": "正在思考..."
     },
@@ -1669,6 +1750,9 @@
     },
     "message_im_messages_not_editable": {
         "message": "來自已連結頻道的訊息無法編輯。"
+    },
+    "message_invalid_source_reference": {
+        "message": "有個來源參照無效。請保留現有的標記，或在前面加上反斜線，讓它變成一般文字。"
     },
     "message_loading_phrases_p01": {
         "message": "出海討一趟"
@@ -1840,6 +1924,81 @@
     },
     "message_loading_phrases_p57": {
         "message": "慢慢游回來"
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}} 項"
+    },
+    "message_memory_agent_status_done": {
+        "message": "已完成"
+    },
+    "message_memory_agent_status_failed": {
+        "message": "沒有成功"
+    },
+    "message_memory_agent_status_running": {
+        "message": "進行中"
+    },
+    "message_memory_agent_step_check": {
+        "message": "檢查更新內容"
+    },
+    "message_memory_agent_step_describe": {
+        "message": "查看記憶裡有什麼"
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "編輯你的人物側寫"
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "查看記憶"
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "查看瀏覽活動"
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "查看人物和話題"
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "查看已儲存的事實"
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "查看過去的任務"
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "查看你的偏好"
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "查看常用網站"
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "準備更新"
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "讀取一則記憶"
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "讀取你的人物側寫"
+    },
+    "message_memory_agent_step_recall": {
+        "message": "搜尋記憶"
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "在記憶中搜尋「{{query}}」"
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "移除一則事實"
+    },
+    "message_memory_agent_step_save": {
+        "message": "儲存更新"
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "儲存一則事實"
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "儲存你的偏好"
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "更新常設指示"
+    },
+    "message_memory_agent_title": {
+        "message": "記憶步驟"
     },
     "message_metrics_chars": {
         "message": "{{value}} 字元"
@@ -2057,8 +2216,8 @@
     "newtab_open_in_new_tab": {
         "message": "在新分頁開啟"
     },
-    "newtab_search_placeholder": {
-        "message": "搜尋、詢問 AI，或輸入網址"
+    "newtab_search_placeholder_ask_agent": {
+        "message": "搜尋、詢問{{name}}，或輸入網址"
     },
     "notification_card_view_details": {
         "message": "檢視詳細資訊"
@@ -2317,6 +2476,9 @@
     },
     "shadow_tasks_status_failed": {
         "message": "失敗"
+    },
+    "shadow_tasks_status_missed": {
+        "message": "未執行"
     },
     "shadow_tasks_status_queued": {
         "message": "排隊中"
@@ -2732,6 +2894,9 @@
     "top_bar_close": {
         "message": "關閉"
     },
+    "top_bar_live_mode": {
+        "message": "即時模式"
+    },
     "top_bar_menu": {
         "message": "選單"
     },
@@ -2870,12 +3035,6 @@
     "user_input_interject": {
         "message": "這輪回應結束後再傳送"
     },
-    "user_input_journey_context": {
-        "message": "目前的活動"
-    },
-    "user_input_journey_working_toward": {
-        "message": "正在朝 {{label}} 邁進"
-    },
     "user_input_no_available_skills": {
         "message": "沒有可用的 Skill"
     },
@@ -2884,9 +3043,6 @@
     },
     "user_input_remove_attachment": {
         "message": "移除附件"
-    },
-    "user_input_remove_journey_context": {
-        "message": "移除活動上下文"
     },
     "user_input_remove_split_view": {
         "message": "移除分割畫面"

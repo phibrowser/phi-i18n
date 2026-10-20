@@ -917,6 +917,30 @@
     "chat_tasks_button": {
         "message": "Taken in dit gesprek ({{count}})"
     },
+    "chat_tasks_catch_up_busy": {
+        "message": "Deze taak wordt al uitgevoerd"
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "Verlopen"
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "Negeren"
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "Genegeerd"
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "Uitgevoerd om {{time}}"
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "Uitgevoerd"
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "Niet nodig: al volgens planning uitgevoerd"
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "Nu uitvoeren"
+    },
     "chat_tasks_cron_daily": {
         "message": "Elke dag om {{time}}"
     },
@@ -1016,6 +1040,12 @@
     "chat_tasks_status_failed": {
         "message": "Mislukt"
     },
+    "chat_tasks_status_interrupted": {
+        "message": "Afgebroken"
+    },
+    "chat_tasks_status_missed": {
+        "message": "Niet uitgevoerd"
+    },
     "chat_tasks_status_queued": {
         "message": "In wachtrij"
     },
@@ -1066,6 +1096,21 @@
     },
     "chat_tool_call_succeeded": {
         "message": "Voltooid"
+    },
+    "chat_trace_consent_body": {
+        "message": "Phi slaat het logboek van dit gesprek (je berichten, de antwoorden, pagina-inhoud en toolresultaten) op als logbestand en stuurt het samen met je feedback naar het Phi-team."
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "Niet delen"
+    },
+    "chat_trace_consent_note_label": {
+        "message": "Wil je nog iets toevoegen? (optioneel)"
+    },
+    "chat_trace_consent_share": {
+        "message": "Delen"
+    },
+    "chat_trace_consent_title": {
+        "message": "Het logboek van dit gesprek delen?"
     },
     "chat_unsupported_part": {
         "message": "Deze inhoud wordt nog niet ondersteund in Phi Chat ({{type}})."
@@ -1544,6 +1589,42 @@
     "file_upload_failed": {
         "message": "Uploaden van bestand mislukt"
     },
+    "live_chat_badge": {
+        "message": "Live"
+    },
+    "live_chat_move_turn_button": {
+        "message": "Naar een nieuw gesprek verplaatsen"
+    },
+    "live_chat_move_turn_error": {
+        "message": "Kan dit niet naar een nieuw gesprek verplaatsen. Probeer het opnieuw."
+    },
+    "live_chat_move_turn_moved": {
+        "message": "Verplaatst naar een nieuw gesprek"
+    },
+    "live_chat_move_turn_open": {
+        "message": "Openen"
+    },
+    "live_chat_open_error": {
+        "message": "Kan Live-modus niet openen. Probeer het opnieuw."
+    },
+    "live_chat_title": {
+        "message": "Live"
+    },
+    "live_chat_wake_reading": {
+        "message": "Ik lees wat er is veranderd…"
+    },
+    "live_chat_wake_recalling": {
+        "message": "Ik kijk in mijn geheugen…"
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "Ik zoek in mijn geheugen naar “{{subject}}”"
+    },
+    "live_chat_wake_recording": {
+        "message": "Ik bekijk waar je mee bezig bent…"
+    },
+    "live_chat_wake_writing": {
+        "message": "Ik schrijf de notitie…"
+    },
     "message_activity_fallback_default1": {
         "message": "Even nadenken..."
     },
@@ -1669,6 +1750,9 @@
     },
     "message_im_messages_not_editable": {
         "message": "Berichten uit gekoppelde kanalen kunnen niet worden bewerkt."
+    },
+    "message_invalid_source_reference": {
+        "message": "Een bronverwijzing is ongeldig. Gebruik een bestaande markering, of zet er een backslash voor om de tekst letterlijk te gebruiken."
     },
     "message_loading_phrases_p01": {
         "message": "Even een visje uitgooien"
@@ -1840,6 +1924,81 @@
     },
     "message_loading_phrases_p57": {
         "message": "Het aas laten zakken"
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}} meer"
+    },
+    "message_memory_agent_status_done": {
+        "message": "Klaar"
+    },
+    "message_memory_agent_status_failed": {
+        "message": "Niet gelukt"
+    },
+    "message_memory_agent_status_running": {
+        "message": "Bezig"
+    },
+    "message_memory_agent_step_check": {
+        "message": "Update controleren"
+    },
+    "message_memory_agent_step_describe": {
+        "message": "Kijken wat er in het geheugen zit"
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "Je portret bewerken"
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "Geheugen raadplegen"
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "Browseactiviteit doornemen"
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "Personen en onderwerpen doornemen"
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "Opgeslagen feiten doornemen"
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "Eerdere taken doornemen"
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "Je voorkeuren bekijken"
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "Veelbezochte sites doornemen"
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "Update voorbereiden"
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "Een herinnering lezen"
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "Je portret lezen"
+    },
+    "message_memory_agent_step_recall": {
+        "message": "Geheugen doorzoeken"
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "Geheugen doorzoeken op “{{query}}”"
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "Een feit verwijderen"
+    },
+    "message_memory_agent_step_save": {
+        "message": "Update opslaan"
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "Een feit opslaan"
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "Je voorkeur opslaan"
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "Vaste instructies bijwerken"
+    },
+    "message_memory_agent_title": {
+        "message": "Geheugenstappen"
     },
     "message_metrics_chars": {
         "message": "{{value}} tekens"
@@ -2057,8 +2216,8 @@
     "newtab_open_in_new_tab": {
         "message": "Openen in nieuw tabblad"
     },
-    "newtab_search_placeholder": {
-        "message": "Zoeken, AI vragen of een URL typen"
+    "newtab_search_placeholder_ask_agent": {
+        "message": "Zoeken, {{name}} vragen of een URL typen"
     },
     "notification_card_view_details": {
         "message": "Details bekijken"
@@ -2317,6 +2476,9 @@
     },
     "shadow_tasks_status_failed": {
         "message": "Mislukt"
+    },
+    "shadow_tasks_status_missed": {
+        "message": "Niet uitgevoerd"
     },
     "shadow_tasks_status_queued": {
         "message": "In wachtrij"
@@ -2732,6 +2894,9 @@
     "top_bar_close": {
         "message": "Sluiten"
     },
+    "top_bar_live_mode": {
+        "message": "Live-modus"
+    },
     "top_bar_menu": {
         "message": "Menu"
     },
@@ -2870,12 +3035,6 @@
     "user_input_interject": {
         "message": "In de wachtrij zetten voor na deze beurt"
     },
-    "user_input_journey_context": {
-        "message": "Huidige activiteit"
-    },
-    "user_input_journey_working_toward": {
-        "message": "Op weg naar {{label}}"
-    },
     "user_input_no_available_skills": {
         "message": "Geen skills beschikbaar"
     },
@@ -2884,9 +3043,6 @@
     },
     "user_input_remove_attachment": {
         "message": "Bijlage verwijderen"
-    },
-    "user_input_remove_journey_context": {
-        "message": "Activiteitscontext verwijderen"
     },
     "user_input_remove_split_view": {
         "message": "Split View verwijderen"
