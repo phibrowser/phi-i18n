@@ -5,9 +5,6 @@
     "a_deletion_request_for_this_account_is": {
         "message": "Une demande de suppression de ce compte est déjà en cours de traitement. Vous recevrez un accusé de réception par e-mail une fois la suppression terminée.\n\nPhi va maintenant vous déconnecter, supprimer ses données de ce Mac, puis quitter."
     },
-    "a_little_library_of_things_worth_keeping": {
-        "message": "Une petite bibliothèque de choses qui méritent d'être gardées."
-    },
     "a_migration_is_already_running_try_again": {
         "message": "Une migration est déjà en cours. Réessayez une fois celle-ci terminée."
     },
@@ -59,6 +56,9 @@
     "add": {
         "message": "Ajouter"
     },
+    "add_a_new_tab_to_the_current": {
+        "message": "Ajouter un nouvel onglet au groupe d'onglets actuel."
+    },
     "add_all_as_new": {
         "message": "Tout ajouter comme nouveaux"
     },
@@ -76,6 +76,9 @@
     },
     "add_new": {
         "message": "Ajouter"
+    },
+    "add_new_tab_to_group": {
+        "message": "Ajouter un nouvel onglet au groupe"
     },
     "add_note": {
         "message": "Ajouter une note"
@@ -275,11 +278,14 @@
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "Tous les cookies, l'historique, les extensions et les données enregistrées de ce profil seront définitivement supprimés. Cette action est irréversible."
     },
+    "all_custom_shortcuts_will_be_removed_and": {
+        "message": "Tous les raccourcis personnalisés seront supprimés et les valeurs par défaut rétablies. Cette action est irréversible."
+    },
     "all_downloads": {
         "message": "Tous les téléchargements"
     },
-    "all_items": {
-        "message": "Tous les éléments"
+    "all_shortcuts": {
+        "message": "Tous les raccourcis"
     },
     "all_sites": {
         "message": "Tous les sites"
@@ -325,6 +331,9 @@
     },
     "already_in_your_account": {
         "message": "Déjà dans votre compte"
+    },
+    "also": {
+        "message": "Également : %@"
     },
     "also_include_and_all_its_subdomains": {
         "message": "Inclure aussi %@ et tous ses sous-domaines"
@@ -422,23 +431,23 @@
     "are_you_sure_you_want_to_quit": {
         "message": "Voulez-vous vraiment quitter Phi ?"
     },
+    "area_screenshot_copied": {
+        "message": "Capture d'écran de la zone copiée"
+    },
+    "arrow": {
+        "message": "Flèche"
+    },
     "article": {
         "message": "Article"
-    },
-    "article_19d9b3": {
-        "message": "Article"
-    },
-    "articles": {
-        "message": "Articles"
-    },
-    "articles_to_return_to_ideas_to_sit": {
-        "message": "Des articles à relire, des idées à laisser mûrir et des passages que vous ne voulez pas perdre. Offrez-leur une place bien à eux."
     },
     "ask_every_time": {
         "message": "Toujours demander"
     },
     "assign": {
         "message": "Attribuer"
+    },
+    "assign_a_new_kiosk_window_shortcut_in": {
+        "message": "Attribuez un raccourci à Nouvelle fenêtre Kiosk dans Raccourcis."
     },
     "assign_to": {
         "message": "Attribuer à %@"
@@ -557,8 +566,14 @@
     "blue": {
         "message": "Bleu"
     },
+    "blur": {
+        "message": "Pixellisation"
+    },
     "bookmark": {
         "message": "%d favori"
+    },
+    "bookmark_all_open_tabs": {
+        "message": "Ajouter tous les onglets ouverts aux favoris."
     },
     "bookmark_all_tabs": {
         "message": "Ajouter tous les onglets aux favoris…"
@@ -580,6 +595,9 @@
     },
     "bookmark_name_a30a7a": {
         "message": "Nom du favori"
+    },
+    "bookmark_the_current_page": {
+        "message": "Ajouter la page actuelle aux favoris."
     },
     "bookmark_this_tab": {
         "message": "Ajouter cet onglet aux favoris…"
@@ -637,6 +655,9 @@
     },
     "bot_token": {
         "message": "Jeton du bot"
+    },
+    "bring_to_front": {
+        "message": "Placer au premier plan"
     },
     "bring_your_spaces_bookmarks_pinned_tabs_and": {
         "message": "Retrouvez vos Espaces, signets, onglets épinglés et données de navigation prises en charge sur vos autres appareils. Enregistrez un code de récupération, puis choisissez comment ce Mac rejoint votre compte."
@@ -719,6 +740,9 @@
     "cancel_272a6a": {
         "message": "Annuler"
     },
+    "cancel_2b384b": {
+        "message": "Annuler"
+    },
     "cancel_3d2cd0": {
         "message": "Annuler"
     },
@@ -749,10 +773,13 @@
     "cancel_7d73f2": {
         "message": "Annuler"
     },
+    "cancel_7e6b95": {
+        "message": "Annuler"
+    },
     "cancel_7e8473": {
         "message": "Annuler"
     },
-    "cancel_957ba8": {
+    "cancel_8f6d61": {
         "message": "Annuler"
     },
     "cancel_9b3e6c": {
@@ -842,6 +869,9 @@
     "cancelled": {
         "message": "Annulé"
     },
+    "capture_area": {
+        "message": "Capturer une zone…"
+    },
     "capture_full_page": {
         "message": "Capturer la page entière"
     },
@@ -905,6 +935,12 @@
     "change_space_icon": {
         "message": "Modifier l'icône de l'Espace"
     },
+    "change_style": {
+        "message": "Modification du style"
+    },
+    "change_the_group_of_the_current_tab": {
+        "message": "Changer le groupe de l'onglet actuel."
+    },
     "change_theme": {
         "message": "Modifier le thème"
     },
@@ -925,6 +961,9 @@
     },
     "check_for_update_9e397e": {
         "message": "Rechercher des mises à jour…"
+    },
+    "check_the_document_for_spelling_errors": {
+        "message": "Vérifier l'orthographe du document."
     },
     "check_the_rule_sets_to_use_done": {
         "message": "Cochez les jeux de règles à utiliser. « Terminé » télécharge auprès de leurs éditeurs ceux qui manquent ; rien n'est téléchargé tant que vous ne le demandez pas. Les listes personnalisées s'appliquent aux trois interrupteurs."
@@ -950,14 +989,17 @@
     "choose_a_download_location_for_this_profile": {
         "message": "Choisissez un emplacement de téléchargement pour ce profil."
     },
+    "choose_a_file_to_open_in_phi": {
+        "message": "Choisir un fichier à ouvrir dans Phi."
+    },
     "choose_a_name_address_and_folder_for": {
         "message": "Choisissez un nom, une adresse et un dossier pour ce signet."
     },
     "choose_a_name_and_address_for_this": {
         "message": "Choisissez un nom et une adresse pour cet onglet épinglé."
     },
-    "choose_an_item_from_your_collection_and": {
-        "message": "Choisissez un élément de votre collection et ménagez-vous un petit moment de lecture."
+    "choose_a_space_for_the_current_peek": {
+        "message": "Choisir un Espace pour la page Peek ou Kiosk actuelle."
     },
     "choose_and_download_rule_sets": {
         "message": "Choisir et télécharger les jeux de règles"
@@ -998,6 +1040,9 @@
     "choose_where_this_profile_s_saved_pages": {
         "message": "Choisissez l'emplacement de stockage des pages enregistrées de ce profil."
     },
+    "choose_which_browsing_data_to_clear": {
+        "message": "Choisir les données de navigation à effacer."
+    },
     "choose_which_profiles_agents_may_create_their": {
         "message": "Choisissez les profils dans lesquels les agents peuvent créer leurs propres Espaces. Désactiver un profil empêche les agents d'ouvrir tout nouvel Espace qui y est associé ; les Espaces existants ne sont pas affectés."
     },
@@ -1028,11 +1073,11 @@
     "clear_search": {
         "message": "Effacer la recherche"
     },
-    "clear_search_c9a806": {
-        "message": "Effacer la recherche"
-    },
     "click": {
         "message": "Cliquez sur "
+    },
+    "click_the_shortcut_to_record_a_new": {
+        "message": "Cliquez sur le raccourci pour enregistrer une nouvelle combinaison."
     },
     "click_the_title_for_overview_click_the": {
         "message": "Cliquez sur le titre pour afficher la vue d'ensemble. Cliquez sur la flèche pour développer ou réduire."
@@ -1057,6 +1102,9 @@
     },
     "close_9f9dbb": {
         "message": "Fermer"
+    },
+    "close_all_phi_windows": {
+        "message": "Fermer toutes les fenêtres de Phi."
     },
     "close_b52252": {
         "message": "Fermer"
@@ -1103,11 +1151,35 @@
     "close_tab_f52cc8": {
         "message": "Fermer l'onglet"
     },
+    "close_tab_group": {
+        "message": "Fermer le groupe d'onglets"
+    },
     "close_tabs": {
         "message": "Fermer les onglets"
     },
+    "close_tabs_to_the_right_of_the": {
+        "message": "Fermer les onglets à droite de l'onglet actuel."
+    },
+    "close_the_current_tab": {
+        "message": "Fermer l'onglet actuel."
+    },
+    "close_the_current_tab_group": {
+        "message": "Fermer le groupe d'onglets actuel."
+    },
+    "close_the_current_window": {
+        "message": "Fermer la fenêtre actuelle."
+    },
+    "close_the_other_tabs_in_the_current": {
+        "message": "Fermer les autres onglets de la fenêtre actuelle."
+    },
     "close_window": {
         "message": "Fermer la fenêtre"
+    },
+    "close_without_saving": {
+        "message": "Fermer sans enregistrer"
+    },
+    "close_without_saving_your_edits": {
+        "message": "Fermer sans enregistrer vos modifications ?"
     },
     "collapse_group": {
         "message": "Réduire le groupe"
@@ -1117,9 +1189,6 @@
     },
     "collect_site_memories": {
         "message": "Collecter les souvenirs du site"
-    },
-    "collection": {
-        "message": "COLLECTION"
     },
     "color": {
         "message": "Couleur"
@@ -1165,6 +1234,9 @@
     },
     "confirm_your_recovery_code": {
         "message": "Confirmez votre code de récupération"
+    },
+    "conflicting_shortcuts": {
+        "message": "Raccourcis en conflit"
     },
     "conflicts_with": {
         "message": "En conflit avec : %@"
@@ -1304,6 +1376,12 @@
     "copy_right_url_970e63": {
         "message": "Copier l'URL de droite"
     },
+    "copy_the_current_page_s_url_to": {
+        "message": "Copier l'URL de la page actuelle dans le presse-papiers."
+    },
+    "copy_the_selection_to_the_clipboard": {
+        "message": "Copier la sélection dans le presse-papiers."
+    },
     "copy_top_url": {
         "message": "Copier l'URL du haut"
     },
@@ -1436,9 +1514,6 @@
     "couldn_t_read_data_on_this_mac": {
         "message": "Impossible de lire les données sur ce Mac"
     },
-    "couldn_t_read_your_folio": {
-        "message": "Impossible de lire votre Folio"
-    },
     "couldn_t_rename_profile": {
         "message": "Impossible de renommer le profil"
     },
@@ -1466,11 +1541,23 @@
     "create": {
         "message": "Créer"
     },
+    "create_a_copy_of_the_current_tab": {
+        "message": "Créer une copie de l'onglet actuel."
+    },
     "create_a_new_folder_to_organize_your": {
         "message": "Créez un nouveau dossier pour organiser vos favoris."
     },
+    "create_a_new_incognito_space": {
+        "message": "Créer un nouvel Espace de navigation privée."
+    },
+    "create_a_new_tab_group": {
+        "message": "Créer un nouveau groupe d'onglets."
+    },
     "create_a_space": {
         "message": "Créer un Espace"
+    },
+    "create_new_tab_group": {
+        "message": "Créer un nouveau groupe d'onglets"
     },
     "create_on_this_mac": {
         "message": "Créer sur ce Mac"
@@ -1490,6 +1577,9 @@
     "credential_request_from": {
         "message": "Demande d'identifiant provenant de « %@ »"
     },
+    "crop": {
+        "message": "Recadrer"
+    },
     "current": {
         "message": "Actuel"
     },
@@ -1499,6 +1589,9 @@
     "custom": {
         "message": "Personnalisé"
     },
+    "custom_color": {
+        "message": "Couleur personnalisée"
+    },
     "custom_filter": {
         "message": "Filtre personnalisé"
     },
@@ -1507,6 +1600,12 @@
     },
     "custom_telegram_bot": {
         "message": "Bot Telegram personnalisé"
+    },
+    "customized_shortcuts": {
+        "message": "Raccourcis personnalisés"
+    },
+    "cut_the_selection_to_the_clipboard": {
+        "message": "Couper la sélection et la placer dans le presse-papiers."
     },
     "cyan": {
         "message": "Cyan"
@@ -1522,6 +1621,9 @@
     },
     "days_ago": {
         "message": "Il y a %d jours"
+    },
+    "decrease_the_zoom_level_of_the_current": {
+        "message": "Réduire le niveau de zoom de la page actuelle."
     },
     "default": {
         "message": "Par défaut"
@@ -1564,6 +1666,9 @@
     },
     "delete_backup": {
         "message": "Supprimer la sauvegarde"
+    },
+    "delete_bc7b23": {
+        "message": "Supprimer"
     },
     "delete_bookmark": {
         "message": "Supprimer %d favori ?"
@@ -1706,7 +1811,13 @@
     "dismiss_094028": {
         "message": "Ignorer"
     },
+    "dismiss_8fe66a": {
+        "message": "Ignorer"
+    },
     "dismiss_cb343b": {
+        "message": "Ignorer"
+    },
+    "dismiss_d97b3f": {
         "message": "Ignorer"
     },
     "dismiss_media_player": {
@@ -1790,8 +1901,17 @@
     "drag_tabs_here_or_pin_them_from": {
         "message": "Faites glisser des onglets ici ou épinglez-les depuis la liste des onglets"
     },
+    "drag_to_move_the_toolbar": {
+        "message": "Faites glisser pour déplacer la barre d'outils"
+    },
     "drag_to_reorder_space": {
         "message": "Faites glisser pour réorganiser l'Espace"
+    },
+    "drag_to_select_an_area": {
+        "message": "Faites glisser pour sélectionner une zone"
+    },
+    "drag_to_select_scroll_or_drag_to": {
+        "message": "Faites glisser pour sélectionner · Faites défiler ou glissez jusqu'à un bord pour étendre la zone · Échap pour annuler"
     },
     "duplicate": {
         "message": "Dupliquer"
@@ -1841,6 +1961,9 @@
     "edit_7e9a": {
         "message": "Édition"
     },
+    "edit_annotation": {
+        "message": "Modification de l'annotation"
+    },
     "edit_bookmark": {
         "message": "Modifier le favori"
     },
@@ -1862,8 +1985,14 @@
     "edit_pinned_tab": {
         "message": "Modifier l'onglet épinglé"
     },
+    "edit_screenshot": {
+        "message": "Modifier la capture d'écran"
+    },
     "edit_split_bookmark": {
         "message": "Modifier le favori Split View"
+    },
+    "edit_text": {
+        "message": "Modification du texte"
     },
     "edit_the_name_and_address_for_this": {
         "message": "Modifiez le nom et l'adresse de ce favori."
@@ -1888,6 +2017,9 @@
     },
     "edit_theme_f7ce4c": {
         "message": "Modifier le thème"
+    },
+    "ellipse": {
+        "message": "Ellipse"
     },
     "email_address": {
         "message": "Adresse e-mail"
@@ -1958,6 +2090,9 @@
     "enter_at_least_one_filter_rule": {
         "message": "Saisissez au moins une règle de filtrage."
     },
+    "enter_or_leave_full_screen": {
+        "message": "Activer ou quitter le mode plein écran."
+    },
     "enter_the_6_digit_code_sent_to": {
         "message": "Saisissez le code à 6 chiffres envoyé à %@."
     },
@@ -1978,6 +2113,9 @@
     },
     "error": {
         "message": "Erreur"
+    },
+    "escape_shortcuts_require_command_or_control": {
+        "message": "Les raccourcis avec Échap nécessitent Commande ou Contrôle."
     },
     "every_agent_is_allowed_so_none_is": {
         "message": "Tous les agents sont autorisés, aucun n'est donc approuvé individuellement."
@@ -2021,6 +2159,9 @@
     "export": {
         "message": "Exporter"
     },
+    "export_0a78d0": {
+        "message": "Exporter…"
+    },
     "export_account_data": {
         "message": "Exportation des données du compte"
     },
@@ -2041,6 +2182,9 @@
     },
     "export_logs_a846d2": {
         "message": "Exporter les journaux"
+    },
+    "export_the_screenshot_as_jpg_or_pdf": {
+        "message": "Exportez la capture d'écran au format JPG ou PDF pour conserver vos modifications."
     },
     "export_user_data": {
         "message": "Exporter les données utilisateur…"
@@ -2120,8 +2264,14 @@
     "file": {
         "message": "Fichier"
     },
+    "fill": {
+        "message": "Remplissage"
+    },
     "filter_rules": {
         "message": "Règles de filtrage"
+    },
+    "filter_shortcuts": {
+        "message": "Filtrer les raccourcis"
     },
     "filtering_is_running_with_the_last_good": {
         "message": "Le filtrage fonctionne avec les dernières règles valides"
@@ -2137,6 +2287,9 @@
     },
     "find_shortcut_keys": {
         "message": "Rechercher des raccourcis clavier"
+    },
+    "find_text_on_the_current_page": {
+        "message": "Rechercher du texte dans la page actuelle."
     },
     "finish": {
         "message": "Terminer"
@@ -2159,11 +2312,35 @@
     "finish_signing_out_in_your_browser": {
         "message": "Terminez la déconnexion dans votre navigateur."
     },
+    "fit": {
+        "message": "Ajuster à la fenêtre"
+    },
     "fixes_and_rules_maintained_by_phi_keep": {
         "message": "Correctifs et règles maintenus par Phi. Laissez cette liste activée, sauf si un site fonctionne mal."
     },
     "focus_address_bar": {
         "message": "Sélectionner la barre d'adresse"
+    },
+    "focus_next_pane": {
+        "message": "Sélectionner le volet suivant"
+    },
+    "focus_next_tab_group": {
+        "message": "Sélectionner le groupe d'onglets suivant"
+    },
+    "focus_open_popup": {
+        "message": "Sélectionner la fenêtre contextuelle ouverte"
+    },
+    "focus_previous_pane": {
+        "message": "Sélectionner le volet précédent"
+    },
+    "focus_previous_tab_group": {
+        "message": "Sélectionner le groupe d'onglets précédent"
+    },
+    "focus_the_address_bar_to_enter_a": {
+        "message": "Sélectionner la barre d'adresse pour saisir une URL ou effectuer une recherche."
+    },
+    "focus_the_address_bar_to_search_the": {
+        "message": "Sélectionner la barre d'adresse pour rechercher sur le Web."
     },
     "folder": {
         "message": "Dossier"
@@ -2417,6 +2594,12 @@
     "for_web_development_while_an_agent_operates": {
         "message": "Pour le développement web. Pendant qu'un agent pilote une page, Phi cesse de la recolorer, rend le masque de pilotage transparent et réduit la barre « Prendre le contrôle ». La page continue d'ignorer vos saisies jusqu'à ce que vous preniez le contrôle. S'applique immédiatement."
     },
+    "force_reload_page": {
+        "message": "Forcer l'actualisation de la page"
+    },
+    "format": {
+        "message": "Format"
+    },
     "forward": {
         "message": "Suivant"
     },
@@ -2425,6 +2608,9 @@
     },
     "forward_e876ba": {
         "message": "Suivant"
+    },
+    "freehand": {
+        "message": "Main levée"
     },
     "from": {
         "message": "Depuis %@"
@@ -2471,8 +2657,17 @@
     "go_to": {
         "message": "Accéder à %@"
     },
+    "go_to_7113ff": {
+        "message": "Accéder à %@"
+    },
     "go_to_space": {
         "message": "Aller à l'Espace « %@ »"
+    },
+    "go_to_the_next_page_in_this": {
+        "message": "Accéder à la page suivante de l'historique de cet onglet."
+    },
+    "go_to_the_previous_page_in_this": {
+        "message": "Accéder à la page précédente de l'historique de cet onglet."
     },
     "granted": {
         "message": "Accordé le %@"
@@ -2510,6 +2705,12 @@
     "hide": {
         "message": "Masquer"
     },
+    "hide_other_applications": {
+        "message": "Masquer les autres applications."
+    },
+    "hide_phi_and_its_windows": {
+        "message": "Masquer Phi et ses fenêtres."
+    },
     "hide_sidebar": {
         "message": "Masquer la barre latérale"
     },
@@ -2521,9 +2722,6 @@
     },
     "highlight_saved": {
         "message": "Texte en surbrillance enregistré"
-    },
-    "highlights": {
-        "message": "Surlignages"
     },
     "history": {
         "message": "Historique"
@@ -2602,6 +2800,9 @@
     },
     "import": {
         "message": "Importer…"
+    },
+    "import_bookmarks_and_settings_from_another_browser": {
+        "message": "Importer les favoris et les paramètres depuis un autre navigateur."
     },
     "import_completed_successfully": {
         "message": "Importation terminée avec succès"
@@ -2687,11 +2888,17 @@
     "incognito_f5b3ca": {
         "message": "Navigation privée"
     },
+    "increase_the_zoom_level_of_the_current": {
+        "message": "Augmenter le niveau de zoom de la page actuelle."
+    },
     "initial_sync_in_progress": {
         "message": "Synchronisation initiale en cours"
     },
     "insecure_download_blocked": {
         "message": "Téléchargement non sécurisé bloqué"
+    },
+    "inspect_an_element_on_the_current_page": {
+        "message": "Inspecter un élément de la page actuelle."
     },
     "install": {
         "message": "Installer"
@@ -2735,8 +2942,17 @@
     "iris": {
         "message": "Iris"
     },
+    "is_used_by_reassigning_removes_only_this": {
+        "message": "%@ est utilisé par %@. La réattribution retire uniquement ce raccourci de ces commandes. Leurs autres raccourcis restent actifs."
+    },
+    "is_used_by_these_shortcuts_cannot_be": {
+        "message": "%@ est utilisé par %@. Ces raccourcis ne peuvent pas être modifiés ici. Choisissez une autre touche."
+    },
     "items": {
         "message": "%d éléments"
+    },
+    "jump_to_selection": {
+        "message": "Aller à la sélection"
     },
     "just_now": {
         "message": "À l'instant"
@@ -2750,8 +2966,8 @@
     "keep_3a0464": {
         "message": "Conserver"
     },
-    "keep_what_stays_with_you": {
-        "message": "Gardez ce qui vous accompagne."
+    "keep_editing": {
+        "message": "Continuer la modification"
     },
     "kiosk": {
         "message": "Kiosk"
@@ -2764,9 +2980,6 @@
     },
     "language": {
         "message": "Langue"
-    },
-    "larger_text": {
-        "message": "Agrandir le texte"
     },
     "last_problem": {
         "message": "Dernier problème : %1$@ (%2$@)"
@@ -2797,9 +3010,6 @@
     },
     "layout_selection": {
         "message": "Choix de la disposition"
-    },
-    "least_recently_updated_first": {
-        "message": "Modification la plus ancienne en premier"
     },
     "leave_empty_to_use_the_auto_generated": {
         "message": "Laissez vide pour utiliser le nom généré automatiquement."
@@ -2921,6 +3131,9 @@
     "manage_extensions_52d065": {
         "message": "Gérer les extensions"
     },
+    "manage_installed_browser_extensions": {
+        "message": "Gérer les extensions installées dans le navigateur."
+    },
     "manage_site_memories": {
         "message": "Gérer les souvenirs du site"
     },
@@ -2984,6 +3197,9 @@
     "minimise": {
         "message": "Réduire"
     },
+    "minimize_the_current_window": {
+        "message": "Placer la fenêtre actuelle dans le Dock."
+    },
     "mint": {
         "message": "Menthe"
     },
@@ -3002,11 +3218,41 @@
     "more_spaces": {
         "message": "Plus d'Espaces"
     },
+    "move": {
+        "message": "Déplacement"
+    },
+    "move_focus_to_an_open_popup": {
+        "message": "Sélectionner une fenêtre contextuelle ouverte."
+    },
+    "move_focus_to_the_next_browser_pane": {
+        "message": "Sélectionner le volet de navigateur suivant."
+    },
+    "move_focus_to_the_next_tab_group": {
+        "message": "Sélectionner le groupe d'onglets suivant."
+    },
+    "move_focus_to_the_previous_browser_pane": {
+        "message": "Sélectionner le volet de navigateur précédent."
+    },
+    "move_focus_to_the_previous_tab_group": {
+        "message": "Sélectionner le groupe d'onglets précédent."
+    },
+    "move_tab_left": {
+        "message": "Déplacer l'onglet vers la gauche"
+    },
+    "move_tab_right": {
+        "message": "Déplacer l'onglet vers la droite"
+    },
     "move_tabs_to_group": {
         "message": "Déplacer les onglets vers un groupe"
     },
-    "move_this_item_to_trash": {
-        "message": "Placer cet élément dans la corbeille ?"
+    "move_the_current_tab_one_position_to": {
+        "message": "Déplacer l'onglet actuel d'une position vers la gauche."
+    },
+    "move_the_current_tab_one_position_to_f3f777": {
+        "message": "Déplacer l'onglet actuel d'une position vers la droite."
+    },
+    "move_the_current_tab_to_a_new": {
+        "message": "Déplacer l'onglet actuel vers une nouvelle fenêtre."
     },
     "move_to_group": {
         "message": "Déplacer vers un groupe"
@@ -3026,11 +3272,17 @@
     "move_to_space_90b3a5": {
         "message": "Déplacer vers un Espace"
     },
-    "move_to_trash": {
-        "message": "Placer dans la corbeille"
+    "move_to_the_next_matching_text_on": {
+        "message": "Passer à l'occurrence suivante dans la page."
+    },
+    "move_to_the_previous_matching_text_on": {
+        "message": "Passer à l'occurrence précédente dans la page."
     },
     "mute": {
         "message": "Mettre en sourdine"
+    },
+    "mute_or_unmute_audio_from_the_current": {
+        "message": "Couper ou rétablir le son du site actuel."
     },
     "mute_site": {
         "message": "Couper le son du site"
@@ -3359,12 +3611,6 @@
     "no_file_selected": {
         "message": "Aucun fichier sélectionné"
     },
-    "no_highlights_yet_highlight_a_passage_on": {
-        "message": "Aucun surlignage pour le moment. Surlignez un passage sur la page d'origine pour le conserver ici."
-    },
-    "no_items_match_this_view": {
-        "message": "Aucun élément ne correspond à cette vue."
-    },
     "no_matching_bookmarks": {
         "message": "Aucun favori ne correspond à votre recherche"
     },
@@ -3590,9 +3836,6 @@
     "on_an_authorized_device_open_settings_sync": {
         "message": "Sur un appareil autorisé, ouvrez Réglages → Synchronisation et approuvez cette demande. Assurez-vous que ce code correspond :"
     },
-    "on_any_webpage_choose_file_save_to": {
-        "message": "Sur n'importe quelle page web, choisissez Fichier → Enregistrer dans Folio"
-    },
     "on_browser_restart": {
         "message": "Au redémarrage du navigateur"
     },
@@ -3617,6 +3860,24 @@
     "open_a_browser_window_for_the_selected": {
         "message": "Ouvrez une fenêtre de navigateur pour le profil sélectionné afin de continuer."
     },
+    "open_a_new_browser_window": {
+        "message": "Ouvrir une nouvelle fenêtre de navigateur."
+    },
+    "open_a_new_incognito_window": {
+        "message": "Ouvrir une nouvelle fenêtre de navigation privée."
+    },
+    "open_a_new_kiosk_window": {
+        "message": "Ouvrir une nouvelle fenêtre Kiosk."
+    },
+    "open_a_new_tab": {
+        "message": "Ouvrir un nouvel onglet."
+    },
+    "open_a_new_tab_to_the_right": {
+        "message": "Ouvrir un nouvel onglet à droite de l'onglet actuel."
+    },
+    "open_a_tab_in_split_view": {
+        "message": "Ouvrir un onglet en Split View."
+    },
     "open_as_split": {
         "message": "Ouvrir en Split View"
     },
@@ -3632,11 +3893,20 @@
     "open_as_tab": {
         "message": "Ouvrir dans un onglet"
     },
+    "open_browser_help": {
+        "message": "Ouvrir l'aide du navigateur."
+    },
+    "open_developer_tools_for_the_current_page": {
+        "message": "Ouvrir les Outils de développement pour la page actuelle."
+    },
     "open_devtools": {
         "message": "Ouvrir les Outils de développement"
     },
     "open_external_links_in_kiosk": {
         "message": "Ouvrir les liens externes dans Kiosk"
+    },
+    "open_file": {
+        "message": "Ouvrir un fichier…"
     },
     "open_folio": {
         "message": "Ouvrir Folio"
@@ -3668,14 +3938,20 @@
     "open_links_in_a_lightweight_window_one": {
         "message": "Ouvrez les liens dans une fenêtre légère, une page à la fois."
     },
-    "open_original": {
-        "message": "Ouvrir l'original"
+    "open_or_close_reader_for_the_current": {
+        "message": "Ouvrir ou fermer le mode Lecture pour la page actuelle."
+    },
+    "open_phi_settings": {
+        "message": "Ouvrir les paramètres de Phi."
     },
     "open_picture_in_picture": {
         "message": "Activer le mode Image dans l'image"
     },
-    "open_saved_webpage": {
-        "message": "Ouvrir la page web enregistrée"
+    "open_print_options_for_the_current_page": {
+        "message": "Ouvrir les options d'impression pour la page actuelle."
+    },
+    "open_reading_mode_for_the_current_page": {
+        "message": "Ouvrir le mode de lecture pour la page actuelle."
     },
     "open_settings": {
         "message": "Ouvrir les Réglages"
@@ -3689,6 +3965,24 @@
     "open_tabs": {
         "message": "Onglets ouverts"
     },
+    "open_the_bookmark_manager": {
+        "message": "Ouvrir le gestionnaire de favoris."
+    },
+    "open_the_current_peek_or_kiosk_page": {
+        "message": "Ouvrir la page Peek ou Kiosk actuelle dans un Espace."
+    },
+    "open_the_feedback_page": {
+        "message": "Ouvrir la page de commentaires."
+    },
+    "open_the_home_page": {
+        "message": "Ouvrir la page d'accueil."
+    },
+    "open_the_javascript_console_for_the_current": {
+        "message": "Ouvrir la console JavaScript pour la page actuelle."
+    },
+    "open_the_profiles_menu": {
+        "message": "Ouvrir le menu des profils."
+    },
     "open_the_url_rules_editor": {
         "message": "Ouvrir l'éditeur de règles d'URL"
     },
@@ -3701,11 +3995,23 @@
     "organize_tabs_with_ai": {
         "message": "Organiser les onglets avec l'IA"
     },
+    "organize_tabs_with_ai_413fc6": {
+        "message": "Organiser les onglets avec l'IA."
+    },
     "organize_tabs_with_ai_6111": {
         "message": "Organiser les onglets avec l'IA"
     },
     "organize_tabs_with_ai_e4d5d3": {
         "message": "Organiser les onglets avec l'IA"
+    },
+    "other": {
+        "message": "Autre"
+    },
+    "other_active_shortcuts_read_only": {
+        "message": "Autres raccourcis actifs (lecture seule)"
+    },
+    "other_browser_commands": {
+        "message": "Autres commandes du navigateur"
     },
     "pairing_isn_t_available_right_now": {
         "message": "Le jumelage n'est pas disponible pour le moment."
@@ -3718,6 +4024,15 @@
     },
     "passwords_manager": {
         "message": "Gestionnaire de mots de passe"
+    },
+    "paste": {
+        "message": "Coller"
+    },
+    "paste_text_using_the_surrounding_formatting": {
+        "message": "Coller le texte en adaptant le style au texte environnant."
+    },
+    "paste_the_clipboard_contents": {
+        "message": "Coller le contenu du presse-papiers."
     },
     "pause": {
         "message": "Suspendre"
@@ -3860,6 +4175,9 @@
     "pin_extension": {
         "message": "Épingler l'extension"
     },
+    "pin_or_unpin_the_current_tab": {
+        "message": "Épingler ou désépingler l'onglet actuel."
+    },
     "pin_split": {
         "message": "Épingler le Split View"
     },
@@ -3938,6 +4256,9 @@
     "preparing_time_machine_restore": {
         "message": "Préparation de la restauration Time Machine"
     },
+    "press_escape_to_cancel_or_delete_to": {
+        "message": "Appuyez sur Échap pour annuler, ou sur Supprimer pour retirer le raccourci."
+    },
     "press_shortcut": {
         "message": "Appuyez sur le raccourci…"
     },
@@ -3961,6 +4282,21 @@
     },
     "print": {
         "message": "Imprimer…"
+    },
+    "print_the_browser_view_hierarchy_for_debugging": {
+        "message": "Afficher la hiérarchie des vues du navigateur à des fins de débogage."
+    },
+    "print_the_current_page_using_the_system": {
+        "message": "Imprimer la page actuelle à l'aide de la zone de dialogue système."
+    },
+    "print_the_detailed_browser_view_hierarchy_for": {
+        "message": "Afficher la hiérarchie détaillée des vues du navigateur à des fins de débogage."
+    },
+    "print_view_tree": {
+        "message": "Afficher la hiérarchie des vues"
+    },
+    "print_view_tree_details": {
+        "message": "Afficher la hiérarchie détaillée des vues"
     },
     "privacy": {
         "message": "Politique de confidentialité"
@@ -4031,6 +4367,12 @@
     "quit": {
         "message": "Quitter"
     },
+    "quit_phi": {
+        "message": "Quitter Phi"
+    },
+    "quit_phi_8a937a": {
+        "message": "Quitter Phi."
+    },
     "reader_view": {
         "message": "Mode Lecture"
     },
@@ -4046,11 +4388,8 @@
     "reader_view_is_unavailable_on_this_page": {
         "message": "Le mode Lecture n'est pas disponible sur cette page"
     },
-    "reading_mode": {
-        "message": "Mode de lecture"
-    },
-    "reading_options_and_actions": {
-        "message": "Options de lecture et actions"
+    "reassign": {
+        "message": "Réattribuer"
     },
     "reauthenticate": {
         "message": "S'authentifier à nouveau"
@@ -4064,9 +4403,6 @@
     "recently_closed": {
         "message": "Récemment fermés"
     },
-    "recently_updated_first": {
-        "message": "Modification la plus récente en premier"
-    },
     "recommended": {
         "message": "Recommandé"
     },
@@ -4076,8 +4412,17 @@
     "recovery_code": {
         "message": "Code de récupération"
     },
+    "rectangle": {
+        "message": "Rectangle"
+    },
     "red": {
         "message": "Rouge"
+    },
+    "redo": {
+        "message": "Rétablir"
+    },
+    "redo_the_last_undone_edit": {
+        "message": "Rétablir la dernière modification annulée."
     },
     "refresh": {
         "message": "Actualiser"
@@ -4087,9 +4432,6 @@
     },
     "refresh_connector_status": {
         "message": "Actualiser l'état du connecteur"
-    },
-    "refresh_library": {
-        "message": "Actualiser la bibliothèque"
     },
     "refused_without_asking": {
         "message": "Refusé sans demander"
@@ -4105,6 +4447,12 @@
     },
     "reload_page": {
         "message": "Actualiser la page"
+    },
+    "reload_the_current_page": {
+        "message": "Actualiser la page actuelle."
+    },
+    "reload_the_current_page_without_using_cached": {
+        "message": "Actualiser la page actuelle sans utiliser le contenu en cache."
     },
     "remember_email": {
         "message": "Mémoriser l'adresse e-mail"
@@ -4220,6 +4568,9 @@
     "reopen_closed_tab_de7200": {
         "message": "Rouvrir l'onglet fermé"
     },
+    "reopen_the_most_recently_closed_tab": {
+        "message": "Rouvrir le dernier onglet fermé."
+    },
     "reopen_your_windows_and_tabs_the_next": {
         "message": "Rouvre vos fenêtres et vos onglets à la prochaine ouverture de Phi."
     },
@@ -4259,6 +4610,12 @@
     "resend_code_cbc823": {
         "message": "Renvoyer le code (%d s)"
     },
+    "reserved_browser_shortcut": {
+        "message": "Raccourci réservé du navigateur"
+    },
+    "reset_the_current_page_to_its_default": {
+        "message": "Rétablir le niveau de zoom par défaut de la page actuelle."
+    },
     "resolve": {
         "message": "Résoudre"
     },
@@ -4280,8 +4637,14 @@
     "restore_4c2571": {
         "message": "Rétablir"
     },
+    "restore_all": {
+        "message": "Tout rétablir"
+    },
     "restore_all_shortcuts": {
         "message": "Rétablir tous les raccourcis"
+    },
+    "restore_all_shortcuts_23ac": {
+        "message": "Rétablir tous les raccourcis ?"
     },
     "restore_last_session": {
         "message": "Restaurer la session précédente"
@@ -4293,6 +4656,9 @@
         "message": "Reprendre"
     },
     "retry": {
+        "message": "Réessayer"
+    },
+    "retry_05770d": {
         "message": "Réessayer"
     },
     "retry_39f08b": {
@@ -4406,6 +4772,12 @@
     "save_pages_to": {
         "message": "Enregistrer les pages dans"
     },
+    "save_the_current_page_for_later": {
+        "message": "Enregistrer la page actuelle pour plus tard."
+    },
+    "save_the_current_page_to_a_file": {
+        "message": "Enregistrer la page actuelle dans un fichier."
+    },
     "save_to_folio": {
         "message": "Enregistrer dans Folio"
     },
@@ -4421,14 +4793,14 @@
     "save_your_recovery_code_first": {
         "message": "Enregistrez d'abord votre code de récupération"
     },
-    "saved": {
-        "message": "Enregistré"
-    },
     "saved_memories_for_will_be_deleted_from": {
         "message": "Les souvenirs enregistrés pour %@ seront supprimés de ce profil de navigateur. Cette action ne peut pas être annulée."
     },
     "saved_only_what_had_loaded": {
         "message": "Seul le contenu déjà chargé a été enregistré"
+    },
+    "saved_shortcuts_could_not_be_read_retry": {
+        "message": "Impossible de lire les raccourcis enregistrés. Réessayez, ou rétablissez tous les raccourcis pour conserver une copie de récupération et utiliser les valeurs par défaut."
     },
     "saved_to_folio": {
         "message": "Enregistré dans Folio"
@@ -4457,6 +4829,9 @@
     "screenshot_timed_out_please_try_again": {
         "message": "Délai de capture d'écran dépassé. Veuillez réessayer."
     },
+    "scroll_to_the_selected_text": {
+        "message": "Faire défiler jusqu'au texte sélectionné."
+    },
     "search": {
         "message": "Rechercher"
     },
@@ -4472,6 +4847,9 @@
     "search_ac220a": {
         "message": "Rechercher…"
     },
+    "search_by_name_or_keys_such_as": {
+        "message": "Recherchez par nom ou par touches, par exemple cmd ctrl S ou ⌘⌃S."
+    },
     "search_downloads": {
         "message": "Rechercher dans les téléchargements"
     },
@@ -4486,6 +4864,9 @@
     },
     "search_mk_3074": {
         "message": "Rechercher sur %@"
+    },
+    "search_open_tabs": {
+        "message": "Rechercher dans les onglets ouverts."
     },
     "search_or_enter_url": {
         "message": "Rechercher ou saisir une URL"
@@ -4511,14 +4892,20 @@
     "search_the_web": {
         "message": "Rechercher sur le Web..."
     },
-    "search_your_library": {
-        "message": "Rechercher dans votre bibliothèque"
+    "select": {
+        "message": "Sélection"
     },
     "select_a_profile_to_view_its_settings": {
         "message": "Sélectionnez un profil pour afficher ses paramètres."
     },
+    "select_a_shortcut_to_view_its_details": {
+        "message": "Sélectionnez un raccourci pour afficher ses détails."
+    },
     "select_a_space_to_view_its_settings": {
         "message": "Sélectionnez un Espace pour afficher ses paramètres."
+    },
+    "select_all_content_in_the_focused_area": {
+        "message": "Tout sélectionner dans la zone active."
     },
     "select_at_least_one_category_to_back": {
         "message": "Sélectionnez au moins une catégorie à sauvegarder."
@@ -4538,6 +4925,15 @@
     "select_tab": {
         "message": "Sélectionner l'onglet %d"
     },
+    "select_the_last_tab": {
+        "message": "Sélectionner le dernier onglet."
+    },
+    "select_the_next_tab": {
+        "message": "Sélectionner l'onglet suivant."
+    },
+    "select_the_previous_tab": {
+        "message": "Sélectionner l'onglet précédent."
+    },
     "self_hosted": {
         "message": "auto-hébergé"
     },
@@ -4555,6 +4951,9 @@
     },
     "send_feedback_to_phi": {
         "message": "Envoyer des commentaires à Phi"
+    },
+    "send_to_back": {
+        "message": "Placer à l'arrière-plan"
     },
     "sending_a_verification_code_to": {
         "message": "Envoi d'un code de vérification à %@…"
@@ -4670,14 +5069,23 @@
     "share_page": {
         "message": "Partager la page"
     },
+    "share_the_current_page": {
+        "message": "Partager la page actuelle."
+    },
     "shift_click_a_link_or_choose_open": {
         "message": "Cliquez sur un lien en maintenant Maj, ou choisissez « Ouvrir le lien dans la vue Peek », pour le prévisualiser dans un panneau flottant au-dessus de la page. Non disponible dans la disposition Confortable."
+    },
+    "shortcut_already_in_use": {
+        "message": "Raccourci déjà utilisé"
     },
     "shortcuts": {
         "message": "Raccourcis"
     },
     "shortcuts_b6a37f": {
         "message": "Raccourcis clavier"
+    },
+    "shortcuts_changed_while_you_were_reviewing_them": {
+        "message": "Les raccourcis ont changé pendant que vous les consultiez. Enregistrez à nouveau le raccourci pour consulter les conflits actuels."
     },
     "shorten_links_to_selected_text": {
         "message": "Raccourcir les liens vers le texte sélectionné"
@@ -4690,9 +5098,6 @@
     },
     "show_a_preview_card_when_hovering_over": {
         "message": "Afficher une carte d'aperçu au survol d'un onglet"
-    },
-    "show_all_items": {
-        "message": "Afficher tous les éléments"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "Afficher la barre de favoris dans les nouveaux onglets"
@@ -4715,9 +5120,6 @@
     "show_in_finder_8593df": {
         "message": "Afficher dans le Finder"
     },
-    "show_in_finder_bb73ef": {
-        "message": "Afficher dans le Finder"
-    },
     "show_in_folder": {
         "message": "Afficher dans le dossier"
     },
@@ -4733,17 +5135,38 @@
     "show_operated_pages_exactly_as_rendered": {
         "message": "Afficher les pages pilotées exactement telles qu'elles sont rendues"
     },
+    "show_or_hide_the_bookmarks_bar_only": {
+        "message": "Afficher ou masquer la barre de favoris. Disponible uniquement dans la disposition Confortable."
+    },
+    "show_or_hide_the_chat_panel": {
+        "message": "Afficher ou masquer le panneau de chat."
+    },
+    "show_or_hide_the_sidebar": {
+        "message": "Afficher ou masquer la barre latérale."
+    },
+    "show_or_hide_the_toolbar_in_full": {
+        "message": "Afficher ou masquer la barre d'outils en mode plein écran."
+    },
     "show_playing_tab": {
         "message": "Afficher l'onglet en cours de lecture"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "Afficher des suggestions proactives sur la page Nouvel onglet"
     },
+    "show_profiles_menu": {
+        "message": "Afficher le menu des profils"
+    },
+    "show_reading_mode": {
+        "message": "Afficher le mode de lecture"
+    },
     "show_sidebar": {
         "message": "Afficher la barre latérale"
     },
     "show_sidebar_media_player": {
         "message": "Afficher le Mini-lecteur"
+    },
+    "show_spelling_and_grammar_options": {
+        "message": "Afficher les options d'orthographe et de grammaire."
     },
     "show_tab_switcher": {
         "message": "Afficher le sélecteur d'onglets"
@@ -4753,6 +5176,12 @@
     },
     "show_the_agent_s_command_and_process": {
         "message": "Afficher la commande et l'arborescence des processus de l'agent"
+    },
+    "show_the_tab_switcher_and_move_backward": {
+        "message": "Afficher le sélecteur d'onglets et reculer dans les onglets récents."
+    },
+    "show_the_tab_switcher_and_move_forward": {
+        "message": "Afficher le sélecteur d'onglets et avancer dans les onglets récents."
     },
     "show_transcript": {
         "message": "Afficher la transcription"
@@ -4877,9 +5306,6 @@
     "skip_this_version": {
         "message": "Ignorer cette version"
     },
-    "smaller_text": {
-        "message": "Réduire le texte"
-    },
     "some_account_and_system_information_may_be": {
         "message": "Certaines informations relatives à votre compte et à votre système peuvent être envoyées à Phinomenon. Nous utiliserons les informations que vous nous communiquez pour résoudre les problèmes techniques et améliorer nos services, conformément à nos Règles de confidentialité et à nos Conditions d'utilisation."
     },
@@ -4910,14 +5336,8 @@
     "something_went_wrong_while_setting_up_the": {
         "message": "Une erreur s'est produite lors de la configuration du profil."
     },
-    "something_worth_returning_to": {
-        "message": "Quelque chose qui mérite qu'on y revienne."
-    },
     "sorry_for_the_interruption_a_few_details": {
         "message": "Nous sommes désolés pour cette interruption. Quelques détails sur ce qui s'est passé avant le plantage peuvent nous aider à comprendre le problème et à rendre Phi plus fiable."
-    },
-    "sort_collection": {
-        "message": "Trier la collection"
     },
     "source": {
         "message": "Source"
@@ -4991,6 +5411,9 @@
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "Les approbations permanentes peuvent être vérifiées et révoquées à tout moment dans les Paramètres."
     },
+    "start_a_new_conversation_in_phi_chat": {
+        "message": "Démarrer une nouvelle conversation dans Phi Chat."
+    },
     "start_migration": {
         "message": "Démarrer la migration"
     },
@@ -5006,11 +5429,11 @@
     "stop_022eb3": {
         "message": "Arrêter le chargement"
     },
+    "stop_loading_the_current_page": {
+        "message": "Arrêter le chargement de la page actuelle."
+    },
     "store_this_code_somewhere_safe_you_will": {
         "message": "Conservez ce code en lieu sûr. Vous en aurez besoin pour ajouter un autre appareil à votre compte."
-    },
-    "stored_on_your_mac": {
-        "message": "Stocké sur votre Mac"
     },
     "submit": {
         "message": "Valider"
@@ -5029,6 +5452,18 @@
     },
     "switch_to_agent_space": {
         "message": "Passer à l'Espace de l'agent"
+    },
+    "switch_to_space_in_the_current_window": {
+        "message": "Passer à l'Espace %d dans la fenêtre actuelle."
+    },
+    "switch_to_tab_in_the_current_window": {
+        "message": "Passer à l'onglet %d dans la fenêtre actuelle."
+    },
+    "switch_to_the_next_space": {
+        "message": "Passer à l'Espace suivant."
+    },
+    "switch_to_the_previous_space": {
+        "message": "Passer à l'Espace précédent."
     },
     "sync": {
         "message": "Synchronisation"
@@ -5138,6 +5573,12 @@
     "terms_of_service": {
         "message": "Conditions d'utilisation"
     },
+    "text": {
+        "message": "Texte"
+    },
+    "text_size": {
+        "message": "Taille du texte"
+    },
     "that_code_has_expired_click_resend_code": {
         "message": "Ce code a expiré. Cliquez sur « Renvoyer le code » pour en obtenir un nouveau."
     },
@@ -5171,11 +5612,11 @@
     "the_archive_does_not_contain_a_top": {
         "message": "L'archive ne contient pas de dossier Phi à la racine."
     },
-    "the_article_and_its_saved_webpage_copy": {
-        "message": "L'article et la copie enregistrée de sa page web seront placés dans la corbeille. Vous pourrez les restaurer dans le Finder."
-    },
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "L'extension de navigateur Bitwarden remplit automatiquement les identifiants de votre coffre sur les pages web. Phi peut l'installer dès maintenant depuis le Chrome Web Store."
+    },
+    "the_change_could_not_be_saved_your": {
+        "message": "Impossible d'enregistrer la modification. Vos raccourcis précédents sont toujours actifs. Réessayez la modification."
     },
     "the_change_will_finish_in_the_background": {
         "message": "La modification se terminera en arrière-plan."
@@ -5194,6 +5635,9 @@
     },
     "the_folio_folder_could_not_be_read": {
         "message": "Le dossier Folio n'a pas pu être lu."
+    },
+    "the_global_shortcut_is_unavailable_choose_another": {
+        "message": "Le raccourci global n'est pas disponible. Choisissez un autre raccourci, ou désactivez puis réactivez ce paramètre pour réessayer."
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "Le service de messagerie local est indisponible. Vérifiez que Phi Sentinel a démarré normalement et que le service de messagerie est en cours d'exécution."
@@ -5315,9 +5759,6 @@
     "this_is_the_last_device_on_the": {
         "message": "Ceci est le dernier appareil du compte, il ne peut donc pas être supprimé. Terminez le jumelage sur cet appareil (les profils qui ne peuvent pas être lus ne le bloquent pas), ou configurez d'abord la synchronisation sur un autre appareil, puis réessayez."
     },
-    "this_item_has_no_article_text_you": {
-        "message": "Cet élément ne contient pas de texte d'article. Vous pouvez ouvrir l'original ou la copie enregistrée de sa page web."
-    },
     "this_mac": {
         "message": "Ce Mac"
     },
@@ -5357,8 +5798,23 @@
     "this_request_timed_out_you_can_try": {
         "message": "Cette demande a expiré. Vous pouvez réessayer."
     },
+    "this_screenshot_is_too_large_to_edit": {
+        "message": "Cette capture d'écran est trop grande pour être modifiée. Vous pouvez tout de même enregistrer le PNG d'origine."
+    },
     "this_session": {
         "message": "Cette session"
+    },
+    "this_shortcut_conflicts_with": {
+        "message": "Ce raccourci est en conflit avec :"
+    },
+    "this_shortcut_conflicts_with_a_macos_system": {
+        "message": "Ce raccourci est en conflit avec un raccourci système de macOS et risque de ne pas fonctionner dans Phi."
+    },
+    "this_shortcut_is_available_in_other_apps": {
+        "message": "Ce raccourci est disponible dans les autres apps."
+    },
+    "this_shortcut_is_not_supported_globally_with": {
+        "message": "Ce raccourci n'est pas pris en charge globalement avec la disposition de clavier actuelle. Choisissez un autre raccourci."
     },
     "this_site_isn_t_using_a_secure": {
         "message": "Ce site n'utilise pas de connexion sécurisée et le fichier a peut-être été altéré"
@@ -5441,6 +5897,12 @@
     "toggle_sidebar_307510": {
         "message": "Afficher/masquer la barre latérale"
     },
+    "toggle_tablet_mode": {
+        "message": "Activer/désactiver le mode tablette"
+    },
+    "toggle_tablet_mode_for_browser_debugging": {
+        "message": "Activer ou désactiver le mode tablette pour le débogage du navigateur."
+    },
     "token_verified_successfully": {
         "message": "Jeton vérifié avec succès"
     },
@@ -5466,9 +5928,6 @@
         "message": "Réessayer"
     },
     "try_again_ba7845": {
-        "message": "Réessayer"
-    },
-    "try_again_cd0a4c": {
         "message": "Réessayer"
     },
     "try_another_way": {
@@ -5515,6 +5974,12 @@
     },
     "undo": {
         "message": "Annuler"
+    },
+    "undo_2ca0be": {
+        "message": "Annuler"
+    },
+    "undo_the_last_edit": {
+        "message": "Annuler la dernière modification."
     },
     "ungroup": {
         "message": "Dissocier"
@@ -5672,8 +6137,17 @@
     "urls_matching_any_rule_will_open_in": {
         "message": "Les URL correspondant à une règle s'ouvriront dans la destination sélectionnée, quel que soit l'endroit où vous cliquez dessus ou les saisissez."
     },
+    "use_a_modifier_key_letters_and_symbols": {
+        "message": "Utilisez une touche de modification. Les lettres et les symboles nécessitent Commande, Contrôle ou Option."
+    },
     "use_a_recovery_code": {
         "message": "Utiliser un code de récupération"
+    },
+    "use_selection_for_find": {
+        "message": "Utiliser la sélection pour la recherche"
+    },
+    "use_the_selected_text_as_the_search": {
+        "message": "Utiliser le texte sélectionné comme texte de recherche."
     },
     "using_telegram_to_send_and_receive_messages": {
         "message": "Utilisation de Telegram pour envoyer et recevoir des messages avec %@"
@@ -5711,23 +6185,29 @@
     "version": {
         "message": "Version %1$@ (%2$@)"
     },
-    "video": {
-        "message": "Vidéo"
-    },
-    "videos": {
-        "message": "Vidéos"
-    },
     "view": {
         "message": "Présentation"
     },
     "view_and_manage_your_browser_memory": {
         "message": "Consulter et gérer la mémoire du navigateur"
     },
+    "view_browser_tasks_and_their_resource_usage": {
+        "message": "Afficher les tâches du navigateur et leur utilisation des ressources."
+    },
     "view_details": {
         "message": "Afficher les détails"
     },
     "view_page_source": {
         "message": "Afficher le code source de la page"
+    },
+    "view_the_source_of_the_current_page": {
+        "message": "Afficher le code source de la page actuelle."
+    },
+    "view_your_browsing_history": {
+        "message": "Afficher votre historique de navigation."
+    },
+    "view_your_downloads": {
+        "message": "Afficher vos téléchargements."
     },
     "volume_click_to_toggle_mute": {
         "message": "Volume (⌥-clic pour couper ou réactiver le son)"
@@ -5807,6 +6287,9 @@
     "what_should_i_call_you": {
         "message": "Comment dois-je vous appeler ?"
     },
+    "width": {
+        "message": "Épaisseur"
+    },
     "will_be_deleted": {
         "message": "Cela supprimera %@."
     },
@@ -5864,9 +6347,6 @@
     "your_answer_is_about_pick_a_row": {
         "message": "Votre réponse porte sur « %@ ». Sélectionnez une ligne ci-dessus pour qu'elle porte plutôt sur le processus qui l'a lancé."
     },
-    "your_collection_starts_here": {
-        "message": "Votre collection commence ici."
-    },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Vos onglets épinglés actuels seront copiés dans chaque destination existante. Les copies pourront ensuite être modifiées indépendamment."
     },
@@ -5881,6 +6361,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "Votre demande de suppression a été envoyée. Vous recevrez un accusé de réception par e-mail une fois la suppression terminée.\n\nPhi va maintenant vous déconnecter, supprimer ses données de ce Mac et se fermer."
+    },
+    "your_edits_are_still_available_choose_another": {
+        "message": "Vos modifications sont toujours disponibles. Choisissez un autre emplacement et réessayez."
     },
     "your_note": {
         "message": "Votre note"
@@ -5927,6 +6410,9 @@
     "zoom_in": {
         "message": "Zoom avant"
     },
+    "zoom_in_14fd": {
+        "message": "Zoom avant"
+    },
     "zoom_minus": {
         "message": "Zoom arrière"
     },
@@ -5934,6 +6420,9 @@
         "message": "Taille réelle"
     },
     "zoom_out": {
+        "message": "Zoom arrière"
+    },
+    "zoom_out_37a7": {
         "message": "Zoom arrière"
     },
     "zoom_plus": {

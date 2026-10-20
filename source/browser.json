@@ -7,10 +7,6 @@
         "message": "A deletion request for this account is already being processed. You will receive an email receipt once the deletion is complete.\n\nPhi will now sign you out, remove its data from this Mac, and quit.",
         "description": "Location: Browser. Account deletion - Text shown when a previous deletion request is already running server-side; the finalize confirmation comes next, as after a submission"
     },
-    "a_little_library_of_things_worth_keeping": {
-        "message": "A little library of things worth keeping.",
-        "description": "Location: Browser. Folio library - Subtitle beneath the library name"
-    },
     "a_migration_is_already_running_try_again": {
         "message": "A migration is already running. Try again when it has finished.",
         "description": "Location: Browser. Browser migration wizard - shown after Start when another migration run is still in progress"
@@ -79,6 +75,10 @@
         "message": "Add",
         "description": "Location: Browser. Custom filter sheet - Button that adds the filter"
     },
+    "add_a_new_tab_to_the_current": {
+        "message": "Add a new tab to the current tab group.",
+        "description": "Location: Browser. Shortcuts settings - Description of the addTabToGroup command"
+    },
     "add_all_as_new": {
         "message": "Add all as new",
         "description": "Location: Browser. Sync setup Space matching - button that adds every undecided Space to the account as a new Space"
@@ -102,6 +102,10 @@
     "add_new": {
         "message": "Add New",
         "description": "Location: Browser. Shortcuts settings - Placeholder text when no shortcut is assigned"
+    },
+    "add_new_tab_to_group": {
+        "message": "Add New Tab to Group",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
     },
     "add_note": {
         "message": "Add Note",
@@ -367,13 +371,17 @@
         "message": "All cookies, history, extensions, and saved data on this profile will be permanently removed. This cannot be undone.",
         "description": "Location: Browser. Body of the delete-profile confirmation"
     },
+    "all_custom_shortcuts_will_be_removed_and": {
+        "message": "All custom shortcuts will be removed and the defaults restored. This action cannot be undone.",
+        "description": "Location: Browser. Shortcuts settings - Warning that resetting all shortcuts is irreversible"
+    },
     "all_downloads": {
         "message": "All Downloads",
         "description": "Location: Browser. Downloads list - Button to open full downloads page"
     },
-    "all_items": {
-        "message": "All Items",
-        "description": "Location: Browser. Folio library - Filter showing every saved item"
+    "all_shortcuts": {
+        "message": "All Shortcuts",
+        "description": "Location: Browser. Shortcuts settings - Filter showing every shortcut"
     },
     "all_sites": {
         "message": "All sites",
@@ -434,6 +442,10 @@
     "already_in_your_account": {
         "message": "Already in your account",
         "description": "Location: Browser. Sync setup Space matching - account column text for the default Space, which always exists in the account"
+    },
+    "also": {
+        "message": "Also: %@",
+        "description": "Location: Browser. Shortcuts settings - Additional effective key combinations for the same command"
     },
     "also_include_and_all_its_subdomains": {
         "message": "Also include %@ and all its subdomains",
@@ -563,21 +575,17 @@
         "message": "Are you sure you want to quit Phi?",
         "description": "Location: Browser. Quit confirmation title"
     },
+    "area_screenshot_copied": {
+        "message": "Area screenshot copied",
+        "description": "Location: Browser. Screenshot - Success after copying a selected page area"
+    },
+    "arrow": {
+        "message": "Arrow",
+        "description": "Location: Browser. Screenshot editor - Arrow drawing tool"
+    },
     "article": {
         "message": "Article",
         "description": "Location: Browser. Reader View - Fallback file name when an article has no title"
-    },
-    "article_19d9b3": {
-        "message": "Article",
-        "description": "Location: Browser. Folio library - Reading mode showing the saved article"
-    },
-    "articles": {
-        "message": "Articles",
-        "description": "Location: Browser. Folio library - Filter showing saved articles"
-    },
-    "articles_to_return_to_ideas_to_sit": {
-        "message": "Articles to return to, ideas to sit with, and passages you don't want to lose. Give them a place of their own.",
-        "description": "Location: Browser. Folio library - Explanation on the empty library welcome screen"
     },
     "ask_every_time": {
         "message": "Ask every time",
@@ -586,6 +594,10 @@
     "assign": {
         "message": "Assign",
         "description": "Location: Browser. AI settings - Button that assigns an existing unassigned connector to the selected browser Profile"
+    },
+    "assign_a_new_kiosk_window_shortcut_in": {
+        "message": "Assign a New Kiosk Window shortcut in Shortcuts.",
+        "description": "Location: Browser. Navigations settings - Status shown when global Kiosk activation is enabled but its shortcut is unassigned"
     },
     "assign_to": {
         "message": "Assign to %@",
@@ -743,9 +755,17 @@
         "message": "Blue",
         "description": "Location: Browser. Tab Groups - color name shown in auto-named group title and color picker"
     },
+    "blur": {
+        "message": "Blur",
+        "description": "Location: Browser. Screenshot editor - Cover a rectangular area with pixelated image blocks"
+    },
     "bookmark": {
         "message": "%d bookmark",
         "description": "Location: Browser. Bookmark multi-selection delete confirmation phrase for bookmark"
+    },
+    "bookmark_all_open_tabs": {
+        "message": "Bookmark all open tabs.",
+        "description": "Location: Browser. Shortcuts settings - Description of the bookmarkAllTabs command"
     },
     "bookmark_all_tabs": {
         "message": "Bookmark All Tabs...",
@@ -774,6 +794,10 @@
     "bookmark_name_a30a7a": {
         "message": "Bookmark Name",
         "description": "Location: Browser. Bookmark editor - Placeholder for bookmark name input"
+    },
+    "bookmark_the_current_page": {
+        "message": "Bookmark the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the bookmarkTab command"
     },
     "bookmark_this_tab": {
         "message": "Bookmark This Tab...",
@@ -850,6 +874,10 @@
     "bot_token": {
         "message": "Bot Token",
         "description": "Location: Browser. Phi Link - Custom bot token label"
+    },
+    "bring_to_front": {
+        "message": "Bring to Front",
+        "description": "Location: Browser. Screenshot editor - Move selected annotation above others"
     },
     "bring_your_spaces_bookmarks_pinned_tabs_and": {
         "message": "Bring your Spaces, bookmarks, pinned tabs and supported browsing data to your other devices. Save a recovery code, then choose how this Mac joins your account.",
@@ -959,6 +987,10 @@
         "message": "Cancel",
         "description": "Location: Browser. Editor - Cancel button title"
     },
+    "cancel_2b384b": {
+        "message": "Cancel",
+        "description": "Location: Browser. Screenshot editor - Leave crop mode without changing the image"
+    },
     "cancel_3d2cd0": {
         "message": "Cancel",
         "description": "Location: Browser. Account deletion - Button dismissing the deletion warning without deleting anything"
@@ -999,13 +1031,17 @@
         "message": "Cancel",
         "description": "Location: Browser. AI settings - Cancel button in disable-AI confirmation alert"
     },
+    "cancel_7e6b95": {
+        "message": "Cancel",
+        "description": "Location: Browser. Shortcuts settings - Keep all existing bindings without assigning the recorded key"
+    },
     "cancel_7e8473": {
         "message": "Cancel",
         "description": "Location: Browser. Browser migration wizard - button closing the wizard without migrating"
     },
-    "cancel_957ba8": {
+    "cancel_8f6d61": {
         "message": "Cancel",
-        "description": "Location: Browser. Folio library - Cancels moving an item to Trash"
+        "description": "Location: Browser. Shortcuts settings - Cancel button preserving all shortcut settings"
     },
     "cancel_9b3e6c": {
         "message": "Cancel",
@@ -1123,6 +1159,10 @@
         "message": "Cancelled",
         "description": "Location: Browser. Download state"
     },
+    "capture_area": {
+        "message": "Capture Area…",
+        "description": "Location: Browser. File menu - Select a visible webpage area to capture and edit"
+    },
     "capture_full_page": {
         "message": "Capture Full Page",
         "description": "Location: Browser. File menu - Capture the entire current webpage and copy it as an image"
@@ -1207,6 +1247,14 @@
         "message": "Change Space icon",
         "description": "Location: Browser. Library Space card - icon picker button"
     },
+    "change_style": {
+        "message": "Change Style",
+        "description": "Location: Browser. Screenshot editor - Undo action for annotation style"
+    },
+    "change_the_group_of_the_current_tab": {
+        "message": "Change the group of the current tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the groupTab command"
+    },
     "change_theme": {
         "message": "Change Theme",
         "description": "Location: Browser. Spaces context menu - Theme picker accessibility label"
@@ -1234,6 +1282,10 @@
     "check_for_update_9e397e": {
         "message": "Check for Update...",
         "description": "Location: Browser. Phi menu - Menu item text when no update operation is active"
+    },
+    "check_the_document_for_spelling_errors": {
+        "message": "Check the document for spelling errors.",
+        "description": "Location: Browser. Shortcuts settings - Description of the checkDocument command"
     },
     "check_the_rule_sets_to_use_done": {
         "message": "Check the rule sets to use. Done downloads any that are missing from their publishers; nothing is downloaded until you ask. Custom lists apply to all three switches.",
@@ -1267,6 +1319,10 @@
         "message": "Choose a download location for this profile.",
         "description": "Location: Browser. Profiles settings - download folder picker message"
     },
+    "choose_a_file_to_open_in_phi": {
+        "message": "Choose a file to open in Phi.",
+        "description": "Location: Browser. Shortcuts settings - Description of the openFile command"
+    },
     "choose_a_name_address_and_folder_for": {
         "message": "Choose a name, address, and folder for this bookmark.",
         "description": "Location: Browser. Bookmark creator - subtitle of the sheet to create a bookmark"
@@ -1275,9 +1331,9 @@
         "message": "Choose a name and address for this pinned tab.",
         "description": "Location: Browser. Pinned tab creator - subtitle of the sheet to create a pinned tab"
     },
-    "choose_an_item_from_your_collection_and": {
-        "message": "Choose an item from your collection and make a little room to read.",
-        "description": "Location: Browser. Folio library - Prompt to select a saved article"
+    "choose_a_space_for_the_current_peek": {
+        "message": "Choose a Space for the current Peek or Kiosk page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the kioskChooseSpace command"
     },
     "choose_and_download_rule_sets": {
         "message": "Choose and download rule sets",
@@ -1331,6 +1387,10 @@
         "message": "Choose where this profile's saved pages are stored.",
         "description": "Location: Browser. Profiles settings - Folio folder picker message"
     },
+    "choose_which_browsing_data_to_clear": {
+        "message": "Choose which browsing data to clear.",
+        "description": "Location: Browser. Shortcuts settings - Description of the clearBrowsingData command"
+    },
     "choose_which_profiles_agents_may_create_their": {
         "message": "Choose which profiles agents may create their own Spaces in. Turning a profile off stops agents from opening any new Space bound to it; existing Spaces are unaffected.",
         "description": "Location: Browser. Developer settings - Explanation for the per-profile agent-Space allowlist"
@@ -1371,13 +1431,13 @@
         "message": "Clear search",
         "description": "Location: Browser. Icon picker - Accessibility label for clearing search"
     },
-    "clear_search_c9a806": {
-        "message": "Clear Search",
-        "description": "Location: Browser. Folio library - Accessible label for clearing the search field"
-    },
     "click": {
         "message": "Click ",
         "description": "Location: Browser. Phi Link - Custom bot guide prefix"
+    },
+    "click_the_shortcut_to_record_a_new": {
+        "message": "Click the shortcut to record a new combination.",
+        "description": "Location: Browser. Shortcuts settings - Hint below the shortcut recording button"
     },
     "click_the_title_for_overview_click_the": {
         "message": "Click the title for overview. Click the arrow to expand or collapse.",
@@ -1410,6 +1470,10 @@
     "close_9f9dbb": {
         "message": "Close",
         "description": "Location: Browser. Peek popup panel - Tooltip of the button that closes the floating page preview and its page"
+    },
+    "close_all_phi_windows": {
+        "message": "Close all Phi windows.",
+        "description": "Location: Browser. Shortcuts settings - Description of the closeAllWindows command"
     },
     "close_b52252": {
         "message": "Close",
@@ -1471,13 +1535,45 @@
         "message": "Close Tab",
         "description": "Location: Browser. Search Tabs - Close open tab button tooltip"
     },
+    "close_tab_group": {
+        "message": "Close Tab Group",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
     "close_tabs": {
         "message": "Close Tabs",
         "description": "Location: Browser. Tab multi-selection context menu - close all selected tabs"
     },
+    "close_tabs_to_the_right_of_the": {
+        "message": "Close tabs to the right of the current tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the closeTabsToRight command"
+    },
+    "close_the_current_tab": {
+        "message": "Close the current tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the closeTab command"
+    },
+    "close_the_current_tab_group": {
+        "message": "Close the current tab group.",
+        "description": "Location: Browser. Shortcuts settings - Description of the closeTabGroup command"
+    },
+    "close_the_current_window": {
+        "message": "Close the current window.",
+        "description": "Location: Browser. Shortcuts settings - Description of the closeWindow command"
+    },
+    "close_the_other_tabs_in_the_current": {
+        "message": "Close the other tabs in the current window.",
+        "description": "Location: Browser. Shortcuts settings - Description of the closeOtherTabs command"
+    },
     "close_window": {
         "message": "Close Window",
         "description": "Location: Browser. Shortcuts settings - Command title for closing the current window"
+    },
+    "close_without_saving": {
+        "message": "Close Without Saving",
+        "description": "Location: Browser. Screenshot editor - Discard edits and close the window"
+    },
+    "close_without_saving_your_edits": {
+        "message": "Close without saving your edits?",
+        "description": "Location: Browser. Screenshot editor - Confirmation before discarding unsaved annotations"
     },
     "collapse_group": {
         "message": "Collapse Group",
@@ -1490,10 +1586,6 @@
     "collect_site_memories": {
         "message": "Collect Site Memories",
         "description": "Location: Browser. Website menus - Toggle memory collection for the current website in this browser profile"
-    },
-    "collection": {
-        "message": "COLLECTION",
-        "description": "Location: Browser. Folio library - Small heading above the saved item list"
     },
     "color": {
         "message": "Color",
@@ -1554,6 +1646,10 @@
     "confirm_your_recovery_code": {
         "message": "Confirm your recovery code",
         "description": "Location: Browser. Sync setup - title requiring re-entry of the saved recovery code"
+    },
+    "conflicting_shortcuts": {
+        "message": "Conflicting Shortcuts",
+        "description": "Location: Browser. Shortcuts settings - Filter showing shortcuts that conflict with another binding"
     },
     "conflicts_with": {
         "message": "Conflicts with: %@",
@@ -1739,6 +1835,14 @@
         "message": "Copy Right URL",
         "description": "Location: Browser. Tab context menu - Copy the right pane's URL for a side-by-side split"
     },
+    "copy_the_current_page_s_url_to": {
+        "message": "Copy the current page's URL to the clipboard.",
+        "description": "Location: Browser. Shortcuts settings - Description of the copyURL command"
+    },
+    "copy_the_selection_to_the_clipboard": {
+        "message": "Copy the selection to the clipboard.",
+        "description": "Location: Browser. Shortcuts settings - Description of the copy command"
+    },
     "copy_top_url": {
         "message": "Copy Top URL",
         "description": "Location: Browser. Bookmark context menu - Copy the top (primary) URL of a stacked split-view bookmark"
@@ -1817,7 +1921,7 @@
     },
     "could_not_save_the_screenshot": {
         "message": "Could not save the screenshot",
-        "description": "Location: Browser. Screenshot - Error toast when writing the selected JPEG file fails"
+        "description": "Location: Browser. Screenshot - Error toast when writing the selected PNG file fails\nScreenshot - Error when writing the selected screenshot file fails"
     },
     "could_not_save_the_sync_deletion_record": {
         "message": "Could not save the sync deletion record. Please try again.",
@@ -1915,10 +2019,6 @@
         "message": "Couldn’t read data on this Mac",
         "description": "Location: Browser. Sync settings - last sync problem: this Mac could not read its own local data of one kind, such as Bookmarks, to sync it"
     },
-    "couldn_t_read_your_folio": {
-        "message": "Couldn't read your Folio",
-        "description": "Location: Browser. Folio library - Heading for a file or folder access error"
-    },
     "couldn_t_rename_profile": {
         "message": "Couldn't rename profile",
         "description": "Location: Browser. Title of the profile-rename error"
@@ -1955,13 +2055,29 @@
         "message": "Create",
         "description": "Location: Browser. Create button"
     },
+    "create_a_copy_of_the_current_tab": {
+        "message": "Create a copy of the current tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the duplicateTab command"
+    },
     "create_a_new_folder_to_organize_your": {
         "message": "Create a new folder to organize your bookmarks.",
         "description": "Location: Browser. Folder creator - Subtitle explaining new folder creation"
     },
+    "create_a_new_incognito_space": {
+        "message": "Create a new Incognito Space.",
+        "description": "Location: Browser. Shortcuts settings - Description of the newIncognitoSpace command"
+    },
+    "create_a_new_tab_group": {
+        "message": "Create a new tab group.",
+        "description": "Location: Browser. Shortcuts settings - Description of the createTabGroup command"
+    },
     "create_a_space": {
         "message": "Create a Space",
         "description": "Location: Browser. Title of the create-Space panel"
+    },
+    "create_new_tab_group": {
+        "message": "Create New Tab Group",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
     },
     "create_on_this_mac": {
         "message": "Create on this Mac",
@@ -1987,6 +2103,10 @@
         "message": "Credential request from “%@”",
         "description": "Location: Browser. Credential approval - title"
     },
+    "crop": {
+        "message": "Crop",
+        "description": "Location: Browser. Screenshot editor - Crop the image to the selected rectangular region"
+    },
     "current": {
         "message": "Current",
         "description": "Location: Browser. Marks the Space the user is currently in, in the ask-Space list"
@@ -1999,6 +2119,10 @@
         "message": "Custom",
         "description": "Location: Browser. Custom filter sheet - Segment for pasted filter rules"
     },
+    "custom_color": {
+        "message": "Custom color",
+        "description": "Location: Browser. Screenshot editor - Open the system color picker for the selected annotations"
+    },
     "custom_filter": {
         "message": "Custom filter",
         "description": "Location: Browser. Custom filter sheet - Title"
@@ -2010,6 +2134,14 @@
     "custom_telegram_bot": {
         "message": "Custom Telegram bot",
         "description": "Location: Browser. Phi Link - Custom bot title"
+    },
+    "customized_shortcuts": {
+        "message": "Customized Shortcuts",
+        "description": "Location: Browser. Shortcuts settings - Filter showing shortcuts changed or disabled by the user"
+    },
+    "cut_the_selection_to_the_clipboard": {
+        "message": "Cut the selection to the clipboard.",
+        "description": "Location: Browser. Shortcuts settings - Description of the cut command"
     },
     "cyan": {
         "message": "Cyan",
@@ -2030,6 +2162,10 @@
     "days_ago": {
         "message": "%d days ago",
         "description": "Location: Browser. Download item row - Relative time showing days since download completed"
+    },
+    "decrease_the_zoom_level_of_the_current": {
+        "message": "Decrease the zoom level of the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the zoomOut command"
     },
     "default": {
         "message": "Default",
@@ -2086,6 +2222,10 @@
     "delete_backup": {
         "message": "Delete Backup",
         "description": "Location: Browser. Help menu - Button in the selected Time Machine backup details alert that starts deletion"
+    },
+    "delete_bc7b23": {
+        "message": "Delete",
+        "description": "Location: Browser. Screenshot editor - Delete selected annotation"
     },
     "delete_bookmark": {
         "message": "Delete %d Bookmark?",
@@ -2275,9 +2415,17 @@
         "message": "Dismiss",
         "description": "Location: Browser. Living downloads - Tooltip for dismissing an interrupted download"
     },
+    "dismiss_8fe66a": {
+        "message": "Dismiss",
+        "description": "Location: Browser. Shortcuts settings - Dismiss a save failure without changing any shortcuts"
+    },
     "dismiss_cb343b": {
         "message": "Dismiss",
         "description": "Location: Browser. Living downloads - Tooltip for dismissing a completed download"
+    },
+    "dismiss_d97b3f": {
+        "message": "Dismiss",
+        "description": "Location: Browser. Shortcuts settings - Dismiss a shortcut recording message"
     },
     "dismiss_media_player": {
         "message": "Dismiss media player",
@@ -2387,9 +2535,21 @@
         "message": "Drag tabs here or pin them from the tab list",
         "description": "Location: Browser. Drag tabs here or pin them from the tab list"
     },
+    "drag_to_move_the_toolbar": {
+        "message": "Drag to move the toolbar",
+        "description": "Location: Browser. Screenshot editor - Floating toolbar drag handle"
+    },
     "drag_to_reorder_space": {
         "message": "Drag to reorder Space",
         "description": "Location: Browser. Library Spaces - card drag handle tooltip"
+    },
+    "drag_to_select_an_area": {
+        "message": "Drag to select an area",
+        "description": "Location: Browser. Screenshot editor - Instruction before drawing a crop selection"
+    },
+    "drag_to_select_scroll_or_drag_to": {
+        "message": "Drag to select · Scroll or drag to an edge to extend · Escape to cancel",
+        "description": "Location: Browser. Screenshot - Instructions above the page during area selection"
     },
     "duplicate": {
         "message": "Duplicate",
@@ -2455,6 +2615,10 @@
         "message": "Edit",
         "description": "Location: Browser. Shortcuts settings - Section title for editing commands"
     },
+    "edit_annotation": {
+        "message": "Edit Annotation",
+        "description": "Location: Browser. Screenshot editor - Undo action for creating or transforming an annotation"
+    },
     "edit_bookmark": {
         "message": "Edit Bookmark",
         "description": "Location: Browser. Bookmark editor - Title of the sheet to edit a bookmark"
@@ -2483,9 +2647,17 @@
         "message": "Edit Pinned Tab",
         "description": "Location: Browser. Favorite editor - Title of the sheet to edit a pin"
     },
+    "edit_screenshot": {
+        "message": "Edit Screenshot",
+        "description": "Location: Browser. Screenshot editor - Window title"
+    },
     "edit_split_bookmark": {
         "message": "Edit Split Bookmark",
         "description": "Location: Browser. Bookmark editor - Title of the sheet when editing a split-view bookmark"
+    },
+    "edit_text": {
+        "message": "Edit Text",
+        "description": "Location: Browser. Screenshot editor - Undo action for a text annotation"
     },
     "edit_the_name_and_address_for_this": {
         "message": "Edit the name and address for this bookmark.",
@@ -2518,6 +2690,10 @@
     "edit_theme_f7ce4c": {
         "message": "Edit Theme",
         "description": "Location: Browser. Spaces menu - Theme submenu title for the active Space"
+    },
+    "ellipse": {
+        "message": "Ellipse",
+        "description": "Location: Browser. Screenshot editor - Ellipse annotation tool"
     },
     "email_address": {
         "message": "Email address",
@@ -2611,6 +2787,10 @@
         "message": "Enter at least one filter rule.",
         "description": "Location: Browser. Custom filter sheet - Validation message when the rules text is empty"
     },
+    "enter_or_leave_full_screen": {
+        "message": "Enter or leave full screen.",
+        "description": "Location: Browser. Shortcuts settings - Description of the fullscreen command"
+    },
     "enter_the_6_digit_code_sent_to": {
         "message": "Enter the 6-digit code sent to %@.",
         "description": "Location: Browser. Account deletion - Prompt above the verification code boxes. %@ is the masked account email"
@@ -2638,6 +2818,10 @@
     "error": {
         "message": "Error",
         "description": "Location: Browser. Phi Link - Custom bot generic error text"
+    },
+    "escape_shortcuts_require_command_or_control": {
+        "message": "Escape shortcuts require Command or Control.",
+        "description": "Location: Browser. Shortcuts settings - Explains which modifiers can be used when recording Escape"
     },
     "every_agent_is_allowed_so_none_is": {
         "message": "Every agent is allowed, so none is approved individually.",
@@ -2695,6 +2879,10 @@
         "message": "Export",
         "description": "Location: Browser. Help menu - NSSavePanel primary button title for confirming log export save location"
     },
+    "export_0a78d0": {
+        "message": "Export…",
+        "description": "Location: Browser. Screenshot editor - Save the edited image to a file"
+    },
     "export_account_data": {
         "message": "Export Account Data",
         "description": "Location: Browser. Account data export - Title of the verification and status dialog"
@@ -2722,6 +2910,10 @@
     "export_logs_a846d2": {
         "message": "Export Logs",
         "description": "Location: Browser. Help menu - NSSavePanel window title for saving the log export zip"
+    },
+    "export_the_screenshot_as_jpg_or_pdf": {
+        "message": "Export the screenshot as JPG or PDF to keep your edits.",
+        "description": "Location: Browser. Screenshot editor - Explanation in the unsaved edits confirmation"
     },
     "export_user_data": {
         "message": "Export User Data...",
@@ -2827,9 +3019,17 @@
         "message": "File",
         "description": "Location: Browser. Shortcuts settings - Section title for file commands"
     },
+    "fill": {
+        "message": "Fill",
+        "description": "Location: Browser. Screenshot editor - Fill rectangle or ellipse with the annotation color"
+    },
     "filter_rules": {
         "message": "Filter rules",
         "description": "Location: Browser. Custom filter sheet - Label of the rules text area"
+    },
+    "filter_shortcuts": {
+        "message": "Filter Shortcuts",
+        "description": "Location: Browser. Shortcuts settings - Accessibility label and tooltip for the shortcut filter menu"
     },
     "filtering_is_running_with_the_last_good": {
         "message": "Filtering is running with the last good rules",
@@ -2850,6 +3050,10 @@
     "find_shortcut_keys": {
         "message": "Find shortcut keys",
         "description": "Location: Browser. Shortcuts settings - Search field placeholder to find shortcuts"
+    },
+    "find_text_on_the_current_page": {
+        "message": "Find text on the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the find command"
     },
     "finish": {
         "message": "Finish",
@@ -2879,6 +3083,10 @@
         "message": "Finish signing out in your browser.",
         "description": "Location: Browser. Account settings - Status shown while waiting for sign-out to finish"
     },
+    "fit": {
+        "message": "Fit",
+        "description": "Location: Browser. Screenshot editor - Fit the complete screenshot in the window"
+    },
     "fixes_and_rules_maintained_by_phi_keep": {
         "message": "Fixes and rules maintained by Phi. Keep this on unless a site misbehaves.",
         "description": "Location: Browser. Privacy settings - Description of Phi's own first-party filter list"
@@ -2886,6 +3094,34 @@
     "focus_address_bar": {
         "message": "Focus Address Bar",
         "description": "Location: Browser. Shortcuts settings - Command title for moving keyboard focus to the address bar"
+    },
+    "focus_next_pane": {
+        "message": "Focus Next Pane",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "focus_next_tab_group": {
+        "message": "Focus Next Tab Group",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "focus_open_popup": {
+        "message": "Focus Open Popup",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "focus_previous_pane": {
+        "message": "Focus Previous Pane",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "focus_previous_tab_group": {
+        "message": "Focus Previous Tab Group",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "focus_the_address_bar_to_enter_a": {
+        "message": "Focus the address bar to enter a URL or search.",
+        "description": "Location: Browser. Shortcuts settings - Description of the focusLocation command"
+    },
+    "focus_the_address_bar_to_search_the": {
+        "message": "Focus the address bar to search the web.",
+        "description": "Location: Browser. Shortcuts settings - Description of the focusSearch command"
     },
     "folder": {
         "message": "Folder",
@@ -2917,7 +3153,7 @@
     },
     "folio": {
         "message": "Folio",
-        "description": "Location: Browser. Folio library - Window title and wordmark; keep the product name Folio"
+        "description": "Location: Browser. General settings - Folio section title"
     },
     "folio_62c10d": {
         "message": "Folio",
@@ -3223,6 +3459,14 @@
         "message": "For web development. While an agent operates a page, Phi stops recoloring it, makes the operating mask transparent, and minimises the Take control bar. The page still ignores your input until you take control. Applies immediately.",
         "description": "Location: Browser. Developer settings - Explanation for the toggle that shows agent-operated pages without the agent styling"
     },
+    "force_reload_page": {
+        "message": "Force Reload Page",
+        "description": "Location: Browser. Shortcuts settings - Reload the page without using cached content"
+    },
+    "format": {
+        "message": "Format",
+        "description": "Location: Browser. Screenshot editor - Export file format"
+    },
     "forward": {
         "message": "Forward",
         "description": "Location: Browser. Web content header - Accessibility description for forward navigation button"
@@ -3234,6 +3478,10 @@
     "forward_e876ba": {
         "message": "Forward",
         "description": "Location: Browser. Shortcuts settings - Command title for navigating forward"
+    },
+    "freehand": {
+        "message": "Freehand",
+        "description": "Location: Browser. Screenshot editor - Freehand drawing tool"
     },
     "from": {
         "message": "From %@",
@@ -3273,7 +3521,7 @@
     },
     "full_page_screenshot_copied": {
         "message": "Full page screenshot copied",
-        "description": "Location: Browser. Screenshot - Success toast after copying the JPEG to the clipboard"
+        "description": "Location: Browser. Screenshot - Success toast after copying the PNG to the clipboard"
     },
     "general": {
         "message": "General",
@@ -3295,9 +3543,21 @@
         "message": "Go to %@",
         "description": "Location: Browser. Browser migration wizard - button switching to the first Space the run created; %@ is that Space's name"
     },
+    "go_to_7113ff": {
+        "message": "Go to %@",
+        "description": "Location: Browser. Shortcuts settings - Navigate to a conflicting command; %@ is its name"
+    },
     "go_to_space": {
         "message": "Go to Space \"%@\"",
         "description": "Location: Browser. Shortcuts settings - Command title to activate the Space at this position"
+    },
+    "go_to_the_next_page_in_this": {
+        "message": "Go to the next page in this tab's history.",
+        "description": "Location: Browser. Shortcuts settings - Description of the forward command"
+    },
+    "go_to_the_previous_page_in_this": {
+        "message": "Go to the previous page in this tab's history.",
+        "description": "Location: Browser. Shortcuts settings - Description of the back command"
     },
     "granted": {
         "message": "Granted %@",
@@ -3347,6 +3607,14 @@
         "message": "Hide",
         "description": "Location: Browser. Phi Link - Hide token plaintext button"
     },
+    "hide_other_applications": {
+        "message": "Hide other applications.",
+        "description": "Location: Browser. Shortcuts settings - Description of the hideOthers command"
+    },
+    "hide_phi_and_its_windows": {
+        "message": "Hide Phi and its windows.",
+        "description": "Location: Browser. Shortcuts settings - Description of the hideApp command"
+    },
     "hide_sidebar": {
         "message": "Hide Sidebar",
         "description": "Location: Browser. Library - Tooltip and accessibility label for collapsing the navigation sidebar"
@@ -3362,10 +3630,6 @@
     "highlight_saved": {
         "message": "Highlight saved",
         "description": "Location: Browser. Folio - Toast shown when a selected passage was added to the page's saved item"
-    },
-    "highlights": {
-        "message": "Highlights",
-        "description": "Location: Browser. Folio library - Saved highlights and their notes"
     },
     "history": {
         "message": "History",
@@ -3470,6 +3734,10 @@
     "import": {
         "message": "Import...",
         "description": "Location: Browser. User data import - Alert button to open file picker for zip backup"
+    },
+    "import_bookmarks_and_settings_from_another_browser": {
+        "message": "Import bookmarks and settings from another browser.",
+        "description": "Location: Browser. Shortcuts settings - Description of the importSettings command"
     },
     "import_completed_successfully": {
         "message": "Import completed successfully",
@@ -3583,6 +3851,10 @@
         "message": "Incognito",
         "description": "Location: Browser. Built-in Incognito Space name when only one is open"
     },
+    "increase_the_zoom_level_of_the_current": {
+        "message": "Increase the zoom level of the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the zoomIn command"
+    },
     "initial_sync_in_progress": {
         "message": "Initial sync in progress",
         "description": "Location: Browser. First sync is receiving account data"
@@ -3590,6 +3862,10 @@
     "insecure_download_blocked": {
         "message": "Insecure download blocked",
         "description": "Location: Browser. Short status - insecure download (Chromium: IDS_DOWNLOAD_BUBBLE_STATUS_WARNING_INSECURE)"
+    },
+    "inspect_an_element_on_the_current_page": {
+        "message": "Inspect an element on the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the inspect command"
     },
     "install": {
         "message": "Install",
@@ -3647,9 +3923,21 @@
         "message": "Iris",
         "description": "Location: Browser. Iris theme color name"
     },
+    "is_used_by_reassigning_removes_only_this": {
+        "message": "%@ is used by %@. Reassigning removes only this shortcut from those commands. Their other shortcuts stay active.",
+        "description": "Location: Browser. Shortcuts settings - Conflict confirmation; first placeholder is the recorded key, second is a list of command names"
+    },
+    "is_used_by_these_shortcuts_cannot_be": {
+        "message": "%@ is used by %@. These shortcuts cannot be changed here. Choose a different key.",
+        "description": "Location: Browser. Shortcuts settings - Conflict with read-only bindings; first placeholder is the recorded key, second is their names"
+    },
     "items": {
         "message": "%d items",
         "description": "Location: Browser. Bookmark manager Address column - child count for a folder containing zero or multiple items"
+    },
+    "jump_to_selection": {
+        "message": "Jump to Selection",
+        "description": "Location: Browser. Shortcuts settings - Scroll to the selected text"
     },
     "just_now": {
         "message": "Just now",
@@ -3667,9 +3955,9 @@
         "message": "Keep",
         "description": "Location: Browser. Tooltip for keep button on safety warning in living downloads toast"
     },
-    "keep_what_stays_with_you": {
-        "message": "Keep what stays with you.",
-        "description": "Location: Browser. Folio library - Main heading of the empty library"
+    "keep_editing": {
+        "message": "Keep Editing",
+        "description": "Location: Browser. Screenshot editor - Cancel closing to continue editing or export"
     },
     "kiosk": {
         "message": "Kiosk",
@@ -3686,10 +3974,6 @@
     "language": {
         "message": "Language",
         "description": "Location: Browser. General settings - Language section title"
-    },
-    "larger_text": {
-        "message": "Larger Text",
-        "description": "Location: Browser. Folio library - Increases reading text size"
     },
     "last_problem": {
         "message": "Last problem: %1$@ (%2$@)",
@@ -3730,10 +4014,6 @@
     "layout_selection": {
         "message": "Layout selection",
         "description": "Location: Browser. Onboarding layout selection - Page title"
-    },
-    "least_recently_updated_first": {
-        "message": "Least Recently Updated First",
-        "description": "Location: Browser. Folio library - Sorts by oldest modification date"
     },
     "leave_empty_to_use_the_auto_generated": {
         "message": "Leave empty to use the auto-generated name.",
@@ -3895,6 +4175,10 @@
         "message": "Manage Extensions",
         "description": "Location: Browser. Profile menu - Manage Extensions action"
     },
+    "manage_installed_browser_extensions": {
+        "message": "Manage installed browser extensions.",
+        "description": "Location: Browser. Shortcuts settings - Description of the extensions command"
+    },
     "manage_site_memories": {
         "message": "Manage Site Memories",
         "description": "Location: Browser. Address bar - Button tooltip for opening memory controls for the current website"
@@ -3979,6 +4263,10 @@
         "message": "Minimise",
         "description": "Location: Browser. Agent control pill - collapse the pill into the corner"
     },
+    "minimize_the_current_window": {
+        "message": "Minimize the current window.",
+        "description": "Location: Browser. Shortcuts settings - Description of the minimize command"
+    },
     "mint": {
         "message": "Mint",
         "description": "Location: Browser. Mint theme color name"
@@ -4003,13 +4291,53 @@
         "message": "More Spaces",
         "description": "Location: Browser. Tooltip for the overflow button that opens the full Spaces list"
     },
+    "move": {
+        "message": "Move",
+        "description": "Location: Browser. Screenshot editor - Undo action for moving an annotation"
+    },
+    "move_focus_to_an_open_popup": {
+        "message": "Move focus to an open popup.",
+        "description": "Location: Browser. Shortcuts settings - Description of the focusPopup command"
+    },
+    "move_focus_to_the_next_browser_pane": {
+        "message": "Move focus to the next browser pane.",
+        "description": "Location: Browser. Shortcuts settings - Description of the nextPane command"
+    },
+    "move_focus_to_the_next_tab_group": {
+        "message": "Move focus to the next tab group.",
+        "description": "Location: Browser. Shortcuts settings - Description of the nextTabGroup command"
+    },
+    "move_focus_to_the_previous_browser_pane": {
+        "message": "Move focus to the previous browser pane.",
+        "description": "Location: Browser. Shortcuts settings - Description of the previousPane command"
+    },
+    "move_focus_to_the_previous_tab_group": {
+        "message": "Move focus to the previous tab group.",
+        "description": "Location: Browser. Shortcuts settings - Description of the previousTabGroup command"
+    },
+    "move_tab_left": {
+        "message": "Move Tab Left",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "move_tab_right": {
+        "message": "Move Tab Right",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
     "move_tabs_to_group": {
         "message": "Move Tabs to Group",
         "description": "Location: Browser. Tab multi-selection context menu - submenu to move selected tabs to an existing tab group"
     },
-    "move_this_item_to_trash": {
-        "message": "Move this item to Trash?",
-        "description": "Location: Browser. Folio library - Confirmation before removing a saved item"
+    "move_the_current_tab_one_position_to": {
+        "message": "Move the current tab one position to the left.",
+        "description": "Location: Browser. Shortcuts settings - Description of the moveTabLeft command"
+    },
+    "move_the_current_tab_one_position_to_f3f777": {
+        "message": "Move the current tab one position to the right.",
+        "description": "Location: Browser. Shortcuts settings - Description of the moveTabRight command"
+    },
+    "move_the_current_tab_to_a_new": {
+        "message": "Move the current tab to a new window.",
+        "description": "Location: Browser. Shortcuts settings - Description of the moveTabToWindow command"
     },
     "move_to_group": {
         "message": "Move to Group",
@@ -4035,13 +4363,21 @@
         "message": "Move to Space",
         "description": "Location: Browser. Library Space menu - move items to another Space"
     },
-    "move_to_trash": {
-        "message": "Move to Trash",
-        "description": "Location: Browser. Folio library - Moves a saved item and its webpage copy to Trash"
+    "move_to_the_next_matching_text_on": {
+        "message": "Move to the next matching text on the page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the findNext command"
+    },
+    "move_to_the_previous_matching_text_on": {
+        "message": "Move to the previous matching text on the page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the findPrevious command"
     },
     "mute": {
         "message": "Mute",
         "description": "Location: Browser. Notification menu option - Disable auto popup for notification cards"
+    },
+    "mute_or_unmute_audio_from_the_current": {
+        "message": "Mute or unmute audio from the current site.",
+        "description": "Location: Browser. Shortcuts settings - Description of the muteSite command"
     },
     "mute_site": {
         "message": "Mute Site",
@@ -4479,14 +4815,6 @@
         "message": "No file selected",
         "description": "Location: Browser. Import browser data page - Placeholder when no file has been chosen for import yet"
     },
-    "no_highlights_yet_highlight_a_passage_on": {
-        "message": "No highlights yet. Highlight a passage on the original page to keep it here.",
-        "description": "Location: Browser. Folio library - Empty highlights reading pane"
-    },
-    "no_items_match_this_view": {
-        "message": "No items match this view.",
-        "description": "Location: Browser. Folio library - Shown when search or filters have no matches"
-    },
     "no_matching_bookmarks": {
         "message": "No matching bookmarks",
         "description": "Location: Browser. Bookmark manager - Empty state when a search has no results"
@@ -4787,10 +5115,6 @@
         "message": "On an authorized device, open Settings → Sync and approve this request. Make sure this code matches:",
         "description": "Location: Browser. Instructions for approving another device"
     },
-    "on_any_webpage_choose_file_save_to": {
-        "message": "On any webpage, choose File → Save to Folio",
-        "description": "Location: Browser. Folio library - Explains how to save the first item"
-    },
     "on_browser_restart": {
         "message": "On browser restart",
         "description": "Location: Browser. Bitwarden session timeout - on browser restart"
@@ -4823,6 +5147,30 @@
         "message": "Open a browser window for the selected Profile to continue.",
         "description": "Location: Browser. AI settings - OAuth authorization requires an open window for the selected browser Profile"
     },
+    "open_a_new_browser_window": {
+        "message": "Open a new browser window.",
+        "description": "Location: Browser. Shortcuts settings - Description of the newWindow command"
+    },
+    "open_a_new_incognito_window": {
+        "message": "Open a new Incognito window.",
+        "description": "Location: Browser. Shortcuts settings - Description of the newIncognitoWindow command"
+    },
+    "open_a_new_kiosk_window": {
+        "message": "Open a new Kiosk window.",
+        "description": "Location: Browser. Shortcuts settings - Description of the newKiosk command"
+    },
+    "open_a_new_tab": {
+        "message": "Open a new tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the newTab command"
+    },
+    "open_a_new_tab_to_the_right": {
+        "message": "Open a new tab to the right of the current tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the newTabToRight command"
+    },
+    "open_a_tab_in_split_view": {
+        "message": "Open a tab in Split View.",
+        "description": "Location: Browser. Shortcuts settings - Description of the newSplitTab command"
+    },
     "open_as_split": {
         "message": "Open as Split",
         "description": "Location: Browser. Tab multi-selection context menu - split exactly two selected tabs into paired panes"
@@ -4843,6 +5191,14 @@
         "message": "Open as Tab",
         "description": "Location: Browser. Peek popup panel - Tooltip of the button that converts the floating page preview into a regular tab"
     },
+    "open_browser_help": {
+        "message": "Open browser help.",
+        "description": "Location: Browser. Shortcuts settings - Description of the help command"
+    },
+    "open_developer_tools_for_the_current_page": {
+        "message": "Open Developer Tools for the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the developerTools command"
+    },
     "open_devtools": {
         "message": "Open DevTools",
         "description": "Location: Browser. Shortcuts settings - Command title for opening developer tools"
@@ -4850,6 +5206,10 @@
     "open_external_links_in_kiosk": {
         "message": "Open external links in Kiosk",
         "description": "Location: Browser. Navigations settings - Toggle title for opening links from other apps in Kiosk windows"
+    },
+    "open_file": {
+        "message": "Open File…",
+        "description": "Location: Browser. Shortcuts settings - Command title for opening a local file"
     },
     "open_folio": {
         "message": "Open Folio",
@@ -4891,17 +5251,25 @@
         "message": "Open links in a lightweight window, one page at a time.",
         "description": "Location: Browser. Navigations settings - Description of Kiosk windows"
     },
-    "open_original": {
-        "message": "Open Original",
-        "description": "Location: Browser. Folio library - Opens the original website in the owning browser window"
+    "open_or_close_reader_for_the_current": {
+        "message": "Open or close Reader for the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the reader command"
+    },
+    "open_phi_settings": {
+        "message": "Open Phi settings.",
+        "description": "Location: Browser. Shortcuts settings - Description of the openSettings command"
     },
     "open_picture_in_picture": {
         "message": "Open picture in picture",
         "description": "Location: Browser. Sidebar media player - Pop the playing video into a floating picture-in-picture window"
     },
-    "open_saved_webpage": {
-        "message": "Open Saved Webpage",
-        "description": "Location: Browser. Folio library - Opens the saved webpage copy in a browser tab"
+    "open_print_options_for_the_current_page": {
+        "message": "Open print options for the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the print command"
+    },
+    "open_reading_mode_for_the_current_page": {
+        "message": "Open Reading Mode for the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the readingMode command"
     },
     "open_settings": {
         "message": "Open Settings",
@@ -4919,6 +5287,30 @@
         "message": "Open Tabs",
         "description": "Location: Browser. Search Tabs - Open tabs section title"
     },
+    "open_the_bookmark_manager": {
+        "message": "Open the bookmark manager.",
+        "description": "Location: Browser. Shortcuts settings - Description of the bookmarks command"
+    },
+    "open_the_current_peek_or_kiosk_page": {
+        "message": "Open the current Peek or Kiosk page in a Space.",
+        "description": "Location: Browser. Shortcuts settings - Description of the kioskOpenInSpace command"
+    },
+    "open_the_feedback_page": {
+        "message": "Open the feedback page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the feedback command"
+    },
+    "open_the_home_page": {
+        "message": "Open the home page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the home command"
+    },
+    "open_the_javascript_console_for_the_current": {
+        "message": "Open the JavaScript console for the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the console command"
+    },
+    "open_the_profiles_menu": {
+        "message": "Open the profiles menu.",
+        "description": "Location: Browser. Shortcuts settings - Description of the profiles command"
+    },
     "open_the_url_rules_editor": {
         "message": "Open the URL rules editor",
         "description": "Location: Browser. Spaces settings - tooltip for the URL rules button"
@@ -4935,6 +5327,10 @@
         "message": "Organize tabs with AI",
         "description": "Location: Browser. side bar new tab row - organize tabs button tooltip"
     },
+    "organize_tabs_with_ai_413fc6": {
+        "message": "Organize tabs with AI.",
+        "description": "Location: Browser. Shortcuts settings - Description of the organizeTabs command"
+    },
     "organize_tabs_with_ai_6111": {
         "message": "Organize Tabs with AI",
         "description": "Location: Browser. Shortcuts settings - Command title for organizing tabs with AI"
@@ -4942,6 +5338,18 @@
     "organize_tabs_with_ai_e4d5d3": {
         "message": "Organize tabs with AI",
         "description": "Location: Browser. Organize Tabs - Button tooltip and accessibility label"
+    },
+    "other": {
+        "message": "Other",
+        "description": "Location: Browser. Shortcuts settings - Additional customizable browser commands"
+    },
+    "other_active_shortcuts_read_only": {
+        "message": "Other active shortcuts (read-only)",
+        "description": "Location: Browser. Shortcuts settings - Active native and browser bindings that this settings page cannot reassign"
+    },
+    "other_browser_commands": {
+        "message": "Other Browser Commands",
+        "description": "Location: Browser. Shortcuts settings - Additional customizable browser commands"
     },
     "pairing_isn_t_available_right_now": {
         "message": "Pairing isn’t available right now.",
@@ -4958,6 +5366,18 @@
     "passwords_manager": {
         "message": "Passwords Manager",
         "description": "Location: Browser. Onboarding password manager - Page title"
+    },
+    "paste": {
+        "message": "Paste",
+        "description": "Location: Browser. Screenshot editor - Paste copied annotation"
+    },
+    "paste_text_using_the_surrounding_formatting": {
+        "message": "Paste text using the surrounding formatting.",
+        "description": "Location: Browser. Shortcuts settings - Description of the pasteMatchStyle command"
+    },
+    "paste_the_clipboard_contents": {
+        "message": "Paste the clipboard contents.",
+        "description": "Location: Browser. Shortcuts settings - Description of the paste command"
     },
     "pause": {
         "message": "Pause",
@@ -5147,6 +5567,10 @@
         "message": "Pin extension",
         "description": "Location: Browser. Extension list - Tooltip for pinning an extension"
     },
+    "pin_or_unpin_the_current_tab": {
+        "message": "Pin or unpin the current tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the pinTab command"
+    },
     "pin_split": {
         "message": "Pin Split",
         "description": "Location: Browser. Tab context menu - Pin the split that contains this tab"
@@ -5251,6 +5675,10 @@
         "message": "Preparing Time Machine Restore",
         "description": "Location: Browser. Time Machine restore progress title"
     },
+    "press_escape_to_cancel_or_delete_to": {
+        "message": "Press Escape to cancel, or Delete to remove the shortcut.",
+        "description": "Location: Browser. Shortcuts settings - Instructions while recording a shortcut"
+    },
     "press_shortcut": {
         "message": "Press shortcut…",
         "description": "Location: Browser. Shortcuts settings - Prompt text when recording new shortcut"
@@ -5282,6 +5710,26 @@
     "print": {
         "message": "Print…",
         "description": "Location: Browser. Shortcuts settings - Command title for printing the current page"
+    },
+    "print_the_browser_view_hierarchy_for_debugging": {
+        "message": "Print the browser view hierarchy for debugging.",
+        "description": "Location: Browser. Shortcuts settings - Description of the viewTree command"
+    },
+    "print_the_current_page_using_the_system": {
+        "message": "Print the current page using the system dialog.",
+        "description": "Location: Browser. Shortcuts settings - Description of the basicPrint command"
+    },
+    "print_the_detailed_browser_view_hierarchy_for": {
+        "message": "Print the detailed browser view hierarchy for debugging.",
+        "description": "Location: Browser. Shortcuts settings - Description of the viewTreeDetails command"
+    },
+    "print_view_tree": {
+        "message": "Print View Tree",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "print_view_tree_details": {
+        "message": "Print View Tree Details",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
     },
     "privacy": {
         "message": "Privacy",
@@ -5375,6 +5823,14 @@
         "message": "Quit",
         "description": "Location: Browser. Quit"
     },
+    "quit_phi": {
+        "message": "Quit Phi",
+        "description": "Location: Browser. Shortcuts settings - Command title for quitting Phi"
+    },
+    "quit_phi_8a937a": {
+        "message": "Quit Phi.",
+        "description": "Location: Browser. Shortcuts settings - Description of the quitApp command"
+    },
     "reader_view": {
         "message": "Reader View",
         "description": "Location: Browser. Reader View shortcut tooltip title in the address bar"
@@ -5395,13 +5851,9 @@
         "message": "Reader View is unavailable on this page",
         "description": "Location: Browser. Reader View - Toast shown when reader extraction could not run at all"
     },
-    "reading_mode": {
-        "message": "Reading Mode",
-        "description": "Location: Browser. Folio library - Switches between the article and its highlights"
-    },
-    "reading_options_and_actions": {
-        "message": "Reading Options and Actions",
-        "description": "Location: Browser. Folio library - Accessible label for the article options menu"
+    "reassign": {
+        "message": "Reassign",
+        "description": "Location: Browser. Shortcuts settings - Assign the recorded key and remove only the matching bindings from conflicting commands"
     },
     "reauthenticate": {
         "message": "Reauthenticate",
@@ -5419,10 +5871,6 @@
         "message": "Recently Closed",
         "description": "Location: Browser. Search Tabs - Recently closed section title"
     },
-    "recently_updated_first": {
-        "message": "Recently Updated First",
-        "description": "Location: Browser. Folio library - Sorts by most recently modified file, matching the web library"
-    },
     "recommended": {
         "message": "Recommended",
         "description": "Location: Browser. Onboarding password manager - Recommended label for iCloud Passwords"
@@ -5435,9 +5883,21 @@
         "message": "Recovery code",
         "description": "Location: Browser. Sync setup - placeholder of the recovery code text field"
     },
+    "rectangle": {
+        "message": "Rectangle",
+        "description": "Location: Browser. Screenshot editor - Rectangle annotation tool"
+    },
     "red": {
         "message": "Red",
         "description": "Location: Browser. Tab Groups - color name shown in auto-named group title and color picker"
+    },
+    "redo": {
+        "message": "Redo",
+        "description": "Location: Browser. Screenshot editor - Redo the last undone edit"
+    },
+    "redo_the_last_undone_edit": {
+        "message": "Redo the last undone edit.",
+        "description": "Location: Browser. Shortcuts settings - Description of the redo command"
     },
     "refresh": {
         "message": "Refresh",
@@ -5450,10 +5910,6 @@
     "refresh_connector_status": {
         "message": "Refresh connector status",
         "description": "Location: Browser. AI settings - Tooltip for refreshing connector status"
-    },
-    "refresh_library": {
-        "message": "Refresh Library",
-        "description": "Location: Browser. Folio library - Reloads saved files from disk"
     },
     "refused_without_asking": {
         "message": "Refused without asking",
@@ -5474,6 +5930,14 @@
     "reload_page": {
         "message": "Reload Page",
         "description": "Location: Browser. Shortcuts settings - Command title for reloading the current page"
+    },
+    "reload_the_current_page": {
+        "message": "Reload the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the reload command"
+    },
+    "reload_the_current_page_without_using_cached": {
+        "message": "Reload the current page without using cached content.",
+        "description": "Location: Browser. Shortcuts settings - Description of the forceReload command"
     },
     "remember_email": {
         "message": "Remember email",
@@ -5627,6 +6091,10 @@
         "message": "Reopen Closed Tab",
         "description": "Location: Browser. Shortcuts settings - Command title for reopening the most recently closed tab"
     },
+    "reopen_the_most_recently_closed_tab": {
+        "message": "Reopen the most recently closed tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the restoreTab command"
+    },
     "reopen_your_windows_and_tabs_the_next": {
         "message": "Reopen your windows and tabs the next time you open Phi.",
         "description": "Location: Browser. Advanced settings - Hint shown when restore-last-session is on"
@@ -5679,6 +6147,14 @@
         "message": "Resend Code (%ds)",
         "description": "Location: Browser. Account data export - Disabled resend label. %d is the seconds remaining"
     },
+    "reserved_browser_shortcut": {
+        "message": "Reserved browser shortcut",
+        "description": "Location: Browser. Shortcuts settings - An active browser binding that cannot be customized in this version"
+    },
+    "reset_the_current_page_to_its_default": {
+        "message": "Reset the current page to its default zoom level.",
+        "description": "Location: Browser. Shortcuts settings - Description of the resetZoom command"
+    },
     "resolve": {
         "message": "Resolve",
         "description": "Location: Browser. Devices - pairing banner button"
@@ -5707,9 +6183,17 @@
         "message": "Restore",
         "description": "Location: Browser. Shortcuts settings - Button to restore single shortcut to default"
     },
+    "restore_all": {
+        "message": "Restore All",
+        "description": "Location: Browser. Shortcuts settings - Destructive button confirming the reset of all shortcuts"
+    },
     "restore_all_shortcuts": {
         "message": "Restore all shortcuts",
         "description": "Location: Browser. Shortcuts settings - Button to reset all shortcuts to default"
+    },
+    "restore_all_shortcuts_23ac": {
+        "message": "Restore All Shortcuts?",
+        "description": "Location: Browser. Shortcuts settings - Confirmation title before resetting all shortcuts"
     },
     "restore_last_session": {
         "message": "Restore last session",
@@ -5726,6 +6210,10 @@
     "retry": {
         "message": "Retry",
         "description": "Location: Browser. Download item row - Tooltip for retry download button"
+    },
+    "retry_05770d": {
+        "message": "Retry",
+        "description": "Location: Browser. Shortcuts settings - Retry reading the saved configuration"
     },
     "retry_39f08b": {
         "message": "Retry",
@@ -5845,7 +6333,7 @@
     },
     "save_1e63b3": {
         "message": "Save",
-        "description": "Location: Browser. Screenshot - Button on the copied screenshot toast to save the JPEG to a file"
+        "description": "Location: Browser. Screenshot - Button on the copied screenshot toast to save the PNG to a file"
     },
     "save_5ddd29": {
         "message": "Save",
@@ -5875,6 +6363,14 @@
         "message": "Save pages to",
         "description": "Location: Browser. General settings - Row title for the folder saved pages are written into"
     },
+    "save_the_current_page_for_later": {
+        "message": "Save the current page for later.",
+        "description": "Location: Browser. Shortcuts settings - Description of the saveForLater command"
+    },
+    "save_the_current_page_to_a_file": {
+        "message": "Save the current page to a file.",
+        "description": "Location: Browser. Shortcuts settings - Description of the savePage command"
+    },
     "save_to_folio": {
         "message": "Save to Folio",
         "description": "Location: Browser. File menu - Saves the current page into the Folio folder as a markdown article plus a webpage copy"
@@ -5895,10 +6391,6 @@
         "message": "Save your recovery code first",
         "description": "Location: Browser. Key layer - title of the alert shown when closing the window before confirming the recovery code was saved"
     },
-    "saved": {
-        "message": "Saved",
-        "description": "Location: Browser. Folio library - Prefix before the date an item was saved"
-    },
     "saved_memories_for_will_be_deleted_from": {
         "message": "Saved memories for %@ will be deleted from this browser profile. This can’t be undone.",
         "description": "Location: Browser. Website memory deletion - Confirmation message; %@ is the current page host"
@@ -5906,6 +6398,10 @@
     "saved_only_what_had_loaded": {
         "message": "Saved only what had loaded",
         "description": "Location: Browser. Folio - Toast shown when a page whose reader source did not answer was saved from the loaded page instead, so the item holds less than the whole page"
+    },
+    "saved_shortcuts_could_not_be_read_retry": {
+        "message": "Saved shortcuts could not be read. Retry, or restore all shortcuts to keep a recovery copy and use the defaults.",
+        "description": "Location: Browser. Shortcuts settings - Configuration could not be loaded; edits are blocked until retry or explicit recovery"
     },
     "saved_to_folio": {
         "message": "Saved to Folio",
@@ -5933,7 +6429,7 @@
     },
     "screenshot": {
         "message": "Screenshot",
-        "description": "Location: Browser. Screenshot - Fallback JPEG file name when the page title is empty or unusable"
+        "description": "Location: Browser. Screenshot - Fallback PNG file name when the page title is empty or unusable"
     },
     "screenshot_not_copied_because_the_clipboard_changed": {
         "message": "Screenshot not copied because the clipboard changed",
@@ -5942,6 +6438,10 @@
     "screenshot_timed_out_please_try_again": {
         "message": "Screenshot timed out. Please try again.",
         "description": "Location: Browser. Screenshot - Error toast when the page capture does not finish in time"
+    },
+    "scroll_to_the_selected_text": {
+        "message": "Scroll to the selected text.",
+        "description": "Location: Browser. Shortcuts settings - Description of the jumpToSelection command"
     },
     "search": {
         "message": "Search",
@@ -5963,6 +6463,10 @@
         "message": "Search…",
         "description": "Location: Browser. Address bar - Empty query placeholder beside the selected search engine badge"
     },
+    "search_by_name_or_keys_such_as": {
+        "message": "Search by name or keys, such as cmd ctrl S or ⌘⌃S.",
+        "description": "Location: Browser. Shortcuts settings - Search supports modifier names, abbreviations, symbols, and key characters"
+    },
     "search_downloads": {
         "message": "Search Downloads",
         "description": "Location: Browser. All downloads window - Placeholder for searching by file name or source URL"
@@ -5982,6 +6486,10 @@
     "search_mk_3074": {
         "message": "Search %@",
         "description": "Location: Browser. Address bar - Placeholder after selecting a search engine; the placeholder is its name"
+    },
+    "search_open_tabs": {
+        "message": "Search open tabs.",
+        "description": "Location: Browser. Shortcuts settings - Description of the tabSearch command"
     },
     "search_or_enter_url": {
         "message": "Search or Enter URL",
@@ -6015,17 +6523,25 @@
         "message": "Search the Web...",
         "description": "Location: Browser. Shortcuts settings - Command title for starting a web search"
     },
-    "search_your_library": {
-        "message": "Search your library",
-        "description": "Location: Browser. Folio library - Search field placeholder for titles and sources"
+    "select": {
+        "message": "Select",
+        "description": "Location: Browser. Screenshot editor - Select and move annotations"
     },
     "select_a_profile_to_view_its_settings": {
         "message": "Select a profile to view its settings.",
         "description": "Location: Browser. Profiles settings - empty detail placeholder"
     },
+    "select_a_shortcut_to_view_its_details": {
+        "message": "Select a shortcut to view its details.",
+        "description": "Location: Browser. Shortcuts settings - Detail pane when no editable command is selected"
+    },
     "select_a_space_to_view_its_settings": {
         "message": "Select a Space to view its settings.",
         "description": "Location: Browser. Spaces settings - empty detail placeholder"
+    },
+    "select_all_content_in_the_focused_area": {
+        "message": "Select all content in the focused area.",
+        "description": "Location: Browser. Shortcuts settings - Description of the selectAll command"
     },
     "select_at_least_one_category_to_back": {
         "message": "Select at least one category to back up.",
@@ -6051,6 +6567,18 @@
         "message": "Select Tab %d",
         "description": "Location: Browser. Shortcuts settings - Command title for selecting a numbered tab; %d is the tab position"
     },
+    "select_the_last_tab": {
+        "message": "Select the last tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the lastTab command"
+    },
+    "select_the_next_tab": {
+        "message": "Select the next tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the nextTab command"
+    },
+    "select_the_previous_tab": {
+        "message": "Select the previous tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the previousTab command"
+    },
     "self_hosted": {
         "message": "self-hosted",
         "description": "Location: Browser. Bitwarden login sheet - self-hosted server option"
@@ -6074,6 +6602,10 @@
     "send_feedback_to_phi": {
         "message": "Send Feedback to Phi",
         "description": "Location: Browser. Feedback window - Window title for feedback submission"
+    },
+    "send_to_back": {
+        "message": "Send to Back",
+        "description": "Location: Browser. Screenshot editor - Move selected annotation below others"
     },
     "sending_a_verification_code_to": {
         "message": "Sending a verification code to %@…",
@@ -6227,9 +6759,17 @@
         "message": "Share Page",
         "description": "Location: Browser. Shortcuts settings - Command title for sharing the current page via the macOS share picker"
     },
+    "share_the_current_page": {
+        "message": "Share the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the sharePage command"
+    },
     "shift_click_a_link_or_choose_open": {
         "message": "Shift-click a link, or choose “Open Link in Peek View”, to preview it in a floating panel over the page. Not available in the Comfortable layout.",
         "description": "Location: Browser. Navigations settings - Explanation of the Peek View toggle"
+    },
+    "shortcut_already_in_use": {
+        "message": "Shortcut already in use",
+        "description": "Location: Browser. Shortcuts settings - Title when a recorded key is already owned by another action"
     },
     "shortcuts": {
         "message": "Shortcuts",
@@ -6238,6 +6778,10 @@
     "shortcuts_b6a37f": {
         "message": "Shortcuts",
         "description": "Location: Browser. Shortcuts settings - Section title for keyboard shortcuts"
+    },
+    "shortcuts_changed_while_you_were_reviewing_them": {
+        "message": "Shortcuts changed while you were reviewing them. Record the shortcut again to review the current conflicts.",
+        "description": "Location: Browser. Shortcuts settings - A stale conflict confirmation was canceled without changing any bindings"
     },
     "shorten_links_to_selected_text": {
         "message": "Shorten links to selected text",
@@ -6254,10 +6798,6 @@
     "show_a_preview_card_when_hovering_over": {
         "message": "Show a preview card when hovering over a tab",
         "description": "Location: Browser. Advanced settings - Toggle title for showing custom preview cards when hovering over open tabs"
-    },
-    "show_all_items": {
-        "message": "Show All Items",
-        "description": "Location: Browser. Folio library - Clears search and filters"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "Show Bookmark Bar on New Tab",
@@ -6287,10 +6827,6 @@
         "message": "Show in Finder",
         "description": "Location: Browser. Download item row - Tooltip for show in finder button"
     },
-    "show_in_finder_bb73ef": {
-        "message": "Show in Finder",
-        "description": "Location: Browser. Folio library - Reveals the saved Markdown file"
-    },
     "show_in_folder": {
         "message": "Show in Folder",
         "description": "Location: Browser. Bookmark manager context menu - Reveal a bookmark search result in its containing folder"
@@ -6311,6 +6847,22 @@
         "message": "Show operated pages exactly as rendered",
         "description": "Location: Browser. Developer settings - Toggle title for showing a page an agent is operating without the agent styling"
     },
+    "show_or_hide_the_bookmarks_bar_only": {
+        "message": "Show or hide the bookmarks bar. Only available in Comfortable layout.",
+        "description": "Location: Browser. Shortcuts settings - Bookmark bar command description; Comfortable is the layout option name"
+    },
+    "show_or_hide_the_chat_panel": {
+        "message": "Show or hide the chat panel.",
+        "description": "Location: Browser. Shortcuts settings - Description of the chatbar command"
+    },
+    "show_or_hide_the_sidebar": {
+        "message": "Show or hide the sidebar.",
+        "description": "Location: Browser. Shortcuts settings - Description of the sidebar command"
+    },
+    "show_or_hide_the_toolbar_in_full": {
+        "message": "Show or hide the toolbar in full screen.",
+        "description": "Location: Browser. Shortcuts settings - Description of the fullscreenToolbar command"
+    },
     "show_playing_tab": {
         "message": "Show playing tab",
         "description": "Location: Browser. Sidebar media player - Switch to the tab that owns the media"
@@ -6319,6 +6871,14 @@
         "message": "Show proactive suggestions on the new tab page",
         "description": "Location: Browser. AI settings - Toggle to show proactive suggestions on the new tab page"
     },
+    "show_profiles_menu": {
+        "message": "Show Profiles Menu",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "show_reading_mode": {
+        "message": "Show Reading Mode",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
     "show_sidebar": {
         "message": "Show Sidebar",
         "description": "Location: Browser. Library - Tooltip and accessibility label for expanding the navigation sidebar"
@@ -6326,6 +6886,10 @@
     "show_sidebar_media_player": {
         "message": "Show Mini Player",
         "description": "Location: Browser. Advanced settings - Toggle for showing Mini Player controls for media playing in background tabs"
+    },
+    "show_spelling_and_grammar_options": {
+        "message": "Show spelling and grammar options.",
+        "description": "Location: Browser. Shortcuts settings - Description of the spellingGrammar command"
     },
     "show_tab_switcher": {
         "message": "Show Tab Switcher",
@@ -6338,6 +6902,14 @@
     "show_the_agent_s_command_and_process": {
         "message": "Show the agent's command and process tree",
         "description": "Location: Browser. CDP consent - accessibility label of the details disclosure button while the details are closed"
+    },
+    "show_the_tab_switcher_and_move_backward": {
+        "message": "Show the tab switcher and move backward through recent tabs.",
+        "description": "Location: Browser. Shortcuts settings - Description of the tabSwitcherReverse command"
+    },
+    "show_the_tab_switcher_and_move_forward": {
+        "message": "Show the tab switcher and move forward through recent tabs.",
+        "description": "Location: Browser. Shortcuts settings - Description of the tabSwitcher command"
     },
     "show_transcript": {
         "message": "Show Transcript",
@@ -6503,10 +7075,6 @@
         "message": "Skip This Version",
         "description": "Location: Browser. Update window - Skip update button"
     },
-    "smaller_text": {
-        "message": "Smaller Text",
-        "description": "Location: Browser. Folio library - Decreases reading text size"
-    },
     "some_account_and_system_information_may_be": {
         "message": "Some account and system information may be sent to Phinomenon. We will use the information you give us to help address technical issues and to improve our services, subject to our Privacy Policy and Terms of Service.",
         "description": "Location: Browser. Feedback form - Legal disclaimer text explaining data usage, contains links to Privacy Policy and Terms of Service"
@@ -6547,17 +7115,9 @@
         "message": "Something went wrong while setting up the profile.",
         "description": "Location: Browser. Sync settings - line under Sync paused when setting up a browser profile for sync failed for another reason"
     },
-    "something_worth_returning_to": {
-        "message": "Something worth returning to.",
-        "description": "Location: Browser. Folio library - Heading when no article is selected"
-    },
     "sorry_for_the_interruption_a_few_details": {
         "message": "Sorry for the interruption. A few details about what happened before the crash can help us understand the issue and make Phi more reliable.",
         "description": "Location: Browser. Crash feedback - Apology and invitation to share details about what happened before the crash"
-    },
-    "sort_collection": {
-        "message": "Sort Collection",
-        "description": "Location: Browser. Folio library - Accessible label for the sorting menu"
     },
     "source": {
         "message": "Source",
@@ -6655,6 +7215,10 @@
         "message": "Standing approvals can be reviewed and revoked anytime in Settings.",
         "description": "Location: Browser. Credential approval - always hint"
     },
+    "start_a_new_conversation_in_phi_chat": {
+        "message": "Start a new conversation in Phi Chat.",
+        "description": "Location: Browser. Shortcuts settings - Description of the newConversation command"
+    },
     "start_migration": {
         "message": "Start Migration",
         "description": "Location: Browser. Browser migration wizard - button starting the migration run"
@@ -6675,13 +7239,13 @@
         "message": "Stop",
         "description": "Location: Browser. Shortcuts settings - Command title for stopping the current page from loading"
     },
+    "stop_loading_the_current_page": {
+        "message": "Stop loading the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the stop command"
+    },
     "store_this_code_somewhere_safe_you_will": {
         "message": "Store this code somewhere safe. You will need it to add another device to your account.",
         "description": "Location: Browser. Sync setup - explanation on the page that shows a new recovery code"
-    },
-    "stored_on_your_mac": {
-        "message": "Stored on your Mac",
-        "description": "Location: Browser. Folio library - Opens the local storage folder in Finder"
     },
     "submit": {
         "message": "Submit",
@@ -6706,6 +7270,22 @@
     "switch_to_agent_space": {
         "message": "Switch to Agent Space",
         "description": "Location: Browser. Agent handoff prompt - open the agent Space"
+    },
+    "switch_to_space_in_the_current_window": {
+        "message": "Switch to Space %d in the current window.",
+        "description": "Location: Browser. Shortcuts settings - Description for a numbered space; %d is its position"
+    },
+    "switch_to_tab_in_the_current_window": {
+        "message": "Switch to tab %d in the current window.",
+        "description": "Location: Browser. Shortcuts settings - Description for a numbered tab; %d is its position"
+    },
+    "switch_to_the_next_space": {
+        "message": "Switch to the next Space.",
+        "description": "Location: Browser. Shortcuts settings - Description of the nextSpace command"
+    },
+    "switch_to_the_previous_space": {
+        "message": "Switch to the previous Space.",
+        "description": "Location: Browser. Shortcuts settings - Description of the previousSpace command"
     },
     "sync": {
         "message": "Sync",
@@ -6851,6 +7431,14 @@
         "message": "Terms of Service",
         "description": "Location: Browser. Guest privacy confirmation - Link title for the Phi terms of service"
     },
+    "text": {
+        "message": "Text",
+        "description": "Location: Browser. Screenshot editor - Text annotation tool"
+    },
+    "text_size": {
+        "message": "Text Size",
+        "description": "Location: Browser. Screenshot editor - Text size in source image pixels"
+    },
     "that_code_has_expired_click_resend_code": {
         "message": "That code has expired. Click Resend Code to get a new one.",
         "description": "Location: Browser. Account deletion - Inline error when the verification code expired; points at the resend button"
@@ -6895,13 +7483,13 @@
         "message": "The archive does not contain a top-level Phi folder.",
         "description": "Location: Browser. User data import - Error message when zip does not include the expected Phi directory at archive root"
     },
-    "the_article_and_its_saved_webpage_copy": {
-        "message": "The article and its saved webpage copy will be moved to Trash. You can restore them in Finder.",
-        "description": "Location: Browser. Folio library - Explains what removing an item does"
-    },
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "The Bitwarden browser extension autofills your vault logins on web pages. Phi can install it from the Chrome Web Store now.",
         "description": "Location: Browser. Phi & AI settings - Alert message explaining the suggested Bitwarden extension install"
+    },
+    "the_change_could_not_be_saved_your": {
+        "message": "The change could not be saved. Your previous shortcuts are still active. Try the change again.",
+        "description": "Location: Browser. Shortcuts settings - A failed save leaves the previous shortcuts active"
     },
     "the_change_will_finish_in_the_background": {
         "message": "The change will finish in the background.",
@@ -6926,6 +7514,10 @@
     "the_folio_folder_could_not_be_read": {
         "message": "The Folio folder could not be read.",
         "description": "Location: Browser. Folio - Failure toast detail: the destination folder exists but could not be listed, so saving would risk overwriting an item already there"
+    },
+    "the_global_shortcut_is_unavailable_choose_another": {
+        "message": "The global shortcut is unavailable. Choose another shortcut, or turn this setting off and on to retry.",
+        "description": "Location: Browser. Navigations settings - Status shown after the system rejects a global shortcut operation, with recovery guidance"
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "The local IM service is unavailable. Check whether Phi Sentinel started normally and the IM service is running.",
@@ -7087,10 +7679,6 @@
         "message": "This is the last device on the account, so it can’t be removed. Finish pairing on this device (profiles that can’t be read don’t block it), or set up sync on another device first, then try again.",
         "description": "Location: Browser. Self-revoke - last active device"
     },
-    "this_item_has_no_article_text_you": {
-        "message": "This item has no article text. You can open the original or its saved webpage copy.",
-        "description": "Location: Browser. Folio library - Shown when the saved item has no readable article"
-    },
     "this_mac": {
         "message": "This Mac",
         "description": "Location: Browser. Sync setup Space matching - header of the column listing Spaces on this Mac"
@@ -7143,9 +7731,29 @@
         "message": "This request timed out. You can try again.",
         "description": "Location: Browser. Sync setup - message shown when this device's join request timed out"
     },
+    "this_screenshot_is_too_large_to_edit": {
+        "message": "This screenshot is too large to edit. You can still save the original PNG.",
+        "description": "Location: Browser. Screenshot - Editing failed because the image exceeds the editor's safe size limit"
+    },
     "this_session": {
         "message": "This session",
         "description": "Location: Browser. Developer settings - session-only CDP grant pill"
+    },
+    "this_shortcut_conflicts_with": {
+        "message": "This shortcut conflicts with:",
+        "description": "Location: Browser. Shortcuts settings - Heading above commands sharing an active shortcut"
+    },
+    "this_shortcut_conflicts_with_a_macos_system": {
+        "message": "This shortcut conflicts with a macOS system shortcut and may not work in Phi.",
+        "description": "Location: Browser. Shortcuts settings - Fixed warning for a shortcut reserved by macOS; informational only, with no navigation action"
+    },
+    "this_shortcut_is_available_in_other_apps": {
+        "message": "This shortcut is available in other apps.",
+        "description": "Location: Browser. Navigations settings - Status shown after the global Kiosk shortcut is successfully registered"
+    },
+    "this_shortcut_is_not_supported_globally_with": {
+        "message": "This shortcut is not supported globally with the current keyboard layout. Choose another shortcut.",
+        "description": "Location: Browser. Navigations settings - Status shown when the assigned Kiosk shortcut cannot be registered with the current keyboard layout"
     },
     "this_site_isn_t_using_a_secure": {
         "message": "This site isn't using a secure connection and the file may have been tampered with",
@@ -7255,6 +7863,14 @@
         "message": "Toggle Sidebar",
         "description": "Location: Browser. Shortcuts settings - Command title for showing or hiding the sidebar"
     },
+    "toggle_tablet_mode": {
+        "message": "Toggle Tablet Mode",
+        "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
+    },
+    "toggle_tablet_mode_for_browser_debugging": {
+        "message": "Toggle tablet mode for browser debugging.",
+        "description": "Location: Browser. Shortcuts settings - Description of the tabletMode command"
+    },
     "token_verified_successfully": {
         "message": "Token verified successfully",
         "description": "Location: Browser. IM Channels - Custom bot verify success"
@@ -7290,10 +7906,6 @@
     "try_again_ba7845": {
         "message": "Try Again",
         "description": "Location: Browser. Guest migration - Button that retries migration for the journal-bound account"
-    },
-    "try_again_cd0a4c": {
-        "message": "Try Again",
-        "description": "Location: Browser. Folio library - Retries reading the library after an error"
     },
     "try_another_way": {
         "message": "Try another way",
@@ -7354,6 +7966,14 @@
     "undo": {
         "message": "Undo",
         "description": "Location: Browser. Folio - Undo button on the toast after an automatic site-action save; moves the just-saved files to the Trash"
+    },
+    "undo_2ca0be": {
+        "message": "Undo",
+        "description": "Location: Browser. Screenshot editor - Undo the last edit"
+    },
+    "undo_the_last_edit": {
+        "message": "Undo the last edit.",
+        "description": "Location: Browser. Shortcuts settings - Description of the undo command"
     },
     "ungroup": {
         "message": "Ungroup",
@@ -7563,9 +8183,21 @@
         "message": "URLs matching any rule will open in the selected destination, no matter where you click or type them.",
         "description": "Location: Browser. Subtitle of the universal URL rules editor"
     },
+    "use_a_modifier_key_letters_and_symbols": {
+        "message": "Use a modifier key. Letters and symbols require Command, Control, or Option.",
+        "description": "Location: Browser. Shortcuts settings - Recording rejected an unmodified key or a Shift-only printable key to preserve normal typing"
+    },
     "use_a_recovery_code": {
         "message": "Use a recovery code",
         "description": "Location: Browser. Switch from approval to recovery code"
+    },
+    "use_selection_for_find": {
+        "message": "Use Selection for Find",
+        "description": "Location: Browser. Shortcuts settings - Use selected text as the search text"
+    },
+    "use_the_selected_text_as_the_search": {
+        "message": "Use the selected text as the search text.",
+        "description": "Location: Browser. Shortcuts settings - Description of the useSelection command"
     },
     "using_telegram_to_send_and_receive_messages": {
         "message": "Using Telegram to send and receive messages with %@",
@@ -7615,14 +8247,6 @@
         "message": "Version %1$@ (%2$@)",
         "description": "Location: Browser. About window - App version and build number label"
     },
-    "video": {
-        "message": "Video",
-        "description": "Location: Browser. Folio library - Content type for a saved video summary"
-    },
-    "videos": {
-        "message": "Videos",
-        "description": "Location: Browser. Folio library - Filter showing saved video summaries"
-    },
     "view": {
         "message": "View",
         "description": "Location: Browser. Shortcuts settings - Section title for view commands"
@@ -7631,6 +8255,10 @@
         "message": "View and manage your browser memory",
         "description": "Location: Browser. AI settings - Row title to open browser memory management"
     },
+    "view_browser_tasks_and_their_resource_usage": {
+        "message": "View browser tasks and their resource usage.",
+        "description": "Location: Browser. Shortcuts settings - Description of the taskManager command"
+    },
     "view_details": {
         "message": "View Details",
         "description": "Location: Browser. Account settings - Button to view invitation code details"
@@ -7638,6 +8266,18 @@
     "view_page_source": {
         "message": "View Page Source",
         "description": "Location: Browser. Shortcuts settings - Command title for viewing the current page source"
+    },
+    "view_the_source_of_the_current_page": {
+        "message": "View the source of the current page.",
+        "description": "Location: Browser. Shortcuts settings - Description of the viewSource command"
+    },
+    "view_your_browsing_history": {
+        "message": "View your browsing history.",
+        "description": "Location: Browser. Shortcuts settings - Description of the history command"
+    },
+    "view_your_downloads": {
+        "message": "View your downloads.",
+        "description": "Location: Browser. Shortcuts settings - Description of the downloads command"
     },
     "volume_click_to_toggle_mute": {
         "message": "Volume (⌥-click to toggle mute)",
@@ -7743,6 +8383,10 @@
         "message": "What should I call you?",
         "description": "Location: Browser. Set name page - Title asking user for their preferred name"
     },
+    "width": {
+        "message": "Width",
+        "description": "Location: Browser. Screenshot editor - Stroke width in source image pixels"
+    },
     "will_be_deleted": {
         "message": "%@ will be deleted.",
         "description": "Location: Browser. Bookmark multi-selection delete confirmation body for bookmarks"
@@ -7819,10 +8463,6 @@
         "message": "Your answer is about “%@”. Pick a row above to answer about the process that launched it instead.",
         "description": "Location: Browser. CDP consent - hint under the process tree explaining that a row can be picked to retarget the answer; %@ is the asking agent's name"
     },
-    "your_collection_starts_here": {
-        "message": "Your collection starts here.",
-        "description": "Location: Browser. Folio library - Empty collection list placeholder"
-    },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Your current pinned tabs will be copied into each existing destination. The copies can then be changed independently.",
         "description": "Location: Browser. Spaces settings - confirmation body for narrowing pinned-tab scope"
@@ -7842,6 +8482,10 @@
     "your_deletion_request_has_been_submitted_you": {
         "message": "Your deletion request has been submitted. You will receive an email receipt once the deletion is complete.\n\nPhi will now sign you out, remove its data from this Mac, and quit.",
         "description": "Location: Browser. Account deletion - Text shown once the deletion request is queued server-side; the deletion itself has not finished yet, and the finalize confirmation comes next"
+    },
+    "your_edits_are_still_available_choose_another": {
+        "message": "Your edits are still available. Choose another location and try again.",
+        "description": "Location: Browser. Screenshot editor - Recovery advice after a failed file export"
     },
     "your_note": {
         "message": "Your note",
@@ -7903,6 +8547,10 @@
         "message": "Zoom in",
         "description": "Location: Browser. Image preview: accessibility label for zoom in control"
     },
+    "zoom_in_14fd": {
+        "message": "Zoom In",
+        "description": "Location: Browser. Screenshot editor - Increase preview magnification"
+    },
     "zoom_minus": {
         "message": "Zoom Minus",
         "description": "Location: Browser. Shortcuts settings - Command title for decreasing the page zoom level"
@@ -7914,6 +8562,10 @@
     "zoom_out": {
         "message": "Zoom out",
         "description": "Location: Browser. Image preview: accessibility label for zoom out control"
+    },
+    "zoom_out_37a7": {
+        "message": "Zoom Out",
+        "description": "Location: Browser. Screenshot editor - Reduce preview magnification"
     },
     "zoom_plus": {
         "message": "Zoom Plus",

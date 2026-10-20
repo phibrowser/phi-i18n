@@ -5,9 +5,6 @@
     "a_deletion_request_for_this_account_is": {
         "message": "此账号的删除请求已在处理中。删除完成后，你会收到一封确认邮件。\n\nPhi 现在会将你退出登录，移除它在这台 Mac 上的数据，然后退出。"
     },
-    "a_little_library_of_things_worth_keeping": {
-        "message": "一座小小的资料库，存放值得留下的东西。"
-    },
     "a_migration_is_already_running_try_again": {
         "message": "已有一个迁移正在进行。请等它完成后再试。"
     },
@@ -59,6 +56,9 @@
     "add": {
         "message": "添加"
     },
+    "add_a_new_tab_to_the_current": {
+        "message": "在当前标签页组中添加一个新标签页。"
+    },
     "add_all_as_new": {
         "message": "全部添加为新空间"
     },
@@ -76,6 +76,9 @@
     },
     "add_new": {
         "message": "添加快捷键"
+    },
+    "add_new_tab_to_group": {
+        "message": "将新标签页添加到标签页组"
     },
     "add_note": {
         "message": "添加笔记"
@@ -275,11 +278,14 @@
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "此个人资料中的所有 Cookie、历史记录、扩展程序和已保存的数据都将被永久移除。此操作无法撤销。"
     },
+    "all_custom_shortcuts_will_be_removed_and": {
+        "message": "所有自定义快捷键都将被移除并恢复为默认设置。此操作无法撤销。"
+    },
     "all_downloads": {
         "message": "所有下载"
     },
-    "all_items": {
-        "message": "所有项目"
+    "all_shortcuts": {
+        "message": "所有快捷键"
     },
     "all_sites": {
         "message": "所有网站"
@@ -325,6 +331,9 @@
     },
     "already_in_your_account": {
         "message": "已在你的账户中"
+    },
+    "also": {
+        "message": "也可用：%@"
     },
     "also_include_and_all_its_subdomains": {
         "message": "同时包括 %@ 及其所有子域名"
@@ -422,23 +431,23 @@
     "are_you_sure_you_want_to_quit": {
         "message": "确定要退出 Phi 吗？"
     },
+    "area_screenshot_copied": {
+        "message": "已拷贝区域截屏"
+    },
+    "arrow": {
+        "message": "箭头"
+    },
     "article": {
         "message": "文章"
-    },
-    "article_19d9b3": {
-        "message": "文章"
-    },
-    "articles": {
-        "message": "文章"
-    },
-    "articles_to_return_to_ideas_to_sit": {
-        "message": "想再读一遍的文章、想慢慢琢磨的想法、不愿丢失的段落。给它们一个属于自己的地方。"
     },
     "ask_every_time": {
         "message": "每次询问"
     },
     "assign": {
         "message": "分配"
+    },
+    "assign_a_new_kiosk_window_shortcut_in": {
+        "message": "请在「快捷键」中为「新建 Kiosk 窗口」指定一个快捷键。"
     },
     "assign_to": {
         "message": "分配给 %@"
@@ -557,8 +566,14 @@
     "blue": {
         "message": "蓝色"
     },
+    "blur": {
+        "message": "马赛克"
+    },
     "bookmark": {
         "message": "%d 个书签"
+    },
+    "bookmark_all_open_tabs": {
+        "message": "为所有打开的标签页添加书签。"
     },
     "bookmark_all_tabs": {
         "message": "为所有标签页添加书签…"
@@ -580,6 +595,9 @@
     },
     "bookmark_name_a30a7a": {
         "message": "书签名称"
+    },
+    "bookmark_the_current_page": {
+        "message": "为当前页面添加书签。"
     },
     "bookmark_this_tab": {
         "message": "为此标签页添加书签…"
@@ -637,6 +655,9 @@
     },
     "bot_token": {
         "message": "机器人令牌"
+    },
+    "bring_to_front": {
+        "message": "置于顶层"
     },
     "bring_your_spaces_bookmarks_pinned_tabs_and": {
         "message": "将你的空间、书签、固定标签页和受支持的浏览数据带到你的其他设备。保存恢复代码，然后选择这台 Mac 加入你账户的方式。"
@@ -719,6 +740,9 @@
     "cancel_272a6a": {
         "message": "取消"
     },
+    "cancel_2b384b": {
+        "message": "取消"
+    },
     "cancel_3d2cd0": {
         "message": "取消"
     },
@@ -749,10 +773,13 @@
     "cancel_7d73f2": {
         "message": "取消"
     },
+    "cancel_7e6b95": {
+        "message": "取消"
+    },
     "cancel_7e8473": {
         "message": "取消"
     },
-    "cancel_957ba8": {
+    "cancel_8f6d61": {
         "message": "取消"
     },
     "cancel_9b3e6c": {
@@ -842,6 +869,9 @@
     "cancelled": {
         "message": "已取消"
     },
+    "capture_area": {
+        "message": "捕捉区域…"
+    },
     "capture_full_page": {
         "message": "捕捉整个页面"
     },
@@ -905,6 +935,12 @@
     "change_space_icon": {
         "message": "更改空间图标"
     },
+    "change_style": {
+        "message": "更改样式"
+    },
+    "change_the_group_of_the_current_tab": {
+        "message": "更改当前标签页所属的标签页组。"
+    },
     "change_theme": {
         "message": "更改主题"
     },
@@ -925,6 +961,9 @@
     },
     "check_for_update_9e397e": {
         "message": "检查更新…"
+    },
+    "check_the_document_for_spelling_errors": {
+        "message": "检查文稿中的拼写错误。"
     },
     "check_the_rule_sets_to_use_done": {
         "message": "勾选要使用的规则集。点按“完成”会从发布方下载缺失的规则集；未经你确认，不会下载任何内容。自定义列表对全部三个开关生效。"
@@ -950,14 +989,17 @@
     "choose_a_download_location_for_this_profile": {
         "message": "为此个人资料选取下载位置。"
     },
+    "choose_a_file_to_open_in_phi": {
+        "message": "选择要在 Phi 中打开的文件。"
+    },
     "choose_a_name_address_and_folder_for": {
         "message": "为此书签选取名称、地址和文件夹。"
     },
     "choose_a_name_and_address_for_this": {
         "message": "为此固定标签页选取名称和地址。"
     },
-    "choose_an_item_from_your_collection_and": {
-        "message": "从你的收藏中选取一项，留出一方阅读的小天地。"
+    "choose_a_space_for_the_current_peek": {
+        "message": "为当前的 Peek 或 Kiosk 页面选择一个空间。"
     },
     "choose_and_download_rule_sets": {
         "message": "选择并下载规则集"
@@ -998,6 +1040,9 @@
     "choose_where_this_profile_s_saved_pages": {
         "message": "为此个人资料选取存储页面的位置。"
     },
+    "choose_which_browsing_data_to_clear": {
+        "message": "选择要清除的浏览数据。"
+    },
     "choose_which_profiles_agents_may_create_their": {
         "message": "选择智能体可以在哪些个人资料中创建自己的空间。关闭某个个人资料后，智能体将无法打开任何绑定到该个人资料的新空间；现有空间不受影响。"
     },
@@ -1028,11 +1073,11 @@
     "clear_search": {
         "message": "清除搜索"
     },
-    "clear_search_c9a806": {
-        "message": "清除搜索"
-    },
     "click": {
         "message": "点按 "
+    },
+    "click_the_shortcut_to_record_a_new": {
+        "message": "点按快捷键以录制新的组合键。"
     },
     "click_the_title_for_overview_click_the": {
         "message": "点按标题查看概览。点按箭头展开或折叠。"
@@ -1057,6 +1102,9 @@
     },
     "close_9f9dbb": {
         "message": "关闭"
+    },
+    "close_all_phi_windows": {
+        "message": "关闭所有 Phi 窗口。"
     },
     "close_b52252": {
         "message": "关闭"
@@ -1103,11 +1151,35 @@
     "close_tab_f52cc8": {
         "message": "关闭标签页"
     },
+    "close_tab_group": {
+        "message": "关闭标签页组"
+    },
     "close_tabs": {
         "message": "关闭标签页"
     },
+    "close_tabs_to_the_right_of_the": {
+        "message": "关闭当前标签页右侧的标签页。"
+    },
+    "close_the_current_tab": {
+        "message": "关闭当前标签页。"
+    },
+    "close_the_current_tab_group": {
+        "message": "关闭当前标签页组。"
+    },
+    "close_the_current_window": {
+        "message": "关闭当前窗口。"
+    },
+    "close_the_other_tabs_in_the_current": {
+        "message": "关闭当前窗口中的其他标签页。"
+    },
     "close_window": {
         "message": "关闭窗口"
+    },
+    "close_without_saving": {
+        "message": "不存储并关闭"
+    },
+    "close_without_saving_your_edits": {
+        "message": "是否要关闭而不存储编辑内容？"
     },
     "collapse_group": {
         "message": "折叠标签页组"
@@ -1117,9 +1189,6 @@
     },
     "collect_site_memories": {
         "message": "收集网站记忆"
-    },
-    "collection": {
-        "message": "收藏"
     },
     "color": {
         "message": "颜色"
@@ -1165,6 +1234,9 @@
     },
     "confirm_your_recovery_code": {
         "message": "确认你的恢复代码"
+    },
+    "conflicting_shortcuts": {
+        "message": "冲突的快捷键"
     },
     "conflicts_with": {
         "message": "与 %@ 冲突"
@@ -1304,6 +1376,12 @@
     "copy_right_url_970e63": {
         "message": "拷贝右侧网址"
     },
+    "copy_the_current_page_s_url_to": {
+        "message": "将当前页面的网址拷贝到剪贴板。"
+    },
+    "copy_the_selection_to_the_clipboard": {
+        "message": "将所选内容拷贝到剪贴板。"
+    },
     "copy_top_url": {
         "message": "拷贝顶部网址"
     },
@@ -1436,9 +1514,6 @@
     "couldn_t_read_data_on_this_mac": {
         "message": "无法读取这台 Mac 上的数据"
     },
-    "couldn_t_read_your_folio": {
-        "message": "无法读取你的 Folio"
-    },
     "couldn_t_rename_profile": {
         "message": "无法重命名个人资料"
     },
@@ -1466,11 +1541,23 @@
     "create": {
         "message": "创建"
     },
+    "create_a_copy_of_the_current_tab": {
+        "message": "创建当前标签页的副本。"
+    },
     "create_a_new_folder_to_organize_your": {
         "message": "创建一个新文件夹来整理你的书签。"
     },
+    "create_a_new_incognito_space": {
+        "message": "新建一个无痕空间。"
+    },
+    "create_a_new_tab_group": {
+        "message": "新建一个标签页组。"
+    },
     "create_a_space": {
         "message": "创建空间"
+    },
+    "create_new_tab_group": {
+        "message": "新建标签页组"
     },
     "create_on_this_mac": {
         "message": "在这台 Mac 上创建"
@@ -1490,6 +1577,9 @@
     "credential_request_from": {
         "message": "来自「%@」的凭据请求"
     },
+    "crop": {
+        "message": "裁剪"
+    },
     "current": {
         "message": "当前"
     },
@@ -1499,6 +1589,9 @@
     "custom": {
         "message": "自定义"
     },
+    "custom_color": {
+        "message": "自定颜色"
+    },
     "custom_filter": {
         "message": "自定义过滤器"
     },
@@ -1507,6 +1600,12 @@
     },
     "custom_telegram_bot": {
         "message": "自定义 Telegram 机器人"
+    },
+    "customized_shortcuts": {
+        "message": "已自定义的快捷键"
+    },
+    "cut_the_selection_to_the_clipboard": {
+        "message": "将所选内容剪切到剪贴板。"
     },
     "cyan": {
         "message": "青色"
@@ -1522,6 +1621,9 @@
     },
     "days_ago": {
         "message": "%d 天前"
+    },
+    "decrease_the_zoom_level_of_the_current": {
+        "message": "降低当前页面的缩放级别。"
     },
     "default": {
         "message": "默认"
@@ -1564,6 +1666,9 @@
     },
     "delete_backup": {
         "message": "删除备份"
+    },
+    "delete_bc7b23": {
+        "message": "删除"
     },
     "delete_bookmark": {
         "message": "要删除 %d 个书签吗？"
@@ -1706,7 +1811,13 @@
     "dismiss_094028": {
         "message": "忽略"
     },
+    "dismiss_8fe66a": {
+        "message": "忽略"
+    },
     "dismiss_cb343b": {
+        "message": "忽略"
+    },
+    "dismiss_d97b3f": {
         "message": "忽略"
     },
     "dismiss_media_player": {
@@ -1790,8 +1901,17 @@
     "drag_tabs_here_or_pin_them_from": {
         "message": "将标签页拖到这里，或从标签页列表中固定"
     },
+    "drag_to_move_the_toolbar": {
+        "message": "拖移以移动工具栏"
+    },
     "drag_to_reorder_space": {
         "message": "拖移以调整空间顺序"
+    },
+    "drag_to_select_an_area": {
+        "message": "拖移以选择区域"
+    },
+    "drag_to_select_scroll_or_drag_to": {
+        "message": "拖移以选择 · 滚动或拖移到边缘可扩展选区 · 按 Esc 键取消"
     },
     "duplicate": {
         "message": "复制"
@@ -1841,6 +1961,9 @@
     "edit_7e9a": {
         "message": "编辑"
     },
+    "edit_annotation": {
+        "message": "编辑标注"
+    },
     "edit_bookmark": {
         "message": "编辑书签"
     },
@@ -1862,8 +1985,14 @@
     "edit_pinned_tab": {
         "message": "编辑固定标签页"
     },
+    "edit_screenshot": {
+        "message": "编辑截屏"
+    },
     "edit_split_bookmark": {
         "message": "编辑分屏书签"
+    },
+    "edit_text": {
+        "message": "编辑文本"
     },
     "edit_the_name_and_address_for_this": {
         "message": "编辑此书签的名称和地址。"
@@ -1888,6 +2017,9 @@
     },
     "edit_theme_f7ce4c": {
         "message": "编辑主题"
+    },
+    "ellipse": {
+        "message": "椭圆"
     },
     "email_address": {
         "message": "电子邮件地址"
@@ -1958,6 +2090,9 @@
     "enter_at_least_one_filter_rule": {
         "message": "请至少输入一条过滤规则。"
     },
+    "enter_or_leave_full_screen": {
+        "message": "进入或退出全屏幕。"
+    },
     "enter_the_6_digit_code_sent_to": {
         "message": "输入发送到 %@ 的 6 位验证码。"
     },
@@ -1978,6 +2113,9 @@
     },
     "error": {
         "message": "错误"
+    },
+    "escape_shortcuts_require_command_or_control": {
+        "message": "Escape 快捷键需要搭配 Command 或 Control 键。"
     },
     "every_agent_is_allowed_so_none_is": {
         "message": "已允许所有智能体，因此无需单独批准任何智能体。"
@@ -2021,6 +2159,9 @@
     "export": {
         "message": "导出"
     },
+    "export_0a78d0": {
+        "message": "导出…"
+    },
     "export_account_data": {
         "message": "导出账号数据"
     },
@@ -2041,6 +2182,9 @@
     },
     "export_logs_a846d2": {
         "message": "导出日志"
+    },
+    "export_the_screenshot_as_jpg_or_pdf": {
+        "message": "将截屏导出为 JPG 或 PDF 即可保留你的编辑内容。"
     },
     "export_user_data": {
         "message": "导出用户数据…"
@@ -2120,8 +2264,14 @@
     "file": {
         "message": "文件"
     },
+    "fill": {
+        "message": "填充"
+    },
     "filter_rules": {
         "message": "过滤规则"
+    },
+    "filter_shortcuts": {
+        "message": "筛选快捷键"
     },
     "filtering_is_running_with_the_last_good": {
         "message": "过滤正在使用上次有效的规则运行"
@@ -2137,6 +2287,9 @@
     },
     "find_shortcut_keys": {
         "message": "查找快捷键"
+    },
+    "find_text_on_the_current_page": {
+        "message": "在当前页面中查找文本。"
     },
     "finish": {
         "message": "完成"
@@ -2159,11 +2312,35 @@
     "finish_signing_out_in_your_browser": {
         "message": "请在浏览器中完成退出登录。"
     },
+    "fit": {
+        "message": "缩放以适合"
+    },
     "fixes_and_rules_maintained_by_phi_keep": {
         "message": "由 Phi 维护的修复和规则。除非网站出现异常，否则请保持开启。"
     },
     "focus_address_bar": {
         "message": "聚焦地址栏"
+    },
+    "focus_next_pane": {
+        "message": "聚焦下一个窗格"
+    },
+    "focus_next_tab_group": {
+        "message": "聚焦下一个标签页组"
+    },
+    "focus_open_popup": {
+        "message": "聚焦已打开的弹出式窗口"
+    },
+    "focus_previous_pane": {
+        "message": "聚焦上一个窗格"
+    },
+    "focus_previous_tab_group": {
+        "message": "聚焦上一个标签页组"
+    },
+    "focus_the_address_bar_to_enter_a": {
+        "message": "聚焦地址栏以输入网址或进行搜索。"
+    },
+    "focus_the_address_bar_to_search_the": {
+        "message": "聚焦地址栏以搜索网页。"
     },
     "folder": {
         "message": "文件夹"
@@ -2417,6 +2594,12 @@
     "for_web_development_while_an_agent_operates": {
         "message": "供网页开发使用。当智能体操作页面时，Phi 不再为页面重新着色，会将操作遮罩变为透明，并将「接管」栏最小化。在你接管之前，页面仍会忽略你的输入。立即生效。"
     },
+    "force_reload_page": {
+        "message": "强制重新加载页面"
+    },
+    "format": {
+        "message": "格式"
+    },
     "forward": {
         "message": "前进"
     },
@@ -2425,6 +2608,9 @@
     },
     "forward_e876ba": {
         "message": "前进"
+    },
+    "freehand": {
+        "message": "画笔"
     },
     "from": {
         "message": "来自 %@"
@@ -2471,8 +2657,17 @@
     "go_to": {
         "message": "前往 %@"
     },
+    "go_to_7113ff": {
+        "message": "前往 %@"
+    },
     "go_to_space": {
         "message": "前往空间「%@」"
+    },
+    "go_to_the_next_page_in_this": {
+        "message": "前往此标签页历史记录中的下一页。"
+    },
+    "go_to_the_previous_page_in_this": {
+        "message": "前往此标签页历史记录中的上一页。"
     },
     "granted": {
         "message": "授权于 %@"
@@ -2510,6 +2705,12 @@
     "hide": {
         "message": "隐藏"
     },
+    "hide_other_applications": {
+        "message": "隐藏其他 App。"
+    },
+    "hide_phi_and_its_windows": {
+        "message": "隐藏 Phi 及其窗口。"
+    },
     "hide_sidebar": {
         "message": "隐藏侧边栏"
     },
@@ -2521,9 +2722,6 @@
     },
     "highlight_saved": {
         "message": "已存储突出显示的内容"
-    },
-    "highlights": {
-        "message": "突出显示的内容"
     },
     "history": {
         "message": "历史记录"
@@ -2602,6 +2800,9 @@
     },
     "import": {
         "message": "导入…"
+    },
+    "import_bookmarks_and_settings_from_another_browser": {
+        "message": "从其他浏览器导入书签和设置。"
     },
     "import_completed_successfully": {
         "message": "导入已成功完成"
@@ -2687,11 +2888,17 @@
     "incognito_f5b3ca": {
         "message": "无痕"
     },
+    "increase_the_zoom_level_of_the_current": {
+        "message": "提高当前页面的缩放级别。"
+    },
     "initial_sync_in_progress": {
         "message": "正在进行首次同步"
     },
     "insecure_download_blocked": {
         "message": "已拦截不安全的下载"
+    },
+    "inspect_an_element_on_the_current_page": {
+        "message": "检查当前页面上的某个元素。"
     },
     "install": {
         "message": "安装"
@@ -2735,8 +2942,17 @@
     "iris": {
         "message": "鸢尾色"
     },
+    "is_used_by_reassigning_removes_only_this": {
+        "message": "%@ 已被 %@ 使用。重新分配仅会从这些命令中移除此快捷键。它们的其他快捷键仍然有效。"
+    },
+    "is_used_by_these_shortcuts_cannot_be": {
+        "message": "%@ 已被 %@ 使用。这些快捷键无法在此处更改。请选择其他按键。"
+    },
     "items": {
         "message": "%d 个项目"
+    },
+    "jump_to_selection": {
+        "message": "跳到所选内容"
     },
     "just_now": {
         "message": "刚刚"
@@ -2750,8 +2966,8 @@
     "keep_3a0464": {
         "message": "保留"
     },
-    "keep_what_stays_with_you": {
-        "message": "把留在心里的，留在身边。"
+    "keep_editing": {
+        "message": "继续编辑"
     },
     "kiosk": {
         "message": "Kiosk"
@@ -2764,9 +2980,6 @@
     },
     "language": {
         "message": "语言"
-    },
-    "larger_text": {
-        "message": "放大文字"
     },
     "last_problem": {
         "message": "上次问题：%1$@（%2$@）"
@@ -2797,9 +3010,6 @@
     },
     "layout_selection": {
         "message": "布局选择"
-    },
-    "least_recently_updated_first": {
-        "message": "最早更新在前"
     },
     "leave_empty_to_use_the_auto_generated": {
         "message": "留空则使用自动生成的名称。"
@@ -2921,6 +3131,9 @@
     "manage_extensions_52d065": {
         "message": "管理扩展程序"
     },
+    "manage_installed_browser_extensions": {
+        "message": "管理已安装的浏览器扩展程序。"
+    },
     "manage_site_memories": {
         "message": "管理网站记忆"
     },
@@ -2984,6 +3197,9 @@
     "minimise": {
         "message": "收起"
     },
+    "minimize_the_current_window": {
+        "message": "将当前窗口最小化。"
+    },
     "mint": {
         "message": "薄荷绿"
     },
@@ -3002,11 +3218,41 @@
     "more_spaces": {
         "message": "更多空间"
     },
+    "move": {
+        "message": "移动"
+    },
+    "move_focus_to_an_open_popup": {
+        "message": "将焦点移到已打开的弹出式窗口。"
+    },
+    "move_focus_to_the_next_browser_pane": {
+        "message": "将焦点移到下一个浏览器窗格。"
+    },
+    "move_focus_to_the_next_tab_group": {
+        "message": "将焦点移到下一个标签页组。"
+    },
+    "move_focus_to_the_previous_browser_pane": {
+        "message": "将焦点移到上一个浏览器窗格。"
+    },
+    "move_focus_to_the_previous_tab_group": {
+        "message": "将焦点移到上一个标签页组。"
+    },
+    "move_tab_left": {
+        "message": "向左移动标签页"
+    },
+    "move_tab_right": {
+        "message": "向右移动标签页"
+    },
     "move_tabs_to_group": {
         "message": "将标签页移到标签组"
     },
-    "move_this_item_to_trash": {
-        "message": "要将此项目移到废纸篓吗？"
+    "move_the_current_tab_one_position_to": {
+        "message": "将当前标签页向左移动一个位置。"
+    },
+    "move_the_current_tab_one_position_to_f3f777": {
+        "message": "将当前标签页向右移动一个位置。"
+    },
+    "move_the_current_tab_to_a_new": {
+        "message": "将当前标签页移到新窗口。"
     },
     "move_to_group": {
         "message": "移到标签组"
@@ -3026,11 +3272,17 @@
     "move_to_space_90b3a5": {
         "message": "移到空间"
     },
-    "move_to_trash": {
-        "message": "移到废纸篓"
+    "move_to_the_next_matching_text_on": {
+        "message": "移到页面上的下一个匹配文本。"
+    },
+    "move_to_the_previous_matching_text_on": {
+        "message": "移到页面上的上一个匹配文本。"
     },
     "mute": {
         "message": "静音"
+    },
+    "mute_or_unmute_audio_from_the_current": {
+        "message": "将当前网站的音频静音或取消静音。"
     },
     "mute_site": {
         "message": "将网站静音"
@@ -3359,12 +3611,6 @@
     "no_file_selected": {
         "message": "未选择文件"
     },
-    "no_highlights_yet_highlight_a_passage_on": {
-        "message": "还没有突出显示的内容。在原始页面上突出显示一段文字，即可保留在这里。"
-    },
-    "no_items_match_this_view": {
-        "message": "没有与此视图匹配的项目。"
-    },
     "no_matching_bookmarks": {
         "message": "未找到匹配的书签"
     },
@@ -3590,9 +3836,6 @@
     "on_an_authorized_device_open_settings_sync": {
         "message": "在已授权的设备上，打开设置 → 同步，然后批准此请求。请确保此代码一致："
     },
-    "on_any_webpage_choose_file_save_to": {
-        "message": "在任意网页上，选取「文件」→「存储到 Folio」"
-    },
     "on_browser_restart": {
         "message": "浏览器重启时"
     },
@@ -3617,6 +3860,24 @@
     "open_a_browser_window_for_the_selected": {
         "message": "请为所选个人资料打开一个浏览器窗口以继续。"
     },
+    "open_a_new_browser_window": {
+        "message": "打开一个新的浏览器窗口。"
+    },
+    "open_a_new_incognito_window": {
+        "message": "打开一个新的无痕式窗口。"
+    },
+    "open_a_new_kiosk_window": {
+        "message": "打开一个新的 Kiosk 窗口。"
+    },
+    "open_a_new_tab": {
+        "message": "打开一个新标签页。"
+    },
+    "open_a_new_tab_to_the_right": {
+        "message": "在当前标签页右侧打开一个新标签页。"
+    },
+    "open_a_tab_in_split_view": {
+        "message": "以分屏打开标签页。"
+    },
     "open_as_split": {
         "message": "以分屏打开"
     },
@@ -3632,11 +3893,20 @@
     "open_as_tab": {
         "message": "以标签页打开"
     },
+    "open_browser_help": {
+        "message": "打开浏览器帮助。"
+    },
+    "open_developer_tools_for_the_current_page": {
+        "message": "打开当前页面的开发者工具。"
+    },
     "open_devtools": {
         "message": "打开开发者工具"
     },
     "open_external_links_in_kiosk": {
         "message": "在 Kiosk 中打开外部链接"
+    },
+    "open_file": {
+        "message": "打开文件…"
     },
     "open_folio": {
         "message": "打开 Folio"
@@ -3668,14 +3938,20 @@
     "open_links_in_a_lightweight_window_one": {
         "message": "在轻量窗口中打开链接，一次一个页面。"
     },
-    "open_original": {
-        "message": "打开原始页面"
+    "open_or_close_reader_for_the_current": {
+        "message": "打开或关闭当前页面的阅读模式。"
+    },
+    "open_phi_settings": {
+        "message": "打开 Phi 设置。"
     },
     "open_picture_in_picture": {
         "message": "进入画中画"
     },
-    "open_saved_webpage": {
-        "message": "打开存储的网页"
+    "open_print_options_for_the_current_page": {
+        "message": "打开当前页面的打印选项。"
+    },
+    "open_reading_mode_for_the_current_page": {
+        "message": "打开当前页面的阅读模式。"
     },
     "open_settings": {
         "message": "打开设置"
@@ -3689,6 +3965,24 @@
     "open_tabs": {
         "message": "打开的标签页"
     },
+    "open_the_bookmark_manager": {
+        "message": "打开书签管理器。"
+    },
+    "open_the_current_peek_or_kiosk_page": {
+        "message": "在空间中打开当前的 Peek 或 Kiosk 页面。"
+    },
+    "open_the_feedback_page": {
+        "message": "打开反馈页面。"
+    },
+    "open_the_home_page": {
+        "message": "打开主页。"
+    },
+    "open_the_javascript_console_for_the_current": {
+        "message": "打开当前页面的 JavaScript 控制台。"
+    },
+    "open_the_profiles_menu": {
+        "message": "打开个人资料菜单。"
+    },
     "open_the_url_rules_editor": {
         "message": "打开 URL 规则编辑器"
     },
@@ -3701,11 +3995,23 @@
     "organize_tabs_with_ai": {
         "message": "用 AI 整理标签页"
     },
+    "organize_tabs_with_ai_413fc6": {
+        "message": "用 AI 整理标签页。"
+    },
     "organize_tabs_with_ai_6111": {
         "message": "用 AI 整理标签页"
     },
     "organize_tabs_with_ai_e4d5d3": {
         "message": "用 AI 整理标签页"
+    },
+    "other": {
+        "message": "其他"
+    },
+    "other_active_shortcuts_read_only": {
+        "message": "其他已启用的快捷键（只读）"
+    },
+    "other_browser_commands": {
+        "message": "其他浏览器命令"
     },
     "pairing_isn_t_available_right_now": {
         "message": "目前无法配对。"
@@ -3718,6 +4024,15 @@
     },
     "passwords_manager": {
         "message": "密码管理器"
+    },
+    "paste": {
+        "message": "粘贴"
+    },
+    "paste_text_using_the_surrounding_formatting": {
+        "message": "粘贴文本并匹配周围的格式。"
+    },
+    "paste_the_clipboard_contents": {
+        "message": "粘贴剪贴板中的内容。"
     },
     "pause": {
         "message": "暂停"
@@ -3860,6 +4175,9 @@
     "pin_extension": {
         "message": "固定扩展程序"
     },
+    "pin_or_unpin_the_current_tab": {
+        "message": "固定或取消固定当前标签页。"
+    },
     "pin_split": {
         "message": "固定分屏"
     },
@@ -3938,6 +4256,9 @@
     "preparing_time_machine_restore": {
         "message": "正在准备时间机器恢复"
     },
+    "press_escape_to_cancel_or_delete_to": {
+        "message": "按 Escape 键取消，或按 Delete 键移除该快捷键。"
+    },
     "press_shortcut": {
         "message": "请按下快捷键…"
     },
@@ -3961,6 +4282,21 @@
     },
     "print": {
         "message": "打印…"
+    },
+    "print_the_browser_view_hierarchy_for_debugging": {
+        "message": "打印浏览器视图层级以便调试。"
+    },
+    "print_the_current_page_using_the_system": {
+        "message": "使用系统对话框打印当前页面。"
+    },
+    "print_the_detailed_browser_view_hierarchy_for": {
+        "message": "打印详细的浏览器视图层级以便调试。"
+    },
+    "print_view_tree": {
+        "message": "打印视图层级"
+    },
+    "print_view_tree_details": {
+        "message": "打印视图层级详情"
     },
     "privacy": {
         "message": "隐私政策"
@@ -4031,6 +4367,12 @@
     "quit": {
         "message": "退出"
     },
+    "quit_phi": {
+        "message": "退出 Phi"
+    },
+    "quit_phi_8a937a": {
+        "message": "退出 Phi。"
+    },
     "reader_view": {
         "message": "阅读模式"
     },
@@ -4046,11 +4388,8 @@
     "reader_view_is_unavailable_on_this_page": {
         "message": "无法在此网页使用阅读模式"
     },
-    "reading_mode": {
-        "message": "阅读模式"
-    },
-    "reading_options_and_actions": {
-        "message": "阅读选项与操作"
+    "reassign": {
+        "message": "重新分配"
     },
     "reauthenticate": {
         "message": "重新验证身份"
@@ -4064,9 +4403,6 @@
     "recently_closed": {
         "message": "最近关闭"
     },
-    "recently_updated_first": {
-        "message": "最近更新在前"
-    },
     "recommended": {
         "message": "推荐"
     },
@@ -4076,8 +4412,17 @@
     "recovery_code": {
         "message": "恢复代码"
     },
+    "rectangle": {
+        "message": "矩形"
+    },
     "red": {
         "message": "红色"
+    },
+    "redo": {
+        "message": "重做"
+    },
+    "redo_the_last_undone_edit": {
+        "message": "重做上一次撤销的编辑。"
     },
     "refresh": {
         "message": "刷新"
@@ -4087,9 +4432,6 @@
     },
     "refresh_connector_status": {
         "message": "刷新连接器状态"
-    },
-    "refresh_library": {
-        "message": "刷新资料库"
     },
     "refused_without_asking": {
         "message": "不询问直接拒绝"
@@ -4105,6 +4447,12 @@
     },
     "reload_page": {
         "message": "重新加载页面"
+    },
+    "reload_the_current_page": {
+        "message": "重新加载当前页面。"
+    },
+    "reload_the_current_page_without_using_cached": {
+        "message": "不使用缓存内容重新加载当前页面。"
     },
     "remember_email": {
         "message": "记住邮箱"
@@ -4220,6 +4568,9 @@
     "reopen_closed_tab_de7200": {
         "message": "重新打开关闭的标签页"
     },
+    "reopen_the_most_recently_closed_tab": {
+        "message": "重新打开最近关闭的标签页。"
+    },
     "reopen_your_windows_and_tabs_the_next": {
         "message": "下次打开 Phi 时重新打开你的窗口和标签页。"
     },
@@ -4259,6 +4610,12 @@
     "resend_code_cbc823": {
         "message": "重新发送验证码（%d 秒）"
     },
+    "reserved_browser_shortcut": {
+        "message": "浏览器保留的快捷键"
+    },
+    "reset_the_current_page_to_its_default": {
+        "message": "将当前页面恢复为默认缩放级别。"
+    },
     "resolve": {
         "message": "解决"
     },
@@ -4280,8 +4637,14 @@
     "restore_4c2571": {
         "message": "恢复默认"
     },
+    "restore_all": {
+        "message": "全部恢复"
+    },
     "restore_all_shortcuts": {
         "message": "恢复所有快捷键"
+    },
+    "restore_all_shortcuts_23ac": {
+        "message": "要恢复所有快捷键吗？"
     },
     "restore_last_session": {
         "message": "恢复上次会话"
@@ -4293,6 +4656,9 @@
         "message": "继续"
     },
     "retry": {
+        "message": "重试"
+    },
+    "retry_05770d": {
         "message": "重试"
     },
     "retry_39f08b": {
@@ -4406,6 +4772,12 @@
     "save_pages_to": {
         "message": "将页面存储到"
     },
+    "save_the_current_page_for_later": {
+        "message": "存储当前页面以供稍后阅读。"
+    },
+    "save_the_current_page_to_a_file": {
+        "message": "将当前页面存储为文件。"
+    },
     "save_to_folio": {
         "message": "存储到 Folio"
     },
@@ -4421,14 +4793,14 @@
     "save_your_recovery_code_first": {
         "message": "请先保存你的恢复代码"
     },
-    "saved": {
-        "message": "存储于"
-    },
     "saved_memories_for_will_be_deleted_from": {
         "message": "为 %@ 存储的记忆将从此浏览器个人资料中删除。此操作无法撤销。"
     },
     "saved_only_what_had_loaded": {
         "message": "仅存储了已加载的内容"
+    },
+    "saved_shortcuts_could_not_be_read_retry": {
+        "message": "无法读取已存储的快捷键。请重试，或恢复所有快捷键以保留一份恢复副本并使用默认设置。"
     },
     "saved_to_folio": {
         "message": "已存储到 Folio"
@@ -4457,6 +4829,9 @@
     "screenshot_timed_out_please_try_again": {
         "message": "截屏超时。请重试。"
     },
+    "scroll_to_the_selected_text": {
+        "message": "滚动到所选文本。"
+    },
     "search": {
         "message": "搜索"
     },
@@ -4472,6 +4847,9 @@
     "search_ac220a": {
         "message": "搜索…"
     },
+    "search_by_name_or_keys_such_as": {
+        "message": "按名称或按键搜索，例如 cmd ctrl S 或 ⌘⌃S。"
+    },
     "search_downloads": {
         "message": "搜索下载内容"
     },
@@ -4486,6 +4864,9 @@
     },
     "search_mk_3074": {
         "message": "搜索 %@"
+    },
+    "search_open_tabs": {
+        "message": "搜索打开的标签页。"
     },
     "search_or_enter_url": {
         "message": "搜索或输入网址"
@@ -4511,14 +4892,20 @@
     "search_the_web": {
         "message": "搜索网页…"
     },
-    "search_your_library": {
-        "message": "搜索你的资料库"
+    "select": {
+        "message": "选择"
     },
     "select_a_profile_to_view_its_settings": {
         "message": "选择一个个人资料以查看其设置。"
     },
+    "select_a_shortcut_to_view_its_details": {
+        "message": "选择一个快捷键以查看其详细信息。"
+    },
     "select_a_space_to_view_its_settings": {
         "message": "选择一个空间以查看其设置。"
+    },
+    "select_all_content_in_the_focused_area": {
+        "message": "选择聚焦区域中的所有内容。"
     },
     "select_at_least_one_category_to_back": {
         "message": "请至少选择一个要备份的类别。"
@@ -4538,6 +4925,15 @@
     "select_tab": {
         "message": "选择第 %d 个标签页"
     },
+    "select_the_last_tab": {
+        "message": "选择最后一个标签页。"
+    },
+    "select_the_next_tab": {
+        "message": "选择下一个标签页。"
+    },
+    "select_the_previous_tab": {
+        "message": "选择上一个标签页。"
+    },
     "self_hosted": {
         "message": "自托管"
     },
@@ -4555,6 +4951,9 @@
     },
     "send_feedback_to_phi": {
         "message": "向 Phi 发送反馈"
+    },
+    "send_to_back": {
+        "message": "置于底层"
     },
     "sending_a_verification_code_to": {
         "message": "正在向 %@ 发送验证码…"
@@ -4670,14 +5069,23 @@
     "share_page": {
         "message": "共享页面"
     },
+    "share_the_current_page": {
+        "message": "共享当前页面。"
+    },
     "shift_click_a_link_or_choose_open": {
         "message": "按住 Shift 点按链接，或选择「在 Peek 视图中打开链接」，即可在页面上方的浮动面板中预览。在「舒适」布局中不可用。"
+    },
+    "shortcut_already_in_use": {
+        "message": "快捷键已被占用"
     },
     "shortcuts": {
         "message": "快捷键"
     },
     "shortcuts_b6a37f": {
         "message": "快捷键"
+    },
+    "shortcuts_changed_while_you_were_reviewing_them": {
+        "message": "在你查看期间，快捷键已发生更改。请重新录制快捷键以查看当前的冲突。"
     },
     "shorten_links_to_selected_text": {
         "message": "缩短指向所选文本的链接"
@@ -4690,9 +5098,6 @@
     },
     "show_a_preview_card_when_hovering_over": {
         "message": "鼠标悬停在标签页上时显示预览卡片"
-    },
-    "show_all_items": {
-        "message": "显示所有项目"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "在新标签页上显示书签栏"
@@ -4715,9 +5120,6 @@
     "show_in_finder_8593df": {
         "message": "在访达中显示"
     },
-    "show_in_finder_bb73ef": {
-        "message": "在访达中显示"
-    },
     "show_in_folder": {
         "message": "在文件夹中显示"
     },
@@ -4733,17 +5135,38 @@
     "show_operated_pages_exactly_as_rendered": {
         "message": "按实际渲染效果显示被操作的页面"
     },
+    "show_or_hide_the_bookmarks_bar_only": {
+        "message": "显示或隐藏书签栏。仅在「舒适」布局下可用。"
+    },
+    "show_or_hide_the_chat_panel": {
+        "message": "显示或隐藏 Chatbar 对话面板。"
+    },
+    "show_or_hide_the_sidebar": {
+        "message": "显示或隐藏侧边栏。"
+    },
+    "show_or_hide_the_toolbar_in_full": {
+        "message": "在全屏幕下显示或隐藏工具栏。"
+    },
     "show_playing_tab": {
         "message": "显示正在播放的标签页"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "在新标签页上显示主动建议"
     },
+    "show_profiles_menu": {
+        "message": "显示个人资料菜单"
+    },
+    "show_reading_mode": {
+        "message": "显示阅读模式"
+    },
     "show_sidebar": {
         "message": "显示侧边栏"
     },
     "show_sidebar_media_player": {
         "message": "显示迷你播放程序"
+    },
+    "show_spelling_and_grammar_options": {
+        "message": "显示拼写和语法选项。"
     },
     "show_tab_switcher": {
         "message": "显示标签页切换器"
@@ -4753,6 +5176,12 @@
     },
     "show_the_agent_s_command_and_process": {
         "message": "显示智能体的命令与进程树"
+    },
+    "show_the_tab_switcher_and_move_backward": {
+        "message": "显示标签页切换器，并在最近使用的标签页中向后移动。"
+    },
+    "show_the_tab_switcher_and_move_forward": {
+        "message": "显示标签页切换器，并在最近使用的标签页中向前移动。"
     },
     "show_transcript": {
         "message": "显示会话记录"
@@ -4877,9 +5306,6 @@
     "skip_this_version": {
         "message": "跳过此版本"
     },
-    "smaller_text": {
-        "message": "缩小文字"
-    },
     "some_account_and_system_information_may_be": {
         "message": "部分账号和系统信息可能会发送给 Phinomenon。我们会使用你提供的信息来帮助解决技术问题并改进我们的服务，具体以我们的隐私政策和服务条款为准。"
     },
@@ -4910,14 +5336,8 @@
     "something_went_wrong_while_setting_up_the": {
         "message": "设置个人资料时出了点问题。"
     },
-    "something_worth_returning_to": {
-        "message": "有些内容，值得再回来看看。"
-    },
     "sorry_for_the_interruption_a_few_details": {
         "message": "很抱歉打断了你的使用。简单说说崩溃前发生了什么，可以帮助我们了解问题，让 Phi 更可靠。"
-    },
-    "sort_collection": {
-        "message": "对收藏排序"
     },
     "source": {
         "message": "来源"
@@ -4991,6 +5411,9 @@
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "长期批准可以随时在「设置」中查看和撤销。"
     },
+    "start_a_new_conversation_in_phi_chat": {
+        "message": "在 Phi Chat 中开始新对话。"
+    },
     "start_migration": {
         "message": "开始迁移"
     },
@@ -5006,11 +5429,11 @@
     "stop_022eb3": {
         "message": "停止"
     },
+    "stop_loading_the_current_page": {
+        "message": "停止加载当前页面。"
+    },
     "store_this_code_somewhere_safe_you_will": {
         "message": "请将此代码保存在安全的地方。将其他设备添加到你的账户时会需要它。"
-    },
-    "stored_on_your_mac": {
-        "message": "存储在你的 Mac 上"
     },
     "submit": {
         "message": "提交"
@@ -5029,6 +5452,18 @@
     },
     "switch_to_agent_space": {
         "message": "切换到智能体空间"
+    },
+    "switch_to_space_in_the_current_window": {
+        "message": "切换到当前窗口中的第 %d 个空间。"
+    },
+    "switch_to_tab_in_the_current_window": {
+        "message": "切换到当前窗口中的第 %d 个标签页。"
+    },
+    "switch_to_the_next_space": {
+        "message": "切换到下一个空间。"
+    },
+    "switch_to_the_previous_space": {
+        "message": "切换到上一个空间。"
     },
     "sync": {
         "message": "同步"
@@ -5138,6 +5573,12 @@
     "terms_of_service": {
         "message": "服务条款"
     },
+    "text": {
+        "message": "文本"
+    },
+    "text_size": {
+        "message": "文本大小"
+    },
     "that_code_has_expired_click_resend_code": {
         "message": "该验证码已过期。请点按「重新发送验证码」获取新的验证码。"
     },
@@ -5171,11 +5612,11 @@
     "the_archive_does_not_contain_a_top": {
         "message": "归档中不包含顶层的 Phi 文件夹。"
     },
-    "the_article_and_its_saved_webpage_copy": {
-        "message": "文章及其存储的网页副本将被移到废纸篓。你可以在访达中恢复它们。"
-    },
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "Bitwarden 浏览器扩展程序可以在网页上自动填充你密码库中的登录信息。Phi 现在可以从 Chrome 网上应用店安装它。"
+    },
+    "the_change_could_not_be_saved_your": {
+        "message": "无法存储此更改。你之前的快捷键仍然有效。请再次尝试此更改。"
     },
     "the_change_will_finish_in_the_background": {
         "message": "此更改将在后台完成。"
@@ -5194,6 +5635,9 @@
     },
     "the_folio_folder_could_not_be_read": {
         "message": "无法读取 Folio 文件夹。"
+    },
+    "the_global_shortcut_is_unavailable_choose_another": {
+        "message": "全局快捷键不可用。请选择其他快捷键，或将此设置关闭后再打开以重试。"
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "本地 IM 服务不可用。请检查 Phi Sentinel 是否正常启动，以及 IM 服务是否正在运行。"
@@ -5315,9 +5759,6 @@
     "this_is_the_last_device_on_the": {
         "message": "这是该账户中的最后一台设备，因此无法移除。请在此设备上完成配对（无法读取的个人资料不会造成阻碍），或先在另一台设备上设置同步，然后重试。"
     },
-    "this_item_has_no_article_text_you": {
-        "message": "此项目没有文章正文。你可以打开原始页面或其存储的网页副本。"
-    },
     "this_mac": {
         "message": "这台 Mac"
     },
@@ -5357,8 +5798,23 @@
     "this_request_timed_out_you_can_try": {
         "message": "此请求已超时。你可以重试。"
     },
+    "this_screenshot_is_too_large_to_edit": {
+        "message": "此截屏太大，无法编辑。你仍可以存储原始 PNG。"
+    },
     "this_session": {
         "message": "仅本次会话"
+    },
+    "this_shortcut_conflicts_with": {
+        "message": "此快捷键与以下命令冲突："
+    },
+    "this_shortcut_conflicts_with_a_macos_system": {
+        "message": "此快捷键与 macOS 系统快捷键冲突，可能无法在 Phi 中使用。"
+    },
+    "this_shortcut_is_available_in_other_apps": {
+        "message": "此快捷键可在其他 App 中使用。"
+    },
+    "this_shortcut_is_not_supported_globally_with": {
+        "message": "当前键盘布局不支持将此快捷键用作全局快捷键。请选择其他快捷键。"
     },
     "this_site_isn_t_using_a_secure": {
         "message": "此网站未使用安全连接，文件可能已被篡改"
@@ -5441,6 +5897,12 @@
     "toggle_sidebar_307510": {
         "message": "显示或隐藏侧边栏"
     },
+    "toggle_tablet_mode": {
+        "message": "切换平板模式"
+    },
+    "toggle_tablet_mode_for_browser_debugging": {
+        "message": "切换平板模式以便浏览器调试。"
+    },
     "token_verified_successfully": {
         "message": "令牌验证成功"
     },
@@ -5466,9 +5928,6 @@
         "message": "重试"
     },
     "try_again_ba7845": {
-        "message": "重试"
-    },
-    "try_again_cd0a4c": {
         "message": "重试"
     },
     "try_another_way": {
@@ -5515,6 +5974,12 @@
     },
     "undo": {
         "message": "撤销"
+    },
+    "undo_2ca0be": {
+        "message": "撤销"
+    },
+    "undo_the_last_edit": {
+        "message": "撤销上一次编辑。"
     },
     "ungroup": {
         "message": "取消分组"
@@ -5672,8 +6137,17 @@
     "urls_matching_any_rule_will_open_in": {
         "message": "匹配任一规则的网址都会在所选目标中打开，无论你在哪里点按或输入它们。"
     },
+    "use_a_modifier_key_letters_and_symbols": {
+        "message": "请使用修饰键。字母和符号需要搭配 Command、Control 或 Option 键。"
+    },
     "use_a_recovery_code": {
         "message": "使用恢复代码"
+    },
+    "use_selection_for_find": {
+        "message": "使用所选内容查找"
+    },
+    "use_the_selected_text_as_the_search": {
+        "message": "将所选文本用作搜索文本。"
     },
     "using_telegram_to_send_and_receive_messages": {
         "message": "通过 Telegram 与 %@ 收发消息"
@@ -5711,23 +6185,29 @@
     "version": {
         "message": "版本 %1$@（%2$@）"
     },
-    "video": {
-        "message": "视频"
-    },
-    "videos": {
-        "message": "视频"
-    },
     "view": {
         "message": "显示"
     },
     "view_and_manage_your_browser_memory": {
         "message": "查看和管理你的浏览器记忆"
     },
+    "view_browser_tasks_and_their_resource_usage": {
+        "message": "查看浏览器任务及其资源使用情况。"
+    },
     "view_details": {
         "message": "查看详情"
     },
     "view_page_source": {
         "message": "查看网页源代码"
+    },
+    "view_the_source_of_the_current_page": {
+        "message": "查看当前页面的源代码。"
+    },
+    "view_your_browsing_history": {
+        "message": "查看你的浏览历史记录。"
+    },
+    "view_your_downloads": {
+        "message": "查看你的下载内容。"
     },
     "volume_click_to_toggle_mute": {
         "message": "音量（按住 ⌥ 键点按可切换静音）"
@@ -5807,6 +6287,9 @@
     "what_should_i_call_you": {
         "message": "我该怎么称呼你？"
     },
+    "width": {
+        "message": "线宽"
+    },
     "will_be_deleted": {
         "message": "%@ 将被删除。"
     },
@@ -5864,9 +6347,6 @@
     "your_answer_is_about_pick_a_row": {
         "message": "你的回答对象是「%@」。也可在上方选择一行，将回答对象改为启动它的进程。"
     },
-    "your_collection_starts_here": {
-        "message": "你的收藏从这里开始。"
-    },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "你当前的固定标签页会被复制到每个现有的目标位置。之后可以分别独立更改这些副本。"
     },
@@ -5881,6 +6361,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "你的删除请求已提交。删除完成后，你会收到一封确认邮件。\n\nPhi 现在会将你退出登录，移除它在这台 Mac 上的数据，然后退出。"
+    },
+    "your_edits_are_still_available_choose_another": {
+        "message": "你的编辑内容仍然保留。请选择其他位置，然后重试。"
     },
     "your_note": {
         "message": "你的笔记"
@@ -5927,6 +6410,9 @@
     "zoom_in": {
         "message": "放大"
     },
+    "zoom_in_14fd": {
+        "message": "放大"
+    },
     "zoom_minus": {
         "message": "缩小"
     },
@@ -5934,6 +6420,9 @@
         "message": "实际大小"
     },
     "zoom_out": {
+        "message": "缩小"
+    },
+    "zoom_out_37a7": {
         "message": "缩小"
     },
     "zoom_plus": {

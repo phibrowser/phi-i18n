@@ -5,9 +5,6 @@
     "a_deletion_request_for_this_account_is": {
         "message": "此帳號的刪除要求已在處理中。刪除完成後，你會收到一封確認電子郵件。\n\nPhi 現在會將你登出、移除它在這部 Mac 上的資料，然後結束。"
     },
-    "a_little_library_of_things_worth_keeping": {
-        "message": "一座小小的收藏庫，存放值得留下的事物。"
-    },
     "a_migration_is_already_running_try_again": {
         "message": "已有一項移轉正在進行。請在移轉完成後再試一次。"
     },
@@ -59,6 +56,9 @@
     "add": {
         "message": "加入"
     },
+    "add_a_new_tab_to_the_current": {
+        "message": "在目前的分頁群組中新增分頁。"
+    },
     "add_all_as_new": {
         "message": "全部加入為新空間"
     },
@@ -76,6 +76,9 @@
     },
     "add_new": {
         "message": "新增"
+    },
+    "add_new_tab_to_group": {
+        "message": "在群組中新增分頁"
     },
     "add_note": {
         "message": "加入備註"
@@ -275,11 +278,14 @@
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "此設定檔中的所有 Cookie、歷史記錄、擴充功能與已儲存的資料都將永久移除。此操作無法復原。"
     },
+    "all_custom_shortcuts_will_be_removed_and": {
+        "message": "所有自訂快速鍵將被移除，並還原為預設值。此動作無法復原。"
+    },
     "all_downloads": {
         "message": "所有下載項目"
     },
-    "all_items": {
-        "message": "所有項目"
+    "all_shortcuts": {
+        "message": "所有快速鍵"
     },
     "all_sites": {
         "message": "所有網站"
@@ -325,6 +331,9 @@
     },
     "already_in_your_account": {
         "message": "已在你的帳號中"
+    },
+    "also": {
+        "message": "也可使用：%@"
     },
     "also_include_and_all_its_subdomains": {
         "message": "同時包含 %@ 及其所有子網域"
@@ -422,23 +431,23 @@
     "are_you_sure_you_want_to_quit": {
         "message": "確定要結束 Phi 嗎？"
     },
+    "area_screenshot_copied": {
+        "message": "已複製區域截圖"
+    },
+    "arrow": {
+        "message": "箭頭"
+    },
     "article": {
         "message": "文章"
-    },
-    "article_19d9b3": {
-        "message": "文章"
-    },
-    "articles": {
-        "message": "文章"
-    },
-    "articles_to_return_to_ideas_to_sit": {
-        "message": "想再回頭讀的文章、值得細細思量的想法，還有不想弄丟的段落。給它們一個專屬的地方。"
     },
     "ask_every_time": {
         "message": "每次都詢問"
     },
     "assign": {
         "message": "指派"
+    },
+    "assign_a_new_kiosk_window_shortcut_in": {
+        "message": "請在「快速鍵」中指定「新增 Kiosk 視窗」的快速鍵。"
     },
     "assign_to": {
         "message": "指派給 %@"
@@ -557,8 +566,14 @@
     "blue": {
         "message": "藍色"
     },
+    "blur": {
+        "message": "馬賽克"
+    },
     "bookmark": {
         "message": "%d 個書籤"
+    },
+    "bookmark_all_open_tabs": {
+        "message": "將所有已開啟的分頁加入書籤。"
     },
     "bookmark_all_tabs": {
         "message": "將所有分頁加入書籤…"
@@ -580,6 +595,9 @@
     },
     "bookmark_name_a30a7a": {
         "message": "書籤名稱"
+    },
+    "bookmark_the_current_page": {
+        "message": "將目前頁面加入書籤。"
     },
     "bookmark_this_tab": {
         "message": "將此分頁加入書籤…"
@@ -637,6 +655,9 @@
     },
     "bot_token": {
         "message": "Bot Token"
+    },
+    "bring_to_front": {
+        "message": "移至最前"
     },
     "bring_your_spaces_bookmarks_pinned_tabs_and": {
         "message": "將你的空間、書籤、釘選分頁和支援的瀏覽資料帶到你的其他裝置。先儲存復原代碼，再選擇這部 Mac 加入帳號的方式。"
@@ -719,6 +740,9 @@
     "cancel_272a6a": {
         "message": "取消"
     },
+    "cancel_2b384b": {
+        "message": "取消"
+    },
     "cancel_3d2cd0": {
         "message": "取消"
     },
@@ -749,10 +773,13 @@
     "cancel_7d73f2": {
         "message": "取消"
     },
+    "cancel_7e6b95": {
+        "message": "取消"
+    },
     "cancel_7e8473": {
         "message": "取消"
     },
-    "cancel_957ba8": {
+    "cancel_8f6d61": {
         "message": "取消"
     },
     "cancel_9b3e6c": {
@@ -842,6 +869,9 @@
     "cancelled": {
         "message": "已取消"
     },
+    "capture_area": {
+        "message": "擷取區域…"
+    },
     "capture_full_page": {
         "message": "擷取整個網頁"
     },
@@ -905,6 +935,12 @@
     "change_space_icon": {
         "message": "變更空間圖示"
     },
+    "change_style": {
+        "message": "更改樣式"
+    },
+    "change_the_group_of_the_current_tab": {
+        "message": "變更目前分頁所屬的群組。"
+    },
     "change_theme": {
         "message": "變更主題"
     },
@@ -925,6 +961,9 @@
     },
     "check_for_update_9e397e": {
         "message": "檢查更新…"
+    },
+    "check_the_document_for_spelling_errors": {
+        "message": "檢查文件中的拼字錯誤。"
     },
     "check_the_rule_sets_to_use_done": {
         "message": "勾選要使用的規則集。按「完成」會從發佈者下載尚未下載的規則集；未經你要求，不會下載任何內容。自訂清單會套用於全部三個開關。"
@@ -950,14 +989,17 @@
     "choose_a_download_location_for_this_profile": {
         "message": "請為此設定檔選擇下載位置。"
     },
+    "choose_a_file_to_open_in_phi": {
+        "message": "選擇要在 Phi 中打開的檔案。"
+    },
     "choose_a_name_address_and_folder_for": {
         "message": "為這個書籤選擇名稱、網址和資料夾。"
     },
     "choose_a_name_and_address_for_this": {
         "message": "為這個釘選分頁選擇名稱和網址。"
     },
-    "choose_an_item_from_your_collection_and": {
-        "message": "從你的收藏中挑一個項目，給自己一點好好閱讀的空檔。"
+    "choose_a_space_for_the_current_peek": {
+        "message": "為目前的 Peek 或 Kiosk 頁面選擇空間。"
     },
     "choose_and_download_rule_sets": {
         "message": "選擇並下載規則集"
@@ -998,6 +1040,9 @@
     "choose_where_this_profile_s_saved_pages": {
         "message": "請為此設定檔選擇網頁的儲存位置。"
     },
+    "choose_which_browsing_data_to_clear": {
+        "message": "選擇要清除的瀏覽資料。"
+    },
     "choose_which_profiles_agents_may_create_their": {
         "message": "選擇 AI 代理可以在哪些設定檔中建立自己的空間。關閉某個設定檔後，AI 代理將無法再開啟綁定該設定檔的新空間；現有空間不受影響。"
     },
@@ -1028,11 +1073,11 @@
     "clear_search": {
         "message": "清除搜尋"
     },
-    "clear_search_c9a806": {
-        "message": "清除搜尋"
-    },
     "click": {
         "message": "按一下 "
+    },
+    "click_the_shortcut_to_record_a_new": {
+        "message": "按一下快速鍵即可錄製新的按鍵組合。"
     },
     "click_the_title_for_overview_click_the": {
         "message": "按一下標題可查看總覽。按一下箭頭可展開或收合。"
@@ -1057,6 +1102,9 @@
     },
     "close_9f9dbb": {
         "message": "關閉"
+    },
+    "close_all_phi_windows": {
+        "message": "關閉所有 Phi 視窗。"
     },
     "close_b52252": {
         "message": "關閉"
@@ -1103,11 +1151,35 @@
     "close_tab_f52cc8": {
         "message": "關閉分頁"
     },
+    "close_tab_group": {
+        "message": "關閉分頁群組"
+    },
     "close_tabs": {
         "message": "關閉分頁"
     },
+    "close_tabs_to_the_right_of_the": {
+        "message": "關閉目前分頁右側的分頁。"
+    },
+    "close_the_current_tab": {
+        "message": "關閉目前的分頁。"
+    },
+    "close_the_current_tab_group": {
+        "message": "關閉目前的分頁群組。"
+    },
+    "close_the_current_window": {
+        "message": "關閉目前的視窗。"
+    },
+    "close_the_other_tabs_in_the_current": {
+        "message": "關閉目前視窗中的其他分頁。"
+    },
     "close_window": {
         "message": "關閉視窗"
+    },
+    "close_without_saving": {
+        "message": "不儲存並關閉"
+    },
+    "close_without_saving_your_edits": {
+        "message": "要關閉而不儲存你的編輯內容嗎？"
     },
     "collapse_group": {
         "message": "收合群組"
@@ -1117,9 +1189,6 @@
     },
     "collect_site_memories": {
         "message": "蒐集網站記憶"
-    },
-    "collection": {
-        "message": "收藏"
     },
     "color": {
         "message": "顏色"
@@ -1165,6 +1234,9 @@
     },
     "confirm_your_recovery_code": {
         "message": "確認你的復原代碼"
+    },
+    "conflicting_shortcuts": {
+        "message": "衝突的快速鍵"
     },
     "conflicts_with": {
         "message": "與以下項目衝突：%@"
@@ -1304,6 +1376,12 @@
     "copy_right_url_970e63": {
         "message": "拷貝右側網址"
     },
+    "copy_the_current_page_s_url_to": {
+        "message": "將目前頁面的網址拷貝到剪貼簿。"
+    },
+    "copy_the_selection_to_the_clipboard": {
+        "message": "將所選內容拷貝到剪貼簿。"
+    },
     "copy_top_url": {
         "message": "拷貝上方網址"
     },
@@ -1436,9 +1514,6 @@
     "couldn_t_read_data_on_this_mac": {
         "message": "無法讀取這部 Mac 上的資料"
     },
-    "couldn_t_read_your_folio": {
-        "message": "無法讀取你的 Folio"
-    },
     "couldn_t_rename_profile": {
         "message": "無法重新命名設定檔"
     },
@@ -1466,11 +1541,23 @@
     "create": {
         "message": "建立"
     },
+    "create_a_copy_of_the_current_tab": {
+        "message": "建立目前分頁的複本。"
+    },
     "create_a_new_folder_to_organize_your": {
         "message": "建立新資料夾來整理你的書籤。"
     },
+    "create_a_new_incognito_space": {
+        "message": "建立新的無痕空間。"
+    },
+    "create_a_new_tab_group": {
+        "message": "建立新的分頁群組。"
+    },
     "create_a_space": {
         "message": "建立空間"
+    },
+    "create_new_tab_group": {
+        "message": "建立新分頁群組"
     },
     "create_on_this_mac": {
         "message": "在這部 Mac 上建立"
@@ -1490,6 +1577,9 @@
     "credential_request_from": {
         "message": "來自「%@」的憑證要求"
     },
+    "crop": {
+        "message": "裁切"
+    },
     "current": {
         "message": "目前"
     },
@@ -1499,6 +1589,9 @@
     "custom": {
         "message": "自訂"
     },
+    "custom_color": {
+        "message": "自訂顏色"
+    },
     "custom_filter": {
         "message": "自訂過濾器"
     },
@@ -1507,6 +1600,12 @@
     },
     "custom_telegram_bot": {
         "message": "自訂 Telegram 機器人"
+    },
+    "customized_shortcuts": {
+        "message": "自訂的快速鍵"
+    },
+    "cut_the_selection_to_the_clipboard": {
+        "message": "將所選內容剪下到剪貼簿。"
     },
     "cyan": {
         "message": "青色"
@@ -1522,6 +1621,9 @@
     },
     "days_ago": {
         "message": "%d 天前"
+    },
+    "decrease_the_zoom_level_of_the_current": {
+        "message": "降低目前頁面的縮放比例。"
     },
     "default": {
         "message": "預設"
@@ -1564,6 +1666,9 @@
     },
     "delete_backup": {
         "message": "刪除備份"
+    },
+    "delete_bc7b23": {
+        "message": "刪除"
     },
     "delete_bookmark": {
         "message": "要刪除 %d 個書籤嗎？"
@@ -1706,7 +1811,13 @@
     "dismiss_094028": {
         "message": "關閉"
     },
+    "dismiss_8fe66a": {
+        "message": "關閉"
+    },
     "dismiss_cb343b": {
+        "message": "關閉"
+    },
+    "dismiss_d97b3f": {
         "message": "關閉"
     },
     "dismiss_media_player": {
@@ -1790,8 +1901,17 @@
     "drag_tabs_here_or_pin_them_from": {
         "message": "將分頁拖曳到這裡，或從分頁列表釘選"
     },
+    "drag_to_move_the_toolbar": {
+        "message": "拖曳來移動工具列"
+    },
     "drag_to_reorder_space": {
         "message": "拖曳來重新排序空間"
+    },
+    "drag_to_select_an_area": {
+        "message": "拖曳來選取區域"
+    },
+    "drag_to_select_scroll_or_drag_to": {
+        "message": "拖曳來選取 · 捲動或拖曳到邊緣以延伸 · 按 Esc 鍵取消"
     },
     "duplicate": {
         "message": "複製"
@@ -1841,6 +1961,9 @@
     "edit_7e9a": {
         "message": "編輯"
     },
+    "edit_annotation": {
+        "message": "編輯標註"
+    },
     "edit_bookmark": {
         "message": "編輯書籤"
     },
@@ -1862,8 +1985,14 @@
     "edit_pinned_tab": {
         "message": "編輯釘選分頁"
     },
+    "edit_screenshot": {
+        "message": "編輯截圖"
+    },
     "edit_split_bookmark": {
         "message": "編輯分割畫面書籤"
+    },
+    "edit_text": {
+        "message": "編輯文字"
     },
     "edit_the_name_and_address_for_this": {
         "message": "編輯這個書籤的名稱和網址。"
@@ -1888,6 +2017,9 @@
     },
     "edit_theme_f7ce4c": {
         "message": "編輯主題"
+    },
+    "ellipse": {
+        "message": "橢圓"
     },
     "email_address": {
         "message": "電子郵件地址"
@@ -1958,6 +2090,9 @@
     "enter_at_least_one_filter_rule": {
         "message": "請輸入至少一條過濾規則。"
     },
+    "enter_or_leave_full_screen": {
+        "message": "進入或離開全螢幕。"
+    },
     "enter_the_6_digit_code_sent_to": {
         "message": "請輸入傳送至 %@ 的 6 位數驗證碼。"
     },
@@ -1978,6 +2113,9 @@
     },
     "error": {
         "message": "錯誤"
+    },
+    "escape_shortcuts_require_command_or_control": {
+        "message": "使用 Esc 鍵的快速鍵必須搭配 Command 或 Control 鍵。"
     },
     "every_agent_is_allowed_so_none_is": {
         "message": "已允許所有 AI 代理，因此沒有個別核准的項目。"
@@ -2021,6 +2159,9 @@
     "export": {
         "message": "匯出"
     },
+    "export_0a78d0": {
+        "message": "匯出…"
+    },
     "export_account_data": {
         "message": "匯出帳號資料"
     },
@@ -2041,6 +2182,9 @@
     },
     "export_logs_a846d2": {
         "message": "匯出記錄檔"
+    },
+    "export_the_screenshot_as_jpg_or_pdf": {
+        "message": "將截圖匯出為 JPG 或 PDF，即可保留你的編輯內容。"
     },
     "export_user_data": {
         "message": "匯出使用者資料…"
@@ -2120,8 +2264,14 @@
     "file": {
         "message": "檔案"
     },
+    "fill": {
+        "message": "填滿"
+    },
     "filter_rules": {
         "message": "過濾規則"
+    },
+    "filter_shortcuts": {
+        "message": "篩選快速鍵"
     },
     "filtering_is_running_with_the_last_good": {
         "message": "過濾功能正以最近一次有效的規則執行"
@@ -2137,6 +2287,9 @@
     },
     "find_shortcut_keys": {
         "message": "搜尋快速鍵"
+    },
+    "find_text_on_the_current_page": {
+        "message": "在目前頁面中尋找文字。"
     },
     "finish": {
         "message": "完成"
@@ -2159,11 +2312,35 @@
     "finish_signing_out_in_your_browser": {
         "message": "請在瀏覽器中完成登出。"
     },
+    "fit": {
+        "message": "符合視窗"
+    },
     "fixes_and_rules_maintained_by_phi_keep": {
         "message": "由 Phi 維護的修正與規則。除非網站出現異常，否則請保持開啟。"
     },
     "focus_address_bar": {
         "message": "選取網址列"
+    },
+    "focus_next_pane": {
+        "message": "選取下一個面板"
+    },
+    "focus_next_tab_group": {
+        "message": "選取下一個分頁群組"
+    },
+    "focus_open_popup": {
+        "message": "選取已開啟的彈出式視窗"
+    },
+    "focus_previous_pane": {
+        "message": "選取上一個面板"
+    },
+    "focus_previous_tab_group": {
+        "message": "選取上一個分頁群組"
+    },
+    "focus_the_address_bar_to_enter_a": {
+        "message": "選取網址列以輸入網址或搜尋。"
+    },
+    "focus_the_address_bar_to_search_the": {
+        "message": "選取網址列以搜尋網路。"
     },
     "folder": {
         "message": "資料夾"
@@ -2417,6 +2594,12 @@
     "for_web_development_while_an_agent_operates": {
         "message": "供網頁開發使用。AI 代理操作頁面時，Phi 會停止為頁面重新上色，讓操作遮罩變為透明，並將「接手控制」列縮到最小。在你接手控制之前，頁面仍然不會回應你的輸入。設定會立即生效。"
     },
+    "force_reload_page": {
+        "message": "強制重新載入頁面"
+    },
+    "format": {
+        "message": "格式"
+    },
     "forward": {
         "message": "前進"
     },
@@ -2425,6 +2608,9 @@
     },
     "forward_e876ba": {
         "message": "前進"
+    },
+    "freehand": {
+        "message": "手繪"
     },
     "from": {
         "message": "來自 %@"
@@ -2471,8 +2657,17 @@
     "go_to": {
         "message": "前往 %@"
     },
+    "go_to_7113ff": {
+        "message": "前往 %@"
+    },
     "go_to_space": {
         "message": "前往空間「%@」"
+    },
+    "go_to_the_next_page_in_this": {
+        "message": "前往此分頁歷史記錄中的下一頁。"
+    },
+    "go_to_the_previous_page_in_this": {
+        "message": "前往此分頁歷史記錄中的上一頁。"
     },
     "granted": {
         "message": "於 %@ 授予"
@@ -2510,6 +2705,12 @@
     "hide": {
         "message": "隱藏"
     },
+    "hide_other_applications": {
+        "message": "隱藏其他 App。"
+    },
+    "hide_phi_and_its_windows": {
+        "message": "隱藏 Phi 及其視窗。"
+    },
     "hide_sidebar": {
         "message": "隱藏側邊欄"
     },
@@ -2521,9 +2722,6 @@
     },
     "highlight_saved": {
         "message": "已儲存醒目顯示文字"
-    },
-    "highlights": {
-        "message": "醒目顯示"
     },
     "history": {
         "message": "歷史記錄"
@@ -2602,6 +2800,9 @@
     },
     "import": {
         "message": "匯入…"
+    },
+    "import_bookmarks_and_settings_from_another_browser": {
+        "message": "從其他瀏覽器匯入書籤和設定。"
     },
     "import_completed_successfully": {
         "message": "已成功完成匯入"
@@ -2687,11 +2888,17 @@
     "incognito_f5b3ca": {
         "message": "無痕"
     },
+    "increase_the_zoom_level_of_the_current": {
+        "message": "提高目前頁面的縮放比例。"
+    },
     "initial_sync_in_progress": {
         "message": "初次同步進行中"
     },
     "insecure_download_blocked": {
         "message": "已封鎖不安全的下載"
+    },
+    "inspect_an_element_on_the_current_page": {
+        "message": "檢查目前頁面上的元素。"
     },
     "install": {
         "message": "安裝"
@@ -2735,8 +2942,17 @@
     "iris": {
         "message": "鳶尾紫"
     },
+    "is_used_by_reassigning_removes_only_this": {
+        "message": "%@ 目前由 %@ 使用。重新指定只會從這些命令中移除此快速鍵，這些命令的其他快速鍵仍然有效。"
+    },
+    "is_used_by_these_shortcuts_cannot_be": {
+        "message": "%@ 目前由 %@ 使用。這些快速鍵無法在此處變更，請選擇其他按鍵。"
+    },
     "items": {
         "message": "%d 個項目"
+    },
+    "jump_to_selection": {
+        "message": "跳至所選範圍"
     },
     "just_now": {
         "message": "剛剛"
@@ -2750,8 +2966,8 @@
     "keep_3a0464": {
         "message": "保留"
     },
-    "keep_what_stays_with_you": {
-        "message": "留住那些留在你心裡的。"
+    "keep_editing": {
+        "message": "繼續編輯"
     },
     "kiosk": {
         "message": "Kiosk"
@@ -2764,9 +2980,6 @@
     },
     "language": {
         "message": "語言"
-    },
-    "larger_text": {
-        "message": "放大文字"
     },
     "last_problem": {
         "message": "上次的問題：%1$@（%2$@）"
@@ -2797,9 +3010,6 @@
     },
     "layout_selection": {
         "message": "選擇版面配置"
-    },
-    "least_recently_updated_first": {
-        "message": "最久未更新在前"
     },
     "leave_empty_to_use_the_auto_generated": {
         "message": "留空以使用自動產生的名稱。"
@@ -2921,6 +3131,9 @@
     "manage_extensions_52d065": {
         "message": "管理擴充功能"
     },
+    "manage_installed_browser_extensions": {
+        "message": "管理已安裝的瀏覽器擴充功能。"
+    },
     "manage_site_memories": {
         "message": "管理網站記憶"
     },
@@ -2984,6 +3197,9 @@
     "minimise": {
         "message": "收合"
     },
+    "minimize_the_current_window": {
+        "message": "將目前視窗縮到最小。"
+    },
     "mint": {
         "message": "薄荷綠"
     },
@@ -3002,11 +3218,41 @@
     "more_spaces": {
         "message": "更多空間"
     },
+    "move": {
+        "message": "移動"
+    },
+    "move_focus_to_an_open_popup": {
+        "message": "將焦點移至已開啟的彈出式視窗。"
+    },
+    "move_focus_to_the_next_browser_pane": {
+        "message": "將焦點移至下一個瀏覽器面板。"
+    },
+    "move_focus_to_the_next_tab_group": {
+        "message": "將焦點移至下一個分頁群組。"
+    },
+    "move_focus_to_the_previous_browser_pane": {
+        "message": "將焦點移至上一個瀏覽器面板。"
+    },
+    "move_focus_to_the_previous_tab_group": {
+        "message": "將焦點移至上一個分頁群組。"
+    },
+    "move_tab_left": {
+        "message": "將分頁向左移動"
+    },
+    "move_tab_right": {
+        "message": "將分頁向右移動"
+    },
     "move_tabs_to_group": {
         "message": "將分頁移至群組"
     },
-    "move_this_item_to_trash": {
-        "message": "要將這個項目丟到垃圾桶嗎？"
+    "move_the_current_tab_one_position_to": {
+        "message": "將目前分頁向左移動一個位置。"
+    },
+    "move_the_current_tab_one_position_to_f3f777": {
+        "message": "將目前分頁向右移動一個位置。"
+    },
+    "move_the_current_tab_to_a_new": {
+        "message": "將目前分頁移至新視窗。"
     },
     "move_to_group": {
         "message": "移至群組"
@@ -3026,11 +3272,17 @@
     "move_to_space_90b3a5": {
         "message": "移至空間"
     },
-    "move_to_trash": {
-        "message": "丟到垃圾桶"
+    "move_to_the_next_matching_text_on": {
+        "message": "移至頁面中下一個相符的文字。"
+    },
+    "move_to_the_previous_matching_text_on": {
+        "message": "移至頁面中上一個相符的文字。"
     },
     "mute": {
         "message": "靜音"
+    },
+    "mute_or_unmute_audio_from_the_current": {
+        "message": "關閉或開啟目前網站的音訊。"
     },
     "mute_site": {
         "message": "關閉網站音訊"
@@ -3359,12 +3611,6 @@
     "no_file_selected": {
         "message": "尚未選擇檔案"
     },
-    "no_highlights_yet_highlight_a_passage_on": {
-        "message": "尚無醒目顯示文字。在原始頁面將一段文字醒目顯示，就會保留在這裡。"
-    },
-    "no_items_match_this_view": {
-        "message": "沒有符合目前檢視條件的項目。"
-    },
     "no_matching_bookmarks": {
         "message": "沒有符合的書籤"
     },
@@ -3590,9 +3836,6 @@
     "on_an_authorized_device_open_settings_sync": {
         "message": "在已授權的裝置上，開啟「設定 → 同步」並核准此請求。請確認此代碼相符："
     },
-    "on_any_webpage_choose_file_save_to": {
-        "message": "在任何網頁上，選擇「檔案」→「儲存到 Folio」"
-    },
     "on_browser_restart": {
         "message": "瀏覽器重新啟動時"
     },
@@ -3617,6 +3860,24 @@
     "open_a_browser_window_for_the_selected": {
         "message": "請開啟所選設定檔的瀏覽器視窗以繼續。"
     },
+    "open_a_new_browser_window": {
+        "message": "開啟新的瀏覽器視窗。"
+    },
+    "open_a_new_incognito_window": {
+        "message": "開啟新的無痕視窗。"
+    },
+    "open_a_new_kiosk_window": {
+        "message": "開啟新的 Kiosk 視窗。"
+    },
+    "open_a_new_tab": {
+        "message": "開啟新分頁。"
+    },
+    "open_a_new_tab_to_the_right": {
+        "message": "在目前分頁右側開啟新分頁。"
+    },
+    "open_a_tab_in_split_view": {
+        "message": "以分割畫面開啟分頁。"
+    },
     "open_as_split": {
         "message": "以分割畫面開啟"
     },
@@ -3632,11 +3893,20 @@
     "open_as_tab": {
         "message": "以分頁開啟"
     },
+    "open_browser_help": {
+        "message": "開啟瀏覽器說明。"
+    },
+    "open_developer_tools_for_the_current_page": {
+        "message": "開啟目前頁面的開發人員工具。"
+    },
     "open_devtools": {
         "message": "開啟開發人員工具"
     },
     "open_external_links_in_kiosk": {
         "message": "在 Kiosk 中開啟外部連結"
+    },
+    "open_file": {
+        "message": "打開檔案…"
     },
     "open_folio": {
         "message": "開啟 Folio"
@@ -3668,14 +3938,20 @@
     "open_links_in_a_lightweight_window_one": {
         "message": "在輕量視窗中開啟連結，一次一頁。"
     },
-    "open_original": {
-        "message": "開啟原始網頁"
+    "open_or_close_reader_for_the_current": {
+        "message": "開啟或關閉目前頁面的閱讀模式。"
+    },
+    "open_phi_settings": {
+        "message": "開啟 Phi 設定。"
     },
     "open_picture_in_picture": {
         "message": "開啟子母畫面"
     },
-    "open_saved_webpage": {
-        "message": "開啟已儲存的網頁"
+    "open_print_options_for_the_current_page": {
+        "message": "開啟目前頁面的列印選項。"
+    },
+    "open_reading_mode_for_the_current_page": {
+        "message": "開啟目前頁面的閱讀模式。"
     },
     "open_settings": {
         "message": "開啟「系統設定」"
@@ -3689,6 +3965,24 @@
     "open_tabs": {
         "message": "開啟的分頁"
     },
+    "open_the_bookmark_manager": {
+        "message": "開啟書籤管理員。"
+    },
+    "open_the_current_peek_or_kiosk_page": {
+        "message": "在空間中開啟目前的 Peek 或 Kiosk 頁面。"
+    },
+    "open_the_feedback_page": {
+        "message": "開啟意見回饋頁面。"
+    },
+    "open_the_home_page": {
+        "message": "開啟首頁。"
+    },
+    "open_the_javascript_console_for_the_current": {
+        "message": "開啟目前頁面的 JavaScript 控制台。"
+    },
+    "open_the_profiles_menu": {
+        "message": "開啟設定檔選單。"
+    },
     "open_the_url_rules_editor": {
         "message": "開啟網址規則編輯器"
     },
@@ -3701,11 +3995,23 @@
     "organize_tabs_with_ai": {
         "message": "使用 AI 整理分頁"
     },
+    "organize_tabs_with_ai_413fc6": {
+        "message": "使用 AI 整理分頁。"
+    },
     "organize_tabs_with_ai_6111": {
         "message": "使用 AI 整理分頁"
     },
     "organize_tabs_with_ai_e4d5d3": {
         "message": "使用 AI 整理分頁"
+    },
+    "other": {
+        "message": "其他"
+    },
+    "other_active_shortcuts_read_only": {
+        "message": "其他使用中的快速鍵（唯讀）"
+    },
+    "other_browser_commands": {
+        "message": "其他瀏覽器命令"
     },
     "pairing_isn_t_available_right_now": {
         "message": "目前無法進行配對。"
@@ -3718,6 +4024,15 @@
     },
     "passwords_manager": {
         "message": "密碼管理員"
+    },
+    "paste": {
+        "message": "貼上"
+    },
+    "paste_text_using_the_surrounding_formatting": {
+        "message": "貼上文字並符合周圍的格式。"
+    },
+    "paste_the_clipboard_contents": {
+        "message": "貼上剪貼簿的內容。"
     },
     "pause": {
         "message": "暫停"
@@ -3860,6 +4175,9 @@
     "pin_extension": {
         "message": "釘選擴充功能"
     },
+    "pin_or_unpin_the_current_tab": {
+        "message": "釘選或取消釘選目前分頁。"
+    },
     "pin_split": {
         "message": "釘選分割畫面"
     },
@@ -3938,6 +4256,9 @@
     "preparing_time_machine_restore": {
         "message": "正在準備「時光機」回復"
     },
+    "press_escape_to_cancel_or_delete_to": {
+        "message": "按 Esc 鍵取消，或按 Delete 鍵移除快速鍵。"
+    },
     "press_shortcut": {
         "message": "請按下快速鍵…"
     },
@@ -3961,6 +4282,21 @@
     },
     "print": {
         "message": "列印…"
+    },
+    "print_the_browser_view_hierarchy_for_debugging": {
+        "message": "輸出瀏覽器的視圖階層以供除錯。"
+    },
+    "print_the_current_page_using_the_system": {
+        "message": "使用系統對話框列印目前頁面。"
+    },
+    "print_the_detailed_browser_view_hierarchy_for": {
+        "message": "輸出詳細的瀏覽器視圖階層以供除錯。"
+    },
+    "print_view_tree": {
+        "message": "輸出視圖樹"
+    },
+    "print_view_tree_details": {
+        "message": "輸出視圖樹詳細資訊"
     },
     "privacy": {
         "message": "隱私權政策"
@@ -4031,6 +4367,12 @@
     "quit": {
         "message": "結束"
     },
+    "quit_phi": {
+        "message": "結束 Phi"
+    },
+    "quit_phi_8a937a": {
+        "message": "結束 Phi。"
+    },
     "reader_view": {
         "message": "閱讀模式"
     },
@@ -4046,11 +4388,8 @@
     "reader_view_is_unavailable_on_this_page": {
         "message": "這個網頁無法使用閱讀模式"
     },
-    "reading_mode": {
-        "message": "閱讀模式"
-    },
-    "reading_options_and_actions": {
-        "message": "閱讀選項與動作"
+    "reassign": {
+        "message": "重新指定"
     },
     "reauthenticate": {
         "message": "重新驗證身分"
@@ -4064,9 +4403,6 @@
     "recently_closed": {
         "message": "最近關閉的分頁"
     },
-    "recently_updated_first": {
-        "message": "最近更新在前"
-    },
     "recommended": {
         "message": "建議"
     },
@@ -4076,8 +4412,17 @@
     "recovery_code": {
         "message": "復原代碼"
     },
+    "rectangle": {
+        "message": "矩形"
+    },
     "red": {
         "message": "紅色"
+    },
+    "redo": {
+        "message": "重做"
+    },
+    "redo_the_last_undone_edit": {
+        "message": "重做上一次復原的編輯。"
     },
     "refresh": {
         "message": "重新整理"
@@ -4087,9 +4432,6 @@
     },
     "refresh_connector_status": {
         "message": "重新整理連接器狀態"
-    },
-    "refresh_library": {
-        "message": "重新整理收藏庫"
     },
     "refused_without_asking": {
         "message": "未經詢問即拒絕"
@@ -4105,6 +4447,12 @@
     },
     "reload_page": {
         "message": "重新載入頁面"
+    },
+    "reload_the_current_page": {
+        "message": "重新載入目前頁面。"
+    },
+    "reload_the_current_page_without_using_cached": {
+        "message": "不使用快取內容重新載入目前頁面。"
     },
     "remember_email": {
         "message": "記住電子郵件"
@@ -4220,6 +4568,9 @@
     "reopen_closed_tab_de7200": {
         "message": "重新開啟已關閉的分頁"
     },
+    "reopen_the_most_recently_closed_tab": {
+        "message": "重新開啟最近關閉的分頁。"
+    },
     "reopen_your_windows_and_tabs_the_next": {
         "message": "下次開啟 Phi 時，重新開啟你的視窗和分頁。"
     },
@@ -4259,6 +4610,12 @@
     "resend_code_cbc823": {
         "message": "重新傳送驗證碼（%d 秒）"
     },
+    "reserved_browser_shortcut": {
+        "message": "保留的瀏覽器快速鍵"
+    },
+    "reset_the_current_page_to_its_default": {
+        "message": "將目前頁面重設為預設縮放比例。"
+    },
     "resolve": {
         "message": "解決"
     },
@@ -4280,8 +4637,14 @@
     "restore_4c2571": {
         "message": "還原"
     },
+    "restore_all": {
+        "message": "全部還原"
+    },
     "restore_all_shortcuts": {
         "message": "還原所有快速鍵"
+    },
+    "restore_all_shortcuts_23ac": {
+        "message": "要還原所有快速鍵嗎？"
     },
     "restore_last_session": {
         "message": "還原上次的工作階段"
@@ -4293,6 +4656,9 @@
         "message": "繼續"
     },
     "retry": {
+        "message": "重試"
+    },
+    "retry_05770d": {
         "message": "重試"
     },
     "retry_39f08b": {
@@ -4406,6 +4772,12 @@
     "save_pages_to": {
         "message": "將網頁儲存到"
     },
+    "save_the_current_page_for_later": {
+        "message": "儲存目前頁面以供稍後使用。"
+    },
+    "save_the_current_page_to_a_file": {
+        "message": "將目前頁面儲存為檔案。"
+    },
     "save_to_folio": {
         "message": "儲存到 Folio"
     },
@@ -4421,14 +4793,14 @@
     "save_your_recovery_code_first": {
         "message": "請先儲存你的復原代碼"
     },
-    "saved": {
-        "message": "儲存於"
-    },
     "saved_memories_for_will_be_deleted_from": {
         "message": "為 %@ 儲存的記憶將從此瀏覽器設定檔中刪除。此動作無法復原。"
     },
     "saved_only_what_had_loaded": {
         "message": "只儲存了已載入的內容"
+    },
+    "saved_shortcuts_could_not_be_read_retry": {
+        "message": "無法讀取已儲存的快速鍵。請重試，或還原所有快速鍵，系統會保留一份復原副本並使用預設值。"
     },
     "saved_to_folio": {
         "message": "已儲存到 Folio"
@@ -4457,6 +4829,9 @@
     "screenshot_timed_out_please_try_again": {
         "message": "截圖逾時。請再試一次。"
     },
+    "scroll_to_the_selected_text": {
+        "message": "捲動至所選的文字。"
+    },
     "search": {
         "message": "搜尋"
     },
@@ -4472,6 +4847,9 @@
     "search_ac220a": {
         "message": "搜尋…"
     },
+    "search_by_name_or_keys_such_as": {
+        "message": "依名稱或按鍵搜尋，例如 cmd ctrl S 或 ⌘⌃S。"
+    },
     "search_downloads": {
         "message": "搜尋下載項目"
     },
@@ -4486,6 +4864,9 @@
     },
     "search_mk_3074": {
         "message": "搜尋 %@"
+    },
+    "search_open_tabs": {
+        "message": "搜尋已開啟的分頁。"
     },
     "search_or_enter_url": {
         "message": "搜尋或輸入網址"
@@ -4511,14 +4892,20 @@
     "search_the_web": {
         "message": "搜尋網路…"
     },
-    "search_your_library": {
-        "message": "搜尋你的收藏庫"
+    "select": {
+        "message": "選取"
     },
     "select_a_profile_to_view_its_settings": {
         "message": "選取設定檔以查看其設定。"
     },
+    "select_a_shortcut_to_view_its_details": {
+        "message": "選取快速鍵以檢視其詳細資訊。"
+    },
     "select_a_space_to_view_its_settings": {
         "message": "選取空間以查看其設定。"
+    },
+    "select_all_content_in_the_focused_area": {
+        "message": "選取焦點區域中的所有內容。"
     },
     "select_at_least_one_category_to_back": {
         "message": "請至少選取一個要備份的類別。"
@@ -4538,6 +4925,15 @@
     "select_tab": {
         "message": "選取第 %d 個分頁"
     },
+    "select_the_last_tab": {
+        "message": "選取最後一個分頁。"
+    },
+    "select_the_next_tab": {
+        "message": "選取下一個分頁。"
+    },
+    "select_the_previous_tab": {
+        "message": "選取上一個分頁。"
+    },
     "self_hosted": {
         "message": "自架"
     },
@@ -4555,6 +4951,9 @@
     },
     "send_feedback_to_phi": {
         "message": "傳送意見回饋給 Phi"
+    },
+    "send_to_back": {
+        "message": "移至最後"
     },
     "sending_a_verification_code_to": {
         "message": "正在將驗證碼傳送至 %@…"
@@ -4670,14 +5069,23 @@
     "share_page": {
         "message": "分享頁面"
     },
+    "share_the_current_page": {
+        "message": "分享目前頁面。"
+    },
     "shift_click_a_link_or_choose_open": {
         "message": "按住 Shift 並點按連結，或選擇「在 Peek 檢視中開啟連結」，即可在頁面上的浮動面板中預覽。不適用於「舒適」版面配置。"
+    },
+    "shortcut_already_in_use": {
+        "message": "快速鍵已被使用"
     },
     "shortcuts": {
         "message": "快速鍵"
     },
     "shortcuts_b6a37f": {
         "message": "快速鍵"
+    },
+    "shortcuts_changed_while_you_were_reviewing_them": {
+        "message": "快速鍵在你檢視期間已變更。請重新錄製快速鍵，以檢視目前的衝突。"
     },
     "shorten_links_to_selected_text": {
         "message": "縮短指向所選文字的連結"
@@ -4690,9 +5098,6 @@
     },
     "show_a_preview_card_when_hovering_over": {
         "message": "游標停留在分頁上時顯示預覽卡片"
-    },
-    "show_all_items": {
-        "message": "顯示所有項目"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "在新分頁顯示書籤列"
@@ -4715,9 +5120,6 @@
     "show_in_finder_8593df": {
         "message": "在 Finder 中顯示"
     },
-    "show_in_finder_bb73ef": {
-        "message": "在 Finder 中顯示"
-    },
     "show_in_folder": {
         "message": "在資料夾中顯示"
     },
@@ -4733,17 +5135,38 @@
     "show_operated_pages_exactly_as_rendered": {
         "message": "以原始樣貌顯示代理操作中的頁面"
     },
+    "show_or_hide_the_bookmarks_bar_only": {
+        "message": "顯示或隱藏書籤列。僅在「舒適」版面配置下可用。"
+    },
+    "show_or_hide_the_chat_panel": {
+        "message": "顯示或隱藏 Chatbar。"
+    },
+    "show_or_hide_the_sidebar": {
+        "message": "顯示或隱藏側邊欄。"
+    },
+    "show_or_hide_the_toolbar_in_full": {
+        "message": "在全螢幕中顯示或隱藏工具列。"
+    },
     "show_playing_tab": {
         "message": "顯示播放中的分頁"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "在新分頁顯示主動建議"
     },
+    "show_profiles_menu": {
+        "message": "顯示設定檔選單"
+    },
+    "show_reading_mode": {
+        "message": "顯示閱讀模式"
+    },
     "show_sidebar": {
         "message": "顯示側邊欄"
     },
     "show_sidebar_media_player": {
         "message": "顯示迷你播放器"
+    },
+    "show_spelling_and_grammar_options": {
+        "message": "顯示拼字和文法選項。"
     },
     "show_tab_switcher": {
         "message": "顯示分頁切換器"
@@ -4753,6 +5176,12 @@
     },
     "show_the_agent_s_command_and_process": {
         "message": "顯示 AI 代理的指令與程序樹"
+    },
+    "show_the_tab_switcher_and_move_backward": {
+        "message": "顯示分頁切換器，並在最近使用的分頁間向後移動。"
+    },
+    "show_the_tab_switcher_and_move_forward": {
+        "message": "顯示分頁切換器，並在最近使用的分頁間向前移動。"
     },
     "show_transcript": {
         "message": "顯示逐字稿"
@@ -4877,9 +5306,6 @@
     "skip_this_version": {
         "message": "略過此版本"
     },
-    "smaller_text": {
-        "message": "縮小文字"
-    },
     "some_account_and_system_information_may_be": {
         "message": "部分帳號與系統資訊可能會傳送給 Phinomenon。我們會依照隱私權政策與服務條款，使用你提供的資訊來協助解決技術問題並改善我們的服務。"
     },
@@ -4910,14 +5336,8 @@
     "something_went_wrong_while_setting_up_the": {
         "message": "設定此設定檔時發生問題。"
     },
-    "something_worth_returning_to": {
-        "message": "值得再回頭看的東西。"
-    },
     "sorry_for_the_interruption_a_few_details": {
         "message": "很抱歉造成中斷。提供一些當機前發生的細節，可以幫助我們瞭解問題，讓 Phi 更加可靠。"
-    },
-    "sort_collection": {
-        "message": "排序收藏"
     },
     "source": {
         "message": "來源"
@@ -4991,6 +5411,9 @@
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "長期核准可隨時在「設定」中查看與撤銷。"
     },
+    "start_a_new_conversation_in_phi_chat": {
+        "message": "在 Phi Chat 中開始新對話。"
+    },
     "start_migration": {
         "message": "開始移轉"
     },
@@ -5006,11 +5429,11 @@
     "stop_022eb3": {
         "message": "停止載入"
     },
+    "stop_loading_the_current_page": {
+        "message": "停止載入目前頁面。"
+    },
     "store_this_code_somewhere_safe_you_will": {
         "message": "請將此代碼存放在安全的地方。將其他裝置加入你的帳號時會需要它。"
-    },
-    "stored_on_your_mac": {
-        "message": "儲存在你的 Mac 上"
     },
     "submit": {
         "message": "送出"
@@ -5029,6 +5452,18 @@
     },
     "switch_to_agent_space": {
         "message": "切換至 AI 代理空間"
+    },
+    "switch_to_space_in_the_current_window": {
+        "message": "切換至目前視窗中的第 %d 個空間。"
+    },
+    "switch_to_tab_in_the_current_window": {
+        "message": "切換至目前視窗中的第 %d 個分頁。"
+    },
+    "switch_to_the_next_space": {
+        "message": "切換至下一個空間。"
+    },
+    "switch_to_the_previous_space": {
+        "message": "切換至上一個空間。"
     },
     "sync": {
         "message": "同步"
@@ -5138,6 +5573,12 @@
     "terms_of_service": {
         "message": "服務條款"
     },
+    "text": {
+        "message": "文字"
+    },
+    "text_size": {
+        "message": "文字大小"
+    },
     "that_code_has_expired_click_resend_code": {
         "message": "驗證碼已過期。請點按「重新傳送驗證碼」以取得新的驗證碼。"
     },
@@ -5171,11 +5612,11 @@
     "the_archive_does_not_contain_a_top": {
         "message": "封存檔中沒有最上層的 Phi 資料夾。"
     },
-    "the_article_and_its_saved_webpage_copy": {
-        "message": "這篇文章和已儲存的網頁副本會移到垃圾桶。你可以在 Finder 中還原它們。"
-    },
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "Bitwarden 瀏覽器擴充功能會在網頁上自動填入你密碼庫中的登入資訊。Phi 現在可以從 Chrome 線上應用程式商店安裝它。"
+    },
+    "the_change_could_not_be_saved_your": {
+        "message": "無法儲存變更。你先前的快速鍵仍然有效，請再試一次。"
     },
     "the_change_will_finish_in_the_background": {
         "message": "變更會在背景完成。"
@@ -5194,6 +5635,9 @@
     },
     "the_folio_folder_could_not_be_read": {
         "message": "無法讀取 Folio 檔案夾。"
+    },
+    "the_global_shortcut_is_unavailable_choose_another": {
+        "message": "全域快速鍵無法使用。請選擇其他快速鍵，或將此設定關閉再開啟以重試。"
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "本機 IM 服務無法使用。請檢查 Phi Sentinel 是否正常啟動，以及 IM 服務是否正在執行。"
@@ -5315,9 +5759,6 @@
     "this_is_the_last_device_on_the": {
         "message": "這是帳號中的最後一部裝置，因此無法移除。請先在此裝置上完成配對（無法讀取的設定檔不會造成阻礙），或先在另一部裝置上設定同步，然後再試一次。"
     },
-    "this_item_has_no_article_text_you": {
-        "message": "這個項目沒有文章內文。你可以開啟原始網頁或已儲存的網頁副本。"
-    },
     "this_mac": {
         "message": "這部 Mac"
     },
@@ -5357,8 +5798,23 @@
     "this_request_timed_out_you_can_try": {
         "message": "此請求已逾時。你可以再試一次。"
     },
+    "this_screenshot_is_too_large_to_edit": {
+        "message": "此截圖太大，無法編輯。你仍可儲存原始 PNG。"
+    },
     "this_session": {
         "message": "僅此工作階段"
+    },
+    "this_shortcut_conflicts_with": {
+        "message": "此快速鍵與以下項目衝突："
+    },
+    "this_shortcut_conflicts_with_a_macos_system": {
+        "message": "此快速鍵與 macOS 系統快速鍵衝突，在 Phi 中可能無法使用。"
+    },
+    "this_shortcut_is_available_in_other_apps": {
+        "message": "此快速鍵可在其他 App 中使用。"
+    },
+    "this_shortcut_is_not_supported_globally_with": {
+        "message": "此快速鍵在目前的鍵盤配置下無法全域使用。請選擇其他快速鍵。"
     },
     "this_site_isn_t_using_a_secure": {
         "message": "這個網站未使用安全連線，檔案可能已遭竄改"
@@ -5441,6 +5897,12 @@
     "toggle_sidebar_307510": {
         "message": "顯示或隱藏側邊欄"
     },
+    "toggle_tablet_mode": {
+        "message": "切換平板模式"
+    },
+    "toggle_tablet_mode_for_browser_debugging": {
+        "message": "切換平板模式以進行瀏覽器除錯。"
+    },
     "token_verified_successfully": {
         "message": "Token 驗證成功"
     },
@@ -5466,9 +5928,6 @@
         "message": "再試一次"
     },
     "try_again_ba7845": {
-        "message": "再試一次"
-    },
-    "try_again_cd0a4c": {
         "message": "再試一次"
     },
     "try_another_way": {
@@ -5515,6 +5974,12 @@
     },
     "undo": {
         "message": "還原"
+    },
+    "undo_2ca0be": {
+        "message": "復原"
+    },
+    "undo_the_last_edit": {
+        "message": "復原上一次的編輯。"
     },
     "ungroup": {
         "message": "取消群組"
@@ -5672,8 +6137,17 @@
     "urls_matching_any_rule_will_open_in": {
         "message": "符合任一規則的網址，不論你在哪裡點按或輸入，都會在所選的目的地開啟。"
     },
+    "use_a_modifier_key_letters_and_symbols": {
+        "message": "請使用修飾鍵。字母和符號需搭配 Command、Control 或 Option 鍵。"
+    },
     "use_a_recovery_code": {
         "message": "使用復原代碼"
+    },
+    "use_selection_for_find": {
+        "message": "使用所選範圍尋找"
+    },
+    "use_the_selected_text_as_the_search": {
+        "message": "使用所選的文字作為搜尋文字。"
     },
     "using_telegram_to_send_and_receive_messages": {
         "message": "透過 Telegram 與 %@ 收發訊息"
@@ -5711,23 +6185,29 @@
     "version": {
         "message": "版本 %1$@（%2$@）"
     },
-    "video": {
-        "message": "影片"
-    },
-    "videos": {
-        "message": "影片"
-    },
     "view": {
         "message": "顯示方式"
     },
     "view_and_manage_your_browser_memory": {
         "message": "查看與管理你的瀏覽器記憶"
     },
+    "view_browser_tasks_and_their_resource_usage": {
+        "message": "檢視瀏覽器工作及其資源使用情況。"
+    },
     "view_details": {
         "message": "查看詳細資訊"
     },
     "view_page_source": {
         "message": "檢視網頁原始碼"
+    },
+    "view_the_source_of_the_current_page": {
+        "message": "檢視目前頁面的原始碼。"
+    },
+    "view_your_browsing_history": {
+        "message": "檢視你的瀏覽歷史記錄。"
+    },
+    "view_your_downloads": {
+        "message": "檢視你的下載項目。"
     },
     "volume_click_to_toggle_mute": {
         "message": "音量（⌥-按一下可切換靜音）"
@@ -5807,6 +6287,9 @@
     "what_should_i_call_you": {
         "message": "我該怎麼稱呼你？"
     },
+    "width": {
+        "message": "寬度"
+    },
     "will_be_deleted": {
         "message": "將刪除 %@。"
     },
@@ -5864,9 +6347,6 @@
     "your_answer_is_about_pick_a_row": {
         "message": "你的回答針對「%@」。若要改為針對啟動它的程序回答，請在上方選取一列。"
     },
-    "your_collection_starts_here": {
-        "message": "你的收藏從這裡開始。"
-    },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "你目前的釘選分頁會複製到每個現有的目的地，之後這些副本可以各自獨立修改。"
     },
@@ -5881,6 +6361,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "你的刪除要求已送出。刪除完成後，你會收到一封確認電子郵件。\n\nPhi 現在會將你登出、移除它在這部 Mac 上的資料，然後結束。"
+    },
+    "your_edits_are_still_available_choose_another": {
+        "message": "你的編輯內容仍然保留。請選擇其他位置後再試一次。"
     },
     "your_note": {
         "message": "你的備註"
@@ -5927,6 +6410,9 @@
     "zoom_in": {
         "message": "放大"
     },
+    "zoom_in_14fd": {
+        "message": "放大"
+    },
     "zoom_minus": {
         "message": "縮小"
     },
@@ -5934,6 +6420,9 @@
         "message": "實際大小"
     },
     "zoom_out": {
+        "message": "縮小"
+    },
+    "zoom_out_37a7": {
         "message": "縮小"
     },
     "zoom_plus": {

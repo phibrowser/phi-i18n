@@ -5,9 +5,6 @@
     "a_deletion_request_for_this_account_is": {
         "message": "このアカウントの削除リクエストはすでに処理中です。削除が完了すると、確認メールが届きます。\n\nPhiはこれからログアウトし、このMacからPhiのデータを削除して終了します。"
     },
-    "a_little_library_of_things_worth_keeping": {
-        "message": "とっておきたいものを集めた、小さなライブラリ。"
-    },
     "a_migration_is_already_running_try_again": {
         "message": "移行がすでに実行中です。移行が完了してから、もう一度お試しください。"
     },
@@ -59,6 +56,9 @@
     "add": {
         "message": "追加"
     },
+    "add_a_new_tab_to_the_current": {
+        "message": "現在のタブグループに新しいタブを追加します。"
+    },
     "add_all_as_new": {
         "message": "すべて新規として追加"
     },
@@ -76,6 +76,9 @@
     },
     "add_new": {
         "message": "新規追加"
+    },
+    "add_new_tab_to_group": {
+        "message": "グループに新しいタブを追加"
     },
     "add_note": {
         "message": "メモを追加"
@@ -275,11 +278,14 @@
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "このプロファイルのCookie、履歴、拡張機能、保存データはすべて完全に削除されます。この操作は取り消せません。"
     },
+    "all_custom_shortcuts_will_be_removed_and": {
+        "message": "すべてのカスタムショートカットが削除され、デフォルトに戻されます。この操作は取り消せません。"
+    },
     "all_downloads": {
         "message": "すべてのダウンロード"
     },
-    "all_items": {
-        "message": "すべての項目"
+    "all_shortcuts": {
+        "message": "すべてのショートカット"
     },
     "all_sites": {
         "message": "すべてのサイト"
@@ -325,6 +331,9 @@
     },
     "already_in_your_account": {
         "message": "すでにアカウントにあります"
+    },
+    "also": {
+        "message": "その他：%@"
     },
     "also_include_and_all_its_subdomains": {
         "message": "%@とそのすべてのサブドメインも含める"
@@ -422,23 +431,23 @@
     "are_you_sure_you_want_to_quit": {
         "message": "Phiを終了してもよろしいですか？"
     },
+    "area_screenshot_copied": {
+        "message": "範囲のスクリーンショットをコピーしました"
+    },
+    "arrow": {
+        "message": "矢印"
+    },
     "article": {
         "message": "記事"
-    },
-    "article_19d9b3": {
-        "message": "記事"
-    },
-    "articles": {
-        "message": "記事"
-    },
-    "articles_to_return_to_ideas_to_sit": {
-        "message": "読み返したい記事、じっくり向き合いたいアイデア、失いたくない一節。そうしたものに、専用の場所を。"
     },
     "ask_every_time": {
         "message": "毎回確認する"
     },
     "assign": {
         "message": "割り当てる"
+    },
+    "assign_a_new_kiosk_window_shortcut_in": {
+        "message": "「ショートカット」で「新しいKioskウインドウ」のショートカットを割り当ててください。"
     },
     "assign_to": {
         "message": "%@に割り当て"
@@ -557,8 +566,14 @@
     "blue": {
         "message": "ブルー"
     },
+    "blur": {
+        "message": "モザイク"
+    },
     "bookmark": {
         "message": "%d件のブックマーク"
+    },
+    "bookmark_all_open_tabs": {
+        "message": "開いているすべてのタブをブックマークに追加します。"
     },
     "bookmark_all_tabs": {
         "message": "すべてのタブをブックマークに追加…"
@@ -580,6 +595,9 @@
     },
     "bookmark_name_a30a7a": {
         "message": "ブックマーク名"
+    },
+    "bookmark_the_current_page": {
+        "message": "現在のページをブックマークに追加します。"
     },
     "bookmark_this_tab": {
         "message": "このタブをブックマークに追加…"
@@ -637,6 +655,9 @@
     },
     "bot_token": {
         "message": "ボットトークン"
+    },
+    "bring_to_front": {
+        "message": "最前面へ移動"
     },
     "bring_your_spaces_bookmarks_pinned_tabs_and": {
         "message": "スペース、ブックマーク、ピンで固定されたタブ、対応する閲覧データをほかのデバイスでも使えるようにします。復旧コードを保存してから、このMacをアカウントに参加させる方法を選択してください。"
@@ -719,6 +740,9 @@
     "cancel_272a6a": {
         "message": "キャンセル"
     },
+    "cancel_2b384b": {
+        "message": "キャンセル"
+    },
     "cancel_3d2cd0": {
         "message": "キャンセル"
     },
@@ -749,10 +773,13 @@
     "cancel_7d73f2": {
         "message": "キャンセル"
     },
+    "cancel_7e6b95": {
+        "message": "キャンセル"
+    },
     "cancel_7e8473": {
         "message": "キャンセル"
     },
-    "cancel_957ba8": {
+    "cancel_8f6d61": {
         "message": "キャンセル"
     },
     "cancel_9b3e6c": {
@@ -842,6 +869,9 @@
     "cancelled": {
         "message": "キャンセル済み"
     },
+    "capture_area": {
+        "message": "範囲をキャプチャ…"
+    },
     "capture_full_page": {
         "message": "ページ全体をキャプチャ"
     },
@@ -905,6 +935,12 @@
     "change_space_icon": {
         "message": "スペースのアイコンを変更"
     },
+    "change_style": {
+        "message": "スタイルの変更"
+    },
+    "change_the_group_of_the_current_tab": {
+        "message": "現在のタブのグループを変更します。"
+    },
     "change_theme": {
         "message": "テーマを変更"
     },
@@ -925,6 +961,9 @@
     },
     "check_for_update_9e397e": {
         "message": "アップデートを確認…"
+    },
+    "check_the_document_for_spelling_errors": {
+        "message": "書類のスペルミスをチェックします。"
     },
     "check_the_rule_sets_to_use_done": {
         "message": "使用するルールセットにチェックを入れてください。「完了」をクリックすると、チェックした項目のうち未ダウンロードのものが提供元からダウンロードされます。指示するまで何もダウンロードされません。カスタムリストは3つのスイッチすべてに適用されます。"
@@ -950,14 +989,17 @@
     "choose_a_download_location_for_this_profile": {
         "message": "このプロファイルのダウンロード先を選択してください。"
     },
+    "choose_a_file_to_open_in_phi": {
+        "message": "Phiで開くファイルを選択します。"
+    },
     "choose_a_name_address_and_folder_for": {
         "message": "このブックマークの名前、アドレス、フォルダを指定してください。"
     },
     "choose_a_name_and_address_for_this": {
         "message": "この固定タブの名前とアドレスを指定してください。"
     },
-    "choose_an_item_from_your_collection_and": {
-        "message": "コレクションから項目を選んで、読むための小さな余白をつくりましょう。"
+    "choose_a_space_for_the_current_peek": {
+        "message": "現在のPeekまたはKioskのページを開くスペースを選択します。"
     },
     "choose_and_download_rule_sets": {
         "message": "ルールセットを選択してダウンロード"
@@ -998,6 +1040,9 @@
     "choose_where_this_profile_s_saved_pages": {
         "message": "このプロファイルで保存したページの保存先を選択してください。"
     },
+    "choose_which_browsing_data_to_clear": {
+        "message": "消去する閲覧データを選択します。"
+    },
     "choose_which_profiles_agents_may_create_their": {
         "message": "エージェントが自身のスペースを作成できるプロファイルを選択してください。プロファイルをオフにすると、そのプロファイルに紐づく新しいスペースをエージェントは開けなくなります。既存のスペースには影響しません。"
     },
@@ -1028,11 +1073,11 @@
     "clear_search": {
         "message": "検索を消去"
     },
-    "clear_search_c9a806": {
-        "message": "検索を消去"
-    },
     "click": {
         "message": "クリック "
+    },
+    "click_the_shortcut_to_record_a_new": {
+        "message": "ショートカットをクリックして、新しいキーの組み合わせを記録します。"
     },
     "click_the_title_for_overview_click_the": {
         "message": "タイトルをクリックすると概要が表示されます。矢印をクリックすると展開・折りたたみを切り替えられます。"
@@ -1057,6 +1102,9 @@
     },
     "close_9f9dbb": {
         "message": "閉じる"
+    },
+    "close_all_phi_windows": {
+        "message": "Phiのすべてのウインドウを閉じます。"
     },
     "close_b52252": {
         "message": "閉じる"
@@ -1103,11 +1151,35 @@
     "close_tab_f52cc8": {
         "message": "タブを閉じる"
     },
+    "close_tab_group": {
+        "message": "タブグループを閉じる"
+    },
     "close_tabs": {
         "message": "タブを閉じる"
     },
+    "close_tabs_to_the_right_of_the": {
+        "message": "現在のタブの右側にあるタブを閉じます。"
+    },
+    "close_the_current_tab": {
+        "message": "現在のタブを閉じます。"
+    },
+    "close_the_current_tab_group": {
+        "message": "現在のタブグループを閉じます。"
+    },
+    "close_the_current_window": {
+        "message": "現在のウインドウを閉じます。"
+    },
+    "close_the_other_tabs_in_the_current": {
+        "message": "現在のウインドウのほかのタブを閉じます。"
+    },
     "close_window": {
         "message": "ウインドウを閉じる"
+    },
+    "close_without_saving": {
+        "message": "保存せずに閉じる"
+    },
+    "close_without_saving_your_edits": {
+        "message": "編集内容を保存せずに閉じますか？"
     },
     "collapse_group": {
         "message": "グループを折りたたむ"
@@ -1117,9 +1189,6 @@
     },
     "collect_site_memories": {
         "message": "サイトのメモリを収集"
-    },
-    "collection": {
-        "message": "コレクション"
     },
     "color": {
         "message": "カラー"
@@ -1165,6 +1234,9 @@
     },
     "confirm_your_recovery_code": {
         "message": "復旧コードを確認"
+    },
+    "conflicting_shortcuts": {
+        "message": "競合しているショートカット"
     },
     "conflicts_with": {
         "message": "%@と競合しています"
@@ -1304,6 +1376,12 @@
     "copy_right_url_970e63": {
         "message": "右側のURLをコピー"
     },
+    "copy_the_current_page_s_url_to": {
+        "message": "現在のページのURLをクリップボードにコピーします。"
+    },
+    "copy_the_selection_to_the_clipboard": {
+        "message": "選択範囲をクリップボードにコピーします。"
+    },
     "copy_top_url": {
         "message": "上のURLをコピー"
     },
@@ -1436,9 +1514,6 @@
     "couldn_t_read_data_on_this_mac": {
         "message": "このMacのデータを読み取れませんでした"
     },
-    "couldn_t_read_your_folio": {
-        "message": "Folioを読み込めませんでした"
-    },
     "couldn_t_rename_profile": {
         "message": "プロファイルの名前を変更できませんでした"
     },
@@ -1466,11 +1541,23 @@
     "create": {
         "message": "作成"
     },
+    "create_a_copy_of_the_current_tab": {
+        "message": "現在のタブの複製を作成します。"
+    },
     "create_a_new_folder_to_organize_your": {
         "message": "ブックマークを整理する新しいフォルダを作成します。"
     },
+    "create_a_new_incognito_space": {
+        "message": "新しいシークレットスペースを作成します。"
+    },
+    "create_a_new_tab_group": {
+        "message": "新しいタブグループを作成します。"
+    },
     "create_a_space": {
         "message": "スペースを作成"
+    },
+    "create_new_tab_group": {
+        "message": "新しいタブグループを作成"
     },
     "create_on_this_mac": {
         "message": "このMacに作成"
@@ -1490,6 +1577,9 @@
     "credential_request_from": {
         "message": "「%@」からの認証情報のリクエスト"
     },
+    "crop": {
+        "message": "切り取り"
+    },
     "current": {
         "message": "現在"
     },
@@ -1499,6 +1589,9 @@
     "custom": {
         "message": "カスタム"
     },
+    "custom_color": {
+        "message": "カスタムカラー"
+    },
     "custom_filter": {
         "message": "カスタムフィルタ"
     },
@@ -1507,6 +1600,12 @@
     },
     "custom_telegram_bot": {
         "message": "カスタムTelegramボット"
+    },
+    "customized_shortcuts": {
+        "message": "カスタマイズしたショートカット"
+    },
+    "cut_the_selection_to_the_clipboard": {
+        "message": "選択範囲をカットしてクリップボードに入れます。"
     },
     "cyan": {
         "message": "シアン"
@@ -1522,6 +1621,9 @@
     },
     "days_ago": {
         "message": "%d日前"
+    },
+    "decrease_the_zoom_level_of_the_current": {
+        "message": "現在のページのズームレベルを下げます。"
     },
     "default": {
         "message": "デフォルト"
@@ -1564,6 +1666,9 @@
     },
     "delete_backup": {
         "message": "バックアップを削除"
+    },
+    "delete_bc7b23": {
+        "message": "削除"
     },
     "delete_bookmark": {
         "message": "%d件のブックマークを削除しますか？"
@@ -1706,7 +1811,13 @@
     "dismiss_094028": {
         "message": "閉じる"
     },
+    "dismiss_8fe66a": {
+        "message": "閉じる"
+    },
     "dismiss_cb343b": {
+        "message": "閉じる"
+    },
+    "dismiss_d97b3f": {
         "message": "閉じる"
     },
     "dismiss_media_player": {
@@ -1790,8 +1901,17 @@
     "drag_tabs_here_or_pin_them_from": {
         "message": "タブをここにドラッグするか、タブリストから固定してください"
     },
+    "drag_to_move_the_toolbar": {
+        "message": "ドラッグしてツールバーを移動"
+    },
     "drag_to_reorder_space": {
         "message": "ドラッグしてスペースを並べ替え"
+    },
+    "drag_to_select_an_area": {
+        "message": "ドラッグして範囲を選択"
+    },
+    "drag_to_select_scroll_or_drag_to": {
+        "message": "ドラッグして選択 · スクロールまたは端までドラッグして範囲を拡張 · Escapeキーでキャンセル"
     },
     "duplicate": {
         "message": "複製"
@@ -1841,6 +1961,9 @@
     "edit_7e9a": {
         "message": "編集"
     },
+    "edit_annotation": {
+        "message": "注釈の編集"
+    },
     "edit_bookmark": {
         "message": "ブックマークを編集"
     },
@@ -1862,8 +1985,14 @@
     "edit_pinned_tab": {
         "message": "固定タブを編集"
     },
+    "edit_screenshot": {
+        "message": "スクリーンショットを編集"
+    },
     "edit_split_bookmark": {
         "message": "分割表示のブックマークを編集"
+    },
+    "edit_text": {
+        "message": "テキストの編集"
     },
     "edit_the_name_and_address_for_this": {
         "message": "このブックマークの名前とアドレスを編集します。"
@@ -1888,6 +2017,9 @@
     },
     "edit_theme_f7ce4c": {
         "message": "テーマを編集"
+    },
+    "ellipse": {
+        "message": "楕円"
     },
     "email_address": {
         "message": "メールアドレス"
@@ -1958,6 +2090,9 @@
     "enter_at_least_one_filter_rule": {
         "message": "フィルタルールを1つ以上入力してください。"
     },
+    "enter_or_leave_full_screen": {
+        "message": "フルスクリーンにする、またはフルスクリーンを解除します。"
+    },
     "enter_the_6_digit_code_sent_to": {
         "message": "%@に送信された6桁のコードを入力してください。"
     },
@@ -1978,6 +2113,9 @@
     },
     "error": {
         "message": "エラー"
+    },
+    "escape_shortcuts_require_command_or_control": {
+        "message": "Escapeキーのショートカットには、CommandキーまたはControlキーが必要です。"
     },
     "every_agent_is_allowed_so_none_is": {
         "message": "すべてのエージェントが許可されているため、個別に承認されているエージェントはありません。"
@@ -2021,6 +2159,9 @@
     "export": {
         "message": "書き出す"
     },
+    "export_0a78d0": {
+        "message": "書き出す…"
+    },
     "export_account_data": {
         "message": "アカウントデータのエクスポート"
     },
@@ -2041,6 +2182,9 @@
     },
     "export_logs_a846d2": {
         "message": "ログを書き出す"
+    },
+    "export_the_screenshot_as_jpg_or_pdf": {
+        "message": "編集内容を保持するには、スクリーンショットをJPGまたはPDFとして書き出してください。"
     },
     "export_user_data": {
         "message": "ユーザーデータを書き出す…"
@@ -2120,8 +2264,14 @@
     "file": {
         "message": "ファイル"
     },
+    "fill": {
+        "message": "塗りつぶし"
+    },
     "filter_rules": {
         "message": "フィルタルール"
+    },
+    "filter_shortcuts": {
+        "message": "ショートカットを絞り込む"
     },
     "filtering_is_running_with_the_last_good": {
         "message": "最後に正常に機能したルールでフィルタリングを実行中"
@@ -2137,6 +2287,9 @@
     },
     "find_shortcut_keys": {
         "message": "ショートカットキーを検索"
+    },
+    "find_text_on_the_current_page": {
+        "message": "現在のページ内のテキストを検索します。"
     },
     "finish": {
         "message": "完了"
@@ -2159,11 +2312,35 @@
     "finish_signing_out_in_your_browser": {
         "message": "ブラウザでログアウトを完了してください。"
     },
+    "fit": {
+        "message": "ウインドウに合わせる"
+    },
     "fixes_and_rules_maintained_by_phi_keep": {
         "message": "Phiが管理する修正とルールです。サイトの動作に問題が出ない限り、オンのままにしてください。"
     },
     "focus_address_bar": {
         "message": "アドレスバーにフォーカス"
+    },
+    "focus_next_pane": {
+        "message": "次のペインにフォーカス"
+    },
+    "focus_next_tab_group": {
+        "message": "次のタブグループにフォーカス"
+    },
+    "focus_open_popup": {
+        "message": "開いているポップアップにフォーカス"
+    },
+    "focus_previous_pane": {
+        "message": "前のペインにフォーカス"
+    },
+    "focus_previous_tab_group": {
+        "message": "前のタブグループにフォーカス"
+    },
+    "focus_the_address_bar_to_enter_a": {
+        "message": "アドレスバーにフォーカスして、URLの入力または検索を行います。"
+    },
+    "focus_the_address_bar_to_search_the": {
+        "message": "アドレスバーにフォーカスして、ウェブを検索します。"
     },
     "folder": {
         "message": "フォルダ"
@@ -2417,6 +2594,12 @@
     "for_web_development_while_an_agent_operates": {
         "message": "Web開発向けの設定です。エージェントがページを操作している間、Phiはページの再配色を停止し、操作中のマスクを透明にして、「操作を引き継ぐ」バーを最小化します。この場合も、操作を引き継ぐまでページは入力を受け付けません。すぐに適用されます。"
     },
+    "force_reload_page": {
+        "message": "ページを強制的に再読み込み"
+    },
+    "format": {
+        "message": "フォーマット"
+    },
     "forward": {
         "message": "進む"
     },
@@ -2425,6 +2608,9 @@
     },
     "forward_e876ba": {
         "message": "進む"
+    },
+    "freehand": {
+        "message": "フリーハンド"
     },
     "from": {
         "message": "提供元: %@"
@@ -2471,8 +2657,17 @@
     "go_to": {
         "message": "%@へ移動"
     },
+    "go_to_7113ff": {
+        "message": "%@へ移動"
+    },
     "go_to_space": {
         "message": "スペース「%@」に移動"
+    },
+    "go_to_the_next_page_in_this": {
+        "message": "このタブの履歴で次のページに進みます。"
+    },
+    "go_to_the_previous_page_in_this": {
+        "message": "このタブの履歴で前のページに戻ります。"
     },
     "granted": {
         "message": "許可日: %@"
@@ -2510,6 +2705,12 @@
     "hide": {
         "message": "非表示"
     },
+    "hide_other_applications": {
+        "message": "ほかのアプリケーションを隠します。"
+    },
+    "hide_phi_and_its_windows": {
+        "message": "Phiとそのウインドウを隠します。"
+    },
     "hide_sidebar": {
         "message": "サイドバーを隠す"
     },
@@ -2521,9 +2722,6 @@
     },
     "highlight_saved": {
         "message": "ハイライトを保存しました"
-    },
-    "highlights": {
-        "message": "ハイライト"
     },
     "history": {
         "message": "履歴"
@@ -2602,6 +2800,9 @@
     },
     "import": {
         "message": "読み込む…"
+    },
+    "import_bookmarks_and_settings_from_another_browser": {
+        "message": "ほかのブラウザからブックマークと設定を読み込みます。"
     },
     "import_completed_successfully": {
         "message": "読み込みが完了しました"
@@ -2687,11 +2888,17 @@
     "incognito_f5b3ca": {
         "message": "シークレット"
     },
+    "increase_the_zoom_level_of_the_current": {
+        "message": "現在のページのズームレベルを上げます。"
+    },
     "initial_sync_in_progress": {
         "message": "初回同期が進行中"
     },
     "insecure_download_blocked": {
         "message": "安全でないダウンロードをブロックしました"
+    },
+    "inspect_an_element_on_the_current_page": {
+        "message": "現在のページの要素を検証します。"
     },
     "install": {
         "message": "インストール"
@@ -2735,8 +2942,17 @@
     "iris": {
         "message": "アイリス"
     },
+    "is_used_by_reassigning_removes_only_this": {
+        "message": "%@は%@で使用されています。再割り当てすると、これらのコマンドからこのショートカットのみが削除されます。ほかのショートカットはそのまま有効です。"
+    },
+    "is_used_by_these_shortcuts_cannot_be": {
+        "message": "%@は%@で使用されています。これらのショートカットはここでは変更できません。別のキーを選択してください。"
+    },
     "items": {
         "message": "%d項目"
+    },
+    "jump_to_selection": {
+        "message": "選択部分へジャンプ"
     },
     "just_now": {
         "message": "たった今"
@@ -2750,8 +2966,8 @@
     "keep_3a0464": {
         "message": "保持"
     },
-    "keep_what_stays_with_you": {
-        "message": "心に残るものを、手元に。"
+    "keep_editing": {
+        "message": "編集を続ける"
     },
     "kiosk": {
         "message": "Kiosk"
@@ -2764,9 +2980,6 @@
     },
     "language": {
         "message": "言語"
-    },
-    "larger_text": {
-        "message": "文字を大きく"
     },
     "last_problem": {
         "message": "最後の問題: %1$@（%2$@）"
@@ -2797,9 +3010,6 @@
     },
     "layout_selection": {
         "message": "レイアウトの選択"
-    },
-    "least_recently_updated_first": {
-        "message": "更新が古い順"
     },
     "leave_empty_to_use_the_auto_generated": {
         "message": "空欄のままにすると、自動生成された名前が使用されます。"
@@ -2921,6 +3131,9 @@
     "manage_extensions_52d065": {
         "message": "拡張機能を管理"
     },
+    "manage_installed_browser_extensions": {
+        "message": "インストール済みのブラウザ拡張機能を管理します。"
+    },
     "manage_site_memories": {
         "message": "サイトのメモリを管理"
     },
@@ -2984,6 +3197,9 @@
     "minimise": {
         "message": "折りたたむ"
     },
+    "minimize_the_current_window": {
+        "message": "現在のウインドウをしまいます。"
+    },
     "mint": {
         "message": "ミント"
     },
@@ -3002,11 +3218,41 @@
     "more_spaces": {
         "message": "その他のスペース"
     },
+    "move": {
+        "message": "移動"
+    },
+    "move_focus_to_an_open_popup": {
+        "message": "開いているポップアップにフォーカスを移動します。"
+    },
+    "move_focus_to_the_next_browser_pane": {
+        "message": "次のブラウザペインにフォーカスを移動します。"
+    },
+    "move_focus_to_the_next_tab_group": {
+        "message": "次のタブグループにフォーカスを移動します。"
+    },
+    "move_focus_to_the_previous_browser_pane": {
+        "message": "前のブラウザペインにフォーカスを移動します。"
+    },
+    "move_focus_to_the_previous_tab_group": {
+        "message": "前のタブグループにフォーカスを移動します。"
+    },
+    "move_tab_left": {
+        "message": "タブを左に移動"
+    },
+    "move_tab_right": {
+        "message": "タブを右に移動"
+    },
     "move_tabs_to_group": {
         "message": "タブをグループに移動"
     },
-    "move_this_item_to_trash": {
-        "message": "この項目をゴミ箱に入れますか？"
+    "move_the_current_tab_one_position_to": {
+        "message": "現在のタブを1つ左に移動します。"
+    },
+    "move_the_current_tab_one_position_to_f3f777": {
+        "message": "現在のタブを1つ右に移動します。"
+    },
+    "move_the_current_tab_to_a_new": {
+        "message": "現在のタブを新しいウインドウに移動します。"
     },
     "move_to_group": {
         "message": "グループに移動"
@@ -3026,11 +3272,17 @@
     "move_to_space_90b3a5": {
         "message": "スペースに移動"
     },
-    "move_to_trash": {
-        "message": "ゴミ箱に入れる"
+    "move_to_the_next_matching_text_on": {
+        "message": "ページ内の次に一致するテキストに移動します。"
+    },
+    "move_to_the_previous_matching_text_on": {
+        "message": "ページ内の前に一致するテキストに移動します。"
     },
     "mute": {
         "message": "ミュート"
+    },
+    "mute_or_unmute_audio_from_the_current": {
+        "message": "現在のサイトの音声をミュートまたはミュート解除します。"
     },
     "mute_site": {
         "message": "サイトをミュート"
@@ -3359,12 +3611,6 @@
     "no_file_selected": {
         "message": "ファイルが選択されていません"
     },
-    "no_highlights_yet_highlight_a_passage_on": {
-        "message": "まだハイライトはありません。元のページで一節をハイライトすると、ここに保存されます。"
-    },
-    "no_items_match_this_view": {
-        "message": "この表示に一致する項目はありません。"
-    },
     "no_matching_bookmarks": {
         "message": "一致するブックマークはありません"
     },
@@ -3590,9 +3836,6 @@
     "on_an_authorized_device_open_settings_sync": {
         "message": "承認済みのデバイスで、設定 → 同期を開いてこのリクエストを承認してください。次のコードが一致していることを確認してください:"
     },
-    "on_any_webpage_choose_file_save_to": {
-        "message": "どのWebページでも「ファイル」→「Folioに保存」を選択"
-    },
     "on_browser_restart": {
         "message": "ブラウザの再起動時"
     },
@@ -3617,6 +3860,24 @@
     "open_a_browser_window_for_the_selected": {
         "message": "続行するには、選択したプロファイルのブラウザウインドウを開いてください。"
     },
+    "open_a_new_browser_window": {
+        "message": "新しいブラウザウインドウを開きます。"
+    },
+    "open_a_new_incognito_window": {
+        "message": "新しいシークレットウインドウを開きます。"
+    },
+    "open_a_new_kiosk_window": {
+        "message": "新しいKioskウインドウを開きます。"
+    },
+    "open_a_new_tab": {
+        "message": "新しいタブを開きます。"
+    },
+    "open_a_new_tab_to_the_right": {
+        "message": "現在のタブの右側に新しいタブを開きます。"
+    },
+    "open_a_tab_in_split_view": {
+        "message": "タブを分割表示で開きます。"
+    },
     "open_as_split": {
         "message": "分割表示で開く"
     },
@@ -3632,11 +3893,20 @@
     "open_as_tab": {
         "message": "タブで開く"
     },
+    "open_browser_help": {
+        "message": "ブラウザのヘルプを開きます。"
+    },
+    "open_developer_tools_for_the_current_page": {
+        "message": "現在のページのデベロッパーツールを開きます。"
+    },
     "open_devtools": {
         "message": "デベロッパーツールを開く"
     },
     "open_external_links_in_kiosk": {
         "message": "外部リンクをKioskで開く"
+    },
+    "open_file": {
+        "message": "ファイルを開く…"
     },
     "open_folio": {
         "message": "Folioを開く"
@@ -3668,14 +3938,20 @@
     "open_links_in_a_lightweight_window_one": {
         "message": "リンクを軽量なウインドウで1ページずつ開きます。"
     },
-    "open_original": {
-        "message": "元のページを開く"
+    "open_or_close_reader_for_the_current": {
+        "message": "現在のページのリーダー表示を開くか閉じます。"
+    },
+    "open_phi_settings": {
+        "message": "Phiの設定を開きます。"
     },
     "open_picture_in_picture": {
         "message": "ピクチャインピクチャにする"
     },
-    "open_saved_webpage": {
-        "message": "保存したWebページを開く"
+    "open_print_options_for_the_current_page": {
+        "message": "現在のページのプリントオプションを開きます。"
+    },
+    "open_reading_mode_for_the_current_page": {
+        "message": "現在のページを読書モードで開きます。"
     },
     "open_settings": {
         "message": "設定を開く"
@@ -3689,6 +3965,24 @@
     "open_tabs": {
         "message": "開いているタブ"
     },
+    "open_the_bookmark_manager": {
+        "message": "ブックマークマネージャを開きます。"
+    },
+    "open_the_current_peek_or_kiosk_page": {
+        "message": "現在のPeekまたはKioskのページをスペースで開きます。"
+    },
+    "open_the_feedback_page": {
+        "message": "フィードバックページを開きます。"
+    },
+    "open_the_home_page": {
+        "message": "ホームページを開きます。"
+    },
+    "open_the_javascript_console_for_the_current": {
+        "message": "現在のページのJavaScriptコンソールを開きます。"
+    },
+    "open_the_profiles_menu": {
+        "message": "プロファイルメニューを開きます。"
+    },
     "open_the_url_rules_editor": {
         "message": "URLルールエディタを開く"
     },
@@ -3701,11 +3995,23 @@
     "organize_tabs_with_ai": {
         "message": "AIでタブを整理"
     },
+    "organize_tabs_with_ai_413fc6": {
+        "message": "AIでタブを整理します。"
+    },
     "organize_tabs_with_ai_6111": {
         "message": "AIでタブを整理"
     },
     "organize_tabs_with_ai_e4d5d3": {
         "message": "AIでタブを整理"
+    },
+    "other": {
+        "message": "その他"
+    },
+    "other_active_shortcuts_read_only": {
+        "message": "その他の有効なショートカット（読み出し専用）"
+    },
+    "other_browser_commands": {
+        "message": "その他のブラウザコマンド"
     },
     "pairing_isn_t_available_right_now": {
         "message": "ペアリングは現在利用できません。"
@@ -3718,6 +4024,15 @@
     },
     "passwords_manager": {
         "message": "パスワードマネージャー"
+    },
+    "paste": {
+        "message": "ペースト"
+    },
+    "paste_text_using_the_surrounding_formatting": {
+        "message": "周囲の書式に合わせてテキストをペーストします。"
+    },
+    "paste_the_clipboard_contents": {
+        "message": "クリップボードの内容をペーストします。"
     },
     "pause": {
         "message": "一時停止"
@@ -3860,6 +4175,9 @@
     "pin_extension": {
         "message": "拡張機能を固定"
     },
+    "pin_or_unpin_the_current_tab": {
+        "message": "現在のタブを固定するか、固定を解除します。"
+    },
     "pin_split": {
         "message": "分割表示を固定"
     },
@@ -3938,6 +4256,9 @@
     "preparing_time_machine_restore": {
         "message": "Time Machineからの復元を準備中"
     },
+    "press_escape_to_cancel_or_delete_to": {
+        "message": "キャンセルするにはEscapeキーを、ショートカットを削除するにはDeleteキーを押します。"
+    },
     "press_shortcut": {
         "message": "ショートカットキーを押してください…"
     },
@@ -3961,6 +4282,21 @@
     },
     "print": {
         "message": "プリント…"
+    },
+    "print_the_browser_view_hierarchy_for_debugging": {
+        "message": "デバッグ用にブラウザのビュー階層を出力します。"
+    },
+    "print_the_current_page_using_the_system": {
+        "message": "システムのダイアログを使って現在のページをプリントします。"
+    },
+    "print_the_detailed_browser_view_hierarchy_for": {
+        "message": "デバッグ用にブラウザの詳細なビュー階層を出力します。"
+    },
+    "print_view_tree": {
+        "message": "ビュー階層を出力"
+    },
+    "print_view_tree_details": {
+        "message": "ビュー階層の詳細を出力"
     },
     "privacy": {
         "message": "プライバシー"
@@ -4031,6 +4367,12 @@
     "quit": {
         "message": "終了"
     },
+    "quit_phi": {
+        "message": "Phiを終了"
+    },
+    "quit_phi_8a937a": {
+        "message": "Phiを終了します。"
+    },
     "reader_view": {
         "message": "リーダー表示"
     },
@@ -4046,11 +4388,8 @@
     "reader_view_is_unavailable_on_this_page": {
         "message": "このページではリーダー表示を利用できません"
     },
-    "reading_mode": {
-        "message": "読書モード"
-    },
-    "reading_options_and_actions": {
-        "message": "読書オプションとアクション"
+    "reassign": {
+        "message": "再割り当て"
     },
     "reauthenticate": {
         "message": "再認証"
@@ -4064,9 +4403,6 @@
     "recently_closed": {
         "message": "最近閉じたタブ"
     },
-    "recently_updated_first": {
-        "message": "更新が新しい順"
-    },
     "recommended": {
         "message": "おすすめ"
     },
@@ -4076,8 +4412,17 @@
     "recovery_code": {
         "message": "復旧コード"
     },
+    "rectangle": {
+        "message": "長方形"
+    },
     "red": {
         "message": "レッド"
+    },
+    "redo": {
+        "message": "やり直す"
+    },
+    "redo_the_last_undone_edit": {
+        "message": "最後に取り消した編集をやり直します。"
     },
     "refresh": {
         "message": "再読み込み"
@@ -4087,9 +4432,6 @@
     },
     "refresh_connector_status": {
         "message": "コネクタの状態を更新"
-    },
-    "refresh_library": {
-        "message": "ライブラリを再読み込み"
     },
     "refused_without_asking": {
         "message": "確認せずに拒否します"
@@ -4105,6 +4447,12 @@
     },
     "reload_page": {
         "message": "ページを再読み込み"
+    },
+    "reload_the_current_page": {
+        "message": "現在のページを再読み込みします。"
+    },
+    "reload_the_current_page_without_using_cached": {
+        "message": "キャッシュされたコンテンツを使わずに現在のページを再読み込みします。"
     },
     "remember_email": {
         "message": "メールアドレスを記憶する"
@@ -4220,6 +4568,9 @@
     "reopen_closed_tab_de7200": {
         "message": "閉じたタブを再度開く"
     },
+    "reopen_the_most_recently_closed_tab": {
+        "message": "最後に閉じたタブを再度開きます。"
+    },
     "reopen_your_windows_and_tabs_the_next": {
         "message": "次にPhiを起動したときに、ウインドウとタブを再度開きます。"
     },
@@ -4259,6 +4610,12 @@
     "resend_code_cbc823": {
         "message": "コードを再送信（%d秒）"
     },
+    "reserved_browser_shortcut": {
+        "message": "予約済みのブラウザショートカット"
+    },
+    "reset_the_current_page_to_its_default": {
+        "message": "現在のページのズームレベルをデフォルトに戻します。"
+    },
     "resolve": {
         "message": "解決"
     },
@@ -4280,8 +4637,14 @@
     "restore_4c2571": {
         "message": "デフォルトに戻す"
     },
+    "restore_all": {
+        "message": "すべて戻す"
+    },
     "restore_all_shortcuts": {
         "message": "すべてのショートカットをデフォルトに戻す"
+    },
+    "restore_all_shortcuts_23ac": {
+        "message": "すべてのショートカットをデフォルトに戻しますか？"
     },
     "restore_last_session": {
         "message": "前回のセッションを復元"
@@ -4293,6 +4656,9 @@
         "message": "再開"
     },
     "retry": {
+        "message": "再試行"
+    },
+    "retry_05770d": {
         "message": "再試行"
     },
     "retry_39f08b": {
@@ -4406,6 +4772,12 @@
     "save_pages_to": {
         "message": "ページの保存先"
     },
+    "save_the_current_page_for_later": {
+        "message": "現在のページをあとで読むために保存します。"
+    },
+    "save_the_current_page_to_a_file": {
+        "message": "現在のページをファイルに保存します。"
+    },
     "save_to_folio": {
         "message": "Folioに保存"
     },
@@ -4421,14 +4793,14 @@
     "save_your_recovery_code_first": {
         "message": "先に復旧コードを保存してください"
     },
-    "saved": {
-        "message": "保存日"
-    },
     "saved_memories_for_will_be_deleted_from": {
         "message": "%@について保存されたメモリがこのブラウザプロファイルから削除されます。この操作は元に戻せません。"
     },
     "saved_only_what_had_loaded": {
         "message": "読み込み済みの部分のみを保存しました"
+    },
+    "saved_shortcuts_could_not_be_read_retry": {
+        "message": "保存されたショートカットを読み込めませんでした。再試行するか、すべてのショートカットをデフォルトに戻してください。戻す場合は復旧用のコピーが保持され、デフォルトが使用されます。"
     },
     "saved_to_folio": {
         "message": "Folioに保存しました"
@@ -4457,6 +4829,9 @@
     "screenshot_timed_out_please_try_again": {
         "message": "スクリーンショットがタイムアウトしました。もう一度お試しください。"
     },
+    "scroll_to_the_selected_text": {
+        "message": "選択したテキストまでスクロールします。"
+    },
     "search": {
         "message": "検索"
     },
@@ -4472,6 +4847,9 @@
     "search_ac220a": {
         "message": "検索…"
     },
+    "search_by_name_or_keys_such_as": {
+        "message": "「cmd ctrl S」や「⌘⌃S」のように、名前またはキーで検索できます。"
+    },
     "search_downloads": {
         "message": "ダウンロードを検索"
     },
@@ -4486,6 +4864,9 @@
     },
     "search_mk_3074": {
         "message": "%@で検索"
+    },
+    "search_open_tabs": {
+        "message": "開いているタブを検索します。"
     },
     "search_or_enter_url": {
         "message": "検索またはURLを入力"
@@ -4511,14 +4892,20 @@
     "search_the_web": {
         "message": "ウェブを検索..."
     },
-    "search_your_library": {
-        "message": "ライブラリを検索"
+    "select": {
+        "message": "選択"
     },
     "select_a_profile_to_view_its_settings": {
         "message": "プロファイルを選択すると、その設定が表示されます。"
     },
+    "select_a_shortcut_to_view_its_details": {
+        "message": "ショートカットを選択すると詳細が表示されます。"
+    },
     "select_a_space_to_view_its_settings": {
         "message": "スペースを選択すると、その設定が表示されます。"
+    },
+    "select_all_content_in_the_focused_area": {
+        "message": "フォーカスされている領域のすべての内容を選択します。"
     },
     "select_at_least_one_category_to_back": {
         "message": "バックアップするカテゴリを1つ以上選択してください。"
@@ -4538,6 +4925,15 @@
     "select_tab": {
         "message": "タブ%dを選択"
     },
+    "select_the_last_tab": {
+        "message": "最後のタブを選択します。"
+    },
+    "select_the_next_tab": {
+        "message": "次のタブを選択します。"
+    },
+    "select_the_previous_tab": {
+        "message": "前のタブを選択します。"
+    },
     "self_hosted": {
         "message": "セルフホスト"
     },
@@ -4555,6 +4951,9 @@
     },
     "send_feedback_to_phi": {
         "message": "Phiにフィードバックを送信"
+    },
+    "send_to_back": {
+        "message": "最背面へ移動"
     },
     "sending_a_verification_code_to": {
         "message": "%@に確認コードを送信しています…"
@@ -4670,14 +5069,23 @@
     "share_page": {
         "message": "ページを共有"
     },
+    "share_the_current_page": {
+        "message": "現在のページを共有します。"
+    },
     "shift_click_a_link_or_choose_open": {
         "message": "Shiftキーを押しながらリンクをクリックするか、「リンクをPeekビューで開く」を選択すると、ページの上に重なるフローティングパネルでプレビューできます。ゆったりレイアウトでは利用できません。"
+    },
+    "shortcut_already_in_use": {
+        "message": "ショートカットはすでに使用されています"
     },
     "shortcuts": {
         "message": "ショートカット"
     },
     "shortcuts_b6a37f": {
         "message": "ショートカット"
+    },
+    "shortcuts_changed_while_you_were_reviewing_them": {
+        "message": "確認中にショートカットが変更されました。現在の競合を確認するには、ショートカットをもう一度記録してください。"
     },
     "shorten_links_to_selected_text": {
         "message": "選択したテキストへのリンクを短縮する"
@@ -4690,9 +5098,6 @@
     },
     "show_a_preview_card_when_hovering_over": {
         "message": "タブにポインタを合わせたときにプレビューカードを表示"
-    },
-    "show_all_items": {
-        "message": "すべての項目を表示"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "新しいタブでブックマークバーを表示"
@@ -4715,9 +5120,6 @@
     "show_in_finder_8593df": {
         "message": "Finderに表示"
     },
-    "show_in_finder_bb73ef": {
-        "message": "Finderに表示"
-    },
     "show_in_folder": {
         "message": "フォルダで表示"
     },
@@ -4733,17 +5135,38 @@
     "show_operated_pages_exactly_as_rendered": {
         "message": "操作中のページをレンダリングどおりに表示"
     },
+    "show_or_hide_the_bookmarks_bar_only": {
+        "message": "ブックマークバーを表示または非表示にします。ゆったりレイアウトでのみ使用できます。"
+    },
+    "show_or_hide_the_chat_panel": {
+        "message": "チャットパネルを表示または非表示にします。"
+    },
+    "show_or_hide_the_sidebar": {
+        "message": "サイドバーを表示または非表示にします。"
+    },
+    "show_or_hide_the_toolbar_in_full": {
+        "message": "フルスクリーン時にツールバーを表示または非表示にします。"
+    },
     "show_playing_tab": {
         "message": "再生中のタブを表示"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "新しいタブページにプロアクティブな提案を表示"
     },
+    "show_profiles_menu": {
+        "message": "プロファイルメニューを表示"
+    },
+    "show_reading_mode": {
+        "message": "読書モードを表示"
+    },
     "show_sidebar": {
         "message": "サイドバーを表示"
     },
     "show_sidebar_media_player": {
         "message": "ミニプレーヤーを表示"
+    },
+    "show_spelling_and_grammar_options": {
+        "message": "スペルと文法のオプションを表示します。"
     },
     "show_tab_switcher": {
         "message": "タブスイッチャーを表示"
@@ -4753,6 +5176,12 @@
     },
     "show_the_agent_s_command_and_process": {
         "message": "エージェントのコマンドとプロセスツリーを表示"
+    },
+    "show_the_tab_switcher_and_move_backward": {
+        "message": "タブスイッチャーを表示して、最近使ったタブを逆順に移動します。"
+    },
+    "show_the_tab_switcher_and_move_forward": {
+        "message": "タブスイッチャーを表示して、最近使ったタブを順に移動します。"
     },
     "show_transcript": {
         "message": "トランスクリプトを表示"
@@ -4877,9 +5306,6 @@
     "skip_this_version": {
         "message": "このバージョンをスキップ"
     },
-    "smaller_text": {
-        "message": "文字を小さく"
-    },
     "some_account_and_system_information_may_be": {
         "message": "アカウントやシステムに関する一部の情報がPhinomenonに送信される場合があります。ご提供いただいた情報は、プライバシーポリシーおよび利用規約に従って、技術的な問題の解決とサービスの改善のために使用します。"
     },
@@ -4910,14 +5336,8 @@
     "something_went_wrong_while_setting_up_the": {
         "message": "プロファイルの設定中に問題が発生しました。"
     },
-    "something_worth_returning_to": {
-        "message": "また戻りたくなるものを。"
-    },
     "sorry_for_the_interruption_a_few_details": {
         "message": "ご迷惑をおかけして申し訳ありません。クラッシュ前に何が起きていたかを少しお知らせいただくと、問題の把握とPhiの信頼性向上に役立ちます。"
-    },
-    "sort_collection": {
-        "message": "コレクションを並べ替え"
     },
     "source": {
         "message": "提供元"
@@ -4991,6 +5411,9 @@
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "常時許可は、設定でいつでも確認・取り消しできます。"
     },
+    "start_a_new_conversation_in_phi_chat": {
+        "message": "Phi Chatで新しい会話を開始します。"
+    },
     "start_migration": {
         "message": "移行を開始"
     },
@@ -5006,11 +5429,11 @@
     "stop_022eb3": {
         "message": "停止"
     },
+    "stop_loading_the_current_page": {
+        "message": "現在のページの読み込みを停止します。"
+    },
     "store_this_code_somewhere_safe_you_will": {
         "message": "このコードは安全な場所に保管してください。別のデバイスをアカウントに追加するときに必要になります。"
-    },
-    "stored_on_your_mac": {
-        "message": "このMacに保存済み"
     },
     "submit": {
         "message": "送信"
@@ -5029,6 +5452,18 @@
     },
     "switch_to_agent_space": {
         "message": "エージェントのスペースに切り替える"
+    },
+    "switch_to_space_in_the_current_window": {
+        "message": "現在のウインドウのスペース%dに切り替えます。"
+    },
+    "switch_to_tab_in_the_current_window": {
+        "message": "現在のウインドウのタブ%dに切り替えます。"
+    },
+    "switch_to_the_next_space": {
+        "message": "次のスペースに切り替えます。"
+    },
+    "switch_to_the_previous_space": {
+        "message": "前のスペースに切り替えます。"
     },
     "sync": {
         "message": "同期"
@@ -5138,6 +5573,12 @@
     "terms_of_service": {
         "message": "利用規約"
     },
+    "text": {
+        "message": "テキスト"
+    },
+    "text_size": {
+        "message": "テキストサイズ"
+    },
     "that_code_has_expired_click_resend_code": {
         "message": "コードの有効期限が切れています。「コードを再送信」をクリックして新しいコードを取得してください。"
     },
@@ -5171,11 +5612,11 @@
     "the_archive_does_not_contain_a_top": {
         "message": "アーカイブにトップレベルのPhiフォルダが含まれていません。"
     },
-    "the_article_and_its_saved_webpage_copy": {
-        "message": "記事と保存したWebページのコピーがゴミ箱に移動されます。Finderで復元できます。"
-    },
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "Bitwardenのブラウザ拡張機能は、ウェブページで保管庫のログイン情報を自動入力します。今すぐPhiがChromeウェブストアからインストールできます。"
+    },
+    "the_change_could_not_be_saved_your": {
+        "message": "変更を保存できませんでした。以前のショートカットは引き続き有効です。もう一度変更してください。"
     },
     "the_change_will_finish_in_the_background": {
         "message": "変更はバックグラウンドで完了します。"
@@ -5194,6 +5635,9 @@
     },
     "the_folio_folder_could_not_be_read": {
         "message": "Folioフォルダを読み込めませんでした。"
+    },
+    "the_global_shortcut_is_unavailable_choose_another": {
+        "message": "グローバルショートカットを利用できません。別のショートカットを選択するか、この設定をオフにしてからオンにして、もう一度お試しください。"
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "ローカルのIMサービスが利用できません。Phi Sentinelが正常に起動し、IMサービスが動作しているか確認してください。"
@@ -5315,9 +5759,6 @@
     "this_is_the_last_device_on_the": {
         "message": "これはアカウント上の最後のデバイスのため、削除できません。このデバイスでペアリングを完了するか（読み取れないプロファイルがあっても完了できます）、先に別のデバイスで同期を設定してから、もう一度お試しください。"
     },
-    "this_item_has_no_article_text_you": {
-        "message": "この項目には記事のテキストがありません。元のページ、または保存したWebページのコピーを開くことができます。"
-    },
     "this_mac": {
         "message": "このMac"
     },
@@ -5357,8 +5798,23 @@
     "this_request_timed_out_you_can_try": {
         "message": "このリクエストはタイムアウトしました。もう一度お試しいただけます。"
     },
+    "this_screenshot_is_too_large_to_edit": {
+        "message": "このスクリーンショットは大きすぎるため編集できません。元のPNGは保存できます。"
+    },
     "this_session": {
         "message": "このセッションのみ"
+    },
+    "this_shortcut_conflicts_with": {
+        "message": "このショートカットは次と競合しています："
+    },
+    "this_shortcut_conflicts_with_a_macos_system": {
+        "message": "このショートカットはmacOSのシステムショートカットと競合しているため、Phiで動作しない場合があります。"
+    },
+    "this_shortcut_is_available_in_other_apps": {
+        "message": "このショートカットはほかのアプリでも使用できます。"
+    },
+    "this_shortcut_is_not_supported_globally_with": {
+        "message": "このショートカットは、現在のキーボードレイアウトではグローバルに使用できません。別のショートカットを選択してください。"
     },
     "this_site_isn_t_using_a_secure": {
         "message": "このサイトは安全な接続を使用していないため、ファイルが改ざんされている可能性があります"
@@ -5441,6 +5897,12 @@
     "toggle_sidebar_307510": {
         "message": "サイドバーの表示/非表示"
     },
+    "toggle_tablet_mode": {
+        "message": "タブレットモードを切り替え"
+    },
+    "toggle_tablet_mode_for_browser_debugging": {
+        "message": "ブラウザのデバッグ用にタブレットモードを切り替えます。"
+    },
     "token_verified_successfully": {
         "message": "トークンを確認しました"
     },
@@ -5466,9 +5928,6 @@
         "message": "再試行"
     },
     "try_again_ba7845": {
-        "message": "再試行"
-    },
-    "try_again_cd0a4c": {
         "message": "再試行"
     },
     "try_another_way": {
@@ -5515,6 +5974,12 @@
     },
     "undo": {
         "message": "取り消す"
+    },
+    "undo_2ca0be": {
+        "message": "取り消す"
+    },
+    "undo_the_last_edit": {
+        "message": "最後の編集を取り消します。"
     },
     "ungroup": {
         "message": "グループを解除"
@@ -5672,8 +6137,17 @@
     "urls_matching_any_rule_will_open_in": {
         "message": "いずれかのルールに一致するURLは、どこでクリックまたは入力しても、選択した開き先で開きます。"
     },
+    "use_a_modifier_key_letters_and_symbols": {
+        "message": "修飾キーを使用してください。文字や記号のキーには、Commandキー、Controlキー、またはOptionキーが必要です。"
+    },
     "use_a_recovery_code": {
         "message": "復旧コードを使用"
+    },
+    "use_selection_for_find": {
+        "message": "選択部分を検索"
+    },
+    "use_the_selected_text_as_the_search": {
+        "message": "選択したテキストを検索テキストとして使用します。"
     },
     "using_telegram_to_send_and_receive_messages": {
         "message": "Telegramを使って%@とメッセージを送受信します"
@@ -5711,23 +6185,29 @@
     "version": {
         "message": "バージョン%1$@ (%2$@)"
     },
-    "video": {
-        "message": "動画"
-    },
-    "videos": {
-        "message": "動画"
-    },
     "view": {
         "message": "表示"
     },
     "view_and_manage_your_browser_memory": {
         "message": "ブラウザのメモリを表示・管理"
     },
+    "view_browser_tasks_and_their_resource_usage": {
+        "message": "ブラウザのタスクとそのリソース使用状況を表示します。"
+    },
     "view_details": {
         "message": "詳細を表示"
     },
     "view_page_source": {
         "message": "ページのソースを表示"
+    },
+    "view_the_source_of_the_current_page": {
+        "message": "現在のページのソースを表示します。"
+    },
+    "view_your_browsing_history": {
+        "message": "閲覧履歴を表示します。"
+    },
+    "view_your_downloads": {
+        "message": "ダウンロードを表示します。"
     },
     "volume_click_to_toggle_mute": {
         "message": "音量（⌥-クリックでミュートを切り替え）"
@@ -5807,6 +6287,9 @@
     "what_should_i_call_you": {
         "message": "何とお呼びすればよいですか？"
     },
+    "width": {
+        "message": "線の幅"
+    },
     "will_be_deleted": {
         "message": "%@が削除されます。"
     },
@@ -5864,9 +6347,6 @@
     "your_answer_is_about_pick_a_row": {
         "message": "回答の対象は「%@」です。上のいずれかの行を選択すると、代わりにそれを起動したプロセスを対象に回答できます。"
     },
-    "your_collection_starts_here": {
-        "message": "コレクションはここから始まります。"
-    },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "現在の固定タブが、既存の各コピー先に複製されます。複製後は、それぞれ個別に変更できます。"
     },
@@ -5881,6 +6361,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "削除リクエストを送信しました。削除が完了すると、確認のメールが届きます。\n\nこれからPhiはログアウトし、このMacからデータを削除して終了します。"
+    },
+    "your_edits_are_still_available_choose_another": {
+        "message": "編集内容は保持されています。別の場所を選択して、もう一度お試しください。"
     },
     "your_note": {
         "message": "メモを入力"
@@ -5927,6 +6410,9 @@
     "zoom_in": {
         "message": "拡大"
     },
+    "zoom_in_14fd": {
+        "message": "拡大"
+    },
     "zoom_minus": {
         "message": "縮小"
     },
@@ -5934,6 +6420,9 @@
         "message": "実際のサイズ"
     },
     "zoom_out": {
+        "message": "縮小"
+    },
+    "zoom_out_37a7": {
         "message": "縮小"
     },
     "zoom_plus": {

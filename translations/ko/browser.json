@@ -5,9 +5,6 @@
     "a_deletion_request_for_this_account_is": {
         "message": "이 계정의 삭제 요청이 이미 처리되고 있어요. 삭제가 완료되면 확인 이메일을 받게 돼요.\n\n이제 Phi에서 로그아웃되고, 이 Mac에서 Phi 데이터가 제거된 후 앱이 종료돼요."
     },
-    "a_little_library_of_things_worth_keeping": {
-        "message": "간직할 만한 것들을 모아 둔 작은 라이브러리예요."
-    },
     "a_migration_is_already_running_try_again": {
         "message": "마이그레이션이 이미 진행 중이에요. 마이그레이션이 끝난 후 다시 시도해 주세요."
     },
@@ -59,6 +56,9 @@
     "add": {
         "message": "추가"
     },
+    "add_a_new_tab_to_the_current": {
+        "message": "현재 탭 그룹에 새 탭을 추가해요."
+    },
     "add_all_as_new": {
         "message": "모두 새로 추가"
     },
@@ -76,6 +76,9 @@
     },
     "add_new": {
         "message": "새로 추가"
+    },
+    "add_new_tab_to_group": {
+        "message": "그룹에 새 탭 추가"
     },
     "add_note": {
         "message": "메모 추가"
@@ -275,11 +278,14 @@
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "이 프로필의 모든 쿠키, 방문 기록, 확장 프로그램, 저장된 데이터가 영구적으로 제거돼요. 이 작업은 되돌릴 수 없어요."
     },
+    "all_custom_shortcuts_will_be_removed_and": {
+        "message": "모든 사용자 지정 단축키가 제거되고 기본값이 복원돼요. 이 동작은 취소할 수 없어요."
+    },
     "all_downloads": {
         "message": "모든 다운로드"
     },
-    "all_items": {
-        "message": "모든 항목"
+    "all_shortcuts": {
+        "message": "모든 단축키"
     },
     "all_sites": {
         "message": "모든 사이트"
@@ -325,6 +331,9 @@
     },
     "already_in_your_account": {
         "message": "이미 계정에 있음"
+    },
+    "also": {
+        "message": "추가: %@"
     },
     "also_include_and_all_its_subdomains": {
         "message": "%@ 및 모든 하위 도메인도 포함"
@@ -422,23 +431,23 @@
     "are_you_sure_you_want_to_quit": {
         "message": "Phi를 종료하시겠어요?"
     },
+    "area_screenshot_copied": {
+        "message": "영역 스크린샷이 복사됐어요"
+    },
+    "arrow": {
+        "message": "화살표"
+    },
     "article": {
         "message": "기사"
-    },
-    "article_19d9b3": {
-        "message": "기사"
-    },
-    "articles": {
-        "message": "기사"
-    },
-    "articles_to_return_to_ideas_to_sit": {
-        "message": "다시 읽고 싶은 기사, 곱씹어 보고 싶은 아이디어, 잃어버리고 싶지 않은 구절. 그런 것들에게 자기만의 자리를 마련해 주세요."
     },
     "ask_every_time": {
         "message": "매번 묻기"
     },
     "assign": {
         "message": "할당"
+    },
+    "assign_a_new_kiosk_window_shortcut_in": {
+        "message": "단축키에서 “새 Kiosk 윈도우” 단축키를 할당하세요."
     },
     "assign_to": {
         "message": "%@에 할당"
@@ -557,8 +566,14 @@
     "blue": {
         "message": "파란색"
     },
+    "blur": {
+        "message": "모자이크"
+    },
     "bookmark": {
         "message": "북마크 %d개"
+    },
+    "bookmark_all_open_tabs": {
+        "message": "열려 있는 모든 탭을 북마크에 추가해요."
     },
     "bookmark_all_tabs": {
         "message": "모든 탭을 북마크에 추가…"
@@ -580,6 +595,9 @@
     },
     "bookmark_name_a30a7a": {
         "message": "북마크 이름"
+    },
+    "bookmark_the_current_page": {
+        "message": "현재 페이지를 북마크에 추가해요."
     },
     "bookmark_this_tab": {
         "message": "이 탭을 북마크에 추가…"
@@ -637,6 +655,9 @@
     },
     "bot_token": {
         "message": "봇 토큰"
+    },
+    "bring_to_front": {
+        "message": "맨 앞으로 가져오기"
     },
     "bring_your_spaces_bookmarks_pinned_tabs_and": {
         "message": "스페이스, 북마크, 고정된 탭과 지원되는 브라우징 데이터를 다른 기기로 가져갈 수 있어요. 복구 코드를 저장한 다음, 이 Mac이 계정에 참여할 방법을 선택하세요."
@@ -719,6 +740,9 @@
     "cancel_272a6a": {
         "message": "취소"
     },
+    "cancel_2b384b": {
+        "message": "취소"
+    },
     "cancel_3d2cd0": {
         "message": "취소"
     },
@@ -749,10 +773,13 @@
     "cancel_7d73f2": {
         "message": "취소"
     },
+    "cancel_7e6b95": {
+        "message": "취소"
+    },
     "cancel_7e8473": {
         "message": "취소"
     },
-    "cancel_957ba8": {
+    "cancel_8f6d61": {
         "message": "취소"
     },
     "cancel_9b3e6c": {
@@ -842,6 +869,9 @@
     "cancelled": {
         "message": "취소됨"
     },
+    "capture_area": {
+        "message": "영역 캡처…"
+    },
     "capture_full_page": {
         "message": "전체 페이지 캡처"
     },
@@ -905,6 +935,12 @@
     "change_space_icon": {
         "message": "스페이스 아이콘 변경"
     },
+    "change_style": {
+        "message": "스타일 변경"
+    },
+    "change_the_group_of_the_current_tab": {
+        "message": "현재 탭의 그룹을 변경해요."
+    },
     "change_theme": {
         "message": "테마 변경"
     },
@@ -925,6 +961,9 @@
     },
     "check_for_update_9e397e": {
         "message": "업데이트 확인…"
+    },
+    "check_the_document_for_spelling_errors": {
+        "message": "문서의 맞춤법 오류를 확인해요."
     },
     "check_the_rule_sets_to_use_done": {
         "message": "사용할 규칙 세트를 선택하세요. '완료'를 누르면 아직 다운로드되지 않은 목록을 게시자로부터 다운로드하며, 직접 요청하기 전에는 아무것도 다운로드되지 않아요. 사용자 지정 목록은 세 가지 스위치 모두에 적용돼요."
@@ -950,14 +989,17 @@
     "choose_a_download_location_for_this_profile": {
         "message": "이 프로필의 다운로드 위치를 선택해 주세요."
     },
+    "choose_a_file_to_open_in_phi": {
+        "message": "Phi에서 열 파일을 선택해요."
+    },
     "choose_a_name_address_and_folder_for": {
         "message": "이 북마크의 이름과 주소, 폴더를 선택하세요."
     },
     "choose_a_name_and_address_for_this": {
         "message": "이 고정 탭의 이름과 주소를 선택하세요."
     },
-    "choose_an_item_from_your_collection_and": {
-        "message": "컬렉션에서 항목을 하나 골라 잠시 읽을 자리를 마련해 보세요."
+    "choose_a_space_for_the_current_peek": {
+        "message": "현재 Peek 또는 Kiosk 페이지를 열 스페이스를 선택해요."
     },
     "choose_and_download_rule_sets": {
         "message": "규칙 세트 선택 및 다운로드"
@@ -998,6 +1040,9 @@
     "choose_where_this_profile_s_saved_pages": {
         "message": "이 프로필의 저장된 페이지를 보관할 위치를 선택해 주세요."
     },
+    "choose_which_browsing_data_to_clear": {
+        "message": "삭제할 인터넷 사용 기록을 선택해요."
+    },
     "choose_which_profiles_agents_may_create_their": {
         "message": "에이전트가 자신의 스페이스를 만들 수 있는 프로필을 선택해 주세요. 프로필을 끄면 해당 프로필에 연결된 새 스페이스를 에이전트가 열 수 없게 돼요. 기존 스페이스는 영향을 받지 않아요."
     },
@@ -1028,11 +1073,11 @@
     "clear_search": {
         "message": "검색어 지우기"
     },
-    "clear_search_c9a806": {
-        "message": "검색어 지우기"
-    },
     "click": {
         "message": "클릭: "
+    },
+    "click_the_shortcut_to_record_a_new": {
+        "message": "단축키를 클릭한 다음 새 조합을 입력하세요."
     },
     "click_the_title_for_overview_click_the": {
         "message": "제목을 클릭하면 개요가 열려요. 화살표를 클릭하면 펼치거나 접을 수 있어요."
@@ -1057,6 +1102,9 @@
     },
     "close_9f9dbb": {
         "message": "닫기"
+    },
+    "close_all_phi_windows": {
+        "message": "모든 Phi 윈도우를 닫아요."
     },
     "close_b52252": {
         "message": "닫기"
@@ -1103,11 +1151,35 @@
     "close_tab_f52cc8": {
         "message": "탭 닫기"
     },
+    "close_tab_group": {
+        "message": "탭 그룹 닫기"
+    },
     "close_tabs": {
         "message": "탭 닫기"
     },
+    "close_tabs_to_the_right_of_the": {
+        "message": "현재 탭의 오른쪽에 있는 탭을 닫아요."
+    },
+    "close_the_current_tab": {
+        "message": "현재 탭을 닫아요."
+    },
+    "close_the_current_tab_group": {
+        "message": "현재 탭 그룹을 닫아요."
+    },
+    "close_the_current_window": {
+        "message": "현재 윈도우를 닫아요."
+    },
+    "close_the_other_tabs_in_the_current": {
+        "message": "현재 윈도우의 다른 탭을 닫아요."
+    },
     "close_window": {
         "message": "윈도우 닫기"
+    },
+    "close_without_saving": {
+        "message": "저장하지 않고 닫기"
+    },
+    "close_without_saving_your_edits": {
+        "message": "편집한 내용을 저장하지 않고 닫을까요?"
     },
     "collapse_group": {
         "message": "그룹 접기"
@@ -1117,9 +1189,6 @@
     },
     "collect_site_memories": {
         "message": "사이트 메모리 수집"
-    },
-    "collection": {
-        "message": "컬렉션"
     },
     "color": {
         "message": "색상"
@@ -1165,6 +1234,9 @@
     },
     "confirm_your_recovery_code": {
         "message": "복구 코드 확인"
+    },
+    "conflicting_shortcuts": {
+        "message": "충돌하는 단축키"
     },
     "conflicts_with": {
         "message": "다음과 충돌: %@"
@@ -1304,6 +1376,12 @@
     "copy_right_url_970e63": {
         "message": "오른쪽 URL 복사"
     },
+    "copy_the_current_page_s_url_to": {
+        "message": "현재 페이지의 URL을 클립보드에 복사해요."
+    },
+    "copy_the_selection_to_the_clipboard": {
+        "message": "선택 항목을 클립보드에 복사해요."
+    },
     "copy_top_url": {
         "message": "위쪽 URL 복사"
     },
@@ -1436,9 +1514,6 @@
     "couldn_t_read_data_on_this_mac": {
         "message": "이 Mac의 데이터를 읽을 수 없음"
     },
-    "couldn_t_read_your_folio": {
-        "message": "Folio를 읽지 못했어요"
-    },
     "couldn_t_rename_profile": {
         "message": "프로필 이름을 변경할 수 없음"
     },
@@ -1466,11 +1541,23 @@
     "create": {
         "message": "만들기"
     },
+    "create_a_copy_of_the_current_tab": {
+        "message": "현재 탭의 복사본을 만들어요."
+    },
     "create_a_new_folder_to_organize_your": {
         "message": "새 폴더를 만들어 북마크를 정리하세요."
     },
+    "create_a_new_incognito_space": {
+        "message": "새 시크릿 스페이스를 만들어요."
+    },
+    "create_a_new_tab_group": {
+        "message": "새 탭 그룹을 만들어요."
+    },
     "create_a_space": {
         "message": "스페이스 만들기"
+    },
+    "create_new_tab_group": {
+        "message": "새 탭 그룹 만들기"
     },
     "create_on_this_mac": {
         "message": "이 Mac에 만들기"
@@ -1490,6 +1577,9 @@
     "credential_request_from": {
         "message": "“%@”의 로그인 정보 요청"
     },
+    "crop": {
+        "message": "자르기"
+    },
     "current": {
         "message": "현재"
     },
@@ -1499,6 +1589,9 @@
     "custom": {
         "message": "사용자 지정"
     },
+    "custom_color": {
+        "message": "사용자 설정 색상"
+    },
     "custom_filter": {
         "message": "사용자 지정 필터"
     },
@@ -1507,6 +1600,12 @@
     },
     "custom_telegram_bot": {
         "message": "사용자 지정 Telegram 봇"
+    },
+    "customized_shortcuts": {
+        "message": "사용자 지정 단축키"
+    },
+    "cut_the_selection_to_the_clipboard": {
+        "message": "선택 항목을 오려서 클립보드에 넣어요."
     },
     "cyan": {
         "message": "청록색"
@@ -1522,6 +1621,9 @@
     },
     "days_ago": {
         "message": "%d일 전"
+    },
+    "decrease_the_zoom_level_of_the_current": {
+        "message": "현재 페이지의 확대/축소 수준을 낮춰요."
     },
     "default": {
         "message": "기본"
@@ -1564,6 +1666,9 @@
     },
     "delete_backup": {
         "message": "백업 삭제"
+    },
+    "delete_bc7b23": {
+        "message": "삭제"
     },
     "delete_bookmark": {
         "message": "북마크 %d개를 삭제할까요?"
@@ -1706,7 +1811,13 @@
     "dismiss_094028": {
         "message": "닫기"
     },
+    "dismiss_8fe66a": {
+        "message": "닫기"
+    },
     "dismiss_cb343b": {
+        "message": "닫기"
+    },
+    "dismiss_d97b3f": {
         "message": "닫기"
     },
     "dismiss_media_player": {
@@ -1790,8 +1901,17 @@
     "drag_tabs_here_or_pin_them_from": {
         "message": "탭을 여기로 드래그하거나 탭 목록에서 고정하세요"
     },
+    "drag_to_move_the_toolbar": {
+        "message": "드래그하여 도구 막대 이동"
+    },
     "drag_to_reorder_space": {
         "message": "드래그하여 스페이스 순서 변경"
+    },
+    "drag_to_select_an_area": {
+        "message": "드래그하여 영역 선택"
+    },
+    "drag_to_select_scroll_or_drag_to": {
+        "message": "드래그하여 선택 · 스크롤하거나 가장자리로 드래그하여 확장 · Escape 키로 취소"
     },
     "duplicate": {
         "message": "복제"
@@ -1841,6 +1961,9 @@
     "edit_7e9a": {
         "message": "편집"
     },
+    "edit_annotation": {
+        "message": "주석 편집"
+    },
     "edit_bookmark": {
         "message": "북마크 편집"
     },
@@ -1862,8 +1985,14 @@
     "edit_pinned_tab": {
         "message": "고정 탭 편집"
     },
+    "edit_screenshot": {
+        "message": "스크린샷 편집"
+    },
     "edit_split_bookmark": {
         "message": "분할 북마크 편집"
+    },
+    "edit_text": {
+        "message": "텍스트 편집"
     },
     "edit_the_name_and_address_for_this": {
         "message": "이 북마크의 이름과 주소를 편집하세요."
@@ -1888,6 +2017,9 @@
     },
     "edit_theme_f7ce4c": {
         "message": "테마 편집"
+    },
+    "ellipse": {
+        "message": "타원"
     },
     "email_address": {
         "message": "이메일 주소"
@@ -1958,6 +2090,9 @@
     "enter_at_least_one_filter_rule": {
         "message": "필터 규칙을 하나 이상 입력해 주세요."
     },
+    "enter_or_leave_full_screen": {
+        "message": "전체 화면을 시작하거나 종료해요."
+    },
     "enter_the_6_digit_code_sent_to": {
         "message": "%@(으)로 전송된 6자리 코드를 입력하세요."
     },
@@ -1978,6 +2113,9 @@
     },
     "error": {
         "message": "오류"
+    },
+    "escape_shortcuts_require_command_or_control": {
+        "message": "Escape 키 단축키에는 Command 키 또는 Control 키가 필요해요."
     },
     "every_agent_is_allowed_so_none_is": {
         "message": "모든 에이전트가 허용되어 있어서 개별적으로 승인된 에이전트는 없어요."
@@ -2021,6 +2159,9 @@
     "export": {
         "message": "내보내기"
     },
+    "export_0a78d0": {
+        "message": "내보내기…"
+    },
     "export_account_data": {
         "message": "계정 데이터 내보내기"
     },
@@ -2041,6 +2182,9 @@
     },
     "export_logs_a846d2": {
         "message": "로그 내보내기"
+    },
+    "export_the_screenshot_as_jpg_or_pdf": {
+        "message": "편집한 내용을 유지하려면 스크린샷을 JPG 또는 PDF로 내보내세요."
     },
     "export_user_data": {
         "message": "사용자 데이터 내보내기…"
@@ -2120,8 +2264,14 @@
     "file": {
         "message": "파일"
     },
+    "fill": {
+        "message": "채우기"
+    },
     "filter_rules": {
         "message": "필터 규칙"
+    },
+    "filter_shortcuts": {
+        "message": "단축키 필터"
     },
     "filtering_is_running_with_the_last_good": {
         "message": "마지막으로 정상 작동한 규칙으로 필터링 실행 중"
@@ -2137,6 +2287,9 @@
     },
     "find_shortcut_keys": {
         "message": "단축키 검색"
+    },
+    "find_text_on_the_current_page": {
+        "message": "현재 페이지에서 텍스트를 찾아요."
     },
     "finish": {
         "message": "완료"
@@ -2159,11 +2312,35 @@
     "finish_signing_out_in_your_browser": {
         "message": "브라우저에서 로그아웃을 완료해 주세요."
     },
+    "fit": {
+        "message": "화면에 맞추기"
+    },
     "fixes_and_rules_maintained_by_phi_keep": {
         "message": "Phi가 관리하는 수정 사항과 규칙이에요. 사이트가 오작동하는 경우가 아니라면 켜 두세요."
     },
     "focus_address_bar": {
         "message": "주소 표시줄로 이동"
+    },
+    "focus_next_pane": {
+        "message": "다음 패널로 이동"
+    },
+    "focus_next_tab_group": {
+        "message": "다음 탭 그룹으로 이동"
+    },
+    "focus_open_popup": {
+        "message": "열린 팝업으로 이동"
+    },
+    "focus_previous_pane": {
+        "message": "이전 패널로 이동"
+    },
+    "focus_previous_tab_group": {
+        "message": "이전 탭 그룹으로 이동"
+    },
+    "focus_the_address_bar_to_enter_a": {
+        "message": "URL을 입력하거나 검색할 수 있도록 주소 표시줄로 이동해요."
+    },
+    "focus_the_address_bar_to_search_the": {
+        "message": "웹을 검색할 수 있도록 주소 표시줄로 이동해요."
     },
     "folder": {
         "message": "폴더"
@@ -2417,6 +2594,12 @@
     "for_web_development_while_an_agent_operates": {
         "message": "웹 개발용 기능이에요. 에이전트가 페이지를 조작하는 동안 Phi가 페이지 색을 바꾸지 않고, 조작 마스크를 투명하게 하고, “제어권 가져오기” 막대를 최소화해요. 제어권을 가져오기 전까지는 페이지가 입력을 계속 무시해요. 즉시 적용돼요."
     },
+    "force_reload_page": {
+        "message": "페이지 강제 새로고침"
+    },
+    "format": {
+        "message": "포맷"
+    },
     "forward": {
         "message": "앞으로"
     },
@@ -2425,6 +2608,9 @@
     },
     "forward_e876ba": {
         "message": "앞으로"
+    },
+    "freehand": {
+        "message": "그리기"
     },
     "from": {
         "message": "출처: %@"
@@ -2471,8 +2657,17 @@
     "go_to": {
         "message": "%@(으)로 이동"
     },
+    "go_to_7113ff": {
+        "message": "%@(으)로 이동"
+    },
     "go_to_space": {
         "message": "\"%@\" 스페이스로 이동"
+    },
+    "go_to_the_next_page_in_this": {
+        "message": "이 탭의 방문 기록에서 다음 페이지로 이동해요."
+    },
+    "go_to_the_previous_page_in_this": {
+        "message": "이 탭의 방문 기록에서 이전 페이지로 이동해요."
     },
     "granted": {
         "message": "%@에 허용됨"
@@ -2510,6 +2705,12 @@
     "hide": {
         "message": "숨기기"
     },
+    "hide_other_applications": {
+        "message": "다른 응용 프로그램을 가려요."
+    },
+    "hide_phi_and_its_windows": {
+        "message": "Phi와 Phi의 윈도우를 가려요."
+    },
     "hide_sidebar": {
         "message": "사이드바 숨기기"
     },
@@ -2521,9 +2722,6 @@
     },
     "highlight_saved": {
         "message": "하이라이트가 저장됐어요"
-    },
-    "highlights": {
-        "message": "하이라이트"
     },
     "history": {
         "message": "방문 기록"
@@ -2602,6 +2800,9 @@
     },
     "import": {
         "message": "가져오기…"
+    },
+    "import_bookmarks_and_settings_from_another_browser": {
+        "message": "다른 브라우저에서 북마크와 설정을 가져와요."
     },
     "import_completed_successfully": {
         "message": "가져오기가 성공적으로 완료됐어요"
@@ -2687,11 +2888,17 @@
     "incognito_f5b3ca": {
         "message": "시크릿 모드"
     },
+    "increase_the_zoom_level_of_the_current": {
+        "message": "현재 페이지의 확대/축소 수준을 높여요."
+    },
     "initial_sync_in_progress": {
         "message": "초기 동기화 진행 중"
     },
     "insecure_download_blocked": {
         "message": "안전하지 않은 다운로드 차단됨"
+    },
+    "inspect_an_element_on_the_current_page": {
+        "message": "현재 페이지의 요소를 검사해요."
     },
     "install": {
         "message": "설치"
@@ -2735,8 +2942,17 @@
     "iris": {
         "message": "아이리스"
     },
+    "is_used_by_reassigning_removes_only_this": {
+        "message": "%@은(는) %@에서 사용 중이에요. 재할당하면 해당 명령에서 이 단축키만 제거돼요. 다른 단축키는 그대로 유지돼요."
+    },
+    "is_used_by_these_shortcuts_cannot_be": {
+        "message": "%@은(는) %@에서 사용 중이에요. 이 단축키는 여기에서 변경할 수 없어요. 다른 키를 선택해 주세요."
+    },
     "items": {
         "message": "%d개 항목"
+    },
+    "jump_to_selection": {
+        "message": "선택 부분으로 이동"
     },
     "just_now": {
         "message": "방금 전"
@@ -2750,8 +2966,8 @@
     "keep_3a0464": {
         "message": "유지"
     },
-    "keep_what_stays_with_you": {
-        "message": "마음에 남는 것들을 간직하세요."
+    "keep_editing": {
+        "message": "계속 편집"
     },
     "kiosk": {
         "message": "Kiosk"
@@ -2764,9 +2980,6 @@
     },
     "language": {
         "message": "언어"
-    },
-    "larger_text": {
-        "message": "텍스트 크게"
     },
     "last_problem": {
         "message": "최근 문제: %1$@ (%2$@)"
@@ -2797,9 +3010,6 @@
     },
     "layout_selection": {
         "message": "레이아웃 선택"
-    },
-    "least_recently_updated_first": {
-        "message": "오래된 업데이트 순"
     },
     "leave_empty_to_use_the_auto_generated": {
         "message": "비워 두면 자동 생성된 이름이 사용돼요."
@@ -2921,6 +3131,9 @@
     "manage_extensions_52d065": {
         "message": "확장 프로그램 관리"
     },
+    "manage_installed_browser_extensions": {
+        "message": "설치된 브라우저 확장 프로그램을 관리해요."
+    },
     "manage_site_memories": {
         "message": "사이트 메모리 관리"
     },
@@ -2984,6 +3197,9 @@
     "minimise": {
         "message": "접기"
     },
+    "minimize_the_current_window": {
+        "message": "현재 윈도우를 최소화해요."
+    },
     "mint": {
         "message": "민트"
     },
@@ -3002,11 +3218,41 @@
     "more_spaces": {
         "message": "스페이스 더 보기"
     },
+    "move": {
+        "message": "이동"
+    },
+    "move_focus_to_an_open_popup": {
+        "message": "열린 팝업으로 포커스를 이동해요."
+    },
+    "move_focus_to_the_next_browser_pane": {
+        "message": "다음 브라우저 패널로 포커스를 이동해요."
+    },
+    "move_focus_to_the_next_tab_group": {
+        "message": "다음 탭 그룹으로 포커스를 이동해요."
+    },
+    "move_focus_to_the_previous_browser_pane": {
+        "message": "이전 브라우저 패널로 포커스를 이동해요."
+    },
+    "move_focus_to_the_previous_tab_group": {
+        "message": "이전 탭 그룹으로 포커스를 이동해요."
+    },
+    "move_tab_left": {
+        "message": "탭 왼쪽으로 이동"
+    },
+    "move_tab_right": {
+        "message": "탭 오른쪽으로 이동"
+    },
     "move_tabs_to_group": {
         "message": "탭을 그룹으로 이동"
     },
-    "move_this_item_to_trash": {
-        "message": "이 항목을 휴지통으로 이동할까요?"
+    "move_the_current_tab_one_position_to": {
+        "message": "현재 탭을 왼쪽으로 한 칸 이동해요."
+    },
+    "move_the_current_tab_one_position_to_f3f777": {
+        "message": "현재 탭을 오른쪽으로 한 칸 이동해요."
+    },
+    "move_the_current_tab_to_a_new": {
+        "message": "현재 탭을 새 윈도우로 이동해요."
     },
     "move_to_group": {
         "message": "그룹으로 이동"
@@ -3026,11 +3272,17 @@
     "move_to_space_90b3a5": {
         "message": "스페이스로 이동"
     },
-    "move_to_trash": {
-        "message": "휴지통으로 이동"
+    "move_to_the_next_matching_text_on": {
+        "message": "페이지에서 다음으로 일치하는 텍스트로 이동해요."
+    },
+    "move_to_the_previous_matching_text_on": {
+        "message": "페이지에서 이전에 일치하는 텍스트로 이동해요."
     },
     "mute": {
         "message": "팝업 끄기"
+    },
+    "mute_or_unmute_audio_from_the_current": {
+        "message": "현재 사이트의 오디오를 음소거하거나 음소거를 해제해요."
     },
     "mute_site": {
         "message": "사이트 음소거"
@@ -3359,12 +3611,6 @@
     "no_file_selected": {
         "message": "선택된 파일 없음"
     },
-    "no_highlights_yet_highlight_a_passage_on": {
-        "message": "아직 하이라이트가 없어요. 원본 페이지에서 구절을 하이라이트하면 여기에 보관돼요."
-    },
-    "no_items_match_this_view": {
-        "message": "현재 보기에 맞는 항목이 없어요."
-    },
     "no_matching_bookmarks": {
         "message": "일치하는 북마크가 없어요"
     },
@@ -3590,9 +3836,6 @@
     "on_an_authorized_device_open_settings_sync": {
         "message": "승인된 기기에서 설정 → 동기화를 열고 이 요청을 승인하세요. 이 코드가 일치하는지 확인하세요:"
     },
-    "on_any_webpage_choose_file_save_to": {
-        "message": "아무 웹페이지에서나 파일 → Folio에 저장을 선택하세요"
-    },
     "on_browser_restart": {
         "message": "브라우저 재시작 시"
     },
@@ -3617,6 +3860,24 @@
     "open_a_browser_window_for_the_selected": {
         "message": "계속하려면 선택한 프로필의 브라우저 윈도우를 열어 주세요."
     },
+    "open_a_new_browser_window": {
+        "message": "새 브라우저 윈도우를 열어요."
+    },
+    "open_a_new_incognito_window": {
+        "message": "새 시크릿 윈도우를 열어요."
+    },
+    "open_a_new_kiosk_window": {
+        "message": "새 Kiosk 윈도우를 열어요."
+    },
+    "open_a_new_tab": {
+        "message": "새 탭을 열어요."
+    },
+    "open_a_new_tab_to_the_right": {
+        "message": "현재 탭의 오른쪽에 새 탭을 열어요."
+    },
+    "open_a_tab_in_split_view": {
+        "message": "분할 보기로 탭을 열어요."
+    },
     "open_as_split": {
         "message": "분할로 열기"
     },
@@ -3632,11 +3893,20 @@
     "open_as_tab": {
         "message": "탭으로 열기"
     },
+    "open_browser_help": {
+        "message": "브라우저 도움말을 열어요."
+    },
+    "open_developer_tools_for_the_current_page": {
+        "message": "현재 페이지의 개발자 도구를 열어요."
+    },
     "open_devtools": {
         "message": "개발자 도구 열기"
     },
     "open_external_links_in_kiosk": {
         "message": "외부 링크를 Kiosk에서 열기"
+    },
+    "open_file": {
+        "message": "파일 열기…"
     },
     "open_folio": {
         "message": "Folio 열기"
@@ -3668,14 +3938,20 @@
     "open_links_in_a_lightweight_window_one": {
         "message": "링크를 가벼운 윈도우에서 한 번에 한 페이지씩 열어요."
     },
-    "open_original": {
-        "message": "원본 열기"
+    "open_or_close_reader_for_the_current": {
+        "message": "현재 페이지의 읽기 모드를 열거나 닫아요."
+    },
+    "open_phi_settings": {
+        "message": "Phi 설정을 열어요."
     },
     "open_picture_in_picture": {
         "message": "화면 속 화면 열기"
     },
-    "open_saved_webpage": {
-        "message": "저장된 웹페이지 열기"
+    "open_print_options_for_the_current_page": {
+        "message": "현재 페이지의 프린트 옵션을 열어요."
+    },
+    "open_reading_mode_for_the_current_page": {
+        "message": "현재 페이지를 읽기 모드로 열어요."
     },
     "open_settings": {
         "message": "시스템 설정 열기"
@@ -3689,6 +3965,24 @@
     "open_tabs": {
         "message": "열린 탭"
     },
+    "open_the_bookmark_manager": {
+        "message": "북마크 관리자를 열어요."
+    },
+    "open_the_current_peek_or_kiosk_page": {
+        "message": "현재 Peek 또는 Kiosk 페이지를 스페이스에서 열어요."
+    },
+    "open_the_feedback_page": {
+        "message": "피드백 페이지를 열어요."
+    },
+    "open_the_home_page": {
+        "message": "홈 페이지를 열어요."
+    },
+    "open_the_javascript_console_for_the_current": {
+        "message": "현재 페이지의 JavaScript 콘솔을 열어요."
+    },
+    "open_the_profiles_menu": {
+        "message": "프로필 메뉴를 열어요."
+    },
     "open_the_url_rules_editor": {
         "message": "URL 규칙 편집기 열기"
     },
@@ -3701,11 +3995,23 @@
     "organize_tabs_with_ai": {
         "message": "AI로 탭 정리"
     },
+    "organize_tabs_with_ai_413fc6": {
+        "message": "AI로 탭을 정리해요."
+    },
     "organize_tabs_with_ai_6111": {
         "message": "AI로 탭 정리"
     },
     "organize_tabs_with_ai_e4d5d3": {
         "message": "AI로 탭 정리"
+    },
+    "other": {
+        "message": "기타"
+    },
+    "other_active_shortcuts_read_only": {
+        "message": "기타 활성 단축키(읽기 전용)"
+    },
+    "other_browser_commands": {
+        "message": "기타 브라우저 명령"
     },
     "pairing_isn_t_available_right_now": {
         "message": "지금은 페어링을 사용할 수 없어요."
@@ -3718,6 +4024,15 @@
     },
     "passwords_manager": {
         "message": "비밀번호 관리자"
+    },
+    "paste": {
+        "message": "붙여넣기"
+    },
+    "paste_text_using_the_surrounding_formatting": {
+        "message": "주변 서식에 맞춰 텍스트를 붙여넣어요."
+    },
+    "paste_the_clipboard_contents": {
+        "message": "클립보드 내용을 붙여넣어요."
     },
     "pause": {
         "message": "일시 정지"
@@ -3860,6 +4175,9 @@
     "pin_extension": {
         "message": "확장 프로그램 고정"
     },
+    "pin_or_unpin_the_current_tab": {
+        "message": "현재 탭을 고정하거나 고정을 해제해요."
+    },
     "pin_split": {
         "message": "분할 고정"
     },
@@ -3938,6 +4256,9 @@
     "preparing_time_machine_restore": {
         "message": "Time Machine 복원 준비 중"
     },
+    "press_escape_to_cancel_or_delete_to": {
+        "message": "취소하려면 Escape 키를, 단축키를 제거하려면 Delete 키를 누르세요."
+    },
     "press_shortcut": {
         "message": "단축키를 누르세요…"
     },
@@ -3961,6 +4282,21 @@
     },
     "print": {
         "message": "프린트…"
+    },
+    "print_the_browser_view_hierarchy_for_debugging": {
+        "message": "디버깅을 위해 브라우저 뷰 계층 구조를 출력해요."
+    },
+    "print_the_current_page_using_the_system": {
+        "message": "시스템 대화상자를 사용하여 현재 페이지를 프린트해요."
+    },
+    "print_the_detailed_browser_view_hierarchy_for": {
+        "message": "디버깅을 위해 브라우저 뷰 계층 구조를 자세히 출력해요."
+    },
+    "print_view_tree": {
+        "message": "뷰 트리 출력"
+    },
+    "print_view_tree_details": {
+        "message": "뷰 트리 세부 정보 출력"
     },
     "privacy": {
         "message": "개인정보 처리방침"
@@ -4031,6 +4367,12 @@
     "quit": {
         "message": "종료"
     },
+    "quit_phi": {
+        "message": "Phi 종료"
+    },
+    "quit_phi_8a937a": {
+        "message": "Phi를 종료해요."
+    },
     "reader_view": {
         "message": "읽기 모드"
     },
@@ -4046,11 +4388,8 @@
     "reader_view_is_unavailable_on_this_page": {
         "message": "이 페이지에서는 읽기 모드를 사용할 수 없어요"
     },
-    "reading_mode": {
-        "message": "읽기 모드"
-    },
-    "reading_options_and_actions": {
-        "message": "읽기 옵션 및 동작"
+    "reassign": {
+        "message": "재할당"
     },
     "reauthenticate": {
         "message": "다시 인증"
@@ -4064,9 +4403,6 @@
     "recently_closed": {
         "message": "최근에 닫은 탭"
     },
-    "recently_updated_first": {
-        "message": "최근 업데이트 순"
-    },
     "recommended": {
         "message": "추천"
     },
@@ -4076,8 +4412,17 @@
     "recovery_code": {
         "message": "복구 코드"
     },
+    "rectangle": {
+        "message": "사각형"
+    },
     "red": {
         "message": "빨강"
+    },
+    "redo": {
+        "message": "실행 복귀"
+    },
+    "redo_the_last_undone_edit": {
+        "message": "마지막으로 실행 취소한 편집을 다시 실행해요."
     },
     "refresh": {
         "message": "새로고침"
@@ -4087,9 +4432,6 @@
     },
     "refresh_connector_status": {
         "message": "커넥터 상태 새로고침"
-    },
-    "refresh_library": {
-        "message": "라이브러리 새로고침"
     },
     "refused_without_asking": {
         "message": "묻지 않고 거부함"
@@ -4105,6 +4447,12 @@
     },
     "reload_page": {
         "message": "페이지 새로고침"
+    },
+    "reload_the_current_page": {
+        "message": "현재 페이지를 새로고침해요."
+    },
+    "reload_the_current_page_without_using_cached": {
+        "message": "캐시된 콘텐츠를 사용하지 않고 현재 페이지를 새로고침해요."
     },
     "remember_email": {
         "message": "이메일 기억하기"
@@ -4220,6 +4568,9 @@
     "reopen_closed_tab_de7200": {
         "message": "닫은 탭 다시 열기"
     },
+    "reopen_the_most_recently_closed_tab": {
+        "message": "가장 최근에 닫은 탭을 다시 열어요."
+    },
     "reopen_your_windows_and_tabs_the_next": {
         "message": "다음에 Phi를 열 때 윈도우와 탭을 다시 열어요."
     },
@@ -4259,6 +4610,12 @@
     "resend_code_cbc823": {
         "message": "코드 재전송 (%d초)"
     },
+    "reserved_browser_shortcut": {
+        "message": "예약된 브라우저 단축키"
+    },
+    "reset_the_current_page_to_its_default": {
+        "message": "현재 페이지를 기본 확대/축소 수준으로 되돌려요."
+    },
     "resolve": {
         "message": "해결"
     },
@@ -4280,8 +4637,14 @@
     "restore_4c2571": {
         "message": "복원"
     },
+    "restore_all": {
+        "message": "모두 복원"
+    },
     "restore_all_shortcuts": {
         "message": "모든 단축키 복원"
+    },
+    "restore_all_shortcuts_23ac": {
+        "message": "모든 단축키를 복원할까요?"
     },
     "restore_last_session": {
         "message": "마지막 세션 복원"
@@ -4293,6 +4656,9 @@
         "message": "재개"
     },
     "retry": {
+        "message": "다시 시도"
+    },
+    "retry_05770d": {
         "message": "다시 시도"
     },
     "retry_39f08b": {
@@ -4406,6 +4772,12 @@
     "save_pages_to": {
         "message": "페이지 저장 위치"
     },
+    "save_the_current_page_for_later": {
+        "message": "현재 페이지를 나중에 보도록 저장해요."
+    },
+    "save_the_current_page_to_a_file": {
+        "message": "현재 페이지를 파일로 저장해요."
+    },
     "save_to_folio": {
         "message": "Folio에 저장"
     },
@@ -4421,14 +4793,14 @@
     "save_your_recovery_code_first": {
         "message": "먼저 복구 코드를 저장하세요"
     },
-    "saved": {
-        "message": "저장됨"
-    },
     "saved_memories_for_will_be_deleted_from": {
         "message": "%@의 저장된 메모리가 이 브라우저 프로필에서 삭제돼요. 이 작업은 되돌릴 수 없어요."
     },
     "saved_only_what_had_loaded": {
         "message": "불러온 내용만 저장됐어요"
+    },
+    "saved_shortcuts_could_not_be_read_retry": {
+        "message": "저장된 단축키를 읽을 수 없어요. 다시 시도하거나, 모든 단축키를 복원하여 복구용 사본을 보관하고 기본값을 사용하세요."
     },
     "saved_to_folio": {
         "message": "Folio에 저장됐어요"
@@ -4457,6 +4829,9 @@
     "screenshot_timed_out_please_try_again": {
         "message": "스크린샷 시간이 초과됐어요. 다시 시도해 주세요."
     },
+    "scroll_to_the_selected_text": {
+        "message": "선택한 텍스트로 스크롤해요."
+    },
     "search": {
         "message": "검색"
     },
@@ -4472,6 +4847,9 @@
     "search_ac220a": {
         "message": "검색…"
     },
+    "search_by_name_or_keys_such_as": {
+        "message": "cmd ctrl S 또는 ⌘⌃S와 같이 이름이나 키로 검색해요."
+    },
     "search_downloads": {
         "message": "다운로드 검색"
     },
@@ -4486,6 +4864,9 @@
     },
     "search_mk_3074": {
         "message": "%@ 검색"
+    },
+    "search_open_tabs": {
+        "message": "열려 있는 탭을 검색해요."
     },
     "search_or_enter_url": {
         "message": "검색어 또는 URL 입력"
@@ -4511,14 +4892,20 @@
     "search_the_web": {
         "message": "웹 검색..."
     },
-    "search_your_library": {
-        "message": "라이브러리 검색"
+    "select": {
+        "message": "선택"
     },
     "select_a_profile_to_view_its_settings": {
         "message": "설정을 보려면 프로필을 선택해 주세요."
     },
+    "select_a_shortcut_to_view_its_details": {
+        "message": "세부 정보를 보려면 단축키를 선택하세요."
+    },
     "select_a_space_to_view_its_settings": {
         "message": "설정을 보려면 스페이스를 선택해 주세요."
+    },
+    "select_all_content_in_the_focused_area": {
+        "message": "포커스된 영역의 모든 내용을 선택해요."
     },
     "select_at_least_one_category_to_back": {
         "message": "백업할 항목을 하나 이상 선택해 주세요."
@@ -4538,6 +4925,15 @@
     "select_tab": {
         "message": "탭 %d 선택"
     },
+    "select_the_last_tab": {
+        "message": "마지막 탭을 선택해요."
+    },
+    "select_the_next_tab": {
+        "message": "다음 탭을 선택해요."
+    },
+    "select_the_previous_tab": {
+        "message": "이전 탭을 선택해요."
+    },
     "self_hosted": {
         "message": "자체 호스팅"
     },
@@ -4555,6 +4951,9 @@
     },
     "send_feedback_to_phi": {
         "message": "Phi에 피드백 보내기"
+    },
+    "send_to_back": {
+        "message": "맨 뒤로 보내기"
     },
     "sending_a_verification_code_to": {
         "message": "%@(으)로 인증 코드를 보내는 중…"
@@ -4670,14 +5069,23 @@
     "share_page": {
         "message": "페이지 공유"
     },
+    "share_the_current_page": {
+        "message": "현재 페이지를 공유해요."
+    },
     "shift_click_a_link_or_choose_open": {
         "message": "Shift를 누른 채 링크를 클릭하거나 “Peek 뷰에서 링크 열기”를 선택하면 페이지 위 플로팅 패널에서 미리 볼 수 있어요. 여유 레이아웃에서는 사용할 수 없어요."
+    },
+    "shortcut_already_in_use": {
+        "message": "이미 사용 중인 단축키"
     },
     "shortcuts": {
         "message": "단축키"
     },
     "shortcuts_b6a37f": {
         "message": "단축키"
+    },
+    "shortcuts_changed_while_you_were_reviewing_them": {
+        "message": "확인하는 동안 단축키가 변경됐어요. 현재 충돌을 확인하려면 단축키를 다시 입력하세요."
     },
     "shorten_links_to_selected_text": {
         "message": "선택한 텍스트로 연결되는 링크 줄이기"
@@ -4690,9 +5098,6 @@
     },
     "show_a_preview_card_when_hovering_over": {
         "message": "탭 위에 마우스를 올리면 미리보기 카드 표시"
-    },
-    "show_all_items": {
-        "message": "모든 항목 보기"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "새 탭에서 북마크 바 표시"
@@ -4715,9 +5120,6 @@
     "show_in_finder_8593df": {
         "message": "Finder에서 보기"
     },
-    "show_in_finder_bb73ef": {
-        "message": "Finder에서 보기"
-    },
     "show_in_folder": {
         "message": "폴더에서 보기"
     },
@@ -4733,17 +5135,38 @@
     "show_operated_pages_exactly_as_rendered": {
         "message": "조작 중인 페이지를 렌더링된 그대로 표시"
     },
+    "show_or_hide_the_bookmarks_bar_only": {
+        "message": "북마크 바를 보이거나 가려요. 여유 레이아웃에서만 사용할 수 있어요."
+    },
+    "show_or_hide_the_chat_panel": {
+        "message": "채팅 패널을 보이거나 가려요."
+    },
+    "show_or_hide_the_sidebar": {
+        "message": "사이드바를 보이거나 가려요."
+    },
+    "show_or_hide_the_toolbar_in_full": {
+        "message": "전체 화면에서 도구 막대를 보이거나 가려요."
+    },
     "show_playing_tab": {
         "message": "재생 중인 탭 보기"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "새 탭 페이지에 추천 제안 표시"
     },
+    "show_profiles_menu": {
+        "message": "프로필 메뉴 보기"
+    },
+    "show_reading_mode": {
+        "message": "읽기 모드 보기"
+    },
     "show_sidebar": {
         "message": "사이드바 표시"
     },
     "show_sidebar_media_player": {
         "message": "미니 플레이어 표시"
+    },
+    "show_spelling_and_grammar_options": {
+        "message": "맞춤법 및 문법 옵션을 표시해요."
     },
     "show_tab_switcher": {
         "message": "탭 전환기 보기"
@@ -4753,6 +5176,12 @@
     },
     "show_the_agent_s_command_and_process": {
         "message": "에이전트의 명령어 및 프로세스 트리 보기"
+    },
+    "show_the_tab_switcher_and_move_backward": {
+        "message": "탭 전환기를 표시하고 최근 탭을 역순으로 이동해요."
+    },
+    "show_the_tab_switcher_and_move_forward": {
+        "message": "탭 전환기를 표시하고 최근 탭을 순서대로 이동해요."
     },
     "show_transcript": {
         "message": "트랜스크립트 보기"
@@ -4877,9 +5306,6 @@
     "skip_this_version": {
         "message": "이 버전 건너뛰기"
     },
-    "smaller_text": {
-        "message": "텍스트 작게"
-    },
     "some_account_and_system_information_may_be": {
         "message": "일부 계정 및 시스템 정보가 Phinomenon에 전송될 수 있어요. 보내 주신 정보는 개인정보처리방침과 서비스 약관에 따라 기술적 문제를 해결하고 서비스를 개선하는 데 사용해요."
     },
@@ -4910,14 +5336,8 @@
     "something_went_wrong_while_setting_up_the": {
         "message": "프로필을 설정하는 중에 문제가 발생했어요."
     },
-    "something_worth_returning_to": {
-        "message": "다시 돌아올 만한 무언가."
-    },
     "sorry_for_the_interruption_a_few_details": {
         "message": "불편을 드려 죄송해요. 종료되기 전에 어떤 일이 있었는지 간단히 알려 주시면 문제를 파악하고 Phi를 더 안정적으로 만드는 데 도움이 돼요."
-    },
-    "sort_collection": {
-        "message": "컬렉션 정렬"
     },
     "source": {
         "message": "출처"
@@ -4991,6 +5411,9 @@
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "상시 승인은 설정에서 언제든지 확인하고 철회할 수 있어요."
     },
+    "start_a_new_conversation_in_phi_chat": {
+        "message": "Phi Chat에서 새 대화를 시작해요."
+    },
     "start_migration": {
         "message": "마이그레이션 시작"
     },
@@ -5006,11 +5429,11 @@
     "stop_022eb3": {
         "message": "중지"
     },
+    "stop_loading_the_current_page": {
+        "message": "현재 페이지 로드를 중지해요."
+    },
     "store_this_code_somewhere_safe_you_will": {
         "message": "이 코드를 안전한 곳에 보관하세요. 다른 기기를 계정에 추가하려면 이 코드가 필요해요."
-    },
-    "stored_on_your_mac": {
-        "message": "이 Mac에 저장됨"
     },
     "submit": {
         "message": "제출"
@@ -5029,6 +5452,18 @@
     },
     "switch_to_agent_space": {
         "message": "에이전트 스페이스로 전환"
+    },
+    "switch_to_space_in_the_current_window": {
+        "message": "현재 윈도우에서 %d번째 스페이스로 전환해요."
+    },
+    "switch_to_tab_in_the_current_window": {
+        "message": "현재 윈도우에서 %d번째 탭으로 전환해요."
+    },
+    "switch_to_the_next_space": {
+        "message": "다음 스페이스로 전환해요."
+    },
+    "switch_to_the_previous_space": {
+        "message": "이전 스페이스로 전환해요."
     },
     "sync": {
         "message": "동기화"
@@ -5138,6 +5573,12 @@
     "terms_of_service": {
         "message": "서비스 이용약관"
     },
+    "text": {
+        "message": "텍스트"
+    },
+    "text_size": {
+        "message": "텍스트 크기"
+    },
     "that_code_has_expired_click_resend_code": {
         "message": "코드가 만료됐어요. “코드 다시 보내기”를 눌러 새 코드를 받으세요."
     },
@@ -5171,11 +5612,11 @@
     "the_archive_does_not_contain_a_top": {
         "message": "아카이브에 최상위 Phi 폴더가 없어요."
     },
-    "the_article_and_its_saved_webpage_copy": {
-        "message": "기사와 저장된 웹페이지 사본이 휴지통으로 이동돼요. Finder에서 복원할 수 있어요."
-    },
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "Bitwarden 브라우저 확장 프로그램은 웹 페이지에서 보관함의 로그인 정보를 자동으로 입력해요. 지금 Phi가 Chrome 웹 스토어에서 설치할 수 있어요."
+    },
+    "the_change_could_not_be_saved_your": {
+        "message": "변경 사항을 저장하지 못했어요. 이전 단축키는 여전히 활성 상태예요. 다시 변경해 보세요."
     },
     "the_change_will_finish_in_the_background": {
         "message": "변경 사항은 백그라운드에서 완료돼요."
@@ -5194,6 +5635,9 @@
     },
     "the_folio_folder_could_not_be_read": {
         "message": "Folio 폴더를 읽을 수 없었어요."
+    },
+    "the_global_shortcut_is_unavailable_choose_another": {
+        "message": "전역 단축키를 사용할 수 없어요. 다른 단축키를 선택하거나, 이 설정을 껐다가 다시 켜서 재시도하세요."
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "로컬 IM 서비스를 사용할 수 없어요. Phi Sentinel이 정상적으로 시작됐는지, IM 서비스가 실행 중인지 확인해 주세요."
@@ -5315,9 +5759,6 @@
     "this_is_the_last_device_on_the": {
         "message": "이 기기는 계정의 마지막 기기라서 제거할 수 없어요. 이 기기에서 페어링을 완료하거나(읽을 수 없는 프로필이 있어도 완료할 수 있어요), 먼저 다른 기기에서 동기화를 설정한 다음 다시 시도해 주세요."
     },
-    "this_item_has_no_article_text_you": {
-        "message": "이 항목에는 기사 본문이 없어요. 원본이나 저장된 웹페이지 사본을 열 수 있어요."
-    },
     "this_mac": {
         "message": "이 Mac"
     },
@@ -5357,8 +5798,23 @@
     "this_request_timed_out_you_can_try": {
         "message": "요청 시간이 초과되었어요. 다시 시도할 수 있어요."
     },
+    "this_screenshot_is_too_large_to_edit": {
+        "message": "이 스크린샷은 너무 커서 편집할 수 없어요. 원본 PNG는 그대로 저장할 수 있어요."
+    },
     "this_session": {
         "message": "이번 세션"
+    },
+    "this_shortcut_conflicts_with": {
+        "message": "이 단축키는 다음과 충돌해요:"
+    },
+    "this_shortcut_conflicts_with_a_macos_system": {
+        "message": "이 단축키는 macOS 시스템 단축키와 충돌하여 Phi에서 작동하지 않을 수 있어요."
+    },
+    "this_shortcut_is_available_in_other_apps": {
+        "message": "이 단축키는 다른 앱에서도 사용할 수 있어요."
+    },
+    "this_shortcut_is_not_supported_globally_with": {
+        "message": "현재 키보드 레이아웃에서는 이 단축키를 전역으로 사용할 수 없어요. 다른 단축키를 선택하세요."
     },
     "this_site_isn_t_using_a_secure": {
         "message": "이 사이트는 보안 연결을 사용하지 않아 파일이 변조됐을 수 있어요"
@@ -5441,6 +5897,12 @@
     "toggle_sidebar_307510": {
         "message": "사이드바 보기/가리기"
     },
+    "toggle_tablet_mode": {
+        "message": "태블릿 모드 전환"
+    },
+    "toggle_tablet_mode_for_browser_debugging": {
+        "message": "브라우저 디버깅을 위해 태블릿 모드를 전환해요."
+    },
     "token_verified_successfully": {
         "message": "토큰을 확인했어요"
     },
@@ -5466,9 +5928,6 @@
         "message": "다시 시도"
     },
     "try_again_ba7845": {
-        "message": "다시 시도"
-    },
-    "try_again_cd0a4c": {
         "message": "다시 시도"
     },
     "try_another_way": {
@@ -5515,6 +5974,12 @@
     },
     "undo": {
         "message": "실행 취소"
+    },
+    "undo_2ca0be": {
+        "message": "실행 취소"
+    },
+    "undo_the_last_edit": {
+        "message": "마지막 편집을 실행 취소해요."
     },
     "ungroup": {
         "message": "그룹 해제"
@@ -5672,8 +6137,17 @@
     "urls_matching_any_rule_will_open_in": {
         "message": "규칙에 일치하는 URL은 어디에서 클릭하거나 입력하든 선택한 대상에서 열려요."
     },
+    "use_a_modifier_key_letters_and_symbols": {
+        "message": "보조 키를 사용하세요. 문자와 기호에는 Command 키, Control 키 또는 Option 키가 필요해요."
+    },
     "use_a_recovery_code": {
         "message": "복구 코드 사용"
+    },
+    "use_selection_for_find": {
+        "message": "찾기에 선택 항목 사용"
+    },
+    "use_the_selected_text_as_the_search": {
+        "message": "선택한 텍스트를 검색어로 사용해요."
     },
     "using_telegram_to_send_and_receive_messages": {
         "message": "Telegram으로 %@와(과) 메시지를 주고받아요"
@@ -5711,23 +6185,29 @@
     "version": {
         "message": "버전 %1$@ (%2$@)"
     },
-    "video": {
-        "message": "영상"
-    },
-    "videos": {
-        "message": "영상"
-    },
     "view": {
         "message": "보기"
     },
     "view_and_manage_your_browser_memory": {
         "message": "브라우저 메모리 보기 및 관리"
     },
+    "view_browser_tasks_and_their_resource_usage": {
+        "message": "브라우저 작업과 리소스 사용량을 확인해요."
+    },
     "view_details": {
         "message": "세부 정보 보기"
     },
     "view_page_source": {
         "message": "페이지 소스 보기"
+    },
+    "view_the_source_of_the_current_page": {
+        "message": "현재 페이지의 소스를 확인해요."
+    },
+    "view_your_browsing_history": {
+        "message": "방문 기록을 확인해요."
+    },
+    "view_your_downloads": {
+        "message": "다운로드 항목을 확인해요."
     },
     "volume_click_to_toggle_mute": {
         "message": "음량 (⌥-클릭으로 음소거 전환)"
@@ -5807,6 +6287,9 @@
     "what_should_i_call_you": {
         "message": "어떻게 불러 드릴까요?"
     },
+    "width": {
+        "message": "선 두께"
+    },
     "will_be_deleted": {
         "message": "%@이(가) 삭제돼요."
     },
@@ -5864,9 +6347,6 @@
     "your_answer_is_about_pick_a_row": {
         "message": "이 답변은 “%@”에 적용돼요. 대신 이 에이전트를 실행한 프로세스에 대해 답변하려면 위에서 행을 선택하세요."
     },
-    "your_collection_starts_here": {
-        "message": "컬렉션은 여기에서 시작돼요."
-    },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "현재 고정된 탭이 기존 대상마다 복사돼요. 이후에는 사본을 각각 따로 변경할 수 있어요."
     },
@@ -5881,6 +6361,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "삭제 요청이 접수됐어요. 삭제가 완료되면 이메일로 처리 내역을 받게 돼요.\n\n이제 Phi가 로그아웃하고 이 Mac에서 데이터를 삭제한 뒤 종료돼요."
+    },
+    "your_edits_are_still_available_choose_another": {
+        "message": "편집한 내용은 그대로 남아 있어요. 다른 위치를 선택한 다음 다시 시도해 주세요."
     },
     "your_note": {
         "message": "메모를 입력해 주세요"
@@ -5927,6 +6410,9 @@
     "zoom_in": {
         "message": "확대"
     },
+    "zoom_in_14fd": {
+        "message": "확대"
+    },
     "zoom_minus": {
         "message": "축소"
     },
@@ -5934,6 +6420,9 @@
         "message": "실제 크기"
     },
     "zoom_out": {
+        "message": "축소"
+    },
+    "zoom_out_37a7": {
         "message": "축소"
     },
     "zoom_plus": {

@@ -5,9 +5,6 @@
     "a_deletion_request_for_this_account_is": {
         "message": "Ein Löschantrag für dieses Konto wird bereits bearbeitet. Du erhältst eine Bestätigung per E-Mail, sobald die Löschung abgeschlossen ist.\n\nPhi meldet dich jetzt ab, entfernt seine Daten von diesem Mac und wird beendet."
     },
-    "a_little_library_of_things_worth_keeping": {
-        "message": "Eine kleine Bibliothek für Dinge, die du behalten möchtest."
-    },
     "a_migration_is_already_running_try_again": {
         "message": "Es läuft bereits eine Migration. Versuche es erneut, sobald sie abgeschlossen ist."
     },
@@ -59,6 +56,9 @@
     "add": {
         "message": "Hinzufügen"
     },
+    "add_a_new_tab_to_the_current": {
+        "message": "Fügt der aktuellen Tab-Gruppe einen neuen Tab hinzu."
+    },
     "add_all_as_new": {
         "message": "Alle als neu hinzufügen"
     },
@@ -76,6 +76,9 @@
     },
     "add_new": {
         "message": "Neu hinzufügen"
+    },
+    "add_new_tab_to_group": {
+        "message": "Neuen Tab zur Gruppe hinzufügen"
     },
     "add_note": {
         "message": "Notiz hinzufügen"
@@ -275,11 +278,14 @@
     "all_cookies_history_extensions_and_saved_data_4b27b4": {
         "message": "Alle Cookies, der Verlauf, Erweiterungen und gespeicherte Daten dieses Profils werden dauerhaft entfernt. Das kann nicht rückgängig gemacht werden."
     },
+    "all_custom_shortcuts_will_be_removed_and": {
+        "message": "Alle angepassten Tastaturkurzbefehle werden entfernt und die Standardwerte wiederhergestellt. Diese Aktion kann nicht widerrufen werden."
+    },
     "all_downloads": {
         "message": "Alle Downloads"
     },
-    "all_items": {
-        "message": "Alle Elemente"
+    "all_shortcuts": {
+        "message": "Alle Tastaturkurzbefehle"
     },
     "all_sites": {
         "message": "Alle Websites"
@@ -325,6 +331,9 @@
     },
     "already_in_your_account": {
         "message": "Bereits in deinem Account"
+    },
+    "also": {
+        "message": "Auch: %@"
     },
     "also_include_and_all_its_subdomains": {
         "message": "Auch %@ und alle zugehörigen Subdomains einbeziehen"
@@ -422,23 +431,23 @@
     "are_you_sure_you_want_to_quit": {
         "message": "Möchtest du Phi wirklich beenden?"
     },
+    "area_screenshot_copied": {
+        "message": "Bildschirmfoto des Bereichs kopiert"
+    },
+    "arrow": {
+        "message": "Pfeil"
+    },
     "article": {
         "message": "Artikel"
-    },
-    "article_19d9b3": {
-        "message": "Artikel"
-    },
-    "articles": {
-        "message": "Artikel"
-    },
-    "articles_to_return_to_ideas_to_sit": {
-        "message": "Artikel, zu denen du zurückkehren möchtest, Ideen, die nachwirken dürfen, und Passagen, die du nicht verlieren willst. Gib ihnen einen eigenen Ort."
     },
     "ask_every_time": {
         "message": "Jedes Mal fragen"
     },
     "assign": {
         "message": "Zuweisen"
+    },
+    "assign_a_new_kiosk_window_shortcut_in": {
+        "message": "Weise unter „Tastaturkurzbefehle“ einen Kurzbefehl für „Neues Kiosk-Fenster“ zu."
     },
     "assign_to": {
         "message": "Zu %@ zuordnen"
@@ -557,8 +566,14 @@
     "blue": {
         "message": "Blau"
     },
+    "blur": {
+        "message": "Verpixeln"
+    },
     "bookmark": {
         "message": "%d Lesezeichen"
+    },
+    "bookmark_all_open_tabs": {
+        "message": "Legt Lesezeichen für alle geöffneten Tabs an."
     },
     "bookmark_all_tabs": {
         "message": "Lesezeichen für alle Tabs hinzufügen…"
@@ -580,6 +595,9 @@
     },
     "bookmark_name_a30a7a": {
         "message": "Lesezeichenname"
+    },
+    "bookmark_the_current_page": {
+        "message": "Legt ein Lesezeichen für die aktuelle Seite an."
     },
     "bookmark_this_tab": {
         "message": "Lesezeichen für diesen Tab hinzufügen…"
@@ -637,6 +655,9 @@
     },
     "bot_token": {
         "message": "Bot-Token"
+    },
+    "bring_to_front": {
+        "message": "Ganz nach vorne"
     },
     "bring_your_spaces_bookmarks_pinned_tabs_and": {
         "message": "Bring deine Spaces, Lesezeichen, angehefteten Tabs und unterstützten Browserdaten auf deine anderen Geräte. Sichere einen Wiederherstellungscode und wähle dann, wie dieser Mac deinem Account beitritt."
@@ -719,6 +740,9 @@
     "cancel_272a6a": {
         "message": "Abbrechen"
     },
+    "cancel_2b384b": {
+        "message": "Abbrechen"
+    },
     "cancel_3d2cd0": {
         "message": "Abbrechen"
     },
@@ -749,10 +773,13 @@
     "cancel_7d73f2": {
         "message": "Abbrechen"
     },
+    "cancel_7e6b95": {
+        "message": "Abbrechen"
+    },
     "cancel_7e8473": {
         "message": "Abbrechen"
     },
-    "cancel_957ba8": {
+    "cancel_8f6d61": {
         "message": "Abbrechen"
     },
     "cancel_9b3e6c": {
@@ -842,6 +869,9 @@
     "cancelled": {
         "message": "Abgebrochen"
     },
+    "capture_area": {
+        "message": "Bildschirmfoto eines Bereichs aufnehmen…"
+    },
     "capture_full_page": {
         "message": "Bildschirmfoto der ganzen Seite aufnehmen"
     },
@@ -905,6 +935,12 @@
     "change_space_icon": {
         "message": "Space-Symbol ändern"
     },
+    "change_style": {
+        "message": "Stiländerung"
+    },
+    "change_the_group_of_the_current_tab": {
+        "message": "Ändert die Gruppe des aktuellen Tabs."
+    },
     "change_theme": {
         "message": "Design ändern"
     },
@@ -925,6 +961,9 @@
     },
     "check_for_update_9e397e": {
         "message": "Nach Updates suchen…"
+    },
+    "check_the_document_for_spelling_errors": {
+        "message": "Prüft das Dokument auf Rechtschreibfehler."
     },
     "check_the_rule_sets_to_use_done": {
         "message": "Hake die Regelsätze an, die verwendet werden sollen. „Fertig“ lädt alle noch fehlenden von ihren Anbietern herunter; ohne dein Zutun wird nichts heruntergeladen. Benutzerdefinierte Listen gelten für alle drei Schalter."
@@ -950,14 +989,17 @@
     "choose_a_download_location_for_this_profile": {
         "message": "Wähle einen Download-Speicherort für dieses Profil."
     },
+    "choose_a_file_to_open_in_phi": {
+        "message": "Wählt eine Datei aus, die in Phi geöffnet werden soll."
+    },
     "choose_a_name_address_and_folder_for": {
         "message": "Wähle einen Namen, eine Adresse und einen Ordner für dieses Lesezeichen."
     },
     "choose_a_name_and_address_for_this": {
         "message": "Wähle einen Namen und eine Adresse für diesen angehefteten Tab."
     },
-    "choose_an_item_from_your_collection_and": {
-        "message": "Wähle etwas aus deiner Sammlung und nimm dir ein wenig Raum zum Lesen."
+    "choose_a_space_for_the_current_peek": {
+        "message": "Wählt einen Space für die aktuelle Peek- oder Kiosk-Seite aus."
     },
     "choose_and_download_rule_sets": {
         "message": "Regelsätze auswählen und herunterladen"
@@ -998,6 +1040,9 @@
     "choose_where_this_profile_s_saved_pages": {
         "message": "Wähle einen Speicherort für die gesicherten Seiten dieses Profils."
     },
+    "choose_which_browsing_data_to_clear": {
+        "message": "Wählt aus, welche Browserdaten gelöscht werden sollen."
+    },
     "choose_which_profiles_agents_may_create_their": {
         "message": "Wähle, in welchen Profilen Agenten eigene Spaces erstellen dürfen. Wird ein Profil deaktiviert, können Agenten keine neuen daran gebundenen Spaces mehr öffnen; bestehende Spaces bleiben unberührt."
     },
@@ -1028,11 +1073,11 @@
     "clear_search": {
         "message": "Suche löschen"
     },
-    "clear_search_c9a806": {
-        "message": "Suche löschen"
-    },
     "click": {
         "message": "Klicke "
+    },
+    "click_the_shortcut_to_record_a_new": {
+        "message": "Klicke auf den Tastaturkurzbefehl, um eine neue Tastenkombination aufzunehmen."
     },
     "click_the_title_for_overview_click_the": {
         "message": "Klicke auf den Titel für die Übersicht. Klicke auf den Pfeil zum Ein- oder Ausklappen."
@@ -1057,6 +1102,9 @@
     },
     "close_9f9dbb": {
         "message": "Schließen"
+    },
+    "close_all_phi_windows": {
+        "message": "Schließt alle Phi-Fenster."
     },
     "close_b52252": {
         "message": "Schließen"
@@ -1103,11 +1151,35 @@
     "close_tab_f52cc8": {
         "message": "Tab schließen"
     },
+    "close_tab_group": {
+        "message": "Tab-Gruppe schließen"
+    },
     "close_tabs": {
         "message": "Tabs schließen"
     },
+    "close_tabs_to_the_right_of_the": {
+        "message": "Schließt die Tabs rechts neben dem aktuellen Tab."
+    },
+    "close_the_current_tab": {
+        "message": "Schließt den aktuellen Tab."
+    },
+    "close_the_current_tab_group": {
+        "message": "Schließt die aktuelle Tab-Gruppe."
+    },
+    "close_the_current_window": {
+        "message": "Schließt das aktuelle Fenster."
+    },
+    "close_the_other_tabs_in_the_current": {
+        "message": "Schließt die anderen Tabs im aktuellen Fenster."
+    },
     "close_window": {
         "message": "Fenster schließen"
+    },
+    "close_without_saving": {
+        "message": "Ohne Sichern schließen"
+    },
+    "close_without_saving_your_edits": {
+        "message": "Schließen, ohne deine Änderungen zu sichern?"
     },
     "collapse_group": {
         "message": "Gruppe einklappen"
@@ -1117,9 +1189,6 @@
     },
     "collect_site_memories": {
         "message": "Website-Erinnerungen sammeln"
-    },
-    "collection": {
-        "message": "SAMMLUNG"
     },
     "color": {
         "message": "Farbe"
@@ -1165,6 +1234,9 @@
     },
     "confirm_your_recovery_code": {
         "message": "Bestätige deinen Wiederherstellungscode"
+    },
+    "conflicting_shortcuts": {
+        "message": "Tastaturkurzbefehle mit Konflikten"
     },
     "conflicts_with": {
         "message": "Konflikt mit: %@"
@@ -1304,6 +1376,12 @@
     "copy_right_url_970e63": {
         "message": "Rechte URL kopieren"
     },
+    "copy_the_current_page_s_url_to": {
+        "message": "Kopiert die URL der aktuellen Seite in die Zwischenablage."
+    },
+    "copy_the_selection_to_the_clipboard": {
+        "message": "Kopiert die Auswahl in die Zwischenablage."
+    },
     "copy_top_url": {
         "message": "Obere URL kopieren"
     },
@@ -1436,9 +1514,6 @@
     "couldn_t_read_data_on_this_mac": {
         "message": "Daten auf diesem Mac konnten nicht gelesen werden"
     },
-    "couldn_t_read_your_folio": {
-        "message": "Dein Folio konnte nicht gelesen werden"
-    },
     "couldn_t_rename_profile": {
         "message": "Profil konnte nicht umbenannt werden"
     },
@@ -1466,11 +1541,23 @@
     "create": {
         "message": "Erstellen"
     },
+    "create_a_copy_of_the_current_tab": {
+        "message": "Erstellt eine Kopie des aktuellen Tabs."
+    },
     "create_a_new_folder_to_organize_your": {
         "message": "Erstelle einen neuen Ordner, um deine Lesezeichen zu organisieren."
     },
+    "create_a_new_incognito_space": {
+        "message": "Erstellt einen neuen Inkognito-Space."
+    },
+    "create_a_new_tab_group": {
+        "message": "Erstellt eine neue Tab-Gruppe."
+    },
     "create_a_space": {
         "message": "Neuen Space erstellen"
+    },
+    "create_new_tab_group": {
+        "message": "Neue Tab-Gruppe erstellen"
     },
     "create_on_this_mac": {
         "message": "Auf diesem Mac erstellen"
@@ -1490,6 +1577,9 @@
     "credential_request_from": {
         "message": "Zugangsdaten-Anfrage von „%@“"
     },
+    "crop": {
+        "message": "Beschneiden"
+    },
     "current": {
         "message": "Aktuell"
     },
@@ -1499,6 +1589,9 @@
     "custom": {
         "message": "Benutzerdefiniert"
     },
+    "custom_color": {
+        "message": "Eigene Farbe"
+    },
     "custom_filter": {
         "message": "Benutzerdefinierter Filter"
     },
@@ -1507,6 +1600,12 @@
     },
     "custom_telegram_bot": {
         "message": "Eigener Telegram-Bot"
+    },
+    "customized_shortcuts": {
+        "message": "Angepasste Tastaturkurzbefehle"
+    },
+    "cut_the_selection_to_the_clipboard": {
+        "message": "Schneidet die Auswahl aus und legt sie in der Zwischenablage ab."
     },
     "cyan": {
         "message": "Türkis"
@@ -1522,6 +1621,9 @@
     },
     "days_ago": {
         "message": "vor %d Tagen"
+    },
+    "decrease_the_zoom_level_of_the_current": {
+        "message": "Verringert die Zoomstufe der aktuellen Seite."
     },
     "default": {
         "message": "Standard"
@@ -1564,6 +1666,9 @@
     },
     "delete_backup": {
         "message": "Backup löschen"
+    },
+    "delete_bc7b23": {
+        "message": "Löschen"
     },
     "delete_bookmark": {
         "message": "%d Lesezeichen löschen?"
@@ -1706,7 +1811,13 @@
     "dismiss_094028": {
         "message": "Ausblenden"
     },
+    "dismiss_8fe66a": {
+        "message": "Ausblenden"
+    },
     "dismiss_cb343b": {
+        "message": "Ausblenden"
+    },
+    "dismiss_d97b3f": {
         "message": "Ausblenden"
     },
     "dismiss_media_player": {
@@ -1790,8 +1901,17 @@
     "drag_tabs_here_or_pin_them_from": {
         "message": "Ziehe Tabs hierher oder hefte sie aus der Tab-Liste an"
     },
+    "drag_to_move_the_toolbar": {
+        "message": "Ziehen, um die Symbolleiste zu bewegen"
+    },
     "drag_to_reorder_space": {
         "message": "Ziehen, um den Space neu anzuordnen"
+    },
+    "drag_to_select_an_area": {
+        "message": "Ziehen, um einen Bereich auszuwählen"
+    },
+    "drag_to_select_scroll_or_drag_to": {
+        "message": "Ziehen, um auszuwählen · Scrollen oder an einen Rand ziehen, um zu erweitern · Escape-Taste zum Abbrechen"
     },
     "duplicate": {
         "message": "Duplizieren"
@@ -1841,6 +1961,9 @@
     "edit_7e9a": {
         "message": "Bearbeiten"
     },
+    "edit_annotation": {
+        "message": "Bearbeiten der Anmerkung"
+    },
     "edit_bookmark": {
         "message": "Lesezeichen bearbeiten"
     },
@@ -1862,8 +1985,14 @@
     "edit_pinned_tab": {
         "message": "Angehefteten Tab bearbeiten"
     },
+    "edit_screenshot": {
+        "message": "Bildschirmfoto bearbeiten"
+    },
     "edit_split_bookmark": {
         "message": "Split-Lesezeichen bearbeiten"
+    },
+    "edit_text": {
+        "message": "Textbearbeitung"
     },
     "edit_the_name_and_address_for_this": {
         "message": "Bearbeite den Namen und die Adresse dieses Lesezeichens."
@@ -1888,6 +2017,9 @@
     },
     "edit_theme_f7ce4c": {
         "message": "Design bearbeiten"
+    },
+    "ellipse": {
+        "message": "Ellipse"
     },
     "email_address": {
         "message": "E-Mail-Adresse"
@@ -1958,6 +2090,9 @@
     "enter_at_least_one_filter_rule": {
         "message": "Gib mindestens eine Filterregel ein."
     },
+    "enter_or_leave_full_screen": {
+        "message": "Wechselt in den Vollbildmodus oder beendet ihn."
+    },
     "enter_the_6_digit_code_sent_to": {
         "message": "Gib den 6-stelligen Code ein, der an %@ gesendet wurde."
     },
@@ -1978,6 +2113,9 @@
     },
     "error": {
         "message": "Fehler"
+    },
+    "escape_shortcuts_require_command_or_control": {
+        "message": "Tastaturkurzbefehle mit der Escape-Taste erfordern die Befehlstaste oder die Steuerungstaste."
     },
     "every_agent_is_allowed_so_none_is": {
         "message": "Jeder Agent ist zugelassen, daher ist keiner einzeln genehmigt."
@@ -2021,6 +2159,9 @@
     "export": {
         "message": "Exportieren"
     },
+    "export_0a78d0": {
+        "message": "Exportieren…"
+    },
     "export_account_data": {
         "message": "Kontodaten exportieren"
     },
@@ -2041,6 +2182,9 @@
     },
     "export_logs_a846d2": {
         "message": "Protokolle exportieren"
+    },
+    "export_the_screenshot_as_jpg_or_pdf": {
+        "message": "Exportiere das Bildschirmfoto als JPG oder PDF, um deine Änderungen zu behalten."
     },
     "export_user_data": {
         "message": "Benutzerdaten exportieren…"
@@ -2120,8 +2264,14 @@
     "file": {
         "message": "Ablage"
     },
+    "fill": {
+        "message": "Füllung"
+    },
     "filter_rules": {
         "message": "Filterregeln"
+    },
+    "filter_shortcuts": {
+        "message": "Tastaturkurzbefehle filtern"
     },
     "filtering_is_running_with_the_last_good": {
         "message": "Die Filterung läuft mit den letzten funktionierenden Regeln"
@@ -2137,6 +2287,9 @@
     },
     "find_shortcut_keys": {
         "message": "Tastaturkurzbefehle suchen"
+    },
+    "find_text_on_the_current_page": {
+        "message": "Sucht Text auf der aktuellen Seite."
     },
     "finish": {
         "message": "Fertig"
@@ -2159,11 +2312,35 @@
     "finish_signing_out_in_your_browser": {
         "message": "Schließe die Abmeldung in deinem Browser ab."
     },
+    "fit": {
+        "message": "Einpassen"
+    },
     "fixes_and_rules_maintained_by_phi_keep": {
         "message": "Von Phi gepflegte Korrekturen und Regeln. Lass diese Liste aktiviert, es sei denn, eine Website macht Probleme."
     },
     "focus_address_bar": {
         "message": "Adressleiste fokussieren"
+    },
+    "focus_next_pane": {
+        "message": "Nächsten Bereich fokussieren"
+    },
+    "focus_next_tab_group": {
+        "message": "Nächste Tab-Gruppe fokussieren"
+    },
+    "focus_open_popup": {
+        "message": "Geöffnetes Popup fokussieren"
+    },
+    "focus_previous_pane": {
+        "message": "Vorherigen Bereich fokussieren"
+    },
+    "focus_previous_tab_group": {
+        "message": "Vorherige Tab-Gruppe fokussieren"
+    },
+    "focus_the_address_bar_to_enter_a": {
+        "message": "Fokussiert die Adressleiste, um eine URL einzugeben oder zu suchen."
+    },
+    "focus_the_address_bar_to_search_the": {
+        "message": "Fokussiert die Adressleiste, um im Web zu suchen."
     },
     "folder": {
         "message": "Ordner"
@@ -2417,6 +2594,12 @@
     "for_web_development_while_an_agent_operates": {
         "message": "Für die Webentwicklung. Während ein Agent eine Seite bedient, färbt Phi sie nicht mehr um, macht die Bedienmaske transparent und minimiert die Leiste „Steuerung übernehmen“. Die Seite ignoriert deine Eingaben weiterhin, bis du die Steuerung übernimmst. Gilt sofort."
     },
+    "force_reload_page": {
+        "message": "Seite ohne Cache neu laden"
+    },
+    "format": {
+        "message": "Format"
+    },
     "forward": {
         "message": "Vorwärts"
     },
@@ -2425,6 +2608,9 @@
     },
     "forward_e876ba": {
         "message": "Vorwärts"
+    },
+    "freehand": {
+        "message": "Freihand"
     },
     "from": {
         "message": "Von %@"
@@ -2471,8 +2657,17 @@
     "go_to": {
         "message": "Zu %@ wechseln"
     },
+    "go_to_7113ff": {
+        "message": "Zu %@ wechseln"
+    },
     "go_to_space": {
         "message": "Zu Space „%@“ wechseln"
+    },
+    "go_to_the_next_page_in_this": {
+        "message": "Wechselt zur nächsten Seite im Verlauf dieses Tabs."
+    },
+    "go_to_the_previous_page_in_this": {
+        "message": "Wechselt zur vorherigen Seite im Verlauf dieses Tabs."
     },
     "granted": {
         "message": "Erteilt am %@"
@@ -2510,6 +2705,12 @@
     "hide": {
         "message": "Ausblenden"
     },
+    "hide_other_applications": {
+        "message": "Blendet andere Apps aus."
+    },
+    "hide_phi_and_its_windows": {
+        "message": "Blendet Phi und seine Fenster aus."
+    },
     "hide_sidebar": {
         "message": "Seitenleiste ausblenden"
     },
@@ -2521,9 +2722,6 @@
     },
     "highlight_saved": {
         "message": "Markierung gesichert"
-    },
-    "highlights": {
-        "message": "Markierungen"
     },
     "history": {
         "message": "Verlauf"
@@ -2602,6 +2800,9 @@
     },
     "import": {
         "message": "Importieren…"
+    },
+    "import_bookmarks_and_settings_from_another_browser": {
+        "message": "Importiert Lesezeichen und Einstellungen aus einem anderen Browser."
     },
     "import_completed_successfully": {
         "message": "Import erfolgreich abgeschlossen"
@@ -2687,11 +2888,17 @@
     "incognito_f5b3ca": {
         "message": "Inkognito"
     },
+    "increase_the_zoom_level_of_the_current": {
+        "message": "Erhöht die Zoomstufe der aktuellen Seite."
+    },
     "initial_sync_in_progress": {
         "message": "Erste Synchronisierung läuft"
     },
     "insecure_download_blocked": {
         "message": "Unsicherer Download blockiert"
+    },
+    "inspect_an_element_on_the_current_page": {
+        "message": "Untersucht ein Element auf der aktuellen Seite."
     },
     "install": {
         "message": "Installieren"
@@ -2735,8 +2942,17 @@
     "iris": {
         "message": "Iris"
     },
+    "is_used_by_reassigning_removes_only_this": {
+        "message": "%@ wird von %@ verwendet. Beim Neuzuweisen wird nur dieser Tastaturkurzbefehl von diesen Befehlen entfernt. Ihre anderen Tastaturkurzbefehle bleiben aktiv."
+    },
+    "is_used_by_these_shortcuts_cannot_be": {
+        "message": "%@ wird von %@ verwendet. Diese Tastaturkurzbefehle können hier nicht geändert werden. Wähle eine andere Taste."
+    },
     "items": {
         "message": "%d Elemente"
+    },
+    "jump_to_selection": {
+        "message": "Auswahl anzeigen"
     },
     "just_now": {
         "message": "Gerade eben"
@@ -2750,8 +2966,8 @@
     "keep_3a0464": {
         "message": "Beibehalten"
     },
-    "keep_what_stays_with_you": {
-        "message": "Bewahre, was bei dir bleibt."
+    "keep_editing": {
+        "message": "Weiter bearbeiten"
     },
     "kiosk": {
         "message": "Kiosk"
@@ -2764,9 +2980,6 @@
     },
     "language": {
         "message": "Sprache"
-    },
-    "larger_text": {
-        "message": "Größerer Text"
     },
     "last_problem": {
         "message": "Letztes Problem: %1$@ (%2$@)"
@@ -2797,9 +3010,6 @@
     },
     "layout_selection": {
         "message": "Layout auswählen"
-    },
-    "least_recently_updated_first": {
-        "message": "Am längsten nicht aktualisierte zuerst"
     },
     "leave_empty_to_use_the_auto_generated": {
         "message": "Leer lassen, um den automatisch generierten Namen zu verwenden."
@@ -2921,6 +3131,9 @@
     "manage_extensions_52d065": {
         "message": "Erweiterungen verwalten"
     },
+    "manage_installed_browser_extensions": {
+        "message": "Verwaltet installierte Browsererweiterungen."
+    },
     "manage_site_memories": {
         "message": "Website-Erinnerungen verwalten"
     },
@@ -2984,6 +3197,9 @@
     "minimise": {
         "message": "Minimieren"
     },
+    "minimize_the_current_window": {
+        "message": "Legt das aktuelle Fenster im Dock ab."
+    },
     "mint": {
         "message": "Mint"
     },
@@ -3002,11 +3218,41 @@
     "more_spaces": {
         "message": "Weitere Spaces"
     },
+    "move": {
+        "message": "Bewegen"
+    },
+    "move_focus_to_an_open_popup": {
+        "message": "Verschiebt den Fokus auf ein geöffnetes Popup."
+    },
+    "move_focus_to_the_next_browser_pane": {
+        "message": "Verschiebt den Fokus auf den nächsten Browserbereich."
+    },
+    "move_focus_to_the_next_tab_group": {
+        "message": "Verschiebt den Fokus auf die nächste Tab-Gruppe."
+    },
+    "move_focus_to_the_previous_browser_pane": {
+        "message": "Verschiebt den Fokus auf den vorherigen Browserbereich."
+    },
+    "move_focus_to_the_previous_tab_group": {
+        "message": "Verschiebt den Fokus auf die vorherige Tab-Gruppe."
+    },
+    "move_tab_left": {
+        "message": "Tab nach links verschieben"
+    },
+    "move_tab_right": {
+        "message": "Tab nach rechts verschieben"
+    },
     "move_tabs_to_group": {
         "message": "Tabs in Gruppe verschieben"
     },
-    "move_this_item_to_trash": {
-        "message": "Dieses Element in den Papierkorb legen?"
+    "move_the_current_tab_one_position_to": {
+        "message": "Verschiebt den aktuellen Tab um eine Position nach links."
+    },
+    "move_the_current_tab_one_position_to_f3f777": {
+        "message": "Verschiebt den aktuellen Tab um eine Position nach rechts."
+    },
+    "move_the_current_tab_to_a_new": {
+        "message": "Verschiebt den aktuellen Tab in ein neues Fenster."
     },
     "move_to_group": {
         "message": "In Gruppe verschieben"
@@ -3026,11 +3272,17 @@
     "move_to_space_90b3a5": {
         "message": "In anderen Space verschieben"
     },
-    "move_to_trash": {
-        "message": "In den Papierkorb legen"
+    "move_to_the_next_matching_text_on": {
+        "message": "Springt zur nächsten Textübereinstimmung auf der Seite."
+    },
+    "move_to_the_previous_matching_text_on": {
+        "message": "Springt zur vorherigen Textübereinstimmung auf der Seite."
     },
     "mute": {
         "message": "Stumm"
+    },
+    "mute_or_unmute_audio_from_the_current": {
+        "message": "Schaltet den Ton der aktuellen Website stumm oder wieder ein."
     },
     "mute_site": {
         "message": "Website stummschalten"
@@ -3359,12 +3611,6 @@
     "no_file_selected": {
         "message": "Keine Datei ausgewählt"
     },
-    "no_highlights_yet_highlight_a_passage_on": {
-        "message": "Noch keine Markierungen. Markiere eine Passage auf der Originalseite, um sie hier aufzubewahren."
-    },
-    "no_items_match_this_view": {
-        "message": "Keine Elemente entsprechen dieser Ansicht."
-    },
     "no_matching_bookmarks": {
         "message": "Keine passenden Lesezeichen"
     },
@@ -3590,9 +3836,6 @@
     "on_an_authorized_device_open_settings_sync": {
         "message": "Öffne auf einem autorisierten Gerät Einstellungen → Synchronisierung und genehmige diese Anfrage. Achte darauf, dass dieser Code übereinstimmt:"
     },
-    "on_any_webpage_choose_file_save_to": {
-        "message": "Wähle auf einer beliebigen Webseite Ablage → In Folio sichern"
-    },
     "on_browser_restart": {
         "message": "Beim Neustart des Browsers"
     },
@@ -3617,6 +3860,24 @@
     "open_a_browser_window_for_the_selected": {
         "message": "Öffne ein Browserfenster für das ausgewählte Profil, um fortzufahren."
     },
+    "open_a_new_browser_window": {
+        "message": "Öffnet ein neues Browserfenster."
+    },
+    "open_a_new_incognito_window": {
+        "message": "Öffnet ein neues Inkognitofenster."
+    },
+    "open_a_new_kiosk_window": {
+        "message": "Öffnet ein neues Kiosk-Fenster."
+    },
+    "open_a_new_tab": {
+        "message": "Öffnet einen neuen Tab."
+    },
+    "open_a_new_tab_to_the_right": {
+        "message": "Öffnet einen neuen Tab rechts neben dem aktuellen Tab."
+    },
+    "open_a_tab_in_split_view": {
+        "message": "Öffnet einen Tab in Split View."
+    },
     "open_as_split": {
         "message": "Als Split öffnen"
     },
@@ -3632,11 +3893,20 @@
     "open_as_tab": {
         "message": "Als Tab öffnen"
     },
+    "open_browser_help": {
+        "message": "Öffnet die Browserhilfe."
+    },
+    "open_developer_tools_for_the_current_page": {
+        "message": "Öffnet die Entwicklertools für die aktuelle Seite."
+    },
     "open_devtools": {
         "message": "Entwicklertools öffnen"
     },
     "open_external_links_in_kiosk": {
         "message": "Externe Links in Kiosk öffnen"
+    },
+    "open_file": {
+        "message": "Datei öffnen…"
     },
     "open_folio": {
         "message": "Folio öffnen"
@@ -3668,14 +3938,20 @@
     "open_links_in_a_lightweight_window_one": {
         "message": "Öffnet Links in einem schlanken Fenster, eine Seite nach der anderen."
     },
-    "open_original": {
-        "message": "Original öffnen"
+    "open_or_close_reader_for_the_current": {
+        "message": "Öffnet oder schließt den Lesemodus für die aktuelle Seite."
+    },
+    "open_phi_settings": {
+        "message": "Öffnet die Phi-Einstellungen."
     },
     "open_picture_in_picture": {
         "message": "Bild-in-Bild starten"
     },
-    "open_saved_webpage": {
-        "message": "Gesicherte Webseite öffnen"
+    "open_print_options_for_the_current_page": {
+        "message": "Öffnet die Druckoptionen für die aktuelle Seite."
+    },
+    "open_reading_mode_for_the_current_page": {
+        "message": "Öffnet die Leseansicht für die aktuelle Seite."
     },
     "open_settings": {
         "message": "Einstellungen öffnen"
@@ -3689,6 +3965,24 @@
     "open_tabs": {
         "message": "Geöffnete Tabs"
     },
+    "open_the_bookmark_manager": {
+        "message": "Öffnet die Lesezeichenverwaltung."
+    },
+    "open_the_current_peek_or_kiosk_page": {
+        "message": "Öffnet die aktuelle Peek- oder Kiosk-Seite in einem Space."
+    },
+    "open_the_feedback_page": {
+        "message": "Öffnet die Feedback-Seite."
+    },
+    "open_the_home_page": {
+        "message": "Öffnet die Startseite."
+    },
+    "open_the_javascript_console_for_the_current": {
+        "message": "Öffnet die JavaScript-Konsole für die aktuelle Seite."
+    },
+    "open_the_profiles_menu": {
+        "message": "Öffnet das Profilmenü."
+    },
     "open_the_url_rules_editor": {
         "message": "Editor für URL-Regeln öffnen"
     },
@@ -3701,11 +3995,23 @@
     "organize_tabs_with_ai": {
         "message": "Tabs mit KI organisieren"
     },
+    "organize_tabs_with_ai_413fc6": {
+        "message": "Organisiert Tabs mit KI."
+    },
     "organize_tabs_with_ai_6111": {
         "message": "Tabs mit KI organisieren"
     },
     "organize_tabs_with_ai_e4d5d3": {
         "message": "Tabs mit KI organisieren"
+    },
+    "other": {
+        "message": "Sonstige"
+    },
+    "other_active_shortcuts_read_only": {
+        "message": "Weitere aktive Tastaturkurzbefehle (schreibgeschützt)"
+    },
+    "other_browser_commands": {
+        "message": "Weitere Browserbefehle"
     },
     "pairing_isn_t_available_right_now": {
         "message": "Die Kopplung ist derzeit nicht verfügbar."
@@ -3718,6 +4024,15 @@
     },
     "passwords_manager": {
         "message": "Passwortmanager"
+    },
+    "paste": {
+        "message": "Einsetzen"
+    },
+    "paste_text_using_the_surrounding_formatting": {
+        "message": "Setzt Text mit der umgebenden Formatierung ein."
+    },
+    "paste_the_clipboard_contents": {
+        "message": "Setzt den Inhalt der Zwischenablage ein."
     },
     "pause": {
         "message": "Pausieren"
@@ -3860,6 +4175,9 @@
     "pin_extension": {
         "message": "Erweiterung anheften"
     },
+    "pin_or_unpin_the_current_tab": {
+        "message": "Pinnt den aktuellen Tab an oder löst ihn."
+    },
     "pin_split": {
         "message": "Split anheften"
     },
@@ -3938,6 +4256,9 @@
     "preparing_time_machine_restore": {
         "message": "Time Machine-Wiederherstellung wird vorbereitet"
     },
+    "press_escape_to_cancel_or_delete_to": {
+        "message": "Drücke die Escape-Taste zum Abbrechen oder die Rückschritttaste, um den Tastaturkurzbefehl zu entfernen."
+    },
     "press_shortcut": {
         "message": "Tastenkombination drücken…"
     },
@@ -3961,6 +4282,21 @@
     },
     "print": {
         "message": "Drucken…"
+    },
+    "print_the_browser_view_hierarchy_for_debugging": {
+        "message": "Gibt die View-Hierarchie des Browsers zum Debuggen aus."
+    },
+    "print_the_current_page_using_the_system": {
+        "message": "Druckt die aktuelle Seite über den Systemdialog."
+    },
+    "print_the_detailed_browser_view_hierarchy_for": {
+        "message": "Gibt die detaillierte View-Hierarchie des Browsers zum Debuggen aus."
+    },
+    "print_view_tree": {
+        "message": "View-Hierarchie ausgeben"
+    },
+    "print_view_tree_details": {
+        "message": "View-Hierarchie mit Details ausgeben"
     },
     "privacy": {
         "message": "Datenschutzerklärung"
@@ -4031,6 +4367,12 @@
     "quit": {
         "message": "Beenden"
     },
+    "quit_phi": {
+        "message": "Phi beenden"
+    },
+    "quit_phi_8a937a": {
+        "message": "Beendet Phi."
+    },
     "reader_view": {
         "message": "Lesemodus"
     },
@@ -4046,11 +4388,8 @@
     "reader_view_is_unavailable_on_this_page": {
         "message": "Lesemodus auf dieser Seite nicht verfügbar"
     },
-    "reading_mode": {
-        "message": "Leseansicht"
-    },
-    "reading_options_and_actions": {
-        "message": "Leseoptionen und Aktionen"
+    "reassign": {
+        "message": "Neu zuweisen"
     },
     "reauthenticate": {
         "message": "Erneut authentifizieren"
@@ -4064,9 +4403,6 @@
     "recently_closed": {
         "message": "Kürzlich geschlossen"
     },
-    "recently_updated_first": {
-        "message": "Zuletzt aktualisierte zuerst"
-    },
     "recommended": {
         "message": "Empfohlen"
     },
@@ -4076,8 +4412,17 @@
     "recovery_code": {
         "message": "Wiederherstellungscode"
     },
+    "rectangle": {
+        "message": "Rechteck"
+    },
     "red": {
         "message": "Rot"
+    },
+    "redo": {
+        "message": "Wiederholen"
+    },
+    "redo_the_last_undone_edit": {
+        "message": "Wiederholt die zuletzt widerrufene Änderung."
     },
     "refresh": {
         "message": "Neu laden"
@@ -4087,9 +4432,6 @@
     },
     "refresh_connector_status": {
         "message": "Connector-Status aktualisieren"
-    },
-    "refresh_library": {
-        "message": "Bibliothek aktualisieren"
     },
     "refused_without_asking": {
         "message": "Ohne Nachfrage abgelehnt"
@@ -4105,6 +4447,12 @@
     },
     "reload_page": {
         "message": "Seite neu laden"
+    },
+    "reload_the_current_page": {
+        "message": "Lädt die aktuelle Seite neu."
+    },
+    "reload_the_current_page_without_using_cached": {
+        "message": "Lädt die aktuelle Seite neu, ohne zwischengespeicherte Inhalte zu verwenden."
     },
     "remember_email": {
         "message": "E-Mail merken"
@@ -4220,6 +4568,9 @@
     "reopen_closed_tab_de7200": {
         "message": "Geschlossenen Tab wieder öffnen"
     },
+    "reopen_the_most_recently_closed_tab": {
+        "message": "Öffnet den zuletzt geschlossenen Tab wieder."
+    },
     "reopen_your_windows_and_tabs_the_next": {
         "message": "Deine Fenster und Tabs werden beim nächsten Start von Phi wieder geöffnet."
     },
@@ -4259,6 +4610,12 @@
     "resend_code_cbc823": {
         "message": "Code erneut senden (%d s)"
     },
+    "reserved_browser_shortcut": {
+        "message": "Reservierter Browser-Tastaturkurzbefehl"
+    },
+    "reset_the_current_page_to_its_default": {
+        "message": "Setzt die aktuelle Seite auf ihre Standard-Zoomstufe zurück."
+    },
     "resolve": {
         "message": "Beheben"
     },
@@ -4280,8 +4637,14 @@
     "restore_4c2571": {
         "message": "Zurücksetzen"
     },
+    "restore_all": {
+        "message": "Alle zurücksetzen"
+    },
     "restore_all_shortcuts": {
         "message": "Alle Tastaturkurzbefehle zurücksetzen"
+    },
+    "restore_all_shortcuts_23ac": {
+        "message": "Alle Tastaturkurzbefehle zurücksetzen?"
     },
     "restore_last_session": {
         "message": "Letzte Sitzung wiederherstellen"
@@ -4293,6 +4656,9 @@
         "message": "Fortsetzen"
     },
     "retry": {
+        "message": "Erneut versuchen"
+    },
+    "retry_05770d": {
         "message": "Erneut versuchen"
     },
     "retry_39f08b": {
@@ -4406,6 +4772,12 @@
     "save_pages_to": {
         "message": "Speicherort für gesicherte Seiten"
     },
+    "save_the_current_page_for_later": {
+        "message": "Sichert die aktuelle Seite für später."
+    },
+    "save_the_current_page_to_a_file": {
+        "message": "Sichert die aktuelle Seite als Datei."
+    },
     "save_to_folio": {
         "message": "In Folio sichern"
     },
@@ -4421,14 +4793,14 @@
     "save_your_recovery_code_first": {
         "message": "Sichere zuerst deinen Wiederherstellungscode"
     },
-    "saved": {
-        "message": "Gesichert"
-    },
     "saved_memories_for_will_be_deleted_from": {
         "message": "Die für %@ gesicherten Erinnerungen werden aus diesem Browser-Profil gelöscht. Dies kann nicht rückgängig gemacht werden."
     },
     "saved_only_what_had_loaded": {
         "message": "Nur bereits geladene Inhalte gesichert"
+    },
+    "saved_shortcuts_could_not_be_read_retry": {
+        "message": "Die gesicherten Tastaturkurzbefehle konnten nicht gelesen werden. Versuche es erneut oder setze alle Tastaturkurzbefehle zurück, um eine Wiederherstellungskopie zu behalten und die Standardwerte zu verwenden."
     },
     "saved_to_folio": {
         "message": "In Folio gesichert"
@@ -4457,6 +4829,9 @@
     "screenshot_timed_out_please_try_again": {
         "message": "Zeitüberschreitung beim Bildschirmfoto. Bitte versuche es erneut."
     },
+    "scroll_to_the_selected_text": {
+        "message": "Scrollt zum ausgewählten Text."
+    },
     "search": {
         "message": "Suchen"
     },
@@ -4472,6 +4847,9 @@
     "search_ac220a": {
         "message": "Suchen…"
     },
+    "search_by_name_or_keys_such_as": {
+        "message": "Suche nach Name oder Tasten, zum Beispiel cmd ctrl S oder ⌘⌃S."
+    },
     "search_downloads": {
         "message": "Downloads durchsuchen"
     },
@@ -4486,6 +4864,9 @@
     },
     "search_mk_3074": {
         "message": "%@ durchsuchen"
+    },
+    "search_open_tabs": {
+        "message": "Durchsucht die geöffneten Tabs."
     },
     "search_or_enter_url": {
         "message": "Suchen oder URL eingeben"
@@ -4511,14 +4892,20 @@
     "search_the_web": {
         "message": "Im Web suchen..."
     },
-    "search_your_library": {
-        "message": "Deine Bibliothek durchsuchen"
+    "select": {
+        "message": "Auswählen"
     },
     "select_a_profile_to_view_its_settings": {
         "message": "Wähle ein Profil aus, um seine Einstellungen anzuzeigen."
     },
+    "select_a_shortcut_to_view_its_details": {
+        "message": "Wähle einen Tastaturkurzbefehl aus, um die Details anzuzeigen."
+    },
     "select_a_space_to_view_its_settings": {
         "message": "Wähle einen Space aus, um seine Einstellungen anzuzeigen."
+    },
+    "select_all_content_in_the_focused_area": {
+        "message": "Wählt den gesamten Inhalt im fokussierten Bereich aus."
     },
     "select_at_least_one_category_to_back": {
         "message": "Wähle mindestens eine Kategorie zum Sichern aus."
@@ -4538,6 +4925,15 @@
     "select_tab": {
         "message": "Tab %d auswählen"
     },
+    "select_the_last_tab": {
+        "message": "Wählt den letzten Tab aus."
+    },
+    "select_the_next_tab": {
+        "message": "Wählt den nächsten Tab aus."
+    },
+    "select_the_previous_tab": {
+        "message": "Wählt den vorherigen Tab aus."
+    },
     "self_hosted": {
         "message": "selbst gehostet"
     },
@@ -4555,6 +4951,9 @@
     },
     "send_feedback_to_phi": {
         "message": "Feedback an Phi senden"
+    },
+    "send_to_back": {
+        "message": "Ganz nach hinten"
     },
     "sending_a_verification_code_to": {
         "message": "Bestätigungscode wird an %@ gesendet…"
@@ -4670,14 +5069,23 @@
     "share_page": {
         "message": "Seite teilen"
     },
+    "share_the_current_page": {
+        "message": "Teilt die aktuelle Seite."
+    },
     "shift_click_a_link_or_choose_open": {
         "message": "Klicke bei gedrückter Umschalttaste auf einen Link oder wähle „Link in Peek-Ansicht öffnen“, um ihn in einem schwebenden Panel über der Seite als Vorschau anzuzeigen. Nicht verfügbar im Layout „Komfortabel“."
+    },
+    "shortcut_already_in_use": {
+        "message": "Tastaturkurzbefehl wird bereits verwendet"
     },
     "shortcuts": {
         "message": "Tastaturkurzbefehle"
     },
     "shortcuts_b6a37f": {
         "message": "Tastaturkurzbefehle"
+    },
+    "shortcuts_changed_while_you_were_reviewing_them": {
+        "message": "Die Tastaturkurzbefehle wurden geändert, während du sie überprüft hast. Nimm den Tastaturkurzbefehl erneut auf, um die aktuellen Konflikte zu überprüfen."
     },
     "shorten_links_to_selected_text": {
         "message": "Links zum markierten Text kürzen"
@@ -4690,9 +5098,6 @@
     },
     "show_a_preview_card_when_hovering_over": {
         "message": "Vorschaukarte anzeigen, wenn du den Mauszeiger über einen Tab bewegst"
-    },
-    "show_all_items": {
-        "message": "Alle Elemente anzeigen"
     },
     "show_bookmark_bar_on_new_tab": {
         "message": "Lesezeichenleiste auf neuen Tabs einblenden"
@@ -4715,9 +5120,6 @@
     "show_in_finder_8593df": {
         "message": "Im Finder anzeigen"
     },
-    "show_in_finder_bb73ef": {
-        "message": "Im Finder zeigen"
-    },
     "show_in_folder": {
         "message": "In Ordner anzeigen"
     },
@@ -4733,17 +5135,38 @@
     "show_operated_pages_exactly_as_rendered": {
         "message": "Bediente Seiten genau wie gerendert anzeigen"
     },
+    "show_or_hide_the_bookmarks_bar_only": {
+        "message": "Blendet die Lesezeichenleiste ein oder aus. Nur im Layout „Komfortabel“ verfügbar."
+    },
+    "show_or_hide_the_chat_panel": {
+        "message": "Blendet die Chatbar ein oder aus."
+    },
+    "show_or_hide_the_sidebar": {
+        "message": "Blendet die Seitenleiste ein oder aus."
+    },
+    "show_or_hide_the_toolbar_in_full": {
+        "message": "Blendet die Symbolleiste im Vollbildmodus ein oder aus."
+    },
     "show_playing_tab": {
         "message": "Tab mit Wiedergabe anzeigen"
     },
     "show_proactive_suggestions_on_the_new_tab": {
         "message": "Proaktive Vorschläge auf der Seite „Neuer Tab“ anzeigen"
     },
+    "show_profiles_menu": {
+        "message": "Profilmenü anzeigen"
+    },
+    "show_reading_mode": {
+        "message": "Leseansicht anzeigen"
+    },
     "show_sidebar": {
         "message": "Seitenleiste einblenden"
     },
     "show_sidebar_media_player": {
         "message": "MiniPlayer einblenden"
+    },
+    "show_spelling_and_grammar_options": {
+        "message": "Zeigt die Optionen für Rechtschreibung und Grammatik an."
     },
     "show_tab_switcher": {
         "message": "Tab-Umschalter anzeigen"
@@ -4753,6 +5176,12 @@
     },
     "show_the_agent_s_command_and_process": {
         "message": "Befehl und Prozessbaum des Agenten einblenden"
+    },
+    "show_the_tab_switcher_and_move_backward": {
+        "message": "Zeigt den Tab-Umschalter an und geht rückwärts durch die zuletzt verwendeten Tabs."
+    },
+    "show_the_tab_switcher_and_move_forward": {
+        "message": "Zeigt den Tab-Umschalter an und geht vorwärts durch die zuletzt verwendeten Tabs."
     },
     "show_transcript": {
         "message": "Transkript anzeigen"
@@ -4877,9 +5306,6 @@
     "skip_this_version": {
         "message": "Diese Version überspringen"
     },
-    "smaller_text": {
-        "message": "Kleinerer Text"
-    },
     "some_account_and_system_information_may_be": {
         "message": "Möglicherweise werden einige Konto- und Systeminformationen an Phinomenon gesendet. Wir verwenden die Informationen, die du uns gibst, um technische Probleme zu beheben und unsere Dienste zu verbessern, gemäß unserer Datenschutzerklärung und unseren Nutzungsbedingungen."
     },
@@ -4910,14 +5336,8 @@
     "something_went_wrong_while_setting_up_the": {
         "message": "Beim Einrichten des Profils ist etwas schiefgelaufen."
     },
-    "something_worth_returning_to": {
-        "message": "Etwas, das einen zweiten Blick verdient."
-    },
     "sorry_for_the_interruption_a_few_details": {
         "message": "Entschuldige die Unterbrechung. Ein paar Details dazu, was vor dem Absturz passiert ist, können uns helfen, das Problem zu verstehen und Phi zuverlässiger zu machen."
-    },
-    "sort_collection": {
-        "message": "Sammlung sortieren"
     },
     "source": {
         "message": "Quelle"
@@ -4991,6 +5411,9 @@
     "standing_approvals_can_be_reviewed_and_revoked": {
         "message": "Dauerhafte Freigaben kannst du jederzeit in den Einstellungen prüfen und widerrufen."
     },
+    "start_a_new_conversation_in_phi_chat": {
+        "message": "Startet eine neue Unterhaltung in Phi Chat."
+    },
     "start_migration": {
         "message": "Migration starten"
     },
@@ -5006,11 +5429,11 @@
     "stop_022eb3": {
         "message": "Stopp"
     },
+    "stop_loading_the_current_page": {
+        "message": "Stoppt das Laden der aktuellen Seite."
+    },
     "store_this_code_somewhere_safe_you_will": {
         "message": "Bewahre diesen Code an einem sicheren Ort auf. Du benötigst ihn, um ein weiteres Gerät zu deinem Account hinzuzufügen."
-    },
-    "stored_on_your_mac": {
-        "message": "Auf deinem Mac gespeichert"
     },
     "submit": {
         "message": "Absenden"
@@ -5029,6 +5452,18 @@
     },
     "switch_to_agent_space": {
         "message": "Zum Agent-Space wechseln"
+    },
+    "switch_to_space_in_the_current_window": {
+        "message": "Wechselt zu Space %d im aktuellen Fenster."
+    },
+    "switch_to_tab_in_the_current_window": {
+        "message": "Wechselt zu Tab %d im aktuellen Fenster."
+    },
+    "switch_to_the_next_space": {
+        "message": "Wechselt zum nächsten Space."
+    },
+    "switch_to_the_previous_space": {
+        "message": "Wechselt zum vorherigen Space."
     },
     "sync": {
         "message": "Synchronisierung"
@@ -5138,6 +5573,12 @@
     "terms_of_service": {
         "message": "Nutzungsbedingungen"
     },
+    "text": {
+        "message": "Text"
+    },
+    "text_size": {
+        "message": "Textgröße"
+    },
     "that_code_has_expired_click_resend_code": {
         "message": "Dieser Code ist abgelaufen. Klicke auf „Code erneut senden“, um einen neuen zu erhalten."
     },
@@ -5171,11 +5612,11 @@
     "the_archive_does_not_contain_a_top": {
         "message": "Das Archiv enthält keinen Phi-Ordner auf oberster Ebene."
     },
-    "the_article_and_its_saved_webpage_copy": {
-        "message": "Der Artikel und seine gesicherte Webseitenkopie werden in den Papierkorb gelegt. Du kannst sie im Finder wiederherstellen."
-    },
     "the_bitwarden_browser_extension_autofills_your_vault": {
         "message": "Die Bitwarden-Browsererweiterung füllt deine im Tresor gespeicherten Zugangsdaten auf Webseiten automatisch aus. Phi kann sie jetzt aus dem Chrome Web Store installieren."
+    },
+    "the_change_could_not_be_saved_your": {
+        "message": "Die Änderung konnte nicht gesichert werden. Deine bisherigen Tastaturkurzbefehle sind weiterhin aktiv. Versuche die Änderung erneut."
     },
     "the_change_will_finish_in_the_background": {
         "message": "Die Änderung wird im Hintergrund abgeschlossen."
@@ -5194,6 +5635,9 @@
     },
     "the_folio_folder_could_not_be_read": {
         "message": "Der Folio-Ordner konnte nicht gelesen werden."
+    },
+    "the_global_shortcut_is_unavailable_choose_another": {
+        "message": "Der globale Tastaturkurzbefehl ist nicht verfügbar. Wähle einen anderen Tastaturkurzbefehl oder schalte diese Einstellung aus und wieder ein, um es erneut zu versuchen."
     },
     "the_local_im_service_is_unavailable_check": {
         "message": "Der lokale IM-Dienst ist nicht verfügbar. Prüfe, ob Phi Sentinel normal gestartet ist und der IM-Dienst läuft."
@@ -5315,9 +5759,6 @@
     "this_is_the_last_device_on_the": {
         "message": "Dies ist das letzte Gerät im Account, daher kann es nicht entfernt werden. Schließe die Kopplung auf diesem Gerät ab (Profile, die nicht gelesen werden können, verhindern das nicht), oder richte die Synchronisierung zuerst auf einem anderen Gerät ein und versuche es dann erneut."
     },
-    "this_item_has_no_article_text_you": {
-        "message": "Dieses Element enthält keinen Artikeltext. Du kannst das Original oder die gesicherte Webseitenkopie öffnen."
-    },
     "this_mac": {
         "message": "Dieser Mac"
     },
@@ -5357,8 +5798,23 @@
     "this_request_timed_out_you_can_try": {
         "message": "Diese Anfrage ist abgelaufen. Du kannst es erneut versuchen."
     },
+    "this_screenshot_is_too_large_to_edit": {
+        "message": "Dieses Bildschirmfoto ist zu groß zum Bearbeiten. Du kannst das Original-PNG trotzdem sichern."
+    },
     "this_session": {
         "message": "Diese Sitzung"
+    },
+    "this_shortcut_conflicts_with": {
+        "message": "Dieser Tastaturkurzbefehl steht in Konflikt mit:"
+    },
+    "this_shortcut_conflicts_with_a_macos_system": {
+        "message": "Dieser Tastaturkurzbefehl steht in Konflikt mit einem macOS-Systemkurzbefehl und funktioniert in Phi möglicherweise nicht."
+    },
+    "this_shortcut_is_available_in_other_apps": {
+        "message": "Dieser Tastaturkurzbefehl ist in anderen Apps verfügbar."
+    },
+    "this_shortcut_is_not_supported_globally_with": {
+        "message": "Dieser Tastaturkurzbefehl wird mit der aktuellen Tastaturbelegung nicht global unterstützt. Wähle einen anderen Tastaturkurzbefehl."
     },
     "this_site_isn_t_using_a_secure": {
         "message": "Diese Website verwendet keine sichere Verbindung und die Datei wurde möglicherweise manipuliert"
@@ -5441,6 +5897,12 @@
     "toggle_sidebar_307510": {
         "message": "Seitenleiste ein-/ausblenden"
     },
+    "toggle_tablet_mode": {
+        "message": "Tablet-Modus ein-/ausschalten"
+    },
+    "toggle_tablet_mode_for_browser_debugging": {
+        "message": "Schaltet den Tablet-Modus zum Debuggen des Browsers ein oder aus."
+    },
     "token_verified_successfully": {
         "message": "Token erfolgreich überprüft"
     },
@@ -5466,9 +5928,6 @@
         "message": "Erneut versuchen"
     },
     "try_again_ba7845": {
-        "message": "Erneut versuchen"
-    },
-    "try_again_cd0a4c": {
         "message": "Erneut versuchen"
     },
     "try_another_way": {
@@ -5515,6 +5974,12 @@
     },
     "undo": {
         "message": "Widerrufen"
+    },
+    "undo_2ca0be": {
+        "message": "Widerrufen"
+    },
+    "undo_the_last_edit": {
+        "message": "Widerruft die letzte Änderung."
     },
     "ungroup": {
         "message": "Gruppierung aufheben"
@@ -5672,8 +6137,17 @@
     "urls_matching_any_rule_will_open_in": {
         "message": "URLs, die einer Regel entsprechen, werden im ausgewählten Ziel geöffnet, ganz gleich, wo du sie anklickst oder eingibst."
     },
+    "use_a_modifier_key_letters_and_symbols": {
+        "message": "Verwende eine Sondertaste. Buchstaben und Symbole erfordern die Befehlstaste, die Steuerungstaste oder die Wahltaste."
+    },
     "use_a_recovery_code": {
         "message": "Wiederherstellungscode verwenden"
+    },
+    "use_selection_for_find": {
+        "message": "Auswahl suchen"
+    },
+    "use_the_selected_text_as_the_search": {
+        "message": "Verwendet den ausgewählten Text als Suchtext."
     },
     "using_telegram_to_send_and_receive_messages": {
         "message": "Telegram wird verwendet, um Nachrichten mit %@ auszutauschen"
@@ -5711,23 +6185,29 @@
     "version": {
         "message": "Version %1$@ (%2$@)"
     },
-    "video": {
-        "message": "Video"
-    },
-    "videos": {
-        "message": "Videos"
-    },
     "view": {
         "message": "Darstellung"
     },
     "view_and_manage_your_browser_memory": {
         "message": "Deine Browser-Erinnerungen ansehen und verwalten"
     },
+    "view_browser_tasks_and_their_resource_usage": {
+        "message": "Zeigt Browseraufgaben und ihre Ressourcennutzung an."
+    },
     "view_details": {
         "message": "Details anzeigen"
     },
     "view_page_source": {
         "message": "Seitenquelltext anzeigen"
+    },
+    "view_the_source_of_the_current_page": {
+        "message": "Zeigt den Quelltext der aktuellen Seite an."
+    },
+    "view_your_browsing_history": {
+        "message": "Zeigt deinen Browserverlauf an."
+    },
+    "view_your_downloads": {
+        "message": "Zeigt deine Downloads an."
     },
     "volume_click_to_toggle_mute": {
         "message": "Lautstärke (⌥-Klick: Stummschaltung ein/aus)"
@@ -5807,6 +6287,9 @@
     "what_should_i_call_you": {
         "message": "Wie soll ich dich nennen?"
     },
+    "width": {
+        "message": "Linienstärke"
+    },
     "will_be_deleted": {
         "message": "Folgendes wird gelöscht: %@"
     },
@@ -5864,9 +6347,6 @@
     "your_answer_is_about_pick_a_row": {
         "message": "Deine Antwort bezieht sich auf „%@“. Wähle oben eine Zeile aus, damit deine Antwort stattdessen für den Prozess gilt, der diesen Agenten gestartet hat."
     },
-    "your_collection_starts_here": {
-        "message": "Deine Sammlung beginnt hier."
-    },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Deine aktuellen angehefteten Tabs werden in jedes bestehende Ziel kopiert. Die Kopien können danach unabhängig voneinander geändert werden."
     },
@@ -5881,6 +6361,9 @@
     },
     "your_deletion_request_has_been_submitted_you": {
         "message": "Deine Löschanfrage wurde übermittelt. Du erhältst eine E-Mail-Bestätigung, sobald die Löschung abgeschlossen ist.\n\nPhi meldet dich jetzt ab, entfernt seine Daten von diesem Mac und beendet sich."
+    },
+    "your_edits_are_still_available_choose_another": {
+        "message": "Deine Änderungen sind weiterhin verfügbar. Wähle einen anderen Speicherort und versuche es erneut."
     },
     "your_note": {
         "message": "Deine Notiz"
@@ -5927,6 +6410,9 @@
     "zoom_in": {
         "message": "Vergrößern"
     },
+    "zoom_in_14fd": {
+        "message": "Vergrößern"
+    },
     "zoom_minus": {
         "message": "Verkleinern"
     },
@@ -5934,6 +6420,9 @@
         "message": "Tatsächliche Größe"
     },
     "zoom_out": {
+        "message": "Verkleinern"
+    },
+    "zoom_out_37a7": {
         "message": "Verkleinern"
     },
     "zoom_plus": {
