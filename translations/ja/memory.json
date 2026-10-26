@@ -552,7 +552,7 @@
         "message": "自動調整"
     },
     "memory_management_galaxy_options_automatic_detail": {
-        "message": "フレームレートが低下すると、解像度とシミュレーションの処理量を抑えます。「中」では、密度の高いグラフのドラッグやズームも簡略化されます。"
+        "message": "密度の高いグラフでフレームレートが低下すると、シミュレーションの処理量を抑えます。「中」では、密度の高いグラフのドラッグやズームも簡略化されます。"
     },
     "memory_management_galaxy_options_close": {
         "message": "Memory Galaxyのオプションを閉じる"
@@ -582,13 +582,13 @@
         "message": "Memory Galaxyのオプション"
     },
     "memory_management_galaxy_options_quality_behavior_extreme": {
-        "message": "最大の忠実度: ネイティブ上限の解像度、アルファブレンドのリンク、フルディテールのシミュレーションで描画します。"
+        "message": "最大の忠実度: アルファブレンドのリンクとフルディテールのシミュレーションで描画します。"
     },
     "memory_management_galaxy_options_quality_behavior_high": {
-        "message": "バランス型: 1倍の解像度、アルファブレンドのリンク、短めで中程度に詳細なシミュレーションで描画します。"
+        "message": "バランス型: アルファブレンドのリンクと、短めで中程度に詳細なシミュレーションで描画します。"
     },
     "memory_management_galaxy_options_quality_behavior_medium": {
-        "message": "操作性を優先: 0.75倍の解像度、アルファブレンドのリンク、短めのシミュレーションで描画し、密度の高いグラフのドラッグやズーム中はリンク全体を一時的に非表示にします。"
+        "message": "操作性を優先: アルファブレンドのリンクと短めのシミュレーションで描画し、密度の高いグラフのドラッグやズーム中はリンク全体を一時的に非表示にします。"
     },
     "memory_management_galaxy_options_quality_extreme": {
         "message": "最高"
@@ -603,7 +603,7 @@
         "message": "レンダリング品質"
     },
     "memory_management_galaxy_options_rendering_quality_detail": {
-        "message": "各段階では、解像度だけでなくグラフの処理量も変わります。"
+        "message": "各段階では、シミュレーションとリンクの処理量が変わります。解像度は常にディスプレイに従います。"
     },
     "memory_management_galaxy_options_title": {
         "message": "オプション"
@@ -967,6 +967,204 @@
     },
     "memory_management_nebula_status_ready": {
         "message": "記憶の空"
+    },
+    "memory_management_nebula_story_collapse": {
+        "message": "折りたたむ"
+    },
+    "memory_management_nebula_story_evidence": {
+        "message": "記憶{{count}}件をもとに · {{range}}"
+    },
+    "memory_management_nebula_story_eyebrow": {
+        "message": "あなたへの物語"
+    },
+    "memory_management_nebula_story_feedback_cancel": {
+        "message": "キャンセル"
+    },
+    "memory_management_nebula_story_feedback_dialog_label": {
+        "message": "この手紙を評価"
+    },
+    "memory_management_nebula_story_feedback_negative_action": {
+        "message": "この手紙は気に入らなかった"
+    },
+    "memory_management_nebula_story_feedback_negative_title": {
+        "message": "どこが気になりましたか？"
+    },
+    "memory_management_nebula_story_feedback_positive_action": {
+        "message": "この手紙が気に入った"
+    },
+    "memory_management_nebula_story_feedback_positive_title": {
+        "message": "どこがよかったですか？"
+    },
+    "memory_management_nebula_story_feedback_privacy_rating": {
+        "message": "評価と選んだ理由は、Phiの物語をよくするために集計されます。この手紙の内容が送られることはありません。"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
+        "message": "やったことを並べただけ"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_grounding": {
+        "message": "日付や数字が違う"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_kind_fit": {
+        "message": "そういうことじゃなかった"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_other": {
+        "message": "その他"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_over_interpretation": {
+        "message": "していないことが書かれている"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_prose_quality": {
+        "message": "心に響かなかった"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_boring_stat": {
+        "message": "大切な瞬間を見つけてくれた"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_kind_fit": {
+        "message": "ちゃんとわかってくれていた"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_other": {
+        "message": "その他"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_over_interpretation": {
+        "message": "細かいところまで正確だった"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_prose_quality": {
+        "message": "心に響いた"
+    },
+    "memory_management_nebula_story_feedback_report_close": {
+        "message": "閉じる"
+    },
+    "memory_management_nebula_story_feedback_report_failed_rejected": {
+        "message": "レポートが受け付けられませんでした。しばらくしてからもう一度お試しください。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_signed_out": {
+        "message": "レポートを送信するには、Phiにログインしてください。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_timeout": {
+        "message": "まだ送信中です。しばらくしてから「再試行」を押してください。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_too_large": {
+        "message": "添付が大きすぎます。メモリのチェックを外して、もう一度お試しください。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_unavailable": {
+        "message": "Phiのローカルエージェントに現在接続できません。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_upstream": {
+        "message": "フィードバックサービスがレポートを受け付けませんでした({{code}})。"
+    },
+    "memory_management_nebula_story_feedback_report_heading": {
+        "message": "Phiチームへ（任意）"
+    },
+    "memory_management_nebula_story_feedback_report_include_memories": {
+        "message": "この手紙のもとになったメモリを含める"
+    },
+    "memory_management_nebula_story_feedback_report_include_story": {
+        "message": "この手紙を含める"
+    },
+    "memory_management_nebula_story_feedback_report_note_label": {
+        "message": "チームに伝えたいことはありますか？"
+    },
+    "memory_management_nebula_story_feedback_report_privacy": {
+        "message": "一部のアカウント情報とシステム情報がPhinomenonに送信される場合があります。お送りいただいた情報は、<privacy>プライバシーポリシー</privacy>および<terms>利用規約</terms>に従い、技術的な問題の解決とサービスの改善のために使用します。"
+    },
+    "memory_management_nebula_story_feedback_report_retry": {
+        "message": "再試行"
+    },
+    "memory_management_nebula_story_feedback_report_sending": {
+        "message": "送信中…"
+    },
+    "memory_management_nebula_story_feedback_submit": {
+        "message": "送信"
+    },
+    "memory_management_nebula_story_greeting": {
+        "message": "あなたへ"
+    },
+    "memory_management_nebula_story_instructions_badge": {
+        "message": "カスタム指示"
+    },
+    "memory_management_nebula_story_instructions_badge_hint": {
+        "message": "これから生成される手紙にはカスタムテキストが使われます。{{date}}に保存 · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_close": {
+        "message": "閉じる"
+    },
+    "memory_management_nebula_story_instructions_contract_label": {
+        "message": "次の名前はテキストに残してください:"
+    },
+    "memory_management_nebula_story_instructions_copied": {
+        "message": "コピーしました"
+    },
+    "memory_management_nebula_story_instructions_copy": {
+        "message": "テキストをコピー"
+    },
+    "memory_management_nebula_story_instructions_counter": {
+        "message": "{{count}} / {{max}}"
+    },
+    "memory_management_nebula_story_instructions_failed": {
+        "message": "保存できませんでした。{{reason}}"
+    },
+    "memory_management_nebula_story_instructions_missing": {
+        "message": "不足: {{names}}"
+    },
+    "memory_management_nebula_story_instructions_open": {
+        "message": "物語の指示"
+    },
+    "memory_management_nebula_story_instructions_refresh_busy": {
+        "message": "現在、手紙を書いています。終わってからもう一度お試しください。"
+    },
+    "memory_management_nebula_story_instructions_refresh_started": {
+        "message": "新しい手紙を書いています。次にNebulaを開いたときに表示されます。"
+    },
+    "memory_management_nebula_story_instructions_refreshing": {
+        "message": "新しい手紙を書いています…"
+    },
+    "memory_management_nebula_story_instructions_reset": {
+        "message": "デフォルトに戻す"
+    },
+    "memory_management_nebula_story_instructions_reset_failed": {
+        "message": "物語をリセットできませんでした。{{reason}}"
+    },
+    "memory_management_nebula_story_instructions_reset_stories": {
+        "message": "物語をリセットして更新"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_body": {
+        "message": "このプロファイルのために書かれた手紙と、どれを読んだかの記録を削除します。メモリには影響しません。"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_confirm": {
+        "message": "リセットして更新"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_title": {
+        "message": "この指示でやり直しますか？"
+    },
+    "memory_management_nebula_story_instructions_save": {
+        "message": "保存"
+    },
+    "memory_management_nebula_story_instructions_saved": {
+        "message": "保存しました"
+    },
+    "memory_management_nebula_story_instructions_saving": {
+        "message": "保存中…"
+    },
+    "memory_management_nebula_story_instructions_status_custom": {
+        "message": "カスタム · {{date}}に保存 · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_status_default": {
+        "message": "デフォルトのテキスト"
+    },
+    "memory_management_nebula_story_instructions_title": {
+        "message": "物語の指示"
+    },
+    "memory_management_nebula_story_instructions_too_large": {
+        "message": "テキストが{{max}}文字を超えています。"
+    },
+    "memory_management_nebula_story_label": {
+        "message": "記憶の物語"
+    },
+    "memory_management_nebula_story_reopen": {
+        "message": "物語を表示"
+    },
+    "memory_management_nebula_story_written_on": {
+        "message": "{{date}}に綴りました"
     },
     "memory_management_nebula_subtitle": {
         "message": "美しい夜空を眺めるように、記憶を見渡せます。"

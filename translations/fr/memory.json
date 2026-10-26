@@ -552,7 +552,7 @@
         "message": "Ajuster automatiquement"
     },
     "memory_management_galaxy_options_automatic_detail": {
-        "message": "Réduit la résolution et la charge de simulation quand le rendu ralentit ; la qualité Moyenne simplifie aussi le déplacement et le zoom dans les graphes denses."
+        "message": "Réduit la charge de simulation quand le rendu ralentit sur les graphes denses ; la qualité Moyenne simplifie aussi le déplacement et le zoom dans les graphes denses."
     },
     "memory_management_galaxy_options_close": {
         "message": "Fermer les options de la Memory Galaxy"
@@ -582,13 +582,13 @@
         "message": "Options de la Memory Galaxy"
     },
     "memory_management_galaxy_options_quality_behavior_extreme": {
-        "message": "Fidélité maximale : résolution plafonnée à sa valeur native, liens avec fusion alpha et détail de simulation complet."
+        "message": "Fidélité maximale : liens avec fusion alpha et détail de simulation complet."
     },
     "memory_management_galaxy_options_quality_behavior_high": {
-        "message": "Équilibrée : 1×, liens avec fusion alpha et simulation plus courte, moyennement détaillée."
+        "message": "Équilibrée : liens avec fusion alpha et simulation plus courte, moyennement détaillée."
     },
     "memory_management_galaxy_options_quality_behavior_medium": {
-        "message": "Priorité à l'interaction : 0,75×, liens avec fusion alpha, simulation plus courte et masquage temporaire de l'ensemble des liens pendant le déplacement ou le zoom dans les graphes denses."
+        "message": "Priorité à l'interaction : liens avec fusion alpha, simulation plus courte et masquage temporaire de l'ensemble des liens pendant le déplacement ou le zoom dans les graphes denses."
     },
     "memory_management_galaxy_options_quality_extreme": {
         "message": "Extrême"
@@ -603,7 +603,7 @@
         "message": "Qualité de rendu"
     },
     "memory_management_galaxy_options_rendering_quality_detail": {
-        "message": "Chaque niveau modifie la charge de travail du graphe ainsi que la résolution."
+        "message": "Chaque niveau modifie la charge de simulation et de liens ; la résolution suit toujours celle de votre écran."
     },
     "memory_management_galaxy_options_title": {
         "message": "Options"
@@ -967,6 +967,204 @@
     },
     "memory_management_nebula_status_ready": {
         "message": "Ciel de souvenirs"
+    },
+    "memory_management_nebula_story_collapse": {
+        "message": "Réduire"
+    },
+    "memory_management_nebula_story_evidence": {
+        "message": "D'après {{count}} souvenirs · {{range}}"
+    },
+    "memory_management_nebula_story_eyebrow": {
+        "message": "Une histoire pour vous"
+    },
+    "memory_management_nebula_story_feedback_cancel": {
+        "message": "Annuler"
+    },
+    "memory_management_nebula_story_feedback_dialog_label": {
+        "message": "Évaluer cette lettre"
+    },
+    "memory_management_nebula_story_feedback_negative_action": {
+        "message": "Je n'ai pas aimé cette lettre"
+    },
+    "memory_management_nebula_story_feedback_negative_title": {
+        "message": "Qu'est-ce qui n'allait pas ?"
+    },
+    "memory_management_nebula_story_feedback_positive_action": {
+        "message": "J'ai aimé cette lettre"
+    },
+    "memory_management_nebula_story_feedback_positive_title": {
+        "message": "Qu'est-ce qui vous a plu ?"
+    },
+    "memory_management_nebula_story_feedback_privacy_rating": {
+        "message": "Votre note et les raisons choisies servent à améliorer les histoires de Phi. Rien de cette lettre n'est envoyé."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
+        "message": "C'est juste la liste de ce que j'ai fait"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_grounding": {
+        "message": "Les dates ou les chiffres sont faux"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_kind_fit": {
+        "message": "Ce n'était pas ça"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_other": {
+        "message": "Autre"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_over_interpretation": {
+        "message": "Elle raconte des choses que je n'ai pas faites"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_prose_quality": {
+        "message": "Elle m'a laissé de marbre"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_boring_stat": {
+        "message": "Elle a trouvé un vrai moment"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_kind_fit": {
+        "message": "Elle a vu juste"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_other": {
+        "message": "Autre"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_over_interpretation": {
+        "message": "Chaque détail est exact"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_prose_quality": {
+        "message": "Elle m'a touché"
+    },
+    "memory_management_nebula_story_feedback_report_close": {
+        "message": "Fermer"
+    },
+    "memory_management_nebula_story_feedback_report_failed_rejected": {
+        "message": "Le signalement n'a pas été accepté. Veuillez réessayer plus tard."
+    },
+    "memory_management_nebula_story_feedback_report_failed_signed_out": {
+        "message": "Connectez-vous à Phi pour envoyer un signalement."
+    },
+    "memory_management_nebula_story_feedback_report_failed_timeout": {
+        "message": "L'envoi est toujours en cours. Cliquez sur « Réessayer » dans un instant."
+    },
+    "memory_management_nebula_story_feedback_report_failed_too_large": {
+        "message": "Les pièces jointes sont trop volumineuses. Décochez les souvenirs et réessayez."
+    },
+    "memory_management_nebula_story_feedback_report_failed_unavailable": {
+        "message": "L'agent local de Phi est injoignable pour le moment."
+    },
+    "memory_management_nebula_story_feedback_report_failed_upstream": {
+        "message": "Le service de commentaires n'a pas accepté le signalement ({{code}})."
+    },
+    "memory_management_nebula_story_feedback_report_heading": {
+        "message": "Pour l'équipe Phi (facultatif)"
+    },
+    "memory_management_nebula_story_feedback_report_include_memories": {
+        "message": "Joindre les souvenirs dont elle est tirée"
+    },
+    "memory_management_nebula_story_feedback_report_include_story": {
+        "message": "Joindre cette lettre"
+    },
+    "memory_management_nebula_story_feedback_report_note_label": {
+        "message": "Quelque chose à dire à l'équipe ?"
+    },
+    "memory_management_nebula_story_feedback_report_privacy": {
+        "message": "Certaines informations relatives à votre compte et à votre système peuvent être envoyées à Phinomenon. Nous utiliserons les informations que vous nous fournissez pour résoudre les problèmes techniques et améliorer nos services, conformément à notre <privacy>Politique de confidentialité</privacy> et à nos <terms>Conditions d'utilisation</terms>."
+    },
+    "memory_management_nebula_story_feedback_report_retry": {
+        "message": "Réessayer"
+    },
+    "memory_management_nebula_story_feedback_report_sending": {
+        "message": "Envoi en cours…"
+    },
+    "memory_management_nebula_story_feedback_submit": {
+        "message": "Envoyer"
+    },
+    "memory_management_nebula_story_greeting": {
+        "message": "À vous,"
+    },
+    "memory_management_nebula_story_instructions_badge": {
+        "message": "Instructions personnalisées"
+    },
+    "memory_management_nebula_story_instructions_badge_hint": {
+        "message": "Les lettres générées à partir de maintenant utilisent le texte personnalisé. Enregistré le {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_close": {
+        "message": "Fermer"
+    },
+    "memory_management_nebula_story_instructions_contract_label": {
+        "message": "Conservez ces noms dans le texte :"
+    },
+    "memory_management_nebula_story_instructions_copied": {
+        "message": "Copié"
+    },
+    "memory_management_nebula_story_instructions_copy": {
+        "message": "Copier le texte"
+    },
+    "memory_management_nebula_story_instructions_counter": {
+        "message": "{{count}} / {{max}}"
+    },
+    "memory_management_nebula_story_instructions_failed": {
+        "message": "Impossible d'enregistrer. {{reason}}"
+    },
+    "memory_management_nebula_story_instructions_missing": {
+        "message": "Manquants : {{names}}"
+    },
+    "memory_management_nebula_story_instructions_open": {
+        "message": "Instructions des histoires"
+    },
+    "memory_management_nebula_story_instructions_refresh_busy": {
+        "message": "Une lettre est déjà en cours de rédaction. Réessayez quand elle sera terminée."
+    },
+    "memory_management_nebula_story_instructions_refresh_started": {
+        "message": "Une nouvelle lettre est en cours de rédaction. Elle apparaîtra la prochaine fois que vous ouvrirez Nebula."
+    },
+    "memory_management_nebula_story_instructions_refreshing": {
+        "message": "Rédaction d'une nouvelle lettre…"
+    },
+    "memory_management_nebula_story_instructions_reset": {
+        "message": "Rétablir la valeur par défaut"
+    },
+    "memory_management_nebula_story_instructions_reset_failed": {
+        "message": "Impossible de réinitialiser les histoires. {{reason}}"
+    },
+    "memory_management_nebula_story_instructions_reset_stories": {
+        "message": "Réinitialiser les histoires et actualiser"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_body": {
+        "message": "Cette action supprime les lettres écrites pour ce profil ainsi que la trace de celles que vous avez lues. Vos souvenirs ne sont pas modifiés."
+    },
+    "memory_management_nebula_story_instructions_reset_stories_confirm": {
+        "message": "Réinitialiser et actualiser"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_title": {
+        "message": "Repartir de zéro avec ces instructions ?"
+    },
+    "memory_management_nebula_story_instructions_save": {
+        "message": "Enregistrer"
+    },
+    "memory_management_nebula_story_instructions_saved": {
+        "message": "Enregistré"
+    },
+    "memory_management_nebula_story_instructions_saving": {
+        "message": "Enregistrement…"
+    },
+    "memory_management_nebula_story_instructions_status_custom": {
+        "message": "Personnalisé · enregistré le {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_status_default": {
+        "message": "Texte par défaut"
+    },
+    "memory_management_nebula_story_instructions_title": {
+        "message": "Instructions des histoires"
+    },
+    "memory_management_nebula_story_instructions_too_large": {
+        "message": "Le texte dépasse {{max}} caractères."
+    },
+    "memory_management_nebula_story_label": {
+        "message": "Histoire de souvenirs"
+    },
+    "memory_management_nebula_story_reopen": {
+        "message": "Afficher l'histoire"
+    },
+    "memory_management_nebula_story_written_on": {
+        "message": "Écrite le {{date}}"
     },
     "memory_management_nebula_subtitle": {
         "message": "Contemplez vos souvenirs comme un magnifique ciel étoilé."

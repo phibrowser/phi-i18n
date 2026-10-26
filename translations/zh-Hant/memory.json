@@ -552,7 +552,7 @@
         "message": "自動調整"
     },
     "memory_management_galaxy_options_automatic_detail": {
-        "message": "影格速率下降時會降低解析度並減少模擬運算；「中」還會簡化密集圖形的拖曳與縮放。"
+        "message": "密集圖形的影格速率下降時會減少模擬運算；「中」還會簡化密集圖形的拖曳與縮放。"
     },
     "memory_management_galaxy_options_close": {
         "message": "關閉 Memory Galaxy 選項"
@@ -582,13 +582,13 @@
         "message": "Memory Galaxy 選項"
     },
     "memory_management_galaxy_options_quality_behavior_extreme": {
-        "message": "最高擬真度：解析度以原生為上限、Alpha 混合連結，以及完整的模擬細節。"
+        "message": "最高擬真度：Alpha 混合連結，以及完整的模擬細節。"
     },
     "memory_management_galaxy_options_quality_behavior_high": {
-        "message": "均衡：1× 解析度、Alpha 混合連結，以及較短且細節適中的模擬。"
+        "message": "均衡：Alpha 混合連結，以及較短且細節適中的模擬。"
     },
     "memory_management_galaxy_options_quality_behavior_medium": {
-        "message": "以互動為優先：0.75× 解析度、Alpha 混合連結、較短的模擬，並在拖曳或縮放密集圖形時暫時隱藏全部連結。"
+        "message": "以互動為優先：Alpha 混合連結、較短的模擬，並在拖曳或縮放密集圖形時暫時隱藏全部連結。"
     },
     "memory_management_galaxy_options_quality_extreme": {
         "message": "極致"
@@ -603,7 +603,7 @@
         "message": "渲染品質"
     },
     "memory_management_galaxy_options_rendering_quality_detail": {
-        "message": "每個等級不僅會改變解析度，也會改變圖形的運算負載。"
+        "message": "每個等級會改變模擬與連結的運算負載；解析度一律跟隨你的顯示器。"
     },
     "memory_management_galaxy_options_title": {
         "message": "選項"
@@ -967,6 +967,204 @@
     },
     "memory_management_nebula_status_ready": {
         "message": "記憶星空"
+    },
+    "memory_management_nebula_story_collapse": {
+        "message": "收合"
+    },
+    "memory_management_nebula_story_evidence": {
+        "message": "源自 {{count}} 則記憶 · {{range}}"
+    },
+    "memory_management_nebula_story_eyebrow": {
+        "message": "寫給你的故事"
+    },
+    "memory_management_nebula_story_feedback_cancel": {
+        "message": "取消"
+    },
+    "memory_management_nebula_story_feedback_dialog_label": {
+        "message": "為這封信評分"
+    },
+    "memory_management_nebula_story_feedback_negative_action": {
+        "message": "我不喜歡這封信"
+    },
+    "memory_management_nebula_story_feedback_negative_title": {
+        "message": "哪裡不對？"
+    },
+    "memory_management_nebula_story_feedback_positive_action": {
+        "message": "我喜歡這封信"
+    },
+    "memory_management_nebula_story_feedback_positive_title": {
+        "message": "哪裡寫得好？"
+    },
+    "memory_management_nebula_story_feedback_privacy_rating": {
+        "message": "你的評分和所選的原因會納入統計，用來改善 Phi 的故事。這封信的內容一律不會傳送。"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
+        "message": "只是把我做過的事列出來"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_grounding": {
+        "message": "日期或數字不對"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_kind_fit": {
+        "message": "事情不是這樣的"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_other": {
+        "message": "其他"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_over_interpretation": {
+        "message": "寫了我沒做過的事"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_prose_quality": {
+        "message": "讀完沒什麼感覺"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_boring_stat": {
+        "message": "抓到了真實的一刻"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_kind_fit": {
+        "message": "看懂了這一刻"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_other": {
+        "message": "其他"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_over_interpretation": {
+        "message": "每個細節都是真的"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_prose_quality": {
+        "message": "我被打動了"
+    },
+    "memory_management_nebula_story_feedback_report_close": {
+        "message": "關閉"
+    },
+    "memory_management_nebula_story_feedback_report_failed_rejected": {
+        "message": "回報未被接受，請稍後再試。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_signed_out": {
+        "message": "請登入 Phi 後再傳送回報。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_timeout": {
+        "message": "仍在傳送中，請稍後按「重試」。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_too_large": {
+        "message": "附件太大，請取消勾選記憶後再試一次。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_unavailable": {
+        "message": "目前無法連上 Phi 的本機 AI 代理。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_upstream": {
+        "message": "意見回饋服務未接受這份回報 ({{code}})。"
+    },
+    "memory_management_nebula_story_feedback_report_heading": {
+        "message": "給 Phi 團隊（選填）"
+    },
+    "memory_management_nebula_story_feedback_report_include_memories": {
+        "message": "附上這封信所依據的記憶"
+    },
+    "memory_management_nebula_story_feedback_report_include_story": {
+        "message": "附上這封信"
+    },
+    "memory_management_nebula_story_feedback_report_note_label": {
+        "message": "有什麼想告訴團隊的嗎？"
+    },
+    "memory_management_nebula_story_feedback_report_privacy": {
+        "message": "部分帳號與系統資訊可能會傳送給 Phinomenon。我們會依據<privacy>隱私權政策</privacy>與<terms>服務條款</terms>，使用你提供的資訊來協助解決技術問題並改善我們的服務。"
+    },
+    "memory_management_nebula_story_feedback_report_retry": {
+        "message": "重試"
+    },
+    "memory_management_nebula_story_feedback_report_sending": {
+        "message": "傳送中…"
+    },
+    "memory_management_nebula_story_feedback_submit": {
+        "message": "送出"
+    },
+    "memory_management_nebula_story_greeting": {
+        "message": "親愛的你："
+    },
+    "memory_management_nebula_story_instructions_badge": {
+        "message": "自訂指令"
+    },
+    "memory_management_nebula_story_instructions_badge_hint": {
+        "message": "之後產生的信會使用自訂文字。已儲存 {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_close": {
+        "message": "關閉"
+    },
+    "memory_management_nebula_story_instructions_contract_label": {
+        "message": "文字中請保留這些名稱："
+    },
+    "memory_management_nebula_story_instructions_copied": {
+        "message": "已複製"
+    },
+    "memory_management_nebula_story_instructions_copy": {
+        "message": "複製文字"
+    },
+    "memory_management_nebula_story_instructions_counter": {
+        "message": "{{count}} / {{max}}"
+    },
+    "memory_management_nebula_story_instructions_failed": {
+        "message": "無法儲存。{{reason}}"
+    },
+    "memory_management_nebula_story_instructions_missing": {
+        "message": "缺少：{{names}}"
+    },
+    "memory_management_nebula_story_instructions_open": {
+        "message": "故事指令"
+    },
+    "memory_management_nebula_story_instructions_refresh_busy": {
+        "message": "目前正在寫一封信，請等它完成後再試。"
+    },
+    "memory_management_nebula_story_instructions_refresh_started": {
+        "message": "正在寫一封新的信，下次開啟 Nebula 時就會看到。"
+    },
+    "memory_management_nebula_story_instructions_refreshing": {
+        "message": "正在寫新的信…"
+    },
+    "memory_management_nebula_story_instructions_reset": {
+        "message": "重設為預設值"
+    },
+    "memory_management_nebula_story_instructions_reset_failed": {
+        "message": "無法重設故事。{{reason}}"
+    },
+    "memory_management_nebula_story_instructions_reset_stories": {
+        "message": "重設故事並重新整理"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_body": {
+        "message": "這會刪除為這個設定檔寫的信，以及你已讀過哪些信的記錄。你的記憶不會受到影響。"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_confirm": {
+        "message": "重設並重新整理"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_title": {
+        "message": "要用這份提示詞重新開始嗎？"
+    },
+    "memory_management_nebula_story_instructions_save": {
+        "message": "儲存"
+    },
+    "memory_management_nebula_story_instructions_saved": {
+        "message": "已儲存"
+    },
+    "memory_management_nebula_story_instructions_saving": {
+        "message": "儲存中…"
+    },
+    "memory_management_nebula_story_instructions_status_custom": {
+        "message": "自訂 · 已儲存 {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_status_default": {
+        "message": "預設文字"
+    },
+    "memory_management_nebula_story_instructions_title": {
+        "message": "故事指令"
+    },
+    "memory_management_nebula_story_instructions_too_large": {
+        "message": "文字超過 {{max}} 個字元。"
+    },
+    "memory_management_nebula_story_label": {
+        "message": "記憶故事"
+    },
+    "memory_management_nebula_story_reopen": {
+        "message": "顯示故事"
+    },
+    "memory_management_nebula_story_written_on": {
+        "message": "寫於 {{date}}"
     },
     "memory_management_nebula_subtitle": {
         "message": "像凝望美麗的夜空一樣，細看你的記憶。"

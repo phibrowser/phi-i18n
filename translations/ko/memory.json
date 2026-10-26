@@ -552,7 +552,7 @@
         "message": "자동 조정"
     },
     "memory_management_galaxy_options_automatic_detail": {
-        "message": "프레임이 느려지면 해상도와 시뮬레이션 작업을 줄여요. 중간 품질에서는 밀집된 그래프의 드래그와 확대/축소도 단순하게 처리해요."
+        "message": "밀집된 그래프에서 프레임이 느려지면 시뮬레이션 작업을 줄여요. 중간 품질에서는 밀집된 그래프의 드래그와 확대/축소도 단순하게 처리해요."
     },
     "memory_management_galaxy_options_close": {
         "message": "Memory Galaxy 옵션 닫기"
@@ -582,13 +582,13 @@
         "message": "Memory Galaxy 옵션"
     },
     "memory_management_galaxy_options_quality_behavior_extreme": {
-        "message": "최대 충실도: 네이티브 해상도 상한, 알파 블렌딩 링크, 전체 시뮬레이션 디테일을 사용해요."
+        "message": "최대 충실도: 알파 블렌딩 링크와 전체 시뮬레이션 디테일을 사용해요."
     },
     "memory_management_galaxy_options_quality_behavior_high": {
-        "message": "균형: 1× 해상도와 알파 블렌딩 링크, 적당한 디테일의 더 짧은 시뮬레이션을 사용해요."
+        "message": "균형: 알파 블렌딩 링크와 적당한 디테일의 더 짧은 시뮬레이션을 사용해요."
     },
     "memory_management_galaxy_options_quality_behavior_medium": {
-        "message": "상호작용 우선: 0.75× 해상도와 알파 블렌딩 링크, 더 짧은 시뮬레이션을 사용하고, 밀집된 그래프를 드래그하거나 확대/축소하는 동안에는 전체 링크 표시를 잠시 숨겨요."
+        "message": "상호작용 우선: 알파 블렌딩 링크와 더 짧은 시뮬레이션을 사용하고, 밀집된 그래프를 드래그하거나 확대/축소하는 동안에는 전체 링크 표시를 잠시 숨겨요."
     },
     "memory_management_galaxy_options_quality_extreme": {
         "message": "최고"
@@ -603,7 +603,7 @@
         "message": "렌더링 품질"
     },
     "memory_management_galaxy_options_rendering_quality_detail": {
-        "message": "각 단계는 해상도뿐 아니라 그래프 작업량도 함께 바꿔요."
+        "message": "각 단계는 시뮬레이션과 링크 작업량을 바꿔요. 해상도는 항상 디스플레이를 따라가요."
     },
     "memory_management_galaxy_options_title": {
         "message": "옵션"
@@ -967,6 +967,204 @@
     },
     "memory_management_nebula_status_ready": {
         "message": "메모리 하늘"
+    },
+    "memory_management_nebula_story_collapse": {
+        "message": "접기"
+    },
+    "memory_management_nebula_story_evidence": {
+        "message": "메모리 {{count}}개를 바탕으로 · {{range}}"
+    },
+    "memory_management_nebula_story_eyebrow": {
+        "message": "당신을 위한 이야기"
+    },
+    "memory_management_nebula_story_feedback_cancel": {
+        "message": "취소"
+    },
+    "memory_management_nebula_story_feedback_dialog_label": {
+        "message": "이 편지 평가"
+    },
+    "memory_management_nebula_story_feedback_negative_action": {
+        "message": "이 편지가 마음에 들지 않았어요"
+    },
+    "memory_management_nebula_story_feedback_negative_title": {
+        "message": "어떤 점이 아쉬웠나요?"
+    },
+    "memory_management_nebula_story_feedback_positive_action": {
+        "message": "이 편지가 마음에 들었어요"
+    },
+    "memory_management_nebula_story_feedback_positive_title": {
+        "message": "어떤 점이 좋았나요?"
+    },
+    "memory_management_nebula_story_feedback_privacy_rating": {
+        "message": "평가와 선택한 이유는 Phi의 이야기를 개선하는 데 집계돼요. 이 편지의 내용은 어떤 것도 전송되지 않아요."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
+        "message": "한 일을 나열한 것뿐이에요"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_grounding": {
+        "message": "날짜나 숫자가 틀렸어요"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_kind_fit": {
+        "message": "그런 순간이 아니었어요"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_other": {
+        "message": "기타"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_over_interpretation": {
+        "message": "하지 않은 일이 쓰여 있어요"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_prose_quality": {
+        "message": "마음에 와닿지 않았어요"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_boring_stat": {
+        "message": "의미 있는 순간을 찾아냈어요"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_kind_fit": {
+        "message": "어떤 순간인지 제대로 읽었어요"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_other": {
+        "message": "기타"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_over_interpretation": {
+        "message": "내용 하나하나가 다 맞아요"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_prose_quality": {
+        "message": "마음이 움직였어요"
+    },
+    "memory_management_nebula_story_feedback_report_close": {
+        "message": "닫기"
+    },
+    "memory_management_nebula_story_feedback_report_failed_rejected": {
+        "message": "리포트가 접수되지 않았어요. 나중에 다시 시도해 주세요."
+    },
+    "memory_management_nebula_story_feedback_report_failed_signed_out": {
+        "message": "리포트를 보내려면 Phi에 로그인해 주세요."
+    },
+    "memory_management_nebula_story_feedback_report_failed_timeout": {
+        "message": "아직 보내는 중이에요. 잠시 후 다시 시도 버튼을 눌러 주세요."
+    },
+    "memory_management_nebula_story_feedback_report_failed_too_large": {
+        "message": "첨부 파일이 너무 커요. 메모리 체크를 해제하고 다시 시도해 주세요."
+    },
+    "memory_management_nebula_story_feedback_report_failed_unavailable": {
+        "message": "지금은 Phi의 로컬 에이전트에 연결할 수 없어요."
+    },
+    "memory_management_nebula_story_feedback_report_failed_upstream": {
+        "message": "피드백 서비스에서 리포트를 접수하지 않았어요 ({{code}})."
+    },
+    "memory_management_nebula_story_feedback_report_heading": {
+        "message": "Phi 팀에게 (선택 사항)"
+    },
+    "memory_management_nebula_story_feedback_report_include_memories": {
+        "message": "편지의 바탕이 된 메모리 포함"
+    },
+    "memory_management_nebula_story_feedback_report_include_story": {
+        "message": "이 편지 포함"
+    },
+    "memory_management_nebula_story_feedback_report_note_label": {
+        "message": "팀에 전하고 싶은 말이 있나요?"
+    },
+    "memory_management_nebula_story_feedback_report_privacy": {
+        "message": "일부 계정 및 시스템 정보가 Phinomenon에 전송될 수 있어요. 제공해 주신 정보는 <privacy>개인정보 처리방침</privacy>과 <terms>서비스 이용약관</terms>에 따라 기술적인 문제를 해결하고 서비스를 개선하는 데 사용돼요."
+    },
+    "memory_management_nebula_story_feedback_report_retry": {
+        "message": "다시 시도"
+    },
+    "memory_management_nebula_story_feedback_report_sending": {
+        "message": "보내는 중…"
+    },
+    "memory_management_nebula_story_feedback_submit": {
+        "message": "제출"
+    },
+    "memory_management_nebula_story_greeting": {
+        "message": "당신에게,"
+    },
+    "memory_management_nebula_story_instructions_badge": {
+        "message": "사용자 지정 지침"
+    },
+    "memory_management_nebula_story_instructions_badge_hint": {
+        "message": "이제부터 생성되는 편지는 사용자 지정 텍스트를 사용해요. {{date}} 저장 · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_close": {
+        "message": "닫기"
+    },
+    "memory_management_nebula_story_instructions_contract_label": {
+        "message": "텍스트에 다음 이름을 유지하세요:"
+    },
+    "memory_management_nebula_story_instructions_copied": {
+        "message": "복사됨"
+    },
+    "memory_management_nebula_story_instructions_copy": {
+        "message": "텍스트 복사"
+    },
+    "memory_management_nebula_story_instructions_counter": {
+        "message": "{{count}} / {{max}}"
+    },
+    "memory_management_nebula_story_instructions_failed": {
+        "message": "저장하지 못했어요. {{reason}}"
+    },
+    "memory_management_nebula_story_instructions_missing": {
+        "message": "누락: {{names}}"
+    },
+    "memory_management_nebula_story_instructions_open": {
+        "message": "이야기 지침"
+    },
+    "memory_management_nebula_story_instructions_refresh_busy": {
+        "message": "이미 편지를 쓰고 있어요. 끝난 뒤에 다시 시도해 주세요."
+    },
+    "memory_management_nebula_story_instructions_refresh_started": {
+        "message": "새 편지를 쓰고 있어요. 다음에 Nebula를 열면 볼 수 있어요."
+    },
+    "memory_management_nebula_story_instructions_refreshing": {
+        "message": "새 편지를 쓰는 중…"
+    },
+    "memory_management_nebula_story_instructions_reset": {
+        "message": "기본값으로 재설정"
+    },
+    "memory_management_nebula_story_instructions_reset_failed": {
+        "message": "이야기를 재설정하지 못했어요. {{reason}}"
+    },
+    "memory_management_nebula_story_instructions_reset_stories": {
+        "message": "이야기 재설정 및 새로고침"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_body": {
+        "message": "이 프로필을 위해 쓴 편지와 읽은 편지 기록을 삭제해요. 메모리는 그대로 남아요."
+    },
+    "memory_management_nebula_story_instructions_reset_stories_confirm": {
+        "message": "재설정 및 새로고침"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_title": {
+        "message": "이 프롬프트로 다시 시작할까요?"
+    },
+    "memory_management_nebula_story_instructions_save": {
+        "message": "저장"
+    },
+    "memory_management_nebula_story_instructions_saved": {
+        "message": "저장됨"
+    },
+    "memory_management_nebula_story_instructions_saving": {
+        "message": "저장하는 중…"
+    },
+    "memory_management_nebula_story_instructions_status_custom": {
+        "message": "사용자 지정 · {{date}} 저장 · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_status_default": {
+        "message": "기본 텍스트"
+    },
+    "memory_management_nebula_story_instructions_title": {
+        "message": "이야기 지침"
+    },
+    "memory_management_nebula_story_instructions_too_large": {
+        "message": "텍스트가 {{max}}자를 넘었어요."
+    },
+    "memory_management_nebula_story_label": {
+        "message": "메모리 이야기"
+    },
+    "memory_management_nebula_story_reopen": {
+        "message": "이야기 보기"
+    },
+    "memory_management_nebula_story_written_on": {
+        "message": "{{date}}에 쓴 편지"
     },
     "memory_management_nebula_subtitle": {
         "message": "아름다운 밤하늘을 바라보듯 메모리를 감상해 보세요."

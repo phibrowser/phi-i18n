@@ -736,8 +736,8 @@
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Label for adaptive rendering quality."
     },
     "memory_management_galaxy_options_automatic_detail": {
-        "message": "Reduces resolution and simulation work when frames slow down; Medium also simplifies dense drag and zoom.",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Explanation of automatic quality downgrade and recovery."
+        "message": "Reduces simulation work when frames slow down on dense graphs; Medium also simplifies dense drag and zoom.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Explanation of automatic quality downgrade and recovery, which applies only to dense graphs and never lowers resolution."
     },
     "memory_management_galaxy_options_close": {
         "message": "Close Memory Galaxy options",
@@ -776,16 +776,16 @@
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Accessible label for the open graph options panel."
     },
     "memory_management_galaxy_options_quality_behavior_extreme": {
-        "message": "Maximum fidelity: native resolution cap, alpha-blended links, and full simulation detail.",
+        "message": "Maximum fidelity: alpha-blended links and full simulation detail.",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Effective workload behavior for each rendering tier. Description of Extreme's full-fidelity renderer path."
     },
     "memory_management_galaxy_options_quality_behavior_high": {
-        "message": "Balanced: 1×, alpha-blended links, and a shorter, moderately detailed simulation.",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Effective workload behavior for each rendering tier. Description of High's balanced resolution and simulation with preserved alpha-composited links."
+        "message": "Balanced: alpha-blended links and a shorter, moderately detailed simulation.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Effective workload behavior for each rendering tier. Description of High's shorter, moderately detailed simulation with preserved alpha-composited links."
     },
     "memory_management_galaxy_options_quality_behavior_medium": {
-        "message": "Prioritizes interaction: 0.75×, alpha-blended links, shorter simulation, and temporarily hides the full link field while dragging or zooming dense graphs.",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Effective workload behavior for each rendering tier. Description of Medium's reduced resolution and simulation, preserved alpha-composited links, and direct-manipulation link suppression."
+        "message": "Prioritizes interaction: alpha-blended links, shorter simulation, and temporarily hides the full link field while dragging or zooming dense graphs.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Effective workload behavior for each rendering tier. Description of Medium's shorter simulation, preserved alpha-composited links, and direct-manipulation link suppression."
     },
     "memory_management_galaxy_options_quality_extreme": {
         "message": "Extreme",
@@ -804,8 +804,8 @@
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Heading and accessible label for rendering-quality choices."
     },
     "memory_management_galaxy_options_rendering_quality_detail": {
-        "message": "Each tier changes graph workload as well as resolution.",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Explanation of the rendering-quality tradeoff."
+        "message": "Each tier changes simulation and link workload; resolution always follows your display.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header and statistics for the interactive memory graph. User-facing Memory Galaxy rendering options. Explanation that tiers change simulation and link workload while resolution always follows the display."
     },
     "memory_management_galaxy_options_title": {
         "message": "Options",
@@ -1290,6 +1290,270 @@
     "memory_management_nebula_status_ready": {
         "message": "Memory Sky",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Short atmospheric status labels at the bottom of Nebula. Nebula status when memory stars are ready to explore."
+    },
+    "memory_management_nebula_story_collapse": {
+        "message": "Collapse",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Button on the story card that collapses it to a small chip."
+    },
+    "memory_management_nebula_story_evidence": {
+        "message": "Based on {{count}} memories · {{range}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Line on the story card saying how many memories it is based on; {{count}} is the localized memory count and {{range}} is the localized date range of those memories."
+    },
+    "memory_management_nebula_story_eyebrow": {
+        "message": "A story for you",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Small label above the story card's headline."
+    },
+    "memory_management_nebula_story_feedback_cancel": {
+        "message": "Cancel",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Button that closes the feedback dialog without sending a rating."
+    },
+    "memory_management_nebula_story_feedback_dialog_label": {
+        "message": "Rate this letter",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Accessible name of the feedback dialog."
+    },
+    "memory_management_nebula_story_feedback_negative_action": {
+        "message": "I didn't like this letter",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Accessible name and tooltip of the thumbs-down button on the story letter card."
+    },
+    "memory_management_nebula_story_feedback_negative_title": {
+        "message": "What went wrong?",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Heading of the reasons dialog after the reader taps thumbs-down."
+    },
+    "memory_management_nebula_story_feedback_positive_action": {
+        "message": "I liked this letter",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Accessible name and tooltip of the thumbs-up button on the story letter card."
+    },
+    "memory_management_nebula_story_feedback_positive_title": {
+        "message": "What worked?",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Heading of the reasons dialog after the reader taps thumbs-up."
+    },
+    "memory_management_nebula_story_feedback_privacy_rating": {
+        "message": "Your rating and the reasons you pick are counted to improve Phi's stories. Nothing from this letter is sent.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. One-line privacy note at the bottom of the feedback dialog: only the rating and chosen reasons are counted, no letter content is sent."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
+        "message": "It's just a list of what I did",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader did not like the letter. Chip for a disliked letter: it only lists activity without insight."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_grounding": {
+        "message": "The dates or numbers are off",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader did not like the letter. Chip for a disliked letter: the dates or numbers in it are wrong."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_kind_fit": {
+        "message": "That's not what this was",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader did not like the letter. Chip for a disliked letter: it misread what the moment was."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_other": {
+        "message": "Other",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader did not like the letter. Chip for a disliked letter when none of the other reasons fit."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_over_interpretation": {
+        "message": "It says things I didn't do",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader did not like the letter. Chip for a disliked letter: it claims things the reader did not do."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_prose_quality": {
+        "message": "It left me cold",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader did not like the letter. Chip for a disliked letter: the writing felt cold or flat."
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_boring_stat": {
+        "message": "It found a real moment",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader liked the letter. Chip for a liked letter: it picked out a genuinely meaningful moment."
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_kind_fit": {
+        "message": "It saw it right",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader liked the letter. Chip for a liked letter: it read the kind of moment correctly."
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_other": {
+        "message": "Other",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader liked the letter. Chip for a liked letter when none of the other reasons fit."
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_over_interpretation": {
+        "message": "Every detail is true",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader liked the letter. Chip for a liked letter: every detail in it was accurate."
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_prose_quality": {
+        "message": "It moved me",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Selectable reason chips in the story feedback dialog, grouped by the rating given. Reason chips shown when the reader liked the letter. Chip for a liked letter: the writing moved the reader."
+    },
+    "memory_management_nebula_story_feedback_report_close": {
+        "message": "Close",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Footer button that closes the whole dialog once a send has started, on success or failure; replaces Cancel from that point on."
+    },
+    "memory_management_nebula_story_feedback_report_failed_rejected": {
+        "message": "The report was not accepted. Please try again later.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Failure lines shown when sending the report fails, one per cause. Failure: the report was rejected; asks the reader to try again later."
+    },
+    "memory_management_nebula_story_feedback_report_failed_signed_out": {
+        "message": "Sign in to Phi to send a report.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Failure lines shown when sending the report fails, one per cause. Failure: the reader is not signed in to Phi."
+    },
+    "memory_management_nebula_story_feedback_report_failed_timeout": {
+        "message": "Still sending. Try Retry in a moment.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Failure lines shown when sending the report fails, one per cause. Failure: the local agent stopped waiting for the feedback service, but the report may still be on its way; Retry joins the same send rather than creating a second report."
+    },
+    "memory_management_nebula_story_feedback_report_failed_too_large": {
+        "message": "The attachments are too large. Untick the memories and try again.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Failure lines shown when sending the report fails, one per cause. Failure: the attachments exceed the size limit; suggests unticking the memories."
+    },
+    "memory_management_nebula_story_feedback_report_failed_unavailable": {
+        "message": "Phi's local agent isn't reachable right now.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Failure lines shown when sending the report fails, one per cause. Failure: Phi's local agent could not be reached."
+    },
+    "memory_management_nebula_story_feedback_report_failed_upstream": {
+        "message": "The feedback service did not accept the report ({{code}}).",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Failure lines shown when sending the report fails, one per cause. Failure: the feedback service rejected the report; {{code}} is the service's error-code string such as feedback_server_error, not an HTTP status. When there is no code the parenthetical is removed."
+    },
+    "memory_management_nebula_story_feedback_report_heading": {
+        "message": "For the Phi team (optional)",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Small heading above the report section: an optional note and attachments for the Phi team."
+    },
+    "memory_management_nebula_story_feedback_report_include_memories": {
+        "message": "Include the memories it was written from",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Checkbox label: attach the memories the letter was written from to the report."
+    },
+    "memory_management_nebula_story_feedback_report_include_story": {
+        "message": "Include this letter",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Checkbox label: attach the text of this letter to the report."
+    },
+    "memory_management_nebula_story_feedback_report_note_label": {
+        "message": "Anything you want to tell the team?",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Label of the optional free-text note field in the report section."
+    },
+    "memory_management_nebula_story_feedback_report_privacy": {
+        "message": "Some account and system information may be sent to Phinomenon. We will use the information you give us to help address technical issues and to improve our services, subject to our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms>.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Privacy paragraph shown instead of privacyRating as soon as a note is typed or an attachment ticked. Same wording as the browser's Send Feedback dialog. <privacy>…</privacy> and <terms>…</terms> wrap the link texts for the Privacy Policy and Terms of Service pages: keep both tags, translate only the text inside them."
+    },
+    "memory_management_nebula_story_feedback_report_retry": {
+        "message": "Retry",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Button that retries sending after a failure."
+    },
+    "memory_management_nebula_story_feedback_report_sending": {
+        "message": "Sending…",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Always-visible section in the letter's rating dialog (opened from the thumbs on the story letter card) for sending a report to the Phi team along with the rating. Status line under the report section while the send is in flight. Not a button label: the disabled Submit button keeps its own label."
+    },
+    "memory_management_nebula_story_feedback_submit": {
+        "message": "Submit",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Thumbs-up / thumbs-down controls and the reasons dialog on the Nebula story letter card. Button that sends the rating and the selected reasons from the feedback dialog; when the reader typed a note or ticked an attachment it also sends the report to the Phi team."
+    },
+    "memory_management_nebula_story_greeting": {
+        "message": "To you,",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Salutation line that opens the story card's letter, shown above the first paragraph."
+    },
+    "memory_management_nebula_story_instructions_badge": {
+        "message": "Custom instructions",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Small tag next to the story letter's headline label, shown when the story instructions have been overridden."
+    },
+    "memory_management_nebula_story_instructions_badge_hint": {
+        "message": "Letters generated from now on use the custom text. Saved {{date}} · {{hash}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Tooltip of the Custom instructions tag; {{date}} is the localized date the override was saved and {{hash}} is the first 12 hex characters of the SHA-256 of the override text."
+    },
+    "memory_management_nebula_story_instructions_close": {
+        "message": "Close",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Button that closes the story instructions panel."
+    },
+    "memory_management_nebula_story_instructions_contract_label": {
+        "message": "Keep these names in the text:",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Label before the list of required names (code-formatted tokens) that the instruction text must keep."
+    },
+    "memory_management_nebula_story_instructions_copied": {
+        "message": "Copied",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Brief confirmation shown after the text was copied to the clipboard."
+    },
+    "memory_management_nebula_story_instructions_copy": {
+        "message": "Copy text",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Button that copies the text in the box to the clipboard."
+    },
+    "memory_management_nebula_story_instructions_counter": {
+        "message": "{{count}} / {{max}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Live character counter under the text box; {{count}} is the current length and {{max}} is the maximum allowed length."
+    },
+    "memory_management_nebula_story_instructions_failed": {
+        "message": "Could not save. {{reason}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line when saving or resetting failed; {{reason}} is a short error code or the names of missing required words."
+    },
+    "memory_management_nebula_story_instructions_missing": {
+        "message": "Missing: {{names}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Line listing required names that the edited text no longer contains; {{names}} is a comma-separated list of those names."
+    },
+    "memory_management_nebula_story_instructions_open": {
+        "message": "Story instructions",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Button beside the Nebula page's share button that opens the story instructions panel."
+    },
+    "memory_management_nebula_story_instructions_refresh_busy": {
+        "message": "A letter is already being written. Try again when it ends.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line when a story reset is refused because the agent is already writing a letter."
+    },
+    "memory_management_nebula_story_instructions_refresh_started": {
+        "message": "A new letter is being written. It will appear the next time you open Nebula.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line after \"Reset stories & refresh\" succeeded: the old letters are gone and a new run has started in the background; tells the reader where the result will show."
+    },
+    "memory_management_nebula_story_instructions_refreshing": {
+        "message": "Writing a new letter…",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line while the agent is writing a new letter after a reset."
+    },
+    "memory_management_nebula_story_instructions_reset": {
+        "message": "Reset to default",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Button that deletes the saved override and goes back to the built-in text."
+    },
+    "memory_management_nebula_story_instructions_reset_failed": {
+        "message": "Could not reset the stories. {{reason}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line when \"Reset stories & refresh\" failed before a new run started; {{reason}} is a short machine code such as unavailable."
+    },
+    "memory_management_nebula_story_instructions_reset_stories": {
+        "message": "Reset stories & refresh",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Button that deletes this profile's story letters and asks the agent to write a fresh one."
+    },
+    "memory_management_nebula_story_instructions_reset_stories_body": {
+        "message": "This deletes the letters written for this profile and the record of which you have read. Your memories are not touched.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Body of the confirmation shown before story letters are deleted."
+    },
+    "memory_management_nebula_story_instructions_reset_stories_confirm": {
+        "message": "Reset & refresh",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Confirm button of the story reset confirmation."
+    },
+    "memory_management_nebula_story_instructions_reset_stories_title": {
+        "message": "Start over with this prompt?",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Heading of the confirmation shown before story letters are deleted."
+    },
+    "memory_management_nebula_story_instructions_save": {
+        "message": "Save",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Button that saves the edited text as the override."
+    },
+    "memory_management_nebula_story_instructions_saved": {
+        "message": "Saved",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line after the override was saved or reset."
+    },
+    "memory_management_nebula_story_instructions_saving": {
+        "message": "Saving…",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line while the override is being saved."
+    },
+    "memory_management_nebula_story_instructions_status_custom": {
+        "message": "Custom · saved {{date}} · {{hash}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line of the panel when an override is saved; {{date}} is the localized save date and {{hash}} is the first 12 hex characters of the SHA-256 of the override text."
+    },
+    "memory_management_nebula_story_instructions_status_default": {
+        "message": "Default text",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Status line of the panel when no override is saved and the built-in text is in use."
+    },
+    "memory_management_nebula_story_instructions_title": {
+        "message": "Story instructions",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Heading of the story instructions panel."
+    },
+    "memory_management_nebula_story_instructions_too_large": {
+        "message": "The text is over {{max}} characters.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Developer panel (dev-deploy builds only) for reading and overriding the instructions the Nebula story writer follows. Message when the text is longer than the limit; {{max}} is the maximum number of characters."
+    },
+    "memory_management_nebula_story_label": {
+        "message": "Memory story",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Accessible name of the story card."
+    },
+    "memory_management_nebula_story_reopen": {
+        "message": "Show story",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Chip shown after the story card is collapsed; selecting it reopens the card."
+    },
+    "memory_management_nebula_story_written_on": {
+        "message": "Written on {{date}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Date line of the story card's letter, right-aligned above the greeting; {{date}} is the day the story was written."
     },
     "memory_management_nebula_subtitle": {
         "message": "Gaze through your memories like a beautiful night sky.",
