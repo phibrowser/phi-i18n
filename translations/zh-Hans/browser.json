@@ -377,8 +377,14 @@
     "an_import_is_still_adding_bookmarks_to_de655c": {
         "message": "导入操作仍在向此空间添加书签。请等待其完成后再试。"
     },
+    "analogous_colors": {
+        "message": "类似色"
+    },
     "and_will_be_deleted": {
         "message": "%1$@ 和 %2$@ 将被删除。"
+    },
+    "another_device_has_joined_this_account_since": {
+        "message": "此后已有另一台设备加入了此账户，因此没有删除任何内容。你可以改为将这台 Mac 从同步中移除。"
     },
     "answer_for": {
         "message": "回答对象"
@@ -396,6 +402,9 @@
         "message": "任何未保存的更改都可能丢失。"
     },
     "app": {
+        "message": "App"
+    },
+    "app_ffeaf7": {
         "message": "App"
     },
     "appearance": {
@@ -633,6 +642,9 @@
         "message": "书签"
     },
     "bookmarks_7980a2": {
+        "message": "书签"
+    },
+    "bookmarks_7c1a0a": {
         "message": "书签"
     },
     "bookmarks_and_pinned_tabs_belonging_to_this_df5f55": {
@@ -1016,6 +1028,9 @@
     "choose_a_name_and_address_for_this": {
         "message": "为此固定标签页选取名称和地址。"
     },
+    "choose_a_running_app": {
+        "message": "选取正在运行的 App"
+    },
     "choose_a_space_for_the_current_peek": {
         "message": "为当前的 Peek 或 Kiosk 页面选择一个空间。"
     },
@@ -1039,6 +1054,9 @@
     },
     "choose_how_profiles_on_this_mac_connect": {
         "message": "选择这台 Mac 上的个人资料如何与你的账户关联。完成个人资料和空间的匹配后，同步才会开始。你可以稍后完成并继续浏览。"
+    },
+    "choose_how_to_combine_your_account_s": {
+        "message": "选择如何将你账户的数据与这台 Mac 上的内容结合。"
     },
     "choose_how_to_set_up_sync_on": {
         "message": "选择在此设备上设置同步的方式。"
@@ -1226,8 +1244,17 @@
     "color_04b3bf": {
         "message": "颜色"
     },
+    "color_1da5e7": {
+        "message": "颜色 %d"
+    },
+    "color_a68127": {
+        "message": "颜色"
+    },
     "color_appearance": {
         "message": "颜色外观"
+    },
+    "com_tinyspeck_slackmacgap": {
+        "message": "com.tinyspeck.slackmacgap"
     },
     "comfortable": {
         "message": "舒适"
@@ -1257,6 +1284,9 @@
         "message": "已配置"
     },
     "confirm": {
+        "message": "确认"
+    },
+    "confirm_3cf833": {
         "message": "确认"
     },
     "confirm_eebdd2": {
@@ -1335,6 +1365,9 @@
         "message": "继续"
     },
     "continue_31fbef": {
+        "message": "继续"
+    },
+    "continue_34b76e": {
         "message": "继续"
     },
     "continue_setup": {
@@ -1508,6 +1541,9 @@
     "couldn_t_finish_clearing_this_mac_s": {
         "message": "无法完成清除这台 Mac 的同步设置。同步仍处于暂停状态。请尝试重新设置同步。"
     },
+    "couldn_t_finish_replacing_this_mac_s": {
+        "message": "无法完成替换这台 Mac 的数据。点按「重试」会从中断处继续：在完成之前，其他内容都不会更改。"
+    },
     "couldn_t_finish_setting_up_sync_nothing": {
         "message": "无法完成同步设置。没有丢失任何内容，请检查网络连接后重试。"
     },
@@ -1655,6 +1691,9 @@
     "dark_overlay_opacity": {
         "message": "深色叠加层不透明度"
     },
+    "date_joined": {
+        "message": "加入日期"
+    },
     "days_ago": {
         "message": "%d 天前"
     },
@@ -1693,6 +1732,12 @@
     },
     "delete_account": {
         "message": "删除账号"
+    },
+    "delete_all_sync_data": {
+        "message": "删除所有同步数据"
+    },
+    "delete_all_sync_data_for_this_account": {
+        "message": "要删除此账户的所有同步数据吗？"
     },
     "delete_b48c24": {
         "message": "删除"
@@ -1901,6 +1946,9 @@
     "download_this_list": {
         "message": "下载此列表"
     },
+    "downloaded_from_your_account": {
+        "message": "从你的账户下载"
+    },
     "downloading": {
         "message": "正在下载…"
     },
@@ -2063,6 +2111,9 @@
     "email_me_a_new_code": {
         "message": "通过电子邮件给我发送新验证码"
     },
+    "email_protection": {
+        "message": "电子邮件保护"
+    },
     "emoji": {
         "message": "表情符号"
     },
@@ -2077,6 +2128,9 @@
     },
     "enable_ai_features_in_phi_browser": {
         "message": "在 Phi Browser 中启用 AI 功能"
+    },
+    "enable_email_protection": {
+        "message": "启用电子邮件保护"
     },
     "enable_external_data_connectors": {
         "message": "启用外部数据连接器"
@@ -2158,6 +2212,9 @@
     },
     "every_agent_will_be_able_to_use": {
         "message": "每个智能体都无需事先询问你，即可使用你密码库中的任何登录信息。被误导的智能体可能会在任何地方填入或泄露密码。你可以随时在这里关闭此功能。"
+    },
+    "every_device_will_be_removed_from_sync": {
+        "message": "所有设备都将从同步中移除，同步服务器上为此账户存储的所有数据都将被删除。你的本地浏览数据会保留在这台 Mac 上。若要再次使用同步，你需要从头重新设置。"
     },
     "example": {
         "message": "example"
@@ -2795,6 +2852,9 @@
     "hour_ago": {
         "message": "%d 小时前"
     },
+    "how_should_this_mac_sync": {
+        "message": "这台 Mac 要如何同步？"
+    },
     "https_example_com": {
         "message": "https://example.com"
     },
@@ -3005,6 +3065,9 @@
     "items": {
         "message": "%d 个项目"
     },
+    "its_history_extensions_and_site_data_on": {
+        "message": "它在这台 Mac 上的历史记录、扩展程序和网站数据也会被删除。"
+    },
     "jump_to_selection": {
         "message": "跳到所选内容"
     },
@@ -3022,6 +3085,9 @@
     },
     "keep_editing": {
         "message": "继续编辑"
+    },
+    "keep_phi_open_this_can_take_a": {
+        "message": "请保持 Phi 处于打开状态。这可能需要几分钟。"
     },
     "kiosk": {
         "message": "Kiosk"
@@ -3209,6 +3275,9 @@
     "master_password_e7a9a0": {
         "message": "主密码"
     },
+    "match_profiles_and_spaces_one_by_one": {
+        "message": "逐一匹配个人资料和空间。双方的书签、固定标签页和网址规则都会保留。"
+    },
     "match_your_profiles": {
         "message": "匹配你的个人资料"
     },
@@ -3217,6 +3286,9 @@
     },
     "media": {
         "message": "媒体"
+    },
+    "merge_this_mac_with_your_account": {
+        "message": "将这台 Mac 与你的账户合并"
     },
     "message_the_agent": {
         "message": "向智能体发送消息（→ %@）"
@@ -3364,6 +3436,9 @@
     },
     "n1_item": {
         "message": "1 个项目"
+    },
+    "n1_profile": {
+        "message": "1 个个人资料：%@"
     },
     "n4_hours": {
         "message": "4 小时"
@@ -4028,6 +4103,9 @@
     "open_tabs": {
         "message": "打开的标签页"
     },
+    "open_tabs_in_them_will_close": {
+        "message": "其中已打开的标签页将会关闭"
+    },
     "open_the_bookmark_manager": {
         "message": "打开书签管理器。"
     },
@@ -4166,6 +4244,9 @@
     "phi_data": {
         "message": "Phi 数据"
     },
+    "phi_deletes_this_mac_s_spaces_bookmarks": {
+        "message": "Phi 会删除这台 Mac 的空间、书签、固定标签页、网址规则、已同步的设置，以及你账户中没有的个人资料，然后下载你账户的数据。此操作无法撤销。你的其他设备不受影响。"
+    },
     "phi_didn_t_find_arc_dia_or": {
         "message": "Phi 未在这台 Mac 上找到 Arc、Dia 或 Zen。"
     },
@@ -4278,6 +4359,9 @@
         "message": "固定标签页在所有个人资料和空间之间共享。"
     },
     "pinned_tabs_c143dc": {
+        "message": "固定标签页"
+    },
+    "pinned_tabs_eeebad": {
         "message": "固定标签页"
     },
     "pinned_tabs_f42436": {
@@ -4427,8 +4511,14 @@
     "profiles_agents_can_use": {
         "message": "智能体可使用的个人资料"
     },
+    "profiles_ea586c": {
+        "message": "%1$d 个个人资料：%2$@"
+    },
     "profiles_need_pairing": {
         "message": "个人资料需要配对"
+    },
+    "profiles_that_match_one_in_your_account": {
+        "message": "与你账户中的个人资料相匹配的个人资料会保持原样，其标签页、历史记录、扩展程序和网站数据都会保留。"
     },
     "pure": {
         "message": "纯净"
@@ -4447,6 +4537,9 @@
     },
     "quit_phi_8a937a": {
         "message": "退出 Phi。"
+    },
+    "randomize": {
+        "message": "随机"
     },
     "reader_view": {
         "message": "阅读模式"
@@ -4481,8 +4574,8 @@
     "recommended": {
         "message": "推荐"
     },
-    "recovery_and_removal": {
-        "message": "恢复与移除"
+    "recommended_7d7383": {
+        "message": "推荐"
     },
     "recovery_code": {
         "message": "恢复代码"
@@ -4538,11 +4631,17 @@
     "remind_me_later": {
         "message": "稍后提醒我"
     },
+    "removal": {
+        "message": "移除"
+    },
     "remove": {
         "message": "移除"
     },
     "remove_22d752": {
         "message": "移除"
+    },
+    "remove_99acc8": {
+        "message": "移除…"
     },
     "remove_attachment": {
         "message": "移除附件"
@@ -4574,8 +4673,8 @@
     "remove_this_device": {
         "message": "移除此设备"
     },
-    "remove_this_device_from_sync": {
-        "message": "将此设备从同步中移除…"
+    "remove_this_device_and_delete_all_sync": {
+        "message": "移除此设备并删除所有同步数据…"
     },
     "remove_this_device_from_sync_6c96aa": {
         "message": "将此设备从同步中移除…"
@@ -4585,6 +4684,12 @@
     },
     "remove_this_mac_from_account_sync": {
         "message": "要将这台 Mac 从账户同步中移除吗？"
+    },
+    "remove_this_mac_from_sync": {
+        "message": "将这台 Mac 从同步中移除"
+    },
+    "removed_from_this_mac": {
+        "message": "从这台 Mac 移除"
     },
     "rename": {
         "message": "重命名"
@@ -4667,8 +4772,20 @@
     "replace_the_existing_skill": {
         "message": "要替换现有的 Skill 吗？"
     },
+    "replace_this_mac_s_data": {
+        "message": "替换这台 Mac 的数据"
+    },
+    "replace_this_mac_s_spaces_bookmarks_pinned": {
+        "message": "将这台 Mac 的空间、书签、固定标签页、网址规则和已同步的设置替换为你账户中的数据。只有这台 Mac 会更改。"
+    },
     "replace_top": {
         "message": "替换上方"
+    },
+    "replace_what_s_on_this_mac": {
+        "message": "要替换这台 Mac 上的内容吗？"
+    },
+    "replacing_this_mac_s_data": {
+        "message": "正在替换这台 Mac 的数据…"
     },
     "request_approval_from_another_device": {
         "message": "请求另一台设备批准"
@@ -4690,6 +4807,12 @@
     },
     "reserved_browser_shortcut": {
         "message": "浏览器保留的快捷键"
+    },
+    "reset_3828b0": {
+        "message": "重置…"
+    },
+    "reset_sync": {
+        "message": "重置同步"
     },
     "reset_the_current_page_to_its_default": {
         "message": "将当前页面恢复为默认缩放级别。"
@@ -5093,6 +5216,9 @@
     "setting_up_a_profile_for_sync": {
         "message": "正在为个人资料设置同步…"
     },
+    "setting_up_sync": {
+        "message": "正在设置同步…"
+    },
     "setting_up_your_own_telegram_bot_using": {
         "message": "使用 Telegram 的 @BotFather 设置你自己的 Telegram 机器人"
     },
@@ -5378,6 +5504,9 @@
     "signing_you_out_and_removing_phi_s": {
         "message": "正在退出登录并移除 Phi 在这台 Mac 上的数据…"
     },
+    "single_color": {
+        "message": "单色"
+    },
     "site": {
         "message": "网站"
     },
@@ -5582,6 +5711,9 @@
     "sync_isn_t_available_right_now_so_312469": {
         "message": "同步目前不可用，因此未移除此设备。请检查你是否仍处于登录状态，然后重试。"
     },
+    "sync_method": {
+        "message": "同步方式"
+    },
     "sync_needs_to_be_reset": {
         "message": "需要重新设置同步"
     },
@@ -5599,6 +5731,9 @@
     },
     "sync_will_start_shortly": {
         "message": "同步即将开始…"
+    },
+    "synced_settings": {
+        "message": "已同步的设置"
     },
     "syncing": {
         "message": "正在同步…"
@@ -5777,6 +5912,9 @@
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "时间机器备份的删除过程已中断。"
     },
+    "their_history_extensions_and_site_data_on": {
+        "message": "它们在这台 Mac 上的历史记录、扩展程序和网站数据也会被删除。"
+    },
     "theme": {
         "message": "主题"
     },
@@ -5849,16 +5987,25 @@
     "this_file_type_isn_t_commonly_downloaded": {
         "message": "此类文件不常被下载，可能有危险"
     },
-    "this_is_the_last_authorized_device_and": {
-        "message": "这是最后一台已授权的设备，目前还无法移除。请先在另一台设备上设置同步。你仍然可以稍后完成此设置。"
+    "this_finishes_the_reset_you_confirmed_earlier": {
+        "message": "这将完成你之前确认的重置：这台 Mac 会从同步中移除，为此账户存储的所有同步数据都会被删除。你的本地浏览数据会保留在这台 Mac 上。"
     },
     "this_is_the_last_device_on_the": {
         "message": "这是该账户中的最后一台设备，因此无法移除。请在此设备上完成配对（无法读取的个人资料不会造成阻碍），或先在另一台设备上设置同步，然后重试。"
+    },
+    "this_is_the_last_device_set_up": {
+        "message": "这是最后一台设置了同步的设备。你可以将其移除并删除为此账户存储的所有同步数据，或者先在另一台设备上设置同步。"
+    },
+    "this_is_the_only_device_set_up": {
+        "message": "这是唯一一台设置了同步的设备。重置会将这台 Mac 从同步中移除，并删除为此账户存储的所有同步数据。你的本地浏览数据会保留在这台 Mac 上。"
     },
     "this_mac": {
         "message": "这台 Mac"
     },
     "this_mac_932e93": {
+        "message": "这台 Mac"
+    },
+    "this_mac_c598ff": {
         "message": "这台 Mac"
     },
     "this_mac_hasn_t_finished_syncing_the": {
@@ -5875,6 +6022,9 @@
     },
     "this_mac_will_stop_syncing_your_local": {
         "message": "这台 Mac 将停止同步。你的本地浏览数据会保留在这台 Mac 上。若要重新加入，请使用另一台设备的批准或你保存的恢复代码。"
+    },
+    "this_mac_will_stop_syncing_your_local_da20": {
+        "message": "这台 Mac 将停止同步。你的本地浏览数据会保留在这台 Mac 上。"
     },
     "this_process_carries_no_valid_code_signature": {
         "message": "此进程没有有效的代码签名，因此它的名称来自启动它的命令，任何程序都可能冒用这个名称。在允许之前，请打开「详细信息」查看该命令。"
@@ -5945,6 +6095,9 @@
     "this_will_clear_this_mac_s_sync": {
         "message": "这会清除这台 Mac 的同步设置和匹配信息，然后让你重新设置同步。你的本地浏览数据和账户中已同步的数据都会保留。"
     },
+    "three_colors": {
+        "message": "三色"
+    },
     "time_machine_backup": {
         "message": "时间机器备份"
     },
@@ -5965,9 +6118,6 @@
     },
     "timeout_action": {
         "message": "超时操作"
-    },
-    "to_join_on_another_device_approve_its": {
-        "message": "若要在另一台设备上加入，请在此处批准该设备的请求，或使用你保存的恢复代码。该代码仅在首次设置同步时显示。"
     },
     "today": {
         "message": "今天"
@@ -6055,6 +6205,9 @@
     },
     "turning_the_player_off_leaves_media_playing": {
         "message": "在侧边栏中控制后台标签页正在播放的媒体。"
+    },
+    "two_colors": {
+        "message": "双色"
     },
     "two_step_login_code_if_enabled": {
         "message": "两步登录验证码（如已启用）"
@@ -6233,6 +6386,9 @@
     "url_rules_89e3ca": {
         "message": "网址规则"
     },
+    "url_rules_b72405": {
+        "message": "网址规则"
+    },
     "url_rules_dc27b3": {
         "message": "网址规则"
     },
@@ -6253,6 +6409,9 @@
     },
     "use_the_selected_text_as_the_search": {
         "message": "将所选文本用作搜索文本。"
+    },
+    "use_your_account_s_data": {
+        "message": "使用你账户的数据"
     },
     "using_telegram_to_send_and_receive_messages": {
         "message": "通过 Telegram 与 %@ 收发消息"
@@ -6331,6 +6490,9 @@
     },
     "waiting_for_profiles_to_load": {
         "message": "正在等待个人资料加载"
+    },
+    "want_a_copy_first_choose_finish_later": {
+        "message": "想先保存一份副本？请选择「稍后完成」，然后使用帮助 › 管理用户数据 › 导出用户数据…"
     },
     "wants_to_control_phi_browser": {
         "message": "「%@」想要控制 Phi Browser"
@@ -6440,8 +6602,14 @@
     "you_ve_migrated_from_this_browser_into": {
         "message": "你之前已经从这个浏览器迁移到此账号。Phi 会创建一套新的个人资料和空间，你已有的那些会保持原样。"
     },
+    "your_account": {
+        "message": "你的账户"
+    },
     "your_account_is_ready_and_your_data": {
         "message": "你的账号已就绪，数据也很安全。Phi 会在下次启动时再次尝试移除旧的访客数据。"
+    },
+    "your_account_s_default_profile_can_t": {
+        "message": "无法在这台 Mac 上读取你账户的默认个人资料，因此目前无法替换这台 Mac 的数据。请选择合并选项以自行匹配个人资料，或选择「稍后完成」后再试。"
     },
     "your_answer_covers_every_agent_it_launches": {
         "message": "你的回答适用于「%@」：它启动的每个智能体都会获得相同的回答，不会再次询问。"
@@ -6451,6 +6619,9 @@
     },
     "your_answer_is_about_pick_a_row": {
         "message": "你的回答对象是「%@」。也可在上方选择一行，将回答对象改为启动它的进程。"
+    },
+    "your_card_could_not_be_saved_please": {
+        "message": "无法保存你的卡片。请重试。"
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "你当前的固定标签页会被复制到每个现有的目标位置。之后可以分别独立更改这些副本。"
