@@ -1502,6 +1502,879 @@
     "logs_tooltip_copy_logs_to_clipboard": {
         "message": "Logs naar klembord kopiëren"
     },
+    "mail_guard_about_how": {
+        "message": "Als je een e-mail opent, voert Phi eerst in je browser een volledig lokale controle op patronen uit: verificatie van de afzender, links, bestandsnamen van bijlagen en meer. Daarna beoordeelt Phi AI of de e-mail verdacht lijkt."
+    },
+    "mail_guard_about_how_title": {
+        "message": "Hoe e-mail wordt gecontroleerd"
+    },
+    "mail_guard_about_local": {
+        "message": "Je instellingen en vertrouwde afzenders worden alleen op dit apparaat bewaard."
+    },
+    "mail_guard_about_local_title": {
+        "message": "Bewaard op dit apparaat"
+    },
+    "mail_guard_about_off": {
+        "message": "Als “$SWITCH$” uit staat, blijft er een grijs schild naast het onderwerp staan. Wil je alles uitschakelen, zodat er niets wordt getoond, schakel E-mailbescherming dan uit in de Phi-instellingen."
+    },
+    "mail_guard_about_off_title": {
+        "message": "Volledig uitschakelen"
+    },
+    "mail_guard_about_open_settings": {
+        "message": "Phi-instellingen openen"
+    },
+    "mail_guard_about_privacy_policy": {
+        "message": "Privacybeleid"
+    },
+    "mail_guard_about_promise": {
+        "message": "Phi verkoopt je gegevens niet en gebruikt ze niet voor advertenties of om AI-modellen te trainen."
+    },
+    "mail_guard_about_sent_every": {
+        "message": "Elke e-mail die je opent: het onderwerp en een deel van de tekst, met de domeinen van de afzender en van de links, en de extensies van de bijlagen. E-mailadressen daarin worden ingekort tot hun domein."
+    },
+    "mail_guard_about_sent_never": {
+        "message": "Niet verstuurd: ontvangers, andere e-mails in het gesprek en de inhoud van bijlagen. Bijlagen worden niet geopend of gedownload."
+    },
+    "mail_guard_about_sent_review": {
+        "message": "Als een nadere controle nodig is: de volledige tekst, de naam en het adres van de afzender, links en bestandsnamen van bijlagen."
+    },
+    "mail_guard_about_sent_title": {
+        "message": "Wat er wordt verstuurd"
+    },
+    "mail_guard_about_title": {
+        "message": "Over E-mailbescherming"
+    },
+    "mail_guard_about_to": {
+        "message": "Deze gegevens gaan naar Phi Cloud, dat ze doorgeeft aan de achterliggende aanbieders van AI-modellen; ze worden alleen voor deze controle gebruikt. Je kunt in plaats daarvan ook je eigen modeldienst gebruiken, via Privé-AI in de Phi-instellingen."
+    },
+    "mail_guard_about_to_title": {
+        "message": "Wie het ontvangt"
+    },
+    "mail_guard_ai_pending": {
+        "message": "Controleren met Phi AI…"
+    },
+    "mail_guard_ai_skipped": {
+        "message": "Je vertrouwt deze afzender, dus Phi AI is niet om een oordeel gevraagd."
+    },
+    "mail_guard_ai_unavailable": {
+        "message": "Phi AI kon dit bericht niet controleren; dit is alleen het resultaat van de statische controles."
+    },
+    "mail_guard_attachment_archive_description_a": {
+        "message": "Het bericht bevat $FILES$ en dringt er volgens Phi AI op aan om een bijlage te openen. In een archief kunnen systemen die e-mail scannen niet zien wat erin zit. Daarom komen schadelijke bestanden vaak in een archief binnen."
+    },
+    "mail_guard_attachment_archive_description_b": {
+        "message": "Het bericht bevat $FILES$. Archieven komen veel voor en zijn meestal onschuldig, maar je kunt niet zien wat erin zit zonder ze te openen."
+    },
+    "mail_guard_attachment_archive_title_a": {
+        "message": "Archief als bijlage bij een bericht dat je aanspoort het te openen"
+    },
+    "mail_guard_attachment_archive_title_b": {
+        "message": "Archief als bijlage"
+    },
+    "mail_guard_attachment_disk_image_description": {
+        "message": "Het bericht bevat $FILES$. Schijfkopieën worden als schijf gekoppeld en hun inhoud krijgt niet de waarschuwing van het besturingssysteem voor bestanden die van internet zijn gedownload. Daarom worden ze gebruikt om uitvoerbare bestanden te verspreiden."
+    },
+    "mail_guard_attachment_disk_image_title": {
+        "message": "De bijlage is een schijfkopie"
+    },
+    "mail_guard_attachment_double_extension_description": {
+        "message": "“$FILENAME$” lijkt een .$VALUE$-bestand, maar is in werkelijkheid een .$VALUE_2$-bestand. De onschuldig ogende extensie midden in de naam staat er waarschijnlijk om je te misleiden."
+    },
+    "mail_guard_attachment_double_extension_title": {
+        "message": "De bestandsnaam van de bijlage verbergt het echte type"
+    },
+    "mail_guard_attachment_executable_description": {
+        "message": "Het bericht bevat $FILES$. Bestanden van dit type voeren code uit zodra je ze opent. Betrouwbare afzenders versturen zelden programma's als bijlage."
+    },
+    "mail_guard_attachment_executable_title": {
+        "message": "De bijlage is een programma, geen document"
+    },
+    "mail_guard_attachment_executable_with_document_pretext_description": {
+        "message": "Het bericht noemt de bijlage een factuur, verzenddocument of ander routinematig papierwerk, maar het bijgevoegde bestand voert code uit zodra het wordt geopend. Zo'n omschrijving wordt vaak gebruikt om het te laten lijken alsof je het bestand kon verwachten."
+    },
+    "mail_guard_attachment_executable_with_document_pretext_title": {
+        "message": "Uitvoerbare bijlage die zich voordoet als gewoon zakelijk document"
+    },
+    "mail_guard_attachment_filename_direction_override_description": {
+        "message": "De bestandsnaam bevat onzichtbare tekens die de weergave van een deel van de naam omkeren, waardoor de extensie op je scherm niet de echte is. Het werkelijke type is .$EXTENSION$. Zonder de verborgen tekens luidt de naam “$VALUE$”."
+    },
+    "mail_guard_attachment_filename_direction_override_title": {
+        "message": "De bestandsnaam van de bijlage bevat tekens die de tekstrichting omkeren"
+    },
+    "mail_guard_attachment_filename_hidden_characters_description": {
+        "message": "De bestandsnaam bevat tekens die geen ruimte innemen op het scherm. Daardoor ziet hij er normaal uit, maar komt hij niet overeen met de naam waarop een filter zoekt. Het werkelijke type is .$EXTENSION$. Zonder de verborgen tekens luidt de naam “$VALUE$”."
+    },
+    "mail_guard_attachment_filename_hidden_characters_title": {
+        "message": "De bestandsnaam van de bijlage bevat onzichtbare tekens"
+    },
+    "mail_guard_attachment_macro_capable_description_a": {
+        "message": "Het bericht bevat $FILES$. Dit formaat is speciaal bedoeld om ingebouwde code mee te sturen, en die code wordt uitgevoerd als macro's zijn ingeschakeld."
+    },
+    "mail_guard_attachment_macro_capable_description_b": {
+        "message": "Het bericht bevat $FILES$. Oudere Office-formaten kunnen macro's bevatten; moderne varianten (.docx, .xlsx) niet."
+    },
+    "mail_guard_attachment_macro_capable_title_a": {
+        "message": "De bijlage is een document met macro's"
+    },
+    "mail_guard_attachment_macro_capable_title_b": {
+        "message": "De bijlage heeft een verouderd Office-formaat dat macro's kan bevatten"
+    },
+    "mail_guard_attachment_none_suspicious_description_many": {
+        "message": "Alle $COUNT$ bijlagen hebben een bestandstype dat normaal gesproken geen code uitvoert. De inhoud van bijlagen wordt door deze extensie nooit geopend of gedownload; alleen de bestandsnamen zijn bekeken."
+    },
+    "mail_guard_attachment_none_suspicious_description_one": {
+        "message": "De bijlage heeft een bestandstype dat normaal gesproken geen code uitvoert. De inhoud van bijlagen wordt door deze extensie nooit geopend of gedownload; alleen de bestandsnamen zijn bekeken."
+    },
+    "mail_guard_attachment_none_suspicious_title": {
+        "message": "Geen verdachte bijlage gevonden"
+    },
+    "mail_guard_attachment_script_container_description": {
+        "message": "Het bericht bevat $FILES$. Bij het openen verschijnt een pagina uit een lokaal bestand. Zo kan een overtuigend inlogformulier worden getoond, zonder dat het ergens staat waar het geblokkeerd of offline gehaald kan worden."
+    },
+    "mail_guard_attachment_script_container_title": {
+        "message": "De bijlage is een webpagina, geen document"
+    },
+    "mail_guard_authentication_failure_description": {
+        "message": "Gmail meldt dat dit bericht niet door $CHECKS$ is gekomen. Dat betekent dat de verzendende server geen toestemming had om e-mail namens $DOMAIN$ te versturen, dus het Van-adres kan vervalst zijn."
+    },
+    "mail_guard_authentication_failure_description_no_domain": {
+        "message": "Gmail meldt dat dit bericht niet door $CHECKS$ is gekomen. Dat betekent dat de verzendende server geen toestemming had om e-mail namens het domein van de afzender te versturen, dus het Van-adres kan vervalst zijn."
+    },
+    "mail_guard_authentication_failure_title": {
+        "message": "Verificatie van de afzender is mislukt"
+    },
+    "mail_guard_authentication_gmail_warning_description": {
+        "message": "Gmail heeft dit bericht zelf gemarkeerd. Gmail voert controles uit die deze extensie niet kan doen, zoals reputatiegegevens en accountgeschiedenis. De waarschuwing van Gmail is dus een onafhankelijke bevestiging."
+    },
+    "mail_guard_authentication_gmail_warning_title": {
+        "message": "Gmail toonde een eigen waarschuwing bij dit bericht"
+    },
+    "mail_guard_authentication_partial_failure_description": {
+        "message": "Gmail meldt dat dit bericht niet door $CHECKS$ is gekomen, maar wel door DMARC. Dat DMARC slaagt, wijst erop dat het bericht nog steeds aan $DOMAIN$ gekoppeld is; een enkele mislukte controle daarnaast komt meestal door een doorstuurdienst of mailinglijst onderweg."
+    },
+    "mail_guard_authentication_partial_failure_description_no_domain": {
+        "message": "Gmail meldt dat dit bericht niet door $CHECKS$ is gekomen, maar wel door DMARC. Dat DMARC slaagt, wijst erop dat het bericht nog steeds aan het domein van de afzender gekoppeld is; een enkele mislukte controle daarnaast komt meestal door een doorstuurdienst of mailinglijst onderweg."
+    },
+    "mail_guard_authentication_partial_failure_title": {
+        "message": "Eén verificatiecontrole is mislukt, maar DMARC is geslaagd"
+    },
+    "mail_guard_authentication_passed_description": {
+        "message": "$CHECKS$ geverifieerd voor $DOMAIN$. Dit wijst erop dat het bericht vanaf dat domein is verstuurd; het toont niet aan dat het domein van degene is die het beweert te zijn."
+    },
+    "mail_guard_authentication_passed_description_no_domain": {
+        "message": "$CHECKS$ geverifieerd voor het verzendende domein. Dit wijst erop dat het bericht vanaf dat domein is verstuurd; het toont niet aan dat het domein van degene is die het beweert te zijn."
+    },
+    "mail_guard_authentication_passed_title": {
+        "message": "Verificatie van de afzender geslaagd ($VALUE$)"
+    },
+    "mail_guard_authentication_signing_domain_mismatch_description": {
+        "message": "Het bericht is cryptografisch ondertekend door $SIGNER$ en niet door $SENDER$. E-mailproviders en marketingplatforms ondertekenen terecht namens een klant, dus dit alleen is niet doorslaggevend."
+    },
+    "mail_guard_authentication_signing_domain_mismatch_description_brand": {
+        "message": "Het bericht is cryptografisch ondertekend door $SIGNER$ en niet door $SENDER$. E-mailproviders en marketingplatforms ondertekenen terecht namens een klant, dus dit alleen is niet doorslaggevend, maar een bericht dat zich voordoet als $BRAND$ zou normaal door die organisatie zijn ondertekend."
+    },
+    "mail_guard_authentication_signing_domain_mismatch_title": {
+        "message": "Het bericht is ondertekend door een domein dat niets met de afzender te maken heeft"
+    },
+    "mail_guard_authentication_unverified_sender_description": {
+        "message": "Gmail toont dit bericht als afkomstig van een niet-geverifieerde afzender. Dat betekent dat Gmail niet kon bevestigen dat $DOMAIN$ het heeft toegestaan."
+    },
+    "mail_guard_authentication_unverified_sender_description_no_domain": {
+        "message": "Gmail toont dit bericht als afkomstig van een niet-geverifieerde afzender. Dat betekent dat Gmail niet kon bevestigen dat het verzendende domein het heeft toegestaan."
+    },
+    "mail_guard_authentication_unverified_sender_title": {
+        "message": "Gmail kon niet controleren of de afzender is wie hij zegt te zijn"
+    },
+    "mail_guard_authentication_via_unrelated_host_description_a": {
+        "message": "Gmail toont dit bericht als verzonden via $VIA_REGISTRABLE$ in plaats van rechtstreeks door $SENDER_REGISTRABLE$. Het bericht doet zich voor als $LABEL$, en van die organisatie is niet bekend dat ze e-mail verstuurt via $VIA_REGISTRABLE$."
+    },
+    "mail_guard_authentication_via_unrelated_host_description_b": {
+        "message": "Gmail toont dit bericht als verzonden via $VIA_REGISTRABLE$ in plaats van rechtstreeks door $SENDER_REGISTRABLE$. Zo ziet e-mail die via een externe dienst is verstuurd er normaal uit (een meldingsplatform, een helpdesk, een mailinglijst). Het wordt ter informatie getoond en heeft geen invloed op de score."
+    },
+    "mail_guard_authentication_via_unrelated_host_description_c": {
+        "message": "Gmail toont dit bericht als verzonden via $VIA_REGISTRABLE$, het domein van je eigen organisatie: een groep of gedeelde mailbox heeft het doorgestuurd, waardoor het Van-adres dat van de groep is en niet dat van de oorspronkelijke afzender. Het wordt ter informatie getoond en heeft geen invloed op het niveau."
+    },
+    "mail_guard_authentication_via_unrelated_host_title_a": {
+        "message": "Het bericht is doorgestuurd via een dienst waarvan niet bekend is dat de afzender die gebruikt"
+    },
+    "mail_guard_authentication_via_unrelated_host_title_b": {
+        "message": "Het bericht is doorgestuurd via een andere dienst"
+    },
+    "mail_guard_authentication_via_unrelated_host_title_c": {
+        "message": "Het bericht is doorgestuurd door je eigen organisatie"
+    },
+    "mail_guard_badge_checking": {
+        "message": "Phi AI voert een nadere controle uit"
+    },
+    "mail_guard_badge_label": {
+        "message": "E-mailbescherming: $LEVEL$. Details weergeven"
+    },
+    "mail_guard_badge_off": {
+        "message": "E-mailbescherming staat uit. Klik om de instellingen te openen"
+    },
+    "mail_guard_banner_dismiss": {
+        "message": "Sluiten"
+    },
+    "mail_guard_banner_see_details": {
+        "message": "Bekijk de details"
+    },
+    "mail_guard_banner_see_why": {
+        "message": "Bekijk waarom"
+    },
+    "mail_guard_checked_latest": {
+        "message": "Het nieuwste bericht, van $SENDER$, is gecontroleerd."
+    },
+    "mail_guard_evidence_reply_to": {
+        "message": "Van $FROM$ → Antwoord aan $REPLY_TO$"
+    },
+    "mail_guard_evidence_shown_actual": {
+        "message": "getoond: $SHOWN$ → werkelijk: $ACTUAL$"
+    },
+    "mail_guard_evidence_shown_via": {
+        "message": "getoond: $SHOWN$ → via: $VIA$"
+    },
+    "mail_guard_evidence_signed_by": {
+        "message": "Van $FROM$ · ondertekend door $SIGNER$"
+    },
+    "mail_guard_identity_alert_named_shared_item_description": {
+        "message": "Het onderwerp “$VALUE$” deelt een item dat als accountmelding is geformuleerd (“$VALUE_2$”). Banken en providers sturen beveiligingsmeldingen zelden als gedeeld bestand; door een bestand zo te noemen, kan de deeldienst een valse melding met echte links vanaf een echt adres versturen."
+    },
+    "mail_guard_identity_alert_named_shared_item_title": {
+        "message": "Een gedeeld bestand heeft de naam van een beveiligingsmelding voor je account"
+    },
+    "mail_guard_identity_brand_domain_in_subdomain_description": {
+        "message": "Het adres lijkt op het eerste gezicht van $LABEL$, maar “$DOMAIN$” staat alleen in het subdomein. Het domein dat deze e-mail werkelijk beheert, is $SENDER_REGISTRABLE$."
+    },
+    "mail_guard_identity_brand_domain_in_subdomain_title": {
+        "message": "Het afzenderdomein bevat het domein van $LABEL$ als subdomein"
+    },
+    "mail_guard_identity_brand_named_in_legal_notice_description": {
+        "message": "De afzender noemt zich beheerder van een juridische zaak rond $LABEL$ en verstuurt vanaf $SENDER_REGISTRABLE$, een domein waarvan we niet weten dat het van $LABEL$ is. Echte berichten over collectieve acties en schikkingen worden op deze manier door claimbeheerders verstuurd, en valse schikkingsberichten kopiëren dat. Zoek de officiële website van de schikking via de rechtbank of een nieuwsbericht in plaats van via de links in dit bericht, voordat je gegevens invult of een claim indient."
+    },
+    "mail_guard_identity_brand_named_in_legal_notice_title": {
+        "message": "De afzendernaam verwijst naar $LABEL$, maar het bericht lijkt niet van $LABEL$ te komen"
+    },
+    "mail_guard_identity_display_name_impersonation_description_a": {
+        "message": "De afzender doet zich voor als $LABEL$, maar het bericht is verstuurd vanaf een persoonlijke mailbox bij $SENDER_REGISTRABLE$. Van $LABEL$ is niet bekend dat het zakelijke e-mail verstuurt via gratis e-mailproviders."
+    },
+    "mail_guard_identity_display_name_impersonation_description_b": {
+        "message": "De afzender doet zich voor als $LABEL$, maar $SENDER_REGISTRABLE$ is geen domein waarvan we weten dat het van $LABEL$ is."
+    },
+    "mail_guard_identity_display_name_impersonation_title": {
+        "message": "De afzendernaam beweert $LABEL$ te zijn, maar het domein lijkt er niets mee te maken te hebben"
+    },
+    "mail_guard_identity_disposable_sender_domain_description": {
+        "message": "$SENDER_REGISTRABLE$ biedt tijdelijke wegwerpmailboxen aan. Betrouwbare berichten komen daar zelden vandaan."
+    },
+    "mail_guard_identity_disposable_sender_domain_title": {
+        "message": "De afzender gebruikt een wegwerpmaildienst"
+    },
+    "mail_guard_identity_external_executive_claim_description": {
+        "message": "Het bericht doet zich voor als afkomstig van een leidinggevende, maar is verstuurd vanaf $SENDER_REGISTRABLE$ in plaats van $RECIPIENT_DOMAIN$. Zich vanaf een persoonlijke mailbox voordoen als directielid is een veelvoorkomende openingszet bij factuur- en cadeaubonfraude."
+    },
+    "mail_guard_identity_external_executive_claim_title": {
+        "message": "Doet zich voor als bedrijfsleiding, maar is verstuurd vanaf een extern persoonlijk account"
+    },
+    "mail_guard_identity_external_financial_request_description": {
+        "message": "Het bericht vraagt om geld over te maken of betaalgegevens te wijzigen, en is verstuurd vanaf een persoonlijke mailbox bij $SENDER$ in plaats van vanaf $RECIPIENT$. Zulke verzoeken komen vaak voor bij zakelijke e-mailfraude (business email compromise): de tekst kan aannemelijk lijken omdat het account waarvan het bericht komt echt is, ook al hoort het mogelijk niet bij de organisatie."
+    },
+    "mail_guard_identity_external_financial_request_description_no_recipient": {
+        "message": "Het bericht vraagt om geld over te maken of betaalgegevens te wijzigen, en is verstuurd vanaf een persoonlijke mailbox bij $SENDER$ in plaats van vanaf de organisatie van de ontvanger. Zulke verzoeken komen vaak voor bij zakelijke e-mailfraude (business email compromise): de tekst kan aannemelijk lijken omdat het account waarvan het bericht komt echt is, ook al hoort het mogelijk niet bij de organisatie."
+    },
+    "mail_guard_identity_external_financial_request_title": {
+        "message": "Financieel verzoek vanaf een externe persoonlijke mailbox"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand": {
+        "message": "De afzender doet zich voor als $BRAND$ vanaf een domein dat die organisatie niet lijkt te beheren, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand_domain_in_subdomain": {
+        "message": "De afzender verstopt de naam van een echte organisatie in een domein dat niet van die organisatie lijkt te zijn, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand_named_in_legal_notice": {
+        "message": "De afzender noemt een organisatie, maar verstuurt niet vanaf die organisatie, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_display_name_impersonation": {
+        "message": "De afzender doet zich voor als een organisatie, maar verstuurt niet vanaf die organisatie, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_of_recipient_domain": {
+        "message": "De afzender verstuurt vanaf een domein dat het eigen domein van de ontvanger imiteert, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_sender_domain": {
+        "message": "De afzender verstuurt vanaf een domein dat een echt domein imiteert, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_other": {
+        "message": "De afzender is mogelijk niet de partij die hij lijkt te zijn, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_own_domain_in_sender_name": {
+        "message": "De afzender gebruikt het domein van de eigen organisatie van de ontvanger als naam, maar verstuurt van buiten dat domein, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_sender_punycode_domain": {
+        "message": "De afzender verstuurt vanaf een domein met niet-Latijnse tekens dat zo is gespeld dat het op een bekend domein lijkt, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_unsupported_org_claim": {
+        "message": "De afzender doet zich voor als een organisatie, maar verstuurt niet vanaf die organisatie, en het bericht vraagt de ontvanger in te loggen, accountgegevens te bevestigen of een verificatiecode op te geven. Samen zijn dat een veelvoorkomend teken van een poging om inloggegevens te stelen."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_title_a": {
+        "message": "De afzender lijkt zich voor te doen als $BRAND$ en vraagt om inloggegevens"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_title_b": {
+        "message": "De afzender is mogelijk niet wie hij lijkt te zijn, en het bericht vraagt om inloggegevens"
+    },
+    "mail_guard_identity_implausible_local_part_description": {
+        "message": "Het deel van het adres vóór de @ herhaalt hetzelfde fragment $REPEATS$ keer. Zo worden mailboxen zelden genoemd; het is een patroon dat vaak wordt gebruikt om een afzenderadres op te vullen en te variëren in een massamailing."
+    },
+    "mail_guard_identity_implausible_local_part_title": {
+        "message": "Het afzenderadres herhaalt hetzelfde fragment meerdere keren"
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_description_a": {
+        "message": "Het bericht is verstuurd vanaf $SENDER_REGISTRABLE$, dat visueel niet te onderscheiden is van je eigen domein $RECIPIENT_DOMAIN$, maar een ander domein is, waarschijnlijk in handen van iemand anders. E-mail die intern lijkt, wordt sneller vertrouwd."
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_description_b": {
+        "message": "Het bericht is verstuurd vanaf $SENDER_REGISTRABLE$, bijna hetzelfde als je eigen domein $RECIPIENT_DOMAIN$. Het lijkt niet bij je organisatie te horen."
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_title": {
+        "message": "Het afzenderdomein lijkt het domein van je eigen organisatie te imiteren"
+    },
+    "mail_guard_identity_lookalike_sender_domain_description": {
+        "message": "Het bericht is verstuurd vanaf $SENDER$, een bijna identieke imitatie van het echte domein $TARGET$. Het lijkt niet van $BRAND$ te zijn."
+    },
+    "mail_guard_identity_lookalike_sender_domain_description_confusable": {
+        "message": "Het bericht is verstuurd vanaf $SENDER$, een bijna identieke imitatie van het echte domein $TARGET$ met tekens die er hetzelfde uitzien. Het lijkt niet van $BRAND$ te zijn."
+    },
+    "mail_guard_identity_lookalike_sender_domain_title": {
+        "message": "Het afzenderdomein lijkt $BRAND_LABEL$ te imiteren"
+    },
+    "mail_guard_identity_malformed_sender_domain_description": {
+        "message": "Het domein van de afzender, “$DOMAIN$”, is geen geldige openbare hostnaam."
+    },
+    "mail_guard_identity_malformed_sender_domain_title": {
+        "message": "Het afzenderdomein is ongeldig opgebouwd"
+    },
+    "mail_guard_identity_nonexistent_sender_tld_description": {
+        "message": "Het bericht beweert van $DOMAIN$ te komen, maar “.$TLD$” is nooit aan iemand toegewezen. Er kan geen domein onder worden geregistreerd en geen enkel systeem kan het vinden, dus op dit adres kun je niet antwoorden en het wijst geen afzender aan. Een Van-adres als dit is hoogstwaarschijnlijk verzonnen en niet per ongeluk verkeerd getypt."
+    },
+    "mail_guard_identity_nonexistent_sender_tld_title": {
+        "message": "Het domein van de afzender eindigt op “.$TLD$”, geen bestaand topniveaudomein"
+    },
+    "mail_guard_identity_private_use_sender_tld_description": {
+        "message": "“.$TLD$” is gereserveerd voor privénetwerken en bewust niet geregistreerd op het openbare internet. $DOMAIN$ kan dus niet worden gecontroleerd en een antwoord zou niet aankomen. Meestal is dit een intern systeem dat e-mail verstuurt met zijn lokale hostnaam in plaats van een echt domein, maar het betekent ook dat er niets over deze afzender te controleren valt."
+    },
+    "mail_guard_identity_private_use_sender_tld_title": {
+        "message": "Het domein van de afzender eindigt op “.$TLD$”, geen openbaar domein"
+    },
+    "mail_guard_identity_randomised_address_case_description": {
+        "message": "Het adres wisselt binnen woorden af tussen hoofd- en kleine letters ($VALUE$). E-mailsystemen letten niet op hoofdletters in adressen, dus aan de bezorging verandert dit niets; meestal dient het om het adres per verzending te variëren en filters te omzeilen die op exacte tekst letten."
+    },
+    "mail_guard_identity_randomised_address_case_title": {
+        "message": "Het afzenderadres gebruikt willekeurige hoofdletters"
+    },
+    "mail_guard_identity_reply_to_mismatch_description_a": {
+        "message": "Het bericht lijkt van $SENDER_REGISTRABLE$ te komen, maar antwoorden gaan naar een persoonlijke mailbox bij $REPLY_TO_REGISTRABLE$. Dit is een veelvoorkomend patroon bij pogingen tot zakelijke e-mailfraude."
+    },
+    "mail_guard_identity_reply_to_mismatch_description_b": {
+        "message": "Het Van-adres staat bij $SENDER_REGISTRABLE$, maar het Antwoord-aan-adres bij $REPLY_TO_REGISTRABLE$, dus een antwoord bereikt de ogenschijnlijke afzender niet."
+    },
+    "mail_guard_identity_reply_to_mismatch_title": {
+        "message": "Antwoorden gaan naar een ander domein dan dat van de afzender"
+    },
+    "mail_guard_identity_sender_deep_subdomain_description": {
+        "message": "De hostnaam van de afzender heeft $LENGTH$ subdomeinniveaus onder $REGISTRABLE$. Zo'n diepe structuur kan worden gebruikt om een herkenbaar woord in het zichtbare deel van een adres te krijgen."
+    },
+    "mail_guard_identity_sender_deep_subdomain_title": {
+        "message": "Het afzenderdomein heeft een ongewoon diepe subdomeinstructuur"
+    },
+    "mail_guard_identity_sender_invisible_characters_description": {
+        "message": "De naam of het adres van de afzender bevat tekens zonder breedte of tekens die de tekstrichting veranderen. Ze zijn onzichtbaar op het scherm en kunnen worden gebruikt om te verhullen wat het adres werkelijk is."
+    },
+    "mail_guard_identity_sender_invisible_characters_title": {
+        "message": "De afzendernaam bevat verborgen tekens of tekens die de tekstrichting veranderen"
+    },
+    "mail_guard_identity_sender_ip_domain_description": {
+        "message": "Het adres van de afzender verwijst naar de kale host $DOMAIN$. Betrouwbare organisaties versturen e-mail vrijwel altijd vanaf domeinnamen, niet vanaf kale IP-adressen."
+    },
+    "mail_guard_identity_sender_ip_domain_title": {
+        "message": "Het afzenderadres gebruikt een kaal IP-adres in plaats van een domein"
+    },
+    "mail_guard_identity_sender_punycode_domain_description": {
+        "message": "Het domein van de afzender, $DOMAIN$, wordt weergegeven als “$RENDERED$”. Internationale domeinen zijn legitiem, maar ze zijn ook de gebruikelijke manier om een bekende naam te imiteren."
+    },
+    "mail_guard_identity_sender_punycode_domain_description_mixed": {
+        "message": "Het domein van de afzender wordt weergegeven als “$RENDERED$”, maar is in werkelijkheid $DOMAIN$. Het mengt tekens uit meerdere schriften ($SCRIPTS$); zo wordt een domein op een bekend domein gelijkend gemaakt terwijl het iets heel anders is."
+    },
+    "mail_guard_identity_sender_punycode_domain_title": {
+        "message": "Het afzenderdomein gebruikt een internationale (punycode-)naam"
+    },
+    "mail_guard_identity_styled_display_name_description": {
+        "message": "De naam “$SENDER_NAME$” is niet met gewone letters geschreven. Hij gebruikt tekens uit het wiskundige alfabet van Unicode, die als vette of cursieve tekst worden getoond maar eigenlijk andere tekens zijn. Voor jou leest de naam gewoon, maar een systeem dat hem met een lijst vergelijkt, vindt geen overeenkomst. E-mail wordt zelden zo geadresseerd, behalve om aan controle te ontsnappen."
+    },
+    "mail_guard_identity_styled_display_name_title": {
+        "message": "De afzendernaam is geschreven met decoratieve vervangende letters"
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_confusable": {
+        "message": "Eerdere berichten in dit gesprek kwamen van $EARLIER$. Dit bericht is verstuurd vanaf $SENDER$, dat is geschreven met tekens die er precies hetzelfde uitzien, maar een ander domein is, waarschijnlijk in handen van iemand anders. Als je antwoordt of een instructie hierin opvolgt, komt dat mogelijk bij de verkeerde partij terecht."
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_many": {
+        "message": "Eerdere berichten in dit gesprek kwamen van $EARLIER$. Dit bericht is verstuurd vanaf $SENDER$, dat $COUNT$ tekens afwijkt en een ander domein is. Vergelijk de afzender met een eerder bericht in het gesprek voordat je antwoordt."
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_one": {
+        "message": "Eerdere berichten in dit gesprek kwamen van $EARLIER$. Dit bericht is verstuurd vanaf $SENDER$, dat maar één teken afwijkt en een ander domein is. Vergelijk de afzender met een eerder bericht in het gesprek voordat je antwoordt."
+    },
+    "mail_guard_identity_thread_lookalike_participant_title": {
+        "message": "Het afzenderdomein lijkt een andere deelnemer aan dit gesprek te imiteren"
+    },
+    "mail_guard_identity_thread_participant_name_reuse_description": {
+        "message": "“$SENDER_NAME$” komt al in dit gesprek voor als $EMAIL$, maar dit bericht is verstuurd vanaf $SENDER_EMAIL$, dat niet op hetzelfde domein staat. Mailprogramma's tonen de naam en verbergen het adres, dus een antwoord dat de naam behoudt maar de mailbox wijzigt, lijkt van dezelfde persoon te komen."
+    },
+    "mail_guard_identity_thread_participant_name_reuse_title": {
+        "message": "De afzender gebruikt de naam van een deelnemer vanaf een ander adres"
+    },
+    "mail_guard_identity_unparseable_sender_description": {
+        "message": "Het afzenderadres “$SENDER_EMAIL$” is geen geldig e-mailadres."
+    },
+    "mail_guard_identity_unparseable_sender_title": {
+        "message": "Het afzenderadres kon niet worden gelezen"
+    },
+    "mail_guard_identity_unsupported_org_claim_description_a": {
+        "message": "Het bericht doet zich voor als “$SENDER_NAME$”, maar is verstuurd vanaf een persoonlijke mailbox bij $SENDER_REGISTRABLE$. Banken, verzekeraars en betaaldiensten versturen zelden e-mail via gratis e-mailproviders."
+    },
+    "mail_guard_identity_unsupported_org_claim_description_b": {
+        "message": "Het bericht doet zich voor als “$SENDER_NAME$”, maar is verstuurd vanaf $SENDER_REGISTRABLE$, dat geen enkele overeenkomst met die naam heeft. Betrouwbare organisaties versturen meestal vanaf een domein dat duidelijk van henzelf is."
+    },
+    "mail_guard_identity_unsupported_org_claim_title_a": {
+        "message": "De afzender noemt zich een financiële instelling, maar schrijft vanaf een persoonlijke mailbox"
+    },
+    "mail_guard_identity_unsupported_org_claim_title_b": {
+        "message": "De afzendernaam beweert een organisatie te zijn die niets met het verzenddomein te maken heeft"
+    },
+    "mail_guard_identity_unverified_brand_domain_description": {
+        "message": "Het bericht is verstuurd vanaf $SENDER_REGISTRABLE$, dat de naam van $LABEL$ draagt onder een domeinextensie waarvan we niet weten dat $LABEL$ die gebruikt. Grote organisaties gebruiken dezelfde naam in elk land waar ze actief zijn, dus dit kan echt zijn, maar een domein met de naam van een merk kan ook door iemand anders zijn geregistreerd. Vergelijk het met het adres waarvandaan je normaal e-mail van $LABEL$ ontvangt, voordat je iets met dit bericht doet."
+    },
+    "mail_guard_identity_unverified_brand_domain_title": {
+        "message": "Niet te bevestigen dat $SENDER_REGISTRABLE$ bij $LABEL$ hoort"
+    },
+    "mail_guard_level_caution": {
+        "message": "Let op"
+    },
+    "mail_guard_level_caution_line": {
+        "message": "Even goed kijken voordat je iets doet."
+    },
+    "mail_guard_level_checking": {
+        "message": "Wordt gecontroleerd"
+    },
+    "mail_guard_level_high_risk": {
+        "message": "Hoog risico"
+    },
+    "mail_guard_level_high_risk_line": {
+        "message": "Sterke waarschuwingssignalen. We raden af om de links en bijlagen te gebruiken."
+    },
+    "mail_guard_level_low": {
+        "message": "Laag risico"
+    },
+    "mail_guard_level_low_line": {
+        "message": "We schatten het risico laag in."
+    },
+    "mail_guard_level_maybe_caution": {
+        "message": "Misschien riskant"
+    },
+    "mail_guard_level_maybe_suspicious": {
+        "message": "Misschien verdacht"
+    },
+    "mail_guard_level_not_checked": {
+        "message": "Niet gecontroleerd"
+    },
+    "mail_guard_level_suspicious": {
+        "message": "Verdacht"
+    },
+    "mail_guard_level_suspicious_line": {
+        "message": "Meerdere waarschuwingssignalen. Wees voorzichtig."
+    },
+    "mail_guard_line_confirmed": {
+        "message": "Phi AI vermoedt sterk dat dit oplichting is. Gebruik de links en bijlagen niet."
+    },
+    "mail_guard_line_confirmed_dangerous": {
+        "message": "Phi AI vermoedt sterk dat deze e-mail gevaarlijk is. Gebruik de links en bijlagen niet."
+    },
+    "mail_guard_line_ordinary": {
+        "message": "Phi AI schat het risico laag in, maar de bevindingen van de statische controles hieronder zijn toch het bekijken waard."
+    },
+    "mail_guard_line_ordinary_clear": {
+        "message": "Phi AI schat het risico laag in."
+    },
+    "mail_guard_line_review_failed": {
+        "message": "Phi AI kon de nadere controle niet afronden; dit is het resultaat van de snelle controle."
+    },
+    "mail_guard_line_reviewing": {
+        "message": "Phi AI leest de hele e-mail…"
+    },
+    "mail_guard_line_unconfirmed": {
+        "message": "Phi AI kan een risico niet uitsluiten. Wees voorzichtig."
+    },
+    "mail_guard_link_anchor_brand_mismatch_description": {
+        "message": "De linktekst verwijst naar $LABEL$, maar de link gaat naar $HOSTNAME$, waarvan we niet weten dat het van $LABEL$ is."
+    },
+    "mail_guard_link_anchor_brand_mismatch_title": {
+        "message": "Link met het label $LABEL$ verwijst naar een domein dat er niets mee te maken lijkt te hebben"
+    },
+    "mail_guard_link_credential_link_open_hosting_description": {
+        "message": "De link leidt naar een inlog- of verificatiepagina $VALUE$. Iedereen kan daar in enkele seconden iets publiceren, dus het adres zegt niets over wie er echt achter de pagina zit."
+    },
+    "mail_guard_link_credential_link_open_hosting_title": {
+        "message": "Inloglink staat op een gratis hostingdienst"
+    },
+    "mail_guard_link_credential_link_unrelated_domain_description": {
+        "message": "Het bericht doet zich voor als $LABEL$ en de link leidt naar een inlog- of verificatiepagina, maar die pagina staat op $REGISTRABLE$. Inloggegevens die je daar invoert, gaan naar wie dat domein beheert."
+    },
+    "mail_guard_link_credential_link_unrelated_domain_title": {
+        "message": "Inloglink voor $LABEL$ leidt naar een domein waarvan niet bekend is dat het van $LABEL$ is"
+    },
+    "mail_guard_link_dangerous_scheme_description": {
+        "message": "Een link gebruikt “$SCHEME$” in plaats van http of https. Zulke protocollen voeren code uit of openen lokale bronnen in plaats van een webpagina te laden, en hebben in een e-maillink zelden een legitiem doel."
+    },
+    "mail_guard_link_dangerous_scheme_title": {
+        "message": "Link gebruikt het protocol $SCHEME$"
+    },
+    "mail_guard_link_displayed_url_mismatch_description": {
+        "message": "De link wordt getoond als “$DISPLAYED_HOST$”, dat bij $LABEL$ hoort, maar bij een klik ga je eerst naar $HOSTNAME$, waarvan we niet weten dat het van $LABEL$ is. Wie $HOSTNAME$ beheert, bepaalt waar je uiteindelijk terechtkomt."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_description_a": {
+        "message": "De link wordt getoond als “$DISPLAYED_HOST$”, maar gaat naar $HOSTNAME$. Beide vallen onder een register dat elke aanvrager controleert, dus het gaat om de namen van één instantie en niet om die van een vreemde, maar het getoonde adres is toch niet waar je klik naartoe gaat."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_description_b": {
+        "message": "De link wordt getoond als “$DISPLAYED_HOST$”, maar gaat naar $HOSTNAME$, een linkdienst waarvan de uiteindelijke bestemming niet zichtbaar is. Massamailing wordt vaak zo verstuurd; kijk waar je terechtkomt voordat je iets invult."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_title_a": {
+        "message": "Het getoonde overheidsadres verwijst naar een ander overheidsadres"
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_title_b": {
+        "message": "Het getoonde adres loopt via een linkdienst"
+    },
+    "mail_guard_link_displayed_url_mismatch_s3_description": {
+        "message": "De link wordt getoond als “$DISPLAYED_HOST$”, dat bij $LABEL$ hoort, maar bij een klik ga je naar $HOSTNAME$, het eigen domein van de afzender, dat bepaalt waar je uiteindelijk terechtkomt."
+    },
+    "mail_guard_link_displayed_url_mismatch_s3_title": {
+        "message": "Het getoonde adres loopt via de eigen linkdienst van de afzender"
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_description": {
+        "message": "De link wordt getoond als “$DISPLAYED$”, maar bij een klik ga je naar $DESTINATION$."
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_description_brand": {
+        "message": "De link wordt getoond als “$DISPLAYED$”, maar bij een klik ga je naar $DESTINATION$. Het getoonde adres is van $BRAND$; van $HOST$ weten we niet dat het van $BRAND$ is."
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_title": {
+        "message": "Het getoonde linkadres wijkt af van de echte bestemming"
+    },
+    "mail_guard_link_displayed_url_mismatch_title": {
+        "message": "Het getoonde linkadres wordt via een ander domein bereikt"
+    },
+    "mail_guard_link_echoed_form_link_description": {
+        "message": "Dit lijkt de automatische bevestiging van een webformulier, en het formulier noemt jouw adres als dat van de persoon die het heeft ingevuld. De tekst die in het veld “$LABEL$” is ingediend, bevat een link naar $HOSTNAME$, en dat is niet $SENDER_REGISTRABLE$. Spammers typen andermans adres in het contactformulier van een bedrijf, zodat de eigen mailserver van het bedrijf hun link bezorgt: de afzender is echt, maar die woorden zijn waarschijnlijk niet van het bedrijf. Als je dit formulier niet hebt ingevuld, komt de inhoud hoogstwaarschijnlijk niet van het bedrijf."
+    },
+    "mail_guard_link_echoed_form_link_title": {
+        "message": "Formulierbevestiging herhaalt een link die onder jouw adres is ingediend"
+    },
+    "mail_guard_link_excessive_subdomains_description": {
+        "message": "De host van de link heeft $SUBDOMAIN_LABEL_COUNT$ subdomeinniveaus onder $REGISTRABLE$. Lange ketens van namen kunnen worden gebruikt om het zichtbare deel van een adres te vullen met geruststellende woorden, terwijl het domein dat het adres echt beheert buiten beeld blijft."
+    },
+    "mail_guard_link_excessive_subdomains_title": {
+        "message": "De host van de link heeft een ongewoon diepe subdomeinstructuur"
+    },
+    "mail_guard_link_fake_attachment_description": {
+        "message": "De linktekst is “$VALUE$”, als de naam van een bijlage, maar de link opent $HOSTNAME$, en dat is niet dat bestand en ook niet de eigen site van de afzender. Een echte bijlage zit in het bericht en niet op de webpagina van iemand anders."
+    },
+    "mail_guard_link_fake_attachment_title": {
+        "message": "Link heeft het label van een bijlage, maar opent elders een webpagina"
+    },
+    "mail_guard_link_filename_lookalike_tld_description": {
+        "message": "De link gaat naar $HOSTNAME$. Omdat “.$TLD$” ook een gangbare bestandsextensie is, wordt zulke tekst vaak aangezien voor de naam van een bijlage in plaats van een webadres."
+    },
+    "mail_guard_link_filename_lookalike_tld_title": {
+        "message": "Link gebruikt het topniveaudomein .$TLD$, dat op een bestandsnaam lijkt"
+    },
+    "mail_guard_link_ftp_link_description": {
+        "message": "Een link gebruikt “ftp:” in plaats van http of https. Browsers openen FTP niet meer zelf, dus een klik geeft een bestandsdownload door aan een ander programma, buiten de bescherming van de browser. Zo'n link kan geen code uitvoeren of een inlogpagina tonen, maar alles wat hij downloadt, verdient dezelfde voorzichtigheid als een bijlage."
+    },
+    "mail_guard_link_ftp_link_title": {
+        "message": "Link gebruikt het protocol ftp:"
+    },
+    "mail_guard_link_insecure_description_a": {
+        "message": "De link naar $HOSTNAME$ lijkt naar een inlogpagina te leiden, maar gebruikt gewoon HTTP. Betrouwbare diensten accepteren zeer zelden inloggegevens via een onversleutelde verbinding."
+    },
+    "mail_guard_link_insecure_description_b": {
+        "message": "De link naar $HOSTNAME$ gebruikt gewoon HTTP in plaats van HTTPS."
+    },
+    "mail_guard_link_insecure_title_a": {
+        "message": "Inloglink gebruikt onversleuteld HTTP"
+    },
+    "mail_guard_link_insecure_title_b": {
+        "message": "Link gebruikt onversleuteld HTTP"
+    },
+    "mail_guard_link_ip_address_url_description_many": {
+        "message": "$COUNT$ links gaan naar het kale adres $HOST$ in plaats van naar een domeinnaam. Betrouwbare diensten gebruiken meestal hostnamen; kale IP-adressen worden vaak gebruikt om geen domein te hoeven registreren dat offline gehaald kan worden."
+    },
+    "mail_guard_link_ip_address_url_description_one": {
+        "message": "Een link gaat naar het kale adres $HOST$ in plaats van naar een domeinnaam. Betrouwbare diensten gebruiken meestal hostnamen; kale IP-adressen worden vaak gebruikt om geen domein te hoeven registreren dat offline gehaald kan worden."
+    },
+    "mail_guard_link_ip_address_url_title": {
+        "message": "Link verwijst rechtstreeks naar een IP-adres"
+    },
+    "mail_guard_link_ip_named_host_description_many": {
+        "message": "$COUNT$ links gaan naar $HOST$, de naam die een hostingprovider aan een gehuurde server geeft en die niemand zelf heeft geregistreerd. Het is een kaal IP-adres met een domein ervoor."
+    },
+    "mail_guard_link_ip_named_host_description_one": {
+        "message": "Een link gaat naar $HOST$, de naam die een hostingprovider aan een gehuurde server geeft en die niemand zelf heeft geregistreerd. Het is een kaal IP-adres met een domein ervoor."
+    },
+    "mail_guard_link_ip_named_host_title": {
+        "message": "Link verwijst naar een server met een naam die uit het IP-adres is afgeleid"
+    },
+    "mail_guard_link_link_only_body_description": {
+        "message": "Het onderwerp vraagt je iets te doen (“$VALUE$”), maar het bericht bevat bijna geen leesbare tekst ($CHARS$ tekens) en linkt naar $REGISTRABLE$. Een melding die als afbeelding is getekend, zegt niets wat te controleren valt en is een veelgebruikte manier om te voorkomen dat een lokbericht wordt gelezen."
+    },
+    "mail_guard_link_link_only_body_s2_description": {
+        "message": "Het bericht bevat heel weinig leesbare tekst ($VALUE$ tekens), maar wel links naar andere domeinen. Berichten met minimale context vermijden alles wat te controleren valt."
+    },
+    "mail_guard_link_link_only_body_s2_title": {
+        "message": "De berichttekst bestaat bijna helemaal uit een link"
+    },
+    "mail_guard_link_link_only_body_title": {
+        "message": "Het bericht vraagt om actie, maar bestaat alleen uit een link"
+    },
+    "mail_guard_link_local_file_link_description": {
+        "message": "Een link gebruikt “file:” zonder host, dus hij noemt een pad op de eigen schijf van de lezer en niets op internet. Meestal is het een lokaal pad dat in het bericht is geplakt, en het kan niets van elders ophalen."
+    },
+    "mail_guard_link_local_file_link_title": {
+        "message": "Link verwijst naar een bestand op je eigen computer"
+    },
+    "mail_guard_link_lookalike_domain_description": {
+        "message": "De link gaat naar $REGISTRABLE$, een bijna identieke imitatie van $TARGET$. Het lijkt niet te worden beheerd door $BRAND_LABEL$."
+    },
+    "mail_guard_link_lookalike_domain_title": {
+        "message": "De bestemming van de link lijkt $BRAND_LABEL$ te imiteren"
+    },
+    "mail_guard_link_malformed_url_description_many": {
+        "message": "$COUNT$ links konden niet worden omgezet in een geldig webadres. Het kan gewoon een kapot e-mailsjabloon zijn, maar het wordt soms ook gebruikt om linkcontroles in de war te brengen."
+    },
+    "mail_guard_link_malformed_url_description_one": {
+        "message": "Een link kon niet worden omgezet in een geldig webadres. Het kan gewoon een kapot e-mailsjabloon zijn, maar het wordt soms ook gebruikt om linkcontroles in de war te brengen."
+    },
+    "mail_guard_link_malformed_url_title": {
+        "message": "Het bericht bevat een ongeldige link"
+    },
+    "mail_guard_link_misleading_domain_description": {
+        "message": "De link lijkt op het eerste gezicht van $LABEL$, maar het deel van het adres dat bepaalt waar hij echt naartoe gaat, is $REGISTRABLE$. Alles links daarvan, ook “$BEFORE_REGISTRABLE$”, wordt vrij gekozen door wie $REGISTRABLE$ beheert."
+    },
+    "mail_guard_link_misleading_domain_title": {
+        "message": "Link zet de naam van $LABEL$ voor een domein dat er niets mee te maken heeft"
+    },
+    "mail_guard_link_opaque_redirect_description": {
+        "message": "De link naar $HOSTNAME$ bevat een doorstuurparameter waarvan de bestemming zo is gecodeerd dat je hem niet kunt lezen. Doorverwijzingsketens kunnen worden gebruikt om een kwaadaardige bestemming te verbergen achter een domein dat de ontvanger herkent."
+    },
+    "mail_guard_link_opaque_redirect_title": {
+        "message": "Link is opgebouwd als doorverwijzer met een verborgen bestemming"
+    },
+    "mail_guard_link_page_in_open_storage_description": {
+        "message": "De link gaat naar een webpagina die als bestand op $HOSTING$ staat. Het adres is van de opslagdienst en niet van wie de pagina heeft gemaakt: iedereen met een account kan er een bestand uploaden, dat dan vanaf dat domein wordt getoond. Een echte organisatie publiceert pagina's meestal op de eigen site."
+    },
+    "mail_guard_link_page_in_open_storage_description_asking": {
+        "message": "De link gaat naar een webpagina die als bestand op $HOSTING$ staat. Het adres is van de opslagdienst en niet van wie de pagina heeft gemaakt: iedereen met een account kan er een bestand uploaden, dat dan vanaf dat domein wordt getoond. Een echte organisatie publiceert pagina's meestal op de eigen site, en dit bericht vraagt je om op zo'n pagina iets te doen."
+    },
+    "mail_guard_link_page_in_open_storage_title": {
+        "message": "Link opent een pagina die als bestand op een openbare hostingdienst staat"
+    },
+    "mail_guard_link_private_ip_url_description_many": {
+        "message": "$COUNT$ links gaan naar $HOST$, een adres op een privénetwerk. Het werkt alleen binnen dat netwerk, dus het kan niet naar een pagina op internet leiden; zo bereik je interne tools en apparaten thuis."
+    },
+    "mail_guard_link_private_ip_url_description_one": {
+        "message": "Een link gaat naar $HOST$, een adres op een privénetwerk. Het werkt alleen binnen dat netwerk, dus het kan niet naar een pagina op internet leiden; zo bereik je interne tools en apparaten thuis."
+    },
+    "mail_guard_link_private_ip_url_title": {
+        "message": "Link verwijst naar een adres op een privénetwerk"
+    },
+    "mail_guard_link_punycode_domain_description": {
+        "message": "De host van de link is $HOST$, dat wordt weergegeven als “$RENDERED$”. Internationale domeinen zijn legitiem, maar worden vaak gebruikt om bekende namen te imiteren."
+    },
+    "mail_guard_link_punycode_domain_description_imitates": {
+        "message": "De host van de link is $HOST$, dat wordt weergegeven als “$RENDERED$”, visueel niet te onderscheiden van $TARGET$, maar een heel ander domein."
+    },
+    "mail_guard_link_punycode_domain_description_mixed": {
+        "message": "De host van de link is $HOST$, dat wordt weergegeven als “$RENDERED$” met tekens uit meerdere schriften ($SCRIPTS$). Gemengde schriften in één naam zijn de manier om een domein op iets te laten lijken wat het niet is."
+    },
+    "mail_guard_link_punycode_domain_title": {
+        "message": "Link gebruikt een internationaal domein dat eruitziet als een bekende naam"
+    },
+    "mail_guard_link_redirect_chain_description": {
+        "message": "De link begint bij $ENTRY$ maar verwijst door naar $EXIT$. Het domein dat de ontvanger ziet, is niet het domein dat de pagina levert."
+    },
+    "mail_guard_link_redirect_chain_title": {
+        "message": "Link verwijst via het ene domein door naar een ander"
+    },
+    "mail_guard_link_repeated": {
+        "message": "Dit geldt voor $COUNT$ links in het bericht."
+    },
+    "mail_guard_link_url_shortener_description_many": {
+        "message": "$COUNT$ links gebruiken de linkverkorter $SHORTENER$, dus je kunt de echte bestemming niet zien voordat je klikt."
+    },
+    "mail_guard_link_url_shortener_description_many_credential": {
+        "message": "$COUNT$ links gebruiken de linkverkorter $SHORTENER$, dus je kunt de echte bestemming niet zien voordat je klikt. Het bericht vraagt je bovendien om in te loggen of iets te bevestigen, en juist dan is een verborgen bestemming het meest van belang."
+    },
+    "mail_guard_link_url_shortener_description_one": {
+        "message": "Een link gebruikt de linkverkorter $SHORTENER$, dus je kunt de echte bestemming niet zien voordat je klikt."
+    },
+    "mail_guard_link_url_shortener_description_one_credential": {
+        "message": "Een link gebruikt de linkverkorter $SHORTENER$, dus je kunt de echte bestemming niet zien voordat je klikt. Het bericht vraagt je bovendien om in te loggen of iets te bevestigen, en juist dan is een verborgen bestemming het meest van belang."
+    },
+    "mail_guard_link_url_shortener_title": {
+        "message": "Link is verborgen achter een linkverkorter"
+    },
+    "mail_guard_list_more": {
+        "message": "$COUNT$ andere"
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_description": {
+        "message": "De naam van de afzender, “$SENDER_NAME$”, wekt de indruk dat dit bericht van binnen $RECIPIENT_DOMAIN$ komt, je eigen organisatie, maar het is verstuurd vanaf $SENDER_REGISTRABLE$. Interne berichten van IT, mail en HR komen meestal van het eigen domein van je organisatie."
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_a": {
+        "message": "De naam van de afzender gebruikt het domein van je eigen organisatie"
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_b": {
+        "message": "De naam van de afzender presenteert het bericht als afkomstig van een afdeling van je eigen organisatie"
+    },
+    "mail_guard_panel_ai_review": {
+        "message": "Nadere controle door Phi AI"
+    },
+    "mail_guard_panel_also": {
+        "message": "Ook: $KINDS$"
+    },
+    "mail_guard_panel_back": {
+        "message": "Terug"
+    },
+    "mail_guard_panel_close": {
+        "message": "Sluiten"
+    },
+    "mail_guard_panel_disclaimer": {
+        "message": "Phi AI kan fouten maken. De veiligheid van je persoonlijke gegevens, privacy en geld is belangrijk voor ons. Neem dus even de tijd om het op een andere manier na te gaan voordat je betaalt, inlogt of gegevens deelt."
+    },
+    "mail_guard_panel_label": {
+        "message": "E-mailbescherming"
+    },
+    "mail_guard_panel_marketing": {
+        "message": "Marketing"
+    },
+    "mail_guard_panel_quick_check": {
+        "message": "Snelle controle door Phi AI: waarschijnlijk $KIND$"
+    },
+    "mail_guard_panel_quick_check_clear": {
+        "message": "De snelle controle van Phi AI ziet een laag beveiligingsrisico"
+    },
+    "mail_guard_panel_quick_check_fraud": {
+        "message": "Snelle controle door Phi AI: tekenen van een beveiligingsrisico"
+    },
+    "mail_guard_panel_settings": {
+        "message": "Instellingen"
+    },
+    "mail_guard_panel_show_less": {
+        "message": "Minder weergeven"
+    },
+    "mail_guard_panel_show_more": {
+        "message": "Meer weergeven"
+    },
+    "mail_guard_panel_technical": {
+        "message": "Statische controles · $COUNT$"
+    },
+    "mail_guard_panel_trust": {
+        "message": "Deze afzender vertrouwen"
+    },
+    "mail_guard_panel_why_risky": {
+        "message": "Waarom deze e-mail riskant kan zijn · Phi AI"
+    },
+    "mail_guard_part_body": {
+        "message": "berichttekst"
+    },
+    "mail_guard_part_sender": {
+        "message": "afzender"
+    },
+    "mail_guard_part_subject": {
+        "message": "onderwerp"
+    },
+    "mail_guard_settings_about": {
+        "message": "Over E-mailbescherming en privacy"
+    },
+    "mail_guard_settings_enabled": {
+        "message": "Geopende e-mail controleren"
+    },
+    "mail_guard_settings_enabled_hint": {
+        "message": "Als dit uit staat, blijft er een grijs schild naast het onderwerp staan; klik erop om het controleren weer aan te zetten."
+    },
+    "mail_guard_settings_highlight": {
+        "message": "Verdachte links omlijnen"
+    },
+    "mail_guard_settings_highlight_hint": {
+        "message": "Zet een rode rand om links in het bericht waar een bevinding naar wijst."
+    },
+    "mail_guard_settings_low_badge": {
+        "message": "Badge ook weergeven bij laag risico"
+    },
+    "mail_guard_settings_low_badge_hint": {
+        "message": "Als dit uit staat, verschijnt de badge alleen bij e-mail die aandacht nodig heeft."
+    },
+    "mail_guard_settings_remove": {
+        "message": "$ENTRY$ verwijderen"
+    },
+    "mail_guard_settings_title": {
+        "message": "Instellingen voor E-mailbescherming"
+    },
+    "mail_guard_settings_trusted": {
+        "message": "Vertrouwde afzenders"
+    },
+    "mail_guard_settings_trusted_empty": {
+        "message": "Nog geen vertrouwde afzenders."
+    },
+    "mail_guard_threat_extortion": {
+        "message": "Afpersing"
+    },
+    "mail_guard_threat_extortion_line": {
+        "message": "Lijkt je met dreigementen te willen laten betalen."
+    },
+    "mail_guard_threat_gift_card": {
+        "message": "Cadeaubonfraude"
+    },
+    "mail_guard_threat_gift_card_line": {
+        "message": "Lijkt je te vragen cadeaubonnen te kopen en de codes door te sturen."
+    },
+    "mail_guard_threat_impersonation": {
+        "message": "Imitatie"
+    },
+    "mail_guard_threat_impersonation_line": {
+        "message": "Doet zich mogelijk voor als iemand die je kent of vertrouwt."
+    },
+    "mail_guard_threat_malware": {
+        "message": "Malware"
+    },
+    "mail_guard_threat_malware_line": {
+        "message": "De bijlage of link kan je apparaat infecteren."
+    },
+    "mail_guard_threat_manipulation": {
+        "message": "Manipulatie"
+    },
+    "mail_guard_threat_manipulation_line": {
+        "message": "Lijkt je onder druk te zetten of iets ongewoons te vragen."
+    },
+    "mail_guard_threat_payment_fraud": {
+        "message": "Betaalfraude"
+    },
+    "mail_guard_threat_payment_fraud_line": {
+        "message": "Lijkt te willen dat er geld wordt overgemaakt of betaalgegevens worden gewijzigd."
+    },
+    "mail_guard_threat_phishing": {
+        "message": "Phishing"
+    },
+    "mail_guard_threat_phishing_line": {
+        "message": "Probeert mogelijk je wachtwoord, bankpas- of accountgegevens te achterhalen."
+    },
+    "mail_guard_unreadable_body": {
+        "message": "Phi kon niet genoeg van dit bericht lezen om het te beoordelen (ontbreekt: $PARTS$). Dat betekent niet dat het veilig is."
+    },
+    "mail_guard_verdict_title": {
+        "message": "$LEVEL$ · vermoedelijk $THREAT$"
+    },
     "main_menu_application_quit": {
         "message": "Stop Phi Sentinel"
     },

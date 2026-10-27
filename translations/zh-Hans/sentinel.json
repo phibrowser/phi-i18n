@@ -1502,6 +1502,879 @@
     "logs_tooltip_copy_logs_to_clipboard": {
         "message": "复制日志到剪贴板"
     },
+    "mail_guard_about_how": {
+        "message": "打开邮件时，Phi 先在你的浏览器里做一次纯本地的特征检查，查看发件人身份验证、链接、附件文件名等，然后再由 Phi AI 判断这封邮件是否可疑。"
+    },
+    "mail_guard_about_how_title": {
+        "message": "如何检查邮件"
+    },
+    "mail_guard_about_local": {
+        "message": "设置和你信任的发件人只保存在这台设备上。"
+    },
+    "mail_guard_about_local_title": {
+        "message": "保存在本机"
+    },
+    "mail_guard_about_off": {
+        "message": "「$SWITCH$」关闭后，主题旁会保留一个灰色盾牌。如果想完全关闭、不显示任何标志，请在 Phi 设置中关闭电子邮件保护。"
+    },
+    "mail_guard_about_off_title": {
+        "message": "完全关闭"
+    },
+    "mail_guard_about_open_settings": {
+        "message": "打开 Phi 设置"
+    },
+    "mail_guard_about_privacy_policy": {
+        "message": "隐私政策"
+    },
+    "mail_guard_about_promise": {
+        "message": "Phi 不会出售你的数据，不会把它用于广告，也不会用它训练 AI 模型。"
+    },
+    "mail_guard_about_sent_every": {
+        "message": "每封你打开的邮件：主题和部分正文，以及发件人和链接的域名、附件的扩展名。其中的邮件地址只保留域名。"
+    },
+    "mail_guard_about_sent_never": {
+        "message": "不会发送：收件人、同一会话里的其他邮件和附件内容。附件不会被打开或下载。"
+    },
+    "mail_guard_about_sent_review": {
+        "message": "需要进一步检查时：完整正文、发件人名称和地址、链接和附件文件名。"
+    },
+    "mail_guard_about_sent_title": {
+        "message": "会发送哪些内容"
+    },
+    "mail_guard_about_title": {
+        "message": "关于电子邮件保护"
+    },
+    "mail_guard_about_to": {
+        "message": "这些内容会发送给 Phi Cloud，再由它转给上游的 AI 模型服务商，只用于这次检查。你也可以在 Phi 设置的 私有 AI 中改用自己的模型服务。"
+    },
+    "mail_guard_about_to_title": {
+        "message": "发送给谁"
+    },
+    "mail_guard_ai_pending": {
+        "message": "正在由 Phi AI 检查…"
+    },
+    "mail_guard_ai_skipped": {
+        "message": "你信任这个发件人，所以没有请 Phi AI 检查。"
+    },
+    "mail_guard_ai_unavailable": {
+        "message": "Phi AI 无法检查这封邮件，这里显示的只是静态检查的结果。"
+    },
+    "mail_guard_attachment_archive_description_a": {
+        "message": "这封邮件带有 $FILES$，而且据 Phi AI 判断，邮件似乎在催你打开附件。压缩包会让邮件扫描系统无法检查里面的内容，有害文件往往藏在其中。"
+    },
+    "mail_guard_attachment_archive_description_b": {
+        "message": "这封邮件带有 $FILES$。压缩包很常见，通常无害，但不打开就看不到里面的内容。"
+    },
+    "mail_guard_attachment_archive_title_a": {
+        "message": "邮件催你打开附带的压缩包"
+    },
+    "mail_guard_attachment_archive_title_b": {
+        "message": "邮件带有压缩包附件"
+    },
+    "mail_guard_attachment_disk_image_description": {
+        "message": "这封邮件带有 $FILES$。磁盘映像会像一块磁盘一样被挂载，其中的内容不会继承操作系统的「从互联网下载」警告，所以常被用来传播可执行程序。"
+    },
+    "mail_guard_attachment_disk_image_title": {
+        "message": "附件是磁盘映像"
+    },
+    "mail_guard_attachment_double_extension_description": {
+        "message": "「$FILENAME$」看起来是 .$VALUE$ 文件，但它实际的类型是 .$VALUE_2$。文件名中间那段看似无害的扩展名很可能是用来误导你的。"
+    },
+    "mail_guard_attachment_double_extension_title": {
+        "message": "附件文件名伪装了真实类型"
+    },
+    "mail_guard_attachment_executable_description": {
+        "message": "这封邮件带有 $FILES$。这类文件一打开就会运行程序代码，而正规的邮件往来很少通过邮件发送程序。"
+    },
+    "mail_guard_attachment_executable_title": {
+        "message": "附件是程序，而不是文档"
+    },
+    "mail_guard_attachment_executable_with_document_pretext_description": {
+        "message": "邮件把附件说成发票、物流单据或类似的日常文书，但附件一打开就会运行代码。套上文书的名义，往往是为了让文件看起来在意料之中。"
+    },
+    "mail_guard_attachment_executable_with_document_pretext_title": {
+        "message": "可执行附件伪装成日常业务文档"
+    },
+    "mail_guard_attachment_filename_direction_override_description": {
+        "message": "文件名中含有不可见的字符，会让部分文字反向显示，所以屏幕上看到的扩展名并不是真实的。它实际的类型是 .$EXTENSION$。去掉隐藏字符后，文件名是「$VALUE$」。"
+    },
+    "mail_guard_attachment_filename_direction_override_title": {
+        "message": "附件文件名含有文字方向控制字符"
+    },
+    "mail_guard_attachment_filename_hidden_characters_description": {
+        "message": "文件名中含有在屏幕上不占位置的字符，所以看起来一切正常，却与过滤器要查找的名称对不上。它实际的类型是 .$EXTENSION$。去掉隐藏字符后，文件名是「$VALUE$」。"
+    },
+    "mail_guard_attachment_filename_hidden_characters_title": {
+        "message": "附件文件名含有不可见字符"
+    },
+    "mail_guard_attachment_macro_capable_description_a": {
+        "message": "这封邮件带有 $FILES$。这种格式专门用来携带内嵌代码，启用宏后代码就会运行。"
+    },
+    "mail_guard_attachment_macro_capable_description_b": {
+        "message": "这封邮件带有 $FILES$。旧版 Office 格式可以内嵌宏，而新版格式（.docx、.xlsx）不能。"
+    },
+    "mail_guard_attachment_macro_capable_title_a": {
+        "message": "附件是启用了宏的文档"
+    },
+    "mail_guard_attachment_macro_capable_title_b": {
+        "message": "附件使用可能含有宏的旧版 Office 格式"
+    },
+    "mail_guard_attachment_none_suspicious_description_many": {
+        "message": "全部 $COUNT$ 个附件的文件类型通常都不会运行代码。请注意，本扩展程序不会打开或下载附件内容，只检查了文件名。"
+    },
+    "mail_guard_attachment_none_suspicious_description_one": {
+        "message": "该附件的文件类型通常不会运行代码。请注意，本扩展程序不会打开或下载附件内容，只检查了文件名。"
+    },
+    "mail_guard_attachment_none_suspicious_title": {
+        "message": "未发现可疑附件"
+    },
+    "mail_guard_attachment_script_container_description": {
+        "message": "这封邮件带有 $FILES$。打开后会直接显示本地文件里的网页，这种方式可用来展示逼真的登录表单，而不必把它放在可能被封禁或下架的网站上。"
+    },
+    "mail_guard_attachment_script_container_title": {
+        "message": "附件是网页，而不是文档"
+    },
+    "mail_guard_authentication_failure_description": {
+        "message": "Gmail 报告这封邮件的 $CHECKS$ 未通过。这表示发信服务器未获授权代表 $DOMAIN$ 发信，所以发件人地址可能是伪造的。"
+    },
+    "mail_guard_authentication_failure_description_no_domain": {
+        "message": "Gmail 报告这封邮件的 $CHECKS$ 未通过。这表示发信服务器未获授权代表发件人的域名发信，所以发件人地址可能是伪造的。"
+    },
+    "mail_guard_authentication_failure_title": {
+        "message": "发件人身份验证未通过"
+    },
+    "mail_guard_authentication_gmail_warning_description": {
+        "message": "Gmail 在自己的界面中标记了这封邮件。Gmail 能做本扩展程序做不到的检查，包括信誉数据和账号历史，所以它的警告是一个独立的佐证。"
+    },
+    "mail_guard_authentication_gmail_warning_title": {
+        "message": "Gmail 对这封邮件显示了自己的警告横幅"
+    },
+    "mail_guard_authentication_partial_failure_description": {
+        "message": "Gmail 报告 $CHECKS$ 未通过，但 DMARC 已通过。DMARC 通过表明邮件可能仍与 $DOMAIN$ 相关联；同时只有一项验证未通过，通常是因为投递途中经过了转发服务或邮件列表。"
+    },
+    "mail_guard_authentication_partial_failure_description_no_domain": {
+        "message": "Gmail 报告 $CHECKS$ 未通过，但 DMARC 已通过。DMARC 通过表明邮件可能仍与发件人的域名相关联；同时只有一项验证未通过，通常是因为投递途中经过了转发服务或邮件列表。"
+    },
+    "mail_guard_authentication_partial_failure_title": {
+        "message": "有一项验证未通过，但 DMARC 已通过"
+    },
+    "mail_guard_authentication_passed_description": {
+        "message": "$DOMAIN$ 的 $CHECKS$ 验证已通过。这表明邮件应当确实由该域名发出，但并不能说明这个域名属于它所自称的那一方。"
+    },
+    "mail_guard_authentication_passed_description_no_domain": {
+        "message": "发信域名的 $CHECKS$ 验证已通过。这表明邮件应当确实由该域名发出，但并不能说明这个域名属于它所自称的那一方。"
+    },
+    "mail_guard_authentication_passed_title": {
+        "message": "发件人身份验证已通过（$VALUE$）"
+    },
+    "mail_guard_authentication_signing_domain_mismatch_description": {
+        "message": "这封邮件由 $SIGNER$ 进行加密签名，而不是 $SENDER$。邮件服务商和营销平台确实会代客户签名，所以仅凭这一点还不能下结论。"
+    },
+    "mail_guard_authentication_signing_domain_mismatch_description_brand": {
+        "message": "这封邮件由 $SIGNER$ 进行加密签名，而不是 $SENDER$。邮件服务商和营销平台确实会代客户签名，所以仅凭这一点还不能下结论；但自称 $BRAND$ 的邮件，通常应由该机构自己签名。"
+    },
+    "mail_guard_authentication_signing_domain_mismatch_title": {
+        "message": "邮件由与发件人无关的域名签名"
+    },
+    "mail_guard_authentication_unverified_sender_description": {
+        "message": "Gmail 显示这封邮件来自未验证的发件人，这表示它无法确认 $DOMAIN$ 是否授权了这封邮件。"
+    },
+    "mail_guard_authentication_unverified_sender_description_no_domain": {
+        "message": "Gmail 显示这封邮件来自未验证的发件人，这表示它无法确认发信域名是否授权了这封邮件。"
+    },
+    "mail_guard_authentication_unverified_sender_title": {
+        "message": "Gmail 无法确认发件人的真实身份"
+    },
+    "mail_guard_authentication_via_unrelated_host_description_a": {
+        "message": "Gmail 显示这封邮件是通过 $VIA_REGISTRABLE$ 发送的，而不是直接来自 $SENDER_REGISTRABLE$。邮件自称是 $LABEL$，但并没有记录显示它会通过 $VIA_REGISTRABLE$ 发信。"
+    },
+    "mail_guard_authentication_via_unrelated_host_description_b": {
+        "message": "Gmail 显示这封邮件是通过 $VIA_REGISTRABLE$ 发送的，而不是直接来自 $SENDER_REGISTRABLE$。经第三方服务（通知平台、客服系统、邮件列表）发送的邮件通常都是这样显示的，这里仅供参考，不影响风险评分。"
+    },
+    "mail_guard_authentication_via_unrelated_host_description_c": {
+        "message": "Gmail 显示这封邮件是通过 $VIA_REGISTRABLE$ 发送的，这是你所在组织自己的域名：邮件经由群组或共享邮箱转发，所以发件地址是该群组的，而不是原始发件人的。这里仅供参考，不影响风险等级。"
+    },
+    "mail_guard_authentication_via_unrelated_host_title_a": {
+        "message": "邮件经由发件人通常不会使用的服务转发"
+    },
+    "mail_guard_authentication_via_unrelated_host_title_b": {
+        "message": "邮件经过其他服务转发"
+    },
+    "mail_guard_authentication_via_unrelated_host_title_c": {
+        "message": "邮件由你所在的组织转发"
+    },
+    "mail_guard_badge_checking": {
+        "message": "正在进一步检查"
+    },
+    "mail_guard_badge_label": {
+        "message": "电子邮件保护：$LEVEL$。查看详情"
+    },
+    "mail_guard_badge_off": {
+        "message": "电子邮件保护已关闭。点击打开设置"
+    },
+    "mail_guard_banner_dismiss": {
+        "message": "忽略"
+    },
+    "mail_guard_banner_see_details": {
+        "message": "查看详情"
+    },
+    "mail_guard_banner_see_why": {
+        "message": "查看原因"
+    },
+    "mail_guard_checked_latest": {
+        "message": "已检查最新一封邮件，发件人：$SENDER$。"
+    },
+    "mail_guard_evidence_reply_to": {
+        "message": "发件人 $FROM$ → 回复至 $REPLY_TO$"
+    },
+    "mail_guard_evidence_shown_actual": {
+        "message": "显示：$SHOWN$ → 实际：$ACTUAL$"
+    },
+    "mail_guard_evidence_shown_via": {
+        "message": "显示：$SHOWN$ → 经由：$VIA$"
+    },
+    "mail_guard_evidence_signed_by": {
+        "message": "发件人 $FROM$ · 签名方 $SIGNER$"
+    },
+    "mail_guard_identity_alert_named_shared_item_description": {
+        "message": "主题「$VALUE$」分享了一个名称写得像账号警报的项目（「$VALUE_2$」）。银行和服务商很少把安全警报当作共享文件发送；把文件取成这样的名字，可以让共享服务带着真实的链接、从真实的地址发出一条假警报。"
+    },
+    "mail_guard_identity_alert_named_shared_item_title": {
+        "message": "共享文件被命名成账号安全警报"
+    },
+    "mail_guard_identity_brand_domain_in_subdomain_description": {
+        "message": "这个地址乍一看像是 $LABEL$，但「$DOMAIN$」只出现在子域名中。真正掌控这封邮件的域名是 $SENDER_REGISTRABLE$。"
+    },
+    "mail_guard_identity_brand_domain_in_subdomain_title": {
+        "message": "发件人域名把 $LABEL$ 的域名嵌在子域名里"
+    },
+    "mail_guard_identity_brand_named_in_legal_notice_description": {
+        "message": "发件人自称是涉及 $LABEL$ 的法律事务的管理方，却从 $SENDER_REGISTRABLE$ 发信，而我们没有这个域名属于 $LABEL$ 的记录。真正的集体诉讼与和解通知确实会由索赔管理机构以这种方式发送，假的和解通知也在模仿这种做法。在填写信息或提交索赔之前，请通过法院或新闻报道找到和解事项的官方网站，不要使用这封邮件里的链接。"
+    },
+    "mail_guard_identity_brand_named_in_legal_notice_title": {
+        "message": "发件人名称提到 $LABEL$，但邮件似乎并非来自 $LABEL$"
+    },
+    "mail_guard_identity_display_name_impersonation_description_a": {
+        "message": "发件人自称 $LABEL$，但邮件是从 $SENDER_REGISTRABLE$ 的个人邮箱发出的。我们没有 $LABEL$ 使用免费邮箱发送业务邮件的记录。"
+    },
+    "mail_guard_identity_display_name_impersonation_description_b": {
+        "message": "发件人自称 $LABEL$，但我们没有 $SENDER_REGISTRABLE$ 属于 $LABEL$ 的记录。"
+    },
+    "mail_guard_identity_display_name_impersonation_title": {
+        "message": "发件人名称声称是 $LABEL$，但域名似乎与之无关"
+    },
+    "mail_guard_identity_disposable_sender_domain_description": {
+        "message": "$SENDER_REGISTRABLE$ 提供临时的一次性邮箱。正规的邮件往来很少来自这类邮箱。"
+    },
+    "mail_guard_identity_disposable_sender_domain_title": {
+        "message": "发件人使用一次性邮箱服务"
+    },
+    "mail_guard_identity_external_executive_claim_description": {
+        "message": "邮件自称来自公司高管，但它是从 $SENDER_REGISTRABLE$ 发出的，而不是 $RECIPIENT_DOMAIN$。用个人邮箱冒充高管，是发票诈骗和礼品卡诈骗中常见的开场手法。"
+    },
+    "mail_guard_identity_external_executive_claim_title": {
+        "message": "自称公司高管，却来自外部的个人账号"
+    },
+    "mail_guard_identity_external_financial_request_description": {
+        "message": "邮件要求转账或更改收款信息，而且是从 $SENDER$ 的个人邮箱发出的，而不是来自 $RECIPIENT$。这类请求是常见的商务邮件欺诈手法：措辞之所以可能显得可信，是因为发信的账号确实存在，尽管它可能并不属于这个组织。"
+    },
+    "mail_guard_identity_external_financial_request_description_no_recipient": {
+        "message": "邮件要求转账或更改收款信息，而且是从 $SENDER$ 的个人邮箱发出的，而不是来自收件人所在的组织。这类请求是常见的商务邮件欺诈手法：措辞之所以可能显得可信，是因为发信的账号确实存在，尽管它可能并不属于这个组织。"
+    },
+    "mail_guard_identity_external_financial_request_title": {
+        "message": "来自外部个人邮箱的付款请求"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand": {
+        "message": "发件人自称是 $BRAND$，却使用该机构似乎并不掌控的域名发信，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand_domain_in_subdomain": {
+        "message": "发件人把某个真实机构的名称藏进了一个似乎不属于该机构的域名里，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand_named_in_legal_notice": {
+        "message": "发件人提到某个机构，却并非从该机构的域名发信，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_display_name_impersonation": {
+        "message": "发件人自称是某个机构，却并非从该机构的域名发信，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_of_recipient_domain": {
+        "message": "发件人使用的域名仿冒收件人自己的域名，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_sender_domain": {
+        "message": "发件人使用的域名仿冒某个真实域名，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_other": {
+        "message": "发件人可能并不是它看起来的那一方，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_own_domain_in_sender_name": {
+        "message": "发件人把收件人所在组织的域名当作自己的名称，却从该组织之外发信，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_sender_punycode_domain": {
+        "message": "发件人使用的非拉丁文字域名被拼写得像某个熟悉的域名，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_unsupported_org_claim": {
+        "message": "发件人自称是某个机构，却并非从该机构的域名发信，同时邮件要求收件人登录、确认账号信息或提供验证码。这两点合在一起，是企图窃取登录凭据的常见迹象。"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_title_a": {
+        "message": "发件人似乎冒充 $BRAND$，并索要登录凭据"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_title_b": {
+        "message": "发件人可能并不是它看起来的那一方，且邮件索要登录凭据"
+    },
+    "mail_guard_identity_implausible_local_part_description": {
+        "message": "地址中 @ 之前的部分把同一个片段重复了 $REPEATS$ 次。正常的邮箱很少这样命名，这是批量群发时常用来填充、变换发件地址的做法。"
+    },
+    "mail_guard_identity_implausible_local_part_title": {
+        "message": "发件地址把同一个片段重复了多次"
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_description_a": {
+        "message": "邮件来自 $SENDER_REGISTRABLE$，它和你自己的域名 $RECIPIENT_DOMAIN$ 看上去几乎一模一样，但其实是另一个域名，很可能由他人掌控。看似来自内部的邮件更容易被信任。"
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_description_b": {
+        "message": "邮件来自 $SENDER_REGISTRABLE$，与你自己的域名 $RECIPIENT_DOMAIN$ 只有细微差别。它似乎不属于你的组织。"
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_title": {
+        "message": "发件人域名似乎在仿冒你所在组织的域名"
+    },
+    "mail_guard_identity_lookalike_sender_domain_description": {
+        "message": "邮件来自 $SENDER$，它仿冒正规域名 $TARGET$，几乎一模一样，似乎并不属于 $BRAND$。"
+    },
+    "mail_guard_identity_lookalike_sender_domain_description_confusable": {
+        "message": "邮件来自 $SENDER$，它用外观相似的字符仿冒正规域名 $TARGET$，几乎一模一样，似乎并不属于 $BRAND$。"
+    },
+    "mail_guard_identity_lookalike_sender_domain_title": {
+        "message": "发件人域名似乎在仿冒 $BRAND_LABEL$"
+    },
+    "mail_guard_identity_malformed_sender_domain_description": {
+        "message": "发件人的域名「$DOMAIN$」不是有效的公共主机名。"
+    },
+    "mail_guard_identity_malformed_sender_domain_title": {
+        "message": "发件人域名格式不正确"
+    },
+    "mail_guard_identity_nonexistent_sender_tld_description": {
+        "message": "邮件自称来自 $DOMAIN$，但「.$TLD$」从未分配给任何人。它下面无法注册任何域名，也无法被解析，所以这个地址收不到回复，也无法说明发件人是谁。这样的发件地址很可能是编造出来的，而不是写错了。"
+    },
+    "mail_guard_identity_nonexistent_sender_tld_title": {
+        "message": "发件人域名以「.$TLD$」结尾，这不是真实的顶级域名"
+    },
+    "mail_guard_identity_private_use_sender_tld_description": {
+        "message": "「.$TLD$」是为私有网络保留的，特意不在公共互联网上注册，所以无法验证 $DOMAIN$，对它的回复也不会送达。这通常是内部系统用本地主机名而不是真实域名在发信，但这也意味着关于这个发件人的一切都无法核实。"
+    },
+    "mail_guard_identity_private_use_sender_tld_title": {
+        "message": "发件人域名以「.$TLD$」结尾，不是公共域名"
+    },
+    "mail_guard_identity_randomised_address_case_description": {
+        "message": "地址在单词内部交替使用大小写（$VALUE$）。邮件系统不区分地址的大小写，所以这对投递没有任何影响；这样做通常是为了让每次发送的地址都不一样，以躲过按原文匹配的过滤器。"
+    },
+    "mail_guard_identity_randomised_address_case_title": {
+        "message": "发件地址使用了随机的大小写"
+    },
+    "mail_guard_identity_reply_to_mismatch_description_a": {
+        "message": "邮件看起来来自 $SENDER_REGISTRABLE$，但回复会发往 $REPLY_TO_REGISTRABLE$ 的一个个人邮箱。这是商务邮件欺诈中常见的做法。"
+    },
+    "mail_guard_identity_reply_to_mismatch_description_b": {
+        "message": "发件地址（From）属于 $SENDER_REGISTRABLE$，但回复地址（Reply-To）属于 $REPLY_TO_REGISTRABLE$，所以回复不会发给表面上的发件人。"
+    },
+    "mail_guard_identity_reply_to_mismatch_title": {
+        "message": "回复会发往与发件人不同的域名"
+    },
+    "mail_guard_identity_sender_deep_subdomain_description": {
+        "message": "发件人的主机名在 $REGISTRABLE$ 之下有 $LENGTH$ 级子域名。层层嵌套可能是为了把一个眼熟的词推到地址中显眼的位置。"
+    },
+    "mail_guard_identity_sender_deep_subdomain_title": {
+        "message": "发件人域名的子域名层级异常多"
+    },
+    "mail_guard_identity_sender_invisible_characters_description": {
+        "message": "发件人名称或地址中含有零宽字符或文字方向控制字符。它们在显示时是看不见的，可能被用来掩盖地址的真实样子。"
+    },
+    "mail_guard_identity_sender_invisible_characters_title": {
+        "message": "发件人名称含有隐藏或改变方向的字符"
+    },
+    "mail_guard_identity_sender_ip_domain_description": {
+        "message": "发件地址直接指向主机 $DOMAIN$。正规机构几乎总是用有名称的域名发信，而不是单纯的 IP 地址。"
+    },
+    "mail_guard_identity_sender_ip_domain_title": {
+        "message": "发件地址使用 IP 地址而不是域名"
+    },
+    "mail_guard_identity_sender_punycode_domain_description": {
+        "message": "发件人的域名 $DOMAIN$ 显示为「$RENDERED$」。国际化域名本身是正当的，但它们也是仿冒熟悉名称的常见手段。"
+    },
+    "mail_guard_identity_sender_punycode_domain_description_mixed": {
+        "message": "发件人的域名显示为「$RENDERED$」，实际是 $DOMAIN$。它混用了多种文字的字符（$SCRIPTS$），这正是让一个域名看起来像熟悉的域名、实际却完全不同的手法。"
+    },
+    "mail_guard_identity_sender_punycode_domain_title": {
+        "message": "发件人域名使用了国际化（punycode）名称"
+    },
+    "mail_guard_identity_styled_display_name_description": {
+        "message": "名称「$SENDER_NAME$」不是用普通字母写成的，而是使用了 Unicode 数学字母，看起来像粗体或斜体，实际上是不同的字符。所以你看到的名字很正常，但按名单核对它的系统却匹配不上。除了躲避检查，很少有人会这样署名。"
+    },
+    "mail_guard_identity_styled_display_name_title": {
+        "message": "发件人名称用装饰性字符代替了普通字母"
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_confusable": {
+        "message": "这个会话中之前的邮件来自 $EARLIER$。这封邮件来自 $SENDER$，它用外观完全相同的字符写成，但其实是另一个域名，很可能由他人掌控。如果你回复它，或按其中的任何指示操作，信息可能会被交给错误的一方。"
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_many": {
+        "message": "这个会话中之前的邮件来自 $EARLIER$。这封邮件来自 $SENDER$，相差 $COUNT$ 个字符，是另一个域名。回复之前，请先对照会话中较早的邮件核实发件人。"
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_one": {
+        "message": "这个会话中之前的邮件来自 $EARLIER$。这封邮件来自 $SENDER$，只差一个字符，是另一个域名。回复之前，请先对照会话中较早的邮件核实发件人。"
+    },
+    "mail_guard_identity_thread_lookalike_participant_title": {
+        "message": "发件人域名似乎在仿冒本次会话中的另一位参与者"
+    },
+    "mail_guard_identity_thread_participant_name_reuse_description": {
+        "message": "「$SENDER_NAME$」已在本次会话中以 $EMAIL$ 的身份出现过，但这封邮件是从 $SENDER_EMAIL$ 发出的，两者不属于同一个域名。邮件客户端只显示名称而不显示地址，所以保留名称、换了邮箱的回复，看起来就像来自同一个人。"
+    },
+    "mail_guard_identity_thread_participant_name_reuse_title": {
+        "message": "发件人使用了某位参与者的名称，但地址不同"
+    },
+    "mail_guard_identity_unparseable_sender_description": {
+        "message": "发件地址「$SENDER_EMAIL$」不是格式正确的电子邮件地址。"
+    },
+    "mail_guard_identity_unparseable_sender_title": {
+        "message": "无法解析发件地址"
+    },
+    "mail_guard_identity_unsupported_org_claim_description_a": {
+        "message": "邮件自称「$SENDER_NAME$」，但它是从 $SENDER_REGISTRABLE$ 的个人邮箱发出的。银行、保险公司和支付机构很少用免费邮箱发信。"
+    },
+    "mail_guard_identity_unsupported_org_claim_description_b": {
+        "message": "邮件自称「$SENDER_NAME$」，但它是从 $SENDER_REGISTRABLE$ 发出的，两者的名称毫无关联。正规机构通常会使用一眼能认出是自己的域名发信。"
+    },
+    "mail_guard_identity_unsupported_org_claim_title_a": {
+        "message": "发件人自称金融机构，却使用个人邮箱发信"
+    },
+    "mail_guard_identity_unsupported_org_claim_title_b": {
+        "message": "发件人名称所称的机构与发信域名无关"
+    },
+    "mail_guard_identity_unverified_brand_domain_description": {
+        "message": "邮件来自 $SENDER_REGISTRABLE$，其中带有 $LABEL$ 的名称，但我们没有 $LABEL$ 使用这个域名后缀的记录。大型机构会在各个市场使用同一个名称，所以它也可能是真的；但带有品牌名称的域名同样可能被别人注册。在按邮件内容操作之前，请先对照 $LABEL$ 平时发信所用的地址。"
+    },
+    "mail_guard_identity_unverified_brand_domain_title": {
+        "message": "无法确认 $SENDER_REGISTRABLE$ 属于 $LABEL$"
+    },
+    "mail_guard_level_caution": {
+        "message": "需留意"
+    },
+    "mail_guard_level_caution_line": {
+        "message": "操作前值得再看一眼。"
+    },
+    "mail_guard_level_checking": {
+        "message": "检查中"
+    },
+    "mail_guard_level_high_risk": {
+        "message": "高风险"
+    },
+    "mail_guard_level_high_risk_line": {
+        "message": "警示信号强烈，我们建议不要使用其中的链接或附件。"
+    },
+    "mail_guard_level_low": {
+        "message": "低风险"
+    },
+    "mail_guard_level_low_line": {
+        "message": "我们认为风险较低。"
+    },
+    "mail_guard_level_maybe_caution": {
+        "message": "可能有风险"
+    },
+    "mail_guard_level_maybe_suspicious": {
+        "message": "可能可疑"
+    },
+    "mail_guard_level_not_checked": {
+        "message": "未检查"
+    },
+    "mail_guard_level_suspicious": {
+        "message": "可疑"
+    },
+    "mail_guard_level_suspicious_line": {
+        "message": "有多个警示信号，请谨慎对待。"
+    },
+    "mail_guard_line_confirmed": {
+        "message": "Phi AI 高度怀疑这是诈骗邮件。请不要使用其中的链接或附件。"
+    },
+    "mail_guard_line_confirmed_dangerous": {
+        "message": "Phi AI 高度怀疑这是危险邮件。请不要使用其中的链接或附件。"
+    },
+    "mail_guard_line_ordinary": {
+        "message": "Phi AI 认为风险较低，但下方静态检查的发现仍值得留意。"
+    },
+    "mail_guard_line_ordinary_clear": {
+        "message": "Phi AI 认为风险较低。"
+    },
+    "mail_guard_line_review_failed": {
+        "message": "Phi AI 未能完成进一步检查，这是快速检查的结果。"
+    },
+    "mail_guard_line_reviewing": {
+        "message": "Phi AI 正在通读整封邮件…"
+    },
+    "mail_guard_line_unconfirmed": {
+        "message": "Phi AI 无法排除其中存在风险，请谨慎对待。"
+    },
+    "mail_guard_link_anchor_brand_mismatch_description": {
+        "message": "链接文字提到 $LABEL$，但链接实际指向 $HOSTNAME$，而我们没有该域名属于 $LABEL$ 的记录。"
+    },
+    "mail_guard_link_anchor_brand_mismatch_title": {
+        "message": "标注为 $LABEL$ 的链接似乎指向无关的域名"
+    },
+    "mail_guard_link_credential_link_open_hosting_description": {
+        "message": "链接指向的登录或验证页面位于 $VALUE$。任何人都能在几秒内在那里发布页面，所以这个地址无法说明页面背后究竟是谁。"
+    },
+    "mail_guard_link_credential_link_open_hosting_title": {
+        "message": "登录链接托管在免费托管服务上"
+    },
+    "mail_guard_link_credential_link_unrelated_domain_description": {
+        "message": "邮件自称来自 $LABEL$，链接指向登录或验证页面，但该页面托管在 $REGISTRABLE$ 上。在那里输入的登录凭据会落入控制该域名的人手中。"
+    },
+    "mail_guard_link_credential_link_unrelated_domain_title": {
+        "message": "$LABEL$ 的登录链接指向一个无法确认属于 $LABEL$ 的域名"
+    },
+    "mail_guard_link_dangerous_scheme_description": {
+        "message": "有一个链接使用「$SCHEME$」，而不是 http 或 https。这类协议会运行代码或打开本地资源，而不是加载网页，邮件链接很少有正当理由使用它们。"
+    },
+    "mail_guard_link_dangerous_scheme_title": {
+        "message": "链接使用 $SCHEME$ 协议"
+    },
+    "mail_guard_link_displayed_url_mismatch_description": {
+        "message": "链接显示为「$DISPLAYED_HOST$」，它属于 $LABEL$，但点击后会先跳转到 $HOSTNAME$，而我们没有该域名属于 $LABEL$ 的记录。最终会落到哪里，由控制 $HOSTNAME$ 的人决定。"
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_description_a": {
+        "message": "链接显示为「$DISPLAYED_HOST$」，但实际指向 $HOSTNAME$。两者都在一个对每位注册者逐一审核的域名体系下，所以这是同一家机构的不同名称，而不是陌生人的；不过显示的地址仍然不是点击后真正去往的地方。"
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_description_b": {
+        "message": "链接显示为「$DISPLAYED_HOST$」，但实际指向 $HOSTNAME$，这是一个看不到最终目的地的链接服务。群发邮件通常都这样发送；输入任何信息之前，请先确认它最终打开的是什么页面。"
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_title_a": {
+        "message": "显示的政府网站地址实际指向另一个政府网站地址"
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_title_b": {
+        "message": "显示的地址要经过链接服务跳转"
+    },
+    "mail_guard_link_displayed_url_mismatch_s3_description": {
+        "message": "链接显示为「$DISPLAYED_HOST$」，它属于 $LABEL$，但点击后会跳转到 $HOSTNAME$，这是发件人自己的域名，最终去向由它决定。"
+    },
+    "mail_guard_link_displayed_url_mismatch_s3_title": {
+        "message": "显示的地址要经过发件人自己的链接服务跳转"
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_description": {
+        "message": "链接显示为「$DISPLAYED$」，但点击后会前往 $DESTINATION$。"
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_description_brand": {
+        "message": "链接显示为「$DISPLAYED$」，但点击后会前往 $DESTINATION$。显示的地址属于 $BRAND$；我们没有 $HOST$ 属于 $BRAND$ 的记录。"
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_title": {
+        "message": "显示的链接地址与实际目的地不一致"
+    },
+    "mail_guard_link_displayed_url_mismatch_title": {
+        "message": "显示的链接地址要经由另一个域名才能到达"
+    },
+    "mail_guard_link_echoed_form_link_description": {
+        "message": "这看起来是网页表单的自动确认邮件，表单把你的地址记为填写人。其「$LABEL$」栏中提交的文字链接到 $HOSTNAME$，而它不是 $SENDER_REGISTRABLE$。垃圾邮件发送者会把别人的地址填进公司的联系表单，让公司自己的邮件服务器把他们的链接发出来：发件人是真的，但这些话很可能不是他们写的。如果你没有填写过这个表单，其中的内容很可能并非来自这家公司。"
+    },
+    "mail_guard_link_echoed_form_link_title": {
+        "message": "表单确认邮件重复了以你的地址提交的链接"
+    },
+    "mail_guard_link_excessive_subdomains_description": {
+        "message": "链接的主机在 $REGISTRABLE$ 之下有 $SUBDOMAIN_LABEL_COUNT$ 级子域名。冗长的层级可能是为了用让人放心的词汇填满地址中显眼的部分，而真正掌控它的域名则藏在不显眼的位置。"
+    },
+    "mail_guard_link_excessive_subdomains_title": {
+        "message": "链接主机的子域名层级异常多"
+    },
+    "mail_guard_link_fake_attachment_description": {
+        "message": "链接文字是「$VALUE$」，看起来像附件，但它打开的是 $HOSTNAME$，既不是那个文件，也不是发件人自己的网站。真正的附件在邮件里，而不是在别人的网页上。"
+    },
+    "mail_guard_link_fake_attachment_title": {
+        "message": "链接标注成附件，实际却打开别处的网页"
+    },
+    "mail_guard_link_filename_lookalike_tld_description": {
+        "message": "链接指向 $HOSTNAME$。由于「.$TLD$」也是常见的文件扩展名，这样的文字常被误认为附件名，而不是网址。"
+    },
+    "mail_guard_link_filename_lookalike_tld_title": {
+        "message": "链接使用 .$TLD$ 顶级域名，看起来像文件名"
+    },
+    "mail_guard_link_ftp_link_description": {
+        "message": "有一个链接使用「ftp:」，而不是 http 或 https。浏览器已不再自行打开 FTP，点击后会把文件下载交给其他程序，不受浏览器的保护。它不能运行代码，也不能显示登录页面，但下载的任何内容都应像附件一样谨慎对待。"
+    },
+    "mail_guard_link_ftp_link_title": {
+        "message": "链接使用 ftp: 协议"
+    },
+    "mail_guard_link_insecure_description_a": {
+        "message": "指向 $HOSTNAME$ 的链接看起来是登录页面，却使用未加密的 HTTP。正规服务极少通过未加密的连接接收登录凭据。"
+    },
+    "mail_guard_link_insecure_description_b": {
+        "message": "指向 $HOSTNAME$ 的链接使用的是未加密的 HTTP，而不是 HTTPS。"
+    },
+    "mail_guard_link_insecure_title_a": {
+        "message": "登录链接使用未加密的 HTTP"
+    },
+    "mail_guard_link_insecure_title_b": {
+        "message": "链接使用未加密的 HTTP"
+    },
+    "mail_guard_link_ip_address_url_description_many": {
+        "message": "有 $COUNT$ 个链接直接指向地址 $HOST$，而不是域名。正规服务通常会使用主机名；直接使用 IP 地址，往往是为了避免注册一个可能被取缔的域名。"
+    },
+    "mail_guard_link_ip_address_url_description_one": {
+        "message": "有一个链接直接指向地址 $HOST$，而不是域名。正规服务通常会使用主机名；直接使用 IP 地址，往往是为了避免注册一个可能被取缔的域名。"
+    },
+    "mail_guard_link_ip_address_url_title": {
+        "message": "链接直接指向 IP 地址"
+    },
+    "mail_guard_link_ip_named_host_description_many": {
+        "message": "有 $COUNT$ 个链接指向 $HOST$，这是托管服务商给租用服务器起的名称，而不是有人专门注册的域名。它其实就是在 IP 地址前面加了个域名。"
+    },
+    "mail_guard_link_ip_named_host_description_one": {
+        "message": "有一个链接指向 $HOST$，这是托管服务商给租用服务器起的名称，而不是有人专门注册的域名。它其实就是在 IP 地址前面加了个域名。"
+    },
+    "mail_guard_link_ip_named_host_title": {
+        "message": "链接指向以 IP 地址命名的服务器"
+    },
+    "mail_guard_link_link_only_body_description": {
+        "message": "主题要求你采取行动（「$VALUE$」），但邮件几乎没有可读文字（$CHARS$ 个字符），只链接到 $REGISTRABLE$。做成图片的通知说不出任何可以核查的内容，诱骗邮件常用这种办法来躲避检查。"
+    },
+    "mail_guard_link_link_only_body_s2_description": {
+        "message": "邮件几乎没有可读文字（$VALUE$ 个字符），却含有指向其他域名的链接。内容极少的邮件，是为了避免说出任何可以核查的信息。"
+    },
+    "mail_guard_link_link_only_body_s2_title": {
+        "message": "邮件正文几乎全是链接"
+    },
+    "mail_guard_link_link_only_body_title": {
+        "message": "邮件要求你采取行动，正文却只有一个链接"
+    },
+    "mail_guard_link_local_file_link_description": {
+        "message": "有一个链接使用不带主机的「file:」，指向的是你自己电脑磁盘上的路径，而不是互联网上的任何内容。这通常是把本地路径粘贴进了邮件，无法从别处获取任何东西。"
+    },
+    "mail_guard_link_local_file_link_title": {
+        "message": "链接指向你自己电脑上的文件"
+    },
+    "mail_guard_link_lookalike_domain_description": {
+        "message": "链接指向 $REGISTRABLE$，它仿冒 $TARGET$，几乎一模一样，似乎并非由 $BRAND_LABEL$ 运营。"
+    },
+    "mail_guard_link_lookalike_domain_title": {
+        "message": "链接目的地似乎在仿冒 $BRAND_LABEL$"
+    },
+    "mail_guard_link_malformed_url_description_many": {
+        "message": "有 $COUNT$ 个链接无法解析为有效的网址。这可能只是邮件模板出错，有时也被用来干扰链接检查。"
+    },
+    "mail_guard_link_malformed_url_description_one": {
+        "message": "有一个链接无法解析为有效的网址。这可能只是邮件模板出错，有时也被用来干扰链接检查。"
+    },
+    "mail_guard_link_malformed_url_title": {
+        "message": "邮件含有格式错误的链接"
+    },
+    "mail_guard_link_misleading_domain_description": {
+        "message": "链接乍一看像是 $LABEL$，但真正决定它去向的是地址中的 $REGISTRABLE$ 部分。它前面的所有内容，包括「$BEFORE_REGISTRABLE$」，都可以由掌控 $REGISTRABLE$ 的人随意设置。"
+    },
+    "mail_guard_link_misleading_domain_title": {
+        "message": "链接把 $LABEL$ 的名称放在了无关域名的前面"
+    },
+    "mail_guard_link_opaque_redirect_description": {
+        "message": "指向 $HOSTNAME$ 的链接带有一个跳转参数，其目的地经过编码，无法直接读出。跳转链可能被用来把恶意目的地藏在收件人认识的域名后面。"
+    },
+    "mail_guard_link_opaque_redirect_title": {
+        "message": "链接是一个隐藏了目的地的跳转链接"
+    },
+    "mail_guard_link_page_in_open_storage_description": {
+        "message": "链接指向的网页是以文件形式存放在 $HOSTING$ 上的。这个地址属于存储服务商，而不属于网页的作者：任何有账号的人都可以在那里上传文件，并通过该域名对外提供访问。正规机构通常会把页面发布在自己的网站上。"
+    },
+    "mail_guard_link_page_in_open_storage_description_asking": {
+        "message": "链接指向的网页是以文件形式存放在 $HOSTING$ 上的。这个地址属于存储服务商，而不属于网页的作者：任何有账号的人都可以在那里上传文件，并通过该域名对外提供访问。正规机构通常会把页面发布在自己的网站上，而这封邮件正要求你按这样的页面操作。"
+    },
+    "mail_guard_link_page_in_open_storage_title": {
+        "message": "链接打开的页面以文件形式存放在公共托管服务上"
+    },
+    "mail_guard_link_private_ip_url_description_many": {
+        "message": "有 $COUNT$ 个链接指向 $HOST$，这是私有网络地址。它只能在该网络内部访问，不可能通向互联网上的页面，通常用于访问内部工具和家用设备。"
+    },
+    "mail_guard_link_private_ip_url_description_one": {
+        "message": "有一个链接指向 $HOST$，这是私有网络地址。它只能在该网络内部访问，不可能通向互联网上的页面，通常用于访问内部工具和家用设备。"
+    },
+    "mail_guard_link_private_ip_url_title": {
+        "message": "链接指向私有网络中的地址"
+    },
+    "mail_guard_link_punycode_domain_description": {
+        "message": "链接的主机是 $HOST$，显示为「$RENDERED$」。国际化域名本身是正当的，但常被用来仿冒熟悉的名称。"
+    },
+    "mail_guard_link_punycode_domain_description_imitates": {
+        "message": "链接的主机是 $HOST$，显示为「$RENDERED$」，看上去与 $TARGET$ 毫无区别，但其实是完全不同的域名。"
+    },
+    "mail_guard_link_punycode_domain_description_mixed": {
+        "message": "链接的主机是 $HOST$，显示为「$RENDERED$」，混用了多种文字的字符（$SCRIPTS$）。同一个名称里混用多种文字，正是让域名冒充别的东西的手法。"
+    },
+    "mail_guard_link_punycode_domain_title": {
+        "message": "链接使用的国际化域名显示出来像熟悉的名称"
+    },
+    "mail_guard_link_redirect_chain_description": {
+        "message": "链接从 $ENTRY$ 开始，但会跳转到 $EXIT$。收件人看到的域名并不是真正提供页面的域名。"
+    },
+    "mail_guard_link_redirect_chain_title": {
+        "message": "链接先经过一个域名，再跳转到另一个域名"
+    },
+    "mail_guard_link_repeated": {
+        "message": "邮件中有 $COUNT$ 个链接存在这个情况。"
+    },
+    "mail_guard_link_url_shortener_description_many": {
+        "message": "有 $COUNT$ 个链接使用了短链接服务 $SHORTENER$，所以点击前看不到真正的目的地。"
+    },
+    "mail_guard_link_url_shortener_description_many_credential": {
+        "message": "有 $COUNT$ 个链接使用了短链接服务 $SHORTENER$，所以点击前看不到真正的目的地。邮件还要求收件人登录或验证信息，而这正是隐藏目的地最危险的时候。"
+    },
+    "mail_guard_link_url_shortener_description_one": {
+        "message": "有一个链接使用了短链接服务 $SHORTENER$，所以点击前看不到真正的目的地。"
+    },
+    "mail_guard_link_url_shortener_description_one_credential": {
+        "message": "有一个链接使用了短链接服务 $SHORTENER$，所以点击前看不到真正的目的地。邮件还要求收件人登录或验证信息，而这正是隐藏目的地最危险的时候。"
+    },
+    "mail_guard_link_url_shortener_title": {
+        "message": "链接藏在短链接服务后面"
+    },
+    "mail_guard_list_more": {
+        "message": "另外 $COUNT$ 个"
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_description": {
+        "message": "发件人名称「$SENDER_NAME$」让这封邮件看起来像是来自你所在组织 $RECIPIENT_DOMAIN$ 的内部，但它其实是从 $SENDER_REGISTRABLE$ 发出的。内部的 IT、邮件和人事通知通常会使用你所在组织自己的域名。"
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_a": {
+        "message": "发件人名称使用了你所在组织的域名"
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_b": {
+        "message": "发件人名称自称是你所在组织的某个部门"
+    },
+    "mail_guard_panel_ai_review": {
+        "message": "Phi AI 进一步检查"
+    },
+    "mail_guard_panel_also": {
+        "message": "另外：$KINDS$"
+    },
+    "mail_guard_panel_back": {
+        "message": "返回"
+    },
+    "mail_guard_panel_close": {
+        "message": "关闭"
+    },
+    "mail_guard_panel_disclaimer": {
+        "message": "Phi AI 也可能判断失误。你的个人信息、隐私和钱财的安全对我们很重要，所以在付款、登录或提供个人信息之前，请花一分钟通过其他方式再确认一下。"
+    },
+    "mail_guard_panel_label": {
+        "message": "电子邮件保护"
+    },
+    "mail_guard_panel_marketing": {
+        "message": "营销邮件"
+    },
+    "mail_guard_panel_quick_check": {
+        "message": "Phi AI 快速检查：很可能是$KIND$"
+    },
+    "mail_guard_panel_quick_check_clear": {
+        "message": "Phi AI 快速检查认为安全风险较低"
+    },
+    "mail_guard_panel_quick_check_fraud": {
+        "message": "Phi AI 快速检查：有安全风险迹象"
+    },
+    "mail_guard_panel_settings": {
+        "message": "设置"
+    },
+    "mail_guard_panel_show_less": {
+        "message": "收起"
+    },
+    "mail_guard_panel_show_more": {
+        "message": "展开"
+    },
+    "mail_guard_panel_technical": {
+        "message": "静态检查 · $COUNT$"
+    },
+    "mail_guard_panel_trust": {
+        "message": "信任此发件人"
+    },
+    "mail_guard_panel_why_risky": {
+        "message": "这封邮件为什么可能有风险 · Phi AI"
+    },
+    "mail_guard_part_body": {
+        "message": "正文"
+    },
+    "mail_guard_part_sender": {
+        "message": "发件人"
+    },
+    "mail_guard_part_subject": {
+        "message": "主题"
+    },
+    "mail_guard_settings_about": {
+        "message": "关于电子邮件保护与隐私"
+    },
+    "mail_guard_settings_enabled": {
+        "message": "检查已打开的邮件"
+    },
+    "mail_guard_settings_enabled_hint": {
+        "message": "关闭后，主题旁会保留一个灰色盾牌；点击它即可重新开启检查。"
+    },
+    "mail_guard_settings_highlight": {
+        "message": "标出可疑链接"
+    },
+    "mail_guard_settings_highlight_hint": {
+        "message": "在邮件正文里给被发现问题的链接加上红色边框。"
+    },
+    "mail_guard_settings_low_badge": {
+        "message": "低风险邮件也显示徽章"
+    },
+    "mail_guard_settings_low_badge_hint": {
+        "message": "关闭后，只有需要留意的邮件才会显示徽章。"
+    },
+    "mail_guard_settings_remove": {
+        "message": "移除 $ENTRY$"
+    },
+    "mail_guard_settings_title": {
+        "message": "电子邮件保护设置"
+    },
+    "mail_guard_settings_trusted": {
+        "message": "信任的发件人"
+    },
+    "mail_guard_settings_trusted_empty": {
+        "message": "还没有信任的发件人。"
+    },
+    "mail_guard_threat_extortion": {
+        "message": "敲诈勒索"
+    },
+    "mail_guard_threat_extortion_line": {
+        "message": "似乎在以威胁手段逼你付款。"
+    },
+    "mail_guard_threat_gift_card": {
+        "message": "礼品卡诈骗"
+    },
+    "mail_guard_threat_gift_card_line": {
+        "message": "似乎在要求你购买礼品卡并发送卡密。"
+    },
+    "mail_guard_threat_impersonation": {
+        "message": "冒充"
+    },
+    "mail_guard_threat_impersonation_line": {
+        "message": "可能在冒充你认识或信任的人。"
+    },
+    "mail_guard_threat_malware": {
+        "message": "恶意软件"
+    },
+    "mail_guard_threat_malware_line": {
+        "message": "其中的附件或链接可能会感染你的设备。"
+    },
+    "mail_guard_threat_manipulation": {
+        "message": "施压诱导"
+    },
+    "mail_guard_threat_manipulation_line": {
+        "message": "似乎在用压力或不寻常的要求催促你。"
+    },
+    "mail_guard_threat_payment_fraud": {
+        "message": "付款诈骗"
+    },
+    "mail_guard_threat_payment_fraud_line": {
+        "message": "似乎在要求你转账或更改收款信息。"
+    },
+    "mail_guard_threat_phishing": {
+        "message": "钓鱼"
+    },
+    "mail_guard_threat_phishing_line": {
+        "message": "可能企图获取你的密码、银行卡或账号信息。"
+    },
+    "mail_guard_unreadable_body": {
+        "message": "Phi 读取到的邮件内容不足以作出判断（缺少：$PARTS$）。这并不代表它是安全的。"
+    },
+    "mail_guard_verdict_title": {
+        "message": "$LEVEL$ · 疑似$THREAT$"
+    },
     "main_menu_application_quit": {
         "message": "退出 Phi Sentinel"
     },
