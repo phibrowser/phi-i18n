@@ -2318,6 +2318,1422 @@
     "prompt_preferences_restore_success": {
         "message": "Meldingen teruggezet. Ze verschijnen weer wanneer ze relevant zijn."
     },
+    "settings_advanced_backup_description": {
+        "message": "Ga terug naar een lokale snapshot van de gegevens van de achtergrondservices."
+    },
+    "settings_advanced_backup_snapshots_confirm_description": {
+        "message": "De achtergrondservices stoppen, hun gegevens gaan terug naar de stand van {{date}} en ze starten opnieuw. Wijzigingen van daarna worden vervangen. Dit kan niet ongedaan worden gemaakt."
+    },
+    "settings_advanced_backup_snapshots_confirm_title": {
+        "message": "Deze snapshot herstellen?"
+    },
+    "settings_advanced_backup_snapshots_empty": {
+        "message": "Nog geen snapshots."
+    },
+    "settings_advanced_backup_snapshots_load_failed": {
+        "message": "Kan de snapshots niet lezen."
+    },
+    "settings_advanced_backup_snapshots_loading": {
+        "message": "Snapshots laden…"
+    },
+    "settings_advanced_backup_snapshots_progress_description": {
+        "message": "De achtergrondservices stoppen terwijl hun gegevens worden vervangen. Dit kan een minuut duren. Houd dit venster open tot het klaar is."
+    },
+    "settings_advanced_backup_snapshots_progress_title": {
+        "message": "De snapshot wordt hersteld"
+    },
+    "settings_advanced_backup_snapshots_restore": {
+        "message": "Herstellen"
+    },
+    "settings_advanced_backup_snapshots_restore_label": {
+        "message": "De snapshot van {{date}} herstellen"
+    },
+    "settings_advanced_backup_snapshots_title": {
+        "message": "Lokale snapshots"
+    },
+    "settings_advanced_backup_snapshots_toast_failed": {
+        "message": "Kan de snapshot niet herstellen. De gegevens hebben mogelijk handmatig herstel nodig. Neem contact op met Phi-support."
+    },
+    "settings_advanced_backup_snapshots_toast_refused": {
+        "message": "Kan de snapshot niet herstellen"
+    },
+    "settings_advanced_backup_snapshots_toast_restored": {
+        "message": "Snapshot hersteld"
+    },
+    "settings_advanced_backup_snapshots_toast_reverted": {
+        "message": "Kan de snapshot niet herstellen. Je gegevens zijn ongewijzigd gebleven."
+    },
+    "settings_advanced_backup_snapshots_trigger_manual": {
+        "message": "Door jou gemaakt"
+    },
+    "settings_advanced_backup_snapshots_trigger_policy_version": {
+        "message": "Vóór een riskante update"
+    },
+    "settings_advanced_backup_snapshots_trigger_pre_import": {
+        "message": "Vóór een import"
+    },
+    "settings_advanced_backup_snapshots_versions": {
+        "message": "Achtergrondservices {{services}}"
+    },
+    "settings_advanced_backup_snapshots_versions_with_browser": {
+        "message": "Achtergrondservices {{services}}, Phi {{browser}}"
+    },
+    "settings_advanced_backup_title": {
+        "message": "Snapshots en updates"
+    },
+    "settings_advanced_backup_track_confirm_action": {
+        "message": "Overschakelen en updaten"
+    },
+    "settings_advanced_backup_track_confirm_stable": {
+        "message": "De componenten gaan terug naar de versies die met deze release zijn getest, en die kunnen ouder zijn. De betrokken services starten opnieuw."
+    },
+    "settings_advanced_backup_track_confirm_stable_latest": {
+        "message": "De componenten worden meteen geüpdatet naar de nieuwste stabiele releases. De betrokken services starten opnieuw."
+    },
+    "settings_advanced_backup_track_confirm_title": {
+        "message": "Overschakelen naar {{track}}?"
+    },
+    "settings_advanced_backup_track_description_stable": {
+        "message": "Installeert de componentversies die met deze release zijn getest."
+    },
+    "settings_advanced_backup_track_description_stable_latest": {
+        "message": "Installeert elke nieuwe stabiele componentrelease zodra die uitkomt."
+    },
+    "settings_advanced_backup_track_label": {
+        "message": "Updatekanaal"
+    },
+    "settings_advanced_backup_track_stable": {
+        "message": "Stabiel"
+    },
+    "settings_advanced_backup_track_stable_latest": {
+        "message": "Stabiel (nieuwste)"
+    },
+    "settings_advanced_backup_track_title": {
+        "message": "Componentupdates"
+    },
+    "settings_advanced_backup_track_toast_deferred": {
+        "message": "Overgeschakeld naar {{track}}. De componenten worden geüpdatet wanneer de services de volgende keer starten."
+    },
+    "settings_advanced_backup_track_toast_failed": {
+        "message": "Kan het updatekanaal niet wijzigen"
+    },
+    "settings_advanced_backup_track_toast_partial": {
+        "message": "Overgeschakeld naar {{track}}, maar het updaten van {{count}} component(en) is mislukt"
+    },
+    "settings_advanced_backup_track_toast_reconcile_failed": {
+        "message": "Overgeschakeld naar {{track}}, maar de componenten konden nog niet worden geüpdatet"
+    },
+    "settings_advanced_backup_track_toast_switched": {
+        "message": "Overgeschakeld naar {{track}}"
+    },
+    "settings_advanced_gateway_about": {
+        "message": "De lokale service waar elk AI-verzoek doorheen gaat."
+    },
+    "settings_advanced_gateway_address": {
+        "message": "Adres"
+    },
+    "settings_advanced_gateway_address_copied": {
+        "message": "Adres gekopieerd"
+    },
+    "settings_advanced_gateway_address_none": {
+        "message": "Beschikbaar zolang de gateway draait."
+    },
+    "settings_advanced_gateway_copy": {
+        "message": "Kopiëren"
+    },
+    "settings_advanced_gateway_copy_failed": {
+        "message": "Kopiëren mislukt"
+    },
+    "settings_advanced_gateway_export": {
+        "message": "Verbindingsexport"
+    },
+    "settings_advanced_gateway_export_copied": {
+        "message": "Verbindingsgegevens gekopieerd"
+    },
+    "settings_advanced_gateway_export_description": {
+        "message": "Wat apps op deze Mac lezen om verbinding te maken met de gateway."
+    },
+    "settings_advanced_gateway_export_empty": {
+        "message": "De gateway heeft nog geen verbindingsgegevens gepubliceerd."
+    },
+    "settings_advanced_gateway_export_failed": {
+        "message": "Kan de verbindingsgegevens niet lezen."
+    },
+    "settings_advanced_gateway_export_label": {
+        "message": "Verbindingsgegevens"
+    },
+    "settings_advanced_gateway_export_loading": {
+        "message": "Laden…"
+    },
+    "settings_advanced_gateway_failed": {
+        "message": "Mislukt"
+    },
+    "settings_advanced_gateway_logs": {
+        "message": "Logs"
+    },
+    "settings_advanced_gateway_logs_description": {
+        "message": "Verzoeken en fouten, zonder wat er is gevraagd."
+    },
+    "settings_advanced_gateway_status": {
+        "message": "Status"
+    },
+    "settings_advanced_gateway_title": {
+        "message": "AI Gateway"
+    },
+    "settings_advanced_logs_copied": {
+        "message": "Log gekopieerd"
+    },
+    "settings_advanced_logs_copy": {
+        "message": "Kopiëren"
+    },
+    "settings_advanced_logs_copy_failed": {
+        "message": "Kan de log niet kopiëren"
+    },
+    "settings_advanced_logs_description": {
+        "message": "De logs van de achtergrondservices, bijgewerkt terwijl ze worden geschreven."
+    },
+    "settings_advanced_logs_empty": {
+        "message": "Deze log is leeg."
+    },
+    "settings_advanced_logs_jump_to_end": {
+        "message": "Naar de nieuwste regels"
+    },
+    "settings_advanced_logs_line_count": {
+        "message": "Laatste {{shown}} van {{total}} regels"
+    },
+    "settings_advanced_logs_load_failed": {
+        "message": "Kan deze log niet lezen. Probeer 'Vernieuwen'."
+    },
+    "settings_advanced_logs_loading": {
+        "message": "Logs laden…"
+    },
+    "settings_advanced_logs_refresh": {
+        "message": "Vernieuwen"
+    },
+    "settings_advanced_logs_services_group": {
+        "message": "Afzonderlijke services"
+    },
+    "settings_advanced_logs_source_label": {
+        "message": "Log"
+    },
+    "settings_advanced_logs_source_runner": {
+        "message": "Servicebeheer"
+    },
+    "settings_advanced_logs_source_sentinel": {
+        "message": "App voor achtergrondservices"
+    },
+    "settings_advanced_logs_stream_label": {
+        "message": "Uitvoerstroom"
+    },
+    "settings_advanced_logs_title": {
+        "message": "Volledige logs"
+    },
+    "settings_advanced_notice_body": {
+        "message": "Deze instellingen heb je normaal gesproken niet nodig, en een verkeerde wijziging kan AI-functies tijdelijk onbruikbaar maken. Om te controleren of alles werkt, is de sectie Services voldoende."
+    },
+    "settings_advanced_notice_title": {
+        "message": "Voor probleemoplossing en ervaren gebruikers."
+    },
+    "settings_advanced_reset_action": {
+        "message": "Alle gegevens resetten"
+    },
+    "settings_advanced_reset_ai_action": {
+        "message": "AI-instellingen resetten"
+    },
+    "settings_advanced_reset_ai_clears": {
+        "message": "Dit doet het volgende:"
+    },
+    "settings_advanced_reset_ai_confirm_description": {
+        "message": "Je eigen providers en hun sleutels worden verwijderd, en lokale modellen moeten opnieuw worden gedownload om ze te gebruiken."
+    },
+    "settings_advanced_reset_ai_confirm_title": {
+        "message": "AI-instellingen resetten?"
+    },
+    "settings_advanced_reset_ai_done": {
+        "message": "AI-instellingen zijn gereset"
+    },
+    "settings_advanced_reset_ai_failed": {
+        "message": "Kan de AI-instellingen niet resetten"
+    },
+    "settings_advanced_reset_ai_items_cloud": {
+        "message": "AI-bronnen terugzetten naar Phi Cloud"
+    },
+    "settings_advanced_reset_ai_items_local": {
+        "message": "De lokale runtime verwijderen, inclusief modellen, logs en downloads"
+    },
+    "settings_advanced_reset_ai_items_providers": {
+        "message": "AI-providerconfiguratie wissen"
+    },
+    "settings_advanced_reset_ai_label": {
+        "message": "AI-instellingen resetten"
+    },
+    "settings_advanced_reset_confirm_description": {
+        "message": "Alles in de lijst wordt definitief verwijderd en de achtergrondservices starten leeg. Overweeg om eerst je gegevens te exporteren."
+    },
+    "settings_advanced_reset_confirm_prompt": {
+        "message": "Typ {{phrase}} om te bevestigen."
+    },
+    "settings_advanced_reset_confirm_title": {
+        "message": "Alle gegevens resetten?"
+    },
+    "settings_advanced_reset_description": {
+        "message": "Wist alle gegevens van de achtergrondservices van Phi en start ze helemaal opnieuw."
+    },
+    "settings_advanced_reset_done": {
+        "message": "Alle gegevens zijn gereset"
+    },
+    "settings_advanced_reset_erases": {
+        "message": "Dit wordt verwijderd:"
+    },
+    "settings_advanced_reset_failed": {
+        "message": "Kan de gegevens niet resetten"
+    },
+    "settings_advanced_reset_items_logs": {
+        "message": "Alle logboeken en gecachte bestanden"
+    },
+    "settings_advanced_reset_items_services": {
+        "message": "Geïnstalleerde services en hun gegevens"
+    },
+    "settings_advanced_reset_items_settings": {
+        "message": "Alle instellingen van de achtergrondservices"
+    },
+    "settings_advanced_reset_items_tasks": {
+        "message": "Geplande taken en hun geschiedenis"
+    },
+    "settings_advanced_reset_label": {
+        "message": "Alles wissen"
+    },
+    "settings_advanced_reset_permanent": {
+        "message": "Dit kan niet ongedaan worden gemaakt."
+    },
+    "settings_advanced_reset_progress_description": {
+        "message": "De achtergrondservices stoppen, hun gegevens worden verwijderd en ze starten opnieuw. Houd dit venster open tot het klaar is."
+    },
+    "settings_advanced_reset_progress_title": {
+        "message": "Alle gegevens worden gereset"
+    },
+    "settings_advanced_reset_title": {
+        "message": "Alle gegevens resetten"
+    },
+    "settings_advanced_services_action_accessible_label": {
+        "message": "{{name}} {{action}}"
+    },
+    "settings_advanced_services_action_restart": {
+        "message": "Opnieuw starten"
+    },
+    "settings_advanced_services_action_retry_setup": {
+        "message": "Installatie opnieuw proberen"
+    },
+    "settings_advanced_services_action_start": {
+        "message": "Starten"
+    },
+    "settings_advanced_services_action_stop": {
+        "message": "Stoppen"
+    },
+    "settings_advanced_services_built_in": {
+        "message": "Ingebouwd"
+    },
+    "settings_advanced_services_column_actions": {
+        "message": "Acties"
+    },
+    "settings_advanced_services_column_pid": {
+        "message": "PID"
+    },
+    "settings_advanced_services_column_service": {
+        "message": "Service"
+    },
+    "settings_advanced_services_column_state": {
+        "message": "Status"
+    },
+    "settings_advanced_services_column_uptime": {
+        "message": "Uptime"
+    },
+    "settings_advanced_services_column_version": {
+        "message": "Versie"
+    },
+    "settings_advanced_services_confirm_cancel": {
+        "message": "Annuleren"
+    },
+    "settings_advanced_services_confirm_restart_description": {
+        "message": "De service stopt even en start daarna opnieuw. Alles wat de service nu gebruikt, wordt onderbroken."
+    },
+    "settings_advanced_services_confirm_restart_title": {
+        "message": "{{name}} opnieuw starten?"
+    },
+    "settings_advanced_services_confirm_retry_setup_description": {
+        "message": "Phi verwijdert de gedownloade lokale bestanden en installeert de service opnieuw. Dit kan een paar minuten duren, en intussen is de service niet beschikbaar."
+    },
+    "settings_advanced_services_confirm_retry_setup_title": {
+        "message": "Installatie van {{name}} opnieuw proberen?"
+    },
+    "settings_advanced_services_confirm_stop_description": {
+        "message": "Services die hiervan afhankelijk zijn, stoppen ook. AI-functies die ze gebruiken, zijn niet beschikbaar totdat je de service opnieuw start."
+    },
+    "settings_advanced_services_confirm_stop_title": {
+        "message": "{{name}} stoppen?"
+    },
+    "settings_advanced_services_description": {
+        "message": "Het proces, de uptime en de versie van elke achtergrondservice."
+    },
+    "settings_advanced_services_title": {
+        "message": "Servicedetails"
+    },
+    "settings_advanced_services_toast_restart": {
+        "message": "{{name}} opnieuw gestart"
+    },
+    "settings_advanced_services_toast_restart_failed": {
+        "message": "Kan {{name}} niet opnieuw starten"
+    },
+    "settings_advanced_services_toast_retry_setup": {
+        "message": "Installatie van {{name}} opnieuw gestart"
+    },
+    "settings_advanced_services_toast_retry_setup_failed": {
+        "message": "Kan de installatie van {{name}} niet opnieuw proberen"
+    },
+    "settings_advanced_services_toast_start": {
+        "message": "{{name}} gestart"
+    },
+    "settings_advanced_services_toast_start_failed": {
+        "message": "Kan {{name}} niet starten"
+    },
+    "settings_advanced_services_toast_stop": {
+        "message": "{{name}} gestopt"
+    },
+    "settings_advanced_services_toast_stop_failed": {
+        "message": "Kan {{name}} niet stoppen"
+    },
+    "settings_backup_advanced_prompt": {
+        "message": "Wil je een snapshot herstellen?"
+    },
+    "settings_backup_busy": {
+        "message": "Er wordt al een andere back-uptaak uitgevoerd. Probeer het opnieuw als die klaar is."
+    },
+    "settings_backup_cancel": {
+        "message": "Annuleren"
+    },
+    "settings_backup_data_title": {
+        "message": "Je gegevens"
+    },
+    "settings_backup_description": {
+        "message": "Houd de achtergrondservices up-to-date en bewaar een kopie van je gegevens."
+    },
+    "settings_backup_export_action": {
+        "message": "Exporteren"
+    },
+    "settings_backup_export_description": {
+        "message": "Slaat een kopie van je instellingen en gegevens op in je map Downloads, zodat je ze naar een andere Mac kunt verplaatsen. API-sleutels van providers worden niet meegenomen."
+    },
+    "settings_backup_export_description_to_file": {
+        "message": "Slaat een kopie van je instellingen en gegevens op in een bestand naar keuze, zodat je ze naar een andere Mac kunt verplaatsen. API-sleutels van providers worden niet meegenomen."
+    },
+    "settings_backup_export_done": {
+        "message": "Gegevens geëxporteerd naar je map Downloads"
+    },
+    "settings_backup_export_done_to_file": {
+        "message": "Gegevens geëxporteerd"
+    },
+    "settings_backup_export_done_with_warning": {
+        "message": "Gegevens geëxporteerd na een onderbreking. Controleer het bestand voordat je erop vertrouwt."
+    },
+    "settings_backup_export_exporting": {
+        "message": "Exporteren…"
+    },
+    "settings_backup_export_failed": {
+        "message": "Kan je gegevens niet exporteren"
+    },
+    "settings_backup_export_label": {
+        "message": "Gegevens exporteren"
+    },
+    "settings_backup_snapshot_action": {
+        "message": "Snapshot maken"
+    },
+    "settings_backup_snapshot_created": {
+        "message": "Snapshot gemaakt"
+    },
+    "settings_backup_snapshot_description": {
+        "message": "Slaat een kopie van de gegevens op deze Mac op waarnaar je kunt terugkeren. Snapshots verlaten deze Mac nooit."
+    },
+    "settings_backup_snapshot_failed": {
+        "message": "Kan geen snapshot maken"
+    },
+    "settings_backup_snapshot_label": {
+        "message": "Lokale snapshot"
+    },
+    "settings_backup_snapshot_progress_description": {
+        "message": "De achtergrondservices stoppen een paar seconden terwijl de snapshot wordt gemaakt. Houd dit venster open tot het klaar is."
+    },
+    "settings_backup_snapshot_progress_title": {
+        "message": "Snapshot wordt gemaakt"
+    },
+    "settings_backup_snapshot_skipped": {
+        "message": "Snapshots zijn niet beschikbaar op deze schijf"
+    },
+    "settings_backup_updates_auto": {
+        "message": "Updates worden automatisch geïnstalleerd."
+    },
+    "settings_backup_updates_available": {
+        "message": "Beschikbare updates: {{count}}"
+    },
+    "settings_backup_updates_check": {
+        "message": "Zoek naar updates"
+    },
+    "settings_backup_updates_check_failed": {
+        "message": "Kan niet naar updates zoeken."
+    },
+    "settings_backup_updates_checking": {
+        "message": "Zoeken naar updates…"
+    },
+    "settings_backup_updates_confirm_description": {
+        "message": "Elke service start opnieuw terwijl die wordt bijgewerkt, dus Phi Chat en andere AI-functies kunnen even pauzeren."
+    },
+    "settings_backup_updates_confirm_title": {
+        "message": "De achtergrondservices nu bijwerken?"
+    },
+    "settings_backup_updates_label": {
+        "message": "Achtergrondservices"
+    },
+    "settings_backup_updates_progress_component": {
+        "message": "{{component}}: {{percent}}%"
+    },
+    "settings_backup_updates_progress_downloading": {
+        "message": "Updates downloaden…"
+    },
+    "settings_backup_updates_progress_installing": {
+        "message": "Updates installeren…"
+    },
+    "settings_backup_updates_progress_preparing": {
+        "message": "Updates voorbereiden…"
+    },
+    "settings_backup_updates_progress_restarting": {
+        "message": "Services worden opnieuw gestart…"
+    },
+    "settings_backup_updates_progress_rolling_back": {
+        "message": "Terug naar de vorige versie…"
+    },
+    "settings_backup_updates_title": {
+        "message": "Updates"
+    },
+    "settings_backup_updates_toast_failed": {
+        "message": "Kan {{count}} component(en) niet bijwerken"
+    },
+    "settings_backup_updates_toast_none": {
+        "message": "Alles was al up-to-date"
+    },
+    "settings_backup_updates_toast_update_failed": {
+        "message": "Kan de achtergrondservices niet bijwerken"
+    },
+    "settings_backup_updates_toast_updated": {
+        "message": "{{count}} component(en) bijgewerkt"
+    },
+    "settings_backup_updates_up_to_date": {
+        "message": "Alles is up-to-date."
+    },
+    "settings_backup_updates_update": {
+        "message": "Nu bijwerken"
+    },
+    "settings_backup_updates_updating": {
+        "message": "Bijwerken…"
+    },
+    "settings_backup_updates_updating_description": {
+        "message": "Updates worden geïnstalleerd. Services starten opnieuw terwijl ze worden bijgewerkt."
+    },
+    "settings_close": {
+        "message": "Instellingen sluiten"
+    },
+    "settings_general_appearance": {
+        "message": "Vormgeving"
+    },
+    "settings_general_appearance_value": {
+        "message": "Volgt het thema van het venster"
+    },
+    "settings_general_browser_ai": {
+        "message": "AI-instellingen van de browser"
+    },
+    "settings_general_browser_ai_description": {
+        "message": "Meer AI-opties in de eigen instellingen van de browser."
+    },
+    "settings_general_description": {
+        "message": "Hoe het met de achtergrondservices van Phi gaat, en welke instellingen je browser volgen."
+    },
+    "settings_general_group_background": {
+        "message": "Achtergrondservices"
+    },
+    "settings_general_group_language": {
+        "message": "Taal en vormgeving"
+    },
+    "settings_general_language": {
+        "message": "Taal"
+    },
+    "settings_general_language_value": {
+        "message": "Volgt de browser ({{language}})"
+    },
+    "settings_general_open": {
+        "message": "Openen"
+    },
+    "settings_general_restart_action": {
+        "message": "Opnieuw starten"
+    },
+    "settings_general_restart_confirm_description": {
+        "message": "De AI-functies van Phi werken niet tot de services terug zijn, meestal binnen een minuut."
+    },
+    "settings_general_restart_confirm_title": {
+        "message": "De achtergrondservices opnieuw starten?"
+    },
+    "settings_general_restart_description": {
+        "message": "Stopt alle achtergrondservices en start ze opnieuw. AI-functies pauzeren even."
+    },
+    "settings_general_restart_done": {
+        "message": "Achtergrondservices opnieuw gestart"
+    },
+    "settings_general_restart_failed": {
+        "message": "Kan de achtergrondservices niet opnieuw starten"
+    },
+    "settings_general_restart_label": {
+        "message": "Achtergrondservices opnieuw starten"
+    },
+    "settings_general_restart_progress_description": {
+        "message": "Dit duurt meestal minder dan een minuut. Houd dit venster open tot het klaar is."
+    },
+    "settings_general_restart_progress_title": {
+        "message": "De achtergrondservices worden opnieuw gestart"
+    },
+    "settings_general_status": {
+        "message": "Status"
+    },
+    "settings_general_status_attention": {
+        "message": "Aandacht vereist"
+    },
+    "settings_general_status_checking": {
+        "message": "Controleren…"
+    },
+    "settings_general_status_offline": {
+        "message": "Niet actief"
+    },
+    "settings_general_status_running": {
+        "message": "Werkt normaal"
+    },
+    "settings_general_status_unavailable": {
+        "message": "Niet beschikbaar"
+    },
+    "settings_general_version": {
+        "message": "Versie"
+    },
+    "settings_general_version_pending": {
+        "message": "Versie {{version}} is geïnstalleerd. Start de achtergrondservices opnieuw om die te gebruiken."
+    },
+    "settings_logs_advanced_prompt": {
+        "message": "Wil je de logs zelf lezen?"
+    },
+    "settings_logs_description": {
+        "message": "Als iets niet werkt, sla dan de logs op en stuur ze naar Phi-support."
+    },
+    "settings_logs_diagnostic": {
+        "message": "Diagnostische logs"
+    },
+    "settings_logs_diagnostic_description": {
+        "message": "Recente activiteit van de achtergrondservices en van elke service, opgeslagen als ZIP-bestand in je downloads."
+    },
+    "settings_logs_save": {
+        "message": "Opslaan"
+    },
+    "settings_logs_save_failed": {
+        "message": "Kan diagnostische logs niet opslaan"
+    },
+    "settings_logs_saved": {
+        "message": "Diagnostische logs opgeslagen in je downloads"
+    },
+    "settings_nav_advanced": {
+        "message": "Geavanceerde instellingen"
+    },
+    "settings_nav_advanced_label": {
+        "message": "Secties van de geavanceerde instellingen"
+    },
+    "settings_nav_back_to_settings": {
+        "message": "Terug naar instellingen"
+    },
+    "settings_nav_backup": {
+        "message": "Back-up en updates"
+    },
+    "settings_nav_general": {
+        "message": "Algemeen"
+    },
+    "settings_nav_label": {
+        "message": "Secties van de instellingen"
+    },
+    "settings_nav_logs": {
+        "message": "Logs"
+    },
+    "settings_nav_private_ai": {
+        "message": "Privé-AI"
+    },
+    "settings_nav_providers": {
+        "message": "AI-providers"
+    },
+    "settings_nav_services": {
+        "message": "Services"
+    },
+    "settings_private_ai_approx_minutes": {
+        "message": "~{{count}} min"
+    },
+    "settings_private_ai_approx_seconds": {
+        "message": "~{{count}} sec"
+    },
+    "settings_private_ai_attention": {
+        "message": "Aandacht vereist"
+    },
+    "settings_private_ai_checking": {
+        "message": "Controleren…"
+    },
+    "settings_private_ai_codex_tip_description": {
+        "message": "Gebruik je bestaande Codex-login als AI-provider."
+    },
+    "settings_private_ai_codex_tip_dismiss": {
+        "message": "Codex-tip sluiten"
+    },
+    "settings_private_ai_codex_tip_open": {
+        "message": "Openen"
+    },
+    "settings_private_ai_codex_tip_title": {
+        "message": "Codex is beschikbaar"
+    },
+    "settings_private_ai_fallback_notice": {
+        "message": "Een lokale AI-bron reageert niet. Getroffen taken zijn tijdelijk teruggeschakeld naar Phi Cloud."
+    },
+    "settings_private_ai_fallback_notice_paused": {
+        "message": "Een lokale AI-bron reageert niet. Getroffen taken zijn gepauzeerd tot de bron weer reageert."
+    },
+    "settings_private_ai_hardware_hint": {
+        "message": "Werkt het best op een Mac met Apple Silicon en minimaal 16 GB RAM. De installatie controleert je apparaat automatisch."
+    },
+    "settings_private_ai_label": {
+        "message": "Privé-AI"
+    },
+    "settings_private_ai_load_failed": {
+        "message": "Kan de status van Privé-AI niet lezen"
+    },
+    "settings_private_ai_local_runtime": {
+        "message": "Lokale runtime"
+    },
+    "settings_private_ai_not_set_up": {
+        "message": "Alle AI-functies draaien momenteel op Phi Cloud. Zet de schakelaar aan om het in te stellen."
+    },
+    "settings_private_ai_on": {
+        "message": "Privé-AI staat aan"
+    },
+    "settings_private_ai_page_description": {
+        "message": "Draai AI op je Mac of via je eigen provider: je gegevens blijven bij jou."
+    },
+    "settings_private_ai_providers_prompt": {
+        "message": "Wil je je eigen AI-dienst gebruiken?"
+    },
+    "settings_private_ai_restart_local": {
+        "message": "Lokale service herstarten"
+    },
+    "settings_private_ai_routing_apple_available": {
+        "message": "Apple Intelligence · Beschikbaar"
+    },
+    "settings_private_ai_routing_apple_description": {
+        "message": "Wordt automatisch beheerd door macOS."
+    },
+    "settings_private_ai_routing_apple_label": {
+        "message": "Tabbladen ordenen met AI"
+    },
+    "settings_private_ai_routing_apple_unavailable": {
+        "message": "Apple Intelligence · Niet beschikbaar"
+    },
+    "settings_private_ai_routing_checked": {
+        "message": "Bron geselecteerd"
+    },
+    "settings_private_ai_routing_failed": {
+        "message": "Bron mislukt: {{error}}"
+    },
+    "settings_private_ai_routing_off_hint": {
+        "message": "Wordt gebruikt zolang Privé-AI aanstaat."
+    },
+    "settings_private_ai_routing_policy_cloud": {
+        "message": "Automatisch terugvallen op Phi Cloud (standaard)"
+    },
+    "settings_private_ai_routing_policy_label": {
+        "message": "Wanneer een lokale of zelfgehoste bron niet beschikbaar is"
+    },
+    "settings_private_ai_routing_policy_pause": {
+        "message": "Getroffen AI-functies pauzeren (nooit gegevens naar de cloud sturen)"
+    },
+    "settings_private_ai_routing_select": {
+        "message": "Bron voor {{task}} selecteren"
+    },
+    "settings_private_ai_routing_test_failed": {
+        "message": "Modeltest voor {{purpose}} mislukt. Teruggezet naar de vorige bron."
+    },
+    "settings_private_ai_routing_unavailable": {
+        "message": "Niet beschikbaar"
+    },
+    "settings_private_ai_routing_vision_description": {
+        "message": "Wordt alleen gebruikt wanneer een geselecteerd model geen afbeeldingen accepteert."
+    },
+    "settings_private_ai_routing_vision_label": {
+        "message": "Vision-fallback"
+    },
+    "settings_private_ai_routing_vision_none": {
+        "message": "Niet ingesteld"
+    },
+    "settings_private_ai_setting_up": {
+        "message": "Installeren…"
+    },
+    "settings_private_ai_setting_up_description": {
+        "message": "AI-functies blijven Phi Cloud gebruiken totdat de installatie is voltooid."
+    },
+    "settings_private_ai_setup_cancel": {
+        "message": "Annuleren"
+    },
+    "settings_private_ai_setup_check_again": {
+        "message": "Opnieuw controleren"
+    },
+    "settings_private_ai_setup_checking": {
+        "message": "Je apparaat wordt gecontroleerd…"
+    },
+    "settings_private_ai_setup_done": {
+        "message": "Privé-AI staat aan"
+    },
+    "settings_private_ai_setup_done_action": {
+        "message": "Klaar"
+    },
+    "settings_private_ai_setup_eligible": {
+        "message": "Draai Privé-AI lokaal op deze Mac"
+    },
+    "settings_private_ai_setup_failed": {
+        "message": "Installatie mislukt tijdens {{stage}}."
+    },
+    "settings_private_ai_setup_free_disk": {
+        "message": "Vrije schijfruimte"
+    },
+    "settings_private_ai_setup_local_tasks": {
+        "message": "Draait op deze Mac: {{tasks}}. Andere AI-taken blijven op Phi Cloud."
+    },
+    "settings_private_ai_setup_memory": {
+        "message": "Werkgeheugen"
+    },
+    "settings_private_ai_setup_minimize": {
+        "message": "Minimaliseren"
+    },
+    "settings_private_ai_setup_plan_failed": {
+        "message": "Kan deze Mac niet controleren"
+    },
+    "settings_private_ai_setup_reasons_disk": {
+        "message": "Voor lokale modellen is minstens 10 GB vrije schijfruimte nodig."
+    },
+    "settings_private_ai_setup_reasons_memory": {
+        "message": "Voor lokale modellen is minstens 16 GB werkgeheugen nodig."
+    },
+    "settings_private_ai_setup_reasons_no_embedding_model": {
+        "message": "Er is geen embeddingmodel beschikbaar in de modelindex."
+    },
+    "settings_private_ai_setup_reasons_no_local_model": {
+        "message": "Er is geen lokaal model beschikbaar in de modelindex."
+    },
+    "settings_private_ai_setup_reasons_probe_failed": {
+        "message": "Kan deze Mac niet controleren. Probeer het opnieuw of blijf Phi Cloud gebruiken."
+    },
+    "settings_private_ai_setup_retry": {
+        "message": "Opnieuw proberen"
+    },
+    "settings_private_ai_setup_routes_kept": {
+        "message": "Bestaande taaktoewijzingen blijven ongewijzigd."
+    },
+    "settings_private_ai_setup_show_details": {
+        "message": "Details tonen"
+    },
+    "settings_private_ai_setup_size": {
+        "message": "Download {{downloadSize}} · gebruikt ongeveer {{memorySize}} geheugen tijdens het draaien."
+    },
+    "settings_private_ai_setup_stage_models": {
+        "message": "Modellen worden gedownload…"
+    },
+    "settings_private_ai_setup_stage_name_models": {
+        "message": "het downloaden van modellen"
+    },
+    "settings_private_ai_setup_stage_name_runtime": {
+        "message": "het installeren van de lokale runtime"
+    },
+    "settings_private_ai_setup_stage_name_starting": {
+        "message": "het starten van lokale modellen"
+    },
+    "settings_private_ai_setup_stage_name_verifying": {
+        "message": "de verificatie"
+    },
+    "settings_private_ai_setup_stage_runtime": {
+        "message": "Lokale runtime wordt geïnstalleerd…"
+    },
+    "settings_private_ai_setup_stage_starting": {
+        "message": "Lokale modellen worden gestart…"
+    },
+    "settings_private_ai_setup_stage_verifying": {
+        "message": "Verifiëren…"
+    },
+    "settings_private_ai_setup_start": {
+        "message": "Installatie starten"
+    },
+    "settings_private_ai_setup_step_models": {
+        "message": "Modellen downloaden"
+    },
+    "settings_private_ai_setup_step_runtime": {
+        "message": "Runtime installeren"
+    },
+    "settings_private_ai_setup_step_starting": {
+        "message": "Lokale modellen starten"
+    },
+    "settings_private_ai_setup_step_verifying": {
+        "message": "Verifiëren"
+    },
+    "settings_private_ai_setup_title": {
+        "message": "Privé-AI instellen"
+    },
+    "settings_private_ai_setup_unavailable": {
+        "message": "Privé-AI is niet beschikbaar op deze Mac"
+    },
+    "settings_private_ai_setup_use_own": {
+        "message": "Je eigen AI-dienst gebruiken"
+    },
+    "settings_private_ai_source_cloud": {
+        "message": "Phi Cloud"
+    },
+    "settings_private_ai_source_local": {
+        "message": "{{model}} · Op deze Mac"
+    },
+    "settings_private_ai_source_provider": {
+        "message": "{{provider}} · Je provider"
+    },
+    "settings_private_ai_source_unavailable": {
+        "message": "{{source}} · Niet beschikbaar"
+    },
+    "settings_private_ai_starting": {
+        "message": "Privé-AI wordt gestart…"
+    },
+    "settings_private_ai_starting_description": {
+        "message": "Je lokale AI wordt voorbereid. AI-functies gebruiken Phi Cloud totdat deze actief is."
+    },
+    "settings_private_ai_summary": {
+        "message": "Draait privé: {{count}} van {{total}} AI-taken"
+    },
+    "settings_private_ai_summary_attention": {
+        "message": "Niet-beschikbare bronnen voor AI-taken: {{count}}"
+    },
+    "settings_private_ai_tasks_chat_description": {
+        "message": "Antwoorden in het chatpaneel"
+    },
+    "settings_private_ai_tasks_chat_label": {
+        "message": "Chat"
+    },
+    "settings_private_ai_tasks_data_search_description": {
+        "message": "Zoeken in gekoppelde gegevens"
+    },
+    "settings_private_ai_tasks_data_search_label": {
+        "message": "Zoeken in gegevens"
+    },
+    "settings_private_ai_tasks_memory_description": {
+        "message": "Browsegeheugen en samenvattingen"
+    },
+    "settings_private_ai_tasks_memory_label": {
+        "message": "Geheugen"
+    },
+    "settings_private_ai_tasks_title": {
+        "message": "AI-taken"
+    },
+    "settings_private_ai_tasks_web_tasks_description": {
+        "message": "Automatisering door AI-agents"
+    },
+    "settings_private_ai_tasks_web_tasks_label": {
+        "message": "Webtaken"
+    },
+    "settings_private_ai_toast_cancel_failed": {
+        "message": "Kan de installatie niet annuleren"
+    },
+    "settings_private_ai_toast_disable_failed": {
+        "message": "Kan Privé-AI niet uitschakelen. Probeer het opnieuw."
+    },
+    "settings_private_ai_toast_enable_failed": {
+        "message": "Kan Privé-AI niet inschakelen"
+    },
+    "settings_private_ai_toast_restart_failed": {
+        "message": "Kan lokale AI niet herstarten. Probeer het opnieuw."
+    },
+    "settings_private_ai_toast_save_failed": {
+        "message": "Kan de wijziging niet opslaan"
+    },
+    "settings_private_ai_toast_start_failed": {
+        "message": "Kan de installatie niet starten"
+    },
+    "settings_private_ai_toggle": {
+        "message": "Privé-AI in- of uitschakelen"
+    },
+    "settings_providers_about_custom": {
+        "message": "Elk OpenAI-compatibel endpoint."
+    },
+    "settings_providers_about_lm_studio": {
+        "message": "Lokale OpenAI-compatibele LM Studio-server."
+    },
+    "settings_providers_about_ollama": {
+        "message": "Lokale Ollama-modellen op deze Mac of in je LAN."
+    },
+    "settings_providers_about_openai": {
+        "message": "OpenAI-modellen, waaronder de GPT- en reasoning-families."
+    },
+    "settings_providers_about_openrouter": {
+        "message": "Toegang tot honderden AI-modellen via de uniforme API van OpenRouter."
+    },
+    "settings_providers_access": {
+        "message": "Modeltoegang"
+    },
+    "settings_providers_add": {
+        "message": "Aangepaste provider toevoegen"
+    },
+    "settings_providers_add_action": {
+        "message": "Provider toevoegen"
+    },
+    "settings_providers_add_description": {
+        "message": "Voeg nog een OpenAI-compatibele service toe. Lokale services kunnen terugvallen op Chat Completions wanneer Responses niet beschikbaar is."
+    },
+    "settings_providers_all_models": {
+        "message": "Alle modellen toestaan"
+    },
+    "settings_providers_all_models_description": {
+        "message": "Alle modellen van deze provider zijn beschikbaar."
+    },
+    "settings_providers_allow_model": {
+        "message": "Model {{model}} toestaan"
+    },
+    "settings_providers_api_key": {
+        "message": "API-sleutel"
+    },
+    "settings_providers_api_key_optional": {
+        "message": "Optionele API-sleutel"
+    },
+    "settings_providers_apple_description": {
+        "message": "Beheerd door macOS voor het ordenen van tabbladen met AI."
+    },
+    "settings_providers_base_url": {
+        "message": "Basis-URL"
+    },
+    "settings_providers_built_in": {
+        "message": "Ingebouwd"
+    },
+    "settings_providers_cancel": {
+        "message": "Annuleren"
+    },
+    "settings_providers_codex_about": {
+        "message": "Gebruik het ChatGPT-abonnement waarmee je al via Codex bent ingelogd."
+    },
+    "settings_providers_codex_action_failed": {
+        "message": "Codex-actie mislukt"
+    },
+    "settings_providers_codex_advanced": {
+        "message": "Geavanceerd"
+    },
+    "settings_providers_codex_check_again": {
+        "message": "Opnieuw controleren"
+    },
+    "settings_providers_codex_confirm_account": {
+        "message": "Account bevestigen"
+    },
+    "settings_providers_codex_connect": {
+        "message": "Verbinden"
+    },
+    "settings_providers_codex_disconnect": {
+        "message": "Verbinding verbreken"
+    },
+    "settings_providers_codex_disconnect_blocked": {
+        "message": "Nog in gebruik door {{tasks}}. Kies daarvoor eerst een andere bron voordat je de verbinding verbreekt."
+    },
+    "settings_providers_codex_effort_default": {
+        "message": "Standaard ({{effort}})"
+    },
+    "settings_providers_codex_effort_for": {
+        "message": "Redeneerinspanning voor {{model}}"
+    },
+    "settings_providers_codex_effort_model_default": {
+        "message": "Standaard van het model"
+    },
+    "settings_providers_codex_home_hint": {
+        "message": "Laat leeg om de standaardmap van Codex te gebruiken."
+    },
+    "settings_providers_codex_login_hint": {
+        "message": "Phi gebruikt de login die Codex al beheert en controleert die met één klein verzoek wanneer je verbinding maakt. Ben je nog niet ingelogd, voer dan eerst {{command}} uit in Terminal."
+    },
+    "settings_providers_codex_models": {
+        "message": "Beschikbare modellen"
+    },
+    "settings_providers_codex_models_origin": {
+        "message": "Geladen uit de Codex-modelcatalogus."
+    },
+    "settings_providers_codex_retest": {
+        "message": "Opnieuw testen"
+    },
+    "settings_providers_codex_state_account_changed": {
+        "message": "Bevestiging vereist"
+    },
+    "settings_providers_codex_state_keychain_unsupported": {
+        "message": "Inloggen via bestand vereist"
+    },
+    "settings_providers_codex_state_login_not_found": {
+        "message": "Inloggen vereist"
+    },
+    "settings_providers_codex_state_needs_attention": {
+        "message": "Aandacht vereist"
+    },
+    "settings_providers_codex_state_not_installed": {
+        "message": "Niet geïnstalleerd"
+    },
+    "settings_providers_codex_state_ready": {
+        "message": "Beschikbaar"
+    },
+    "settings_providers_codex_summary_account_changed": {
+        "message": "De Codex-login is gewijzigd. Verzoeken zijn gepauzeerd totdat je het nieuwe account bevestigt."
+    },
+    "settings_providers_codex_summary_connected": {
+        "message": "{{count}} compatibele model(len) beschikbaar via de lokale AI Gateway."
+    },
+    "settings_providers_codex_summary_keychain_unsupported": {
+        "message": "Deze Codex-login is opgeslagen in de sleutelhanger, die Phi niet kan lezen."
+    },
+    "settings_providers_codex_summary_login_not_found": {
+        "message": "Codex is geïnstalleerd, maar er is geen bestandsgebaseerde login gevonden."
+    },
+    "settings_providers_codex_summary_needs_attention": {
+        "message": "De laatste verbindingscontrole is mislukt. Bestaande routes blijven toegewezen en vallen niet automatisch terug."
+    },
+    "settings_providers_codex_summary_not_installed": {
+        "message": "Installeer Codex op deze Mac om een Codex-abonnement te gebruiken."
+    },
+    "settings_providers_codex_summary_ready": {
+        "message": "Codex-login gedetecteerd. Klaar om te verbinden zonder inloggegevens te kopiëren."
+    },
+    "settings_providers_codex_text": {
+        "message": "Tekst"
+    },
+    "settings_providers_codex_text_image": {
+        "message": "Tekst + afbeelding"
+    },
+    "settings_providers_codex_title": {
+        "message": "Codex"
+    },
+    "settings_providers_connection": {
+        "message": "Verbinding"
+    },
+    "settings_providers_description": {
+        "message": "AI-services die je zelf koppelt, en de services die in Phi zijn ingebouwd."
+    },
+    "settings_providers_discard": {
+        "message": "Wijzigingen negeren"
+    },
+    "settings_providers_endpoint_not_set": {
+        "message": "Endpoint niet ingesteld"
+    },
+    "settings_providers_endpoint_with_models": {
+        "message": "{{endpoint}} · {{count}} model(len)"
+    },
+    "settings_providers_https_hint": {
+        "message": "Cloudproviders moeten HTTPS gebruiken."
+    },
+    "settings_providers_id": {
+        "message": "Provider-ID"
+    },
+    "settings_providers_id_fixed": {
+        "message": "Vast voor deze provider."
+    },
+    "settings_providers_id_taken": {
+        "message": "Er bestaat al een provider met dit ID."
+    },
+    "settings_providers_keep_editing": {
+        "message": "Doorgaan met bewerken"
+    },
+    "settings_providers_leave_description": {
+        "message": "Wijzigingen aan deze provider zijn niet opgeslagen."
+    },
+    "settings_providers_leave_title": {
+        "message": "Niet-opgeslagen providerwijzigingen"
+    },
+    "settings_providers_load": {
+        "message": "Laden"
+    },
+    "settings_providers_loaded": {
+        "message": "Modellen: {{count}} · {{latency}} ms"
+    },
+    "settings_providers_loading": {
+        "message": "Modellen laden…"
+    },
+    "settings_providers_local_about": {
+        "message": "Modellen die naar deze Mac zijn gedownload. Wat ze verwerken, blijft op deze Mac."
+    },
+    "settings_providers_local_failed_chat": {
+        "message": "Het lokale Chat-model kon niet worden gestart."
+    },
+    "settings_providers_local_failed_embedding": {
+        "message": "Het indexeren van connectors kon niet worden gestart."
+    },
+    "settings_providers_local_failed_memory": {
+        "message": "Het lokale Geheugen-model kon niet worden gestart."
+    },
+    "settings_providers_local_hint": {
+        "message": "Endpoints op het lokale en privénetwerk zijn toegestaan."
+    },
+    "settings_providers_local_role_configured": {
+        "message": "Ingesteld"
+    },
+    "settings_providers_local_role_off": {
+        "message": "Uit"
+    },
+    "settings_providers_local_role_ready": {
+        "message": "Klaar"
+    },
+    "settings_providers_local_role_unused": {
+        "message": "Niet gebruikt"
+    },
+    "settings_providers_local_role_unused_chat": {
+        "message": "Geen apart Chat-model."
+    },
+    "settings_providers_local_role_unused_other": {
+        "message": "Geen lokaal model."
+    },
+    "settings_providers_local_role_used_for": {
+        "message": "Gebruikt voor {{tasks}}"
+    },
+    "settings_providers_local_runtime": {
+        "message": "Runtime"
+    },
+    "settings_providers_local_state_attention": {
+        "message": "Aandacht vereist"
+    },
+    "settings_providers_local_state_not_set_up": {
+        "message": "Niet ingesteld"
+    },
+    "settings_providers_local_state_starting": {
+        "message": "Starten"
+    },
+    "settings_providers_local_state_unsupported": {
+        "message": "Niet ondersteund"
+    },
+    "settings_providers_local_summary_attention": {
+        "message": "Een lokaal model reageert niet. Start de lokale service opnieuw of bekijk de log."
+    },
+    "settings_providers_local_summary_not_set_up": {
+        "message": "Stel Privé-AI in om modellen te downloaden en op deze Mac uit te voeren."
+    },
+    "settings_providers_local_summary_off": {
+        "message": "De lokale runtime is gestopt. Gedownloade modellen blijven op deze Mac."
+    },
+    "settings_providers_local_summary_on": {
+        "message": "Actief: {{count}} van {{total}}"
+    },
+    "settings_providers_local_summary_unavailable": {
+        "message": "Kan de status van de lokale runtime niet lezen."
+    },
+    "settings_providers_local_summary_unsupported": {
+        "message": "Apple Silicon vereist."
+    },
+    "settings_providers_local_switch_failed": {
+        "message": "Kan de lokale runtime niet in- of uitschakelen"
+    },
+    "settings_providers_local_title": {
+        "message": "Lokale modellen"
+    },
+    "settings_providers_local_turn_off": {
+        "message": "Uitschakelen"
+    },
+    "settings_providers_local_turn_on": {
+        "message": "Inschakelen"
+    },
+    "settings_providers_local_update": {
+        "message": "Updaten"
+    },
+    "settings_providers_local_update_failed": {
+        "message": "Kan de runtime niet installeren"
+    },
+    "settings_providers_local_version": {
+        "message": "Versie {{version}}"
+    },
+    "settings_providers_local_version_with_update": {
+        "message": "Versie {{installedVersion}} · {{availableVersion}} beschikbaar"
+    },
+    "settings_providers_local_view_logs": {
+        "message": "Logboeken bekijken"
+    },
+    "settings_providers_models": {
+        "message": "Modellen"
+    },
+    "settings_providers_models_empty": {
+        "message": "Laad de modellen van deze provider en kies daarna welke Phi mag gebruiken."
+    },
+    "settings_providers_name": {
+        "message": "Providernaam"
+    },
+    "settings_providers_name_placeholder": {
+        "message": "Mijn aangepaste provider"
+    },
+    "settings_providers_not_found": {
+        "message": "Deze provider bestaat niet meer."
+    },
+    "settings_providers_not_ready": {
+        "message": "Niet gereed"
+    },
+    "settings_providers_off": {
+        "message": "Uit"
+    },
+    "settings_providers_on": {
+        "message": "Aan"
+    },
+    "settings_providers_phi_description": {
+        "message": "Inbegrepen bij Phi en gebruikt je Phi-login. Geen API-sleutel nodig."
+    },
+    "settings_providers_problem_api_key": {
+        "message": "Voer een API-sleutel in."
+    },
+    "settings_providers_problem_base_url": {
+        "message": "Voer een basis-URL in."
+    },
+    "settings_providers_problem_https": {
+        "message": "Cloudproviders moeten HTTPS gebruiken."
+    },
+    "settings_providers_problem_select_model": {
+        "message": "Selecteer ten minste één model."
+    },
+    "settings_providers_raw_list": {
+        "message": "Onbewerkte lijst met toegestane modellen"
+    },
+    "settings_providers_raw_list_placeholder": {
+        "message": "Laat leeg om alle modellen van de provider toe te staan"
+    },
+    "settings_providers_remove": {
+        "message": "Provider verwijderen"
+    },
+    "settings_providers_remove_description": {
+        "message": "AI-taken die deze provider gebruiken, gaan terug naar Phi Cloud."
+    },
+    "settings_providers_remove_title": {
+        "message": "{{name}} verwijderen?"
+    },
+    "settings_providers_save": {
+        "message": "Wijzigingen opslaan"
+    },
+    "settings_providers_scope": {
+        "message": "Bereik"
+    },
+    "settings_providers_scope_cloud": {
+        "message": "Cloud"
+    },
+    "settings_providers_scope_local": {
+        "message": "Lokaal"
+    },
+    "settings_providers_search": {
+        "message": "Modellen zoeken…"
+    },
+    "settings_providers_select_model": {
+        "message": "Selecteer ten minste één model."
+    },
+    "settings_providers_selected_count": {
+        "message": "Geselecteerde modellen: {{count}}"
+    },
+    "settings_providers_selected_models": {
+        "message": "Alleen geselecteerde modellen"
+    },
+    "settings_providers_test": {
+        "message": "Test"
+    },
+    "settings_providers_test_failed": {
+        "message": "{{model}} mislukt: {{error}}"
+    },
+    "settings_providers_test_hint": {
+        "message": "Laad eerst modellen."
+    },
+    "settings_providers_test_passed": {
+        "message": "Verbinding geslaagd: {{model}} · {{latency}} ms"
+    },
+    "settings_providers_test_placeholder": {
+        "message": "Selecteer een ingeschakeld model om te testen"
+    },
+    "settings_providers_testing": {
+        "message": "{{model}} wordt getest…"
+    },
+    "settings_providers_title": {
+        "message": "AI-providers"
+    },
+    "settings_providers_unsaved": {
+        "message": "Niet-opgeslagen wijzigingen"
+    },
+    "settings_providers_use": {
+        "message": "Deze provider gebruiken"
+    },
+    "settings_providers_yours": {
+        "message": "Je providers"
+    },
+    "settings_service_state_crashed": {
+        "message": "Gecrasht"
+    },
+    "settings_service_state_disabled": {
+        "message": "Uitgeschakeld"
+    },
+    "settings_service_state_pending": {
+        "message": "In afwachting"
+    },
+    "settings_service_state_running": {
+        "message": "Actief"
+    },
+    "settings_service_state_starting": {
+        "message": "Wordt gestart"
+    },
+    "settings_service_state_stopped": {
+        "message": "Gestopt"
+    },
+    "settings_service_state_stopping": {
+        "message": "Wordt gestopt"
+    },
+    "settings_service_state_unhealthy": {
+        "message": "Niet gezond"
+    },
+    "settings_service_state_unknown": {
+        "message": "Onbekend"
+    },
+    "settings_services_advanced_prompt": {
+        "message": "Procesdetails nodig, of services starten en stoppen?"
+    },
+    "settings_services_description": {
+        "message": "Phi draait deze services op de achtergrond zodat AI-functies beschikbaar blijven."
+    },
+    "settings_services_group_services": {
+        "message": "Achtergrondservices"
+    },
+    "settings_services_no_services": {
+        "message": "Geen services gevonden"
+    },
+    "settings_services_restarting": {
+        "message": "De achtergrondservices worden opnieuw gestart. Dit duurt een paar seconden."
+    },
+    "settings_services_retry": {
+        "message": "Opnieuw proberen"
+    },
+    "settings_services_summary_attention_title": {
+        "message": "Sommige services hebben aandacht nodig"
+    },
+    "settings_services_summary_counts": {
+        "message": "{{running}} van {{total}} services actief"
+    },
+    "settings_services_summary_healthy_title": {
+        "message": "Alles werkt"
+    },
+    "settings_services_summary_loading": {
+        "message": "Services controleren…"
+    },
+    "settings_services_summary_offline_description": {
+        "message": "AI-functies die hiervan afhangen, zijn niet beschikbaar tot ze opnieuw starten."
+    },
+    "settings_services_summary_offline_title": {
+        "message": "De achtergrondservices zijn niet actief"
+    },
+    "settings_services_summary_unavailable_description": {
+        "message": "Phi kon hun status niet lezen. Probeer het zo opnieuw."
+    },
+    "settings_services_summary_unavailable_title": {
+        "message": "Kan de achtergrondservices niet bereiken"
+    },
     "shadow_tasks_artifacts_empty": {
         "message": "Geen artefacten beschikbaar"
     },
@@ -2869,6 +4285,699 @@
     },
     "skills_title": {
         "message": "Skills"
+    },
+    "tasks_page_common_actions": {
+        "message": "Acties"
+    },
+    "tasks_page_common_artifacts": {
+        "message": "Artefacten ({{count}})"
+    },
+    "tasks_page_common_back": {
+        "message": "Terug"
+    },
+    "tasks_page_common_cancel": {
+        "message": "Annuleren"
+    },
+    "tasks_page_common_duration": {
+        "message": "Duur"
+    },
+    "tasks_page_common_error": {
+        "message": "Fout"
+    },
+    "tasks_page_common_loading": {
+        "message": "Laden…"
+    },
+    "tasks_page_common_ok": {
+        "message": "OK"
+    },
+    "tasks_page_common_ready": {
+        "message": "Klaar"
+    },
+    "tasks_page_common_refresh": {
+        "message": "Vernieuwen"
+    },
+    "tasks_page_common_result": {
+        "message": "Resultaat"
+    },
+    "tasks_page_common_retry": {
+        "message": "Opnieuw proberen"
+    },
+    "tasks_page_common_schedule": {
+        "message": "Schema"
+    },
+    "tasks_page_common_started": {
+        "message": "Gestart"
+    },
+    "tasks_page_common_started_at": {
+        "message": "Gestart: {{date}}"
+    },
+    "tasks_page_common_state": {
+        "message": "Status"
+    },
+    "tasks_page_common_status": {
+        "message": "Status"
+    },
+    "tasks_page_detail_accessible_label_cancel_current_run": {
+        "message": "Huidige uitvoering annuleren"
+    },
+    "tasks_page_detail_action_cancel_run": {
+        "message": "Uitvoering annuleren"
+    },
+    "tasks_page_detail_action_copy": {
+        "message": "Kopiëren"
+    },
+    "tasks_page_detail_description_no_linked_schedules": {
+        "message": "Geen schema's gekoppeld aan deze taak."
+    },
+    "tasks_page_detail_description_no_result_text_available": {
+        "message": "Geen resultaattekst beschikbaar."
+    },
+    "tasks_page_detail_description_no_run_logs": {
+        "message": "Geen logs ontvangen voor deze uitvoering."
+    },
+    "tasks_page_detail_description_no_runs_yet": {
+        "message": "Nog geen uitvoeringen."
+    },
+    "tasks_page_detail_field_label_cadence": {
+        "message": "Frequentie"
+    },
+    "tasks_page_detail_field_label_last_run": {
+        "message": "Laatste uitvoering"
+    },
+    "tasks_page_detail_field_label_last_trigger": {
+        "message": "Laatste trigger"
+    },
+    "tasks_page_detail_field_label_latest_run": {
+        "message": "Laatste uitvoering"
+    },
+    "tasks_page_detail_field_label_next_run": {
+        "message": "Volgende uitvoering"
+    },
+    "tasks_page_detail_field_label_objective": {
+        "message": "Doel"
+    },
+    "tasks_page_detail_field_label_run_id": {
+        "message": "Uitvoerings-ID"
+    },
+    "tasks_page_detail_field_label_schedule_id": {
+        "message": "Schema-ID"
+    },
+    "tasks_page_detail_field_label_task_id": {
+        "message": "Taak-ID"
+    },
+    "tasks_page_detail_field_label_task_status": {
+        "message": "Taakstatus"
+    },
+    "tasks_page_detail_field_label_title": {
+        "message": "Titel"
+    },
+    "tasks_page_detail_label_failed_to_load_task_detail": {
+        "message": "Kan taakdetails niet laden."
+    },
+    "tasks_page_detail_label_file_artifact": {
+        "message": "Bestand"
+    },
+    "tasks_page_detail_label_generic_artifact": {
+        "message": "Artefact"
+    },
+    "tasks_page_detail_label_hide_run_details": {
+        "message": "Uitvoeringsdetails verbergen"
+    },
+    "tasks_page_detail_label_image_artifact": {
+        "message": "Afbeelding"
+    },
+    "tasks_page_detail_label_load_failure": {
+        "message": "Kan details van geplande taak niet laden."
+    },
+    "tasks_page_detail_label_loading_run_detail": {
+        "message": "Uitvoeringsdetails laden…"
+    },
+    "tasks_page_detail_label_logs": {
+        "message": "Logs"
+    },
+    "tasks_page_detail_label_run_detail_unavailable": {
+        "message": "Uitvoeringsdetails niet beschikbaar."
+    },
+    "tasks_page_detail_label_task_unavailable": {
+        "message": "Taak niet beschikbaar"
+    },
+    "tasks_page_detail_label_unnamed_artifact": {
+        "message": "Naamloos artefact"
+    },
+    "tasks_page_detail_label_video_artifact": {
+        "message": "Video"
+    },
+    "tasks_page_detail_label_view_details": {
+        "message": "Details bekijken"
+    },
+    "tasks_page_detail_label_view_run_details": {
+        "message": "Uitvoeringsdetails bekijken"
+    },
+    "tasks_page_detail_title_recent_runs": {
+        "message": "Recente uitvoeringen"
+    },
+    "tasks_page_detail_title_run_detail": {
+        "message": "Uitvoeringsdetails"
+    },
+    "tasks_page_detail_title_task": {
+        "message": "Taak"
+    },
+    "tasks_page_list_accessible_label_create_task": {
+        "message": "Taak maken"
+    },
+    "tasks_page_list_accessible_label_delete_named_schedule": {
+        "message": "{{schedule}} verwijderen"
+    },
+    "tasks_page_list_accessible_label_delete_named_task": {
+        "message": "{{task}} verwijderen"
+    },
+    "tasks_page_list_accessible_label_edit_named_schedule": {
+        "message": "{{schedule}} bewerken"
+    },
+    "tasks_page_list_accessible_label_edit_named_task": {
+        "message": "{{task}} bewerken"
+    },
+    "tasks_page_list_accessible_label_filter_runs_by_task": {
+        "message": "Uitvoeringen filteren op taak"
+    },
+    "tasks_page_list_accessible_label_manage_task_schedules": {
+        "message": "Schema's voor {{task}} beheren"
+    },
+    "tasks_page_list_accessible_label_manual": {
+        "message": "Handmatig"
+    },
+    "tasks_page_list_accessible_label_optional_details": {
+        "message": "Optionele details"
+    },
+    "tasks_page_list_accessible_label_pause_named_schedule": {
+        "message": "{{schedule}} pauzeren"
+    },
+    "tasks_page_list_accessible_label_resume_named_schedule": {
+        "message": "{{schedule}} hervatten"
+    },
+    "tasks_page_list_accessible_label_run_named_schedule": {
+        "message": "{{schedule}} nu uitvoeren"
+    },
+    "tasks_page_list_accessible_label_scheduled": {
+        "message": "Gepland"
+    },
+    "tasks_page_list_action_delete": {
+        "message": "Verwijderen"
+    },
+    "tasks_page_list_action_delete_schedule": {
+        "message": "Schema verwijderen"
+    },
+    "tasks_page_list_action_delete_task": {
+        "message": "Taak verwijderen"
+    },
+    "tasks_page_list_action_manage_schedules": {
+        "message": "Schema's beheren"
+    },
+    "tasks_page_list_action_save_settings": {
+        "message": "Instellingen opslaan"
+    },
+    "tasks_page_list_action_save_task": {
+        "message": "Taak opslaan"
+    },
+    "tasks_page_list_action_show_all_schedules": {
+        "message": "Alle schema's tonen"
+    },
+    "tasks_page_list_description_active_run_settings": {
+        "message": "Bepaal hoe Phi Agent omgaat met actieve taakuitvoeringen."
+    },
+    "tasks_page_list_description_allowed_timeout_range": {
+        "message": "Toegestaan bereik: {{minimum}} tot {{maximum}}."
+    },
+    "tasks_page_list_description_completed_schedule": {
+        "message": "Dit schema is afgerond en kan niet worden hervat."
+    },
+    "tasks_page_list_description_delete_named": {
+        "message": "Hiermee verwijder je <target>{{name}}</target>."
+    },
+    "tasks_page_list_description_empty_state_guidance": {
+        "message": "Maak een taak om het werk van Phi Agent te volgen."
+    },
+    "tasks_page_list_description_expired_schedule": {
+        "message": "Dit schema is verlopen. Pas de tijdsinstellingen aan voordat je het hervat."
+    },
+    "tasks_page_list_description_failed_to_load_scheduled_tasks": {
+        "message": "Kan geplande taken niet laden"
+    },
+    "tasks_page_list_description_filtered_run_count": {
+        "message": "Getoonde uitvoeringen: {{filtered}} / {{total}}"
+    },
+    "tasks_page_list_description_load_failure": {
+        "message": "De taken kunnen op dit moment niet worden geladen. Vernieuw deze pagina om het opnieuw te proberen."
+    },
+    "tasks_page_list_description_minimum_character_count": {
+        "message": "Minimaal {{count}} tekens."
+    },
+    "tasks_page_list_description_no_objective": {
+        "message": "Geen doel"
+    },
+    "tasks_page_list_description_no_runs_for_this_task": {
+        "message": "Geen uitvoeringen voor deze taak"
+    },
+    "tasks_page_list_description_no_schedules_yet": {
+        "message": "Nog geen schema's"
+    },
+    "tasks_page_list_description_no_task_runs_yet": {
+        "message": "Nog geen taakuitvoeringen"
+    },
+    "tasks_page_list_description_no_tasks_yet": {
+        "message": "Nog geen taken"
+    },
+    "tasks_page_list_description_objective_minimum_length": {
+        "message": "Het doel moet minimaal {{count}} tekens bevatten"
+    },
+    "tasks_page_list_description_objective_required": {
+        "message": "Doel is verplicht"
+    },
+    "tasks_page_list_description_objective_validation": {
+        "message": "Een doel is verplicht. Beschrijving en naamgeving staan bij de optionele details."
+    },
+    "tasks_page_list_description_optional_title_limit": {
+        "message": "Optioneel. Maximaal {{count}} tekens. Als je dit leeg laat, wordt de titel gegenereerd op basis van het doel."
+    },
+    "tasks_page_list_description_overview": {
+        "message": "Taken en uitvoeringen van Phi Agent."
+    },
+    "tasks_page_list_description_pause_schedule": {
+        "message": "Pauzeer toekomstige automatische uitvoeringen. Een al gestarte uitvoering loopt door."
+    },
+    "tasks_page_list_description_phi_agent_is_not_running": {
+        "message": "Phi Agent is niet actief"
+    },
+    "tasks_page_list_description_resume_schedule": {
+        "message": "Hervat automatische uitvoeringen en bereken het tijdstip van de volgende uitvoering."
+    },
+    "tasks_page_list_description_schedule_type_guidance": {
+        "message": "Kies eerst de eenvoudigste timingoptie. Gebruik cron alleen voor kalenderachtige schema's."
+    },
+    "tasks_page_list_description_service_recovery": {
+        "message": "Start Phi Agent en vernieuw daarna deze pagina om taken te laden."
+    },
+    "tasks_page_list_description_task_timeout_behavior": {
+        "message": "Markeer een lopende taak als mislukt zodra deze duur wordt overschreden."
+    },
+    "tasks_page_list_description_task_unavailable": {
+        "message": "De taak is niet beschikbaar. Controleer de taakstatus voordat je hervat."
+    },
+    "tasks_page_list_description_timezone_fallback": {
+        "message": "Optioneel. Laat dit leeg om de lokale tijdzone te gebruiken van het apparaat waarop Phi Agent draait."
+    },
+    "tasks_page_list_description_unscheduled_task_behavior": {
+        "message": "Deze taak heeft geen schema. Start de taak handmatig of laat Phi Agent deze starten wanneer dat nodig is."
+    },
+    "tasks_page_list_field_label_delete_schedule": {
+        "message": "Schema verwijderen"
+    },
+    "tasks_page_list_field_label_delete_task": {
+        "message": "Taak verwijderen"
+    },
+    "tasks_page_list_field_label_edit_schedule": {
+        "message": "Schema bewerken"
+    },
+    "tasks_page_list_field_label_edit_task": {
+        "message": "Taak bewerken"
+    },
+    "tasks_page_list_field_label_run_now": {
+        "message": "Nu uitvoeren"
+    },
+    "tasks_page_list_label_all_tasks": {
+        "message": "Alle taken"
+    },
+    "tasks_page_list_label_api_source": {
+        "message": "API"
+    },
+    "tasks_page_list_label_artifact_count": {
+        "message": "{{count}} artefact(en)"
+    },
+    "tasks_page_list_label_calendar_schedule": {
+        "message": "Kalenderschema"
+    },
+    "tasks_page_list_label_chatbar_source": {
+        "message": "Chatbar"
+    },
+    "tasks_page_list_label_cron": {
+        "message": "Cron"
+    },
+    "tasks_page_list_label_cron_expression": {
+        "message": "Cron-expressie"
+    },
+    "tasks_page_list_label_day": {
+        "message": "dag"
+    },
+    "tasks_page_list_label_days": {
+        "message": "dagen"
+    },
+    "tasks_page_list_label_default_task_title": {
+        "message": "Geplande taak"
+    },
+    "tasks_page_list_label_delete_cascade_warning": {
+        "message": "De taak, gekoppelde schema's en bijbehorende uitvoeringen worden verwijderd uit de weergaven Taken, Schema's en Uitvoeringen."
+    },
+    "tasks_page_list_label_every": {
+        "message": "Elke"
+    },
+    "tasks_page_list_label_every_interval": {
+        "message": "Elke {{count}} {{unit}}"
+    },
+    "tasks_page_list_label_every_unit": {
+        "message": "Intervaleenheid"
+    },
+    "tasks_page_list_label_every_value": {
+        "message": "Intervalwaarde"
+    },
+    "tasks_page_list_label_hour_lowercase": {
+        "message": "uur"
+    },
+    "tasks_page_list_label_hours": {
+        "message": "uur"
+    },
+    "tasks_page_list_label_interval": {
+        "message": "Interval"
+    },
+    "tasks_page_list_label_last_status": {
+        "message": "Laatste: {{status}}"
+    },
+    "tasks_page_list_label_manual_source": {
+        "message": "Handmatig"
+    },
+    "tasks_page_list_label_minute_lowercase": {
+        "message": "minuut"
+    },
+    "tasks_page_list_label_minutes": {
+        "message": "minuten"
+    },
+    "tasks_page_list_label_next_scheduled_run": {
+        "message": "Volgende: {{time}}"
+    },
+    "tasks_page_list_label_no_current_run": {
+        "message": "Geen actieve uitvoering"
+    },
+    "tasks_page_list_label_no_schedule_start_when_needed": {
+        "message": "Geen schema. Start wanneer nodig."
+    },
+    "tasks_page_list_label_once": {
+        "message": "Eenmalig"
+    },
+    "tasks_page_list_label_once_at": {
+        "message": "Eenmalig op {{date}}"
+    },
+    "tasks_page_list_label_one_time": {
+        "message": "Eenmalig"
+    },
+    "tasks_page_list_label_one_time_schedule": {
+        "message": "Eenmalig schema"
+    },
+    "tasks_page_list_label_optional": {
+        "message": "Optioneel"
+    },
+    "tasks_page_list_label_recording": {
+        "message": "Opname"
+    },
+    "tasks_page_list_label_recording_with_extra": {
+        "message": "Opname +{{count}}"
+    },
+    "tasks_page_list_label_repeating_schedule": {
+        "message": "Herhalend schema"
+    },
+    "tasks_page_list_label_run_at": {
+        "message": "Uitvoeren op"
+    },
+    "tasks_page_list_label_run_status": {
+        "message": "Uitvoeringsstatus"
+    },
+    "tasks_page_list_label_running_timeout": {
+        "message": "Time-out voor uitvoering"
+    },
+    "tasks_page_list_label_running_timeout_value": {
+        "message": "Time-out voor uitvoering: {{value}}"
+    },
+    "tasks_page_list_label_runs": {
+        "message": "Uitvoeringen"
+    },
+    "tasks_page_list_label_runs_automatically_on_aschedule": {
+        "message": "Wordt automatisch uitgevoerd volgens een schema."
+    },
+    "tasks_page_list_label_schedule_count": {
+        "message": "{{count}} schema('s)"
+    },
+    "tasks_page_list_label_schedule_description": {
+        "message": "Schemabeschrijving"
+    },
+    "tasks_page_list_label_schedule_name": {
+        "message": "Schemanaam"
+    },
+    "tasks_page_list_label_schedule_source": {
+        "message": "Schema"
+    },
+    "tasks_page_list_label_schedule_type": {
+        "message": "Schematype"
+    },
+    "tasks_page_list_label_schedules": {
+        "message": "Schema's"
+    },
+    "tasks_page_list_label_schedules_for_task": {
+        "message": "Schema's voor {{task}}"
+    },
+    "tasks_page_list_label_second": {
+        "message": "seconde"
+    },
+    "tasks_page_list_label_seconds": {
+        "message": "seconden"
+    },
+    "tasks_page_list_label_started_by": {
+        "message": "Gestart door"
+    },
+    "tasks_page_list_label_task_description": {
+        "message": "Taakbeschrijving"
+    },
+    "tasks_page_list_label_task_source": {
+        "message": "Taak"
+    },
+    "tasks_page_list_label_task_title": {
+        "message": "Taaktitel"
+    },
+    "tasks_page_list_label_task_type": {
+        "message": "Taaktype"
+    },
+    "tasks_page_list_label_task_unavailable": {
+        "message": "Taak niet beschikbaar"
+    },
+    "tasks_page_list_label_time_zone": {
+        "message": "Tijdzone"
+    },
+    "tasks_page_list_label_timeout_hours": {
+        "message": "{{count}} uur"
+    },
+    "tasks_page_list_label_timeout_minutes": {
+        "message": "{{count}} minuut(en)"
+    },
+    "tasks_page_list_label_unscheduled_task_list_notice": {
+        "message": "De taak verschijnt in Taken met de badge 'Geen schema'."
+    },
+    "tasks_page_list_label_updated": {
+        "message": "Bijgewerkt"
+    },
+    "tasks_page_list_label_use_local_timezone": {
+        "message": "Lokale tijdzone gebruiken"
+    },
+    "tasks_page_list_label_user_source": {
+        "message": "Gebruiker"
+    },
+    "tasks_page_list_status_active": {
+        "message": "Actief"
+    },
+    "tasks_page_list_status_archived": {
+        "message": "Gearchiveerd"
+    },
+    "tasks_page_list_status_cancelled": {
+        "message": "Geannuleerd"
+    },
+    "tasks_page_list_status_completed": {
+        "message": "Voltooid"
+    },
+    "tasks_page_list_status_disabled": {
+        "message": "Uitgeschakeld"
+    },
+    "tasks_page_list_status_failed": {
+        "message": "Mislukt"
+    },
+    "tasks_page_list_status_missed": {
+        "message": "Gemist"
+    },
+    "tasks_page_list_status_no_schedule": {
+        "message": "Geen schema"
+    },
+    "tasks_page_list_status_not_started": {
+        "message": "Niet gestart"
+    },
+    "tasks_page_list_status_paused": {
+        "message": "Gepauzeerd"
+    },
+    "tasks_page_list_status_queued": {
+        "message": "In wachtrij"
+    },
+    "tasks_page_list_status_running_now": {
+        "message": "Wordt nu uitgevoerd"
+    },
+    "tasks_page_list_status_scheduled": {
+        "message": "Gepland"
+    },
+    "tasks_page_list_status_skipped": {
+        "message": "Overgeslagen"
+    },
+    "tasks_page_list_title_delete": {
+        "message": "Verwijderen?"
+    },
+    "tasks_page_list_title_delete_schedule": {
+        "message": "Schema verwijderen?"
+    },
+    "tasks_page_list_title_delete_task": {
+        "message": "Taak verwijderen?"
+    },
+    "tasks_page_list_title_edit_scheduled_task": {
+        "message": "Geplande taak bewerken"
+    },
+    "tasks_page_list_title_edit_task": {
+        "message": "Taak bewerken"
+    },
+    "tasks_page_list_title_new_task": {
+        "message": "Nieuwe taak"
+    },
+    "tasks_page_list_title_run_behavior": {
+        "message": "Uitvoeringsgedrag"
+    },
+    "tasks_page_list_title_task_settings": {
+        "message": "Taakinstellingen"
+    },
+    "tasks_page_list_title_tasks": {
+        "message": "Taken"
+    },
+    "tasks_page_list_validation_cron_invalid": {
+        "message": "Voer een geldige cron-expressie met 5 velden in"
+    },
+    "tasks_page_list_validation_cron_required": {
+        "message": "Cron-expressie is verplicht"
+    },
+    "tasks_page_list_validation_date_time_invalid": {
+        "message": "Voer een geldige datum en tijd in"
+    },
+    "tasks_page_list_validation_interval_positive": {
+        "message": "Interval moet een positief getal zijn"
+    },
+    "tasks_page_list_validation_run_at_future": {
+        "message": "'Uitvoeren op' moet in de toekomst liggen"
+    },
+    "tasks_page_list_validation_run_at_required": {
+        "message": "'Uitvoeren op' is verplicht"
+    },
+    "tasks_page_list_validation_run_at_within_five_years": {
+        "message": "'Uitvoeren op' moet binnen 5 jaar liggen"
+    },
+    "tasks_page_list_validation_timeout_range": {
+        "message": "De time-out moet tussen {{minimum}} en {{maximum}} liggen."
+    },
+    "tasks_page_nav_label": {
+        "message": "Takenbeheer"
+    },
+    "tasks_page_preview_description_failed": {
+        "message": "Kan geen voorbeeld van dit bestand tonen. Het is mogelijk niet beschikbaar, groter dan 128 MB of in een niet-ondersteunde indeling."
+    },
+    "tasks_page_preview_label_preview": {
+        "message": "Voorbeeld"
+    },
+    "tasks_page_toast_no_active_run": {
+        "message": "Geen actieve uitvoering om te annuleren"
+    },
+    "tasks_page_toast_run_cancel_failed": {
+        "message": "Annuleren van uitvoering mislukt"
+    },
+    "tasks_page_toast_run_cancelled": {
+        "message": "Uitvoering geannuleerd"
+    },
+    "tasks_page_toast_run_failed": {
+        "message": "Uitvoeren van taak mislukt"
+    },
+    "tasks_page_toast_run_started": {
+        "message": "Uitvoering gestart"
+    },
+    "tasks_page_toast_schedule_create_partial_failure": {
+        "message": "Taak aangemaakt, maar het aanmaken van het schema is mislukt"
+    },
+    "tasks_page_toast_schedule_delete_failed": {
+        "message": "Verwijderen van schema mislukt"
+    },
+    "tasks_page_toast_schedule_deleted": {
+        "message": "Schema verwijderd"
+    },
+    "tasks_page_toast_schedule_pause_failed": {
+        "message": "Pauzeren van schema mislukt"
+    },
+    "tasks_page_toast_schedule_paused": {
+        "message": "Schema gepauzeerd"
+    },
+    "tasks_page_toast_schedule_resume_completed": {
+        "message": "Dit schema is beëindigd; er zijn geen verdere uitvoeringen gepland."
+    },
+    "tasks_page_toast_schedule_resume_failed": {
+        "message": "Hervatten van schema mislukt"
+    },
+    "tasks_page_toast_schedule_resume_no_next_run": {
+        "message": "Er is geen volgende uitvoering gepland. Controleer de tijdsinstellingen van het schema."
+    },
+    "tasks_page_toast_schedule_resumed": {
+        "message": "Schema hervat"
+    },
+    "tasks_page_toast_schedule_run_failed": {
+        "message": "Direct uitvoeren van schema mislukt"
+    },
+    "tasks_page_toast_schedule_run_started": {
+        "message": "Geplande uitvoering gestart"
+    },
+    "tasks_page_toast_scheduled_task_create_failed": {
+        "message": "Aanmaken van geplande taak mislukt"
+    },
+    "tasks_page_toast_scheduled_task_created": {
+        "message": "Geplande taak aangemaakt"
+    },
+    "tasks_page_toast_scheduled_task_update_failed": {
+        "message": "Bijwerken van geplande taak mislukt"
+    },
+    "tasks_page_toast_scheduled_task_updated": {
+        "message": "Geplande taak bijgewerkt"
+    },
+    "tasks_page_toast_settings_update_failed": {
+        "message": "Bijwerken van taakinstellingen mislukt"
+    },
+    "tasks_page_toast_settings_updated": {
+        "message": "Taakinstellingen bijgewerkt"
+    },
+    "tasks_page_toast_task_create_failed": {
+        "message": "Aanmaken van taak mislukt"
+    },
+    "tasks_page_toast_task_created": {
+        "message": "Taak aangemaakt"
+    },
+    "tasks_page_toast_task_delete_failed": {
+        "message": "Verwijderen van taak mislukt"
+    },
+    "tasks_page_toast_task_deleted": {
+        "message": "Taak verwijderd"
+    },
+    "tasks_page_toast_task_update_failed": {
+        "message": "Bijwerken van taak mislukt"
+    },
+    "tasks_page_toast_task_update_partial_failure": {
+        "message": "Schema bijgewerkt, maar het bijwerken van de taak is mislukt"
+    },
+    "tasks_page_toast_task_updated": {
+        "message": "Taak bijgewerkt"
+    },
+    "tasks_page_toast_unknown_error": {
+        "message": "Onbekende fout"
     },
     "theme_dark": {
         "message": "Donker"
