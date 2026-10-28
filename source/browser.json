@@ -343,6 +343,10 @@
         "message": "AI data was not included because Sentinel returned an unexpected file. Only browser data was backed up.",
         "description": "Location: Browser. User data export - Warning when the prepared AI data archive is invalid but browser data was backed up"
     },
+    "ai_features": {
+        "message": "AI features",
+        "description": "Location: Browser. Guest confirmation - AI features requiring sign-in"
+    },
     "ai_sidebar": {
         "message": "AI Sidebar",
         "description": "Location: Browser. AI settings - Section title for AI sidebar options"
@@ -362,6 +366,10 @@
     "all_agents_37709b": {
         "message": "All agents",
         "description": "Location: Browser. Developer settings - Menu item installing the skill for every agent"
+    },
+    "all_browser_features_including_tabs_profiles_spaces": {
+        "message": "All browser features, including Tabs, Profiles, Spaces and Developer Tools",
+        "description": "Location: Browser. Guest confirmation - Description of features available without signing in"
     },
     "all_connected_connectors_will_be_disconnected": {
         "message": "All connected Connectors will be disconnected.",
@@ -506,6 +514,10 @@
     "analogous_colors": {
         "message": "Analogous colors",
         "description": "Location: Browser. Theme editor - select two linked neighboring colors separated by 45 degrees"
+    },
+    "and_much_more": {
+        "message": "and much more",
+        "description": "Location: Browser. Guest confirmation - Additional features available after sign-in"
     },
     "and_will_be_deleted": {
         "message": "%1$@ and %2$@ will be deleted.",
@@ -659,6 +671,10 @@
         "message": "Automatically peek from pinned tabs and bookmarks",
         "description": "Location: Browser. Navigations settings - Toggle title for automatically opening cross-site links from pinned tabs and bookmarks in Peek View"
     },
+    "available_now": {
+        "message": "Available now",
+        "description": "Location: Browser. Guest confirmation - Heading for features available without signing in"
+    },
     "back": {
         "message": "Back",
         "description": "Location: Browser. CDP consent - return from the deny scope step to the allow-or-deny decision"
@@ -666,6 +682,10 @@
     "back_10_seconds": {
         "message": "Back 10 seconds",
         "description": "Location: Browser. Sidebar media player - Seek backward ten seconds"
+    },
+    "back_3ac993": {
+        "message": "Back",
+        "description": "Location: Browser. OOBE navigation - Button to return to the previous step"
     },
     "back_6817d2": {
         "message": "Back",
@@ -934,6 +954,10 @@
     "browser_memory_93aff0": {
         "message": "Browser memory",
         "description": "Location: Browser. AI settings - Section title for browser memory management"
+    },
+    "browser_memory_b73dc9": {
+        "message": "Browser Memory",
+        "description": "Location: Browser. Guest confirmation - Browser Memory feature requiring sign-in"
     },
     "browser_memory_c46ff0": {
         "message": "Browser Memory",
@@ -3643,6 +3667,10 @@
         "message": "Full control of this browser",
         "description": "Location: Browser. CDP consent - headline naming what agent access grants"
     },
+    "full_fledged_browser": {
+        "message": "Full-fledged browser",
+        "description": "Location: Browser. Guest confirmation - Title of the available browser features"
+    },
     "full_page_screenshot_copied": {
         "message": "Full page screenshot copied",
         "description": "Location: Browser. Screenshot - Success toast after copying the PNG to the clipboard"
@@ -3791,6 +3819,10 @@
         "message": "Hold Command and Option while clicking a link to open it in a Kiosk window.",
         "description": "Location: Browser. Navigations settings - Explanation of the Command-Option Kiosk toggle"
     },
+    "hold_to_add_split": {
+        "message": "Hold ⌘ to add split",
+        "description": "Location: Browser. Omnibox suggestion - Hint shown for an open-tab suggestion while choosing the second pane of a new split; holding Command pairs that open tab into the split"
+    },
     "hold_to_switch": {
         "message": "Hold ⌘ to switch →",
         "description": "Location: Browser. Omnibox suggestion - Hint shown for suggestions that can switch to an open tab"
@@ -3824,8 +3856,8 @@
         "description": "Location: Browser. "
     },
     "i_agree_to_the_and": {
-        "message": "I agree to the %1$@ and %2$@",
-        "description": "Location: Browser. Guest privacy confirmation - Required legal agreement; first placeholder is the Privacy Policy link and second is the Terms of Service link"
+        "message": "I agree to the %2$@ and %1$@",
+        "description": "Location: Browser. Guest privacy confirmation - Required legal agreement; first placeholder is the Privacy Policy link and second is the Terms of Use link"
     },
     "i_agree_to_the_and_e21b1f": {
         "message": "I agree to the %1$@ and %2$@",
@@ -4188,11 +4220,11 @@
         "description": "Location: Browser. Bookmark editor - Label for the left (primary) URL input field on a split-view bookmark"
     },
     "let_s_begin": {
-        "message": "Let's Begin",
+        "message": "Let’s begin",
         "description": "Location: Browser. Guest privacy confirmation - Button that confirms the choices and enters Guest Mode"
     },
     "let_s_begin_7de7eb": {
-        "message": "Let's Begin",
+        "message": "Let's begin",
         "description": "Location: Browser. Onboarding next steps - Final button that completes onboarding"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
@@ -5347,6 +5379,10 @@
         "message": "Open a new tab.",
         "description": "Location: Browser. Shortcuts settings - Description of the newTab command"
     },
+    "open_a_new_tab_in_split_view": {
+        "message": "Open a new tab in Split View next to the current tab.",
+        "description": "Location: Browser. Shortcuts settings - Description of the splitWithNewTab command"
+    },
     "open_a_new_tab_to_the_right": {
         "message": "Open a new tab to the right of the current tab.",
         "description": "Location: Browser. Shortcuts settings - Description of the newTabToRight command"
@@ -5944,7 +5980,7 @@
         "description": "Location: Browser. Shortcuts settings - Title of a browser shortcut"
     },
     "privacy": {
-        "message": "Privacy",
+        "message": "Privacy Policy",
         "description": "Location: Browser. Onboarding next steps - Link title for the Phi privacy policy"
     },
     "privacy_and_security": {
@@ -6054,6 +6090,10 @@
     "randomize": {
         "message": "Randomize",
         "description": "Location: Browser. Onboarding membership card - Randomly choose a theme, background texture and ornament"
+    },
+    "randomize_df9283": {
+        "message": "Randomize",
+        "description": "Location: Browser. Account settings - Randomly choose a profile card theme, background texture and ornament"
     },
     "reader_view": {
         "message": "Reader View",
@@ -6394,6 +6434,10 @@
     "request_expired": {
         "message": "Request expired",
         "description": "Location: Browser. Sync setup - title shown when this device's join request timed out"
+    },
+    "requires_a_phi_account_and_sign_in": {
+        "message": "Requires a Phi account and sign-in",
+        "description": "Location: Browser. Guest confirmation - Heading for features that require signing in"
     },
     "resend_code": {
         "message": "Resend Code",
@@ -7267,6 +7311,10 @@
         "message": "Sign in",
         "description": "Location: Browser. Bitwarden sign-in sheet - Password step title"
     },
+    "sign_in_instead": {
+        "message": "Sign in instead",
+        "description": "Location: Browser. Guest confirmation - Button returning to the sign-in page"
+    },
     "sign_in_to_manage_devices": {
         "message": "Sign in to manage devices.",
         "description": "Location: Browser. Devices - signed out"
@@ -7494,6 +7542,14 @@
     "split_with_current": {
         "message": "Split with Current",
         "description": "Location: Browser. Tab context menu - Pair this tab with the currently focused tab in a split"
+    },
+    "split_with_new_tab": {
+        "message": "Split with New Tab",
+        "description": "Location: Browser. Tab menu - Open a new tab in Split View next to the current tab"
+    },
+    "split_with_new_tab_c95dd5": {
+        "message": "Split with New Tab",
+        "description": "Location: Browser. Shortcuts settings - Command title for opening a new tab in Split View next to the current tab"
     },
     "standing_approvals": {
         "message": "Standing approvals",
@@ -7732,11 +7788,11 @@
         "description": "Location: Browser. Phi Link - Official bot connected label"
     },
     "terms": {
-        "message": "Terms",
+        "message": "Terms of Use",
         "description": "Location: Browser. Onboarding next steps - Link title for the Phi terms of service"
     },
     "terms_of_service": {
-        "message": "Terms of Service",
+        "message": "Terms of Use",
         "description": "Location: Browser. Guest privacy confirmation - Link title for the Phi terms of service"
     },
     "text": {
@@ -8759,6 +8815,10 @@
         "message": "Window",
         "description": "Location: Browser. Shortcuts settings - Section title for window commands"
     },
+    "working": {
+        "message": "Working",
+        "description": "Location: Browser. Notification card - Status beside the agent avatar while the agent is still working on a task"
+    },
     "www_example_com": {
         "message": "www.example.com",
         "description": "Location: Browser. URL rule value placeholder for Domain match"
@@ -8830,6 +8890,10 @@
     "your_card_could_not_be_saved_please": {
         "message": "Your card could not be saved. Please try again.",
         "description": "Location: Browser. Onboarding membership card - Error when the selected card style cannot be saved"
+    },
+    "your_card_could_not_be_saved_please_b369e7": {
+        "message": "Your card could not be saved. Please try again.",
+        "description": "Location: Browser. Account settings - Error when the randomized profile card style cannot be saved"
     },
     "your_current_pinned_tabs_will_be_copied": {
         "message": "Your current pinned tabs will be copied into each existing destination. The copies can then be changed independently.",

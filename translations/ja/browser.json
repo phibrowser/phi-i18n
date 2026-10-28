@@ -257,6 +257,9 @@
     "ai_data_was_not_included_because_sentinel_df9cfd": {
         "message": "Sentinelが予期しないファイルを返したため、AIデータは含まれていません。ブラウザデータのみバックアップされました。"
     },
+    "ai_features": {
+        "message": "AI機能"
+    },
     "ai_sidebar": {
         "message": "AIサイドバー"
     },
@@ -271,6 +274,9 @@
     },
     "all_agents_37709b": {
         "message": "すべてのエージェント"
+    },
+    "all_browser_features_including_tabs_profiles_spaces": {
+        "message": "タブ、プロファイル、スペース、デベロッパーツールなど、すべてのブラウザ機能"
     },
     "all_connected_connectors_will_be_disconnected": {
         "message": "接続されているコネクタはすべて切断されます。"
@@ -379,6 +385,9 @@
     },
     "analogous_colors": {
         "message": "類似色"
+    },
+    "and_much_more": {
+        "message": "その他多数"
     },
     "and_will_be_deleted": {
         "message": "%1$@と%2$@が削除されます。"
@@ -494,11 +503,17 @@
     "automatically_peek_from_pinned_tabs_and_bookmarks": {
         "message": "固定タブとブックマークから自動的にPeekビューで開く"
     },
+    "available_now": {
+        "message": "今すぐ利用可能"
+    },
     "back": {
         "message": "戻る"
     },
     "back_10_seconds": {
         "message": "10秒前にスキップ"
+    },
+    "back_3ac993": {
+        "message": "戻る"
     },
     "back_6817d2": {
         "message": "戻る"
@@ -699,6 +714,9 @@
         "message": "ブラウザメモリ"
     },
     "browser_memory_93aff0": {
+        "message": "ブラウザメモリ"
+    },
+    "browser_memory_b73dc9": {
         "message": "ブラウザメモリ"
     },
     "browser_memory_c46ff0": {
@@ -2732,6 +2750,9 @@
     "full_control_of_this_browser": {
         "message": "このブラウザの完全な操作権限"
     },
+    "full_fledged_browser": {
+        "message": "フル機能のブラウザ"
+    },
     "full_page_screenshot_copied": {
         "message": "ページ全体のスクリーンショットをコピーしました"
     },
@@ -2843,6 +2864,9 @@
     "hold_command_and_option_while_clicking_a": {
         "message": "CommandキーとOptionキーを押しながらリンクをクリックすると、そのリンクがKioskウインドウで開きます。"
     },
+    "hold_to_add_split": {
+        "message": "⌘を押したまま分割表示に追加"
+    },
     "hold_to_switch": {
         "message": "⌘を押したまま切り替え →"
     },
@@ -2868,7 +2892,7 @@
         "message": "https://vault.example.com"
     },
     "i_agree_to_the_and": {
-        "message": "%1$@と%2$@に同意します"
+        "message": "%2$@と%1$@に同意します"
     },
     "i_agree_to_the_and_e21b1f": {
         "message": "%1$@と%2$@に同意します"
@@ -4010,6 +4034,9 @@
     "open_a_new_tab": {
         "message": "新しいタブを開きます。"
     },
+    "open_a_new_tab_in_split_view": {
+        "message": "現在のタブの横に新しいタブを分割表示で開きます。"
+    },
     "open_a_new_tab_to_the_right": {
         "message": "現在のタブの右側に新しいタブを開きます。"
     },
@@ -4458,7 +4485,7 @@
         "message": "ビュー階層の詳細を出力"
     },
     "privacy": {
-        "message": "プライバシー"
+        "message": "プライバシーポリシー"
     },
     "privacy_and_security": {
         "message": "プライバシーとセキュリティ"
@@ -4539,6 +4566,9 @@
         "message": "Phiを終了します。"
     },
     "randomize": {
+        "message": "ランダムに選択"
+    },
+    "randomize_df9283": {
         "message": "ランダムに選択"
     },
     "reader_view": {
@@ -4795,6 +4825,9 @@
     },
     "request_expired": {
         "message": "リクエストの期限が切れました"
+    },
+    "requires_a_phi_account_and_sign_in": {
+        "message": "Phiアカウントとログインが必要"
     },
     "resend_code": {
         "message": "コードを再送信"
@@ -5450,6 +5483,9 @@
     "sign_in_f425c4": {
         "message": "ログイン"
     },
+    "sign_in_instead": {
+        "message": "ログインに戻る"
+    },
     "sign_in_to_manage_devices": {
         "message": "デバイスを管理するにはサインインしてください。"
     },
@@ -5620,6 +5656,12 @@
     },
     "split_with_current": {
         "message": "現在のタブと分割表示にする"
+    },
+    "split_with_new_tab": {
+        "message": "新しいタブと分割表示にする"
+    },
+    "split_with_new_tab_c95dd5": {
+        "message": "新しいタブと分割表示にする"
     },
     "standing_approvals": {
         "message": "常時許可"
@@ -6569,6 +6611,9 @@
     "window": {
         "message": "ウインドウ"
     },
+    "working": {
+        "message": "作業中"
+    },
     "www_example_com": {
         "message": "www.example.com"
     },
@@ -6621,6 +6666,9 @@
         "message": "回答の対象は「%@」です。上のいずれかの行を選択すると、代わりにそれを起動したプロセスを対象に回答できます。"
     },
     "your_card_could_not_be_saved_please": {
+        "message": "カードを保存できませんでした。もう一度お試しください。"
+    },
+    "your_card_could_not_be_saved_please_b369e7": {
         "message": "カードを保存できませんでした。もう一度お試しください。"
     },
     "your_current_pinned_tabs_will_be_copied": {
