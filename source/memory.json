@@ -1299,6 +1299,10 @@
         "message": "Based on {{count}} memories · {{range}}",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Line on the story card saying how many memories it is based on; {{count}} is the localized memory count and {{range}} is the localized date range of those memories."
     },
+    "memory_management_nebula_story_evidence_toggle": {
+        "message": "Based on <toggle>{{count}} memories</toggle> · {{range}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The same line as evidence, shown when the story's memories can be listed; the part inside <toggle>…</toggle> is the button that opens the list. Keep the tag around the memory count phrase; {{count}} is the localized memory count and {{range}} is the localized date range."
+    },
     "memory_management_nebula_story_eyebrow": {
         "message": "A story for you",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Small label above the story card's headline."
@@ -1550,6 +1554,10 @@
     "memory_management_nebula_story_reopen": {
         "message": "Show story",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Chip shown after the story card is collapsed; selecting it reopens the card."
+    },
+    "memory_management_nebula_story_stars_label": {
+        "message": "The memories in this story",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Screen-reader label for the list of the memories the story cites, which opens from the 'Based on N memories' line on the story card."
     },
     "memory_management_nebula_story_written_on": {
         "message": "Written on {{date}}",
