@@ -1555,6 +1555,66 @@
         "message": "Show story",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Chip shown after the story card is collapsed; selecting it reopens the card."
     },
+    "memory_management_nebula_story_stack_back_to_first": {
+        "message": "Back to the first",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Button on the closing card that goes back to the first letter."
+    },
+    "memory_management_nebula_story_stack_dot": {
+        "message": "Letter {{index}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Screen-reader label for a pager dot that opens a letter already read; {{index}} is its place."
+    },
+    "memory_management_nebula_story_stack_dot_end": {
+        "message": "End of the letters",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Screen-reader label for the last pager dot, which opens the closing card."
+    },
+    "memory_management_nebula_story_stack_dot_unread": {
+        "message": "Letter {{index}}, unread",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Screen-reader label for a pager dot that opens an unread letter; {{index}} is its place."
+    },
+    "memory_management_nebula_story_stack_end_body": {
+        "message": "New stories will arrive as you keep browsing.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Line on the closing card: more letters will be written from future browsing; promise no time."
+    },
+    "memory_management_nebula_story_stack_end_title": {
+        "message": "All read for now.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Heading of the closing card shown after the last letter."
+    },
+    "memory_management_nebula_story_stack_next": {
+        "message": "Next letter",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Screen-reader label for the button that shows the next letter."
+    },
+    "memory_management_nebula_story_stack_pager_label": {
+        "message": "Letters",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Screen-reader label for the row of controls that pages through the letters."
+    },
+    "memory_management_nebula_story_stack_pill_all": {
+        "message": "Letters: {{count}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Collapsed story pill once every letter is read, written as a label followed by the count so the wording never depends on the number; {{count}} is how many letters there are."
+    },
+    "memory_management_nebula_story_stack_pill_unread": {
+        "message": "Unread letters: {{count}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Collapsed story pill when some letters are unread, written as a label followed by the count so the wording never depends on the number; {{count}} is how many letters are unread. A count badge sits beside it."
+    },
+    "memory_management_nebula_story_stack_position": {
+        "message": "{{index}} / {{total}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Which letter is on show in the stack, as in '3 / 8'; {{index}} is its place and {{total}} the number of letters."
+    },
+    "memory_management_nebula_story_stack_position_end": {
+        "message": "End / {{total}}",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Pager text on the closing card after the last letter, as in 'End / 12'; {{total}} is the number of letters."
+    },
+    "memory_management_nebula_story_stack_previous": {
+        "message": "Previous letter",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Screen-reader label for the button that shows the previous letter."
+    },
+    "memory_management_nebula_story_stack_unread": {
+        "message": "Unread",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Tooltip on the dot beside a letter the reader has not read yet."
+    },
+    "memory_management_nebula_story_stack_unread_count": {
+        "message": "{{count}} unread",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Pager text beside the position when there are many letters; {{count}} is how many are unread."
+    },
     "memory_management_nebula_story_stars_label": {
         "message": "The memories in this story",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Screen-reader label for the list of the memories the story cites, which opens from the 'Based on N memories' line on the story card."
