@@ -525,7 +525,7 @@
         "message": "Eu"
     },
     "memory_management_galaxy_node_types_skill": {
-        "message": "Habilidade"
+        "message": "Skill"
     },
     "memory_management_galaxy_node_types_theme": {
         "message": "Tema"
@@ -552,7 +552,7 @@
         "message": "Ajustar automaticamente"
     },
     "memory_management_galaxy_options_automatic_detail": {
-        "message": "Reduz a resolução e o trabalho de simulação quando os quadros ficam lentos; o Médio também simplifica o arrastar e o zoom em grafos densos."
+        "message": "Reduz o trabalho de simulação quando os quadros ficam lentos em grafos densos; o Médio também simplifica o arrastar e o zoom em grafos densos."
     },
     "memory_management_galaxy_options_close": {
         "message": "Fechar opções da Galáxia de memórias"
@@ -570,7 +570,7 @@
         "message": "Resolução {{scale}}× · medindo"
     },
     "memory_management_galaxy_options_galaxy_view": {
-        "message": "Visualização da galáxia"
+        "message": "Visualizar galáxia"
     },
     "memory_management_galaxy_options_galaxy_view_detail": {
         "message": "Escolha quanto contexto de relações e detalhe visual a Galáxia mostra."
@@ -582,13 +582,13 @@
         "message": "Opções da Galáxia de memórias"
     },
     "memory_management_galaxy_options_quality_behavior_extreme": {
-        "message": "Fidelidade máxima: limite de resolução nativa, ligações com mistura alfa e simulação com todos os detalhes."
+        "message": "Fidelidade máxima: ligações com mistura alfa e simulação com todos os detalhes."
     },
     "memory_management_galaxy_options_quality_behavior_high": {
-        "message": "Equilibrado: 1×, ligações com mistura alfa e uma simulação mais curta, com detalhe moderado."
+        "message": "Equilibrado: ligações com mistura alfa e uma simulação mais curta, com detalhe moderado."
     },
     "memory_management_galaxy_options_quality_behavior_medium": {
-        "message": "Prioriza a interação: 0,75×, ligações com mistura alfa, simulação mais curta, e oculta temporariamente o campo completo de ligações ao arrastar ou dar zoom em grafos densos."
+        "message": "Prioriza a interação: ligações com mistura alfa, simulação mais curta, e oculta temporariamente o campo completo de ligações ao arrastar ou dar zoom em grafos densos."
     },
     "memory_management_galaxy_options_quality_extreme": {
         "message": "Extremo"
@@ -603,7 +603,7 @@
         "message": "Qualidade de renderização"
     },
     "memory_management_galaxy_options_rendering_quality_detail": {
-        "message": "Cada nível muda a carga de trabalho do grafo, além da resolução."
+        "message": "Cada nível muda a carga de simulação e de ligações; a resolução sempre acompanha sua tela."
     },
     "memory_management_galaxy_options_title": {
         "message": "Opções"
@@ -967,6 +967,255 @@
     },
     "memory_management_nebula_status_ready": {
         "message": "Céu de memórias"
+    },
+    "memory_management_nebula_story_collapse": {
+        "message": "Recolher"
+    },
+    "memory_management_nebula_story_evidence": {
+        "message": "Com base em {{count}} memórias · {{range}}"
+    },
+    "memory_management_nebula_story_evidence_toggle": {
+        "message": "Com base em <toggle>{{count}} memórias</toggle> · {{range}}"
+    },
+    "memory_management_nebula_story_eyebrow": {
+        "message": "Uma história para você"
+    },
+    "memory_management_nebula_story_feedback_cancel": {
+        "message": "Cancelar"
+    },
+    "memory_management_nebula_story_feedback_dialog_label": {
+        "message": "Avaliar esta carta"
+    },
+    "memory_management_nebula_story_feedback_negative_action": {
+        "message": "Não gostei desta carta"
+    },
+    "memory_management_nebula_story_feedback_negative_title": {
+        "message": "O que deu errado?"
+    },
+    "memory_management_nebula_story_feedback_positive_action": {
+        "message": "Gostei desta carta"
+    },
+    "memory_management_nebula_story_feedback_positive_title": {
+        "message": "O que funcionou?"
+    },
+    "memory_management_nebula_story_feedback_privacy_rating": {
+        "message": "Sua avaliação e os motivos que você escolher são contabilizados para melhorar as histórias do Phi. Nada desta carta é enviado."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
+        "message": "É só uma lista do que eu fiz"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_grounding": {
+        "message": "As datas ou os números estão errados"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_kind_fit": {
+        "message": "Não foi isso que aconteceu"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_other": {
+        "message": "Outro"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_over_interpretation": {
+        "message": "Diz coisas que eu não fiz"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_prose_quality": {
+        "message": "Não me tocou"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_boring_stat": {
+        "message": "Encontrou um momento real"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_kind_fit": {
+        "message": "Entendeu bem"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_other": {
+        "message": "Outro"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_over_interpretation": {
+        "message": "Todos os detalhes são verdadeiros"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_prose_quality": {
+        "message": "Me emocionou"
+    },
+    "memory_management_nebula_story_feedback_report_close": {
+        "message": "Fechar"
+    },
+    "memory_management_nebula_story_feedback_report_failed_rejected": {
+        "message": "O relatório não foi aceito. Tente novamente mais tarde."
+    },
+    "memory_management_nebula_story_feedback_report_failed_signed_out": {
+        "message": "Faça login no Phi para enviar um relatório."
+    },
+    "memory_management_nebula_story_feedback_report_failed_timeout": {
+        "message": "Ainda enviando. Use Tentar novamente daqui a pouco."
+    },
+    "memory_management_nebula_story_feedback_report_failed_too_large": {
+        "message": "Os anexos são grandes demais. Desmarque as memórias e tente novamente."
+    },
+    "memory_management_nebula_story_feedback_report_failed_unavailable": {
+        "message": "O agente local do Phi não está acessível no momento."
+    },
+    "memory_management_nebula_story_feedback_report_failed_upstream": {
+        "message": "O serviço de feedback não aceitou o relatório ({{code}})."
+    },
+    "memory_management_nebula_story_feedback_report_heading": {
+        "message": "Para a equipe do Phi (opcional)"
+    },
+    "memory_management_nebula_story_feedback_report_include_memories": {
+        "message": "Incluir as memórias usadas para escrevê-la"
+    },
+    "memory_management_nebula_story_feedback_report_include_story": {
+        "message": "Incluir esta carta"
+    },
+    "memory_management_nebula_story_feedback_report_note_label": {
+        "message": "Algo que queira dizer à equipe?"
+    },
+    "memory_management_nebula_story_feedback_report_privacy": {
+        "message": "Algumas informações da conta e do sistema podem ser enviadas à Phinomenon. Usaremos as informações que você nos der para ajudar a resolver problemas técnicos e melhorar nossos serviços, de acordo com nossa <privacy>Política de Privacidade</privacy> e nossos <terms>Termos de Serviço</terms>."
+    },
+    "memory_management_nebula_story_feedback_report_retry": {
+        "message": "Tentar novamente"
+    },
+    "memory_management_nebula_story_feedback_report_sending": {
+        "message": "Enviando…"
+    },
+    "memory_management_nebula_story_feedback_submit": {
+        "message": "Enviar"
+    },
+    "memory_management_nebula_story_greeting": {
+        "message": "Para você,"
+    },
+    "memory_management_nebula_story_instructions_badge": {
+        "message": "Instruções personalizadas"
+    },
+    "memory_management_nebula_story_instructions_badge_hint": {
+        "message": "As cartas geradas daqui em diante usam o texto personalizado. Salvo em {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_close": {
+        "message": "Fechar"
+    },
+    "memory_management_nebula_story_instructions_contract_label": {
+        "message": "Mantenha estes nomes no texto:"
+    },
+    "memory_management_nebula_story_instructions_copied": {
+        "message": "Copiado"
+    },
+    "memory_management_nebula_story_instructions_copy": {
+        "message": "Copiar texto"
+    },
+    "memory_management_nebula_story_instructions_counter": {
+        "message": "{{count}} / {{max}}"
+    },
+    "memory_management_nebula_story_instructions_failed": {
+        "message": "Não foi possível salvar. {{reason}}"
+    },
+    "memory_management_nebula_story_instructions_missing": {
+        "message": "Faltando: {{names}}"
+    },
+    "memory_management_nebula_story_instructions_open": {
+        "message": "Instruções das histórias"
+    },
+    "memory_management_nebula_story_instructions_refresh_busy": {
+        "message": "Uma carta já está sendo escrita. Tente novamente quando ela terminar."
+    },
+    "memory_management_nebula_story_instructions_refresh_started": {
+        "message": "Uma nova carta está sendo escrita. Ela vai aparecer na próxima vez que você abrir a Nebula."
+    },
+    "memory_management_nebula_story_instructions_refreshing": {
+        "message": "Escrevendo uma nova carta…"
+    },
+    "memory_management_nebula_story_instructions_reset": {
+        "message": "Restaurar o padrão"
+    },
+    "memory_management_nebula_story_instructions_reset_failed": {
+        "message": "Não foi possível redefinir as histórias. {{reason}}"
+    },
+    "memory_management_nebula_story_instructions_reset_stories": {
+        "message": "Redefinir histórias e atualizar"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_body": {
+        "message": "Isso exclui as cartas escritas para este perfil e o registro de quais você já leu. Suas memórias não são alteradas."
+    },
+    "memory_management_nebula_story_instructions_reset_stories_confirm": {
+        "message": "Redefinir e atualizar"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_title": {
+        "message": "Recomeçar com estas instruções?"
+    },
+    "memory_management_nebula_story_instructions_save": {
+        "message": "Salvar"
+    },
+    "memory_management_nebula_story_instructions_saved": {
+        "message": "Salvo"
+    },
+    "memory_management_nebula_story_instructions_saving": {
+        "message": "Salvando…"
+    },
+    "memory_management_nebula_story_instructions_status_custom": {
+        "message": "Personalizado · salvo em {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_status_default": {
+        "message": "Texto padrão"
+    },
+    "memory_management_nebula_story_instructions_title": {
+        "message": "Instruções das histórias"
+    },
+    "memory_management_nebula_story_instructions_too_large": {
+        "message": "O texto passa de {{max}} caracteres."
+    },
+    "memory_management_nebula_story_label": {
+        "message": "História das memórias"
+    },
+    "memory_management_nebula_story_reopen": {
+        "message": "Mostrar história"
+    },
+    "memory_management_nebula_story_stack_back_to_first": {
+        "message": "Voltar à primeira"
+    },
+    "memory_management_nebula_story_stack_dot": {
+        "message": "Carta {{index}}"
+    },
+    "memory_management_nebula_story_stack_dot_end": {
+        "message": "Fim das cartas"
+    },
+    "memory_management_nebula_story_stack_dot_unread": {
+        "message": "Carta {{index}}, não lida"
+    },
+    "memory_management_nebula_story_stack_end_body": {
+        "message": "Novas histórias vão chegar conforme você continuar navegando."
+    },
+    "memory_management_nebula_story_stack_end_title": {
+        "message": "Tudo lido por enquanto."
+    },
+    "memory_management_nebula_story_stack_next": {
+        "message": "Próxima carta"
+    },
+    "memory_management_nebula_story_stack_pager_label": {
+        "message": "Cartas"
+    },
+    "memory_management_nebula_story_stack_pill_all": {
+        "message": "Cartas: {{count}}"
+    },
+    "memory_management_nebula_story_stack_pill_unread": {
+        "message": "Cartas não lidas: {{count}}"
+    },
+    "memory_management_nebula_story_stack_position": {
+        "message": "{{index}} / {{total}}"
+    },
+    "memory_management_nebula_story_stack_position_end": {
+        "message": "Fim / {{total}}"
+    },
+    "memory_management_nebula_story_stack_previous": {
+        "message": "Carta anterior"
+    },
+    "memory_management_nebula_story_stack_unread": {
+        "message": "Não lida"
+    },
+    "memory_management_nebula_story_stack_unread_count": {
+        "message": "{{count}} não lidas"
+    },
+    "memory_management_nebula_story_stars_label": {
+        "message": "As memórias desta história"
+    },
+    "memory_management_nebula_story_written_on": {
+        "message": "Escrita em {{date}}"
     },
     "memory_management_nebula_subtitle": {
         "message": "Contemple suas memórias como um lindo céu noturno."
@@ -2055,7 +2304,7 @@
         "message": "Feriado"
     },
     "newtab_widget_templates_quick_translator_auto": {
-        "message": "Automático"
+        "message": "Auto"
     },
     "newtab_widget_templates_quick_translator_empty": {
         "message": "A tradução aparece aqui."

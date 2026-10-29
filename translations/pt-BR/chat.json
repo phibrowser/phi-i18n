@@ -606,7 +606,7 @@
         "message": "Enviar do computador"
     },
     "chat_composer_open_skills": {
-        "message": "Habilidades"
+        "message": "Skills"
     },
     "chat_composer_placeholder": {
         "message": "Digite uma mensagem..."
@@ -621,13 +621,13 @@
         "message": "{{count}} aba(s)"
     },
     "chat_composer_suggestions_no_skills": {
-        "message": "Nenhuma habilidade disponível"
+        "message": "Nenhuma skill disponível"
     },
     "chat_composer_suggestions_no_tabs": {
         "message": "Nenhuma aba disponível"
     },
     "chat_composer_suggestions_skill_header": {
-        "message": "Habilidade"
+        "message": "Skill"
     },
     "chat_composer_suggestions_split_view": {
         "message": "Visualização dividida"
@@ -879,7 +879,7 @@
         "message": "A resposta falhou"
     },
     "chat_start_actions_create_skill": {
-        "message": "Me ajude a criar uma habilidade"
+        "message": "Me ajude a criar uma skill"
     },
     "chat_start_actions_explain": {
         "message": "Explique esta página de forma simples"
@@ -903,7 +903,7 @@
         "message": "Resuma este vídeo"
     },
     "chat_start_recommendations": {
-        "message": "Habilidades sugeridas para esta página"
+        "message": "Skills sugeridas para esta página"
     },
     "chat_start_title": {
         "message": "Como posso ajudar?"
@@ -2061,13 +2061,13 @@
         "message": "Salvar"
     },
     "message_skills_label": {
-        "message": "Habilidades"
+        "message": "Skills"
     },
     "message_skills_sources_built_in": {
         "message": "Integrada"
     },
     "message_skills_sources_user": {
-        "message": "Minha habilidade"
+        "message": "Minha skill"
     },
     "message_source": {
         "message": "Fonte"
@@ -2106,7 +2106,7 @@
         "message": "Trabalhando nisso…"
     },
     "message_worker_progress_run_script": {
-        "message": "Executando uma habilidade…"
+        "message": "Executando uma skill…"
     },
     "message_worker_progress_search": {
         "message": "Pesquisando…"
@@ -2303,9 +2303,6 @@
     "private_ai_banner_description": {
         "message": "As respostas da Private AI podem ter qualidade diferente das dos modelos on-line."
     },
-    "private_ai_banner_dismiss_for_now": {
-        "message": "Dispensar por enquanto"
-    },
     "private_ai_banner_dont_show_again": {
         "message": "Não mostrar novamente"
     },
@@ -2320,6 +2317,1422 @@
     },
     "prompt_preferences_restore_success": {
         "message": "Sugestões restauradas. Elas vão aparecer de novo quando forem relevantes."
+    },
+    "settings_advanced_backup_description": {
+        "message": "Volte a um snapshot local dos dados dos serviços em segundo plano."
+    },
+    "settings_advanced_backup_snapshots_confirm_description": {
+        "message": "Os serviços em segundo plano param, os dados deles voltam a como estavam em {{date}} e eles iniciam de novo. As alterações feitas desde então são substituídas. Isso não pode ser desfeito."
+    },
+    "settings_advanced_backup_snapshots_confirm_title": {
+        "message": "Restaurar este snapshot?"
+    },
+    "settings_advanced_backup_snapshots_empty": {
+        "message": "Ainda não há snapshots."
+    },
+    "settings_advanced_backup_snapshots_load_failed": {
+        "message": "Não foi possível ler os snapshots."
+    },
+    "settings_advanced_backup_snapshots_loading": {
+        "message": "Carregando snapshots..."
+    },
+    "settings_advanced_backup_snapshots_progress_description": {
+        "message": "Os serviços em segundo plano param enquanto os dados deles são substituídos. Isso pode levar um minuto. Mantenha esta janela aberta até terminar."
+    },
+    "settings_advanced_backup_snapshots_progress_title": {
+        "message": "Restaurando o snapshot"
+    },
+    "settings_advanced_backup_snapshots_restore": {
+        "message": "Restaurar"
+    },
+    "settings_advanced_backup_snapshots_restore_label": {
+        "message": "Restaurar o snapshot de {{date}}"
+    },
+    "settings_advanced_backup_snapshots_title": {
+        "message": "Snapshots locais"
+    },
+    "settings_advanced_backup_snapshots_toast_failed": {
+        "message": "Não foi possível restaurar o snapshot, e os dados podem precisar de recuperação manual. Fale com o suporte do Phi."
+    },
+    "settings_advanced_backup_snapshots_toast_refused": {
+        "message": "Não foi possível restaurar o snapshot"
+    },
+    "settings_advanced_backup_snapshots_toast_restored": {
+        "message": "Snapshot restaurado"
+    },
+    "settings_advanced_backup_snapshots_toast_reverted": {
+        "message": "Não foi possível restaurar o snapshot. Seus dados ficaram como estavam."
+    },
+    "settings_advanced_backup_snapshots_trigger_manual": {
+        "message": "Criado por você"
+    },
+    "settings_advanced_backup_snapshots_trigger_policy_version": {
+        "message": "Antes de uma atualização arriscada"
+    },
+    "settings_advanced_backup_snapshots_trigger_pre_import": {
+        "message": "Antes de uma importação"
+    },
+    "settings_advanced_backup_snapshots_versions": {
+        "message": "Serviços em segundo plano {{services}}"
+    },
+    "settings_advanced_backup_snapshots_versions_with_browser": {
+        "message": "Serviços em segundo plano {{services}}, Phi {{browser}}"
+    },
+    "settings_advanced_backup_title": {
+        "message": "Snapshots e atualizações"
+    },
+    "settings_advanced_backup_track_confirm_action": {
+        "message": "Mudar e atualizar"
+    },
+    "settings_advanced_backup_track_confirm_stable": {
+        "message": "Os componentes voltam às versões testadas com esta versão do Phi, que podem ser mais antigas. Os serviços afetados reiniciam."
+    },
+    "settings_advanced_backup_track_confirm_stable_latest": {
+        "message": "Os componentes são atualizados na hora para as versões estáveis mais recentes. Os serviços afetados reiniciam."
+    },
+    "settings_advanced_backup_track_confirm_title": {
+        "message": "Mudar para {{track}}?"
+    },
+    "settings_advanced_backup_track_description_stable": {
+        "message": "Instala as versões dos componentes testadas com esta versão do Phi."
+    },
+    "settings_advanced_backup_track_description_stable_latest": {
+        "message": "Instala cada nova versão estável dos componentes assim que ela sai."
+    },
+    "settings_advanced_backup_track_label": {
+        "message": "Canal de atualização"
+    },
+    "settings_advanced_backup_track_stable": {
+        "message": "Estável"
+    },
+    "settings_advanced_backup_track_stable_latest": {
+        "message": "Estável mais recente"
+    },
+    "settings_advanced_backup_track_title": {
+        "message": "Atualizações de componentes"
+    },
+    "settings_advanced_backup_track_toast_deferred": {
+        "message": "Mudou para {{track}}. Os componentes serão atualizados na próxima vez que os serviços iniciarem."
+    },
+    "settings_advanced_backup_track_toast_failed": {
+        "message": "Não foi possível mudar o canal de atualização"
+    },
+    "settings_advanced_backup_track_toast_partial": {
+        "message": "Mudou para {{track}}, mas {{count}} componente(s) não puderam ser atualizados"
+    },
+    "settings_advanced_backup_track_toast_reconcile_failed": {
+        "message": "Mudou para {{track}}, mas os componentes ainda não puderam ser atualizados"
+    },
+    "settings_advanced_backup_track_toast_switched": {
+        "message": "Mudou para {{track}}"
+    },
+    "settings_advanced_gateway_about": {
+        "message": "O serviço local por onde passa toda solicitação de IA."
+    },
+    "settings_advanced_gateway_address": {
+        "message": "Endereço"
+    },
+    "settings_advanced_gateway_address_copied": {
+        "message": "Endereço copiado"
+    },
+    "settings_advanced_gateway_address_none": {
+        "message": "Disponível enquanto está em execução."
+    },
+    "settings_advanced_gateway_copy": {
+        "message": "Copiar"
+    },
+    "settings_advanced_gateway_copy_failed": {
+        "message": "Não foi possível copiar"
+    },
+    "settings_advanced_gateway_export": {
+        "message": "Exportação da conexão"
+    },
+    "settings_advanced_gateway_export_copied": {
+        "message": "Detalhes da conexão copiados"
+    },
+    "settings_advanced_gateway_export_description": {
+        "message": "O que os apps deste Mac leem para se conectar ao gateway."
+    },
+    "settings_advanced_gateway_export_empty": {
+        "message": "O gateway ainda não publicou os detalhes da conexão."
+    },
+    "settings_advanced_gateway_export_failed": {
+        "message": "Não foi possível ler os detalhes da conexão."
+    },
+    "settings_advanced_gateway_export_label": {
+        "message": "Detalhes da conexão"
+    },
+    "settings_advanced_gateway_export_loading": {
+        "message": "Carregando..."
+    },
+    "settings_advanced_gateway_failed": {
+        "message": "Falhou"
+    },
+    "settings_advanced_gateway_logs": {
+        "message": "Logs"
+    },
+    "settings_advanced_gateway_logs_description": {
+        "message": "Solicitações e erros, sem o conteúdo do que foi pedido."
+    },
+    "settings_advanced_gateway_status": {
+        "message": "Status"
+    },
+    "settings_advanced_gateway_title": {
+        "message": "AI Gateway"
+    },
+    "settings_advanced_logs_copied": {
+        "message": "Log copiado"
+    },
+    "settings_advanced_logs_copy": {
+        "message": "Copiar"
+    },
+    "settings_advanced_logs_copy_failed": {
+        "message": "Não foi possível copiar o log"
+    },
+    "settings_advanced_logs_description": {
+        "message": "Os logs dos serviços em segundo plano, atualizados conforme são escritos."
+    },
+    "settings_advanced_logs_empty": {
+        "message": "Este log está vazio."
+    },
+    "settings_advanced_logs_jump_to_end": {
+        "message": "Ir para as linhas mais recentes"
+    },
+    "settings_advanced_logs_line_count": {
+        "message": "Últimas {{shown}} de {{total}} linhas"
+    },
+    "settings_advanced_logs_load_failed": {
+        "message": "Não foi possível ler este log. Tente Atualizar."
+    },
+    "settings_advanced_logs_loading": {
+        "message": "Carregando logs..."
+    },
+    "settings_advanced_logs_refresh": {
+        "message": "Atualizar"
+    },
+    "settings_advanced_logs_services_group": {
+        "message": "Serviços individuais"
+    },
+    "settings_advanced_logs_source_label": {
+        "message": "Log"
+    },
+    "settings_advanced_logs_source_runner": {
+        "message": "Gerenciador de serviços"
+    },
+    "settings_advanced_logs_source_sentinel": {
+        "message": "App de serviços em segundo plano"
+    },
+    "settings_advanced_logs_stream_label": {
+        "message": "Fluxo de saída"
+    },
+    "settings_advanced_logs_title": {
+        "message": "Logs completos"
+    },
+    "settings_advanced_notice_body": {
+        "message": "Você não precisa destas configurações no dia a dia, e uma mudança errada pode deixar os recursos de IA temporariamente indisponíveis. Para conferir se tudo funciona, a seção Serviços basta."
+    },
+    "settings_advanced_notice_title": {
+        "message": "Para solução de problemas e usuários experientes."
+    },
+    "settings_advanced_reset_action": {
+        "message": "Redefinir todos os dados"
+    },
+    "settings_advanced_reset_ai_action": {
+        "message": "Redefinir as configurações de IA"
+    },
+    "settings_advanced_reset_ai_clears": {
+        "message": "Isso vai:"
+    },
+    "settings_advanced_reset_ai_confirm_description": {
+        "message": "Seus próprios provedores e as chaves deles são removidos, e os modelos locais precisam ser baixados de novo para serem usados."
+    },
+    "settings_advanced_reset_ai_confirm_title": {
+        "message": "Redefinir as configurações de IA?"
+    },
+    "settings_advanced_reset_ai_done": {
+        "message": "As configurações de IA foram redefinidas"
+    },
+    "settings_advanced_reset_ai_failed": {
+        "message": "Não foi possível redefinir as configurações de IA"
+    },
+    "settings_advanced_reset_ai_items_cloud": {
+        "message": "Voltar as origens de IA para o Phi Cloud"
+    },
+    "settings_advanced_reset_ai_items_local": {
+        "message": "Excluir o runtime local, seus modelos, logs e downloads"
+    },
+    "settings_advanced_reset_ai_items_providers": {
+        "message": "Limpar a configuração dos provedores de IA"
+    },
+    "settings_advanced_reset_ai_label": {
+        "message": "Redefinir as configurações de IA"
+    },
+    "settings_advanced_reset_confirm_description": {
+        "message": "Tudo o que está listado é excluído de vez e os serviços em segundo plano iniciam vazios. Considere exportar seus dados antes."
+    },
+    "settings_advanced_reset_confirm_prompt": {
+        "message": "Digite {{phrase}} para confirmar."
+    },
+    "settings_advanced_reset_confirm_title": {
+        "message": "Redefinir todos os dados?"
+    },
+    "settings_advanced_reset_description": {
+        "message": "Apaga todos os dados dos serviços em segundo plano do Phi e os inicia do zero."
+    },
+    "settings_advanced_reset_done": {
+        "message": "Todos os dados foram redefinidos"
+    },
+    "settings_advanced_reset_erases": {
+        "message": "Isso exclui:"
+    },
+    "settings_advanced_reset_failed": {
+        "message": "Não foi possível redefinir os dados"
+    },
+    "settings_advanced_reset_items_logs": {
+        "message": "Todos os logs e arquivos em cache"
+    },
+    "settings_advanced_reset_items_services": {
+        "message": "Os serviços instalados e os dados deles"
+    },
+    "settings_advanced_reset_items_settings": {
+        "message": "Todas as configurações dos serviços em segundo plano"
+    },
+    "settings_advanced_reset_items_tasks": {
+        "message": "As tarefas agendadas e o histórico delas"
+    },
+    "settings_advanced_reset_label": {
+        "message": "Apagar tudo"
+    },
+    "settings_advanced_reset_permanent": {
+        "message": "Isso não pode ser desfeito."
+    },
+    "settings_advanced_reset_progress_description": {
+        "message": "Os serviços em segundo plano param, os dados deles são excluídos e eles iniciam de novo. Mantenha esta janela aberta até terminar."
+    },
+    "settings_advanced_reset_progress_title": {
+        "message": "Redefinindo todos os dados"
+    },
+    "settings_advanced_reset_title": {
+        "message": "Redefinir todos os dados"
+    },
+    "settings_advanced_services_action_accessible_label": {
+        "message": "{{action}} {{name}}"
+    },
+    "settings_advanced_services_action_restart": {
+        "message": "Reiniciar"
+    },
+    "settings_advanced_services_action_retry_setup": {
+        "message": "Repetir a configuração"
+    },
+    "settings_advanced_services_action_start": {
+        "message": "Iniciar"
+    },
+    "settings_advanced_services_action_stop": {
+        "message": "Parar"
+    },
+    "settings_advanced_services_built_in": {
+        "message": "Integrado"
+    },
+    "settings_advanced_services_column_actions": {
+        "message": "Ações"
+    },
+    "settings_advanced_services_column_pid": {
+        "message": "PID"
+    },
+    "settings_advanced_services_column_service": {
+        "message": "Serviço"
+    },
+    "settings_advanced_services_column_state": {
+        "message": "Estado"
+    },
+    "settings_advanced_services_column_uptime": {
+        "message": "Tempo ativo"
+    },
+    "settings_advanced_services_column_version": {
+        "message": "Versão"
+    },
+    "settings_advanced_services_confirm_cancel": {
+        "message": "Cancelar"
+    },
+    "settings_advanced_services_confirm_restart_description": {
+        "message": "Ele para por um instante e inicia de novo. O que estiver usando o serviço agora é interrompido."
+    },
+    "settings_advanced_services_confirm_restart_title": {
+        "message": "Reiniciar {{name}}?"
+    },
+    "settings_advanced_services_confirm_retry_setup_description": {
+        "message": "O Phi remove os arquivos locais baixados e o configura de novo. Isso pode levar alguns minutos, e ele fica indisponível nesse tempo."
+    },
+    "settings_advanced_services_confirm_retry_setup_title": {
+        "message": "Repetir a configuração de {{name}}?"
+    },
+    "settings_advanced_services_confirm_stop_description": {
+        "message": "Os serviços que dependem dele também param. Os recursos de IA que os usam ficam indisponíveis até você iniciá-lo de novo."
+    },
+    "settings_advanced_services_confirm_stop_title": {
+        "message": "Parar {{name}}?"
+    },
+    "settings_advanced_services_description": {
+        "message": "O processo, o tempo ativo e a versão de cada serviço em segundo plano."
+    },
+    "settings_advanced_services_title": {
+        "message": "Detalhes dos serviços"
+    },
+    "settings_advanced_services_toast_restart": {
+        "message": "{{name}} reiniciado"
+    },
+    "settings_advanced_services_toast_restart_failed": {
+        "message": "Não foi possível reiniciar {{name}}"
+    },
+    "settings_advanced_services_toast_retry_setup": {
+        "message": "Configuração reiniciada para {{name}}"
+    },
+    "settings_advanced_services_toast_retry_setup_failed": {
+        "message": "Não foi possível repetir a configuração de {{name}}"
+    },
+    "settings_advanced_services_toast_start": {
+        "message": "{{name}} iniciado"
+    },
+    "settings_advanced_services_toast_start_failed": {
+        "message": "Não foi possível iniciar {{name}}"
+    },
+    "settings_advanced_services_toast_stop": {
+        "message": "{{name}} parado"
+    },
+    "settings_advanced_services_toast_stop_failed": {
+        "message": "Não foi possível parar {{name}}"
+    },
+    "settings_backup_advanced_prompt": {
+        "message": "Quer restaurar um snapshot?"
+    },
+    "settings_backup_busy": {
+        "message": "Outra tarefa de backup está em andamento. Tente novamente quando ela terminar."
+    },
+    "settings_backup_cancel": {
+        "message": "Cancelar"
+    },
+    "settings_backup_data_title": {
+        "message": "Seus dados"
+    },
+    "settings_backup_description": {
+        "message": "Mantenha os serviços em segundo plano atualizados e guarde uma cópia dos seus dados."
+    },
+    "settings_backup_export_action": {
+        "message": "Exportar"
+    },
+    "settings_backup_export_description": {
+        "message": "Salva uma cópia das suas configurações e dados na pasta Downloads, para levar a outro Mac. As chaves de API dos provedores não são incluídas."
+    },
+    "settings_backup_export_description_to_file": {
+        "message": "Salva uma cópia das suas configurações e dados num arquivo que você escolhe, para levar a outro Mac. As chaves de API dos provedores não são incluídas."
+    },
+    "settings_backup_export_done": {
+        "message": "Dados exportados para a pasta Downloads"
+    },
+    "settings_backup_export_done_to_file": {
+        "message": "Dados exportados"
+    },
+    "settings_backup_export_done_with_warning": {
+        "message": "Dados exportados depois de uma interrupção. Confira o arquivo antes de depender dele."
+    },
+    "settings_backup_export_exporting": {
+        "message": "Exportando..."
+    },
+    "settings_backup_export_failed": {
+        "message": "Não foi possível exportar seus dados"
+    },
+    "settings_backup_export_label": {
+        "message": "Exportar dados"
+    },
+    "settings_backup_snapshot_action": {
+        "message": "Criar snapshot"
+    },
+    "settings_backup_snapshot_created": {
+        "message": "Snapshot criado"
+    },
+    "settings_backup_snapshot_description": {
+        "message": "Salva uma cópia dos dados deste Mac para a qual você pode voltar. Os snapshots nunca saem deste Mac."
+    },
+    "settings_backup_snapshot_failed": {
+        "message": "Não foi possível criar um snapshot"
+    },
+    "settings_backup_snapshot_label": {
+        "message": "Snapshot local"
+    },
+    "settings_backup_snapshot_progress_description": {
+        "message": "Os serviços em segundo plano param por alguns segundos enquanto o snapshot é feito. Mantenha esta janela aberta até terminar."
+    },
+    "settings_backup_snapshot_progress_title": {
+        "message": "Criando um snapshot"
+    },
+    "settings_backup_snapshot_skipped": {
+        "message": "Snapshots não estão disponíveis neste disco"
+    },
+    "settings_backup_updates_auto": {
+        "message": "As atualizações são instaladas automaticamente."
+    },
+    "settings_backup_updates_available": {
+        "message": "Atualizações disponíveis: {{count}}"
+    },
+    "settings_backup_updates_check": {
+        "message": "Procurar atualizações"
+    },
+    "settings_backup_updates_check_failed": {
+        "message": "Não foi possível procurar atualizações."
+    },
+    "settings_backup_updates_checking": {
+        "message": "Procurando atualizações..."
+    },
+    "settings_backup_updates_confirm_description": {
+        "message": "Cada serviço reinicia ao ser atualizado, então o Phi Chat e outros recursos de IA podem pausar por um instante."
+    },
+    "settings_backup_updates_confirm_title": {
+        "message": "Atualizar os serviços em segundo plano agora?"
+    },
+    "settings_backup_updates_label": {
+        "message": "Serviços em segundo plano"
+    },
+    "settings_backup_updates_progress_component": {
+        "message": "{{component}}: {{percent}}%"
+    },
+    "settings_backup_updates_progress_downloading": {
+        "message": "Baixando atualizações..."
+    },
+    "settings_backup_updates_progress_installing": {
+        "message": "Instalando atualizações..."
+    },
+    "settings_backup_updates_progress_preparing": {
+        "message": "Preparando atualizações..."
+    },
+    "settings_backup_updates_progress_restarting": {
+        "message": "Reiniciando os serviços..."
+    },
+    "settings_backup_updates_progress_rolling_back": {
+        "message": "Voltando para a versão anterior..."
+    },
+    "settings_backup_updates_title": {
+        "message": "Atualizações"
+    },
+    "settings_backup_updates_toast_failed": {
+        "message": "{{count}} componente(s) não puderam ser atualizados"
+    },
+    "settings_backup_updates_toast_none": {
+        "message": "Tudo já estava atualizado"
+    },
+    "settings_backup_updates_toast_update_failed": {
+        "message": "Não foi possível atualizar os serviços em segundo plano"
+    },
+    "settings_backup_updates_toast_updated": {
+        "message": "{{count}} componente(s) atualizado(s)"
+    },
+    "settings_backup_updates_up_to_date": {
+        "message": "Tudo está atualizado."
+    },
+    "settings_backup_updates_update": {
+        "message": "Atualizar agora"
+    },
+    "settings_backup_updates_updating": {
+        "message": "Atualizando..."
+    },
+    "settings_backup_updates_updating_description": {
+        "message": "Instalando atualizações. Os serviços reiniciam conforme são atualizados."
+    },
+    "settings_close": {
+        "message": "Fechar configurações"
+    },
+    "settings_general_appearance": {
+        "message": "Aparência"
+    },
+    "settings_general_appearance_value": {
+        "message": "Segue o tema da janela"
+    },
+    "settings_general_browser_ai": {
+        "message": "Configurações de IA do navegador"
+    },
+    "settings_general_browser_ai_description": {
+        "message": "Mais opções de IA nas configurações do próprio navegador."
+    },
+    "settings_general_description": {
+        "message": "Como estão os serviços em segundo plano do Phi e o que segue o seu navegador."
+    },
+    "settings_general_group_background": {
+        "message": "Serviços em segundo plano"
+    },
+    "settings_general_group_language": {
+        "message": "Idioma e aparência"
+    },
+    "settings_general_language": {
+        "message": "Idioma"
+    },
+    "settings_general_language_value": {
+        "message": "Segue o navegador ({{language}})"
+    },
+    "settings_general_open": {
+        "message": "Abrir"
+    },
+    "settings_general_restart_action": {
+        "message": "Reiniciar"
+    },
+    "settings_general_restart_confirm_description": {
+        "message": "Os recursos de IA do Phi param de funcionar até os serviços voltarem, normalmente em menos de um minuto."
+    },
+    "settings_general_restart_confirm_title": {
+        "message": "Reiniciar os serviços em segundo plano?"
+    },
+    "settings_general_restart_description": {
+        "message": "Para e inicia todos os serviços em segundo plano. Os recursos de IA pausam por um instante."
+    },
+    "settings_general_restart_done": {
+        "message": "Serviços em segundo plano reiniciados"
+    },
+    "settings_general_restart_failed": {
+        "message": "Não foi possível reiniciar os serviços em segundo plano"
+    },
+    "settings_general_restart_label": {
+        "message": "Reiniciar os serviços em segundo plano"
+    },
+    "settings_general_restart_progress_description": {
+        "message": "Isso costuma levar menos de um minuto. Mantenha esta janela aberta até terminar."
+    },
+    "settings_general_restart_progress_title": {
+        "message": "Reiniciando os serviços em segundo plano"
+    },
+    "settings_general_status": {
+        "message": "Status"
+    },
+    "settings_general_status_attention": {
+        "message": "Precisa de atenção"
+    },
+    "settings_general_status_checking": {
+        "message": "Verificando..."
+    },
+    "settings_general_status_offline": {
+        "message": "Parado"
+    },
+    "settings_general_status_running": {
+        "message": "Funcionando normalmente"
+    },
+    "settings_general_status_unavailable": {
+        "message": "Indisponível"
+    },
+    "settings_general_version": {
+        "message": "Versão"
+    },
+    "settings_general_version_pending": {
+        "message": "A versão {{version}} está instalada. Reinicie os serviços em segundo plano para usá-la."
+    },
+    "settings_logs_advanced_prompt": {
+        "message": "Quer ler os logs você mesmo?"
+    },
+    "settings_logs_description": {
+        "message": "Se algo não estiver funcionando, salve os logs e envie ao suporte do Phi."
+    },
+    "settings_logs_diagnostic": {
+        "message": "Logs de diagnóstico"
+    },
+    "settings_logs_diagnostic_description": {
+        "message": "Atividade recente dos serviços em segundo plano e de cada serviço, salva como arquivo ZIP nos seus downloads."
+    },
+    "settings_logs_save": {
+        "message": "Salvar"
+    },
+    "settings_logs_save_failed": {
+        "message": "Não foi possível salvar os logs de diagnóstico"
+    },
+    "settings_logs_saved": {
+        "message": "Logs de diagnóstico salvos nos seus downloads"
+    },
+    "settings_nav_advanced": {
+        "message": "Configurações avançadas"
+    },
+    "settings_nav_advanced_label": {
+        "message": "Seções das configurações avançadas"
+    },
+    "settings_nav_back_to_settings": {
+        "message": "Voltar às configurações"
+    },
+    "settings_nav_backup": {
+        "message": "Backup e atualizações"
+    },
+    "settings_nav_general": {
+        "message": "Geral"
+    },
+    "settings_nav_label": {
+        "message": "Seções das configurações"
+    },
+    "settings_nav_logs": {
+        "message": "Logs"
+    },
+    "settings_nav_private_ai": {
+        "message": "IA privada"
+    },
+    "settings_nav_providers": {
+        "message": "Provedores de IA"
+    },
+    "settings_nav_services": {
+        "message": "Serviços"
+    },
+    "settings_private_ai_approx_minutes": {
+        "message": "~{{count}} min"
+    },
+    "settings_private_ai_approx_seconds": {
+        "message": "~{{count}} s"
+    },
+    "settings_private_ai_attention": {
+        "message": "Precisa de atenção"
+    },
+    "settings_private_ai_checking": {
+        "message": "Verificando..."
+    },
+    "settings_private_ai_codex_tip_description": {
+        "message": "Use seu login atual do Codex como provedor de IA."
+    },
+    "settings_private_ai_codex_tip_dismiss": {
+        "message": "Dispensar a dica do Codex"
+    },
+    "settings_private_ai_codex_tip_open": {
+        "message": "Abrir"
+    },
+    "settings_private_ai_codex_tip_title": {
+        "message": "O Codex está disponível"
+    },
+    "settings_private_ai_fallback_notice": {
+        "message": "Uma origem de IA local não está respondendo. As tarefas afetadas voltaram temporariamente para o Phi Cloud."
+    },
+    "settings_private_ai_fallback_notice_paused": {
+        "message": "Uma origem de IA local não está respondendo. As tarefas afetadas ficam pausadas até ela responder de novo."
+    },
+    "settings_private_ai_hardware_hint": {
+        "message": "Funciona melhor num Mac com Apple Silicon e pelo menos 16 GB de RAM. A configuração verifica seu dispositivo automaticamente."
+    },
+    "settings_private_ai_label": {
+        "message": "IA privada"
+    },
+    "settings_private_ai_load_failed": {
+        "message": "Não foi possível ler o status da Private AI"
+    },
+    "settings_private_ai_local_runtime": {
+        "message": "Runtime local"
+    },
+    "settings_private_ai_not_set_up": {
+        "message": "Todos os recursos de IA rodam hoje no Phi Cloud. Ative a chave para configurar."
+    },
+    "settings_private_ai_on": {
+        "message": "A Private AI está ativada"
+    },
+    "settings_private_ai_page_description": {
+        "message": "Rode a IA no seu Mac ou com seu próprio provedor — seus dados ficam com você."
+    },
+    "settings_private_ai_providers_prompt": {
+        "message": "Quer usar seu próprio serviço de IA?"
+    },
+    "settings_private_ai_restart_local": {
+        "message": "Reiniciar o serviço local"
+    },
+    "settings_private_ai_routing_apple_available": {
+        "message": "Apple Intelligence · Disponível"
+    },
+    "settings_private_ai_routing_apple_description": {
+        "message": "Gerenciado automaticamente pelo macOS."
+    },
+    "settings_private_ai_routing_apple_label": {
+        "message": "Organização de abas com IA"
+    },
+    "settings_private_ai_routing_apple_unavailable": {
+        "message": "Apple Intelligence · Indisponível"
+    },
+    "settings_private_ai_routing_checked": {
+        "message": "Origem marcada"
+    },
+    "settings_private_ai_routing_failed": {
+        "message": "A origem falhou: {{error}}"
+    },
+    "settings_private_ai_routing_off_hint": {
+        "message": "Usado enquanto a Private AI está ativada."
+    },
+    "settings_private_ai_routing_policy_cloud": {
+        "message": "Voltar automaticamente para o Phi Cloud (padrão)"
+    },
+    "settings_private_ai_routing_policy_label": {
+        "message": "Quando uma origem local ou auto-hospedada estiver indisponível"
+    },
+    "settings_private_ai_routing_policy_pause": {
+        "message": "Pausar os recursos de IA afetados (nunca enviar dados para a nuvem)"
+    },
+    "settings_private_ai_routing_select": {
+        "message": "Selecionar a origem de {{task}}"
+    },
+    "settings_private_ai_routing_test_failed": {
+        "message": "O teste do modelo de {{purpose}} falhou. A origem anterior foi restaurada."
+    },
+    "settings_private_ai_routing_unavailable": {
+        "message": "Indisponível"
+    },
+    "settings_private_ai_routing_vision_description": {
+        "message": "Usado só quando um modelo selecionado não aceita imagens."
+    },
+    "settings_private_ai_routing_vision_label": {
+        "message": "Alternativa para imagens"
+    },
+    "settings_private_ai_routing_vision_none": {
+        "message": "Não configurado"
+    },
+    "settings_private_ai_setting_up": {
+        "message": "Configurando…"
+    },
+    "settings_private_ai_setting_up_description": {
+        "message": "Os recursos de IA continuam usando o Phi Cloud até a configuração terminar."
+    },
+    "settings_private_ai_setup_cancel": {
+        "message": "Cancelar"
+    },
+    "settings_private_ai_setup_check_again": {
+        "message": "Verificar de novo"
+    },
+    "settings_private_ai_setup_checking": {
+        "message": "Verificando seu dispositivo…"
+    },
+    "settings_private_ai_setup_done": {
+        "message": "A Private AI está ativada"
+    },
+    "settings_private_ai_setup_done_action": {
+        "message": "Concluído"
+    },
+    "settings_private_ai_setup_eligible": {
+        "message": "Rodar a Private AI localmente neste Mac"
+    },
+    "settings_private_ai_setup_failed": {
+        "message": "A configuração falhou durante: {{stage}}."
+    },
+    "settings_private_ai_setup_free_disk": {
+        "message": "Espaço livre em disco"
+    },
+    "settings_private_ai_setup_local_tasks": {
+        "message": "Roda neste Mac: {{tasks}}. As outras tarefas de IA continuam no Phi Cloud."
+    },
+    "settings_private_ai_setup_memory": {
+        "message": "Memória RAM"
+    },
+    "settings_private_ai_setup_minimize": {
+        "message": "Minimizar"
+    },
+    "settings_private_ai_setup_plan_failed": {
+        "message": "Não foi possível verificar este Mac"
+    },
+    "settings_private_ai_setup_reasons_disk": {
+        "message": "Rodar modelos locais exige pelo menos 10 GB livres em disco."
+    },
+    "settings_private_ai_setup_reasons_memory": {
+        "message": "Rodar modelos locais exige pelo menos 16 GB de memória."
+    },
+    "settings_private_ai_setup_reasons_no_embedding_model": {
+        "message": "Nenhum modelo de embedding está disponível no índice de modelos."
+    },
+    "settings_private_ai_setup_reasons_no_local_model": {
+        "message": "Nenhum modelo local está disponível no índice de modelos."
+    },
+    "settings_private_ai_setup_reasons_probe_failed": {
+        "message": "Não foi possível verificar este Mac. Tente novamente ou continue usando o Phi Cloud."
+    },
+    "settings_private_ai_setup_retry": {
+        "message": "Tentar novamente"
+    },
+    "settings_private_ai_setup_routes_kept": {
+        "message": "As atribuições de tarefas atuais não mudam."
+    },
+    "settings_private_ai_setup_show_details": {
+        "message": "Mostrar detalhes"
+    },
+    "settings_private_ai_setup_size": {
+        "message": "Download de {{downloadSize}} · usa cerca de {{memorySize}} de memória enquanto roda."
+    },
+    "settings_private_ai_setup_stage_models": {
+        "message": "Baixando modelos…"
+    },
+    "settings_private_ai_setup_stage_name_models": {
+        "message": "o download dos modelos"
+    },
+    "settings_private_ai_setup_stage_name_runtime": {
+        "message": "a instalação do runtime local"
+    },
+    "settings_private_ai_setup_stage_name_starting": {
+        "message": "a inicialização dos modelos locais"
+    },
+    "settings_private_ai_setup_stage_name_verifying": {
+        "message": "a verificação"
+    },
+    "settings_private_ai_setup_stage_runtime": {
+        "message": "Instalando o runtime local…"
+    },
+    "settings_private_ai_setup_stage_starting": {
+        "message": "Iniciando os modelos locais…"
+    },
+    "settings_private_ai_setup_stage_verifying": {
+        "message": "Verificando…"
+    },
+    "settings_private_ai_setup_start": {
+        "message": "Iniciar a configuração"
+    },
+    "settings_private_ai_setup_step_models": {
+        "message": "Baixar modelos"
+    },
+    "settings_private_ai_setup_step_runtime": {
+        "message": "Instalar o runtime"
+    },
+    "settings_private_ai_setup_step_starting": {
+        "message": "Iniciar os modelos locais"
+    },
+    "settings_private_ai_setup_step_verifying": {
+        "message": "Verificar"
+    },
+    "settings_private_ai_setup_title": {
+        "message": "Configurar a Private AI"
+    },
+    "settings_private_ai_setup_unavailable": {
+        "message": "A Private AI não está disponível neste Mac"
+    },
+    "settings_private_ai_setup_use_own": {
+        "message": "Usar seu próprio serviço de IA"
+    },
+    "settings_private_ai_source_cloud": {
+        "message": "Phi Cloud"
+    },
+    "settings_private_ai_source_local": {
+        "message": "{{model}} · Neste Mac"
+    },
+    "settings_private_ai_source_provider": {
+        "message": "{{provider}} · Seu provedor"
+    },
+    "settings_private_ai_source_unavailable": {
+        "message": "{{source}} · Indisponível"
+    },
+    "settings_private_ai_starting": {
+        "message": "Iniciando a Private AI…"
+    },
+    "settings_private_ai_starting_description": {
+        "message": "Preparando sua IA local. Os recursos de IA usam o Phi Cloud até ela estar rodando."
+    },
+    "settings_private_ai_summary": {
+        "message": "Rodando de forma privada: {{count}} de {{total}} tarefas de IA"
+    },
+    "settings_private_ai_summary_attention": {
+        "message": "Origens de tarefas de IA indisponíveis: {{count}}"
+    },
+    "settings_private_ai_tasks_chat_description": {
+        "message": "Respostas no painel de chat"
+    },
+    "settings_private_ai_tasks_chat_label": {
+        "message": "Chat"
+    },
+    "settings_private_ai_tasks_data_search_description": {
+        "message": "Busca nos dados conectados"
+    },
+    "settings_private_ai_tasks_data_search_label": {
+        "message": "Busca de dados"
+    },
+    "settings_private_ai_tasks_memory_description": {
+        "message": "Memória de navegação e resumos"
+    },
+    "settings_private_ai_tasks_memory_label": {
+        "message": "Memória"
+    },
+    "settings_private_ai_tasks_title": {
+        "message": "Tarefas de IA"
+    },
+    "settings_private_ai_tasks_web_tasks_description": {
+        "message": "Automação por agente"
+    },
+    "settings_private_ai_tasks_web_tasks_label": {
+        "message": "Tarefas na web"
+    },
+    "settings_private_ai_toast_cancel_failed": {
+        "message": "Não foi possível cancelar a configuração"
+    },
+    "settings_private_ai_toast_disable_failed": {
+        "message": "Não foi possível desativar a Private AI. Tente novamente."
+    },
+    "settings_private_ai_toast_enable_failed": {
+        "message": "Não foi possível ativar a Private AI"
+    },
+    "settings_private_ai_toast_restart_failed": {
+        "message": "Não foi possível reiniciar a IA local. Tente novamente."
+    },
+    "settings_private_ai_toast_save_failed": {
+        "message": "Não foi possível salvar a alteração"
+    },
+    "settings_private_ai_toast_start_failed": {
+        "message": "Não foi possível iniciar a configuração"
+    },
+    "settings_private_ai_toggle": {
+        "message": "Ativar ou desativar a Private AI"
+    },
+    "settings_providers_about_custom": {
+        "message": "Qualquer endpoint compatível com OpenAI."
+    },
+    "settings_providers_about_lm_studio": {
+        "message": "Servidor local do LM Studio compatível com OpenAI."
+    },
+    "settings_providers_about_ollama": {
+        "message": "Modelos locais do Ollama neste Mac ou na sua rede local."
+    },
+    "settings_providers_about_openai": {
+        "message": "Modelos da OpenAI, incluindo as famílias GPT e de raciocínio."
+    },
+    "settings_providers_about_openrouter": {
+        "message": "Acesse centenas de modelos de IA pela API unificada do OpenRouter."
+    },
+    "settings_providers_access": {
+        "message": "Acesso aos modelos"
+    },
+    "settings_providers_add": {
+        "message": "Adicionar provedor personalizado"
+    },
+    "settings_providers_add_action": {
+        "message": "Adicionar provedor"
+    },
+    "settings_providers_add_description": {
+        "message": "Adicione outro serviço compatível com OpenAI. Serviços locais podem recorrer ao Chat Completions quando o Responses não estiver disponível."
+    },
+    "settings_providers_all_models": {
+        "message": "Permitir todos os modelos"
+    },
+    "settings_providers_all_models_description": {
+        "message": "Todos os modelos deste provedor estão disponíveis."
+    },
+    "settings_providers_allow_model": {
+        "message": "Permitir o modelo {{model}}"
+    },
+    "settings_providers_api_key": {
+        "message": "Chave de API"
+    },
+    "settings_providers_api_key_optional": {
+        "message": "Chave de API opcional"
+    },
+    "settings_providers_apple_description": {
+        "message": "Gerenciado pelo macOS para a organização de abas com IA."
+    },
+    "settings_providers_base_url": {
+        "message": "URL base"
+    },
+    "settings_providers_built_in": {
+        "message": "Integrado"
+    },
+    "settings_providers_cancel": {
+        "message": "Cancelar"
+    },
+    "settings_providers_codex_about": {
+        "message": "Use a assinatura do ChatGPT já conectada pelo Codex."
+    },
+    "settings_providers_codex_action_failed": {
+        "message": "A ação do Codex falhou"
+    },
+    "settings_providers_codex_advanced": {
+        "message": "Avançado"
+    },
+    "settings_providers_codex_check_again": {
+        "message": "Verificar de novo"
+    },
+    "settings_providers_codex_confirm_account": {
+        "message": "Confirmar a conta"
+    },
+    "settings_providers_codex_connect": {
+        "message": "Conectar"
+    },
+    "settings_providers_codex_disconnect": {
+        "message": "Desconectar"
+    },
+    "settings_providers_codex_disconnect_blocked": {
+        "message": "Ainda usado por {{tasks}}. Escolha outra origem para elas antes de desconectar."
+    },
+    "settings_providers_codex_effort_default": {
+        "message": "Padrão ({{effort}})"
+    },
+    "settings_providers_codex_effort_for": {
+        "message": "Esforço de raciocínio de {{model}}"
+    },
+    "settings_providers_codex_effort_model_default": {
+        "message": "Padrão do modelo"
+    },
+    "settings_providers_codex_home_hint": {
+        "message": "Deixe em branco para usar a pasta padrão do Codex."
+    },
+    "settings_providers_codex_login_hint": {
+        "message": "O Phi usa o login que o Codex já gerencia e o confere com uma pequena solicitação quando você conecta. Se ainda não fez login, rode {{command}} no Terminal antes."
+    },
+    "settings_providers_codex_models": {
+        "message": "Modelos disponíveis"
+    },
+    "settings_providers_codex_models_origin": {
+        "message": "Carregados do catálogo de modelos do Codex."
+    },
+    "settings_providers_codex_retest": {
+        "message": "Testar de novo"
+    },
+    "settings_providers_codex_state_account_changed": {
+        "message": "Confirmação necessária"
+    },
+    "settings_providers_codex_state_keychain_unsupported": {
+        "message": "Login em arquivo necessário"
+    },
+    "settings_providers_codex_state_login_not_found": {
+        "message": "Login necessário"
+    },
+    "settings_providers_codex_state_needs_attention": {
+        "message": "Precisa de atenção"
+    },
+    "settings_providers_codex_state_not_installed": {
+        "message": "Não instalado"
+    },
+    "settings_providers_codex_state_ready": {
+        "message": "Disponível"
+    },
+    "settings_providers_codex_summary_account_changed": {
+        "message": "O login do Codex mudou. As solicitações ficam pausadas até você confirmar a nova conta."
+    },
+    "settings_providers_codex_summary_connected": {
+        "message": "{{count}} modelo(s) compatível(is) disponível(is) pelo AI Gateway local."
+    },
+    "settings_providers_codex_summary_keychain_unsupported": {
+        "message": "Este login do Codex está guardado nas Chaves (Keychain), que o Phi não consegue ler."
+    },
+    "settings_providers_codex_summary_login_not_found": {
+        "message": "O Codex está instalado, mas nenhum login em arquivo foi encontrado."
+    },
+    "settings_providers_codex_summary_needs_attention": {
+        "message": "A última verificação de conexão falhou. As rotas atuais continuam atribuídas e não voltam automaticamente para outra origem."
+    },
+    "settings_providers_codex_summary_not_installed": {
+        "message": "Instale o Codex neste Mac para usar uma assinatura do Codex."
+    },
+    "settings_providers_codex_summary_ready": {
+        "message": "Login do Codex detectado. Pronto para conectar sem copiar credenciais."
+    },
+    "settings_providers_codex_text": {
+        "message": "Texto"
+    },
+    "settings_providers_codex_text_image": {
+        "message": "Texto + imagem"
+    },
+    "settings_providers_codex_title": {
+        "message": "Codex"
+    },
+    "settings_providers_connection": {
+        "message": "Conexão"
+    },
+    "settings_providers_description": {
+        "message": "Serviços de IA que você mesmo conecta e os que já vêm no Phi."
+    },
+    "settings_providers_discard": {
+        "message": "Descartar alterações"
+    },
+    "settings_providers_endpoint_not_set": {
+        "message": "Endpoint não definido"
+    },
+    "settings_providers_endpoint_with_models": {
+        "message": "{{endpoint}} · {{count}} modelo(s)"
+    },
+    "settings_providers_https_hint": {
+        "message": "Provedores na nuvem precisam usar HTTPS."
+    },
+    "settings_providers_id": {
+        "message": "ID do provedor"
+    },
+    "settings_providers_id_fixed": {
+        "message": "Fixo para este provedor."
+    },
+    "settings_providers_id_taken": {
+        "message": "Já existe um provedor com este ID."
+    },
+    "settings_providers_keep_editing": {
+        "message": "Continuar editando"
+    },
+    "settings_providers_leave_description": {
+        "message": "As alterações neste provedor não foram salvas."
+    },
+    "settings_providers_leave_title": {
+        "message": "Alterações não salvas no provedor"
+    },
+    "settings_providers_load": {
+        "message": "Carregar"
+    },
+    "settings_providers_loaded": {
+        "message": "Modelos: {{count}} · {{latency}} ms"
+    },
+    "settings_providers_loading": {
+        "message": "Carregando modelos..."
+    },
+    "settings_providers_local_about": {
+        "message": "Modelos baixados para este Mac. O que eles processam fica nele."
+    },
+    "settings_providers_local_failed_chat": {
+        "message": "O modelo local do Chat não conseguiu iniciar."
+    },
+    "settings_providers_local_failed_embedding": {
+        "message": "A indexação dos conectores não conseguiu iniciar."
+    },
+    "settings_providers_local_failed_memory": {
+        "message": "O modelo local da Memória não conseguiu iniciar."
+    },
+    "settings_providers_local_hint": {
+        "message": "Endpoints locais e de rede privada são permitidos."
+    },
+    "settings_providers_local_role_configured": {
+        "message": "Configurado"
+    },
+    "settings_providers_local_role_off": {
+        "message": "Desativado"
+    },
+    "settings_providers_local_role_ready": {
+        "message": "Pronto"
+    },
+    "settings_providers_local_role_unused": {
+        "message": "Não usado"
+    },
+    "settings_providers_local_role_unused_chat": {
+        "message": "Sem modelo próprio para o Chat."
+    },
+    "settings_providers_local_role_unused_other": {
+        "message": "Sem modelo local."
+    },
+    "settings_providers_local_role_used_for": {
+        "message": "Usado para {{tasks}}"
+    },
+    "settings_providers_local_runtime": {
+        "message": "Runtime"
+    },
+    "settings_providers_local_state_attention": {
+        "message": "Precisa de atenção"
+    },
+    "settings_providers_local_state_not_set_up": {
+        "message": "Não configurado"
+    },
+    "settings_providers_local_state_starting": {
+        "message": "Iniciando"
+    },
+    "settings_providers_local_state_unsupported": {
+        "message": "Não compatível"
+    },
+    "settings_providers_local_summary_attention": {
+        "message": "Um modelo local não está respondendo. Reinicie o serviço local ou confira o log dele."
+    },
+    "settings_providers_local_summary_not_set_up": {
+        "message": "Configure a Private AI para baixar modelos e rodá-los neste Mac."
+    },
+    "settings_providers_local_summary_off": {
+        "message": "O runtime local está parado. Os modelos baixados continuam neste Mac."
+    },
+    "settings_providers_local_summary_on": {
+        "message": "Rodando: {{count}} de {{total}}"
+    },
+    "settings_providers_local_summary_unavailable": {
+        "message": "Não foi possível ler o runtime local."
+    },
+    "settings_providers_local_summary_unsupported": {
+        "message": "Exige Apple Silicon."
+    },
+    "settings_providers_local_switch_failed": {
+        "message": "Não foi possível ativar ou desativar o runtime local"
+    },
+    "settings_providers_local_title": {
+        "message": "Modelos locais"
+    },
+    "settings_providers_local_turn_off": {
+        "message": "Desativar"
+    },
+    "settings_providers_local_turn_on": {
+        "message": "Ativar"
+    },
+    "settings_providers_local_update": {
+        "message": "Atualizar"
+    },
+    "settings_providers_local_update_failed": {
+        "message": "Não foi possível instalar o runtime"
+    },
+    "settings_providers_local_version": {
+        "message": "Versão {{version}}"
+    },
+    "settings_providers_local_version_with_update": {
+        "message": "Versão {{installedVersion}} · {{availableVersion}} disponível"
+    },
+    "settings_providers_local_view_logs": {
+        "message": "Ver logs"
+    },
+    "settings_providers_models": {
+        "message": "Modelos"
+    },
+    "settings_providers_models_empty": {
+        "message": "Carregue os modelos deste provedor e depois escolha quais o Phi pode usar."
+    },
+    "settings_providers_name": {
+        "message": "Nome do provedor"
+    },
+    "settings_providers_name_placeholder": {
+        "message": "Meu provedor personalizado"
+    },
+    "settings_providers_not_found": {
+        "message": "Este provedor não existe mais."
+    },
+    "settings_providers_not_ready": {
+        "message": "Não está pronto"
+    },
+    "settings_providers_off": {
+        "message": "Desativado"
+    },
+    "settings_providers_on": {
+        "message": "Ativado"
+    },
+    "settings_providers_phi_description": {
+        "message": "Já vem com o Phi e usa seu login do Phi. Não precisa de chave de API."
+    },
+    "settings_providers_problem_api_key": {
+        "message": "Digite uma chave de API."
+    },
+    "settings_providers_problem_base_url": {
+        "message": "Digite uma URL base."
+    },
+    "settings_providers_problem_https": {
+        "message": "Provedores na nuvem precisam usar HTTPS."
+    },
+    "settings_providers_problem_select_model": {
+        "message": "Selecione pelo menos um modelo."
+    },
+    "settings_providers_raw_list": {
+        "message": "Lista bruta de modelos permitidos"
+    },
+    "settings_providers_raw_list_placeholder": {
+        "message": "Deixe em branco para permitir todos os modelos do provedor"
+    },
+    "settings_providers_remove": {
+        "message": "Remover provedor"
+    },
+    "settings_providers_remove_description": {
+        "message": "As tarefas de IA que usam este provedor voltam para o Phi Cloud."
+    },
+    "settings_providers_remove_title": {
+        "message": "Remover {{name}}?"
+    },
+    "settings_providers_save": {
+        "message": "Salvar alterações"
+    },
+    "settings_providers_scope": {
+        "message": "Escopo"
+    },
+    "settings_providers_scope_cloud": {
+        "message": "Nuvem"
+    },
+    "settings_providers_scope_local": {
+        "message": "Local"
+    },
+    "settings_providers_search": {
+        "message": "Pesquisar modelos..."
+    },
+    "settings_providers_select_model": {
+        "message": "Selecione pelo menos um modelo."
+    },
+    "settings_providers_selected_count": {
+        "message": "{{count}} modelo(s) selecionado(s)"
+    },
+    "settings_providers_selected_models": {
+        "message": "Só os modelos selecionados"
+    },
+    "settings_providers_test": {
+        "message": "Testar"
+    },
+    "settings_providers_test_failed": {
+        "message": "{{model}} falhou: {{error}}"
+    },
+    "settings_providers_test_hint": {
+        "message": "Carregue os modelos primeiro."
+    },
+    "settings_providers_test_passed": {
+        "message": "Conexão bem-sucedida: {{model}} · {{latency}} ms"
+    },
+    "settings_providers_test_placeholder": {
+        "message": "Selecione um modelo ativado para testar"
+    },
+    "settings_providers_testing": {
+        "message": "Testando {{model}}..."
+    },
+    "settings_providers_title": {
+        "message": "Provedores de IA"
+    },
+    "settings_providers_unsaved": {
+        "message": "Alterações não salvas"
+    },
+    "settings_providers_use": {
+        "message": "Usar este provedor"
+    },
+    "settings_providers_yours": {
+        "message": "Seus provedores"
+    },
+    "settings_service_state_crashed": {
+        "message": "Travou"
+    },
+    "settings_service_state_disabled": {
+        "message": "Desativado"
+    },
+    "settings_service_state_pending": {
+        "message": "Pendente"
+    },
+    "settings_service_state_running": {
+        "message": "Em execução"
+    },
+    "settings_service_state_starting": {
+        "message": "Iniciando"
+    },
+    "settings_service_state_stopped": {
+        "message": "Parado"
+    },
+    "settings_service_state_stopping": {
+        "message": "Parando"
+    },
+    "settings_service_state_unhealthy": {
+        "message": "Com problemas"
+    },
+    "settings_service_state_unknown": {
+        "message": "Desconhecido"
+    },
+    "settings_services_advanced_prompt": {
+        "message": "Precisa de detalhes dos processos ou de iniciar e parar serviços?"
+    },
+    "settings_services_description": {
+        "message": "O Phi roda estes serviços em segundo plano para manter os recursos de IA disponíveis."
+    },
+    "settings_services_group_services": {
+        "message": "Serviços em segundo plano"
+    },
+    "settings_services_no_services": {
+        "message": "Nenhum serviço encontrado"
+    },
+    "settings_services_restarting": {
+        "message": "Os serviços em segundo plano estão reiniciando. Isso leva alguns segundos."
+    },
+    "settings_services_retry": {
+        "message": "Tentar novamente"
+    },
+    "settings_services_summary_attention_title": {
+        "message": "Alguns serviços precisam de atenção"
+    },
+    "settings_services_summary_counts": {
+        "message": "{{running}} de {{total}} serviços em execução"
+    },
+    "settings_services_summary_healthy_title": {
+        "message": "Tudo está funcionando"
+    },
+    "settings_services_summary_loading": {
+        "message": "Verificando os serviços..."
+    },
+    "settings_services_summary_offline_description": {
+        "message": "Os recursos de IA que dependem deles ficam indisponíveis até eles iniciarem de novo."
+    },
+    "settings_services_summary_offline_title": {
+        "message": "Os serviços em segundo plano não estão rodando"
+    },
+    "settings_services_summary_unavailable_description": {
+        "message": "O Phi não conseguiu ler o status deles. Tente novamente daqui a pouco."
+    },
+    "settings_services_summary_unavailable_title": {
+        "message": "Não foi possível acessar os serviços em segundo plano"
     },
     "shadow_tasks_artifacts_empty": {
         "message": "Nenhum artefato disponível"
@@ -2508,13 +3921,13 @@
         "message": "Cancelar"
     },
     "skill_creator_create_failed": {
-        "message": "Não foi possível criar a habilidade."
+        "message": "Não foi possível criar a skill."
     },
     "skill_creator_created": {
-        "message": "Habilidade criada"
+        "message": "Skill criada"
     },
     "skill_creator_description": {
-        "message": "Crie uma habilidade usando o modo Simples ou Profissional."
+        "message": "Crie uma skill usando o modo Simples ou Profissional."
     },
     "skill_creator_field_description": {
         "message": "Descrição"
@@ -2535,7 +3948,7 @@
         "message": "Simples"
     },
     "skill_creator_primary_create": {
-        "message": "Criar habilidade"
+        "message": "Criar skill"
     },
     "skill_creator_primary_next": {
         "message": "Avançar"
@@ -2547,28 +3960,28 @@
         "message": "Pensando"
     },
     "skill_creator_title": {
-        "message": "Criar habilidade"
+        "message": "Criar skill"
     },
     "skill_recorder_back": {
-        "message": "Voltar às habilidades"
+        "message": "Voltar às skills"
     },
     "skill_recorder_cancel": {
         "message": "Cancelar"
     },
     "skill_recorder_errors_cancel_failed": {
-        "message": "Não foi possível cancelar a gravação da habilidade"
+        "message": "Não foi possível cancelar a gravação da skill"
     },
     "skill_recorder_errors_page_not_recordable": {
         "message": "Esta página não pode ser gravada"
     },
     "skill_recorder_errors_recording_active": {
-        "message": "Já há uma gravação de habilidade em andamento"
+        "message": "Já há uma gravação de skill em andamento"
     },
     "skill_recorder_errors_start_failed": {
-        "message": "Não foi possível iniciar a gravação da habilidade"
+        "message": "Não foi possível iniciar a gravação da skill"
     },
     "skill_recorder_errors_unavailable": {
-        "message": "O gravador de habilidades não está disponível"
+        "message": "O gravador de skills não está disponível"
     },
     "skill_recorder_loading_tabs": {
         "message": "Carregando abas..."
@@ -2583,7 +3996,7 @@
         "message": "Nenhuma aba gravável aberta"
     },
     "skill_recorder_title": {
-        "message": "Gravar uma habilidade"
+        "message": "Gravar uma skill"
     },
     "skill_recorder_untitled": {
         "message": "Sem título"
@@ -2613,7 +4026,7 @@
         "message": "Adicionar"
     },
     "skills_actions_add_failed": {
-        "message": "Não foi possível adicionar a habilidade"
+        "message": "Não foi possível adicionar a skill"
     },
     "skills_actions_add_skill": {
         "message": "Adicionar {{name}} à sua biblioteca"
@@ -2622,16 +4035,16 @@
         "message": "Adicionada"
     },
     "skills_actions_added_toast": {
-        "message": "Habilidade adicionada"
+        "message": "Skill adicionada"
     },
     "skills_actions_delete_failed": {
-        "message": "Não foi possível excluir a habilidade"
+        "message": "Não foi possível excluir a skill"
     },
     "skills_actions_delete_skill": {
         "message": "Excluir {{name}}"
     },
     "skills_actions_deleted_toast": {
-        "message": "Habilidade excluída"
+        "message": "Skill excluída"
     },
     "skills_actions_disable_skill": {
         "message": "Desativar {{name}}"
@@ -2649,22 +4062,22 @@
         "message": "Ativada"
     },
     "skills_actions_remove_failed": {
-        "message": "Não foi possível remover a habilidade"
+        "message": "Não foi possível remover a skill"
     },
     "skills_actions_remove_skill": {
         "message": "Remover {{name}} da sua biblioteca"
     },
     "skills_actions_removed_toast": {
-        "message": "Habilidade removida"
+        "message": "Skill removida"
     },
     "skills_actions_skill_creator_locked": {
-        "message": "O Criador de habilidades não pode ser desativado"
+        "message": "O Criador de skills não pode ser desativado"
     },
     "skills_actions_skill_disabled_removed": {
-        "message": "Habilidade desativada {{name}} removida"
+        "message": "Skill desativada {{name}} removida"
     },
     "skills_actions_toggle_failed": {
-        "message": "Não foi possível ativar/desativar a habilidade"
+        "message": "Não foi possível ativar/desativar a skill"
     },
     "skills_actions_try": {
         "message": "Experimentar"
@@ -2676,10 +4089,10 @@
         "message": "Ver {{name}}"
     },
     "skills_all_skills": {
-        "message": "Todas as habilidades"
+        "message": "Todas as skills"
     },
     "skills_api_unavailable": {
-        "message": "A API de habilidades fica indisponível até a autenticação estar pronta."
+        "message": "A API de skills fica indisponível até a autenticação estar pronta."
     },
     "skills_confirm_removal_built_in_confirm": {
         "message": "Remover"
@@ -2688,7 +4101,7 @@
         "message": "Ela será removida da sua biblioteca. Você pode adicioná-la de volta quando quiser."
     },
     "skills_confirm_removal_built_in_title": {
-        "message": "Remover esta habilidade integrada?"
+        "message": "Remover esta skill integrada?"
     },
     "skills_confirm_removal_cancel": {
         "message": "Cancelar"
@@ -2703,7 +4116,7 @@
         "message": "Não é possível desfazer esta ação."
     },
     "skills_confirm_removal_user_title": {
-        "message": "Excluir esta habilidade?"
+        "message": "Excluir esta skill?"
     },
     "skills_edit_dialog_body_required": {
         "message": "As instruções são obrigatórias."
@@ -2712,7 +4125,7 @@
         "message": "Cancelar"
     },
     "skills_edit_dialog_description": {
-        "message": "Atualize a instrução reutilizável e salve-a de volta na sua biblioteca de habilidades."
+        "message": "Atualize a instrução reutilizável e salve-a de volta na sua biblioteca de skills."
     },
     "skills_edit_dialog_description_label": {
         "message": "Descrição"
@@ -2721,7 +4134,7 @@
         "message": "A descrição é obrigatória."
     },
     "skills_edit_dialog_error": {
-        "message": "Não foi possível salvar a habilidade."
+        "message": "Não foi possível salvar a skill."
     },
     "skills_edit_dialog_friendly_name_required": {
         "message": "O nome de exibição é obrigatório."
@@ -2730,13 +4143,13 @@
         "message": "Instruções"
     },
     "skills_edit_dialog_instructions_placeholder": {
-        "message": "Escreva as instruções em Markdown que esta habilidade insere no chat."
+        "message": "Escreva as instruções em Markdown que esta skill insere no chat."
     },
     "skills_edit_dialog_load_error": {
-        "message": "Não foi possível carregar esta habilidade."
+        "message": "Não foi possível carregar esta skill."
     },
     "skills_edit_dialog_loading": {
-        "message": "Carregando habilidade..."
+        "message": "Carregando skill..."
     },
     "skills_edit_dialog_name": {
         "message": "Nome"
@@ -2748,22 +4161,22 @@
         "message": "Salvar"
     },
     "skills_edit_dialog_saved": {
-        "message": "Habilidade salva."
+        "message": "Skill salva."
     },
     "skills_edit_dialog_saving": {
         "message": "Salvando..."
     },
     "skills_edit_dialog_title": {
-        "message": "Editar habilidade"
+        "message": "Editar skill"
     },
     "skills_empty_description": {
-        "message": "Tente outra pesquisa ou crie uma habilidade de usuário."
+        "message": "Tente outra pesquisa ou crie uma skill de usuário."
     },
     "skills_empty_title": {
-        "message": "Nenhuma habilidade encontrada"
+        "message": "Nenhuma skill encontrada"
     },
     "skills_error_title": {
-        "message": "Não foi possível carregar as habilidades"
+        "message": "Não foi possível carregar as skills"
     },
     "skills_filters_all": {
         "message": "Todos"
@@ -2781,7 +4194,7 @@
         "message": "Avançado"
     },
     "skills_form_friendly_name_help": {
-        "message": "Aparece nas listas de habilidades e no chat. O nome interno continua separado."
+        "message": "Aparece nas listas de skills e no chat. O nome interno continua separado."
     },
     "skills_form_friendly_name_label": {
         "message": "Nome de exibição"
@@ -2802,13 +4215,13 @@
         "message": "Nome curto (slug)"
     },
     "skills_loading": {
-        "message": "Carregando habilidades..."
+        "message": "Carregando skills..."
     },
     "skills_menu_label": {
-        "message": "Habilidades"
+        "message": "Skills"
     },
     "skills_pagination_label": {
-        "message": "Paginação das habilidades"
+        "message": "Paginação das skills"
     },
     "skills_pagination_next": {
         "message": "Próxima página"
@@ -2823,19 +4236,19 @@
         "message": "Revise o conteúdo da instrução reutilizável."
     },
     "skills_read_only_dialog_empty": {
-        "message": "Esta habilidade não tem conteúdo de instrução."
+        "message": "Esta skill não tem conteúdo de instrução."
     },
     "skills_read_only_dialog_instructions": {
         "message": "Instruções"
     },
     "skills_read_only_dialog_load_error": {
-        "message": "Não foi possível carregar o conteúdo da habilidade."
+        "message": "Não foi possível carregar o conteúdo da skill."
     },
     "skills_read_only_dialog_loading": {
-        "message": "Carregando o conteúdo da habilidade..."
+        "message": "Carregando o conteúdo da skill..."
     },
     "skills_read_only_dialog_title": {
-        "message": "Detalhes da habilidade"
+        "message": "Detalhes da skill"
     },
     "skills_search": {
         "message": "Pesquisar"
@@ -2850,28 +4263,721 @@
         "message": "Gerencie instruções reutilizáveis para as execuções do chat."
     },
     "skills_suggestion_all_description": {
-        "message": "Navegue e gerencie sua biblioteca de habilidades"
+        "message": "Navegue e gerencie sua biblioteca de skills"
     },
     "skills_suggestion_all_label": {
-        "message": "Todas as habilidades"
+        "message": "Todas as skills"
     },
     "skills_suggestion_create_description": {
-        "message": "Você também pode simplesmente conversar para criar uma habilidade"
+        "message": "Você também pode simplesmente conversar para criar uma skill"
     },
     "skills_suggestion_create_label": {
-        "message": "Criar habilidade"
+        "message": "Criar skill"
     },
     "skills_suggestion_group_title": {
-        "message": "Habilidade"
+        "message": "Skill"
     },
     "skills_suggestion_record_description": {
         "message": "Grave um fluxo de trabalho no navegador"
     },
     "skills_suggestion_record_label": {
-        "message": "Gravar uma habilidade"
+        "message": "Gravar uma skill"
     },
     "skills_title": {
-        "message": "Habilidades"
+        "message": "Skills"
+    },
+    "tasks_page_common_actions": {
+        "message": "Ações"
+    },
+    "tasks_page_common_artifacts": {
+        "message": "Artefatos ({{count}})"
+    },
+    "tasks_page_common_back": {
+        "message": "Voltar"
+    },
+    "tasks_page_common_cancel": {
+        "message": "Cancelar"
+    },
+    "tasks_page_common_duration": {
+        "message": "Duração"
+    },
+    "tasks_page_common_error": {
+        "message": "Erro"
+    },
+    "tasks_page_common_loading": {
+        "message": "Carregando..."
+    },
+    "tasks_page_common_ok": {
+        "message": "OK"
+    },
+    "tasks_page_common_ready": {
+        "message": "Pronto"
+    },
+    "tasks_page_common_refresh": {
+        "message": "Atualizar"
+    },
+    "tasks_page_common_result": {
+        "message": "Resultado"
+    },
+    "tasks_page_common_retry": {
+        "message": "Tentar novamente"
+    },
+    "tasks_page_common_schedule": {
+        "message": "Agendamento"
+    },
+    "tasks_page_common_started": {
+        "message": "Início"
+    },
+    "tasks_page_common_started_at": {
+        "message": "Iniciada em: {{date}}"
+    },
+    "tasks_page_common_state": {
+        "message": "Estado"
+    },
+    "tasks_page_common_status": {
+        "message": "Status"
+    },
+    "tasks_page_detail_accessible_label_cancel_current_run": {
+        "message": "Cancelar a execução atual"
+    },
+    "tasks_page_detail_action_cancel_run": {
+        "message": "Cancelar a execução"
+    },
+    "tasks_page_detail_action_copy": {
+        "message": "Copiar"
+    },
+    "tasks_page_detail_description_no_linked_schedules": {
+        "message": "Nenhum agendamento ligado a esta tarefa."
+    },
+    "tasks_page_detail_description_no_result_text_available": {
+        "message": "Nenhum texto de resultado disponível."
+    },
+    "tasks_page_detail_description_no_run_logs": {
+        "message": "Nenhum log retornado para esta execução."
+    },
+    "tasks_page_detail_description_no_runs_yet": {
+        "message": "Ainda não há execuções."
+    },
+    "tasks_page_detail_field_label_cadence": {
+        "message": "Frequência"
+    },
+    "tasks_page_detail_field_label_last_run": {
+        "message": "Última execução"
+    },
+    "tasks_page_detail_field_label_last_trigger": {
+        "message": "Último disparo"
+    },
+    "tasks_page_detail_field_label_latest_run": {
+        "message": "Execução mais recente"
+    },
+    "tasks_page_detail_field_label_next_run": {
+        "message": "Próxima execução"
+    },
+    "tasks_page_detail_field_label_objective": {
+        "message": "Objetivo"
+    },
+    "tasks_page_detail_field_label_run_id": {
+        "message": "ID da execução"
+    },
+    "tasks_page_detail_field_label_schedule_id": {
+        "message": "ID do agendamento"
+    },
+    "tasks_page_detail_field_label_task_id": {
+        "message": "ID da tarefa"
+    },
+    "tasks_page_detail_field_label_task_status": {
+        "message": "Status da tarefa"
+    },
+    "tasks_page_detail_field_label_title": {
+        "message": "Título"
+    },
+    "tasks_page_detail_label_failed_to_load_task_detail": {
+        "message": "Não foi possível carregar os detalhes da tarefa."
+    },
+    "tasks_page_detail_label_file_artifact": {
+        "message": "Arquivo"
+    },
+    "tasks_page_detail_label_generic_artifact": {
+        "message": "Artefato"
+    },
+    "tasks_page_detail_label_hide_run_details": {
+        "message": "Ocultar os detalhes da execução"
+    },
+    "tasks_page_detail_label_image_artifact": {
+        "message": "Imagem"
+    },
+    "tasks_page_detail_label_load_failure": {
+        "message": "Não foi possível carregar os detalhes da tarefa agendada."
+    },
+    "tasks_page_detail_label_loading_run_detail": {
+        "message": "Carregando os detalhes da execução..."
+    },
+    "tasks_page_detail_label_logs": {
+        "message": "Logs"
+    },
+    "tasks_page_detail_label_run_detail_unavailable": {
+        "message": "Detalhes da execução indisponíveis."
+    },
+    "tasks_page_detail_label_task_unavailable": {
+        "message": "Tarefa indisponível"
+    },
+    "tasks_page_detail_label_unnamed_artifact": {
+        "message": "Artefato sem nome"
+    },
+    "tasks_page_detail_label_video_artifact": {
+        "message": "Vídeo"
+    },
+    "tasks_page_detail_label_view_details": {
+        "message": "Ver detalhes"
+    },
+    "tasks_page_detail_label_view_run_details": {
+        "message": "Ver os detalhes da execução"
+    },
+    "tasks_page_detail_title_recent_runs": {
+        "message": "Execuções recentes"
+    },
+    "tasks_page_detail_title_run_detail": {
+        "message": "Detalhes da execução"
+    },
+    "tasks_page_detail_title_task": {
+        "message": "Tarefa"
+    },
+    "tasks_page_list_accessible_label_create_task": {
+        "message": "Criar tarefa"
+    },
+    "tasks_page_list_accessible_label_delete_named_schedule": {
+        "message": "Excluir {{schedule}}"
+    },
+    "tasks_page_list_accessible_label_delete_named_task": {
+        "message": "Excluir {{task}}"
+    },
+    "tasks_page_list_accessible_label_edit_named_schedule": {
+        "message": "Editar {{schedule}}"
+    },
+    "tasks_page_list_accessible_label_edit_named_task": {
+        "message": "Editar {{task}}"
+    },
+    "tasks_page_list_accessible_label_filter_runs_by_task": {
+        "message": "Filtrar execuções por tarefa"
+    },
+    "tasks_page_list_accessible_label_manage_task_schedules": {
+        "message": "Gerenciar agendamentos de {{task}}"
+    },
+    "tasks_page_list_accessible_label_manual": {
+        "message": "Manual"
+    },
+    "tasks_page_list_accessible_label_optional_details": {
+        "message": "Detalhes opcionais"
+    },
+    "tasks_page_list_accessible_label_pause_named_schedule": {
+        "message": "Pausar {{schedule}}"
+    },
+    "tasks_page_list_accessible_label_resume_named_schedule": {
+        "message": "Retomar {{schedule}}"
+    },
+    "tasks_page_list_accessible_label_run_named_schedule": {
+        "message": "Executar {{schedule}} agora"
+    },
+    "tasks_page_list_accessible_label_scheduled": {
+        "message": "Agendada"
+    },
+    "tasks_page_list_action_delete": {
+        "message": "Excluir"
+    },
+    "tasks_page_list_action_delete_schedule": {
+        "message": "Excluir agendamento"
+    },
+    "tasks_page_list_action_delete_task": {
+        "message": "Excluir tarefa"
+    },
+    "tasks_page_list_action_manage_schedules": {
+        "message": "Gerenciar agendamentos"
+    },
+    "tasks_page_list_action_save_settings": {
+        "message": "Salvar configurações"
+    },
+    "tasks_page_list_action_save_task": {
+        "message": "Salvar tarefa"
+    },
+    "tasks_page_list_action_show_all_schedules": {
+        "message": "Mostrar todos os agendamentos"
+    },
+    "tasks_page_list_description_active_run_settings": {
+        "message": "Controle como o Phi Agent lida com as execuções de tarefas em andamento."
+    },
+    "tasks_page_list_description_allowed_timeout_range": {
+        "message": "Intervalo permitido: de {{minimum}} a {{maximum}}."
+    },
+    "tasks_page_list_description_completed_schedule": {
+        "message": "Este agendamento terminou e não pode ser retomado."
+    },
+    "tasks_page_list_description_delete_named": {
+        "message": "Isso vai excluir <target>{{name}}</target>."
+    },
+    "tasks_page_list_description_empty_state_guidance": {
+        "message": "Crie uma tarefa para começar a acompanhar o trabalho do Phi Agent."
+    },
+    "tasks_page_list_description_expired_schedule": {
+        "message": "Este agendamento expirou. Edite o horário antes de retomar."
+    },
+    "tasks_page_list_description_failed_to_load_scheduled_tasks": {
+        "message": "Não foi possível carregar as tarefas agendadas"
+    },
+    "tasks_page_list_description_filtered_run_count": {
+        "message": "Execuções exibidas: {{filtered}} / {{total}}"
+    },
+    "tasks_page_list_description_load_failure": {
+        "message": "Não foi possível carregar as tarefas agora. Atualize esta página para tentar de novo."
+    },
+    "tasks_page_list_description_minimum_character_count": {
+        "message": "Pelo menos {{count}} caracteres."
+    },
+    "tasks_page_list_description_no_objective": {
+        "message": "Sem objetivo"
+    },
+    "tasks_page_list_description_no_runs_for_this_task": {
+        "message": "Nenhuma execução desta tarefa"
+    },
+    "tasks_page_list_description_no_schedules_yet": {
+        "message": "Ainda não há agendamentos"
+    },
+    "tasks_page_list_description_no_task_runs_yet": {
+        "message": "Ainda não há execuções de tarefas"
+    },
+    "tasks_page_list_description_no_tasks_yet": {
+        "message": "Ainda não há tarefas"
+    },
+    "tasks_page_list_description_objective_minimum_length": {
+        "message": "O objetivo precisa ter pelo menos {{count}} caracteres"
+    },
+    "tasks_page_list_description_objective_required": {
+        "message": "O objetivo é obrigatório"
+    },
+    "tasks_page_list_description_objective_validation": {
+        "message": "O objetivo é obrigatório. A descrição e as opções de nome ficam nos detalhes opcionais."
+    },
+    "tasks_page_list_description_optional_title_limit": {
+        "message": "Opcional. No máximo {{count}} caracteres. Títulos vazios são gerados a partir do objetivo."
+    },
+    "tasks_page_list_description_overview": {
+        "message": "Tarefas e execuções do Phi Agent."
+    },
+    "tasks_page_list_description_pause_schedule": {
+        "message": "Pausa as próximas execuções automáticas. Uma execução já iniciada continua."
+    },
+    "tasks_page_list_description_phi_agent_is_not_running": {
+        "message": "O Phi Agent não está rodando"
+    },
+    "tasks_page_list_description_resume_schedule": {
+        "message": "Retoma as execuções automáticas e calcula o horário da próxima execução."
+    },
+    "tasks_page_list_description_schedule_type_guidance": {
+        "message": "Escolha primeiro a opção de horário mais simples. Use cron só para agendamentos no estilo calendário."
+    },
+    "tasks_page_list_description_service_recovery": {
+        "message": "Inicie o Phi Agent e depois atualize esta página para carregar as tarefas."
+    },
+    "tasks_page_list_description_task_timeout_behavior": {
+        "message": "Marca uma tarefa em execução como falha quando ela passa desta duração."
+    },
+    "tasks_page_list_description_task_unavailable": {
+        "message": "A tarefa está indisponível. Confira o status dela antes de retomar."
+    },
+    "tasks_page_list_description_timezone_fallback": {
+        "message": "Opcional. Deixe em branco para usar o fuso horário local do dispositivo que roda o Phi Agent."
+    },
+    "tasks_page_list_description_unscheduled_task_behavior": {
+        "message": "Esta tarefa não tem agendamento. Inicie-a manualmente ou deixe o Phi Agent dispará-la quando for preciso."
+    },
+    "tasks_page_list_field_label_delete_schedule": {
+        "message": "Excluir agendamento"
+    },
+    "tasks_page_list_field_label_delete_task": {
+        "message": "Excluir tarefa"
+    },
+    "tasks_page_list_field_label_edit_schedule": {
+        "message": "Editar agendamento"
+    },
+    "tasks_page_list_field_label_edit_task": {
+        "message": "Editar tarefa"
+    },
+    "tasks_page_list_field_label_run_now": {
+        "message": "Executar agora"
+    },
+    "tasks_page_list_label_all_tasks": {
+        "message": "Todas as tarefas"
+    },
+    "tasks_page_list_label_api_source": {
+        "message": "API"
+    },
+    "tasks_page_list_label_artifact_count": {
+        "message": "{{count}} artefato(s)"
+    },
+    "tasks_page_list_label_calendar_schedule": {
+        "message": "Agendamento por calendário"
+    },
+    "tasks_page_list_label_chatbar_source": {
+        "message": "Chatbar"
+    },
+    "tasks_page_list_label_cron": {
+        "message": "Cron"
+    },
+    "tasks_page_list_label_cron_expression": {
+        "message": "Expressão cron"
+    },
+    "tasks_page_list_label_day": {
+        "message": "dia"
+    },
+    "tasks_page_list_label_days": {
+        "message": "dias"
+    },
+    "tasks_page_list_label_default_task_title": {
+        "message": "Tarefa agendada"
+    },
+    "tasks_page_list_label_delete_cascade_warning": {
+        "message": "A tarefa, os agendamentos ligados a ela e as execuções relacionadas serão removidos das listas de Tarefas, Agendamentos e Execuções."
+    },
+    "tasks_page_list_label_every": {
+        "message": "A cada"
+    },
+    "tasks_page_list_label_every_interval": {
+        "message": "A cada {{count}} {{unit}}"
+    },
+    "tasks_page_list_label_every_unit": {
+        "message": "Unidade do intervalo"
+    },
+    "tasks_page_list_label_every_value": {
+        "message": "Valor do intervalo"
+    },
+    "tasks_page_list_label_hour_lowercase": {
+        "message": "hora"
+    },
+    "tasks_page_list_label_hours": {
+        "message": "horas"
+    },
+    "tasks_page_list_label_interval": {
+        "message": "Intervalo"
+    },
+    "tasks_page_list_label_last_status": {
+        "message": "Última: {{status}}"
+    },
+    "tasks_page_list_label_manual_source": {
+        "message": "Manual"
+    },
+    "tasks_page_list_label_minute_lowercase": {
+        "message": "minuto"
+    },
+    "tasks_page_list_label_minutes": {
+        "message": "minutos"
+    },
+    "tasks_page_list_label_next_scheduled_run": {
+        "message": "Próxima: {{time}}"
+    },
+    "tasks_page_list_label_no_current_run": {
+        "message": "Nenhuma execução em andamento"
+    },
+    "tasks_page_list_label_no_schedule_start_when_needed": {
+        "message": "Sem agendamento. Inicie quando precisar."
+    },
+    "tasks_page_list_label_once": {
+        "message": "Uma vez"
+    },
+    "tasks_page_list_label_once_at": {
+        "message": "Uma vez em {{date}}"
+    },
+    "tasks_page_list_label_one_time": {
+        "message": "Uma vez"
+    },
+    "tasks_page_list_label_one_time_schedule": {
+        "message": "Agendamento único"
+    },
+    "tasks_page_list_label_optional": {
+        "message": "Opcional"
+    },
+    "tasks_page_list_label_recording": {
+        "message": "Gravação"
+    },
+    "tasks_page_list_label_recording_with_extra": {
+        "message": "Gravação +{{count}}"
+    },
+    "tasks_page_list_label_repeating_schedule": {
+        "message": "Agendamento recorrente"
+    },
+    "tasks_page_list_label_run_at": {
+        "message": "Executar em"
+    },
+    "tasks_page_list_label_run_status": {
+        "message": "Status da execução"
+    },
+    "tasks_page_list_label_running_timeout": {
+        "message": "Tempo limite de execução"
+    },
+    "tasks_page_list_label_running_timeout_value": {
+        "message": "Tempo limite de execução: {{value}}"
+    },
+    "tasks_page_list_label_runs": {
+        "message": "Execuções"
+    },
+    "tasks_page_list_label_runs_automatically_on_aschedule": {
+        "message": "Executa automaticamente conforme um agendamento."
+    },
+    "tasks_page_list_label_schedule_count": {
+        "message": "{{count}} agendamento(s)"
+    },
+    "tasks_page_list_label_schedule_description": {
+        "message": "Descrição do agendamento"
+    },
+    "tasks_page_list_label_schedule_name": {
+        "message": "Nome do agendamento"
+    },
+    "tasks_page_list_label_schedule_source": {
+        "message": "Agendamento"
+    },
+    "tasks_page_list_label_schedule_type": {
+        "message": "Tipo de agendamento"
+    },
+    "tasks_page_list_label_schedules": {
+        "message": "Agendamentos"
+    },
+    "tasks_page_list_label_schedules_for_task": {
+        "message": "Agendamentos de {{task}}"
+    },
+    "tasks_page_list_label_second": {
+        "message": "segundo"
+    },
+    "tasks_page_list_label_seconds": {
+        "message": "segundos"
+    },
+    "tasks_page_list_label_started_by": {
+        "message": "Iniciada por"
+    },
+    "tasks_page_list_label_task_description": {
+        "message": "Descrição da tarefa"
+    },
+    "tasks_page_list_label_task_source": {
+        "message": "Tarefa"
+    },
+    "tasks_page_list_label_task_title": {
+        "message": "Título da tarefa"
+    },
+    "tasks_page_list_label_task_type": {
+        "message": "Tipo de tarefa"
+    },
+    "tasks_page_list_label_task_unavailable": {
+        "message": "Tarefa indisponível"
+    },
+    "tasks_page_list_label_time_zone": {
+        "message": "Fuso horário"
+    },
+    "tasks_page_list_label_timeout_hours": {
+        "message": "{{count}} hora(s)"
+    },
+    "tasks_page_list_label_timeout_minutes": {
+        "message": "{{count}} minuto(s)"
+    },
+    "tasks_page_list_label_unscheduled_task_list_notice": {
+        "message": "Ela vai aparecer em Tarefas com o selo Sem agendamento."
+    },
+    "tasks_page_list_label_updated": {
+        "message": "Atualizada"
+    },
+    "tasks_page_list_label_use_local_timezone": {
+        "message": "Usar o fuso horário local"
+    },
+    "tasks_page_list_label_user_source": {
+        "message": "Usuário"
+    },
+    "tasks_page_list_status_active": {
+        "message": "Ativo"
+    },
+    "tasks_page_list_status_archived": {
+        "message": "Arquivada"
+    },
+    "tasks_page_list_status_cancelled": {
+        "message": "Cancelada"
+    },
+    "tasks_page_list_status_completed": {
+        "message": "Concluída"
+    },
+    "tasks_page_list_status_disabled": {
+        "message": "Desativada"
+    },
+    "tasks_page_list_status_failed": {
+        "message": "Falhou"
+    },
+    "tasks_page_list_status_missed": {
+        "message": "Perdida"
+    },
+    "tasks_page_list_status_no_schedule": {
+        "message": "Sem agendamento"
+    },
+    "tasks_page_list_status_not_started": {
+        "message": "Não iniciada"
+    },
+    "tasks_page_list_status_paused": {
+        "message": "Pausado"
+    },
+    "tasks_page_list_status_queued": {
+        "message": "Na fila"
+    },
+    "tasks_page_list_status_running_now": {
+        "message": "Em execução agora"
+    },
+    "tasks_page_list_status_scheduled": {
+        "message": "Agendada"
+    },
+    "tasks_page_list_status_skipped": {
+        "message": "Pulada"
+    },
+    "tasks_page_list_title_delete": {
+        "message": "Excluir?"
+    },
+    "tasks_page_list_title_delete_schedule": {
+        "message": "Excluir o agendamento?"
+    },
+    "tasks_page_list_title_delete_task": {
+        "message": "Excluir a tarefa?"
+    },
+    "tasks_page_list_title_edit_scheduled_task": {
+        "message": "Editar tarefa agendada"
+    },
+    "tasks_page_list_title_edit_task": {
+        "message": "Editar tarefa"
+    },
+    "tasks_page_list_title_new_task": {
+        "message": "Nova tarefa"
+    },
+    "tasks_page_list_title_run_behavior": {
+        "message": "Como executar"
+    },
+    "tasks_page_list_title_task_settings": {
+        "message": "Configurações de tarefas"
+    },
+    "tasks_page_list_title_tasks": {
+        "message": "Tarefas"
+    },
+    "tasks_page_list_validation_cron_invalid": {
+        "message": "Digite uma expressão cron válida de 5 campos"
+    },
+    "tasks_page_list_validation_cron_required": {
+        "message": "A expressão cron é obrigatória"
+    },
+    "tasks_page_list_validation_date_time_invalid": {
+        "message": "Digite uma data e hora válidas"
+    },
+    "tasks_page_list_validation_interval_positive": {
+        "message": "O intervalo precisa ser um número positivo"
+    },
+    "tasks_page_list_validation_run_at_future": {
+        "message": "\"Executar em\" precisa estar no futuro"
+    },
+    "tasks_page_list_validation_run_at_required": {
+        "message": "\"Executar em\" é obrigatório"
+    },
+    "tasks_page_list_validation_run_at_within_five_years": {
+        "message": "\"Executar em\" precisa estar dentro de 5 anos"
+    },
+    "tasks_page_list_validation_timeout_range": {
+        "message": "O tempo limite precisa ficar entre {{minimum}} e {{maximum}}."
+    },
+    "tasks_page_nav_label": {
+        "message": "Gerenciador de tarefas"
+    },
+    "tasks_page_preview_description_failed": {
+        "message": "Não foi possível pré-visualizar este arquivo. Ele pode estar indisponível, ter mais de 128 MB ou estar num formato não compatível."
+    },
+    "tasks_page_preview_label_preview": {
+        "message": "Pré-visualização"
+    },
+    "tasks_page_toast_no_active_run": {
+        "message": "Não há execução ativa para cancelar"
+    },
+    "tasks_page_toast_run_cancel_failed": {
+        "message": "Não foi possível cancelar a execução"
+    },
+    "tasks_page_toast_run_cancelled": {
+        "message": "Execução cancelada"
+    },
+    "tasks_page_toast_run_failed": {
+        "message": "Não foi possível executar a tarefa"
+    },
+    "tasks_page_toast_run_started": {
+        "message": "Execução iniciada"
+    },
+    "tasks_page_toast_schedule_create_partial_failure": {
+        "message": "A tarefa foi criada, mas não foi possível criar o agendamento"
+    },
+    "tasks_page_toast_schedule_delete_failed": {
+        "message": "Não foi possível excluir o agendamento"
+    },
+    "tasks_page_toast_schedule_deleted": {
+        "message": "Agendamento excluído"
+    },
+    "tasks_page_toast_schedule_pause_failed": {
+        "message": "Não foi possível pausar o agendamento"
+    },
+    "tasks_page_toast_schedule_paused": {
+        "message": "Agendamento pausado"
+    },
+    "tasks_page_toast_schedule_resume_completed": {
+        "message": "Este agendamento terminou; não há mais execuções agendadas."
+    },
+    "tasks_page_toast_schedule_resume_failed": {
+        "message": "Não foi possível retomar o agendamento"
+    },
+    "tasks_page_toast_schedule_resume_no_next_run": {
+        "message": "Nenhuma próxima execução está agendada. Confira o horário do agendamento."
+    },
+    "tasks_page_toast_schedule_resumed": {
+        "message": "Agendamento retomado"
+    },
+    "tasks_page_toast_schedule_run_failed": {
+        "message": "Não foi possível executar o agendamento agora"
+    },
+    "tasks_page_toast_schedule_run_started": {
+        "message": "Execução do agendamento iniciada"
+    },
+    "tasks_page_toast_scheduled_task_create_failed": {
+        "message": "Não foi possível criar a tarefa agendada"
+    },
+    "tasks_page_toast_scheduled_task_created": {
+        "message": "Tarefa agendada criada"
+    },
+    "tasks_page_toast_scheduled_task_update_failed": {
+        "message": "Não foi possível atualizar a tarefa agendada"
+    },
+    "tasks_page_toast_scheduled_task_updated": {
+        "message": "Tarefa agendada atualizada"
+    },
+    "tasks_page_toast_settings_update_failed": {
+        "message": "Não foi possível atualizar as configurações de tarefas"
+    },
+    "tasks_page_toast_settings_updated": {
+        "message": "Configurações de tarefas atualizadas"
+    },
+    "tasks_page_toast_task_create_failed": {
+        "message": "Não foi possível criar a tarefa"
+    },
+    "tasks_page_toast_task_created": {
+        "message": "Tarefa criada"
+    },
+    "tasks_page_toast_task_delete_failed": {
+        "message": "Não foi possível excluir a tarefa"
+    },
+    "tasks_page_toast_task_deleted": {
+        "message": "Tarefa excluída"
+    },
+    "tasks_page_toast_task_update_failed": {
+        "message": "Não foi possível atualizar a tarefa"
+    },
+    "tasks_page_toast_task_update_partial_failure": {
+        "message": "O agendamento foi atualizado, mas não foi possível atualizar a tarefa"
+    },
+    "tasks_page_toast_task_updated": {
+        "message": "Tarefa atualizada"
+    },
+    "tasks_page_toast_unknown_error": {
+        "message": "Erro desconhecido"
     },
     "theme_dark": {
         "message": "Escuro"
@@ -3036,10 +5142,10 @@
         "message": "Enviar depois desta resposta"
     },
     "user_input_no_available_skills": {
-        "message": "Nenhuma habilidade disponível"
+        "message": "Nenhuma skill disponível"
     },
     "user_input_open_skills": {
-        "message": "Abrir habilidades"
+        "message": "Abrir skills"
     },
     "user_input_remove_attachment": {
         "message": "Remover anexo"
@@ -3054,10 +5160,10 @@
         "message": "Remover grupo de abas"
     },
     "user_input_skill_fallback_name": {
-        "message": "habilidade"
+        "message": "skill"
     },
     "user_input_skills": {
-        "message": "Habilidades"
+        "message": "Skills"
     },
     "user_input_stop_not_confirmed": {
         "message": "Parada não confirmada"
