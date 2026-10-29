@@ -1502,6 +1502,948 @@
     "logs_tooltip_copy_logs_to_clipboard": {
         "message": "Copier les journaux dans le presse-papiers"
     },
+    "mail_guard_about_how": {
+        "message": "Lorsque vous ouvrez un e-mail, Phi effectue d'abord, dans votre navigateur, une vérification entièrement locale : authentification de l'expéditeur, liens, noms des pièces jointes, etc. Phi AI juge ensuite si l'e-mail semble suspect."
+    },
+    "mail_guard_about_how_title": {
+        "message": "Comment les e-mails sont vérifiés"
+    },
+    "mail_guard_about_local": {
+        "message": "Vos paramètres et vos expéditeurs de confiance sont conservés uniquement sur cet appareil."
+    },
+    "mail_guard_about_local_landing": {
+        "message": "Les liens des e-mails que Phi soupçonne fortement sont conservés sur cet appareil pendant 7 jours, afin de surveiller les pages vers lesquelles ils mènent."
+    },
+    "mail_guard_about_local_title": {
+        "message": "Conservé sur cet appareil"
+    },
+    "mail_guard_about_off": {
+        "message": "Lorsque « $SWITCH$ » est désactivé, un bouclier gris reste à côté de l'objet. Pour tout désactiver, sans rien afficher, désactivez la protection des e-mails dans les paramètres de Phi."
+    },
+    "mail_guard_about_off_title": {
+        "message": "Désactiver complètement"
+    },
+    "mail_guard_about_open_settings": {
+        "message": "Ouvrir les paramètres de Phi"
+    },
+    "mail_guard_about_privacy_policy": {
+        "message": "Politique de confidentialité"
+    },
+    "mail_guard_about_promise": {
+        "message": "Phi ne vend pas vos données, ne les utilise pas pour la publicité et ne s'en sert pas pour entraîner des modèles d'IA."
+    },
+    "mail_guard_about_sent_every": {
+        "message": "Chaque e-mail ouvert : l'objet et une partie du texte, avec les domaines de l'expéditeur et des liens et les extensions des pièces jointes. Les adresses e-mail qu'il contient sont réduites à leur domaine."
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "Si vous ouvrez un lien d'un e-mail que Phi soupçonne fortement : l'adresse de chaque page vers laquelle il mène (sans ce qui suit « ? » ou « # »), le titre et le texte visible de la page, et ce que ses champs de formulaire demandent. Ce que vous saisissez n'est jamais lu ni envoyé."
+    },
+    "mail_guard_about_sent_never": {
+        "message": "Non envoyé : les destinataires, les autres e-mails de la conversation et le contenu des pièces jointes. Les pièces jointes ne sont ni ouvertes ni téléchargées."
+    },
+    "mail_guard_about_sent_review": {
+        "message": "Lorsqu'un examen approfondi est nécessaire : le texte complet, le nom et l'adresse de l'expéditeur, les liens et les noms des pièces jointes."
+    },
+    "mail_guard_about_sent_title": {
+        "message": "Ce qui est envoyé"
+    },
+    "mail_guard_about_title": {
+        "message": "À propos de la protection des e-mails"
+    },
+    "mail_guard_about_to": {
+        "message": "Ces contenus sont envoyés à Phi Cloud, qui les transmet aux fournisseurs de modèles d'IA en amont, et ne servent qu'à cette vérification. Vous pouvez aussi utiliser votre propre service de modèles à la place, sous IA privée dans les paramètres de Phi."
+    },
+    "mail_guard_about_to_title": {
+        "message": "Qui le reçoit"
+    },
+    "mail_guard_ai_pending": {
+        "message": "Vérification par Phi AI en cours…"
+    },
+    "mail_guard_ai_skipped": {
+        "message": "Vous faites confiance à cet expéditeur, Phi AI n'a donc pas été sollicité."
+    },
+    "mail_guard_ai_unavailable": {
+        "message": "Phi AI n'a pas pu vérifier ce message ; ce résultat provient uniquement des vérifications statiques."
+    },
+    "mail_guard_attachment_archive_description_a": {
+        "message": "Le message contient $FILES$ et, d'après l'analyse de Phi AI, vous pousse à ouvrir une pièce jointe. Une archive empêche les systèmes d'analyse du courrier d'inspecter son contenu, ce qui explique pourquoi des fichiers dangereux arrivent souvent sous cette forme."
+    },
+    "mail_guard_attachment_archive_description_b": {
+        "message": "Le message contient $FILES$. Les archives sont courantes et généralement sans danger, mais on ne peut pas voir leur contenu sans les ouvrir."
+    },
+    "mail_guard_attachment_archive_title_a": {
+        "message": "Archive jointe à un message qui vous pousse à l'ouvrir"
+    },
+    "mail_guard_attachment_archive_title_b": {
+        "message": "Archive en pièce jointe"
+    },
+    "mail_guard_attachment_disk_image_description": {
+        "message": "Le message contient $FILES$. Les images disque se montent comme un lecteur, et leur contenu n'hérite pas des avertissements « téléchargé depuis Internet » du système d'exploitation, ce qui explique pourquoi elles servent à diffuser des exécutables."
+    },
+    "mail_guard_attachment_disk_image_title": {
+        "message": "La pièce jointe est une image disque"
+    },
+    "mail_guard_attachment_double_extension_description": {
+        "message": "« $FILENAME$ » est présenté comme un fichier .$VALUE$, mais son type réel est .$VALUE_2$. L'extension d'apparence inoffensive au milieu du nom est probablement là pour induire en erreur."
+    },
+    "mail_guard_attachment_double_extension_title": {
+        "message": "Le nom de la pièce jointe masque son type réel"
+    },
+    "mail_guard_attachment_executable_description": {
+        "message": "Le message contient $FILES$. Les fichiers de ce type exécutent du code à l'ouverture. Une correspondance légitime envoie rarement des programmes par e-mail."
+    },
+    "mail_guard_attachment_executable_title": {
+        "message": "La pièce jointe est un programme et non un document"
+    },
+    "mail_guard_attachment_executable_with_document_pretext_description": {
+        "message": "Le message présente la pièce jointe comme une facture, un bordereau d'expédition ou un autre document administratif courant, mais le fichier joint exécute du code à l'ouverture. Cette présentation sert souvent à faire passer un fichier pour un document attendu."
+    },
+    "mail_guard_attachment_executable_with_document_pretext_title": {
+        "message": "Pièce jointe exécutable présentée comme un document professionnel courant"
+    },
+    "mail_guard_attachment_filename_direction_override_description": {
+        "message": "Le nom du fichier contient des caractères invisibles qui inversent l'affichage d'une partie du nom, si bien que l'extension visible à l'écran n'est pas la vraie. Son type réel est .$EXTENSION$. Sans les caractères cachés, le nom est « $VALUE$ »."
+    },
+    "mail_guard_attachment_filename_direction_override_title": {
+        "message": "Le nom de la pièce jointe contient des caractères qui inversent le sens de lecture"
+    },
+    "mail_guard_attachment_filename_hidden_characters_description": {
+        "message": "Le nom du fichier contient des caractères qui n'occupent aucune place à l'écran : il se lit normalement, mais ne correspond pas au nom que rechercherait un filtre. Son type réel est .$EXTENSION$. Sans les caractères cachés, le nom est « $VALUE$ »."
+    },
+    "mail_guard_attachment_filename_hidden_characters_title": {
+        "message": "Le nom de la pièce jointe contient des caractères invisibles"
+    },
+    "mail_guard_attachment_macro_capable_description_a": {
+        "message": "Le message contient $FILES$. Ce format sert précisément à transporter du code intégré, et ce code s'exécute si les macros sont activées."
+    },
+    "mail_guard_attachment_macro_capable_description_b": {
+        "message": "Le message contient $FILES$. Les anciens formats Office peuvent intégrer des macros, ce qui n'est pas le cas des formats actuels équivalents (.docx, .xlsx)."
+    },
+    "mail_guard_attachment_macro_capable_title_a": {
+        "message": "La pièce jointe est un document prenant en charge les macros"
+    },
+    "mail_guard_attachment_macro_capable_title_b": {
+        "message": "La pièce jointe utilise un ancien format Office pouvant contenir des macros"
+    },
+    "mail_guard_attachment_none_suspicious_description_many": {
+        "message": "Les $COUNT$ pièces jointes sont toutes d'un type de fichier qui n'exécute normalement pas de code. Notez que cette extension n'ouvre ni ne télécharge jamais le contenu des pièces jointes : seuls les noms de fichiers ont été examinés."
+    },
+    "mail_guard_attachment_none_suspicious_description_one": {
+        "message": "La pièce jointe est d'un type de fichier qui n'exécute normalement pas de code. Notez que cette extension n'ouvre ni ne télécharge jamais le contenu des pièces jointes : seuls les noms de fichiers ont été examinés."
+    },
+    "mail_guard_attachment_none_suspicious_title": {
+        "message": "Aucune pièce jointe suspecte détectée"
+    },
+    "mail_guard_attachment_script_container_description": {
+        "message": "Le message contient $FILES$. L'ouvrir affiche une page à partir d'un fichier local, une méthode qui peut servir à présenter un formulaire de connexion convaincant sans l'héberger nulle part où il pourrait être bloqué ou supprimé."
+    },
+    "mail_guard_attachment_script_container_title": {
+        "message": "La pièce jointe est une page web et non un document"
+    },
+    "mail_guard_authentication_failure_description": {
+        "message": "Gmail indique un échec de $CHECKS$ pour ce message. Cela signifie que le serveur d'envoi n'était pas autorisé à envoyer du courrier pour $DOMAIN$ : l'adresse de l'expéditeur pourrait donc être falsifiée."
+    },
+    "mail_guard_authentication_failure_description_no_domain": {
+        "message": "Gmail indique un échec de $CHECKS$ pour ce message. Cela signifie que le serveur d'envoi n'était pas autorisé à envoyer du courrier pour le domaine de l'expéditeur : l'adresse de l'expéditeur pourrait donc être falsifiée."
+    },
+    "mail_guard_authentication_failure_title": {
+        "message": "L'authentification de l'expéditeur a échoué"
+    },
+    "mail_guard_authentication_gmail_warning_description": {
+        "message": "Gmail a signalé ce message dans sa propre interface. Gmail effectue des vérifications que cette extension ne peut pas faire, notamment sur la réputation et l'historique des comptes : son avertissement est donc une confirmation indépendante."
+    },
+    "mail_guard_authentication_gmail_warning_title": {
+        "message": "Gmail a affiché son propre bandeau d'avertissement pour ce message"
+    },
+    "mail_guard_authentication_partial_failure_description": {
+        "message": "Gmail indique un échec de $CHECKS$, alors que DMARC a réussi. La réussite de DMARC laisse penser que le message reste rattaché à $DOMAIN$ ; un échec isolé s'explique généralement par un service de transfert ou une liste de diffusion sur le trajet du message."
+    },
+    "mail_guard_authentication_partial_failure_description_no_domain": {
+        "message": "Gmail indique un échec de $CHECKS$, alors que DMARC a réussi. La réussite de DMARC laisse penser que le message reste rattaché au domaine de l'expéditeur ; un échec isolé s'explique généralement par un service de transfert ou une liste de diffusion sur le trajet du message."
+    },
+    "mail_guard_authentication_partial_failure_title": {
+        "message": "Une vérification d'authentification a échoué, mais DMARC a réussi"
+    },
+    "mail_guard_authentication_passed_description": {
+        "message": "$CHECKS$ : vérification réussie pour $DOMAIN$. Cela indique que le message a bien été envoyé par ce domaine ; cela ne prouve pas que ce domaine appartient bien à qui il prétend être."
+    },
+    "mail_guard_authentication_passed_description_no_domain": {
+        "message": "$CHECKS$ : vérification réussie pour le domaine d'envoi. Cela indique que le message a bien été envoyé par ce domaine ; cela ne prouve pas que ce domaine appartient bien à qui il prétend être."
+    },
+    "mail_guard_authentication_passed_title": {
+        "message": "Authentification de l'expéditeur réussie ($VALUE$)"
+    },
+    "mail_guard_authentication_signing_domain_mismatch_description": {
+        "message": "Le message est signé numériquement par $SIGNER$ et non par $SENDER$. Les fournisseurs de messagerie et les plateformes d'envoi signent légitimement au nom de leurs clients : cela ne suffit donc pas à conclure."
+    },
+    "mail_guard_authentication_signing_domain_mismatch_description_brand": {
+        "message": "Le message est signé numériquement par $SIGNER$ et non par $SENDER$. Les fournisseurs de messagerie et les plateformes d'envoi signent légitimement au nom de leurs clients : cela ne suffit donc pas à conclure, mais un message qui se présente comme $BRAND$ serait normalement signé par cette organisation."
+    },
+    "mail_guard_authentication_signing_domain_mismatch_title": {
+        "message": "Le message a été signé par un domaine sans lien avec l'expéditeur"
+    },
+    "mail_guard_authentication_unverified_sender_description": {
+        "message": "Gmail affiche ce message comme provenant d'un expéditeur non vérifié, ce qui signifie qu'il n'a pas pu confirmer que $DOMAIN$ l'avait autorisé."
+    },
+    "mail_guard_authentication_unverified_sender_description_no_domain": {
+        "message": "Gmail affiche ce message comme provenant d'un expéditeur non vérifié, ce qui signifie qu'il n'a pas pu confirmer que le domaine d'envoi l'avait autorisé."
+    },
+    "mail_guard_authentication_unverified_sender_title": {
+        "message": "Gmail n'a pas pu vérifier que l'expéditeur est bien celui qu'il prétend être"
+    },
+    "mail_guard_authentication_via_unrelated_host_description_a": {
+        "message": "Gmail indique que ce message a été envoyé via $VIA_REGISTRABLE$ et non directement depuis $SENDER_REGISTRABLE$. Le message se présente comme $LABEL$, qui n'est pas connu pour envoyer du courrier via $VIA_REGISTRABLE$."
+    },
+    "mail_guard_authentication_via_unrelated_host_description_b": {
+        "message": "Gmail indique que ce message a été envoyé via $VIA_REGISTRABLE$ et non directement depuis $SENDER_REGISTRABLE$. C'est l'aspect habituel d'un message envoyé par un service tiers (plateforme de notifications, service d'assistance, liste de diffusion) : cette information est donnée à titre indicatif et n'influe pas sur le score."
+    },
+    "mail_guard_authentication_via_unrelated_host_description_c": {
+        "message": "Gmail indique que ce message a été envoyé via $VIA_REGISTRABLE$, le domaine de votre propre organisation : un groupe ou une boîte partagée l'a transmis, c'est pourquoi l'adresse de l'expéditeur est celle du groupe et non celle de l'expéditeur d'origine. Cette information est donnée à titre indicatif et n'influe pas sur le niveau."
+    },
+    "mail_guard_authentication_via_unrelated_host_title_a": {
+        "message": "Le message a transité par un service que l'expéditeur n'est pas connu pour utiliser"
+    },
+    "mail_guard_authentication_via_unrelated_host_title_b": {
+        "message": "Le message a transité par un autre service"
+    },
+    "mail_guard_authentication_via_unrelated_host_title_c": {
+        "message": "Le message a transité par votre propre organisation"
+    },
+    "mail_guard_badge_checking": {
+        "message": "Examen approfondi en cours"
+    },
+    "mail_guard_badge_label": {
+        "message": "Protection des e-mails : $LEVEL$. Afficher les détails"
+    },
+    "mail_guard_badge_off": {
+        "message": "La protection des e-mails est désactivée. Cliquez pour ouvrir ses paramètres"
+    },
+    "mail_guard_banner_dismiss": {
+        "message": "Ignorer"
+    },
+    "mail_guard_banner_see_details": {
+        "message": "Voir les détails"
+    },
+    "mail_guard_banner_see_why": {
+        "message": "Voir pourquoi"
+    },
+    "mail_guard_checked_latest": {
+        "message": "Seul le dernier message, de $SENDER$, a été vérifié."
+    },
+    "mail_guard_evidence_reply_to": {
+        "message": "De $FROM$ → Répondre à $REPLY_TO$"
+    },
+    "mail_guard_evidence_shown_actual": {
+        "message": "affiché : $SHOWN$ → réel : $ACTUAL$"
+    },
+    "mail_guard_evidence_shown_via": {
+        "message": "affiché : $SHOWN$ → via : $VIA$"
+    },
+    "mail_guard_evidence_signed_by": {
+        "message": "De $FROM$ · signé par $SIGNER$"
+    },
+    "mail_guard_identity_alert_named_shared_item_description": {
+        "message": "L'objet « $VALUE$ » partage un élément dont le nom ressemble à une alerte de compte (« $VALUE_2$ »). Les banques et les prestataires envoient rarement des alertes de sécurité sous forme de fichiers partagés ; nommer ainsi un fichier peut amener le service de partage à transmettre une fausse alerte, avec de vrais liens, depuis une vraie adresse."
+    },
+    "mail_guard_identity_alert_named_shared_item_title": {
+        "message": "Un fichier partagé est nommé comme une alerte de sécurité de compte"
+    },
+    "mail_guard_identity_brand_domain_in_subdomain_description": {
+        "message": "À première vue, l'adresse ressemble à celle de $LABEL$, mais « $DOMAIN$ » n'apparaît que dans le sous-domaine. Le domaine qui contrôle réellement ce courrier est $SENDER_REGISTRABLE$."
+    },
+    "mail_guard_identity_brand_domain_in_subdomain_title": {
+        "message": "Le domaine de l'expéditeur intègre le domaine de $LABEL$ comme sous-domaine"
+    },
+    "mail_guard_identity_brand_named_in_legal_notice_description": {
+        "message": "L'expéditeur se décrit comme un administrateur dans une affaire juridique impliquant $LABEL$, et écrit depuis $SENDER_REGISTRABLE$, dont nous ne savons pas qu'il appartient à $LABEL$. Les vrais avis d'action collective et de règlement à l'amiable sont bel et bien envoyés ainsi par des administrateurs de réclamations, et les faux avis les imitent. Avant de saisir des informations ou de déposer une demande, retrouvez le site officiel du règlement via le tribunal ou un article de presse, et non via les liens de ce message."
+    },
+    "mail_guard_identity_brand_named_in_legal_notice_title": {
+        "message": "Le nom de l'expéditeur évoque $LABEL$, mais le message ne semble pas venir de $LABEL$"
+    },
+    "mail_guard_identity_display_name_impersonation_description_a": {
+        "message": "L'expéditeur se présente comme $LABEL$, mais le message a été envoyé depuis une boîte personnelle chez $SENDER_REGISTRABLE$. $LABEL$ n'est pas connu pour envoyer du courrier professionnel depuis des services de messagerie gratuits."
+    },
+    "mail_guard_identity_display_name_impersonation_description_b": {
+        "message": "L'expéditeur se présente comme $LABEL$, mais $SENDER_REGISTRABLE$ n'est pas un domaine dont nous savons qu'il appartient à $LABEL$."
+    },
+    "mail_guard_identity_display_name_impersonation_title": {
+        "message": "Le nom de l'expéditeur indique $LABEL$, mais le domaine semble sans rapport"
+    },
+    "mail_guard_identity_disposable_sender_domain_description": {
+        "message": "$SENDER_REGISTRABLE$ fournit des boîtes e-mail temporaires jetables. Une correspondance légitime en provient rarement."
+    },
+    "mail_guard_identity_disposable_sender_domain_title": {
+        "message": "L'expéditeur utilise un service d'adresses e-mail jetables"
+    },
+    "mail_guard_identity_external_executive_claim_description": {
+        "message": "Le message se présente comme venant d'un cadre dirigeant, mais il a été envoyé depuis $SENDER_REGISTRABLE$ et non depuis $RECIPIENT_DOMAIN$. Se faire passer pour un dirigeant depuis une boîte personnelle est un point de départ courant des fraudes à la facture et aux cartes cadeaux."
+    },
+    "mail_guard_identity_external_executive_claim_title": {
+        "message": "Se présente comme un dirigeant de l'entreprise mais a été envoyé depuis un compte personnel extérieur"
+    },
+    "mail_guard_identity_external_financial_request_description": {
+        "message": "Le message demande un virement ou la modification de coordonnées de paiement, et il a été envoyé depuis une boîte personnelle chez $SENDER$ et non depuis $RECIPIENT$. Ce type de demande est un schéma courant de compromission de messagerie professionnelle : le texte peut sembler crédible parce que le compte d'origine existe réellement, même s'il n'appartient peut-être pas à l'organisation."
+    },
+    "mail_guard_identity_external_financial_request_description_no_recipient": {
+        "message": "Le message demande un virement ou la modification de coordonnées de paiement, et il a été envoyé depuis une boîte personnelle chez $SENDER$ et non depuis l'organisation du destinataire. Ce type de demande est un schéma courant de compromission de messagerie professionnelle : le texte peut sembler crédible parce que le compte d'origine existe réellement, même s'il n'appartient peut-être pas à l'organisation."
+    },
+    "mail_guard_identity_external_financial_request_title": {
+        "message": "Demande financière envoyée depuis une boîte personnelle extérieure"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand": {
+        "message": "L'expéditeur se présente comme $BRAND$ depuis un domaine que cette organisation ne semble pas contrôler, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand_domain_in_subdomain": {
+        "message": "L'expéditeur dissimule le nom d'une organisation réelle dans un domaine qui ne semble pas lui appartenir, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand_named_in_legal_notice": {
+        "message": "L'expéditeur cite une organisation alors qu'il n'écrit pas depuis celle-ci, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_display_name_impersonation": {
+        "message": "L'expéditeur se présente comme une organisation alors qu'il n'écrit pas depuis celle-ci, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_of_recipient_domain": {
+        "message": "L'expéditeur écrit depuis un domaine qui imite celui du destinataire, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_sender_domain": {
+        "message": "L'expéditeur écrit depuis un domaine qui imite un domaine réel, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_other": {
+        "message": "L'expéditeur n'est peut-être pas la personne ou l'organisation qu'il prétend être, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_own_domain_in_sender_name": {
+        "message": "L'expéditeur utilise comme nom le domaine de l'organisation du destinataire tout en écrivant depuis l'extérieur, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_sender_punycode_domain": {
+        "message": "L'expéditeur écrit depuis un domaine en caractères non latins, orthographié pour ressembler à un domaine familier, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_unsupported_org_claim": {
+        "message": "L'expéditeur se présente comme une organisation alors qu'il n'écrit pas depuis celle-ci, et le message demande au destinataire de se connecter, de confirmer les informations de son compte ou de fournir un code d'authentification. Ensemble, ces éléments sont un signe courant de tentative de vol d'identifiants."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_title_a": {
+        "message": "L'expéditeur semble se faire passer pour $BRAND$ et demande des identifiants"
+    },
+    "mail_guard_identity_impersonation_with_credential_request_title_b": {
+        "message": "L'expéditeur n'est peut-être pas celui qu'il prétend être, et le message demande des identifiants"
+    },
+    "mail_guard_identity_implausible_local_part_description": {
+        "message": "La partie de l'adresse avant le @ répète le même fragment $REPEATS$ fois. Une vraie boîte e-mail est rarement nommée ainsi : c'est une méthode souvent utilisée pour allonger et varier l'adresse d'envoi lors d'une campagne d'envoi en masse."
+    },
+    "mail_guard_identity_implausible_local_part_title": {
+        "message": "L'adresse de l'expéditeur répète plusieurs fois le même fragment"
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_description_a": {
+        "message": "Le message a été envoyé depuis $SENDER_REGISTRABLE$, qui est visuellement impossible à distinguer de votre propre domaine $RECIPIENT_DOMAIN$ mais qui est un domaine différent, probablement contrôlé par quelqu'un d'autre. Un courrier qui paraît interne inspire davantage confiance."
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_description_b": {
+        "message": "Le message a été envoyé depuis $SENDER_REGISTRABLE$, un domaine presque identique au vôtre, $RECIPIENT_DOMAIN$. Il ne semble pas faire partie de votre organisation."
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_title": {
+        "message": "Le domaine de l'expéditeur semble imiter celui de votre propre organisation"
+    },
+    "mail_guard_identity_lookalike_sender_domain_description": {
+        "message": "Le message a été envoyé depuis $SENDER$, une imitation quasi identique du domaine légitime $TARGET$. Il ne semble pas appartenir à $BRAND$."
+    },
+    "mail_guard_identity_lookalike_sender_domain_description_confusable": {
+        "message": "Le message a été envoyé depuis $SENDER$, une imitation quasi identique du domaine légitime $TARGET$ à l'aide de caractères visuellement semblables. Il ne semble pas appartenir à $BRAND$."
+    },
+    "mail_guard_identity_lookalike_sender_domain_title": {
+        "message": "Le domaine de l'expéditeur semble imiter $BRAND_LABEL$"
+    },
+    "mail_guard_identity_malformed_sender_domain_description": {
+        "message": "Le domaine de l'expéditeur « $DOMAIN$ » n'est pas un nom d'hôte public valide."
+    },
+    "mail_guard_identity_malformed_sender_domain_title": {
+        "message": "Le domaine de l'expéditeur est mal formé"
+    },
+    "mail_guard_identity_nonexistent_sender_tld_description": {
+        "message": "Le message prétend venir de $DOMAIN$, mais « .$TLD$ » n'a jamais été attribué à qui que ce soit. Aucun domaine ne peut y être enregistré et rien ne peut le résoudre : cette adresse ne peut pas recevoir de réponse et n'identifie aucun expéditeur. Une adresse d'expéditeur de ce genre a très probablement été fabriquée, et non mal saisie."
+    },
+    "mail_guard_identity_nonexistent_sender_tld_title": {
+        "message": "Le domaine de l'expéditeur se termine par « .$TLD$ », qui n'est pas un domaine de premier niveau réel"
+    },
+    "mail_guard_identity_private_use_sender_tld_description": {
+        "message": "« .$TLD$ » est réservé aux réseaux privés et volontairement absent de l'Internet public : $DOMAIN$ ne peut donc pas être vérifié et une réponse ne lui parviendrait pas. Il s'agit généralement d'un système interne qui envoie du courrier avec son nom d'hôte local plutôt qu'avec un vrai domaine, mais cela signifie aussi qu'on ne peut rien vérifier sur cet expéditeur."
+    },
+    "mail_guard_identity_private_use_sender_tld_title": {
+        "message": "Le domaine de l'expéditeur se termine par « .$TLD$ », qui n'est pas un domaine public"
+    },
+    "mail_guard_identity_randomised_address_case_description": {
+        "message": "L'adresse alterne majuscules et minuscules à l'intérieur des mots ($VALUE$). Les systèmes de messagerie ne tiennent pas compte de la casse : cela ne change rien à la livraison, mais sert généralement à varier l'adresse d'un envoi à l'autre et à échapper aux filtres qui comparent le texte exact."
+    },
+    "mail_guard_identity_randomised_address_case_title": {
+        "message": "L'adresse de l'expéditeur utilise une casse aléatoire"
+    },
+    "mail_guard_identity_reply_to_mismatch_description_a": {
+        "message": "Le message semble provenir de $SENDER_REGISTRABLE$, mais les réponses sont dirigées vers une boîte personnelle chez $REPLY_TO_REGISTRABLE$. C'est un schéma courant dans les tentatives de compromission de messagerie professionnelle."
+    },
+    "mail_guard_identity_reply_to_mismatch_description_b": {
+        "message": "L'adresse de l'expéditeur est chez $SENDER_REGISTRABLE$, mais l'adresse de réponse est chez $REPLY_TO_REGISTRABLE$ : une réponse n'atteindrait donc pas l'expéditeur apparent."
+    },
+    "mail_guard_identity_reply_to_mismatch_title": {
+        "message": "Les réponses iraient vers un autre domaine que celui de l'expéditeur"
+    },
+    "mail_guard_identity_sender_deep_subdomain_description": {
+        "message": "Le nom d'hôte de l'expéditeur comporte $LENGTH$ niveaux de sous-domaines sous $REGISTRABLE$. Cet empilement peut servir à placer un mot familier dans la partie visible de l'adresse."
+    },
+    "mail_guard_identity_sender_deep_subdomain_title": {
+        "message": "Le domaine de l'expéditeur comporte un nombre inhabituellement élevé de sous-domaines"
+    },
+    "mail_guard_identity_sender_invisible_characters_description": {
+        "message": "Le nom ou l'adresse de l'expéditeur contient des caractères de largeur nulle ou de changement de sens de lecture. Ils sont invisibles à l'affichage et peuvent servir à déguiser la véritable adresse."
+    },
+    "mail_guard_identity_sender_invisible_characters_title": {
+        "message": "Le nom de l'expéditeur contient des caractères cachés ou qui changent le sens de lecture"
+    },
+    "mail_guard_identity_sender_ip_domain_description": {
+        "message": "L'adresse de l'expéditeur pointe directement vers l'hôte $DOMAIN$. Les organisations légitimes envoient presque toujours leur courrier depuis des noms de domaine, pas depuis de simples adresses IP."
+    },
+    "mail_guard_identity_sender_ip_domain_title": {
+        "message": "L'adresse de l'expéditeur utilise une adresse IP brute au lieu d'un domaine"
+    },
+    "mail_guard_identity_sender_punycode_domain_description": {
+        "message": "Le domaine de l'expéditeur $DOMAIN$ s'affiche comme « $RENDERED$ ». Les domaines internationalisés sont légitimes, mais c'est aussi la méthode habituelle pour imiter un nom familier."
+    },
+    "mail_guard_identity_sender_punycode_domain_description_mixed": {
+        "message": "Le domaine de l'expéditeur s'affiche comme « $RENDERED$ » mais est en réalité $DOMAIN$. Il mélange des caractères de plusieurs écritures ($SCRIPTS$), ce qui permet de faire ressembler un domaine à un autre alors qu'il n'a aucun rapport."
+    },
+    "mail_guard_identity_sender_punycode_domain_title": {
+        "message": "Le domaine de l'expéditeur utilise un nom internationalisé (punycode)"
+    },
+    "mail_guard_identity_styled_display_name_description": {
+        "message": "Le nom « $SENDER_NAME$ » n'est pas écrit avec des lettres ordinaires. Il utilise des caractères de l'alphabet mathématique d'Unicode, qui s'affichent comme du texte en gras ou en italique mais sont en réalité des caractères différents : le nom se lit normalement pour vous, mais ne correspond à rien pour un système qui le compare à une liste. On écrit rarement un nom ainsi, sauf pour échapper aux vérifications."
+    },
+    "mail_guard_identity_styled_display_name_title": {
+        "message": "Le nom de l'expéditeur est écrit avec des lettres décoratives de substitution"
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_confusable": {
+        "message": "Les messages précédents de cette conversation venaient de $EARLIER$. Celui-ci a été envoyé depuis $SENDER$, écrit avec des caractères choisis pour lui ressembler à l'identique, mais c'est un autre domaine, probablement contrôlé par quelqu'un d'autre. Répondre, ou suivre une instruction de ce message, pourrait l'envoyer à la mauvaise personne."
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_many": {
+        "message": "Les messages précédents de cette conversation venaient de $EARLIER$. Celui-ci a été envoyé depuis $SENDER$, qui diffère de $COUNT$ caractères et qui est un autre domaine. Comparez l'expéditeur avec un message précédent de la conversation avant de répondre."
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_one": {
+        "message": "Les messages précédents de cette conversation venaient de $EARLIER$. Celui-ci a été envoyé depuis $SENDER$, qui diffère d'un seul caractère et qui est un autre domaine. Comparez l'expéditeur avec un message précédent de la conversation avant de répondre."
+    },
+    "mail_guard_identity_thread_lookalike_participant_title": {
+        "message": "Le domaine de l'expéditeur semble imiter un autre participant de cette conversation"
+    },
+    "mail_guard_identity_thread_participant_name_reuse_description": {
+        "message": "« $SENDER_NAME$ » apparaît déjà dans cette conversation sous l'adresse $EMAIL$, mais ce message a été envoyé depuis $SENDER_EMAIL$, qui n'est pas sur le même domaine. Les messageries affichent le nom et masquent l'adresse : une réponse qui garde le nom en changeant de boîte semble donc venir de la même personne."
+    },
+    "mail_guard_identity_thread_participant_name_reuse_title": {
+        "message": "L'expéditeur utilise le nom d'un participant depuis une autre adresse"
+    },
+    "mail_guard_identity_unparseable_sender_description": {
+        "message": "L'adresse de l'expéditeur « $SENDER_EMAIL$ » n'est pas une adresse e-mail valide."
+    },
+    "mail_guard_identity_unparseable_sender_title": {
+        "message": "L'adresse de l'expéditeur n'a pas pu être analysée"
+    },
+    "mail_guard_identity_unsupported_org_claim_description_a": {
+        "message": "Le message se présente comme « $SENDER_NAME$ », mais il a été envoyé depuis une boîte personnelle chez $SENDER_REGISTRABLE$. Les banques, assureurs et prestataires de paiement envoient rarement du courrier depuis des services de messagerie gratuits."
+    },
+    "mail_guard_identity_unsupported_org_claim_description_b": {
+        "message": "Le message se présente comme « $SENDER_NAME$ », mais il a été envoyé depuis $SENDER_REGISTRABLE$, qui n'a aucun point commun avec ce nom. Les organisations légitimes écrivent en général depuis un domaine clairement reconnaissable comme le leur."
+    },
+    "mail_guard_identity_unsupported_org_claim_title_a": {
+        "message": "L'expéditeur se présente comme un établissement financier mais a écrit depuis une boîte personnelle"
+    },
+    "mail_guard_identity_unsupported_org_claim_title_b": {
+        "message": "Le nom de l'expéditeur évoque une organisation sans rapport avec le domaine d'envoi"
+    },
+    "mail_guard_identity_unverified_brand_domain_description": {
+        "message": "Le message a été envoyé depuis $SENDER_REGISTRABLE$, qui reprend le nom de $LABEL$ avec une extension de domaine dont nous n'avons aucune trace d'utilisation par $LABEL$. Les grandes organisations utilisent le même nom dans tous les pays où elles sont présentes, donc ce domaine peut être authentique, mais un domaine portant le nom d'une marque peut tout aussi bien avoir été enregistré par quelqu'un d'autre. Comparez-le avec l'adresse habituelle des e-mails de $LABEL$ avant d'agir sur quoi que ce soit dans ce message."
+    },
+    "mail_guard_identity_unverified_brand_domain_title": {
+        "message": "Impossible de confirmer que $SENDER_REGISTRABLE$ appartient à $LABEL$"
+    },
+    "mail_guard_landing_ask_card": {
+        "message": "vos informations de carte bancaire"
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "un code à usage unique"
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "votre adresse e-mail"
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "vos informations d'identité"
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "votre mot de passe"
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "votre numéro de téléphone"
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AI soupçonne fortement ce site d'être une arnaque. N'y saisissez ni mot de passe ni coordonnées de paiement."
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AI soupçonne que ce site pourrait être une arnaque. Faites preuve de prudence avec vos mots de passe et vos coordonnées de paiement."
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "Site à risque élevé"
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "Site suspect"
+    },
+    "mail_guard_landing_card_why": {
+        "message": "Pourquoi ce site peut être risqué · Phi AI"
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AI n'a pas pu vérifier cette page."
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AI peut se tromper. Avant de payer, de vous connecter ou de communiquer vos informations, prenez une minute pour vérifier par un autre moyen."
+    },
+    "mail_guard_landing_from_email": {
+        "message": "E-mail d'origine : « $SUBJECT$ »"
+    },
+    "mail_guard_landing_hide": {
+        "message": "Masquer"
+    },
+    "mail_guard_landing_leave": {
+        "message": "Quitter le site"
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "Cette page demande $ITEMS$"
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "Ressemble à $BRAND$, mais le site réel est $SITE$"
+    },
+    "mail_guard_landing_strip": {
+        "message": "Page ouverte depuis un e-mail que Phi soupçonne fortement."
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "Site réel :"
+    },
+    "mail_guard_landing_why": {
+        "message": "Pourquoi ?"
+    },
+    "mail_guard_level_caution": {
+        "message": "Attention"
+    },
+    "mail_guard_level_caution_line": {
+        "message": "Mieux vaut y regarder à deux fois avant d'agir."
+    },
+    "mail_guard_level_checking": {
+        "message": "Vérification"
+    },
+    "mail_guard_level_high_risk": {
+        "message": "Risque élevé"
+    },
+    "mail_guard_level_high_risk_line": {
+        "message": "Signes d'alerte importants. Nous vous déconseillons d'utiliser ses liens ou ses pièces jointes."
+    },
+    "mail_guard_level_low": {
+        "message": "Risque faible"
+    },
+    "mail_guard_level_low_line": {
+        "message": "Nous pensons que le risque est faible."
+    },
+    "mail_guard_level_maybe_caution": {
+        "message": "Peut-être à surveiller"
+    },
+    "mail_guard_level_maybe_suspicious": {
+        "message": "Peut-être suspect"
+    },
+    "mail_guard_level_not_checked": {
+        "message": "Non vérifié"
+    },
+    "mail_guard_level_suspicious": {
+        "message": "Suspect"
+    },
+    "mail_guard_level_suspicious_line": {
+        "message": "Plusieurs signes d'alerte. Faites preuve de prudence."
+    },
+    "mail_guard_line_confirmed": {
+        "message": "Phi AI soupçonne fortement une arnaque. N'utilisez ni ses liens ni ses pièces jointes."
+    },
+    "mail_guard_line_confirmed_dangerous": {
+        "message": "Phi AI soupçonne fortement que cet e-mail est dangereux. N'utilisez ni ses liens ni ses pièces jointes."
+    },
+    "mail_guard_line_ordinary": {
+        "message": "Phi AI estime que le risque est faible, mais les signalements des vérifications statiques ci-dessous méritent tout de même un coup d'œil."
+    },
+    "mail_guard_line_ordinary_clear": {
+        "message": "Phi AI estime que le risque est faible."
+    },
+    "mail_guard_line_review_failed": {
+        "message": "Phi AI n'a pas pu terminer son examen approfondi ; voici le résultat de la vérification rapide."
+    },
+    "mail_guard_line_reviewing": {
+        "message": "Phi AI lit l'e-mail en entier…"
+    },
+    "mail_guard_line_unconfirmed": {
+        "message": "Phi AI ne peut pas écarter un risque. Faites preuve de prudence."
+    },
+    "mail_guard_link_anchor_brand_mismatch_description": {
+        "message": "Le texte du lien fait référence à $LABEL$, mais le lien mène à $HOSTNAME$, dont nous ne savons pas qu'il appartient à $LABEL$."
+    },
+    "mail_guard_link_anchor_brand_mismatch_title": {
+        "message": "Un lien présenté comme $LABEL$ pointe vers un domaine qui semble sans rapport"
+    },
+    "mail_guard_link_credential_link_open_hosting_description": {
+        "message": "Le lien mène à une page de connexion ou de vérification $VALUE$. N'importe qui peut y publier en quelques secondes : l'adresse n'indique donc pas qui se trouve réellement derrière la page."
+    },
+    "mail_guard_link_credential_link_open_hosting_title": {
+        "message": "Le lien de connexion est hébergé sur un service d'hébergement gratuit"
+    },
+    "mail_guard_link_credential_link_unrelated_domain_description": {
+        "message": "Le message se présente comme $LABEL$ et le lien mène à une page de connexion ou de vérification, mais la page est hébergée sur $REGISTRABLE$. Les identifiants saisis à cet endroit iraient à celui qui contrôle ce domaine."
+    },
+    "mail_guard_link_credential_link_unrelated_domain_title": {
+        "message": "Le lien de connexion à $LABEL$ mène à un domaine dont nous ne savons pas qu'il appartient à $LABEL$"
+    },
+    "mail_guard_link_dangerous_scheme_description": {
+        "message": "Un lien utilise « $SCHEME$ » au lieu de http ou https. Ce type de protocole exécute du code ou ouvre des ressources locales au lieu de charger une page web, et a rarement un usage légitime dans le lien d'un e-mail."
+    },
+    "mail_guard_link_dangerous_scheme_title": {
+        "message": "Le lien utilise le protocole $SCHEME$"
+    },
+    "mail_guard_link_displayed_url_mismatch_description": {
+        "message": "Le lien s'affiche comme « $DISPLAYED_HOST$ », qui appartient à $LABEL$, mais un clic mène d'abord à $HOSTNAME$, dont nous ne savons pas qu'il appartient à $LABEL$. Celui qui contrôle $HOSTNAME$ décide de la destination finale du clic."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_description_a": {
+        "message": "Le lien s'affiche comme « $DISPLAYED_HOST$ » mais mène à $HOSTNAME$. Les deux relèvent d'un registre qui vérifie chaque titulaire : il s'agit donc des noms d'un même organisme public et non d'un inconnu, mais l'adresse affichée n'est tout de même pas celle où mène le clic."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_description_b": {
+        "message": "Le lien s'affiche comme « $DISPLAYED_HOST$ » mais mène à $HOSTNAME$, un service de liens dont la destination finale n'est pas visible. Les envois en masse fonctionnent souvent ainsi ; vérifiez où mène le lien avant de saisir quoi que ce soit."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_title_a": {
+        "message": "L'adresse gouvernementale affichée mène à une autre adresse gouvernementale"
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_title_b": {
+        "message": "L'adresse affichée passe par un service de liens"
+    },
+    "mail_guard_link_displayed_url_mismatch_s3_description": {
+        "message": "Le lien s'affiche comme « $DISPLAYED_HOST$ », qui appartient à $LABEL$, mais un clic mène à $HOSTNAME$, le propre domaine de l'expéditeur, qui décide de la destination finale du clic."
+    },
+    "mail_guard_link_displayed_url_mismatch_s3_title": {
+        "message": "L'adresse affichée passe par le propre service de liens de l'expéditeur"
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_description": {
+        "message": "Le lien s'affiche comme « $DISPLAYED$ » mais un clic mène à $DESTINATION$."
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_description_brand": {
+        "message": "Le lien s'affiche comme « $DISPLAYED$ » mais un clic mène à $DESTINATION$. L'adresse affichée appartient à $BRAND$ ; nous ne savons pas que $HOST$ appartient à $BRAND$."
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_title": {
+        "message": "L'adresse affichée du lien diffère de sa destination réelle"
+    },
+    "mail_guard_link_displayed_url_mismatch_title": {
+        "message": "L'adresse affichée du lien est atteinte via un autre domaine"
+    },
+    "mail_guard_link_echoed_form_link_description": {
+        "message": "Ce message ressemble à la confirmation automatique d'un formulaire web, qui indique votre adresse comme celle de la personne l'ayant rempli. Le texte saisi dans le champ « $LABEL$ » contient un lien vers $HOSTNAME$, qui n'est pas $SENDER_REGISTRABLE$. Des spammeurs saisissent l'adresse d'autres personnes dans le formulaire de contact d'une entreprise afin que le serveur de messagerie de cette entreprise distribue leur lien : l'expéditeur est authentique, mais ces mots ne sont probablement pas les siens. Si vous n'avez pas rempli ce formulaire, son contenu ne vient très probablement pas de l'entreprise."
+    },
+    "mail_guard_link_echoed_form_link_title": {
+        "message": "La confirmation du formulaire répète un lien saisi sous votre adresse"
+    },
+    "mail_guard_link_excessive_subdomains_description": {
+        "message": "L'hôte du lien comporte $SUBDOMAIN_LABEL_COUNT$ niveaux de sous-domaines sous $REGISTRABLE$. Ces longues chaînes peuvent servir à remplir la partie visible de l'adresse de mots rassurants pendant que le domaine réel reste hors de vue."
+    },
+    "mail_guard_link_excessive_subdomains_title": {
+        "message": "L'hôte du lien comporte un nombre inhabituellement élevé de sous-domaines"
+    },
+    "mail_guard_link_fake_attachment_description": {
+        "message": "Le lien affiche « $VALUE$ », comme une pièce jointe, mais il ouvre $HOSTNAME$, qui n'est ni ce fichier ni le site de l'expéditeur. Une vraie pièce jointe se trouve dans le message, pas sur la page web de quelqu'un d'autre."
+    },
+    "mail_guard_link_fake_attachment_title": {
+        "message": "Le lien est présenté comme une pièce jointe mais ouvre une page web ailleurs"
+    },
+    "mail_guard_link_filename_lookalike_tld_description": {
+        "message": "Le lien mène à $HOSTNAME$. Comme « .$TLD$ » est aussi une extension de fichier courante, un tel texte est souvent pris pour un nom de pièce jointe plutôt que pour une adresse web."
+    },
+    "mail_guard_link_filename_lookalike_tld_title": {
+        "message": "Le lien utilise le domaine de premier niveau .$TLD$, qui ressemble à un nom de fichier"
+    },
+    "mail_guard_link_ftp_link_description": {
+        "message": "Un lien utilise « ftp: » au lieu de http ou https. Les navigateurs n'ouvrent plus FTP eux-mêmes : un clic confie donc le téléchargement d'un fichier à un autre programme, en dehors des protections du navigateur. Ce lien ne peut pas exécuter de code ni afficher une page de connexion, mais tout ce qu'il télécharge mérite la même prudence qu'une pièce jointe."
+    },
+    "mail_guard_link_ftp_link_title": {
+        "message": "Le lien utilise le protocole ftp:"
+    },
+    "mail_guard_link_insecure_description_a": {
+        "message": "Le lien vers $HOSTNAME$ semble mener à une page de connexion mais utilise HTTP en clair. Les services légitimes acceptent très rarement des identifiants sur une connexion non chiffrée."
+    },
+    "mail_guard_link_insecure_description_b": {
+        "message": "Le lien vers $HOSTNAME$ utilise HTTP en clair plutôt que HTTPS."
+    },
+    "mail_guard_link_insecure_title_a": {
+        "message": "Le lien de connexion utilise HTTP non chiffré"
+    },
+    "mail_guard_link_insecure_title_b": {
+        "message": "Le lien utilise HTTP non chiffré"
+    },
+    "mail_guard_link_ip_address_url_description_many": {
+        "message": "$COUNT$ liens mènent à l'adresse brute $HOST$ au lieu d'un nom de domaine. Les services légitimes publient en général des noms d'hôte ; les adresses IP brutes servent souvent à éviter d'enregistrer un domaine qui pourrait être supprimé."
+    },
+    "mail_guard_link_ip_address_url_description_one": {
+        "message": "Un lien mène à l'adresse brute $HOST$ au lieu d'un nom de domaine. Les services légitimes publient en général des noms d'hôte ; les adresses IP brutes servent souvent à éviter d'enregistrer un domaine qui pourrait être supprimé."
+    },
+    "mail_guard_link_ip_address_url_title": {
+        "message": "Le lien pointe directement vers une adresse IP"
+    },
+    "mail_guard_link_ip_named_host_description_many": {
+        "message": "$COUNT$ liens mènent à $HOST$, le nom qu'un hébergeur attribue à un serveur loué, et non un nom que quelqu'un a enregistré. C'est une simple adresse IP précédée d'un domaine."
+    },
+    "mail_guard_link_ip_named_host_description_one": {
+        "message": "Un lien mène à $HOST$, le nom qu'un hébergeur attribue à un serveur loué, et non un nom que quelqu'un a enregistré. C'est une simple adresse IP précédée d'un domaine."
+    },
+    "mail_guard_link_ip_named_host_title": {
+        "message": "Le lien pointe vers un serveur nommé d'après son adresse IP"
+    },
+    "mail_guard_link_link_only_body_description": {
+        "message": "L'objet vous demande d'agir (« $VALUE$ »), mais le message ne contient presque aucun texte lisible ($CHARS$ caractères) et renvoie vers $REGISTRABLE$. Un avis dessiné sous forme d'image ne dit rien de vérifiable, et c'est une façon courante pour un appât d'éviter d'être lu."
+    },
+    "mail_guard_link_link_only_body_s2_description": {
+        "message": "Le message contient très peu de texte lisible ($VALUE$ caractères) mais comporte des liens vers d'autres domaines. Les messages au contexte minimal évitent de dire quoi que ce soit de vérifiable."
+    },
+    "mail_guard_link_link_only_body_s2_title": {
+        "message": "Le contenu du message est presque entièrement un lien"
+    },
+    "mail_guard_link_link_only_body_title": {
+        "message": "Le message demande d'agir mais son contenu se résume à un lien"
+    },
+    "mail_guard_link_local_file_link_description": {
+        "message": "Un lien utilise « file: » sans hôte : il désigne donc un chemin sur le disque du lecteur et non quelque chose sur Internet. Il s'agit généralement d'un chemin local collé dans le message, qui ne peut rien récupérer ailleurs."
+    },
+    "mail_guard_link_local_file_link_title": {
+        "message": "Le lien pointe vers un fichier de votre propre ordinateur"
+    },
+    "mail_guard_link_lookalike_domain_description": {
+        "message": "Le lien mène à $REGISTRABLE$, une imitation quasi identique de $TARGET$. Il ne semble pas exploité par $BRAND_LABEL$."
+    },
+    "mail_guard_link_lookalike_domain_title": {
+        "message": "La destination du lien semble imiter $BRAND_LABEL$"
+    },
+    "mail_guard_link_malformed_url_description_many": {
+        "message": "$COUNT$ liens n'ont pas pu être résolus en une adresse web valide. Il peut simplement s'agir d'un modèle d'e-mail défectueux, mais c'est parfois utilisé pour tromper la vérification des liens."
+    },
+    "mail_guard_link_malformed_url_description_one": {
+        "message": "Un lien n'a pas pu être résolu en une adresse web valide. Il peut simplement s'agir d'un modèle d'e-mail défectueux, mais c'est parfois utilisé pour tromper la vérification des liens."
+    },
+    "mail_guard_link_malformed_url_title": {
+        "message": "Le message contient un lien mal formé"
+    },
+    "mail_guard_link_misleading_domain_description": {
+        "message": "À première vue, le lien ressemble à $LABEL$, mais la partie de l'adresse qui détermine sa vraie destination est $REGISTRABLE$. Tout ce qui se trouve à gauche, y compris « $BEFORE_REGISTRABLE$ », est choisi librement par celui qui contrôle $REGISTRABLE$."
+    },
+    "mail_guard_link_misleading_domain_title": {
+        "message": "Le lien place le nom de $LABEL$ devant un domaine sans rapport"
+    },
+    "mail_guard_link_opaque_redirect_description": {
+        "message": "Le lien vers $HOSTNAME$ contient un paramètre de redirection dont la destination est codée de façon illisible. Les chaînes de redirection peuvent servir à masquer une destination malveillante derrière un domaine que le destinataire reconnaît."
+    },
+    "mail_guard_link_opaque_redirect_title": {
+        "message": "Le lien est construit comme une redirection à destination cachée"
+    },
+    "mail_guard_link_page_in_open_storage_description": {
+        "message": "Le lien mène à une page web stockée comme fichier sur $HOSTING$. L'adresse appartient au fournisseur de stockage et non à l'auteur de la page : toute personne ayant un compte peut y déposer un fichier, qui sera servi depuis ce domaine. Une vraie organisation publie généralement ses pages sur son propre site."
+    },
+    "mail_guard_link_page_in_open_storage_description_asking": {
+        "message": "Le lien mène à une page web stockée comme fichier sur $HOSTING$. L'adresse appartient au fournisseur de stockage et non à l'auteur de la page : toute personne ayant un compte peut y déposer un fichier, qui sera servi depuis ce domaine. Une vraie organisation publie généralement ses pages sur son propre site, et ce message vous demande d'agir sur l'une d'elles."
+    },
+    "mail_guard_link_page_in_open_storage_title": {
+        "message": "Le lien ouvre une page stockée comme fichier sur un service d'hébergement public"
+    },
+    "mail_guard_link_private_ip_url_description_many": {
+        "message": "$COUNT$ liens mènent à $HOST$, une adresse de réseau privé. Elle ne fonctionne que depuis l'intérieur de ce réseau et ne peut donc pas mener à une page sur Internet ; c'est ainsi qu'on accède à des outils internes et à des appareils domestiques."
+    },
+    "mail_guard_link_private_ip_url_description_one": {
+        "message": "Un lien mène à $HOST$, une adresse de réseau privé. Elle ne fonctionne que depuis l'intérieur de ce réseau et ne peut donc pas mener à une page sur Internet ; c'est ainsi qu'on accède à des outils internes et à des appareils domestiques."
+    },
+    "mail_guard_link_private_ip_url_title": {
+        "message": "Le lien pointe vers une adresse d'un réseau privé"
+    },
+    "mail_guard_link_punycode_domain_description": {
+        "message": "L'hôte du lien est $HOST$, qui s'affiche comme « $RENDERED$ ». Les domaines internationalisés sont légitimes mais servent couramment à imiter des noms familiers."
+    },
+    "mail_guard_link_punycode_domain_description_imitates": {
+        "message": "L'hôte du lien est $HOST$, qui s'affiche comme « $RENDERED$ », visuellement impossible à distinguer de $TARGET$ mais un tout autre domaine."
+    },
+    "mail_guard_link_punycode_domain_description_mixed": {
+        "message": "L'hôte du lien est $HOST$, qui s'affiche comme « $RENDERED$ » avec des caractères de plusieurs écritures ($SCRIPTS$). Mélanger des écritures dans un même nom permet de faire passer un domaine pour ce qu'il n'est pas."
+    },
+    "mail_guard_link_punycode_domain_title": {
+        "message": "Le lien utilise un domaine internationalisé qui s'affiche comme un texte familier"
+    },
+    "mail_guard_link_redirect_chain_description": {
+        "message": "Le lien commence sur $ENTRY$ mais redirige vers $EXIT$. Le domaine que voit le destinataire n'est pas celui qui fournit la page."
+    },
+    "mail_guard_link_redirect_chain_title": {
+        "message": "Le lien passe par un domaine pour en atteindre un autre"
+    },
+    "mail_guard_link_repeated": {
+        "message": "Cela concerne $COUNT$ liens du message."
+    },
+    "mail_guard_link_url_shortener_description_many": {
+        "message": "$COUNT$ liens utilisent le raccourcisseur $SHORTENER$ : la vraie destination n'est pas visible avant de cliquer."
+    },
+    "mail_guard_link_url_shortener_description_many_credential": {
+        "message": "$COUNT$ liens utilisent le raccourcisseur $SHORTENER$ : la vraie destination n'est pas visible avant de cliquer. Le message demande aussi au destinataire de se connecter ou de vérifier quelque chose, ce qui est justement le moment où une destination cachée compte le plus."
+    },
+    "mail_guard_link_url_shortener_description_one": {
+        "message": "Un lien utilise le raccourcisseur $SHORTENER$ : la vraie destination n'est pas visible avant de cliquer."
+    },
+    "mail_guard_link_url_shortener_description_one_credential": {
+        "message": "Un lien utilise le raccourcisseur $SHORTENER$ : la vraie destination n'est pas visible avant de cliquer. Le message demande aussi au destinataire de se connecter ou de vérifier quelque chose, ce qui est justement le moment où une destination cachée compte le plus."
+    },
+    "mail_guard_link_url_shortener_title": {
+        "message": "Le lien est masqué derrière un raccourcisseur d'URL"
+    },
+    "mail_guard_list_more": {
+        "message": "$COUNT$ autres"
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_description": {
+        "message": "Le nom de l'expéditeur « $SENDER_NAME$ » présente ce message comme venant de l'intérieur de $RECIPIENT_DOMAIN$, votre propre organisation, mais il a été envoyé depuis $SENDER_REGISTRABLE$. Les avis du service informatique, de la messagerie et des ressources humaines proviennent généralement du domaine de votre organisation."
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_a": {
+        "message": "Le nom de l'expéditeur utilise le domaine de votre propre organisation"
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_b": {
+        "message": "Le nom de l'expéditeur le présente comme un service de votre propre organisation"
+    },
+    "mail_guard_panel_ai_review": {
+        "message": "Examen de Phi AI"
+    },
+    "mail_guard_panel_also": {
+        "message": "Également : $KINDS$"
+    },
+    "mail_guard_panel_back": {
+        "message": "Retour"
+    },
+    "mail_guard_panel_close": {
+        "message": "Fermer"
+    },
+    "mail_guard_panel_disclaimer": {
+        "message": "Phi AI peut se tromper. La sécurité de vos données personnelles, de votre vie privée et de votre argent compte pour nous : avant de payer, de vous connecter ou de communiquer vos informations, prenez une minute pour vérifier par un autre moyen."
+    },
+    "mail_guard_panel_label": {
+        "message": "Protection des e-mails"
+    },
+    "mail_guard_panel_marketing": {
+        "message": "Publicité"
+    },
+    "mail_guard_panel_quick_check": {
+        "message": "Vérification rapide de Phi AI : $KIND$ probable"
+    },
+    "mail_guard_panel_quick_check_clear": {
+        "message": "Vérification rapide de Phi AI : faible risque de sécurité"
+    },
+    "mail_guard_panel_quick_check_fraud": {
+        "message": "Vérification rapide de Phi AI : signes d'un risque de sécurité"
+    },
+    "mail_guard_panel_settings": {
+        "message": "Paramètres"
+    },
+    "mail_guard_panel_show_less": {
+        "message": "Afficher moins"
+    },
+    "mail_guard_panel_show_more": {
+        "message": "Afficher plus"
+    },
+    "mail_guard_panel_technical": {
+        "message": "Vérifications statiques · $COUNT$"
+    },
+    "mail_guard_panel_trust": {
+        "message": "Faire confiance à cet expéditeur"
+    },
+    "mail_guard_panel_why_risky": {
+        "message": "Pourquoi cet e-mail peut être risqué · Phi AI"
+    },
+    "mail_guard_part_body": {
+        "message": "texte du message"
+    },
+    "mail_guard_part_sender": {
+        "message": "expéditeur"
+    },
+    "mail_guard_part_subject": {
+        "message": "objet"
+    },
+    "mail_guard_settings_about": {
+        "message": "À propos de la protection des e-mails et de la confidentialité"
+    },
+    "mail_guard_settings_enabled": {
+        "message": "Vérifier les e-mails ouverts"
+    },
+    "mail_guard_settings_enabled_hint": {
+        "message": "Lorsque cette option est désactivée, un bouclier gris reste affiché à côté de l'objet ; cliquez dessus pour réactiver la vérification."
+    },
+    "mail_guard_settings_highlight": {
+        "message": "Encadrer les liens suspects"
+    },
+    "mail_guard_settings_highlight_hint": {
+        "message": "Entoure en rouge les liens du message visés par un signalement."
+    },
+    "mail_guard_settings_low_badge": {
+        "message": "Afficher le badge pour les e-mails à faible risque"
+    },
+    "mail_guard_settings_low_badge_hint": {
+        "message": "Lorsque cette option est désactivée, le badge n'apparaît que pour les e-mails qui méritent votre attention."
+    },
+    "mail_guard_settings_remove": {
+        "message": "Retirer $ENTRY$"
+    },
+    "mail_guard_settings_title": {
+        "message": "Paramètres de protection des e-mails"
+    },
+    "mail_guard_settings_trusted": {
+        "message": "Expéditeurs de confiance"
+    },
+    "mail_guard_settings_trusted_empty": {
+        "message": "Aucun expéditeur de confiance pour le moment."
+    },
+    "mail_guard_threat_extortion": {
+        "message": "Extorsion"
+    },
+    "mail_guard_threat_extortion_line": {
+        "message": "Semble vous menacer pour vous faire payer."
+    },
+    "mail_guard_threat_gift_card": {
+        "message": "Arnaque aux cartes cadeaux"
+    },
+    "mail_guard_threat_gift_card_line": {
+        "message": "Semble vous demander d'acheter des cartes cadeaux et d'envoyer les codes."
+    },
+    "mail_guard_threat_impersonation": {
+        "message": "Usurpation d'identité"
+    },
+    "mail_guard_threat_impersonation_line": {
+        "message": "Peut se faire passer pour quelqu'un que vous connaissez ou en qui vous avez confiance."
+    },
+    "mail_guard_threat_malware": {
+        "message": "Logiciel malveillant"
+    },
+    "mail_guard_threat_malware_line": {
+        "message": "Sa pièce jointe ou son lien pourrait infecter votre appareil."
+    },
+    "mail_guard_threat_manipulation": {
+        "message": "Manipulation"
+    },
+    "mail_guard_threat_manipulation_line": {
+        "message": "Semble vous mettre sous pression ou vous faire une demande inhabituelle."
+    },
+    "mail_guard_threat_payment_fraud": {
+        "message": "Fraude au paiement"
+    },
+    "mail_guard_threat_payment_fraud_line": {
+        "message": "Semble vouloir vous faire envoyer de l'argent ou modifier des coordonnées de paiement."
+    },
+    "mail_guard_threat_phishing": {
+        "message": "Hameçonnage"
+    },
+    "mail_guard_threat_phishing_line": {
+        "message": "Peut chercher à obtenir votre mot de passe, votre carte ou les informations de votre compte."
+    },
+    "mail_guard_unreadable_body": {
+        "message": "Phi n'a pas pu lire assez de ce message pour l'évaluer (éléments manquants : $PARTS$). Cela ne signifie pas qu'il est sûr."
+    },
+    "mail_guard_verdict_title": {
+        "message": "$LEVEL$ · $THREAT$ probable"
+    },
     "main_menu_application_quit": {
         "message": "Quitter Phi Sentinel"
     },
@@ -3583,9 +4525,6 @@
     },
     "settings_status_stable_latest_active": {
         "message": "Dernière version stable active"
-    },
-    "settings_title": {
-        "message": "Paramètres"
     },
     "settings_title_backup_restore": {
         "message": "Sauvegarde et restauration"

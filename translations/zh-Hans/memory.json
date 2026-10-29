@@ -552,7 +552,7 @@
         "message": "自动调节"
     },
     "memory_management_galaxy_options_automatic_detail": {
-        "message": "帧率下降时会降低分辨率并减少模拟运算；中等档位下，拖动或缩放密集图谱时还会进一步简化。"
+        "message": "密集图谱帧率下降时会减少模拟运算；中等档位下，拖动或缩放密集图谱时还会进一步简化。"
     },
     "memory_management_galaxy_options_close": {
         "message": "关闭 Memory Galaxy 选项"
@@ -582,13 +582,13 @@
         "message": "Memory Galaxy 选项"
     },
     "memory_management_galaxy_options_quality_behavior_extreme": {
-        "message": "最高保真：原生分辨率上限、半透明连线与完整的模拟细节。"
+        "message": "最高保真：半透明连线与完整的模拟细节。"
     },
     "memory_management_galaxy_options_quality_behavior_high": {
-        "message": "均衡：1× 分辨率、半透明连线，以及更短、细节适中的模拟。"
+        "message": "均衡：半透明连线，以及更短、细节适中的模拟。"
     },
     "memory_management_galaxy_options_quality_behavior_medium": {
-        "message": "交互优先：0.75× 分辨率、半透明连线、更短的模拟，并在拖动或缩放密集图谱时暂时隐藏全部连线。"
+        "message": "交互优先：半透明连线、更短的模拟，并在拖动或缩放密集图谱时暂时隐藏全部连线。"
     },
     "memory_management_galaxy_options_quality_extreme": {
         "message": "极致"
@@ -603,7 +603,7 @@
         "message": "渲染质量"
     },
     "memory_management_galaxy_options_rendering_quality_detail": {
-        "message": "每个档位不仅会改变分辨率，也会改变图谱的运算负载。"
+        "message": "每个档位只改变模拟与连线的运算负载；分辨率始终跟随你的显示器。"
     },
     "memory_management_galaxy_options_title": {
         "message": "选项"
@@ -967,6 +967,255 @@
     },
     "memory_management_nebula_status_ready": {
         "message": "记忆星空"
+    },
+    "memory_management_nebula_story_collapse": {
+        "message": "收起"
+    },
+    "memory_management_nebula_story_evidence": {
+        "message": "源自 {{count}} 条记忆 · {{range}}"
+    },
+    "memory_management_nebula_story_evidence_toggle": {
+        "message": "源自 <toggle>{{count}} 条记忆</toggle> · {{range}}"
+    },
+    "memory_management_nebula_story_eyebrow": {
+        "message": "写给你的故事"
+    },
+    "memory_management_nebula_story_feedback_cancel": {
+        "message": "取消"
+    },
+    "memory_management_nebula_story_feedback_dialog_label": {
+        "message": "为这封信评分"
+    },
+    "memory_management_nebula_story_feedback_negative_action": {
+        "message": "我不喜欢这封信"
+    },
+    "memory_management_nebula_story_feedback_negative_title": {
+        "message": "哪里出了问题？"
+    },
+    "memory_management_nebula_story_feedback_positive_action": {
+        "message": "我喜欢这封信"
+    },
+    "memory_management_nebula_story_feedback_positive_title": {
+        "message": "哪里写得好？"
+    },
+    "memory_management_nebula_story_feedback_privacy_rating": {
+        "message": "你的评分和所选原因会被统计，用于改进 Phi 的故事。这封信的内容不会被发送。"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
+        "message": "只是在罗列我做过的事"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_grounding": {
+        "message": "日期或数字不对"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_kind_fit": {
+        "message": "并不是这么回事"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_other": {
+        "message": "其他"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_over_interpretation": {
+        "message": "写了我没做过的事"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_prose_quality": {
+        "message": "读完没什么感觉"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_boring_stat": {
+        "message": "捕捉到了真实的时刻"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_kind_fit": {
+        "message": "读懂了那一刻"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_other": {
+        "message": "其他"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_over_interpretation": {
+        "message": "每个细节都属实"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_prose_quality": {
+        "message": "打动了我"
+    },
+    "memory_management_nebula_story_feedback_report_close": {
+        "message": "关闭"
+    },
+    "memory_management_nebula_story_feedback_report_failed_rejected": {
+        "message": "报告未被接受，请稍后重试。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_signed_out": {
+        "message": "登录 Phi 后才能发送报告。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_timeout": {
+        "message": "仍在发送中，请稍后点击「重试」。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_too_large": {
+        "message": "附件过大，请取消勾选记忆后重试。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_unavailable": {
+        "message": "目前无法连接到 Phi 的本地智能体。"
+    },
+    "memory_management_nebula_story_feedback_report_failed_upstream": {
+        "message": "反馈服务未接受此报告 ({{code}})。"
+    },
+    "memory_management_nebula_story_feedback_report_heading": {
+        "message": "给 Phi 团队（可选）"
+    },
+    "memory_management_nebula_story_feedback_report_include_memories": {
+        "message": "附上这封信所依据的记忆"
+    },
+    "memory_management_nebula_story_feedback_report_include_story": {
+        "message": "附上这封信"
+    },
+    "memory_management_nebula_story_feedback_report_note_label": {
+        "message": "有什么想告诉团队的吗？"
+    },
+    "memory_management_nebula_story_feedback_report_privacy": {
+        "message": "部分账号和系统信息可能会发送给 Phinomenon。我们会依据<privacy>隐私政策</privacy>和<terms>服务条款</terms>，使用你提供的信息来帮助解决技术问题并改进我们的服务。"
+    },
+    "memory_management_nebula_story_feedback_report_retry": {
+        "message": "重试"
+    },
+    "memory_management_nebula_story_feedback_report_sending": {
+        "message": "发送中…"
+    },
+    "memory_management_nebula_story_feedback_submit": {
+        "message": "提交"
+    },
+    "memory_management_nebula_story_greeting": {
+        "message": "亲爱的你："
+    },
+    "memory_management_nebula_story_instructions_badge": {
+        "message": "自定义指令"
+    },
+    "memory_management_nebula_story_instructions_badge_hint": {
+        "message": "此后生成的信将使用自定义文本。保存于 {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_close": {
+        "message": "关闭"
+    },
+    "memory_management_nebula_story_instructions_contract_label": {
+        "message": "文本中需保留以下名称："
+    },
+    "memory_management_nebula_story_instructions_copied": {
+        "message": "已复制"
+    },
+    "memory_management_nebula_story_instructions_copy": {
+        "message": "复制文本"
+    },
+    "memory_management_nebula_story_instructions_counter": {
+        "message": "{{count}} / {{max}}"
+    },
+    "memory_management_nebula_story_instructions_failed": {
+        "message": "无法保存。{{reason}}"
+    },
+    "memory_management_nebula_story_instructions_missing": {
+        "message": "缺少：{{names}}"
+    },
+    "memory_management_nebula_story_instructions_open": {
+        "message": "故事指令"
+    },
+    "memory_management_nebula_story_instructions_refresh_busy": {
+        "message": "正在写一封信，请等它写完后再试。"
+    },
+    "memory_management_nebula_story_instructions_refresh_started": {
+        "message": "正在写一封新的信，下次打开 Nebula 时即可看到。"
+    },
+    "memory_management_nebula_story_instructions_refreshing": {
+        "message": "正在写一封新的信…"
+    },
+    "memory_management_nebula_story_instructions_reset": {
+        "message": "恢复默认"
+    },
+    "memory_management_nebula_story_instructions_reset_failed": {
+        "message": "无法重置故事。{{reason}}"
+    },
+    "memory_management_nebula_story_instructions_reset_stories": {
+        "message": "重置故事并刷新"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_body": {
+        "message": "这会删除为此个人资料写的所有信，以及你的已读记录。你的记忆不会受到影响。"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_confirm": {
+        "message": "重置并刷新"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_title": {
+        "message": "用这份提示词重新开始？"
+    },
+    "memory_management_nebula_story_instructions_save": {
+        "message": "保存"
+    },
+    "memory_management_nebula_story_instructions_saved": {
+        "message": "已保存"
+    },
+    "memory_management_nebula_story_instructions_saving": {
+        "message": "保存中…"
+    },
+    "memory_management_nebula_story_instructions_status_custom": {
+        "message": "自定义 · 保存于 {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_status_default": {
+        "message": "默认文本"
+    },
+    "memory_management_nebula_story_instructions_title": {
+        "message": "故事指令"
+    },
+    "memory_management_nebula_story_instructions_too_large": {
+        "message": "文本超过了 {{max}} 个字符。"
+    },
+    "memory_management_nebula_story_label": {
+        "message": "记忆故事"
+    },
+    "memory_management_nebula_story_reopen": {
+        "message": "展开故事"
+    },
+    "memory_management_nebula_story_stack_back_to_first": {
+        "message": "回到第一封"
+    },
+    "memory_management_nebula_story_stack_dot": {
+        "message": "第 {{index}} 封信"
+    },
+    "memory_management_nebula_story_stack_dot_end": {
+        "message": "所有信的末尾"
+    },
+    "memory_management_nebula_story_stack_dot_unread": {
+        "message": "第 {{index}} 封信，未读"
+    },
+    "memory_management_nebula_story_stack_end_body": {
+        "message": "随着你继续浏览，新的故事会陆续到来。"
+    },
+    "memory_management_nebula_story_stack_end_title": {
+        "message": "目前都读完了。"
+    },
+    "memory_management_nebula_story_stack_next": {
+        "message": "下一封信"
+    },
+    "memory_management_nebula_story_stack_pager_label": {
+        "message": "所有信"
+    },
+    "memory_management_nebula_story_stack_pill_all": {
+        "message": "所有信：{{count}}"
+    },
+    "memory_management_nebula_story_stack_pill_unread": {
+        "message": "未读的信：{{count}}"
+    },
+    "memory_management_nebula_story_stack_position": {
+        "message": "{{index}} / {{total}}"
+    },
+    "memory_management_nebula_story_stack_position_end": {
+        "message": "末尾 / {{total}}"
+    },
+    "memory_management_nebula_story_stack_previous": {
+        "message": "上一封信"
+    },
+    "memory_management_nebula_story_stack_unread": {
+        "message": "未读"
+    },
+    "memory_management_nebula_story_stack_unread_count": {
+        "message": "{{count}} 封未读"
+    },
+    "memory_management_nebula_story_stars_label": {
+        "message": "这个故事中的记忆"
+    },
+    "memory_management_nebula_story_written_on": {
+        "message": "写于 {{date}}"
     },
     "memory_management_nebula_subtitle": {
         "message": "像仰望美丽夜空一样，凝望你的记忆。"

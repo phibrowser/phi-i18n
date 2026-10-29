@@ -2303,9 +2303,6 @@
     "private_ai_banner_description": {
         "message": "私有 AI 的回應品質可能與線上模型有所不同。"
     },
-    "private_ai_banner_dismiss_for_now": {
-        "message": "暫時關閉"
-    },
     "private_ai_banner_dont_show_again": {
         "message": "不再顯示"
     },
@@ -2320,6 +2317,1422 @@
     },
     "prompt_preferences_restore_success": {
         "message": "提示已還原。它們會在適當時機再次顯示。"
+    },
+    "settings_advanced_backup_description": {
+        "message": "將背景服務的資料還原到先前的本機快照。"
+    },
+    "settings_advanced_backup_snapshots_confirm_description": {
+        "message": "背景服務會停止，資料會還原到 {{date}} 時的狀態，然後重新啟動。之後所做的變更都會被取代。這個動作無法復原。"
+    },
+    "settings_advanced_backup_snapshots_confirm_title": {
+        "message": "要還原此快照嗎？"
+    },
+    "settings_advanced_backup_snapshots_empty": {
+        "message": "尚無快照。"
+    },
+    "settings_advanced_backup_snapshots_load_failed": {
+        "message": "無法讀取快照。"
+    },
+    "settings_advanced_backup_snapshots_loading": {
+        "message": "正在載入快照…"
+    },
+    "settings_advanced_backup_snapshots_progress_description": {
+        "message": "替換資料期間，背景服務會停止。這可能需要一分鐘左右。完成前請保持這個視窗開啟。"
+    },
+    "settings_advanced_backup_snapshots_progress_title": {
+        "message": "正在還原快照"
+    },
+    "settings_advanced_backup_snapshots_restore": {
+        "message": "還原"
+    },
+    "settings_advanced_backup_snapshots_restore_label": {
+        "message": "還原 {{date}} 的快照"
+    },
+    "settings_advanced_backup_snapshots_title": {
+        "message": "本機快照"
+    },
+    "settings_advanced_backup_snapshots_toast_failed": {
+        "message": "無法還原快照，資料可能需要手動修復。請聯絡 Phi 支援團隊。"
+    },
+    "settings_advanced_backup_snapshots_toast_refused": {
+        "message": "無法還原快照"
+    },
+    "settings_advanced_backup_snapshots_toast_restored": {
+        "message": "快照已還原"
+    },
+    "settings_advanced_backup_snapshots_toast_reverted": {
+        "message": "無法還原快照。你的資料維持原狀。"
+    },
+    "settings_advanced_backup_snapshots_trigger_manual": {
+        "message": "由你建立"
+    },
+    "settings_advanced_backup_snapshots_trigger_policy_version": {
+        "message": "高風險更新前"
+    },
+    "settings_advanced_backup_snapshots_trigger_pre_import": {
+        "message": "匯入前"
+    },
+    "settings_advanced_backup_snapshots_versions": {
+        "message": "背景服務 {{services}}"
+    },
+    "settings_advanced_backup_snapshots_versions_with_browser": {
+        "message": "背景服務 {{services}}，Phi {{browser}}"
+    },
+    "settings_advanced_backup_title": {
+        "message": "快照與更新"
+    },
+    "settings_advanced_backup_track_confirm_action": {
+        "message": "切換並更新"
+    },
+    "settings_advanced_backup_track_confirm_stable": {
+        "message": "元件會回到與此版本一起測試過的版本，可能比目前的舊。受影響的服務會重新啟動。"
+    },
+    "settings_advanced_backup_track_confirm_stable_latest": {
+        "message": "元件會立即更新到最新的穩定版本。受影響的服務會重新啟動。"
+    },
+    "settings_advanced_backup_track_confirm_title": {
+        "message": "要切換至 {{track}} 嗎？"
+    },
+    "settings_advanced_backup_track_description_stable": {
+        "message": "安裝與此版本一起測試過的元件版本。"
+    },
+    "settings_advanced_backup_track_description_stable_latest": {
+        "message": "每個新的穩定版元件一發布就安裝。"
+    },
+    "settings_advanced_backup_track_label": {
+        "message": "更新通道"
+    },
+    "settings_advanced_backup_track_stable": {
+        "message": "穩定版"
+    },
+    "settings_advanced_backup_track_stable_latest": {
+        "message": "最新穩定版"
+    },
+    "settings_advanced_backup_track_title": {
+        "message": "元件更新"
+    },
+    "settings_advanced_backup_track_toast_deferred": {
+        "message": "已切換至 {{track}}。元件會在服務下次啟動時更新。"
+    },
+    "settings_advanced_backup_track_toast_failed": {
+        "message": "無法切換更新通道"
+    },
+    "settings_advanced_backup_track_toast_partial": {
+        "message": "已切換至 {{track}}，但有 {{count}} 個元件無法更新"
+    },
+    "settings_advanced_backup_track_toast_reconcile_failed": {
+        "message": "已切換至 {{track}}，但元件目前還無法更新"
+    },
+    "settings_advanced_backup_track_toast_switched": {
+        "message": "已切換至 {{track}}"
+    },
+    "settings_advanced_gateway_about": {
+        "message": "每個 AI 請求都會經過的本機服務。"
+    },
+    "settings_advanced_gateway_address": {
+        "message": "位址"
+    },
+    "settings_advanced_gateway_address_copied": {
+        "message": "已複製位址"
+    },
+    "settings_advanced_gateway_address_none": {
+        "message": "執行時才會顯示。"
+    },
+    "settings_advanced_gateway_copy": {
+        "message": "複製"
+    },
+    "settings_advanced_gateway_copy_failed": {
+        "message": "無法複製"
+    },
+    "settings_advanced_gateway_export": {
+        "message": "連線匯出"
+    },
+    "settings_advanced_gateway_export_copied": {
+        "message": "已複製連線資訊"
+    },
+    "settings_advanced_gateway_export_description": {
+        "message": "這台 Mac 上的 App 連線到閘道時所讀取的資訊。"
+    },
+    "settings_advanced_gateway_export_empty": {
+        "message": "閘道尚未發布連線資訊。"
+    },
+    "settings_advanced_gateway_export_failed": {
+        "message": "無法讀取連線資訊。"
+    },
+    "settings_advanced_gateway_export_label": {
+        "message": "連線資訊"
+    },
+    "settings_advanced_gateway_export_loading": {
+        "message": "載入中…"
+    },
+    "settings_advanced_gateway_failed": {
+        "message": "失敗"
+    },
+    "settings_advanced_gateway_logs": {
+        "message": "記錄"
+    },
+    "settings_advanced_gateway_logs_description": {
+        "message": "請求與錯誤，不含提問的內容。"
+    },
+    "settings_advanced_gateway_status": {
+        "message": "狀態"
+    },
+    "settings_advanced_gateway_title": {
+        "message": "AI 閘道"
+    },
+    "settings_advanced_logs_copied": {
+        "message": "已複製記錄"
+    },
+    "settings_advanced_logs_copy": {
+        "message": "複製"
+    },
+    "settings_advanced_logs_copy_failed": {
+        "message": "無法複製記錄"
+    },
+    "settings_advanced_logs_description": {
+        "message": "背景服務的記錄，會隨寫入即時更新。"
+    },
+    "settings_advanced_logs_empty": {
+        "message": "這份記錄是空的。"
+    },
+    "settings_advanced_logs_jump_to_end": {
+        "message": "跳到最新內容"
+    },
+    "settings_advanced_logs_line_count": {
+        "message": "顯示最後 {{shown}} 行，共 {{total}} 行"
+    },
+    "settings_advanced_logs_load_failed": {
+        "message": "無法讀取這份記錄。請試試「重新整理」。"
+    },
+    "settings_advanced_logs_loading": {
+        "message": "正在載入記錄…"
+    },
+    "settings_advanced_logs_refresh": {
+        "message": "重新整理"
+    },
+    "settings_advanced_logs_services_group": {
+        "message": "個別服務"
+    },
+    "settings_advanced_logs_source_label": {
+        "message": "記錄"
+    },
+    "settings_advanced_logs_source_runner": {
+        "message": "服務管理員"
+    },
+    "settings_advanced_logs_source_sentinel": {
+        "message": "背景服務 App"
+    },
+    "settings_advanced_logs_stream_label": {
+        "message": "輸出串流"
+    },
+    "settings_advanced_logs_title": {
+        "message": "完整記錄"
+    },
+    "settings_advanced_notice_body": {
+        "message": "平常不需要用到這些設定，而且改錯可能讓 AI 功能暫時無法使用。只想確認一切正常的話，看「服務」區塊就夠了。"
+    },
+    "settings_advanced_notice_title": {
+        "message": "供疑難排解與進階使用者使用。"
+    },
+    "settings_advanced_reset_action": {
+        "message": "重設所有資料"
+    },
+    "settings_advanced_reset_ai_action": {
+        "message": "重設 AI 設定"
+    },
+    "settings_advanced_reset_ai_clears": {
+        "message": "這將會："
+    },
+    "settings_advanced_reset_ai_confirm_description": {
+        "message": "你自己的供應商及其金鑰會被移除，本機模型也必須重新下載才能使用。"
+    },
+    "settings_advanced_reset_ai_confirm_title": {
+        "message": "要重設 AI 設定嗎？"
+    },
+    "settings_advanced_reset_ai_done": {
+        "message": "AI 設定已重設"
+    },
+    "settings_advanced_reset_ai_failed": {
+        "message": "無法重設 AI 設定"
+    },
+    "settings_advanced_reset_ai_items_cloud": {
+        "message": "將 AI 來源還原為 Phi Cloud"
+    },
+    "settings_advanced_reset_ai_items_local": {
+        "message": "刪除本機執行環境及其模型、記錄與下載內容"
+    },
+    "settings_advanced_reset_ai_items_providers": {
+        "message": "清除 AI 供應商設定"
+    },
+    "settings_advanced_reset_ai_label": {
+        "message": "重設 AI 設定"
+    },
+    "settings_advanced_reset_confirm_description": {
+        "message": "列出的所有內容都會被永久刪除，背景服務會以空白狀態重新啟動。建議先匯出你的資料。"
+    },
+    "settings_advanced_reset_confirm_prompt": {
+        "message": "輸入 {{phrase}} 以確認。"
+    },
+    "settings_advanced_reset_confirm_title": {
+        "message": "要重設所有資料嗎？"
+    },
+    "settings_advanced_reset_description": {
+        "message": "清除 Phi 背景服務的所有資料，讓它們從頭開始。"
+    },
+    "settings_advanced_reset_done": {
+        "message": "所有資料已重設"
+    },
+    "settings_advanced_reset_erases": {
+        "message": "這會刪除："
+    },
+    "settings_advanced_reset_failed": {
+        "message": "無法重設資料"
+    },
+    "settings_advanced_reset_items_logs": {
+        "message": "所有記錄檔與快取檔案"
+    },
+    "settings_advanced_reset_items_services": {
+        "message": "已安裝的服務及其資料"
+    },
+    "settings_advanced_reset_items_settings": {
+        "message": "背景服務的所有設定"
+    },
+    "settings_advanced_reset_items_tasks": {
+        "message": "排程任務及其歷史記錄"
+    },
+    "settings_advanced_reset_label": {
+        "message": "清除所有內容"
+    },
+    "settings_advanced_reset_permanent": {
+        "message": "這個動作無法復原。"
+    },
+    "settings_advanced_reset_progress_description": {
+        "message": "背景服務會停止，刪除資料後再重新啟動。完成前請保持這個視窗開啟。"
+    },
+    "settings_advanced_reset_progress_title": {
+        "message": "正在重設所有資料"
+    },
+    "settings_advanced_reset_title": {
+        "message": "重設所有資料"
+    },
+    "settings_advanced_services_action_accessible_label": {
+        "message": "{{action}} {{name}}"
+    },
+    "settings_advanced_services_action_restart": {
+        "message": "重新啟動"
+    },
+    "settings_advanced_services_action_retry_setup": {
+        "message": "重試初始化"
+    },
+    "settings_advanced_services_action_start": {
+        "message": "啟動"
+    },
+    "settings_advanced_services_action_stop": {
+        "message": "停止"
+    },
+    "settings_advanced_services_built_in": {
+        "message": "內建"
+    },
+    "settings_advanced_services_column_actions": {
+        "message": "動作"
+    },
+    "settings_advanced_services_column_pid": {
+        "message": "PID"
+    },
+    "settings_advanced_services_column_service": {
+        "message": "服務"
+    },
+    "settings_advanced_services_column_state": {
+        "message": "狀態"
+    },
+    "settings_advanced_services_column_uptime": {
+        "message": "運作時間"
+    },
+    "settings_advanced_services_column_version": {
+        "message": "版本"
+    },
+    "settings_advanced_services_confirm_cancel": {
+        "message": "取消"
+    },
+    "settings_advanced_services_confirm_restart_description": {
+        "message": "它會短暫停止後再重新啟動。目前正在使用它的功能會中斷。"
+    },
+    "settings_advanced_services_confirm_restart_title": {
+        "message": "要重新啟動 {{name}} 嗎？"
+    },
+    "settings_advanced_services_confirm_retry_setup_description": {
+        "message": "Phi 會移除它已下載的本機檔案，然後重新初始化。這可能需要幾分鐘，期間它會無法使用。"
+    },
+    "settings_advanced_services_confirm_retry_setup_title": {
+        "message": "要為 {{name}} 重試初始化嗎？"
+    },
+    "settings_advanced_services_confirm_stop_description": {
+        "message": "依賴它的服務也會一併停止。使用這些服務的 AI 功能在你重新啟動它之前都無法使用。"
+    },
+    "settings_advanced_services_confirm_stop_title": {
+        "message": "要停止 {{name}} 嗎？"
+    },
+    "settings_advanced_services_description": {
+        "message": "每個背景服務的程序、運作時間與版本。"
+    },
+    "settings_advanced_services_title": {
+        "message": "服務詳細資料"
+    },
+    "settings_advanced_services_toast_restart": {
+        "message": "{{name}} 已重新啟動"
+    },
+    "settings_advanced_services_toast_restart_failed": {
+        "message": "無法重新啟動 {{name}}"
+    },
+    "settings_advanced_services_toast_retry_setup": {
+        "message": "已重新開始初始化 {{name}}"
+    },
+    "settings_advanced_services_toast_retry_setup_failed": {
+        "message": "無法為 {{name}} 重試初始化"
+    },
+    "settings_advanced_services_toast_start": {
+        "message": "{{name}} 已啟動"
+    },
+    "settings_advanced_services_toast_start_failed": {
+        "message": "無法啟動 {{name}}"
+    },
+    "settings_advanced_services_toast_stop": {
+        "message": "{{name}} 已停止"
+    },
+    "settings_advanced_services_toast_stop_failed": {
+        "message": "無法停止 {{name}}"
+    },
+    "settings_backup_advanced_prompt": {
+        "message": "想還原快照嗎？"
+    },
+    "settings_backup_busy": {
+        "message": "另一項備份任務正在執行。請等它完成後再試。"
+    },
+    "settings_backup_cancel": {
+        "message": "取消"
+    },
+    "settings_backup_data_title": {
+        "message": "你的資料"
+    },
+    "settings_backup_description": {
+        "message": "讓背景服務保持最新，並保留一份你的資料副本。"
+    },
+    "settings_backup_export_action": {
+        "message": "匯出"
+    },
+    "settings_backup_export_description": {
+        "message": "將你的設定與資料複製一份儲存到「下載項目」資料夾，方便搬到另一台 Mac。不包含供應商的 API 金鑰。"
+    },
+    "settings_backup_export_description_to_file": {
+        "message": "將你的設定與資料複製一份儲存到你選擇的檔案，方便搬到另一台 Mac。不包含供應商的 API 金鑰。"
+    },
+    "settings_backup_export_done": {
+        "message": "資料已匯出到「下載項目」資料夾"
+    },
+    "settings_backup_export_done_to_file": {
+        "message": "資料已匯出"
+    },
+    "settings_backup_export_done_with_warning": {
+        "message": "匯出過程曾中斷，資料已匯出。使用前請先檢查檔案。"
+    },
+    "settings_backup_export_exporting": {
+        "message": "正在匯出…"
+    },
+    "settings_backup_export_failed": {
+        "message": "無法匯出你的資料"
+    },
+    "settings_backup_export_label": {
+        "message": "匯出資料"
+    },
+    "settings_backup_snapshot_action": {
+        "message": "建立快照"
+    },
+    "settings_backup_snapshot_created": {
+        "message": "快照已建立"
+    },
+    "settings_backup_snapshot_description": {
+        "message": "在這台 Mac 上儲存一份資料副本，之後可以還原。快照不會離開這台 Mac。"
+    },
+    "settings_backup_snapshot_failed": {
+        "message": "無法建立快照"
+    },
+    "settings_backup_snapshot_label": {
+        "message": "本機快照"
+    },
+    "settings_backup_snapshot_progress_description": {
+        "message": "建立快照時，背景服務會停止幾秒鐘。完成前請保持這個視窗開啟。"
+    },
+    "settings_backup_snapshot_progress_title": {
+        "message": "正在建立快照"
+    },
+    "settings_backup_snapshot_skipped": {
+        "message": "這個磁碟不支援快照"
+    },
+    "settings_backup_updates_auto": {
+        "message": "更新會自動安裝。"
+    },
+    "settings_backup_updates_available": {
+        "message": "可用的更新：{{count}} 項"
+    },
+    "settings_backup_updates_check": {
+        "message": "檢查更新"
+    },
+    "settings_backup_updates_check_failed": {
+        "message": "無法檢查更新。"
+    },
+    "settings_backup_updates_checking": {
+        "message": "正在檢查更新…"
+    },
+    "settings_backup_updates_confirm_description": {
+        "message": "每個服務更新時都會重新啟動，因此 Phi Chat 和其他 AI 功能可能會短暫暫停。"
+    },
+    "settings_backup_updates_confirm_title": {
+        "message": "要現在更新背景服務嗎？"
+    },
+    "settings_backup_updates_label": {
+        "message": "背景服務"
+    },
+    "settings_backup_updates_progress_component": {
+        "message": "{{component}}：{{percent}}%"
+    },
+    "settings_backup_updates_progress_downloading": {
+        "message": "正在下載更新…"
+    },
+    "settings_backup_updates_progress_installing": {
+        "message": "正在安裝更新…"
+    },
+    "settings_backup_updates_progress_preparing": {
+        "message": "正在準備更新…"
+    },
+    "settings_backup_updates_progress_restarting": {
+        "message": "正在重新啟動服務…"
+    },
+    "settings_backup_updates_progress_rolling_back": {
+        "message": "正在退回先前的版本…"
+    },
+    "settings_backup_updates_title": {
+        "message": "更新"
+    },
+    "settings_backup_updates_toast_failed": {
+        "message": "{{count}} 個元件無法更新"
+    },
+    "settings_backup_updates_toast_none": {
+        "message": "全部都已是最新版本"
+    },
+    "settings_backup_updates_toast_update_failed": {
+        "message": "無法更新背景服務"
+    },
+    "settings_backup_updates_toast_updated": {
+        "message": "已更新 {{count}} 個元件"
+    },
+    "settings_backup_updates_up_to_date": {
+        "message": "全部都已是最新版本。"
+    },
+    "settings_backup_updates_update": {
+        "message": "立即更新"
+    },
+    "settings_backup_updates_updating": {
+        "message": "正在更新…"
+    },
+    "settings_backup_updates_updating_description": {
+        "message": "正在安裝更新。服務會在更新時重新啟動。"
+    },
+    "settings_close": {
+        "message": "關閉設定"
+    },
+    "settings_general_appearance": {
+        "message": "外觀"
+    },
+    "settings_general_appearance_value": {
+        "message": "跟隨視窗主題"
+    },
+    "settings_general_browser_ai": {
+        "message": "瀏覽器 AI 設定"
+    },
+    "settings_general_browser_ai_description": {
+        "message": "瀏覽器本身的設定中還有更多 AI 選項。"
+    },
+    "settings_general_description": {
+        "message": "Phi 背景服務的運作狀況，以及跟隨瀏覽器的設定。"
+    },
+    "settings_general_group_background": {
+        "message": "背景服務"
+    },
+    "settings_general_group_language": {
+        "message": "語言與外觀"
+    },
+    "settings_general_language": {
+        "message": "語言"
+    },
+    "settings_general_language_value": {
+        "message": "跟隨瀏覽器（{{language}}）"
+    },
+    "settings_general_open": {
+        "message": "開啟"
+    },
+    "settings_general_restart_action": {
+        "message": "重新啟動"
+    },
+    "settings_general_restart_confirm_description": {
+        "message": "在服務恢復之前，Phi 的 AI 功能會暫停運作，通常不到一分鐘。"
+    },
+    "settings_general_restart_confirm_title": {
+        "message": "要重新啟動背景服務嗎？"
+    },
+    "settings_general_restart_description": {
+        "message": "停止並重新啟動所有背景服務。AI 功能會短暫暫停。"
+    },
+    "settings_general_restart_done": {
+        "message": "背景服務已重新啟動"
+    },
+    "settings_general_restart_failed": {
+        "message": "無法重新啟動背景服務"
+    },
+    "settings_general_restart_label": {
+        "message": "重新啟動背景服務"
+    },
+    "settings_general_restart_progress_description": {
+        "message": "通常不到一分鐘。完成前請保持這個視窗開啟。"
+    },
+    "settings_general_restart_progress_title": {
+        "message": "正在重新啟動背景服務"
+    },
+    "settings_general_status": {
+        "message": "狀態"
+    },
+    "settings_general_status_attention": {
+        "message": "需要處理"
+    },
+    "settings_general_status_checking": {
+        "message": "正在檢查…"
+    },
+    "settings_general_status_offline": {
+        "message": "未執行"
+    },
+    "settings_general_status_running": {
+        "message": "運作正常"
+    },
+    "settings_general_status_unavailable": {
+        "message": "無法使用"
+    },
+    "settings_general_version": {
+        "message": "版本"
+    },
+    "settings_general_version_pending": {
+        "message": "已安裝版本 {{version}}。重新啟動背景服務後即可使用。"
+    },
+    "settings_logs_advanced_prompt": {
+        "message": "想自己查看記錄嗎？"
+    },
+    "settings_logs_description": {
+        "message": "如果有功能無法正常運作，請儲存記錄並傳送給 Phi 支援團隊。"
+    },
+    "settings_logs_diagnostic": {
+        "message": "診斷記錄"
+    },
+    "settings_logs_diagnostic_description": {
+        "message": "背景服務與各個服務的近期活動，會以 ZIP 檔儲存到你的下載項目。"
+    },
+    "settings_logs_save": {
+        "message": "儲存"
+    },
+    "settings_logs_save_failed": {
+        "message": "無法儲存診斷記錄"
+    },
+    "settings_logs_saved": {
+        "message": "診斷記錄已儲存到你的下載項目"
+    },
+    "settings_nav_advanced": {
+        "message": "進階設定"
+    },
+    "settings_nav_advanced_label": {
+        "message": "進階設定分類"
+    },
+    "settings_nav_back_to_settings": {
+        "message": "返回設定"
+    },
+    "settings_nav_backup": {
+        "message": "備份與更新"
+    },
+    "settings_nav_general": {
+        "message": "一般"
+    },
+    "settings_nav_label": {
+        "message": "設定分類"
+    },
+    "settings_nav_logs": {
+        "message": "記錄"
+    },
+    "settings_nav_private_ai": {
+        "message": "私有 AI"
+    },
+    "settings_nav_providers": {
+        "message": "AI 供應商"
+    },
+    "settings_nav_services": {
+        "message": "服務"
+    },
+    "settings_private_ai_approx_minutes": {
+        "message": "約 {{count}} 分鐘"
+    },
+    "settings_private_ai_approx_seconds": {
+        "message": "約 {{count}} 秒"
+    },
+    "settings_private_ai_attention": {
+        "message": "需要處理"
+    },
+    "settings_private_ai_checking": {
+        "message": "正在檢查…"
+    },
+    "settings_private_ai_codex_tip_description": {
+        "message": "使用你現有的 Codex 登入作為 AI 供應商。"
+    },
+    "settings_private_ai_codex_tip_dismiss": {
+        "message": "關閉 Codex 提示"
+    },
+    "settings_private_ai_codex_tip_open": {
+        "message": "開啟"
+    },
+    "settings_private_ai_codex_tip_title": {
+        "message": "Codex 可供使用"
+    },
+    "settings_private_ai_fallback_notice": {
+        "message": "有一個本機 AI 來源沒有回應。受影響的任務已暫時改回使用 Phi Cloud。"
+    },
+    "settings_private_ai_fallback_notice_paused": {
+        "message": "有一個本機 AI 來源沒有回應。受影響的任務已暫停，等它恢復回應後再繼續。"
+    },
+    "settings_private_ai_hardware_hint": {
+        "message": "在配備至少 16 GB 記憶體的 Apple Silicon Mac 上執行效果最佳。設定過程會自動檢查你的裝置。"
+    },
+    "settings_private_ai_label": {
+        "message": "私有 AI"
+    },
+    "settings_private_ai_load_failed": {
+        "message": "無法讀取私有 AI 狀態"
+    },
+    "settings_private_ai_local_runtime": {
+        "message": "本機執行環境"
+    },
+    "settings_private_ai_not_set_up": {
+        "message": "所有 AI 功能目前都在 Phi Cloud 上執行。開啟開關即可開始設定。"
+    },
+    "settings_private_ai_on": {
+        "message": "私有 AI 已開啟"
+    },
+    "settings_private_ai_page_description": {
+        "message": "在自己的 Mac 上或透過自選的供應商執行 AI，資料完全留在你手中。"
+    },
+    "settings_private_ai_providers_prompt": {
+        "message": "想使用自己的 AI 服務嗎？"
+    },
+    "settings_private_ai_restart_local": {
+        "message": "重新啟動本機服務"
+    },
+    "settings_private_ai_routing_apple_available": {
+        "message": "Apple Intelligence · 可用"
+    },
+    "settings_private_ai_routing_apple_description": {
+        "message": "由 macOS 自動管理。"
+    },
+    "settings_private_ai_routing_apple_label": {
+        "message": "AI 分頁整理"
+    },
+    "settings_private_ai_routing_apple_unavailable": {
+        "message": "Apple Intelligence · 無法使用"
+    },
+    "settings_private_ai_routing_checked": {
+        "message": "已選取來源"
+    },
+    "settings_private_ai_routing_failed": {
+        "message": "來源失敗：{{error}}"
+    },
+    "settings_private_ai_routing_off_hint": {
+        "message": "私有 AI 開啟時才會使用。"
+    },
+    "settings_private_ai_routing_policy_cloud": {
+        "message": "自動改用 Phi Cloud（預設）"
+    },
+    "settings_private_ai_routing_policy_label": {
+        "message": "當本機或自行架設的來源無法使用時"
+    },
+    "settings_private_ai_routing_policy_pause": {
+        "message": "暫停受影響的 AI 功能（絕不將資料傳送到雲端）"
+    },
+    "settings_private_ai_routing_select": {
+        "message": "選擇「{{task}}」的來源"
+    },
+    "settings_private_ai_routing_test_failed": {
+        "message": "{{purpose}} 模型測試失敗，已還原為先前的來源。"
+    },
+    "settings_private_ai_routing_unavailable": {
+        "message": "無法使用"
+    },
+    "settings_private_ai_routing_vision_description": {
+        "message": "僅在目前模型不支援圖片輸入時使用。"
+    },
+    "settings_private_ai_routing_vision_label": {
+        "message": "視覺模型回退"
+    },
+    "settings_private_ai_routing_vision_none": {
+        "message": "未設定"
+    },
+    "settings_private_ai_setting_up": {
+        "message": "設定中…"
+    },
+    "settings_private_ai_setting_up_description": {
+        "message": "設定完成前，AI 功能會繼續使用 Phi Cloud。"
+    },
+    "settings_private_ai_setup_cancel": {
+        "message": "取消"
+    },
+    "settings_private_ai_setup_check_again": {
+        "message": "再檢查一次"
+    },
+    "settings_private_ai_setup_checking": {
+        "message": "正在檢查你的裝置…"
+    },
+    "settings_private_ai_setup_done": {
+        "message": "私有 AI 已開啟"
+    },
+    "settings_private_ai_setup_done_action": {
+        "message": "完成"
+    },
+    "settings_private_ai_setup_eligible": {
+        "message": "直接在這台 Mac 上執行私有 AI"
+    },
+    "settings_private_ai_setup_failed": {
+        "message": "設定在「{{stage}}」階段失敗。"
+    },
+    "settings_private_ai_setup_free_disk": {
+        "message": "可用磁碟空間"
+    },
+    "settings_private_ai_setup_local_tasks": {
+        "message": "在這台 Mac 上執行：{{tasks}}。其他 AI 任務仍在 Phi Cloud 上執行。"
+    },
+    "settings_private_ai_setup_memory": {
+        "message": "記憶體"
+    },
+    "settings_private_ai_setup_minimize": {
+        "message": "縮到最小"
+    },
+    "settings_private_ai_setup_plan_failed": {
+        "message": "無法檢查這台 Mac"
+    },
+    "settings_private_ai_setup_reasons_disk": {
+        "message": "執行本機模型至少需要 10 GB 的可用磁碟空間。"
+    },
+    "settings_private_ai_setup_reasons_memory": {
+        "message": "執行本機模型至少需要 16 GB 記憶體。"
+    },
+    "settings_private_ai_setup_reasons_no_embedding_model": {
+        "message": "模型索引中沒有可用的嵌入模型。"
+    },
+    "settings_private_ai_setup_reasons_no_local_model": {
+        "message": "模型索引中沒有可用的本機模型。"
+    },
+    "settings_private_ai_setup_reasons_probe_failed": {
+        "message": "無法檢查這台 Mac。請再試一次，或繼續使用 Phi Cloud。"
+    },
+    "settings_private_ai_setup_retry": {
+        "message": "重試"
+    },
+    "settings_private_ai_setup_routes_kept": {
+        "message": "現有任務路由保持不變。"
+    },
+    "settings_private_ai_setup_show_details": {
+        "message": "顯示詳細資訊"
+    },
+    "settings_private_ai_setup_size": {
+        "message": "下載 {{downloadSize}} · 執行時約佔用 {{memorySize}} 記憶體。"
+    },
+    "settings_private_ai_setup_stage_models": {
+        "message": "正在下載模型…"
+    },
+    "settings_private_ai_setup_stage_name_models": {
+        "message": "下載模型"
+    },
+    "settings_private_ai_setup_stage_name_runtime": {
+        "message": "安裝本機執行環境"
+    },
+    "settings_private_ai_setup_stage_name_starting": {
+        "message": "啟動本機模型"
+    },
+    "settings_private_ai_setup_stage_name_verifying": {
+        "message": "驗證"
+    },
+    "settings_private_ai_setup_stage_runtime": {
+        "message": "正在安裝本機執行環境…"
+    },
+    "settings_private_ai_setup_stage_starting": {
+        "message": "正在啟動本機模型…"
+    },
+    "settings_private_ai_setup_stage_verifying": {
+        "message": "正在驗證…"
+    },
+    "settings_private_ai_setup_start": {
+        "message": "開始設定"
+    },
+    "settings_private_ai_setup_step_models": {
+        "message": "下載模型"
+    },
+    "settings_private_ai_setup_step_runtime": {
+        "message": "安裝執行環境"
+    },
+    "settings_private_ai_setup_step_starting": {
+        "message": "啟動本機模型"
+    },
+    "settings_private_ai_setup_step_verifying": {
+        "message": "驗證"
+    },
+    "settings_private_ai_setup_title": {
+        "message": "設定私有 AI"
+    },
+    "settings_private_ai_setup_unavailable": {
+        "message": "這台 Mac 無法使用私有 AI"
+    },
+    "settings_private_ai_setup_use_own": {
+        "message": "使用自己的 AI 服務"
+    },
+    "settings_private_ai_source_cloud": {
+        "message": "Phi Cloud"
+    },
+    "settings_private_ai_source_local": {
+        "message": "{{model}} · 在這台 Mac 上"
+    },
+    "settings_private_ai_source_provider": {
+        "message": "{{provider}} · 你的供應商"
+    },
+    "settings_private_ai_source_unavailable": {
+        "message": "{{source}} · 無法使用"
+    },
+    "settings_private_ai_starting": {
+        "message": "正在啟動私有 AI…"
+    },
+    "settings_private_ai_starting_description": {
+        "message": "正在準備你的本機 AI。啟動完成前，AI 功能會使用 Phi Cloud。"
+    },
+    "settings_private_ai_summary": {
+        "message": "{{total}} 項 AI 任務中有 {{count}} 項以私有方式執行"
+    },
+    "settings_private_ai_summary_attention": {
+        "message": "無法使用的 AI 任務來源：{{count}} 個"
+    },
+    "settings_private_ai_tasks_chat_description": {
+        "message": "對話面板中的回覆"
+    },
+    "settings_private_ai_tasks_chat_label": {
+        "message": "對話"
+    },
+    "settings_private_ai_tasks_data_search_description": {
+        "message": "搜尋已連結的資料"
+    },
+    "settings_private_ai_tasks_data_search_label": {
+        "message": "資料搜尋"
+    },
+    "settings_private_ai_tasks_memory_description": {
+        "message": "瀏覽記憶與摘要"
+    },
+    "settings_private_ai_tasks_memory_label": {
+        "message": "記憶"
+    },
+    "settings_private_ai_tasks_title": {
+        "message": "AI 任務"
+    },
+    "settings_private_ai_tasks_web_tasks_description": {
+        "message": "AI 代理自動化"
+    },
+    "settings_private_ai_tasks_web_tasks_label": {
+        "message": "網頁任務"
+    },
+    "settings_private_ai_toast_cancel_failed": {
+        "message": "無法取消設定"
+    },
+    "settings_private_ai_toast_disable_failed": {
+        "message": "無法關閉私有 AI，請再試一次。"
+    },
+    "settings_private_ai_toast_enable_failed": {
+        "message": "無法開啟私有 AI"
+    },
+    "settings_private_ai_toast_restart_failed": {
+        "message": "無法重新啟動本機 AI，請再試一次。"
+    },
+    "settings_private_ai_toast_save_failed": {
+        "message": "無法儲存變更"
+    },
+    "settings_private_ai_toast_start_failed": {
+        "message": "無法開始設定"
+    },
+    "settings_private_ai_toggle": {
+        "message": "切換私有 AI"
+    },
+    "settings_providers_about_custom": {
+        "message": "任何 OpenAI 相容端點。"
+    },
+    "settings_providers_about_lm_studio": {
+        "message": "本機的 LM Studio OpenAI 相容伺服器。"
+    },
+    "settings_providers_about_ollama": {
+        "message": "這台 Mac 或你的區域網路上的本機 Ollama 模型。"
+    },
+    "settings_providers_about_openai": {
+        "message": "OpenAI 模型，包含 GPT 與思考模型系列。"
+    },
+    "settings_providers_about_openrouter": {
+        "message": "透過 OpenRouter 統一 API 存取數百個 AI 模型。"
+    },
+    "settings_providers_access": {
+        "message": "模型允許範圍"
+    },
+    "settings_providers_add": {
+        "message": "新增自訂供應商"
+    },
+    "settings_providers_add_action": {
+        "message": "新增供應商"
+    },
+    "settings_providers_add_description": {
+        "message": "新增其他 OpenAI 相容服務。當 Responses 不可用時，本機服務可改用 Chat Completions。"
+    },
+    "settings_providers_all_models": {
+        "message": "全部允許"
+    },
+    "settings_providers_all_models_description": {
+        "message": "這個供應商的所有模型皆可使用。"
+    },
+    "settings_providers_allow_model": {
+        "message": "允許模型 {{model}}"
+    },
+    "settings_providers_api_key": {
+        "message": "API 金鑰"
+    },
+    "settings_providers_api_key_optional": {
+        "message": "API 金鑰（選填）"
+    },
+    "settings_providers_apple_description": {
+        "message": "由 macOS 管理，用於 AI 分頁整理。"
+    },
+    "settings_providers_base_url": {
+        "message": "基礎 URL"
+    },
+    "settings_providers_built_in": {
+        "message": "內建"
+    },
+    "settings_providers_cancel": {
+        "message": "取消"
+    },
+    "settings_providers_codex_about": {
+        "message": "使用已透過 Codex 登入的 ChatGPT 訂閱。"
+    },
+    "settings_providers_codex_action_failed": {
+        "message": "Codex 操作失敗"
+    },
+    "settings_providers_codex_advanced": {
+        "message": "進階"
+    },
+    "settings_providers_codex_check_again": {
+        "message": "再檢查一次"
+    },
+    "settings_providers_codex_confirm_account": {
+        "message": "確認帳號"
+    },
+    "settings_providers_codex_connect": {
+        "message": "連線"
+    },
+    "settings_providers_codex_disconnect": {
+        "message": "中斷連線"
+    },
+    "settings_providers_codex_disconnect_blocked": {
+        "message": "{{tasks}} 仍在使用 Codex。中斷連線前，請先為它們選擇其他來源。"
+    },
+    "settings_providers_codex_effort_default": {
+        "message": "預設（{{effort}}）"
+    },
+    "settings_providers_codex_effort_for": {
+        "message": "{{model}} 的思考強度"
+    },
+    "settings_providers_codex_effort_model_default": {
+        "message": "模型預設"
+    },
+    "settings_providers_codex_home_hint": {
+        "message": "留空以使用預設的 Codex 主目錄。"
+    },
+    "settings_providers_codex_login_hint": {
+        "message": "Phi 會使用 Codex 已管理的登入，並在連線時送出一個小請求來檢查。如果你還沒登入，請先在終端機執行 {{command}}。"
+    },
+    "settings_providers_codex_models": {
+        "message": "可用模型"
+    },
+    "settings_providers_codex_models_origin": {
+        "message": "已從 Codex 模型目錄載入。"
+    },
+    "settings_providers_codex_retest": {
+        "message": "重新測試"
+    },
+    "settings_providers_codex_state_account_changed": {
+        "message": "需要確認"
+    },
+    "settings_providers_codex_state_keychain_unsupported": {
+        "message": "需要以檔案登入"
+    },
+    "settings_providers_codex_state_login_not_found": {
+        "message": "需要登入"
+    },
+    "settings_providers_codex_state_needs_attention": {
+        "message": "需要處理"
+    },
+    "settings_providers_codex_state_not_installed": {
+        "message": "未安裝"
+    },
+    "settings_providers_codex_state_ready": {
+        "message": "可用"
+    },
+    "settings_providers_codex_summary_account_changed": {
+        "message": "Codex 登入已變更。在你確認新帳號之前，請求會暫停。"
+    },
+    "settings_providers_codex_summary_connected": {
+        "message": "透過本機 AI 閘道可使用 {{count}} 個相容模型。"
+    },
+    "settings_providers_codex_summary_keychain_unsupported": {
+        "message": "這個 Codex 登入儲存在鑰匙圈中，Phi 無法讀取。"
+    },
+    "settings_providers_codex_summary_login_not_found": {
+        "message": "Codex 已安裝，但找不到以檔案儲存的登入。"
+    },
+    "settings_providers_codex_summary_needs_attention": {
+        "message": "上次連線檢查失敗。既有路由會維持指派，不會自動改用備援。"
+    },
+    "settings_providers_codex_summary_not_installed": {
+        "message": "在這台 Mac 上安裝 Codex 即可使用 Codex 訂閱。"
+    },
+    "settings_providers_codex_summary_ready": {
+        "message": "已偵測到 Codex 登入。不需複製憑證即可連線。"
+    },
+    "settings_providers_codex_text": {
+        "message": "文字"
+    },
+    "settings_providers_codex_text_image": {
+        "message": "文字 + 圖片"
+    },
+    "settings_providers_codex_title": {
+        "message": "Codex"
+    },
+    "settings_providers_connection": {
+        "message": "連線"
+    },
+    "settings_providers_description": {
+        "message": "你自行連線的 AI 服務，以及 Phi 內建的服務。"
+    },
+    "settings_providers_discard": {
+        "message": "放棄修改"
+    },
+    "settings_providers_endpoint_not_set": {
+        "message": "尚未設定端點"
+    },
+    "settings_providers_endpoint_with_models": {
+        "message": "{{endpoint}} · {{count}} 個模型"
+    },
+    "settings_providers_https_hint": {
+        "message": "雲端供應商必須使用 HTTPS。"
+    },
+    "settings_providers_id": {
+        "message": "供應商 ID"
+    },
+    "settings_providers_id_fixed": {
+        "message": "此供應商的 ID 是固定的。"
+    },
+    "settings_providers_id_taken": {
+        "message": "已存在相同 ID 的供應商。"
+    },
+    "settings_providers_keep_editing": {
+        "message": "繼續編輯"
+    },
+    "settings_providers_leave_description": {
+        "message": "此供應商的修改尚未儲存。"
+    },
+    "settings_providers_leave_title": {
+        "message": "供應商設定尚未儲存"
+    },
+    "settings_providers_load": {
+        "message": "載入"
+    },
+    "settings_providers_loaded": {
+        "message": "模型：{{count}} · {{latency}} ms"
+    },
+    "settings_providers_loading": {
+        "message": "正在載入模型…"
+    },
+    "settings_providers_local_about": {
+        "message": "已下載到這台 Mac 的模型。它們處理的內容會留在這台 Mac 上。"
+    },
+    "settings_providers_local_failed_chat": {
+        "message": "本機對話模型啟動失敗。"
+    },
+    "settings_providers_local_failed_embedding": {
+        "message": "連接器索引啟動失敗。"
+    },
+    "settings_providers_local_failed_memory": {
+        "message": "本機記憶模型啟動失敗。"
+    },
+    "settings_providers_local_hint": {
+        "message": "允許本機與私有網路端點。"
+    },
+    "settings_providers_local_role_configured": {
+        "message": "已設定"
+    },
+    "settings_providers_local_role_off": {
+        "message": "關閉"
+    },
+    "settings_providers_local_role_ready": {
+        "message": "已就緒"
+    },
+    "settings_providers_local_role_unused": {
+        "message": "未使用"
+    },
+    "settings_providers_local_role_unused_chat": {
+        "message": "沒有獨立的對話模型。"
+    },
+    "settings_providers_local_role_unused_other": {
+        "message": "沒有本機模型。"
+    },
+    "settings_providers_local_role_used_for": {
+        "message": "用於 {{tasks}}"
+    },
+    "settings_providers_local_runtime": {
+        "message": "執行環境"
+    },
+    "settings_providers_local_state_attention": {
+        "message": "需要處理"
+    },
+    "settings_providers_local_state_not_set_up": {
+        "message": "尚未設定"
+    },
+    "settings_providers_local_state_starting": {
+        "message": "啟動中"
+    },
+    "settings_providers_local_state_unsupported": {
+        "message": "不支援"
+    },
+    "settings_providers_local_summary_attention": {
+        "message": "有本機模型沒有回應。請重新啟動本機服務，或查看它的記錄。"
+    },
+    "settings_providers_local_summary_not_set_up": {
+        "message": "設定私有 AI 後即可下載模型，並在這台 Mac 上執行。"
+    },
+    "settings_providers_local_summary_off": {
+        "message": "本機執行環境已停止。已下載的模型仍保留在這台 Mac 上。"
+    },
+    "settings_providers_local_summary_on": {
+        "message": "執行中：{{count}} / {{total}}"
+    },
+    "settings_providers_local_summary_unavailable": {
+        "message": "無法讀取本機執行環境。"
+    },
+    "settings_providers_local_summary_unsupported": {
+        "message": "需要 Apple Silicon。"
+    },
+    "settings_providers_local_switch_failed": {
+        "message": "無法開啟或關閉本機執行環境"
+    },
+    "settings_providers_local_title": {
+        "message": "本機模型"
+    },
+    "settings_providers_local_turn_off": {
+        "message": "停用"
+    },
+    "settings_providers_local_turn_on": {
+        "message": "啟用"
+    },
+    "settings_providers_local_update": {
+        "message": "更新"
+    },
+    "settings_providers_local_update_failed": {
+        "message": "無法安裝執行環境"
+    },
+    "settings_providers_local_version": {
+        "message": "版本 {{version}}"
+    },
+    "settings_providers_local_version_with_update": {
+        "message": "版本 {{installedVersion}} · 可更新至 {{availableVersion}}"
+    },
+    "settings_providers_local_view_logs": {
+        "message": "檢視記錄檔"
+    },
+    "settings_providers_models": {
+        "message": "模型"
+    },
+    "settings_providers_models_empty": {
+        "message": "先從此供應商載入模型，再選擇 Phi 可以使用的模型。"
+    },
+    "settings_providers_name": {
+        "message": "供應商名稱"
+    },
+    "settings_providers_name_placeholder": {
+        "message": "我的自訂供應商"
+    },
+    "settings_providers_not_found": {
+        "message": "此供應商已不存在。"
+    },
+    "settings_providers_not_ready": {
+        "message": "尚未就緒"
+    },
+    "settings_providers_off": {
+        "message": "關閉"
+    },
+    "settings_providers_on": {
+        "message": "開啟"
+    },
+    "settings_providers_phi_description": {
+        "message": "Phi 內建，使用你的 Phi 登入。不需要 API 金鑰。"
+    },
+    "settings_providers_problem_api_key": {
+        "message": "請輸入 API 金鑰。"
+    },
+    "settings_providers_problem_base_url": {
+        "message": "請輸入基礎 URL。"
+    },
+    "settings_providers_problem_https": {
+        "message": "雲端供應商必須使用 HTTPS。"
+    },
+    "settings_providers_problem_select_model": {
+        "message": "請選擇至少一個模型。"
+    },
+    "settings_providers_raw_list": {
+        "message": "原始模型允許清單"
+    },
+    "settings_providers_raw_list_placeholder": {
+        "message": "留空即允許此供應商的所有模型"
+    },
+    "settings_providers_remove": {
+        "message": "移除供應商"
+    },
+    "settings_providers_remove_description": {
+        "message": "使用此供應商的 AI 任務會改回 Phi Cloud。"
+    },
+    "settings_providers_remove_title": {
+        "message": "要移除「{{name}}」嗎？"
+    },
+    "settings_providers_save": {
+        "message": "儲存修改"
+    },
+    "settings_providers_scope": {
+        "message": "範圍"
+    },
+    "settings_providers_scope_cloud": {
+        "message": "雲端"
+    },
+    "settings_providers_scope_local": {
+        "message": "本機"
+    },
+    "settings_providers_search": {
+        "message": "搜尋模型…"
+    },
+    "settings_providers_select_model": {
+        "message": "請選擇至少一個模型。"
+    },
+    "settings_providers_selected_count": {
+        "message": "已選擇 {{count}} 個模型"
+    },
+    "settings_providers_selected_models": {
+        "message": "僅允許所選"
+    },
+    "settings_providers_test": {
+        "message": "測試"
+    },
+    "settings_providers_test_failed": {
+        "message": "{{model}} 失敗：{{error}}"
+    },
+    "settings_providers_test_hint": {
+        "message": "請先載入模型。"
+    },
+    "settings_providers_test_passed": {
+        "message": "連線成功：{{model}} · {{latency}} ms"
+    },
+    "settings_providers_test_placeholder": {
+        "message": "選擇要測試的已啟用模型"
+    },
+    "settings_providers_testing": {
+        "message": "正在測試 {{model}}…"
+    },
+    "settings_providers_title": {
+        "message": "AI 供應商"
+    },
+    "settings_providers_unsaved": {
+        "message": "修改未儲存"
+    },
+    "settings_providers_use": {
+        "message": "使用此供應商"
+    },
+    "settings_providers_yours": {
+        "message": "你的供應商"
+    },
+    "settings_service_state_crashed": {
+        "message": "已當機"
+    },
+    "settings_service_state_disabled": {
+        "message": "已關閉"
+    },
+    "settings_service_state_pending": {
+        "message": "等待中"
+    },
+    "settings_service_state_running": {
+        "message": "執行中"
+    },
+    "settings_service_state_starting": {
+        "message": "啟動中"
+    },
+    "settings_service_state_stopped": {
+        "message": "已停止"
+    },
+    "settings_service_state_stopping": {
+        "message": "停止中"
+    },
+    "settings_service_state_unhealthy": {
+        "message": "運作異常"
+    },
+    "settings_service_state_unknown": {
+        "message": "未知"
+    },
+    "settings_services_advanced_prompt": {
+        "message": "需要查看程序詳細資訊，或啟動和停止服務嗎？"
+    },
+    "settings_services_description": {
+        "message": "Phi 會在背景執行這些服務，讓 AI 功能隨時可用。"
+    },
+    "settings_services_group_services": {
+        "message": "背景服務"
+    },
+    "settings_services_no_services": {
+        "message": "找不到任何服務"
+    },
+    "settings_services_restarting": {
+        "message": "背景服務正在重新啟動。這需要幾秒鐘。"
+    },
+    "settings_services_retry": {
+        "message": "重試"
+    },
+    "settings_services_summary_attention_title": {
+        "message": "部分服務需要處理"
+    },
+    "settings_services_summary_counts": {
+        "message": "{{total}} 個服務中有 {{running}} 個正在執行"
+    },
+    "settings_services_summary_healthy_title": {
+        "message": "一切運作正常"
+    },
+    "settings_services_summary_loading": {
+        "message": "正在檢查服務…"
+    },
+    "settings_services_summary_offline_description": {
+        "message": "在它們重新啟動之前，依賴這些服務的 AI 功能無法使用。"
+    },
+    "settings_services_summary_offline_title": {
+        "message": "背景服務未執行"
+    },
+    "settings_services_summary_unavailable_description": {
+        "message": "Phi 無法讀取它們的狀態。請稍後再試。"
+    },
+    "settings_services_summary_unavailable_title": {
+        "message": "無法連線到背景服務"
     },
     "shadow_tasks_artifacts_empty": {
         "message": "沒有可用的產出物"
@@ -2872,6 +4285,699 @@
     },
     "skills_title": {
         "message": "Skill"
+    },
+    "tasks_page_common_actions": {
+        "message": "動作"
+    },
+    "tasks_page_common_artifacts": {
+        "message": "產物（{{count}}）"
+    },
+    "tasks_page_common_back": {
+        "message": "返回"
+    },
+    "tasks_page_common_cancel": {
+        "message": "取消"
+    },
+    "tasks_page_common_duration": {
+        "message": "持續時間"
+    },
+    "tasks_page_common_error": {
+        "message": "錯誤"
+    },
+    "tasks_page_common_loading": {
+        "message": "載入中…"
+    },
+    "tasks_page_common_ok": {
+        "message": "正常"
+    },
+    "tasks_page_common_ready": {
+        "message": "已就緒"
+    },
+    "tasks_page_common_refresh": {
+        "message": "重新整理"
+    },
+    "tasks_page_common_result": {
+        "message": "結果"
+    },
+    "tasks_page_common_retry": {
+        "message": "重試"
+    },
+    "tasks_page_common_schedule": {
+        "message": "排程"
+    },
+    "tasks_page_common_started": {
+        "message": "開始時間"
+    },
+    "tasks_page_common_started_at": {
+        "message": "開始時間：{{date}}"
+    },
+    "tasks_page_common_state": {
+        "message": "狀態"
+    },
+    "tasks_page_common_status": {
+        "message": "狀態"
+    },
+    "tasks_page_detail_accessible_label_cancel_current_run": {
+        "message": "取消目前的執行"
+    },
+    "tasks_page_detail_action_cancel_run": {
+        "message": "取消執行"
+    },
+    "tasks_page_detail_action_copy": {
+        "message": "複製"
+    },
+    "tasks_page_detail_description_no_linked_schedules": {
+        "message": "此任務沒有連結任何排程。"
+    },
+    "tasks_page_detail_description_no_result_text_available": {
+        "message": "沒有可顯示的結果文字。"
+    },
+    "tasks_page_detail_description_no_run_logs": {
+        "message": "這次執行未傳回任何日誌。"
+    },
+    "tasks_page_detail_description_no_runs_yet": {
+        "message": "還沒有任何執行紀錄。"
+    },
+    "tasks_page_detail_field_label_cadence": {
+        "message": "頻率"
+    },
+    "tasks_page_detail_field_label_last_run": {
+        "message": "上次執行"
+    },
+    "tasks_page_detail_field_label_last_trigger": {
+        "message": "上次觸發"
+    },
+    "tasks_page_detail_field_label_latest_run": {
+        "message": "最新執行"
+    },
+    "tasks_page_detail_field_label_next_run": {
+        "message": "下次執行"
+    },
+    "tasks_page_detail_field_label_objective": {
+        "message": "目標"
+    },
+    "tasks_page_detail_field_label_run_id": {
+        "message": "執行 ID"
+    },
+    "tasks_page_detail_field_label_schedule_id": {
+        "message": "排程 ID"
+    },
+    "tasks_page_detail_field_label_task_id": {
+        "message": "任務 ID"
+    },
+    "tasks_page_detail_field_label_task_status": {
+        "message": "任務狀態"
+    },
+    "tasks_page_detail_field_label_title": {
+        "message": "標題"
+    },
+    "tasks_page_detail_label_failed_to_load_task_detail": {
+        "message": "無法載入任務詳細資料。"
+    },
+    "tasks_page_detail_label_file_artifact": {
+        "message": "檔案"
+    },
+    "tasks_page_detail_label_generic_artifact": {
+        "message": "產物"
+    },
+    "tasks_page_detail_label_hide_run_details": {
+        "message": "隱藏執行詳細資料"
+    },
+    "tasks_page_detail_label_image_artifact": {
+        "message": "圖片"
+    },
+    "tasks_page_detail_label_load_failure": {
+        "message": "無法載入排程任務的詳細資訊。"
+    },
+    "tasks_page_detail_label_loading_run_detail": {
+        "message": "正在載入執行詳細資訊…"
+    },
+    "tasks_page_detail_label_logs": {
+        "message": "日誌"
+    },
+    "tasks_page_detail_label_run_detail_unavailable": {
+        "message": "無法取得執行詳細資訊。"
+    },
+    "tasks_page_detail_label_task_unavailable": {
+        "message": "無法取得任務"
+    },
+    "tasks_page_detail_label_unnamed_artifact": {
+        "message": "未命名產物"
+    },
+    "tasks_page_detail_label_video_artifact": {
+        "message": "影片"
+    },
+    "tasks_page_detail_label_view_details": {
+        "message": "檢視詳細資訊"
+    },
+    "tasks_page_detail_label_view_run_details": {
+        "message": "檢視執行詳細資料"
+    },
+    "tasks_page_detail_title_recent_runs": {
+        "message": "最近的執行紀錄"
+    },
+    "tasks_page_detail_title_run_detail": {
+        "message": "執行詳細資訊"
+    },
+    "tasks_page_detail_title_task": {
+        "message": "任務"
+    },
+    "tasks_page_list_accessible_label_create_task": {
+        "message": "建立任務"
+    },
+    "tasks_page_list_accessible_label_delete_named_schedule": {
+        "message": "刪除「{{schedule}}」"
+    },
+    "tasks_page_list_accessible_label_delete_named_task": {
+        "message": "刪除「{{task}}」"
+    },
+    "tasks_page_list_accessible_label_edit_named_schedule": {
+        "message": "編輯「{{schedule}}」"
+    },
+    "tasks_page_list_accessible_label_edit_named_task": {
+        "message": "編輯「{{task}}」"
+    },
+    "tasks_page_list_accessible_label_filter_runs_by_task": {
+        "message": "依任務篩選執行紀錄"
+    },
+    "tasks_page_list_accessible_label_manage_task_schedules": {
+        "message": "管理「{{task}}」的排程"
+    },
+    "tasks_page_list_accessible_label_manual": {
+        "message": "手動"
+    },
+    "tasks_page_list_accessible_label_optional_details": {
+        "message": "選填詳細資訊"
+    },
+    "tasks_page_list_accessible_label_pause_named_schedule": {
+        "message": "暫停「{{schedule}}」"
+    },
+    "tasks_page_list_accessible_label_resume_named_schedule": {
+        "message": "恢復「{{schedule}}」"
+    },
+    "tasks_page_list_accessible_label_run_named_schedule": {
+        "message": "立即執行「{{schedule}}」"
+    },
+    "tasks_page_list_accessible_label_scheduled": {
+        "message": "排程"
+    },
+    "tasks_page_list_action_delete": {
+        "message": "刪除"
+    },
+    "tasks_page_list_action_delete_schedule": {
+        "message": "刪除排程"
+    },
+    "tasks_page_list_action_delete_task": {
+        "message": "刪除任務"
+    },
+    "tasks_page_list_action_manage_schedules": {
+        "message": "管理排程"
+    },
+    "tasks_page_list_action_save_settings": {
+        "message": "儲存設定"
+    },
+    "tasks_page_list_action_save_task": {
+        "message": "儲存任務"
+    },
+    "tasks_page_list_action_show_all_schedules": {
+        "message": "顯示所有排程"
+    },
+    "tasks_page_list_description_active_run_settings": {
+        "message": "控制 Phi Agent 如何處理進行中的任務執行。"
+    },
+    "tasks_page_list_description_allowed_timeout_range": {
+        "message": "允許範圍：{{minimum}} 到 {{maximum}}。"
+    },
+    "tasks_page_list_description_completed_schedule": {
+        "message": "此排程已結束，無法恢復。"
+    },
+    "tasks_page_list_description_delete_named": {
+        "message": "這將刪除 <target>{{name}}</target>。"
+    },
+    "tasks_page_list_description_empty_state_guidance": {
+        "message": "建立任務，開始追蹤 Phi Agent 的工作。"
+    },
+    "tasks_page_list_description_expired_schedule": {
+        "message": "此排程已過期。恢復前請先編輯其時間設定。"
+    },
+    "tasks_page_list_description_failed_to_load_scheduled_tasks": {
+        "message": "無法載入排程任務"
+    },
+    "tasks_page_list_description_filtered_run_count": {
+        "message": "顯示的執行記錄：{{filtered}} / {{total}}"
+    },
+    "tasks_page_list_description_load_failure": {
+        "message": "目前無法載入任務。請重新整理此頁面再試一次。"
+    },
+    "tasks_page_list_description_minimum_character_count": {
+        "message": "至少 {{count}} 個字元。"
+    },
+    "tasks_page_list_description_no_objective": {
+        "message": "沒有目標"
+    },
+    "tasks_page_list_description_no_runs_for_this_task": {
+        "message": "此任務尚無執行記錄"
+    },
+    "tasks_page_list_description_no_schedules_yet": {
+        "message": "尚無排程"
+    },
+    "tasks_page_list_description_no_task_runs_yet": {
+        "message": "尚無任務執行記錄"
+    },
+    "tasks_page_list_description_no_tasks_yet": {
+        "message": "尚無任務"
+    },
+    "tasks_page_list_description_objective_minimum_length": {
+        "message": "目標至少需要 {{count}} 個字元"
+    },
+    "tasks_page_list_description_objective_required": {
+        "message": "目標為必填"
+    },
+    "tasks_page_list_description_objective_validation": {
+        "message": "目標為必填。描述與命名選項位於選填的詳細資料中。"
+    },
+    "tasks_page_list_description_optional_title_limit": {
+        "message": "選填。最多 {{count}} 個字元。標題留空時會根據目標自動產生。"
+    },
+    "tasks_page_list_description_overview": {
+        "message": "Phi Agent 的任務與執行記錄。"
+    },
+    "tasks_page_list_description_pause_schedule": {
+        "message": "暫停後續的自動執行。已開始的執行會繼續進行。"
+    },
+    "tasks_page_list_description_phi_agent_is_not_running": {
+        "message": "Phi Agent 未執行"
+    },
+    "tasks_page_list_description_resume_schedule": {
+        "message": "恢復自動執行並計算下次執行時間。"
+    },
+    "tasks_page_list_description_schedule_type_guidance": {
+        "message": "先選擇最簡單的時間選項。只有日曆式排程才使用 cron。"
+    },
+    "tasks_page_list_description_service_recovery": {
+        "message": "啟動 Phi Agent，然後重新整理此頁面以載入任務。"
+    },
+    "tasks_page_list_description_task_timeout_behavior": {
+        "message": "當執行中的任務超過此時間時，將其標記為失敗。"
+    },
+    "tasks_page_list_description_task_unavailable": {
+        "message": "無法取得此任務。恢復前請先檢查其狀態。"
+    },
+    "tasks_page_list_description_timezone_fallback": {
+        "message": "選填。留空時會使用執行 Phi Agent 之裝置的本機時區。"
+    },
+    "tasks_page_list_description_unscheduled_task_behavior": {
+        "message": "此任務沒有排程。可手動啟動，或讓 Phi Agent 在需要時觸發。"
+    },
+    "tasks_page_list_field_label_delete_schedule": {
+        "message": "刪除排程"
+    },
+    "tasks_page_list_field_label_delete_task": {
+        "message": "刪除任務"
+    },
+    "tasks_page_list_field_label_edit_schedule": {
+        "message": "編輯排程"
+    },
+    "tasks_page_list_field_label_edit_task": {
+        "message": "編輯任務"
+    },
+    "tasks_page_list_field_label_run_now": {
+        "message": "立即執行"
+    },
+    "tasks_page_list_label_all_tasks": {
+        "message": "所有任務"
+    },
+    "tasks_page_list_label_api_source": {
+        "message": "API"
+    },
+    "tasks_page_list_label_artifact_count": {
+        "message": "{{count}} 個產物"
+    },
+    "tasks_page_list_label_calendar_schedule": {
+        "message": "日曆排程"
+    },
+    "tasks_page_list_label_chatbar_source": {
+        "message": "Chatbar"
+    },
+    "tasks_page_list_label_cron": {
+        "message": "Cron"
+    },
+    "tasks_page_list_label_cron_expression": {
+        "message": "Cron 運算式"
+    },
+    "tasks_page_list_label_day": {
+        "message": "天"
+    },
+    "tasks_page_list_label_days": {
+        "message": "天"
+    },
+    "tasks_page_list_label_default_task_title": {
+        "message": "排程任務"
+    },
+    "tasks_page_list_label_delete_cascade_warning": {
+        "message": "此任務、連結的排程與相關的執行記錄，將從「任務」、「排程」和「執行記錄」檢視中移除。"
+    },
+    "tasks_page_list_label_every": {
+        "message": "每隔"
+    },
+    "tasks_page_list_label_every_interval": {
+        "message": "每 {{count}} {{unit}}"
+    },
+    "tasks_page_list_label_every_unit": {
+        "message": "間隔單位"
+    },
+    "tasks_page_list_label_every_value": {
+        "message": "間隔數值"
+    },
+    "tasks_page_list_label_hour_lowercase": {
+        "message": "小時"
+    },
+    "tasks_page_list_label_hours": {
+        "message": "小時"
+    },
+    "tasks_page_list_label_interval": {
+        "message": "間隔"
+    },
+    "tasks_page_list_label_last_status": {
+        "message": "上次：{{status}}"
+    },
+    "tasks_page_list_label_manual_source": {
+        "message": "手動"
+    },
+    "tasks_page_list_label_minute_lowercase": {
+        "message": "分鐘"
+    },
+    "tasks_page_list_label_minutes": {
+        "message": "分鐘"
+    },
+    "tasks_page_list_label_next_scheduled_run": {
+        "message": "下次：{{time}}"
+    },
+    "tasks_page_list_label_no_current_run": {
+        "message": "目前沒有進行中的執行"
+    },
+    "tasks_page_list_label_no_schedule_start_when_needed": {
+        "message": "沒有排程。需要時再啟動。"
+    },
+    "tasks_page_list_label_once": {
+        "message": "單次"
+    },
+    "tasks_page_list_label_once_at": {
+        "message": "於 {{date}} 執行一次"
+    },
+    "tasks_page_list_label_one_time": {
+        "message": "單次"
+    },
+    "tasks_page_list_label_one_time_schedule": {
+        "message": "單次排程"
+    },
+    "tasks_page_list_label_optional": {
+        "message": "選填"
+    },
+    "tasks_page_list_label_recording": {
+        "message": "錄影"
+    },
+    "tasks_page_list_label_recording_with_extra": {
+        "message": "錄影 +{{count}}"
+    },
+    "tasks_page_list_label_repeating_schedule": {
+        "message": "重複排程"
+    },
+    "tasks_page_list_label_run_at": {
+        "message": "執行時間"
+    },
+    "tasks_page_list_label_run_status": {
+        "message": "執行狀態"
+    },
+    "tasks_page_list_label_running_timeout": {
+        "message": "執行逾時"
+    },
+    "tasks_page_list_label_running_timeout_value": {
+        "message": "執行逾時：{{value}}"
+    },
+    "tasks_page_list_label_runs": {
+        "message": "執行記錄"
+    },
+    "tasks_page_list_label_runs_automatically_on_aschedule": {
+        "message": "依排程自動執行。"
+    },
+    "tasks_page_list_label_schedule_count": {
+        "message": "{{count}} 個排程"
+    },
+    "tasks_page_list_label_schedule_description": {
+        "message": "排程描述"
+    },
+    "tasks_page_list_label_schedule_name": {
+        "message": "排程名稱"
+    },
+    "tasks_page_list_label_schedule_source": {
+        "message": "排程"
+    },
+    "tasks_page_list_label_schedule_type": {
+        "message": "排程類型"
+    },
+    "tasks_page_list_label_schedules": {
+        "message": "排程"
+    },
+    "tasks_page_list_label_schedules_for_task": {
+        "message": "「{{task}}」的排程"
+    },
+    "tasks_page_list_label_second": {
+        "message": "秒"
+    },
+    "tasks_page_list_label_seconds": {
+        "message": "秒"
+    },
+    "tasks_page_list_label_started_by": {
+        "message": "啟動來源"
+    },
+    "tasks_page_list_label_task_description": {
+        "message": "任務描述"
+    },
+    "tasks_page_list_label_task_source": {
+        "message": "任務"
+    },
+    "tasks_page_list_label_task_title": {
+        "message": "任務標題"
+    },
+    "tasks_page_list_label_task_type": {
+        "message": "任務類型"
+    },
+    "tasks_page_list_label_task_unavailable": {
+        "message": "無法取得任務"
+    },
+    "tasks_page_list_label_time_zone": {
+        "message": "時區"
+    },
+    "tasks_page_list_label_timeout_hours": {
+        "message": "{{count}} 小時"
+    },
+    "tasks_page_list_label_timeout_minutes": {
+        "message": "{{count}} 分鐘"
+    },
+    "tasks_page_list_label_unscheduled_task_list_notice": {
+        "message": "它會出現在「任務」中，並帶有「沒有排程」標記。"
+    },
+    "tasks_page_list_label_updated": {
+        "message": "更新時間"
+    },
+    "tasks_page_list_label_use_local_timezone": {
+        "message": "使用本機時區"
+    },
+    "tasks_page_list_label_user_source": {
+        "message": "使用者"
+    },
+    "tasks_page_list_status_active": {
+        "message": "啟用中"
+    },
+    "tasks_page_list_status_archived": {
+        "message": "已封存"
+    },
+    "tasks_page_list_status_cancelled": {
+        "message": "已取消"
+    },
+    "tasks_page_list_status_completed": {
+        "message": "已完成"
+    },
+    "tasks_page_list_status_disabled": {
+        "message": "已停用"
+    },
+    "tasks_page_list_status_failed": {
+        "message": "失敗"
+    },
+    "tasks_page_list_status_missed": {
+        "message": "已錯過"
+    },
+    "tasks_page_list_status_no_schedule": {
+        "message": "沒有排程"
+    },
+    "tasks_page_list_status_not_started": {
+        "message": "尚未開始"
+    },
+    "tasks_page_list_status_paused": {
+        "message": "已暫停"
+    },
+    "tasks_page_list_status_queued": {
+        "message": "佇列中"
+    },
+    "tasks_page_list_status_running_now": {
+        "message": "執行中"
+    },
+    "tasks_page_list_status_scheduled": {
+        "message": "已排程"
+    },
+    "tasks_page_list_status_skipped": {
+        "message": "已略過"
+    },
+    "tasks_page_list_title_delete": {
+        "message": "要刪除嗎？"
+    },
+    "tasks_page_list_title_delete_schedule": {
+        "message": "要刪除排程嗎？"
+    },
+    "tasks_page_list_title_delete_task": {
+        "message": "要刪除任務嗎？"
+    },
+    "tasks_page_list_title_edit_scheduled_task": {
+        "message": "編輯排程任務"
+    },
+    "tasks_page_list_title_edit_task": {
+        "message": "編輯任務"
+    },
+    "tasks_page_list_title_new_task": {
+        "message": "新增任務"
+    },
+    "tasks_page_list_title_run_behavior": {
+        "message": "執行行為"
+    },
+    "tasks_page_list_title_task_settings": {
+        "message": "任務設定"
+    },
+    "tasks_page_list_title_tasks": {
+        "message": "任務"
+    },
+    "tasks_page_list_validation_cron_invalid": {
+        "message": "請輸入有效的 5 欄位 Cron 運算式"
+    },
+    "tasks_page_list_validation_cron_required": {
+        "message": "Cron 運算式為必填"
+    },
+    "tasks_page_list_validation_date_time_invalid": {
+        "message": "請輸入有效的日期與時間"
+    },
+    "tasks_page_list_validation_interval_positive": {
+        "message": "間隔必須為正數"
+    },
+    "tasks_page_list_validation_run_at_future": {
+        "message": "執行時間必須晚於現在"
+    },
+    "tasks_page_list_validation_run_at_required": {
+        "message": "執行時間為必填"
+    },
+    "tasks_page_list_validation_run_at_within_five_years": {
+        "message": "執行時間必須在 5 年內"
+    },
+    "tasks_page_list_validation_timeout_range": {
+        "message": "逾時時間必須介於 {{minimum}} 與 {{maximum}} 之間。"
+    },
+    "tasks_page_nav_label": {
+        "message": "任務管理員"
+    },
+    "tasks_page_preview_description_failed": {
+        "message": "無法預覽此檔案。檔案可能無法使用、大於 128MB，或格式不受支援。"
+    },
+    "tasks_page_preview_label_preview": {
+        "message": "預覽"
+    },
+    "tasks_page_toast_no_active_run": {
+        "message": "目前沒有可取消的執行"
+    },
+    "tasks_page_toast_run_cancel_failed": {
+        "message": "無法取消執行"
+    },
+    "tasks_page_toast_run_cancelled": {
+        "message": "已取消執行"
+    },
+    "tasks_page_toast_run_failed": {
+        "message": "無法執行任務"
+    },
+    "tasks_page_toast_run_started": {
+        "message": "已開始執行"
+    },
+    "tasks_page_toast_schedule_create_partial_failure": {
+        "message": "已建立任務，但排程建立失敗"
+    },
+    "tasks_page_toast_schedule_delete_failed": {
+        "message": "無法刪除排程"
+    },
+    "tasks_page_toast_schedule_deleted": {
+        "message": "已刪除排程"
+    },
+    "tasks_page_toast_schedule_pause_failed": {
+        "message": "無法暫停排程"
+    },
+    "tasks_page_toast_schedule_paused": {
+        "message": "已暫停排程"
+    },
+    "tasks_page_toast_schedule_resume_completed": {
+        "message": "此排程已結束，不會再安排後續執行。"
+    },
+    "tasks_page_toast_schedule_resume_failed": {
+        "message": "無法恢復排程"
+    },
+    "tasks_page_toast_schedule_resume_no_next_run": {
+        "message": "尚未安排下次執行。請檢查排程的時間設定。"
+    },
+    "tasks_page_toast_schedule_resumed": {
+        "message": "已恢復排程"
+    },
+    "tasks_page_toast_schedule_run_failed": {
+        "message": "無法立即執行排程"
+    },
+    "tasks_page_toast_schedule_run_started": {
+        "message": "已開始執行排程"
+    },
+    "tasks_page_toast_scheduled_task_create_failed": {
+        "message": "無法建立排程任務"
+    },
+    "tasks_page_toast_scheduled_task_created": {
+        "message": "已建立排程任務"
+    },
+    "tasks_page_toast_scheduled_task_update_failed": {
+        "message": "無法更新排程任務"
+    },
+    "tasks_page_toast_scheduled_task_updated": {
+        "message": "已更新排程任務"
+    },
+    "tasks_page_toast_settings_update_failed": {
+        "message": "無法更新任務設定"
+    },
+    "tasks_page_toast_settings_updated": {
+        "message": "已更新任務設定"
+    },
+    "tasks_page_toast_task_create_failed": {
+        "message": "無法建立任務"
+    },
+    "tasks_page_toast_task_created": {
+        "message": "已建立任務"
+    },
+    "tasks_page_toast_task_delete_failed": {
+        "message": "無法刪除任務"
+    },
+    "tasks_page_toast_task_deleted": {
+        "message": "已刪除任務"
+    },
+    "tasks_page_toast_task_update_failed": {
+        "message": "無法更新任務"
+    },
+    "tasks_page_toast_task_update_partial_failure": {
+        "message": "已更新排程，但任務更新失敗"
+    },
+    "tasks_page_toast_task_updated": {
+        "message": "已更新任務"
+    },
+    "tasks_page_toast_unknown_error": {
+        "message": "未知錯誤"
     },
     "theme_dark": {
         "message": "深色"

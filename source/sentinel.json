@@ -2003,6 +2003,1262 @@
         "message": "Copy logs to clipboard",
         "description": "Location: Sentinel. System log viewer and download dialog. Tooltip for the Copy logs to clipboard control."
     },
+    "mail_guard_about_how": {
+        "message": "When you open a message, Phi first runs a purely local pattern check in your browser, looking at sender authentication, links, attachment file names and more. Phi AI then judges whether the message looks suspicious.",
+        "description": "Location: Sentinel. Explains the local pattern check that runs first, then Phi AI."
+    },
+    "mail_guard_about_how_title": {
+        "message": "How mail is checked",
+        "description": "Location: Sentinel. Heading: how mail protection checks a message."
+    },
+    "mail_guard_about_local": {
+        "message": "Your settings and trusted senders are kept only on this device.",
+        "description": "Location: Sentinel. Settings and trusted senders are stored on the device only."
+    },
+    "mail_guard_about_local_landing": {
+        "message": "The links of messages Phi strongly suspects are remembered on this device for 7 days, so the pages they lead to can be watched.",
+        "description": "Location: Sentinel. Email Protection's About page. A sentence under the heading about what is kept on the device."
+    },
+    "mail_guard_about_local_title": {
+        "message": "Kept on this device",
+        "description": "Location: Sentinel. Heading: what stays on the device."
+    },
+    "mail_guard_about_off": {
+        "message": "With “$SWITCH$” off, a grey shield stays beside the subject. To turn it off completely, with nothing shown, turn Email Protection off in Phi Settings.",
+        "description": "Location: Sentinel. SWITCH is the name of the \"Check opened mail\" switch. Explains the difference between that switch and Phi's own setting."
+    },
+    "mail_guard_about_off_title": {
+        "message": "Turning it off completely",
+        "description": "Location: Sentinel. Heading: turning mail protection off completely."
+    },
+    "mail_guard_about_open_settings": {
+        "message": "Open Phi Settings",
+        "description": "Location: Sentinel. Button that opens the AI page of Phi's settings."
+    },
+    "mail_guard_about_privacy_policy": {
+        "message": "Privacy Policy",
+        "description": "Location: Sentinel. Link to Phi's privacy policy."
+    },
+    "mail_guard_about_promise": {
+        "message": "Phi does not sell your data, use it for ads, or use it to train AI models.",
+        "description": "Location: Sentinel. Phi's commitment about the data, shown highlighted."
+    },
+    "mail_guard_about_sent_every": {
+        "message": "Every message you open: the subject and part of the body, with the domains of the sender and links and the extensions of attachments. Email addresses in it are reduced to their domains.",
+        "description": "Location: Sentinel. What is sent for every opened message."
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "If you open a link from a message Phi strongly suspects: the address of each page it leads to (without anything after ? or #), the page's title and visible text, and what its form fields ask for. What you type is never read or sent.",
+        "description": "Location: Sentinel. Email Protection's About page. A point under the heading that lists what is sent."
+    },
+    "mail_guard_about_sent_never": {
+        "message": "Not sent: recipients, other messages in the conversation, or attachment contents. Attachments are not opened or downloaded.",
+        "description": "Location: Sentinel. What is never sent."
+    },
+    "mail_guard_about_sent_review": {
+        "message": "When a closer look is needed: the full body, the sender's name and address, links and attachment file names.",
+        "description": "Location: Sentinel. What is sent when a message gets the closer review."
+    },
+    "mail_guard_about_sent_title": {
+        "message": "What is sent",
+        "description": "Location: Sentinel. Heading: what leaves the browser."
+    },
+    "mail_guard_about_title": {
+        "message": "About Email Protection",
+        "description": "Location: Sentinel. Title of the page about mail protection and privacy."
+    },
+    "mail_guard_about_to": {
+        "message": "It goes to Phi Cloud, which passes it on to upstream AI model providers, and is used only for this check. You can also use your own model service instead, under Private AI in Phi Settings.",
+        "description": "Location: Sentinel. Where the content goes (Phi Cloud, then upstream AI model providers) and the Private AI alternative. Keep \"Phi Cloud\" and \"Private AI\" in English: they are product names."
+    },
+    "mail_guard_about_to_title": {
+        "message": "Who receives it",
+        "description": "Location: Sentinel. Heading: who receives what is sent."
+    },
+    "mail_guard_ai_pending": {
+        "message": "Checking with Phi AI…",
+        "description": "Location: Sentinel. Status line in the panel while Phi's quick AI check runs."
+    },
+    "mail_guard_ai_skipped": {
+        "message": "You trust this sender, so Phi AI was not asked.",
+        "description": "Location: Sentinel. Status line in the panel for a trusted, verified sender."
+    },
+    "mail_guard_ai_unavailable": {
+        "message": "Phi AI could not check this message; this is the result of the static checks alone.",
+        "description": "Location: Sentinel. Status line in the panel when the AI check failed or is unavailable."
+    },
+    "mail_guard_attachment_archive_description_a": {
+        "message": "The message carries $FILES$ and, as Phi AI reads it, pushes you to open an attachment. An archive keeps mail-scanning systems from inspecting what is inside, which is why harmful files often arrive in one.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.archive`, shown in the phishing panel beside a message in Gmail. FILES is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_archive_description_b": {
+        "message": "The message carries $FILES$. Archives are common and usually harmless, but their contents cannot be seen without opening them.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.archive`, shown in the phishing panel beside a message in Gmail. FILES is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_archive_title_a": {
+        "message": "Archive attached to a message that pushes you to open it",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.archive`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_archive_title_b": {
+        "message": "Archive attachment present",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.archive`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_disk_image_description": {
+        "message": "The message carries $FILES$. Disk images mount as a drive and their contents do not inherit the operating system's \"downloaded from the internet\" warnings, which is why they are used to deliver executables.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.disk_image`, shown in the phishing panel beside a message in Gmail. FILES is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_disk_image_title": {
+        "message": "Attachment is a disk image",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.disk_image`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_double_extension_description": {
+        "message": "\"$FILENAME$\" is presented as a .$VALUE$ file but its actual type is .$VALUE_2$. The harmless-looking extension in the middle of the name is likely there to mislead.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.double_extension`, shown in the phishing panel beside a message in Gmail. FILENAME is filled in by code (a value from the message or a count); keep it. VALUE is filled in by code (a value from the message or a count); keep it. VALUE_2 is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_double_extension_title": {
+        "message": "Attachment filename disguises its real type",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.double_extension`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_executable_description": {
+        "message": "The message carries $FILES$. Files of this type run code when opened. Legitimate correspondence rarely delivers programs by email.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.executable`, shown in the phishing panel beside a message in Gmail. FILES is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_executable_title": {
+        "message": "Attachment is a program rather than a document",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.executable`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_executable_with_document_pretext_description": {
+        "message": "The message describes the attachment as an invoice, shipping document, or similar routine paperwork, but the attached file executes code when opened. Framing like this is often used to make a file look expected.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.executable_with_document_pretext`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_executable_with_document_pretext_title": {
+        "message": "Executable attachment presented as a routine business document",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.executable_with_document_pretext`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_filename_direction_override_description": {
+        "message": "The filename contains invisible characters that reverse how part of it is displayed, so the extension shown on screen is not the real one. Its actual type is .$EXTENSION$. Stripped of the hidden characters the name is \"$VALUE$\".",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.filename_direction_override`, shown in the phishing panel beside a message in Gmail. EXTENSION is filled in by code (a value from the message or a count); keep it. VALUE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_filename_direction_override_title": {
+        "message": "Attachment filename contains text-direction override characters",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.filename_direction_override`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_filename_hidden_characters_description": {
+        "message": "The filename contains characters that take up no space on screen, so it reads normally while not matching the name a filter would look for. Its actual type is .$EXTENSION$. Stripped of the hidden characters the name is \"$VALUE$\".",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.filename_hidden_characters`, shown in the phishing panel beside a message in Gmail. EXTENSION is filled in by code (a value from the message or a count); keep it. VALUE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_filename_hidden_characters_title": {
+        "message": "Attachment filename contains invisible characters",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.filename_hidden_characters`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_macro_capable_description_a": {
+        "message": "The message carries $FILES$. This format exists specifically to carry embedded code, and the code runs if macros are enabled.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.macro_capable`, shown in the phishing panel beside a message in Gmail. FILES is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_macro_capable_description_b": {
+        "message": "The message carries $FILES$. Older Office formats can embed macros; modern equivalents (.docx, .xlsx) cannot.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.macro_capable`, shown in the phishing panel beside a message in Gmail. FILES is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_macro_capable_title_a": {
+        "message": "Attachment is a macro-enabled document",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.macro_capable`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_macro_capable_title_b": {
+        "message": "Attachment uses a legacy Office format that can contain macros",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.macro_capable`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_none_suspicious_description_many": {
+        "message": "All $COUNT$ attachments use file types that do not normally run code. Note that attachment contents are never opened or downloaded by this extension; only the filenames were examined.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.none_suspicious`, shown in the phishing panel beside a message in Gmail. COUNT is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_none_suspicious_description_one": {
+        "message": "The attachment uses a file type that does not normally run code. Note that attachment contents are never opened or downloaded by this extension; only the filenames were examined.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.none_suspicious`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_none_suspicious_title": {
+        "message": "No suspicious attachment detected",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.none_suspicious`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_attachment_script_container_description": {
+        "message": "The message carries $FILES$. Opening it renders a page from a local file, which can be used to present a convincing sign-in form without hosting it anywhere that could be blocked or taken down.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `attachment.script_container`, shown in the phishing panel beside a message in Gmail. FILES is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_attachment_script_container_title": {
+        "message": "Attachment is a web page rather than a document",
+        "description": "Location: Sentinel. Title of the mail-guard finding `attachment.script_container`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_failure_description": {
+        "message": "Gmail reports that $CHECKS$ did not pass for this message. That means the sending server was not authorised to send mail for $DOMAIN$, so the From address may be forged.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.failure`, shown in the phishing panel beside a message in Gmail. CHECKS is filled in by code (a value from the message or a count); keep it. DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_failure_description_no_domain": {
+        "message": "Gmail reports that $CHECKS$ did not pass for this message. That means the sending server was not authorised to send mail for the sender’s domain, so the From address may be forged.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.failure`, shown in the phishing panel beside a message in Gmail. CHECKS is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_failure_title": {
+        "message": "Sender authentication failed",
+        "description": "Location: Sentinel. Title of the mail-guard finding `authentication.failure`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_gmail_warning_description": {
+        "message": "Gmail flagged this message in its own interface. Gmail applies checks this extension cannot, including reputation data and account history, so its warning is independent corroboration.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.gmail_warning`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_gmail_warning_title": {
+        "message": "Gmail displayed its own warning banner for this message",
+        "description": "Location: Sentinel. Title of the mail-guard finding `authentication.gmail_warning`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_partial_failure_description": {
+        "message": "Gmail reports that $CHECKS$ did not pass, while DMARC did. DMARC passing suggests the message is still tied to $DOMAIN$; a single failed check alongside it is usually a forwarding service or mailing list in the delivery path.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.partial_failure`, shown in the phishing panel beside a message in Gmail. CHECKS is filled in by code (a value from the message or a count); keep it. DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_partial_failure_description_no_domain": {
+        "message": "Gmail reports that $CHECKS$ did not pass, while DMARC did. DMARC passing suggests the message is still tied to the sender’s domain; a single failed check alongside it is usually a forwarding service or mailing list in the delivery path.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.partial_failure`, shown in the phishing panel beside a message in Gmail. CHECKS is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_partial_failure_title": {
+        "message": "One authentication check failed, but DMARC passed",
+        "description": "Location: Sentinel. Title of the mail-guard finding `authentication.partial_failure`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_passed_description": {
+        "message": "$CHECKS$ verified for $DOMAIN$. This indicates the message was sent by that domain; it does not show that the domain belongs to who it claims to be.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.passed`, shown in the phishing panel beside a message in Gmail. CHECKS is filled in by code (a value from the message or a count); keep it. DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_passed_description_no_domain": {
+        "message": "$CHECKS$ verified for the sending domain. This indicates the message was sent by that domain; it does not show that the domain belongs to who it claims to be.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.passed`, shown in the phishing panel beside a message in Gmail. CHECKS is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_passed_title": {
+        "message": "Sender authentication passed ($VALUE$)",
+        "description": "Location: Sentinel. Title of the mail-guard finding `authentication.passed`, shown in the phishing panel beside a message in Gmail. VALUE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_signing_domain_mismatch_description": {
+        "message": "The message is cryptographically signed by $SIGNER$, not by $SENDER$. Mail providers and marketing platforms legitimately sign on a customer's behalf, so this alone is not conclusive.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.signing_domain_mismatch`, shown in the phishing panel beside a message in Gmail. SIGNER is filled in by code (a value from the message or a count); keep it. SENDER is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_signing_domain_mismatch_description_brand": {
+        "message": "The message is cryptographically signed by $SIGNER$, not by $SENDER$. Mail providers and marketing platforms legitimately sign on a customer's behalf, so this alone is not conclusive, but a message presenting itself as $BRAND$ would normally be signed by that organisation.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.signing_domain_mismatch`, shown in the phishing panel beside a message in Gmail. SIGNER is filled in by code (a value from the message or a count); keep it. SENDER is filled in by code (a value from the message or a count); keep it. BRAND is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_signing_domain_mismatch_title": {
+        "message": "Message was signed by a domain unrelated to the sender",
+        "description": "Location: Sentinel. Title of the mail-guard finding `authentication.signing_domain_mismatch`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_unverified_sender_description": {
+        "message": "Gmail shows this message as coming from an unverified sender, which means it could not confirm that $DOMAIN$ authorised it.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.unverified_sender`, shown in the phishing panel beside a message in Gmail. DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_unverified_sender_description_no_domain": {
+        "message": "Gmail shows this message as coming from an unverified sender, which means it could not confirm that the sending domain authorised it.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.unverified_sender`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_unverified_sender_title": {
+        "message": "Gmail could not verify that the sender is who they claim to be",
+        "description": "Location: Sentinel. Title of the mail-guard finding `authentication.unverified_sender`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_via_unrelated_host_description_a": {
+        "message": "Gmail shows this message as sent via $VIA_REGISTRABLE$ rather than directly from $SENDER_REGISTRABLE$. The message presents itself as $LABEL$, which is not known to send mail through $VIA_REGISTRABLE$.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.via_unrelated_host`, shown in the phishing panel beside a message in Gmail. VIA_REGISTRABLE is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_via_unrelated_host_description_b": {
+        "message": "Gmail shows this message as sent via $VIA_REGISTRABLE$ rather than directly from $SENDER_REGISTRABLE$. This is how mail sent through a third-party service normally appears (a notification platform, a helpdesk, a mailing list), so it is shown for context and does not affect the score.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `authentication.via_unrelated_host`, shown in the phishing panel beside a message in Gmail. VIA_REGISTRABLE is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_authentication_via_unrelated_host_description_c": {
+        "message": "Gmail shows this message as sent via $VIA_REGISTRABLE$, your own organisation's domain: a group or shared mailbox passed it on, so the From address is the group's rather than the original sender's. It is shown for context and does not affect the level.",
+        "description": "Location: Sentinel. Finding description for a message relayed through the reader's own organisation (a group or shared mailbox). VIA_REGISTRABLE is a domain filled in by code; keep it."
+    },
+    "mail_guard_authentication_via_unrelated_host_title_a": {
+        "message": "Message was relayed through a service the sender is not known to use",
+        "description": "Location: Sentinel. Title of the mail-guard finding `authentication.via_unrelated_host`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_via_unrelated_host_title_b": {
+        "message": "Message was relayed through another service",
+        "description": "Location: Sentinel. Title of the mail-guard finding `authentication.via_unrelated_host`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_authentication_via_unrelated_host_title_c": {
+        "message": "Message was relayed by your own organisation",
+        "description": "Location: Sentinel. Finding title when Gmail shows the message arrived through a host on the reader's own domain, such as the organisation's group or shared mailbox."
+    },
+    "mail_guard_badge_checking": {
+        "message": "Taking a closer look",
+        "description": "Location: Sentinel. Tooltip on the spinning marker on the risk badge while Phi AI review is running."
+    },
+    "mail_guard_badge_label": {
+        "message": "Email Protection: $LEVEL$. Show details",
+        "description": "Location: Sentinel. Accessible name of the risk badge on a Gmail subject line. LEVEL is a risk level name; keep it."
+    },
+    "mail_guard_badge_off": {
+        "message": "Email Protection is off. Click to open its settings",
+        "description": "Location: Sentinel. Tooltip and accessible label of the small grey shield shown beside a Gmail sender when mail checking is switched off."
+    },
+    "mail_guard_banner_dismiss": {
+        "message": "Dismiss",
+        "description": "Location: Sentinel. Accessible label of the button that hides the banner for this message."
+    },
+    "mail_guard_banner_see_details": {
+        "message": "See details",
+        "description": "Location: Sentinel. Link in the banner that opens the mail protection panel."
+    },
+    "mail_guard_banner_see_why": {
+        "message": "See why",
+        "description": "Location: Sentinel. Link in the banner that opens the mail protection panel."
+    },
+    "mail_guard_checked_latest": {
+        "message": "Checked the latest message, from $SENDER$.",
+        "description": "Location: Sentinel. Shown in the mail-guard panel and banner when a Gmail conversation holds several messages: only the newest one was checked. SENDER is the sender's display name or address, from the message; keep it."
+    },
+    "mail_guard_evidence_reply_to": {
+        "message": "From $FROM$ → Reply-To $REPLY_TO$",
+        "description": "Location: Sentinel. Evidence chip under a mail-guard finding in the phishing panel beside a message in Gmail or Outlook; keep it short. FROM is the sender's domain and REPLY_TO the domain replies go to, both filled in by code; keep them. \"From\" and \"Reply-To\" name email headers."
+    },
+    "mail_guard_evidence_shown_actual": {
+        "message": "shown: $SHOWN$ → actual: $ACTUAL$",
+        "description": "Location: Sentinel. Evidence chip under a mail-guard finding in the phishing panel beside a message in Gmail or Outlook; keep it short. SHOWN is the address the link displays and ACTUAL the host it really goes to, both filled in by code; keep them."
+    },
+    "mail_guard_evidence_shown_via": {
+        "message": "shown: $SHOWN$ → via: $VIA$",
+        "description": "Location: Sentinel. Evidence chip under a mail-guard finding in the phishing panel beside a message in Gmail or Outlook; keep it short. SHOWN is the address the link displays and VIA a host the click passes through, both filled in by code; keep them."
+    },
+    "mail_guard_evidence_signed_by": {
+        "message": "From $FROM$ · signed by $SIGNER$",
+        "description": "Location: Sentinel. Evidence chip under a mail-guard finding in the phishing panel beside a message in Gmail or Outlook; keep it short. FROM is the sender's domain and SIGNER the domain that signed the message (DKIM), both filled in by code; keep them."
+    },
+    "mail_guard_identity_alert_named_shared_item_description": {
+        "message": "The subject \"$VALUE$\" shares an item worded as an account alert (\"$VALUE_2$\"). Banks and providers rarely send security alerts as shared files; naming a file that way can make the sharing service carry a fake alert, with real links, from a real address.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.alert_named_shared_item`, shown in the phishing panel beside a message in Gmail. VALUE is filled in by code (a value from the message or a count); keep it. VALUE_2 is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_alert_named_shared_item_title": {
+        "message": "A shared file is named as an account security alert",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.alert_named_shared_item`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_brand_domain_in_subdomain_description": {
+        "message": "The address looks like $LABEL$ at a glance, but \"$DOMAIN$\" appears only in the subdomain. The domain that actually controls this mail is $SENDER_REGISTRABLE$.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.brand_domain_in_subdomain`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it. DOMAIN is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_brand_domain_in_subdomain_title": {
+        "message": "Sender domain embeds $LABEL$'s domain as a subdomain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.brand_domain_in_subdomain`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_brand_named_in_legal_notice_description": {
+        "message": "The sender describes itself as an administrator for a legal matter involving $LABEL$, and sends from $SENDER_REGISTRABLE$, which we don't know $LABEL$ to own. Genuine class-action and settlement notices are sent this way by claims administrators, and fake settlement notices copy them. Before entering details or filing a claim, find the settlement's official website through the court or a news report rather than through this message's links.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.brand_named_in_legal_notice`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_brand_named_in_legal_notice_title": {
+        "message": "Sender name refers to $LABEL$, but the message does not appear to be from $LABEL$",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.brand_named_in_legal_notice`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_display_name_impersonation_description_a": {
+        "message": "The sender presents itself as $LABEL$ but the message was sent from a consumer mailbox at $SENDER_REGISTRABLE$. $LABEL$ is not known to send business mail from free email providers.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.display_name_impersonation`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_display_name_impersonation_description_b": {
+        "message": "The sender presents itself as $LABEL$, but $SENDER_REGISTRABLE$ is not a domain we know $LABEL$ to own.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.display_name_impersonation`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_display_name_impersonation_title": {
+        "message": "Sender name claims $LABEL$, but the domain appears unrelated",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.display_name_impersonation`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_disposable_sender_domain_description": {
+        "message": "$SENDER_REGISTRABLE$ provides temporary throwaway mailboxes. Legitimate correspondence rarely comes from these.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.disposable_sender_domain`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_disposable_sender_domain_title": {
+        "message": "Sender uses a disposable email service",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.disposable_sender_domain`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_external_executive_claim_description": {
+        "message": "The message presents itself as coming from a senior member of staff, but it was sent from $SENDER_REGISTRABLE$ rather than $RECIPIENT_DOMAIN$. Impersonating an executive from a personal mailbox is a common opening move in invoice and gift-card fraud.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.external_executive_claim`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. RECIPIENT_DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_external_executive_claim_title": {
+        "message": "Claims to be a company executive but was sent from an outside personal account",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.external_executive_claim`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_external_financial_request_description": {
+        "message": "The message asks for money to be moved or for payment details to be changed, and it was sent from a consumer mailbox at $SENDER$ rather than from $RECIPIENT$. Requests like this are a common business email compromise pattern: the wording can be plausible because the account it came from is real, even though it may not belong to the organisation.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.external_financial_request`, shown in the phishing panel beside a message in Gmail. SENDER is filled in by code (a value from the message or a count); keep it. RECIPIENT is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_external_financial_request_description_no_recipient": {
+        "message": "The message asks for money to be moved or for payment details to be changed, and it was sent from a consumer mailbox at $SENDER$ rather than from the recipient organisation. Requests like this are a common business email compromise pattern: the wording can be plausible because the account it came from is real, even though it may not belong to the organisation.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.external_financial_request`, shown in the phishing panel beside a message in Gmail. SENDER is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_external_financial_request_title": {
+        "message": "Financial request sent from an outside personal mailbox",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.external_financial_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand": {
+        "message": "The sender presents itself as $BRAND$ from a domain that organisation does not appear to control, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail. BRAND is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand_domain_in_subdomain": {
+        "message": "The sender buries a real organisation’s name in a domain that organisation does not appear to own, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_brand_named_in_legal_notice": {
+        "message": "The sender names an organisation it does not send from, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_display_name_impersonation": {
+        "message": "The sender presents itself as an organisation it does not send from, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_of_recipient_domain": {
+        "message": "The sender sends from a domain that imitates the recipient’s own, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_sender_domain": {
+        "message": "The sender sends from a domain that imitates a real one, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_other": {
+        "message": "The sender may not be the party it appears to be, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_own_domain_in_sender_name": {
+        "message": "The sender uses the recipient’s own organisation’s domain as its name while sending from outside it, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_sender_punycode_domain": {
+        "message": "The sender sends from a non-Latin domain spelled to resemble a familiar one, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_description_unsupported_org_claim": {
+        "message": "The sender presents itself as an organisation it does not send from, and the message asks the recipient to sign in, confirm account details, or supply an authentication code. Together, these are a common sign of a credential-harvesting attempt.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_title_a": {
+        "message": "Sender appears to impersonate $BRAND$ and asks for credentials",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail. BRAND is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_impersonation_with_credential_request_title_b": {
+        "message": "Sender may not be who it appears to be, and the message asks for credentials",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.impersonation_with_credential_request`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_implausible_local_part_description": {
+        "message": "The part of the address before the @ repeats the same fragment $REPEATS$ times. Mailboxes are rarely named this way; it is a pattern often used to pad and vary a sending address across a bulk campaign.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.implausible_local_part`, shown in the phishing panel beside a message in Gmail. REPEATS is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_implausible_local_part_title": {
+        "message": "Sender address repeats the same fragment several times",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.implausible_local_part`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_description_a": {
+        "message": "The message was sent from $SENDER_REGISTRABLE$, which is visually indistinguishable from your own domain $RECIPIENT_DOMAIN$ but is a different domain, likely under someone else's control. Mail that appears to be internal is trusted more readily.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.lookalike_of_recipient_domain`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. RECIPIENT_DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_description_b": {
+        "message": "The message was sent from $SENDER_REGISTRABLE$, a near-miss of your own domain $RECIPIENT_DOMAIN$. It does not appear to be part of your organisation.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.lookalike_of_recipient_domain`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. RECIPIENT_DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_lookalike_of_recipient_domain_title": {
+        "message": "Sender domain appears to imitate your own organisation’s domain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.lookalike_of_recipient_domain`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_lookalike_sender_domain_description": {
+        "message": "The message was sent from $SENDER$, which is a near-identical imitation of the legitimate domain $TARGET$. It does not appear to be owned by $BRAND$.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.lookalike_sender_domain`, shown in the phishing panel beside a message in Gmail. SENDER is filled in by code (a value from the message or a count); keep it. TARGET is filled in by code (a value from the message or a count); keep it. BRAND is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_lookalike_sender_domain_description_confusable": {
+        "message": "The message was sent from $SENDER$, which is a near-identical imitation of the legitimate domain $TARGET$ using visually similar characters. It does not appear to be owned by $BRAND$.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.lookalike_sender_domain`, shown in the phishing panel beside a message in Gmail. SENDER is filled in by code (a value from the message or a count); keep it. TARGET is filled in by code (a value from the message or a count); keep it. BRAND is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_lookalike_sender_domain_title": {
+        "message": "Sender domain appears to imitate $BRAND_LABEL$",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.lookalike_sender_domain`, shown in the phishing panel beside a message in Gmail. BRAND_LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_malformed_sender_domain_description": {
+        "message": "The sender's domain \"$DOMAIN$\" is not a valid public hostname.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.malformed_sender_domain`, shown in the phishing panel beside a message in Gmail. DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_malformed_sender_domain_title": {
+        "message": "Sender domain is malformed",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.malformed_sender_domain`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_nonexistent_sender_tld_description": {
+        "message": "The message claims to come from $DOMAIN$, but \".$TLD$\" has never been assigned to anyone. No domain can be registered under it and nothing can resolve it, so this address cannot receive a reply and identifies no sender. A From address like this was most likely constructed rather than mistyped.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.nonexistent_sender_tld`, shown in the phishing panel beside a message in Gmail. DOMAIN is filled in by code (a value from the message or a count); keep it. TLD is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_nonexistent_sender_tld_title": {
+        "message": "Sender's domain ends in \".$TLD$\", which is not a real top-level domain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.nonexistent_sender_tld`, shown in the phishing panel beside a message in Gmail. TLD is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_private_use_sender_tld_description": {
+        "message": "\".$TLD$\" is reserved for private networks and is deliberately not registered on the public internet, so $DOMAIN$ cannot be verified and a reply to it would not arrive. This is usually an internal system sending mail with its local hostname rather than a real domain, but it also means nothing about this sender can be checked.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.private_use_sender_tld`, shown in the phishing panel beside a message in Gmail. TLD is filled in by code (a value from the message or a count); keep it. DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_private_use_sender_tld_title": {
+        "message": "Sender's domain ends in \".$TLD$\", which is not a public domain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.private_use_sender_tld`, shown in the phishing panel beside a message in Gmail. TLD is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_randomised_address_case_description": {
+        "message": "The address alternates upper and lower case within words ($VALUE$). Mail systems treat addresses case-insensitively, so this changes nothing about delivery; it is typically used to vary the address between sends and slip past filters that match on exact text.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.randomised_address_case`, shown in the phishing panel beside a message in Gmail. VALUE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_randomised_address_case_title": {
+        "message": "Sender address uses randomised capitalisation",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.randomised_address_case`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_reply_to_mismatch_description_a": {
+        "message": "The message appears to come from $SENDER_REGISTRABLE$, but replies are directed to a personal mailbox at $REPLY_TO_REGISTRABLE$. This is a common pattern in business email compromise attempts.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.reply_to_mismatch`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. REPLY_TO_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_reply_to_mismatch_description_b": {
+        "message": "The From address is at $SENDER_REGISTRABLE$ but the Reply-To address is at $REPLY_TO_REGISTRABLE$, so a reply would not reach the apparent sender.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.reply_to_mismatch`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. REPLY_TO_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_reply_to_mismatch_title": {
+        "message": "Replies would go to a different domain than the sender",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.reply_to_mismatch`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_sender_deep_subdomain_description": {
+        "message": "The sender's hostname has $LENGTH$ subdomain levels beneath $REGISTRABLE$. Deep nesting can be used to push a recognisable word into the visible part of an address.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.sender_deep_subdomain`, shown in the phishing panel beside a message in Gmail. LENGTH is filled in by code (a value from the message or a count); keep it. REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_sender_deep_subdomain_title": {
+        "message": "Sender domain has an unusually deep subdomain structure",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.sender_deep_subdomain`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_sender_invisible_characters_description": {
+        "message": "The sender name or address contains zero-width or text-direction characters. These are invisible when rendered and can be used to disguise what the address actually is.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.sender_invisible_characters`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_sender_invisible_characters_title": {
+        "message": "Sender name contains hidden or direction-changing characters",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.sender_invisible_characters`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_sender_ip_domain_description": {
+        "message": "The sender's address resolves to the literal host $DOMAIN$. Legitimate organisations almost always send mail from named domains, not bare IP addresses.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.sender_ip_domain`, shown in the phishing panel beside a message in Gmail. DOMAIN is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_sender_ip_domain_title": {
+        "message": "Sender address uses a raw IP address instead of a domain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.sender_ip_domain`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_sender_punycode_domain_description": {
+        "message": "The sender's domain $DOMAIN$ renders as \"$RENDERED$\". Internationalised domains are legitimate, but they are also the standard way to imitate a familiar name.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.sender_punycode_domain`, shown in the phishing panel beside a message in Gmail. DOMAIN is filled in by code (a value from the message or a count); keep it. RENDERED is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_sender_punycode_domain_description_mixed": {
+        "message": "The sender's domain renders as \"$RENDERED$\" but is actually $DOMAIN$. It mixes characters from several scripts ($SCRIPTS$), which is how a domain is made to look like a familiar one while being entirely different.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.sender_punycode_domain`, shown in the phishing panel beside a message in Gmail. RENDERED is filled in by code (a value from the message or a count); keep it. DOMAIN is filled in by code (a value from the message or a count); keep it. SCRIPTS is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_sender_punycode_domain_title": {
+        "message": "Sender domain uses an internationalised (punycode) name",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.sender_punycode_domain`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_styled_display_name_description": {
+        "message": "The name \"$SENDER_NAME$\" is not written in ordinary letters. It uses characters from Unicode's mathematical alphabet, which render as bold or italic text but are different characters underneath, so the name reads normally to you and matches nothing to any system checking it against a list. Mail is rarely addressed this way except to avoid being checked.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.styled_display_name`, shown in the phishing panel beside a message in Gmail. SENDER_NAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_styled_display_name_title": {
+        "message": "Sender name is spelled with decorative letter substitutes",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.styled_display_name`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_confusable": {
+        "message": "Earlier messages in this thread came from $EARLIER$. This one was sent from $SENDER$, which is written with characters chosen to look identical to it but is a different domain, likely under someone else's control. Replying, or acting on any instruction here, may send it to the wrong party.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.thread_lookalike_participant`, shown in the phishing panel beside a message in Gmail. EARLIER is filled in by code (a value from the message or a count); keep it. SENDER is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_many": {
+        "message": "Earlier messages in this thread came from $EARLIER$. This one was sent from $SENDER$, which differs by $COUNT$ characters and is a different domain. Check the sender against an earlier message in the thread before replying.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.thread_lookalike_participant`, shown in the phishing panel beside a message in Gmail. EARLIER is filled in by code (a value from the message or a count); keep it. SENDER is filled in by code (a value from the message or a count); keep it. COUNT is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_thread_lookalike_participant_description_one": {
+        "message": "Earlier messages in this thread came from $EARLIER$. This one was sent from $SENDER$, which differs by a single character and is a different domain. Check the sender against an earlier message in the thread before replying.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.thread_lookalike_participant`, shown in the phishing panel beside a message in Gmail. EARLIER is filled in by code (a value from the message or a count); keep it. SENDER is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_thread_lookalike_participant_title": {
+        "message": "Sender domain appears to imitate another participant in this conversation",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.thread_lookalike_participant`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_thread_participant_name_reuse_description": {
+        "message": "\"$SENDER_NAME$\" already appears in this conversation as $EMAIL$, but this message was sent from $SENDER_EMAIL$, which is not on the same domain. Mail clients show the name and hide the address, so a reply that keeps the name while changing the mailbox reads as coming from the same person.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.thread_participant_name_reuse`, shown in the phishing panel beside a message in Gmail. SENDER_NAME is filled in by code (a value from the message or a count); keep it. EMAIL is filled in by code (a value from the message or a count); keep it. SENDER_EMAIL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_thread_participant_name_reuse_title": {
+        "message": "Sender uses a participant's name from a different address",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.thread_participant_name_reuse`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_unparseable_sender_description": {
+        "message": "The sender address \"$SENDER_EMAIL$\" is not a well-formed email address.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.unparseable_sender`, shown in the phishing panel beside a message in Gmail. SENDER_EMAIL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_unparseable_sender_title": {
+        "message": "Sender address could not be parsed",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.unparseable_sender`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_unsupported_org_claim_description_a": {
+        "message": "The message presents itself as \"$SENDER_NAME$\", but it was sent from a personal mailbox at $SENDER_REGISTRABLE$. Banks, insurers and payment providers rarely send mail from free email providers.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.unsupported_org_claim`, shown in the phishing panel beside a message in Gmail. SENDER_NAME is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_unsupported_org_claim_description_b": {
+        "message": "The message presents itself as \"$SENDER_NAME$\", but it was sent from $SENDER_REGISTRABLE$, which shares no name with it. Legitimate organisations usually send from a domain recognisably their own.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.unsupported_org_claim`, shown in the phishing panel beside a message in Gmail. SENDER_NAME is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_unsupported_org_claim_title_a": {
+        "message": "Sender claims to be a financial institution but wrote from a personal mailbox",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.unsupported_org_claim`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_unsupported_org_claim_title_b": {
+        "message": "Sender name claims an organisation unrelated to the sending domain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.unsupported_org_claim`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_identity_unverified_brand_domain_description": {
+        "message": "The message was sent from $SENDER_REGISTRABLE$, which carries $LABEL$'s name under a domain ending we have no record of $LABEL$ using. Large organisations run the same name in every market they sell in, so this may be genuine, and a domain carrying a brand's name can equally have been registered by somebody else. Compare it against the address $LABEL$ mail normally arrives from before acting on anything in this message.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `identity.unverified_brand_domain`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_identity_unverified_brand_domain_title": {
+        "message": "Cannot confirm $SENDER_REGISTRABLE$ belongs to $LABEL$",
+        "description": "Location: Sentinel. Title of the mail-guard finding `identity.unverified_brand_domain`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_landing_ask_card": {
+        "message": "card details",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "one-time code",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "email address",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "identity details",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "password",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "phone number",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AI strongly suspects this site is a scam. Don't enter passwords or payment info.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Line under the High risk title of the Why? card."
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AI suspects this site may be a scam. Be careful with passwords and payment info.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Line under the Suspicious title of the Why? card."
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "High risk site",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Title of the card that Why? opens when Phi strongly suspects the site."
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "Suspicious site",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Title of the card that Why? opens when Phi suspects the site but is less sure."
+    },
+    "mail_guard_landing_card_why": {
+        "message": "Why this site may be risky · Phi AI",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Heading above the reasons in the Why? card."
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AI couldn't check this page.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Shown in the Why? card in place of the reasons when Phi AI could not check the page."
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AI can get things wrong. Before you pay, sign in or share your details, take a minute to check another way.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Footer of the Why? card."
+    },
+    "mail_guard_landing_from_email": {
+        "message": "Opened from: “$SUBJECT$”",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. SUBJECT is the email's subject line."
+    },
+    "mail_guard_landing_hide": {
+        "message": "Hide",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Button that hides the top bar on this page."
+    },
+    "mail_guard_landing_leave": {
+        "message": "Leave site",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Main button in the top bar: takes the reader away from this page, back to the previous page or by closing the tab."
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "This page asks for your $ITEMS$",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. A reason in the Why? card. ITEMS is a list such as: password, card details, and email address."
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "Looks like $BRAND$, but the real site is $SITE$",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. A reason in the Why? card. BRAND is the organisation the page imitates; SITE is the page's actual domain."
+    },
+    "mail_guard_landing_strip": {
+        "message": "Opened from an email Phi strongly suspects.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Thin bar across the top of every such page."
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "Actual site:",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Label before the page's real domain in the top bar."
+    },
+    "mail_guard_landing_why": {
+        "message": "Why?",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Button in the top bar that unfolds the reason."
+    },
+    "mail_guard_level_caution": {
+        "message": "Attention",
+        "description": "Location: Sentinel. Risk level shown on the badge on a Gmail subject line and at the top of the mail protection panel: some details deserve a closer look. Keep it short (badge)."
+    },
+    "mail_guard_level_caution_line": {
+        "message": "Worth a second look before you act.",
+        "description": "Location: Sentinel. One line under the risk level at the top of the mail protection panel when no specific kind of threat was identified."
+    },
+    "mail_guard_level_checking": {
+        "message": "Checking",
+        "description": "Location: Sentinel. Shown on the badge and the panel title while Phi AI is still checking the email, before any risk level is shown."
+    },
+    "mail_guard_level_high_risk": {
+        "message": "High risk",
+        "description": "Location: Sentinel. Risk level shown on the badge on a Gmail subject line and at the top of the mail protection panel: strong warning signs. Keep it short (badge)."
+    },
+    "mail_guard_level_high_risk_line": {
+        "message": "Strong warning signs. We advise against using its links or attachments.",
+        "description": "Location: Sentinel. One line under the risk level at the top of the mail protection panel when no specific kind of threat was identified."
+    },
+    "mail_guard_level_low": {
+        "message": "Low risk",
+        "description": "Location: Sentinel. Risk level shown on the badge on a Gmail subject line and at the top of the mail protection panel: few or no warning signs. Keep it short (badge)."
+    },
+    "mail_guard_level_low_line": {
+        "message": "We think the risk is low.",
+        "description": "Location: Sentinel. One line under the risk level at the top of the mail protection panel when no specific kind of threat was identified."
+    },
+    "mail_guard_level_maybe_caution": {
+        "message": "Might need attention",
+        "description": "Location: Sentinel. Badge and panel title while Phi AI's full review runs on an email its quick check put at Attention; replaced by the final level when the review ends."
+    },
+    "mail_guard_level_maybe_suspicious": {
+        "message": "Might be suspicious",
+        "description": "Location: Sentinel. Badge and panel title while Phi AI's full review runs on an email its quick check put at Suspicious; replaced by the final level when the review ends."
+    },
+    "mail_guard_level_not_checked": {
+        "message": "Not checked",
+        "description": "Location: Sentinel. Shown on the badge when the mail guard could not read enough of the message to judge it, or Phi AI could not check it and the technical checks found nothing. Not a sign that it is safe."
+    },
+    "mail_guard_level_suspicious": {
+        "message": "Suspicious",
+        "description": "Location: Sentinel. Risk level shown on the badge on a Gmail subject line and at the top of the mail protection panel: significant warning signs. Keep it short (badge)."
+    },
+    "mail_guard_level_suspicious_line": {
+        "message": "Several warning signs. Treat it with care.",
+        "description": "Location: Sentinel. One line under the risk level at the top of the mail protection panel when no specific kind of threat was identified."
+    },
+    "mail_guard_line_confirmed": {
+        "message": "Phi AI strongly suspects a scam. Don't use its links or attachments.",
+        "description": "Location: Sentinel. Line under the panel and banner title when Phi AI review confirmed the email is malicious."
+    },
+    "mail_guard_line_confirmed_dangerous": {
+        "message": "Phi AI strongly suspects this email is dangerous. Don't use its links or attachments.",
+        "description": "Location: Sentinel. Line under the verdict when Phi AI's final review strongly suspects the email is harmful but what it found is not a scam (for example malware). Shown in the panel and banner beside a message in Gmail or Outlook. Never state the judgement as certain."
+    },
+    "mail_guard_line_ordinary": {
+        "message": "Phi AI thinks the risk is low, but the static-check findings below are still worth a look.",
+        "description": "Location: Sentinel. Line under the panel and banner title when the Phi AI review called the email ordinary while a technical check still holds it at a risk level."
+    },
+    "mail_guard_line_ordinary_clear": {
+        "message": "Phi AI thinks the risk is low.",
+        "description": "Location: Sentinel. Line under the panel title when the Phi AI review called the email ordinary and nothing else holds it at a risk level."
+    },
+    "mail_guard_line_review_failed": {
+        "message": "Phi AI couldn't finish its closer look; this is the quick result.",
+        "description": "Location: Sentinel. Line under the panel and banner title when Phi AI review failed."
+    },
+    "mail_guard_line_reviewing": {
+        "message": "Phi AI is reading the whole email…",
+        "description": "Location: Sentinel. Line under the panel and banner title while Phi AI takes a closer look at the whole email."
+    },
+    "mail_guard_line_unconfirmed": {
+        "message": "Phi AI can't rule out a risk. Treat it with care.",
+        "description": "Location: Sentinel. Line under the panel and banner title when Phi AI review found warning signs but could not confirm."
+    },
+    "mail_guard_link_anchor_brand_mismatch_description": {
+        "message": "The link text refers to $LABEL$, but the link goes to $HOSTNAME$, which we don't know $LABEL$ to own.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.anchor_brand_mismatch`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_anchor_brand_mismatch_title": {
+        "message": "Link labelled as $LABEL$ points to a domain that appears unrelated",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.anchor_brand_mismatch`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_credential_link_open_hosting_description": {
+        "message": "The link leads to a sign-in or verification page $VALUE$. Anyone can publish there in seconds, so the address carries no indication of who is actually behind the page.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.credential_link_open_hosting`, shown in the phishing panel beside a message in Gmail. VALUE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_credential_link_open_hosting_title": {
+        "message": "Sign-in link is hosted on a free hosting service",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.credential_link_open_hosting`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_credential_link_unrelated_domain_description": {
+        "message": "The message presents itself as $LABEL$ and the link leads to a sign-in or verification page, but the page is hosted at $REGISTRABLE$. Credentials entered there would go to whoever controls that domain.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.credential_link_unrelated_domain`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it. REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_credential_link_unrelated_domain_title": {
+        "message": "Sign-in link for $LABEL$ leads to a domain not known to belong to $LABEL$",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.credential_link_unrelated_domain`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_dangerous_scheme_description": {
+        "message": "A link uses \"$SCHEME$\" rather than http or https. Schemes like this execute code or open local resources instead of loading a web page, and rarely have a legitimate use in an email link.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.dangerous_scheme`, shown in the phishing panel beside a message in Gmail. SCHEME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_dangerous_scheme_title": {
+        "message": "Link uses the $SCHEME$ scheme",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.dangerous_scheme`, shown in the phishing panel beside a message in Gmail. SCHEME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_displayed_url_mismatch_description": {
+        "message": "The link is shown as \"$DISPLAYED_HOST$\", which belongs to $LABEL$, but clicking it goes first to $HOSTNAME$, which we don't know $LABEL$ to own. Whoever controls $HOSTNAME$ decides where the click finally lands.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail. DISPLAYED_HOST is filled in by code (a value from the message or a count); keep it. LABEL is filled in by code (a value from the message or a count); keep it. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_description_a": {
+        "message": "The link is shown as \"$DISPLAYED_HOST$\" but goes to $HOSTNAME$. Both are under a registry that vets every registrant, so this is one agency's names, not a stranger's, but the address shown is still not where the click goes.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail. DISPLAYED_HOST is filled in by code (a value from the message or a count); keep it. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_description_b": {
+        "message": "The link is shown as \"$DISPLAYED_HOST$\" but goes to $HOSTNAME$, a link service whose final destination is not visible. Bulk mail is routinely sent this way; check where it lands before entering anything.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail. DISPLAYED_HOST is filled in by code (a value from the message or a count); keep it. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_title_a": {
+        "message": "Displayed government address links to another government address",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_displayed_url_mismatch_s2_title_b": {
+        "message": "Displayed address goes through a link service",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_displayed_url_mismatch_s3_description": {
+        "message": "The link is shown as \"$DISPLAYED_HOST$\", which belongs to $LABEL$, but clicking it goes to $HOSTNAME$, the sender's own domain, which decides where the click finally lands.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail. DISPLAYED_HOST is filled in by code (a value from the message or a count); keep it. LABEL is filled in by code (a value from the message or a count); keep it. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_displayed_url_mismatch_s3_title": {
+        "message": "Displayed address goes through the sender's own link service",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_description": {
+        "message": "The link is shown as \"$DISPLAYED$\" but clicking it goes to $DESTINATION$.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail. DISPLAYED is filled in by code (a value from the message or a count); keep it. DESTINATION is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_description_brand": {
+        "message": "The link is shown as \"$DISPLAYED$\" but clicking it goes to $DESTINATION$. The displayed address belongs to $BRAND$; we don't know $HOST$ to belong to $BRAND$.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail. DISPLAYED is filled in by code (a value from the message or a count); keep it. DESTINATION is filled in by code (a value from the message or a count); keep it. BRAND is filled in by code (a value from the message or a count); keep it. HOST is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_displayed_url_mismatch_s4_title": {
+        "message": "Displayed link address differs from its actual destination",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_displayed_url_mismatch_title": {
+        "message": "Displayed link address is reached through a different domain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.displayed_url_mismatch`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_echoed_form_link_description": {
+        "message": "This reads as a web form's automatic confirmation, and the form gives your address as the person who filled it in. The text submitted in its \"$LABEL$\" field links to $HOSTNAME$, which is not $SENDER_REGISTRABLE$. Spammers type other people's addresses into a company's contact form so that the company's own mail server delivers their link: the sender is genuine, but those words are likely not theirs. If you did not fill in this form, its contents most likely did not come from the company.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.echoed_form_link`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it. HOSTNAME is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_echoed_form_link_title": {
+        "message": "Form confirmation repeats a link submitted under your address",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.echoed_form_link`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_excessive_subdomains_description": {
+        "message": "The link's host has $SUBDOMAIN_LABEL_COUNT$ subdomain levels beneath $REGISTRABLE$. Long chains of labels can be used to fill the visible part of an address with reassuring words while the controlling domain stays out of sight.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.excessive_subdomains`, shown in the phishing panel beside a message in Gmail. SUBDOMAIN_LABEL_COUNT is filled in by code (a value from the message or a count); keep it. REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_excessive_subdomains_title": {
+        "message": "Link host has an unusually deep subdomain structure",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.excessive_subdomains`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_fake_attachment_description": {
+        "message": "The link reads \"$VALUE$\", like an attachment, but it opens $HOSTNAME$, which is not that file and not the sender's own site. A real attachment is in the message, not on someone else's web page.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.fake_attachment`, shown in the phishing panel beside a message in Gmail. VALUE is filled in by code (a value from the message or a count); keep it. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_fake_attachment_title": {
+        "message": "Link is labelled as an attached file but opens a web page elsewhere",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.fake_attachment`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_filename_lookalike_tld_description": {
+        "message": "The link goes to $HOSTNAME$. Because \".$TLD$\" is also a common file extension, text like this is frequently mistaken for an attachment name rather than a web address.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.filename_lookalike_tld`, shown in the phishing panel beside a message in Gmail. HOSTNAME is filled in by code (a value from the message or a count); keep it. TLD is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_filename_lookalike_tld_title": {
+        "message": "Link uses the .$TLD$ top-level domain, which looks like a filename",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.filename_lookalike_tld`, shown in the phishing panel beside a message in Gmail. TLD is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_ftp_link_description": {
+        "message": "A link uses \"ftp:\" rather than http or https. Browsers no longer open FTP themselves, so clicking it hands a file download to another program, outside the browser's protections. It cannot run code or show a sign-in page, but anything it downloads deserves the same caution as an attachment.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.ftp_link`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_ftp_link_title": {
+        "message": "Link uses the ftp: scheme",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.ftp_link`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_insecure_description_a": {
+        "message": "The link to $HOSTNAME$ appears to lead to a sign-in page but uses plain HTTP. Legitimate services very rarely accept credentials over an unencrypted connection.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.insecure`, shown in the phishing panel beside a message in Gmail. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_insecure_description_b": {
+        "message": "The link to $HOSTNAME$ uses plain HTTP rather than HTTPS.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.insecure`, shown in the phishing panel beside a message in Gmail. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_insecure_title_a": {
+        "message": "Sign-in link uses unencrypted HTTP",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.insecure`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_insecure_title_b": {
+        "message": "Link uses unencrypted HTTP",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.insecure`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_ip_address_url_description_many": {
+        "message": "$COUNT$ links go to the bare address $HOST$ instead of a domain name. Legitimate services usually publish hostnames; bare IPs are often used to avoid registering a domain that could be taken down.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.ip_address_url`, shown in the phishing panel beside a message in Gmail. COUNT is filled in by code (a value from the message or a count); keep it. HOST is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_ip_address_url_description_one": {
+        "message": "A link goes to the bare address $HOST$ instead of a domain name. Legitimate services usually publish hostnames; bare IPs are often used to avoid registering a domain that could be taken down.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.ip_address_url`, shown in the phishing panel beside a message in Gmail. HOST is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_ip_address_url_title": {
+        "message": "Link points directly to an IP address",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.ip_address_url`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_ip_named_host_description_many": {
+        "message": "$COUNT$ links go to $HOST$, the name a hosting provider gives a rented server rather than one anybody registered. It is a bare IP address with a domain in front.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.ip_named_host`, shown in the phishing panel beside a message in Gmail. COUNT is filled in by code (a value from the message or a count); keep it. HOST is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_ip_named_host_description_one": {
+        "message": "A link goes to $HOST$, the name a hosting provider gives a rented server rather than one anybody registered. It is a bare IP address with a domain in front.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.ip_named_host`, shown in the phishing panel beside a message in Gmail. HOST is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_ip_named_host_title": {
+        "message": "Link points to a server named after its IP address",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.ip_named_host`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_link_only_body_description": {
+        "message": "The subject asks you to act (\"$VALUE$\"), but the message has almost no readable text ($CHARS$ characters) and links to $REGISTRABLE$. A notice drawn as a picture says nothing that can be checked, and is a common way for a lure to avoid being read.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.link_only_body`, shown in the phishing panel beside a message in Gmail. VALUE is filled in by code (a value from the message or a count); keep it. CHARS is filled in by code (a value from the message or a count); keep it. REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_link_only_body_s2_description": {
+        "message": "The message contains very little readable text ($VALUE$ characters) but does contain links to other domains. Minimal-context messages avoid saying anything that could be checked.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.link_only_body`, shown in the phishing panel beside a message in Gmail. VALUE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_link_only_body_s2_title": {
+        "message": "Message body is almost entirely a link",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.link_only_body`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_link_only_body_title": {
+        "message": "Message asks for action but its body is only a link",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.link_only_body`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_local_file_link_description": {
+        "message": "A link uses \"file:\" with no host, so it names a path on the reader's own disk rather than anything on the internet. It is usually a local path pasted into the message, and cannot fetch anything from elsewhere.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.local_file_link`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_local_file_link_title": {
+        "message": "Link points to a file on your own computer",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.local_file_link`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_lookalike_domain_description": {
+        "message": "The link goes to $REGISTRABLE$, a near-identical imitation of $TARGET$. It does not appear to be operated by $BRAND_LABEL$.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.lookalike_domain`, shown in the phishing panel beside a message in Gmail. REGISTRABLE is filled in by code (a value from the message or a count); keep it. TARGET is filled in by code (a value from the message or a count); keep it. BRAND_LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_lookalike_domain_title": {
+        "message": "Link destination appears to imitate $BRAND_LABEL$",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.lookalike_domain`, shown in the phishing panel beside a message in Gmail. BRAND_LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_malformed_url_description_many": {
+        "message": "$COUNT$ links could not be resolved to a valid web address. It may simply be a broken mail template, and is sometimes used to confuse link checks.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.malformed_url`, shown in the phishing panel beside a message in Gmail. COUNT is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_malformed_url_description_one": {
+        "message": "A link could not be resolved to a valid web address. It may simply be a broken mail template, and is sometimes used to confuse link checks.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.malformed_url`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_malformed_url_title": {
+        "message": "Message contains a malformed link",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.malformed_url`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_misleading_domain_description": {
+        "message": "The link reads as $LABEL$ at a glance, but the part of the address that determines where it actually goes is $REGISTRABLE$. Everything to the left of that, including \"$BEFORE_REGISTRABLE$\", is chosen freely by whoever controls $REGISTRABLE$.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.misleading_domain`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it. REGISTRABLE is filled in by code (a value from the message or a count); keep it. BEFORE_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_misleading_domain_title": {
+        "message": "Link places $LABEL$'s name in front of an unrelated domain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.misleading_domain`, shown in the phishing panel beside a message in Gmail. LABEL is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_opaque_redirect_description": {
+        "message": "The link to $HOSTNAME$ carries a redirect parameter whose destination is encoded so that it cannot be read. Redirect chains can be used to hide a malicious destination behind a domain the recipient recognises.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.opaque_redirect`, shown in the phishing panel beside a message in Gmail. HOSTNAME is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_opaque_redirect_title": {
+        "message": "Link is built as a redirector with a hidden target",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.opaque_redirect`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_page_in_open_storage_description": {
+        "message": "The link goes to a web page held as a file on $HOSTING$. The address belongs to the storage provider, not to whoever wrote the page: anyone with an account can upload a file there and it will be served from that domain. A real organisation usually publishes pages on its own site.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.page_in_open_storage`, shown in the phishing panel beside a message in Gmail. HOSTING is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_page_in_open_storage_description_asking": {
+        "message": "The link goes to a web page held as a file on $HOSTING$. The address belongs to the storage provider, not to whoever wrote the page: anyone with an account can upload a file there and it will be served from that domain. A real organisation usually publishes pages on its own site, and this message is asking you to act on one.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.page_in_open_storage`, shown in the phishing panel beside a message in Gmail. HOSTING is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_page_in_open_storage_title": {
+        "message": "Link opens a page stored as a file on a public hosting service",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.page_in_open_storage`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_private_ip_url_description_many": {
+        "message": "$COUNT$ links go to $HOST$, a private network address. It only works from inside that network, so it cannot lead to a page on the internet; it is how internal tools and home devices are reached.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.private_ip_url`, shown in the phishing panel beside a message in Gmail. COUNT is filled in by code (a value from the message or a count); keep it. HOST is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_private_ip_url_description_one": {
+        "message": "A link goes to $HOST$, a private network address. It only works from inside that network, so it cannot lead to a page on the internet; it is how internal tools and home devices are reached.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.private_ip_url`, shown in the phishing panel beside a message in Gmail. HOST is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_private_ip_url_title": {
+        "message": "Link points to an address on a private network",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.private_ip_url`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_punycode_domain_description": {
+        "message": "The link's host is $HOST$, which renders as \"$RENDERED$\". Internationalised domains are legitimate but are commonly used to imitate familiar names.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.punycode_domain`, shown in the phishing panel beside a message in Gmail. HOST is filled in by code (a value from the message or a count); keep it. RENDERED is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_punycode_domain_description_imitates": {
+        "message": "The link's host is $HOST$, which renders as \"$RENDERED$\", visually indistinguishable from $TARGET$, but a different domain entirely.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.punycode_domain`, shown in the phishing panel beside a message in Gmail. HOST is filled in by code (a value from the message or a count); keep it. RENDERED is filled in by code (a value from the message or a count); keep it. TARGET is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_punycode_domain_description_mixed": {
+        "message": "The link's host is $HOST$, which renders as \"$RENDERED$\" using characters from several scripts ($SCRIPTS$). Mixed scripts inside one name are how a domain is made to look like something it is not.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.punycode_domain`, shown in the phishing panel beside a message in Gmail. HOST is filled in by code (a value from the message or a count); keep it. RENDERED is filled in by code (a value from the message or a count); keep it. SCRIPTS is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_punycode_domain_title": {
+        "message": "Link uses an internationalised domain that renders as familiar text",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.punycode_domain`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_redirect_chain_description": {
+        "message": "The link starts at $ENTRY$ but redirects to $EXIT$. The domain the recipient sees is not the domain that serves the page.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.redirect_chain`, shown in the phishing panel beside a message in Gmail. ENTRY is filled in by code (a value from the message or a count); keep it. EXIT is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_redirect_chain_title": {
+        "message": "Link redirects through one domain to reach another",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.redirect_chain`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_link_repeated": {
+        "message": "This applies to $COUNT$ links in the message.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `repeated link findings`, shown in the phishing panel beside a message in Gmail. COUNT is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_url_shortener_description_many": {
+        "message": "$COUNT$ links use the shortener $SHORTENER$, so the real destination cannot be seen before clicking.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.url_shortener`, shown in the phishing panel beside a message in Gmail. COUNT is filled in by code (a value from the message or a count); keep it. SHORTENER is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_url_shortener_description_many_credential": {
+        "message": "$COUNT$ links use the shortener $SHORTENER$, so the real destination cannot be seen before clicking. The message also asks the recipient to sign in or verify something, which is when a concealed destination matters most.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.url_shortener`, shown in the phishing panel beside a message in Gmail. COUNT is filled in by code (a value from the message or a count); keep it. SHORTENER is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_url_shortener_description_one": {
+        "message": "A link uses the shortener $SHORTENER$, so the real destination cannot be seen before clicking.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.url_shortener`, shown in the phishing panel beside a message in Gmail. SHORTENER is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_url_shortener_description_one_credential": {
+        "message": "A link uses the shortener $SHORTENER$, so the real destination cannot be seen before clicking. The message also asks the recipient to sign in or verify something, which is when a concealed destination matters most.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `link.url_shortener`, shown in the phishing panel beside a message in Gmail. SHORTENER is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_link_url_shortener_title": {
+        "message": "Link is hidden behind a URL shortener",
+        "description": "Location: Sentinel. Title of the mail-guard finding `link.url_shortener`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_list_more": {
+        "message": "$COUNT$ more",
+        "description": "Location: Sentinel. The end of a list of file names that is cut short, as in \"a, b, c and 2 more\"; COUNT is how many are not shown."
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_description": {
+        "message": "The sender’s name \"$SENDER_NAME$\" presents this message as coming from inside $RECIPIENT_DOMAIN$, your own organisation, but it was sent from $SENDER_REGISTRABLE$. Internal IT, mail and HR notices usually come from your organisation’s own domain.",
+        "description": "Location: Sentinel. Explanation under the mail-guard finding `namesDomain\n        ? \"identity.own_domain_in_sender_name\"\n        : \"identity.own_department_from_outside`, shown in the phishing panel beside a message in Gmail. SENDER_NAME is filled in by code (a value from the message or a count); keep it. RECIPIENT_DOMAIN is filled in by code (a value from the message or a count); keep it. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it."
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_a": {
+        "message": "Sender’s name uses your own organisation’s domain",
+        "description": "Location: Sentinel. Title of the mail-guard finding `namesDomain\n        ? \"identity.own_domain_in_sender_name\"\n        : \"identity.own_department_from_outside`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_b": {
+        "message": "Sender’s name presents it as a department of your own organisation",
+        "description": "Location: Sentinel. Title of the mail-guard finding `namesDomain\n        ? \"identity.own_domain_in_sender_name\"\n        : \"identity.own_department_from_outside`, shown in the phishing panel beside a message in Gmail."
+    },
+    "mail_guard_panel_ai_review": {
+        "message": "Phi AI review",
+        "description": "Location: Sentinel. Heading over Phi AI explanation in the mail protection panel when the review called the email ordinary."
+    },
+    "mail_guard_panel_also": {
+        "message": "Also: $KINDS$",
+        "description": "Location: Sentinel. Under Phi AI explanation: other kinds of threat seen in the same email. KINDS is a list of threat names filled in by code; keep it."
+    },
+    "mail_guard_panel_back": {
+        "message": "Back",
+        "description": "Location: Sentinel. Button returning from the settings view to the result in the mail protection UI on a Gmail message."
+    },
+    "mail_guard_panel_close": {
+        "message": "Close",
+        "description": "Location: Sentinel. Button closing the mail protection panel."
+    },
+    "mail_guard_panel_disclaimer": {
+        "message": "Phi AI can get things wrong. The safety of your personal data, privacy and money matters to us, so before you pay, sign in or share your details, please take a minute to check another way.",
+        "description": "Location: Sentinel. Small note at the bottom left of the mail protection panel, beside the trust button: the AI's verdict can be wrong, and the reader should confirm through another channel before acting on money, passwords or personal data."
+    },
+    "mail_guard_panel_label": {
+        "message": "Email Protection",
+        "description": "Location: Sentinel. Accessible name of the mail protection panel opened from the badge."
+    },
+    "mail_guard_panel_marketing": {
+        "message": "Marketing",
+        "description": "Location: Sentinel. Small tag in the mail protection panel on a low-risk email that Phi AI reads as advertising or a promotion."
+    },
+    "mail_guard_panel_quick_check": {
+        "message": "Phi AI quick check: $KIND$ likely",
+        "description": "Location: Sentinel. Shown in the mail protection panel before the full review: what Phi AI's fast first reading thinks the email is. KIND is a threat name such as \"Phishing\" or \"Gift card scam\", filled in by code; keep it."
+    },
+    "mail_guard_panel_quick_check_clear": {
+        "message": "Phi AI's quick check sees a low security risk",
+        "description": "Location: Sentinel. Shown in the mail protection panel when Phi AI's fast first reading sees no sign of fraud in the email."
+    },
+    "mail_guard_panel_quick_check_fraud": {
+        "message": "Phi AI quick check: signs of a security risk",
+        "description": "Location: Sentinel. Shown in the mail protection panel before the full review when Phi AI's fast first reading sees fraud but cannot name its kind."
+    },
+    "mail_guard_panel_settings": {
+        "message": "Settings",
+        "description": "Location: Sentinel. Gear button opening the settings view in the mail protection UI on a Gmail message."
+    },
+    "mail_guard_panel_show_less": {
+        "message": "Show less",
+        "description": "Location: Sentinel. Button under an unfolded explanation from Phi AI in the mail protection panel; folds it back to three lines."
+    },
+    "mail_guard_panel_show_more": {
+        "message": "Show more",
+        "description": "Location: Sentinel. Button under a folded explanation from Phi AI in the mail protection panel; shows the rest of it."
+    },
+    "mail_guard_panel_technical": {
+        "message": "Static checks · $COUNT$",
+        "description": "Location: Sentinel. Heading over the technical checks (sender, links, attachments) that found something, in the mail protection panel. COUNT is a number filled in by code; keep it."
+    },
+    "mail_guard_panel_trust": {
+        "message": "Trust this sender",
+        "description": "Location: Sentinel. Button in the panel that adds the sender (or its domain) to the trusted senders."
+    },
+    "mail_guard_panel_why_risky": {
+        "message": "Why this email may be risky · Phi AI",
+        "description": "Location: Sentinel. Heading over Phi AI explanation in the mail protection panel."
+    },
+    "mail_guard_part_body": {
+        "message": "message text",
+        "description": "Location: Sentinel. Name of a part of an email the mail guard could not read; listed in the \"Not checked\" explanation."
+    },
+    "mail_guard_part_sender": {
+        "message": "sender",
+        "description": "Location: Sentinel. Name of a part of an email the mail guard could not read; listed in the \"Not checked\" explanation."
+    },
+    "mail_guard_part_subject": {
+        "message": "subject",
+        "description": "Location: Sentinel. Name of a part of an email the mail guard could not read; listed in the \"Not checked\" explanation."
+    },
+    "mail_guard_settings_about": {
+        "message": "About Email Protection and privacy",
+        "description": "Location: Sentinel. Last row of the mail protection settings; opens the page about how mail is checked and what is sent."
+    },
+    "mail_guard_settings_enabled": {
+        "message": "Check opened mail",
+        "description": "Location: Sentinel. Switch that turns mail checking on or off."
+    },
+    "mail_guard_settings_enabled_hint": {
+        "message": "When off, a grey shield stays beside the subject; click it to turn checking back on.",
+        "description": "Location: Sentinel. Hint under the \"Check opened mail\" switch."
+    },
+    "mail_guard_settings_highlight": {
+        "message": "Outline suspicious links",
+        "description": "Location: Sentinel. Switch that outlines the links a finding points at."
+    },
+    "mail_guard_settings_highlight_hint": {
+        "message": "Draws a red outline around links in the message that a finding points at.",
+        "description": "Location: Sentinel. Hint under the \"Outline suspicious links\" switch."
+    },
+    "mail_guard_settings_low_badge": {
+        "message": "Show the badge on low-risk mail",
+        "description": "Location: Sentinel. Switch that shows the badge on low-risk mail too."
+    },
+    "mail_guard_settings_low_badge_hint": {
+        "message": "When off, the badge appears only for mail that needs attention.",
+        "description": "Location: Sentinel. Hint under the \"Show the badge on low-risk mail\" switch."
+    },
+    "mail_guard_settings_remove": {
+        "message": "Remove $ENTRY$",
+        "description": "Location: Sentinel. Accessible label of the button that removes a trusted sender. ENTRY is an address or domain."
+    },
+    "mail_guard_settings_title": {
+        "message": "Email Protection settings",
+        "description": "Location: Sentinel. Heading of the settings view inside the mail protection panel."
+    },
+    "mail_guard_settings_trusted": {
+        "message": "Trusted senders",
+        "description": "Location: Sentinel. Heading of the trusted senders list in the settings view."
+    },
+    "mail_guard_settings_trusted_empty": {
+        "message": "No trusted senders yet.",
+        "description": "Location: Sentinel. Shown when the trusted senders list is empty."
+    },
+    "mail_guard_threat_extortion": {
+        "message": "Extortion",
+        "description": "Location: Sentinel. Name of a kind of malicious email, shown after the risk level at the top of the mail protection panel and banner (\"High risk · Phishing\"). Keep it short."
+    },
+    "mail_guard_threat_extortion_line": {
+        "message": "Appears to threaten you into paying.",
+        "description": "Location: Sentinel. One line under the panel and banner title explaining this kind of malicious email to the reader."
+    },
+    "mail_guard_threat_gift_card": {
+        "message": "Gift card scam",
+        "description": "Location: Sentinel. Name of a kind of malicious email, shown after the risk level at the top of the mail protection panel and banner (\"High risk · Phishing\"). Keep it short."
+    },
+    "mail_guard_threat_gift_card_line": {
+        "message": "Appears to ask you to buy gift cards and send the codes.",
+        "description": "Location: Sentinel. One line under the panel and banner title explaining this kind of malicious email to the reader."
+    },
+    "mail_guard_threat_impersonation": {
+        "message": "Impersonation",
+        "description": "Location: Sentinel. Name of a kind of malicious email, shown after the risk level at the top of the mail protection panel and banner (\"High risk · Phishing\"). Keep it short."
+    },
+    "mail_guard_threat_impersonation_line": {
+        "message": "May be pretending to be someone you know or trust.",
+        "description": "Location: Sentinel. One line under the panel and banner title explaining this kind of malicious email to the reader."
+    },
+    "mail_guard_threat_malware": {
+        "message": "Malware",
+        "description": "Location: Sentinel. Name of a kind of malicious email, shown after the risk level at the top of the mail protection panel and banner (\"High risk · Phishing\"). Keep it short."
+    },
+    "mail_guard_threat_malware_line": {
+        "message": "Its attachment or link may infect your device.",
+        "description": "Location: Sentinel. One line under the panel and banner title explaining this kind of malicious email to the reader."
+    },
+    "mail_guard_threat_manipulation": {
+        "message": "Manipulation",
+        "description": "Location: Sentinel. Name of a kind of malicious email, shown after the risk level at the top of the mail protection panel and banner (\"High risk · Phishing\"). Keep it short."
+    },
+    "mail_guard_threat_manipulation_line": {
+        "message": "Appears to push you with pressure or an unusual request.",
+        "description": "Location: Sentinel. One line under the panel and banner title explaining this kind of malicious email to the reader."
+    },
+    "mail_guard_threat_payment_fraud": {
+        "message": "Payment fraud",
+        "description": "Location: Sentinel. Name of a kind of malicious email, shown after the risk level at the top of the mail protection panel and banner (\"High risk · Phishing\"). Keep it short."
+    },
+    "mail_guard_threat_payment_fraud_line": {
+        "message": "Appears to want money sent or payment details changed.",
+        "description": "Location: Sentinel. One line under the panel and banner title explaining this kind of malicious email to the reader."
+    },
+    "mail_guard_threat_phishing": {
+        "message": "Phishing",
+        "description": "Location: Sentinel. Name of a kind of malicious email, shown after the risk level at the top of the mail protection panel and banner (\"High risk · Phishing\"). Keep it short."
+    },
+    "mail_guard_threat_phishing_line": {
+        "message": "May be trying to get your password, card or account details.",
+        "description": "Location: Sentinel. One line under the panel and banner title explaining this kind of malicious email to the reader."
+    },
+    "mail_guard_unreadable_body": {
+        "message": "Phi could not read enough of this message to judge it (missing: $PARTS$). This is not a sign that it is safe.",
+        "description": "Location: Sentinel. Panel text for a message that was not checked. PARTS lists the parts that could not be read."
+    },
+    "mail_guard_verdict_title": {
+        "message": "$LEVEL$ · $THREAT$ suspected",
+        "description": "Location: Sentinel. Title at the top of the mail protection panel and banner: the risk level, then the kind of threat (\"High risk · Phishing\"). Both are filled in by code; keep them."
+    },
     "main_menu_application_quit": {
         "message": "Quit Phi Sentinel",
         "description": "Location: Sentinel. Application menu - Command that quits the application"
@@ -4778,10 +6034,6 @@
     "settings_status_stable_latest_active": {
         "message": "Stable Latest active",
         "description": "Location: Sentinel. Application preferences, backup tools, and data-reset controls. Badge on the release-track selector indicating that Stable Latest is active."
-    },
-    "settings_title": {
-        "message": "Settings",
-        "description": "Location: Sentinel. Application preferences, backup tools, and data-reset controls. Page title above application preferences and maintenance tools."
     },
     "settings_title_backup_restore": {
         "message": "Backup & Restore",

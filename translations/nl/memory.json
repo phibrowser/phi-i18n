@@ -552,7 +552,7 @@
         "message": "Automatisch aanpassen"
     },
     "memory_management_galaxy_options_automatic_detail": {
-        "message": "Verlaagt de resolutie en het simulatiewerk wanneer frames trager worden; bij Gemiddeld worden slepen en zoomen in dichte weergaven ook vereenvoudigd."
+        "message": "Vermindert het simulatiewerk wanneer frames trager worden in dichte weergaven; bij Gemiddeld worden slepen en zoomen in dichte weergaven ook vereenvoudigd."
     },
     "memory_management_galaxy_options_close": {
         "message": "Opties voor Memory Galaxy sluiten"
@@ -582,13 +582,13 @@
         "message": "Opties voor Memory Galaxy"
     },
     "memory_management_galaxy_options_quality_behavior_extreme": {
-        "message": "Maximale getrouwheid: natieve resolutie als limiet, verbindingen met alfamenging en een volledig gedetailleerde simulatie."
+        "message": "Maximale getrouwheid: verbindingen met alfamenging en een volledig gedetailleerde simulatie."
     },
     "memory_management_galaxy_options_quality_behavior_high": {
-        "message": "In balans: 1×, verbindingen met alfamenging en een kortere, matig gedetailleerde simulatie."
+        "message": "In balans: verbindingen met alfamenging en een kortere, matig gedetailleerde simulatie."
     },
     "memory_management_galaxy_options_quality_behavior_medium": {
-        "message": "Geeft voorrang aan interactie: 0,75×, verbindingen met alfamenging en een kortere simulatie; tijdens slepen of zoomen in dichte weergaven wordt het volledige verbindingsveld tijdelijk verborgen."
+        "message": "Geeft voorrang aan interactie: verbindingen met alfamenging en een kortere simulatie; tijdens slepen of zoomen in dichte weergaven wordt het volledige verbindingsveld tijdelijk verborgen."
     },
     "memory_management_galaxy_options_quality_extreme": {
         "message": "Extreem"
@@ -603,7 +603,7 @@
         "message": "Weergavekwaliteit"
     },
     "memory_management_galaxy_options_rendering_quality_detail": {
-        "message": "Elk niveau past zowel de rekenbelasting van de weergave als de resolutie aan."
+        "message": "Elk niveau past de belasting van de simulatie en de verbindingen aan; de resolutie volgt altijd je scherm."
     },
     "memory_management_galaxy_options_title": {
         "message": "Opties"
@@ -967,6 +967,255 @@
     },
     "memory_management_nebula_status_ready": {
         "message": "Geheugenhemel"
+    },
+    "memory_management_nebula_story_collapse": {
+        "message": "Samenvouwen"
+    },
+    "memory_management_nebula_story_evidence": {
+        "message": "Gebaseerd op {{count}} herinneringen · {{range}}"
+    },
+    "memory_management_nebula_story_evidence_toggle": {
+        "message": "Gebaseerd op <toggle>{{count}} herinneringen</toggle> · {{range}}"
+    },
+    "memory_management_nebula_story_eyebrow": {
+        "message": "Een verhaal voor jou"
+    },
+    "memory_management_nebula_story_feedback_cancel": {
+        "message": "Annuleren"
+    },
+    "memory_management_nebula_story_feedback_dialog_label": {
+        "message": "Deze brief beoordelen"
+    },
+    "memory_management_nebula_story_feedback_negative_action": {
+        "message": "Ik vond deze brief niet goed"
+    },
+    "memory_management_nebula_story_feedback_negative_title": {
+        "message": "Wat ging er mis?"
+    },
+    "memory_management_nebula_story_feedback_positive_action": {
+        "message": "Ik vond deze brief goed"
+    },
+    "memory_management_nebula_story_feedback_positive_title": {
+        "message": "Wat sprak je aan?"
+    },
+    "memory_management_nebula_story_feedback_privacy_rating": {
+        "message": "Je beoordeling en de redenen die je kiest worden meegeteld om de verhalen van Phi te verbeteren. Er wordt niets uit deze brief verzonden."
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
+        "message": "Het is gewoon een lijstje van wat ik deed"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_grounding": {
+        "message": "De datums of aantallen kloppen niet"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_kind_fit": {
+        "message": "Zo was het niet"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_other": {
+        "message": "Anders"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_over_interpretation": {
+        "message": "Er staan dingen in die ik niet heb gedaan"
+    },
+    "memory_management_nebula_story_feedback_reasons_negative_prose_quality": {
+        "message": "Het deed me niets"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_boring_stat": {
+        "message": "Het vond een echt moment"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_kind_fit": {
+        "message": "Het zag het goed"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_other": {
+        "message": "Anders"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_over_interpretation": {
+        "message": "Elk detail klopt"
+    },
+    "memory_management_nebula_story_feedback_reasons_positive_prose_quality": {
+        "message": "Het raakte me"
+    },
+    "memory_management_nebula_story_feedback_report_close": {
+        "message": "Sluiten"
+    },
+    "memory_management_nebula_story_feedback_report_failed_rejected": {
+        "message": "De melding is niet geaccepteerd. Probeer het later opnieuw."
+    },
+    "memory_management_nebula_story_feedback_report_failed_signed_out": {
+        "message": "Log in bij Phi om een melding te verzenden."
+    },
+    "memory_management_nebula_story_feedback_report_failed_timeout": {
+        "message": "Nog bezig met verzenden. Kies zo meteen Opnieuw proberen."
+    },
+    "memory_management_nebula_story_feedback_report_failed_too_large": {
+        "message": "De bijlagen zijn te groot. Haal het vinkje bij de herinneringen weg en probeer het opnieuw."
+    },
+    "memory_management_nebula_story_feedback_report_failed_unavailable": {
+        "message": "De lokale agent van Phi is op dit moment niet bereikbaar."
+    },
+    "memory_management_nebula_story_feedback_report_failed_upstream": {
+        "message": "De feedbackservice heeft de melding niet geaccepteerd ({{code}})."
+    },
+    "memory_management_nebula_story_feedback_report_heading": {
+        "message": "Voor het Phi-team (optioneel)"
+    },
+    "memory_management_nebula_story_feedback_report_include_memories": {
+        "message": "De herinneringen achter deze brief meesturen"
+    },
+    "memory_management_nebula_story_feedback_report_include_story": {
+        "message": "Deze brief meesturen"
+    },
+    "memory_management_nebula_story_feedback_report_note_label": {
+        "message": "Wil je het team nog iets laten weten?"
+    },
+    "memory_management_nebula_story_feedback_report_privacy": {
+        "message": "Bepaalde account- en systeeminformatie kan naar Phinomenon worden gestuurd. We gebruiken de verstrekte informatie om technische problemen op te lossen en onze diensten te verbeteren, in overeenstemming met ons <privacy>privacybeleid</privacy> en onze <terms>servicevoorwaarden</terms>."
+    },
+    "memory_management_nebula_story_feedback_report_retry": {
+        "message": "Opnieuw proberen"
+    },
+    "memory_management_nebula_story_feedback_report_sending": {
+        "message": "Bezig met verzenden…"
+    },
+    "memory_management_nebula_story_feedback_submit": {
+        "message": "Verzenden"
+    },
+    "memory_management_nebula_story_greeting": {
+        "message": "Lieve jij,"
+    },
+    "memory_management_nebula_story_instructions_badge": {
+        "message": "Aangepaste instructies"
+    },
+    "memory_management_nebula_story_instructions_badge_hint": {
+        "message": "Brieven die vanaf nu worden geschreven gebruiken de aangepaste tekst. Opgeslagen {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_close": {
+        "message": "Sluiten"
+    },
+    "memory_management_nebula_story_instructions_contract_label": {
+        "message": "Houd deze namen in de tekst:"
+    },
+    "memory_management_nebula_story_instructions_copied": {
+        "message": "Gekopieerd"
+    },
+    "memory_management_nebula_story_instructions_copy": {
+        "message": "Tekst kopiëren"
+    },
+    "memory_management_nebula_story_instructions_counter": {
+        "message": "{{count}} / {{max}}"
+    },
+    "memory_management_nebula_story_instructions_failed": {
+        "message": "Kan niet opslaan. {{reason}}"
+    },
+    "memory_management_nebula_story_instructions_missing": {
+        "message": "Ontbreekt: {{names}}"
+    },
+    "memory_management_nebula_story_instructions_open": {
+        "message": "Verhaalinstructies"
+    },
+    "memory_management_nebula_story_instructions_refresh_busy": {
+        "message": "Er wordt al een brief geschreven. Probeer het opnieuw als die klaar is."
+    },
+    "memory_management_nebula_story_instructions_refresh_started": {
+        "message": "Er wordt een nieuwe brief geschreven. Die verschijnt de volgende keer dat je Nebula opent."
+    },
+    "memory_management_nebula_story_instructions_refreshing": {
+        "message": "Een nieuwe brief wordt geschreven…"
+    },
+    "memory_management_nebula_story_instructions_reset": {
+        "message": "Terugzetten naar standaard"
+    },
+    "memory_management_nebula_story_instructions_reset_failed": {
+        "message": "Kan de verhalen niet resetten. {{reason}}"
+    },
+    "memory_management_nebula_story_instructions_reset_stories": {
+        "message": "Verhalen resetten en vernieuwen"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_body": {
+        "message": "Dit verwijdert de brieven die voor dit profiel zijn geschreven en het overzicht van welke je al hebt gelezen. Je herinneringen blijven ongemoeid."
+    },
+    "memory_management_nebula_story_instructions_reset_stories_confirm": {
+        "message": "Resetten en vernieuwen"
+    },
+    "memory_management_nebula_story_instructions_reset_stories_title": {
+        "message": "Opnieuw beginnen met deze prompt?"
+    },
+    "memory_management_nebula_story_instructions_save": {
+        "message": "Opslaan"
+    },
+    "memory_management_nebula_story_instructions_saved": {
+        "message": "Opgeslagen"
+    },
+    "memory_management_nebula_story_instructions_saving": {
+        "message": "Aan het opslaan…"
+    },
+    "memory_management_nebula_story_instructions_status_custom": {
+        "message": "Aangepast · opgeslagen {{date}} · {{hash}}"
+    },
+    "memory_management_nebula_story_instructions_status_default": {
+        "message": "Standaardtekst"
+    },
+    "memory_management_nebula_story_instructions_title": {
+        "message": "Verhaalinstructies"
+    },
+    "memory_management_nebula_story_instructions_too_large": {
+        "message": "De tekst is langer dan {{max}} tekens."
+    },
+    "memory_management_nebula_story_label": {
+        "message": "Verhaal uit je herinneringen"
+    },
+    "memory_management_nebula_story_reopen": {
+        "message": "Verhaal tonen"
+    },
+    "memory_management_nebula_story_stack_back_to_first": {
+        "message": "Terug naar de eerste"
+    },
+    "memory_management_nebula_story_stack_dot": {
+        "message": "Brief {{index}}"
+    },
+    "memory_management_nebula_story_stack_dot_end": {
+        "message": "Einde van de brieven"
+    },
+    "memory_management_nebula_story_stack_dot_unread": {
+        "message": "Brief {{index}}, ongelezen"
+    },
+    "memory_management_nebula_story_stack_end_body": {
+        "message": "Nieuwe verhalen verschijnen vanzelf terwijl je verder surft."
+    },
+    "memory_management_nebula_story_stack_end_title": {
+        "message": "Voorlopig alles gelezen."
+    },
+    "memory_management_nebula_story_stack_next": {
+        "message": "Volgende brief"
+    },
+    "memory_management_nebula_story_stack_pager_label": {
+        "message": "Brieven"
+    },
+    "memory_management_nebula_story_stack_pill_all": {
+        "message": "Brieven: {{count}}"
+    },
+    "memory_management_nebula_story_stack_pill_unread": {
+        "message": "Ongelezen brieven: {{count}}"
+    },
+    "memory_management_nebula_story_stack_position": {
+        "message": "{{index}} / {{total}}"
+    },
+    "memory_management_nebula_story_stack_position_end": {
+        "message": "Einde / {{total}}"
+    },
+    "memory_management_nebula_story_stack_previous": {
+        "message": "Vorige brief"
+    },
+    "memory_management_nebula_story_stack_unread": {
+        "message": "Ongelezen"
+    },
+    "memory_management_nebula_story_stack_unread_count": {
+        "message": "{{count}} ongelezen"
+    },
+    "memory_management_nebula_story_stars_label": {
+        "message": "De herinneringen in dit verhaal"
+    },
+    "memory_management_nebula_story_written_on": {
+        "message": "Geschreven op {{date}}"
     },
     "memory_management_nebula_subtitle": {
         "message": "Kijk naar je herinneringen als naar een prachtige sterrenhemel."

@@ -2303,9 +2303,6 @@
     "private_ai_banner_description": {
         "message": "프라이빗 AI의 응답은 온라인 모델과 품질이 다를 수 있어요."
     },
-    "private_ai_banner_dismiss_for_now": {
-        "message": "일단 닫기"
-    },
     "private_ai_banner_dont_show_again": {
         "message": "다시 보지 않기"
     },
@@ -2320,6 +2317,1422 @@
     },
     "prompt_preferences_restore_success": {
         "message": "안내를 복원했어요. 관련 상황이 되면 다시 표시돼요."
+    },
+    "settings_advanced_backup_description": {
+        "message": "백그라운드 서비스의 데이터를 로컬 스냅샷 시점으로 되돌려요."
+    },
+    "settings_advanced_backup_snapshots_confirm_description": {
+        "message": "백그라운드 서비스가 멈추고 데이터가 {{date}} 시점의 상태로 돌아간 뒤 다시 시작돼요. 그 이후의 변경 사항은 사라져요. 이 작업은 되돌릴 수 없어요."
+    },
+    "settings_advanced_backup_snapshots_confirm_title": {
+        "message": "이 스냅샷을 복원할까요?"
+    },
+    "settings_advanced_backup_snapshots_empty": {
+        "message": "아직 스냅샷이 없어요."
+    },
+    "settings_advanced_backup_snapshots_load_failed": {
+        "message": "스냅샷을 읽지 못했어요."
+    },
+    "settings_advanced_backup_snapshots_loading": {
+        "message": "스냅샷을 불러오는 중…"
+    },
+    "settings_advanced_backup_snapshots_progress_description": {
+        "message": "데이터를 교체하는 동안 백그라운드 서비스가 멈춰요. 1분 정도 걸릴 수 있어요. 끝날 때까지 이 창을 열어 두세요."
+    },
+    "settings_advanced_backup_snapshots_progress_title": {
+        "message": "스냅샷 복원 중"
+    },
+    "settings_advanced_backup_snapshots_restore": {
+        "message": "복원"
+    },
+    "settings_advanced_backup_snapshots_restore_label": {
+        "message": "{{date}} 스냅샷 복원"
+    },
+    "settings_advanced_backup_snapshots_title": {
+        "message": "로컬 스냅샷"
+    },
+    "settings_advanced_backup_snapshots_toast_failed": {
+        "message": "스냅샷을 복원하지 못했고, 데이터를 직접 복구해야 할 수 있어요. Phi 지원팀에 문의해 주세요."
+    },
+    "settings_advanced_backup_snapshots_toast_refused": {
+        "message": "스냅샷을 복원하지 못했어요"
+    },
+    "settings_advanced_backup_snapshots_toast_restored": {
+        "message": "스냅샷 복원됨"
+    },
+    "settings_advanced_backup_snapshots_toast_reverted": {
+        "message": "스냅샷을 복원하지 못했어요. 데이터는 그대로 남아 있어요."
+    },
+    "settings_advanced_backup_snapshots_trigger_manual": {
+        "message": "직접 만듦"
+    },
+    "settings_advanced_backup_snapshots_trigger_policy_version": {
+        "message": "위험한 업데이트 전"
+    },
+    "settings_advanced_backup_snapshots_trigger_pre_import": {
+        "message": "가져오기 전"
+    },
+    "settings_advanced_backup_snapshots_versions": {
+        "message": "백그라운드 서비스 {{services}}"
+    },
+    "settings_advanced_backup_snapshots_versions_with_browser": {
+        "message": "백그라운드 서비스 {{services}}, Phi {{browser}}"
+    },
+    "settings_advanced_backup_title": {
+        "message": "스냅샷 및 업데이트"
+    },
+    "settings_advanced_backup_track_confirm_action": {
+        "message": "전환 후 업데이트"
+    },
+    "settings_advanced_backup_track_confirm_stable": {
+        "message": "구성 요소가 이 릴리스와 함께 테스트된 버전으로 돌아가며, 더 오래된 버전일 수 있어요. 관련 서비스가 다시 시작돼요."
+    },
+    "settings_advanced_backup_track_confirm_stable_latest": {
+        "message": "구성 요소가 바로 최신 안정 버전으로 업데이트돼요. 관련 서비스가 다시 시작돼요."
+    },
+    "settings_advanced_backup_track_confirm_title": {
+        "message": "{{track}}으로 전환할까요?"
+    },
+    "settings_advanced_backup_track_description_stable": {
+        "message": "이 릴리스와 함께 테스트된 구성 요소 버전을 설치해요."
+    },
+    "settings_advanced_backup_track_description_stable_latest": {
+        "message": "새 안정 구성 요소 버전이 나오는 즉시 설치해요."
+    },
+    "settings_advanced_backup_track_label": {
+        "message": "업데이트 트랙"
+    },
+    "settings_advanced_backup_track_stable": {
+        "message": "안정 버전"
+    },
+    "settings_advanced_backup_track_stable_latest": {
+        "message": "최신 안정 버전"
+    },
+    "settings_advanced_backup_track_title": {
+        "message": "구성 요소 업데이트"
+    },
+    "settings_advanced_backup_track_toast_deferred": {
+        "message": "{{track}}으로 전환했어요. 구성 요소는 다음에 서비스가 시작될 때 업데이트돼요."
+    },
+    "settings_advanced_backup_track_toast_failed": {
+        "message": "업데이트 트랙을 전환하지 못했어요"
+    },
+    "settings_advanced_backup_track_toast_partial": {
+        "message": "{{track}}으로 전환했지만 구성 요소 {{count}}개를 업데이트하지 못했어요"
+    },
+    "settings_advanced_backup_track_toast_reconcile_failed": {
+        "message": "{{track}}으로 전환했지만 구성 요소를 아직 업데이트하지 못했어요"
+    },
+    "settings_advanced_backup_track_toast_switched": {
+        "message": "{{track}}으로 전환했어요"
+    },
+    "settings_advanced_gateway_about": {
+        "message": "모든 AI 요청이 거쳐 가는 로컬 서비스예요."
+    },
+    "settings_advanced_gateway_address": {
+        "message": "주소"
+    },
+    "settings_advanced_gateway_address_copied": {
+        "message": "주소를 복사했어요"
+    },
+    "settings_advanced_gateway_address_none": {
+        "message": "실행 중일 때 사용할 수 있어요."
+    },
+    "settings_advanced_gateway_copy": {
+        "message": "복사"
+    },
+    "settings_advanced_gateway_copy_failed": {
+        "message": "복사하지 못했어요"
+    },
+    "settings_advanced_gateway_export": {
+        "message": "연결 정보 내보내기"
+    },
+    "settings_advanced_gateway_export_copied": {
+        "message": "연결 정보를 복사했어요"
+    },
+    "settings_advanced_gateway_export_description": {
+        "message": "이 Mac의 앱이 게이트웨이에 연결할 때 읽는 정보예요."
+    },
+    "settings_advanced_gateway_export_empty": {
+        "message": "게이트웨이가 아직 연결 정보를 게시하지 않았어요."
+    },
+    "settings_advanced_gateway_export_failed": {
+        "message": "연결 정보를 읽지 못했어요."
+    },
+    "settings_advanced_gateway_export_label": {
+        "message": "연결 정보"
+    },
+    "settings_advanced_gateway_export_loading": {
+        "message": "불러오는 중…"
+    },
+    "settings_advanced_gateway_failed": {
+        "message": "실패"
+    },
+    "settings_advanced_gateway_logs": {
+        "message": "로그"
+    },
+    "settings_advanced_gateway_logs_description": {
+        "message": "요청과 오류만 기록하고, 요청한 내용은 기록하지 않아요."
+    },
+    "settings_advanced_gateway_status": {
+        "message": "상태"
+    },
+    "settings_advanced_gateway_title": {
+        "message": "AI 게이트웨이"
+    },
+    "settings_advanced_logs_copied": {
+        "message": "로그를 복사했어요"
+    },
+    "settings_advanced_logs_copy": {
+        "message": "복사"
+    },
+    "settings_advanced_logs_copy_failed": {
+        "message": "로그를 복사하지 못했어요"
+    },
+    "settings_advanced_logs_description": {
+        "message": "백그라운드 서비스의 로그예요. 기록되는 대로 업데이트돼요."
+    },
+    "settings_advanced_logs_empty": {
+        "message": "이 로그는 비어 있어요."
+    },
+    "settings_advanced_logs_jump_to_end": {
+        "message": "최신 줄로 이동"
+    },
+    "settings_advanced_logs_line_count": {
+        "message": "전체 {{total}}줄 중 최근 {{shown}}줄"
+    },
+    "settings_advanced_logs_load_failed": {
+        "message": "이 로그를 읽지 못했어요. 새로고침을 눌러 보세요."
+    },
+    "settings_advanced_logs_loading": {
+        "message": "로그를 불러오는 중…"
+    },
+    "settings_advanced_logs_refresh": {
+        "message": "새로고침"
+    },
+    "settings_advanced_logs_services_group": {
+        "message": "개별 서비스"
+    },
+    "settings_advanced_logs_source_label": {
+        "message": "로그"
+    },
+    "settings_advanced_logs_source_runner": {
+        "message": "서비스 관리자"
+    },
+    "settings_advanced_logs_source_sentinel": {
+        "message": "백그라운드 서비스 앱"
+    },
+    "settings_advanced_logs_stream_label": {
+        "message": "출력 스트림"
+    },
+    "settings_advanced_logs_title": {
+        "message": "전체 로그"
+    },
+    "settings_advanced_notice_body": {
+        "message": "평소에는 이 설정을 바꿀 필요가 없고, 잘못 바꾸면 AI 기능을 잠시 사용할 수 없게 될 수 있어요. 모든 것이 잘 작동하는지 확인하려면 '서비스' 섹션만으로 충분해요."
+    },
+    "settings_advanced_notice_title": {
+        "message": "문제 해결과 숙련된 사용자를 위한 설정이에요."
+    },
+    "settings_advanced_reset_action": {
+        "message": "모든 데이터 재설정"
+    },
+    "settings_advanced_reset_ai_action": {
+        "message": "AI 설정 재설정"
+    },
+    "settings_advanced_reset_ai_clears": {
+        "message": "이 작업을 진행하면:"
+    },
+    "settings_advanced_reset_ai_confirm_description": {
+        "message": "직접 추가한 제공자와 키가 삭제되고, 로컬 모델을 다시 사용하려면 다시 다운로드해야 해요."
+    },
+    "settings_advanced_reset_ai_confirm_title": {
+        "message": "AI 설정을 재설정할까요?"
+    },
+    "settings_advanced_reset_ai_done": {
+        "message": "AI 설정을 재설정했어요"
+    },
+    "settings_advanced_reset_ai_failed": {
+        "message": "AI 설정을 재설정하지 못했어요"
+    },
+    "settings_advanced_reset_ai_items_cloud": {
+        "message": "AI 소스를 Phi Cloud로 되돌리기"
+    },
+    "settings_advanced_reset_ai_items_local": {
+        "message": "로컬 런타임과 모델, 로그, 다운로드 파일 삭제하기"
+    },
+    "settings_advanced_reset_ai_items_providers": {
+        "message": "AI 제공업체 설정 지우기"
+    },
+    "settings_advanced_reset_ai_label": {
+        "message": "AI 설정 재설정"
+    },
+    "settings_advanced_reset_confirm_description": {
+        "message": "위에 나열된 항목이 모두 영구적으로 삭제되고 백그라운드 서비스가 빈 상태로 시작돼요. 먼저 데이터를 내보내 두는 것이 좋아요."
+    },
+    "settings_advanced_reset_confirm_prompt": {
+        "message": "확인하려면 {{phrase}}를 입력해 주세요."
+    },
+    "settings_advanced_reset_confirm_title": {
+        "message": "모든 데이터를 재설정할까요?"
+    },
+    "settings_advanced_reset_description": {
+        "message": "Phi 백그라운드 서비스의 모든 데이터를 지우고 처음부터 다시 시작해요."
+    },
+    "settings_advanced_reset_done": {
+        "message": "모든 데이터를 재설정했어요"
+    },
+    "settings_advanced_reset_erases": {
+        "message": "삭제되는 항목:"
+    },
+    "settings_advanced_reset_failed": {
+        "message": "데이터를 재설정하지 못했어요"
+    },
+    "settings_advanced_reset_items_logs": {
+        "message": "모든 로그와 캐시 파일"
+    },
+    "settings_advanced_reset_items_services": {
+        "message": "설치된 서비스와 해당 데이터"
+    },
+    "settings_advanced_reset_items_settings": {
+        "message": "백그라운드 서비스의 모든 설정"
+    },
+    "settings_advanced_reset_items_tasks": {
+        "message": "예약된 작업과 실행 기록"
+    },
+    "settings_advanced_reset_label": {
+        "message": "모두 지우기"
+    },
+    "settings_advanced_reset_permanent": {
+        "message": "이 작업은 되돌릴 수 없어요."
+    },
+    "settings_advanced_reset_progress_description": {
+        "message": "백그라운드 서비스가 멈추고 데이터가 삭제된 뒤 다시 시작돼요. 끝날 때까지 이 창을 열어 두세요."
+    },
+    "settings_advanced_reset_progress_title": {
+        "message": "모든 데이터 재설정 중"
+    },
+    "settings_advanced_reset_title": {
+        "message": "모든 데이터 재설정"
+    },
+    "settings_advanced_services_action_accessible_label": {
+        "message": "{{name}} {{action}}"
+    },
+    "settings_advanced_services_action_restart": {
+        "message": "다시 시작"
+    },
+    "settings_advanced_services_action_retry_setup": {
+        "message": "설정 다시 시도"
+    },
+    "settings_advanced_services_action_start": {
+        "message": "시작"
+    },
+    "settings_advanced_services_action_stop": {
+        "message": "중지"
+    },
+    "settings_advanced_services_built_in": {
+        "message": "기본 제공"
+    },
+    "settings_advanced_services_column_actions": {
+        "message": "동작"
+    },
+    "settings_advanced_services_column_pid": {
+        "message": "PID"
+    },
+    "settings_advanced_services_column_service": {
+        "message": "서비스"
+    },
+    "settings_advanced_services_column_state": {
+        "message": "상태"
+    },
+    "settings_advanced_services_column_uptime": {
+        "message": "가동 시간"
+    },
+    "settings_advanced_services_column_version": {
+        "message": "버전"
+    },
+    "settings_advanced_services_confirm_cancel": {
+        "message": "취소"
+    },
+    "settings_advanced_services_confirm_restart_description": {
+        "message": "잠시 멈췄다가 다시 시작돼요. 지금 이 서비스를 사용 중인 기능은 중단돼요."
+    },
+    "settings_advanced_services_confirm_restart_title": {
+        "message": "{{name}} 서비스를 다시 시작할까요?"
+    },
+    "settings_advanced_services_confirm_retry_setup_description": {
+        "message": "Phi가 다운로드한 로컬 파일을 삭제하고 다시 설정해요. 몇 분 정도 걸릴 수 있고, 그동안은 이 서비스를 사용할 수 없어요."
+    },
+    "settings_advanced_services_confirm_retry_setup_title": {
+        "message": "{{name}} 설정을 다시 시도할까요?"
+    },
+    "settings_advanced_services_confirm_stop_description": {
+        "message": "이 서비스에 의존하는 서비스도 함께 멈춰요. 이 서비스들을 사용하는 AI 기능은 다시 시작할 때까지 사용할 수 없어요."
+    },
+    "settings_advanced_services_confirm_stop_title": {
+        "message": "{{name}} 서비스를 중지할까요?"
+    },
+    "settings_advanced_services_description": {
+        "message": "각 백그라운드 서비스의 프로세스, 가동 시간, 버전이에요."
+    },
+    "settings_advanced_services_title": {
+        "message": "서비스 세부 정보"
+    },
+    "settings_advanced_services_toast_restart": {
+        "message": "{{name}} 서비스를 다시 시작했어요"
+    },
+    "settings_advanced_services_toast_restart_failed": {
+        "message": "{{name}} 서비스를 다시 시작하지 못했어요"
+    },
+    "settings_advanced_services_toast_retry_setup": {
+        "message": "{{name}} 설정을 다시 시작했어요"
+    },
+    "settings_advanced_services_toast_retry_setup_failed": {
+        "message": "{{name}} 설정을 다시 시도하지 못했어요"
+    },
+    "settings_advanced_services_toast_start": {
+        "message": "{{name}} 서비스를 시작했어요"
+    },
+    "settings_advanced_services_toast_start_failed": {
+        "message": "{{name}} 서비스를 시작하지 못했어요"
+    },
+    "settings_advanced_services_toast_stop": {
+        "message": "{{name}} 서비스를 중지했어요"
+    },
+    "settings_advanced_services_toast_stop_failed": {
+        "message": "{{name}} 서비스를 중지하지 못했어요"
+    },
+    "settings_backup_advanced_prompt": {
+        "message": "스냅샷을 복원하고 싶으신가요?"
+    },
+    "settings_backup_busy": {
+        "message": "다른 백업 작업이 실행 중이에요. 끝나면 다시 시도해 주세요."
+    },
+    "settings_backup_cancel": {
+        "message": "취소"
+    },
+    "settings_backup_data_title": {
+        "message": "내 데이터"
+    },
+    "settings_backup_description": {
+        "message": "백그라운드 서비스를 최신 상태로 유지하고 데이터 사본을 보관해요."
+    },
+    "settings_backup_export_action": {
+        "message": "내보내기"
+    },
+    "settings_backup_export_description": {
+        "message": "설정과 데이터의 사본을 다운로드 폴더에 저장해 다른 Mac으로 옮길 수 있어요. 제공자 API 키는 포함되지 않아요."
+    },
+    "settings_backup_export_description_to_file": {
+        "message": "설정과 데이터의 사본을 선택한 파일에 저장해 다른 Mac으로 옮길 수 있어요. 제공자 API 키는 포함되지 않아요."
+    },
+    "settings_backup_export_done": {
+        "message": "데이터를 다운로드 폴더로 내보냈어요"
+    },
+    "settings_backup_export_done_to_file": {
+        "message": "데이터를 내보냈어요"
+    },
+    "settings_backup_export_done_with_warning": {
+        "message": "중단된 뒤 이어서 데이터를 내보냈어요. 사용하기 전에 파일을 확인해 주세요."
+    },
+    "settings_backup_export_exporting": {
+        "message": "내보내는 중…"
+    },
+    "settings_backup_export_failed": {
+        "message": "데이터를 내보내지 못했어요"
+    },
+    "settings_backup_export_label": {
+        "message": "데이터 내보내기"
+    },
+    "settings_backup_snapshot_action": {
+        "message": "스냅샷 만들기"
+    },
+    "settings_backup_snapshot_created": {
+        "message": "스냅샷 생성됨"
+    },
+    "settings_backup_snapshot_description": {
+        "message": "이 Mac의 데이터 사본을 저장해 두고 나중에 되돌릴 수 있어요. 스냅샷은 이 Mac 밖으로 나가지 않아요."
+    },
+    "settings_backup_snapshot_failed": {
+        "message": "스냅샷을 만들지 못했어요"
+    },
+    "settings_backup_snapshot_label": {
+        "message": "로컬 스냅샷"
+    },
+    "settings_backup_snapshot_progress_description": {
+        "message": "스냅샷을 만드는 동안 백그라운드 서비스가 몇 초간 멈춰요. 완료될 때까지 이 창을 닫지 마세요."
+    },
+    "settings_backup_snapshot_progress_title": {
+        "message": "스냅샷 만드는 중"
+    },
+    "settings_backup_snapshot_skipped": {
+        "message": "이 디스크에서는 스냅샷을 사용할 수 없어요"
+    },
+    "settings_backup_updates_auto": {
+        "message": "업데이트는 자동으로 설치돼요."
+    },
+    "settings_backup_updates_available": {
+        "message": "사용 가능한 업데이트: {{count}}개"
+    },
+    "settings_backup_updates_check": {
+        "message": "업데이트 확인"
+    },
+    "settings_backup_updates_check_failed": {
+        "message": "업데이트를 확인하지 못했어요."
+    },
+    "settings_backup_updates_checking": {
+        "message": "업데이트 확인 중…"
+    },
+    "settings_backup_updates_confirm_description": {
+        "message": "각 서비스가 업데이트되면서 다시 시작되므로 Phi Chat과 다른 AI 기능이 잠시 멈출 수 있어요."
+    },
+    "settings_backup_updates_confirm_title": {
+        "message": "지금 백그라운드 서비스를 업데이트할까요?"
+    },
+    "settings_backup_updates_label": {
+        "message": "백그라운드 서비스"
+    },
+    "settings_backup_updates_progress_component": {
+        "message": "{{component}}: {{percent}}%"
+    },
+    "settings_backup_updates_progress_downloading": {
+        "message": "업데이트 다운로드 중…"
+    },
+    "settings_backup_updates_progress_installing": {
+        "message": "업데이트 설치 중…"
+    },
+    "settings_backup_updates_progress_preparing": {
+        "message": "업데이트 준비 중…"
+    },
+    "settings_backup_updates_progress_restarting": {
+        "message": "서비스 다시 시작 중…"
+    },
+    "settings_backup_updates_progress_rolling_back": {
+        "message": "이전 버전으로 되돌리는 중…"
+    },
+    "settings_backup_updates_title": {
+        "message": "업데이트"
+    },
+    "settings_backup_updates_toast_failed": {
+        "message": "구성 요소 {{count}}개를 업데이트하지 못했어요"
+    },
+    "settings_backup_updates_toast_none": {
+        "message": "이미 모두 최신 상태였어요"
+    },
+    "settings_backup_updates_toast_update_failed": {
+        "message": "백그라운드 서비스를 업데이트하지 못했어요"
+    },
+    "settings_backup_updates_toast_updated": {
+        "message": "구성 요소 {{count}}개를 업데이트했어요"
+    },
+    "settings_backup_updates_up_to_date": {
+        "message": "모두 최신 상태예요."
+    },
+    "settings_backup_updates_update": {
+        "message": "지금 업데이트"
+    },
+    "settings_backup_updates_updating": {
+        "message": "업데이트 중…"
+    },
+    "settings_backup_updates_updating_description": {
+        "message": "업데이트를 설치하고 있어요. 각 서비스는 업데이트되면서 다시 시작돼요."
+    },
+    "settings_close": {
+        "message": "설정 닫기"
+    },
+    "settings_general_appearance": {
+        "message": "모양"
+    },
+    "settings_general_appearance_value": {
+        "message": "창 테마를 따름"
+    },
+    "settings_general_browser_ai": {
+        "message": "브라우저 AI 설정"
+    },
+    "settings_general_browser_ai_description": {
+        "message": "브라우저 자체 설정에서 더 많은 AI 옵션을 볼 수 있어요."
+    },
+    "settings_general_description": {
+        "message": "Phi 백그라운드 서비스의 상태와 브라우저를 따르는 설정이에요."
+    },
+    "settings_general_group_background": {
+        "message": "백그라운드 서비스"
+    },
+    "settings_general_group_language": {
+        "message": "언어 및 모양"
+    },
+    "settings_general_language": {
+        "message": "언어"
+    },
+    "settings_general_language_value": {
+        "message": "브라우저를 따름 ({{language}})"
+    },
+    "settings_general_open": {
+        "message": "열기"
+    },
+    "settings_general_restart_action": {
+        "message": "다시 시작"
+    },
+    "settings_general_restart_confirm_description": {
+        "message": "서비스가 다시 준비될 때까지 Phi의 AI 기능이 작동하지 않아요. 보통 1분 안에 끝나요."
+    },
+    "settings_general_restart_confirm_title": {
+        "message": "백그라운드 서비스를 다시 시작할까요?"
+    },
+    "settings_general_restart_description": {
+        "message": "모든 백그라운드 서비스를 중지했다가 다시 시작해요. AI 기능이 잠시 멈춰요."
+    },
+    "settings_general_restart_done": {
+        "message": "백그라운드 서비스를 다시 시작했어요"
+    },
+    "settings_general_restart_failed": {
+        "message": "백그라운드 서비스를 다시 시작하지 못했어요"
+    },
+    "settings_general_restart_label": {
+        "message": "백그라운드 서비스 다시 시작"
+    },
+    "settings_general_restart_progress_description": {
+        "message": "보통 1분이 채 걸리지 않아요. 완료될 때까지 이 창을 닫지 마세요."
+    },
+    "settings_general_restart_progress_title": {
+        "message": "백그라운드 서비스 다시 시작하는 중"
+    },
+    "settings_general_status": {
+        "message": "상태"
+    },
+    "settings_general_status_attention": {
+        "message": "확인 필요"
+    },
+    "settings_general_status_checking": {
+        "message": "확인 중…"
+    },
+    "settings_general_status_offline": {
+        "message": "실행되지 않음"
+    },
+    "settings_general_status_running": {
+        "message": "정상 실행 중"
+    },
+    "settings_general_status_unavailable": {
+        "message": "연결할 수 없음"
+    },
+    "settings_general_version": {
+        "message": "버전"
+    },
+    "settings_general_version_pending": {
+        "message": "{{version}} 버전이 설치되어 있어요. 백그라운드 서비스를 다시 시작하면 적용돼요."
+    },
+    "settings_logs_advanced_prompt": {
+        "message": "로그를 직접 확인하고 싶으신가요?"
+    },
+    "settings_logs_description": {
+        "message": "문제가 있으면 로그를 저장해 Phi 지원팀에 보내 주세요."
+    },
+    "settings_logs_diagnostic": {
+        "message": "진단 로그"
+    },
+    "settings_logs_diagnostic_description": {
+        "message": "백그라운드 서비스와 각 서비스의 최근 활동을 ZIP 파일로 다운로드 폴더에 저장해요."
+    },
+    "settings_logs_save": {
+        "message": "저장"
+    },
+    "settings_logs_save_failed": {
+        "message": "진단 로그를 저장하지 못했어요"
+    },
+    "settings_logs_saved": {
+        "message": "진단 로그를 다운로드 폴더에 저장했어요"
+    },
+    "settings_nav_advanced": {
+        "message": "고급 설정"
+    },
+    "settings_nav_advanced_label": {
+        "message": "고급 설정 섹션"
+    },
+    "settings_nav_back_to_settings": {
+        "message": "설정으로 돌아가기"
+    },
+    "settings_nav_backup": {
+        "message": "백업 및 업데이트"
+    },
+    "settings_nav_general": {
+        "message": "일반"
+    },
+    "settings_nav_label": {
+        "message": "설정 섹션"
+    },
+    "settings_nav_logs": {
+        "message": "로그"
+    },
+    "settings_nav_private_ai": {
+        "message": "프라이빗 AI"
+    },
+    "settings_nav_providers": {
+        "message": "AI 제공자"
+    },
+    "settings_nav_services": {
+        "message": "서비스"
+    },
+    "settings_private_ai_approx_minutes": {
+        "message": "약 {{count}}분"
+    },
+    "settings_private_ai_approx_seconds": {
+        "message": "약 {{count}}초"
+    },
+    "settings_private_ai_attention": {
+        "message": "확인 필요"
+    },
+    "settings_private_ai_checking": {
+        "message": "확인 중…"
+    },
+    "settings_private_ai_codex_tip_description": {
+        "message": "기존 Codex 로그인을 AI 제공자로 사용할 수 있어요."
+    },
+    "settings_private_ai_codex_tip_dismiss": {
+        "message": "Codex 팁 닫기"
+    },
+    "settings_private_ai_codex_tip_open": {
+        "message": "열기"
+    },
+    "settings_private_ai_codex_tip_title": {
+        "message": "Codex를 사용할 수 있어요"
+    },
+    "settings_private_ai_fallback_notice": {
+        "message": "로컬 AI 소스가 응답하지 않아요. 영향을 받은 작업은 일시적으로 Phi Cloud로 전환됐어요."
+    },
+    "settings_private_ai_fallback_notice_paused": {
+        "message": "로컬 AI 소스가 응답하지 않아요. 영향을 받은 작업은 다시 응답할 때까지 일시 중지돼요."
+    },
+    "settings_private_ai_hardware_hint": {
+        "message": "16GB 이상의 RAM을 갖춘 Apple Silicon Mac에서 가장 잘 작동해요. 설정 과정에서 기기를 자동으로 확인해요."
+    },
+    "settings_private_ai_label": {
+        "message": "프라이빗 AI"
+    },
+    "settings_private_ai_load_failed": {
+        "message": "프라이빗 AI 상태를 읽지 못했어요"
+    },
+    "settings_private_ai_local_runtime": {
+        "message": "로컬 런타임"
+    },
+    "settings_private_ai_not_set_up": {
+        "message": "현재 모든 AI 기능이 Phi Cloud에서 실행되고 있어요. 스위치를 켜면 설정을 시작할 수 있어요."
+    },
+    "settings_private_ai_on": {
+        "message": "프라이빗 AI 켜짐"
+    },
+    "settings_private_ai_page_description": {
+        "message": "내 Mac에서 또는 직접 선택한 제공자로 AI를 실행해요. 데이터는 내 곁을 떠나지 않아요."
+    },
+    "settings_private_ai_providers_prompt": {
+        "message": "내 AI 서비스를 사용하고 싶으신가요?"
+    },
+    "settings_private_ai_restart_local": {
+        "message": "로컬 서비스 다시 시작"
+    },
+    "settings_private_ai_routing_apple_available": {
+        "message": "Apple Intelligence · 사용 가능"
+    },
+    "settings_private_ai_routing_apple_description": {
+        "message": "macOS가 자동으로 관리해요."
+    },
+    "settings_private_ai_routing_apple_label": {
+        "message": "AI 탭 정리"
+    },
+    "settings_private_ai_routing_apple_unavailable": {
+        "message": "Apple Intelligence · 사용 불가"
+    },
+    "settings_private_ai_routing_checked": {
+        "message": "소스 선택됨"
+    },
+    "settings_private_ai_routing_failed": {
+        "message": "소스 오류: {{error}}"
+    },
+    "settings_private_ai_routing_off_hint": {
+        "message": "프라이빗 AI가 켜져 있을 때 사용돼요."
+    },
+    "settings_private_ai_routing_policy_cloud": {
+        "message": "Phi Cloud로 자동 전환(기본값)"
+    },
+    "settings_private_ai_routing_policy_label": {
+        "message": "로컬 또는 자체 호스팅 소스를 사용할 수 없을 때"
+    },
+    "settings_private_ai_routing_policy_pause": {
+        "message": "영향받는 AI 기능 일시 중지(클라우드로 데이터를 절대 보내지 않음)"
+    },
+    "settings_private_ai_routing_select": {
+        "message": "{{task}} 소스 선택"
+    },
+    "settings_private_ai_routing_test_failed": {
+        "message": "{{purpose}} 모델 테스트에 실패했어요. 이전 소스로 되돌렸어요."
+    },
+    "settings_private_ai_routing_unavailable": {
+        "message": "사용할 수 없음"
+    },
+    "settings_private_ai_routing_vision_description": {
+        "message": "선택한 모델이 이미지를 처리할 수 없을 때만 사용돼요."
+    },
+    "settings_private_ai_routing_vision_label": {
+        "message": "비전 대체 모델"
+    },
+    "settings_private_ai_routing_vision_none": {
+        "message": "설정되지 않음"
+    },
+    "settings_private_ai_setting_up": {
+        "message": "설정하는 중…"
+    },
+    "settings_private_ai_setting_up_description": {
+        "message": "설정이 완료될 때까지 AI 기능은 Phi Cloud를 계속 사용해요."
+    },
+    "settings_private_ai_setup_cancel": {
+        "message": "취소"
+    },
+    "settings_private_ai_setup_check_again": {
+        "message": "다시 확인"
+    },
+    "settings_private_ai_setup_checking": {
+        "message": "기기 확인 중…"
+    },
+    "settings_private_ai_setup_done": {
+        "message": "프라이빗 AI가 켜졌어요"
+    },
+    "settings_private_ai_setup_done_action": {
+        "message": "완료"
+    },
+    "settings_private_ai_setup_eligible": {
+        "message": "이 Mac에서 프라이빗 AI를 로컬로 실행할 수 있어요"
+    },
+    "settings_private_ai_setup_failed": {
+        "message": "{{stage}} 중 설정에 실패했어요."
+    },
+    "settings_private_ai_setup_free_disk": {
+        "message": "디스크 여유 공간"
+    },
+    "settings_private_ai_setup_local_tasks": {
+        "message": "이 Mac에서 실행: {{tasks}}. 다른 AI 작업은 Phi Cloud에서 계속 처리돼요."
+    },
+    "settings_private_ai_setup_memory": {
+        "message": "메모리"
+    },
+    "settings_private_ai_setup_minimize": {
+        "message": "최소화"
+    },
+    "settings_private_ai_setup_plan_failed": {
+        "message": "이 Mac을 확인하지 못했어요"
+    },
+    "settings_private_ai_setup_reasons_disk": {
+        "message": "로컬 모델을 실행하려면 디스크 여유 공간이 10GB 이상 필요해요."
+    },
+    "settings_private_ai_setup_reasons_memory": {
+        "message": "로컬 모델을 실행하려면 메모리가 16GB 이상 필요해요."
+    },
+    "settings_private_ai_setup_reasons_no_embedding_model": {
+        "message": "모델 인덱스에 사용할 수 있는 임베딩 모델이 없어요."
+    },
+    "settings_private_ai_setup_reasons_no_local_model": {
+        "message": "모델 인덱스에 사용할 수 있는 로컬 모델이 없어요."
+    },
+    "settings_private_ai_setup_reasons_probe_failed": {
+        "message": "이 Mac을 확인하지 못했어요. 다시 시도하거나 Phi Cloud를 계속 사용하세요."
+    },
+    "settings_private_ai_setup_retry": {
+        "message": "다시 시도"
+    },
+    "settings_private_ai_setup_routes_kept": {
+        "message": "기존 작업 할당은 그대로 유지돼요."
+    },
+    "settings_private_ai_setup_show_details": {
+        "message": "세부정보 보기"
+    },
+    "settings_private_ai_setup_size": {
+        "message": "{{downloadSize}} 다운로드 · 실행 중 약 {{memorySize}}의 메모리를 사용해요."
+    },
+    "settings_private_ai_setup_stage_models": {
+        "message": "모델 다운로드 중…"
+    },
+    "settings_private_ai_setup_stage_name_models": {
+        "message": "모델 다운로드"
+    },
+    "settings_private_ai_setup_stage_name_runtime": {
+        "message": "로컬 런타임 설치"
+    },
+    "settings_private_ai_setup_stage_name_starting": {
+        "message": "로컬 모델 시작"
+    },
+    "settings_private_ai_setup_stage_name_verifying": {
+        "message": "검증"
+    },
+    "settings_private_ai_setup_stage_runtime": {
+        "message": "로컬 런타임 설치 중…"
+    },
+    "settings_private_ai_setup_stage_starting": {
+        "message": "로컬 모델 시작 중…"
+    },
+    "settings_private_ai_setup_stage_verifying": {
+        "message": "검증 중…"
+    },
+    "settings_private_ai_setup_start": {
+        "message": "설정 시작"
+    },
+    "settings_private_ai_setup_step_models": {
+        "message": "모델 다운로드"
+    },
+    "settings_private_ai_setup_step_runtime": {
+        "message": "런타임 설치"
+    },
+    "settings_private_ai_setup_step_starting": {
+        "message": "로컬 모델 시작"
+    },
+    "settings_private_ai_setup_step_verifying": {
+        "message": "검증"
+    },
+    "settings_private_ai_setup_title": {
+        "message": "프라이빗 AI 설정하기"
+    },
+    "settings_private_ai_setup_unavailable": {
+        "message": "이 Mac에서는 프라이빗 AI를 사용할 수 없어요"
+    },
+    "settings_private_ai_setup_use_own": {
+        "message": "내 AI 서비스 사용"
+    },
+    "settings_private_ai_source_cloud": {
+        "message": "Phi Cloud"
+    },
+    "settings_private_ai_source_local": {
+        "message": "{{model}} · 이 Mac에서 실행"
+    },
+    "settings_private_ai_source_provider": {
+        "message": "{{provider}} · 내 제공자"
+    },
+    "settings_private_ai_source_unavailable": {
+        "message": "{{source}} · 사용 불가"
+    },
+    "settings_private_ai_starting": {
+        "message": "프라이빗 AI 시작 중…"
+    },
+    "settings_private_ai_starting_description": {
+        "message": "로컬 AI를 준비하고 있어요. 실행될 때까지 AI 기능은 Phi Cloud를 사용해요."
+    },
+    "settings_private_ai_summary": {
+        "message": "AI 작업 {{total}}개 중 {{count}}개를 프라이빗 AI로 실행 중"
+    },
+    "settings_private_ai_summary_attention": {
+        "message": "사용할 수 없는 AI 작업 소스: {{count}}개"
+    },
+    "settings_private_ai_tasks_chat_description": {
+        "message": "채팅 패널의 답변"
+    },
+    "settings_private_ai_tasks_chat_label": {
+        "message": "채팅"
+    },
+    "settings_private_ai_tasks_data_search_description": {
+        "message": "연결된 데이터 검색"
+    },
+    "settings_private_ai_tasks_data_search_label": {
+        "message": "데이터 검색"
+    },
+    "settings_private_ai_tasks_memory_description": {
+        "message": "브라우징 메모리와 요약"
+    },
+    "settings_private_ai_tasks_memory_label": {
+        "message": "메모리"
+    },
+    "settings_private_ai_tasks_title": {
+        "message": "AI 작업"
+    },
+    "settings_private_ai_tasks_web_tasks_description": {
+        "message": "에이전트 자동화"
+    },
+    "settings_private_ai_tasks_web_tasks_label": {
+        "message": "웹 작업"
+    },
+    "settings_private_ai_toast_cancel_failed": {
+        "message": "설정을 취소하지 못했어요"
+    },
+    "settings_private_ai_toast_disable_failed": {
+        "message": "프라이빗 AI를 끄지 못했어요. 다시 시도해 주세요."
+    },
+    "settings_private_ai_toast_enable_failed": {
+        "message": "프라이빗 AI를 켜지 못했어요"
+    },
+    "settings_private_ai_toast_restart_failed": {
+        "message": "로컬 AI를 재시작하지 못했어요. 다시 시도해 주세요."
+    },
+    "settings_private_ai_toast_save_failed": {
+        "message": "변경 사항을 저장하지 못했어요"
+    },
+    "settings_private_ai_toast_start_failed": {
+        "message": "설정을 시작하지 못했어요"
+    },
+    "settings_private_ai_toggle": {
+        "message": "프라이빗 AI 켜기/끄기"
+    },
+    "settings_providers_about_custom": {
+        "message": "모든 OpenAI 호환 엔드포인트를 사용할 수 있어요."
+    },
+    "settings_providers_about_lm_studio": {
+        "message": "로컬 LM Studio OpenAI 호환 서버예요."
+    },
+    "settings_providers_about_ollama": {
+        "message": "이 Mac 또는 LAN의 로컬 Ollama 모델이에요."
+    },
+    "settings_providers_about_openai": {
+        "message": "GPT 및 추론 모델 계열을 포함한 OpenAI 모델이에요."
+    },
+    "settings_providers_about_openrouter": {
+        "message": "OpenRouter 통합 API로 수백 개의 AI 모델에 접근할 수 있어요."
+    },
+    "settings_providers_access": {
+        "message": "모델 액세스"
+    },
+    "settings_providers_add": {
+        "message": "사용자 지정 제공자 추가"
+    },
+    "settings_providers_add_action": {
+        "message": "제공자 추가"
+    },
+    "settings_providers_add_description": {
+        "message": "다른 OpenAI 호환 서비스를 추가하세요. 로컬 서비스는 Responses를 사용할 수 없을 때 Chat Completions로 대체할 수 있어요."
+    },
+    "settings_providers_all_models": {
+        "message": "모든 모델 허용"
+    },
+    "settings_providers_all_models_description": {
+        "message": "이 제공자의 모든 모델을 사용할 수 있어요."
+    },
+    "settings_providers_allow_model": {
+        "message": "{{model}} 모델 허용"
+    },
+    "settings_providers_api_key": {
+        "message": "API 키"
+    },
+    "settings_providers_api_key_optional": {
+        "message": "API 키 (선택 사항)"
+    },
+    "settings_providers_apple_description": {
+        "message": "AI 탭 정리를 위해 macOS가 관리해요."
+    },
+    "settings_providers_base_url": {
+        "message": "Base URL"
+    },
+    "settings_providers_built_in": {
+        "message": "기본 제공"
+    },
+    "settings_providers_cancel": {
+        "message": "취소"
+    },
+    "settings_providers_codex_about": {
+        "message": "Codex로 이미 로그인된 ChatGPT 구독을 사용해요."
+    },
+    "settings_providers_codex_action_failed": {
+        "message": "Codex 작업 실패"
+    },
+    "settings_providers_codex_advanced": {
+        "message": "고급"
+    },
+    "settings_providers_codex_check_again": {
+        "message": "다시 확인"
+    },
+    "settings_providers_codex_confirm_account": {
+        "message": "계정 확인"
+    },
+    "settings_providers_codex_connect": {
+        "message": "연결"
+    },
+    "settings_providers_codex_disconnect": {
+        "message": "연결 해제"
+    },
+    "settings_providers_codex_disconnect_blocked": {
+        "message": "아직 {{tasks}}에서 사용 중이에요. 연결을 해제하기 전에 해당 작업의 소스를 다른 것으로 바꿔 주세요."
+    },
+    "settings_providers_codex_effort_default": {
+        "message": "기본값 ({{effort}})"
+    },
+    "settings_providers_codex_effort_for": {
+        "message": "{{model}} 추론 강도"
+    },
+    "settings_providers_codex_effort_model_default": {
+        "message": "모델 기본값"
+    },
+    "settings_providers_codex_home_hint": {
+        "message": "비워 두면 기본 Codex 홈 디렉터리를 사용해요."
+    },
+    "settings_providers_codex_login_hint": {
+        "message": "Phi는 Codex가 이미 관리하는 로그인을 사용하고, 연결할 때 작은 요청 하나로 확인해요. 아직 로그인하지 않았다면 먼저 터미널에서 {{command}} 명령을 실행해 주세요."
+    },
+    "settings_providers_codex_models": {
+        "message": "사용 가능한 모델"
+    },
+    "settings_providers_codex_models_origin": {
+        "message": "Codex 모델 카탈로그에서 불러왔어요."
+    },
+    "settings_providers_codex_retest": {
+        "message": "다시 테스트"
+    },
+    "settings_providers_codex_state_account_changed": {
+        "message": "확인 필요"
+    },
+    "settings_providers_codex_state_keychain_unsupported": {
+        "message": "파일 로그인 필요"
+    },
+    "settings_providers_codex_state_login_not_found": {
+        "message": "로그인 필요"
+    },
+    "settings_providers_codex_state_needs_attention": {
+        "message": "확인 필요"
+    },
+    "settings_providers_codex_state_not_installed": {
+        "message": "설치되지 않음"
+    },
+    "settings_providers_codex_state_ready": {
+        "message": "사용 가능"
+    },
+    "settings_providers_codex_summary_account_changed": {
+        "message": "Codex 로그인이 변경됐어요. 새 계정을 확인할 때까지 요청이 일시 중지돼요."
+    },
+    "settings_providers_codex_summary_connected": {
+        "message": "로컬 AI 게이트웨이를 통해 호환되는 모델 {{count}}개를 사용할 수 있어요."
+    },
+    "settings_providers_codex_summary_keychain_unsupported": {
+        "message": "이 Codex 로그인은 키체인에 저장되어 있어서 Phi가 읽을 수 없어요."
+    },
+    "settings_providers_codex_summary_login_not_found": {
+        "message": "Codex가 설치돼 있지만 파일 기반 로그인을 찾지 못했어요."
+    },
+    "settings_providers_codex_summary_needs_attention": {
+        "message": "마지막 연결 확인에 실패했어요. 기존 경로는 그대로 유지되며 자동으로 대체되지 않아요."
+    },
+    "settings_providers_codex_summary_not_installed": {
+        "message": "Codex 구독을 사용하려면 이 Mac에 Codex를 설치해 주세요."
+    },
+    "settings_providers_codex_summary_ready": {
+        "message": "Codex 로그인을 감지했어요. 자격 증명을 복사하지 않고 바로 연결할 수 있어요."
+    },
+    "settings_providers_codex_text": {
+        "message": "텍스트"
+    },
+    "settings_providers_codex_text_image": {
+        "message": "텍스트 + 이미지"
+    },
+    "settings_providers_codex_title": {
+        "message": "Codex"
+    },
+    "settings_providers_connection": {
+        "message": "연결"
+    },
+    "settings_providers_description": {
+        "message": "직접 연결한 AI 서비스와 Phi에 기본 제공되는 AI 서비스예요."
+    },
+    "settings_providers_discard": {
+        "message": "변경 사항 버리기"
+    },
+    "settings_providers_endpoint_not_set": {
+        "message": "엔드포인트 미설정"
+    },
+    "settings_providers_endpoint_with_models": {
+        "message": "{{endpoint}} · 모델 {{count}}개"
+    },
+    "settings_providers_https_hint": {
+        "message": "클라우드 제공자는 HTTPS를 사용해야 해요."
+    },
+    "settings_providers_id": {
+        "message": "제공자 ID"
+    },
+    "settings_providers_id_fixed": {
+        "message": "이 제공자의 ID는 고정되어 있어요."
+    },
+    "settings_providers_id_taken": {
+        "message": "이 ID를 사용하는 제공자가 이미 있어요."
+    },
+    "settings_providers_keep_editing": {
+        "message": "계속 편집하기"
+    },
+    "settings_providers_leave_description": {
+        "message": "이 제공자의 변경 사항이 저장되지 않았어요."
+    },
+    "settings_providers_leave_title": {
+        "message": "저장되지 않은 제공자 변경 사항"
+    },
+    "settings_providers_load": {
+        "message": "불러오기"
+    },
+    "settings_providers_loaded": {
+        "message": "모델: {{count}}개 · {{latency}} ms"
+    },
+    "settings_providers_loading": {
+        "message": "모델 불러오는 중…"
+    },
+    "settings_providers_local_about": {
+        "message": "이 Mac에 다운로드된 모델이에요. 처리하는 내용은 이 Mac 밖으로 나가지 않아요."
+    },
+    "settings_providers_local_failed_chat": {
+        "message": "로컬 채팅 모델을 시작하지 못했어요."
+    },
+    "settings_providers_local_failed_embedding": {
+        "message": "커넥터 인덱싱을 시작하지 못했어요."
+    },
+    "settings_providers_local_failed_memory": {
+        "message": "로컬 메모리 모델을 시작하지 못했어요."
+    },
+    "settings_providers_local_hint": {
+        "message": "로컬 및 사설 네트워크 엔드포인트를 사용할 수 있어요."
+    },
+    "settings_providers_local_role_configured": {
+        "message": "구성됨"
+    },
+    "settings_providers_local_role_off": {
+        "message": "꺼짐"
+    },
+    "settings_providers_local_role_ready": {
+        "message": "준비됨"
+    },
+    "settings_providers_local_role_unused": {
+        "message": "사용 안 함"
+    },
+    "settings_providers_local_role_unused_chat": {
+        "message": "별도의 채팅 모델이 없어요."
+    },
+    "settings_providers_local_role_unused_other": {
+        "message": "로컬 모델이 없어요."
+    },
+    "settings_providers_local_role_used_for": {
+        "message": "{{tasks}}에 사용"
+    },
+    "settings_providers_local_runtime": {
+        "message": "런타임"
+    },
+    "settings_providers_local_state_attention": {
+        "message": "확인 필요"
+    },
+    "settings_providers_local_state_not_set_up": {
+        "message": "설정되지 않음"
+    },
+    "settings_providers_local_state_starting": {
+        "message": "시작 중"
+    },
+    "settings_providers_local_state_unsupported": {
+        "message": "지원되지 않음"
+    },
+    "settings_providers_local_summary_attention": {
+        "message": "응답하지 않는 로컬 모델이 있어요. 로컬 서비스를 다시 시작하거나 로그를 확인해 주세요."
+    },
+    "settings_providers_local_summary_not_set_up": {
+        "message": "프라이빗 AI를 설정하면 모델을 다운로드해서 이 Mac에서 실행할 수 있어요."
+    },
+    "settings_providers_local_summary_off": {
+        "message": "로컬 런타임이 중지되어 있어요. 다운로드한 모델은 이 Mac에 그대로 남아 있어요."
+    },
+    "settings_providers_local_summary_on": {
+        "message": "실행 중: {{total}}개 중 {{count}}개"
+    },
+    "settings_providers_local_summary_unavailable": {
+        "message": "로컬 런타임 상태를 읽지 못했어요."
+    },
+    "settings_providers_local_summary_unsupported": {
+        "message": "Apple Silicon이 필요해요."
+    },
+    "settings_providers_local_switch_failed": {
+        "message": "로컬 런타임을 켜거나 끄지 못했어요"
+    },
+    "settings_providers_local_title": {
+        "message": "로컬 모델"
+    },
+    "settings_providers_local_turn_off": {
+        "message": "비활성화"
+    },
+    "settings_providers_local_turn_on": {
+        "message": "활성화"
+    },
+    "settings_providers_local_update": {
+        "message": "업데이트"
+    },
+    "settings_providers_local_update_failed": {
+        "message": "런타임 설치 실패"
+    },
+    "settings_providers_local_version": {
+        "message": "버전 {{version}}"
+    },
+    "settings_providers_local_version_with_update": {
+        "message": "버전 {{installedVersion}} · {{availableVersion}} 사용 가능"
+    },
+    "settings_providers_local_view_logs": {
+        "message": "로그 보기"
+    },
+    "settings_providers_models": {
+        "message": "모델"
+    },
+    "settings_providers_models_empty": {
+        "message": "이 제공자에서 모델을 불러온 다음, Phi가 사용할 모델을 선택해 주세요."
+    },
+    "settings_providers_name": {
+        "message": "제공자 이름"
+    },
+    "settings_providers_name_placeholder": {
+        "message": "내 커스텀 제공업체"
+    },
+    "settings_providers_not_found": {
+        "message": "이 제공자는 더 이상 존재하지 않아요."
+    },
+    "settings_providers_not_ready": {
+        "message": "준비되지 않음"
+    },
+    "settings_providers_off": {
+        "message": "꺼짐"
+    },
+    "settings_providers_on": {
+        "message": "켜짐"
+    },
+    "settings_providers_phi_description": {
+        "message": "Phi에 포함되어 있고 Phi 로그인을 사용해요. API 키가 필요 없어요."
+    },
+    "settings_providers_problem_api_key": {
+        "message": "API 키를 입력해 주세요."
+    },
+    "settings_providers_problem_base_url": {
+        "message": "Base URL을 입력해 주세요."
+    },
+    "settings_providers_problem_https": {
+        "message": "클라우드 제공자는 HTTPS를 사용해야 해요."
+    },
+    "settings_providers_problem_select_model": {
+        "message": "모델을 하나 이상 선택해 주세요."
+    },
+    "settings_providers_raw_list": {
+        "message": "모델 허용 목록(직접 입력)"
+    },
+    "settings_providers_raw_list_placeholder": {
+        "message": "비워 두면 제공업체의 모든 모델을 허용해요"
+    },
+    "settings_providers_remove": {
+        "message": "제공자 제거"
+    },
+    "settings_providers_remove_description": {
+        "message": "이 제공자를 사용하는 AI 작업은 Phi Cloud로 돌아가요."
+    },
+    "settings_providers_remove_title": {
+        "message": "{{name}} 제공자를 제거할까요?"
+    },
+    "settings_providers_save": {
+        "message": "변경 사항 저장"
+    },
+    "settings_providers_scope": {
+        "message": "범위"
+    },
+    "settings_providers_scope_cloud": {
+        "message": "클라우드"
+    },
+    "settings_providers_scope_local": {
+        "message": "로컬"
+    },
+    "settings_providers_search": {
+        "message": "모델 검색…"
+    },
+    "settings_providers_select_model": {
+        "message": "모델을 하나 이상 선택해 주세요."
+    },
+    "settings_providers_selected_count": {
+        "message": "모델 {{count}}개 선택됨"
+    },
+    "settings_providers_selected_models": {
+        "message": "선택한 모델만"
+    },
+    "settings_providers_test": {
+        "message": "테스트"
+    },
+    "settings_providers_test_failed": {
+        "message": "{{model}} 실패: {{error}}"
+    },
+    "settings_providers_test_hint": {
+        "message": "먼저 모델을 불러와 주세요."
+    },
+    "settings_providers_test_passed": {
+        "message": "연결 성공: {{model}} · {{latency}} ms"
+    },
+    "settings_providers_test_placeholder": {
+        "message": "테스트할 활성화된 모델 선택"
+    },
+    "settings_providers_testing": {
+        "message": "{{model}} 테스트 중…"
+    },
+    "settings_providers_title": {
+        "message": "AI 제공자"
+    },
+    "settings_providers_unsaved": {
+        "message": "저장되지 않은 변경 사항"
+    },
+    "settings_providers_use": {
+        "message": "이 제공자 사용"
+    },
+    "settings_providers_yours": {
+        "message": "내 제공자"
+    },
+    "settings_service_state_crashed": {
+        "message": "비정상 종료됨"
+    },
+    "settings_service_state_disabled": {
+        "message": "꺼짐"
+    },
+    "settings_service_state_pending": {
+        "message": "대기 중"
+    },
+    "settings_service_state_running": {
+        "message": "실행 중"
+    },
+    "settings_service_state_starting": {
+        "message": "시작 중"
+    },
+    "settings_service_state_stopped": {
+        "message": "중지됨"
+    },
+    "settings_service_state_stopping": {
+        "message": "중지 중"
+    },
+    "settings_service_state_unhealthy": {
+        "message": "비정상"
+    },
+    "settings_service_state_unknown": {
+        "message": "알 수 없음"
+    },
+    "settings_services_advanced_prompt": {
+        "message": "프로세스 세부정보를 보거나 서비스를 시작·중지해야 하나요?"
+    },
+    "settings_services_description": {
+        "message": "Phi는 AI 기능을 계속 사용할 수 있도록 이 서비스들을 백그라운드에서 실행해요."
+    },
+    "settings_services_group_services": {
+        "message": "백그라운드 서비스"
+    },
+    "settings_services_no_services": {
+        "message": "등록된 서비스가 없어요"
+    },
+    "settings_services_restarting": {
+        "message": "백그라운드 서비스를 다시 시작하고 있어요. 몇 초 정도 걸려요."
+    },
+    "settings_services_retry": {
+        "message": "다시 시도"
+    },
+    "settings_services_summary_attention_title": {
+        "message": "일부 서비스에 확인이 필요해요"
+    },
+    "settings_services_summary_counts": {
+        "message": "서비스 {{total}}개 중 {{running}}개 실행 중"
+    },
+    "settings_services_summary_healthy_title": {
+        "message": "모두 정상 작동 중이에요"
+    },
+    "settings_services_summary_loading": {
+        "message": "서비스 확인 중…"
+    },
+    "settings_services_summary_offline_description": {
+        "message": "다시 시작될 때까지 이 서비스에 의존하는 AI 기능을 사용할 수 없어요."
+    },
+    "settings_services_summary_offline_title": {
+        "message": "백그라운드 서비스가 실행되고 있지 않아요"
+    },
+    "settings_services_summary_unavailable_description": {
+        "message": "Phi가 서비스 상태를 읽지 못했어요. 잠시 후 다시 시도해 주세요."
+    },
+    "settings_services_summary_unavailable_title": {
+        "message": "백그라운드 서비스에 연결할 수 없어요"
     },
     "shadow_tasks_artifacts_empty": {
         "message": "아티팩트가 없어요"
@@ -2872,6 +4285,699 @@
     },
     "skills_title": {
         "message": "스킬"
+    },
+    "tasks_page_common_actions": {
+        "message": "동작"
+    },
+    "tasks_page_common_artifacts": {
+        "message": "아티팩트 ({{count}})"
+    },
+    "tasks_page_common_back": {
+        "message": "뒤로"
+    },
+    "tasks_page_common_cancel": {
+        "message": "취소"
+    },
+    "tasks_page_common_duration": {
+        "message": "소요 시간"
+    },
+    "tasks_page_common_error": {
+        "message": "오류"
+    },
+    "tasks_page_common_loading": {
+        "message": "불러오는 중…"
+    },
+    "tasks_page_common_ok": {
+        "message": "정상"
+    },
+    "tasks_page_common_ready": {
+        "message": "준비됨"
+    },
+    "tasks_page_common_refresh": {
+        "message": "새로고침"
+    },
+    "tasks_page_common_result": {
+        "message": "결과"
+    },
+    "tasks_page_common_retry": {
+        "message": "다시 시도"
+    },
+    "tasks_page_common_schedule": {
+        "message": "일정"
+    },
+    "tasks_page_common_started": {
+        "message": "시작 시간"
+    },
+    "tasks_page_common_started_at": {
+        "message": "시작: {{date}}"
+    },
+    "tasks_page_common_state": {
+        "message": "상태"
+    },
+    "tasks_page_common_status": {
+        "message": "상태"
+    },
+    "tasks_page_detail_accessible_label_cancel_current_run": {
+        "message": "현재 실행 중단"
+    },
+    "tasks_page_detail_action_cancel_run": {
+        "message": "실행 중단"
+    },
+    "tasks_page_detail_action_copy": {
+        "message": "복사"
+    },
+    "tasks_page_detail_description_no_linked_schedules": {
+        "message": "이 작업에 연결된 스케줄이 없어요."
+    },
+    "tasks_page_detail_description_no_result_text_available": {
+        "message": "표시할 결과 텍스트가 없어요."
+    },
+    "tasks_page_detail_description_no_run_logs": {
+        "message": "이 실행에 대한 로그가 없어요."
+    },
+    "tasks_page_detail_description_no_runs_yet": {
+        "message": "아직 실행된 적이 없어요."
+    },
+    "tasks_page_detail_field_label_cadence": {
+        "message": "주기"
+    },
+    "tasks_page_detail_field_label_last_run": {
+        "message": "마지막 실행"
+    },
+    "tasks_page_detail_field_label_last_trigger": {
+        "message": "마지막 트리거"
+    },
+    "tasks_page_detail_field_label_latest_run": {
+        "message": "최근 실행"
+    },
+    "tasks_page_detail_field_label_next_run": {
+        "message": "다음 실행"
+    },
+    "tasks_page_detail_field_label_objective": {
+        "message": "목표"
+    },
+    "tasks_page_detail_field_label_run_id": {
+        "message": "실행 ID"
+    },
+    "tasks_page_detail_field_label_schedule_id": {
+        "message": "스케줄 ID"
+    },
+    "tasks_page_detail_field_label_task_id": {
+        "message": "작업 ID"
+    },
+    "tasks_page_detail_field_label_task_status": {
+        "message": "작업 상태"
+    },
+    "tasks_page_detail_field_label_title": {
+        "message": "제목"
+    },
+    "tasks_page_detail_label_failed_to_load_task_detail": {
+        "message": "작업 세부정보를 불러오지 못했어요."
+    },
+    "tasks_page_detail_label_file_artifact": {
+        "message": "파일"
+    },
+    "tasks_page_detail_label_generic_artifact": {
+        "message": "결과물"
+    },
+    "tasks_page_detail_label_hide_run_details": {
+        "message": "실행 세부정보 숨기기"
+    },
+    "tasks_page_detail_label_image_artifact": {
+        "message": "이미지"
+    },
+    "tasks_page_detail_label_load_failure": {
+        "message": "예약 작업 세부정보를 불러오지 못했어요."
+    },
+    "tasks_page_detail_label_loading_run_detail": {
+        "message": "실행 세부정보 불러오는 중…"
+    },
+    "tasks_page_detail_label_logs": {
+        "message": "로그"
+    },
+    "tasks_page_detail_label_run_detail_unavailable": {
+        "message": "실행 세부정보를 불러올 수 없어요."
+    },
+    "tasks_page_detail_label_task_unavailable": {
+        "message": "작업을 불러올 수 없음"
+    },
+    "tasks_page_detail_label_unnamed_artifact": {
+        "message": "이름 없는 결과물"
+    },
+    "tasks_page_detail_label_video_artifact": {
+        "message": "동영상"
+    },
+    "tasks_page_detail_label_view_details": {
+        "message": "세부정보 보기"
+    },
+    "tasks_page_detail_label_view_run_details": {
+        "message": "실행 세부정보 보기"
+    },
+    "tasks_page_detail_title_recent_runs": {
+        "message": "최근 실행"
+    },
+    "tasks_page_detail_title_run_detail": {
+        "message": "실행 세부정보"
+    },
+    "tasks_page_detail_title_task": {
+        "message": "작업"
+    },
+    "tasks_page_list_accessible_label_create_task": {
+        "message": "작업 만들기"
+    },
+    "tasks_page_list_accessible_label_delete_named_schedule": {
+        "message": "{{schedule}} 삭제"
+    },
+    "tasks_page_list_accessible_label_delete_named_task": {
+        "message": "{{task}} 삭제"
+    },
+    "tasks_page_list_accessible_label_edit_named_schedule": {
+        "message": "{{schedule}} 편집"
+    },
+    "tasks_page_list_accessible_label_edit_named_task": {
+        "message": "{{task}} 편집"
+    },
+    "tasks_page_list_accessible_label_filter_runs_by_task": {
+        "message": "작업별 실행 필터링"
+    },
+    "tasks_page_list_accessible_label_manage_task_schedules": {
+        "message": "{{task}}의 일정 관리"
+    },
+    "tasks_page_list_accessible_label_manual": {
+        "message": "수동"
+    },
+    "tasks_page_list_accessible_label_optional_details": {
+        "message": "추가 세부정보"
+    },
+    "tasks_page_list_accessible_label_pause_named_schedule": {
+        "message": "{{schedule}} 일시 중지"
+    },
+    "tasks_page_list_accessible_label_resume_named_schedule": {
+        "message": "{{schedule}} 재개"
+    },
+    "tasks_page_list_accessible_label_run_named_schedule": {
+        "message": "{{schedule}} 지금 실행"
+    },
+    "tasks_page_list_accessible_label_scheduled": {
+        "message": "예약"
+    },
+    "tasks_page_list_action_delete": {
+        "message": "삭제"
+    },
+    "tasks_page_list_action_delete_schedule": {
+        "message": "일정 삭제"
+    },
+    "tasks_page_list_action_delete_task": {
+        "message": "작업 삭제"
+    },
+    "tasks_page_list_action_manage_schedules": {
+        "message": "일정 관리"
+    },
+    "tasks_page_list_action_save_settings": {
+        "message": "설정 저장"
+    },
+    "tasks_page_list_action_save_task": {
+        "message": "작업 저장"
+    },
+    "tasks_page_list_action_show_all_schedules": {
+        "message": "모든 일정 표시"
+    },
+    "tasks_page_list_description_active_run_settings": {
+        "message": "Phi Agent가 진행 중인 작업 실행을 처리하는 방식을 설정해요."
+    },
+    "tasks_page_list_description_allowed_timeout_range": {
+        "message": "허용 범위: {{minimum}} ~ {{maximum}}."
+    },
+    "tasks_page_list_description_completed_schedule": {
+        "message": "이 일정은 이미 끝나서 재개할 수 없어요."
+    },
+    "tasks_page_list_description_delete_named": {
+        "message": "<target>{{name}}</target> 항목이 삭제돼요."
+    },
+    "tasks_page_list_description_empty_state_guidance": {
+        "message": "작업을 만들어 Phi Agent의 활동을 추적해 보세요."
+    },
+    "tasks_page_list_description_expired_schedule": {
+        "message": "이 일정은 만료됐어요. 재개하기 전에 시간 설정을 수정해 주세요."
+    },
+    "tasks_page_list_description_failed_to_load_scheduled_tasks": {
+        "message": "예약된 작업을 불러오지 못했어요"
+    },
+    "tasks_page_list_description_filtered_run_count": {
+        "message": "표시된 실행: {{filtered}} / {{total}}"
+    },
+    "tasks_page_list_description_load_failure": {
+        "message": "지금은 작업을 불러올 수 없어요. 이 페이지를 새로고침해서 다시 시도해 주세요."
+    },
+    "tasks_page_list_description_minimum_character_count": {
+        "message": "{{count}}자 이상 입력해 주세요."
+    },
+    "tasks_page_list_description_no_objective": {
+        "message": "목표 없음"
+    },
+    "tasks_page_list_description_no_runs_for_this_task": {
+        "message": "이 작업에는 실행 기록이 없어요"
+    },
+    "tasks_page_list_description_no_schedules_yet": {
+        "message": "아직 일정이 없어요"
+    },
+    "tasks_page_list_description_no_task_runs_yet": {
+        "message": "아직 작업 실행 기록이 없어요"
+    },
+    "tasks_page_list_description_no_tasks_yet": {
+        "message": "아직 작업이 없어요"
+    },
+    "tasks_page_list_description_objective_minimum_length": {
+        "message": "목표는 {{count}}자 이상이어야 해요"
+    },
+    "tasks_page_list_description_objective_required": {
+        "message": "목표를 입력해 주세요"
+    },
+    "tasks_page_list_description_objective_validation": {
+        "message": "목표는 꼭 입력해야 해요. 설명과 제목 입력은 선택 정보에서 할 수 있어요."
+    },
+    "tasks_page_list_description_optional_title_limit": {
+        "message": "선택 사항이에요. 최대 {{count}}자까지 입력할 수 있어요. 비워 두면 목표를 바탕으로 제목이 자동으로 만들어져요."
+    },
+    "tasks_page_list_description_overview": {
+        "message": "Phi Agent의 작업과 실행을 확인할 수 있어요."
+    },
+    "tasks_page_list_description_pause_schedule": {
+        "message": "앞으로의 자동 실행을 일시 중지해요. 이미 시작된 실행은 계속 진행돼요."
+    },
+    "tasks_page_list_description_phi_agent_is_not_running": {
+        "message": "Phi Agent가 실행되고 있지 않아요"
+    },
+    "tasks_page_list_description_resume_schedule": {
+        "message": "자동 실행을 재개하고 다음 실행 시각을 계산해요."
+    },
+    "tasks_page_list_description_schedule_type_guidance": {
+        "message": "가장 간단한 시간 설정부터 선택해 보세요. 크론은 캘린더형 일정에만 사용하세요."
+    },
+    "tasks_page_list_description_service_recovery": {
+        "message": "Phi Agent를 시작한 다음 이 페이지를 새로고침하면 작업을 불러올 수 있어요."
+    },
+    "tasks_page_list_description_task_timeout_behavior": {
+        "message": "실행 중인 작업이 이 시간을 넘으면 실패로 표시해요."
+    },
+    "tasks_page_list_description_task_unavailable": {
+        "message": "작업을 사용할 수 없어요. 재개하기 전에 작업 상태를 확인해 주세요."
+    },
+    "tasks_page_list_description_timezone_fallback": {
+        "message": "선택 사항이에요. 비워 두면 Phi Agent가 실행 중인 기기의 현지 시간대를 사용해요."
+    },
+    "tasks_page_list_description_unscheduled_task_behavior": {
+        "message": "이 작업에는 일정이 없어요. 직접 시작하거나 필요할 때 Phi Agent가 시작하도록 둘 수 있어요."
+    },
+    "tasks_page_list_field_label_delete_schedule": {
+        "message": "일정 삭제"
+    },
+    "tasks_page_list_field_label_delete_task": {
+        "message": "작업 삭제"
+    },
+    "tasks_page_list_field_label_edit_schedule": {
+        "message": "일정 편집"
+    },
+    "tasks_page_list_field_label_edit_task": {
+        "message": "작업 편집"
+    },
+    "tasks_page_list_field_label_run_now": {
+        "message": "지금 실행"
+    },
+    "tasks_page_list_label_all_tasks": {
+        "message": "모든 작업"
+    },
+    "tasks_page_list_label_api_source": {
+        "message": "API"
+    },
+    "tasks_page_list_label_artifact_count": {
+        "message": "아티팩트 {{count}}개"
+    },
+    "tasks_page_list_label_calendar_schedule": {
+        "message": "캘린더 일정"
+    },
+    "tasks_page_list_label_chatbar_source": {
+        "message": "Chatbar"
+    },
+    "tasks_page_list_label_cron": {
+        "message": "크론"
+    },
+    "tasks_page_list_label_cron_expression": {
+        "message": "크론 표현식"
+    },
+    "tasks_page_list_label_day": {
+        "message": "일"
+    },
+    "tasks_page_list_label_days": {
+        "message": "일"
+    },
+    "tasks_page_list_label_default_task_title": {
+        "message": "예약된 작업"
+    },
+    "tasks_page_list_label_delete_cascade_warning": {
+        "message": "이 작업과 연결된 일정, 관련 실행 기록이 작업, 일정, 실행 화면에서 모두 제거돼요."
+    },
+    "tasks_page_list_label_every": {
+        "message": "반복"
+    },
+    "tasks_page_list_label_every_interval": {
+        "message": "{{count}}{{unit}}마다"
+    },
+    "tasks_page_list_label_every_unit": {
+        "message": "반복 단위"
+    },
+    "tasks_page_list_label_every_value": {
+        "message": "반복 간격"
+    },
+    "tasks_page_list_label_hour_lowercase": {
+        "message": "시간"
+    },
+    "tasks_page_list_label_hours": {
+        "message": "시간"
+    },
+    "tasks_page_list_label_interval": {
+        "message": "반복 간격"
+    },
+    "tasks_page_list_label_last_status": {
+        "message": "최근: {{status}}"
+    },
+    "tasks_page_list_label_manual_source": {
+        "message": "수동"
+    },
+    "tasks_page_list_label_minute_lowercase": {
+        "message": "분"
+    },
+    "tasks_page_list_label_minutes": {
+        "message": "분"
+    },
+    "tasks_page_list_label_next_scheduled_run": {
+        "message": "다음: {{time}}"
+    },
+    "tasks_page_list_label_no_current_run": {
+        "message": "진행 중인 실행 없음"
+    },
+    "tasks_page_list_label_no_schedule_start_when_needed": {
+        "message": "일정 없음. 필요할 때 시작하세요."
+    },
+    "tasks_page_list_label_once": {
+        "message": "한 번"
+    },
+    "tasks_page_list_label_once_at": {
+        "message": "{{date}}에 한 번"
+    },
+    "tasks_page_list_label_one_time": {
+        "message": "일회성"
+    },
+    "tasks_page_list_label_one_time_schedule": {
+        "message": "일회성 일정"
+    },
+    "tasks_page_list_label_optional": {
+        "message": "선택 사항"
+    },
+    "tasks_page_list_label_recording": {
+        "message": "녹화"
+    },
+    "tasks_page_list_label_recording_with_extra": {
+        "message": "녹화 +{{count}}"
+    },
+    "tasks_page_list_label_repeating_schedule": {
+        "message": "반복 일정"
+    },
+    "tasks_page_list_label_run_at": {
+        "message": "실행 시각"
+    },
+    "tasks_page_list_label_run_status": {
+        "message": "실행 상태"
+    },
+    "tasks_page_list_label_running_timeout": {
+        "message": "실행 제한 시간"
+    },
+    "tasks_page_list_label_running_timeout_value": {
+        "message": "실행 제한 시간: {{value}}"
+    },
+    "tasks_page_list_label_runs": {
+        "message": "실행"
+    },
+    "tasks_page_list_label_runs_automatically_on_aschedule": {
+        "message": "일정에 따라 자동으로 실행돼요."
+    },
+    "tasks_page_list_label_schedule_count": {
+        "message": "일정 {{count}}개"
+    },
+    "tasks_page_list_label_schedule_description": {
+        "message": "일정 설명"
+    },
+    "tasks_page_list_label_schedule_name": {
+        "message": "일정 이름"
+    },
+    "tasks_page_list_label_schedule_source": {
+        "message": "일정"
+    },
+    "tasks_page_list_label_schedule_type": {
+        "message": "일정 유형"
+    },
+    "tasks_page_list_label_schedules": {
+        "message": "일정"
+    },
+    "tasks_page_list_label_schedules_for_task": {
+        "message": "{{task}}의 일정"
+    },
+    "tasks_page_list_label_second": {
+        "message": "초"
+    },
+    "tasks_page_list_label_seconds": {
+        "message": "초"
+    },
+    "tasks_page_list_label_started_by": {
+        "message": "시작 주체"
+    },
+    "tasks_page_list_label_task_description": {
+        "message": "작업 설명"
+    },
+    "tasks_page_list_label_task_source": {
+        "message": "작업"
+    },
+    "tasks_page_list_label_task_title": {
+        "message": "작업 제목"
+    },
+    "tasks_page_list_label_task_type": {
+        "message": "작업 유형"
+    },
+    "tasks_page_list_label_task_unavailable": {
+        "message": "작업 정보 없음"
+    },
+    "tasks_page_list_label_time_zone": {
+        "message": "시간대"
+    },
+    "tasks_page_list_label_timeout_hours": {
+        "message": "{{count}}시간"
+    },
+    "tasks_page_list_label_timeout_minutes": {
+        "message": "{{count}}분"
+    },
+    "tasks_page_list_label_unscheduled_task_list_notice": {
+        "message": "작업 화면에 '일정 없음' 배지와 함께 표시돼요."
+    },
+    "tasks_page_list_label_updated": {
+        "message": "업데이트"
+    },
+    "tasks_page_list_label_use_local_timezone": {
+        "message": "현지 시간대 사용"
+    },
+    "tasks_page_list_label_user_source": {
+        "message": "사용자"
+    },
+    "tasks_page_list_status_active": {
+        "message": "활성"
+    },
+    "tasks_page_list_status_archived": {
+        "message": "보관됨"
+    },
+    "tasks_page_list_status_cancelled": {
+        "message": "중단됨"
+    },
+    "tasks_page_list_status_completed": {
+        "message": "완료됨"
+    },
+    "tasks_page_list_status_disabled": {
+        "message": "비활성화됨"
+    },
+    "tasks_page_list_status_failed": {
+        "message": "실패"
+    },
+    "tasks_page_list_status_missed": {
+        "message": "누락됨"
+    },
+    "tasks_page_list_status_no_schedule": {
+        "message": "일정 없음"
+    },
+    "tasks_page_list_status_not_started": {
+        "message": "시작 전"
+    },
+    "tasks_page_list_status_paused": {
+        "message": "일시 중지됨"
+    },
+    "tasks_page_list_status_queued": {
+        "message": "대기 중"
+    },
+    "tasks_page_list_status_running_now": {
+        "message": "실행 중"
+    },
+    "tasks_page_list_status_scheduled": {
+        "message": "예약됨"
+    },
+    "tasks_page_list_status_skipped": {
+        "message": "건너뜀"
+    },
+    "tasks_page_list_title_delete": {
+        "message": "삭제할까요?"
+    },
+    "tasks_page_list_title_delete_schedule": {
+        "message": "일정을 삭제할까요?"
+    },
+    "tasks_page_list_title_delete_task": {
+        "message": "작업을 삭제할까요?"
+    },
+    "tasks_page_list_title_edit_scheduled_task": {
+        "message": "예약된 작업 편집"
+    },
+    "tasks_page_list_title_edit_task": {
+        "message": "작업 편집"
+    },
+    "tasks_page_list_title_new_task": {
+        "message": "새 작업"
+    },
+    "tasks_page_list_title_run_behavior": {
+        "message": "실행 방식"
+    },
+    "tasks_page_list_title_task_settings": {
+        "message": "작업 설정"
+    },
+    "tasks_page_list_title_tasks": {
+        "message": "작업"
+    },
+    "tasks_page_list_validation_cron_invalid": {
+        "message": "유효한 5필드 크론 표현식을 입력해 주세요"
+    },
+    "tasks_page_list_validation_cron_required": {
+        "message": "크론 표현식을 입력해 주세요"
+    },
+    "tasks_page_list_validation_date_time_invalid": {
+        "message": "유효한 날짜와 시간을 입력해 주세요"
+    },
+    "tasks_page_list_validation_interval_positive": {
+        "message": "반복 간격은 양수여야 해요"
+    },
+    "tasks_page_list_validation_run_at_future": {
+        "message": "실행 시각은 미래 시점이어야 해요"
+    },
+    "tasks_page_list_validation_run_at_required": {
+        "message": "실행 시각을 입력해 주세요"
+    },
+    "tasks_page_list_validation_run_at_within_five_years": {
+        "message": "실행 시각은 5년 이내여야 해요"
+    },
+    "tasks_page_list_validation_timeout_range": {
+        "message": "제한 시간은 {{minimum}}에서 {{maximum}} 사이여야 해요."
+    },
+    "tasks_page_nav_label": {
+        "message": "작업 관리자"
+    },
+    "tasks_page_preview_description_failed": {
+        "message": "이 파일은 미리 볼 수 없어요. 파일을 사용할 수 없거나, 128MB보다 크거나, 지원하지 않는 형식일 수 있어요."
+    },
+    "tasks_page_preview_label_preview": {
+        "message": "미리보기"
+    },
+    "tasks_page_toast_no_active_run": {
+        "message": "취소할 진행 중인 실행이 없어요"
+    },
+    "tasks_page_toast_run_cancel_failed": {
+        "message": "실행을 취소하지 못했어요"
+    },
+    "tasks_page_toast_run_cancelled": {
+        "message": "실행을 취소했어요"
+    },
+    "tasks_page_toast_run_failed": {
+        "message": "작업을 실행하지 못했어요"
+    },
+    "tasks_page_toast_run_started": {
+        "message": "실행을 시작했어요"
+    },
+    "tasks_page_toast_schedule_create_partial_failure": {
+        "message": "작업은 생성됐지만 스케줄 생성에 실패했어요"
+    },
+    "tasks_page_toast_schedule_delete_failed": {
+        "message": "스케줄을 삭제하지 못했어요"
+    },
+    "tasks_page_toast_schedule_deleted": {
+        "message": "스케줄을 삭제했어요"
+    },
+    "tasks_page_toast_schedule_pause_failed": {
+        "message": "스케줄을 일시 중지하지 못했어요"
+    },
+    "tasks_page_toast_schedule_paused": {
+        "message": "스케줄을 일시 중지했어요"
+    },
+    "tasks_page_toast_schedule_resume_completed": {
+        "message": "이 일정은 끝났어요. 더 이상 예정된 실행이 없어요."
+    },
+    "tasks_page_toast_schedule_resume_failed": {
+        "message": "스케줄을 재개하지 못했어요"
+    },
+    "tasks_page_toast_schedule_resume_no_next_run": {
+        "message": "예정된 다음 실행이 없어요. 일정의 시간 설정을 확인해 주세요."
+    },
+    "tasks_page_toast_schedule_resumed": {
+        "message": "스케줄을 재개했어요"
+    },
+    "tasks_page_toast_schedule_run_failed": {
+        "message": "스케줄을 지금 실행하지 못했어요"
+    },
+    "tasks_page_toast_schedule_run_started": {
+        "message": "스케줄 실행을 시작했어요"
+    },
+    "tasks_page_toast_scheduled_task_create_failed": {
+        "message": "예약 작업을 생성하지 못했어요"
+    },
+    "tasks_page_toast_scheduled_task_created": {
+        "message": "예약 작업을 생성했어요"
+    },
+    "tasks_page_toast_scheduled_task_update_failed": {
+        "message": "예약 작업을 수정하지 못했어요"
+    },
+    "tasks_page_toast_scheduled_task_updated": {
+        "message": "예약 작업을 수정했어요"
+    },
+    "tasks_page_toast_settings_update_failed": {
+        "message": "작업 설정을 수정하지 못했어요"
+    },
+    "tasks_page_toast_settings_updated": {
+        "message": "작업 설정을 수정했어요"
+    },
+    "tasks_page_toast_task_create_failed": {
+        "message": "작업을 생성하지 못했어요"
+    },
+    "tasks_page_toast_task_created": {
+        "message": "작업을 생성했어요"
+    },
+    "tasks_page_toast_task_delete_failed": {
+        "message": "작업을 삭제하지 못했어요"
+    },
+    "tasks_page_toast_task_deleted": {
+        "message": "작업을 삭제했어요"
+    },
+    "tasks_page_toast_task_update_failed": {
+        "message": "작업을 수정하지 못했어요"
+    },
+    "tasks_page_toast_task_update_partial_failure": {
+        "message": "스케줄은 수정됐지만 작업 수정에 실패했어요"
+    },
+    "tasks_page_toast_task_updated": {
+        "message": "작업을 수정했어요"
+    },
+    "tasks_page_toast_unknown_error": {
+        "message": "알 수 없는 오류"
     },
     "theme_dark": {
         "message": "다크"
