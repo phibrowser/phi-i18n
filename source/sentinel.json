@@ -2015,6 +2015,10 @@
         "message": "Your settings and trusted senders are kept only on this device.",
         "description": "Location: Sentinel. Settings and trusted senders are stored on the device only."
     },
+    "mail_guard_about_local_landing": {
+        "message": "The links of messages Phi strongly suspects are remembered on this device for 7 days, so the pages they lead to can be watched.",
+        "description": "Location: Sentinel. Email Protection's About page. A sentence under the heading about what is kept on the device."
+    },
     "mail_guard_about_local_title": {
         "message": "Kept on this device",
         "description": "Location: Sentinel. Heading: what stays on the device."
@@ -2042,6 +2046,10 @@
     "mail_guard_about_sent_every": {
         "message": "Every message you open: the subject and part of the body, with the domains of the sender and links and the extensions of attachments. Email addresses in it are reduced to their domains.",
         "description": "Location: Sentinel. What is sent for every opened message."
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "If you open a link from a message Phi strongly suspects: the address of each page it leads to (without anything after ? or #), the page's title and visible text, and what its form fields ask for. What you type is never read or sent.",
+        "description": "Location: Sentinel. Email Protection's About page. A point under the heading that lists what is sent."
     },
     "mail_guard_about_sent_never": {
         "message": "Not sent: recipients, other messages in the conversation, or attachment contents. Attachments are not opened or downloaded.",
@@ -2603,8 +2611,92 @@
         "message": "Cannot confirm $SENDER_REGISTRABLE$ belongs to $LABEL$",
         "description": "Location: Sentinel. Title of the mail-guard finding `identity.unverified_brand_domain`, shown in the phishing panel beside a message in Gmail. SENDER_REGISTRABLE is filled in by code (a value from the message or a count); keep it. LABEL is filled in by code (a value from the message or a count); keep it."
     },
+    "mail_guard_landing_ask_card": {
+        "message": "card details",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "one-time code",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "email address",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "identity details",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "password",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "phone number",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. One item in the list of what the page asks for, completing: This page asks for your ..."
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AI strongly suspects this site is a scam. Don't enter passwords or payment info.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Line under the High risk title of the Why? card."
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AI suspects this site may be a scam. Be careful with passwords and payment info.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Line under the Suspicious title of the Why? card."
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "High risk site",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Title of the card that Why? opens when Phi strongly suspects the site."
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "Suspicious site",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Title of the card that Why? opens when Phi suspects the site but is less sure."
+    },
+    "mail_guard_landing_card_why": {
+        "message": "Why this site may be risky · Phi AI",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Heading above the reasons in the Why? card."
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AI couldn't check this page.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Shown in the Why? card in place of the reasons when Phi AI could not check the page."
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AI can get things wrong. Before you pay, sign in or share your details, take a minute to check another way.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Footer of the Why? card."
+    },
+    "mail_guard_landing_from_email": {
+        "message": "Opened from: “$SUBJECT$”",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. SUBJECT is the email's subject line."
+    },
+    "mail_guard_landing_hide": {
+        "message": "Hide",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Button that hides the top bar on this page."
+    },
+    "mail_guard_landing_leave": {
+        "message": "Leave site",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Main button in the top bar: takes the reader away from this page, back to the previous page or by closing the tab."
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "This page asks for your $ITEMS$",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. A reason in the Why? card. ITEMS is a list such as: password, card details, and email address."
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "Looks like $BRAND$, but the real site is $SITE$",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. A reason in the Why? card. BRAND is the organisation the page imitates; SITE is the page's actual domain."
+    },
+    "mail_guard_landing_strip": {
+        "message": "Opened from an email Phi strongly suspects.",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Thin bar across the top of every such page."
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "Actual site:",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Label before the page's real domain in the top bar."
+    },
+    "mail_guard_landing_why": {
+        "message": "Why?",
+        "description": "Location: Sentinel. Email Protection's guard on a web page the reader opened from an email Phi strongly suspects. Button in the top bar that unfolds the reason."
+    },
     "mail_guard_level_caution": {
-        "message": "Caution",
+        "message": "Attention",
         "description": "Location: Sentinel. Risk level shown on the badge on a Gmail subject line and at the top of the mail protection panel: some details deserve a closer look. Keep it short (badge)."
     },
     "mail_guard_level_caution_line": {
@@ -2632,11 +2724,11 @@
         "description": "Location: Sentinel. One line under the risk level at the top of the mail protection panel when no specific kind of threat was identified."
     },
     "mail_guard_level_maybe_caution": {
-        "message": "Maybe risky",
-        "description": "Location: Sentinel. Badge and panel title while Phi AI's full review runs on an email its quick check put at Caution; replaced by the final level when the review ends."
+        "message": "Might need attention",
+        "description": "Location: Sentinel. Badge and panel title while Phi AI's full review runs on an email its quick check put at Attention; replaced by the final level when the review ends."
     },
     "mail_guard_level_maybe_suspicious": {
-        "message": "Maybe suspicious",
+        "message": "Might be suspicious",
         "description": "Location: Sentinel. Badge and panel title while Phi AI's full review runs on an email its quick check put at Suspicious; replaced by the final level when the review ends."
     },
     "mail_guard_level_not_checked": {

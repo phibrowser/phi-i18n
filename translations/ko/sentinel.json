@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "설정과 신뢰하는 보낸 사람은 이 기기에만 저장돼요."
     },
+    "mail_guard_about_local_landing": {
+        "message": "Phi가 강하게 의심하는 메일의 링크는 그 링크가 여는 페이지를 살펴볼 수 있도록 이 기기에 7일간 저장돼요."
+    },
     "mail_guard_about_local_title": {
         "message": "이 기기에만 저장되는 내용"
     },
@@ -1531,6 +1534,9 @@
     },
     "mail_guard_about_sent_every": {
         "message": "열어 본 모든 메일: 제목과 본문 일부, 보낸 사람과 링크의 도메인, 첨부파일의 확장자. 그 안의 이메일 주소는 도메인만 남겨요."
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "Phi가 강하게 의심하는 메일의 링크를 열면: 그 링크가 여는 각 페이지의 주소(? 또는 # 뒤는 제외), 페이지 제목과 보이는 글, 그리고 페이지의 입력란이 무엇을 요구하는지. 입력한 내용은 절대 읽거나 보내지 않아요."
     },
     "mail_guard_about_sent_never": {
         "message": "전송하지 않는 것: 받는 사람, 같은 대화의 다른 메일, 첨부파일 내용. 첨부파일은 열거나 다운로드하지 않아요."
@@ -1952,6 +1958,69 @@
     "mail_guard_identity_unverified_brand_domain_title": {
         "message": "$SENDER_REGISTRABLE$이(가) $LABEL$ 소유인지 확인할 수 없음"
     },
+    "mail_guard_landing_ask_card": {
+        "message": "카드 정보"
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "일회용 코드"
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "이메일 주소"
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "신원 정보"
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "비밀번호"
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "전화번호"
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AI는 이 사이트가 사기라고 강하게 의심해요. 비밀번호나 결제 정보를 입력하지 마세요."
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AI는 이 사이트가 사기일 수 있다고 의심해요. 비밀번호나 결제 정보를 입력할 때는 조심하세요."
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "고위험 사이트"
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "의심스러운 사이트"
+    },
+    "mail_guard_landing_card_why": {
+        "message": "이 사이트가 위험할 수 있는 이유 · Phi AI"
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AI가 이 페이지를 검사하지 못했어요."
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AI도 틀릴 수 있어요. 결제하거나 로그인하거나 내 정보를 알려 주기 전에 잠시 다른 방법으로 한 번 더 확인해 주세요."
+    },
+    "mail_guard_landing_from_email": {
+        "message": "이 페이지를 연 메일: “$SUBJECT$”"
+    },
+    "mail_guard_landing_hide": {
+        "message": "숨기기"
+    },
+    "mail_guard_landing_leave": {
+        "message": "사이트 나가기"
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "이 페이지는 $ITEMS$ 입력을 요구함"
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "$BRAND$처럼 보이지만 실제 사이트는 $SITE$"
+    },
+    "mail_guard_landing_strip": {
+        "message": "Phi가 강하게 의심하는 메일에서 열린 페이지예요."
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "실제 사이트:"
+    },
+    "mail_guard_landing_why": {
+        "message": "이유 보기"
+    },
     "mail_guard_level_caution": {
         "message": "주의"
     },
@@ -1974,7 +2043,7 @@
         "message": "위험이 낮다고 판단해요."
     },
     "mail_guard_level_maybe_caution": {
-        "message": "위험할 수 있음"
+        "message": "주의가 필요할 수 있음"
     },
     "mail_guard_level_maybe_suspicious": {
         "message": "의심스러울 수 있음"

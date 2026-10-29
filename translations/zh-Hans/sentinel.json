@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "设置和你信任的发件人只保存在这台设备上。"
     },
+    "mail_guard_about_local_landing": {
+        "message": "Phi 高度怀疑的邮件里的链接会在这台设备上保存 7 天，以便留意它们打开的页面。"
+    },
     "mail_guard_about_local_title": {
         "message": "保存在本机"
     },
@@ -1531,6 +1534,9 @@
     },
     "mail_guard_about_sent_every": {
         "message": "每封你打开的邮件：主题和部分正文，以及发件人和链接的域名、附件的扩展名。其中的邮件地址只保留域名。"
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "如果你打开了 Phi 高度怀疑的邮件里的链接：它打开的每个页面的地址（不含 ? 或 # 之后的部分）、页面标题和可见文字，以及页面表单要你填写哪些内容。你输入的内容永远不会被读取或发送。"
     },
     "mail_guard_about_sent_never": {
         "message": "不会发送：收件人、同一会话里的其他邮件和附件内容。附件不会被打开或下载。"
@@ -1952,6 +1958,69 @@
     "mail_guard_identity_unverified_brand_domain_title": {
         "message": "无法确认 $SENDER_REGISTRABLE$ 属于 $LABEL$"
     },
+    "mail_guard_landing_ask_card": {
+        "message": "银行卡信息"
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "一次性验证码"
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "邮箱地址"
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "身份信息"
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "密码"
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "电话号码"
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AI 高度怀疑这个网站是诈骗网站。请不要输入密码或付款信息。"
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AI 怀疑这个网站可能是诈骗网站。输入密码或付款信息时请多加小心。"
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "高风险网站"
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "可疑网站"
+    },
+    "mail_guard_landing_card_why": {
+        "message": "这个网站为什么可能有风险 · Phi AI"
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AI 无法检查这个页面。"
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AI 也可能判断失误。在付款、登录或提供个人信息之前，请花一分钟通过其他方式再确认一下。"
+    },
+    "mail_guard_landing_from_email": {
+        "message": "从这封邮件打开：「$SUBJECT$」"
+    },
+    "mail_guard_landing_hide": {
+        "message": "隐藏"
+    },
+    "mail_guard_landing_leave": {
+        "message": "离开网站"
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "这个页面要求你提供$ITEMS$"
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "看起来像 $BRAND$，但真实网站是 $SITE$"
+    },
+    "mail_guard_landing_strip": {
+        "message": "从一封 Phi 高度怀疑的邮件打开。"
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "真实网站："
+    },
+    "mail_guard_landing_why": {
+        "message": "为什么？"
+    },
     "mail_guard_level_caution": {
         "message": "需留意"
     },
@@ -1974,7 +2043,7 @@
         "message": "我们认为风险较低。"
     },
     "mail_guard_level_maybe_caution": {
-        "message": "可能有风险"
+        "message": "可能需留意"
     },
     "mail_guard_level_maybe_suspicious": {
         "message": "可能可疑"

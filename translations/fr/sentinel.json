@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "Vos paramètres et vos expéditeurs de confiance sont conservés uniquement sur cet appareil."
     },
+    "mail_guard_about_local_landing": {
+        "message": "Les liens des e-mails que Phi soupçonne fortement sont conservés sur cet appareil pendant 7 jours, afin de surveiller les pages vers lesquelles ils mènent."
+    },
     "mail_guard_about_local_title": {
         "message": "Conservé sur cet appareil"
     },
@@ -1531,6 +1534,9 @@
     },
     "mail_guard_about_sent_every": {
         "message": "Chaque e-mail ouvert : l'objet et une partie du texte, avec les domaines de l'expéditeur et des liens et les extensions des pièces jointes. Les adresses e-mail qu'il contient sont réduites à leur domaine."
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "Si vous ouvrez un lien d'un e-mail que Phi soupçonne fortement : l'adresse de chaque page vers laquelle il mène (sans ce qui suit « ? » ou « # »), le titre et le texte visible de la page, et ce que ses champs de formulaire demandent. Ce que vous saisissez n'est jamais lu ni envoyé."
     },
     "mail_guard_about_sent_never": {
         "message": "Non envoyé : les destinataires, les autres e-mails de la conversation et le contenu des pièces jointes. Les pièces jointes ne sont ni ouvertes ni téléchargées."
@@ -1952,8 +1958,71 @@
     "mail_guard_identity_unverified_brand_domain_title": {
         "message": "Impossible de confirmer que $SENDER_REGISTRABLE$ appartient à $LABEL$"
     },
+    "mail_guard_landing_ask_card": {
+        "message": "vos informations de carte bancaire"
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "un code à usage unique"
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "votre adresse e-mail"
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "vos informations d'identité"
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "votre mot de passe"
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "votre numéro de téléphone"
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AI soupçonne fortement ce site d'être une arnaque. N'y saisissez ni mot de passe ni coordonnées de paiement."
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AI soupçonne que ce site pourrait être une arnaque. Faites preuve de prudence avec vos mots de passe et vos coordonnées de paiement."
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "Site à risque élevé"
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "Site suspect"
+    },
+    "mail_guard_landing_card_why": {
+        "message": "Pourquoi ce site peut être risqué · Phi AI"
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AI n'a pas pu vérifier cette page."
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AI peut se tromper. Avant de payer, de vous connecter ou de communiquer vos informations, prenez une minute pour vérifier par un autre moyen."
+    },
+    "mail_guard_landing_from_email": {
+        "message": "E-mail d'origine : « $SUBJECT$ »"
+    },
+    "mail_guard_landing_hide": {
+        "message": "Masquer"
+    },
+    "mail_guard_landing_leave": {
+        "message": "Quitter le site"
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "Cette page demande $ITEMS$"
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "Ressemble à $BRAND$, mais le site réel est $SITE$"
+    },
+    "mail_guard_landing_strip": {
+        "message": "Page ouverte depuis un e-mail que Phi soupçonne fortement."
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "Site réel :"
+    },
+    "mail_guard_landing_why": {
+        "message": "Pourquoi ?"
+    },
     "mail_guard_level_caution": {
-        "message": "Prudence"
+        "message": "Attention"
     },
     "mail_guard_level_caution_line": {
         "message": "Mieux vaut y regarder à deux fois avant d'agir."
@@ -1974,7 +2043,7 @@
         "message": "Nous pensons que le risque est faible."
     },
     "mail_guard_level_maybe_caution": {
-        "message": "Peut-être risqué"
+        "message": "Peut-être à surveiller"
     },
     "mail_guard_level_maybe_suspicious": {
         "message": "Peut-être suspect"

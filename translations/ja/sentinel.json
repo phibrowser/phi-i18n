@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "設定と信頼する送信者は、このデバイスにのみ保存されます。"
     },
+    "mail_guard_about_local_landing": {
+        "message": "Phiが強く疑っているメールのリンクは、リンク先のページをチェックできるよう、このデバイスに7日間保存されます。"
+    },
     "mail_guard_about_local_title": {
         "message": "このデバイスに保存されるもの"
     },
@@ -1531,6 +1534,9 @@
     },
     "mail_guard_about_sent_every": {
         "message": "開いたすべてのメールについて：件名と本文の一部、送信者とリンクのドメイン、添付ファイルの拡張子。含まれるメールアドレスはドメインだけに置き換えられます。"
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "Phiが強く疑っているメールのリンクを開いた場合：リンク先の各ページのアドレス（「?」や「#」以降を除く）、ページのタイトルと表示されているテキスト、フォームの入力欄が求めている情報。入力した内容が読み取られたり送信されたりすることはありません。"
     },
     "mail_guard_about_sent_never": {
         "message": "送信されないもの：宛先、同じスレッド内のほかのメール、添付ファイルの中身。添付ファイルが開かれたりダウンロードされたりすることはありません。"
@@ -1951,6 +1957,69 @@
     },
     "mail_guard_identity_unverified_brand_domain_title": {
         "message": "$SENDER_REGISTRABLE$が$LABEL$のものかは未確認"
+    },
+    "mail_guard_landing_ask_card": {
+        "message": "カード情報"
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "ワンタイムコード"
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "メールアドレス"
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "本人確認情報"
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "パスワード"
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "電話番号"
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AIはこのサイトが詐欺である疑いが強いと判断しています。パスワードや支払い情報は入力しないでください。"
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AIはこのサイトが詐欺の疑いがあると判断しています。パスワードや支払い情報の入力には注意してください。"
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "高リスクのサイト"
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "不審なサイト"
+    },
+    "mail_guard_landing_card_why": {
+        "message": "このサイトが危険かもしれない理由 · Phi AI"
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AIはこのページをチェックできませんでした。"
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AIも間違えることがあります。支払いやログイン、情報の入力の前に、少し時間をとって別の方法でも確認してください。"
+    },
+    "mail_guard_landing_from_email": {
+        "message": "リンク元のメール：「$SUBJECT$」"
+    },
+    "mail_guard_landing_hide": {
+        "message": "非表示"
+    },
+    "mail_guard_landing_leave": {
+        "message": "サイトを離れる"
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "このページは$ITEMS$の入力を求めています"
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "$BRAND$のように見えますが、実際のサイトは$SITE$です"
+    },
+    "mail_guard_landing_strip": {
+        "message": "Phiが強く疑っているメールから開かれたページです。"
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "実際のサイト："
+    },
+    "mail_guard_landing_why": {
+        "message": "理由"
     },
     "mail_guard_level_caution": {
         "message": "注意"

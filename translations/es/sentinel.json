@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "Tu configuración y los remitentes de confianza se guardan solo en este dispositivo."
     },
+    "mail_guard_about_local_landing": {
+        "message": "Los enlaces de los mensajes de los que Phi tiene fuertes sospechas se guardan en este dispositivo durante 7 días para poder vigilar las páginas a las que llevan."
+    },
     "mail_guard_about_local_title": {
         "message": "Guardado en este dispositivo"
     },
@@ -1531,6 +1534,9 @@
     },
     "mail_guard_about_sent_every": {
         "message": "Cada mensaje que abres: el asunto y parte del texto, junto con los dominios del remitente y de los enlaces y las extensiones de los archivos adjuntos. Las direcciones de correo que contiene se reducen a su dominio."
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "Si abres un enlace de un mensaje del que Phi tiene fuertes sospechas: la dirección de cada página a la que lleva (sin lo que va después de ? o #), el título y el texto visible de la página, y lo que piden sus campos de formulario. Lo que escribes nunca se lee ni se envía."
     },
     "mail_guard_about_sent_never": {
         "message": "No se envía: los destinatarios, otros mensajes de la conversación ni el contenido de los archivos adjuntos. Los archivos adjuntos no se abren ni se descargan."
@@ -1952,8 +1958,71 @@
     "mail_guard_identity_unverified_brand_domain_title": {
         "message": "No se puede confirmar que $SENDER_REGISTRABLE$ pertenezca a $LABEL$"
     },
+    "mail_guard_landing_ask_card": {
+        "message": "los datos de tu tarjeta"
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "un código de un solo uso"
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "tu correo electrónico"
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "tus datos de identidad"
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "tu contraseña"
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "tu número de teléfono"
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AI tiene fuertes sospechas de que este sitio es una estafa. No introduzcas contraseñas ni datos de pago."
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AI sospecha que este sitio podría ser una estafa. Ten cuidado con tus contraseñas y datos de pago."
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "Sitio de alto riesgo"
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "Sitio sospechoso"
+    },
+    "mail_guard_landing_card_why": {
+        "message": "Por qué este sitio puede suponer un riesgo · Phi AI"
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AI no pudo revisar esta página."
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AI puede equivocarse. Antes de pagar, iniciar sesión o compartir tus datos, tómate un minuto para comprobarlo por otra vía."
+    },
+    "mail_guard_landing_from_email": {
+        "message": "Abierta desde: «$SUBJECT$»"
+    },
+    "mail_guard_landing_hide": {
+        "message": "Ocultar"
+    },
+    "mail_guard_landing_leave": {
+        "message": "Salir del sitio"
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "Esta página te pide $ITEMS$"
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "Parece $BRAND$, pero el sitio real es $SITE$"
+    },
+    "mail_guard_landing_strip": {
+        "message": "Abierta desde un correo del que Phi tiene fuertes sospechas."
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "Sitio real:"
+    },
+    "mail_guard_landing_why": {
+        "message": "¿Por qué?"
+    },
     "mail_guard_level_caution": {
-        "message": "Precaución"
+        "message": "Atención"
     },
     "mail_guard_level_caution_line": {
         "message": "Conviene mirarlo dos veces antes de actuar."
@@ -1974,7 +2043,7 @@
         "message": "Creemos que el riesgo es bajo."
     },
     "mail_guard_level_maybe_caution": {
-        "message": "Posible riesgo"
+        "message": "Puede requerir atención"
     },
     "mail_guard_level_maybe_suspicious": {
         "message": "Posiblemente sospechoso"

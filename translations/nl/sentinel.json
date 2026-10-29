@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "Je instellingen en vertrouwde afzenders worden alleen op dit apparaat bewaard."
     },
+    "mail_guard_about_local_landing": {
+        "message": "De links van e-mails die Phi sterk verdenkt, worden 7 dagen op dit apparaat bewaard, zodat de pagina's waar ze naartoe leiden in de gaten gehouden kunnen worden."
+    },
     "mail_guard_about_local_title": {
         "message": "Bewaard op dit apparaat"
     },
@@ -1531,6 +1534,9 @@
     },
     "mail_guard_about_sent_every": {
         "message": "Elke e-mail die je opent: het onderwerp en een deel van de tekst, met de domeinen van de afzender en van de links, en de extensies van de bijlagen. E-mailadressen daarin worden ingekort tot hun domein."
+    },
+    "mail_guard_about_sent_landing": {
+        "message": "Als je een link opent uit een e-mail die Phi sterk verdenkt: het adres van elke pagina waar die naartoe leidt (zonder alles na ? of #), de titel en zichtbare tekst van de pagina, en waar de formuliervelden om vragen. Wat je typt, wordt nooit gelezen of verstuurd."
     },
     "mail_guard_about_sent_never": {
         "message": "Niet verstuurd: ontvangers, andere e-mails in het gesprek en de inhoud van bijlagen. Bijlagen worden niet geopend of gedownload."
@@ -1952,6 +1958,69 @@
     "mail_guard_identity_unverified_brand_domain_title": {
         "message": "Niet te bevestigen dat $SENDER_REGISTRABLE$ bij $LABEL$ hoort"
     },
+    "mail_guard_landing_ask_card": {
+        "message": "kaartgegevens"
+    },
+    "mail_guard_landing_ask_code": {
+        "message": "eenmalige code"
+    },
+    "mail_guard_landing_ask_email": {
+        "message": "e-mailadres"
+    },
+    "mail_guard_landing_ask_identity": {
+        "message": "identiteitsgegevens"
+    },
+    "mail_guard_landing_ask_password": {
+        "message": "wachtwoord"
+    },
+    "mail_guard_landing_ask_phone": {
+        "message": "telefoonnummer"
+    },
+    "mail_guard_landing_card_text_high": {
+        "message": "Phi AI vermoedt sterk dat deze site oplichting is. Voer geen wachtwoorden of betaalgegevens in."
+    },
+    "mail_guard_landing_card_text_suspicious": {
+        "message": "Phi AI vermoedt dat deze site mogelijk oplichting is. Wees voorzichtig met wachtwoorden en betaalgegevens."
+    },
+    "mail_guard_landing_card_title_high": {
+        "message": "Site met hoog risico"
+    },
+    "mail_guard_landing_card_title_suspicious": {
+        "message": "Verdachte site"
+    },
+    "mail_guard_landing_card_why": {
+        "message": "Waarom deze site riskant kan zijn · Phi AI"
+    },
+    "mail_guard_landing_check_failed": {
+        "message": "Phi AI kon deze pagina niet controleren."
+    },
+    "mail_guard_landing_disclaimer": {
+        "message": "Phi AI kan fouten maken. Neem even de tijd om het op een andere manier na te gaan voordat je betaalt, inlogt of je gegevens deelt."
+    },
+    "mail_guard_landing_from_email": {
+        "message": "Geopend vanuit: “$SUBJECT$”"
+    },
+    "mail_guard_landing_hide": {
+        "message": "Verbergen"
+    },
+    "mail_guard_landing_leave": {
+        "message": "Site verlaten"
+    },
+    "mail_guard_landing_reason_asks": {
+        "message": "Deze pagina vraagt om je $ITEMS$"
+    },
+    "mail_guard_landing_reason_impersonates": {
+        "message": "Lijkt op $BRAND$, maar de echte site is $SITE$"
+    },
+    "mail_guard_landing_strip": {
+        "message": "Geopend vanuit een e-mail die Phi sterk verdenkt."
+    },
+    "mail_guard_landing_strip_site": {
+        "message": "Echte site:"
+    },
+    "mail_guard_landing_why": {
+        "message": "Waarom?"
+    },
     "mail_guard_level_caution": {
         "message": "Let op"
     },
@@ -1974,7 +2043,7 @@
         "message": "We schatten het risico laag in."
     },
     "mail_guard_level_maybe_caution": {
-        "message": "Misschien riskant"
+        "message": "Misschien aandacht nodig"
     },
     "mail_guard_level_maybe_suspicious": {
         "message": "Misschien verdacht"
