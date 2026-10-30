@@ -475,6 +475,14 @@
         "message": "Failed to capture screenshot. Please try again on a regular webpage.",
         "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Toast when screenshot capture fails (e.g. on chrome:// pages)."
     },
+    "user_input_nebula_story_letter": {
+        "message": "Nebula story · {{date}}",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Second line of the letter card shown for a Nebula story attached to a chat message or waiting in the composer (the first line is the letter's title); {{date}} is the day the letter was written as YYYY-MM-DD. The attachment itself keeps the English label for the model."
+    },
+    "user_input_nebula_story_letter_undated": {
+        "message": "Nebula story",
+        "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Second line of the letter card when the Nebula story attachment carries no written date."
+    },
     "user_input_no_available_tabs": {
         "message": "No available tabs",
         "description": "Location: Chat | Memory. The chat composer: attachment menu, tab/skill mentions, send/stop controls. Empty state of the @-mention tab list."

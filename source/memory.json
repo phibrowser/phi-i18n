@@ -1291,6 +1291,38 @@
         "message": "Memory Sky",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Short atmospheric status labels at the bottom of Nebula. Nebula status when memory stars are ready to explore."
     },
+    "memory_management_nebula_story_chat_ai_off": {
+        "message": "Turn on AI features in Settings to chat about this letter.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The question row on an expanded story letter: the reader asks Phi Chat, Phi's chat window, about the letter, and the letter goes along with the question. Line under the question field when Phi Chat cannot open because the reader has turned AI features off; tells them where to turn them on."
+    },
+    "memory_management_nebula_story_chat_failed": {
+        "message": "Couldn't open Phi Chat.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The question row on an expanded story letter: the reader asks Phi Chat, Phi's chat window, about the letter, and the letter goes along with the question. Line under the question field when Phi Chat could not be opened for any other reason."
+    },
+    "memory_management_nebula_story_chat_input_label": {
+        "message": "Ask Phi Chat about this letter",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The question row on an expanded story letter: the reader asks Phi Chat, Phi's chat window, about the letter, and the letter goes along with the question. Screen-reader label for the text field on the story letter where the reader types a question for Phi Chat; its placeholder rotates through the suggested questions."
+    },
+    "memory_management_nebula_story_chat_send": {
+        "message": "Send to Phi Chat",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The question row on an expanded story letter: the reader asks Phi Chat, Phi's chat window, about the letter, and the letter goes along with the question. Accessible name and tooltip of the arrow button beside the question field; it opens Phi Chat with the question and the letter."
+    },
+    "memory_management_nebula_story_chat_suggestions_based_on": {
+        "message": "Which browsing was this based on?",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The question row on an expanded story letter: the reader asks Phi Chat, Phi's chat window, about the letter, and the letter goes along with the question. Suggested questions that rotate in the empty question field; sending with the field empty sends the one on show, as the reader's own question to the assistant. Suggested question asking which of the reader's browsing the letter was written from."
+    },
+    "memory_management_nebula_story_chat_suggestions_next": {
+        "message": "What could I do next with this?",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The question row on an expanded story letter: the reader asks Phi Chat, Phi's chat window, about the letter, and the letter goes along with the question. Suggested questions that rotate in the empty question field; sending with the field empty sends the one on show, as the reader's own question to the assistant. Suggested question asking what the reader could do next with what the letter is about."
+    },
+    "memory_management_nebula_story_chat_suggestions_why": {
+        "message": "Why did you write this story for me?",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The question row on an expanded story letter: the reader asks Phi Chat, Phi's chat window, about the letter, and the letter goes along with the question. Suggested questions that rotate in the empty question field; sending with the field empty sends the one on show, as the reader's own question to the assistant. Suggested question asking the assistant why it wrote this letter for the reader."
+    },
+    "memory_management_nebula_story_chat_unsupported": {
+        "message": "This version of Phi can't open Phi Chat from here.",
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. The question row on an expanded story letter: the reader asks Phi Chat, Phi's chat window, about the letter, and the letter goes along with the question. Line under the question field when the installed Phi browser is too old to open Phi Chat from the memory page."
+    },
     "memory_management_nebula_story_collapse": {
         "message": "Collapse",
         "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Button on the story card that collapses it to a small chip."
@@ -1589,11 +1621,7 @@
     },
     "memory_management_nebula_story_stack_pill_all": {
         "message": "Letters: {{count}}",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Collapsed story pill once every letter is read, written as a label followed by the count so the wording never depends on the number; {{count}} is how many letters there are."
-    },
-    "memory_management_nebula_story_stack_pill_unread": {
-        "message": "Unread letters: {{count}}",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Collapsed story pill when some letters are unread, written as a label followed by the count so the wording never depends on the number; {{count}} is how many letters are unread. A count badge sits beside it."
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Collapsed story pill (with an unread-count badge while any letter is unread) once every letter is read, written as a label followed by the count so the wording never depends on the number; {{count}} is how many letters there are."
     },
     "memory_management_nebula_story_stack_position": {
         "message": "{{index}} / {{total}}",
@@ -1613,7 +1641,7 @@
     },
     "memory_management_nebula_story_stack_unread_count": {
         "message": "{{count}} unread",
-        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Pager text beside the position when there are many letters; {{count}} is how many are unread."
+        "description": "Location: Memory. The memory-management experience shared by the embedded extension and standalone Anamnesis, including the timeline, galaxy, Nebula, import, and export. Header for the visual Nebula memory space. Story card shown over the Nebula memory space, telling one story drawn from the user's memories. Header text beside the letter's position while any letter is unread; {{count}} is how many are unread."
     },
     "memory_management_nebula_story_stars_label": {
         "message": "The memories in this story",
