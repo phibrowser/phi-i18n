@@ -2143,6 +2143,14 @@
         "message": "Couldn't open live mode. Please try again.",
         "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Toast shown when the live-mode conversation could not be opened or created."
     },
+    "live_chat_task_result_caption": {
+        "message": "From your standing request “{{condition}}”",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Live mode: under a reply Phi copied into the live conversation from a standing request's own conversation (the request ran there; the live conversation shows the same result). A small caption names the standing request, and a button opens that conversation. Caption under the copied reply, naming the standing request it answers. {{condition}} is the request's condition in the person's own words, for example “I'm browsing movies or TV shows”; keep the quotation marks around it."
+    },
+    "live_chat_task_result_open": {
+        "message": "Open conversation",
+        "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Live mode: under a reply Phi copied into the live conversation from a standing request's own conversation (the request ran there; the live conversation shows the same result). A small caption names the standing request, and a button opens that conversation. Button under the copied reply that opens the standing request's own conversation, where the request and every result of it are kept."
+    },
     "live_chat_title": {
         "message": "Live",
         "description": "Location: Chat. Live mode: one conversation per browser Profile in which Phi writes its own notes about what the person is doing in the browser, and the person can reply to them or chat about anything else. The conversation is tied to no tab. Title the live-mode conversation is created with."
@@ -2814,6 +2822,18 @@
     "message_worker_progress_search": {
         "message": "Searching…",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Live status text shown while the assistant carries out an action on the user's behalf. Keep these short and in the present continuous. Activity: searching the web."
+    },
+    "nebula_story_discard_draft_confirm": {
+        "message": "Discard and start",
+        "description": "Location: Chat. Text for the Phi Chat window when a question asked on a Nebula story letter (a short letter Phi writes about the user's recent browsing) opens it and starts a new conversation about that letter. Confirmation dialog action button: discard the draft and start the conversation about the letter. The cancel button reuses conversation.cancel."
+    },
+    "nebula_story_discard_draft_description": {
+        "message": "Your unsent text and attachments will be cleared.",
+        "description": "Location: Chat. Text for the Phi Chat window when a question asked on a Nebula story letter (a short letter Phi writes about the user's recent browsing) opens it and starts a new conversation about that letter. Confirmation dialog body: starting the conversation about the letter clears the composer's unsent text and attachments."
+    },
+    "nebula_story_discard_draft_title": {
+        "message": "Start a chat about this letter?",
+        "description": "Location: Chat. Text for the Phi Chat window when a question asked on a Nebula story letter (a short letter Phi writes about the user's recent browsing) opens it and starts a new conversation about that letter. Confirmation dialog title shown when the Phi Chat composer still holds unsent text or attachments and a question about a Nebula story letter arrives to start a new conversation. \"Letter\" is the Nebula story."
     },
     "newtab_chat": {
         "message": "Chat",
