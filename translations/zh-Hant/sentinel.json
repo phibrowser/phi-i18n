@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "設定和你信任的寄件者只儲存在這台裝置上。"
     },
+    "mail_guard_about_local_detection": {
+        "message": "你的偵測設定，包括你列出的網域，都只儲存在這台裝置上。它們只會改變 Phi AI 收到哪些發現，絕不會在傳送的內容中加入任何關於你的資訊。"
+    },
     "mail_guard_about_local_landing": {
         "message": "Phi 高度懷疑的郵件中的連結會在這台裝置上儲存 7 天，以便留意這些連結開啟的頁面。"
     },
@@ -1729,6 +1732,174 @@
     },
     "mail_guard_checked_latest": {
         "message": "已檢查最新一封郵件，寄件者為 $SENDER$。"
+    },
+    "mail_guard_checks_always": {
+        "message": "一律警告"
+    },
+    "mail_guard_checks_always_hint": {
+        "message": "會執行程式碼或隱藏真實類型的附件、會啟動程式的連結，以及模仿你自己的網域或對話中其他人的位址。Phi AI 無法替你判斷這些，所以它們會一直保持開啟。"
+    },
+    "mail_guard_checks_ask_attachments": {
+        "message": "檔案會不會危害你的裝置？"
+    },
+    "mail_guard_checks_ask_authentication": {
+        "message": "你的郵件服務供應商驗證過這封郵件的來源嗎？"
+    },
+    "mail_guard_checks_ask_identity": {
+        "message": "寄件者真的是自稱的那個人嗎？"
+    },
+    "mail_guard_checks_ask_links": {
+        "message": "連結真的會前往它顯示的地方嗎？"
+    },
+    "mail_guard_checks_ask_thread": {
+        "message": "對話進行到一半，寄件者換人了嗎？"
+    },
+    "mail_guard_checks_find_attachments_1": {
+        "message": ".zip 等壓縮檔"
+    },
+    "mail_guard_checks_find_attachments_2": {
+        "message": "含巨集的 Office 檔案"
+    },
+    "mail_guard_checks_find_attachments_3": {
+        "message": "磁碟映像檔和指令碼檔案"
+    },
+    "mail_guard_checks_find_authentication_1": {
+        "message": "SPF、DKIM 或 DMARC 未通過：這些檢查用來證明郵件確實來自它所宣稱的網域"
+    },
+    "mail_guard_checks_find_authentication_2": {
+        "message": "簽章來自與寄件者無關的網域"
+    },
+    "mail_guard_checks_find_identity_1": {
+        "message": "名稱寫著「PayPal」，位址卻在別的網域"
+    },
+    "mail_guard_checks_find_identity_2": {
+        "message": "和真實公司只差一個字母的網域"
+    },
+    "mail_guard_checks_find_identity_3": {
+        "message": "拋棄式信箱，或回覆會寄到另一個位址"
+    },
+    "mail_guard_checks_find_links_1": {
+        "message": "顯示某個網站、實際卻開啟另一個網站的連結文字"
+    },
+    "mail_guard_checks_find_links_2": {
+        "message": "看不出目的地的短網址"
+    },
+    "mail_guard_checks_find_links_3": {
+        "message": "未加密的登入頁面，或架設在公開檔案代管網站上的登入頁面"
+    },
+    "mail_guard_checks_find_thread_1": {
+        "message": "和對話中另一位參與者極為相似的位址"
+    },
+    "mail_guard_checks_find_thread_2": {
+        "message": "同一個人的名稱，位址卻不同"
+    },
+    "mail_guard_checks_flags_attachments": {
+        "message": "同事分享壓縮檔或含巨集的活頁簿。"
+    },
+    "mail_guard_checks_flags_authentication": {
+        "message": "郵件經過轉寄或郵寄清單，這可能讓這些檢查失效。"
+    },
+    "mail_guard_checks_flags_identity": {
+        "message": "公司透過合作夥伴或較新的網域寄信。"
+    },
+    "mail_guard_checks_flags_label": {
+        "message": "可能誤報真實郵件的情況："
+    },
+    "mail_guard_checks_flags_links": {
+        "message": "電子報的連結經由點擊追蹤服務轉送。"
+    },
+    "mail_guard_checks_flags_thread": {
+        "message": "有人開始改用新的位址寫信。"
+    },
+    "mail_guard_checks_group_attachments": {
+        "message": "附件"
+    },
+    "mail_guard_checks_group_authentication": {
+        "message": "寄件者驗證"
+    },
+    "mail_guard_checks_group_identity": {
+        "message": "寄件者身分"
+    },
+    "mail_guard_checks_group_links": {
+        "message": "連結"
+    },
+    "mail_guard_checks_group_thread": {
+        "message": "對話"
+    },
+    "mail_guard_checks_intro": {
+        "message": "這些規則在這台裝置上執行，檢查一封郵件是怎麼組成的：誰寄的、連結前往哪裡、附了什麼檔案。你可以選擇每一組規則的影響程度。"
+    },
+    "mail_guard_checks_less": {
+        "message": "隱藏詳細資料"
+    },
+    "mail_guard_checks_mode_list": {
+        "message": "僅列出"
+    },
+    "mail_guard_checks_mode_list_hint": {
+        "message": "你仍會看到這項發現，Phi AI 也仍會納入考量，但它本身不能提升等級。"
+    },
+    "mail_guard_checks_mode_off": {
+        "message": "關閉"
+    },
+    "mail_guard_checks_mode_off_hint": {
+        "message": "不檢查。你不會看到這些發現，Phi AI 也不會收到。"
+    },
+    "mail_guard_checks_mode_raise": {
+        "message": "可提升等級"
+    },
+    "mail_guard_checks_mode_raise_hint": {
+        "message": "一項發現就能把郵件列為「可疑」或「高風險」，直到 Phi AI 進一步檢視後另有判斷。"
+    },
+    "mail_guard_checks_more": {
+        "message": "檢查哪些項目"
+    },
+    "mail_guard_checks_one_company": {
+        "message": "某家公司的郵件老是被誤報？把它的網域加進「$DOMAINS$」，不必把整組規則調低。"
+    },
+    "mail_guard_detection_add": {
+        "message": "新增"
+    },
+    "mail_guard_detection_add_domain": {
+        "message": "新增網域"
+    },
+    "mail_guard_detection_checks": {
+        "message": "靜態檢查"
+    },
+    "mail_guard_detection_checks_custom": {
+        "message": "已自訂"
+    },
+    "mail_guard_detection_checks_default": {
+        "message": "預設"
+    },
+    "mail_guard_detection_domains": {
+        "message": "我認識的網域"
+    },
+    "mail_guard_detection_organization": {
+        "message": "我所屬組織的網域"
+    },
+    "mail_guard_detection_organization_hint": {
+        "message": "寄件位址模仿這些網域的郵件會顯示警告。只儲存在這台裝置上。"
+    },
+    "mail_guard_detection_reset": {
+        "message": "重設為預設值"
+    },
+    "mail_guard_detection_sensitivity": {
+        "message": "發出警告的靈敏度"
+    },
+    "mail_guard_domains_hint": {
+        "message": "被 Phi 誤報的公司真實寄信網域或連結追蹤網域。來自這些網域的郵件和連結，不會再被判定為模仿品牌或隱藏連結去向。只儲存在這台裝置上。"
+    },
+    "mail_guard_domains_note": {
+        "message": "這和信任寄件者不同：Phi AI 仍會讀取這些網域的郵件，也仍可能警告你。"
+    },
+    "mail_guard_domains_refused_format": {
+        "message": "請輸入網域，例如 example.com。"
+    },
+    "mail_guard_domains_refused_full": {
+        "message": "最多可新增 50 個網域。"
+    },
+    "mail_guard_domains_refused_shared": {
+        "message": "這個網域很多人都在用，無法加入清單。"
     },
     "mail_guard_evidence_reply_to": {
         "message": "寄件者 $FROM$ → 回覆至 $REPLY_TO$"
@@ -2045,6 +2216,9 @@
     "mail_guard_level_maybe_caution": {
         "message": "可能需要注意"
     },
+    "mail_guard_level_maybe_high_risk": {
+        "message": "可能有高風險"
+    },
     "mail_guard_level_maybe_suspicious": {
         "message": "可能有疑點"
     },
@@ -2062,6 +2236,9 @@
     },
     "mail_guard_line_confirmed_dangerous": {
         "message": "Phi AI 高度懷疑這是危險郵件。請勿使用其中的連結或附件。"
+    },
+    "mail_guard_line_fatal": {
+        "message": "這個附件或連結本身就可能造成危害，Phi AI 無法判斷。請勿開啟。"
     },
     "mail_guard_line_ordinary": {
         "message": "Phi AI 認為風險較低，但下方靜態檢查的發現仍值得留意。"
@@ -2363,8 +2540,29 @@
     "mail_guard_part_subject": {
         "message": "主旨"
     },
+    "mail_guard_sensitivity_relaxed": {
+        "message": "寬鬆"
+    },
+    "mail_guard_sensitivity_relaxed_line": {
+        "message": "只在 Phi AI 非常確定時才發出警告。進一步檢視的郵件較少，有些詐騙郵件可能只會顯示標記。"
+    },
+    "mail_guard_sensitivity_standard": {
+        "message": "標準"
+    },
+    "mail_guard_sensitivity_standard_line": {
+        "message": "Phi AI 高度懷疑有風險時發出警告。其他跡象只會顯示一個可以點開的標記。"
+    },
+    "mail_guard_sensitivity_strict": {
+        "message": "嚴格"
+    },
+    "mail_guard_sensitivity_strict_line": {
+        "message": "跡象指向風險、但 Phi AI 不太確定時也會發出警告。進一步檢視的郵件較多，會用掉較多的 AI 額度。"
+    },
     "mail_guard_settings_about": {
         "message": "關於電子郵件保護與隱私"
+    },
+    "mail_guard_settings_detection": {
+        "message": "偵測"
     },
     "mail_guard_settings_enabled": {
         "message": "檢查開啟的郵件"

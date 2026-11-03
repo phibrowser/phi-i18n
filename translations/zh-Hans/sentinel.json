@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "设置和你信任的发件人只保存在这台设备上。"
     },
+    "mail_guard_about_local_detection": {
+        "message": "你的检测设置，包括你列出的域名，都只保存在这台设备上。它们只影响哪些发现会交给 Phi AI，绝不会在发送的内容里添加任何关于你的信息。"
+    },
     "mail_guard_about_local_landing": {
         "message": "Phi 高度怀疑的邮件里的链接会在这台设备上保存 7 天，以便留意它们打开的页面。"
     },
@@ -1729,6 +1732,174 @@
     },
     "mail_guard_checked_latest": {
         "message": "已检查最新一封邮件，发件人：$SENDER$。"
+    },
+    "mail_guard_checks_always": {
+        "message": "始终提醒"
+    },
+    "mail_guard_checks_always_hint": {
+        "message": "能运行代码或隐藏真实类型的附件、会启动程序的链接，以及仿冒你自己的域名或会话中其他人的地址。Phi AI 无法替你判断这些，所以它们始终开启。"
+    },
+    "mail_guard_checks_ask_attachments": {
+        "message": "文件可能危害你的设备吗？"
+    },
+    "mail_guard_checks_ask_authentication": {
+        "message": "你的邮件服务商验证过它的来源吗？"
+    },
+    "mail_guard_checks_ask_identity": {
+        "message": "发件人真的是自称的那个人吗？"
+    },
+    "mail_guard_checks_ask_links": {
+        "message": "链接真的通向它所显示的地方吗？"
+    },
+    "mail_guard_checks_ask_thread": {
+        "message": "会话进行到一半，发件人换人了吗？"
+    },
+    "mail_guard_checks_find_attachments_1": {
+        "message": ".zip 等压缩包"
+    },
+    "mail_guard_checks_find_attachments_2": {
+        "message": "带宏的 Office 文件"
+    },
+    "mail_guard_checks_find_attachments_3": {
+        "message": "磁盘映像和脚本文件"
+    },
+    "mail_guard_checks_find_authentication_1": {
+        "message": "SPF、DKIM 或 DMARC 未通过：这些检查证明邮件确实来自它声称的域名"
+    },
+    "mail_guard_checks_find_authentication_2": {
+        "message": "签名来自与发件人无关的域名"
+    },
+    "mail_guard_checks_find_identity_1": {
+        "message": "名称写着「PayPal」，地址却在别的域名上"
+    },
+    "mail_guard_checks_find_identity_2": {
+        "message": "和真实公司只差一个字母的域名"
+    },
+    "mail_guard_checks_find_identity_3": {
+        "message": "一次性邮箱，或回复会发到另一个地址"
+    },
+    "mail_guard_checks_find_links_1": {
+        "message": "文字显示的是一个网站，打开的却是另一个"
+    },
+    "mail_guard_checks_find_links_2": {
+        "message": "隐藏去向的短链接"
+    },
+    "mail_guard_checks_find_links_3": {
+        "message": "未加密或放在公共文件托管网站上的登录页面"
+    },
+    "mail_guard_checks_find_thread_1": {
+        "message": "和会话中另一个人非常相似的地址"
+    },
+    "mail_guard_checks_find_thread_2": {
+        "message": "同一个人的名称出现在不同的地址上"
+    },
+    "mail_guard_checks_flags_attachments": {
+        "message": "同事分享压缩包或带宏的工作簿。"
+    },
+    "mail_guard_checks_flags_authentication": {
+        "message": "邮件被转发或经过邮件列表，这可能让这些检查失效。"
+    },
+    "mail_guard_checks_flags_identity": {
+        "message": "公司通过合作方或较新的域名发信。"
+    },
+    "mail_guard_checks_flags_label": {
+        "message": "可能误报真实邮件的情况："
+    },
+    "mail_guard_checks_flags_links": {
+        "message": "订阅邮件的链接要经过点击跟踪服务跳转。"
+    },
+    "mail_guard_checks_flags_thread": {
+        "message": "有人开始用新地址写信。"
+    },
+    "mail_guard_checks_group_attachments": {
+        "message": "附件"
+    },
+    "mail_guard_checks_group_authentication": {
+        "message": "发件人验证"
+    },
+    "mail_guard_checks_group_identity": {
+        "message": "发件人身份"
+    },
+    "mail_guard_checks_group_links": {
+        "message": "链接"
+    },
+    "mail_guard_checks_group_thread": {
+        "message": "会话"
+    },
+    "mail_guard_checks_intro": {
+        "message": "这些规则在这台设备上运行，检查邮件的构成：谁发的、链接去哪里、附带了什么。你可以决定每一组规则的影响有多大。"
+    },
+    "mail_guard_checks_less": {
+        "message": "收起详情"
+    },
+    "mail_guard_checks_mode_list": {
+        "message": "仅列出"
+    },
+    "mail_guard_checks_mode_list_hint": {
+        "message": "你仍会看到这项发现，Phi AI 也仍会参考，但它本身不能提升等级。"
+    },
+    "mail_guard_checks_mode_off": {
+        "message": "关闭"
+    },
+    "mail_guard_checks_mode_off_hint": {
+        "message": "不检查。你看不到这些发现，Phi AI 也拿不到。"
+    },
+    "mail_guard_checks_mode_raise": {
+        "message": "可提升等级"
+    },
+    "mail_guard_checks_mode_raise_hint": {
+        "message": "一项发现就能把邮件定为可疑或高风险，直到 Phi AI 进一步检查后另有判断。"
+    },
+    "mail_guard_checks_more": {
+        "message": "它会检查什么"
+    },
+    "mail_guard_checks_one_company": {
+        "message": "总是某一家公司被误报？把它的域名加到 $DOMAINS$，不必调低整组规则。"
+    },
+    "mail_guard_detection_add": {
+        "message": "添加"
+    },
+    "mail_guard_detection_add_domain": {
+        "message": "添加域名"
+    },
+    "mail_guard_detection_checks": {
+        "message": "静态检查"
+    },
+    "mail_guard_detection_checks_custom": {
+        "message": "已自定义"
+    },
+    "mail_guard_detection_checks_default": {
+        "message": "默认"
+    },
+    "mail_guard_detection_domains": {
+        "message": "我认识的域名"
+    },
+    "mail_guard_detection_organization": {
+        "message": "我所在组织的域名"
+    },
+    "mail_guard_detection_organization_hint": {
+        "message": "仿冒这些域名的地址发来的邮件会触发提醒。只保存在这台设备上。"
+    },
+    "mail_guard_detection_reset": {
+        "message": "恢复默认设置"
+    },
+    "mail_guard_detection_sensitivity": {
+        "message": "提醒的灵敏度"
+    },
+    "mail_guard_domains_hint": {
+        "message": "某家公司真实使用、却被 Phi 误报的发信域名或链接跟踪域名。这些域名上的邮件和链接不会再被报告为仿冒品牌或隐藏链接去向。只保存在这台设备上。"
+    },
+    "mail_guard_domains_note": {
+        "message": "这和信任发件人不同：Phi AI 仍会读取这些域名的邮件，也仍可能提醒你。"
+    },
+    "mail_guard_domains_refused_format": {
+        "message": "请输入域名，例如 example.com。"
+    },
+    "mail_guard_domains_refused_full": {
+        "message": "最多可添加 50 个域名。"
+    },
+    "mail_guard_domains_refused_shared": {
+        "message": "这个域名很多人都在用，不能加入列表。"
     },
     "mail_guard_evidence_reply_to": {
         "message": "发件人 $FROM$ → 回复至 $REPLY_TO$"
@@ -2045,6 +2216,9 @@
     "mail_guard_level_maybe_caution": {
         "message": "可能需留意"
     },
+    "mail_guard_level_maybe_high_risk": {
+        "message": "可能高风险"
+    },
     "mail_guard_level_maybe_suspicious": {
         "message": "可能可疑"
     },
@@ -2062,6 +2236,9 @@
     },
     "mail_guard_line_confirmed_dangerous": {
         "message": "Phi AI 高度怀疑这是危险邮件。请不要使用其中的链接或附件。"
+    },
+    "mail_guard_line_fatal": {
+        "message": "这个附件或链接本身就可能造成危害，Phi AI 无法判断。请不要打开。"
     },
     "mail_guard_line_ordinary": {
         "message": "Phi AI 认为风险较低，但下方静态检查的发现仍值得留意。"
@@ -2363,8 +2540,29 @@
     "mail_guard_part_subject": {
         "message": "主题"
     },
+    "mail_guard_sensitivity_relaxed": {
+        "message": "宽松"
+    },
+    "mail_guard_sensitivity_relaxed_line": {
+        "message": "只在 Phi AI 非常确定时才提醒。进一步检查的邮件更少，部分诈骗邮件可能只显示标签。"
+    },
+    "mail_guard_sensitivity_standard": {
+        "message": "标准"
+    },
+    "mail_guard_sensitivity_standard_line": {
+        "message": "Phi AI 高度怀疑有风险时提醒。其他迹象只显示可点开的标签。"
+    },
+    "mail_guard_sensitivity_strict": {
+        "message": "严格"
+    },
+    "mail_guard_sensitivity_strict_line": {
+        "message": "迹象指向风险但 Phi AI 不太确定时也会提醒。进一步检查的邮件更多，会消耗更多 AI 额度。"
+    },
     "mail_guard_settings_about": {
         "message": "关于电子邮件保护与隐私"
+    },
+    "mail_guard_settings_detection": {
+        "message": "检测"
     },
     "mail_guard_settings_enabled": {
         "message": "检查已打开的邮件"

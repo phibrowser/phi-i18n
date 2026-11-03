@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "Je instellingen en vertrouwde afzenders worden alleen op dit apparaat bewaard."
     },
+    "mail_guard_about_local_detection": {
+        "message": "Je detectie-instellingen, inclusief de domeinen die je toevoegt, blijven op dit apparaat. Ze bepalen welke bevindingen Phi AI krijgt en voegen nooit iets over jou toe aan wat er wordt verstuurd."
+    },
     "mail_guard_about_local_landing": {
         "message": "De links van e-mails die Phi sterk verdenkt, worden 7 dagen op dit apparaat bewaard, zodat de pagina's waar ze naartoe leiden in de gaten gehouden kunnen worden."
     },
@@ -1729,6 +1732,174 @@
     },
     "mail_guard_checked_latest": {
         "message": "Het nieuwste bericht, van $SENDER$, is gecontroleerd."
+    },
+    "mail_guard_checks_always": {
+        "message": "Altijd waarschuwen"
+    },
+    "mail_guard_checks_always_hint": {
+        "message": "Bijlagen die code kunnen uitvoeren of hun type verbergen, links die een programma starten, en imitaties van je eigen domein of van mensen in het gesprek. Phi AI kan dit niet voor je beoordelen, dus deze regels blijven aan."
+    },
+    "mail_guard_checks_ask_attachments": {
+        "message": "Kan een bestand je apparaat schaden?"
+    },
+    "mail_guard_checks_ask_authentication": {
+        "message": "Heeft je e-mailprovider geverifieerd waar de e-mail vandaan komt?"
+    },
+    "mail_guard_checks_ask_identity": {
+        "message": "Is de afzender wie hij zegt te zijn?"
+    },
+    "mail_guard_checks_ask_links": {
+        "message": "Gaan links naar waar ze zeggen te gaan?"
+    },
+    "mail_guard_checks_ask_thread": {
+        "message": "Is iemand halverwege het gesprek van adres veranderd?"
+    },
+    "mail_guard_checks_find_attachments_1": {
+        "message": "Archieven zoals .zip"
+    },
+    "mail_guard_checks_find_attachments_2": {
+        "message": "Office-bestanden met macro's"
+    },
+    "mail_guard_checks_find_attachments_3": {
+        "message": "Schijfkopieën en scriptbestanden"
+    },
+    "mail_guard_checks_find_authentication_1": {
+        "message": "Mislukte SPF, DKIM of DMARC: de controles die aantonen dat een bericht echt van het genoemde domein komt"
+    },
+    "mail_guard_checks_find_authentication_2": {
+        "message": "Een handtekening van een domein dat niets met de afzender te maken heeft"
+    },
+    "mail_guard_checks_find_identity_1": {
+        "message": "Een naam zegt “PayPal”, maar het adres staat op een ander domein"
+    },
+    "mail_guard_checks_find_identity_2": {
+        "message": "Een domein dat één letter afwijkt van een echt bedrijf"
+    },
+    "mail_guard_checks_find_identity_3": {
+        "message": "Een wegwerpmailbox of antwoorden die naar een ander adres gaan"
+    },
+    "mail_guard_checks_find_links_1": {
+        "message": "Tekst die de ene site toont maar een andere opent"
+    },
+    "mail_guard_checks_find_links_2": {
+        "message": "Verkorte links die verbergen waar ze naartoe leiden"
+    },
+    "mail_guard_checks_find_links_3": {
+        "message": "Inlogpagina's zonder versleuteling of op openbare hostingdiensten"
+    },
+    "mail_guard_checks_find_thread_1": {
+        "message": "Een adres dat sterk lijkt op dat van iemand anders in het gesprek"
+    },
+    "mail_guard_checks_find_thread_2": {
+        "message": "De naam van een deelnemer vanaf een ander adres"
+    },
+    "mail_guard_checks_flags_attachments": {
+        "message": "een collega een archief of werkmap met macro's deelt."
+    },
+    "mail_guard_checks_flags_authentication": {
+        "message": "deze is doorgestuurd of via een mailinglijst is binnengekomen, wat deze controles kan verstoren."
+    },
+    "mail_guard_checks_flags_identity": {
+        "message": "een bedrijf via een partner of een nieuwer domein verstuurt."
+    },
+    "mail_guard_checks_flags_label": {
+        "message": "Kan echte e-mail markeren wanneer:"
+    },
+    "mail_guard_checks_flags_links": {
+        "message": "een nieuwsbrief zijn links via een kliktracker stuurt."
+    },
+    "mail_guard_checks_flags_thread": {
+        "message": "iemand vanaf een nieuw adres begint te schrijven."
+    },
+    "mail_guard_checks_group_attachments": {
+        "message": "Bijlagen"
+    },
+    "mail_guard_checks_group_authentication": {
+        "message": "Afzenderverificatie"
+    },
+    "mail_guard_checks_group_identity": {
+        "message": "Afzenderidentiteit"
+    },
+    "mail_guard_checks_group_links": {
+        "message": "Links"
+    },
+    "mail_guard_checks_group_thread": {
+        "message": "Gesprek"
+    },
+    "mail_guard_checks_intro": {
+        "message": "Regels die op dit apparaat draaien en bekijken hoe een e-mail in elkaar zit: wie hem stuurde, waar de links heen gaan, wat er is bijgevoegd. Kies hoeveel elke groep meetelt."
+    },
+    "mail_guard_checks_less": {
+        "message": "Details verbergen"
+    },
+    "mail_guard_checks_mode_list": {
+        "message": "Alleen tonen"
+    },
+    "mail_guard_checks_mode_list_hint": {
+        "message": "Je ziet de bevinding nog steeds en Phi AI weegt die mee, maar op zichzelf kan die het niveau niet verhogen."
+    },
+    "mail_guard_checks_mode_off": {
+        "message": "Uit"
+    },
+    "mail_guard_checks_mode_off_hint": {
+        "message": "Wordt niet gecontroleerd. Je ziet deze bevindingen niet en Phi AI krijgt ze ook niet."
+    },
+    "mail_guard_checks_mode_raise": {
+        "message": "Kan niveau verhogen"
+    },
+    "mail_guard_checks_mode_raise_hint": {
+        "message": "Een bevinding kan de e-mail Verdacht of Hoog risico maken, totdat de nadere controle van Phi AI anders uitwijst."
+    },
+    "mail_guard_checks_more": {
+        "message": "Waar het op let"
+    },
+    "mail_guard_checks_one_company": {
+        "message": "Gaat het bij één bedrijf steeds mis? Voeg zijn domein toe aan $DOMAINS$ in plaats van een hele groep lager te zetten."
+    },
+    "mail_guard_detection_add": {
+        "message": "Toevoegen"
+    },
+    "mail_guard_detection_add_domain": {
+        "message": "Domein toevoegen"
+    },
+    "mail_guard_detection_checks": {
+        "message": "Statische controles"
+    },
+    "mail_guard_detection_checks_custom": {
+        "message": "Aangepast"
+    },
+    "mail_guard_detection_checks_default": {
+        "message": "Standaard"
+    },
+    "mail_guard_detection_domains": {
+        "message": "Domeinen die ik herken"
+    },
+    "mail_guard_detection_organization": {
+        "message": "Domeinen van mijn organisatie"
+    },
+    "mail_guard_detection_organization_hint": {
+        "message": "E-mail van adressen die deze domeinen imiteren, krijgt een waarschuwing. Wordt op dit apparaat bewaard."
+    },
+    "mail_guard_detection_reset": {
+        "message": "Standaardwaarden herstellen"
+    },
+    "mail_guard_detection_sensitivity": {
+        "message": "Hoe snel je wordt gewaarschuwd"
+    },
+    "mail_guard_domains_hint": {
+        "message": "Het echte verzend- of linktrackingdomein van een bedrijf, dat Phi per ongeluk markeert. E-mail en links op deze domeinen worden niet gemeld als imitatie van een merk of als link die verbergt waar hij naartoe leidt. Wordt op dit apparaat bewaard."
+    },
+    "mail_guard_domains_note": {
+        "message": "Dit is niet hetzelfde als een afzender vertrouwen: Phi AI leest e-mail van deze domeinen nog steeds en kan je nog steeds waarschuwen."
+    },
+    "mail_guard_domains_refused_format": {
+        "message": "Voer een domein in, zoals example.com."
+    },
+    "mail_guard_domains_refused_full": {
+        "message": "Je kunt maximaal 50 domeinen toevoegen."
+    },
+    "mail_guard_domains_refused_shared": {
+        "message": "Dit domein wordt door veel mensen gebruikt en kan daarom niet worden toegevoegd."
     },
     "mail_guard_evidence_reply_to": {
         "message": "Van $FROM$ → Antwoord aan $REPLY_TO$"
@@ -2045,6 +2216,9 @@
     "mail_guard_level_maybe_caution": {
         "message": "Misschien aandacht nodig"
     },
+    "mail_guard_level_maybe_high_risk": {
+        "message": "Misschien hoog risico"
+    },
     "mail_guard_level_maybe_suspicious": {
         "message": "Misschien verdacht"
     },
@@ -2062,6 +2236,9 @@
     },
     "mail_guard_line_confirmed_dangerous": {
         "message": "Phi AI vermoedt sterk dat deze e-mail gevaarlijk is. Gebruik de links en bijlagen niet."
+    },
+    "mail_guard_line_fatal": {
+        "message": "Deze bijlage of link kan op zichzelf al schade aanrichten, en Phi AI kan dat niet beoordelen. Open deze niet."
     },
     "mail_guard_line_ordinary": {
         "message": "Phi AI schat het risico laag in, maar de bevindingen van de statische controles hieronder zijn toch het bekijken waard."
@@ -2363,8 +2540,29 @@
     "mail_guard_part_subject": {
         "message": "onderwerp"
     },
+    "mail_guard_sensitivity_relaxed": {
+        "message": "Soepel"
+    },
+    "mail_guard_sensitivity_relaxed_line": {
+        "message": "Waarschuwt alleen als Phi AI er heel zeker van is. Minder e-mails krijgen een nadere controle, en bij sommige oplichting blijft het misschien bij een label."
+    },
+    "mail_guard_sensitivity_standard": {
+        "message": "Standaard"
+    },
+    "mail_guard_sensitivity_standard_line": {
+        "message": "Waarschuwt als Phi AI sterk vermoedt dat er een risico is. Andere signalen krijgen een label dat je kunt openen."
+    },
+    "mail_guard_sensitivity_strict": {
+        "message": "Streng"
+    },
+    "mail_guard_sensitivity_strict_line": {
+        "message": "Waarschuwt ook als de signalen op een risico wijzen, maar Phi AI minder zeker is. Meer e-mails krijgen een nadere controle, wat meer van je AI-tegoed gebruikt."
+    },
     "mail_guard_settings_about": {
         "message": "Over E-mailbescherming en privacy"
+    },
+    "mail_guard_settings_detection": {
+        "message": "Detectie"
     },
     "mail_guard_settings_enabled": {
         "message": "Geopende e-mail controleren"

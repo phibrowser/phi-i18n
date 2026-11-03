@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "설정과 신뢰하는 보낸 사람은 이 기기에만 저장돼요."
     },
+    "mail_guard_about_local_detection": {
+        "message": "탐지 설정은 추가한 도메인까지 포함해 이 기기에만 저장돼요. Phi AI에 전달되는 검사 결과가 달라질 뿐, 전송되는 내용에 내 정보가 더해지지는 않아요."
+    },
     "mail_guard_about_local_landing": {
         "message": "Phi가 강하게 의심하는 메일의 링크는 그 링크가 여는 페이지를 살펴볼 수 있도록 이 기기에 7일간 저장돼요."
     },
@@ -1729,6 +1732,174 @@
     },
     "mail_guard_checked_latest": {
         "message": "$SENDER$이(가) 보낸 가장 최근 메일을 검사했어요."
+    },
+    "mail_guard_checks_always": {
+        "message": "항상 경고"
+    },
+    "mail_guard_checks_always_hint": {
+        "message": "코드를 실행하거나 실제 형식을 숨기는 첨부파일, 프로그램을 실행하는 링크, 내 도메인이나 대화 상대를 흉내 낸 주소예요. Phi AI가 대신 판단할 수 없어서 항상 켜져 있어요."
+    },
+    "mail_guard_checks_ask_attachments": {
+        "message": "파일이 기기에 해를 끼칠 수 있나요?"
+    },
+    "mail_guard_checks_ask_authentication": {
+        "message": "메일 서비스가 이 메일이 어디서 왔는지 확인했나요?"
+    },
+    "mail_guard_checks_ask_identity": {
+        "message": "보낸 사람이 정말 그 사람이 맞나요?"
+    },
+    "mail_guard_checks_ask_links": {
+        "message": "링크가 표시된 곳으로 정말 연결되나요?"
+    },
+    "mail_guard_checks_ask_thread": {
+        "message": "대화 중간에 상대가 바뀌었나요?"
+    },
+    "mail_guard_checks_find_attachments_1": {
+        "message": ".zip 같은 압축 파일"
+    },
+    "mail_guard_checks_find_attachments_2": {
+        "message": "매크로가 있는 Office 파일"
+    },
+    "mail_guard_checks_find_attachments_3": {
+        "message": "디스크 이미지와 스크립트 파일"
+    },
+    "mail_guard_checks_find_authentication_1": {
+        "message": "SPF, DKIM 또는 DMARC 실패: 메일이 표시된 도메인에서 실제로 왔음을 증명하는 검사"
+    },
+    "mail_guard_checks_find_authentication_2": {
+        "message": "보낸 사람과 관련 없는 도메인의 서명"
+    },
+    "mail_guard_checks_find_identity_1": {
+        "message": "이름은 \"PayPal\"인데 주소는 다른 도메인"
+    },
+    "mail_guard_checks_find_identity_2": {
+        "message": "실제 회사 도메인과 한 글자만 다른 도메인"
+    },
+    "mail_guard_checks_find_identity_3": {
+        "message": "일회용 메일함이나 다른 주소로 가는 답장"
+    },
+    "mail_guard_checks_find_links_1": {
+        "message": "표시된 사이트와 다른 사이트를 여는 링크 문구"
+    },
+    "mail_guard_checks_find_links_2": {
+        "message": "목적지를 숨기는 단축 링크"
+    },
+    "mail_guard_checks_find_links_3": {
+        "message": "암호화되지 않았거나 공개 파일 호스팅 서비스에 있는 로그인 페이지"
+    },
+    "mail_guard_checks_find_thread_1": {
+        "message": "대화 속 다른 사람의 주소와 매우 비슷한 주소"
+    },
+    "mail_guard_checks_find_thread_2": {
+        "message": "같은 사람 이름인데 다른 주소"
+    },
+    "mail_guard_checks_flags_attachments": {
+        "message": "동료가 압축 파일이나 매크로 통합 문서를 공유할 때."
+    },
+    "mail_guard_checks_flags_authentication": {
+        "message": "메일이 전달되었거나 메일링 리스트를 거쳐 와서 이 검사를 통과하지 못할 때."
+    },
+    "mail_guard_checks_flags_identity": {
+        "message": "회사가 협력사를 통해 보내거나 새로 만든 도메인으로 보낼 때."
+    },
+    "mail_guard_checks_flags_label": {
+        "message": "정상 메일을 잘못 표시할 수 있는 경우:"
+    },
+    "mail_guard_checks_flags_links": {
+        "message": "뉴스레터가 링크를 클릭 추적 서비스를 거쳐 보낼 때."
+    },
+    "mail_guard_checks_flags_thread": {
+        "message": "상대가 새 주소로 메일을 보내기 시작할 때."
+    },
+    "mail_guard_checks_group_attachments": {
+        "message": "첨부파일"
+    },
+    "mail_guard_checks_group_authentication": {
+        "message": "보낸 사람 인증"
+    },
+    "mail_guard_checks_group_identity": {
+        "message": "보낸 사람 신원"
+    },
+    "mail_guard_checks_group_links": {
+        "message": "링크"
+    },
+    "mail_guard_checks_group_thread": {
+        "message": "대화"
+    },
+    "mail_guard_checks_intro": {
+        "message": "이 기기에서 실행되는 규칙으로, 누가 보냈는지, 링크가 어디로 연결되는지, 무엇이 첨부됐는지 같은 메일의 구조를 살펴봐요. 그룹마다 얼마나 반영할지 고르세요."
+    },
+    "mail_guard_checks_less": {
+        "message": "자세한 내용 숨기기"
+    },
+    "mail_guard_checks_mode_list": {
+        "message": "목록에만 표시"
+    },
+    "mail_guard_checks_mode_list_hint": {
+        "message": "검사 결과는 계속 보이고 Phi AI도 참고하지만, 그것만으로 위험 수준을 올리지는 못해요."
+    },
+    "mail_guard_checks_mode_off": {
+        "message": "끄기"
+    },
+    "mail_guard_checks_mode_off_hint": {
+        "message": "검사하지 않아요. 이 검사 결과는 보이지 않고 Phi AI에도 전달되지 않아요."
+    },
+    "mail_guard_checks_mode_raise": {
+        "message": "위험 수준 올릴 수 있음"
+    },
+    "mail_guard_checks_mode_raise_hint": {
+        "message": "검사 결과 하나만으로도 메일이 의심스러움이나 높은 위험으로 표시될 수 있어요. Phi AI의 자세한 검토에서 다르게 판단하면 바뀌어요."
+    },
+    "mail_guard_checks_more": {
+        "message": "살펴보는 항목 보기"
+    },
+    "mail_guard_checks_one_company": {
+        "message": "특정 회사 메일만 자꾸 잘못 표시되나요? 그룹 전체를 낮추는 대신 그 회사 도메인을 $DOMAINS$에 추가하세요."
+    },
+    "mail_guard_detection_add": {
+        "message": "추가"
+    },
+    "mail_guard_detection_add_domain": {
+        "message": "도메인 추가"
+    },
+    "mail_guard_detection_checks": {
+        "message": "정적 검사"
+    },
+    "mail_guard_detection_checks_custom": {
+        "message": "사용자 지정"
+    },
+    "mail_guard_detection_checks_default": {
+        "message": "기본값"
+    },
+    "mail_guard_detection_domains": {
+        "message": "내가 아는 도메인"
+    },
+    "mail_guard_detection_organization": {
+        "message": "소속 조직의 도메인"
+    },
+    "mail_guard_detection_organization_hint": {
+        "message": "이 도메인을 흉내 낸 주소에서 온 메일에 경고를 표시해요. 이 기기에 저장돼요."
+    },
+    "mail_guard_detection_reset": {
+        "message": "기본값으로 재설정"
+    },
+    "mail_guard_detection_sensitivity": {
+        "message": "얼마나 쉽게 경고할지"
+    },
+    "mail_guard_domains_hint": {
+        "message": "회사가 실제로 쓰는 발송 도메인이나 링크 추적 도메인인데 Phi가 잘못 표시하는 경우예요. 이 도메인의 메일과 링크는 브랜드를 흉내 내거나 링크 목적지를 숨기는 것으로 보고되지 않아요. 이 기기에 저장돼요."
+    },
+    "mail_guard_domains_note": {
+        "message": "보낸 사람을 신뢰하는 것과는 달라요. Phi AI는 이 도메인의 메일도 계속 읽고 경고할 수 있어요."
+    },
+    "mail_guard_domains_refused_format": {
+        "message": "example.com 같은 도메인을 입력하세요."
+    },
+    "mail_guard_domains_refused_full": {
+        "message": "도메인은 최대 50개까지 추가할 수 있어요."
+    },
+    "mail_guard_domains_refused_shared": {
+        "message": "여러 사람이 쓰는 도메인이라 추가할 수 없어요."
     },
     "mail_guard_evidence_reply_to": {
         "message": "보낸 사람 $FROM$ → 회신 주소 $REPLY_TO$"
@@ -2045,6 +2216,9 @@
     "mail_guard_level_maybe_caution": {
         "message": "주의가 필요할 수 있음"
     },
+    "mail_guard_level_maybe_high_risk": {
+        "message": "위험이 높을 수 있음"
+    },
     "mail_guard_level_maybe_suspicious": {
         "message": "의심스러울 수 있음"
     },
@@ -2062,6 +2236,9 @@
     },
     "mail_guard_line_confirmed_dangerous": {
         "message": "Phi AI는 이 메일이 위험하다고 강하게 의심해요. 링크나 첨부파일은 사용하지 마세요."
+    },
+    "mail_guard_line_fatal": {
+        "message": "이 첨부파일이나 링크는 그 자체로 해를 끼칠 수 있고, Phi AI가 판단할 수 없어요. 열지 마세요."
     },
     "mail_guard_line_ordinary": {
         "message": "Phi AI는 위험이 낮다고 판단하지만, 아래 정적 검사 결과도 한번 확인해 보세요."
@@ -2363,8 +2540,29 @@
     "mail_guard_part_subject": {
         "message": "제목"
     },
+    "mail_guard_sensitivity_relaxed": {
+        "message": "느슨함"
+    },
+    "mail_guard_sensitivity_relaxed_line": {
+        "message": "Phi AI가 아주 확신할 때만 경고해요. 자세한 검토를 받는 메일이 줄고, 일부 사기 메일은 태그만 표시될 수 있어요."
+    },
+    "mail_guard_sensitivity_standard": {
+        "message": "표준"
+    },
+    "mail_guard_sensitivity_standard_line": {
+        "message": "Phi AI가 위험을 강하게 의심할 때 경고해요. 다른 징후에는 열어 볼 수 있는 태그가 표시돼요."
+    },
+    "mail_guard_sensitivity_strict": {
+        "message": "엄격함"
+    },
+    "mail_guard_sensitivity_strict_line": {
+        "message": "징후가 위험을 가리키지만 Phi AI의 확신이 낮을 때도 경고해요. 자세한 검토를 받는 메일이 늘어 AI 사용 한도를 더 많이 써요."
+    },
     "mail_guard_settings_about": {
         "message": "이메일 보호 및 개인정보 안내"
+    },
+    "mail_guard_settings_detection": {
+        "message": "탐지"
     },
     "mail_guard_settings_enabled": {
         "message": "열어 본 메일 검사"

@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "設定と信頼する送信者は、このデバイスにのみ保存されます。"
     },
+    "mail_guard_about_local_detection": {
+        "message": "検出の設定は、追加したドメインも含めて、このデバイスにのみ保存されます。設定によってPhi AIに渡される検出事項は変わりますが、送信される内容にあなたに関する情報が加わることはありません。"
+    },
     "mail_guard_about_local_landing": {
         "message": "Phiが強く疑っているメールのリンクは、リンク先のページをチェックできるよう、このデバイスに7日間保存されます。"
     },
@@ -1729,6 +1732,174 @@
     },
     "mail_guard_checked_latest": {
         "message": "最新のメール（送信者：$SENDER$）をチェックしました。"
+    },
+    "mail_guard_checks_always": {
+        "message": "常に警告"
+    },
+    "mail_guard_checks_always_hint": {
+        "message": "コードを実行できる添付ファイルや種類を隠した添付ファイル、プログラムを起動するリンク、自分のドメインややり取りの相手に似せたもの。Phi AIでは判断できないため、常にオンのままです。"
+    },
+    "mail_guard_checks_ask_attachments": {
+        "message": "ファイルがデバイスに害を及ぼす可能性はありますか？"
+    },
+    "mail_guard_checks_ask_authentication": {
+        "message": "メールプロバイダーは送信元を検証しましたか？"
+    },
+    "mail_guard_checks_ask_identity": {
+        "message": "送信者は名乗っているとおりの相手ですか？"
+    },
+    "mail_guard_checks_ask_links": {
+        "message": "リンクは表示どおりの場所に移動しますか？"
+    },
+    "mail_guard_checks_ask_thread": {
+        "message": "やり取りの途中で相手が変わっていませんか？"
+    },
+    "mail_guard_checks_find_attachments_1": {
+        "message": ".zipなどの圧縮ファイル"
+    },
+    "mail_guard_checks_find_attachments_2": {
+        "message": "マクロ付きのOfficeファイル"
+    },
+    "mail_guard_checks_find_attachments_3": {
+        "message": "ディスクイメージとスクリプトファイル"
+    },
+    "mail_guard_checks_find_authentication_1": {
+        "message": "SPF、DKIM、DMARCの失敗（メールが名乗るドメインから本当に送られたことを証明するチェック）"
+    },
+    "mail_guard_checks_find_authentication_2": {
+        "message": "送信者と無関係なドメインによる署名"
+    },
+    "mail_guard_checks_find_identity_1": {
+        "message": "名前は「PayPal」なのに、アドレスは別のドメイン"
+    },
+    "mail_guard_checks_find_identity_2": {
+        "message": "実在する企業と1文字違いのドメイン"
+    },
+    "mail_guard_checks_find_identity_3": {
+        "message": "使い捨てメールボックスや、別のアドレスに届く返信"
+    },
+    "mail_guard_checks_find_links_1": {
+        "message": "表示とは別のサイトを開くテキスト"
+    },
+    "mail_guard_checks_find_links_2": {
+        "message": "移動先を隠す短縮リンク"
+    },
+    "mail_guard_checks_find_links_3": {
+        "message": "暗号化されていないログインページや、公開ファイルホスティングサイト上のログインページ"
+    },
+    "mail_guard_checks_find_thread_1": {
+        "message": "やり取りの別の参加者によく似たアドレス"
+    },
+    "mail_guard_checks_find_thread_2": {
+        "message": "同じ人の名前なのに別のアドレス"
+    },
+    "mail_guard_checks_flags_attachments": {
+        "message": "同僚が圧縮ファイルやマクロ付きのブックを共有したとき。"
+    },
+    "mail_guard_checks_flags_authentication": {
+        "message": "転送やメーリングリストを経由して届いたために、これらのチェックが失敗したとき。"
+    },
+    "mail_guard_checks_flags_identity": {
+        "message": "企業がパートナーのドメインや新しいドメインから送信しているとき。"
+    },
+    "mail_guard_checks_flags_label": {
+        "message": "本物のメールを誤って検出することがあるケース："
+    },
+    "mail_guard_checks_flags_links": {
+        "message": "ニュースレターのリンクがクリック計測サービスを経由しているとき。"
+    },
+    "mail_guard_checks_flags_thread": {
+        "message": "相手が新しいアドレスから書き始めたとき。"
+    },
+    "mail_guard_checks_group_attachments": {
+        "message": "添付ファイル"
+    },
+    "mail_guard_checks_group_authentication": {
+        "message": "送信者の検証"
+    },
+    "mail_guard_checks_group_identity": {
+        "message": "送信者の身元"
+    },
+    "mail_guard_checks_group_links": {
+        "message": "リンク"
+    },
+    "mail_guard_checks_group_thread": {
+        "message": "やり取り"
+    },
+    "mail_guard_checks_intro": {
+        "message": "このデバイス上で動作するルールで、メールの作り（送信者、リンクの移動先、添付ファイル）を確認します。各グループをどの程度重視するかを選べます。"
+    },
+    "mail_guard_checks_less": {
+        "message": "詳細を隠す"
+    },
+    "mail_guard_checks_mode_list": {
+        "message": "表示のみ"
+    },
+    "mail_guard_checks_mode_list_hint": {
+        "message": "検出事項は引き続き表示され、Phi AIも考慮に入れますが、それだけでレベルが上がることはありません。"
+    },
+    "mail_guard_checks_mode_off": {
+        "message": "オフ"
+    },
+    "mail_guard_checks_mode_off_hint": {
+        "message": "チェックしません。これらの検出事項は表示されず、Phi AIにも渡されません。"
+    },
+    "mail_guard_checks_mode_raise": {
+        "message": "レベルに反映"
+    },
+    "mail_guard_checks_mode_raise_hint": {
+        "message": "検出事項によってメールが「不審」や「高リスク」になることがあります。Phi AIの詳しい確認で別の判断が出るまで、そのレベルが表示されます。"
+    },
+    "mail_guard_checks_more": {
+        "message": "確認する内容"
+    },
+    "mail_guard_checks_one_company": {
+        "message": "特定の企業のメールで誤検出が続く場合は、グループ全体の設定を下げるのではなく、そのドメインを$DOMAINS$に追加してください。"
+    },
+    "mail_guard_detection_add": {
+        "message": "追加"
+    },
+    "mail_guard_detection_add_domain": {
+        "message": "ドメインを追加"
+    },
+    "mail_guard_detection_checks": {
+        "message": "静的チェック"
+    },
+    "mail_guard_detection_checks_custom": {
+        "message": "カスタム"
+    },
+    "mail_guard_detection_checks_default": {
+        "message": "デフォルト"
+    },
+    "mail_guard_detection_domains": {
+        "message": "知っているドメイン"
+    },
+    "mail_guard_detection_organization": {
+        "message": "自分の組織のドメイン"
+    },
+    "mail_guard_detection_organization_hint": {
+        "message": "これらのドメインに似せたアドレスからのメールには警告を表示します。このデバイスに保存されます。"
+    },
+    "mail_guard_detection_reset": {
+        "message": "デフォルトに戻す"
+    },
+    "mail_guard_detection_sensitivity": {
+        "message": "警告の出しやすさ"
+    },
+    "mail_guard_domains_hint": {
+        "message": "企業が実際に送信やリンクの計測に使っているドメインのうち、Phiが誤って検出してしまうもの。これらのドメインのメールやリンクは、ブランドに似せている、リンクの移動先を隠している、とは報告されなくなります。このデバイスに保存されます。"
+    },
+    "mail_guard_domains_note": {
+        "message": "送信者を信頼するのとは異なります。Phi AIはこれらのドメインのメールも読み、警告することがあります。"
+    },
+    "mail_guard_domains_refused_format": {
+        "message": "example.comのような形式でドメインを入力してください。"
+    },
+    "mail_guard_domains_refused_full": {
+        "message": "追加できるドメインは最大50件です。"
+    },
+    "mail_guard_domains_refused_shared": {
+        "message": "このドメインは多くの人が使っているため、追加できません。"
     },
     "mail_guard_evidence_reply_to": {
         "message": "差出人：$FROM$ → 返信先：$REPLY_TO$"
@@ -2045,6 +2216,9 @@
     "mail_guard_level_maybe_caution": {
         "message": "注意（暫定）"
     },
+    "mail_guard_level_maybe_high_risk": {
+        "message": "高リスク（暫定）"
+    },
     "mail_guard_level_maybe_suspicious": {
         "message": "不審（暫定）"
     },
@@ -2062,6 +2236,9 @@
     },
     "mail_guard_line_confirmed_dangerous": {
         "message": "Phi AIはこのメールが危険である疑いが強いと判断しています。リンクや添付ファイルは使わないでください。"
+    },
+    "mail_guard_line_fatal": {
+        "message": "この添付ファイルやリンクはそれ自体が害を及ぼす可能性があり、Phi AIでは判断できません。開かないでください。"
     },
     "mail_guard_line_ordinary": {
         "message": "Phi AIはリスクは低いと判断していますが、下の静的チェックの検出事項も確認しておくと安心です。"
@@ -2363,8 +2540,29 @@
     "mail_guard_part_subject": {
         "message": "件名"
     },
+    "mail_guard_sensitivity_relaxed": {
+        "message": "緩め"
+    },
+    "mail_guard_sensitivity_relaxed_line": {
+        "message": "Phi AIがほぼ確実だと判断したときだけ警告します。詳しい確認を行うメールが減り、詐欺でもタグだけが付く場合があります。"
+    },
+    "mail_guard_sensitivity_standard": {
+        "message": "標準"
+    },
+    "mail_guard_sensitivity_standard_line": {
+        "message": "Phi AIがリスクを強く疑うときに警告します。その他の兆候には、開いて確認できるタグを表示します。"
+    },
+    "mail_guard_sensitivity_strict": {
+        "message": "厳しめ"
+    },
+    "mail_guard_sensitivity_strict_line": {
+        "message": "リスクの兆候はあるもののPhi AIの確信が低いときにも警告します。詳しい確認を行うメールが増えるため、AIの利用枠をより多く使います。"
+    },
     "mail_guard_settings_about": {
         "message": "メール保護とプライバシーについて"
+    },
+    "mail_guard_settings_detection": {
+        "message": "検出"
     },
     "mail_guard_settings_enabled": {
         "message": "開いたメールをチェック"

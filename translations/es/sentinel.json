@@ -1511,6 +1511,9 @@
     "mail_guard_about_local": {
         "message": "Tu configuración y los remitentes de confianza se guardan solo en este dispositivo."
     },
+    "mail_guard_about_local_detection": {
+        "message": "Tu configuración de detección, incluidos los dominios que añades, se guarda en este dispositivo. Cambia qué hallazgos recibe Phi AI y nunca añade nada sobre ti a lo que se envía."
+    },
     "mail_guard_about_local_landing": {
         "message": "Los enlaces de los mensajes de los que Phi tiene fuertes sospechas se guardan en este dispositivo durante 7 días para poder vigilar las páginas a las que llevan."
     },
@@ -1729,6 +1732,174 @@
     },
     "mail_guard_checked_latest": {
         "message": "Se revisó el mensaje más reciente, de $SENDER$."
+    },
+    "mail_guard_checks_always": {
+        "message": "Avisar siempre"
+    },
+    "mail_guard_checks_always_hint": {
+        "message": "Archivos adjuntos que pueden ejecutar código u ocultar su tipo, enlaces que inician un programa e imitaciones de tu propio dominio o de personas de la conversación. Phi AI no puede evaluarlos por ti, así que siguen activos."
+    },
+    "mail_guard_checks_ask_attachments": {
+        "message": "¿Podría un archivo dañar tu dispositivo?"
+    },
+    "mail_guard_checks_ask_authentication": {
+        "message": "¿Tu proveedor de correo verificó de dónde viene?"
+    },
+    "mail_guard_checks_ask_identity": {
+        "message": "¿El remitente es quien dice ser?"
+    },
+    "mail_guard_checks_ask_links": {
+        "message": "¿Los enlaces van adonde dicen?"
+    },
+    "mail_guard_checks_ask_thread": {
+        "message": "¿Alguien cambió de dirección a mitad de la conversación?"
+    },
+    "mail_guard_checks_find_attachments_1": {
+        "message": "Archivos comprimidos como .zip"
+    },
+    "mail_guard_checks_find_attachments_2": {
+        "message": "Archivos de Office con macros"
+    },
+    "mail_guard_checks_find_attachments_3": {
+        "message": "Imágenes de disco y archivos de script"
+    },
+    "mail_guard_checks_find_authentication_1": {
+        "message": "Fallos de SPF, DKIM o DMARC: las comprobaciones que demuestran que un mensaje viene realmente del dominio que indica"
+    },
+    "mail_guard_checks_find_authentication_2": {
+        "message": "Una firma de un dominio sin relación con el remitente"
+    },
+    "mail_guard_checks_find_identity_1": {
+        "message": "Un nombre dice «PayPal», pero la dirección es de otro dominio"
+    },
+    "mail_guard_checks_find_identity_2": {
+        "message": "Un dominio a una letra del de una empresa real"
+    },
+    "mail_guard_checks_find_identity_3": {
+        "message": "Un buzón desechable o respuestas que van a otra dirección"
+    },
+    "mail_guard_checks_find_links_1": {
+        "message": "Texto que muestra un sitio pero abre otro"
+    },
+    "mail_guard_checks_find_links_2": {
+        "message": "Enlaces cortos que ocultan su destino"
+    },
+    "mail_guard_checks_find_links_3": {
+        "message": "Páginas de inicio de sesión sin cifrado o en sitios abiertos de alojamiento de archivos"
+    },
+    "mail_guard_checks_find_thread_1": {
+        "message": "Una dirección muy parecida a la de otra persona de la conversación"
+    },
+    "mail_guard_checks_find_thread_2": {
+        "message": "El nombre de una persona con otra dirección"
+    },
+    "mail_guard_checks_flags_attachments": {
+        "message": "un colega comparte un archivo comprimido o una hoja de cálculo con macros."
+    },
+    "mail_guard_checks_flags_authentication": {
+        "message": "se reenvió o llegó a través de una lista de correo, lo que puede hacer fallar estas comprobaciones."
+    },
+    "mail_guard_checks_flags_identity": {
+        "message": "una empresa envía a través de un socio o desde un dominio más nuevo."
+    },
+    "mail_guard_checks_flags_label": {
+        "message": "Puede marcar correo real cuando:"
+    },
+    "mail_guard_checks_flags_links": {
+        "message": "un boletín envía sus enlaces a través de un rastreador de clics."
+    },
+    "mail_guard_checks_flags_thread": {
+        "message": "alguien empieza a escribir desde una dirección nueva."
+    },
+    "mail_guard_checks_group_attachments": {
+        "message": "Archivos adjuntos"
+    },
+    "mail_guard_checks_group_authentication": {
+        "message": "Verificación del remitente"
+    },
+    "mail_guard_checks_group_identity": {
+        "message": "Identidad del remitente"
+    },
+    "mail_guard_checks_group_links": {
+        "message": "Enlaces"
+    },
+    "mail_guard_checks_group_thread": {
+        "message": "Conversación"
+    },
+    "mail_guard_checks_intro": {
+        "message": "Reglas que se ejecutan en este dispositivo y miran cómo está hecho un correo: quién lo envió, adónde van sus enlaces y qué lleva adjunto. Elige cuánto cuenta cada grupo."
+    },
+    "mail_guard_checks_less": {
+        "message": "Ocultar detalles"
+    },
+    "mail_guard_checks_mode_list": {
+        "message": "Solo mostrar"
+    },
+    "mail_guard_checks_mode_list_hint": {
+        "message": "Sigues viendo el hallazgo y Phi AI lo sigue teniendo en cuenta, pero por sí solo no puede subir el nivel."
+    },
+    "mail_guard_checks_mode_off": {
+        "message": "Desactivado"
+    },
+    "mail_guard_checks_mode_off_hint": {
+        "message": "No se comprueba. No verás estos hallazgos y Phi AI tampoco los recibirá."
+    },
+    "mail_guard_checks_mode_raise": {
+        "message": "Puede subir el nivel"
+    },
+    "mail_guard_checks_mode_raise_hint": {
+        "message": "Un hallazgo puede marcar el correo como Sospechoso o Riesgo alto, hasta que la revisión más a fondo de Phi AI diga lo contrario."
+    },
+    "mail_guard_checks_more": {
+        "message": "Qué busca"
+    },
+    "mail_guard_checks_one_company": {
+        "message": "¿Errores con una sola empresa? Añade su dominio a $DOMAINS$ en lugar de rebajar un grupo entero."
+    },
+    "mail_guard_detection_add": {
+        "message": "Añadir"
+    },
+    "mail_guard_detection_add_domain": {
+        "message": "Añadir un dominio"
+    },
+    "mail_guard_detection_checks": {
+        "message": "Comprobaciones estáticas"
+    },
+    "mail_guard_detection_checks_custom": {
+        "message": "Personalizadas"
+    },
+    "mail_guard_detection_checks_default": {
+        "message": "Predeterminadas"
+    },
+    "mail_guard_detection_domains": {
+        "message": "Dominios que reconozco"
+    },
+    "mail_guard_detection_organization": {
+        "message": "Dominios de mi organización"
+    },
+    "mail_guard_detection_organization_hint": {
+        "message": "Los correos de direcciones que imitan estos dominios reciben un aviso. Esta lista se guarda en este dispositivo."
+    },
+    "mail_guard_detection_reset": {
+        "message": "Restablecer valores predeterminados"
+    },
+    "mail_guard_detection_sensitivity": {
+        "message": "Con qué facilidad avisarte"
+    },
+    "mail_guard_domains_hint": {
+        "message": "El dominio real de envío o de seguimiento de enlaces de una empresa que Phi marca por error. Los correos y enlaces de estos dominios no se señalarán por imitar una marca ni por ocultar adónde lleva un enlace. Esta lista se guarda en este dispositivo."
+    },
+    "mail_guard_domains_note": {
+        "message": "No es lo mismo que confiar en un remitente: Phi AI sigue leyendo los correos de estos dominios y puede seguir avisándote."
+    },
+    "mail_guard_domains_refused_format": {
+        "message": "Introduce un dominio, como example.com."
+    },
+    "mail_guard_domains_refused_full": {
+        "message": "Puedes añadir hasta 50 dominios."
+    },
+    "mail_guard_domains_refused_shared": {
+        "message": "Muchas personas usan este dominio, así que no se puede añadir."
     },
     "mail_guard_evidence_reply_to": {
         "message": "De $FROM$ → Responder a $REPLY_TO$"
@@ -2045,6 +2216,9 @@
     "mail_guard_level_maybe_caution": {
         "message": "Puede requerir atención"
     },
+    "mail_guard_level_maybe_high_risk": {
+        "message": "Posible riesgo alto"
+    },
     "mail_guard_level_maybe_suspicious": {
         "message": "Posiblemente sospechoso"
     },
@@ -2062,6 +2236,9 @@
     },
     "mail_guard_line_confirmed_dangerous": {
         "message": "Phi AI tiene fuertes sospechas de que este correo es peligroso. No uses sus enlaces ni archivos adjuntos."
+    },
+    "mail_guard_line_fatal": {
+        "message": "Este archivo adjunto o enlace puede causar daños por sí solo y Phi AI no puede evaluarlo. No lo abras."
     },
     "mail_guard_line_ordinary": {
         "message": "Phi AI considera que el riesgo es bajo, pero aun así conviene echar un vistazo a los hallazgos de las comprobaciones estáticas que aparecen abajo."
@@ -2363,8 +2540,29 @@
     "mail_guard_part_subject": {
         "message": "asunto"
     },
+    "mail_guard_sensitivity_relaxed": {
+        "message": "Relajado"
+    },
+    "mail_guard_sensitivity_relaxed_line": {
+        "message": "Avisa solo cuando Phi AI está muy seguro. Menos correos reciben una revisión más a fondo y algunas estafas pueden quedarse solo con una etiqueta."
+    },
+    "mail_guard_sensitivity_standard": {
+        "message": "Estándar"
+    },
+    "mail_guard_sensitivity_standard_line": {
+        "message": "Avisa cuando Phi AI tiene fuertes sospechas de un riesgo. Otras señales llevan una etiqueta que puedes abrir."
+    },
+    "mail_guard_sensitivity_strict": {
+        "message": "Estricto"
+    },
+    "mail_guard_sensitivity_strict_line": {
+        "message": "También avisa cuando las señales apuntan a un riesgo pero Phi AI está menos seguro. Más correos reciben una revisión más a fondo, lo que consume más de tu cuota de IA."
+    },
     "mail_guard_settings_about": {
         "message": "Acerca de la protección de correo electrónico y la privacidad"
+    },
+    "mail_guard_settings_detection": {
+        "message": "Detección"
     },
     "mail_guard_settings_enabled": {
         "message": "Revisar los correos que abres"

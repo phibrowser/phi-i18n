@@ -2015,6 +2015,10 @@
         "message": "Your settings and trusted senders are kept only on this device.",
         "description": "Location: Sentinel. Settings and trusted senders are stored on the device only."
     },
+    "mail_guard_about_local_detection": {
+        "message": "Your detection settings, including the domains you list, stay on this device. They change which findings Phi AI is given, and never add anything about you to what is sent.",
+        "description": "Location: Sentinel. About page: the detection settings are not sent."
+    },
     "mail_guard_about_local_landing": {
         "message": "The links of messages Phi strongly suspects are remembered on this device for 7 days, so the pages they lead to can be watched.",
         "description": "Location: Sentinel. Email Protection's About page. A sentence under the heading about what is kept on the device."
@@ -2081,7 +2085,7 @@
     },
     "mail_guard_ai_skipped": {
         "message": "You trust this sender, so Phi AI was not asked.",
-        "description": "Location: Sentinel. Status line in the panel for a trusted, verified sender."
+        "description": "Location: Sentinel. Status line in the panel for a trusted sender."
     },
     "mail_guard_ai_unavailable": {
         "message": "Phi AI could not check this message; this is the result of the static checks alone.",
@@ -2306,6 +2310,230 @@
     "mail_guard_checked_latest": {
         "message": "Checked the latest message, from $SENDER$.",
         "description": "Location: Sentinel. Shown in the mail-guard panel and banner when a Gmail conversation holds several messages: only the newest one was checked. SENDER is the sender's display name or address, from the message; keep it."
+    },
+    "mail_guard_checks_always": {
+        "message": "Always warn",
+        "description": "Location: Sentinel. Heading of the rules that cannot be changed."
+    },
+    "mail_guard_checks_always_hint": {
+        "message": "Attachments that can run code or hide their type, links that start a program, and lookalikes of your own domain or of people in the thread. Phi AI can't judge these for you, so they stay on.",
+        "description": "Location: Sentinel. Explains the rules that cannot be changed."
+    },
+    "mail_guard_checks_ask_attachments": {
+        "message": "Could a file harm your device?",
+        "description": "Location: Sentinel. What the Attachments group checks."
+    },
+    "mail_guard_checks_ask_authentication": {
+        "message": "Did your mail provider verify where it came from?",
+        "description": "Location: Sentinel. What the Sender verification group checks."
+    },
+    "mail_guard_checks_ask_identity": {
+        "message": "Is the sender who they claim to be?",
+        "description": "Location: Sentinel. What the Sender identity group checks."
+    },
+    "mail_guard_checks_ask_links": {
+        "message": "Do links go where they say?",
+        "description": "Location: Sentinel. What the Links group checks."
+    },
+    "mail_guard_checks_ask_thread": {
+        "message": "Did someone change partway through a thread?",
+        "description": "Location: Sentinel. What the Conversation group checks."
+    },
+    "mail_guard_checks_find_attachments_1": {
+        "message": "Archives such as .zip",
+        "description": "Location: Sentinel. One thing the Attachments group looks for."
+    },
+    "mail_guard_checks_find_attachments_2": {
+        "message": "Office files with macros",
+        "description": "Location: Sentinel. One thing the Attachments group looks for."
+    },
+    "mail_guard_checks_find_attachments_3": {
+        "message": "Disk images and script files",
+        "description": "Location: Sentinel. One thing the Attachments group looks for."
+    },
+    "mail_guard_checks_find_authentication_1": {
+        "message": "Failed SPF, DKIM or DMARC: the checks that prove a message really came from the domain it names",
+        "description": "Location: Sentinel. One thing the Sender verification group looks for."
+    },
+    "mail_guard_checks_find_authentication_2": {
+        "message": "A signature from a domain unrelated to the sender",
+        "description": "Location: Sentinel. One thing the Sender verification group looks for."
+    },
+    "mail_guard_checks_find_identity_1": {
+        "message": "A name says \"PayPal\", but the address is on another domain",
+        "description": "Location: Sentinel. One thing the Sender identity group looks for."
+    },
+    "mail_guard_checks_find_identity_2": {
+        "message": "A domain one letter away from a real company",
+        "description": "Location: Sentinel. One thing the Sender identity group looks for."
+    },
+    "mail_guard_checks_find_identity_3": {
+        "message": "A throwaway mailbox, or replies that go to a different address",
+        "description": "Location: Sentinel. One thing the Sender identity group looks for."
+    },
+    "mail_guard_checks_find_links_1": {
+        "message": "Text that shows one site but opens another",
+        "description": "Location: Sentinel. One thing the Links group looks for."
+    },
+    "mail_guard_checks_find_links_2": {
+        "message": "Short links that hide where they lead",
+        "description": "Location: Sentinel. One thing the Links group looks for."
+    },
+    "mail_guard_checks_find_links_3": {
+        "message": "Sign-in pages without encryption, or on open file-hosting sites",
+        "description": "Location: Sentinel. One thing the Links group looks for."
+    },
+    "mail_guard_checks_find_thread_1": {
+        "message": "An address that closely resembles another person in the thread",
+        "description": "Location: Sentinel. One thing the Conversation group looks for."
+    },
+    "mail_guard_checks_find_thread_2": {
+        "message": "One person's name on a different address",
+        "description": "Location: Sentinel. One thing the Conversation group looks for."
+    },
+    "mail_guard_checks_flags_attachments": {
+        "message": "a colleague shares an archive or a macro workbook.",
+        "description": "Location: Sentinel. When the Attachments group can be wrong; follows \"Can flag real mail when:\"."
+    },
+    "mail_guard_checks_flags_authentication": {
+        "message": "it was forwarded or came through a mailing list, which can break these checks.",
+        "description": "Location: Sentinel. When the Sender verification group can be wrong; follows \"Can flag real mail when:\"."
+    },
+    "mail_guard_checks_flags_identity": {
+        "message": "a company sends through a partner or a newer domain.",
+        "description": "Location: Sentinel. When the Sender identity group can be wrong; follows \"Can flag real mail when:\"."
+    },
+    "mail_guard_checks_flags_label": {
+        "message": "Can flag real mail when:",
+        "description": "Location: Sentinel. Lead-in before the case in which a static check group can be wrong."
+    },
+    "mail_guard_checks_flags_links": {
+        "message": "a newsletter sends its links through a click tracker.",
+        "description": "Location: Sentinel. When the Links group can be wrong; follows \"Can flag real mail when:\"."
+    },
+    "mail_guard_checks_flags_thread": {
+        "message": "someone starts writing from a new address.",
+        "description": "Location: Sentinel. When the Conversation group can be wrong; follows \"Can flag real mail when:\"."
+    },
+    "mail_guard_checks_group_attachments": {
+        "message": "Attachments",
+        "description": "Location: Sentinel. Static check group."
+    },
+    "mail_guard_checks_group_authentication": {
+        "message": "Sender verification",
+        "description": "Location: Sentinel. Static check group: SPF, DKIM and DMARC."
+    },
+    "mail_guard_checks_group_identity": {
+        "message": "Sender identity",
+        "description": "Location: Sentinel. Static check group."
+    },
+    "mail_guard_checks_group_links": {
+        "message": "Links",
+        "description": "Location: Sentinel. Static check group."
+    },
+    "mail_guard_checks_group_thread": {
+        "message": "Conversation",
+        "description": "Location: Sentinel. Static check group."
+    },
+    "mail_guard_checks_intro": {
+        "message": "Rules that run on this device and look at how an email is built: who sent it, where its links go, what's attached. Choose how much each group counts.",
+        "description": "Location: Sentinel. Introduction on the static checks page."
+    },
+    "mail_guard_checks_less": {
+        "message": "Hide details",
+        "description": "Location: Sentinel. Button that folds a group's details."
+    },
+    "mail_guard_checks_mode_list": {
+        "message": "Just list it",
+        "description": "Location: Sentinel. Mode: a group's findings are listed only."
+    },
+    "mail_guard_checks_mode_list_hint": {
+        "message": "You still see the finding and Phi AI still weighs it, but it can't raise the level by itself.",
+        "description": "Location: Sentinel. Explains the Just list it mode."
+    },
+    "mail_guard_checks_mode_off": {
+        "message": "Off",
+        "description": "Location: Sentinel. Mode: a group is not checked."
+    },
+    "mail_guard_checks_mode_off_hint": {
+        "message": "Not checked. You won't see these findings, and Phi AI won't get them either.",
+        "description": "Location: Sentinel. Explains the Off mode."
+    },
+    "mail_guard_checks_mode_raise": {
+        "message": "Can raise level",
+        "description": "Location: Sentinel. Mode: a group's findings can set the level."
+    },
+    "mail_guard_checks_mode_raise_hint": {
+        "message": "A finding can make the email Suspicious or High risk, until Phi AI's closer look says otherwise.",
+        "description": "Location: Sentinel. Explains the Can raise level mode."
+    },
+    "mail_guard_checks_more": {
+        "message": "What it looks for",
+        "description": "Location: Sentinel. Button that unfolds a group's details."
+    },
+    "mail_guard_checks_one_company": {
+        "message": "Getting mistakes from one company? Add its domain to $DOMAINS$ rather than turning a whole group down.",
+        "description": "Location: Sentinel. Points to the recognized domains list. DOMAINS is that list's name, drawn as a link."
+    },
+    "mail_guard_detection_add": {
+        "message": "Add",
+        "description": "Location: Sentinel. Button that adds a domain to a list."
+    },
+    "mail_guard_detection_add_domain": {
+        "message": "Add a domain",
+        "description": "Location: Sentinel. Accessible name of the field for adding a domain."
+    },
+    "mail_guard_detection_checks": {
+        "message": "Static checks",
+        "description": "Location: Sentinel. Row and page title for the static check settings."
+    },
+    "mail_guard_detection_checks_custom": {
+        "message": "Customized",
+        "description": "Location: Sentinel. Shown beside Static checks when a group was changed."
+    },
+    "mail_guard_detection_checks_default": {
+        "message": "Default",
+        "description": "Location: Sentinel. Shown beside Static checks when nothing was changed."
+    },
+    "mail_guard_detection_domains": {
+        "message": "Domains I recognize",
+        "description": "Location: Sentinel. Row and page title for the list of recognized domains."
+    },
+    "mail_guard_detection_organization": {
+        "message": "My organization's domains",
+        "description": "Location: Sentinel. Heading of the reader's list of their organization's domains."
+    },
+    "mail_guard_detection_organization_hint": {
+        "message": "Mail from addresses that imitate these domains gets a warning. Kept on this device.",
+        "description": "Location: Sentinel. Hint under the organization domains heading."
+    },
+    "mail_guard_detection_reset": {
+        "message": "Reset to defaults",
+        "description": "Location: Sentinel. Button that clears the detection settings."
+    },
+    "mail_guard_detection_sensitivity": {
+        "message": "How readily to warn you",
+        "description": "Location: Sentinel. Heading above the three sensitivity choices."
+    },
+    "mail_guard_domains_hint": {
+        "message": "A company's real sending or link-tracking domain that Phi flags by mistake. Mail and links on these domains won't be reported as imitating a brand or hiding where a link goes. Kept on this device.",
+        "description": "Location: Sentinel. Explains the recognized domains list."
+    },
+    "mail_guard_domains_note": {
+        "message": "This isn't the same as trusting a sender: Phi AI still reads mail from these domains and can still warn you.",
+        "description": "Location: Sentinel. Explains how this list differs from trusted senders."
+    },
+    "mail_guard_domains_refused_format": {
+        "message": "Enter a domain, such as example.com.",
+        "description": "Location: Sentinel. Shown when what was typed is not a domain."
+    },
+    "mail_guard_domains_refused_full": {
+        "message": "You can list up to 50 domains.",
+        "description": "Location: Sentinel. Shown when the list is full."
+    },
+    "mail_guard_domains_refused_shared": {
+        "message": "This domain is used by many people, so it can't be listed.",
+        "description": "Location: Sentinel. Shown for a domain many owners share, such as a free mail service."
     },
     "mail_guard_evidence_reply_to": {
         "message": "From $FROM$ → Reply-To $REPLY_TO$",
@@ -2727,6 +2955,10 @@
         "message": "Might need attention",
         "description": "Location: Sentinel. Badge and panel title while Phi AI's full review runs on an email its quick check put at Attention; replaced by the final level when the review ends."
     },
+    "mail_guard_level_maybe_high_risk": {
+        "message": "Might be high risk",
+        "description": "Location: Sentinel. Badge and panel title while Phi AI's full review runs on an email the static checks put at High risk."
+    },
     "mail_guard_level_maybe_suspicious": {
         "message": "Might be suspicious",
         "description": "Location: Sentinel. Badge and panel title while Phi AI's full review runs on an email its quick check put at Suspicious; replaced by the final level when the review ends."
@@ -2750,6 +2982,10 @@
     "mail_guard_line_confirmed_dangerous": {
         "message": "Phi AI strongly suspects this email is dangerous. Don't use its links or attachments.",
         "description": "Location: Sentinel. Line under the verdict when Phi AI's final review strongly suspects the email is harmful but what it found is not a scam (for example malware). Shown in the panel and banner beside a message in Gmail or Outlook. Never state the judgement as certain."
+    },
+    "mail_guard_line_fatal": {
+        "message": "This attachment or link may do harm on its own, and Phi AI can't judge it. Don't open it.",
+        "description": "Location: Sentinel. Banner and panel line for a finding Phi AI cannot weigh, such as a file that can run code, when Phi AI did not confirm a scam."
     },
     "mail_guard_line_ordinary": {
         "message": "Phi AI thinks the risk is low, but the static-check findings below are still worth a look.",
@@ -3133,7 +3369,7 @@
     },
     "mail_guard_panel_trust": {
         "message": "Trust this sender",
-        "description": "Location: Sentinel. Button in the panel that adds the sender (or its domain) to the trusted senders."
+        "description": "Location: Sentinel. Button in the panel that adds the sender's address to the trusted senders."
     },
     "mail_guard_panel_why_risky": {
         "message": "Why this email may be risky · Phi AI",
@@ -3151,9 +3387,37 @@
         "message": "subject",
         "description": "Location: Sentinel. Name of a part of an email the mail guard could not read; listed in the \"Not checked\" explanation."
     },
+    "mail_guard_sensitivity_relaxed": {
+        "message": "Relaxed",
+        "description": "Location: Sentinel. Sensitivity choice: warns least."
+    },
+    "mail_guard_sensitivity_relaxed_line": {
+        "message": "Warns only when Phi AI is very sure. Fewer emails get a closer look, and some scams may only get a tag.",
+        "description": "Location: Sentinel. What the Relaxed choice does."
+    },
+    "mail_guard_sensitivity_standard": {
+        "message": "Standard",
+        "description": "Location: Sentinel. Sensitivity choice: the default."
+    },
+    "mail_guard_sensitivity_standard_line": {
+        "message": "Warns when Phi AI strongly suspects a risk. Other signs get a tag you can open.",
+        "description": "Location: Sentinel. What the Standard choice does."
+    },
+    "mail_guard_sensitivity_strict": {
+        "message": "Strict",
+        "description": "Location: Sentinel. Sensitivity choice: warns most."
+    },
+    "mail_guard_sensitivity_strict_line": {
+        "message": "Also warns when the signs point to a risk but Phi AI is less sure. More emails get a closer look, which uses more of your AI quota.",
+        "description": "Location: Sentinel. What the Strict choice does."
+    },
     "mail_guard_settings_about": {
         "message": "About Email Protection and privacy",
         "description": "Location: Sentinel. Last row of the mail protection settings; opens the page about how mail is checked and what is sent."
+    },
+    "mail_guard_settings_detection": {
+        "message": "Detection",
+        "description": "Location: Sentinel. Settings row that opens the detection settings."
     },
     "mail_guard_settings_enabled": {
         "message": "Check opened mail",
@@ -3181,7 +3445,7 @@
     },
     "mail_guard_settings_remove": {
         "message": "Remove $ENTRY$",
-        "description": "Location: Sentinel. Accessible label of the button that removes a trusted sender. ENTRY is an address or domain."
+        "description": "Location: Sentinel. Accessible label of the button that removes a trusted sender. ENTRY is an address."
     },
     "mail_guard_settings_title": {
         "message": "Email Protection settings",
