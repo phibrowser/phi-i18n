@@ -969,25 +969,13 @@
         "message": "Erinnerungshimmel"
     },
     "memory_management_nebula_story_chat_ai_off": {
-        "message": "Aktiviere die KI-Funktionen in den Einstellungen, um über diesen Brief zu chatten."
+        "message": "Aktiviere die KI-Funktionen in den Einstellungen, um über diese Geschichte zu chatten."
     },
     "memory_management_nebula_story_chat_failed": {
         "message": "Phi Chat konnte nicht geöffnet werden."
     },
     "memory_management_nebula_story_chat_input_label": {
-        "message": "Phi Chat zu diesem Brief fragen"
-    },
-    "memory_management_nebula_story_chat_send": {
-        "message": "An Phi Chat senden"
-    },
-    "memory_management_nebula_story_chat_suggestions_based_on": {
-        "message": "Auf welchen besuchten Seiten basiert das?"
-    },
-    "memory_management_nebula_story_chat_suggestions_next": {
-        "message": "Was könnte ich damit als Nächstes machen?"
-    },
-    "memory_management_nebula_story_chat_suggestions_why": {
-        "message": "Warum hast du diese Geschichte für mich geschrieben?"
+        "message": "Phi Chat zu dieser Geschichte fragen"
     },
     "memory_management_nebula_story_chat_unsupported": {
         "message": "Diese Version von Phi kann Phi Chat von hier aus nicht öffnen."
@@ -1008,22 +996,22 @@
         "message": "Abbrechen"
     },
     "memory_management_nebula_story_feedback_dialog_label": {
-        "message": "Diesen Brief bewerten"
+        "message": "Diese Geschichte bewerten"
     },
     "memory_management_nebula_story_feedback_negative_action": {
-        "message": "Dieser Brief hat mir nicht gefallen"
+        "message": "Diese Geschichte hat mir nicht gefallen"
     },
     "memory_management_nebula_story_feedback_negative_title": {
         "message": "Was hat nicht gepasst?"
     },
     "memory_management_nebula_story_feedback_positive_action": {
-        "message": "Dieser Brief hat mir gefallen"
+        "message": "Diese Geschichte hat mir gefallen"
     },
     "memory_management_nebula_story_feedback_positive_title": {
         "message": "Was hat dir gefallen?"
     },
     "memory_management_nebula_story_feedback_privacy_rating": {
-        "message": "Deine Bewertung und die gewählten Gründe werden gezählt, um die Geschichten von Phi zu verbessern. Aus diesem Brief wird nichts gesendet."
+        "message": "Deine Bewertung und die gewählten Gründe werden gezählt, um die Geschichten von Phi zu verbessern. Aus dieser Geschichte wird nichts gesendet."
     },
     "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
         "message": "Zählt nur auf, was ich gemacht habe"
@@ -1086,7 +1074,7 @@
         "message": "Die Erinnerungen beifügen, auf denen er beruht"
     },
     "memory_management_nebula_story_feedback_report_include_story": {
-        "message": "Diesen Brief beifügen"
+        "message": "Diese Geschichte beifügen"
     },
     "memory_management_nebula_story_feedback_report_note_label": {
         "message": "Möchtest du dem Team etwas mitteilen?"
@@ -1106,11 +1094,8 @@
     "memory_management_nebula_story_greeting": {
         "message": "An dich,"
     },
-    "memory_management_nebula_story_instructions_badge": {
-        "message": "Benutzerdefinierte Anweisungen"
-    },
     "memory_management_nebula_story_instructions_badge_hint": {
-        "message": "Ab jetzt erzeugte Briefe verwenden den benutzerdefinierten Text. Gespeichert {{date}} · {{hash}}"
+        "message": "Ab jetzt erzeugte Geschichten verwenden den benutzerdefinierten Text. Gespeichert {{date}} · {{hash}}"
     },
     "memory_management_nebula_story_instructions_close": {
         "message": "Schließen"
@@ -1137,13 +1122,13 @@
         "message": "Anweisungen für Geschichten"
     },
     "memory_management_nebula_story_instructions_refresh_busy": {
-        "message": "Es wird bereits ein Brief geschrieben. Versuch es noch einmal, wenn er fertig ist."
+        "message": "Es wird bereits eine Geschichte geschrieben. Versuch es noch einmal, wenn sie fertig ist."
     },
     "memory_management_nebula_story_instructions_refresh_started": {
-        "message": "Ein neuer Brief wird geschrieben. Er erscheint, wenn du Nebula das nächste Mal öffnest."
+        "message": "Eine neue Geschichte wird geschrieben. Sie erscheint, wenn du Nebula das nächste Mal öffnest."
     },
     "memory_management_nebula_story_instructions_refreshing": {
-        "message": "Ein neuer Brief wird geschrieben…"
+        "message": "Eine neue Geschichte wird geschrieben…"
     },
     "memory_management_nebula_story_instructions_reset": {
         "message": "Auf Standard zurücksetzen"
@@ -1155,7 +1140,7 @@
         "message": "Geschichten zurücksetzen und aktualisieren"
     },
     "memory_management_nebula_story_instructions_reset_stories_body": {
-        "message": "Dadurch werden die für dieses Profil geschriebenen Briefe gelöscht, ebenso die Aufzeichnung, welche davon du gelesen hast. Deine Erinnerungen bleiben unberührt."
+        "message": "Dadurch werden die für dieses Profil geschriebenen Geschichten gelöscht, ebenso die Aufzeichnung, welche davon du gelesen hast. Deine Erinnerungen bleiben unberührt."
     },
     "memory_management_nebula_story_instructions_reset_stories_confirm": {
         "message": "Zurücksetzen und aktualisieren"
@@ -1191,16 +1176,16 @@
         "message": "Geschichte anzeigen"
     },
     "memory_management_nebula_story_stack_back_to_first": {
-        "message": "Zurück zum ersten Brief"
+        "message": "Zurück zur ersten Geschichte"
     },
     "memory_management_nebula_story_stack_dot": {
-        "message": "Brief {{index}}"
+        "message": "Geschichte {{index}}"
     },
     "memory_management_nebula_story_stack_dot_end": {
-        "message": "Ende der Briefe"
+        "message": "Ende der Geschichten"
     },
     "memory_management_nebula_story_stack_dot_unread": {
-        "message": "Brief {{index}}, ungelesen"
+        "message": "Geschichte {{index}}, ungelesen"
     },
     "memory_management_nebula_story_stack_end_body": {
         "message": "Neue Geschichten erscheinen, während du weiter surfst."
@@ -1208,23 +1193,29 @@
     "memory_management_nebula_story_stack_end_title": {
         "message": "Vorerst alles gelesen."
     },
+    "memory_management_nebula_story_stack_new_stories": {
+        "message": "{{count}} neue Geschichten"
+    },
+    "memory_management_nebula_story_stack_new_story": {
+        "message": "{{count}} neue Geschichte"
+    },
     "memory_management_nebula_story_stack_next": {
-        "message": "Nächster Brief"
+        "message": "Nächste Geschichte"
     },
     "memory_management_nebula_story_stack_pager_label": {
-        "message": "Briefe"
+        "message": "Geschichten"
     },
     "memory_management_nebula_story_stack_pill_all": {
-        "message": "Briefe: {{count}}"
+        "message": "Geschichten: {{count}}"
     },
     "memory_management_nebula_story_stack_position": {
         "message": "{{index}} / {{total}}"
     },
     "memory_management_nebula_story_stack_position_end": {
-        "message": "Ende / {{total}}"
+        "message": "Ende"
     },
     "memory_management_nebula_story_stack_previous": {
-        "message": "Vorheriger Brief"
+        "message": "Vorherige Geschichte"
     },
     "memory_management_nebula_story_stack_unread": {
         "message": "Ungelesen"

@@ -969,25 +969,13 @@
         "message": "記憶の空"
     },
     "memory_management_nebula_story_chat_ai_off": {
-        "message": "この手紙についてチャットするには、設定でAI機能をオンにしてください。"
+        "message": "この物語についてチャットするには、設定でAI機能をオンにしてください。"
     },
     "memory_management_nebula_story_chat_failed": {
         "message": "Phi Chatを開けませんでした。"
     },
     "memory_management_nebula_story_chat_input_label": {
-        "message": "この手紙についてPhi Chatに質問"
-    },
-    "memory_management_nebula_story_chat_send": {
-        "message": "Phi Chatに送信"
-    },
-    "memory_management_nebula_story_chat_suggestions_based_on": {
-        "message": "これはどの閲覧内容をもとに書かれたのですか？"
-    },
-    "memory_management_nebula_story_chat_suggestions_next": {
-        "message": "これをもとに次に何ができますか？"
-    },
-    "memory_management_nebula_story_chat_suggestions_why": {
-        "message": "この物語を私に書いてくれたのはなぜですか？"
+        "message": "この物語についてPhi Chatに質問"
     },
     "memory_management_nebula_story_chat_unsupported": {
         "message": "このバージョンのPhiでは、ここからPhi Chatを開けません。"
@@ -1008,22 +996,22 @@
         "message": "キャンセル"
     },
     "memory_management_nebula_story_feedback_dialog_label": {
-        "message": "この手紙を評価"
+        "message": "この物語を評価"
     },
     "memory_management_nebula_story_feedback_negative_action": {
-        "message": "この手紙は気に入らなかった"
+        "message": "この物語は気に入らなかった"
     },
     "memory_management_nebula_story_feedback_negative_title": {
         "message": "どこが気になりましたか？"
     },
     "memory_management_nebula_story_feedback_positive_action": {
-        "message": "この手紙が気に入った"
+        "message": "この物語が気に入った"
     },
     "memory_management_nebula_story_feedback_positive_title": {
         "message": "どこがよかったですか？"
     },
     "memory_management_nebula_story_feedback_privacy_rating": {
-        "message": "評価と選んだ理由は、Phiの物語をよくするために集計されます。この手紙の内容が送られることはありません。"
+        "message": "評価と選んだ理由は、Phiの物語をよくするために集計されます。この物語の内容が送られることはありません。"
     },
     "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
         "message": "やったことを並べただけ"
@@ -1083,10 +1071,10 @@
         "message": "Phiチームへ（任意）"
     },
     "memory_management_nebula_story_feedback_report_include_memories": {
-        "message": "この手紙のもとになったメモリを含める"
+        "message": "この物語のもとになったメモリを含める"
     },
     "memory_management_nebula_story_feedback_report_include_story": {
-        "message": "この手紙を含める"
+        "message": "この物語を含める"
     },
     "memory_management_nebula_story_feedback_report_note_label": {
         "message": "チームに伝えたいことはありますか？"
@@ -1106,11 +1094,8 @@
     "memory_management_nebula_story_greeting": {
         "message": "あなたへ"
     },
-    "memory_management_nebula_story_instructions_badge": {
-        "message": "カスタム指示"
-    },
     "memory_management_nebula_story_instructions_badge_hint": {
-        "message": "これから生成される手紙にはカスタムテキストが使われます。{{date}}に保存 · {{hash}}"
+        "message": "これから生成される物語にはカスタムテキストが使われます。{{date}}に保存 · {{hash}}"
     },
     "memory_management_nebula_story_instructions_close": {
         "message": "閉じる"
@@ -1137,13 +1122,13 @@
         "message": "物語の指示"
     },
     "memory_management_nebula_story_instructions_refresh_busy": {
-        "message": "現在、手紙を書いています。終わってからもう一度お試しください。"
+        "message": "現在、物語を書いています。終わってからもう一度お試しください。"
     },
     "memory_management_nebula_story_instructions_refresh_started": {
-        "message": "新しい手紙を書いています。次にNebulaを開いたときに表示されます。"
+        "message": "新しい物語を書いています。次にNebulaを開いたときに表示されます。"
     },
     "memory_management_nebula_story_instructions_refreshing": {
-        "message": "新しい手紙を書いています…"
+        "message": "新しい物語を書いています…"
     },
     "memory_management_nebula_story_instructions_reset": {
         "message": "デフォルトに戻す"
@@ -1155,7 +1140,7 @@
         "message": "物語をリセットして更新"
     },
     "memory_management_nebula_story_instructions_reset_stories_body": {
-        "message": "このプロファイルのために書かれた手紙と、どれを読んだかの記録を削除します。メモリには影響しません。"
+        "message": "このプロファイルのために書かれた物語と、どれを読んだかの記録を削除します。メモリには影響しません。"
     },
     "memory_management_nebula_story_instructions_reset_stories_confirm": {
         "message": "リセットして更新"
@@ -1191,16 +1176,16 @@
         "message": "物語を表示"
     },
     "memory_management_nebula_story_stack_back_to_first": {
-        "message": "最初の手紙に戻る"
+        "message": "最初の物語に戻る"
     },
     "memory_management_nebula_story_stack_dot": {
-        "message": "{{index}}通目の手紙"
+        "message": "{{index}}件目の物語"
     },
     "memory_management_nebula_story_stack_dot_end": {
-        "message": "手紙の終わり"
+        "message": "物語の終わり"
     },
     "memory_management_nebula_story_stack_dot_unread": {
-        "message": "{{index}}通目の手紙、未読"
+        "message": "{{index}}件目の物語、未読"
     },
     "memory_management_nebula_story_stack_end_body": {
         "message": "ブラウジングを続けると、新しい物語が届きます。"
@@ -1208,29 +1193,35 @@
     "memory_management_nebula_story_stack_end_title": {
         "message": "ひとまず、すべて読み終えました。"
     },
+    "memory_management_nebula_story_stack_new_stories": {
+        "message": "新しい物語{{count}}件"
+    },
+    "memory_management_nebula_story_stack_new_story": {
+        "message": "新しい物語{{count}}件"
+    },
     "memory_management_nebula_story_stack_next": {
-        "message": "次の手紙"
+        "message": "次の物語"
     },
     "memory_management_nebula_story_stack_pager_label": {
-        "message": "手紙"
+        "message": "物語"
     },
     "memory_management_nebula_story_stack_pill_all": {
-        "message": "手紙：{{count}}"
+        "message": "物語：{{count}}"
     },
     "memory_management_nebula_story_stack_position": {
         "message": "{{index}} / {{total}}"
     },
     "memory_management_nebula_story_stack_position_end": {
-        "message": "終わり / {{total}}"
+        "message": "終わり"
     },
     "memory_management_nebula_story_stack_previous": {
-        "message": "前の手紙"
+        "message": "前の物語"
     },
     "memory_management_nebula_story_stack_unread": {
         "message": "未読"
     },
     "memory_management_nebula_story_stack_unread_count": {
-        "message": "未読{{count}}通"
+        "message": "未読{{count}}件"
     },
     "memory_management_nebula_story_stars_label": {
         "message": "この物語の記憶"

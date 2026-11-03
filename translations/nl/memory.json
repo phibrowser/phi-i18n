@@ -969,25 +969,13 @@
         "message": "Geheugenhemel"
     },
     "memory_management_nebula_story_chat_ai_off": {
-        "message": "Zet AI-functies aan in Instellingen om over deze brief te chatten."
+        "message": "Zet AI-functies aan in Instellingen om over dit verhaal te chatten."
     },
     "memory_management_nebula_story_chat_failed": {
         "message": "Kan Phi Chat niet openen."
     },
     "memory_management_nebula_story_chat_input_label": {
-        "message": "Phi Chat een vraag stellen over deze brief"
-    },
-    "memory_management_nebula_story_chat_send": {
-        "message": "Verzenden naar Phi Chat"
-    },
-    "memory_management_nebula_story_chat_suggestions_based_on": {
-        "message": "Op welk surfgedrag is dit gebaseerd?"
-    },
-    "memory_management_nebula_story_chat_suggestions_next": {
-        "message": "Wat kan ik hier nu mee doen?"
-    },
-    "memory_management_nebula_story_chat_suggestions_why": {
-        "message": "Waarom heb je dit verhaal voor mij geschreven?"
+        "message": "Phi Chat een vraag stellen over dit verhaal"
     },
     "memory_management_nebula_story_chat_unsupported": {
         "message": "Deze versie van Phi kan Phi Chat niet van hieruit openen."
@@ -1008,22 +996,22 @@
         "message": "Annuleren"
     },
     "memory_management_nebula_story_feedback_dialog_label": {
-        "message": "Deze brief beoordelen"
+        "message": "Dit verhaal beoordelen"
     },
     "memory_management_nebula_story_feedback_negative_action": {
-        "message": "Ik vond deze brief niet goed"
+        "message": "Ik vond dit verhaal niet goed"
     },
     "memory_management_nebula_story_feedback_negative_title": {
         "message": "Wat ging er mis?"
     },
     "memory_management_nebula_story_feedback_positive_action": {
-        "message": "Ik vond deze brief goed"
+        "message": "Ik vond dit verhaal goed"
     },
     "memory_management_nebula_story_feedback_positive_title": {
         "message": "Wat sprak je aan?"
     },
     "memory_management_nebula_story_feedback_privacy_rating": {
-        "message": "Je beoordeling en de redenen die je kiest worden meegeteld om de verhalen van Phi te verbeteren. Er wordt niets uit deze brief verzonden."
+        "message": "Je beoordeling en de redenen die je kiest worden meegeteld om de verhalen van Phi te verbeteren. Er wordt niets uit dit verhaal verzonden."
     },
     "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
         "message": "Het is gewoon een lijstje van wat ik deed"
@@ -1083,10 +1071,10 @@
         "message": "Voor het Phi-team (optioneel)"
     },
     "memory_management_nebula_story_feedback_report_include_memories": {
-        "message": "De herinneringen achter deze brief meesturen"
+        "message": "De herinneringen achter dit verhaal meesturen"
     },
     "memory_management_nebula_story_feedback_report_include_story": {
-        "message": "Deze brief meesturen"
+        "message": "Dit verhaal meesturen"
     },
     "memory_management_nebula_story_feedback_report_note_label": {
         "message": "Wil je het team nog iets laten weten?"
@@ -1106,11 +1094,8 @@
     "memory_management_nebula_story_greeting": {
         "message": "Lieve jij,"
     },
-    "memory_management_nebula_story_instructions_badge": {
-        "message": "Aangepaste instructies"
-    },
     "memory_management_nebula_story_instructions_badge_hint": {
-        "message": "Brieven die vanaf nu worden geschreven gebruiken de aangepaste tekst. Opgeslagen {{date}} · {{hash}}"
+        "message": "Verhalen die vanaf nu worden geschreven gebruiken de aangepaste tekst. Opgeslagen {{date}} · {{hash}}"
     },
     "memory_management_nebula_story_instructions_close": {
         "message": "Sluiten"
@@ -1137,13 +1122,13 @@
         "message": "Verhaalinstructies"
     },
     "memory_management_nebula_story_instructions_refresh_busy": {
-        "message": "Er wordt al een brief geschreven. Probeer het opnieuw als die klaar is."
+        "message": "Er wordt al een verhaal geschreven. Probeer het opnieuw als dat klaar is."
     },
     "memory_management_nebula_story_instructions_refresh_started": {
-        "message": "Er wordt een nieuwe brief geschreven. Die verschijnt de volgende keer dat je Nebula opent."
+        "message": "Er wordt een nieuw verhaal geschreven. Dat verschijnt de volgende keer dat je Nebula opent."
     },
     "memory_management_nebula_story_instructions_refreshing": {
-        "message": "Een nieuwe brief wordt geschreven…"
+        "message": "Een nieuw verhaal wordt geschreven…"
     },
     "memory_management_nebula_story_instructions_reset": {
         "message": "Terugzetten naar standaard"
@@ -1155,7 +1140,7 @@
         "message": "Verhalen resetten en vernieuwen"
     },
     "memory_management_nebula_story_instructions_reset_stories_body": {
-        "message": "Dit verwijdert de brieven die voor dit profiel zijn geschreven en het overzicht van welke je al hebt gelezen. Je herinneringen blijven ongemoeid."
+        "message": "Dit verwijdert de verhalen die voor dit profiel zijn geschreven en het overzicht van welke je al hebt gelezen. Je herinneringen blijven ongemoeid."
     },
     "memory_management_nebula_story_instructions_reset_stories_confirm": {
         "message": "Resetten en vernieuwen"
@@ -1194,13 +1179,13 @@
         "message": "Terug naar de eerste"
     },
     "memory_management_nebula_story_stack_dot": {
-        "message": "Brief {{index}}"
+        "message": "Verhaal {{index}}"
     },
     "memory_management_nebula_story_stack_dot_end": {
-        "message": "Einde van de brieven"
+        "message": "Einde van de verhalen"
     },
     "memory_management_nebula_story_stack_dot_unread": {
-        "message": "Brief {{index}}, ongelezen"
+        "message": "Verhaal {{index}}, ongelezen"
     },
     "memory_management_nebula_story_stack_end_body": {
         "message": "Nieuwe verhalen verschijnen vanzelf terwijl je verder surft."
@@ -1208,23 +1193,29 @@
     "memory_management_nebula_story_stack_end_title": {
         "message": "Voorlopig alles gelezen."
     },
+    "memory_management_nebula_story_stack_new_stories": {
+        "message": "{{count}} nieuwe verhalen"
+    },
+    "memory_management_nebula_story_stack_new_story": {
+        "message": "{{count}} nieuw verhaal"
+    },
     "memory_management_nebula_story_stack_next": {
-        "message": "Volgende brief"
+        "message": "Volgend verhaal"
     },
     "memory_management_nebula_story_stack_pager_label": {
-        "message": "Brieven"
+        "message": "Verhalen"
     },
     "memory_management_nebula_story_stack_pill_all": {
-        "message": "Brieven: {{count}}"
+        "message": "Verhalen: {{count}}"
     },
     "memory_management_nebula_story_stack_position": {
         "message": "{{index}} / {{total}}"
     },
     "memory_management_nebula_story_stack_position_end": {
-        "message": "Einde / {{total}}"
+        "message": "Einde"
     },
     "memory_management_nebula_story_stack_previous": {
-        "message": "Vorige brief"
+        "message": "Vorig verhaal"
     },
     "memory_management_nebula_story_stack_unread": {
         "message": "Ongelezen"

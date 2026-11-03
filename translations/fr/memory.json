@@ -969,25 +969,13 @@
         "message": "Ciel de souvenirs"
     },
     "memory_management_nebula_story_chat_ai_off": {
-        "message": "Activez les fonctionnalités IA dans les Paramètres pour discuter de cette lettre."
+        "message": "Activez les fonctionnalités IA dans les Paramètres pour discuter de cette histoire."
     },
     "memory_management_nebula_story_chat_failed": {
         "message": "Impossible d'ouvrir Phi Chat."
     },
     "memory_management_nebula_story_chat_input_label": {
-        "message": "Poser une question à Phi Chat sur cette lettre"
-    },
-    "memory_management_nebula_story_chat_send": {
-        "message": "Envoyer à Phi Chat"
-    },
-    "memory_management_nebula_story_chat_suggestions_based_on": {
-        "message": "Sur quelle navigation cette histoire repose-t-elle ?"
-    },
-    "memory_management_nebula_story_chat_suggestions_next": {
-        "message": "Que pourrais-je en faire ensuite ?"
-    },
-    "memory_management_nebula_story_chat_suggestions_why": {
-        "message": "Pourquoi as-tu écrit cette histoire pour moi ?"
+        "message": "Poser une question à Phi Chat sur cette histoire"
     },
     "memory_management_nebula_story_chat_unsupported": {
         "message": "Cette version de Phi ne peut pas ouvrir Phi Chat depuis cette page."
@@ -1008,22 +996,22 @@
         "message": "Annuler"
     },
     "memory_management_nebula_story_feedback_dialog_label": {
-        "message": "Évaluer cette lettre"
+        "message": "Évaluer cette histoire"
     },
     "memory_management_nebula_story_feedback_negative_action": {
-        "message": "Je n'ai pas aimé cette lettre"
+        "message": "Je n'ai pas aimé cette histoire"
     },
     "memory_management_nebula_story_feedback_negative_title": {
         "message": "Qu'est-ce qui n'allait pas ?"
     },
     "memory_management_nebula_story_feedback_positive_action": {
-        "message": "J'ai aimé cette lettre"
+        "message": "J'ai aimé cette histoire"
     },
     "memory_management_nebula_story_feedback_positive_title": {
         "message": "Qu'est-ce qui vous a plu ?"
     },
     "memory_management_nebula_story_feedback_privacy_rating": {
-        "message": "Votre note et les raisons choisies servent à améliorer les histoires de Phi. Rien de cette lettre n'est envoyé."
+        "message": "Votre note et les raisons choisies servent à améliorer les histoires de Phi. Rien de cette histoire n'est envoyé."
     },
     "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
         "message": "C'est juste la liste de ce que j'ai fait"
@@ -1086,7 +1074,7 @@
         "message": "Joindre les souvenirs dont elle est tirée"
     },
     "memory_management_nebula_story_feedback_report_include_story": {
-        "message": "Joindre cette lettre"
+        "message": "Joindre cette histoire"
     },
     "memory_management_nebula_story_feedback_report_note_label": {
         "message": "Quelque chose à dire à l'équipe ?"
@@ -1106,11 +1094,8 @@
     "memory_management_nebula_story_greeting": {
         "message": "À vous,"
     },
-    "memory_management_nebula_story_instructions_badge": {
-        "message": "Instructions personnalisées"
-    },
     "memory_management_nebula_story_instructions_badge_hint": {
-        "message": "Les lettres générées à partir de maintenant utilisent le texte personnalisé. Enregistré le {{date}} · {{hash}}"
+        "message": "Les histoires générées à partir de maintenant utilisent le texte personnalisé. Enregistré le {{date}} · {{hash}}"
     },
     "memory_management_nebula_story_instructions_close": {
         "message": "Fermer"
@@ -1137,13 +1122,13 @@
         "message": "Instructions des histoires"
     },
     "memory_management_nebula_story_instructions_refresh_busy": {
-        "message": "Une lettre est déjà en cours de rédaction. Réessayez quand elle sera terminée."
+        "message": "Une histoire est déjà en cours de rédaction. Réessayez quand elle sera terminée."
     },
     "memory_management_nebula_story_instructions_refresh_started": {
-        "message": "Une nouvelle lettre est en cours de rédaction. Elle apparaîtra la prochaine fois que vous ouvrirez Nebula."
+        "message": "Une nouvelle histoire est en cours de rédaction. Elle apparaîtra la prochaine fois que vous ouvrirez Nebula."
     },
     "memory_management_nebula_story_instructions_refreshing": {
-        "message": "Rédaction d'une nouvelle lettre…"
+        "message": "Rédaction d'une nouvelle histoire…"
     },
     "memory_management_nebula_story_instructions_reset": {
         "message": "Rétablir la valeur par défaut"
@@ -1155,7 +1140,7 @@
         "message": "Réinitialiser les histoires et actualiser"
     },
     "memory_management_nebula_story_instructions_reset_stories_body": {
-        "message": "Cette action supprime les lettres écrites pour ce profil ainsi que la trace de celles que vous avez lues. Vos souvenirs ne sont pas modifiés."
+        "message": "Cette action supprime les histoires écrites pour ce profil ainsi que la trace de celles que vous avez lues. Vos souvenirs ne sont pas modifiés."
     },
     "memory_management_nebula_story_instructions_reset_stories_confirm": {
         "message": "Réinitialiser et actualiser"
@@ -1191,16 +1176,16 @@
         "message": "Afficher l'histoire"
     },
     "memory_management_nebula_story_stack_back_to_first": {
-        "message": "Revenir à la première lettre"
+        "message": "Revenir à la première histoire"
     },
     "memory_management_nebula_story_stack_dot": {
-        "message": "Lettre {{index}}"
+        "message": "Histoire {{index}}"
     },
     "memory_management_nebula_story_stack_dot_end": {
-        "message": "Fin des lettres"
+        "message": "Fin des histoires"
     },
     "memory_management_nebula_story_stack_dot_unread": {
-        "message": "Lettre {{index}}, non lue"
+        "message": "Histoire {{index}}, non lue"
     },
     "memory_management_nebula_story_stack_end_body": {
         "message": "De nouvelles histoires arriveront au fil de votre navigation."
@@ -1208,23 +1193,29 @@
     "memory_management_nebula_story_stack_end_title": {
         "message": "Tout est lu pour le moment."
     },
+    "memory_management_nebula_story_stack_new_stories": {
+        "message": "{{count}} nouvelles histoires"
+    },
+    "memory_management_nebula_story_stack_new_story": {
+        "message": "{{count}} nouvelle histoire"
+    },
     "memory_management_nebula_story_stack_next": {
-        "message": "Lettre suivante"
+        "message": "Histoire suivante"
     },
     "memory_management_nebula_story_stack_pager_label": {
-        "message": "Lettres"
+        "message": "Histoires"
     },
     "memory_management_nebula_story_stack_pill_all": {
-        "message": "Lettres : {{count}}"
+        "message": "Histoires : {{count}}"
     },
     "memory_management_nebula_story_stack_position": {
         "message": "{{index}} / {{total}}"
     },
     "memory_management_nebula_story_stack_position_end": {
-        "message": "Fin / {{total}}"
+        "message": "Fin"
     },
     "memory_management_nebula_story_stack_previous": {
-        "message": "Lettre précédente"
+        "message": "Histoire précédente"
     },
     "memory_management_nebula_story_stack_unread": {
         "message": "Non lue"

@@ -969,25 +969,13 @@
         "message": "记忆星空"
     },
     "memory_management_nebula_story_chat_ai_off": {
-        "message": "在「设置」中开启 AI 功能后，即可聊聊这封信。"
+        "message": "在「设置」中开启 AI 功能后，即可聊聊这个故事。"
     },
     "memory_management_nebula_story_chat_failed": {
         "message": "无法打开 Phi Chat。"
     },
     "memory_management_nebula_story_chat_input_label": {
-        "message": "就这封信向 Phi Chat 提问"
-    },
-    "memory_management_nebula_story_chat_send": {
-        "message": "发送到 Phi Chat"
-    },
-    "memory_management_nebula_story_chat_suggestions_based_on": {
-        "message": "这封信是根据我浏览的哪些内容写的？"
-    },
-    "memory_management_nebula_story_chat_suggestions_next": {
-        "message": "接下来我可以用它做些什么？"
-    },
-    "memory_management_nebula_story_chat_suggestions_why": {
-        "message": "你为什么要为我写这个故事？"
+        "message": "就这个故事向 Phi Chat 提问"
     },
     "memory_management_nebula_story_chat_unsupported": {
         "message": "这个版本的 Phi 无法从这里打开 Phi Chat。"
@@ -1008,22 +996,22 @@
         "message": "取消"
     },
     "memory_management_nebula_story_feedback_dialog_label": {
-        "message": "为这封信评分"
+        "message": "为这个故事评分"
     },
     "memory_management_nebula_story_feedback_negative_action": {
-        "message": "我不喜欢这封信"
+        "message": "我不喜欢这个故事"
     },
     "memory_management_nebula_story_feedback_negative_title": {
         "message": "哪里出了问题？"
     },
     "memory_management_nebula_story_feedback_positive_action": {
-        "message": "我喜欢这封信"
+        "message": "我喜欢这个故事"
     },
     "memory_management_nebula_story_feedback_positive_title": {
         "message": "哪里写得好？"
     },
     "memory_management_nebula_story_feedback_privacy_rating": {
-        "message": "你的评分和所选原因会被统计，用于改进 Phi 的故事。这封信的内容不会被发送。"
+        "message": "你的评分和所选原因会被统计，用于改进 Phi 的故事。这个故事的内容不会被发送。"
     },
     "memory_management_nebula_story_feedback_reasons_negative_boring_stat": {
         "message": "只是在罗列我做过的事"
@@ -1083,10 +1071,10 @@
         "message": "给 Phi 团队（可选）"
     },
     "memory_management_nebula_story_feedback_report_include_memories": {
-        "message": "附上这封信所依据的记忆"
+        "message": "附上这个故事所依据的记忆"
     },
     "memory_management_nebula_story_feedback_report_include_story": {
-        "message": "附上这封信"
+        "message": "附上这个故事"
     },
     "memory_management_nebula_story_feedback_report_note_label": {
         "message": "有什么想告诉团队的吗？"
@@ -1106,11 +1094,8 @@
     "memory_management_nebula_story_greeting": {
         "message": "亲爱的你："
     },
-    "memory_management_nebula_story_instructions_badge": {
-        "message": "自定义指令"
-    },
     "memory_management_nebula_story_instructions_badge_hint": {
-        "message": "此后生成的信将使用自定义文本。保存于 {{date}} · {{hash}}"
+        "message": "此后生成的故事将使用自定义文本。保存于 {{date}} · {{hash}}"
     },
     "memory_management_nebula_story_instructions_close": {
         "message": "关闭"
@@ -1137,13 +1122,13 @@
         "message": "故事指令"
     },
     "memory_management_nebula_story_instructions_refresh_busy": {
-        "message": "正在写一封信，请等它写完后再试。"
+        "message": "正在写一个故事，请等它写完后再试。"
     },
     "memory_management_nebula_story_instructions_refresh_started": {
-        "message": "正在写一封新的信，下次打开 Nebula 时即可看到。"
+        "message": "正在写一个新的故事，下次打开 Nebula 时即可看到。"
     },
     "memory_management_nebula_story_instructions_refreshing": {
-        "message": "正在写一封新的信…"
+        "message": "正在写一个新的故事…"
     },
     "memory_management_nebula_story_instructions_reset": {
         "message": "恢复默认"
@@ -1155,7 +1140,7 @@
         "message": "重置故事并刷新"
     },
     "memory_management_nebula_story_instructions_reset_stories_body": {
-        "message": "这会删除为此个人资料写的所有信，以及你的已读记录。你的记忆不会受到影响。"
+        "message": "这会删除为此个人资料写的所有故事，以及你的已读记录。你的记忆不会受到影响。"
     },
     "memory_management_nebula_story_instructions_reset_stories_confirm": {
         "message": "重置并刷新"
@@ -1191,16 +1176,16 @@
         "message": "展开故事"
     },
     "memory_management_nebula_story_stack_back_to_first": {
-        "message": "回到第一封"
+        "message": "回到第一个"
     },
     "memory_management_nebula_story_stack_dot": {
-        "message": "第 {{index}} 封信"
+        "message": "第 {{index}} 个故事"
     },
     "memory_management_nebula_story_stack_dot_end": {
-        "message": "所有信的末尾"
+        "message": "所有故事的末尾"
     },
     "memory_management_nebula_story_stack_dot_unread": {
-        "message": "第 {{index}} 封信，未读"
+        "message": "第 {{index}} 个故事，未读"
     },
     "memory_management_nebula_story_stack_end_body": {
         "message": "随着你继续浏览，新的故事会陆续到来。"
@@ -1208,23 +1193,29 @@
     "memory_management_nebula_story_stack_end_title": {
         "message": "目前都读完了。"
     },
+    "memory_management_nebula_story_stack_new_stories": {
+        "message": "{{count}} 个新故事"
+    },
+    "memory_management_nebula_story_stack_new_story": {
+        "message": "{{count}} 个新故事"
+    },
     "memory_management_nebula_story_stack_next": {
-        "message": "下一封信"
+        "message": "下一个故事"
     },
     "memory_management_nebula_story_stack_pager_label": {
-        "message": "所有信"
+        "message": "所有故事"
     },
     "memory_management_nebula_story_stack_pill_all": {
-        "message": "所有信：{{count}}"
+        "message": "所有故事：{{count}}"
     },
     "memory_management_nebula_story_stack_position": {
         "message": "{{index}} / {{total}}"
     },
     "memory_management_nebula_story_stack_position_end": {
-        "message": "末尾 / {{total}}"
+        "message": "末尾"
     },
     "memory_management_nebula_story_stack_previous": {
-        "message": "上一封信"
+        "message": "上一个故事"
     },
     "memory_management_nebula_story_stack_unread": {
         "message": "未读"
