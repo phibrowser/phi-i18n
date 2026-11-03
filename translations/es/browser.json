@@ -86,6 +86,9 @@
     "add_note_1f822f": {
         "message": "Agregar nota"
     },
+    "add_options_to_tab_and_tab_group": {
+        "message": "Agrega a los menús de pestañas y de grupos de pestañas opciones para cerrar las pestañas a la izquierda o a la derecha, o las de arriba o de abajo en una barra de pestañas vertical."
+    },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "Agregar pestaña fijada, marcador o carpeta"
     },
@@ -1112,6 +1115,9 @@
     "clear": {
         "message": "Borrar"
     },
+    "clear_all_tabs": {
+        "message": "Limpiar todas las pestañas"
+    },
     "clear_browsing_data": {
         "message": "Borrar datos de navegación"
     },
@@ -1132,6 +1138,12 @@
     },
     "clear_search": {
         "message": "Borrar búsqueda"
+    },
+    "clear_unselected_tabs": {
+        "message": "Limpiar las pestañas no seleccionadas"
+    },
+    "cleared_tabs_use_to_undo": {
+        "message": "Pestañas cerradas. Usa %@ para deshacer."
     },
     "click": {
         "message": "Haz clic en "
@@ -1184,6 +1196,9 @@
     "close_incognito_space": {
         "message": "Cerrar Espacio de incógnito"
     },
+    "close_ordinary_tabs_that_are_not_currently": {
+        "message": "Cierra las pestañas normales que no se muestran actualmente. Admite Deshacer y Rehacer."
+    },
     "close_other_tabs": {
         "message": "Cerrar las demás pestañas"
     },
@@ -1223,8 +1238,32 @@
     "close_tabs": {
         "message": "Cerrar pestañas"
     },
+    "close_tabs_above": {
+        "message": "Cerrar pestañas de arriba"
+    },
+    "close_tabs_above_group": {
+        "message": "Cerrar pestañas encima del grupo"
+    },
+    "close_tabs_below": {
+        "message": "Cerrar pestañas de abajo"
+    },
+    "close_tabs_below_group": {
+        "message": "Cerrar pestañas debajo del grupo"
+    },
+    "close_tabs_by_position": {
+        "message": "Cerrar pestañas por posición"
+    },
+    "close_tabs_to_the_left": {
+        "message": "Cerrar pestañas a la izquierda"
+    },
+    "close_tabs_to_the_left_of_group": {
+        "message": "Cerrar pestañas a la izquierda del grupo"
+    },
     "close_tabs_to_the_right": {
         "message": "Cerrar pestañas a la derecha"
+    },
+    "close_tabs_to_the_right_of_group": {
+        "message": "Cerrar pestañas a la derecha del grupo"
     },
     "close_tabs_to_the_right_of_the": {
         "message": "Cierra las pestañas a la derecha de la pestaña actual."
@@ -1954,6 +1993,12 @@
     },
     "done_73789c": {
         "message": "Listo"
+    },
+    "double_click_a_tab_to_close_it": {
+        "message": "Haz doble clic en una pestaña para cerrarla. En la vista dividida, solo se cierra el panel en el que hiciste clic. Las pestañas fijadas y los marcadores conservan sus acciones habituales de doble clic."
+    },
+    "double_click_to_close_tabs": {
+        "message": "Cerrar pestañas con doble clic"
     },
     "download_any_data_export_you_want_to": {
         "message": "Descarga las exportaciones de datos que quieras conservar antes de eliminar tu cuenta. La eliminación cancela las exportaciones en curso y elimina definitivamente los archivos y enlaces de descarga existentes."
@@ -2819,6 +2864,9 @@
     "have_your_ai_assistant_help_you_understand": {
         "message": "Deja que tu asistente de IA te ayude a entender la letra pequeña 👇"
     },
+    "heading": {
+        "message": "encabezado"
+    },
     "help": {
         "message": "Ayuda"
     },
@@ -3183,7 +3231,7 @@
         "message": "Empecemos"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
-        "message": "Permite que las herramientas de agentes gestionen tus propios datos de navegación: Espacios, perfiles, reglas de URL, pestañas fijadas, marcadores y la disposición de las pestañas de tus ventanas. Cuando está desactivado, los agentes solo pueden trabajar dentro de sus propios Espacios de agente. Se aplica de inmediato."
+        "message": "Permite que las herramientas de agentes gestionen tus propios datos de navegación (Espacios, perfiles, reglas de URL, pestañas fijadas, marcadores y la disposición de las pestañas de tus ventanas) y que lean y operen páginas en tus ventanas visibles. También permite que los agentes abran ventanas invisibles en segundo plano que pueden usar las cookies y los inicios de sesión de tus perfiles: nada en pantalla indica que están abiertas, y no puedes verlas ni tomar el control de ellas. Los agentes también necesitan que esté activado para solicitar contraseñas guardadas, lo que requiere tu aprobación. Está activado de forma predeterminada; cuando está desactivado, los agentes solo pueden trabajar dentro de sus propios Espacios de agente. Al desactivarlo se rechazan de inmediato las solicitudes nuevas, pero el trabajo que un agente ya tenga abierto puede continuar hasta que termine o se agote su tiempo de espera."
     },
     "lets_agent_tools_claude_code_codex_drive": {
         "message": "Permite que las herramientas de agentes (Claude Code, Codex) controlen Phi mediante el protocolo DevTools a través de un socket privado al que solo pueden acceder los procesos de este Mac. Cada agente te pide aprobación la primera vez que se conecta. Si lo desactivas, se desconectarán al instante; el siguiente agente que se conecte te pedirá que lo vuelvas a activar. Se aplica de inmediato."
@@ -4316,6 +4364,12 @@
     "phi_link": {
         "message": "Phi Link"
     },
+    "phi_member_card": {
+        "message": "Tarjeta de miembro de Phi, %@"
+    },
+    "phi_member_card_joined": {
+        "message": "Tarjeta de miembro de Phi, %1$@, miembro desde %2$@"
+    },
     "phi_needs_full_disk_access_to_import": {
         "message": "Phi necesita Acceso total al disco para importar tus datos de Safari."
     },
@@ -4629,6 +4683,9 @@
         "message": "Rojo"
     },
     "redo": {
+        "message": "Rehacer"
+    },
+    "redo_4c507b": {
         "message": "Rehacer"
     },
     "redo_75047e": {
@@ -5720,6 +5777,9 @@
     "supported_profile_preferences": {
         "message": "Preferencias de Perfil compatibles"
     },
+    "supports_1password_bitwarden_lastpass_enpass": {
+        "message": "%@, compatible con 1Password, Bitwarden, LastPass, Enpass"
+    },
     "suspicious_download_blocked": {
         "message": "Descarga sospechosa bloqueada"
     },
@@ -6282,6 +6342,9 @@
         "message": "Perfiles de la cuenta sin asignar"
     },
     "undo": {
+        "message": "Deshacer"
+    },
+    "undo_2bf910": {
         "message": "Deshacer"
     },
     "undo_2ca0be": {

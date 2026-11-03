@@ -86,6 +86,9 @@
     "add_note_1f822f": {
         "message": "添加笔记"
     },
+    "add_options_to_tab_and_tab_group": {
+        "message": "在标签页和标签组的右键菜单中，提供关闭左侧或右侧标签页的选项；使用纵向标签栏时，显示为关闭上方或下方标签页。"
+    },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "添加固定标签页、书签或文件夹"
     },
@@ -1112,6 +1115,9 @@
     "clear": {
         "message": "清除"
     },
+    "clear_all_tabs": {
+        "message": "清理所有标签页"
+    },
     "clear_browsing_data": {
         "message": "清除浏览数据"
     },
@@ -1132,6 +1138,12 @@
     },
     "clear_search": {
         "message": "清除搜索"
+    },
+    "clear_unselected_tabs": {
+        "message": "清理未选中的标签页"
+    },
+    "cleared_tabs_use_to_undo": {
+        "message": "已清理标签页。按 %@ 可撤销。"
     },
     "click": {
         "message": "点按 "
@@ -1184,6 +1196,9 @@
     "close_incognito_space": {
         "message": "关闭无痕空间"
     },
+    "close_ordinary_tabs_that_are_not_currently": {
+        "message": "关闭当前未显示的普通标签页。支持撤销和重做。"
+    },
     "close_other_tabs": {
         "message": "关闭其他标签页"
     },
@@ -1223,8 +1238,32 @@
     "close_tabs": {
         "message": "关闭标签页"
     },
+    "close_tabs_above": {
+        "message": "关闭上方标签页"
+    },
+    "close_tabs_above_group": {
+        "message": "关闭标签组上方的标签页"
+    },
+    "close_tabs_below": {
+        "message": "关闭下方标签页"
+    },
+    "close_tabs_below_group": {
+        "message": "关闭标签组下方的标签页"
+    },
+    "close_tabs_by_position": {
+        "message": "按位置批量关闭标签页"
+    },
+    "close_tabs_to_the_left": {
+        "message": "关闭左侧标签页"
+    },
+    "close_tabs_to_the_left_of_group": {
+        "message": "关闭标签组左侧的标签页"
+    },
     "close_tabs_to_the_right": {
         "message": "关闭右侧标签页"
+    },
+    "close_tabs_to_the_right_of_group": {
+        "message": "关闭标签组右侧的标签页"
     },
     "close_tabs_to_the_right_of_the": {
         "message": "关闭当前标签页右侧的标签页。"
@@ -1954,6 +1993,12 @@
     },
     "done_73789c": {
         "message": "完成"
+    },
+    "double_click_a_tab_to_close_it": {
+        "message": "双击标签页即可将其关闭。在分屏视图中，只会关闭所点击的窗格。固定标签页和书签保留原有的双击操作。"
+    },
+    "double_click_to_close_tabs": {
+        "message": "双击关闭标签页"
     },
     "download_any_data_export_you_want_to": {
         "message": "请在删除账号前下载你想保留的数据导出。删除操作会取消正在进行的导出，并永久移除现有的下载文件和链接。"
@@ -2819,6 +2864,9 @@
     "have_your_ai_assistant_help_you_understand": {
         "message": "让你的 AI 助手帮你读懂细则 👇"
     },
+    "heading": {
+        "message": "标题"
+    },
     "help": {
         "message": "帮助"
     },
@@ -3183,7 +3231,7 @@
         "message": "开始使用"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
-        "message": "允许智能体工具管理你自己的浏览数据，包括空间、个人资料、网址规则、固定标签页、书签，以及各窗口的标签页布局。关闭后，智能体只能在它们自己的智能体空间内操作。立即生效。"
+        "message": "允许智能体工具管理你自己的浏览数据，包括空间、个人资料、网址规则、固定标签页、书签，以及各窗口的标签页布局，并读取和操作你可见窗口中的页面。它还允许智能体打开不可见的后台窗口，这些窗口可以使用你个人资料中的 Cookie 和登录状态：屏幕上不会显示它们已打开，你也无法查看或接管它们。智能体也需要开启此项才能请求已保存的密码，而这需要你的批准。默认开启；关闭后，智能体只能在它们自己的智能体空间内操作。关闭后会立即拒绝新的请求，但智能体已在进行的工作可以继续，直到结束或超时。"
     },
     "lets_agent_tools_claude_code_codex_drive": {
         "message": "允许智能体工具（Claude Code、Codex）通过一个仅限这台 Mac 上的进程访问的私有套接字，经由 DevTools 协议驱动 Phi。每个智能体首次连接时都会请求你的批准。关闭后会立即断开它们的连接；下一个连接的智能体会请求你重新开启。立即生效。"
@@ -4316,6 +4364,12 @@
     "phi_link": {
         "message": "Phi Link"
     },
+    "phi_member_card": {
+        "message": "Phi 会员卡片，%@"
+    },
+    "phi_member_card_joined": {
+        "message": "Phi 会员卡片，%1$@，加入于 %2$@"
+    },
     "phi_needs_full_disk_access_to_import": {
         "message": "Phi 需要完全磁盘访问权限才能从 Safari 导入你的数据。"
     },
@@ -4629,6 +4683,9 @@
         "message": "红色"
     },
     "redo": {
+        "message": "重做"
+    },
+    "redo_4c507b": {
         "message": "重做"
     },
     "redo_75047e": {
@@ -5720,6 +5777,9 @@
     "supported_profile_preferences": {
         "message": "受支持的个人资料偏好设置"
     },
+    "supports_1password_bitwarden_lastpass_enpass": {
+        "message": "%@，支持 1Password、Bitwarden、LastPass、Enpass"
+    },
     "suspicious_download_blocked": {
         "message": "已拦截可疑下载"
     },
@@ -6282,6 +6342,9 @@
         "message": "未认领的账户个人资料"
     },
     "undo": {
+        "message": "撤销"
+    },
+    "undo_2bf910": {
         "message": "撤销"
     },
     "undo_2ca0be": {

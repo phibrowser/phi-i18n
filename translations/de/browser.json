@@ -86,6 +86,9 @@
     "add_note_1f822f": {
         "message": "Notiz hinzufügen"
     },
+    "add_options_to_tab_and_tab_group": {
+        "message": "Fügt den Menüs für Tabs und Tab-Gruppen Optionen zum Schließen der Tabs links oder rechts hinzu. Bei einer vertikalen Tab-Leiste gelten die Optionen für Tabs oberhalb oder unterhalb."
+    },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "Angehefteten Tab, Lesezeichen oder Ordner hinzufügen"
     },
@@ -1112,6 +1115,9 @@
     "clear": {
         "message": "Leeren"
     },
+    "clear_all_tabs": {
+        "message": "Alle Tabs aufräumen"
+    },
     "clear_browsing_data": {
         "message": "Browserdaten löschen"
     },
@@ -1132,6 +1138,12 @@
     },
     "clear_search": {
         "message": "Suche löschen"
+    },
+    "clear_unselected_tabs": {
+        "message": "Nicht ausgewählte Tabs aufräumen"
+    },
+    "cleared_tabs_use_to_undo": {
+        "message": "Tabs aufgeräumt. Mit %@ widerrufen."
     },
     "click": {
         "message": "Klicke "
@@ -1184,6 +1196,9 @@
     "close_incognito_space": {
         "message": "Inkognito-Space schließen"
     },
+    "close_ordinary_tabs_that_are_not_currently": {
+        "message": "Schließt normale Tabs, die gerade nicht angezeigt werden. Unterstützt Widerrufen und Wiederholen."
+    },
     "close_other_tabs": {
         "message": "Andere Tabs schließen"
     },
@@ -1223,8 +1238,32 @@
     "close_tabs": {
         "message": "Tabs schließen"
     },
+    "close_tabs_above": {
+        "message": "Tabs oberhalb schließen"
+    },
+    "close_tabs_above_group": {
+        "message": "Tabs oberhalb der Gruppe schließen"
+    },
+    "close_tabs_below": {
+        "message": "Tabs unterhalb schließen"
+    },
+    "close_tabs_below_group": {
+        "message": "Tabs unterhalb der Gruppe schließen"
+    },
+    "close_tabs_by_position": {
+        "message": "Tabs nach Position schließen"
+    },
+    "close_tabs_to_the_left": {
+        "message": "Tabs links schließen"
+    },
+    "close_tabs_to_the_left_of_group": {
+        "message": "Tabs links von der Gruppe schließen"
+    },
     "close_tabs_to_the_right": {
         "message": "Tabs rechts schließen"
+    },
+    "close_tabs_to_the_right_of_group": {
+        "message": "Tabs rechts von der Gruppe schließen"
     },
     "close_tabs_to_the_right_of_the": {
         "message": "Schließt die Tabs rechts neben dem aktuellen Tab."
@@ -1954,6 +1993,12 @@
     },
     "done_73789c": {
         "message": "Fertig"
+    },
+    "double_click_a_tab_to_close_it": {
+        "message": "Schließe einen Tab per Doppelklick. In Split View wird nur der angeklickte Bereich geschlossen. Angeheftete Tabs und Lesezeichen behalten ihre bisherigen Doppelklick-Aktionen."
+    },
+    "double_click_to_close_tabs": {
+        "message": "Tabs per Doppelklick schließen"
     },
     "download_any_data_export_you_want_to": {
         "message": "Lade alle Datenexporte herunter, die du behalten möchtest, bevor du dein Konto löschst. Beim Löschen werden laufende Exporte abgebrochen und vorhandene Download-Dateien und Links endgültig entfernt."
@@ -2819,6 +2864,9 @@
     "have_your_ai_assistant_help_you_understand": {
         "message": "Lass dir von deinem KI-Assistenten das Kleingedruckte erklären 👇"
     },
+    "heading": {
+        "message": "Überschrift"
+    },
     "help": {
         "message": "Hilfe"
     },
@@ -3183,7 +3231,7 @@
         "message": "Los geht’s"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
-        "message": "Erlaubt Agent-Tools, deine eigenen Browserdaten zu verwalten: Spaces, Profile, URL-Regeln, angeheftete Tabs, Lesezeichen und das Tab-Layout deiner Fenster. Wenn deaktiviert, können Agenten nur in ihren eigenen Agent-Spaces arbeiten. Wird sofort wirksam."
+        "message": "Erlaubt Agent-Tools, deine eigenen Browserdaten (Spaces, Profile, URL-Regeln, angeheftete Tabs, Lesezeichen und das Tab-Layout deiner Fenster) zu verwalten sowie Seiten in deinen sichtbaren Fenstern zu lesen und zu bedienen. Außerdem können Agenten damit unsichtbare Hintergrundfenster öffnen, die die Cookies und Anmeldungen deiner Profile verwenden können: Auf dem Bildschirm ist nicht zu sehen, dass sie geöffnet sind, und du kannst sie weder beobachten noch die Steuerung übernehmen. Agenten brauchen diese Option auch, um gespeicherte Passwörter anzufordern, was deine Genehmigung erfordert. Standardmäßig aktiviert; wenn deaktiviert, können Agenten nur in ihren eigenen Agent-Spaces arbeiten. Wenn du sie ausschaltest, werden neue Anfragen sofort abgelehnt, aber Arbeit, die ein Agent bereits begonnen hat, kann weiterlaufen, bis sie endet oder das Zeitlimit erreicht ist."
     },
     "lets_agent_tools_claude_code_codex_drive": {
         "message": "Erlaubt Agententools (Claude Code, Codex), Phi über das DevTools-Protokoll zu steuern, und zwar über einen privaten Socket, den nur Prozesse auf diesem Mac erreichen können. Jeder Agent bittet dich beim ersten Verbinden um deine Erlaubnis. Wenn du das ausschaltest, werden sie sofort getrennt; der nächste Agent, der sich verbindet, bittet dich, es wieder einzuschalten. Gilt sofort."
@@ -4316,6 +4364,12 @@
     "phi_link": {
         "message": "Phi Link"
     },
+    "phi_member_card": {
+        "message": "Phi-Mitgliedskarte, %@"
+    },
+    "phi_member_card_joined": {
+        "message": "Phi-Mitgliedskarte, %1$@, Mitglied seit %2$@"
+    },
     "phi_needs_full_disk_access_to_import": {
         "message": "Phi benötigt Festplattenvollzugriff, um deine Daten aus Safari zu importieren."
     },
@@ -4629,6 +4683,9 @@
         "message": "Rot"
     },
     "redo": {
+        "message": "Wiederholen"
+    },
+    "redo_4c507b": {
         "message": "Wiederholen"
     },
     "redo_75047e": {
@@ -5720,6 +5777,9 @@
     "supported_profile_preferences": {
         "message": "Unterstützte Profileinstellungen"
     },
+    "supports_1password_bitwarden_lastpass_enpass": {
+        "message": "%@, unterstützt 1Password, Bitwarden, LastPass, Enpass"
+    },
     "suspicious_download_blocked": {
         "message": "Verdächtiger Download blockiert"
     },
@@ -6282,6 +6342,9 @@
         "message": "Nicht zugeordnete Account-Profile"
     },
     "undo": {
+        "message": "Widerrufen"
+    },
+    "undo_2bf910": {
         "message": "Widerrufen"
     },
     "undo_2ca0be": {

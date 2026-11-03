@@ -86,6 +86,9 @@
     "add_note_1f822f": {
         "message": "加入備註"
     },
+    "add_options_to_tab_and_tab_group": {
+        "message": "在分頁與分頁群組的右鍵選單中，提供關閉左側或右側分頁的選項；使用垂直分頁列時，顯示為關閉上方或下方分頁。"
+    },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "加入釘選分頁、書籤或資料夾"
     },
@@ -1112,6 +1115,9 @@
     "clear": {
         "message": "清除"
     },
+    "clear_all_tabs": {
+        "message": "清除所有分頁"
+    },
     "clear_browsing_data": {
         "message": "清除瀏覽資料"
     },
@@ -1132,6 +1138,12 @@
     },
     "clear_search": {
         "message": "清除搜尋"
+    },
+    "clear_unselected_tabs": {
+        "message": "清除未選取的分頁"
+    },
+    "cleared_tabs_use_to_undo": {
+        "message": "已清除分頁。按 %@ 可復原。"
     },
     "click": {
         "message": "按一下 "
@@ -1184,6 +1196,9 @@
     "close_incognito_space": {
         "message": "關閉無痕空間"
     },
+    "close_ordinary_tabs_that_are_not_currently": {
+        "message": "關閉目前未顯示的一般分頁。支援復原與重做。"
+    },
     "close_other_tabs": {
         "message": "關閉其他分頁"
     },
@@ -1223,8 +1238,32 @@
     "close_tabs": {
         "message": "關閉分頁"
     },
+    "close_tabs_above": {
+        "message": "關閉上方分頁"
+    },
+    "close_tabs_above_group": {
+        "message": "關閉群組上方的分頁"
+    },
+    "close_tabs_below": {
+        "message": "關閉下方分頁"
+    },
+    "close_tabs_below_group": {
+        "message": "關閉群組下方的分頁"
+    },
+    "close_tabs_by_position": {
+        "message": "依位置批次關閉分頁"
+    },
+    "close_tabs_to_the_left": {
+        "message": "關閉左側分頁"
+    },
+    "close_tabs_to_the_left_of_group": {
+        "message": "關閉群組左側的分頁"
+    },
     "close_tabs_to_the_right": {
         "message": "關閉右側分頁"
+    },
+    "close_tabs_to_the_right_of_group": {
+        "message": "關閉群組右側的分頁"
     },
     "close_tabs_to_the_right_of_the": {
         "message": "關閉目前分頁右側的分頁。"
@@ -1954,6 +1993,12 @@
     },
     "done_73789c": {
         "message": "完成"
+    },
+    "double_click_a_tab_to_close_it": {
+        "message": "連按兩下分頁即可關閉。在分割畫面中，只會關閉點選的窗格。釘選分頁與書籤保留原有的連按兩下操作。"
+    },
+    "double_click_to_close_tabs": {
+        "message": "連按兩下關閉分頁"
     },
     "download_any_data_export_you_want_to": {
         "message": "刪除帳號前，請先下載你要保留的資料匯出檔。刪除帳號會取消進行中的匯出，並永久移除現有的下載檔案和連結。"
@@ -2819,6 +2864,9 @@
     "have_your_ai_assistant_help_you_understand": {
         "message": "讓 AI 助理協助你看懂條款細節 👇"
     },
+    "heading": {
+        "message": "標題"
+    },
     "help": {
         "message": "說明"
     },
@@ -3183,7 +3231,7 @@
         "message": "開始使用"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
-        "message": "允許 AI 代理工具管理你自己的瀏覽資料，包括空間、設定檔、網址規則、釘選分頁、書籤，以及視窗的分頁版面配置。關閉時，AI 代理只能在自己的 AI 代理空間中作業。立即生效。"
+        "message": "允許 AI 代理工具管理你自己的瀏覽資料，包括空間、設定檔、網址規則、釘選分頁、書籤，以及視窗的分頁版面配置，並讀取和操作你可見視窗中的頁面。它也允許 AI 代理開啟看不見的背景視窗，這些視窗可以使用你設定檔中的 Cookie 和登入狀態：螢幕上不會顯示它們已開啟，你也無法觀看或接手控制。AI 代理也需要開啟此設定才能要求取得已儲存的密碼，而這需要你的核准。預設為開啟；關閉時，AI 代理只能在自己的 AI 代理空間中作業。關閉後會立即拒絕新的要求，但 AI 代理已經開始的工作可以繼續進行，直到結束或逾時為止。"
     },
     "lets_agent_tools_claude_code_codex_drive": {
         "message": "允許 AI 代理工具（Claude Code、Codex）透過只有這部 Mac 上的程序才能存取的私有 socket，以 DevTools Protocol 操控 Phi。每個 AI 代理第一次連線時都會請求你的核准。關閉後會立即中斷它們的連線；下一個連線的 AI 代理會要求你重新開啟。立即生效。"
@@ -4316,6 +4364,12 @@
     "phi_link": {
         "message": "Phi Link"
     },
+    "phi_member_card": {
+        "message": "Phi 會員卡，%@"
+    },
+    "phi_member_card_joined": {
+        "message": "Phi 會員卡，%1$@，於 %2$@ 加入"
+    },
     "phi_needs_full_disk_access_to_import": {
         "message": "Phi 需要「完全取用磁碟」權限，才能從 Safari 匯入你的資料。"
     },
@@ -4629,6 +4683,9 @@
         "message": "紅色"
     },
     "redo": {
+        "message": "重做"
+    },
+    "redo_4c507b": {
         "message": "重做"
     },
     "redo_75047e": {
@@ -5720,6 +5777,9 @@
     "supported_profile_preferences": {
         "message": "支援的設定檔偏好設定"
     },
+    "supports_1password_bitwarden_lastpass_enpass": {
+        "message": "%@，支援 1Password、Bitwarden、LastPass、Enpass"
+    },
     "suspicious_download_blocked": {
         "message": "已封鎖可疑下載"
     },
@@ -6283,6 +6343,9 @@
     },
     "undo": {
         "message": "還原"
+    },
+    "undo_2bf910": {
+        "message": "復原"
     },
     "undo_2ca0be": {
         "message": "復原"

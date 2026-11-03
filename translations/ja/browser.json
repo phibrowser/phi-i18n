@@ -86,6 +86,9 @@
     "add_note_1f822f": {
         "message": "メモを追加"
     },
+    "add_options_to_tab_and_tab_group": {
+        "message": "タブとタブグループのメニューに、左側・右側のタブを閉じる項目を追加します。縦型タブバーでは上側・下側になります。"
+    },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "固定タブ、ブックマーク、またはフォルダを追加"
     },
@@ -1112,6 +1115,9 @@
     "clear": {
         "message": "消去"
     },
+    "clear_all_tabs": {
+        "message": "すべてのタブをクリア"
+    },
     "clear_browsing_data": {
         "message": "閲覧データを消去"
     },
@@ -1132,6 +1138,12 @@
     },
     "clear_search": {
         "message": "検索を消去"
+    },
+    "clear_unselected_tabs": {
+        "message": "選択されていないタブをクリア"
+    },
+    "cleared_tabs_use_to_undo": {
+        "message": "タブをクリアしました。%@で取り消せます。"
     },
     "click": {
         "message": "クリック "
@@ -1184,6 +1196,9 @@
     "close_incognito_space": {
         "message": "シークレットスペースを閉じる"
     },
+    "close_ordinary_tabs_that_are_not_currently": {
+        "message": "現在表示されていない通常のタブを閉じます。「取り消す」と「やり直す」に対応しています。"
+    },
     "close_other_tabs": {
         "message": "ほかのタブを閉じる"
     },
@@ -1223,8 +1238,32 @@
     "close_tabs": {
         "message": "タブを閉じる"
     },
+    "close_tabs_above": {
+        "message": "上側のタブを閉じる"
+    },
+    "close_tabs_above_group": {
+        "message": "グループの上側のタブを閉じる"
+    },
+    "close_tabs_below": {
+        "message": "下側のタブを閉じる"
+    },
+    "close_tabs_below_group": {
+        "message": "グループの下側のタブを閉じる"
+    },
+    "close_tabs_by_position": {
+        "message": "位置を指定してタブをまとめて閉じる"
+    },
+    "close_tabs_to_the_left": {
+        "message": "左側のタブを閉じる"
+    },
+    "close_tabs_to_the_left_of_group": {
+        "message": "グループの左側のタブを閉じる"
+    },
     "close_tabs_to_the_right": {
         "message": "右側のタブを閉じる"
+    },
+    "close_tabs_to_the_right_of_group": {
+        "message": "グループの右側のタブを閉じる"
     },
     "close_tabs_to_the_right_of_the": {
         "message": "現在のタブの右側にあるタブを閉じます。"
@@ -1954,6 +1993,12 @@
     },
     "done_73789c": {
         "message": "完了"
+    },
+    "double_click_a_tab_to_close_it": {
+        "message": "タブをダブルクリックすると閉じます。分割表示では、クリックした側だけを閉じます。固定タブとブックマークのダブルクリック操作は変わりません。"
+    },
+    "double_click_to_close_tabs": {
+        "message": "ダブルクリックでタブを閉じる"
     },
     "download_any_data_export_you_want_to": {
         "message": "アカウントを削除する前に、残しておきたいデータエクスポートをダウンロードしてください。削除すると、進行中のエクスポートはキャンセルされ、既存のダウンロードファイルとリンクは完全に削除されます。"
@@ -2819,6 +2864,9 @@
     "have_your_ai_assistant_help_you_understand": {
         "message": "細かい注意書きはAIアシスタントに読み解いてもらいましょう👇"
     },
+    "heading": {
+        "message": "見出し"
+    },
     "help": {
         "message": "ヘルプ"
     },
@@ -3183,7 +3231,7 @@
         "message": "はじめる"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
-        "message": "エージェントツールが、スペース、プロファイル、URLルール、固定タブ、ブックマーク、ウインドウのタブレイアウトといった、あなた自身のブラウジングデータを管理できるようにします。オフにすると、エージェントは自分のエージェントスペース内でのみ操作できます。設定はすぐに適用されます。"
+        "message": "エージェントツールが、スペース、プロファイル、URLルール、固定タブ、ブックマーク、ウインドウのタブレイアウトといった、あなた自身のブラウジングデータを管理し、表示されているウインドウ内のページを読み取って操作できるようにします。また、エージェントはプロファイルのCookieやログイン状態を使用できる非表示のバックグラウンドウインドウを開けるようになります。これらのウインドウが開いていることは画面上には一切表示されず、あなたがその様子を見ることも、操作を引き継ぐこともできません。エージェントが保存済みのパスワードを要求するにもこの設定がオンになっている必要があり、その要求にはあなたの承認が必要です。デフォルトではオンです。オフにすると、エージェントは自分のエージェントスペース内でのみ操作できます。オフにした時点で新しい要求はただちに拒否されますが、エージェントがすでに開いている作業は、終了するかタイムアウトするまで続行されます。"
     },
     "lets_agent_tools_claude_code_codex_drive": {
         "message": "エージェントツール（Claude Code、Codex）が、このMacのプロセスだけが到達できるプライベートソケットを介して、DevTools ProtocolでPhiを操作できるようにします。各エージェントは、初めて接続するときに許可を求めます。オフにするとただちに接続が切断され、次に接続したエージェントがオンに戻すよう求めます。変更はすぐに反映されます。"
@@ -4316,6 +4364,12 @@
     "phi_link": {
         "message": "Phi Link"
     },
+    "phi_member_card": {
+        "message": "Phiメンバーカード、%@"
+    },
+    "phi_member_card_joined": {
+        "message": "Phiメンバーカード、%1$@、%2$@に登録"
+    },
     "phi_needs_full_disk_access_to_import": {
         "message": "SafariからデータをインポートするにはPhiにフルディスクアクセスの許可が必要です。"
     },
@@ -4629,6 +4683,9 @@
         "message": "レッド"
     },
     "redo": {
+        "message": "やり直す"
+    },
+    "redo_4c507b": {
         "message": "やり直す"
     },
     "redo_75047e": {
@@ -5720,6 +5777,9 @@
     "supported_profile_preferences": {
         "message": "対応するプロファイル設定"
     },
+    "supports_1password_bitwarden_lastpass_enpass": {
+        "message": "%@、1Password、Bitwarden、LastPass、Enpassに対応"
+    },
     "suspicious_download_blocked": {
         "message": "不審なダウンロードをブロックしました"
     },
@@ -6282,6 +6342,9 @@
         "message": "未割り当てのアカウントのプロファイル"
     },
     "undo": {
+        "message": "取り消す"
+    },
+    "undo_2bf910": {
         "message": "取り消す"
     },
     "undo_2ca0be": {

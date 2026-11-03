@@ -86,6 +86,9 @@
     "add_note_1f822f": {
         "message": "Voeg notitie toe"
     },
+    "add_options_to_tab_and_tab_group": {
+        "message": "Voegt aan tabblad- en tabbladgroepmenu’s opties toe om tabbladen links of rechts te sluiten, of erboven of eronder bij een verticale tabbladbalk."
+    },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "Voeg vastgemaakt tabblad, bladwijzer of map toe"
     },
@@ -1112,6 +1115,9 @@
     "clear": {
         "message": "Wis"
     },
+    "clear_all_tabs": {
+        "message": "Wis alle tabbladen"
+    },
     "clear_browsing_data": {
         "message": "Browsegegevens wissen"
     },
@@ -1132,6 +1138,12 @@
     },
     "clear_search": {
         "message": "Zoekopdracht wissen"
+    },
+    "clear_unselected_tabs": {
+        "message": "Wis niet-geselecteerde tabbladen"
+    },
+    "cleared_tabs_use_to_undo": {
+        "message": "Tabbladen gewist. Gebruik %@ om dit ongedaan te maken."
     },
     "click": {
         "message": "Klik op "
@@ -1184,6 +1196,9 @@
     "close_incognito_space": {
         "message": "Sluit Incognito-Space"
     },
+    "close_ordinary_tabs_that_are_not_currently": {
+        "message": "Sluit gewone tabbladen die momenteel niet worden weergegeven. Ondersteunt Herstel en Opnieuw."
+    },
     "close_other_tabs": {
         "message": "Sluit andere tabbladen"
     },
@@ -1223,8 +1238,32 @@
     "close_tabs": {
         "message": "Sluit tabbladen"
     },
+    "close_tabs_above": {
+        "message": "Sluit tabbladen erboven"
+    },
+    "close_tabs_above_group": {
+        "message": "Sluit tabbladen boven de groep"
+    },
+    "close_tabs_below": {
+        "message": "Sluit tabbladen eronder"
+    },
+    "close_tabs_below_group": {
+        "message": "Sluit tabbladen onder de groep"
+    },
+    "close_tabs_by_position": {
+        "message": "Sluit tabbladen op basis van positie"
+    },
+    "close_tabs_to_the_left": {
+        "message": "Sluit tabbladen links"
+    },
+    "close_tabs_to_the_left_of_group": {
+        "message": "Sluit tabbladen links van de groep"
+    },
     "close_tabs_to_the_right": {
         "message": "Sluit tabbladen rechts"
+    },
+    "close_tabs_to_the_right_of_group": {
+        "message": "Sluit tabbladen rechts van de groep"
     },
     "close_tabs_to_the_right_of_the": {
         "message": "Sluit de tabbladen rechts van het huidige tabblad."
@@ -1954,6 +1993,12 @@
     },
     "done_73789c": {
         "message": "Gereed"
+    },
+    "double_click_a_tab_to_close_it": {
+        "message": "Dubbelklik op een tabblad om het te sluiten. In Split View sluit alleen het aangeklikte paneel. Vastgezette tabbladen en bladwijzers behouden hun bestaande dubbelklikacties."
+    },
+    "double_click_to_close_tabs": {
+        "message": "Dubbelklik om tabbladen te sluiten"
     },
     "download_any_data_export_you_want_to": {
         "message": "Download alle gegevensexports die je wilt bewaren voordat je je account verwijdert. Bij verwijdering worden lopende exports geannuleerd en worden bestaande downloadbestanden en -links definitief verwijderd."
@@ -2819,6 +2864,9 @@
     "have_your_ai_assistant_help_you_understand": {
         "message": "Laat je AI-assistent je helpen de kleine lettertjes te begrijpen 👇"
     },
+    "heading": {
+        "message": "kop"
+    },
     "help": {
         "message": "Help"
     },
@@ -3183,7 +3231,7 @@
         "message": "Aan de slag"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
-        "message": "Laat agent-tooling je eigen browsegegevens beheren: Spaces, profielen, URL-regels, vastgezette tabbladen, bladwijzers en de tabbladindeling van je vensters. Als dit uitstaat, kunnen agents alleen in hun eigen agent-Spaces werken. Wordt direct toegepast."
+        "message": "Laat agent-tooling je eigen browsegegevens beheren: Spaces, profielen, URL-regels, vastgezette tabbladen, bladwijzers en de tabbladindeling van je vensters. Daarnaast kan agent-tooling pagina’s in je zichtbare vensters lezen en bedienen. Agents kunnen hiermee ook onzichtbare achtergrondvensters openen die de cookies en logins van je profielen kunnen gebruiken: niets op het scherm laat zien dat ze open zijn, en je kunt niet meekijken of ze overnemen. Agents hebben dit ook nodig om bewaarde wachtwoorden op te vragen, waarvoor je goedkeuring vereist is. Staat standaard aan; als dit uitstaat, kunnen agents alleen in hun eigen agent-Spaces werken. Uitschakelen weigert nieuwe verzoeken meteen, maar werk dat een agent al open heeft, kan doorgaan tot het klaar is of een time-out optreedt."
     },
     "lets_agent_tools_claude_code_codex_drive": {
         "message": "Laat agent-tools (Claude Code, Codex) Phi aansturen via het DevTools Protocol, over een privésocket die alleen processen op deze Mac kunnen bereiken. Elke agent vraagt bij de eerste verbinding om je goedkeuring. Als je dit uitschakelt, worden ze meteen losgekoppeld; de volgende agent die verbinding maakt, vraagt je om het weer in te schakelen. Wordt direct toegepast."
@@ -4316,6 +4364,12 @@
     "phi_link": {
         "message": "Phi Link"
     },
+    "phi_member_card": {
+        "message": "Phi-lidmaatschapskaart, %@"
+    },
+    "phi_member_card_joined": {
+        "message": "Phi-lidmaatschapskaart, %1$@, lid sinds %2$@"
+    },
     "phi_needs_full_disk_access_to_import": {
         "message": "Phi heeft Volledige schijftoegang nodig om je gegevens uit Safari te importeren."
     },
@@ -4629,6 +4683,9 @@
         "message": "Rood"
     },
     "redo": {
+        "message": "Opnieuw"
+    },
+    "redo_4c507b": {
         "message": "Opnieuw"
     },
     "redo_75047e": {
@@ -5720,6 +5777,9 @@
     "supported_profile_preferences": {
         "message": "Ondersteunde profielvoorkeuren"
     },
+    "supports_1password_bitwarden_lastpass_enpass": {
+        "message": "%@, ondersteunt 1Password, Bitwarden, LastPass, Enpass"
+    },
     "suspicious_download_blocked": {
         "message": "Verdachte download geblokkeerd"
     },
@@ -6282,6 +6342,9 @@
         "message": "Niet-toegewezen accountprofielen"
     },
     "undo": {
+        "message": "Herstel"
+    },
+    "undo_2bf910": {
         "message": "Herstel"
     },
     "undo_2ca0be": {

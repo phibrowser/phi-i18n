@@ -86,6 +86,9 @@
     "add_note_1f822f": {
         "message": "메모 추가"
     },
+    "add_options_to_tab_and_tab_group": {
+        "message": "탭과 탭 그룹 메뉴에 왼쪽 또는 오른쪽 탭을 닫는 항목을 추가해요. 세로 탭 막대에서는 위쪽 또는 아래쪽 탭을 닫아요."
+    },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "고정 탭, 북마크 또는 폴더 추가"
     },
@@ -1112,6 +1115,9 @@
     "clear": {
         "message": "지우기"
     },
+    "clear_all_tabs": {
+        "message": "모든 탭 지우기"
+    },
     "clear_browsing_data": {
         "message": "인터넷 사용 기록 삭제"
     },
@@ -1132,6 +1138,12 @@
     },
     "clear_search": {
         "message": "검색어 지우기"
+    },
+    "clear_unselected_tabs": {
+        "message": "선택하지 않은 탭 지우기"
+    },
+    "cleared_tabs_use_to_undo": {
+        "message": "탭을 지웠어요. %@ 키로 실행 취소할 수 있어요."
     },
     "click": {
         "message": "클릭: "
@@ -1184,6 +1196,9 @@
     "close_incognito_space": {
         "message": "시크릿 스페이스 닫기"
     },
+    "close_ordinary_tabs_that_are_not_currently": {
+        "message": "현재 표시되지 않은 일반 탭을 닫아요. 실행 취소와 실행 복귀를 지원해요."
+    },
     "close_other_tabs": {
         "message": "다른 탭 닫기"
     },
@@ -1223,8 +1238,32 @@
     "close_tabs": {
         "message": "탭 닫기"
     },
+    "close_tabs_above": {
+        "message": "위쪽 탭 닫기"
+    },
+    "close_tabs_above_group": {
+        "message": "그룹 위쪽 탭 닫기"
+    },
+    "close_tabs_below": {
+        "message": "아래쪽 탭 닫기"
+    },
+    "close_tabs_below_group": {
+        "message": "그룹 아래쪽 탭 닫기"
+    },
+    "close_tabs_by_position": {
+        "message": "위치에 따라 탭 닫기"
+    },
+    "close_tabs_to_the_left": {
+        "message": "왼쪽 탭 닫기"
+    },
+    "close_tabs_to_the_left_of_group": {
+        "message": "그룹 왼쪽 탭 닫기"
+    },
     "close_tabs_to_the_right": {
         "message": "오른쪽 탭 닫기"
+    },
+    "close_tabs_to_the_right_of_group": {
+        "message": "그룹 오른쪽 탭 닫기"
     },
     "close_tabs_to_the_right_of_the": {
         "message": "현재 탭의 오른쪽에 있는 탭을 닫아요."
@@ -1954,6 +1993,12 @@
     },
     "done_73789c": {
         "message": "완료"
+    },
+    "double_click_a_tab_to_close_it": {
+        "message": "탭을 두 번 클릭하면 닫혀요. 분할 보기에서는 클릭한 쪽만 닫혀요. 고정된 탭과 북마크의 두 번 클릭 동작은 그대로 유지돼요."
+    },
+    "double_click_to_close_tabs": {
+        "message": "두 번 클릭하여 탭 닫기"
     },
     "download_any_data_export_you_want_to": {
         "message": "계정을 삭제하기 전에 보관할 데이터 내보내기를 모두 다운로드해 주세요. 계정을 삭제하면 진행 중인 내보내기가 취소되고 기존 다운로드 파일과 링크가 영구적으로 삭제돼요."
@@ -2819,6 +2864,9 @@
     "have_your_ai_assistant_help_you_understand": {
         "message": "작은 글씨로 된 세부 내용도 AI 어시스턴트의 도움을 받아 이해해 보세요 👇"
     },
+    "heading": {
+        "message": "머리말"
+    },
     "help": {
         "message": "도움말"
     },
@@ -3183,7 +3231,7 @@
         "message": "시작하기"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
-        "message": "에이전트 도구가 스페이스, 프로필, URL 규칙, 고정 탭, 북마크, 윈도우의 탭 레이아웃 등 사용자의 브라우징 데이터를 관리할 수 있게 해요. 끄면 에이전트는 자신의 에이전트 스페이스 안에서만 작업할 수 있어요. 즉시 적용돼요."
+        "message": "에이전트 도구가 스페이스, 프로필, URL 규칙, 고정 탭, 북마크, 윈도우의 탭 레이아웃 등 사용자의 브라우징 데이터를 관리하고, 보이는 윈도우의 페이지를 읽고 조작할 수 있게 해요. 또한 에이전트가 프로필의 쿠키와 로그인 정보를 사용할 수 있는 보이지 않는 백그라운드 윈도우를 열 수 있게 해요. 이런 윈도우는 열려 있어도 화면에 아무 표시가 없고, 지켜보거나 제어권을 가져올 수도 없어요. 에이전트가 저장된 비밀번호를 요청할 때도 이 설정이 켜져 있어야 하며, 그 요청에는 사용자의 승인이 필요해요. 기본적으로 켜져 있고, 끄면 에이전트는 자신의 에이전트 스페이스 안에서만 작업할 수 있어요. 끄면 새 요청은 즉시 거부되지만, 에이전트가 이미 진행 중인 작업은 끝나거나 시간이 초과될 때까지 계속될 수 있어요."
     },
     "lets_agent_tools_claude_code_codex_drive": {
         "message": "이 Mac의 프로세스만 접근할 수 있는 전용 소켓을 통해 에이전트 도구(Claude Code, Codex)가 DevTools 프로토콜로 Phi를 제어할 수 있어요. 각 에이전트는 처음 연결할 때 승인을 요청해요. 이 기능을 끄면 즉시 연결이 끊기고, 다음에 연결하는 에이전트가 다시 켜 달라고 요청해요. 변경 사항은 바로 적용돼요."
@@ -4316,6 +4364,12 @@
     "phi_link": {
         "message": "Phi Link"
     },
+    "phi_member_card": {
+        "message": "Phi 회원 카드, %@"
+    },
+    "phi_member_card_joined": {
+        "message": "Phi 회원 카드, %1$@, %2$@ 가입"
+    },
     "phi_needs_full_disk_access_to_import": {
         "message": "Safari에서 데이터를 가져오려면 Phi에 전체 디스크 접근 권한이 필요해요."
     },
@@ -4629,6 +4683,9 @@
         "message": "빨강"
     },
     "redo": {
+        "message": "실행 복귀"
+    },
+    "redo_4c507b": {
         "message": "실행 복귀"
     },
     "redo_75047e": {
@@ -5720,6 +5777,9 @@
     "supported_profile_preferences": {
         "message": "지원되는 프로필 환경설정"
     },
+    "supports_1password_bitwarden_lastpass_enpass": {
+        "message": "%@, 1Password, Bitwarden, LastPass, Enpass 지원"
+    },
     "suspicious_download_blocked": {
         "message": "의심스러운 다운로드 차단됨"
     },
@@ -6282,6 +6342,9 @@
         "message": "할당되지 않은 계정 프로필"
     },
     "undo": {
+        "message": "실행 취소"
+    },
+    "undo_2bf910": {
         "message": "실행 취소"
     },
     "undo_2ca0be": {

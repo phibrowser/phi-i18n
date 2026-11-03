@@ -86,6 +86,9 @@
     "add_note_1f822f": {
         "message": "Ajouter une note"
     },
+    "add_options_to_tab_and_tab_group": {
+        "message": "Ajoute aux menus des onglets et des groupes des options pour fermer les onglets à gauche ou à droite, ou au-dessus ou en dessous dans une barre verticale."
+    },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "Ajouter un onglet épinglé, un signet ou un dossier"
     },
@@ -1112,6 +1115,9 @@
     "clear": {
         "message": "Effacer"
     },
+    "clear_all_tabs": {
+        "message": "Effacer tous les onglets"
+    },
     "clear_browsing_data": {
         "message": "Effacer les données de navigation"
     },
@@ -1132,6 +1138,12 @@
     },
     "clear_search": {
         "message": "Effacer la recherche"
+    },
+    "clear_unselected_tabs": {
+        "message": "Effacer les onglets non sélectionnés"
+    },
+    "cleared_tabs_use_to_undo": {
+        "message": "Onglets effacés. Utilisez %@ pour annuler."
     },
     "click": {
         "message": "Cliquez sur "
@@ -1184,6 +1196,9 @@
     "close_incognito_space": {
         "message": "Fermer l'Espace de navigation privée"
     },
+    "close_ordinary_tabs_that_are_not_currently": {
+        "message": "Fermer les onglets ordinaires qui ne sont pas affichés actuellement. Prend en charge les commandes Annuler et Rétablir."
+    },
     "close_other_tabs": {
         "message": "Fermer les autres onglets"
     },
@@ -1223,8 +1238,32 @@
     "close_tabs": {
         "message": "Fermer les onglets"
     },
+    "close_tabs_above": {
+        "message": "Fermer les onglets au-dessus"
+    },
+    "close_tabs_above_group": {
+        "message": "Fermer les onglets au-dessus du groupe"
+    },
+    "close_tabs_below": {
+        "message": "Fermer les onglets en dessous"
+    },
+    "close_tabs_below_group": {
+        "message": "Fermer les onglets en dessous du groupe"
+    },
+    "close_tabs_by_position": {
+        "message": "Fermer les onglets selon leur position"
+    },
+    "close_tabs_to_the_left": {
+        "message": "Fermer les onglets à gauche"
+    },
+    "close_tabs_to_the_left_of_group": {
+        "message": "Fermer les onglets à gauche du groupe"
+    },
     "close_tabs_to_the_right": {
         "message": "Fermer les onglets à droite"
+    },
+    "close_tabs_to_the_right_of_group": {
+        "message": "Fermer les onglets à droite du groupe"
     },
     "close_tabs_to_the_right_of_the": {
         "message": "Fermer les onglets à droite de l'onglet actuel."
@@ -1954,6 +1993,12 @@
     },
     "done_73789c": {
         "message": "Terminé"
+    },
+    "double_click_a_tab_to_close_it": {
+        "message": "Double-cliquez sur un onglet pour le fermer. En Split View, seul le volet cliqué se ferme. Les onglets épinglés et les favoris conservent leurs actions de double-clic habituelles."
+    },
+    "double_click_to_close_tabs": {
+        "message": "Fermer les onglets par double-clic"
     },
     "download_any_data_export_you_want_to": {
         "message": "Téléchargez les exportations de données que vous souhaitez conserver avant de supprimer votre compte. La suppression annule les exportations en cours et supprime définitivement les fichiers et les liens de téléchargement existants."
@@ -2819,6 +2864,9 @@
     "have_your_ai_assistant_help_you_understand": {
         "message": "Laissez votre assistant IA vous aider à comprendre les petits caractères 👇"
     },
+    "heading": {
+        "message": "en-tête"
+    },
     "help": {
         "message": "Aide"
     },
@@ -3183,7 +3231,7 @@
         "message": "Commencer"
     },
     "lets_agent_tooling_manage_your_own_browsing": {
-        "message": "Permet aux outils d'agents de gérer vos propres données de navigation : Espaces, profils, règles d'URL, onglets épinglés, favoris et disposition des onglets de vos fenêtres. Lorsque cette option est désactivée, les agents ne peuvent travailler que dans leurs propres Espaces d'agent. S'applique immédiatement."
+        "message": "Permet aux outils d'agents de gérer vos propres données de navigation : Espaces, profils, règles d'URL, onglets épinglés, favoris et disposition des onglets de vos fenêtres. Leur permet aussi de lire et de piloter les pages de vos fenêtres visibles. Permet également aux agents d'ouvrir des fenêtres invisibles en arrière-plan qui peuvent utiliser les cookies et les connexions de vos profils : rien à l'écran n'indique qu'elles sont ouvertes, et vous ne pouvez ni les observer ni en prendre le contrôle. Les agents ont aussi besoin de cette option pour demander les mots de passe enregistrés, ce qui requiert votre approbation. Activée par défaut ; lorsqu'elle est désactivée, les agents ne peuvent travailler que dans leurs propres Espaces d'agent. La désactiver refuse immédiatement les nouvelles demandes, mais le travail qu'un agent a déjà en cours peut se poursuivre jusqu'à ce qu'il se termine ou expire."
     },
     "lets_agent_tools_claude_code_codex_drive": {
         "message": "Permet aux outils d'agents (Claude Code, Codex) de piloter Phi via le protocole DevTools par le biais d'un socket privé accessible uniquement aux processus de ce Mac. Chaque agent demande votre autorisation lors de sa première connexion. Désactiver cette option les déconnecte immédiatement ; le prochain agent qui se connecte vous demandera de la réactiver. S'applique immédiatement."
@@ -4316,6 +4364,12 @@
     "phi_link": {
         "message": "Phi Link"
     },
+    "phi_member_card": {
+        "message": "Carte de membre Phi, %@"
+    },
+    "phi_member_card_joined": {
+        "message": "Carte de membre Phi, %1$@, membre depuis %2$@"
+    },
     "phi_needs_full_disk_access_to_import": {
         "message": "Phi a besoin d'un accès complet au disque pour importer vos données depuis Safari."
     },
@@ -4629,6 +4683,9 @@
         "message": "Rouge"
     },
     "redo": {
+        "message": "Rétablir"
+    },
+    "redo_4c507b": {
         "message": "Rétablir"
     },
     "redo_75047e": {
@@ -5720,6 +5777,9 @@
     "supported_profile_preferences": {
         "message": "Préférences de profil prises en charge"
     },
+    "supports_1password_bitwarden_lastpass_enpass": {
+        "message": "%@, compatible avec 1Password, Bitwarden, LastPass, Enpass"
+    },
     "suspicious_download_blocked": {
         "message": "Téléchargement suspect bloqué"
     },
@@ -6282,6 +6342,9 @@
         "message": "Profils du compte non attribués"
     },
     "undo": {
+        "message": "Annuler"
+    },
+    "undo_2bf910": {
         "message": "Annuler"
     },
     "undo_2ca0be": {
