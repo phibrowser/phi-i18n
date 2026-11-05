@@ -1751,6 +1751,10 @@
         "message": "Color appearance",
         "description": "Location: Browser. General settings - Color appearance row title"
     },
+    "color_palette": {
+        "message": "Color palette %d",
+        "description": "Location: Browser. Theme editor - accessible swatch label; placeholder is its one-based position"
+    },
     "com_tinyspeck_slackmacgap": {
         "message": "com.tinyspeck.slackmacgap",
         "description": "Location: Browser. URL rule value placeholder for App match: an example Mac app bundle ID"
@@ -2336,7 +2340,7 @@
         "description": "Location: Browser. Sync setup review - Space field name: overlay opacity in dark appearance"
     },
     "date_joined": {
-        "message": "Date Joined",
+        "message": "Member Since",
         "description": "Location: Browser. Profile membership card - Label above the account creation date"
     },
     "days_ago": {
@@ -2470,6 +2474,10 @@
     "delete_profile_81d915": {
         "message": "Delete profile “%@”?",
         "description": "Location: Browser. Title of the delete-profile confirmation"
+    },
+    "delete_saved_color": {
+        "message": "Delete saved color",
+        "description": "Location: Browser. Theme editor - remove a user-created palette from the saved swatches"
     },
     "delete_selected_bookmarks": {
         "message": "Delete selected bookmarks?",
@@ -2806,6 +2814,10 @@
     "easyprivacy": {
         "message": "EasyPrivacy",
         "description": "Location: Browser. Privacy settings - Name of the EasyPrivacy tracker filter list"
+    },
+    "edge_to_edge_content": {
+        "message": "Edge-to-edge content",
+        "description": "Location: Browser. General settings - Toggle removing outer page margins while keeping the normal Comfortable top layout; full screen also removes rounded corners"
     },
     "edit_043b21": {
         "message": "Edit...",
@@ -4991,6 +5003,10 @@
         "message": "Next",
         "description": "Location: Browser. Onboarding welcome page - Next button to proceed to next step"
     },
+    "next_colors": {
+        "message": "Next colors",
+        "description": "Location: Browser. Theme editor - show the next group of seven color swatches"
+    },
     "next_e0707a": {
         "message": "Next",
         "description": "Location: Browser. OOBE navigation - Button to continue to the next step"
@@ -6027,6 +6043,10 @@
         "message": "Preview attachment",
         "description": "Location: Browser. Feedback form - Tooltip for previewing an attachment"
     },
+    "previous_colors": {
+        "message": "Previous colors",
+        "description": "Location: Browser. Theme editor - show the previous group of seven color swatches"
+    },
     "previous_image": {
         "message": "Previous image",
         "description": "Location: Browser. Image preview: accessibility label for previous image control"
@@ -6351,6 +6371,10 @@
         "message": "Remove from Split",
         "description": "Location: Browser. Tab context menu - Dissolve the split that contains this tab"
     },
+    "remove_margins_around_web_content": {
+        "message": "Remove margins around web content.",
+        "description": "Location: Browser. General settings - Description below the edge-to-edge content toggle"
+    },
     "remove_rule": {
         "message": "Remove rule",
         "description": "Location: Browser. Tooltip for remove-rule button"
@@ -6550,6 +6574,10 @@
     "reset_3828b0": {
         "message": "Reset…",
         "description": "Location: Browser. Sync settings - destructive button on the Reset sync row; opens the delete-all-sync-data confirmation"
+    },
+    "reset_66e88a": {
+        "message": "Reset",
+        "description": "Location: Browser. Theme editor - restore the palette before manual adjustments"
     },
     "reset_sync": {
         "message": "Reset sync",
@@ -6754,6 +6782,10 @@
     "save_c5cc97": {
         "message": "Save",
         "description": "Location: Browser. Editor - Save button title"
+    },
+    "save_color": {
+        "message": "Save color",
+        "description": "Location: Browser. Theme editor - save the current solid or gradient palette as a custom swatch"
     },
     "save_fde76b": {
         "message": "Save",
