@@ -1503,16 +1503,13 @@
         "message": "ログをクリップボードにコピー"
     },
     "mail_guard_about_how": {
-        "message": "メールを開くと、Phiはまずブラウザ内だけで完結する静的チェックを行い、送信者認証、リンク、添付ファイル名などを確認します。その後、Phi AIがそのメールに疑わしい点がないかを判断します。"
+        "message": "メールを開くと、Phiはまずブラウザ内だけで完結する静的チェックを行い、送信者認証、リンク、添付ファイル名などを確認します。その後、Phi AIがチェック結果を参考に、そのメールに疑わしい点がないかを判断します。"
     },
     "mail_guard_about_how_title": {
         "message": "チェックのしかた"
     },
     "mail_guard_about_local": {
         "message": "設定と信頼する送信者は、このデバイスにのみ保存されます。"
-    },
-    "mail_guard_about_local_detection": {
-        "message": "検出の設定は、追加したドメインも含めて、このデバイスにのみ保存されます。設定によってPhi AIに渡される検出事項は変わりますが、送信される内容にあなたに関する情報が加わることはありません。"
     },
     "mail_guard_about_local_landing": {
         "message": "Phiが強く疑っているメールのリンクは、リンク先のページをチェックできるよう、このデバイスに7日間保存されます。"
@@ -1521,7 +1518,7 @@
         "message": "このデバイスに保存されるもの"
     },
     "mail_guard_about_off": {
-        "message": "「$SWITCH$」をオフにすると、件名の横にグレーの盾が残ります。何も表示されないよう完全にオフにするには、Phiの設定でメール保護をオフにしてください。"
+        "message": "何も表示されないよう完全にオフにするには、Phiの設定でメール保護をオフにしてください。"
     },
     "mail_guard_about_off_title": {
         "message": "完全にオフにする"
@@ -1545,7 +1542,7 @@
         "message": "送信されないもの：宛先、同じスレッド内のほかのメール、添付ファイルの中身。添付ファイルが開かれたりダウンロードされたりすることはありません。"
     },
     "mail_guard_about_sent_review": {
-        "message": "詳しい確認が必要な場合：本文全体、送信者の名前とアドレス、リンク、添付ファイル名。"
+        "message": "詳しい確認が必要な場合：本文全体、送信者の名前とアドレス、リンク、添付ファイル名、静的チェックの結果。"
     },
     "mail_guard_about_sent_title": {
         "message": "送信される内容"
@@ -1566,154 +1563,10 @@
         "message": "この送信者を信頼しているため、Phi AIによるチェックは行いませんでした。"
     },
     "mail_guard_ai_unavailable": {
-        "message": "Phi AIはこのメールをチェックできませんでした。これは静的チェックのみの結果です。"
+        "message": "Phi AIはこのメールをチェックできませんでした。"
     },
-    "mail_guard_attachment_archive_description_a": {
-        "message": "このメールには$FILES$が添付されており、Phi AIの読み取りでは、添付ファイルを開くよう促す内容です。圧縮ファイルの中身はメールのスキャンでは確認できないため、有害なファイルは圧縮ファイルに入れて送られることがよくあります。"
-    },
-    "mail_guard_attachment_archive_description_b": {
-        "message": "このメールには$FILES$が添付されています。圧縮ファイルはよく使われ、通常は問題ありませんが、開かないと中身を確認できません。"
-    },
-    "mail_guard_attachment_archive_title_a": {
-        "message": "開くよう促すメールに添付された圧縮ファイル"
-    },
-    "mail_guard_attachment_archive_title_b": {
-        "message": "圧縮ファイルの添付あり"
-    },
-    "mail_guard_attachment_disk_image_description": {
-        "message": "このメールには$FILES$が添付されています。ディスクイメージはドライブとしてマウントされ、中身にはOSの「インターネットからダウンロードされたファイル」という警告が引き継がれません。そのため、プログラムを送り込む手口に使われます。"
-    },
-    "mail_guard_attachment_disk_image_title": {
-        "message": "添付ファイルがディスクイメージ形式"
-    },
-    "mail_guard_attachment_double_extension_description": {
-        "message": "「$FILENAME$」は.$VALUE$ファイルに見せかけていますが、実際の種類は.$VALUE_2$です。名前の途中にある無害そうな拡張子は、誤解させるためのものと考えられます。"
-    },
-    "mail_guard_attachment_double_extension_title": {
-        "message": "添付ファイル名が本当の種類を偽装"
-    },
-    "mail_guard_attachment_executable_description": {
-        "message": "このメールには$FILES$が添付されています。この種類のファイルは、開くとプログラムが実行されます。正規のやり取りで、メールでプログラムが送られてくることはあまりありません。"
-    },
-    "mail_guard_attachment_executable_title": {
-        "message": "添付ファイルが文書ではなくプログラム"
-    },
-    "mail_guard_attachment_executable_with_document_pretext_description": {
-        "message": "メールでは添付ファイルを請求書や配送書類などの通常の書類のように説明していますが、実際のファイルは開くとプログラムが実行されます。書類を装うのは、届くはずのものだと思わせるためによく使われる手口です。"
-    },
-    "mail_guard_attachment_executable_with_document_pretext_title": {
-        "message": "通常の業務書類を装ったプログラムの添付"
-    },
-    "mail_guard_attachment_filename_direction_override_description": {
-        "message": "ファイル名に、一部の表示順を逆にする見えない文字が含まれているため、画面に表示される拡張子は本物ではありません。実際の種類は.$EXTENSION$です。隠れた文字を取り除くと、名前は「$VALUE$」になります。"
-    },
-    "mail_guard_attachment_filename_direction_override_title": {
-        "message": "添付ファイル名に文字の向きを変える文字が混入"
-    },
-    "mail_guard_attachment_filename_hidden_characters_description": {
-        "message": "ファイル名に、画面上で幅を取らない文字が含まれているため、普通に読めてもフィルターが探す名前とは一致しません。実際の種類は.$EXTENSION$です。隠れた文字を取り除くと、名前は「$VALUE$」になります。"
-    },
-    "mail_guard_attachment_filename_hidden_characters_title": {
-        "message": "添付ファイル名に見えない文字が混入"
-    },
-    "mail_guard_attachment_macro_capable_description_a": {
-        "message": "このメールには$FILES$が添付されています。この形式はコードを埋め込むためのもので、マクロを有効にするとそのコードが実行されます。"
-    },
-    "mail_guard_attachment_macro_capable_description_b": {
-        "message": "このメールには$FILES$が添付されています。古いOffice形式にはマクロを埋め込めますが、新しい形式（.docx、.xlsx）では埋め込めません。"
-    },
-    "mail_guard_attachment_macro_capable_title_a": {
-        "message": "添付ファイルがマクロ有効の文書"
-    },
-    "mail_guard_attachment_macro_capable_title_b": {
-        "message": "添付ファイルがマクロを含み得る旧形式のOfficeファイル"
-    },
-    "mail_guard_attachment_none_suspicious_description_many": {
-        "message": "$COUNT$件の添付ファイルはすべて、通常はコードを実行しない種類のファイルです。この拡張機能が添付ファイルの中身を開いたりダウンロードしたりすることはなく、確認したのはファイル名だけです。"
-    },
-    "mail_guard_attachment_none_suspicious_description_one": {
-        "message": "添付ファイルは、通常はコードを実行しない種類のファイルです。この拡張機能が添付ファイルの中身を開いたりダウンロードしたりすることはなく、確認したのはファイル名だけです。"
-    },
-    "mail_guard_attachment_none_suspicious_title": {
-        "message": "不審な添付ファイルなし"
-    },
-    "mail_guard_attachment_script_container_description": {
-        "message": "このメールには$FILES$が添付されています。開くとパソコン内のファイルからページが表示されます。ブロックや削除されるおそれのあるサイトを用意しなくても本物らしいログインフォームを見せられるため、悪用されることがあります。"
-    },
-    "mail_guard_attachment_script_container_title": {
-        "message": "添付ファイルが文書ではなくウェブページ"
-    },
-    "mail_guard_authentication_failure_description": {
-        "message": "Gmailによると、このメールでは$CHECKS$が成功しませんでした。つまり、送信サーバーには$DOMAIN$のメールを送る権限がなく、差出人のアドレスが偽造されている可能性があります。"
-    },
-    "mail_guard_authentication_failure_description_no_domain": {
-        "message": "Gmailによると、このメールでは$CHECKS$が成功しませんでした。つまり、送信サーバーには送信者のドメインのメールを送る権限がなく、差出人のアドレスが偽造されている可能性があります。"
-    },
-    "mail_guard_authentication_failure_title": {
-        "message": "送信者認証に失敗"
-    },
-    "mail_guard_authentication_gmail_warning_description": {
-        "message": "Gmailが自身の画面でこのメールに警告を表示しました。Gmailは評判データやアカウントの履歴など、この拡張機能にはできない確認も行うため、その警告は独立した裏付けになります。"
-    },
-    "mail_guard_authentication_gmail_warning_title": {
-        "message": "Gmailがこのメールに独自の警告を表示"
-    },
-    "mail_guard_authentication_partial_failure_description": {
-        "message": "Gmailによると、$CHECKS$は成功しませんでしたが、DMARCは成功しました。DMARCが成功したということは、このメールは$DOMAIN$と結び付いていると考えられます。それでも1つだけ失敗している場合は、配信経路に転送サービスやメーリングリストが入っているのが一般的です。"
-    },
-    "mail_guard_authentication_partial_failure_description_no_domain": {
-        "message": "Gmailによると、$CHECKS$は成功しませんでしたが、DMARCは成功しました。DMARCが成功したということは、このメールは送信者のドメインと結び付いていると考えられます。それでも1つだけ失敗している場合は、配信経路に転送サービスやメーリングリストが入っているのが一般的です。"
-    },
-    "mail_guard_authentication_partial_failure_title": {
-        "message": "認証チェックの1つは失敗、DMARCは成功"
-    },
-    "mail_guard_authentication_passed_description": {
-        "message": "$DOMAIN$について$CHECKS$を確認できました。これは、このメールがそのドメインから送信されたことを示していますが、そのドメインが名乗るとおりの相手のものであることまでは示しません。"
-    },
-    "mail_guard_authentication_passed_description_no_domain": {
-        "message": "送信元のドメインについて$CHECKS$を確認できました。これは、このメールがそのドメインから送信されたことを示していますが、そのドメインが名乗るとおりの相手のものであることまでは示しません。"
-    },
-    "mail_guard_authentication_passed_title": {
-        "message": "送信者認証に成功（$VALUE$）"
-    },
-    "mail_guard_authentication_signing_domain_mismatch_description": {
-        "message": "このメールの電子署名は$SENDER$ではなく$SIGNER$によるものです。メールプロバイダーやマーケティングプラットフォームは顧客に代わって署名することがあるため、これだけでは判断できません。"
-    },
-    "mail_guard_authentication_signing_domain_mismatch_description_brand": {
-        "message": "このメールの電子署名は$SENDER$ではなく$SIGNER$によるものです。メールプロバイダーやマーケティングプラットフォームは顧客に代わって署名することがあるため、これだけでは判断できませんが、$BRAND$を名乗るメールであれば、通常はその組織が署名します。"
-    },
-    "mail_guard_authentication_signing_domain_mismatch_title": {
-        "message": "送信者と無関係なドメインによる署名"
-    },
-    "mail_guard_authentication_unverified_sender_description": {
-        "message": "Gmailでは、このメールは未確認の送信者からのものと表示されており、$DOMAIN$が送信を許可したことを確認できませんでした。"
-    },
-    "mail_guard_authentication_unverified_sender_description_no_domain": {
-        "message": "Gmailでは、このメールは未確認の送信者からのものと表示されており、送信元のドメインが送信を許可したことを確認できませんでした。"
-    },
-    "mail_guard_authentication_unverified_sender_title": {
-        "message": "Gmailでは送信者が名乗るとおりの相手か未確認"
-    },
-    "mail_guard_authentication_via_unrelated_host_description_a": {
-        "message": "Gmailでは、このメールは$SENDER_REGISTRABLE$から直接ではなく、$VIA_REGISTRABLE$経由で送信されたと表示されています。このメールは$LABEL$を名乗っていますが、その組織が$VIA_REGISTRABLE$を通してメールを送ることは確認されていません。"
-    },
-    "mail_guard_authentication_via_unrelated_host_description_b": {
-        "message": "Gmailでは、このメールは$SENDER_REGISTRABLE$から直接ではなく、$VIA_REGISTRABLE$経由で送信されたと表示されています。通知サービスやヘルプデスク、メーリングリストなど、外部サービスを通したメールは通常このように表示されます。参考情報として表示しており、判定には影響しません。"
-    },
-    "mail_guard_authentication_via_unrelated_host_description_c": {
-        "message": "Gmailでは、このメールは$VIA_REGISTRABLE$（あなたの組織のドメイン）経由で送信されたと表示されています。グループや共有メールボックスが転送したもので、差出人にはもとの送信者ではなくグループのアドレスが表示されます。参考情報として表示しており、判定には影響しません。"
-    },
-    "mail_guard_authentication_via_unrelated_host_title_a": {
-        "message": "送信者が使うとは確認されていないサービスを経由して配信"
-    },
-    "mail_guard_authentication_via_unrelated_host_title_b": {
-        "message": "別のサービスを経由して配信"
-    },
-    "mail_guard_authentication_via_unrelated_host_title_c": {
-        "message": "あなたの組織を経由して配信"
-    },
-    "mail_guard_badge_checking": {
-        "message": "詳しく確認しています"
+    "mail_guard_badge_entry": {
+        "message": "メール保護"
     },
     "mail_guard_badge_label": {
         "message": "メール保護：$LEVEL$。詳細を表示"
@@ -1732,402 +1585,6 @@
     },
     "mail_guard_checked_latest": {
         "message": "最新のメール（送信者：$SENDER$）をチェックしました。"
-    },
-    "mail_guard_checks_always": {
-        "message": "常に警告"
-    },
-    "mail_guard_checks_always_hint": {
-        "message": "コードを実行できる添付ファイルや種類を隠した添付ファイル、プログラムを起動するリンク、自分のドメインややり取りの相手に似せたもの。Phi AIでは判断できないため、常にオンのままです。"
-    },
-    "mail_guard_checks_ask_attachments": {
-        "message": "ファイルがデバイスに害を及ぼす可能性はありますか？"
-    },
-    "mail_guard_checks_ask_authentication": {
-        "message": "メールプロバイダーは送信元を検証しましたか？"
-    },
-    "mail_guard_checks_ask_identity": {
-        "message": "送信者は名乗っているとおりの相手ですか？"
-    },
-    "mail_guard_checks_ask_links": {
-        "message": "リンクは表示どおりの場所に移動しますか？"
-    },
-    "mail_guard_checks_ask_thread": {
-        "message": "やり取りの途中で相手が変わっていませんか？"
-    },
-    "mail_guard_checks_find_attachments_1": {
-        "message": ".zipなどの圧縮ファイル"
-    },
-    "mail_guard_checks_find_attachments_2": {
-        "message": "マクロ付きのOfficeファイル"
-    },
-    "mail_guard_checks_find_attachments_3": {
-        "message": "ディスクイメージとスクリプトファイル"
-    },
-    "mail_guard_checks_find_authentication_1": {
-        "message": "SPF、DKIM、DMARCの失敗（メールが名乗るドメインから本当に送られたことを証明するチェック）"
-    },
-    "mail_guard_checks_find_authentication_2": {
-        "message": "送信者と無関係なドメインによる署名"
-    },
-    "mail_guard_checks_find_identity_1": {
-        "message": "名前は「PayPal」なのに、アドレスは別のドメイン"
-    },
-    "mail_guard_checks_find_identity_2": {
-        "message": "実在する企業と1文字違いのドメイン"
-    },
-    "mail_guard_checks_find_identity_3": {
-        "message": "使い捨てメールボックスや、別のアドレスに届く返信"
-    },
-    "mail_guard_checks_find_links_1": {
-        "message": "表示とは別のサイトを開くテキスト"
-    },
-    "mail_guard_checks_find_links_2": {
-        "message": "移動先を隠す短縮リンク"
-    },
-    "mail_guard_checks_find_links_3": {
-        "message": "暗号化されていないログインページや、公開ファイルホスティングサイト上のログインページ"
-    },
-    "mail_guard_checks_find_thread_1": {
-        "message": "やり取りの別の参加者によく似たアドレス"
-    },
-    "mail_guard_checks_find_thread_2": {
-        "message": "同じ人の名前なのに別のアドレス"
-    },
-    "mail_guard_checks_flags_attachments": {
-        "message": "同僚が圧縮ファイルやマクロ付きのブックを共有したとき。"
-    },
-    "mail_guard_checks_flags_authentication": {
-        "message": "転送やメーリングリストを経由して届いたために、これらのチェックが失敗したとき。"
-    },
-    "mail_guard_checks_flags_identity": {
-        "message": "企業がパートナーのドメインや新しいドメインから送信しているとき。"
-    },
-    "mail_guard_checks_flags_label": {
-        "message": "本物のメールを誤って検出することがあるケース："
-    },
-    "mail_guard_checks_flags_links": {
-        "message": "ニュースレターのリンクがクリック計測サービスを経由しているとき。"
-    },
-    "mail_guard_checks_flags_thread": {
-        "message": "相手が新しいアドレスから書き始めたとき。"
-    },
-    "mail_guard_checks_group_attachments": {
-        "message": "添付ファイル"
-    },
-    "mail_guard_checks_group_authentication": {
-        "message": "送信者の検証"
-    },
-    "mail_guard_checks_group_identity": {
-        "message": "送信者の身元"
-    },
-    "mail_guard_checks_group_links": {
-        "message": "リンク"
-    },
-    "mail_guard_checks_group_thread": {
-        "message": "やり取り"
-    },
-    "mail_guard_checks_intro": {
-        "message": "このデバイス上で動作するルールで、メールの作り（送信者、リンクの移動先、添付ファイル）を確認します。各グループをどの程度重視するかを選べます。"
-    },
-    "mail_guard_checks_less": {
-        "message": "詳細を隠す"
-    },
-    "mail_guard_checks_mode_list": {
-        "message": "表示のみ"
-    },
-    "mail_guard_checks_mode_list_hint": {
-        "message": "検出事項は引き続き表示され、Phi AIも考慮に入れますが、それだけでレベルが上がることはありません。"
-    },
-    "mail_guard_checks_mode_off": {
-        "message": "オフ"
-    },
-    "mail_guard_checks_mode_off_hint": {
-        "message": "チェックしません。これらの検出事項は表示されず、Phi AIにも渡されません。"
-    },
-    "mail_guard_checks_mode_raise": {
-        "message": "レベルに反映"
-    },
-    "mail_guard_checks_mode_raise_hint": {
-        "message": "検出事項によってメールが「不審」や「高リスク」になることがあります。Phi AIの詳しい確認で別の判断が出るまで、そのレベルが表示されます。"
-    },
-    "mail_guard_checks_more": {
-        "message": "確認する内容"
-    },
-    "mail_guard_checks_one_company": {
-        "message": "特定の企業のメールで誤検出が続く場合は、グループ全体の設定を下げるのではなく、そのドメインを$DOMAINS$に追加してください。"
-    },
-    "mail_guard_detection_add": {
-        "message": "追加"
-    },
-    "mail_guard_detection_add_domain": {
-        "message": "ドメインを追加"
-    },
-    "mail_guard_detection_checks": {
-        "message": "静的チェック"
-    },
-    "mail_guard_detection_checks_custom": {
-        "message": "カスタム"
-    },
-    "mail_guard_detection_checks_default": {
-        "message": "デフォルト"
-    },
-    "mail_guard_detection_domains": {
-        "message": "知っているドメイン"
-    },
-    "mail_guard_detection_organization": {
-        "message": "自分の組織のドメイン"
-    },
-    "mail_guard_detection_organization_hint": {
-        "message": "これらのドメインに似せたアドレスからのメールには警告を表示します。このデバイスに保存されます。"
-    },
-    "mail_guard_detection_reset": {
-        "message": "デフォルトに戻す"
-    },
-    "mail_guard_detection_sensitivity": {
-        "message": "警告の出しやすさ"
-    },
-    "mail_guard_domains_hint": {
-        "message": "企業が実際に送信やリンクの計測に使っているドメインのうち、Phiが誤って検出してしまうもの。これらのドメインのメールやリンクは、ブランドに似せている、リンクの移動先を隠している、とは報告されなくなります。このデバイスに保存されます。"
-    },
-    "mail_guard_domains_note": {
-        "message": "送信者を信頼するのとは異なります。Phi AIはこれらのドメインのメールも読み、警告することがあります。"
-    },
-    "mail_guard_domains_refused_format": {
-        "message": "example.comのような形式でドメインを入力してください。"
-    },
-    "mail_guard_domains_refused_full": {
-        "message": "追加できるドメインは最大50件です。"
-    },
-    "mail_guard_domains_refused_shared": {
-        "message": "このドメインは多くの人が使っているため、追加できません。"
-    },
-    "mail_guard_evidence_reply_to": {
-        "message": "差出人：$FROM$ → 返信先：$REPLY_TO$"
-    },
-    "mail_guard_evidence_shown_actual": {
-        "message": "表示：$SHOWN$ → 実際：$ACTUAL$"
-    },
-    "mail_guard_evidence_shown_via": {
-        "message": "表示：$SHOWN$ → 経由：$VIA$"
-    },
-    "mail_guard_evidence_signed_by": {
-        "message": "差出人：$FROM$ · 署名元：$SIGNER$"
-    },
-    "mail_guard_identity_alert_named_shared_item_description": {
-        "message": "件名「$VALUE$」は、アカウントのアラートのような名前（「$VALUE_2$」）を付けたファイルの共有です。銀行やサービス事業者が、セキュリティアラートを共有ファイルで送ることはまれです。ファイルにこうした名前を付けると、共有サービスが本物のリンクと本物のアドレスで偽のアラートを届けることになりかねません。"
-    },
-    "mail_guard_identity_alert_named_shared_item_title": {
-        "message": "アカウントのセキュリティアラートを装った名前の共有ファイル"
-    },
-    "mail_guard_identity_brand_domain_in_subdomain_description": {
-        "message": "アドレスは一見$LABEL$のものに見えますが、「$DOMAIN$」はサブドメインにあるだけです。このメールの実際の管理元のドメインは$SENDER_REGISTRABLE$です。"
-    },
-    "mail_guard_identity_brand_domain_in_subdomain_title": {
-        "message": "送信元ドメインが$LABEL$のドメインをサブドメインとして使用"
-    },
-    "mail_guard_identity_brand_named_in_legal_notice_description": {
-        "message": "送信者は$LABEL$に関する法的手続きの管理者を名乗っていますが、送信元の$SENDER_REGISTRABLE$は$LABEL$のドメインとは確認できていません。本物の集団訴訟や和解の通知も請求管理者がこのように送るため、偽の通知もそれをまねています。情報を入力したり請求したりする前に、このメールのリンクではなく、裁判所や報道を通じて和解の公式サイトを探してください。"
-    },
-    "mail_guard_identity_brand_named_in_legal_notice_title": {
-        "message": "送信者名は$LABEL$に言及、ただし$LABEL$からのメールではない可能性"
-    },
-    "mail_guard_identity_display_name_impersonation_description_a": {
-        "message": "送信者は$LABEL$を名乗っていますが、メールは$SENDER_REGISTRABLE$の個人用メールボックスから送信されています。$LABEL$が無料メールサービスから業務メールを送ることは確認されていません。"
-    },
-    "mail_guard_identity_display_name_impersonation_description_b": {
-        "message": "送信者は$LABEL$を名乗っていますが、$SENDER_REGISTRABLE$は$LABEL$のドメインとは確認できていません。"
-    },
-    "mail_guard_identity_display_name_impersonation_title": {
-        "message": "送信者名は$LABEL$、ドメインは無関係の可能性"
-    },
-    "mail_guard_identity_disposable_sender_domain_description": {
-        "message": "$SENDER_REGISTRABLE$は、使い捨ての一時的なメールボックスを提供しています。正規のやり取りがここから送られてくることはまれです。"
-    },
-    "mail_guard_identity_disposable_sender_domain_title": {
-        "message": "送信者が使い捨てメールサービスを使用"
-    },
-    "mail_guard_identity_external_executive_claim_description": {
-        "message": "このメールは役職の高い社員からのように見せていますが、$RECIPIENT_DOMAIN$ではなく$SENDER_REGISTRABLE$から送信されています。個人用メールボックスから経営幹部になりすますのは、請求書詐欺やギフトカード詐欺でよく使われる最初の手口です。"
-    },
-    "mail_guard_identity_external_executive_claim_title": {
-        "message": "社内の経営幹部を名乗りながら、組織外の個人アカウントから送信"
-    },
-    "mail_guard_identity_external_financial_request_description": {
-        "message": "このメールは送金や支払い情報の変更を求めており、$RECIPIENT$ではなく、$SENDER$の個人用メールボックスから送信されています。このような依頼はビジネスメール詐欺によくある手口です。使われているアカウントが実在するため文面がもっともらしく見えることがありますが、その組織のものではない可能性があります。"
-    },
-    "mail_guard_identity_external_financial_request_description_no_recipient": {
-        "message": "このメールは送金や支払い情報の変更を求めており、受信者の組織ではなく、$SENDER$の個人用メールボックスから送信されています。このような依頼はビジネスメール詐欺によくある手口です。使われているアカウントが実在するため文面がもっともらしく見えることがありますが、その組織のものではない可能性があります。"
-    },
-    "mail_guard_identity_external_financial_request_title": {
-        "message": "組織外の個人用メールボックスからの金銭に関する依頼"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_brand": {
-        "message": "送信者は$BRAND$を名乗っていますが、その組織のものとは思えないドメインから送信しており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_brand_domain_in_subdomain": {
-        "message": "送信者は、実在する組織の名前をその組織のものとは思えないドメインに紛れ込ませており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_brand_named_in_legal_notice": {
-        "message": "送信者は、実際には送信元ではない組織の名前を出しており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_display_name_impersonation": {
-        "message": "送信者は、実際には送信元ではない組織を名乗っており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_of_recipient_domain": {
-        "message": "送信者は、あなたのドメインに似せたドメインから送信しており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_lookalike_sender_domain": {
-        "message": "送信者は、実在するドメインに似せたドメインから送信しており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_other": {
-        "message": "送信者は見かけどおりの相手ではない可能性があり、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_own_domain_in_sender_name": {
-        "message": "送信者は、あなたの組織のドメインを名前に使いながら、組織の外から送信しており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_sender_punycode_domain": {
-        "message": "送信者は、見慣れたドメインに見えるよう綴られたラテン文字以外のドメインから送信しており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_description_unsupported_org_claim": {
-        "message": "送信者は、実際には送信元ではない組織を名乗っており、メールではログイン、アカウント情報の確認、認証コードの入力を求めています。この2つが重なるのは、認証情報を盗み取ろうとする手口によくある特徴です。"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_title_a": {
-        "message": "送信者が$BRAND$になりすまして認証情報を要求している可能性"
-    },
-    "mail_guard_identity_impersonation_with_credential_request_title_b": {
-        "message": "送信者が見かけどおりの相手ではない可能性があるうえ、認証情報を要求"
-    },
-    "mail_guard_identity_implausible_local_part_description": {
-        "message": "アドレスの@より前の部分で、同じ文字列が$REPEATS$回繰り返されています。通常、メールボックスにこのような名前は付けません。大量送信で送信元アドレスを水増ししたり変化させたりするためによく使われるパターンです。"
-    },
-    "mail_guard_identity_implausible_local_part_title": {
-        "message": "送信者のアドレスに同じ文字列の繰り返し"
-    },
-    "mail_guard_identity_lookalike_of_recipient_domain_description_a": {
-        "message": "このメールは$SENDER_REGISTRABLE$から送信されています。あなたのドメイン$RECIPIENT_DOMAIN$と見分けがつきませんが、別のドメインで、おそらく別の人が管理しています。社内からのように見えるメールは、信用されやすいものです。"
-    },
-    "mail_guard_identity_lookalike_of_recipient_domain_description_b": {
-        "message": "このメールは、あなたのドメイン$RECIPIENT_DOMAIN$によく似た$SENDER_REGISTRABLE$から送信されています。あなたの組織のものではないようです。"
-    },
-    "mail_guard_identity_lookalike_of_recipient_domain_title": {
-        "message": "送信元ドメインがあなたの組織のドメインに似せている可能性"
-    },
-    "mail_guard_identity_lookalike_sender_domain_description": {
-        "message": "このメールは$SENDER$から送信されています。正規のドメイン$TARGET$にそっくりに作られた偽物のようで、$BRAND$のものではないと考えられます。"
-    },
-    "mail_guard_identity_lookalike_sender_domain_description_confusable": {
-        "message": "このメールは$SENDER$から送信されています。正規のドメイン$TARGET$に、見た目が似た文字を使ってそっくりに作られた偽物のようで、$BRAND$のものではないと考えられます。"
-    },
-    "mail_guard_identity_lookalike_sender_domain_title": {
-        "message": "送信元ドメインが$BRAND_LABEL$に似せている可能性"
-    },
-    "mail_guard_identity_malformed_sender_domain_description": {
-        "message": "送信元ドメイン「$DOMAIN$」は、有効な公開ホスト名ではありません。"
-    },
-    "mail_guard_identity_malformed_sender_domain_title": {
-        "message": "送信元ドメインが不正な形式"
-    },
-    "mail_guard_identity_nonexistent_sender_tld_description": {
-        "message": "このメールは$DOMAIN$から届いたことになっていますが、「.$TLD$」は誰にも割り当てられたことがありません。その下にドメインを登録することも名前解決することもできないため、返信は届かず、送信者を特定する手がかりにもなりません。このような差出人（From）アドレスは、入力ミスではなく、意図的に作られた可能性が高いです。"
-    },
-    "mail_guard_identity_nonexistent_sender_tld_title": {
-        "message": "送信元ドメインの末尾が実在しないトップレベルドメイン「.$TLD$」"
-    },
-    "mail_guard_identity_private_use_sender_tld_description": {
-        "message": "「.$TLD$」はプライベートネットワーク用に予約されており、意図的に公開インターネットには登録されていません。そのため$DOMAIN$は確認できず、返信しても届きません。社内システムが実在のドメインではなくローカルのホスト名で送ったものであることが多いものの、この送信者については何も確認できないということでもあります。"
-    },
-    "mail_guard_identity_private_use_sender_tld_title": {
-        "message": "送信元ドメインの末尾が公開ドメインではない「.$TLD$」"
-    },
-    "mail_guard_identity_randomised_address_case_description": {
-        "message": "アドレスの単語の中で大文字と小文字が交互に入れ替わっています（$VALUE$）。メールシステムはアドレスの大文字と小文字を区別しないため、配信には影響しません。送信のたびにアドレスを変え、文字列が完全一致するフィルターをすり抜けるために使われるのが一般的です。"
-    },
-    "mail_guard_identity_randomised_address_case_title": {
-        "message": "送信者のアドレスで大文字と小文字が不規則に混在"
-    },
-    "mail_guard_identity_reply_to_mismatch_description_a": {
-        "message": "メールは$SENDER_REGISTRABLE$から届いたように見えますが、返信先は$REPLY_TO_REGISTRABLE$の個人用メールボックスになっています。ビジネスメール詐欺でよく見られるパターンです。"
-    },
-    "mail_guard_identity_reply_to_mismatch_description_b": {
-        "message": "差出人（From）のアドレスは$SENDER_REGISTRABLE$ですが、返信先（Reply-To）は$REPLY_TO_REGISTRABLE$のため、返信しても見かけの送信者には届きません。"
-    },
-    "mail_guard_identity_reply_to_mismatch_title": {
-        "message": "返信先が送信者とは別のドメイン"
-    },
-    "mail_guard_identity_sender_deep_subdomain_description": {
-        "message": "送信者のホスト名は、$REGISTRABLE$の下にサブドメインが$LENGTH$階層あります。階層を深くして、よく知られた単語をアドレスの見える部分に入れる手口に使われることがあります。"
-    },
-    "mail_guard_identity_sender_deep_subdomain_title": {
-        "message": "送信元ドメインのサブドメインが不自然に深い構造"
-    },
-    "mail_guard_identity_sender_invisible_characters_description": {
-        "message": "送信者の名前またはアドレスに、幅のない文字や文字の向きを変える文字が含まれています。これらは表示されず、アドレスの本当の姿を隠すために使われることがあります。"
-    },
-    "mail_guard_identity_sender_invisible_characters_title": {
-        "message": "送信者名に見えない文字や文字の向きを変える文字が混入"
-    },
-    "mail_guard_identity_sender_ip_domain_description": {
-        "message": "送信者のアドレスは、ドメイン名ではなく$DOMAIN$というホストそのものを指しています。正規の組織は、ほとんどの場合、IPアドレスそのものではなく、名前のあるドメインからメールを送ります。"
-    },
-    "mail_guard_identity_sender_ip_domain_title": {
-        "message": "送信者のアドレスにドメインではなくIPアドレスを使用"
-    },
-    "mail_guard_identity_sender_punycode_domain_description": {
-        "message": "送信元ドメインの$DOMAIN$は「$RENDERED$」と表示されます。国際化ドメイン自体は正当なものですが、見慣れた名前をまねる定番の方法でもあります。"
-    },
-    "mail_guard_identity_sender_punycode_domain_description_mixed": {
-        "message": "送信元ドメインは「$RENDERED$」と表示されますが、実際は$DOMAIN$です。複数の文字体系（$SCRIPTS$）の文字が混ざっており、見慣れたドメインに見せかけながら、まったく別のドメインにする手口です。"
-    },
-    "mail_guard_identity_sender_punycode_domain_title": {
-        "message": "送信元ドメインが国際化ドメイン名（Punycode）を使用"
-    },
-    "mail_guard_identity_styled_display_name_description": {
-        "message": "名前「$SENDER_NAME$」は通常の文字で書かれていません。Unicodeの数学用英数字記号の文字が使われており、太字や斜体のように見えますが、内部では別の文字です。そのため読む分には普通に見えても、名前を一覧と照合するシステムには一致しません。チェックを逃れる目的以外で、送信者名をこのように書くことはまれです。"
-    },
-    "mail_guard_identity_styled_display_name_title": {
-        "message": "送信者名が装飾文字で表記"
-    },
-    "mail_guard_identity_thread_lookalike_participant_description_confusable": {
-        "message": "このやり取りの以前のメールは$EARLIER$から届いていました。今回のメールは$SENDER$から送信されており、見た目がそっくりになるよう文字が選ばれていますが、別のドメインで、おそらく別の人が管理しています。返信したり、ここにある指示に従ったりすると、相手を間違えるおそれがあります。"
-    },
-    "mail_guard_identity_thread_lookalike_participant_description_many": {
-        "message": "このやり取りの以前のメールは$EARLIER$から届いていました。今回のメールは$SENDER$から送信されており、$COUNT$文字違う別のドメインです。返信する前に、やり取りの以前のメールと送信者を見比べてください。"
-    },
-    "mail_guard_identity_thread_lookalike_participant_description_one": {
-        "message": "このやり取りの以前のメールは$EARLIER$から届いていました。今回のメールは$SENDER$から送信されており、1文字だけ違う別のドメインです。返信する前に、やり取りの以前のメールと送信者を見比べてください。"
-    },
-    "mail_guard_identity_thread_lookalike_participant_title": {
-        "message": "送信元ドメインがこのやり取りの別の参加者に似せている可能性"
-    },
-    "mail_guard_identity_thread_participant_name_reuse_description": {
-        "message": "「$SENDER_NAME$」はこのやり取りにすでに$EMAIL$として登場していますが、このメールは別のドメインの$SENDER_EMAIL$から送信されています。メールソフトは名前を表示してアドレスを隠すため、名前をそのままにメールボックスだけ変えた返信は、同じ人からのように見えます。"
-    },
-    "mail_guard_identity_thread_participant_name_reuse_title": {
-        "message": "別のアドレスから参加者の名前を使って送信"
-    },
-    "mail_guard_identity_unparseable_sender_description": {
-        "message": "送信者のアドレス「$SENDER_EMAIL$」は、正しい形式のメールアドレスではありません。"
-    },
-    "mail_guard_identity_unparseable_sender_title": {
-        "message": "送信者のアドレスが解析できない形式"
-    },
-    "mail_guard_identity_unsupported_org_claim_description_a": {
-        "message": "このメールは「$SENDER_NAME$」を名乗っていますが、$SENDER_REGISTRABLE$の個人用メールボックスから送信されています。銀行、保険会社、決済事業者が無料メールサービスからメールを送ることはまれです。"
-    },
-    "mail_guard_identity_unsupported_org_claim_description_b": {
-        "message": "このメールは「$SENDER_NAME$」を名乗っていますが、送信元は名前に共通点のない$SENDER_REGISTRABLE$です。正規の組織は、たいてい自社のものと分かるドメインから送信します。"
-    },
-    "mail_guard_identity_unsupported_org_claim_title_a": {
-        "message": "金融機関を名乗りながら、個人用メールボックスから送信"
-    },
-    "mail_guard_identity_unsupported_org_claim_title_b": {
-        "message": "送信者名の組織が送信元ドメインと無関係"
-    },
-    "mail_guard_identity_unverified_brand_domain_description": {
-        "message": "このメールは$SENDER_REGISTRABLE$から送信されています。$LABEL$の名前を含むドメインですが、末尾がこの形のドメインを$LABEL$が使っているという記録はありません。大きな組織は販売する国ごとに同じ名前を使うため本物の可能性もありますが、ブランド名を含むドメインを第三者が登録した可能性もあります。メールの内容に従う前に、$LABEL$から普段届くメールのアドレスと見比べてください。"
-    },
-    "mail_guard_identity_unverified_brand_domain_title": {
-        "message": "$SENDER_REGISTRABLE$が$LABEL$のものかは未確認"
     },
     "mail_guard_landing_ask_card": {
         "message": "カード情報"
@@ -2213,15 +1670,6 @@
     "mail_guard_level_low_line": {
         "message": "リスクは低いと判断しています。"
     },
-    "mail_guard_level_maybe_caution": {
-        "message": "注意（暫定）"
-    },
-    "mail_guard_level_maybe_high_risk": {
-        "message": "高リスク（暫定）"
-    },
-    "mail_guard_level_maybe_suspicious": {
-        "message": "不審（暫定）"
-    },
     "mail_guard_level_not_checked": {
         "message": "未チェック"
     },
@@ -2240,9 +1688,6 @@
     "mail_guard_line_fatal": {
         "message": "この添付ファイルやリンクはそれ自体が害を及ぼす可能性があり、Phi AIでは判断できません。開かないでください。"
     },
-    "mail_guard_line_ordinary": {
-        "message": "Phi AIはリスクは低いと判断していますが、下の静的チェックの検出事項も確認しておくと安心です。"
-    },
     "mail_guard_line_ordinary_clear": {
         "message": "Phi AIはリスクは低いと判断しています。"
     },
@@ -2254,234 +1699,6 @@
     },
     "mail_guard_line_unconfirmed": {
         "message": "Phi AIはリスクを否定できませんでした。慎重に扱ってください。"
-    },
-    "mail_guard_link_anchor_brand_mismatch_description": {
-        "message": "リンクのテキストは$LABEL$を指していますが、実際の移動先は$LABEL$のものとは確認できていない$HOSTNAME$です。"
-    },
-    "mail_guard_link_anchor_brand_mismatch_title": {
-        "message": "$LABEL$と表示されたリンクの移動先が無関係なドメインの可能性"
-    },
-    "mail_guard_link_credential_link_open_hosting_description": {
-        "message": "リンクはログインまたは確認のページに移動しますが、そのページは$VALUE$にあります。誰でもすぐに公開できる場所なので、アドレスからはページの作成者が分かりません。"
-    },
-    "mail_guard_link_credential_link_open_hosting_title": {
-        "message": "ログイン用リンクの移動先が無料のホスティングサービス"
-    },
-    "mail_guard_link_credential_link_unrelated_domain_description": {
-        "message": "このメールは$LABEL$を名乗り、リンクはログインまたは確認のページに移動しますが、そのページは$REGISTRABLE$にあります。そこで入力した認証情報は、そのドメインを管理する人に渡ってしまいます。"
-    },
-    "mail_guard_link_credential_link_unrelated_domain_title": {
-        "message": "$LABEL$のログイン用リンクの移動先が、$LABEL$のものとは確認できていないドメイン"
-    },
-    "mail_guard_link_dangerous_scheme_description": {
-        "message": "リンクがhttpやhttpsではなく「$SCHEME$」を使っています。このようなスキームは、ウェブページを読み込むのではなく、コードを実行したりパソコン内のリソースを開いたりするもので、メールのリンクに使う正当な理由はまずありません。"
-    },
-    "mail_guard_link_dangerous_scheme_title": {
-        "message": "リンクが$SCHEME$スキームを使用"
-    },
-    "mail_guard_link_displayed_url_mismatch_description": {
-        "message": "リンクは$LABEL$のものである「$DISPLAYED_HOST$」と表示されていますが、クリックするとまず、$LABEL$のものとは確認できていない$HOSTNAME$に移動します。最終的な移動先は、$HOSTNAME$を管理する人が決められます。"
-    },
-    "mail_guard_link_displayed_url_mismatch_s2_description_a": {
-        "message": "リンクは「$DISPLAYED_HOST$」と表示されていますが、実際の移動先は$HOSTNAME$です。どちらもすべての登録者を審査するレジストリのドメインなので、見知らぬ第三者ではなく同じ行政機関のものと考えられますが、表示されているアドレスと移動先が違うことに変わりはありません。"
-    },
-    "mail_guard_link_displayed_url_mismatch_s2_description_b": {
-        "message": "リンクは「$DISPLAYED_HOST$」と表示されていますが、実際の移動先はリンクサービスの$HOSTNAME$で、最終的な移動先は見えません。一斉送信メールでは普通に使われる方法ですが、何かを入力する前に、どこにたどり着くか確認してください。"
-    },
-    "mail_guard_link_displayed_url_mismatch_s2_title_a": {
-        "message": "表示されている行政機関のアドレスの移動先が別の行政機関のアドレス"
-    },
-    "mail_guard_link_displayed_url_mismatch_s2_title_b": {
-        "message": "表示されているアドレスがリンクサービスを経由"
-    },
-    "mail_guard_link_displayed_url_mismatch_s3_description": {
-        "message": "リンクは$LABEL$のものである「$DISPLAYED_HOST$」と表示されていますが、クリックすると送信者自身のドメインである$HOSTNAME$に移動し、最終的な移動先はそこで決まります。"
-    },
-    "mail_guard_link_displayed_url_mismatch_s3_title": {
-        "message": "表示されているアドレスが送信者自身のリンクサービスを経由"
-    },
-    "mail_guard_link_displayed_url_mismatch_s4_description": {
-        "message": "リンクは「$DISPLAYED$」と表示されていますが、クリックすると$DESTINATION$に移動します。"
-    },
-    "mail_guard_link_displayed_url_mismatch_s4_description_brand": {
-        "message": "リンクは「$DISPLAYED$」と表示されていますが、クリックすると$DESTINATION$に移動します。表示されているアドレスは$BRAND$のものですが、$HOST$が$BRAND$のものとは確認できていません。"
-    },
-    "mail_guard_link_displayed_url_mismatch_s4_title": {
-        "message": "表示されているリンク先と実際の移動先が不一致"
-    },
-    "mail_guard_link_displayed_url_mismatch_title": {
-        "message": "表示されているリンク先へは別のドメインを経由"
-    },
-    "mail_guard_link_echoed_form_link_description": {
-        "message": "これはウェブフォームの自動確認メールのようで、フォームにはあなたのアドレスが入力者として記載されています。「$LABEL$」欄に送信された文面には、$SENDER_REGISTRABLE$ではない$HOSTNAME$へのリンクがあります。スパム送信者は、他人のアドレスを企業の問い合わせフォームに入力し、その企業のメールサーバーに自分のリンクを配信させます。送信者は本物ですが、書かれている言葉はその企業のものではない可能性が高いです。このフォームを入力した覚えがなければ、内容はその企業から出たものではないと考えられます。"
-    },
-    "mail_guard_link_echoed_form_link_title": {
-        "message": "あなたのアドレスで送信されたリンクを含むフォームの確認メール"
-    },
-    "mail_guard_link_excessive_subdomains_description": {
-        "message": "リンクのホストは、$REGISTRABLE$の下にサブドメインが$SUBDOMAIN_LABEL_COUNT$階層あります。長く連なった名前は、アドレスの見える部分を安心できそうな言葉で埋め、本当の管理元のドメインを見えにくくするために使われることがあります。"
-    },
-    "mail_guard_link_excessive_subdomains_title": {
-        "message": "リンクのホストのサブドメインが不自然に深い構造"
-    },
-    "mail_guard_link_fake_attachment_description": {
-        "message": "リンクは添付ファイルのように「$VALUE$」と表示されていますが、実際に開くのは$HOSTNAME$で、そのファイルでも送信者自身のサイトでもありません。本物の添付ファイルはメールに付いているもので、他人のウェブページにあるものではありません。"
-    },
-    "mail_guard_link_fake_attachment_title": {
-        "message": "添付ファイルを装ったリンクの移動先が別の場所のウェブページ"
-    },
-    "mail_guard_link_filename_lookalike_tld_description": {
-        "message": "リンクの移動先は$HOSTNAME$です。「.$TLD$」はよく使われるファイルの拡張子でもあるため、このような文字列はウェブアドレスではなく添付ファイル名と間違えられがちです。"
-    },
-    "mail_guard_link_filename_lookalike_tld_title": {
-        "message": "リンクがファイル名に見えるトップレベルドメイン「.$TLD$」を使用"
-    },
-    "mail_guard_link_ftp_link_description": {
-        "message": "リンクがhttpやhttpsではなく「ftp:」を使っています。ブラウザはFTPを自分では開かなくなったため、クリックするとファイルのダウンロードがブラウザの保護の外にある別のプログラムに渡されます。コードの実行やログインページの表示はできませんが、ダウンロードされるものは添付ファイルと同じように注意してください。"
-    },
-    "mail_guard_link_ftp_link_title": {
-        "message": "リンクがftp:スキームを使用"
-    },
-    "mail_guard_link_insecure_description_a": {
-        "message": "$HOSTNAME$へのリンクはログインページのようですが、暗号化されていないHTTPを使っています。暗号化されていない接続で認証情報を受け付ける正規のサービスはほとんどありません。"
-    },
-    "mail_guard_link_insecure_description_b": {
-        "message": "$HOSTNAME$へのリンクは、HTTPSではなく暗号化されていないHTTPを使っています。"
-    },
-    "mail_guard_link_insecure_title_a": {
-        "message": "ログイン用リンクが暗号化されていないHTTPを使用"
-    },
-    "mail_guard_link_insecure_title_b": {
-        "message": "リンクが暗号化されていないHTTPを使用"
-    },
-    "mail_guard_link_ip_address_url_description_many": {
-        "message": "$COUNT$件のリンクが、ドメイン名ではなくIPアドレスそのもの（$HOST$）に移動します。正規のサービスは通常ホスト名を公開しています。IPアドレスそのままのリンクは、閉鎖される可能性のあるドメインの登録を避けるためによく使われます。"
-    },
-    "mail_guard_link_ip_address_url_description_one": {
-        "message": "リンクの移動先が、ドメイン名ではなくIPアドレスそのもの（$HOST$）です。正規のサービスは通常ホスト名を公開しています。IPアドレスそのままのリンクは、閉鎖される可能性のあるドメインの登録を避けるためによく使われます。"
-    },
-    "mail_guard_link_ip_address_url_title": {
-        "message": "リンクがIPアドレスを直接指定"
-    },
-    "mail_guard_link_ip_named_host_description_many": {
-        "message": "$COUNT$件のリンクが$HOST$に移動します。これは誰かが登録したものではなく、ホスティング事業者が貸し出しサーバーに付ける名前で、IPアドレスそのものの前にドメインを付けたものです。"
-    },
-    "mail_guard_link_ip_named_host_description_one": {
-        "message": "リンクの移動先は$HOST$です。これは誰かが登録したものではなく、ホスティング事業者が貸し出しサーバーに付ける名前で、IPアドレスそのものの前にドメインを付けたものです。"
-    },
-    "mail_guard_link_ip_named_host_title": {
-        "message": "リンクの移動先がIPアドレスを名前にしたサーバー"
-    },
-    "mail_guard_link_link_only_body_description": {
-        "message": "件名は対応を求めています（「$VALUE$」）が、メール本文には読める文字がほとんどなく（$CHARS$文字）、$REGISTRABLE$へのリンクがあるだけです。画像で作られたお知らせは確認できる内容がなく、読まれないようにするための一般的な手口です。"
-    },
-    "mail_guard_link_link_only_body_s2_description": {
-        "message": "メールには読める文字がほとんどなく（$VALUE$文字）、他のドメインへのリンクがあります。情報の少ないメールは、確認できることを書かないようにしています。"
-    },
-    "mail_guard_link_link_only_body_s2_title": {
-        "message": "メール本文がほぼリンクのみ"
-    },
-    "mail_guard_link_link_only_body_title": {
-        "message": "対応を求めながら本文はリンクのみ"
-    },
-    "mail_guard_link_local_file_link_description": {
-        "message": "リンクはホストなしの「file:」形式で、インターネット上ではなく、お使いのパソコン内のパスを指しています。多くの場合、パソコン内のパスがそのまま貼り付けられたもので、外部から何かを取得することはありません。"
-    },
-    "mail_guard_link_local_file_link_title": {
-        "message": "リンクの移動先がお使いのパソコン内のファイル"
-    },
-    "mail_guard_link_lookalike_domain_description": {
-        "message": "リンクの移動先は$REGISTRABLE$で、$TARGET$にそっくりに作られた偽物のようです。$BRAND_LABEL$が運営するものではないと考えられます。"
-    },
-    "mail_guard_link_lookalike_domain_title": {
-        "message": "リンクの移動先が$BRAND_LABEL$に似せている可能性"
-    },
-    "mail_guard_link_malformed_url_description_many": {
-        "message": "$COUNT$件のリンクを有効なウェブアドレスとして解釈できませんでした。メールのひな形の不具合にすぎない可能性もありますが、リンクのチェックを妨げる目的で使われることもあります。"
-    },
-    "mail_guard_link_malformed_url_description_one": {
-        "message": "リンクを有効なウェブアドレスとして解釈できませんでした。メールのひな形の不具合にすぎない可能性もありますが、リンクのチェックを妨げる目的で使われることもあります。"
-    },
-    "mail_guard_link_malformed_url_title": {
-        "message": "メール内に不正な形式のリンク"
-    },
-    "mail_guard_link_misleading_domain_description": {
-        "message": "リンクは一見$LABEL$のものに見えますが、実際の移動先を決めるアドレスの部分は$REGISTRABLE$です。その左側にある「$BEFORE_REGISTRABLE$」などは、$REGISTRABLE$を管理する人が自由に決められます。"
-    },
-    "mail_guard_link_misleading_domain_title": {
-        "message": "無関係なドメインの前に$LABEL$の名前を付けたリンクです"
-    },
-    "mail_guard_link_opaque_redirect_description": {
-        "message": "$HOSTNAME$へのリンクには、移動先が読めないよう符号化されたリダイレクトのパラメーターが含まれています。リダイレクトは、受信者が知っているドメインを通して悪意のある移動先を隠すために使われることがあります。"
-    },
-    "mail_guard_link_opaque_redirect_title": {
-        "message": "移動先を隠したリダイレクト用のリンクです"
-    },
-    "mail_guard_link_page_in_open_storage_description": {
-        "message": "リンクの移動先は、$HOSTING$にファイルとして置かれたウェブページです。このアドレスはストレージ事業者のもので、ページの作成者のものではありません。アカウントがあれば誰でもファイルをアップロードでき、そのドメインから表示されます。本物の組織は通常、自社のサイトでページを公開します。"
-    },
-    "mail_guard_link_page_in_open_storage_description_asking": {
-        "message": "リンクの移動先は、$HOSTING$にファイルとして置かれたウェブページです。このアドレスはストレージ事業者のもので、ページの作成者のものではありません。アカウントがあれば誰でもファイルをアップロードでき、そのドメインから表示されます。本物の組織は通常、自社のサイトでページを公開しますが、このメールはそのページでの操作を求めています。"
-    },
-    "mail_guard_link_page_in_open_storage_title": {
-        "message": "リンクの移動先が公開ホスティングサービスにファイルとして置かれたページ"
-    },
-    "mail_guard_link_private_ip_url_description_many": {
-        "message": "$COUNT$件のリンクが、プライベートネットワークのアドレスである$HOST$に移動します。そのネットワークの内側からしか使えないため、インターネット上のページには移動できません。社内ツールや家庭内の機器にアクセスするときに使われるものです。"
-    },
-    "mail_guard_link_private_ip_url_description_one": {
-        "message": "リンクの移動先は、プライベートネットワークのアドレスである$HOST$です。そのネットワークの内側からしか使えないため、インターネット上のページには移動できません。社内ツールや家庭内の機器にアクセスするときに使われるものです。"
-    },
-    "mail_guard_link_private_ip_url_title": {
-        "message": "リンクの移動先がプライベートネットワークのアドレス"
-    },
-    "mail_guard_link_punycode_domain_description": {
-        "message": "リンクのホストは$HOST$で、「$RENDERED$」と表示されます。国際化ドメイン自体は正当なものですが、見慣れた名前をまねるためによく使われます。"
-    },
-    "mail_guard_link_punycode_domain_description_imitates": {
-        "message": "リンクのホストは$HOST$で、「$RENDERED$」と表示されます。$TARGET$と見分けがつきませんが、まったく別のドメインです。"
-    },
-    "mail_guard_link_punycode_domain_description_mixed": {
-        "message": "リンクのホストは$HOST$で、複数の文字体系（$SCRIPTS$）の文字を使って「$RENDERED$」と表示されます。1つの名前に複数の文字体系が混ざっているのは、本物ではないドメインを本物に見せかける手口です。"
-    },
-    "mail_guard_link_punycode_domain_title": {
-        "message": "リンクが見慣れた文字に見える国際化ドメインを使用"
-    },
-    "mail_guard_link_redirect_chain_description": {
-        "message": "リンクは$ENTRY$から始まり、$EXIT$に転送されます。受信者に見えるドメインは、実際にページを表示するドメインではありません。"
-    },
-    "mail_guard_link_redirect_chain_title": {
-        "message": "リンクが別のドメインを経由して転送"
-    },
-    "mail_guard_link_repeated": {
-        "message": "メール内の$COUNT$件のリンクに当てはまります。"
-    },
-    "mail_guard_link_url_shortener_description_many": {
-        "message": "$COUNT$件のリンクが短縮サービスの$SHORTENER$を使っているため、クリックする前に実際の移動先を確認できません。"
-    },
-    "mail_guard_link_url_shortener_description_many_credential": {
-        "message": "$COUNT$件のリンクが短縮サービスの$SHORTENER$を使っているため、クリックする前に実際の移動先を確認できません。このメールはログインや確認も求めており、そのような場面こそ移動先が隠されていると危険です。"
-    },
-    "mail_guard_link_url_shortener_description_one": {
-        "message": "リンクは短縮サービスの$SHORTENER$を使っているため、クリックする前に実際の移動先を確認できません。"
-    },
-    "mail_guard_link_url_shortener_description_one_credential": {
-        "message": "リンクは短縮サービスの$SHORTENER$を使っているため、クリックする前に実際の移動先を確認できません。このメールはログインや確認も求めており、そのような場面こそ移動先が隠されていると危険です。"
-    },
-    "mail_guard_link_url_shortener_title": {
-        "message": "短縮URLで隠されたリンク"
-    },
-    "mail_guard_list_more": {
-        "message": "ほか$COUNT$件"
-    },
-    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_description": {
-        "message": "送信者名「$SENDER_NAME$」は、このメールがあなたの組織（$RECIPIENT_DOMAIN$）の内部から届いたように見せていますが、実際の送信元は$SENDER_REGISTRABLE$です。社内のIT、メール、人事からのお知らせは、通常あなたの組織のドメインから届きます。"
-    },
-    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_a": {
-        "message": "あなたの組織のドメインを使った送信者名"
-    },
-    "mail_guard_namesdomain_identity_own_domain_in_sender_name_identity_own_department_from_outside_title_b": {
-        "message": "あなたの組織の部署を装った送信者名"
     },
     "mail_guard_panel_ai_review": {
         "message": "Phi AIによる詳しい確認"
@@ -2501,9 +1718,6 @@
     "mail_guard_panel_label": {
         "message": "メール保護"
     },
-    "mail_guard_panel_marketing": {
-        "message": "広告・宣伝"
-    },
     "mail_guard_panel_quick_check": {
         "message": "Phi AIの簡易チェック：$KIND$の可能性"
     },
@@ -2522,9 +1736,6 @@
     "mail_guard_panel_show_more": {
         "message": "さらに表示"
     },
-    "mail_guard_panel_technical": {
-        "message": "静的チェック · $COUNT$"
-    },
     "mail_guard_panel_trust": {
         "message": "この送信者を信頼する"
     },
@@ -2540,47 +1751,14 @@
     "mail_guard_part_subject": {
         "message": "件名"
     },
-    "mail_guard_sensitivity_relaxed": {
-        "message": "緩め"
-    },
-    "mail_guard_sensitivity_relaxed_line": {
-        "message": "Phi AIがほぼ確実だと判断したときだけ警告します。詳しい確認を行うメールが減り、詐欺でもタグだけが付く場合があります。"
-    },
-    "mail_guard_sensitivity_standard": {
-        "message": "標準"
-    },
-    "mail_guard_sensitivity_standard_line": {
-        "message": "Phi AIがリスクを強く疑うときに警告します。その他の兆候には、開いて確認できるタグを表示します。"
-    },
-    "mail_guard_sensitivity_strict": {
-        "message": "厳しめ"
-    },
-    "mail_guard_sensitivity_strict_line": {
-        "message": "リスクの兆候はあるもののPhi AIの確信が低いときにも警告します。詳しい確認を行うメールが増えるため、AIの利用枠をより多く使います。"
-    },
     "mail_guard_settings_about": {
         "message": "メール保護とプライバシーについて"
-    },
-    "mail_guard_settings_detection": {
-        "message": "検出"
     },
     "mail_guard_settings_enabled": {
         "message": "開いたメールをチェック"
     },
     "mail_guard_settings_enabled_hint": {
-        "message": "オフにすると、件名の横にグレーの盾が表示されます。クリックするとチェックを再びオンにできます。"
-    },
-    "mail_guard_settings_highlight": {
-        "message": "不審なリンクを枠で囲む"
-    },
-    "mail_guard_settings_highlight_hint": {
-        "message": "検出事項で指摘されたメール内のリンクを赤い枠で囲みます。"
-    },
-    "mail_guard_settings_low_badge": {
-        "message": "低リスクのメールにもバッジを表示"
-    },
-    "mail_guard_settings_low_badge_hint": {
-        "message": "オフにすると、注意が必要なメールにだけバッジが表示されます。"
+        "message": "メール保護はオフです。ここでオンに戻せます。オンにするとこの行は表示されなくなります。"
     },
     "mail_guard_settings_remove": {
         "message": "$ENTRY$を削除"
@@ -2593,6 +1771,12 @@
     },
     "mail_guard_settings_trusted_empty": {
         "message": "信頼する送信者はまだありません。"
+    },
+    "mail_guard_settings_turn_off": {
+        "message": "メール保護をオフにする"
+    },
+    "mail_guard_settings_turn_off_value": {
+        "message": "Phiの設定"
     },
     "mail_guard_threat_extortion": {
         "message": "脅迫"
