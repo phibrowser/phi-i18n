@@ -1791,6 +1791,10 @@
         "message": "Connect",
         "description": "Location: Browser. AI settings - Button to connect an external data connector"
     },
+    "connect_in_telegram": {
+        "message": "Connect in Telegram",
+        "description": "Location: Browser. Phi Link - Opens a one-time link to authorize the custom bot sender"
+    },
     "connected": {
         "message": "Connected",
         "description": "Location: Browser. AI settings - Badge text when connector is successfully connected"
@@ -5495,6 +5499,10 @@
         "message": "Open tabs in them will close",
         "description": "Location: Browser. Sync setup replace confirmation - caption under the number of Spaces deleted from this Mac"
     },
+    "open_telegram_to_finish_linking": {
+        "message": "Open Telegram to finish linking",
+        "description": "Location: Browser. Phi Link - Custom bot polling is active but sender is not linked"
+    },
     "open_the_bookmark_manager": {
         "message": "Open the bookmark manager.",
         "description": "Location: Browser. Shortcuts settings - Description of the bookmarks command"
@@ -7810,6 +7818,10 @@
     "the_note_is_written_into_the_saved": {
         "message": "The note is written into the saved markdown, under the highlight.",
         "description": "Location: Browser. Folio - Explanatory text of the add-note dialog"
+    },
+    "the_official_telegram_bot_has_been_retired": {
+        "message": "The official Telegram bot has been retired. Please set up and switch to your own bot as soon as possible.",
+        "description": "Location: Browser. Phi Link - Warning for users with an existing official bot binding, asking them to switch to their own bot"
     },
     "the_other_device_denied_this_request": {
         "message": "The other device denied this request.",
