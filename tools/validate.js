@@ -17,7 +17,7 @@ const path = require('path');
 
 const DIR = path.join(__dirname, '..', 'translations');
 const SRC = path.join(__dirname, '..', 'source');
-const LOCALES = ['de', 'es', 'fr', 'ja', 'ko', 'nl', 'zh-Hans', 'zh-Hant'];
+const LOCALES = ['de', 'es', 'fr', 'ja', 'ko', 'nl', 'pt-BR', 'zh-Hans', 'zh-Hant'];
 const KEY_RE = /^[a-z][a-z0-9_]*$/;
 
 // Placeholder syntaxes that can appear in source strings. Native syntax is
