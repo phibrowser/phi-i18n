@@ -65,11 +65,20 @@
     "add_as_new": {
         "message": "加入為新空間"
     },
+    "add_bottom": {
+        "message": "加入下方"
+    },
     "add_bottom_split": {
         "message": "加入下方分割畫面"
     },
     "add_filter": {
         "message": "加入過濾器…"
+    },
+    "add_here": {
+        "message": "加入此處"
+    },
+    "add_left": {
+        "message": "加入左側"
     },
     "add_left_split": {
         "message": "加入左側分割畫面"
@@ -91,6 +100,9 @@
     },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "加入釘選分頁、書籤或資料夾"
+    },
+    "add_right": {
+        "message": "加入右側"
     },
     "add_right_split": {
         "message": "加入右側分割畫面"
@@ -130,6 +142,9 @@
     },
     "add_to_group": {
         "message": "加入群組"
+    },
+    "add_top": {
+        "message": "加入上方"
     },
     "add_top_split": {
         "message": "加入上方分割畫面"
@@ -1202,6 +1217,9 @@
     "close_side_panel": {
         "message": "關閉側邊面板"
     },
+    "close_split": {
+        "message": "關閉分割畫面"
+    },
     "close_tab": {
         "message": "關閉分頁"
     },
@@ -1471,6 +1489,9 @@
     },
     "copy_links": {
         "message": "拷貝所有連結"
+    },
+    "copy_pane_url": {
+        "message": "拷貝第 %d 個窗格的網址"
     },
     "copy_right_url": {
         "message": "拷貝右側網址"
@@ -2033,6 +2054,9 @@
     "drag_to_reorder_space": {
         "message": "拖曳來重新排序空間"
     },
+    "drag_to_rotate_the_conch": {
+        "message": "拖曳來旋轉海螺"
+    },
     "drag_to_select_an_area": {
         "message": "拖曳來選取區域"
     },
@@ -2096,6 +2120,9 @@
     "edit_bookmark": {
         "message": "編輯書籤"
     },
+    "edit_bookmark_9619a3": {
+        "message": "編輯書籤"
+    },
     "edit_folder": {
         "message": "編輯資料夾"
     },
@@ -2112,6 +2139,9 @@
         "message": "編輯釘選分割畫面"
     },
     "edit_pinned_tab": {
+        "message": "編輯釘選分頁"
+    },
+    "edit_pinned_tab_f4679a": {
         "message": "編輯釘選分頁"
     },
     "edit_screenshot": {
@@ -3080,6 +3110,9 @@
     "install_update": {
         "message": "安裝更新"
     },
+    "interactive_3d_conch": {
+        "message": "互動式 3D 海螺"
+    },
     "invalid_image_source": {
         "message": "圖片來源無效"
     },
@@ -3206,22 +3239,13 @@
     "liking_a_youtube_video_or_bookmarking_on": {
         "message": "為 YouTube 影片按讚，或在 X、Reddit 或 Stack Overflow 加入書籤時，也會將該網頁儲存到這裡。所有內容都會留在這部 Mac 上。"
     },
-    "link": {
-        "message": "連結"
-    },
     "link_copied_to_highlight": {
         "message": "已複製醒目顯示文字的連結"
-    },
-    "link_telegram_to_chat_with": {
-        "message": "連結 Telegram 即可與 %@ 對話。"
     },
     "linked": {
         "message": "已連結"
     },
     "linked_9d0bbe": {
-        "message": "已連結"
-    },
-    "linked_fcf352": {
         "message": "已連結"
     },
     "linking": {
@@ -3397,6 +3421,21 @@
     },
     "move_focus_to_the_previous_tab_group": {
         "message": "將焦點移至上一個分頁群組。"
+    },
+    "move_pane": {
+        "message": "移動窗格"
+    },
+    "move_pane_down": {
+        "message": "將窗格向下移動"
+    },
+    "move_pane_left": {
+        "message": "將窗格向左移動"
+    },
+    "move_pane_right": {
+        "message": "將窗格向右移動"
+    },
+    "move_pane_up": {
+        "message": "將窗格向上移動"
     },
     "move_tab_left": {
         "message": "將分頁向左移動"
@@ -3857,9 +3896,6 @@
     "not_downloaded_yet": {
         "message": "尚未下載"
     },
-    "not_linked": {
-        "message": "尚未連結"
-    },
     "not_now": {
         "message": "稍後再說"
     },
@@ -4075,9 +4111,6 @@
     },
     "open_in_new_window": {
         "message": "在新視窗中開啟"
-    },
-    "open_in_telegram": {
-        "message": "在 Telegram 中開啟"
     },
     "open_kiosk_or_peek_in_current_space": {
         "message": "在目前空間開啟 Kiosk 或 Peek"
@@ -4538,9 +4571,6 @@
     "purple": {
         "message": "紫色"
     },
-    "qr_code_expired_generate_a_fresh_one": {
-        "message": "QR code 已過期。請重新產生一個以繼續。"
-    },
     "quit": {
         "message": "結束"
     },
@@ -4613,9 +4643,6 @@
     "refresh": {
         "message": "重新整理"
     },
-    "refresh_cec8b5": {
-        "message": "重新整理"
-    },
     "refresh_connector_status": {
         "message": "重新整理連接器狀態"
     },
@@ -4627,9 +4654,6 @@
     },
     "released_into_a_command": {
         "message": "提供給指令使用"
-    },
-    "relink": {
-        "message": "重新連結"
     },
     "reload_page": {
         "message": "重新載入頁面"
@@ -4787,6 +4811,12 @@
     "replace_right": {
         "message": "取代右側"
     },
+    "replace_saved_url_with_current": {
+        "message": "以目前網址取代已儲存的網址"
+    },
+    "replace_saved_url_with_current_6c46d3": {
+        "message": "以目前網址取代已儲存的網址"
+    },
     "replace_the_existing_skill": {
         "message": "要取代現有的 Skill 嗎？"
     },
@@ -4883,17 +4913,11 @@
     "retry_39f08b": {
         "message": "重試"
     },
-    "retry_5b6d51": {
-        "message": "重試"
-    },
     "retry_67671c": {
         "message": "重試"
     },
     "retry_aefddd": {
         "message": "重試"
-    },
-    "retry_after_phi_sentinel_is_running_normally": {
-        "message": "請在 Phi Sentinel 正常執行後再重試。"
     },
     "retry_setting_up_profiles_for_sync": {
         "message": "重試為設定檔設定同步"
@@ -5026,9 +5050,6 @@
     },
     "scan_failed": {
         "message": "掃描失敗"
-    },
-    "scan_the_qr_code_with_your_phone": {
-        "message": "用手機相機掃描 QR code，或點按下方按鈕，將 Phi Link 機器人加入你的 Telegram"
     },
     "scanning": {
         "message": "掃描中…"
@@ -5193,9 +5214,6 @@
         "message": "伺服器拒絕了變更"
     },
     "service_issue": {
-        "message": "服務異常"
-    },
-    "service_issue_be3112": {
         "message": "服務異常"
     },
     "session_timeout": {
@@ -5759,6 +5777,9 @@
     "tab_search": {
         "message": "搜尋分頁"
     },
+    "tab_switcher_includes_all_spaces": {
+        "message": "分頁切換器包含所有空間"
+    },
     "tab_to_search": {
         "message": "按 Tab 鍵搜尋 %@"
     },
@@ -5896,6 +5917,12 @@
     },
     "the_sync_service_returned_an_error": {
         "message": "同步服務回傳了錯誤。"
+    },
+    "the_tab_switcher_cycles_through_recent_tabs": {
+        "message": "分頁切換器會循環切換所有空間中最近使用的分頁，並在需要時切換空間。"
+    },
+    "the_tab_switcher_cycles_through_recent_tabs_d92af4": {
+        "message": "分頁切換器會循環切換目前空間中最近使用的分頁。"
     },
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "時光機備份的刪除作業已中斷。"
@@ -6475,9 +6502,6 @@
     },
     "we_need_to_refresh_your_session_before": {
         "message": "我們需要先更新你的工作階段，帳號功能才能繼續運作。請重新登入。"
-    },
-    "we_provide_a_telegram_bot_to_relay": {
-        "message": "我們提供 Telegram 機器人 @philink_bot 來轉送你的訊息"
     },
     "we_re_preparing_your_data_export_we": {
         "message": "我們正在準備你的資料匯出。完成後會以電子郵件寄送下載連結給你。連結的有效期限為七天。"

@@ -65,11 +65,20 @@
     "add_as_new": {
         "message": "새로 추가"
     },
+    "add_bottom": {
+        "message": "아래쪽 추가"
+    },
     "add_bottom_split": {
         "message": "아래쪽 분할 추가"
     },
     "add_filter": {
         "message": "필터 추가…"
+    },
+    "add_here": {
+        "message": "여기에 추가"
+    },
+    "add_left": {
+        "message": "왼쪽 추가"
     },
     "add_left_split": {
         "message": "왼쪽 분할 추가"
@@ -91,6 +100,9 @@
     },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "고정 탭, 북마크 또는 폴더 추가"
+    },
+    "add_right": {
+        "message": "오른쪽 추가"
     },
     "add_right_split": {
         "message": "오른쪽 분할 추가"
@@ -130,6 +142,9 @@
     },
     "add_to_group": {
         "message": "그룹에 추가"
+    },
+    "add_top": {
+        "message": "위쪽 추가"
     },
     "add_top_split": {
         "message": "위쪽 분할 추가"
@@ -1202,6 +1217,9 @@
     "close_side_panel": {
         "message": "측면 패널 닫기"
     },
+    "close_split": {
+        "message": "분할 닫기"
+    },
     "close_tab": {
         "message": "탭 닫기"
     },
@@ -1471,6 +1489,9 @@
     },
     "copy_links": {
         "message": "링크 복사"
+    },
+    "copy_pane_url": {
+        "message": "%d번째 패널 URL 복사"
     },
     "copy_right_url": {
         "message": "오른쪽 URL 복사"
@@ -2033,6 +2054,9 @@
     "drag_to_reorder_space": {
         "message": "드래그하여 스페이스 순서 변경"
     },
+    "drag_to_rotate_the_conch": {
+        "message": "드래그하여 소라 회전"
+    },
     "drag_to_select_an_area": {
         "message": "드래그하여 영역 선택"
     },
@@ -2096,6 +2120,9 @@
     "edit_bookmark": {
         "message": "북마크 편집"
     },
+    "edit_bookmark_9619a3": {
+        "message": "북마크 편집"
+    },
     "edit_folder": {
         "message": "폴더 편집"
     },
@@ -2112,6 +2139,9 @@
         "message": "고정 분할 편집"
     },
     "edit_pinned_tab": {
+        "message": "고정 탭 편집"
+    },
+    "edit_pinned_tab_f4679a": {
         "message": "고정 탭 편집"
     },
     "edit_screenshot": {
@@ -3080,6 +3110,9 @@
     "install_update": {
         "message": "업데이트 설치"
     },
+    "interactive_3d_conch": {
+        "message": "대화형 3D 소라"
+    },
     "invalid_image_source": {
         "message": "잘못된 이미지 소스"
     },
@@ -3206,22 +3239,13 @@
     "liking_a_youtube_video_or_bookmarking_on": {
         "message": "YouTube 영상에 좋아요를 누르거나 X, Reddit, Stack Overflow에서 북마크하면 그 페이지도 여기에 저장돼요. 모든 데이터는 이 Mac에만 보관돼요."
     },
-    "link": {
-        "message": "연결"
-    },
     "link_copied_to_highlight": {
         "message": "하이라이트 링크가 복사됐어요"
-    },
-    "link_telegram_to_chat_with": {
-        "message": "%@와(과) 대화하려면 Telegram을 연결하세요."
     },
     "linked": {
         "message": "연결됨"
     },
     "linked_9d0bbe": {
-        "message": "연결됨"
-    },
-    "linked_fcf352": {
         "message": "연결됨"
     },
     "linking": {
@@ -3397,6 +3421,21 @@
     },
     "move_focus_to_the_previous_tab_group": {
         "message": "이전 탭 그룹으로 포커스를 이동해요."
+    },
+    "move_pane": {
+        "message": "패널 이동"
+    },
+    "move_pane_down": {
+        "message": "패널 아래로 이동"
+    },
+    "move_pane_left": {
+        "message": "패널 왼쪽으로 이동"
+    },
+    "move_pane_right": {
+        "message": "패널 오른쪽으로 이동"
+    },
+    "move_pane_up": {
+        "message": "패널 위로 이동"
     },
     "move_tab_left": {
         "message": "탭 왼쪽으로 이동"
@@ -3857,9 +3896,6 @@
     "not_downloaded_yet": {
         "message": "아직 다운로드되지 않음"
     },
-    "not_linked": {
-        "message": "연동되지 않음"
-    },
     "not_now": {
         "message": "나중에"
     },
@@ -4075,9 +4111,6 @@
     },
     "open_in_new_window": {
         "message": "새 윈도우에서 열기"
-    },
-    "open_in_telegram": {
-        "message": "Telegram에서 열기"
     },
     "open_kiosk_or_peek_in_current_space": {
         "message": "Kiosk 또는 Peek을 현재 스페이스에서 열기"
@@ -4538,9 +4571,6 @@
     "purple": {
         "message": "보라"
     },
-    "qr_code_expired_generate_a_fresh_one": {
-        "message": "QR 코드가 만료됐어요. 계속하려면 새로 생성해 주세요."
-    },
     "quit": {
         "message": "종료"
     },
@@ -4613,9 +4643,6 @@
     "refresh": {
         "message": "새로고침"
     },
-    "refresh_cec8b5": {
-        "message": "새로고침"
-    },
     "refresh_connector_status": {
         "message": "커넥터 상태 새로고침"
     },
@@ -4627,9 +4654,6 @@
     },
     "released_into_a_command": {
         "message": "명령으로 전달됨"
-    },
-    "relink": {
-        "message": "다시 연동"
     },
     "reload_page": {
         "message": "페이지 새로고침"
@@ -4787,6 +4811,12 @@
     "replace_right": {
         "message": "오른쪽 바꾸기"
     },
+    "replace_saved_url_with_current": {
+        "message": "저장된 URL을 현재 URL로 바꾸기"
+    },
+    "replace_saved_url_with_current_6c46d3": {
+        "message": "저장된 URL을 현재 URL로 바꾸기"
+    },
     "replace_the_existing_skill": {
         "message": "기존 스킬을 바꿀까요?"
     },
@@ -4883,17 +4913,11 @@
     "retry_39f08b": {
         "message": "다시 시도"
     },
-    "retry_5b6d51": {
-        "message": "다시 시도"
-    },
     "retry_67671c": {
         "message": "다시 시도"
     },
     "retry_aefddd": {
         "message": "다시 시도"
-    },
-    "retry_after_phi_sentinel_is_running_normally": {
-        "message": "Phi Sentinel이 정상적으로 실행된 뒤에 다시 시도해 주세요."
     },
     "retry_setting_up_profiles_for_sync": {
         "message": "프로필 동기화 설정 다시 시도하기"
@@ -5026,9 +5050,6 @@
     },
     "scan_failed": {
         "message": "검사 실패"
-    },
-    "scan_the_qr_code_with_your_phone": {
-        "message": "휴대폰 카메라로 QR 코드를 스캔하거나 아래 버튼을 눌러 Phi Link 봇을 Telegram에 추가하세요"
     },
     "scanning": {
         "message": "검사 중…"
@@ -5193,9 +5214,6 @@
         "message": "서버가 변경 사항을 거부함"
     },
     "service_issue": {
-        "message": "서비스 문제"
-    },
-    "service_issue_be3112": {
         "message": "서비스 문제"
     },
     "session_timeout": {
@@ -5759,6 +5777,9 @@
     "tab_search": {
         "message": "탭 검색"
     },
+    "tab_switcher_includes_all_spaces": {
+        "message": "탭 전환기에 모든 스페이스 포함"
+    },
     "tab_to_search": {
         "message": "Tab 키를 눌러 %@ 검색"
     },
@@ -5896,6 +5917,12 @@
     },
     "the_sync_service_returned_an_error": {
         "message": "동기화 서비스에서 오류가 반환됐어요."
+    },
+    "the_tab_switcher_cycles_through_recent_tabs": {
+        "message": "탭 전환기가 모든 스페이스의 최근 탭을 차례로 전환하고, 필요하면 스페이스도 함께 전환해요."
+    },
+    "the_tab_switcher_cycles_through_recent_tabs_d92af4": {
+        "message": "탭 전환기가 현재 스페이스의 최근 탭을 차례로 전환해요."
     },
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "Time Machine 백업 삭제가 중단됐어요."
@@ -6475,9 +6502,6 @@
     },
     "we_need_to_refresh_your_session_before": {
         "message": "계정 기능을 계속 사용하려면 세션을 갱신해야 해요. 다시 로그인해 주세요."
-    },
-    "we_provide_a_telegram_bot_to_relay": {
-        "message": "메시지를 전달하는 Telegram 봇 @philink_bot을 제공해요"
     },
     "we_re_preparing_your_data_export_we": {
         "message": "데이터 내보내기를 준비하고 있어요. 준비가 끝나면 다운로드 링크를 이메일로 보내 드려요. 링크는 7일 동안 유효해요."

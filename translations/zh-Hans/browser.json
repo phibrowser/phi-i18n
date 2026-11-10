@@ -65,11 +65,20 @@
     "add_as_new": {
         "message": "添加为新空间"
     },
+    "add_bottom": {
+        "message": "在底部添加"
+    },
     "add_bottom_split": {
         "message": "在底部添加分屏"
     },
     "add_filter": {
         "message": "添加过滤器…"
+    },
+    "add_here": {
+        "message": "在此处添加"
+    },
+    "add_left": {
+        "message": "在左侧添加"
     },
     "add_left_split": {
         "message": "在左侧添加分屏"
@@ -91,6 +100,9 @@
     },
     "add_pinned_tab_bookmark_or_folder": {
         "message": "添加固定标签页、书签或文件夹"
+    },
+    "add_right": {
+        "message": "在右侧添加"
     },
     "add_right_split": {
         "message": "在右侧添加分屏"
@@ -130,6 +142,9 @@
     },
     "add_to_group": {
         "message": "添加到标签页组"
+    },
+    "add_top": {
+        "message": "在顶部添加"
     },
     "add_top_split": {
         "message": "在顶部添加分屏"
@@ -1202,6 +1217,9 @@
     "close_side_panel": {
         "message": "关闭侧边栏"
     },
+    "close_split": {
+        "message": "关闭分屏"
+    },
     "close_tab": {
         "message": "关闭标签页"
     },
@@ -1471,6 +1489,9 @@
     },
     "copy_links": {
         "message": "拷贝链接"
+    },
+    "copy_pane_url": {
+        "message": "拷贝第 %d 个窗格的网址"
     },
     "copy_right_url": {
         "message": "拷贝右侧网址"
@@ -2033,6 +2054,9 @@
     "drag_to_reorder_space": {
         "message": "拖移以调整空间顺序"
     },
+    "drag_to_rotate_the_conch": {
+        "message": "拖移以旋转海螺"
+    },
     "drag_to_select_an_area": {
         "message": "拖移以选择区域"
     },
@@ -2096,6 +2120,9 @@
     "edit_bookmark": {
         "message": "编辑书签"
     },
+    "edit_bookmark_9619a3": {
+        "message": "编辑书签"
+    },
     "edit_folder": {
         "message": "编辑文件夹"
     },
@@ -2112,6 +2139,9 @@
         "message": "编辑固定的分屏"
     },
     "edit_pinned_tab": {
+        "message": "编辑固定标签页"
+    },
+    "edit_pinned_tab_f4679a": {
         "message": "编辑固定标签页"
     },
     "edit_screenshot": {
@@ -3080,6 +3110,9 @@
     "install_update": {
         "message": "安装更新"
     },
+    "interactive_3d_conch": {
+        "message": "可交互的 3D 海螺"
+    },
     "invalid_image_source": {
         "message": "无效的图片来源"
     },
@@ -3206,22 +3239,13 @@
     "liking_a_youtube_video_or_bookmarking_on": {
         "message": "在 YouTube 上点赞视频，或在 X、Reddit 或 Stack Overflow 上添加书签时，也会将该页面存储到这里。所有内容都只保留在这台 Mac 上。"
     },
-    "link": {
-        "message": "关联"
-    },
     "link_copied_to_highlight": {
         "message": "已复制指向突出显示的内容的链接"
-    },
-    "link_telegram_to_chat_with": {
-        "message": "关联 Telegram，即可与 %@ 聊天。"
     },
     "linked": {
         "message": "已关联"
     },
     "linked_9d0bbe": {
-        "message": "已关联"
-    },
-    "linked_fcf352": {
         "message": "已关联"
     },
     "linking": {
@@ -3397,6 +3421,21 @@
     },
     "move_focus_to_the_previous_tab_group": {
         "message": "将焦点移到上一个标签页组。"
+    },
+    "move_pane": {
+        "message": "移动窗格"
+    },
+    "move_pane_down": {
+        "message": "向下移动窗格"
+    },
+    "move_pane_left": {
+        "message": "向左移动窗格"
+    },
+    "move_pane_right": {
+        "message": "向右移动窗格"
+    },
+    "move_pane_up": {
+        "message": "向上移动窗格"
     },
     "move_tab_left": {
         "message": "向左移动标签页"
@@ -3857,9 +3896,6 @@
     "not_downloaded_yet": {
         "message": "尚未下载"
     },
-    "not_linked": {
-        "message": "未关联"
-    },
     "not_now": {
         "message": "以后"
     },
@@ -4075,9 +4111,6 @@
     },
     "open_in_new_window": {
         "message": "在新窗口中打开"
-    },
-    "open_in_telegram": {
-        "message": "在 Telegram 中打开"
     },
     "open_kiosk_or_peek_in_current_space": {
         "message": "在当前空间中打开 Kiosk 或 Peek"
@@ -4538,9 +4571,6 @@
     "purple": {
         "message": "紫色"
     },
-    "qr_code_expired_generate_a_fresh_one": {
-        "message": "二维码已过期。请生成新的二维码以继续。"
-    },
     "quit": {
         "message": "退出"
     },
@@ -4613,9 +4643,6 @@
     "refresh": {
         "message": "刷新"
     },
-    "refresh_cec8b5": {
-        "message": "刷新"
-    },
     "refresh_connector_status": {
         "message": "刷新连接器状态"
     },
@@ -4627,9 +4654,6 @@
     },
     "released_into_a_command": {
         "message": "交给命令使用"
-    },
-    "relink": {
-        "message": "重新关联"
     },
     "reload_page": {
         "message": "重新加载页面"
@@ -4787,6 +4811,12 @@
     "replace_right": {
         "message": "替换右侧"
     },
+    "replace_saved_url_with_current": {
+        "message": "将已保存的网址替换为当前网址"
+    },
+    "replace_saved_url_with_current_6c46d3": {
+        "message": "将已保存的网址替换为当前网址"
+    },
     "replace_the_existing_skill": {
         "message": "要替换现有的 Skill 吗？"
     },
@@ -4883,17 +4913,11 @@
     "retry_39f08b": {
         "message": "重试"
     },
-    "retry_5b6d51": {
-        "message": "重试"
-    },
     "retry_67671c": {
         "message": "重试"
     },
     "retry_aefddd": {
         "message": "重试"
-    },
-    "retry_after_phi_sentinel_is_running_normally": {
-        "message": "请在 Phi Sentinel 恢复正常运行后重试。"
     },
     "retry_setting_up_profiles_for_sync": {
         "message": "重试为个人资料设置同步"
@@ -5026,9 +5050,6 @@
     },
     "scan_failed": {
         "message": "扫描失败"
-    },
-    "scan_the_qr_code_with_your_phone": {
-        "message": "用手机相机扫描二维码，或点按下方按钮，将 Phi Link 机器人添加到你的 Telegram"
     },
     "scanning": {
         "message": "正在扫描…"
@@ -5193,9 +5214,6 @@
         "message": "服务器拒绝了更改"
     },
     "service_issue": {
-        "message": "服务异常"
-    },
-    "service_issue_be3112": {
         "message": "服务异常"
     },
     "session_timeout": {
@@ -5759,6 +5777,9 @@
     "tab_search": {
         "message": "搜索标签页"
     },
+    "tab_switcher_includes_all_spaces": {
+        "message": "标签页切换器包含所有空间"
+    },
     "tab_to_search": {
         "message": "按 Tab 键搜索 %@"
     },
@@ -5896,6 +5917,12 @@
     },
     "the_sync_service_returned_an_error": {
         "message": "同步服务返回了错误。"
+    },
+    "the_tab_switcher_cycles_through_recent_tabs": {
+        "message": "标签页切换器会在所有空间中最近使用的标签页之间循环切换，并在需要时切换空间。"
+    },
+    "the_tab_switcher_cycles_through_recent_tabs_d92af4": {
+        "message": "标签页切换器会在当前空间中最近使用的标签页之间循环切换。"
     },
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "时间机器备份的删除过程已中断。"
@@ -6475,9 +6502,6 @@
     },
     "we_need_to_refresh_your_session_before": {
         "message": "我们需要刷新你的会话，账号功能才能继续正常使用。请重新登录。"
-    },
-    "we_provide_a_telegram_bot_to_relay": {
-        "message": "我们提供了一个 Telegram 机器人来转发你的消息 @philink_bot"
     },
     "we_re_preparing_your_data_export_we": {
         "message": "我们正在准备你的数据导出。准备就绪后，我们会通过电子邮件向你发送下载链接。该链接有效期为 7 天。"

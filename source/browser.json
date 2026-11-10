@@ -87,6 +87,10 @@
         "message": "Add as new",
         "description": "Location: Browser. Sync setup Space matching - picker option that adds this Space to the account as a new Space"
     },
+    "add_bottom": {
+        "message": "Add Bottom",
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the bottom edge of a split to add a row there"
+    },
     "add_bottom_split": {
         "message": "Add Bottom Split",
         "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the bottom third of the page"
@@ -94,6 +98,14 @@
     "add_filter": {
         "message": "Add Filter…",
         "description": "Location: Browser. Choose rule sets sheet - Button opening the sheet that adds a custom filter list"
+    },
+    "add_here": {
+        "message": "Add Here",
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the boundary between two panes of a split to add it there"
+    },
+    "add_left": {
+        "message": "Add Left",
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the left edge of a split to add a column there"
     },
     "add_left_split": {
         "message": "Add Left Split",
@@ -122,6 +134,10 @@
     "add_pinned_tab_bookmark_or_folder": {
         "message": "Add pinned tab, bookmark or folder",
         "description": "Location: Browser. Library Space card - add item button"
+    },
+    "add_right": {
+        "message": "Add Right",
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the right edge of a split to add a column there"
     },
     "add_right_split": {
         "message": "Add Right Split",
@@ -174,6 +190,10 @@
     "add_to_group": {
         "message": "Add to Group",
         "description": "Location: Browser. Tab context menu - Submenu to add this tab to an existing tab group"
+    },
+    "add_top": {
+        "message": "Add Top",
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the top edge of a split to add a row there"
     },
     "add_top_split": {
         "message": "Add Top Split",
@@ -1603,6 +1623,10 @@
         "message": "Close Side Panel",
         "description": "Location: Browser. Extension side panel - Tooltip and accessibility label for the header control that closes the panel"
     },
+    "close_split": {
+        "message": "Close Split",
+        "description": "Location: Browser. Tab context menu - Close every pane of the split that contains this tab"
+    },
     "close_tab": {
         "message": "Close Tab",
         "description": "Location: Browser. Tab group overview - Accessibility label for closing one pane of a split card"
@@ -1962,6 +1986,10 @@
     "copy_links": {
         "message": "Copy Links",
         "description": "Location: Browser. Tab multi-selection context menu - copy links of all selected tabs"
+    },
+    "copy_pane_url": {
+        "message": "Copy Pane %d URL",
+        "description": "Location: Browser. Tab context menu - Copy one pane's URL of a split with three or four panes; %d is the pane's position counted from the left (or top when stacked), starting at 1"
     },
     "copy_right_url": {
         "message": "Copy Right URL",
@@ -2711,6 +2739,10 @@
         "message": "Drag to reorder Space",
         "description": "Location: Browser. Library Spaces - card drag handle tooltip"
     },
+    "drag_to_rotate_the_conch": {
+        "message": "Drag to rotate the conch",
+        "description": "Location: Browser. About window - Tooltip explaining how to interact with the conch"
+    },
     "drag_to_select_an_area": {
         "message": "Drag to select an area",
         "description": "Location: Browser. Screenshot editor - Instruction before drawing a crop selection"
@@ -2795,6 +2827,10 @@
         "message": "Edit Bookmark",
         "description": "Location: Browser. Bookmark editor - Title of the sheet to edit a bookmark"
     },
+    "edit_bookmark_9619a3": {
+        "message": "Edit Bookmark",
+        "description": "Location: Browser. Bookmark context menu - Submenu for editing the saved bookmark"
+    },
     "edit_folder": {
         "message": "Edit Folder",
         "description": "Location: Browser. Folder editor - Title of the sheet to edit a folder"
@@ -2818,6 +2854,10 @@
     "edit_pinned_tab": {
         "message": "Edit Pinned Tab",
         "description": "Location: Browser. Favorite editor - Title of the sheet to edit a pin"
+    },
+    "edit_pinned_tab_f4679a": {
+        "message": "Edit Pinned Tab",
+        "description": "Location: Browser. Pinned tab context menu - Submenu for editing the saved pinned tab"
     },
     "edit_screenshot": {
         "message": "Edit Screenshot",
@@ -4107,6 +4147,10 @@
         "message": "Install Update",
         "description": "Location: Browser. Update window - Install update button"
     },
+    "interactive_3d_conch": {
+        "message": "Interactive 3D conch",
+        "description": "Location: Browser. About window - Accessible name of the draggable conch illustration"
+    },
     "invalid_image_source": {
         "message": "Invalid image source",
         "description": "Location: Browser. Image preview error"
@@ -4275,17 +4319,9 @@
         "message": "Liking a YouTube video or bookmarking on X, Reddit, or Stack Overflow also saves that page here. Everything stays on this Mac.",
         "description": "Location: Browser. General settings - Hint under the site-action auto-save toggle naming the supported sites and the local-only behavior"
     },
-    "link": {
-        "message": "Link",
-        "description": "Location: Browser. Phi Link - Official bot link button"
-    },
     "link_copied_to_highlight": {
         "message": "Link copied to highlight",
         "description": "Location: Browser. Toast shown after copying a link to highlighted text, including when a short link is unavailable"
-    },
-    "link_telegram_to_chat_with": {
-        "message": "Link Telegram to chat with %@.",
-        "description": "Location: Browser. Phi Link - Official bot link prompt with agent name"
     },
     "linked": {
         "message": "Linked",
@@ -4294,10 +4330,6 @@
     "linked_9d0bbe": {
         "message": "Linked",
         "description": "Location: Browser. Phi Link - Custom bot linked text"
-    },
-    "linked_fcf352": {
-        "message": "Linked",
-        "description": "Location: Browser. Phi Link - Official bot linked status"
     },
     "linking": {
         "message": "Linking...",
@@ -4530,6 +4562,26 @@
     "move_focus_to_the_previous_tab_group": {
         "message": "Move focus to the previous tab group.",
         "description": "Location: Browser. Shortcuts settings - Description of the previousTabGroup command"
+    },
+    "move_pane": {
+        "message": "Move Pane",
+        "description": "Location: Browser. Accessibility label of the grip at the top of a split pane that drags the pane to a new position"
+    },
+    "move_pane_down": {
+        "message": "Move Pane Down",
+        "description": "Location: Browser. Tab context menu - Move this pane one position down within a stacked split of three or four panes"
+    },
+    "move_pane_left": {
+        "message": "Move Pane Left",
+        "description": "Location: Browser. Tab context menu - Move this pane one position to the left within a side-by-side split of three or four panes"
+    },
+    "move_pane_right": {
+        "message": "Move Pane Right",
+        "description": "Location: Browser. Tab context menu - Move this pane one position to the right within a side-by-side split of three or four panes"
+    },
+    "move_pane_up": {
+        "message": "Move Pane Up",
+        "description": "Location: Browser. Tab context menu - Move this pane one position up within a stacked split of three or four panes"
     },
     "move_tab_left": {
         "message": "Move Tab Left",
@@ -5143,10 +5195,6 @@
         "message": "Not downloaded yet",
         "description": "Location: Browser. Advanced ad block settings - Details line for a filter list that has not been downloaded"
     },
-    "not_linked": {
-        "message": "Not linked",
-        "description": "Location: Browser. Phi Link - Official bot not linked status"
-    },
     "not_now": {
         "message": "Not Now",
         "description": "Location: Browser. Guest migration - Button that keeps using Guest Mode after a failed migration"
@@ -5381,7 +5429,7 @@
     },
     "open_as_split": {
         "message": "Open as Split",
-        "description": "Location: Browser. Tab multi-selection context menu - split exactly two selected tabs into paired panes"
+        "description": "Location: Browser. Tab multi-selection context menu - open the two to four selected items as the panes of one split"
     },
     "open_as_split_a1be74": {
         "message": "Open as Split",
@@ -5434,10 +5482,6 @@
     "open_in_new_window": {
         "message": "Open in New Window",
         "description": "Location: Browser. Image preview - Button that opens the current image list in a separate window"
-    },
-    "open_in_telegram": {
-        "message": "Open in Telegram",
-        "description": "Location: Browser. Phi Link - Open official bot link in Telegram"
     },
     "open_kiosk_or_peek_in_current_space": {
         "message": "Open Kiosk or Peek in current Space",
@@ -6051,10 +6095,6 @@
         "message": "Purple",
         "description": "Location: Browser. Tab Groups - color name shown in auto-named group title and color picker"
     },
-    "qr_code_expired_generate_a_fresh_one": {
-        "message": "QR code expired. Generate a fresh one to continue.",
-        "description": "Location: Browser. Phi Link - Official bot QR expired hint"
-    },
     "quit": {
         "message": "Quit",
         "description": "Location: Browser. Quit"
@@ -6151,10 +6191,6 @@
         "message": "Refresh",
         "description": "Location: Browser. Web content header - Accessibility description for refresh page button"
     },
-    "refresh_cec8b5": {
-        "message": "Refresh",
-        "description": "Location: Browser. Phi Link - Official bot refresh QR action"
-    },
     "refresh_connector_status": {
         "message": "Refresh connector status",
         "description": "Location: Browser. AI settings - Tooltip for refreshing connector status"
@@ -6170,10 +6206,6 @@
     "released_into_a_command": {
         "message": "Released into a command",
         "description": "Location: Browser. Credential approval - run headline"
-    },
-    "relink": {
-        "message": "Relink",
-        "description": "Location: Browser. Phi Link - Official bot relink action"
     },
     "reload_page": {
         "message": "Reload Page",
@@ -6237,7 +6269,7 @@
     },
     "remove_from_split": {
         "message": "Remove from Split",
-        "description": "Location: Browser. Tab context menu - Dissolve the split that contains this tab"
+        "description": "Location: Browser. Tab context menu - Take this tab out of its split; a two-pane split dissolves, a wider split keeps its other panes"
     },
     "remove_margins_around_web_content": {
         "message": "Remove margins around web content.",
@@ -6369,19 +6401,27 @@
     },
     "replace": {
         "message": "Replace",
-        "description": "Location: Browser. Developer settings - Skill overwrite confirm button"
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over a pane of a split to replace it"
     },
     "replace_bottom": {
         "message": "Replace Bottom",
-        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the bottom/secondary pane of a horizontal split to replace it"
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the bottom pane of a horizontal split to replace it"
     },
     "replace_left": {
         "message": "Replace Left",
-        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the left/primary pane of a vertical split to replace it"
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the left pane of a vertical split to replace it"
     },
     "replace_right": {
         "message": "Replace Right",
-        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the right/secondary pane of a vertical split to replace it"
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the right pane of a vertical split to replace it"
+    },
+    "replace_saved_url_with_current": {
+        "message": "Replace Saved URL with Current",
+        "description": "Location: Browser. Bookmark context menu - Save the open page URL as the bookmark URL"
+    },
+    "replace_saved_url_with_current_6c46d3": {
+        "message": "Replace Saved URL with Current",
+        "description": "Location: Browser. Pinned tab context menu - Save the open page URL as the pinned tab URL"
     },
     "replace_the_existing_skill": {
         "message": "Replace the existing skill?",
@@ -6397,7 +6437,7 @@
     },
     "replace_top": {
         "message": "Replace Top",
-        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the top/primary pane of a horizontal split to replace it"
+        "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the top pane of a horizontal split to replace it"
     },
     "replace_what_s_on_this_mac": {
         "message": "Replace what’s on this Mac?",
@@ -6511,10 +6551,6 @@
         "message": "Retry",
         "description": "Location: Browser. Reload sync settings"
     },
-    "retry_5b6d51": {
-        "message": "Retry",
-        "description": "Location: Browser. Phi Link - Retry loading official bot"
-    },
     "retry_67671c": {
         "message": "Retry",
         "description": "Location: Browser. Tooltip for button to retry interrupted download in living downloads toast"
@@ -6522,10 +6558,6 @@
     "retry_aefddd": {
         "message": "Retry",
         "description": "Location: Browser. Sync settings - button in place of Sync Now while sync is paused; it tries again at once to set up the browser profiles that are not set up for sync"
-    },
-    "retry_after_phi_sentinel_is_running_normally": {
-        "message": "Retry after Phi Sentinel is running normally.",
-        "description": "Location: Browser. IM Channels - Official bot retry hint when service is unavailable"
     },
     "retry_setting_up_profiles_for_sync": {
         "message": "Retry setting up profiles for sync",
@@ -6702,10 +6734,6 @@
     "scan_failed": {
         "message": "Scan failed",
         "description": "Location: Browser. Short status - scan failed (Chromium: IDS_DOWNLOAD_BUBBLE_STATUS_SCAN_FAILED)"
-    },
-    "scan_the_qr_code_with_your_phone": {
-        "message": "Scan the QR code with your phone camera or click on the button below to add Phi Link bot to your Telegram",
-        "description": "Location: Browser. Phi Link - Official bot QR hint"
     },
     "scanning": {
         "message": "Scanning…",
@@ -6926,10 +6954,6 @@
     "service_issue": {
         "message": "Service issue",
         "description": "Location: Browser. Phi Link - Custom bot service issue status"
-    },
-    "service_issue_be3112": {
-        "message": "Service issue",
-        "description": "Location: Browser. Phi Link - Official bot service issue status"
     },
     "session_timeout": {
         "message": "Session timeout",
@@ -7679,6 +7703,10 @@
         "message": "Tab Search",
         "description": "Location: Browser. Shortcuts settings - Command title for searching open tabs"
     },
+    "tab_switcher_includes_all_spaces": {
+        "message": "Tab Switcher includes all Spaces",
+        "description": "Location: Browser. Spaces settings - toggle label for letting the Tab Switcher (Ctrl-Tab) list recent tabs from every Space in the window"
+    },
     "tab_to_search": {
         "message": "Tab to search %@",
         "description": "Location: Browser. Address bar - Hint to press Tab to search with the named search engine"
@@ -7862,6 +7890,14 @@
     "the_sync_service_returned_an_error": {
         "message": "The sync service returned an error.",
         "description": "Location: Browser. Sync settings - line under Sync paused when setting up a browser profile for sync failed because of an error on the sync service"
+    },
+    "the_tab_switcher_cycles_through_recent_tabs": {
+        "message": "The Tab Switcher cycles through recent tabs in every Space and switches Spaces when needed.",
+        "description": "Location: Browser. Spaces settings - description under the Tab Switcher scope toggle when it is on"
+    },
+    "the_tab_switcher_cycles_through_recent_tabs_d92af4": {
+        "message": "The Tab Switcher cycles through recent tabs in the current Space.",
+        "description": "Location: Browser. Spaces settings - description under the Tab Switcher scope toggle when it is off"
     },
     "the_time_machine_backup_deletion_was_interrupted": {
         "message": "The Time Machine backup deletion was interrupted.",
@@ -8634,10 +8670,6 @@
     "we_need_to_refresh_your_session_before": {
         "message": "We need to refresh your session before account features can keep working. Please sign in again.",
         "description": "Location: Browser. Auth reauthentication - Alert body explaining required authentication"
-    },
-    "we_provide_a_telegram_bot_to_relay": {
-        "message": "We provide a Telegram bot to relay your messages @philink_bot",
-        "description": "Location: Browser. Phi Link - Official Bot subtitle"
     },
     "we_re_preparing_your_data_export_we": {
         "message": "We're preparing your data export. We'll email you a download link when it's ready. The link will be available for seven days.",
