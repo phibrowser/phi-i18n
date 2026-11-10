@@ -17,6 +17,15 @@
     "app_name": {
         "message": "Sentinel"
     },
+    "artifact_preview_description_failed": {
+        "message": "Kan geen voorbeeld van dit bestand tonen. Het is mogelijk niet beschikbaar, groter dan 128 MB of in een formaat dat niet wordt ondersteund."
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "Afbeeldingsvoorbeeld"
+    },
+    "artifact_preview_label_preview": {
+        "message": "Voorbeeld"
+    },
     "backup_export_action_export_data": {
         "message": "Gegevens exporteren…"
     },
@@ -2204,8 +2213,14 @@
     "notifications_tasks_schedule_paused": {
         "message": "Planning gepauzeerd"
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "Deze planning is beëindigd. Er zijn geen verdere uitvoeringen gepland."
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "Hervatten van planning mislukt"
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "Er is geen volgende uitvoering gepland. Controleer de timing van de planning."
     },
     "notifications_tasks_schedule_resumed": {
         "message": "Schema hervat"
@@ -3167,6 +3182,9 @@
     "scheduled_tasks_accessible_label_increase_every_value": {
         "message": "Waarde voor 'elke' verhogen"
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "Schema's voor {{task}} beheren"
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "Handmatig"
     },
@@ -3218,6 +3236,9 @@
     "scheduled_tasks_action_delete_task": {
         "message": "Taak verwijderen"
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "Schema's beheren"
+    },
     "scheduled_tasks_action_now": {
         "message": "Nu"
     },
@@ -3227,17 +3248,26 @@
     "scheduled_tasks_action_save_task": {
         "message": "Taak opslaan"
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "Alle schema's tonen"
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "Bepaal hoe Sentinel omgaat met actieve taakuitvoeringen van Phi Agent."
     },
     "scheduled_tasks_description_allowed_timeout_range": {
         "message": "Toegestaan bereik: {{minimum}} tot {{maximum}}."
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "Dit schema is afgerond en kan niet worden hervat."
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "Hiermee verwijder je <target>{{name}}</target> uit Sentinel."
     },
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "Maak een taak om het werk van Phi Agent vanuit Sentinel te volgen."
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "Dit schema is verlopen. Bewerk de timing voordat je het hervat."
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "Kan geplande taken niet laden"
@@ -3281,8 +3311,14 @@
     "scheduled_tasks_description_overview": {
         "message": "Bekijk taken, schema's en uitvoeringen van Phi Agent vanuit Sentinel."
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "Pauzeer toekomstige automatische uitvoeringen. Een uitvoering die al is gestart, loopt door."
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agent is niet actief"
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "Hervat automatische uitvoeringen en bereken het tijdstip van de volgende uitvoering."
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "Kies eerst de eenvoudigste timingoptie. Gebruik cron alleen voor kalenderachtige schema's."
@@ -3292,6 +3328,9 @@
     },
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "Markeer een lopende taak als mislukt zodra deze duur wordt overschreden."
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "De taak is niet beschikbaar. Controleer de status van de taak voordat je het schema hervat."
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "Optioneel. Laat dit leeg om de lokale tijdzone te gebruiken van het apparaat waarop Phi Agent draait."
@@ -3389,6 +3428,9 @@
     "scheduled_tasks_label_minutes": {
         "message": "minuten"
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "Volgende: {{time}}"
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "Geen actieve uitvoering"
     },
@@ -3451,6 +3493,9 @@
     },
     "scheduled_tasks_label_schedules": {
         "message": "Schema's"
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "Schema's voor {{task}}"
     },
     "scheduled_tasks_label_second": {
         "message": "seconde"

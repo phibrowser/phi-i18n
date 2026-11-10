@@ -17,6 +17,15 @@
     "app_name": {
         "message": "Sentinel"
     },
+    "artifact_preview_description_failed": {
+        "message": "No se puede previsualizar este archivo. Puede que no esté disponible, que supere los 128 MB o que tenga un formato no compatible."
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "Vista previa de la imagen"
+    },
+    "artifact_preview_label_preview": {
+        "message": "Vista previa"
+    },
     "backup_export_action_export_data": {
         "message": "Exportar datos…"
     },
@@ -2204,8 +2213,14 @@
     "notifications_tasks_schedule_paused": {
         "message": "Programación pausada"
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "Esta programación ha finalizado. No hay más ejecuciones programadas."
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "No se pudo reanudar la programación"
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "No hay ninguna próxima ejecución programada. Revisa la configuración de tiempo de la programación."
     },
     "notifications_tasks_schedule_resumed": {
         "message": "Programación reanudada"
@@ -3167,6 +3182,9 @@
     "scheduled_tasks_accessible_label_increase_every_value": {
         "message": "Aumentar el valor del intervalo"
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "Gestionar las programaciones de {{task}}"
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "Manual"
     },
@@ -3218,6 +3236,9 @@
     "scheduled_tasks_action_delete_task": {
         "message": "Eliminar tarea"
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "Gestionar programaciones"
+    },
     "scheduled_tasks_action_now": {
         "message": "Ahora"
     },
@@ -3227,17 +3248,26 @@
     "scheduled_tasks_action_save_task": {
         "message": "Guardar tarea"
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "Mostrar todas las programaciones"
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "Controla cómo gestiona Sentinel las ejecuciones activas de tareas de Phi Agent."
     },
     "scheduled_tasks_description_allowed_timeout_range": {
         "message": "Rango permitido: de {{minimum}} a {{maximum}}."
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "Esta programación ha finalizado y no se puede reanudar."
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "Esto eliminará <target>{{name}}</target> de Sentinel."
     },
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "Crea una tarea para empezar a hacer seguimiento del trabajo de Phi Agent desde Sentinel."
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "Esta programación ha expirado. Edita su configuración de tiempo antes de reanudarla."
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "No se pudieron cargar las tareas programadas"
@@ -3281,8 +3311,14 @@
     "scheduled_tasks_description_overview": {
         "message": "Consulta las tareas, programaciones y ejecuciones de Phi Agent desde Sentinel."
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "Pausa las próximas ejecuciones automáticas. Una ejecución ya iniciada continuará."
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agent no se está ejecutando"
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "Reanuda las ejecuciones automáticas y calcula la hora de la próxima ejecución."
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "Elige primero la opción de tiempo más sencilla. Usa cron solo para programaciones de tipo calendario."
@@ -3292,6 +3328,9 @@
     },
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "Marcar una tarea en ejecución como fallida cuando supere esta duración."
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "La tarea no está disponible. Revisa su estado antes de reanudarla."
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "Opcional. Déjalo en blanco para usar la zona horaria local del dispositivo que ejecuta Phi Agent."
@@ -3389,6 +3428,9 @@
     "scheduled_tasks_label_minutes": {
         "message": "minutos"
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "Próxima: {{time}}"
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "Sin ejecución actual"
     },
@@ -3451,6 +3493,9 @@
     },
     "scheduled_tasks_label_schedules": {
         "message": "Programaciones"
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "Programaciones de {{task}}"
     },
     "scheduled_tasks_label_second": {
         "message": "segundo"

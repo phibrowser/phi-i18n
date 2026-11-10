@@ -17,6 +17,15 @@
     "app_name": {
         "message": "Sentinel"
     },
+    "artifact_preview_description_failed": {
+        "message": "Für diese Datei kann keine Vorschau angezeigt werden. Sie ist möglicherweise nicht verfügbar, größer als 128 MB oder in einem nicht unterstützten Format."
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "Bildvorschau"
+    },
+    "artifact_preview_label_preview": {
+        "message": "Vorschau"
+    },
     "backup_export_action_export_data": {
         "message": "Daten exportieren…"
     },
@@ -2204,8 +2213,14 @@
     "notifications_tasks_schedule_paused": {
         "message": "Zeitplan pausiert"
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "Dieser Zeitplan ist abgeschlossen. Es sind keine weiteren Ausführungen geplant."
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "Zeitplan konnte nicht fortgesetzt werden"
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "Es ist keine nächste Ausführung geplant. Überprüfe die Zeiteinstellungen des Zeitplans."
     },
     "notifications_tasks_schedule_resumed": {
         "message": "Zeitplan fortgesetzt"
@@ -3167,6 +3182,9 @@
     "scheduled_tasks_accessible_label_increase_every_value": {
         "message": "Intervallwert erhöhen"
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "Zeitpläne für {{task}} verwalten"
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "Manuell"
     },
@@ -3218,6 +3236,9 @@
     "scheduled_tasks_action_delete_task": {
         "message": "Aufgabe löschen"
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "Zeitpläne verwalten"
+    },
     "scheduled_tasks_action_now": {
         "message": "Jetzt"
     },
@@ -3227,17 +3248,26 @@
     "scheduled_tasks_action_save_task": {
         "message": "Aufgabe speichern"
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "Alle Zeitpläne anzeigen"
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "Lege fest, wie Sentinel mit aktiven Aufgabenausführungen von Phi Agent umgeht."
     },
     "scheduled_tasks_description_allowed_timeout_range": {
         "message": "Zulässiger Bereich: {{minimum}} bis {{maximum}}."
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "Dieser Zeitplan ist abgeschlossen und kann nicht fortgesetzt werden."
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "Dadurch wird <target>{{name}}</target> aus Sentinel gelöscht."
     },
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "Erstelle eine Aufgabe, um die Arbeit von Phi Agent in Sentinel zu verfolgen."
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "Dieser Zeitplan ist abgelaufen. Bearbeite seine Zeiteinstellungen, bevor du ihn fortsetzt."
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "Geplante Aufgaben konnten nicht geladen werden"
@@ -3281,8 +3311,14 @@
     "scheduled_tasks_description_overview": {
         "message": "Sieh dir Aufgaben, Zeitpläne und Ausführungen von Phi Agent in Sentinel an."
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "Pausiert künftige automatische Ausführungen. Eine bereits gestartete Ausführung läuft weiter."
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agent läuft nicht"
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "Setzt automatische Ausführungen fort und berechnet den nächsten Ausführungszeitpunkt."
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "Wähle zuerst die einfachste Zeitoption. Verwende Cron nur für kalenderbasierte Zeitpläne."
@@ -3292,6 +3328,9 @@
     },
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "Markiert eine laufende Aufgabe als fehlgeschlagen, wenn sie diese Dauer überschreitet."
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "Die Aufgabe ist nicht verfügbar. Überprüfe ihren Status, bevor du den Zeitplan fortsetzt."
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "Optional. Leer lassen, um die lokale Zeitzone des Geräts zu verwenden, auf dem Phi Agent läuft."
@@ -3389,6 +3428,9 @@
     "scheduled_tasks_label_minutes": {
         "message": "Minuten"
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "Nächste Ausführung: {{time}}"
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "Keine aktuelle Ausführung"
     },
@@ -3451,6 +3493,9 @@
     },
     "scheduled_tasks_label_schedules": {
         "message": "Zeitpläne"
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "Zeitpläne für {{task}}"
     },
     "scheduled_tasks_label_second": {
         "message": "Sekunde"

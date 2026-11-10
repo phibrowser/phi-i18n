@@ -17,6 +17,15 @@
     "app_name": {
         "message": "Sentinel"
     },
+    "artifact_preview_description_failed": {
+        "message": "이 파일을 미리 볼 수 없어요. 파일을 사용할 수 없거나, 128 MB보다 크거나, 지원하지 않는 형식일 수 있어요."
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "이미지 미리보기"
+    },
+    "artifact_preview_label_preview": {
+        "message": "미리보기"
+    },
     "backup_export_action_export_data": {
         "message": "데이터 내보내기…"
     },
@@ -2204,8 +2213,14 @@
     "notifications_tasks_schedule_paused": {
         "message": "스케줄을 일시 중지했어요"
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "이 스케줄은 종료되어 더 이상 예약된 실행이 없어요."
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "스케줄을 재개하지 못했어요"
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "예약된 다음 실행이 없어요. 스케줄의 시간 설정을 확인해 주세요."
     },
     "notifications_tasks_schedule_resumed": {
         "message": "스케줄을 재개했어요"
@@ -3167,6 +3182,9 @@
     "scheduled_tasks_accessible_label_increase_every_value": {
         "message": "반복 간격 늘리기"
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "{{task}} 일정 관리"
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "수동"
     },
@@ -3218,6 +3236,9 @@
     "scheduled_tasks_action_delete_task": {
         "message": "작업 삭제"
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "일정 관리"
+    },
     "scheduled_tasks_action_now": {
         "message": "지금"
     },
@@ -3227,17 +3248,26 @@
     "scheduled_tasks_action_save_task": {
         "message": "작업 저장"
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "모든 일정 보기"
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "Sentinel이 진행 중인 Phi Agent 작업 실행을 처리하는 방식을 설정해요."
     },
     "scheduled_tasks_description_allowed_timeout_range": {
         "message": "허용 범위: {{minimum}} ~ {{maximum}}."
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "이 일정은 완료되어 재개할 수 없어요."
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "Sentinel에서 <target>{{name}}</target>을(를) 삭제해요."
     },
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "작업을 만들어 Sentinel에서 Phi Agent 활동을 추적해 보세요."
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "이 일정은 만료됐어요. 재개하기 전에 시간 설정을 편집해 주세요."
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "예약된 작업을 불러오지 못했어요"
@@ -3281,8 +3311,14 @@
     "scheduled_tasks_description_overview": {
         "message": "Sentinel에서 Phi Agent의 작업, 일정, 실행을 확인할 수 있어요."
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "앞으로의 자동 실행을 일시 중지해요. 이미 시작된 실행은 계속 진행돼요."
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agent가 실행되고 있지 않아요"
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "자동 실행을 재개하고 다음 실행 시각을 계산해요."
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "가장 간단한 시간 설정부터 선택해 보세요. 크론은 캘린더형 일정에만 사용하세요."
@@ -3292,6 +3328,9 @@
     },
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "실행 중인 작업이 이 시간을 넘으면 실패로 표시해요."
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "이 작업은 사용할 수 없어요. 재개하기 전에 작업 상태를 확인해 주세요."
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "선택 사항이에요. 비워 두면 Phi Agent가 실행 중인 기기의 현지 시간대를 사용해요."
@@ -3389,6 +3428,9 @@
     "scheduled_tasks_label_minutes": {
         "message": "분"
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "다음 실행: {{time}}"
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "진행 중인 실행 없음"
     },
@@ -3451,6 +3493,9 @@
     },
     "scheduled_tasks_label_schedules": {
         "message": "일정"
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "{{task}}의 일정"
     },
     "scheduled_tasks_label_second": {
         "message": "초"

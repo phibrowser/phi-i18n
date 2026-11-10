@@ -17,6 +17,15 @@
     "app_name": {
         "message": "Sentinel"
     },
+    "artifact_preview_description_failed": {
+        "message": "Impossible d'afficher l'aperçu de ce fichier. Il est peut-être indisponible, plus volumineux que 128 Mo ou dans un format non pris en charge."
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "Aperçu de l'image"
+    },
+    "artifact_preview_label_preview": {
+        "message": "Aperçu"
+    },
     "backup_export_action_export_data": {
         "message": "Exporter les données…"
     },
@@ -2204,8 +2213,14 @@
     "notifications_tasks_schedule_paused": {
         "message": "Planification mise en pause"
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "Cette planification est terminée : aucune autre exécution n'est planifiée."
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "Échec de la reprise de la planification"
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "Aucune prochaine exécution n'est planifiée. Vérifiez les horaires de la planification."
     },
     "notifications_tasks_schedule_resumed": {
         "message": "Planification reprise"
@@ -3167,6 +3182,9 @@
     "scheduled_tasks_accessible_label_increase_every_value": {
         "message": "Augmenter la valeur de l'intervalle"
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "Gérer les planifications pour {{task}}"
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "Manuelle"
     },
@@ -3218,6 +3236,9 @@
     "scheduled_tasks_action_delete_task": {
         "message": "Supprimer la tâche"
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "Gérer les planifications"
+    },
     "scheduled_tasks_action_now": {
         "message": "Maintenant"
     },
@@ -3227,17 +3248,26 @@
     "scheduled_tasks_action_save_task": {
         "message": "Enregistrer la tâche"
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "Afficher toutes les planifications"
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "Contrôlez la manière dont Sentinel gère les exécutions de tâches Phi Agent en cours."
     },
     "scheduled_tasks_description_allowed_timeout_range": {
         "message": "Plage autorisée : de {{minimum}} à {{maximum}}."
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "Cette planification est terminée et ne peut pas être reprise."
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "Cela supprimera <target>{{name}}</target> de Sentinel."
     },
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "Créez une tâche pour commencer à suivre le travail de Phi Agent depuis Sentinel."
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "Cette planification a expiré. Modifiez ses horaires avant de la reprendre."
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "Impossible de charger les tâches planifiées"
@@ -3281,8 +3311,14 @@
     "scheduled_tasks_description_overview": {
         "message": "Consultez les tâches, planifications et exécutions de Phi Agent depuis Sentinel."
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "Suspendre les exécutions automatiques à venir. Une exécution déjà démarrée se poursuivra."
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agent n'est pas en cours d'exécution"
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "Reprendre les exécutions automatiques et calculer l'heure de la prochaine exécution."
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "Choisissez d'abord l'option de planification la plus simple. Utilisez cron uniquement pour les planifications de type calendrier."
@@ -3292,6 +3328,9 @@
     },
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "Une tâche en cours d'exécution sera marquée comme échouée si elle dépasse cette durée."
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "La tâche est indisponible. Vérifiez son statut avant de reprendre la planification."
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "Facultatif. Laissez vide pour utiliser le fuseau horaire local de l'appareil qui exécute Phi Agent."
@@ -3389,6 +3428,9 @@
     "scheduled_tasks_label_minutes": {
         "message": "minutes"
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "Prochaine exécution : {{time}}"
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "Aucune exécution en cours"
     },
@@ -3451,6 +3493,9 @@
     },
     "scheduled_tasks_label_schedules": {
         "message": "Planifications"
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "Planifications pour {{task}}"
     },
     "scheduled_tasks_label_second": {
         "message": "seconde"

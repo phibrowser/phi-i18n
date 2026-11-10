@@ -17,6 +17,15 @@
     "app_name": {
         "message": "Sentinel"
     },
+    "artifact_preview_description_failed": {
+        "message": "このファイルをプレビューできません。ファイルが利用できないか、128MBを超えているか、サポートされていない形式である可能性があります。"
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "画像プレビュー"
+    },
+    "artifact_preview_label_preview": {
+        "message": "プレビュー"
+    },
     "backup_export_action_export_data": {
         "message": "データをエクスポート…"
     },
@@ -2204,8 +2213,14 @@
     "notifications_tasks_schedule_paused": {
         "message": "スケジュールを一時停止しました"
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "このスケジュールは終了しました。今後の実行は予定されていません。"
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "スケジュールの再開に失敗しました"
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "次回の実行は予定されていません。スケジュールのタイミング設定を確認してください。"
     },
     "notifications_tasks_schedule_resumed": {
         "message": "スケジュールを再開しました"
@@ -3167,6 +3182,9 @@
     "scheduled_tasks_accessible_label_increase_every_value": {
         "message": "間隔の値を増やす"
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "{{task}}のスケジュールを管理"
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "手動"
     },
@@ -3218,6 +3236,9 @@
     "scheduled_tasks_action_delete_task": {
         "message": "タスクを削除"
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "スケジュールを管理"
+    },
     "scheduled_tasks_action_now": {
         "message": "現在時刻"
     },
@@ -3227,17 +3248,26 @@
     "scheduled_tasks_action_save_task": {
         "message": "タスクを保存"
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "すべてのスケジュールを表示"
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "実行中のPhi AgentタスクをSentinelがどのように処理するかを設定します。"
     },
     "scheduled_tasks_description_allowed_timeout_range": {
         "message": "設定可能な範囲は{{minimum}}から{{maximum}}までです。"
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "このスケジュールは完了しているため、再開できません。"
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "<target>{{name}}</target>をSentinelから削除します。"
     },
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "タスクを作成すると、SentinelからPhi Agentの作業を追跡できるようになります。"
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "このスケジュールは期限切れです。再開する前にタイミング設定を編集してください。"
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "スケジュール済みタスクを読み込めませんでした"
@@ -3281,8 +3311,14 @@
     "scheduled_tasks_description_overview": {
         "message": "SentinelからPhi Agentのタスク、スケジュール、実行を確認できます。"
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "今後の自動実行を一時停止します。すでに開始されている実行は継続されます。"
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agentが実行されていません"
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "自動実行を再開し、次回の実行時刻を計算します。"
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "まずは最もシンプルなタイミング設定を選んでください。Cronはカレンダー形式のスケジュールにのみ使用してください。"
@@ -3292,6 +3328,9 @@
     },
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "実行中のタスクがこの時間を超えると、失敗としてマークします。"
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "タスクを利用できません。再開する前にタスクの状態を確認してください。"
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "任意です。空欄の場合は、Phi Agentを実行しているデバイスのローカルタイムゾーンを使用します。"
@@ -3389,6 +3428,9 @@
     "scheduled_tasks_label_minutes": {
         "message": "分"
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "次回：{{time}}"
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "現在の実行はありません"
     },
@@ -3451,6 +3493,9 @@
     },
     "scheduled_tasks_label_schedules": {
         "message": "スケジュール"
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "{{task}}のスケジュール"
     },
     "scheduled_tasks_label_second": {
         "message": "秒"

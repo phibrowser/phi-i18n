@@ -23,6 +23,18 @@
         "message": "Sentinel",
         "description": "Location: Sentinel. Text in the application identity area. Product name displayed in the dashboard header."
     },
+    "artifact_preview_description_failed": {
+        "message": "Unable to preview this file. It may be unavailable, larger than 128 MB, or in an unsupported format.",
+        "description": "Location: Sentinel. Error shown when a media preview cannot load or decode; explains the size limit and possible causes."
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "Image preview",
+        "description": "Location: Sentinel. Heading above an image attachment preview, including animated images."
+    },
+    "artifact_preview_label_preview": {
+        "message": "Preview",
+        "description": "Location: Sentinel. Heading above an image or video attachment preview."
+    },
     "backup_export_action_export_data": {
         "message": "Export data…",
         "description": "Location: Sentinel. Backup and restore tools in application settings. Data-export card in application settings. Runs the export data operation when the button is selected."
@@ -2939,9 +2951,17 @@
         "message": "Schedule paused",
         "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Success notification shown after pausing a schedule."
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "This schedule has ended; no further runs are scheduled.",
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Warning when a resume request returns a completed schedule."
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "Failed to resume schedule",
         "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Error notification shown when a schedule cannot be resumed."
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "No next run is scheduled. Check the schedule timing.",
+        "description": "Location: Sentinel. Transient notifications shown after user actions or background operations. Notifications shown after managing tasks, schedules, and runs. Warning when a resume response does not confirm an enabled schedule with a next run."
     },
     "notifications_tasks_schedule_resumed": {
         "message": "Schedule resumed",
@@ -4223,6 +4243,10 @@
         "message": "Increase every value",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Screen-reader name for the Increase every value control."
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "Manage schedules for {{task}}",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Screen-reader name for a task’s schedule management button; {{task}} is the task title."
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "Manual",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Screen-reader name for the unscheduled-task option."
@@ -4291,6 +4315,10 @@
         "message": "Delete task",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Confirmation action that deletes a task."
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "Manage schedules",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Tooltip for opening all schedules associated with a task."
+    },
     "scheduled_tasks_action_now": {
         "message": "Now",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Button that fills the one-time schedule with the current date and time."
@@ -4303,6 +4331,10 @@
         "message": "Save task",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Action label for saving task changes."
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "Show all schedules",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Button that clears the task filter on the schedule list."
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "Control how Sentinel handles active Phi Agent task runs.",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task-settings subtitle explaining that active-run handling is configured here."
@@ -4311,6 +4343,10 @@
         "message": "Allowed range: {{minimum}} to {{maximum}}.",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task timeout helper text. {{minimum}} and {{maximum}} are localized duration strings."
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "This schedule has finished and cannot be resumed.",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Explains why a completed schedule or one with no remaining runs cannot be resumed."
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "This will delete <target>{{name}}</target> from Sentinel.",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Sentence in the deletion confirmation dialog. {{name}} is the task or schedule name. <target> and </target> emphasize that name and must remain in the translation."
@@ -4318,6 +4354,10 @@
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "Create a task to start tracking Phi Agent work from Sentinel.",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Empty-state guidance directing the user to create a task before work can be tracked."
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "This schedule has expired. Edit its timing before resuming.",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Explains why an expired schedule cannot be resumed."
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "Failed to load scheduled tasks",
@@ -4375,9 +4415,17 @@
         "message": "View Phi Agent tasks, schedules, and runs from Sentinel.",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Page subtitle explaining that tasks, schedules, and runs are managed together."
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "Pause future automatic runs. A run already started will continue.",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Tooltip explaining that pausing a schedule does not stop an active run."
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agent is not running",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Unavailable-state heading shown when task management cannot connect."
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "Resume automatic runs and calculate the next run time.",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Tooltip describing what resuming a schedule does."
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "Pick the simplest timing option first. Use cron only for calendar-style schedules.",
@@ -4390,6 +4438,10 @@
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "Mark a running task as failed when it exceeds this duration.",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Timeout-setting guidance explaining when a long-running task will be marked as failed."
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "The task is unavailable. Check its status before resuming.",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Explains why a schedule for an unavailable task cannot be resumed."
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "Optional. Leave blank to use the local timezone of the device running Phi Agent.",
@@ -4519,6 +4571,10 @@
         "message": "minutes",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Plural minute unit embedded in a schedule interval."
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "Next: {{time}}",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Next automatic run time shown below a task’s schedule; {{time}} is a localized date and time."
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "No current run",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Empty-state label indicating no current run."
@@ -4602,6 +4658,10 @@
     "scheduled_tasks_label_schedules": {
         "message": "Schedules",
         "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Task-management tab label for schedules."
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "Schedules for {{task}}",
+        "description": "Location: Sentinel. Task and schedule creation forms, lists, filters, dialogs, and run history. Shown above schedules after opening one task’s schedule controls; {{task}} names that task."
     },
     "scheduled_tasks_label_second": {
         "message": "second",

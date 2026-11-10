@@ -17,6 +17,15 @@
     "app_name": {
         "message": "Sentinel"
     },
+    "artifact_preview_description_failed": {
+        "message": "無法預覽此檔案。檔案可能無法使用、大於 128 MB，或格式不受支援。"
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "圖片預覽"
+    },
+    "artifact_preview_label_preview": {
+        "message": "預覽"
+    },
     "backup_export_action_export_data": {
         "message": "匯出資料…"
     },
@@ -2204,8 +2213,14 @@
     "notifications_tasks_schedule_paused": {
         "message": "已暫停排程"
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "此排程已結束，不會再安排後續執行。"
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "無法恢復排程"
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "未安排下次執行。請檢查排程的時間設定。"
     },
     "notifications_tasks_schedule_resumed": {
         "message": "已恢復排程"
@@ -3167,6 +3182,9 @@
     "scheduled_tasks_accessible_label_increase_every_value": {
         "message": "增加「每隔」的數值"
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "管理「{{task}}」的排程"
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "手動"
     },
@@ -3218,6 +3236,9 @@
     "scheduled_tasks_action_delete_task": {
         "message": "刪除任務"
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "管理排程"
+    },
     "scheduled_tasks_action_now": {
         "message": "現在"
     },
@@ -3227,17 +3248,26 @@
     "scheduled_tasks_action_save_task": {
         "message": "儲存任務"
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "顯示所有排程"
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "控制 Sentinel 如何處理進行中的 Phi Agent 任務執行。"
     },
     "scheduled_tasks_description_allowed_timeout_range": {
         "message": "允許範圍：{{minimum}} 到 {{maximum}}。"
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "此排程已結束，無法恢復。"
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "這會將 <target>{{name}}</target> 從 Sentinel 中刪除。"
     },
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "建立任務，開始從 Sentinel 追蹤 Phi Agent 的工作。"
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "此排程已過期。請先編輯其時間設定，再恢復排程。"
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "無法載入排程任務"
@@ -3281,8 +3311,14 @@
     "scheduled_tasks_description_overview": {
         "message": "在 Sentinel 中檢視 Phi Agent 的任務、排程與執行記錄。"
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "暫停之後的自動執行。已開始的執行會繼續進行。"
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agent 未執行"
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "恢復自動執行，並計算下次執行時間。"
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "先選擇最簡單的時間選項。只有日曆式排程才使用 cron。"
@@ -3292,6 +3328,9 @@
     },
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "當執行中的任務超過此時間時，將其標記為失敗。"
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "目前無法取得此任務。請先檢查任務狀態，再恢復排程。"
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "選填。留空時會使用執行 Phi Agent 之裝置的本機時區。"
@@ -3389,6 +3428,9 @@
     "scheduled_tasks_label_minutes": {
         "message": "分鐘"
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "下次：{{time}}"
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "目前沒有進行中的執行"
     },
@@ -3451,6 +3493,9 @@
     },
     "scheduled_tasks_label_schedules": {
         "message": "排程"
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "「{{task}}」的排程"
     },
     "scheduled_tasks_label_second": {
         "message": "秒"

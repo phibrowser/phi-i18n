@@ -17,6 +17,15 @@
     "app_name": {
         "message": "Sentinel"
     },
+    "artifact_preview_description_failed": {
+        "message": "无法预览此文件。文件可能不可用、大于 128 MB，或格式不受支持。"
+    },
+    "artifact_preview_label_image_preview": {
+        "message": "图片预览"
+    },
+    "artifact_preview_label_preview": {
+        "message": "预览"
+    },
     "backup_export_action_export_data": {
         "message": "导出数据…"
     },
@@ -2204,8 +2213,14 @@
     "notifications_tasks_schedule_paused": {
         "message": "计划已暂停"
     },
+    "notifications_tasks_schedule_resume_completed": {
+        "message": "此计划已结束，不会再安排运行。"
+    },
     "notifications_tasks_schedule_resume_failed": {
         "message": "恢复计划失败"
+    },
+    "notifications_tasks_schedule_resume_no_next_run": {
+        "message": "未安排下次运行。请检查计划的定时设置。"
     },
     "notifications_tasks_schedule_resumed": {
         "message": "计划已恢复"
@@ -3167,6 +3182,9 @@
     "scheduled_tasks_accessible_label_increase_every_value": {
         "message": "增大间隔数值"
     },
+    "scheduled_tasks_accessible_label_manage_task_schedules": {
+        "message": "管理 {{task}} 的计划"
+    },
     "scheduled_tasks_accessible_label_manual": {
         "message": "手动"
     },
@@ -3218,6 +3236,9 @@
     "scheduled_tasks_action_delete_task": {
         "message": "删除任务"
     },
+    "scheduled_tasks_action_manage_schedules": {
+        "message": "管理计划"
+    },
     "scheduled_tasks_action_now": {
         "message": "现在"
     },
@@ -3227,17 +3248,26 @@
     "scheduled_tasks_action_save_task": {
         "message": "保存任务"
     },
+    "scheduled_tasks_action_show_all_schedules": {
+        "message": "显示全部计划"
+    },
     "scheduled_tasks_description_active_run_settings": {
         "message": "控制 Sentinel 如何处理进行中的 Phi Agent 任务运行。"
     },
     "scheduled_tasks_description_allowed_timeout_range": {
         "message": "允许范围：{{minimum}} 至 {{maximum}}。"
     },
+    "scheduled_tasks_description_completed_schedule": {
+        "message": "此计划已结束，无法恢复。"
+    },
     "scheduled_tasks_description_delete_named": {
         "message": "此操作将从 Sentinel 中删除 <target>{{name}}</target>。"
     },
     "scheduled_tasks_description_empty_state_guidance": {
         "message": "创建任务，开始在 Sentinel 中跟踪 Phi Agent 的工作。"
+    },
+    "scheduled_tasks_description_expired_schedule": {
+        "message": "此计划已过期。请先编辑其定时设置，再恢复。"
     },
     "scheduled_tasks_description_failed_to_load_scheduled_tasks": {
         "message": "加载定时任务失败"
@@ -3281,8 +3311,14 @@
     "scheduled_tasks_description_overview": {
         "message": "在 Sentinel 中查看 Phi Agent 的任务、计划和运行记录。"
     },
+    "scheduled_tasks_description_pause_schedule": {
+        "message": "暂停后续的自动运行。已开始的运行将继续执行。"
+    },
     "scheduled_tasks_description_phi_agent_is_not_running": {
         "message": "Phi Agent 未在运行"
+    },
+    "scheduled_tasks_description_resume_schedule": {
+        "message": "恢复自动运行，并计算下次运行时间。"
     },
     "scheduled_tasks_description_schedule_type_guidance": {
         "message": "优先选择最简单的定时方式。仅在需要日历式计划时使用 cron。"
@@ -3292,6 +3328,9 @@
     },
     "scheduled_tasks_description_task_timeout_behavior": {
         "message": "当运行中的任务超过此时长时，将其标记为失败。"
+    },
+    "scheduled_tasks_description_task_unavailable": {
+        "message": "该任务不可用。请先检查其状态，再恢复。"
     },
     "scheduled_tasks_description_timezone_fallback": {
         "message": "可选。留空则使用运行 Phi Agent 的设备本地时区。"
@@ -3389,6 +3428,9 @@
     "scheduled_tasks_label_minutes": {
         "message": "分钟"
     },
+    "scheduled_tasks_label_next_scheduled_run": {
+        "message": "下次运行：{{time}}"
+    },
     "scheduled_tasks_label_no_current_run": {
         "message": "当前无运行"
     },
@@ -3451,6 +3493,9 @@
     },
     "scheduled_tasks_label_schedules": {
         "message": "计划"
+    },
+    "scheduled_tasks_label_schedules_for_task": {
+        "message": "{{task}} 的计划"
     },
     "scheduled_tasks_label_second": {
         "message": "秒"
