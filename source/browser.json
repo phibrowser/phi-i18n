@@ -577,7 +577,7 @@
     },
     "appearance": {
         "message": "Appearance",
-        "description": "Location: Browser. General settings - Appearance section title"
+        "description": "Location: Browser. View menu - Submenu for choosing System, Light, or Dark color appearance"
     },
     "applies_to_copy_link_to_highlight_in": {
         "message": "Applies to “Copy Link to Highlight” in the right-click menu. Turn off to copy the full link.",
@@ -2871,6 +2871,14 @@
         "message": "Edit Text",
         "description": "Location: Browser. Screenshot editor - Undo action for a text annotation"
     },
+    "edit_the_name_and_address_for_each": {
+        "message": "Edit the name and address for each pane of this split-view bookmark.",
+        "description": "Location: Browser. Bookmark editor - Subtitle explaining editing of a split-view bookmark with three or four panes"
+    },
+    "edit_the_name_and_address_for_each_709515": {
+        "message": "Edit the name and address for each pane of this pinned split.",
+        "description": "Location: Browser. Pinned tab editor - Subtitle explaining editing of a pinned split with three or four panes"
+    },
     "edit_the_name_and_address_for_this": {
         "message": "Edit the name and address for this bookmark.",
         "description": "Location: Browser. Bookmark editor - Subtitle explaining bookmark editing"
@@ -4211,6 +4219,10 @@
         "message": "Keep Phi open. This can take a few minutes.",
         "description": "Location: Browser. Sync setup - detail shown while this Mac's data is being replaced with the account's"
     },
+    "keep_pinned_tabs_loaded": {
+        "message": "Keep pinned tabs loaded",
+        "description": "Location: Browser. Advanced settings - Toggle title for keeping opened pinned tabs in memory instead of unloading them to free memory"
+    },
     "kiosk": {
         "message": "Kiosk",
         "description": "Location: Browser. Navigations settings - Kiosk section title"
@@ -4568,20 +4580,20 @@
         "description": "Location: Browser. Accessibility label of the grip at the top of a split pane that drags the pane to a new position"
     },
     "move_pane_down": {
-        "message": "Move Pane Down",
-        "description": "Location: Browser. Tab context menu - Move this pane one position down within a stacked split of three or four panes"
+        "message": "Move Focused Pane Down",
+        "description": "Location: Browser. Tab context menu - Move the focused pane one position down within a stacked split of three or four panes"
     },
     "move_pane_left": {
-        "message": "Move Pane Left",
-        "description": "Location: Browser. Tab context menu - Move this pane one position to the left within a side-by-side split of three or four panes"
+        "message": "Move Focused Pane Left",
+        "description": "Location: Browser. Tab context menu - Move the focused pane one position to the left within a side-by-side split of three or four panes"
     },
     "move_pane_right": {
-        "message": "Move Pane Right",
-        "description": "Location: Browser. Tab context menu - Move this pane one position to the right within a side-by-side split of three or four panes"
+        "message": "Move Focused Pane Right",
+        "description": "Location: Browser. Tab context menu - Move the focused pane one position to the right within a side-by-side split of three or four panes"
     },
     "move_pane_up": {
-        "message": "Move Pane Up",
-        "description": "Location: Browser. Tab context menu - Move this pane one position up within a stacked split of three or four panes"
+        "message": "Move Focused Pane Up",
+        "description": "Location: Browser. Tab context menu - Move the focused pane one position up within a stacked split of three or four panes"
     },
     "move_tab_left": {
         "message": "Move Tab Left",
@@ -5611,6 +5623,14 @@
         "message": "Pairing isn’t available right now.",
         "description": "Location: Browser. Sync setup - error shown when profile matching cannot start on this device right now"
     },
+    "pane_name": {
+        "message": "Pane %d Name",
+        "description": "Location: Browser. Bookmark and pinned tab editor - Label for the name input field of one pane of a split with three or four panes. %d is the pane's position, starting at 1"
+    },
+    "pane_url": {
+        "message": "Pane %d URL",
+        "description": "Location: Browser. Bookmark and pinned tab editor - Label for the URL input field of one pane of a split with three or four panes. %d is the pane's position, starting at 1"
+    },
     "park_at_edge": {
         "message": "Park at edge",
         "description": "Location: Browser. Auto picture-in-picture option - pop out, then park at the screen edge until clicked"
@@ -5898,6 +5918,10 @@
     "pinned_tabs_mk_7a66": {
         "message": "Pinned tabs",
         "description": "Location: Browser. Browser migration wizard - label of a migrated Profile's pinned tabs outcome"
+    },
+    "pinned_tabs_you_have_opened_stay_in": {
+        "message": "Pinned tabs you have opened stay in memory instead of being unloaded to free it.",
+        "description": "Location: Browser. Advanced settings - Explains that, while the toggle is on, pinned tabs the user has opened are not unloaded from memory"
     },
     "play": {
         "message": "Play",
