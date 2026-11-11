@@ -1,0 +1,503 @@
+{
+    "conversation_default_title": {
+        "message": "Nova conversa"
+    },
+    "conversation_new_chat": {
+        "message": "Novo chat"
+    },
+    "errors_auto_save_failed_final": {
+        "message": "Falha no salvamento automático. Tente novamente."
+    },
+    "errors_auto_save_retrying": {
+        "message": "Falha no salvamento automático, tentando de novo ({{current}}/{{total}})..."
+    },
+    "errors_balance_too_low": {
+        "message": "Você deixou o Phi bem ocupado. Volte mais tarde."
+    },
+    "errors_chat_id_required": {
+        "message": "O ID do chat é obrigatório."
+    },
+    "errors_chat_invalid_visibility": {
+        "message": "Configuração de visibilidade inválida. Use 'private' ou 'public'."
+    },
+    "errors_chat_pagination_conflict": {
+        "message": "Não é possível usar os parâmetros starting_after e ending_before ao mesmo tempo."
+    },
+    "errors_edit_delete_failed": {
+        "message": "Não foi possível sincronizar a edição com o servidor. As alterações serão salvas quando a resposta terminar."
+    },
+    "errors_forbidden": {
+        "message": "Acesso negado. Você não tem permissão para fazer isso."
+    },
+    "errors_load_conversation_failed": {
+        "message": "Não foi possível carregar a conversa. Tente novamente."
+    },
+    "errors_network": {
+        "message": "Erro de conexão de rede. Verifique sua conexão e tente novamente."
+    },
+    "errors_not_found": {
+        "message": "O recurso solicitado não foi encontrado."
+    },
+    "errors_save_message_failed": {
+        "message": "Não foi possível salvar a mensagem. Tente novamente."
+    },
+    "errors_server_error": {
+        "message": "Ocorreu um erro no servidor. Tente novamente mais tarde."
+    },
+    "errors_timeout": {
+        "message": "A solicitação expirou. Tente novamente."
+    },
+    "errors_token_subnet_restricted": {
+        "message": "Este token só pode ser usado a partir de endereços IP específicos."
+    },
+    "errors_types_aiproxy_error": {
+        "message": "Ocorreu um erro no serviço. Tente novamente mais tarde."
+    },
+    "errors_types_bad_response": {
+        "message": "Resposta inválida do servidor. Tente novamente."
+    },
+    "errors_types_group_balance_not_enough": {
+        "message": "Você deixou o Phi bem ocupado. Volte mais tarde."
+    },
+    "errors_types_invalid_request_error": {
+        "message": "Solicitação inválida. Verifique os dados e tente novamente."
+    },
+    "errors_types_overloaded_error": {
+        "message": "O serviço está sobrecarregado no momento. Tente novamente em instantes."
+    },
+    "errors_types_rate_limit_error": {
+        "message": "Limite de solicitações excedido. Faça solicitações com menos frequência."
+    },
+    "errors_types_request_too_large": {
+        "message": "A solicitação é grande demais. Reduza o tamanho do conteúdo."
+    },
+    "errors_types_token_period_quota_exhausted": {
+        "message": "Você deixou o Phi bem ocupado. Tente novamente mais tarde."
+    },
+    "errors_types_token_quota_exhausted": {
+        "message": "Você deixou o Phi bem ocupado. Volte mais tarde."
+    },
+    "errors_types_upstream_error": {
+        "message": "Erro no provedor do serviço de IA. Tente novamente mais tarde."
+    },
+    "errors_unauthorized": {
+        "message": "Falha na autenticação. Verifique suas credenciais."
+    },
+    "errors_unknown": {
+        "message": "Ocorreu um erro inesperado. Tente novamente."
+    },
+    "errors_upload_failed": {
+        "message": "Não foi possível enviar o arquivo. Tente novamente."
+    },
+    "errors_upload_file_too_large": {
+        "message": "O arquivo excede o limite de 10MB. Escolha um arquivo menor."
+    },
+    "errors_upload_no_file": {
+        "message": "Nenhum arquivo selecionado. Escolha um arquivo para enviar."
+    },
+    "errors_upload_read_failed": {
+        "message": "Não foi possível ler o arquivo. Tente novamente."
+    },
+    "errors_upload_request_too_large": {
+        "message": "A solicitação excede o limite de tamanho. Reduza o tamanho ou a quantidade de arquivos."
+    },
+    "errors_upload_service_unavailable": {
+        "message": "O serviço de envio de arquivos está indisponível no momento. Tente novamente mais tarde."
+    },
+    "errors_upload_unsupported_type": {
+        "message": "Tipo de arquivo não suportado. Só são aceitos arquivos JPEG, PNG, GIF, WebP e PDF."
+    },
+    "features_chat_with_tabs_tab_converted_to_pdf": {
+        "message": "A aba de PDF foi convertida em anexo de arquivo."
+    },
+    "features_chat_with_tabs_tab_removed_unsupported": {
+        "message": "Aba de origem removida: página não suportada."
+    },
+    "features_feature_error": {
+        "message": "Não foi possível carregar o contexto"
+    },
+    "features_loading_chat_with_tabs": {
+        "message": "Carregando o conteúdo da aba..."
+    },
+    "features_pdf_attach_failed": {
+        "message": "Não foi possível anexar o arquivo PDF."
+    },
+    "features_retry": {
+        "message": "Tentar novamente"
+    },
+    "file_remove": {
+        "message": "Remover arquivo"
+    },
+    "file_text_file_too_large": {
+        "message": "O arquivo de texto é grande demais; o tamanho máximo é 50KB"
+    },
+    "message_cancel": {
+        "message": "Cancelar"
+    },
+    "message_collapse": {
+        "message": "Recolher"
+    },
+    "message_copy": {
+        "message": "Copiar"
+    },
+    "message_create_conversation_failed": {
+        "message": "Não foi possível criar a conversa"
+    },
+    "message_display_reasoning": {
+        "message": "Mostrar raciocínio"
+    },
+    "message_download": {
+        "message": "Baixar"
+    },
+    "message_edit": {
+        "message": "Editar"
+    },
+    "message_expand": {
+        "message": "Expandir"
+    },
+    "message_file_file": {
+        "message": "Arquivo"
+    },
+    "message_file_image": {
+        "message": "Imagem"
+    },
+    "message_quota_exhausted": {
+        "message": "Hora de uma pausa"
+    },
+    "message_quota_exhausted_description": {
+        "message": "Você deixou o Phi bem ocupado. Volte mais tarde."
+    },
+    "message_regenerate": {
+        "message": "Gerar novamente"
+    },
+    "message_request_failed": {
+        "message": "A solicitação falhou"
+    },
+    "message_resume": {
+        "message": "Retomar"
+    },
+    "message_retry": {
+        "message": "Tentar novamente"
+    },
+    "message_show_less": {
+        "message": "Mostrar menos"
+    },
+    "message_show_more": {
+        "message": "Mostrar mais"
+    },
+    "message_sources_unknown": {
+        "message": "Fonte desconhecida"
+    },
+    "message_submit": {
+        "message": "Enviar"
+    },
+    "message_thinking": {
+        "message": "Pensando..."
+    },
+    "message_tool_approve": {
+        "message": "Aprovar"
+    },
+    "message_tool_awaiting_approval": {
+        "message": "Aguardando aprovação"
+    },
+    "message_tool_completed": {
+        "message": "Concluído"
+    },
+    "message_tool_denied": {
+        "message": "Negado"
+    },
+    "message_tool_deny": {
+        "message": "Negar"
+    },
+    "message_tool_error": {
+        "message": "Erro"
+    },
+    "message_tool_input": {
+        "message": "Entrada"
+    },
+    "message_tool_output": {
+        "message": "Saída"
+    },
+    "message_tool_running": {
+        "message": "Em execução"
+    },
+    "message_waiting_for_response": {
+        "message": "Aguardando a resposta da IA"
+    },
+    "newtab_custom": {
+        "message": "Personalizar"
+    },
+    "newtab_custom_hint": {
+        "message": "Crie seus próprios widgets aqui"
+    },
+    "newtab_custom_hint_close": {
+        "message": "Dispensar"
+    },
+    "newtab_dismiss_suggestion": {
+        "message": "Dispensar sugestão"
+    },
+    "newtab_enter_chat": {
+        "message": "Conversar sobre esta saudação"
+    },
+    "newtab_insight": {
+        "message": "Insight"
+    },
+    "newtab_insight_empty": {
+        "message": "Continue navegando e os insights vão aparecer conforme surgirem padrões."
+    },
+    "newtab_insight_evidence": {
+        "message": "Evidências"
+    },
+    "newtab_insight_loading": {
+        "message": "Analisando seus padrões..."
+    },
+    "newtab_insight_title": {
+        "message": "Insight"
+    },
+    "newtab_memory": {
+        "message": "Memória"
+    },
+    "newtab_page_title": {
+        "message": "Nova aba"
+    },
+    "newtab_profile": {
+        "message": "Você"
+    },
+    "newtab_profile_empty": {
+        "message": "Ainda não há dados de retrato. Continue navegando e vou conhecendo você com o tempo."
+    },
+    "newtab_profile_feedback": {
+        "message": "Este retrato se baseia na sua atividade de navegação. Se algo parecer errado ou você quiser acrescentar alguma coisa, é só me dizer que eu atualizo."
+    },
+    "newtab_profile_input_placeholder": {
+        "message": "Diga o que devo atualizar..."
+    },
+    "newtab_profile_loading": {
+        "message": "Carregando o retrato..."
+    },
+    "newtab_profile_title": {
+        "message": "Seu retrato"
+    },
+    "newtab_profile_update_error": {
+        "message": "Desculpe, não consegui atualizar o retrato. Tente novamente."
+    },
+    "newtab_profile_update_not_profile_instruction": {
+        "message": "Isso não parece uma alteração no retrato. Use esta caixa quando quiser corrigir ou acrescentar algo sobre você no seu retrato, como seu trabalho, interesses ou preferências."
+    },
+    "newtab_profile_update_success": {
+        "message": "Pronto! Atualizei seu retrato."
+    },
+    "newtab_profile_updating": {
+        "message": "Atualizando seu retrato..."
+    },
+    "newtab_search": {
+        "message": "Pesquisar"
+    },
+    "newtab_share": {
+        "message": "Compartilhar esta saudação"
+    },
+    "newtab_share_dialog_close": {
+        "message": "Fechar"
+    },
+    "newtab_share_dialog_copied": {
+        "message": "Imagem copiada para a área de transferência"
+    },
+    "newtab_share_dialog_copied_for_discord": {
+        "message": "Imagem copiada. Cole-a na sua mensagem do Discord."
+    },
+    "newtab_share_dialog_copy_image": {
+        "message": "Copiar imagem"
+    },
+    "newtab_share_dialog_description": {
+        "message": "Compartilhe esta saudação como imagem."
+    },
+    "newtab_share_dialog_download_image": {
+        "message": "Baixar imagem"
+    },
+    "newtab_share_dialog_failed": {
+        "message": "Não foi possível compartilhar a saudação"
+    },
+    "newtab_share_dialog_share_label": {
+        "message": "Compartilhar"
+    },
+    "newtab_share_dialog_share_to_discord": {
+        "message": "Compartilhar no Discord"
+    },
+    "newtab_share_dialog_share_to_x": {
+        "message": "Compartilhar no X"
+    },
+    "newtab_share_dialog_title": {
+        "message": "Compartilhe sua saudação"
+    },
+    "quota_no_automatic_reset": {
+        "message": "Ainda não há um horário definido para continuar."
+    },
+    "quota_period_exhausted": {
+        "message": "Você deixou o Phi bem ocupado. Hora de uma pausa."
+    },
+    "quota_resets_at": {
+        "message": "Você poderá continuar {{relative}} ({{absolute}})."
+    },
+    "quota_total_exhausted": {
+        "message": "Você deixou o Phi bem ocupado. Volte mais tarde."
+    },
+    "settings_title": {
+        "message": "Configurações"
+    },
+    "user_input_add_attachment": {
+        "message": "Adicionar anexo"
+    },
+    "user_input_add_screenshot": {
+        "message": "Adicionar captura de tela"
+    },
+    "user_input_all_tabs_added": {
+        "message": "Todas as abas foram adicionadas"
+    },
+    "user_input_capture_screenshot_failed": {
+        "message": "Não foi possível fazer a captura de tela. Tente novamente em uma página da web comum."
+    },
+    "user_input_nebula_story_letter": {
+        "message": "História da Nebulosa · {{date}}"
+    },
+    "user_input_nebula_story_letter_undated": {
+        "message": "História da Nebulosa"
+    },
+    "user_input_no_available_tabs": {
+        "message": "Nenhuma aba disponível"
+    },
+    "user_input_placeholder": {
+        "message": "Digite uma mensagem..."
+    },
+    "user_input_send": {
+        "message": "Enviar"
+    },
+    "user_input_split_view": {
+        "message": "Visualização dividida"
+    },
+    "user_input_split_view_member_count": {
+        "message": "{{count}} aba(s)"
+    },
+    "user_input_stop": {
+        "message": "Parar"
+    },
+    "user_input_tab_group_member_count": {
+        "message": "{{count}} aba(s)"
+    },
+    "user_input_tab_group_untitled": {
+        "message": "Grupo de abas"
+    },
+    "user_input_tab_no_longer_exists": {
+        "message": "A aba \"{{title}}\" não existe mais e foi removida"
+    },
+    "user_input_tabs": {
+        "message": "Abas"
+    },
+    "user_input_upload_from_computer": {
+        "message": "Enviar do computador"
+    },
+    "user_input_upload_section": {
+        "message": "Enviar (PDF / TXT / Imagem)"
+    },
+    "welcome_title": {
+        "message": "Olá, eu sou {{name}}"
+    },
+    "widgets_bottom_panel_add": {
+        "message": "Adicionar widget"
+    },
+    "widgets_bottom_panel_back": {
+        "message": "Voltar"
+    },
+    "widgets_bottom_panel_collapse": {
+        "message": "Ocultar painel"
+    },
+    "widgets_bottom_panel_label": {
+        "message": "Painel de widgets"
+    },
+    "widgets_bottom_panel_reload": {
+        "message": "Recarregar widgets"
+    },
+    "widgets_bottom_panel_tab_widgets": {
+        "message": "Widgets"
+    },
+    "widgets_cancel": {
+        "message": "Cancelar"
+    },
+    "widgets_drop_zone_label": {
+        "message": "Solte os widgets aqui"
+    },
+    "widgets_library_delete_confirm": {
+        "message": "Excluir \"{{title}}\"?"
+    },
+    "widgets_library_drag": {
+        "message": "Arraste para a página"
+    },
+    "widgets_library_empty": {
+        "message": "Nada para adicionar no momento. Novas ideias de widgets vão aparecer aqui."
+    },
+    "widgets_library_untitled": {
+        "message": "Widget sem título"
+    },
+    "widgets_loading": {
+        "message": "Só um instante..."
+    },
+    "widgets_menu_add_to_page": {
+        "message": "Adicionar à página"
+    },
+    "widgets_menu_delete": {
+        "message": "Excluir"
+    },
+    "widgets_menu_delete_all": {
+        "message": "Excluir TODOS"
+    },
+    "widgets_menu_delete_all_confirm": {
+        "message": "Excluir todos os widgets deste painel?"
+    },
+    "widgets_menu_edit": {
+        "message": "Editar"
+    },
+    "widgets_menu_inspect": {
+        "message": "Inspecionar código-fonte"
+    },
+    "widgets_menu_refresh": {
+        "message": "Atualizar"
+    },
+    "widgets_menu_trigger": {
+        "message": "Menu do widget"
+    },
+    "widgets_pending_install": {
+        "message": "Instalar"
+    },
+    "widgets_pending_refresh": {
+        "message": "Atualizar"
+    },
+    "widgets_suggested_badge": {
+        "message": "Sugerido"
+    },
+    "widgets_suggested_close": {
+        "message": "Fechar"
+    },
+    "widgets_suggested_hint": {
+        "message": "O Phi sugeriu este widget. Mantenha-o ou feche-o pelo menu ···."
+    },
+    "widgets_suggested_hint_trigger": {
+        "message": "Sobre esta sugestão"
+    },
+    "widgets_suggested_keep": {
+        "message": "Manter este widget"
+    },
+    "widgets_suggested_keep_short": {
+        "message": "Manter"
+    },
+    "widgets_suggested_remove": {
+        "message": "Remover esta sugestão"
+    },
+    "widgets_suggested_removed": {
+        "message": "Removendo"
+    },
+    "widgets_suggested_stop": {
+        "message": "Parar de sugerir"
+    },
+    "widgets_suggested_undo": {
+        "message": "Desfazer"
+    }
+}
