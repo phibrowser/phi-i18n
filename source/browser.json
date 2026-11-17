@@ -111,6 +111,10 @@
         "message": "Add Left Split",
         "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the left third of the page"
     },
+    "add_left_split_7fd49f": {
+        "message": "Add left split",
+        "description": "Location: Browser. Omnibox commands - Adds a new pane to the left of the current tab"
+    },
     "add_new": {
         "message": "Add New",
         "description": "Location: Browser. Shortcuts settings - Placeholder text when no shortcut is assigned"
@@ -159,6 +163,10 @@
         "message": "Add Split to Folder",
         "description": "Location: Browser. Tab context menu - Save both panes of the split into a chosen bookmark folder"
     },
+    "add_split_view": {
+        "message": "Add split view",
+        "description": "Location: Browser. Omnibox commands - Command that splits the current tab with a new tab"
+    },
     "add_tabs_to_new_group": {
         "message": "Add Tabs to New Group",
         "description": "Location: Browser. Tab multi-selection context menu - create a new tab group from selected tabs"
@@ -198,6 +206,14 @@
     "add_top_split": {
         "message": "Add Top Split",
         "description": "Location: Browser. Drop-zone hint shown when dragging a tab over the top third of the page"
+    },
+    "add_top_split_fa4dbe": {
+        "message": "Add top split",
+        "description": "Location: Browser. Omnibox commands - Adds a new pane above the current tab"
+    },
+    "add_vertical_split_view": {
+        "message": "Add vertical split view",
+        "description": "Location: Browser. Omnibox commands - Adds a new pane below the current tab"
     },
     "added": {
         "message": "%d added",
@@ -479,6 +495,10 @@
         "message": "Also include %@ and all its subdomains",
         "description": "Location: Browser. Website memory deletion - Checkbox that expands removal to the parent site; %@ is its registrable domain"
     },
+    "also_peek_links_to_the_same_site": {
+        "message": "Also peek links to the same site",
+        "description": "Location: Browser. Navigations settings - Toggle title for also opening same-site new-tab links from pinned tabs and bookmarks in Peek View"
+    },
     "always": {
         "message": "Always",
         "description": "Location: Browser. Credential approval - duration segment"
@@ -698,6 +718,10 @@
     "back": {
         "message": "Back",
         "description": "Location: Browser. CDP consent - return from the deny scope step to the allow-or-deny decision"
+    },
+    "back_08b123": {
+        "message": "Back",
+        "description": "Location: Browser. Tab area context menu - Top Buttons submenu item that shows or hides the sidebar header's Back button"
     },
     "back_3ac993": {
         "message": "Back",
@@ -1035,10 +1059,6 @@
         "message": "Cancel",
         "description": "Location: Browser. Browser migration wizard - button dismissing the second-migration confirmation without starting anything"
     },
-    "cancel_0bd68f": {
-        "message": "Cancel",
-        "description": "Location: Browser. Account settings - Cancel button in rename dialog"
-    },
     "cancel_1389c3": {
         "message": "Cancel",
         "description": "Location: Browser. User data import - Alert button to cancel importing user data"
@@ -1151,10 +1171,6 @@
         "message": "Cancel",
         "description": "Location: Browser. Cancel button"
     },
-    "cancel_cce92d": {
-        "message": "Cancel",
-        "description": "Location: Browser. Cancel button"
-    },
     "cancel_cde7e9": {
         "message": "Cancel",
         "description": "Location: Browser. Cancel button"
@@ -1211,10 +1227,6 @@
         "message": "Cancel",
         "description": "Location: Browser. Account data export - Button dismissing the confirmation"
     },
-    "cancel_f89d01": {
-        "message": "Cancel",
-        "description": "Location: Browser. Cancel button"
-    },
     "canceled": {
         "message": "Canceled",
         "description": "Location: Browser. Download item row - Status label when download was cancelled"
@@ -1263,6 +1275,10 @@
         "message": "Change Icon...",
         "description": "Location: Browser. Bookmark folder context menu - Opens the folder icon picker"
     },
+    "change_icon_4c27c2": {
+        "message": "Change Icon…",
+        "description": "Location: Browser. Pinned tab context menu - Open the emoji and icon picker"
+    },
     "change_icon_6b2a15": {
         "message": "Change Icon…",
         "description": "Location: Browser. Tab-area menu - opens the icon/emoji picker below the active Space's icon"
@@ -1270,10 +1286,6 @@
     "change_icon_78ac45": {
         "message": "Change Icon…",
         "description": "Location: Browser. Opens the icon/emoji picker for a Space"
-    },
-    "change_name": {
-        "message": "Change Name",
-        "description": "Location: Browser. Account settings - Dialog title for changing user name"
     },
     "change_pinned_tab_scope": {
         "message": "Change Pinned Tab Scope?",
@@ -1633,7 +1645,7 @@
     },
     "close_tab": {
         "message": "Close Tab",
-        "description": "Location: Browser. Tab group overview - Accessibility label for closing one pane of a split card"
+        "description": "Location: Browser. Sidebar bookmark context menu - Closes the tab currently open from this bookmark; the bookmark itself stays"
     },
     "close_tab_a62eb7": {
         "message": "Close Tab",
@@ -2178,6 +2190,10 @@
     "couldn_t_load_your_account_s_spaces_68c629": {
         "message": "Couldn’t load your account’s Spaces in time. Check your connection and retry.",
         "description": "Location: Browser. Sync setup - error shown when the account's Spaces did not load in time"
+    },
+    "couldn_t_open_tab": {
+        "message": "Couldn’t open tab",
+        "description": "Location: Browser. Tab open failure title"
     },
     "couldn_t_reach_the_data_export_service": {
         "message": "Couldn't reach the data export service. Check your internet connection and try again.",
@@ -2987,19 +3003,11 @@
         "message": "Enter a name for the new profile. Each profile has its own cookies, history, and extensions.",
         "description": "Location: Browser. Body of the create-profile dialog"
     },
-    "enter_a_new_name_for_this_profile": {
-        "message": "Enter a new name for this profile.",
-        "description": "Location: Browser. Body of the rename-profile dialog"
-    },
     "enter_a_new_name_for_this_space": {
         "message": "Enter a new name for this Space.",
         "description": "Location: Browser. Body of the rename-Space dialog"
     },
     "enter_a_new_name_for_this_space_9d5030": {
-        "message": "Enter a new name for this Space.",
-        "description": "Location: Browser. Body of the rename-Space dialog"
-    },
-    "enter_a_new_name_for_this_space_fb6b62": {
         "message": "Enter a new name for this Space.",
         "description": "Location: Browser. Body of the rename-Space dialog"
     },
@@ -3707,6 +3715,10 @@
         "message": "Forward",
         "description": "Location: Browser. Web content header - Accessibility description for forward navigation button"
     },
+    "forward_79e7c6": {
+        "message": "Forward",
+        "description": "Location: Browser. Tab area context menu - Top Buttons submenu item that shows or hides the sidebar header's Forward button"
+    },
     "forward_e876ba": {
         "message": "Forward",
         "description": "Location: Browser. Shortcuts settings - Command title for navigating forward"
@@ -3819,6 +3831,10 @@
         "message": "Group Tab",
         "description": "Location: Browser. Shortcuts settings - Command title for changing the current tab's group"
     },
+    "group_tabs_opened_from_links": {
+        "message": "Group tabs opened from links",
+        "description": "Location: Browser. Advanced settings - Toggle for putting a link the user opens in a new tab into a tab group with the page it was opened from"
+    },
     "guest": {
         "message": "Guest",
         "description": "Location: Browser. Account settings - Pane title shown while using Phi in Guest Mode"
@@ -3914,6 +3930,14 @@
     "hold_to_switch": {
         "message": "Hold ⌘ to switch →",
         "description": "Location: Browser. Omnibox suggestion - Hint shown for suggestions that can switch to an open tab"
+    },
+    "hold_to_switch_to_bookmark": {
+        "message": "Hold ⌘ to switch to Bookmark →",
+        "description": "Location: Browser. Omnibox suggestion - Trailing hint on a bookmark result; choosing it with Command held opens or focuses that bookmark, without it opens the page in a new tab"
+    },
+    "hold_to_switch_to_pin": {
+        "message": "Hold ⌘ to switch to Pin →",
+        "description": "Location: Browser. Omnibox suggestion - Trailing hint on a pinned tab result; choosing it with Command held opens or focuses that pin, without it opens the page in a new tab"
     },
     "home": {
         "message": "Home",
@@ -4103,6 +4127,10 @@
         "message": "Improve Translations for Phi Browser",
         "description": "Location: Browser. Help menu - Menu item below What's New that opens Phi's translation contribution website"
     },
+    "in_sidebar_layouts_place_new_tabs_at": {
+        "message": "In sidebar layouts, place new tabs at the top of the tab list. Comfortable always opens new tabs at the end.",
+        "description": "Location: Browser. General settings - New tab position applies only to sidebar layouts"
+    },
     "in_use_by_a_space": {
         "message": "%@ — in use by a Space",
         "description": "Location: Browser. Spaces menu - Delete Profile row label for a profile bound to a Space"
@@ -4175,14 +4203,6 @@
         "message": "Invalid image source",
         "description": "Location: Browser. Image preview error"
     },
-    "invalid_input": {
-        "message": "Invalid Input",
-        "description": "Location: Browser. Account settings - Alert title for invalid input"
-    },
-    "invalid_input_2df9b2": {
-        "message": "Invalid Input",
-        "description": "Location: Browser. Account settings - Alert title for invalid input"
-    },
     "invitation_code": {
         "message": "Invitation Code",
         "description": "Location: Browser. Account settings - Label for invitation code field"
@@ -4251,6 +4271,10 @@
         "message": "Language",
         "description": "Location: Browser. General settings - Language section title"
     },
+    "large": {
+        "message": "Large",
+        "description": "Location: Browser. Peek panel size option - The panel covers nearly the full width of the page"
+    },
     "last_problem": {
         "message": "Last problem: %1$@ (%2$@)",
         "description": "Location: Browser. Sync settings - the most recent sync problem on this Mac; %1$@ is the kind of problem, such as No connection, %2$@ is how long ago it happened, such as 5 minutes ago"
@@ -4294,6 +4318,10 @@
     "leave_empty_to_use_the_auto_generated": {
         "message": "Leave empty to use the auto-generated name.",
         "description": "Location: Browser. Tab group rename alert - Hint that empty title clears to auto-name"
+    },
+    "left": {
+        "message": "Left",
+        "description": "Location: Browser. General settings - Left sidebar position"
     },
     "left_name": {
         "message": "Left Name",
@@ -4359,6 +4387,10 @@
         "message": "Linking...",
         "description": "Location: Browser. Phi Link - Custom bot linking text"
     },
+    "links_in_a_pinned_tab_or_bookmark": {
+        "message": "Links in a pinned tab or bookmark that would open a new tab open in a Peek panel, even when they stay on the same site.",
+        "description": "Location: Browser. Navigations settings - Explanation of the toggle that extends automatic Peek to same-site links that open a new tab"
+    },
     "links_opened_from_other_apps_use_a": {
         "message": "Links opened from other apps use a focused, single-page Kiosk window.",
         "description": "Location: Browser. Navigations settings - Explanation of the external-links Kiosk toggle"
@@ -4368,7 +4400,7 @@
         "description": "Location: Browser. Navigations settings - Explanation of the automatic Peek View toggle for pinned tabs and bookmarks"
     },
     "links_the_skill_bundled_in_this_app": {
-        "message": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Phi over the DevTools Protocol. Pi also gets a companion extension that wakes idle sessions from Agent Transcript commands. Requires Node 22+.",
+        "message": "Links the skill bundled in this app into an AI coding agent’s skills folder so it can drive Phi over the DevTools Protocol. Requires Node 22+.",
         "description": "Location: Browser. Developer settings - Explanation for the phi-browser skill installer"
     },
     "live_running": {
@@ -4435,6 +4467,10 @@
         "message": "Manage Extensions",
         "description": "Location: Browser. Profile menu - Manage Extensions action"
     },
+    "manage_extensions_95612a": {
+        "message": "Manage extensions",
+        "description": "Location: Browser. Omnibox commands - Command that opens the extensions management page"
+    },
     "manage_installed_browser_extensions": {
         "message": "Manage installed browser extensions.",
         "description": "Location: Browser. Shortcuts settings - Description of the extensions command"
@@ -4483,6 +4519,10 @@
         "message": "Media",
         "description": "Location: Browser. Sidebar media player - Fallback title when the page and media session have no title"
     },
+    "medium": {
+        "message": "Medium",
+        "description": "Location: Browser. Peek panel size option - The panel leaves wider margins on both sides of the page"
+    },
     "memory": {
         "message": "Memory",
         "description": "Location: Browser. Tab area context menu - Bottom Buttons submenu item that shows or hides the AI memory button"
@@ -4526,6 +4566,10 @@
     "min_ago": {
         "message": "%d min ago",
         "description": "Location: Browser. Download item row - Relative time showing minutes since download completed"
+    },
+    "min_ago_d55d2b": {
+        "message": "%d min ago",
+        "description": "Location: Browser. Sidebar folder preview - Time since a bookmarked page was last opened, shown on the second line of its row under the title; %d is the number of minutes (1-59)"
     },
     "mini_player": {
         "message": "Mini Player",
@@ -4610,6 +4654,14 @@
     "move_pane_up": {
         "message": "Move Focused Pane Up",
         "description": "Location: Browser. Tab context menu - Move the focused pane one position up within a stacked split of three or four panes"
+    },
+    "move_sidebar_to_left": {
+        "message": "Move Sidebar to Left",
+        "description": "Location: Browser. Sidebar context menu - Move vertical tabs to the left window edge"
+    },
+    "move_sidebar_to_right": {
+        "message": "Move Sidebar to Right",
+        "description": "Location: Browser. Sidebar context menu - Move vertical tabs to the right window edge"
     },
     "move_tab_left": {
         "message": "Move Tab Left",
@@ -5115,6 +5167,10 @@
         "message": "No Matching Downloads",
         "description": "Location: Browser. All downloads window - No downloads in the selected profiles match the search"
     },
+    "no_matching_pages": {
+        "message": "No Matching Pages",
+        "description": "Location: Browser. Sidebar folder preview - Shown in place of the page list when no page title or URL in the folder or Space matches the search"
+    },
     "no_phi_or_sentinel_log_folders_were": {
         "message": "No Phi or Sentinel log folders were found.",
         "description": "Location: Browser. Help menu - Log export alert when both PhiLogs and Sentinel log directory are missing"
@@ -5162,6 +5218,10 @@
     "no_share_actions_available_929d34": {
         "message": "No share actions available",
         "description": "Location: Browser. Address bar menu - Placeholder when no sharing services are available"
+    },
+    "no_space_uses_this_profile_assign_it": {
+        "message": "No Space uses this profile. Assign it to a Space to manage its data and settings.",
+        "description": "Location: Browser. Profiles settings - note under the disabled data & settings links of a profile that no Space is bound to"
     },
     "no_spaces": {
         "message": "No Spaces",
@@ -5326,14 +5386,6 @@
     "ok_5880a0": {
         "message": "OK",
         "description": "Location: Browser. Developer settings - Alert dismiss button"
-    },
-    "ok_5d19f2": {
-        "message": "OK",
-        "description": "Location: Browser. Account settings - OK button"
-    },
-    "ok_659aba": {
-        "message": "OK",
-        "description": "Location: Browser. Account settings - OK button"
     },
     "ok_6d446e": {
         "message": "OK",
@@ -5531,6 +5583,10 @@
         "message": "Open links in a lightweight window, one page at a time.",
         "description": "Location: Browser. Navigations settings - Description of Kiosk windows"
     },
+    "open_new_tabs_at_top": {
+        "message": "Open new tabs at top",
+        "description": "Location: Browser. General settings - Ordinary new tab position toggle"
+    },
     "open_or_close_reader_for_the_current": {
         "message": "Open or close Reader for the current page.",
         "description": "Location: Browser. Shortcuts settings - Description of the reader command"
@@ -5694,6 +5750,10 @@
     "peek": {
         "message": "Peek",
         "description": "Location: Browser. Navigations settings - Peek section title"
+    },
+    "peek_panel_size": {
+        "message": "Peek panel size",
+        "description": "Location: Browser. Navigations settings - Row title for choosing how wide the Peek panel is over the page"
     },
     "performance": {
         "message": "Performance",
@@ -6247,6 +6307,10 @@
         "message": "Released into a command",
         "description": "Location: Browser. Credential approval - run headline"
     },
+    "reload": {
+        "message": "Reload",
+        "description": "Location: Browser. Tab area context menu - Top Buttons submenu item that shows or hides the sidebar header's Reload button"
+    },
     "reload_page": {
         "message": "Reload Page",
         "description": "Location: Browser. Shortcuts settings - Command title for reloading the current page"
@@ -6323,6 +6387,10 @@
         "message": "Remove rule",
         "description": "Location: Browser. Tooltip for remove-rule button"
     },
+    "remove_split_view": {
+        "message": "Remove split view",
+        "description": "Location: Browser. Omnibox commands - Separates the current split into two tabs without closing either page"
+    },
     "remove_this_device": {
         "message": "Remove This Device",
         "description": "Location: Browser. Remove this device from sync - confirmation dialog button that removes the device"
@@ -6363,14 +6431,6 @@
         "message": "Rename...",
         "description": "Location: Browser. Bookmark Rename menu item"
     },
-    "rename_53e10b": {
-        "message": "Rename",
-        "description": "Location: Browser. Rename button"
-    },
-    "rename_5c0afe": {
-        "message": "Rename",
-        "description": "Location: Browser. Rename button"
-    },
     "rename_635e59": {
         "message": "Rename…",
         "description": "Location: Browser. Spaces context menu - Rename Space action"
@@ -6391,10 +6451,6 @@
         "message": "Rename Group",
         "description": "Location: Browser. Tab group rename alert - Title"
     },
-    "rename_profile": {
-        "message": "Rename Profile",
-        "description": "Location: Browser. Title of the rename-profile dialog"
-    },
     "rename_selected_profile": {
         "message": "Rename selected profile",
         "description": "Location: Browser. Profiles settings - rename profile tooltip"
@@ -6406,10 +6462,6 @@
     "rename_space": {
         "message": "Rename Space…",
         "description": "Location: Browser. Active Space context menu - Rename the active Space"
-    },
-    "rename_space_845767": {
-        "message": "Rename Space",
-        "description": "Location: Browser. Title of the rename-Space dialog"
     },
     "rename_space_8f52e0": {
         "message": "Rename Space",
@@ -6527,6 +6579,10 @@
         "message": "Reset",
         "description": "Location: Browser. Theme editor - restore the palette before manual adjustments"
     },
+    "reset_icon": {
+        "message": "Reset Icon",
+        "description": "Location: Browser. Icon picker - Restore the original icon"
+    },
     "reset_sync": {
         "message": "Reset sync",
         "description": "Location: Browser. Sync settings - title of the row, shown when this Mac is the account's only active device, that removes it and deletes all of the account's sync data"
@@ -6635,6 +6691,10 @@
         "message": "Revoke All",
         "description": "Location: Browser. Approvals sheet - revoke all button"
     },
+    "right": {
+        "message": "Right",
+        "description": "Location: Browser. General settings - Right sidebar position"
+    },
     "right_name": {
         "message": "Right Name",
         "description": "Location: Browser. Bookmark editor - Label for the right (secondary) title input field on a split-view bookmark"
@@ -6678,10 +6738,6 @@
     "save": {
         "message": "Save",
         "description": "Location: Browser. User data export - NSSavePanel confirm button title when saving Phi user data backup zip"
-    },
-    "save_08f3f4": {
-        "message": "Save",
-        "description": "Location: Browser. Account settings - Save button in rename dialog"
     },
     "save_1e63b3": {
         "message": "Save",
@@ -6807,6 +6863,10 @@
         "message": "Search",
         "description": "Location: Browser. Address bar - Accessibility description for the fallback search icon shown with suggestions"
     },
+    "search_59c98d": {
+        "message": "Search %@…",
+        "description": "Location: Browser. Sidebar folder preview - Placeholder of the search field shown when hovering a closed bookmark folder or Space header; searches page titles and URLs in the folder or Space, including subfolders. %@ is the folder or Space name."
+    },
     "search_6b6ab8": {
         "message": "Search %@",
         "description": "Location: Browser. Address bar - Suggestion that selects the named search engine"
@@ -6844,7 +6904,7 @@
         "description": "Location: Browser. Shortcuts settings - Description of the tabSearch command"
     },
     "search_or_enter_url": {
-        "message": "Search or Enter URL",
+        "message": "Search or enter URL",
         "description": "Location: Browser. Address bar - Default placeholder supplied by its configuration"
     },
     "search_or_enter_url_57198c": {
@@ -6859,9 +6919,13 @@
         "message": "Search or Enter URL",
         "description": "Location: Browser. Web content address bar - Placeholder text shown when window has no tab"
     },
+    "search_or_enter_url_to_create_split": {
+        "message": "Search or enter URL to create split",
+        "description": "Location: Browser. Address bar - Placeholder while choosing the page for a new split pane"
+    },
     "search_tabs": {
         "message": "Search Tabs",
-        "description": "Location: Browser. Search Tabs - Placeholder text for the native tab search field"
+        "description": "Location: Browser. Tab area context menu - Top Buttons submenu item that shows or hides the sidebar header's Search Tabs button"
     },
     "search_tabs_07bb5f": {
         "message": "Search Tabs",
@@ -7279,6 +7343,10 @@
         "message": "Mini Player",
         "description": "Location: Browser. General settings - Section title for Mini Player preferences"
     },
+    "sidebar_position": {
+        "message": "Sidebar position",
+        "description": "Location: Browser. General settings - Side of the window containing vertical tabs"
+    },
     "sign_in": {
         "message": "Sign in",
         "description": "Location: Browser. Account-required presentation - Button that opens the Phi sign-in window"
@@ -7430,6 +7498,10 @@
     "skip_this_version": {
         "message": "Skip This Version",
         "description": "Location: Browser. Update window - Skip update button"
+    },
+    "small": {
+        "message": "Small",
+        "description": "Location: Browser. Peek panel size option - The panel leaves the widest margins on both sides of the page"
     },
     "some_account_and_system_information_may_be": {
         "message": "Some account and system information may be sent to Phinomenon. We will use the information you give us to help address technical issues and to improve our services, subject to our Privacy Policy and Terms of Service.",
@@ -7619,6 +7691,26 @@
         "message": "Switch to Agent Space",
         "description": "Location: Browser. Agent handoff prompt - open the agent Space"
     },
+    "switch_to_balanced_mode": {
+        "message": "Switch to balanced mode",
+        "description": "Location: Browser. Omnibox commands - Sets the browser layout preference to balanced mode"
+    },
+    "switch_to_comfortable_mode": {
+        "message": "Switch to comfortable mode",
+        "description": "Location: Browser. Omnibox commands - Sets the browser layout preference to comfortable mode"
+    },
+    "switch_to_dark_mode": {
+        "message": "Switch to dark mode",
+        "description": "Location: Browser. Omnibox commands - Sets the browser appearance preference to dark mode"
+    },
+    "switch_to_light_mode": {
+        "message": "Switch to light mode",
+        "description": "Location: Browser. Omnibox commands - Sets the browser appearance preference to light mode"
+    },
+    "switch_to_performance_mode": {
+        "message": "Switch to performance mode",
+        "description": "Location: Browser. Omnibox commands - Sets the browser layout preference to performance mode"
+    },
     "switch_to_space_in_the_current_window": {
         "message": "Switch to Space %d in the current window.",
         "description": "Location: Browser. Shortcuts settings - Description for a numbered space; %d is its position"
@@ -7626,6 +7718,10 @@
     "switch_to_tab_in_the_current_window": {
         "message": "Switch to tab %d in the current window.",
         "description": "Location: Browser. Shortcuts settings - Description for a numbered tab; %d is its position"
+    },
+    "switch_to_the_balanced_layout_or_to": {
+        "message": "Switch to the Balanced layout, or to Performance when Balanced is already active.",
+        "description": "Location: Browser. Shortcuts settings - Description of the command that switches between two layout options; Balanced and Performance are the layout option names"
     },
     "switch_to_the_next_space": {
         "message": "Switch to the next Space.",
@@ -7863,6 +7959,10 @@
         "message": "The deletion service is temporarily unavailable. Please try again later.",
         "description": "Location: Browser. Account deletion - Error when the deletion service reports a server error"
     },
+    "the_destination_window_is_no_longer_available": {
+        "message": "The destination window is no longer available. Open a window in the intended Space and try again.",
+        "description": "Location: Browser. Tab open failure recovery"
+    },
     "the_folder_and_its_contents_will_be": {
         "message": "The folder and its contents will be deleted. This action cannot be undone.",
         "description": "Location: Browser. Bookmark folder deletion - Confirmation message when deleting a single folder containing items"
@@ -7967,6 +8067,10 @@
         "message": "This action cannot be undone.",
         "description": "Location: Browser. Bookmark multi-selection delete confirmation irreversible warning"
     },
+    "this_action_is_unavailable": {
+        "message": "This action is unavailable.",
+        "description": "Location: Browser. Omnibox results - A retained action cannot currently be executed"
+    },
     "this_agent": {
         "message": "this agent",
         "description": "Location: Browser. CDP consent - tag marking which row of the process tree is the agent asking for access"
@@ -7974,10 +8078,6 @@
     "this_build_doesn_t_include_the_phi": {
         "message": "This build doesn’t include the phi-browser skill resources. Rebuild Phi Browser and try again.",
         "description": "Location: Browser. Developer settings - Skill install failure body when the resource is missing"
-    },
-    "this_build_doesn_t_include_the_pi": {
-        "message": "This build doesn’t include the Pi companion extension. Rebuild Phi Browser and try again.",
-        "description": "Location: Browser. Developer settings - Pi companion extension missing"
     },
     "this_can_take_a_few_minutes": {
         "message": "This can take a few minutes.",
@@ -8207,6 +8307,10 @@
         "message": "Today",
         "description": "Location: Browser. Download item row - Relative time when download completed today"
     },
+    "toggle_balanced_layout": {
+        "message": "Toggle Balanced Layout",
+        "description": "Location: Browser. Shortcuts settings - Command title for switching to the Balanced layout, or to the Performance layout when Balanced is already active; Balanced is a layout option name"
+    },
     "toggle_bookmark_bar": {
         "message": "Toggle Bookmark Bar",
         "description": "Location: Browser. Shortcuts settings - Command title for showing or hiding the bookmarks bar"
@@ -8234,6 +8338,10 @@
     "toggle_sidebar": {
         "message": "Toggle Sidebar",
         "description": "Location: Browser. View menu - Menu item to show or hide the sidebar"
+    },
+    "toggle_sidebar_122c68": {
+        "message": "Toggle Sidebar",
+        "description": "Location: Browser. Tab area context menu - Top Buttons submenu item that shows or hides the sidebar header's button that shows or hides the sidebar"
     },
     "toggle_sidebar_28f28b": {
         "message": "Toggle Sidebar",
@@ -8270,6 +8378,10 @@
     "toolbar_buttons": {
         "message": "Toolbar Buttons",
         "description": "Location: Browser. Tab strip context menu - Submenu to choose which buttons the top bar shows in the Comfortable layout"
+    },
+    "top_buttons": {
+        "message": "Top Buttons",
+        "description": "Location: Browser. Tab area context menu - Submenu to choose which buttons the sidebar header shows"
     },
     "try_again": {
         "message": "Try Again",
@@ -8763,6 +8875,10 @@
         "message": "What should I call you?",
         "description": "Location: Browser. Set name page - Title asking user for their preferred name"
     },
+    "when_you_command_click_a_link_the": {
+        "message": "When you Command-click a link, the new tab goes into a tab group for the page it came from.",
+        "description": "Location: Browser. Advanced settings - Explains where the tab goes when the user Command-clicks a link"
+    },
     "width": {
         "message": "Width",
         "description": "Location: Browser. Screenshot editor - Stroke width in source image pixels"
@@ -8798,6 +8914,10 @@
     "yesterday": {
         "message": "Yesterday",
         "description": "Location: Browser. Download item row - Relative time when download completed yesterday"
+    },
+    "yesterday_6e2f9e": {
+        "message": "Yesterday",
+        "description": "Location: Browser. Sidebar folder preview - Shown on the second line of a page row, under the title, when the page was last opened yesterday"
     },
     "you": {
         "message": "You",
