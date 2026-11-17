@@ -302,6 +302,9 @@
     "browser_manage_restore_detail_split_exists": {
         "message": "같은 두 페이지가 이미 분할되어 있어요."
     },
+    "browser_manage_restore_detail_split_exists_wide": {
+        "message": "같은 페이지들이 같은 순서로 이미 분할되어 있어요."
+    },
     "browser_manage_restore_detail_tab_open": {
         "message": "같은 페이지가 그 창에 열려 있어요."
     },
@@ -446,8 +449,14 @@
     "browser_manage_split_view_remove_body": {
         "message": "\"{{first}}\", \"{{second}}\" 분할 보기를 종료해요. 두 탭은 계속 열려 있어요."
     },
+    "browser_manage_split_view_remove_body_wide": {
+        "message": "\"{{first}}\"부터 \"{{last}}\"까지 탭 {{count}}개의 분할 보기를 종료해요. 탭은 계속 열려 있어요."
+    },
     "browser_manage_split_view_remove_summary": {
         "message": "\"{{first}}\" + \"{{second}}\" 분할 보기를 종료했어요"
+    },
+    "browser_manage_split_view_remove_summary_wide": {
+        "message": "\"{{first}}\"부터 \"{{last}}\"까지 탭 {{count}}개의 분할 보기를 종료했어요"
     },
     "browser_manage_split_view_remove_title": {
         "message": "분할 보기 종료"
@@ -455,17 +464,32 @@
     "browser_manage_split_view_swap_body": {
         "message": "\"{{first}}\", \"{{second}}\" 분할 보기의 양쪽 위치를 서로 바꿔요."
     },
+    "browser_manage_split_view_swap_body_wide": {
+        "message": "분할 보기에 있는 탭 {{count}}개의 순서를 뒤집어요. \"{{last}}\" 탭이 맨 앞으로, \"{{first}}\" 탭이 맨 뒤로 가요."
+    },
     "browser_manage_split_view_swap_summary": {
         "message": "\"{{first}}\" + \"{{second}}\" 분할 보기의 양쪽을 바꿨어요"
+    },
+    "browser_manage_split_view_swap_summary_wide": {
+        "message": "\"{{first}}\"부터 \"{{last}}\"까지 탭 {{count}}개의 분할 보기 순서를 뒤집었어요"
     },
     "browser_manage_split_view_swap_title": {
         "message": "분할 보기 양쪽 바꾸기"
     },
+    "browser_manage_split_view_swap_title_wide": {
+        "message": "분할 보기 순서 뒤집기"
+    },
     "browser_manage_split_view_update_body": {
         "message": "\"{{first}}\", \"{{second}}\" 분할 보기를 변경해요."
     },
+    "browser_manage_split_view_update_body_wide": {
+        "message": "\"{{first}}\"부터 \"{{last}}\"까지 탭 {{count}}개의 분할 보기를 변경해요."
+    },
     "browser_manage_split_view_update_summary": {
         "message": "\"{{first}}\" + \"{{second}}\" 분할 보기를 변경했어요"
+    },
+    "browser_manage_split_view_update_summary_wide": {
+        "message": "\"{{first}}\"부터 \"{{last}}\"까지 탭 {{count}}개의 분할 보기를 변경했어요"
     },
     "browser_manage_split_view_update_title": {
         "message": "분할 보기 변경"
@@ -892,6 +916,12 @@
     },
     "chat_start_actions_import_chat": {
         "message": "이 ChatGPT 대화 가져와 주세요"
+    },
+    "chat_start_actions_import_chats": {
+        "message": "내 {{site}} 대화를 모두 메모리로 가져와 주세요"
+    },
+    "chat_start_actions_import_saved": {
+        "message": "{{site}}에 저장한 게시물을 메모리로 가져와 주세요"
     },
     "chat_start_actions_markdown": {
         "message": "이 페이지 Markdown으로 보여 주세요"
@@ -1955,6 +1985,12 @@
     "message_memory_agent_step_fallback": {
         "message": "메모리 확인"
     },
+    "message_memory_agent_step_hand_off": {
+        "message": "다른 스킬에 넘기기"
+    },
+    "message_memory_agent_step_hand_off_import": {
+        "message": "Import from a Site에 넘기기"
+    },
     "message_memory_agent_step_list_activity": {
         "message": "브라우징 활동 살펴보기"
     },
@@ -1963,6 +1999,9 @@
     },
     "message_memory_agent_step_list_facts": {
         "message": "저장된 사실 살펴보기"
+    },
+    "message_memory_agent_step_list_imported": {
+        "message": "가져온 기록 살펴보기"
     },
     "message_memory_agent_step_list_own_work": {
         "message": "지난 작업 살펴보기"
@@ -1999,6 +2038,9 @@
     },
     "message_memory_agent_step_save_preference": {
         "message": "내 선호 설정 저장"
+    },
+    "message_memory_agent_step_understand": {
+        "message": "요청 이해하기"
     },
     "message_memory_agent_step_update_instructions": {
         "message": "상시 지침 업데이트"
@@ -2065,6 +2107,180 @@
     },
     "message_save": {
         "message": "저장"
+    },
+    "message_site_import_ask_cancel": {
+        "message": "취소"
+    },
+    "message_site_import_ask_checked": {
+        "message": "지금까지 {{count}}개를 확인했어요."
+    },
+    "message_site_import_ask_checked_more": {
+        "message": "지금까지 {{count}}개를 확인했고, 목록은 더 이어져요."
+    },
+    "message_site_import_ask_confirm_title": {
+        "message": "{{site}}에서 내 목록을 가져올까요?"
+    },
+    "message_site_import_ask_count": {
+        "message": "가져올 개수"
+    },
+    "message_site_import_ask_count_all": {
+        "message": "전체"
+    },
+    "message_site_import_ask_count_limit": {
+        "message": "최근 {{count}}개"
+    },
+    "message_site_import_ask_human_check_body": {
+        "message": "{{site}}에서 사람인지 확인하려고 해요. {{site}} 탭에서 직접 확인을 완료해 주세요. Phi는 절대 대신 해 드리지 않아요."
+    },
+    "message_site_import_ask_human_check_title": {
+        "message": "{{site}}에서 사람임을 확인해 주세요"
+    },
+    "message_site_import_ask_human_checked": {
+        "message": "완료했어요"
+    },
+    "message_site_import_ask_import": {
+        "message": "가져오기"
+    },
+    "message_site_import_ask_items": {
+        "message": "각 항목의 내용도 읽고 요약하기"
+    },
+    "message_site_import_ask_items_hint": {
+        "message": "항목당 몇 초씩 걸려요. 목록이 길면 다음에 가져올 때 이어서 진행해요."
+    },
+    "message_site_import_ask_sign_in_body": {
+        "message": "{{site}} 탭에서 직접 로그인해 주세요. 사이트에서 보내는 인증 코드도 직접 입력해 주세요. 비밀번호는 절대 보지 않고, 대신 입력하지도 않아요."
+    },
+    "message_site_import_ask_sign_in_title": {
+        "message": "{{site}}에 로그인"
+    },
+    "message_site_import_ask_signed_in": {
+        "message": "로그인했어요"
+    },
+    "message_site_import_continued": {
+        "message": "이후 답변에서 이어짐"
+    },
+    "message_site_import_done_changed": {
+        "message": "새로 추가되거나 바뀜: {{count}}"
+    },
+    "message_site_import_done_failed": {
+        "message": "읽지 못함: {{count}}"
+    },
+    "message_site_import_done_nothing_new": {
+        "message": "지난번 이후 새 항목 없음"
+    },
+    "message_site_import_done_read": {
+        "message": "전체 내용 읽음: {{count}}"
+    },
+    "message_site_import_done_remember_failed": {
+        "message": "이번에는 완료하지 못함"
+    },
+    "message_site_import_done_remembered": {
+        "message": "파악한 점: {{count}}"
+    },
+    "message_site_import_done_remembered_none": {
+        "message": "새로 파악한 점 없음"
+    },
+    "message_site_import_done_unchanged": {
+        "message": "이미 저장됨: {{count}}"
+    },
+    "message_site_import_kind_cart": {
+        "message": "내 장바구니"
+    },
+    "message_site_import_kind_conversation": {
+        "message": "내 대화"
+    },
+    "message_site_import_kind_listened": {
+        "message": "내가 들은 것"
+    },
+    "message_site_import_kind_message": {
+        "message": "내 메시지"
+    },
+    "message_site_import_kind_order": {
+        "message": "내 주문"
+    },
+    "message_site_import_kind_other": {
+        "message": "내 목록"
+    },
+    "message_site_import_kind_post": {
+        "message": "내 게시물"
+    },
+    "message_site_import_kind_rated": {
+        "message": "내 평점"
+    },
+    "message_site_import_kind_read": {
+        "message": "내가 읽은 것"
+    },
+    "message_site_import_kind_saved": {
+        "message": "내가 저장한 것"
+    },
+    "message_site_import_kind_watched": {
+        "message": "내가 본 것"
+    },
+    "message_site_import_kind_wishlist": {
+        "message": "내 위시리스트"
+    },
+    "message_site_import_note_attempt": {
+        "message": "{{count}}번째 시도"
+    },
+    "message_site_import_note_human_check": {
+        "message": "사람 확인 필요"
+    },
+    "message_site_import_note_items_of": {
+        "message": "{{done}} / {{total}}"
+    },
+    "message_site_import_note_items_so_far": {
+        "message": "지금까지: {{done}}"
+    },
+    "message_site_import_note_opening": {
+        "message": "사이트를 여는 중"
+    },
+    "message_site_import_note_remembering": {
+        "message": "살펴보는 중"
+    },
+    "message_site_import_note_saved": {
+        "message": "저장됨: {{count}}"
+    },
+    "message_site_import_note_sign_in": {
+        "message": "로그인 필요"
+    },
+    "message_site_import_step_find": {
+        "message": "가져올 항목 찾기"
+    },
+    "message_site_import_step_items": {
+        "message": "하나씩 읽기"
+    },
+    "message_site_import_step_learn": {
+        "message": "읽을 수 있는지 확인하기"
+    },
+    "message_site_import_step_list": {
+        "message": "메모리에 저장하기"
+    },
+    "message_site_import_step_remember": {
+        "message": "나에 대해 알 수 있는 점 파악하기"
+    },
+    "message_site_import_stopped_before": {
+        "message": "아무것도 가져오기 전에 중지됐어요."
+    },
+    "message_site_import_stopped_cancelled": {
+        "message": "취소했어요. 아무것도 가져오지 않았어요."
+    },
+    "message_site_import_stopped_human_check": {
+        "message": "{{site}}에서 아직 사람인지 확인을 요청하고 있어요."
+    },
+    "message_site_import_stopped_items": {
+        "message": "일부 항목을 읽지 못했어요. 다음에 가져올 때 이어서 읽어요."
+    },
+    "message_site_import_stopped_memory": {
+        "message": "기록을 저장하지 못했어요."
+    },
+    "message_site_import_stopped_sign_in": {
+        "message": "{{site}}에서 아직 로그인을 요구하고 있어요."
+    },
+    "message_site_import_stopped_site": {
+        "message": "사이트 페이지에서 목록을 더 이상 불러오지 못했어요."
+    },
+    "message_site_import_stopped_unanswered": {
+        "message": "응답이 없어서 아무것도 가져오지 않았어요."
     },
     "message_skills_label": {
         "message": "스킬"
@@ -2147,66 +2363,6 @@
     "newtab_greeting_morning": {
         "message": "좋은 아침이에요"
     },
-    "newtab_greeting_prompt_byte_count": {
-        "message": "{{count}} / {{max}}바이트"
-    },
-    "newtab_greeting_prompt_cancel": {
-        "message": "취소"
-    },
-    "newtab_greeting_prompt_customized": {
-        "message": "사용자 지정"
-    },
-    "newtab_greeting_prompt_default": {
-        "message": "기본"
-    },
-    "newtab_greeting_prompt_description": {
-        "message": "개인 맞춤 새 탭 인사말을 생성할 때 사용하는 기본 프롬프트를 조정할 수 있어요. 현재 에이전트의 소울을 넣을 자리에는 소울 플레이스홀더를 사용하세요."
-    },
-    "newtab_greeting_prompt_edit": {
-        "message": "인사말 프롬프트 편집"
-    },
-    "newtab_greeting_prompt_empty_error": {
-        "message": "인사말 지침은 비워 둘 수 없어요."
-    },
-    "newtab_greeting_prompt_hint": {
-        "message": "저장한 변경 사항은 다음에 생성되는 인사말부터 적용돼요."
-    },
-    "newtab_greeting_prompt_label": {
-        "message": "지침"
-    },
-    "newtab_greeting_prompt_load_error": {
-        "message": "인사말 프롬프트를 불러오지 못했어요."
-    },
-    "newtab_greeting_prompt_loading": {
-        "message": "인사말 프롬프트를 불러오는 중…"
-    },
-    "newtab_greeting_prompt_placeholder": {
-        "message": "인사말 후보를 생성할 때 사용할 지침을 작성해 주세요."
-    },
-    "newtab_greeting_prompt_reset": {
-        "message": "기본값으로 재설정"
-    },
-    "newtab_greeting_prompt_reset_error": {
-        "message": "인사말 프롬프트를 재설정하지 못했어요."
-    },
-    "newtab_greeting_prompt_reset_saved": {
-        "message": "인사말 프롬프트가 재설정됐어요"
-    },
-    "newtab_greeting_prompt_save": {
-        "message": "저장"
-    },
-    "newtab_greeting_prompt_save_error": {
-        "message": "인사말 프롬프트를 저장하지 못했어요."
-    },
-    "newtab_greeting_prompt_saved": {
-        "message": "인사말 프롬프트가 저장됐어요"
-    },
-    "newtab_greeting_prompt_title": {
-        "message": "인사말 프롬프트"
-    },
-    "newtab_greeting_prompt_too_large_error": {
-        "message": "인사말 지침은 UTF-8 기준 최대 {{count}}바이트까지 입력할 수 있어요."
-    },
     "newtab_greeting_style_interest": {
         "message": "관심사 위주"
     },
@@ -2218,6 +2374,12 @@
     },
     "newtab_greeting_style_personal": {
         "message": "개인 맞춤"
+    },
+    "newtab_hold_cmd_to_switch_bookmark": {
+        "message": "<key/> 키를 누른 채 선택하면 북마크로 전환돼요"
+    },
+    "newtab_hold_cmd_to_switch_pin": {
+        "message": "<key/> 키를 누른 채 선택하면 고정 탭으로 전환돼요"
     },
     "newtab_hold_cmd_to_switch_tab": {
         "message": "<key/> 키를 누른 채 선택하면 이 탭으로 전환돼요"
@@ -2233,6 +2395,18 @@
     },
     "newtab_search_placeholder_ask_agent": {
         "message": "검색, {{name}} 질문 또는 URL 입력"
+    },
+    "newtab_unified_omnibox_choose_result": {
+        "message": "결과를 선택해 주세요"
+    },
+    "newtab_unified_omnibox_failed": {
+        "message": "이 결과를 열지 못했어요"
+    },
+    "newtab_unified_omnibox_pending": {
+        "message": "아직 결과를 불러오는 중이에요"
+    },
+    "newtab_unified_omnibox_unavailable": {
+        "message": "이 결과는 이 방법으로 열 수 없어요"
     },
     "notification_card_view_details": {
         "message": "세부정보 보기"
@@ -4037,6 +4211,63 @@
     "skill_target_title": {
         "message": "어느 페이지에서 실행할까요?"
     },
+    "skills_action_suggestion_ask_memory_about_me": {
+        "message": "저에 대해 뭘 기억하고 있나요?"
+    },
+    "skills_action_suggestion_ask_memory_this_week": {
+        "message": "이번 주에 제가 어떤 내용을 읽었나요?"
+    },
+    "skills_action_suggestion_ask_memory_today": {
+        "message": "오늘 제가 뭘 했나요?"
+    },
+    "skills_action_suggestion_explain_analogy": {
+        "message": "일상적인 비유로 설명해 주세요"
+    },
+    "skills_action_suggestion_explain_key_terms": {
+        "message": "주요 용어를 설명해 주세요"
+    },
+    "skills_action_suggestion_explain_short": {
+        "message": "세 문장으로 설명해 주세요"
+    },
+    "skills_action_suggestion_fact_check_claims": {
+        "message": "주요 주장을 확인해 주세요"
+    },
+    "skills_action_suggestion_fact_check_numbers": {
+        "message": "숫자와 통계를 확인해 주세요"
+    },
+    "skills_action_suggestion_fact_check_sources": {
+        "message": "원래 출처를 찾아 주세요"
+    },
+    "skills_action_suggestion_group_title": {
+        "message": "추천"
+    },
+    "skills_action_suggestion_import_from_site_chatgpt": {
+        "message": "내 ChatGPT 대화 가져와 주세요"
+    },
+    "skills_action_suggestion_import_from_site_claude": {
+        "message": "내 Claude 대화 가져와 주세요"
+    },
+    "skills_action_suggestion_import_from_site_gemini": {
+        "message": "내 Gemini 대화 가져와 주세요"
+    },
+    "skills_action_suggestion_import_from_site_grok": {
+        "message": "내 Grok 대화 가져와 주세요"
+    },
+    "skills_action_suggestion_import_from_site_muse": {
+        "message": "내 Muse 대화의 메시지 가져와 주세요"
+    },
+    "skills_action_suggestion_import_from_site_reddit": {
+        "message": "Reddit에 저장한 게시물 가져와 주세요"
+    },
+    "skills_action_suggestion_video_gist_article": {
+        "message": "글로 바꿔 주세요"
+    },
+    "skills_action_suggestion_video_gist_key_points": {
+        "message": "핵심 내용을 요약해 주세요"
+    },
+    "skills_action_suggestion_video_gist_transcript": {
+        "message": "전체 스크립트를 작성해 주세요"
+    },
     "skills_actions_add": {
         "message": "추가"
     },
@@ -4300,6 +4531,36 @@
     },
     "skills_title": {
         "message": "스킬"
+    },
+    "task_run_log_consent_body": {
+        "message": "Phi가 이 실행의 로그(진행한 각 단계, 읽은 페이지, 도구 결과)를 파일로 저장해서 피드백과 함께 Phi 팀에 보내요."
+    },
+    "task_run_log_consent_dont_share": {
+        "message": "공유 안 함"
+    },
+    "task_run_log_consent_note_label": {
+        "message": "덧붙일 내용이 있나요? (선택 사항)"
+    },
+    "task_run_log_consent_ran_at": {
+        "message": "이 실행은 {{time}}에 시작됐어요."
+    },
+    "task_run_log_consent_run_label": {
+        "message": "어떤 실행인가요?"
+    },
+    "task_run_log_consent_run_option": {
+        "message": "{{index}}번째 실행, {{time}}"
+    },
+    "task_run_log_consent_run_option_reported": {
+        "message": "{{index}}번째 실행, {{time}}, 여기에 결과 보고됨"
+    },
+    "task_run_log_consent_share": {
+        "message": "공유"
+    },
+    "task_run_log_consent_title": {
+        "message": "\"{{task}}\"의 {{index}}번째 실행 로그를 공유할까요?"
+    },
+    "task_run_log_consent_title_pick": {
+        "message": "\"{{task}}\"의 실행 로그를 공유할까요?"
     },
     "tasks_page_common_actions": {
         "message": "동작"

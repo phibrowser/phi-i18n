@@ -302,6 +302,9 @@
     "browser_manage_restore_detail_split_exists": {
         "message": "Dieselben zwei Seiten sind bereits in einer Split View."
     },
+    "browser_manage_restore_detail_split_exists_wide": {
+        "message": "Dieselben Seiten sind bereits in derselben Reihenfolge in einer Split View."
+    },
     "browser_manage_restore_detail_tab_open": {
         "message": "Dieselbe Seite ist in diesem Fenster geöffnet."
     },
@@ -446,8 +449,14 @@
     "browser_manage_split_view_remove_body": {
         "message": "Die Split View von „{{first}}“ und „{{second}}“ beenden; beide Tabs bleiben geöffnet."
     },
+    "browser_manage_split_view_remove_body_wide": {
+        "message": "Die Split View mit {{count}} Tabs von „{{first}}“ bis „{{last}}“ beenden; die Tabs bleiben geöffnet."
+    },
     "browser_manage_split_view_remove_summary": {
         "message": "Split View „{{first}}“ + „{{second}}“ beendet"
+    },
+    "browser_manage_split_view_remove_summary_wide": {
+        "message": "Split View mit {{count}} Tabs, „{{first}}“ bis „{{last}}“, beendet"
     },
     "browser_manage_split_view_remove_title": {
         "message": "Split View beenden"
@@ -455,17 +464,32 @@
     "browser_manage_split_view_swap_body": {
         "message": "Die beiden Seiten der Split View von „{{first}}“ und „{{second}}“ tauschen."
     },
+    "browser_manage_split_view_swap_body_wide": {
+        "message": "Die Reihenfolge der {{count}} Tabs in der Split View umkehren, sodass „{{last}}“ zuerst und „{{first}}“ zuletzt kommt."
+    },
     "browser_manage_split_view_swap_summary": {
         "message": "Split View „{{first}}“ + „{{second}}“ getauscht"
+    },
+    "browser_manage_split_view_swap_summary_wide": {
+        "message": "Split View mit {{count}} Tabs, „{{first}}“ bis „{{last}}“, umgekehrt"
     },
     "browser_manage_split_view_swap_title": {
         "message": "Seiten der Split View tauschen"
     },
+    "browser_manage_split_view_swap_title_wide": {
+        "message": "Reihenfolge der Split View umkehren"
+    },
     "browser_manage_split_view_update_body": {
         "message": "Die Split View von „{{first}}“ und „{{second}}“ ändern."
     },
+    "browser_manage_split_view_update_body_wide": {
+        "message": "Die Split View mit {{count}} Tabs von „{{first}}“ bis „{{last}}“ ändern."
+    },
     "browser_manage_split_view_update_summary": {
         "message": "Split View „{{first}}“ + „{{second}}“ geändert"
+    },
+    "browser_manage_split_view_update_summary_wide": {
+        "message": "Split View mit {{count}} Tabs, „{{first}}“ bis „{{last}}“, geändert"
     },
     "browser_manage_split_view_update_title": {
         "message": "Split View ändern"
@@ -892,6 +916,12 @@
     },
     "chat_start_actions_import_chat": {
         "message": "Importiere diese ChatGPT-Unterhaltung"
+    },
+    "chat_start_actions_import_chats": {
+        "message": "Importiere meine {{site}}-Chats in die Erinnerung"
+    },
+    "chat_start_actions_import_saved": {
+        "message": "Importiere meine gespeicherten {{site}}-Beiträge in die Erinnerung"
     },
     "chat_start_actions_markdown": {
         "message": "Zeige mir diese Seite als Markdown"
@@ -1955,6 +1985,12 @@
     "message_memory_agent_step_fallback": {
         "message": "Erinnerung prüfen"
     },
+    "message_memory_agent_step_hand_off": {
+        "message": "An einen anderen Skill übergeben"
+    },
+    "message_memory_agent_step_hand_off_import": {
+        "message": "An „Import from a Site“ übergeben"
+    },
     "message_memory_agent_step_list_activity": {
         "message": "Surfverhalten durchsehen"
     },
@@ -1963,6 +1999,9 @@
     },
     "message_memory_agent_step_list_facts": {
         "message": "Gespeicherte Fakten durchsehen"
+    },
+    "message_memory_agent_step_list_imported": {
+        "message": "Importierte Einträge durchsehen"
     },
     "message_memory_agent_step_list_own_work": {
         "message": "Frühere Aufgaben durchsehen"
@@ -1999,6 +2038,9 @@
     },
     "message_memory_agent_step_save_preference": {
         "message": "Deine Vorliebe speichern"
+    },
+    "message_memory_agent_step_understand": {
+        "message": "Deine Anfrage verstehen"
     },
     "message_memory_agent_step_update_instructions": {
         "message": "Feste Anweisungen aktualisieren"
@@ -2065,6 +2107,180 @@
     },
     "message_save": {
         "message": "Speichern"
+    },
+    "message_site_import_ask_cancel": {
+        "message": "Abbrechen"
+    },
+    "message_site_import_ask_checked": {
+        "message": "Bisher {{count}} geprüft."
+    },
+    "message_site_import_ask_checked_more": {
+        "message": "Bisher {{count}} geprüft, die Liste geht noch weiter."
+    },
+    "message_site_import_ask_confirm_title": {
+        "message": "Deine Liste von {{site}} importieren?"
+    },
+    "message_site_import_ask_count": {
+        "message": "Wie viele"
+    },
+    "message_site_import_ask_count_all": {
+        "message": "Alle"
+    },
+    "message_site_import_ask_count_limit": {
+        "message": "Die neuesten {{count}}"
+    },
+    "message_site_import_ask_human_check_body": {
+        "message": "{{site}} möchte prüfen, ob du ein Mensch bist. Schließe die Prüfung selbst im Tab von {{site}} ab; Phi übernimmt das niemals für dich."
+    },
+    "message_site_import_ask_human_check_title": {
+        "message": "Bestätige auf {{site}}, dass du ein Mensch bist"
+    },
+    "message_site_import_ask_human_checked": {
+        "message": "Erledigt"
+    },
+    "message_site_import_ask_import": {
+        "message": "Importieren"
+    },
+    "message_site_import_ask_items": {
+        "message": "Auch jeden Eintrag lesen und zusammenfassen"
+    },
+    "message_site_import_ask_items_hint": {
+        "message": "Ein paar Sekunden pro Eintrag. Eine lange Liste wird beim nächsten Import fortgesetzt."
+    },
+    "message_site_import_ask_sign_in_body": {
+        "message": "Melde dich selbst im Tab von {{site}} an und gib auch jeden Code selbst ein, den die Website dir schickt. Dein Passwort wird niemals gesehen oder für dich eingegeben."
+    },
+    "message_site_import_ask_sign_in_title": {
+        "message": "Bei {{site}} anmelden"
+    },
+    "message_site_import_ask_signed_in": {
+        "message": "Ich habe mich angemeldet"
+    },
+    "message_site_import_continued": {
+        "message": "In einer späteren Antwort fortgesetzt"
+    },
+    "message_site_import_done_changed": {
+        "message": "Neu oder geändert: {{count}}"
+    },
+    "message_site_import_done_failed": {
+        "message": "Nicht lesbar: {{count}}"
+    },
+    "message_site_import_done_nothing_new": {
+        "message": "Nichts Neues seit dem letzten Mal"
+    },
+    "message_site_import_done_read": {
+        "message": "Vollständig gelesen: {{count}}"
+    },
+    "message_site_import_done_remember_failed": {
+        "message": "Diesmal nicht abgeschlossen"
+    },
+    "message_site_import_done_remembered": {
+        "message": "Notiert: {{count}}"
+    },
+    "message_site_import_done_remembered_none": {
+        "message": "Nichts Neues zu notieren"
+    },
+    "message_site_import_done_unchanged": {
+        "message": "Bereits gespeichert: {{count}}"
+    },
+    "message_site_import_kind_cart": {
+        "message": "Dein Warenkorb"
+    },
+    "message_site_import_kind_conversation": {
+        "message": "Deine Unterhaltungen"
+    },
+    "message_site_import_kind_listened": {
+        "message": "Was du gehört hast"
+    },
+    "message_site_import_kind_message": {
+        "message": "Deine Nachrichten"
+    },
+    "message_site_import_kind_order": {
+        "message": "Deine Bestellungen"
+    },
+    "message_site_import_kind_other": {
+        "message": "Deine Liste"
+    },
+    "message_site_import_kind_post": {
+        "message": "Deine Beiträge"
+    },
+    "message_site_import_kind_rated": {
+        "message": "Deine Bewertungen"
+    },
+    "message_site_import_kind_read": {
+        "message": "Was du gelesen hast"
+    },
+    "message_site_import_kind_saved": {
+        "message": "Was du gespeichert hast"
+    },
+    "message_site_import_kind_watched": {
+        "message": "Was du angesehen hast"
+    },
+    "message_site_import_kind_wishlist": {
+        "message": "Deine Wunschliste"
+    },
+    "message_site_import_note_attempt": {
+        "message": "Versuch {{count}}"
+    },
+    "message_site_import_note_human_check": {
+        "message": "Bestätigung als Mensch nötig"
+    },
+    "message_site_import_note_items_of": {
+        "message": "{{done}} von {{total}}"
+    },
+    "message_site_import_note_items_so_far": {
+        "message": "Bisher: {{done}}"
+    },
+    "message_site_import_note_opening": {
+        "message": "Website wird geöffnet"
+    },
+    "message_site_import_note_remembering": {
+        "message": "Einträge werden durchgesehen"
+    },
+    "message_site_import_note_saved": {
+        "message": "Gespeichert: {{count}}"
+    },
+    "message_site_import_note_sign_in": {
+        "message": "Anmeldung nötig"
+    },
+    "message_site_import_step_find": {
+        "message": "Finden, was importiert werden soll"
+    },
+    "message_site_import_step_items": {
+        "message": "Jeden Eintrag lesen"
+    },
+    "message_site_import_step_learn": {
+        "message": "Prüfen, ob sich die Einträge lesen lassen"
+    },
+    "message_site_import_step_list": {
+        "message": "In der Erinnerung speichern"
+    },
+    "message_site_import_step_remember": {
+        "message": "Herausfinden, was sie über dich aussagen"
+    },
+    "message_site_import_stopped_before": {
+        "message": "Gestoppt, bevor etwas importiert wurde."
+    },
+    "message_site_import_stopped_cancelled": {
+        "message": "Abgebrochen. Es wurde nichts importiert."
+    },
+    "message_site_import_stopped_human_check": {
+        "message": "{{site}} verlangt weiterhin die Bestätigung, dass du ein Mensch bist."
+    },
+    "message_site_import_stopped_items": {
+        "message": "Einige Einträge konnten nicht gelesen werden. Der nächste Import macht mit ihnen weiter."
+    },
+    "message_site_import_stopped_memory": {
+        "message": "Die Einträge konnten nicht gespeichert werden."
+    },
+    "message_site_import_stopped_sign_in": {
+        "message": "{{site}} verlangt weiterhin eine Anmeldung."
+    },
+    "message_site_import_stopped_site": {
+        "message": "Die Seiten der Website haben die Liste nicht mehr geladen."
+    },
+    "message_site_import_stopped_unanswered": {
+        "message": "Es kam keine Antwort, daher wurde nichts importiert."
     },
     "message_skills_label": {
         "message": "Skills"
@@ -2147,66 +2363,6 @@
     "newtab_greeting_morning": {
         "message": "Guten Morgen"
     },
-    "newtab_greeting_prompt_byte_count": {
-        "message": "{{count}} / {{max}} Byte"
-    },
-    "newtab_greeting_prompt_cancel": {
-        "message": "Abbrechen"
-    },
-    "newtab_greeting_prompt_customized": {
-        "message": "Angepasst"
-    },
-    "newtab_greeting_prompt_default": {
-        "message": "Standard"
-    },
-    "newtab_greeting_prompt_description": {
-        "message": "Passe den integrierten Prompt an, mit dem personalisierte Begrüßungen für den neuen Tab erstellt werden. Verwende den Soul-Platzhalter an der Stelle, an der die aktuelle Soul des Agenten eingefügt werden soll."
-    },
-    "newtab_greeting_prompt_edit": {
-        "message": "Begrüßungs-Prompt bearbeiten"
-    },
-    "newtab_greeting_prompt_empty_error": {
-        "message": "Die Anweisungen für die Begrüßung dürfen nicht leer sein."
-    },
-    "newtab_greeting_prompt_hint": {
-        "message": "Gespeicherte Änderungen gelten erst für künftig erstellte Begrüßungen."
-    },
-    "newtab_greeting_prompt_label": {
-        "message": "Anweisungen"
-    },
-    "newtab_greeting_prompt_load_error": {
-        "message": "Begrüßungs-Prompt konnte nicht geladen werden."
-    },
-    "newtab_greeting_prompt_loading": {
-        "message": "Begrüßungs-Prompt wird geladen…"
-    },
-    "newtab_greeting_prompt_placeholder": {
-        "message": "Schreibe die Anweisungen, mit denen Begrüßungsvorschläge erstellt werden."
-    },
-    "newtab_greeting_prompt_reset": {
-        "message": "Auf Standard zurücksetzen"
-    },
-    "newtab_greeting_prompt_reset_error": {
-        "message": "Begrüßungs-Prompt konnte nicht zurückgesetzt werden."
-    },
-    "newtab_greeting_prompt_reset_saved": {
-        "message": "Begrüßungs-Prompt zurückgesetzt"
-    },
-    "newtab_greeting_prompt_save": {
-        "message": "Speichern"
-    },
-    "newtab_greeting_prompt_save_error": {
-        "message": "Begrüßungs-Prompt konnte nicht gespeichert werden."
-    },
-    "newtab_greeting_prompt_saved": {
-        "message": "Begrüßungs-Prompt gespeichert"
-    },
-    "newtab_greeting_prompt_title": {
-        "message": "Begrüßungs-Prompt"
-    },
-    "newtab_greeting_prompt_too_large_error": {
-        "message": "Die Anweisungen für die Begrüßung dürfen höchstens {{count}} UTF-8-Byte lang sein."
-    },
     "newtab_greeting_style_interest": {
         "message": "Weniger persönlich"
     },
@@ -2218,6 +2374,12 @@
     },
     "newtab_greeting_style_personal": {
         "message": "Persönlich"
+    },
+    "newtab_hold_cmd_to_switch_bookmark": {
+        "message": "Halte <key/> gedrückt, um zum Lesezeichen zu wechseln"
+    },
+    "newtab_hold_cmd_to_switch_pin": {
+        "message": "Halte <key/> gedrückt, um zum angehefteten Tab zu wechseln"
     },
     "newtab_hold_cmd_to_switch_tab": {
         "message": "Halte <key/> gedrückt, um zu diesem Tab zu wechseln"
@@ -2233,6 +2395,18 @@
     },
     "newtab_search_placeholder_ask_agent": {
         "message": "Suchen, {{name}} fragen oder URL eingeben"
+    },
+    "newtab_unified_omnibox_choose_result": {
+        "message": "Wähle ein Ergebnis aus"
+    },
+    "newtab_unified_omnibox_failed": {
+        "message": "Dieses Ergebnis konnte nicht geöffnet werden"
+    },
+    "newtab_unified_omnibox_pending": {
+        "message": "Ergebnisse werden noch geladen"
+    },
+    "newtab_unified_omnibox_unavailable": {
+        "message": "Dieses Ergebnis lässt sich so nicht öffnen"
     },
     "notification_card_view_details": {
         "message": "Details anzeigen"
@@ -4037,6 +4211,63 @@
     "skill_target_title": {
         "message": "Auf welcher Seite soll das ausgeführt werden?"
     },
+    "skills_action_suggestion_ask_memory_about_me": {
+        "message": "Was hast du dir über mich gemerkt?"
+    },
+    "skills_action_suggestion_ask_memory_this_week": {
+        "message": "Worüber habe ich diese Woche gelesen?"
+    },
+    "skills_action_suggestion_ask_memory_today": {
+        "message": "Was habe ich heute gemacht?"
+    },
+    "skills_action_suggestion_explain_analogy": {
+        "message": "Erkläre es mit einem Vergleich aus dem Alltag"
+    },
+    "skills_action_suggestion_explain_key_terms": {
+        "message": "Erkläre die wichtigsten Begriffe"
+    },
+    "skills_action_suggestion_explain_short": {
+        "message": "Erkläre es in drei Sätzen"
+    },
+    "skills_action_suggestion_fact_check_claims": {
+        "message": "Prüfe die wichtigsten Behauptungen"
+    },
+    "skills_action_suggestion_fact_check_numbers": {
+        "message": "Prüfe die Zahlen und Statistiken"
+    },
+    "skills_action_suggestion_fact_check_sources": {
+        "message": "Finde die Originalquellen"
+    },
+    "skills_action_suggestion_group_title": {
+        "message": "Vorschläge"
+    },
+    "skills_action_suggestion_import_from_site_chatgpt": {
+        "message": "Importiere meine ChatGPT-Unterhaltungen"
+    },
+    "skills_action_suggestion_import_from_site_claude": {
+        "message": "Importiere meine Claude-Unterhaltungen"
+    },
+    "skills_action_suggestion_import_from_site_gemini": {
+        "message": "Importiere meine Gemini-Unterhaltungen"
+    },
+    "skills_action_suggestion_import_from_site_grok": {
+        "message": "Importiere meine Grok-Unterhaltungen"
+    },
+    "skills_action_suggestion_import_from_site_muse": {
+        "message": "Importiere die Nachrichten meines Chats auf Muse"
+    },
+    "skills_action_suggestion_import_from_site_reddit": {
+        "message": "Importiere meine gespeicherten Beiträge von Reddit"
+    },
+    "skills_action_suggestion_video_gist_article": {
+        "message": "Mach daraus einen Artikel"
+    },
+    "skills_action_suggestion_video_gist_key_points": {
+        "message": "Fasse die wichtigsten Punkte zusammen"
+    },
+    "skills_action_suggestion_video_gist_transcript": {
+        "message": "Schreibe das vollständige Transkript auf"
+    },
     "skills_actions_add": {
         "message": "Hinzufügen"
     },
@@ -4300,6 +4531,36 @@
     },
     "skills_title": {
         "message": "Skills"
+    },
+    "task_run_log_consent_body": {
+        "message": "Phi speichert das Protokoll dieser Ausführung (jeden Schritt, die gelesenen Seiten und die Tool-Ergebnisse) als Datei und sendet es zusammen mit deinem Feedback an das Phi-Team."
+    },
+    "task_run_log_consent_dont_share": {
+        "message": "Nicht teilen"
+    },
+    "task_run_log_consent_note_label": {
+        "message": "Möchtest du noch etwas hinzufügen? (optional)"
+    },
+    "task_run_log_consent_ran_at": {
+        "message": "Die Ausführung begann am {{time}}."
+    },
+    "task_run_log_consent_run_label": {
+        "message": "Welche Ausführung?"
+    },
+    "task_run_log_consent_run_option": {
+        "message": "Ausführung Nr. {{index}}, {{time}}"
+    },
+    "task_run_log_consent_run_option_reported": {
+        "message": "Ausführung Nr. {{index}}, {{time}}, hier gemeldet"
+    },
+    "task_run_log_consent_share": {
+        "message": "Teilen"
+    },
+    "task_run_log_consent_title": {
+        "message": "Protokoll der Ausführung Nr. {{index}} von „{{task}}“ teilen?"
+    },
+    "task_run_log_consent_title_pick": {
+        "message": "Ein Ausführungsprotokoll von „{{task}}“ teilen?"
     },
     "tasks_page_common_actions": {
         "message": "Aktionen"

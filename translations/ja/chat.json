@@ -302,6 +302,9 @@
     "browser_manage_restore_detail_split_exists": {
         "message": "同じ2つのページがすでに分割表示になっています。"
     },
+    "browser_manage_restore_detail_split_exists_wide": {
+        "message": "同じページが同じ順序ですでに分割表示になっています。"
+    },
     "browser_manage_restore_detail_tab_open": {
         "message": "同じページがそのウインドウで開かれています。"
     },
@@ -446,8 +449,14 @@
     "browser_manage_split_view_remove_body": {
         "message": "「{{first}}」と「{{second}}」の分割表示を終了します。両方のタブは開いたままです。"
     },
+    "browser_manage_split_view_remove_body_wide": {
+        "message": "「{{first}}」から「{{last}}」までの{{count}}つのタブの分割表示を終了します。タブは開いたままです。"
+    },
     "browser_manage_split_view_remove_summary": {
         "message": "「{{first}}」と「{{second}}」の分割表示を終了しました"
+    },
+    "browser_manage_split_view_remove_summary_wide": {
+        "message": "「{{first}}」から「{{last}}」までの{{count}}つのタブの分割表示を終了しました"
     },
     "browser_manage_split_view_remove_title": {
         "message": "分割表示を終了"
@@ -455,17 +464,32 @@
     "browser_manage_split_view_swap_body": {
         "message": "「{{first}}」と「{{second}}」の分割表示の左右を入れ替えます。"
     },
+    "browser_manage_split_view_swap_body_wide": {
+        "message": "分割表示の{{count}}つのタブの順序を反転し、「{{last}}」を先頭に、「{{first}}」を最後にします。"
+    },
     "browser_manage_split_view_swap_summary": {
         "message": "「{{first}}」と「{{second}}」の分割表示の左右を入れ替えました"
+    },
+    "browser_manage_split_view_swap_summary_wide": {
+        "message": "「{{first}}」から「{{last}}」までの{{count}}つのタブの分割表示の順序を反転しました"
     },
     "browser_manage_split_view_swap_title": {
         "message": "分割表示の左右を入れ替え"
     },
+    "browser_manage_split_view_swap_title_wide": {
+        "message": "分割表示の順序を反転"
+    },
     "browser_manage_split_view_update_body": {
         "message": "「{{first}}」と「{{second}}」の分割表示を変更します。"
     },
+    "browser_manage_split_view_update_body_wide": {
+        "message": "「{{first}}」から「{{last}}」までの{{count}}つのタブの分割表示を変更します。"
+    },
     "browser_manage_split_view_update_summary": {
         "message": "「{{first}}」と「{{second}}」の分割表示を変更しました"
+    },
+    "browser_manage_split_view_update_summary_wide": {
+        "message": "「{{first}}」から「{{last}}」までの{{count}}つのタブの分割表示を変更しました"
     },
     "browser_manage_split_view_update_title": {
         "message": "分割表示を変更"
@@ -892,6 +916,12 @@
     },
     "chat_start_actions_import_chat": {
         "message": "このChatGPTの会話をインポートして"
+    },
+    "chat_start_actions_import_chats": {
+        "message": "{{site}}のチャットをメモリにインポートして"
+    },
+    "chat_start_actions_import_saved": {
+        "message": "{{site}}で保存した投稿をメモリにインポートして"
     },
     "chat_start_actions_markdown": {
         "message": "このページをMarkdownで表示して"
@@ -1955,6 +1985,12 @@
     "message_memory_agent_step_fallback": {
         "message": "メモリを確認"
     },
+    "message_memory_agent_step_hand_off": {
+        "message": "別のスキルに引き継ぎ"
+    },
+    "message_memory_agent_step_hand_off_import": {
+        "message": "Import from a Siteに引き継ぎ"
+    },
     "message_memory_agent_step_list_activity": {
         "message": "ブラウジング活動を確認"
     },
@@ -1963,6 +1999,9 @@
     },
     "message_memory_agent_step_list_facts": {
         "message": "保存済みの事実を確認"
+    },
+    "message_memory_agent_step_list_imported": {
+        "message": "インポートした記録を確認"
     },
     "message_memory_agent_step_list_own_work": {
         "message": "過去のタスクを確認"
@@ -1999,6 +2038,9 @@
     },
     "message_memory_agent_step_save_preference": {
         "message": "あなたの好みを保存"
+    },
+    "message_memory_agent_step_understand": {
+        "message": "依頼内容を把握"
     },
     "message_memory_agent_step_update_instructions": {
         "message": "振る舞いの指示を更新"
@@ -2065,6 +2107,180 @@
     },
     "message_save": {
         "message": "保存"
+    },
+    "message_site_import_ask_cancel": {
+        "message": "キャンセル"
+    },
+    "message_site_import_ask_checked": {
+        "message": "これまでに{{count}}件を確認しました。"
+    },
+    "message_site_import_ask_checked_more": {
+        "message": "これまでに{{count}}件を確認しました。リストにはまだ続きがあります。"
+    },
+    "message_site_import_ask_confirm_title": {
+        "message": "{{site}}のリストをインポートしますか？"
+    },
+    "message_site_import_ask_count": {
+        "message": "件数"
+    },
+    "message_site_import_ask_count_all": {
+        "message": "すべて"
+    },
+    "message_site_import_ask_count_limit": {
+        "message": "最新の{{count}}件"
+    },
+    "message_site_import_ask_human_check_body": {
+        "message": "{{site}}が、操作しているのが人間かどうかを確認しようとしています。{{site}}のタブで、ご自身で確認を完了してください。Phiが代わりに行うことは決してありません。"
+    },
+    "message_site_import_ask_human_check_title": {
+        "message": "{{site}}で人間であることを確認"
+    },
+    "message_site_import_ask_human_checked": {
+        "message": "完了しました"
+    },
+    "message_site_import_ask_import": {
+        "message": "インポート"
+    },
+    "message_site_import_ask_items": {
+        "message": "各項目の内容も読んで要約する"
+    },
+    "message_site_import_ask_items_hint": {
+        "message": "1件につき数秒かかります。長いリストは、次回のインポートで続きから進めます。"
+    },
+    "message_site_import_ask_sign_in_body": {
+        "message": "{{site}}のタブで、ご自身でサインインしてください。サイトから届くコードの入力もご自身で行ってください。Phiがパスワードを見ることも、代わりに入力することも決してありません。"
+    },
+    "message_site_import_ask_sign_in_title": {
+        "message": "{{site}}にサインイン"
+    },
+    "message_site_import_ask_signed_in": {
+        "message": "サインインしました"
+    },
+    "message_site_import_continued": {
+        "message": "後の返信で続行しました"
+    },
+    "message_site_import_done_changed": {
+        "message": "新規または変更：{{count}}"
+    },
+    "message_site_import_done_failed": {
+        "message": "読み取れなかったもの：{{count}}"
+    },
+    "message_site_import_done_nothing_new": {
+        "message": "前回から新しいものはありません"
+    },
+    "message_site_import_done_read": {
+        "message": "全文を読んだもの：{{count}}"
+    },
+    "message_site_import_done_remember_failed": {
+        "message": "今回は完了できませんでした"
+    },
+    "message_site_import_done_remembered": {
+        "message": "覚えたこと：{{count}}"
+    },
+    "message_site_import_done_remembered_none": {
+        "message": "新しく覚えることはありません"
+    },
+    "message_site_import_done_unchanged": {
+        "message": "すでに保存済み：{{count}}"
+    },
+    "message_site_import_kind_cart": {
+        "message": "あなたのカート"
+    },
+    "message_site_import_kind_conversation": {
+        "message": "あなたの会話"
+    },
+    "message_site_import_kind_listened": {
+        "message": "聴いたもの"
+    },
+    "message_site_import_kind_message": {
+        "message": "あなたのメッセージ"
+    },
+    "message_site_import_kind_order": {
+        "message": "あなたの注文"
+    },
+    "message_site_import_kind_other": {
+        "message": "あなたのリスト"
+    },
+    "message_site_import_kind_post": {
+        "message": "あなたの投稿"
+    },
+    "message_site_import_kind_rated": {
+        "message": "あなたの評価"
+    },
+    "message_site_import_kind_read": {
+        "message": "読んだもの"
+    },
+    "message_site_import_kind_saved": {
+        "message": "保存したもの"
+    },
+    "message_site_import_kind_watched": {
+        "message": "視聴したもの"
+    },
+    "message_site_import_kind_wishlist": {
+        "message": "ほしいものリスト"
+    },
+    "message_site_import_note_attempt": {
+        "message": "{{count}}回目"
+    },
+    "message_site_import_note_human_check": {
+        "message": "人間であることの確認が必要です"
+    },
+    "message_site_import_note_items_of": {
+        "message": "{{done}} / {{total}}"
+    },
+    "message_site_import_note_items_so_far": {
+        "message": "これまで：{{done}}"
+    },
+    "message_site_import_note_opening": {
+        "message": "サイトを開いています"
+    },
+    "message_site_import_note_remembering": {
+        "message": "目を通しています"
+    },
+    "message_site_import_note_saved": {
+        "message": "保存済み：{{count}}"
+    },
+    "message_site_import_note_sign_in": {
+        "message": "サインインが必要です"
+    },
+    "message_site_import_step_find": {
+        "message": "インポートする対象を探す"
+    },
+    "message_site_import_step_items": {
+        "message": "1件ずつ読む"
+    },
+    "message_site_import_step_learn": {
+        "message": "読み取れるか確認する"
+    },
+    "message_site_import_step_list": {
+        "message": "メモリに保存する"
+    },
+    "message_site_import_step_remember": {
+        "message": "あなたについてわかることを覚える"
+    },
+    "message_site_import_stopped_before": {
+        "message": "何もインポートしないうちに停止しました。"
+    },
+    "message_site_import_stopped_cancelled": {
+        "message": "キャンセルしました。何もインポートされていません。"
+    },
+    "message_site_import_stopped_human_check": {
+        "message": "{{site}}が、引き続き人間であることの確認を求めています。"
+    },
+    "message_site_import_stopped_items": {
+        "message": "一部の項目を読み取れませんでした。次回のインポートで続きを読み取ります。"
+    },
+    "message_site_import_stopped_memory": {
+        "message": "記録を保存できませんでした。"
+    },
+    "message_site_import_stopped_sign_in": {
+        "message": "{{site}}が、引き続きサインインを求めています。"
+    },
+    "message_site_import_stopped_site": {
+        "message": "サイトのページでリストを読み込めなくなりました。"
+    },
+    "message_site_import_stopped_unanswered": {
+        "message": "回答がなかったため、何もインポートされませんでした。"
     },
     "message_skills_label": {
         "message": "スキル"
@@ -2147,66 +2363,6 @@
     "newtab_greeting_morning": {
         "message": "おはようございます"
     },
-    "newtab_greeting_prompt_byte_count": {
-        "message": "{{count}} / {{max}}バイト"
-    },
-    "newtab_greeting_prompt_cancel": {
-        "message": "キャンセル"
-    },
-    "newtab_greeting_prompt_customized": {
-        "message": "カスタマイズ済み"
-    },
-    "newtab_greeting_prompt_default": {
-        "message": "デフォルト"
-    },
-    "newtab_greeting_prompt_description": {
-        "message": "新しいタブに表示するパーソナライズされたあいさつの生成に使う組み込みプロンプトを調整できます。現在のエージェントのソウルを挿入したい位置には、「soul」プレースホルダーを使用してください。"
-    },
-    "newtab_greeting_prompt_edit": {
-        "message": "あいさつプロンプトを編集"
-    },
-    "newtab_greeting_prompt_empty_error": {
-        "message": "あいさつの指示を空にすることはできません。"
-    },
-    "newtab_greeting_prompt_hint": {
-        "message": "保存した変更は、今後生成されるあいさつから適用されます。"
-    },
-    "newtab_greeting_prompt_label": {
-        "message": "指示"
-    },
-    "newtab_greeting_prompt_load_error": {
-        "message": "あいさつプロンプトを読み込めませんでした。"
-    },
-    "newtab_greeting_prompt_loading": {
-        "message": "あいさつプロンプトを読み込んでいます…"
-    },
-    "newtab_greeting_prompt_placeholder": {
-        "message": "あいさつの候補を生成するための指示を入力してください。"
-    },
-    "newtab_greeting_prompt_reset": {
-        "message": "デフォルトに戻す"
-    },
-    "newtab_greeting_prompt_reset_error": {
-        "message": "あいさつプロンプトをリセットできませんでした。"
-    },
-    "newtab_greeting_prompt_reset_saved": {
-        "message": "あいさつプロンプトをリセットしました"
-    },
-    "newtab_greeting_prompt_save": {
-        "message": "保存"
-    },
-    "newtab_greeting_prompt_save_error": {
-        "message": "あいさつプロンプトを保存できませんでした。"
-    },
-    "newtab_greeting_prompt_saved": {
-        "message": "あいさつプロンプトを保存しました"
-    },
-    "newtab_greeting_prompt_title": {
-        "message": "あいさつプロンプト"
-    },
-    "newtab_greeting_prompt_too_large_error": {
-        "message": "あいさつの指示はUTF-8で{{count}}バイト以内にしてください。"
-    },
     "newtab_greeting_style_interest": {
         "message": "控えめ"
     },
@@ -2218,6 +2374,12 @@
     },
     "newtab_greeting_style_personal": {
         "message": "パーソナル"
+    },
+    "newtab_hold_cmd_to_switch_bookmark": {
+        "message": "<key/> を押しながら選択すると、ブックマークに切り替わります"
+    },
+    "newtab_hold_cmd_to_switch_pin": {
+        "message": "<key/> を押しながら選択すると、固定タブに切り替わります"
     },
     "newtab_hold_cmd_to_switch_tab": {
         "message": "<key/> を押しながら選択すると、このタブに切り替わります"
@@ -2233,6 +2395,18 @@
     },
     "newtab_search_placeholder_ask_agent": {
         "message": "検索、{{name}}への質問、またはURLを入力"
+    },
+    "newtab_unified_omnibox_choose_result": {
+        "message": "結果を選択してください"
+    },
+    "newtab_unified_omnibox_failed": {
+        "message": "この結果を開けませんでした"
+    },
+    "newtab_unified_omnibox_pending": {
+        "message": "結果をまだ読み込んでいます"
+    },
+    "newtab_unified_omnibox_unavailable": {
+        "message": "この結果はこの方法では開けません"
     },
     "notification_card_view_details": {
         "message": "詳細を表示"
@@ -4037,6 +4211,63 @@
     "skill_target_title": {
         "message": "どのページで実行しますか？"
     },
+    "skills_action_suggestion_ask_memory_about_me": {
+        "message": "私について何を覚えている？"
+    },
+    "skills_action_suggestion_ask_memory_this_week": {
+        "message": "今週はどんなことを読んでいた？"
+    },
+    "skills_action_suggestion_ask_memory_today": {
+        "message": "今日は何をしていた？"
+    },
+    "skills_action_suggestion_explain_analogy": {
+        "message": "身近なたとえで説明して"
+    },
+    "skills_action_suggestion_explain_key_terms": {
+        "message": "重要な用語を説明して"
+    },
+    "skills_action_suggestion_explain_short": {
+        "message": "3文で説明して"
+    },
+    "skills_action_suggestion_fact_check_claims": {
+        "message": "主な主張を検証して"
+    },
+    "skills_action_suggestion_fact_check_numbers": {
+        "message": "数字と統計を確認して"
+    },
+    "skills_action_suggestion_fact_check_sources": {
+        "message": "元の情報源を探して"
+    },
+    "skills_action_suggestion_group_title": {
+        "message": "おすすめ"
+    },
+    "skills_action_suggestion_import_from_site_chatgpt": {
+        "message": "ChatGPTの会話をインポートして"
+    },
+    "skills_action_suggestion_import_from_site_claude": {
+        "message": "Claudeの会話をインポートして"
+    },
+    "skills_action_suggestion_import_from_site_gemini": {
+        "message": "Geminiの会話をインポートして"
+    },
+    "skills_action_suggestion_import_from_site_grok": {
+        "message": "Grokの会話をインポートして"
+    },
+    "skills_action_suggestion_import_from_site_muse": {
+        "message": "Museのチャットのメッセージをインポートして"
+    },
+    "skills_action_suggestion_import_from_site_reddit": {
+        "message": "Redditで保存した投稿をインポートして"
+    },
+    "skills_action_suggestion_video_gist_article": {
+        "message": "記事に書き直して"
+    },
+    "skills_action_suggestion_video_gist_key_points": {
+        "message": "要点をまとめて"
+    },
+    "skills_action_suggestion_video_gist_transcript": {
+        "message": "文字起こしを全文書き出して"
+    },
     "skills_actions_add": {
         "message": "追加"
     },
@@ -4300,6 +4531,36 @@
     },
     "skills_title": {
         "message": "スキル"
+    },
+    "task_run_log_consent_body": {
+        "message": "Phiはこの実行のログ（実行した各ステップ、読み取ったページ、ツールの結果）をファイルとして保存し、フィードバックと一緒にPhiチームに送信します。"
+    },
+    "task_run_log_consent_dont_share": {
+        "message": "共有しない"
+    },
+    "task_run_log_consent_note_label": {
+        "message": "補足があれば入力してください（任意）"
+    },
+    "task_run_log_consent_ran_at": {
+        "message": "この実行は{{time}}に開始されました。"
+    },
+    "task_run_log_consent_run_label": {
+        "message": "どの実行ですか？"
+    },
+    "task_run_log_consent_run_option": {
+        "message": "{{index}}回目の実行、{{time}}"
+    },
+    "task_run_log_consent_run_option_reported": {
+        "message": "{{index}}回目の実行、{{time}}、この会話で報告済み"
+    },
+    "task_run_log_consent_share": {
+        "message": "共有"
+    },
+    "task_run_log_consent_title": {
+        "message": "「{{task}}」の{{index}}回目の実行のログを共有しますか？"
+    },
+    "task_run_log_consent_title_pick": {
+        "message": "「{{task}}」の実行ログを共有しますか？"
     },
     "tasks_page_common_actions": {
         "message": "操作"

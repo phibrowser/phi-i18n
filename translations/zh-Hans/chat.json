@@ -302,6 +302,9 @@
     "browser_manage_restore_detail_split_exists": {
         "message": "这两个页面已处于分屏中。"
     },
+    "browser_manage_restore_detail_split_exists_wide": {
+        "message": "这些页面已按相同顺序处于分屏中。"
+    },
     "browser_manage_restore_detail_tab_open": {
         "message": "同一页面已在该窗口中打开。"
     },
@@ -446,8 +449,14 @@
     "browser_manage_split_view_remove_body": {
         "message": "结束「{{first}}」和「{{second}}」的分屏；两个标签页都保持打开。"
     },
+    "browser_manage_split_view_remove_body_wide": {
+        "message": "结束从「{{first}}」到「{{last}}」共 {{count}} 个标签页的分屏；标签页都保持打开。"
+    },
     "browser_manage_split_view_remove_summary": {
         "message": "已结束分屏「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_remove_summary_wide": {
+        "message": "已结束 {{count}} 个标签页的分屏，「{{first}}」到「{{last}}」"
     },
     "browser_manage_split_view_remove_title": {
         "message": "结束分屏"
@@ -455,17 +464,32 @@
     "browser_manage_split_view_swap_body": {
         "message": "交换「{{first}}」和「{{second}}」分屏的两侧。"
     },
+    "browser_manage_split_view_swap_body_wide": {
+        "message": "反转分屏中 {{count}} 个标签页的顺序，让「{{last}}」排在最前、「{{first}}」排在最后。"
+    },
     "browser_manage_split_view_swap_summary": {
         "message": "已交换分屏「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_swap_summary_wide": {
+        "message": "已反转 {{count}} 个标签页的分屏，「{{first}}」到「{{last}}」"
     },
     "browser_manage_split_view_swap_title": {
         "message": "交换分屏两侧"
     },
+    "browser_manage_split_view_swap_title_wide": {
+        "message": "反转分屏顺序"
+    },
     "browser_manage_split_view_update_body": {
         "message": "更改「{{first}}」和「{{second}}」的分屏。"
     },
+    "browser_manage_split_view_update_body_wide": {
+        "message": "更改从「{{first}}」到「{{last}}」共 {{count}} 个标签页的分屏。"
+    },
     "browser_manage_split_view_update_summary": {
         "message": "已更改分屏「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_update_summary_wide": {
+        "message": "已更改 {{count}} 个标签页的分屏，「{{first}}」到「{{last}}」"
     },
     "browser_manage_split_view_update_title": {
         "message": "更改分屏"
@@ -892,6 +916,12 @@
     },
     "chat_start_actions_import_chat": {
         "message": "导入这个 ChatGPT 对话"
+    },
+    "chat_start_actions_import_chats": {
+        "message": "把我的 {{site}} 对话都导入记忆"
+    },
+    "chat_start_actions_import_saved": {
+        "message": "把我在 {{site}} 收藏的帖子导入记忆"
     },
     "chat_start_actions_markdown": {
         "message": "用 Markdown 显示这个页面"
@@ -1955,6 +1985,12 @@
     "message_memory_agent_step_fallback": {
         "message": "查看记忆"
     },
+    "message_memory_agent_step_hand_off": {
+        "message": "交给另一个 Skill"
+    },
+    "message_memory_agent_step_hand_off_import": {
+        "message": "交给 Import from a Site"
+    },
     "message_memory_agent_step_list_activity": {
         "message": "翻看浏览活动"
     },
@@ -1963,6 +1999,9 @@
     },
     "message_memory_agent_step_list_facts": {
         "message": "翻看已保存的事实"
+    },
+    "message_memory_agent_step_list_imported": {
+        "message": "翻看导入的记录"
     },
     "message_memory_agent_step_list_own_work": {
         "message": "翻看过往任务"
@@ -1999,6 +2038,9 @@
     },
     "message_memory_agent_step_save_preference": {
         "message": "保存你的偏好"
+    },
+    "message_memory_agent_step_understand": {
+        "message": "理解你的请求"
     },
     "message_memory_agent_step_update_instructions": {
         "message": "更新长期指令"
@@ -2065,6 +2107,180 @@
     },
     "message_save": {
         "message": "保存"
+    },
+    "message_site_import_ask_cancel": {
+        "message": "取消"
+    },
+    "message_site_import_ask_checked": {
+        "message": "目前已检查 {{count}} 条。"
+    },
+    "message_site_import_ask_checked_more": {
+        "message": "目前已检查 {{count}} 条，列表后面还有更多。"
+    },
+    "message_site_import_ask_confirm_title": {
+        "message": "要导入你在 {{site}} 的列表吗？"
+    },
+    "message_site_import_ask_count": {
+        "message": "数量"
+    },
+    "message_site_import_ask_count_all": {
+        "message": "全部"
+    },
+    "message_site_import_ask_count_limit": {
+        "message": "最新的 {{count}} 条"
+    },
+    "message_site_import_ask_human_check_body": {
+        "message": "{{site}} 想确认有真人在操作。请你在 {{site}} 标签页中亲自完成验证；Phi 绝不会替你完成。"
+    },
+    "message_site_import_ask_human_check_title": {
+        "message": "在 {{site}} 上确认你是真人"
+    },
+    "message_site_import_ask_human_checked": {
+        "message": "我已完成"
+    },
+    "message_site_import_ask_import": {
+        "message": "导入"
+    },
+    "message_site_import_ask_items": {
+        "message": "同时读取并总结每一条"
+    },
+    "message_site_import_ask_items_hint": {
+        "message": "每条需要几秒钟。较长的列表会在下次导入时继续。"
+    },
+    "message_site_import_ask_sign_in_body": {
+        "message": "请在 {{site}} 标签页中自行登录，包括输入网站发给你的验证码。Phi 绝不会查看你的密码，也绝不会替你输入。"
+    },
+    "message_site_import_ask_sign_in_title": {
+        "message": "登录 {{site}}"
+    },
+    "message_site_import_ask_signed_in": {
+        "message": "我已登录"
+    },
+    "message_site_import_continued": {
+        "message": "已在后续回复中继续"
+    },
+    "message_site_import_done_changed": {
+        "message": "新增或有变动：{{count}}"
+    },
+    "message_site_import_done_failed": {
+        "message": "未能读取：{{count}}"
+    },
+    "message_site_import_done_nothing_new": {
+        "message": "上次之后没有新内容"
+    },
+    "message_site_import_done_read": {
+        "message": "已完整读取：{{count}}"
+    },
+    "message_site_import_done_remember_failed": {
+        "message": "这次没能完成"
+    },
+    "message_site_import_done_remembered": {
+        "message": "已记下：{{count}}"
+    },
+    "message_site_import_done_remembered_none": {
+        "message": "没有新的内容可记"
+    },
+    "message_site_import_done_unchanged": {
+        "message": "之前已保存：{{count}}"
+    },
+    "message_site_import_kind_cart": {
+        "message": "你的购物车"
+    },
+    "message_site_import_kind_conversation": {
+        "message": "你的对话"
+    },
+    "message_site_import_kind_listened": {
+        "message": "你听过的"
+    },
+    "message_site_import_kind_message": {
+        "message": "你的消息"
+    },
+    "message_site_import_kind_order": {
+        "message": "你的订单"
+    },
+    "message_site_import_kind_other": {
+        "message": "你的列表"
+    },
+    "message_site_import_kind_post": {
+        "message": "你的帖子"
+    },
+    "message_site_import_kind_rated": {
+        "message": "你的评分"
+    },
+    "message_site_import_kind_read": {
+        "message": "你读过的"
+    },
+    "message_site_import_kind_saved": {
+        "message": "你收藏的"
+    },
+    "message_site_import_kind_watched": {
+        "message": "你看过的"
+    },
+    "message_site_import_kind_wishlist": {
+        "message": "你的心愿单"
+    },
+    "message_site_import_note_attempt": {
+        "message": "第 {{count}} 次尝试"
+    },
+    "message_site_import_note_human_check": {
+        "message": "需要人机验证"
+    },
+    "message_site_import_note_items_of": {
+        "message": "{{done}} / {{total}}"
+    },
+    "message_site_import_note_items_so_far": {
+        "message": "目前已读：{{done}}"
+    },
+    "message_site_import_note_opening": {
+        "message": "正在打开网站"
+    },
+    "message_site_import_note_remembering": {
+        "message": "正在通读"
+    },
+    "message_site_import_note_saved": {
+        "message": "已保存：{{count}}"
+    },
+    "message_site_import_note_sign_in": {
+        "message": "需要登录"
+    },
+    "message_site_import_step_find": {
+        "message": "找到要导入的内容"
+    },
+    "message_site_import_step_items": {
+        "message": "逐条读取"
+    },
+    "message_site_import_step_learn": {
+        "message": "检查能否正常读取"
+    },
+    "message_site_import_step_list": {
+        "message": "保存到记忆"
+    },
+    "message_site_import_step_remember": {
+        "message": "从中了解你"
+    },
+    "message_site_import_stopped_before": {
+        "message": "还没导入任何内容就停止了。"
+    },
+    "message_site_import_stopped_cancelled": {
+        "message": "已取消，没有导入任何内容。"
+    },
+    "message_site_import_stopped_human_check": {
+        "message": "{{site}} 仍要求你确认自己是真人。"
+    },
+    "message_site_import_stopped_items": {
+        "message": "部分条目未能读取，下次导入时会接着读。"
+    },
+    "message_site_import_stopped_memory": {
+        "message": "这些记录未能保存。"
+    },
+    "message_site_import_stopped_sign_in": {
+        "message": "{{site}} 仍要求你登录。"
+    },
+    "message_site_import_stopped_site": {
+        "message": "网站页面没能继续加载这个列表。"
+    },
+    "message_site_import_stopped_unanswered": {
+        "message": "没有收到回应，因此没有导入任何内容。"
     },
     "message_skills_label": {
         "message": "Skill"
@@ -2147,66 +2363,6 @@
     "newtab_greeting_morning": {
         "message": "早上好"
     },
-    "newtab_greeting_prompt_byte_count": {
-        "message": "{{count}} / {{max}} 字节"
-    },
-    "newtab_greeting_prompt_cancel": {
-        "message": "取消"
-    },
-    "newtab_greeting_prompt_customized": {
-        "message": "已自定义"
-    },
-    "newtab_greeting_prompt_default": {
-        "message": "默认"
-    },
-    "newtab_greeting_prompt_description": {
-        "message": "调整用于生成个性化新标签页问候语的内置 Prompt。可使用 soul 占位符插入当前 agent soul。"
-    },
-    "newtab_greeting_prompt_edit": {
-        "message": "编辑问候语 Prompt"
-    },
-    "newtab_greeting_prompt_empty_error": {
-        "message": "问候语指令不能为空。"
-    },
-    "newtab_greeting_prompt_hint": {
-        "message": "保存后会应用到后续生成的问候语批次。"
-    },
-    "newtab_greeting_prompt_label": {
-        "message": "指令"
-    },
-    "newtab_greeting_prompt_load_error": {
-        "message": "加载问候语 Prompt 失败。"
-    },
-    "newtab_greeting_prompt_loading": {
-        "message": "正在加载问候语 Prompt…"
-    },
-    "newtab_greeting_prompt_placeholder": {
-        "message": "编写用于生成问候语候选的指令。"
-    },
-    "newtab_greeting_prompt_reset": {
-        "message": "恢复默认"
-    },
-    "newtab_greeting_prompt_reset_error": {
-        "message": "重置问候语 Prompt 失败。"
-    },
-    "newtab_greeting_prompt_reset_saved": {
-        "message": "问候语 Prompt 已重置"
-    },
-    "newtab_greeting_prompt_save": {
-        "message": "保存"
-    },
-    "newtab_greeting_prompt_save_error": {
-        "message": "保存问候语 Prompt 失败。"
-    },
-    "newtab_greeting_prompt_saved": {
-        "message": "问候语 Prompt 已保存"
-    },
-    "newtab_greeting_prompt_title": {
-        "message": "问候语提示词"
-    },
-    "newtab_greeting_prompt_too_large_error": {
-        "message": "问候语指令不能超过 {{count}} 个 UTF-8 字节。"
-    },
     "newtab_greeting_style_interest": {
         "message": "轻度个性化"
     },
@@ -2218,6 +2374,12 @@
     },
     "newtab_greeting_style_personal": {
         "message": "个性化"
+    },
+    "newtab_hold_cmd_to_switch_bookmark": {
+        "message": "按住 <key/> 切换到书签"
+    },
+    "newtab_hold_cmd_to_switch_pin": {
+        "message": "按住 <key/> 切换到固定标签页"
     },
     "newtab_hold_cmd_to_switch_tab": {
         "message": "按住 <key/> 切换到已有标签页"
@@ -2233,6 +2395,18 @@
     },
     "newtab_search_placeholder_ask_agent": {
         "message": "搜索、{{name}}问答或输入网址"
+    },
+    "newtab_unified_omnibox_choose_result": {
+        "message": "请选择一个结果"
+    },
+    "newtab_unified_omnibox_failed": {
+        "message": "无法打开此结果"
+    },
+    "newtab_unified_omnibox_pending": {
+        "message": "结果仍在加载"
+    },
+    "newtab_unified_omnibox_unavailable": {
+        "message": "无法以这种方式打开此结果"
     },
     "notification_card_view_details": {
         "message": "查看详情"
@@ -4037,6 +4211,63 @@
     "skill_target_title": {
         "message": "要在哪个页面上运行？"
     },
+    "skills_action_suggestion_ask_memory_about_me": {
+        "message": "你都记得我的哪些事？"
+    },
+    "skills_action_suggestion_ask_memory_this_week": {
+        "message": "我这周都在读哪些方面的内容？"
+    },
+    "skills_action_suggestion_ask_memory_today": {
+        "message": "我今天都做了什么？"
+    },
+    "skills_action_suggestion_explain_analogy": {
+        "message": "打个生活中的比方来解释"
+    },
+    "skills_action_suggestion_explain_key_terms": {
+        "message": "解释关键术语"
+    },
+    "skills_action_suggestion_explain_short": {
+        "message": "用三句话解释"
+    },
+    "skills_action_suggestion_fact_check_claims": {
+        "message": "核查主要说法"
+    },
+    "skills_action_suggestion_fact_check_numbers": {
+        "message": "核查数字和统计数据"
+    },
+    "skills_action_suggestion_fact_check_sources": {
+        "message": "找出原始出处"
+    },
+    "skills_action_suggestion_group_title": {
+        "message": "建议"
+    },
+    "skills_action_suggestion_import_from_site_chatgpt": {
+        "message": "导入我的 ChatGPT 对话"
+    },
+    "skills_action_suggestion_import_from_site_claude": {
+        "message": "导入我的 Claude 对话"
+    },
+    "skills_action_suggestion_import_from_site_gemini": {
+        "message": "导入我的 Gemini 对话"
+    },
+    "skills_action_suggestion_import_from_site_grok": {
+        "message": "导入我的 Grok 对话"
+    },
+    "skills_action_suggestion_import_from_site_muse": {
+        "message": "导入我在 Muse 对话里的消息"
+    },
+    "skills_action_suggestion_import_from_site_reddit": {
+        "message": "导入我在 Reddit 上收藏的帖子"
+    },
+    "skills_action_suggestion_video_gist_article": {
+        "message": "改写成一篇文章"
+    },
+    "skills_action_suggestion_video_gist_key_points": {
+        "message": "总结要点"
+    },
+    "skills_action_suggestion_video_gist_transcript": {
+        "message": "写出完整的文字稿"
+    },
     "skills_actions_add": {
         "message": "添加"
     },
@@ -4300,6 +4531,36 @@
     },
     "skills_title": {
         "message": "Skill"
+    },
+    "task_run_log_consent_body": {
+        "message": "Phi 会把这次运行的日志（它执行的每一步、读取的页面和工具结果）保存为文件，并连同你的反馈一起发送给 Phi 团队。"
+    },
+    "task_run_log_consent_dont_share": {
+        "message": "不分享"
+    },
+    "task_run_log_consent_note_label": {
+        "message": "还有什么想补充的吗？（可选）"
+    },
+    "task_run_log_consent_ran_at": {
+        "message": "这次运行开始于 {{time}}。"
+    },
+    "task_run_log_consent_run_label": {
+        "message": "哪一次运行？"
+    },
+    "task_run_log_consent_run_option": {
+        "message": "第 {{index}} 次运行，{{time}}"
+    },
+    "task_run_log_consent_run_option_reported": {
+        "message": "第 {{index}} 次运行，{{time}}，已在此对话中汇报"
+    },
+    "task_run_log_consent_share": {
+        "message": "分享"
+    },
+    "task_run_log_consent_title": {
+        "message": "分享「{{task}}」第 {{index}} 次运行的日志？"
+    },
+    "task_run_log_consent_title_pick": {
+        "message": "分享「{{task}}」的一次运行日志？"
     },
     "tasks_page_common_actions": {
         "message": "操作"

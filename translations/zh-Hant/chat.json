@@ -302,6 +302,9 @@
     "browser_manage_restore_detail_split_exists": {
         "message": "這兩個頁面已在分割畫面中。"
     },
+    "browser_manage_restore_detail_split_exists_wide": {
+        "message": "這些頁面已依相同順序在分割畫面中。"
+    },
     "browser_manage_restore_detail_tab_open": {
         "message": "同一個頁面已在該視窗中開啟。"
     },
@@ -446,8 +449,14 @@
     "browser_manage_split_view_remove_body": {
         "message": "結束「{{first}}」和「{{second}}」的分割畫面；兩個分頁都會保持開啟。"
     },
+    "browser_manage_split_view_remove_body_wide": {
+        "message": "結束從「{{first}}」到「{{last}}」共 {{count}} 個分頁的分割畫面；分頁都會保持開啟。"
+    },
     "browser_manage_split_view_remove_summary": {
         "message": "已結束分割畫面「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_remove_summary_wide": {
+        "message": "已結束 {{count}} 個分頁的分割畫面，「{{first}}」到「{{last}}」"
     },
     "browser_manage_split_view_remove_title": {
         "message": "結束分割畫面"
@@ -455,17 +464,32 @@
     "browser_manage_split_view_swap_body": {
         "message": "交換「{{first}}」和「{{second}}」分割畫面的兩側。"
     },
+    "browser_manage_split_view_swap_body_wide": {
+        "message": "反轉分割畫面中 {{count}} 個分頁的順序，讓「{{last}}」排在最前、「{{first}}」排在最後。"
+    },
     "browser_manage_split_view_swap_summary": {
         "message": "已交換分割畫面「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_swap_summary_wide": {
+        "message": "已反轉 {{count}} 個分頁的分割畫面，「{{first}}」到「{{last}}」"
     },
     "browser_manage_split_view_swap_title": {
         "message": "交換分割畫面兩側"
     },
+    "browser_manage_split_view_swap_title_wide": {
+        "message": "反轉分割畫面順序"
+    },
     "browser_manage_split_view_update_body": {
         "message": "變更「{{first}}」和「{{second}}」的分割畫面。"
     },
+    "browser_manage_split_view_update_body_wide": {
+        "message": "變更從「{{first}}」到「{{last}}」共 {{count}} 個分頁的分割畫面。"
+    },
     "browser_manage_split_view_update_summary": {
         "message": "已變更分割畫面「{{first}}」+「{{second}}」"
+    },
+    "browser_manage_split_view_update_summary_wide": {
+        "message": "已變更 {{count}} 個分頁的分割畫面，「{{first}}」到「{{last}}」"
     },
     "browser_manage_split_view_update_title": {
         "message": "變更分割畫面"
@@ -892,6 +916,12 @@
     },
     "chat_start_actions_import_chat": {
         "message": "匯入這段 ChatGPT 對話"
+    },
+    "chat_start_actions_import_chats": {
+        "message": "把我在 {{site}} 的對話都匯入記憶"
+    },
+    "chat_start_actions_import_saved": {
+        "message": "把我在 {{site}} 收藏的貼文匯入記憶"
     },
     "chat_start_actions_markdown": {
         "message": "用 Markdown 顯示這個網頁"
@@ -1955,6 +1985,12 @@
     "message_memory_agent_step_fallback": {
         "message": "查看記憶"
     },
+    "message_memory_agent_step_hand_off": {
+        "message": "交給另一個 Skill"
+    },
+    "message_memory_agent_step_hand_off_import": {
+        "message": "交給 Import from a Site"
+    },
     "message_memory_agent_step_list_activity": {
         "message": "查看瀏覽活動"
     },
@@ -1963,6 +1999,9 @@
     },
     "message_memory_agent_step_list_facts": {
         "message": "查看已儲存的事實"
+    },
+    "message_memory_agent_step_list_imported": {
+        "message": "查看已匯入的記錄"
     },
     "message_memory_agent_step_list_own_work": {
         "message": "查看過去的任務"
@@ -1999,6 +2038,9 @@
     },
     "message_memory_agent_step_save_preference": {
         "message": "儲存你的偏好"
+    },
+    "message_memory_agent_step_understand": {
+        "message": "理解你的請求"
     },
     "message_memory_agent_step_update_instructions": {
         "message": "更新常設指示"
@@ -2065,6 +2107,180 @@
     },
     "message_save": {
         "message": "儲存"
+    },
+    "message_site_import_ask_cancel": {
+        "message": "取消"
+    },
+    "message_site_import_ask_checked": {
+        "message": "目前已檢查 {{count}} 筆。"
+    },
+    "message_site_import_ask_checked_more": {
+        "message": "目前已檢查 {{count}} 筆，清單後面還有更多。"
+    },
+    "message_site_import_ask_confirm_title": {
+        "message": "要匯入你在 {{site}} 的清單嗎？"
+    },
+    "message_site_import_ask_count": {
+        "message": "匯入數量"
+    },
+    "message_site_import_ask_count_all": {
+        "message": "全部"
+    },
+    "message_site_import_ask_count_limit": {
+        "message": "最新的 {{count}} 筆"
+    },
+    "message_site_import_ask_human_check_body": {
+        "message": "{{site}} 想確認有真人在操作。請你在 {{site}} 分頁中親自完成驗證；Phi 絕不會替你完成。"
+    },
+    "message_site_import_ask_human_check_title": {
+        "message": "在 {{site}} 上確認你是真人"
+    },
+    "message_site_import_ask_human_checked": {
+        "message": "我已完成"
+    },
+    "message_site_import_ask_import": {
+        "message": "匯入"
+    },
+    "message_site_import_ask_items": {
+        "message": "同時讀取每一筆並整理摘要"
+    },
+    "message_site_import_ask_items_hint": {
+        "message": "每筆需要幾秒鐘。清單較長時，下次匯入會接著處理。"
+    },
+    "message_site_import_ask_sign_in_body": {
+        "message": "請在 {{site}} 分頁中自行登入，包括輸入網站傳給你的驗證碼。Phi 絕不會看到你的密碼，也絕不會替你輸入。"
+    },
+    "message_site_import_ask_sign_in_title": {
+        "message": "登入 {{site}}"
+    },
+    "message_site_import_ask_signed_in": {
+        "message": "我已登入"
+    },
+    "message_site_import_continued": {
+        "message": "已在後續回覆中繼續"
+    },
+    "message_site_import_done_changed": {
+        "message": "新增或變更：{{count}}"
+    },
+    "message_site_import_done_failed": {
+        "message": "無法讀取：{{count}}"
+    },
+    "message_site_import_done_nothing_new": {
+        "message": "上次之後沒有新內容"
+    },
+    "message_site_import_done_read": {
+        "message": "已完整讀取：{{count}}"
+    },
+    "message_site_import_done_remember_failed": {
+        "message": "這次沒能完成"
+    },
+    "message_site_import_done_remembered": {
+        "message": "已記下：{{count}}"
+    },
+    "message_site_import_done_remembered_none": {
+        "message": "沒有需要記下的新內容"
+    },
+    "message_site_import_done_unchanged": {
+        "message": "先前已儲存：{{count}}"
+    },
+    "message_site_import_kind_cart": {
+        "message": "你的購物車"
+    },
+    "message_site_import_kind_conversation": {
+        "message": "你的對話"
+    },
+    "message_site_import_kind_listened": {
+        "message": "你聽過的內容"
+    },
+    "message_site_import_kind_message": {
+        "message": "你的訊息"
+    },
+    "message_site_import_kind_order": {
+        "message": "你的訂單"
+    },
+    "message_site_import_kind_other": {
+        "message": "你的清單"
+    },
+    "message_site_import_kind_post": {
+        "message": "你的貼文"
+    },
+    "message_site_import_kind_rated": {
+        "message": "你的評分"
+    },
+    "message_site_import_kind_read": {
+        "message": "你讀過的內容"
+    },
+    "message_site_import_kind_saved": {
+        "message": "你收藏的內容"
+    },
+    "message_site_import_kind_watched": {
+        "message": "你看過的內容"
+    },
+    "message_site_import_kind_wishlist": {
+        "message": "你的願望清單"
+    },
+    "message_site_import_note_attempt": {
+        "message": "第 {{count}} 次嘗試"
+    },
+    "message_site_import_note_human_check": {
+        "message": "需要真人驗證"
+    },
+    "message_site_import_note_items_of": {
+        "message": "{{done}} / {{total}}"
+    },
+    "message_site_import_note_items_so_far": {
+        "message": "目前已讀取：{{done}}"
+    },
+    "message_site_import_note_opening": {
+        "message": "正在開啟網站"
+    },
+    "message_site_import_note_remembering": {
+        "message": "正在仔細閱讀"
+    },
+    "message_site_import_note_saved": {
+        "message": "已儲存：{{count}}"
+    },
+    "message_site_import_note_sign_in": {
+        "message": "需要登入"
+    },
+    "message_site_import_step_find": {
+        "message": "找到要匯入的內容"
+    },
+    "message_site_import_step_items": {
+        "message": "逐筆讀取內容"
+    },
+    "message_site_import_step_learn": {
+        "message": "確認內容能正確讀取"
+    },
+    "message_site_import_step_list": {
+        "message": "儲存到記憶"
+    },
+    "message_site_import_step_remember": {
+        "message": "從中了解你"
+    },
+    "message_site_import_stopped_before": {
+        "message": "還沒匯入任何內容就停止了。"
+    },
+    "message_site_import_stopped_cancelled": {
+        "message": "已取消，沒有匯入任何內容。"
+    },
+    "message_site_import_stopped_human_check": {
+        "message": "{{site}} 仍要你確認自己是真人。"
+    },
+    "message_site_import_stopped_items": {
+        "message": "部分項目無法讀取，下次匯入會接著處理。"
+    },
+    "message_site_import_stopped_memory": {
+        "message": "無法儲存這些記錄。"
+    },
+    "message_site_import_stopped_sign_in": {
+        "message": "{{site}} 仍要你登入。"
+    },
+    "message_site_import_stopped_site": {
+        "message": "網站頁面無法繼續載入這份清單。"
+    },
+    "message_site_import_stopped_unanswered": {
+        "message": "沒有收到回覆，因此沒有匯入任何內容。"
     },
     "message_skills_label": {
         "message": "Skill"
@@ -2147,66 +2363,6 @@
     "newtab_greeting_morning": {
         "message": "早安"
     },
-    "newtab_greeting_prompt_byte_count": {
-        "message": "{{count}} / {{max}} 位元組"
-    },
-    "newtab_greeting_prompt_cancel": {
-        "message": "取消"
-    },
-    "newtab_greeting_prompt_customized": {
-        "message": "已自訂"
-    },
-    "newtab_greeting_prompt_default": {
-        "message": "預設"
-    },
-    "newtab_greeting_prompt_description": {
-        "message": "調整用來產生個人化新分頁問候語的內建提示詞。在需要插入目前 AI 代理靈魂的位置，請使用 soul 預留位置。"
-    },
-    "newtab_greeting_prompt_edit": {
-        "message": "編輯問候語提示詞"
-    },
-    "newtab_greeting_prompt_empty_error": {
-        "message": "問候語指示不能為空。"
-    },
-    "newtab_greeting_prompt_hint": {
-        "message": "儲存的變更會套用到之後的問候語批次。"
-    },
-    "newtab_greeting_prompt_label": {
-        "message": "指示"
-    },
-    "newtab_greeting_prompt_load_error": {
-        "message": "無法載入問候語提示詞。"
-    },
-    "newtab_greeting_prompt_loading": {
-        "message": "正在載入問候語提示詞…"
-    },
-    "newtab_greeting_prompt_placeholder": {
-        "message": "輸入用來產生問候語候選的指示。"
-    },
-    "newtab_greeting_prompt_reset": {
-        "message": "重設為預設值"
-    },
-    "newtab_greeting_prompt_reset_error": {
-        "message": "無法重設問候語提示詞。"
-    },
-    "newtab_greeting_prompt_reset_saved": {
-        "message": "問候語提示詞已重設"
-    },
-    "newtab_greeting_prompt_save": {
-        "message": "儲存"
-    },
-    "newtab_greeting_prompt_save_error": {
-        "message": "無法儲存問候語提示詞。"
-    },
-    "newtab_greeting_prompt_saved": {
-        "message": "問候語提示詞已儲存"
-    },
-    "newtab_greeting_prompt_title": {
-        "message": "問候語提示詞"
-    },
-    "newtab_greeting_prompt_too_large_error": {
-        "message": "問候語指示不得超過 {{count}} 個 UTF-8 位元組。"
-    },
     "newtab_greeting_style_interest": {
         "message": "較不個人化"
     },
@@ -2218,6 +2374,12 @@
     },
     "newtab_greeting_style_personal": {
         "message": "個人化"
+    },
+    "newtab_hold_cmd_to_switch_bookmark": {
+        "message": "按住 <key/> 即可切換至書籤"
+    },
+    "newtab_hold_cmd_to_switch_pin": {
+        "message": "按住 <key/> 即可切換至釘選分頁"
     },
     "newtab_hold_cmd_to_switch_tab": {
         "message": "按住 <key/> 即可切換至此分頁"
@@ -2233,6 +2395,18 @@
     },
     "newtab_search_placeholder_ask_agent": {
         "message": "搜尋、詢問{{name}}，或輸入網址"
+    },
+    "newtab_unified_omnibox_choose_result": {
+        "message": "請選擇一個結果"
+    },
+    "newtab_unified_omnibox_failed": {
+        "message": "無法開啟此結果"
+    },
+    "newtab_unified_omnibox_pending": {
+        "message": "結果仍在載入中"
+    },
+    "newtab_unified_omnibox_unavailable": {
+        "message": "無法以這種方式開啟此結果"
     },
     "notification_card_view_details": {
         "message": "檢視詳細資訊"
@@ -4037,6 +4211,63 @@
     "skill_target_title": {
         "message": "要在哪個網頁執行？"
     },
+    "skills_action_suggestion_ask_memory_about_me": {
+        "message": "你記得我的哪些事？"
+    },
+    "skills_action_suggestion_ask_memory_this_week": {
+        "message": "我這週都在讀哪些主題？"
+    },
+    "skills_action_suggestion_ask_memory_today": {
+        "message": "我今天做了哪些事？"
+    },
+    "skills_action_suggestion_explain_analogy": {
+        "message": "用生活中的比喻來解釋"
+    },
+    "skills_action_suggestion_explain_key_terms": {
+        "message": "解釋關鍵術語"
+    },
+    "skills_action_suggestion_explain_short": {
+        "message": "用三句話解釋"
+    },
+    "skills_action_suggestion_fact_check_claims": {
+        "message": "查證主要說法"
+    },
+    "skills_action_suggestion_fact_check_numbers": {
+        "message": "查證數字和統計資料"
+    },
+    "skills_action_suggestion_fact_check_sources": {
+        "message": "找出原始出處"
+    },
+    "skills_action_suggestion_group_title": {
+        "message": "建議"
+    },
+    "skills_action_suggestion_import_from_site_chatgpt": {
+        "message": "匯入我的 ChatGPT 對話"
+    },
+    "skills_action_suggestion_import_from_site_claude": {
+        "message": "匯入我的 Claude 對話"
+    },
+    "skills_action_suggestion_import_from_site_gemini": {
+        "message": "匯入我的 Gemini 對話"
+    },
+    "skills_action_suggestion_import_from_site_grok": {
+        "message": "匯入我的 Grok 對話"
+    },
+    "skills_action_suggestion_import_from_site_muse": {
+        "message": "匯入我在 Muse 對話中的訊息"
+    },
+    "skills_action_suggestion_import_from_site_reddit": {
+        "message": "匯入我在 Reddit 收藏的貼文"
+    },
+    "skills_action_suggestion_video_gist_article": {
+        "message": "改寫成一篇文章"
+    },
+    "skills_action_suggestion_video_gist_key_points": {
+        "message": "整理重點"
+    },
+    "skills_action_suggestion_video_gist_transcript": {
+        "message": "寫出完整的逐字稿"
+    },
     "skills_actions_add": {
         "message": "加入"
     },
@@ -4300,6 +4531,36 @@
     },
     "skills_title": {
         "message": "Skill"
+    },
+    "task_run_log_consent_body": {
+        "message": "Phi 會將這次執行的記錄（每個步驟、讀取的網頁和工具結果）儲存為檔案，並連同你的意見回饋一起傳送給 Phi 團隊。"
+    },
+    "task_run_log_consent_dont_share": {
+        "message": "不分享"
+    },
+    "task_run_log_consent_note_label": {
+        "message": "還有什麼想補充的嗎？（選填）"
+    },
+    "task_run_log_consent_ran_at": {
+        "message": "這次執行於 {{time}} 開始。"
+    },
+    "task_run_log_consent_run_label": {
+        "message": "哪一次執行？"
+    },
+    "task_run_log_consent_run_option": {
+        "message": "第 {{index}} 次執行，{{time}}"
+    },
+    "task_run_log_consent_run_option_reported": {
+        "message": "第 {{index}} 次執行，{{time}}，已在此對話回報"
+    },
+    "task_run_log_consent_share": {
+        "message": "分享"
+    },
+    "task_run_log_consent_title": {
+        "message": "要分享「{{task}}」第 {{index}} 次執行的記錄嗎？"
+    },
+    "task_run_log_consent_title_pick": {
+        "message": "要分享「{{task}}」某次執行的記錄嗎？"
     },
     "tasks_page_common_actions": {
         "message": "動作"

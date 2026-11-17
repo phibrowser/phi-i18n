@@ -403,6 +403,10 @@
         "message": "The same two pages are already split.",
         "description": "Location: Chat. Says what the conflict is: those two pages are already split."
     },
+    "browser_manage_restore_detail_split_exists_wide": {
+        "message": "The same pages are already split, in the same order.",
+        "description": "Location: Chat. Says what the conflict is: those pages are already split, in that order."
+    },
     "browser_manage_restore_detail_tab_open": {
         "message": "The same page is open in that window.",
         "description": "Location: Chat. Says what the conflict is: the same page is open in that window."
@@ -595,9 +599,17 @@
         "message": "End the split view of \"{{first}}\" and \"{{second}}\"; both tabs stay open.",
         "description": "Location: Chat. Body of that card; both pages stay open afterwards."
     },
+    "browser_manage_split_view_remove_body_wide": {
+        "message": "End the split view of {{count}} tabs, from \"{{first}}\" to \"{{last}}\"; the tabs stay open.",
+        "description": "Location: Chat. Body of the card asking to end a split view of three or four pages; the pages stay open afterwards. {{count}} is how many; {{first}} and {{last}} are the first and last page's titles."
+    },
     "browser_manage_split_view_remove_summary": {
         "message": "Ended split view \"{{first}}\" + \"{{second}}\"",
         "description": "Location: Chat. One line about a split view that was ended, listed later as something the user can undo."
+    },
+    "browser_manage_split_view_remove_summary_wide": {
+        "message": "Ended split view of {{count}} tabs, \"{{first}}\" to \"{{last}}\"",
+        "description": "Location: Chat. One line about a split view of three or four pages that was ended, listed later as something the user can undo."
     },
     "browser_manage_split_view_remove_title": {
         "message": "End split view",
@@ -607,21 +619,41 @@
         "message": "Swap the two sides of the split view of \"{{first}}\" and \"{{second}}\".",
         "description": "Location: Chat. Body of that card. {{first}} and {{second}} are the two pages' titles."
     },
+    "browser_manage_split_view_swap_body_wide": {
+        "message": "Reverse the order of the {{count}} tabs in the split view, so \"{{last}}\" comes first and \"{{first}}\" last.",
+        "description": "Location: Chat. Body of that card. {{count}} is how many pages; {{first}} and {{last}} are the first and last page's titles, which change places."
+    },
     "browser_manage_split_view_swap_summary": {
         "message": "Swapped split view \"{{first}}\" + \"{{second}}\"",
         "description": "Location: Chat. One line about a split view whose sides were swapped, listed later as something the user can undo."
+    },
+    "browser_manage_split_view_swap_summary_wide": {
+        "message": "Reversed split view of {{count}} tabs, \"{{first}}\" to \"{{last}}\"",
+        "description": "Location: Chat. One line about a split view of three or four pages whose order was reversed, listed later as something the user can undo."
     },
     "browser_manage_split_view_swap_title": {
         "message": "Swap split view sides",
         "description": "Location: Chat. Title of the card asking to swap the two sides of a split view."
     },
+    "browser_manage_split_view_swap_title_wide": {
+        "message": "Reverse split view order",
+        "description": "Location: Chat. Title of the card asking to reverse the order of the three or four pages of a split view."
+    },
     "browser_manage_split_view_update_body": {
         "message": "Change the split view of \"{{first}}\" and \"{{second}}\".",
         "description": "Location: Chat. Body of that card. {{first}} and {{second}} are the two pages' titles."
     },
+    "browser_manage_split_view_update_body_wide": {
+        "message": "Change the split view of {{count}} tabs, from \"{{first}}\" to \"{{last}}\".",
+        "description": "Location: Chat. Body of the card asking to change a split view of three or four pages. {{count}} is how many; {{first}} and {{last}} are the first and last page's titles."
+    },
     "browser_manage_split_view_update_summary": {
         "message": "Changed split view \"{{first}}\" + \"{{second}}\"",
         "description": "Location: Chat. One line about a split view that was changed, listed later as something the user can undo."
+    },
+    "browser_manage_split_view_update_summary_wide": {
+        "message": "Changed split view of {{count}} tabs, \"{{first}}\" to \"{{last}}\"",
+        "description": "Location: Chat. One line about a split view of three or four pages that was changed, listed later as something the user can undo."
     },
     "browser_manage_split_view_update_title": {
         "message": "Change split view",
@@ -1190,6 +1222,14 @@
     "chat_start_actions_import_chat": {
         "message": "Import this ChatGPT conversation",
         "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask to import the currently open ChatGPT conversation into the local conversation list."
+    },
+    "chat_start_actions_import_chats": {
+        "message": "Import my {{site}} chats into memory",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask to import the user's chats with an AI assistant site into memory, all of them rather than one conversation; {{site}} is the site's brand name (ChatGPT, Claude, Gemini, Grok, Muse), shown untranslated."
+    },
+    "chat_start_actions_import_saved": {
+        "message": "Import my saved {{site}} posts into memory",
+        "description": "Location: Chat. Empty conversation screen with a centered composer. This is static interface copy, not a generated assistant greeting. Each short action labels a suggested skill button and is also sent as the user's instruction when clicked, appended to any existing draft. The page or video is the currently active browser page. Ask to import the posts the user saved on a forum site into memory; {{site}} is the site's brand name (Reddit, V2EX), shown untranslated."
     },
     "chat_start_actions_markdown": {
         "message": "Show this page as Markdown",
@@ -2607,6 +2647,14 @@
         "message": "Check memory",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. A memory step of a kind not listed here."
     },
+    "message_memory_agent_step_hand_off": {
+        "message": "Hand it to another skill",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. A memory step: the request is not the memory's to carry out, so it is passed to another of the assistant's skills, which takes over."
+    },
+    "message_memory_agent_step_hand_off_import": {
+        "message": "Hand it to Import from a Site",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. A memory step: the user asked to import a list they keep on a website, so the request is passed to the Import from a Site skill, which takes over. Import from a Site is the skill's name, as the user picks it; keep it."
+    },
     "message_memory_agent_step_list_activity": {
         "message": "Look through browsing activity",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Going through the user's past browsing activities."
@@ -2618,6 +2666,10 @@
     "message_memory_agent_step_list_facts": {
         "message": "Look through saved facts",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Going through stored facts about the user."
+    },
+    "message_memory_agent_step_list_imported": {
+        "message": "Look through imported records",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. A memory step: the assistant's memory reads the records the user imported from a website (films, conversations, saved posts), as it does after an import to learn what they show."
     },
     "message_memory_agent_step_list_own_work": {
         "message": "Look through past tasks",
@@ -2666,6 +2718,10 @@
     "message_memory_agent_step_save_preference": {
         "message": "Save your preference",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. Storing a lasting request about one of Phi's surfaces."
+    },
+    "message_memory_agent_step_understand": {
+        "message": "Understand your request",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. The memory agent's tool calls, listed under the assistant's live activity line while it searches or changes the user's memory. Each step is a short checklist item in the imperative, read both while it runs (spinner) and after it finished (check mark), so avoid tense. 'Portrait' is the user's profile, as elsewhere in the product. One memory-agent step. Keep these short; they sit on one line beside an icon. A memory step: the assistant's memory reads what the user asked for (a question, a change, an import) before acting on it."
     },
     "message_memory_agent_step_update_instructions": {
         "message": "Update standing instructions",
@@ -2754,6 +2810,238 @@
     "message_save": {
         "message": "Save",
         "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. Save button in message edit mode."
+    },
+    "message_site_import_ask_cancel": {
+        "message": "Cancel",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Button: cancel the import."
+    },
+    "message_site_import_ask_checked": {
+        "message": "Checked {{count}} so far.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. How many entries the check read. {{count}} is that number."
+    },
+    "message_site_import_ask_checked_more": {
+        "message": "Checked {{count}} so far, and the list goes on.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. As checked, when the list has more entries than the check read. {{count}} is how many it read."
+    },
+    "message_site_import_ask_confirm_title": {
+        "message": "Import your list from {{site}}?",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Question title. {{site}} is the website's host name."
+    },
+    "message_site_import_ask_count": {
+        "message": "How many",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Label of the choice of how many entries to import."
+    },
+    "message_site_import_ask_count_all": {
+        "message": "All of them",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Choice: every entry of the list."
+    },
+    "message_site_import_ask_count_limit": {
+        "message": "The latest {{count}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Choice: the most recent entries. {{count}} is how many."
+    },
+    "message_site_import_ask_human_check_body": {
+        "message": "{{site}} wants to check that a person is there. Complete its check yourself on the {{site}} tab; Phi never does it for you.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Question text. {{site}} is the website's host name. The user completes the site's human check on its tab; the assistant never does it for them."
+    },
+    "message_site_import_ask_human_check_title": {
+        "message": "Confirm you're human on {{site}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Question title. {{site}} is the website's host name. The site wants a human check (a captcha, an \"I am human\" box), not a sign-in."
+    },
+    "message_site_import_ask_human_checked": {
+        "message": "I've done it",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Button: the user has completed the site's human check on its tab."
+    },
+    "message_site_import_ask_import": {
+        "message": "Import",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Button: start the import."
+    },
+    "message_site_import_ask_items": {
+        "message": "Also read and summarize each one",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Checkbox: also open each item (a conversation, a film) to read and summarize its content."
+    },
+    "message_site_import_ask_items_hint": {
+        "message": "A few seconds each. A long list goes on the next time you import it.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Under the checkbox: how long it takes."
+    },
+    "message_site_import_ask_sign_in_body": {
+        "message": "Sign in yourself on the {{site}} tab, including any code the site sends you. Your password is never seen or typed for you.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Question text. {{site}} is the website's host name. The user signs in on the site's tab; the assistant never sees or types their password."
+    },
+    "message_site_import_ask_sign_in_title": {
+        "message": "Sign in to {{site}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Question title. {{site}} is the website's host name."
+    },
+    "message_site_import_ask_signed_in": {
+        "message": "I've signed in",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Button: the user has signed in on the site's tab."
+    },
+    "message_site_import_continued": {
+        "message": "Continued in a later reply",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath the open step of an earlier import that a later reply went on with."
+    },
+    "message_site_import_done_changed": {
+        "message": "New or changed: {{count}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath a finished step. {{count}} entries were new, or changed since an earlier import."
+    },
+    "message_site_import_done_failed": {
+        "message": "Couldn't read: {{count}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath a finished step. {{count}} items' content could not be read."
+    },
+    "message_site_import_done_nothing_new": {
+        "message": "Nothing new since last time",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath the finished step 5 when the list held nothing new since the assistant last read it."
+    },
+    "message_site_import_done_read": {
+        "message": "Read in full: {{count}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath a finished step. {{count}} items had their content read in full."
+    },
+    "message_site_import_done_remember_failed": {
+        "message": "Couldn't finish this time",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 5 when the assistant could not finish reading the import; what was imported stays saved."
+    },
+    "message_site_import_done_remembered": {
+        "message": "Noted: {{count}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath the finished step 5. {{count}} is how many things about the user the assistant noted from the import."
+    },
+    "message_site_import_done_remembered_none": {
+        "message": "Nothing new to note",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath the finished step 5 when the import added nothing to what Phi already knew about the user (the step ran but recorded nothing new)."
+    },
+    "message_site_import_done_unchanged": {
+        "message": "Already saved: {{count}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath a finished step. {{count}} entries were already saved and unchanged."
+    },
+    "message_site_import_kind_cart": {
+        "message": "Your cart",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: the items in the user's shopping cart, not bought yet."
+    },
+    "message_site_import_kind_conversation": {
+        "message": "Your conversations",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: the list is the user's past chatbot conversations."
+    },
+    "message_site_import_kind_listened": {
+        "message": "What you listened to",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: music the user listened to."
+    },
+    "message_site_import_kind_message": {
+        "message": "Your messages",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: the messages of one ongoing conversation (an assistant's main chat), each imported on its own."
+    },
+    "message_site_import_kind_order": {
+        "message": "Your orders",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: the user's orders."
+    },
+    "message_site_import_kind_other": {
+        "message": "Your list",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: any other kind of list the user keeps on the site."
+    },
+    "message_site_import_kind_post": {
+        "message": "Your posts",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: the user's own posts."
+    },
+    "message_site_import_kind_rated": {
+        "message": "Your ratings",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: the user's ratings on the site."
+    },
+    "message_site_import_kind_read": {
+        "message": "What you read",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: books the user marked as read."
+    },
+    "message_site_import_kind_saved": {
+        "message": "What you saved",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: posts or items the user saved or bookmarked."
+    },
+    "message_site_import_kind_watched": {
+        "message": "What you watched",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: films and shows the user marked as watched."
+    },
+    "message_site_import_kind_wishlist": {
+        "message": "Your wishlist",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1, before the host name: things the user wants (a wish list)."
+    },
+    "message_site_import_note_attempt": {
+        "message": "Attempt {{count}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 2 when it is tried again. {{count}} is the attempt's number (2, 3)."
+    },
+    "message_site_import_note_human_check": {
+        "message": "Human check needed",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1 when the site asks the user to confirm they are a person (a captcha, an \"I am human\" box), not to sign in."
+    },
+    "message_site_import_note_items_of": {
+        "message": "{{done}} of {{total}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 4. {{done}} items are read of {{total}}."
+    },
+    "message_site_import_note_items_so_far": {
+        "message": "So far: {{done}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 4 before the total is known. {{done}} items are read so far."
+    },
+    "message_site_import_note_opening": {
+        "message": "Opening the site",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1 while it runs."
+    },
+    "message_site_import_note_remembering": {
+        "message": "Reading them through",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 5 while it runs."
+    },
+    "message_site_import_note_saved": {
+        "message": "Saved: {{count}}",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 3. {{count}} is how many entries are saved so far."
+    },
+    "message_site_import_note_sign_in": {
+        "message": "Sign-in needed",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Beneath step 1 when the site asks the user to sign in."
+    },
+    "message_site_import_step_find": {
+        "message": "Find what to import",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Step 1 of the workflow: reach the page that shows what the user asked to import. Plain words; never the internal word \"list\"."
+    },
+    "message_site_import_step_items": {
+        "message": "Read each one",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Step 4, only when each item's content is read: each item of the list (one conversation, one film) is opened and its content read and stored as it is."
+    },
+    "message_site_import_step_learn": {
+        "message": "Check they can be read",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Step 2: check, by reading a few entries, that they can be read right (tried again when they cannot)."
+    },
+    "message_site_import_step_list": {
+        "message": "Save them to memory",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Step 3: the entries (title, date, link) are saved into the assistant's memory."
+    },
+    "message_site_import_step_remember": {
+        "message": "Learn what they say about you",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Step 5, the last: the assistant reads what was imported and notes what it shows about the user (what they watched, asked about or saved) in its memory of them."
+    },
+    "message_site_import_stopped_before": {
+        "message": "Stopped before anything was imported.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Why it stopped: it ended before saving anything."
+    },
+    "message_site_import_stopped_cancelled": {
+        "message": "Cancelled. Nothing was imported.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Why it stopped: the user cancelled on a question card."
+    },
+    "message_site_import_stopped_human_check": {
+        "message": "{{site}} still wants you to confirm you're human.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Why it stopped: the site still asks the user to confirm they are a person. {{site}} is the website's host name."
+    },
+    "message_site_import_stopped_items": {
+        "message": "Some items couldn't be read. The next import goes on with them.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Why it stopped: some items' content could not be read; a later import reads them."
+    },
+    "message_site_import_stopped_memory": {
+        "message": "The records couldn't be saved.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Why it stopped: the entries could not be saved into memory."
+    },
+    "message_site_import_stopped_sign_in": {
+        "message": "{{site}} still wants you signed in.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Why it stopped: the site still asks for a sign-in. {{site}} is the website's host name."
+    },
+    "message_site_import_stopped_site": {
+        "message": "The site's pages stopped loading the list.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Why it stopped: the site's pages failed."
+    },
+    "message_site_import_stopped_unanswered": {
+        "message": "No answer came, so nothing was imported.",
+        "description": "Location: Chat. Chat message rendering: actions, statuses, tool calls, sources, role card. A site import in the chat: the user asked the assistant to import a list they keep on a website (past chatbot conversations, films watched, orders) into its memory. Its steps show on the chat's plan card, each with a short line beneath it; sign-in and confirmation questions come on question cards. Counts stand after a label or a separator, since no catalog uses plural forms. Why it stopped: nobody answered a question card in time."
     },
     "message_skills_label": {
         "message": "Skills",
@@ -2863,86 +3151,6 @@
         "message": "Good morning",
         "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Time-of-day fallback greeting on the NTP. Fallback greeting before noon."
     },
-    "newtab_greeting_prompt_byte_count": {
-        "message": "{{count}} / {{max}} bytes",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Live size counter; {{count}} = used bytes, {{max}} = limit."
-    },
-    "newtab_greeting_prompt_cancel": {
-        "message": "Cancel",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Dismiss button."
-    },
-    "newtab_greeting_prompt_customized": {
-        "message": "Customized",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Badge: prompt differs from the default."
-    },
-    "newtab_greeting_prompt_default": {
-        "message": "Default",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Badge: prompt is the built-in default."
-    },
-    "newtab_greeting_prompt_description": {
-        "message": "Adjust the built-in prompt used to generate personalized new-tab greetings. Use the soul placeholder where the current agent soul should be inserted.",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Dialog explainer; 'soul placeholder' refers to a template token."
-    },
-    "newtab_greeting_prompt_edit": {
-        "message": "Edit greeting prompt",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. aria/tooltip: open the greeting-prompt dialog."
-    },
-    "newtab_greeting_prompt_empty_error": {
-        "message": "Greeting instructions cannot be empty.",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Validation: prompt is empty."
-    },
-    "newtab_greeting_prompt_hint": {
-        "message": "Saved changes apply to future greeting batches.",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Note: changes affect future batches only."
-    },
-    "newtab_greeting_prompt_label": {
-        "message": "Instructions",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Textarea label."
-    },
-    "newtab_greeting_prompt_load_error": {
-        "message": "Failed to load greeting prompt.",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Toast: loading the prompt failed."
-    },
-    "newtab_greeting_prompt_loading": {
-        "message": "Loading greeting prompt...",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Loading state."
-    },
-    "newtab_greeting_prompt_placeholder": {
-        "message": "Write the instructions used to generate greeting candidates.",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Textarea placeholder."
-    },
-    "newtab_greeting_prompt_reset": {
-        "message": "Reset to default",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Button: restore the default prompt."
-    },
-    "newtab_greeting_prompt_reset_error": {
-        "message": "Failed to reset greeting prompt.",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Toast: resetting failed."
-    },
-    "newtab_greeting_prompt_reset_saved": {
-        "message": "Greeting prompt reset",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Toast: reset applied."
-    },
-    "newtab_greeting_prompt_save": {
-        "message": "Save",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Save button."
-    },
-    "newtab_greeting_prompt_save_error": {
-        "message": "Failed to save greeting prompt.",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Toast: saving failed."
-    },
-    "newtab_greeting_prompt_saved": {
-        "message": "Greeting prompt saved",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Toast: saved."
-    },
-    "newtab_greeting_prompt_title": {
-        "message": "Greeting Prompt",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Dialog title."
-    },
-    "newtab_greeting_prompt_too_large_error": {
-        "message": "Greeting instructions must be at most {{count}} UTF-8 bytes.",
-        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Dialog for customizing the AI greeting generation prompt. Validation: prompt too large; {{count}} = byte limit."
-    },
     "newtab_greeting_style_interest": {
         "message": "Less personal",
         "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Personalization-ladder pill in the greeting's hover action row; clicking cycles the levels. Level: greetings about the user's interests, never about the user."
@@ -2958,6 +3166,14 @@
     "newtab_greeting_style_personal": {
         "message": "Personal",
         "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Personalization-ladder pill in the greeting's hover action row; clicking cycles the levels. Level: greetings drawn from the user's memory and may address them."
+    },
+    "newtab_hold_cmd_to_switch_bookmark": {
+        "message": "Hold <key/> to switch to Bookmark",
+        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Hint on a bookmark search result; <key/> renders the platform modifier key; keep the tag. Without the key the page opens in a new tab."
+    },
+    "newtab_hold_cmd_to_switch_pin": {
+        "message": "Hold <key/> to switch to Pin",
+        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Hint on a pinned-tab search result; <key/> renders the platform modifier key; keep the tag. Without the key the page opens in a new tab."
     },
     "newtab_hold_cmd_to_switch_tab": {
         "message": "Hold <key/> to switch to this tab",
@@ -2978,6 +3194,22 @@
     "newtab_search_placeholder_ask_agent": {
         "message": "Search, ask {{name}}, or enter a URL",
         "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Placeholder of the unified search box outside AI mode; {{name}} = assistant name. In Chinese, write {{name}} between Han characters with no spaces; the code adds a space beside a Latin name."
+    },
+    "newtab_unified_omnibox_choose_result": {
+        "message": "Choose a result",
+        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Status line under the NTP search box when an Unified Omnibox result cannot run. Status: the results changed or the earlier choice expired; the user should pick a row again."
+    },
+    "newtab_unified_omnibox_failed": {
+        "message": "Couldn't open this result",
+        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Status line under the NTP search box when an Unified Omnibox result cannot run. Status: the browser did not open the chosen result."
+    },
+    "newtab_unified_omnibox_pending": {
+        "message": "Results are still loading",
+        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Status line under the NTP search box when an Unified Omnibox result cannot run. Status: Enter was pressed before the default result was ready."
+    },
+    "newtab_unified_omnibox_unavailable": {
+        "message": "This result can't be opened this way",
+        "description": "Location: Chat. The new-tab page: unified search box, portrait/insight panels, greeting. Status line under the NTP search box when an Unified Omnibox result cannot run. Status: the chosen result cannot open here or with the held modifier key."
     },
     "notification_card_view_details": {
         "message": "View details",
@@ -5383,6 +5615,82 @@
         "message": "Which page should this run on?",
         "description": "Location: Chat. A card the assistant shows in the standalone Phi AI window when a skill that works on one web page was started without a page attached. {{skill}} is the skill's name, {{title}} a tab's title and {{space}} a space's name, all shown verbatim. \"Space\" is the browser's own workspace feature - use whatever the browser UI calls it in this language. Card title: asking which open tab (web page) the skill should run on."
     },
+    "skills_action_suggestion_ask_memory_about_me": {
+        "message": "What do you remember about me?",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill: ask what Phi remembers about the user."
+    },
+    "skills_action_suggestion_ask_memory_this_week": {
+        "message": "What have I been reading about this week?",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill: ask what topics the user read about this week."
+    },
+    "skills_action_suggestion_ask_memory_today": {
+        "message": "What did I do today?",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill: ask what the user did today, from what Phi remembers of their browsing."
+    },
+    "skills_action_suggestion_explain_analogy": {
+        "message": "Explain it with an everyday analogy",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the explain-simply skill: explain the page through an everyday analogy."
+    },
+    "skills_action_suggestion_explain_key_terms": {
+        "message": "Explain the key terms",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the explain-simply skill: explain the page's key terms."
+    },
+    "skills_action_suggestion_explain_short": {
+        "message": "Explain it in three sentences",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the explain-simply skill: explain the page in three sentences."
+    },
+    "skills_action_suggestion_fact_check_claims": {
+        "message": "Check the main claims",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the fact-check skill: check the page's main claims."
+    },
+    "skills_action_suggestion_fact_check_numbers": {
+        "message": "Check the numbers and statistics",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the fact-check skill: check the page's figures."
+    },
+    "skills_action_suggestion_fact_check_sources": {
+        "message": "Find the original sources",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the fact-check skill: find where the page's claims originally come from."
+    },
+    "skills_action_suggestion_group_title": {
+        "message": "Suggestions",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Group header of the dropdown."
+    },
+    "skills_action_suggestion_import_from_site_chatgpt": {
+        "message": "Import my ChatGPT conversations",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill, which hands an import on: import the user's ChatGPT conversations, each with its messages, into what Phi remembers. ChatGPT is a product name; keep it."
+    },
+    "skills_action_suggestion_import_from_site_claude": {
+        "message": "Import my Claude conversations",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill, which hands an import on: import the user's conversations with the Claude chatbot. Claude is a product name; keep it."
+    },
+    "skills_action_suggestion_import_from_site_gemini": {
+        "message": "Import my Gemini conversations",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill, which hands an import on: import the user's conversations with Google's Gemini chatbot. Gemini is a product name; keep it."
+    },
+    "skills_action_suggestion_import_from_site_grok": {
+        "message": "Import my Grok conversations",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill, which hands an import on: import the user's conversations with the Grok chatbot. Grok is a product name; keep it."
+    },
+    "skills_action_suggestion_import_from_site_muse": {
+        "message": "Import the messages of my chat on Muse",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill, which hands an import on: import the messages of the user's chat on Muse (muse.ai), which has one ongoing chat. Name the messages, not the chat alone: the importer reads 'my chat' on its own as a single item, not a list. Muse is a product name; keep it."
+    },
+    "skills_action_suggestion_import_from_site_reddit": {
+        "message": "Import my saved posts from Reddit",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Ask Memory skill, which hands an import on: import the posts the user saved on Reddit. Reddit is a product name; keep it."
+    },
+    "skills_action_suggestion_video_gist_article": {
+        "message": "Turn it into an article",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Video Gist skill: rewrite the video as an article. 'it' is the video."
+    },
+    "skills_action_suggestion_video_gist_key_points": {
+        "message": "Summarize the key points",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Video Gist skill: summarize the video's key points."
+    },
+    "skills_action_suggestion_video_gist_transcript": {
+        "message": "Write out the full transcript",
+        "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Dropdown that opens right after a skill chip in the chat composer. Each row is a ready-made request for that skill; picking one inserts the row's text after the chip, so rows read as the user's own words to Phi. Row for the Video Gist skill: write out the video's full transcript."
+    },
     "skills_actions_add": {
         "message": "Add",
         "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Per-skill actions (add/remove/enable/edit) and their toasts. Button: add a skill to the library."
@@ -5734,6 +6042,46 @@
     "skills_title": {
         "message": "Skills",
         "description": "Location: Chat. The Skills library page, skill dialogs, and composer skill actions. Skills page heading."
+    },
+    "task_run_log_consent_body": {
+        "message": "Phi will save this run's log (each step it took, the pages it read and the tool results) as a file and send it to the Phi team with your feedback.",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). Card body: what is in the run's log and where it goes."
+    },
+    "task_run_log_consent_dont_share": {
+        "message": "Don't share",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). Button: do not share; nothing is sent."
+    },
+    "task_run_log_consent_note_label": {
+        "message": "Anything you want to add? (optional)",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). Label of an optional text box where the user can add a note to the report."
+    },
+    "task_run_log_consent_ran_at": {
+        "message": "The run started {{time}}.",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). Card text: when the named run started. {{time}} is a date and time written as numbers (2026-11-08 15:00)."
+    },
+    "task_run_log_consent_run_label": {
+        "message": "Which run?",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). Label of the list where the user picks which run's log to share."
+    },
+    "task_run_log_consent_run_option": {
+        "message": "Run #{{index}}, {{time}}",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). One run in that list. {{index}} is the run's number, {{time}} when it started, written as numbers (2026-11-08 15:00)."
+    },
+    "task_run_log_consent_run_option_reported": {
+        "message": "Run #{{index}}, {{time}}, reported here",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). One run in that list whose result was posted in this conversation. {{index}} is the run's number, {{time}} when it started, written as numbers."
+    },
+    "task_run_log_consent_share": {
+        "message": "Share",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). Button: share the log."
+    },
+    "task_run_log_consent_title": {
+        "message": "Share the log of run #{{index}} of \"{{task}}\"?",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). Card title: asks whether to share the log of one run. {{index}} is the run's number, {{task}} the task's name."
+    },
+    "task_run_log_consent_title_pick": {
+        "message": "Share a run log of \"{{task}}\"?",
+        "description": "Location: Chat. The card phi-agent shows before the log of one background task run is shared with the Phi team (the task.export_run_log tool). A task runs on a schedule; each run has a number (run #N). Card title when the user still has to pick the run. {{task}} is the task's name."
     },
     "tasks_page_common_actions": {
         "message": "Actions",

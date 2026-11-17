@@ -302,6 +302,9 @@
     "browser_manage_restore_detail_split_exists": {
         "message": "Las mismas dos páginas ya están en vista dividida."
     },
+    "browser_manage_restore_detail_split_exists_wide": {
+        "message": "Las mismas páginas ya están en vista dividida, en el mismo orden."
+    },
     "browser_manage_restore_detail_tab_open": {
         "message": "La misma página ya está abierta en esa ventana."
     },
@@ -446,8 +449,14 @@
     "browser_manage_split_view_remove_body": {
         "message": "Finalizar la vista dividida de \"{{first}}\" y \"{{second}}\"; ambas pestañas siguen abiertas."
     },
+    "browser_manage_split_view_remove_body_wide": {
+        "message": "Finalizar la vista dividida de {{count}} pestañas, de \"{{first}}\" a \"{{last}}\"; las pestañas siguen abiertas."
+    },
     "browser_manage_split_view_remove_summary": {
         "message": "Se finalizó la vista dividida \"{{first}}\" + \"{{second}}\""
+    },
+    "browser_manage_split_view_remove_summary_wide": {
+        "message": "Se finalizó la vista dividida de {{count}} pestañas, de \"{{first}}\" a \"{{last}}\""
     },
     "browser_manage_split_view_remove_title": {
         "message": "Finalizar vista dividida"
@@ -455,17 +464,32 @@
     "browser_manage_split_view_swap_body": {
         "message": "Intercambiar los dos lados de la vista dividida de \"{{first}}\" y \"{{second}}\"."
     },
+    "browser_manage_split_view_swap_body_wide": {
+        "message": "Invertir el orden de las {{count}} pestañas de la vista dividida, para que \"{{last}}\" quede primero y \"{{first}}\" al final."
+    },
     "browser_manage_split_view_swap_summary": {
         "message": "Se intercambió la vista dividida \"{{first}}\" + \"{{second}}\""
+    },
+    "browser_manage_split_view_swap_summary_wide": {
+        "message": "Se invirtió la vista dividida de {{count}} pestañas, de \"{{first}}\" a \"{{last}}\""
     },
     "browser_manage_split_view_swap_title": {
         "message": "Intercambiar lados de la vista dividida"
     },
+    "browser_manage_split_view_swap_title_wide": {
+        "message": "Invertir el orden de la vista dividida"
+    },
     "browser_manage_split_view_update_body": {
         "message": "Cambiar la vista dividida de \"{{first}}\" y \"{{second}}\"."
     },
+    "browser_manage_split_view_update_body_wide": {
+        "message": "Cambiar la vista dividida de {{count}} pestañas, de \"{{first}}\" a \"{{last}}\"."
+    },
     "browser_manage_split_view_update_summary": {
         "message": "Se cambió la vista dividida \"{{first}}\" + \"{{second}}\""
+    },
+    "browser_manage_split_view_update_summary_wide": {
+        "message": "Se cambió la vista dividida de {{count}} pestañas, de \"{{first}}\" a \"{{last}}\""
     },
     "browser_manage_split_view_update_title": {
         "message": "Cambiar vista dividida"
@@ -892,6 +916,12 @@
     },
     "chat_start_actions_import_chat": {
         "message": "Importa esta conversación de ChatGPT"
+    },
+    "chat_start_actions_import_chats": {
+        "message": "Importa mis chats de {{site}} a la memoria"
+    },
+    "chat_start_actions_import_saved": {
+        "message": "Importa mis publicaciones guardadas de {{site}} a la memoria"
     },
     "chat_start_actions_markdown": {
         "message": "Muéstrame esta página en Markdown"
@@ -1955,6 +1985,12 @@
     "message_memory_agent_step_fallback": {
         "message": "Consultar la memoria"
     },
+    "message_memory_agent_step_hand_off": {
+        "message": "Pasarla a otra habilidad"
+    },
+    "message_memory_agent_step_hand_off_import": {
+        "message": "Pasarla a Import from a Site"
+    },
     "message_memory_agent_step_list_activity": {
         "message": "Repasar la actividad de navegación"
     },
@@ -1963,6 +1999,9 @@
     },
     "message_memory_agent_step_list_facts": {
         "message": "Repasar los datos guardados"
+    },
+    "message_memory_agent_step_list_imported": {
+        "message": "Repasar los registros importados"
     },
     "message_memory_agent_step_list_own_work": {
         "message": "Repasar tareas anteriores"
@@ -1999,6 +2038,9 @@
     },
     "message_memory_agent_step_save_preference": {
         "message": "Guardar tu preferencia"
+    },
+    "message_memory_agent_step_understand": {
+        "message": "Entender tu solicitud"
     },
     "message_memory_agent_step_update_instructions": {
         "message": "Actualizar las instrucciones permanentes"
@@ -2065,6 +2107,180 @@
     },
     "message_save": {
         "message": "Guardar"
+    },
+    "message_site_import_ask_cancel": {
+        "message": "Cancelar"
+    },
+    "message_site_import_ask_checked": {
+        "message": "Comprobados hasta ahora: {{count}}."
+    },
+    "message_site_import_ask_checked_more": {
+        "message": "Comprobados hasta ahora: {{count}}; la lista continúa."
+    },
+    "message_site_import_ask_confirm_title": {
+        "message": "¿Importar tu lista de {{site}}?"
+    },
+    "message_site_import_ask_count": {
+        "message": "Cuántos"
+    },
+    "message_site_import_ask_count_all": {
+        "message": "Todos"
+    },
+    "message_site_import_ask_count_limit": {
+        "message": "Los {{count}} más recientes"
+    },
+    "message_site_import_ask_human_check_body": {
+        "message": "{{site}} quiere comprobar que eres una persona. Completa tú mismo su verificación en la pestaña de {{site}}; Phi nunca lo hace por ti."
+    },
+    "message_site_import_ask_human_check_title": {
+        "message": "Confirma que eres una persona en {{site}}"
+    },
+    "message_site_import_ask_human_checked": {
+        "message": "Ya lo hice"
+    },
+    "message_site_import_ask_import": {
+        "message": "Importar"
+    },
+    "message_site_import_ask_items": {
+        "message": "Leer y resumir también cada uno"
+    },
+    "message_site_import_ask_items_hint": {
+        "message": "Unos segundos cada uno. Si la lista es larga, sigue la próxima vez que la importes."
+    },
+    "message_site_import_ask_sign_in_body": {
+        "message": "Inicia sesión tú mismo en la pestaña de {{site}}, incluido cualquier código que te envíe el sitio. Phi nunca ve tu contraseña ni la escribe por ti."
+    },
+    "message_site_import_ask_sign_in_title": {
+        "message": "Inicia sesión en {{site}}"
+    },
+    "message_site_import_ask_signed_in": {
+        "message": "Ya inicié sesión"
+    },
+    "message_site_import_continued": {
+        "message": "Continúa en una respuesta posterior"
+    },
+    "message_site_import_done_changed": {
+        "message": "Nuevos o modificados: {{count}}"
+    },
+    "message_site_import_done_failed": {
+        "message": "No se pudieron leer: {{count}}"
+    },
+    "message_site_import_done_nothing_new": {
+        "message": "Nada nuevo desde la última vez"
+    },
+    "message_site_import_done_read": {
+        "message": "Leídos por completo: {{count}}"
+    },
+    "message_site_import_done_remember_failed": {
+        "message": "No se pudo terminar esta vez"
+    },
+    "message_site_import_done_remembered": {
+        "message": "Anotado: {{count}}"
+    },
+    "message_site_import_done_remembered_none": {
+        "message": "Nada nuevo que anotar"
+    },
+    "message_site_import_done_unchanged": {
+        "message": "Ya guardados: {{count}}"
+    },
+    "message_site_import_kind_cart": {
+        "message": "Tu carrito"
+    },
+    "message_site_import_kind_conversation": {
+        "message": "Tus conversaciones"
+    },
+    "message_site_import_kind_listened": {
+        "message": "Lo que has escuchado"
+    },
+    "message_site_import_kind_message": {
+        "message": "Tus mensajes"
+    },
+    "message_site_import_kind_order": {
+        "message": "Tus pedidos"
+    },
+    "message_site_import_kind_other": {
+        "message": "Tu lista"
+    },
+    "message_site_import_kind_post": {
+        "message": "Tus publicaciones"
+    },
+    "message_site_import_kind_rated": {
+        "message": "Tus valoraciones"
+    },
+    "message_site_import_kind_read": {
+        "message": "Lo que has leído"
+    },
+    "message_site_import_kind_saved": {
+        "message": "Lo que has guardado"
+    },
+    "message_site_import_kind_watched": {
+        "message": "Lo que has visto"
+    },
+    "message_site_import_kind_wishlist": {
+        "message": "Tu lista de deseos"
+    },
+    "message_site_import_note_attempt": {
+        "message": "Intento {{count}}"
+    },
+    "message_site_import_note_human_check": {
+        "message": "Necesitas confirmar que eres una persona"
+    },
+    "message_site_import_note_items_of": {
+        "message": "{{done}} de {{total}}"
+    },
+    "message_site_import_note_items_so_far": {
+        "message": "Hasta ahora: {{done}}"
+    },
+    "message_site_import_note_opening": {
+        "message": "Abriendo el sitio"
+    },
+    "message_site_import_note_remembering": {
+        "message": "Leyéndolos a fondo"
+    },
+    "message_site_import_note_saved": {
+        "message": "Guardados: {{count}}"
+    },
+    "message_site_import_note_sign_in": {
+        "message": "Necesitas iniciar sesión"
+    },
+    "message_site_import_step_find": {
+        "message": "Encontrar qué importar"
+    },
+    "message_site_import_step_items": {
+        "message": "Leer cada uno"
+    },
+    "message_site_import_step_learn": {
+        "message": "Comprobar que se pueden leer"
+    },
+    "message_site_import_step_list": {
+        "message": "Guardarlos en la memoria"
+    },
+    "message_site_import_step_remember": {
+        "message": "Aprender lo que dicen de ti"
+    },
+    "message_site_import_stopped_before": {
+        "message": "Se detuvo antes de importar nada."
+    },
+    "message_site_import_stopped_cancelled": {
+        "message": "Se canceló. No se importó nada."
+    },
+    "message_site_import_stopped_human_check": {
+        "message": "{{site}} sigue pidiendo que confirmes que eres una persona."
+    },
+    "message_site_import_stopped_items": {
+        "message": "No se pudieron leer algunos elementos. La próxima importación continuará con ellos."
+    },
+    "message_site_import_stopped_memory": {
+        "message": "No se pudieron guardar los registros."
+    },
+    "message_site_import_stopped_sign_in": {
+        "message": "{{site}} sigue pidiendo que inicies sesión."
+    },
+    "message_site_import_stopped_site": {
+        "message": "Las páginas del sitio dejaron de cargar la lista."
+    },
+    "message_site_import_stopped_unanswered": {
+        "message": "No hubo respuesta, así que no se importó nada."
     },
     "message_skills_label": {
         "message": "Habilidades"
@@ -2147,66 +2363,6 @@
     "newtab_greeting_morning": {
         "message": "Buenos días"
     },
-    "newtab_greeting_prompt_byte_count": {
-        "message": "{{count}} / {{max}} bytes"
-    },
-    "newtab_greeting_prompt_cancel": {
-        "message": "Cancelar"
-    },
-    "newtab_greeting_prompt_customized": {
-        "message": "Personalizado"
-    },
-    "newtab_greeting_prompt_default": {
-        "message": "Predeterminado"
-    },
-    "newtab_greeting_prompt_description": {
-        "message": "Ajusta el prompt integrado que se usa para generar los saludos personalizados de la nueva pestaña. Usa el marcador de posición soul donde se deba insertar el alma del agente actual."
-    },
-    "newtab_greeting_prompt_edit": {
-        "message": "Editar el prompt de saludo"
-    },
-    "newtab_greeting_prompt_empty_error": {
-        "message": "Las instrucciones del saludo no pueden estar vacías."
-    },
-    "newtab_greeting_prompt_hint": {
-        "message": "Los cambios guardados se aplican a los próximos lotes de saludos."
-    },
-    "newtab_greeting_prompt_label": {
-        "message": "Instrucciones"
-    },
-    "newtab_greeting_prompt_load_error": {
-        "message": "No se pudo cargar el prompt de saludo."
-    },
-    "newtab_greeting_prompt_loading": {
-        "message": "Cargando el prompt de saludo…"
-    },
-    "newtab_greeting_prompt_placeholder": {
-        "message": "Escribe las instrucciones que se usan para generar los candidatos de saludo."
-    },
-    "newtab_greeting_prompt_reset": {
-        "message": "Restablecer al valor predeterminado"
-    },
-    "newtab_greeting_prompt_reset_error": {
-        "message": "No se pudo restablecer el prompt de saludo."
-    },
-    "newtab_greeting_prompt_reset_saved": {
-        "message": "Prompt de saludo restablecido"
-    },
-    "newtab_greeting_prompt_save": {
-        "message": "Guardar"
-    },
-    "newtab_greeting_prompt_save_error": {
-        "message": "No se pudo guardar el prompt de saludo."
-    },
-    "newtab_greeting_prompt_saved": {
-        "message": "Prompt de saludo guardado"
-    },
-    "newtab_greeting_prompt_title": {
-        "message": "Prompt de saludo"
-    },
-    "newtab_greeting_prompt_too_large_error": {
-        "message": "Las instrucciones del saludo no pueden superar los {{count}} bytes UTF-8."
-    },
     "newtab_greeting_style_interest": {
         "message": "Menos personal"
     },
@@ -2218,6 +2374,12 @@
     },
     "newtab_greeting_style_personal": {
         "message": "Personal"
+    },
+    "newtab_hold_cmd_to_switch_bookmark": {
+        "message": "Mantén presionado <key/> para cambiar al marcador"
+    },
+    "newtab_hold_cmd_to_switch_pin": {
+        "message": "Mantén presionado <key/> para cambiar a la pestaña fijada"
     },
     "newtab_hold_cmd_to_switch_tab": {
         "message": "Mantén presionado <key/> para cambiar a esta pestaña"
@@ -2233,6 +2395,18 @@
     },
     "newtab_search_placeholder_ask_agent": {
         "message": "Busca, pregunta a {{name}} o escribe una URL"
+    },
+    "newtab_unified_omnibox_choose_result": {
+        "message": "Elige un resultado"
+    },
+    "newtab_unified_omnibox_failed": {
+        "message": "No se pudo abrir este resultado"
+    },
+    "newtab_unified_omnibox_pending": {
+        "message": "Los resultados aún se están cargando"
+    },
+    "newtab_unified_omnibox_unavailable": {
+        "message": "Este resultado no se puede abrir de esta forma"
     },
     "notification_card_view_details": {
         "message": "Ver detalles"
@@ -4037,6 +4211,63 @@
     "skill_target_title": {
         "message": "¿En qué página debe ejecutarse?"
     },
+    "skills_action_suggestion_ask_memory_about_me": {
+        "message": "¿Qué recuerdas de mí?"
+    },
+    "skills_action_suggestion_ask_memory_this_week": {
+        "message": "¿Sobre qué he estado leyendo esta semana?"
+    },
+    "skills_action_suggestion_ask_memory_today": {
+        "message": "¿Qué hice hoy?"
+    },
+    "skills_action_suggestion_explain_analogy": {
+        "message": "Explícalo con una analogía cotidiana"
+    },
+    "skills_action_suggestion_explain_key_terms": {
+        "message": "Explica los términos clave"
+    },
+    "skills_action_suggestion_explain_short": {
+        "message": "Explícalo en tres frases"
+    },
+    "skills_action_suggestion_fact_check_claims": {
+        "message": "Verifica las afirmaciones principales"
+    },
+    "skills_action_suggestion_fact_check_numbers": {
+        "message": "Verifica las cifras y estadísticas"
+    },
+    "skills_action_suggestion_fact_check_sources": {
+        "message": "Busca las fuentes originales"
+    },
+    "skills_action_suggestion_group_title": {
+        "message": "Sugerencias"
+    },
+    "skills_action_suggestion_import_from_site_chatgpt": {
+        "message": "Importa mis conversaciones de ChatGPT"
+    },
+    "skills_action_suggestion_import_from_site_claude": {
+        "message": "Importa mis conversaciones de Claude"
+    },
+    "skills_action_suggestion_import_from_site_gemini": {
+        "message": "Importa mis conversaciones de Gemini"
+    },
+    "skills_action_suggestion_import_from_site_grok": {
+        "message": "Importa mis conversaciones de Grok"
+    },
+    "skills_action_suggestion_import_from_site_muse": {
+        "message": "Importa los mensajes de mi chat en Muse"
+    },
+    "skills_action_suggestion_import_from_site_reddit": {
+        "message": "Importa mis publicaciones guardadas de Reddit"
+    },
+    "skills_action_suggestion_video_gist_article": {
+        "message": "Conviértelo en un artículo"
+    },
+    "skills_action_suggestion_video_gist_key_points": {
+        "message": "Resume los puntos clave"
+    },
+    "skills_action_suggestion_video_gist_transcript": {
+        "message": "Escribe la transcripción completa"
+    },
     "skills_actions_add": {
         "message": "Agregar"
     },
@@ -4300,6 +4531,36 @@
     },
     "skills_title": {
         "message": "Habilidades"
+    },
+    "task_run_log_consent_body": {
+        "message": "Phi guardará el registro de esta ejecución (cada paso que dio, las páginas que leyó y los resultados de las herramientas) en un archivo y lo enviará al equipo de Phi junto con tus comentarios."
+    },
+    "task_run_log_consent_dont_share": {
+        "message": "No compartir"
+    },
+    "task_run_log_consent_note_label": {
+        "message": "¿Quieres agregar algo? (opcional)"
+    },
+    "task_run_log_consent_ran_at": {
+        "message": "La ejecución empezó el {{time}}."
+    },
+    "task_run_log_consent_run_label": {
+        "message": "¿Qué ejecución?"
+    },
+    "task_run_log_consent_run_option": {
+        "message": "Ejecución n.º {{index}}, {{time}}"
+    },
+    "task_run_log_consent_run_option_reported": {
+        "message": "Ejecución n.º {{index}}, {{time}}, resultado publicado aquí"
+    },
+    "task_run_log_consent_share": {
+        "message": "Compartir"
+    },
+    "task_run_log_consent_title": {
+        "message": "¿Compartir el registro de la ejecución n.º {{index}} de «{{task}}»?"
+    },
+    "task_run_log_consent_title_pick": {
+        "message": "¿Compartir un registro de ejecución de «{{task}}»?"
     },
     "tasks_page_common_actions": {
         "message": "Acciones"

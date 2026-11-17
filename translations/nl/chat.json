@@ -302,6 +302,9 @@
     "browser_manage_restore_detail_split_exists": {
         "message": "Dezelfde twee pagina's staan al in Split View."
     },
+    "browser_manage_restore_detail_split_exists_wide": {
+        "message": "Dezelfde pagina's staan al in Split View, in dezelfde volgorde."
+    },
     "browser_manage_restore_detail_tab_open": {
         "message": "Dezelfde pagina is al open in dat venster."
     },
@@ -446,8 +449,14 @@
     "browser_manage_split_view_remove_body": {
         "message": "De Split View van \"{{first}}\" en \"{{second}}\" beëindigen; beide tabbladen blijven open."
     },
+    "browser_manage_split_view_remove_body_wide": {
+        "message": "De Split View van {{count}} tabbladen, van \"{{first}}\" tot en met \"{{last}}\", beëindigen; de tabbladen blijven open."
+    },
     "browser_manage_split_view_remove_summary": {
         "message": "Split View \"{{first}}\" + \"{{second}}\" beëindigd"
+    },
+    "browser_manage_split_view_remove_summary_wide": {
+        "message": "Split View van {{count}} tabbladen, \"{{first}}\" tot en met \"{{last}}\", beëindigd"
     },
     "browser_manage_split_view_remove_title": {
         "message": "Split View beëindigen"
@@ -455,17 +464,32 @@
     "browser_manage_split_view_swap_body": {
         "message": "De twee kanten van de Split View van \"{{first}}\" en \"{{second}}\" omwisselen."
     },
+    "browser_manage_split_view_swap_body_wide": {
+        "message": "De volgorde van de {{count}} tabbladen in de Split View omdraaien, zodat \"{{last}}\" vooraan komt en \"{{first}}\" achteraan."
+    },
     "browser_manage_split_view_swap_summary": {
         "message": "Split View \"{{first}}\" + \"{{second}}\" omgewisseld"
+    },
+    "browser_manage_split_view_swap_summary_wide": {
+        "message": "Split View van {{count}} tabbladen, \"{{first}}\" tot en met \"{{last}}\", omgedraaid"
     },
     "browser_manage_split_view_swap_title": {
         "message": "Kanten van Split View omwisselen"
     },
+    "browser_manage_split_view_swap_title_wide": {
+        "message": "Volgorde van Split View omdraaien"
+    },
     "browser_manage_split_view_update_body": {
         "message": "De Split View van \"{{first}}\" en \"{{second}}\" wijzigen."
     },
+    "browser_manage_split_view_update_body_wide": {
+        "message": "De Split View van {{count}} tabbladen, van \"{{first}}\" tot en met \"{{last}}\", wijzigen."
+    },
     "browser_manage_split_view_update_summary": {
         "message": "Split View \"{{first}}\" + \"{{second}}\" gewijzigd"
+    },
+    "browser_manage_split_view_update_summary_wide": {
+        "message": "Split View van {{count}} tabbladen, \"{{first}}\" tot en met \"{{last}}\", gewijzigd"
     },
     "browser_manage_split_view_update_title": {
         "message": "Split View wijzigen"
@@ -892,6 +916,12 @@
     },
     "chat_start_actions_import_chat": {
         "message": "Importeer dit ChatGPT-gesprek"
+    },
+    "chat_start_actions_import_chats": {
+        "message": "Importeer mijn {{site}}-gesprekken in het geheugen"
+    },
+    "chat_start_actions_import_saved": {
+        "message": "Importeer mijn opgeslagen {{site}}-posts in het geheugen"
     },
     "chat_start_actions_markdown": {
         "message": "Laat deze pagina als Markdown zien"
@@ -1955,6 +1985,12 @@
     "message_memory_agent_step_fallback": {
         "message": "Geheugen raadplegen"
     },
+    "message_memory_agent_step_hand_off": {
+        "message": "Doorgeven aan een andere skill"
+    },
+    "message_memory_agent_step_hand_off_import": {
+        "message": "Doorgeven aan Import from a Site"
+    },
     "message_memory_agent_step_list_activity": {
         "message": "Browseactiviteit doornemen"
     },
@@ -1963,6 +1999,9 @@
     },
     "message_memory_agent_step_list_facts": {
         "message": "Opgeslagen feiten doornemen"
+    },
+    "message_memory_agent_step_list_imported": {
+        "message": "Geïmporteerde items doornemen"
     },
     "message_memory_agent_step_list_own_work": {
         "message": "Eerdere taken doornemen"
@@ -1999,6 +2038,9 @@
     },
     "message_memory_agent_step_save_preference": {
         "message": "Je voorkeur opslaan"
+    },
+    "message_memory_agent_step_understand": {
+        "message": "Je verzoek begrijpen"
     },
     "message_memory_agent_step_update_instructions": {
         "message": "Vaste instructies bijwerken"
@@ -2065,6 +2107,180 @@
     },
     "message_save": {
         "message": "Opslaan"
+    },
+    "message_site_import_ask_cancel": {
+        "message": "Annuleren"
+    },
+    "message_site_import_ask_checked": {
+        "message": "Tot nu toe {{count}} gecontroleerd."
+    },
+    "message_site_import_ask_checked_more": {
+        "message": "Tot nu toe {{count}} gecontroleerd, en de lijst gaat verder."
+    },
+    "message_site_import_ask_confirm_title": {
+        "message": "Je lijst van {{site}} importeren?"
+    },
+    "message_site_import_ask_count": {
+        "message": "Hoeveel"
+    },
+    "message_site_import_ask_count_all": {
+        "message": "Allemaal"
+    },
+    "message_site_import_ask_count_limit": {
+        "message": "De {{count}} nieuwste"
+    },
+    "message_site_import_ask_human_check_body": {
+        "message": "{{site}} wil controleren of je een mens bent. Voltooi de controle zelf op het tabblad van {{site}}; Phi doet dat nooit voor je."
+    },
+    "message_site_import_ask_human_check_title": {
+        "message": "Bevestig op {{site}} dat je een mens bent"
+    },
+    "message_site_import_ask_human_checked": {
+        "message": "Dat heb ik gedaan"
+    },
+    "message_site_import_ask_import": {
+        "message": "Importeren"
+    },
+    "message_site_import_ask_items": {
+        "message": "Ook elk item lezen en samenvatten"
+    },
+    "message_site_import_ask_items_hint": {
+        "message": "Een paar seconden per item. Een lange lijst gaat verder bij de volgende import."
+    },
+    "message_site_import_ask_sign_in_body": {
+        "message": "Log zelf in op het tabblad van {{site}} en vul ook zelf de code in als de site je er een stuurt. Je wachtwoord wordt nooit bekeken en nooit voor je ingevuld."
+    },
+    "message_site_import_ask_sign_in_title": {
+        "message": "Inloggen bij {{site}}"
+    },
+    "message_site_import_ask_signed_in": {
+        "message": "Ik ben ingelogd"
+    },
+    "message_site_import_continued": {
+        "message": "Voortgezet in een later antwoord"
+    },
+    "message_site_import_done_changed": {
+        "message": "Nieuw of gewijzigd: {{count}}"
+    },
+    "message_site_import_done_failed": {
+        "message": "Niet kunnen lezen: {{count}}"
+    },
+    "message_site_import_done_nothing_new": {
+        "message": "Niets nieuws sinds de vorige keer"
+    },
+    "message_site_import_done_read": {
+        "message": "Volledig gelezen: {{count}}"
+    },
+    "message_site_import_done_remember_failed": {
+        "message": "Deze keer niet kunnen afronden"
+    },
+    "message_site_import_done_remembered": {
+        "message": "Genoteerd: {{count}}"
+    },
+    "message_site_import_done_remembered_none": {
+        "message": "Niets nieuws om te noteren"
+    },
+    "message_site_import_done_unchanged": {
+        "message": "Al opgeslagen: {{count}}"
+    },
+    "message_site_import_kind_cart": {
+        "message": "Je winkelwagen"
+    },
+    "message_site_import_kind_conversation": {
+        "message": "Je gesprekken"
+    },
+    "message_site_import_kind_listened": {
+        "message": "Wat je hebt beluisterd"
+    },
+    "message_site_import_kind_message": {
+        "message": "Je berichten"
+    },
+    "message_site_import_kind_order": {
+        "message": "Je bestellingen"
+    },
+    "message_site_import_kind_other": {
+        "message": "Je lijst"
+    },
+    "message_site_import_kind_post": {
+        "message": "Je posts"
+    },
+    "message_site_import_kind_rated": {
+        "message": "Je beoordelingen"
+    },
+    "message_site_import_kind_read": {
+        "message": "Wat je hebt gelezen"
+    },
+    "message_site_import_kind_saved": {
+        "message": "Wat je hebt opgeslagen"
+    },
+    "message_site_import_kind_watched": {
+        "message": "Wat je hebt bekeken"
+    },
+    "message_site_import_kind_wishlist": {
+        "message": "Je verlanglijst"
+    },
+    "message_site_import_note_attempt": {
+        "message": "Poging {{count}}"
+    },
+    "message_site_import_note_human_check": {
+        "message": "Je moet bevestigen dat je een mens bent"
+    },
+    "message_site_import_note_items_of": {
+        "message": "{{done}} van {{total}}"
+    },
+    "message_site_import_note_items_so_far": {
+        "message": "Tot nu toe: {{done}}"
+    },
+    "message_site_import_note_opening": {
+        "message": "Site wordt geopend"
+    },
+    "message_site_import_note_remembering": {
+        "message": "Bezig met doornemen"
+    },
+    "message_site_import_note_saved": {
+        "message": "Opgeslagen: {{count}}"
+    },
+    "message_site_import_note_sign_in": {
+        "message": "Je moet inloggen"
+    },
+    "message_site_import_step_find": {
+        "message": "Opzoeken wat er geïmporteerd moet worden"
+    },
+    "message_site_import_step_items": {
+        "message": "Elk item lezen"
+    },
+    "message_site_import_step_learn": {
+        "message": "Controleren of ze leesbaar zijn"
+    },
+    "message_site_import_step_list": {
+        "message": "Opslaan in het geheugen"
+    },
+    "message_site_import_step_remember": {
+        "message": "Leren wat ze over je zeggen"
+    },
+    "message_site_import_stopped_before": {
+        "message": "Gestopt voordat er iets werd geïmporteerd."
+    },
+    "message_site_import_stopped_cancelled": {
+        "message": "Geannuleerd. Er is niets geïmporteerd."
+    },
+    "message_site_import_stopped_human_check": {
+        "message": "{{site}} wil nog steeds dat je bevestigt dat je een mens bent."
+    },
+    "message_site_import_stopped_items": {
+        "message": "Sommige items konden niet worden gelezen. De volgende import gaat ermee verder."
+    },
+    "message_site_import_stopped_memory": {
+        "message": "De items konden niet worden opgeslagen."
+    },
+    "message_site_import_stopped_sign_in": {
+        "message": "{{site}} wil nog steeds dat je inlogt."
+    },
+    "message_site_import_stopped_site": {
+        "message": "De pagina's van de site laadden de lijst niet meer."
+    },
+    "message_site_import_stopped_unanswered": {
+        "message": "Er kwam geen antwoord, dus er is niets geïmporteerd."
     },
     "message_skills_label": {
         "message": "Skills"
@@ -2147,66 +2363,6 @@
     "newtab_greeting_morning": {
         "message": "Goedemorgen"
     },
-    "newtab_greeting_prompt_byte_count": {
-        "message": "{{count}} / {{max}} bytes"
-    },
-    "newtab_greeting_prompt_cancel": {
-        "message": "Annuleren"
-    },
-    "newtab_greeting_prompt_customized": {
-        "message": "Aangepast"
-    },
-    "newtab_greeting_prompt_default": {
-        "message": "Standaard"
-    },
-    "newtab_greeting_prompt_description": {
-        "message": "Pas de ingebouwde prompt aan waarmee gepersonaliseerde begroetingen voor nieuwe tabbladen worden gegenereerd. Gebruik de soul-placeholder op de plek waar de soul van de huidige agent moet worden ingevoegd."
-    },
-    "newtab_greeting_prompt_edit": {
-        "message": "Begroetingsprompt bewerken"
-    },
-    "newtab_greeting_prompt_empty_error": {
-        "message": "De begroetingsinstructies mogen niet leeg zijn."
-    },
-    "newtab_greeting_prompt_hint": {
-        "message": "Opgeslagen wijzigingen gelden voor volgende reeksen begroetingen."
-    },
-    "newtab_greeting_prompt_label": {
-        "message": "Instructies"
-    },
-    "newtab_greeting_prompt_load_error": {
-        "message": "Kan begroetingsprompt niet laden."
-    },
-    "newtab_greeting_prompt_loading": {
-        "message": "Begroetingsprompt laden…"
-    },
-    "newtab_greeting_prompt_placeholder": {
-        "message": "Schrijf de instructies waarmee kandidaat-begroetingen worden gegenereerd."
-    },
-    "newtab_greeting_prompt_reset": {
-        "message": "Terugzetten naar standaard"
-    },
-    "newtab_greeting_prompt_reset_error": {
-        "message": "Kan begroetingsprompt niet terugzetten."
-    },
-    "newtab_greeting_prompt_reset_saved": {
-        "message": "Begroetingsprompt teruggezet"
-    },
-    "newtab_greeting_prompt_save": {
-        "message": "Opslaan"
-    },
-    "newtab_greeting_prompt_save_error": {
-        "message": "Kan begroetingsprompt niet opslaan."
-    },
-    "newtab_greeting_prompt_saved": {
-        "message": "Begroetingsprompt opgeslagen"
-    },
-    "newtab_greeting_prompt_title": {
-        "message": "Begroetingsprompt"
-    },
-    "newtab_greeting_prompt_too_large_error": {
-        "message": "De begroetingsinstructies mogen maximaal {{count}} UTF-8-bytes groot zijn."
-    },
     "newtab_greeting_style_interest": {
         "message": "Minder persoonlijk"
     },
@@ -2218,6 +2374,12 @@
     },
     "newtab_greeting_style_personal": {
         "message": "Persoonlijk"
+    },
+    "newtab_hold_cmd_to_switch_bookmark": {
+        "message": "Houd <key/> ingedrukt om naar de bladwijzer te schakelen"
+    },
+    "newtab_hold_cmd_to_switch_pin": {
+        "message": "Houd <key/> ingedrukt om naar het vastgezette tabblad te schakelen"
     },
     "newtab_hold_cmd_to_switch_tab": {
         "message": "Houd <key/> ingedrukt om naar dit tabblad te schakelen"
@@ -2233,6 +2395,18 @@
     },
     "newtab_search_placeholder_ask_agent": {
         "message": "Zoeken, {{name}} vragen of een URL typen"
+    },
+    "newtab_unified_omnibox_choose_result": {
+        "message": "Kies een resultaat"
+    },
+    "newtab_unified_omnibox_failed": {
+        "message": "Kan dit resultaat niet openen"
+    },
+    "newtab_unified_omnibox_pending": {
+        "message": "Resultaten worden nog geladen"
+    },
+    "newtab_unified_omnibox_unavailable": {
+        "message": "Dit resultaat kan niet op deze manier worden geopend"
     },
     "notification_card_view_details": {
         "message": "Details bekijken"
@@ -4037,6 +4211,63 @@
     "skill_target_title": {
         "message": "Op welke pagina moet dit worden uitgevoerd?"
     },
+    "skills_action_suggestion_ask_memory_about_me": {
+        "message": "Wat heb je over mij onthouden?"
+    },
+    "skills_action_suggestion_ask_memory_this_week": {
+        "message": "Waarover heb ik deze week gelezen?"
+    },
+    "skills_action_suggestion_ask_memory_today": {
+        "message": "Wat heb ik vandaag gedaan?"
+    },
+    "skills_action_suggestion_explain_analogy": {
+        "message": "Leg het uit met een vergelijking uit het dagelijks leven"
+    },
+    "skills_action_suggestion_explain_key_terms": {
+        "message": "Leg de belangrijkste begrippen uit"
+    },
+    "skills_action_suggestion_explain_short": {
+        "message": "Leg het uit in drie zinnen"
+    },
+    "skills_action_suggestion_fact_check_claims": {
+        "message": "Controleer de belangrijkste beweringen"
+    },
+    "skills_action_suggestion_fact_check_numbers": {
+        "message": "Controleer de cijfers en statistieken"
+    },
+    "skills_action_suggestion_fact_check_sources": {
+        "message": "Zoek de oorspronkelijke bronnen"
+    },
+    "skills_action_suggestion_group_title": {
+        "message": "Suggesties"
+    },
+    "skills_action_suggestion_import_from_site_chatgpt": {
+        "message": "Importeer mijn ChatGPT-gesprekken"
+    },
+    "skills_action_suggestion_import_from_site_claude": {
+        "message": "Importeer mijn Claude-gesprekken"
+    },
+    "skills_action_suggestion_import_from_site_gemini": {
+        "message": "Importeer mijn Gemini-gesprekken"
+    },
+    "skills_action_suggestion_import_from_site_grok": {
+        "message": "Importeer mijn Grok-gesprekken"
+    },
+    "skills_action_suggestion_import_from_site_muse": {
+        "message": "Importeer de berichten van mijn chat op Muse"
+    },
+    "skills_action_suggestion_import_from_site_reddit": {
+        "message": "Importeer mijn opgeslagen posts van Reddit"
+    },
+    "skills_action_suggestion_video_gist_article": {
+        "message": "Maak er een artikel van"
+    },
+    "skills_action_suggestion_video_gist_key_points": {
+        "message": "Vat de belangrijkste punten samen"
+    },
+    "skills_action_suggestion_video_gist_transcript": {
+        "message": "Schrijf het volledige transcript uit"
+    },
     "skills_actions_add": {
         "message": "Toevoegen"
     },
@@ -4300,6 +4531,36 @@
     },
     "skills_title": {
         "message": "Skills"
+    },
+    "task_run_log_consent_body": {
+        "message": "Phi slaat de log van deze uitvoering (elke stap die is gezet, de gelezen pagina's en de toolresultaten) op als bestand en stuurt die samen met je feedback naar het Phi-team."
+    },
+    "task_run_log_consent_dont_share": {
+        "message": "Niet delen"
+    },
+    "task_run_log_consent_note_label": {
+        "message": "Wil je nog iets toevoegen? (optioneel)"
+    },
+    "task_run_log_consent_ran_at": {
+        "message": "De uitvoering begon op {{time}}."
+    },
+    "task_run_log_consent_run_label": {
+        "message": "Welke uitvoering?"
+    },
+    "task_run_log_consent_run_option": {
+        "message": "Uitvoering {{index}}, {{time}}"
+    },
+    "task_run_log_consent_run_option_reported": {
+        "message": "Uitvoering {{index}}, {{time}}, hier gemeld"
+    },
+    "task_run_log_consent_share": {
+        "message": "Delen"
+    },
+    "task_run_log_consent_title": {
+        "message": "De log van uitvoering {{index}} van \"{{task}}\" delen?"
+    },
+    "task_run_log_consent_title_pick": {
+        "message": "Een uitvoeringslog van \"{{task}}\" delen?"
     },
     "tasks_page_common_actions": {
         "message": "Acties"
