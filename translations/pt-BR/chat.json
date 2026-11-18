@@ -1,0 +1,5246 @@
+{
+    "agent_memory_page_back": {
+        "message": "Voltar"
+    },
+    "agent_memory_page_card_feedback": {
+        "message": "Feedback: {{value}}"
+    },
+    "agent_memory_page_card_intents": {
+        "message": "Intenções: {{count}}"
+    },
+    "agent_memory_page_card_last_active": {
+        "message": "Última atividade: {{value}}"
+    },
+    "agent_memory_page_card_sentiment": {
+        "message": "Sentimento: {{value}}"
+    },
+    "agent_memory_page_card_source": {
+        "message": "Origem: {{value}}"
+    },
+    "agent_memory_page_card_start": {
+        "message": "Início: {{value}}"
+    },
+    "agent_memory_page_empty": {
+        "message": "Ainda não há dados de memória do agente."
+    },
+    "agent_memory_page_error": {
+        "message": "Não foi possível carregar a memória do agente."
+    },
+    "agent_memory_page_generated_at": {
+        "message": "Atualizado: {{value}}"
+    },
+    "agent_memory_page_keywords": {
+        "message": "Palavras-chave"
+    },
+    "agent_memory_page_loading": {
+        "message": "Carregando a memória do agente..."
+    },
+    "agent_memory_page_memories": {
+        "message": "Memórias"
+    },
+    "agent_memory_page_memory_count": {
+        "message": "Memórias: {{count}}"
+    },
+    "agent_memory_page_refresh": {
+        "message": "Atualizar"
+    },
+    "agent_memory_page_title": {
+        "message": "Memória do agente"
+    },
+    "agent_memory_page_topics": {
+        "message": "Tópicos"
+    },
+    "agent_persona_description": {
+        "message": "Edite o modelo de persona armazenado no servidor que será usado nas próximas execuções."
+    },
+    "agent_persona_load_error": {
+        "message": "Não foi possível carregar o estado atual da Persona do agente."
+    },
+    "agent_persona_no_variables": {
+        "message": "Nenhuma variável de modelo detectada."
+    },
+    "agent_persona_open_error": {
+        "message": "Não foi possível abrir a caixa de diálogo Persona do agente."
+    },
+    "agent_persona_preview": {
+        "message": "Pré-visualização"
+    },
+    "agent_persona_reset": {
+        "message": "Redefinir"
+    },
+    "agent_persona_save_error": {
+        "message": "Não foi possível salvar as alterações da Persona do agente."
+    },
+    "agent_persona_template": {
+        "message": "Modelo"
+    },
+    "agent_persona_title": {
+        "message": "Persona do agente"
+    },
+    "agent_persona_variables": {
+        "message": "Variáveis"
+    },
+    "app_title": {
+        "message": "Phi Chat"
+    },
+    "artifacts_menu_label": {
+        "message": "Widgets"
+    },
+    "artifacts_panel_aria_label": {
+        "message": "Painel de widgets"
+    },
+    "browser_manage_bookmarks_move_body_bookmark": {
+        "message": "Mover o favorito \"{{name}}\" para outro lugar."
+    },
+    "browser_manage_bookmarks_move_body_folder": {
+        "message": "Mover a pasta \"{{name}}\" para outro lugar."
+    },
+    "browser_manage_bookmarks_move_summary_bookmark": {
+        "message": "Favorito \"{{name}}\" movido"
+    },
+    "browser_manage_bookmarks_move_summary_folder": {
+        "message": "Pasta \"{{name}}\" movida"
+    },
+    "browser_manage_bookmarks_move_title": {
+        "message": "Mover favorito"
+    },
+    "browser_manage_bookmarks_remove_body_bookmark": {
+        "message": "Excluir o favorito \"{{name}}\"."
+    },
+    "browser_manage_bookmarks_remove_body_folder": {
+        "message": "Excluir a pasta \"{{name}}\" e o(s) {{count}} item(ns) dentro dela."
+    },
+    "browser_manage_bookmarks_remove_summary_bookmark": {
+        "message": "Favorito \"{{name}}\" excluído"
+    },
+    "browser_manage_bookmarks_remove_summary_folder": {
+        "message": "Pasta de favoritos \"{{name}}\" excluída ({{count}} item(ns) dentro)"
+    },
+    "browser_manage_bookmarks_remove_title_bookmark": {
+        "message": "Excluir favorito"
+    },
+    "browser_manage_bookmarks_remove_title_folder": {
+        "message": "Excluir pasta de favoritos"
+    },
+    "browser_manage_bookmarks_update_body": {
+        "message": "Alterar o favorito \"{{name}}\"."
+    },
+    "browser_manage_bookmarks_update_new_link": {
+        "message": "Novo link: {{host}}."
+    },
+    "browser_manage_bookmarks_update_new_title": {
+        "message": "Novo título: \"{{title}}\"."
+    },
+    "browser_manage_bookmarks_update_summary": {
+        "message": "Favorito \"{{name}}\" editado"
+    },
+    "browser_manage_bookmarks_update_title": {
+        "message": "Editar favorito"
+    },
+    "browser_manage_downloads_cancel_body": {
+        "message": "Cancelar o download de \"{{name}}\"."
+    },
+    "browser_manage_downloads_cancel_title": {
+        "message": "Cancelar download"
+    },
+    "browser_manage_downloads_pause_body": {
+        "message": "Pausar o download de \"{{name}}\"."
+    },
+    "browser_manage_downloads_pause_title": {
+        "message": "Pausar download"
+    },
+    "browser_manage_downloads_remove_body": {
+        "message": "Remover o registro de download de \"{{name}}\"."
+    },
+    "browser_manage_downloads_remove_title": {
+        "message": "Remover registro de download"
+    },
+    "browser_manage_downloads_resume_body": {
+        "message": "Retomar o download de \"{{name}}\"."
+    },
+    "browser_manage_downloads_resume_title": {
+        "message": "Retomar download"
+    },
+    "browser_manage_emulation_clear_body": {
+        "message": "Desfazer a emulação de dispositivo e configurações que defini nesta aba."
+    },
+    "browser_manage_emulation_clear_title": {
+        "message": "Parar a emulação"
+    },
+    "browser_manage_emulation_item_cpu": {
+        "message": "Uma CPU mais lenta."
+    },
+    "browser_manage_emulation_item_geolocation": {
+        "message": "Uma localização definida."
+    },
+    "browser_manage_emulation_item_locale": {
+        "message": "Idioma {{locale}}."
+    },
+    "browser_manage_emulation_item_media": {
+        "message": "Recursos de mídia (como o modo escuro)."
+    },
+    "browser_manage_emulation_item_network": {
+        "message": "Uma rede mais lenta."
+    },
+    "browser_manage_emulation_item_screen": {
+        "message": "Tamanho de tela {{width}}×{{height}}."
+    },
+    "browser_manage_emulation_item_timezone": {
+        "message": "Fuso horário {{timezone}}."
+    },
+    "browser_manage_emulation_item_user_agent": {
+        "message": "Um user agent personalizado."
+    },
+    "browser_manage_emulation_set_body": {
+        "message": "Fazer esta aba se comportar de outro jeito até eu desfazer isso ou esta tarefa terminar:"
+    },
+    "browser_manage_emulation_set_title": {
+        "message": "Emular um dispositivo ou configuração"
+    },
+    "browser_manage_option_cancel": {
+        "message": "Cancelar"
+    },
+    "browser_manage_option_confirm": {
+        "message": "Confirmar"
+    },
+    "browser_manage_option_delete_only": {
+        "message": "Excluir sem exportar"
+    },
+    "browser_manage_option_export_then_delete": {
+        "message": "Exportar e depois excluir"
+    },
+    "browser_manage_option_keep_current": {
+        "message": "Manter como está"
+    },
+    "browser_manage_option_merge": {
+        "message": "Mesclar"
+    },
+    "browser_manage_option_overwrite": {
+        "message": "Substituir"
+    },
+    "browser_manage_pinned_tabs_remove_body": {
+        "message": "Remover a aba fixada \"{{name}}\" de todos os Espaços deste perfil."
+    },
+    "browser_manage_pinned_tabs_remove_summary": {
+        "message": "Aba fixada \"{{name}}\" removida"
+    },
+    "browser_manage_pinned_tabs_remove_title": {
+        "message": "Remover aba fixada"
+    },
+    "browser_manage_pinned_tabs_update_body": {
+        "message": "Alterar a aba fixada \"{{name}}\"."
+    },
+    "browser_manage_pinned_tabs_update_summary": {
+        "message": "Aba fixada \"{{name}}\" editada"
+    },
+    "browser_manage_pinned_tabs_update_title": {
+        "message": "Editar aba fixada"
+    },
+    "browser_manage_profiles_rename_body": {
+        "message": "Renomear o perfil \"{{from}}\" para \"{{to}}\"."
+    },
+    "browser_manage_profiles_rename_title": {
+        "message": "Renomear perfil"
+    },
+    "browser_manage_raw_on_browser": {
+        "message": "Executar {{method}} no navegador."
+    },
+    "browser_manage_raw_on_tab": {
+        "message": "Executar {{method}} em \"{{name}}\" ({{host}})."
+    },
+    "browser_manage_raw_on_tab_no_host": {
+        "message": "Executar {{method}} em \"{{name}}\"."
+    },
+    "browser_manage_raw_params": {
+        "message": "Parâmetros: {{params}}"
+    },
+    "browser_manage_raw_title": {
+        "message": "Executar um comando do navegador"
+    },
+    "browser_manage_restore_choices_duplicate": {
+        "message": "Substituir cria de novo mesmo assim; mesclar mantém o existente e acrescenta só o que falta; manter como está deixa tudo como está."
+    },
+    "browser_manage_restore_choices_field": {
+        "message": "Substituir devolve tudo como era; mesclar devolve só o que não foi alterado desde então; manter como está deixa como está."
+    },
+    "browser_manage_restore_choices_structural": {
+        "message": "Substituir devolve ao lugar mais próximo que ainda existe; manter como está deixa tudo como está."
+    },
+    "browser_manage_restore_choices_structural_mergeable": {
+        "message": "Substituir devolve ao lugar onde estava, recriando as pastas que sumiram; mesclar faz o mesmo, mas usa uma pasta ou favorito de mesmo nome quando existir; manter como está deixa tudo como está."
+    },
+    "browser_manage_restore_detail_bookmark_exists": {
+        "message": "Já existe um favorito equivalente ali."
+    },
+    "browser_manage_restore_detail_changed_since": {
+        "message": "Foi alterado de novo desde então."
+    },
+    "browser_manage_restore_detail_folder_gone": {
+        "message": "A pasta dele não existe mais."
+    },
+    "browser_manage_restore_detail_gone": {
+        "message": "Não existe mais."
+    },
+    "browser_manage_restore_detail_group_exists": {
+        "message": "Já existe um grupo com o mesmo nome nessa janela."
+    },
+    "browser_manage_restore_detail_group_gone": {
+        "message": "O grupo não existe mais."
+    },
+    "browser_manage_restore_detail_pin_exists": {
+        "message": "A mesma página já está fixada."
+    },
+    "browser_manage_restore_detail_rule_changed": {
+        "message": "A regra foi alterada ou removida desde então."
+    },
+    "browser_manage_restore_detail_rule_exists": {
+        "message": "Já existe uma regra para o mesmo site."
+    },
+    "browser_manage_restore_detail_split_ended": {
+        "message": "A visualização dividida foi encerrada desde então."
+    },
+    "browser_manage_restore_detail_split_exists": {
+        "message": "As mesmas duas páginas já estão divididas."
+    },
+    "browser_manage_restore_detail_tab_open": {
+        "message": "A mesma página está aberta nessa janela."
+    },
+    "browser_manage_restore_detail_unpinned": {
+        "message": "Foi desafixado desde então."
+    },
+    "browser_manage_restore_detail_window_closed": {
+        "message": "A janela em que estava foi fechada."
+    },
+    "browser_manage_restore_put_back": {
+        "message": "Restaurar: {{what}}."
+    },
+    "browser_manage_restore_summary": {
+        "message": "Restaurado: {{what}}"
+    },
+    "browser_manage_restore_tab_note": {
+        "message": "As abas reabertas perdem o histórico de voltar/avançar e o estado da página."
+    },
+    "browser_manage_restore_title_duplicate": {
+        "message": "Desfazer alteração: já existe"
+    },
+    "browser_manage_restore_title_field": {
+        "message": "Desfazer alteração: foi alterado desde então"
+    },
+    "browser_manage_restore_title_none": {
+        "message": "Desfazer alteração"
+    },
+    "browser_manage_restore_title_structural": {
+        "message": "Desfazer alteração: parte dela não existe mais"
+    },
+    "browser_manage_scope_other_space": {
+        "message": "Isto está no Espaço \"{{name}}\", não no que você está vendo."
+    },
+    "browser_manage_site_data_cache_delete_body": {
+        "message": "Excluir um cache de {{site}}."
+    },
+    "browser_manage_site_data_cache_delete_title": {
+        "message": "Excluir cache do site"
+    },
+    "browser_manage_site_data_cache_list_body": {
+        "message": "Listar os caches de {{site}}."
+    },
+    "browser_manage_site_data_cache_list_title": {
+        "message": "Listar caches do site"
+    },
+    "browser_manage_site_data_clear_origin_body": {
+        "message": "Limpar todos os dados armazenados (cookies, armazenamento, bancos de dados, caches) de {{site}}."
+    },
+    "browser_manage_site_data_clear_origin_title": {
+        "message": "Limpar todos os dados do site"
+    },
+    "browser_manage_site_data_cookies_delete_body": {
+        "message": "Excluir cookies de {{site}}."
+    },
+    "browser_manage_site_data_cookies_delete_title": {
+        "message": "Excluir cookies"
+    },
+    "browser_manage_site_data_cookies_get_body": {
+        "message": "Ler os cookies de {{site}}."
+    },
+    "browser_manage_site_data_cookies_get_title": {
+        "message": "Ler cookies"
+    },
+    "browser_manage_site_data_cookies_set_body": {
+        "message": "Definir um cookie para {{site}}."
+    },
+    "browser_manage_site_data_cookies_set_title": {
+        "message": "Definir um cookie"
+    },
+    "browser_manage_site_data_current_tab": {
+        "message": "o site aberto nessa aba"
+    },
+    "browser_manage_site_data_indexed_db_delete_body": {
+        "message": "Excluir um banco de dados IndexedDB de {{site}}."
+    },
+    "browser_manage_site_data_indexed_db_delete_title": {
+        "message": "Excluir banco de dados do site"
+    },
+    "browser_manage_site_data_indexed_db_list_body": {
+        "message": "Listar os bancos de dados IndexedDB de {{site}}."
+    },
+    "browser_manage_site_data_indexed_db_list_title": {
+        "message": "Listar bancos de dados do site"
+    },
+    "browser_manage_site_data_indexed_db_read_body": {
+        "message": "Ler entradas IndexedDB de {{site}}."
+    },
+    "browser_manage_site_data_indexed_db_read_title": {
+        "message": "Ler banco de dados do site"
+    },
+    "browser_manage_site_data_local_storage_clear_body": {
+        "message": "Limpar o armazenamento local de {{site}}."
+    },
+    "browser_manage_site_data_local_storage_clear_title": {
+        "message": "Limpar armazenamento do site"
+    },
+    "browser_manage_site_data_local_storage_get_body": {
+        "message": "Ler o armazenamento local de {{site}}."
+    },
+    "browser_manage_site_data_local_storage_get_title": {
+        "message": "Ler armazenamento do site"
+    },
+    "browser_manage_site_data_local_storage_remove_body": {
+        "message": "Excluir um item do armazenamento local de {{site}}."
+    },
+    "browser_manage_site_data_local_storage_remove_title": {
+        "message": "Excluir do armazenamento do site"
+    },
+    "browser_manage_site_data_local_storage_set_body": {
+        "message": "Gravar no armazenamento local de {{site}}."
+    },
+    "browser_manage_site_data_local_storage_set_title": {
+        "message": "Alterar armazenamento do site"
+    },
+    "browser_manage_site_data_names_only_note": {
+        "message": "Só os nomes e tamanhos são mostrados à IA, não os valores."
+    },
+    "browser_manage_site_data_service_worker_unregister_body": {
+        "message": "Cancelar o registro do service worker de {{site}}."
+    },
+    "browser_manage_site_data_service_worker_unregister_title": {
+        "message": "Remover service worker do site"
+    },
+    "browser_manage_site_data_values_note": {
+        "message": "Os valores serão enviados à IA."
+    },
+    "browser_manage_spaces_delete_body": {
+        "message": "Excluir o Espaço \"{{name}}\": seu(s) {{bookmarks}} favorito(s) e {{rules}} regra(s) de URL vão junto, e sua(s) {{tabs}} aba(s) serão fechadas."
+    },
+    "browser_manage_spaces_delete_export_note": {
+        "message": "Exportar antes salva tudo isso em um arquivo JSON."
+    },
+    "browser_manage_spaces_delete_title": {
+        "message": "Excluir Espaço"
+    },
+    "browser_manage_spaces_update_body": {
+        "message": "Alterar o Espaço \"{{name}}\"."
+    },
+    "browser_manage_spaces_update_title": {
+        "message": "Editar Espaço"
+    },
+    "browser_manage_split_view_remove_body": {
+        "message": "Encerrar a visualização dividida de \"{{first}}\" e \"{{second}}\"; as duas abas continuam abertas."
+    },
+    "browser_manage_split_view_remove_summary": {
+        "message": "Visualização dividida \"{{first}}\" + \"{{second}}\" encerrada"
+    },
+    "browser_manage_split_view_remove_title": {
+        "message": "Encerrar visualização dividida"
+    },
+    "browser_manage_split_view_swap_body": {
+        "message": "Trocar os dois lados da visualização dividida de \"{{first}}\" e \"{{second}}\"."
+    },
+    "browser_manage_split_view_swap_summary": {
+        "message": "Lados trocados na visualização dividida \"{{first}}\" + \"{{second}}\""
+    },
+    "browser_manage_split_view_swap_title": {
+        "message": "Trocar lados da visualização dividida"
+    },
+    "browser_manage_split_view_update_body": {
+        "message": "Alterar a visualização dividida de \"{{first}}\" e \"{{second}}\"."
+    },
+    "browser_manage_split_view_update_summary": {
+        "message": "Visualização dividida \"{{first}}\" + \"{{second}}\" alterada"
+    },
+    "browser_manage_split_view_update_title": {
+        "message": "Alterar visualização dividida"
+    },
+    "browser_manage_tab_groups_add_tabs_body": {
+        "message": "Adicionar {{count}} aba(s) ao grupo de abas \"{{name}}\"."
+    },
+    "browser_manage_tab_groups_add_tabs_summary": {
+        "message": "{{count}} aba(s) adicionada(s) ao grupo de abas \"{{name}}\""
+    },
+    "browser_manage_tab_groups_add_tabs_title": {
+        "message": "Adicionar abas ao grupo"
+    },
+    "browser_manage_tab_groups_close_body": {
+        "message": "Fechar o grupo de abas \"{{name}}\" e sua(s) {{count}} aba(s)."
+    },
+    "browser_manage_tab_groups_close_summary": {
+        "message": "Grupo de abas \"{{name}}\" fechado com {{count}} aba(s)"
+    },
+    "browser_manage_tab_groups_close_title": {
+        "message": "Fechar grupo de abas"
+    },
+    "browser_manage_tab_groups_remove_tabs_body_many": {
+        "message": "Tirar {{count}} aba(s) de {{groups}} grupos de abas; as abas continuam abertas."
+    },
+    "browser_manage_tab_groups_remove_tabs_body_one": {
+        "message": "Tirar {{count}} aba(s) do grupo de abas \"{{name}}\"; as abas continuam abertas."
+    },
+    "browser_manage_tab_groups_remove_tabs_summary": {
+        "message": "{{count}} aba(s) retirada(s) de {{groups}} grupo(s)"
+    },
+    "browser_manage_tab_groups_remove_tabs_title": {
+        "message": "Tirar abas do grupo"
+    },
+    "browser_manage_tab_groups_ungroup_body": {
+        "message": "Desagrupar \"{{name}}\"; sua(s) {{count}} aba(s) continuam abertas."
+    },
+    "browser_manage_tab_groups_ungroup_summary": {
+        "message": "Grupo de abas \"{{name}}\" desagrupado ({{count}} aba(s))"
+    },
+    "browser_manage_tab_groups_ungroup_title": {
+        "message": "Desagrupar abas"
+    },
+    "browser_manage_tab_groups_update_body": {
+        "message": "Alterar o grupo de abas \"{{name}}\"."
+    },
+    "browser_manage_tab_groups_update_summary": {
+        "message": "Grupo de abas \"{{name}}\" editado"
+    },
+    "browser_manage_tab_groups_update_title": {
+        "message": "Editar grupo de abas"
+    },
+    "browser_manage_tabs_close_body": {
+        "message": "Fechar a aba \"{{name}}\" ({{host}})."
+    },
+    "browser_manage_tabs_close_body_no_host": {
+        "message": "Fechar a aba \"{{name}}\"."
+    },
+    "browser_manage_tabs_close_summary": {
+        "message": "Aba \"{{name}}\" fechada"
+    },
+    "browser_manage_tabs_close_title": {
+        "message": "Fechar aba"
+    },
+    "browser_manage_undo_approximate": {
+        "message": "Você pode me pedir para desfazer isso depois; as abas reabertas perdem o histórico de voltar/avançar e o estado da página."
+    },
+    "browser_manage_undo_not_restorable": {
+        "message": "Isso não pode ser desfeito."
+    },
+    "browser_manage_undo_restorable": {
+        "message": "Você pode me pedir para desfazer isso depois."
+    },
+    "browser_manage_untitled": {
+        "message": "(sem título)"
+    },
+    "browser_manage_url_rules_delete_body": {
+        "message": "Excluir a regra de {{rule}}."
+    },
+    "browser_manage_url_rules_delete_summary": {
+        "message": "Regra de URL {{rule}} excluída"
+    },
+    "browser_manage_url_rules_delete_title": {
+        "message": "Excluir regra de URL"
+    },
+    "browser_manage_url_rules_update_body": {
+        "message": "Alterar a regra de {{rule}}."
+    },
+    "browser_manage_url_rules_update_summary": {
+        "message": "Regra de URL {{rule}} editada"
+    },
+    "browser_manage_url_rules_update_title": {
+        "message": "Editar regra de URL"
+    },
+    "browser_manage_windows_set_bounds_body": {
+        "message": "Mover ou redimensionar uma janela do navegador."
+    },
+    "browser_manage_windows_set_bounds_body_size": {
+        "message": "Mover ou redimensionar uma janela do navegador para {{width}}×{{height}}."
+    },
+    "browser_manage_windows_set_bounds_body_state": {
+        "message": "Mudar uma janela do navegador para {{state}}."
+    },
+    "browser_manage_windows_set_bounds_title": {
+        "message": "Redimensionar janela"
+    },
+    "browser_manage_windows_state_fullscreen": {
+        "message": "tela cheia"
+    },
+    "browser_manage_windows_state_maximized": {
+        "message": "maximizada"
+    },
+    "browser_manage_windows_state_minimized": {
+        "message": "minimizada"
+    },
+    "chat_attachments_add": {
+        "message": "Anexar arquivos"
+    },
+    "chat_attachments_drop_hint": {
+        "message": "Solte os arquivos para anexar"
+    },
+    "chat_attachments_failed": {
+        "message": "Não foi possível anexar"
+    },
+    "chat_attachments_remove": {
+        "message": "Remover anexo"
+    },
+    "chat_attachments_too_large": {
+        "message": "Maior que 50 KB"
+    },
+    "chat_composer_menu_all_tabs_added": {
+        "message": "Todas as abas foram adicionadas"
+    },
+    "chat_composer_menu_upload": {
+        "message": "Enviar arquivo"
+    },
+    "chat_composer_menu_upload_from_computer": {
+        "message": "Enviar do computador"
+    },
+    "chat_composer_open_skills": {
+        "message": "Skills"
+    },
+    "chat_composer_placeholder": {
+        "message": "Digite uma mensagem..."
+    },
+    "chat_composer_send": {
+        "message": "Enviar"
+    },
+    "chat_composer_stop": {
+        "message": "Parar"
+    },
+    "chat_composer_suggestions_member_count": {
+        "message": "{{count}} aba(s)"
+    },
+    "chat_composer_suggestions_no_skills": {
+        "message": "Nenhuma skill disponível"
+    },
+    "chat_composer_suggestions_no_tabs": {
+        "message": "Nenhuma aba disponível"
+    },
+    "chat_composer_suggestions_skill_header": {
+        "message": "Skill"
+    },
+    "chat_composer_suggestions_split_view": {
+        "message": "Visualização dividida"
+    },
+    "chat_composer_suggestions_tabs_header": {
+        "message": "Abas"
+    },
+    "chat_composer_suggestions_untitled_group": {
+        "message": "Grupo sem título"
+    },
+    "chat_empty_body": {
+        "message": "Selecione uma conversa à esquerda ou comece uma nova."
+    },
+    "chat_empty_title": {
+        "message": "Escolha uma conversa"
+    },
+    "chat_interrupted": {
+        "message": "Interrompida"
+    },
+    "chat_load_failed": {
+        "message": "Não foi possível carregar esta conversa."
+    },
+    "chat_loading_phrases_anchoring_findings": {
+        "message": "Ancorando as descobertas"
+    },
+    "chat_loading_phrases_assembling_crew": {
+        "message": "Reunindo a tripulação"
+    },
+    "chat_loading_phrases_baiting_data_lake": {
+        "message": "Jogando a isca no lago de dados"
+    },
+    "chat_loading_phrases_brewing_something_good": {
+        "message": "Preparando algo bom"
+    },
+    "chat_loading_phrases_bubbling_up_results": {
+        "message": "Borbulhando resultados"
+    },
+    "chat_loading_phrases_casting_net_wide": {
+        "message": "Lançando a rede bem longe"
+    },
+    "chat_loading_phrases_catching_big_one": {
+        "message": "Fisgando um peixe grande"
+    },
+    "chat_loading_phrases_catching_wave": {
+        "message": "Pegando a onda"
+    },
+    "chat_loading_phrases_charting_waters": {
+        "message": "Mapeando as águas"
+    },
+    "chat_loading_phrases_chasing_golden_fish": {
+        "message": "Perseguindo um peixe dourado"
+    },
+    "chat_loading_phrases_chasing_school_of_thought": {
+        "message": "Seguindo o cardume de ideias"
+    },
+    "chat_loading_phrases_connecting_dots": {
+        "message": "Ligando os pontos"
+    },
+    "chat_loading_phrases_consulting_sea_oracle": {
+        "message": "Consultando o oráculo do mar"
+    },
+    "chat_loading_phrases_cruising_data_stream": {
+        "message": "Navegando pelo fluxo de dados"
+    },
+    "chat_loading_phrases_decoding_signal": {
+        "message": "Decifrando o sinal"
+    },
+    "chat_loading_phrases_diving_deep": {
+        "message": "Mergulhando fundo"
+    },
+    "chat_loading_phrases_drifting_toward_answers": {
+        "message": "Deixando a maré levar às respostas"
+    },
+    "chat_loading_phrases_exploring_deep_end": {
+        "message": "Explorando águas profundas"
+    },
+    "chat_loading_phrases_fishing_deeper_waters": {
+        "message": "Pescando em águas mais fundas"
+    },
+    "chat_loading_phrases_fishing_for_answers": {
+        "message": "Pescando respostas"
+    },
+    "chat_loading_phrases_floating_new_ideas": {
+        "message": "Boiando novas ideias"
+    },
+    "chat_loading_phrases_following_ripples": {
+        "message": "Seguindo as ondulações"
+    },
+    "chat_loading_phrases_going_with_flow": {
+        "message": "Indo com a correnteza"
+    },
+    "chat_loading_phrases_hatching_plan": {
+        "message": "Chocando um plano"
+    },
+    "chat_loading_phrases_hooked_on_lead": {
+        "message": "Fisgado por uma pista"
+    },
+    "chat_loading_phrases_hooking_insights": {
+        "message": "Fisgando alguns insights"
+    },
+    "chat_loading_phrases_launching_submarine": {
+        "message": "Lançando o submarino"
+    },
+    "chat_loading_phrases_letting_bait_sink_in": {
+        "message": "Deixando a isca afundar"
+    },
+    "chat_loading_phrases_making_splash": {
+        "message": "Fazendo barulho na água"
+    },
+    "chat_loading_phrases_mapping_ocean_floor": {
+        "message": "Mapeando o fundo do oceano"
+    },
+    "chat_loading_phrases_navigating_stream": {
+        "message": "Navegando pela corrente"
+    },
+    "chat_loading_phrases_plotting_course": {
+        "message": "Traçando a rota"
+    },
+    "chat_loading_phrases_plunging_into_deep": {
+        "message": "Mergulhando nas profundezas"
+    },
+    "chat_loading_phrases_polishing_telescope": {
+        "message": "Polindo a luneta"
+    },
+    "chat_loading_phrases_reading_tides": {
+        "message": "Lendo as marés"
+    },
+    "chat_loading_phrases_reeling_in_results": {
+        "message": "Puxando os resultados"
+    },
+    "chat_loading_phrases_riding_current": {
+        "message": "Surfando a corrente"
+    },
+    "chat_loading_phrases_sailing_through_sources": {
+        "message": "Velejando pelas fontes"
+    },
+    "chat_loading_phrases_scanning_horizon": {
+        "message": "Observando o horizonte"
+    },
+    "chat_loading_phrases_scouting_reef": {
+        "message": "Explorando o recife"
+    },
+    "chat_loading_phrases_shaking_magic_fish_bowl": {
+        "message": "Sacudindo o aquário mágico"
+    },
+    "chat_loading_phrases_sifting_through_current": {
+        "message": "Peneirando a correnteza"
+    },
+    "chat_loading_phrases_skimming_surface": {
+        "message": "Deslizando pela superfície"
+    },
+    "chat_loading_phrases_spinning_compass": {
+        "message": "Girando a bússola"
+    },
+    "chat_loading_phrases_splashing_through_thoughts": {
+        "message": "Chapinhando entre ideias"
+    },
+    "chat_loading_phrases_stirring_whirlpool": {
+        "message": "Agitando o redemoinho"
+    },
+    "chat_loading_phrases_summoning_brain_fish": {
+        "message": "Invocando o peixe pensador"
+    },
+    "chat_loading_phrases_surfing_knowledge_waves": {
+        "message": "Surfando nas ondas do conhecimento"
+    },
+    "chat_loading_phrases_swimming_through_data": {
+        "message": "Nadando entre os dados"
+    },
+    "chat_loading_phrases_swimming_upstream": {
+        "message": "Nadando contra a corrente"
+    },
+    "chat_loading_phrases_testing_waters": {
+        "message": "Testando as águas"
+    },
+    "chat_loading_phrases_trawling_archives": {
+        "message": "Arrastando a rede pelos arquivos"
+    },
+    "chat_loading_phrases_trolling_for_treasures": {
+        "message": "Garimpando tesouros"
+    },
+    "chat_loading_phrases_tuning_sonar": {
+        "message": "Ajustando o sonar"
+    },
+    "chat_loading_phrases_untangling_net": {
+        "message": "Desembaraçando a rede"
+    },
+    "chat_loading_phrases_wading_through_info": {
+        "message": "Atravessando as informações"
+    },
+    "chat_loading_phrases_warming_up_engines": {
+        "message": "Aquecendo os motores"
+    },
+    "chat_message_cancel": {
+        "message": "Cancelar"
+    },
+    "chat_message_collapse": {
+        "message": "Recolher"
+    },
+    "chat_message_copied": {
+        "message": "Copiado"
+    },
+    "chat_message_copy": {
+        "message": "Copiar mensagem"
+    },
+    "chat_message_download": {
+        "message": "Baixar"
+    },
+    "chat_message_edit": {
+        "message": "Editar mensagem"
+    },
+    "chat_message_expand": {
+        "message": "Expandir"
+    },
+    "chat_message_next_branch": {
+        "message": "Próxima versão"
+    },
+    "chat_message_previous_branch": {
+        "message": "Versão anterior"
+    },
+    "chat_message_regenerate": {
+        "message": "Gerar a resposta novamente"
+    },
+    "chat_message_save": {
+        "message": "Salvar"
+    },
+    "chat_metrics_chars": {
+        "message": "{{count}} caracteres"
+    },
+    "chat_metrics_elapsed": {
+        "message": "{{value}} decorridos"
+    },
+    "chat_metrics_label": {
+        "message": "Velocidade da resposta"
+    },
+    "chat_metrics_speed": {
+        "message": "{{value}} caracteres/s"
+    },
+    "chat_metrics_ttft": {
+        "message": "primeiro texto {{value}}"
+    },
+    "chat_metrics_ttft_pending": {
+        "message": "aguardando o primeiro texto…"
+    },
+    "chat_retry": {
+        "message": "Tentar novamente"
+    },
+    "chat_run_failed": {
+        "message": "A resposta falhou"
+    },
+    "chat_start_actions_create_skill": {
+        "message": "Me ajude a criar uma skill"
+    },
+    "chat_start_actions_explain": {
+        "message": "Explique esta página de forma simples"
+    },
+    "chat_start_actions_fact_check": {
+        "message": "Verifique os fatos desta página"
+    },
+    "chat_start_actions_help": {
+        "message": "Me ajude a começar a usar o Phi Browser"
+    },
+    "chat_start_actions_import_chat": {
+        "message": "Importar esta conversa do ChatGPT"
+    },
+    "chat_start_actions_markdown": {
+        "message": "Mostrar esta página em Markdown"
+    },
+    "chat_start_actions_pdf": {
+        "message": "Salvar esta página como PDF"
+    },
+    "chat_start_actions_video": {
+        "message": "Resuma este vídeo"
+    },
+    "chat_start_recommendations": {
+        "message": "Skills sugeridas para esta página"
+    },
+    "chat_start_title": {
+        "message": "Como posso ajudar?"
+    },
+    "chat_tab_context_fallback": {
+        "message": "Contexto da página"
+    },
+    "chat_tasks_action_failed": {
+        "message": "Não foi possível atualizar a tarefa"
+    },
+    "chat_tasks_button": {
+        "message": "Tarefas nesta conversa ({{count}})"
+    },
+    "chat_tasks_catch_up_busy": {
+        "message": "Esta tarefa já está em execução"
+    },
+    "chat_tasks_catch_up_expired": {
+        "message": "Expirada"
+    },
+    "chat_tasks_catch_up_ignore": {
+        "message": "Ignorar"
+    },
+    "chat_tasks_catch_up_ignored": {
+        "message": "Ignorada"
+    },
+    "chat_tasks_catch_up_ran": {
+        "message": "Executada às {{time}}"
+    },
+    "chat_tasks_catch_up_ran_no_time": {
+        "message": "Executada"
+    },
+    "chat_tasks_catch_up_ran_on_schedule": {
+        "message": "Não é necessário: foi executada no horário"
+    },
+    "chat_tasks_catch_up_run_now": {
+        "message": "Executar agora"
+    },
+    "chat_tasks_cron_daily": {
+        "message": "Todos os dias às {{time}}"
+    },
+    "chat_tasks_cron_monthly": {
+        "message": "Dia {{day}} de cada mês às {{time}}"
+    },
+    "chat_tasks_cron_weekdays": {
+        "message": "Dias úteis às {{time}}"
+    },
+    "chat_tasks_cron_weekly": {
+        "message": "Toda(o) {{days}} às {{time}}"
+    },
+    "chat_tasks_empty": {
+        "message": "Nenhuma tarefa nesta conversa"
+    },
+    "chat_tasks_every_day": {
+        "message": "Todos os dias"
+    },
+    "chat_tasks_every_hour": {
+        "message": "A cada hora"
+    },
+    "chat_tasks_every_minute": {
+        "message": "A cada minuto"
+    },
+    "chat_tasks_load_error": {
+        "message": "Não foi possível carregar as tarefas"
+    },
+    "chat_tasks_more_actions_for": {
+        "message": "Mais ações para {{title}}"
+    },
+    "chat_tasks_mute_reports": {
+        "message": "Parar de informar aqui"
+    },
+    "chat_tasks_muted_toast": {
+        "message": "Esta tarefa não vai mais informar nesta conversa"
+    },
+    "chat_tasks_next_run": {
+        "message": "Próxima execução {{time}}"
+    },
+    "chat_tasks_no_schedule": {
+        "message": "Só é executada quando iniciada"
+    },
+    "chat_tasks_pause": {
+        "message": "Pausar agendamento"
+    },
+    "chat_tasks_report_every_run": {
+        "message": "Toda execução"
+    },
+    "chat_tasks_report_here": {
+        "message": "Informar nesta conversa"
+    },
+    "chat_tasks_report_menu": {
+        "message": "Ações da tarefa"
+    },
+    "chat_tasks_report_on_change": {
+        "message": "Só mudanças"
+    },
+    "chat_tasks_report_policy": {
+        "message": "O que informar"
+    },
+    "chat_tasks_resume": {
+        "message": "Retomar agendamento"
+    },
+    "chat_tasks_run_index": {
+        "message": "Execução nº {{index}}"
+    },
+    "chat_tasks_run_now": {
+        "message": "Executar agora"
+    },
+    "chat_tasks_run_started_toast": {
+        "message": "Tarefa iniciada"
+    },
+    "chat_tasks_schedule_cron": {
+        "message": "Agendamento personalizado ({{expr}})"
+    },
+    "chat_tasks_schedule_every": {
+        "message": "A cada {{interval}}"
+    },
+    "chat_tasks_schedule_finished": {
+        "message": "Concluída"
+    },
+    "chat_tasks_schedule_goal_reached": {
+        "message": "Condição atendida, parada"
+    },
+    "chat_tasks_schedule_once": {
+        "message": "Uma vez, {{time}}"
+    },
+    "chat_tasks_schedule_paused": {
+        "message": "Pausado"
+    },
+    "chat_tasks_schedule_until": {
+        "message": "até {{time}}"
+    },
+    "chat_tasks_status_completed": {
+        "message": "Concluído"
+    },
+    "chat_tasks_status_failed": {
+        "message": "Falhou"
+    },
+    "chat_tasks_status_interrupted": {
+        "message": "Interrompida"
+    },
+    "chat_tasks_status_missed": {
+        "message": "Não foi executada"
+    },
+    "chat_tasks_status_queued": {
+        "message": "Na fila"
+    },
+    "chat_tasks_status_running": {
+        "message": "Em execução"
+    },
+    "chat_tasks_stop_condition": {
+        "message": "Para quando: {{condition}}"
+    },
+    "chat_tasks_task_active": {
+        "message": "Ativa"
+    },
+    "chat_tasks_task_finished": {
+        "message": "Concluída"
+    },
+    "chat_tasks_task_gone": {
+        "message": "Esta tarefa não existe mais"
+    },
+    "chat_tasks_task_manual": {
+        "message": "Manual"
+    },
+    "chat_tasks_task_paused": {
+        "message": "Pausado"
+    },
+    "chat_tasks_task_stopped": {
+        "message": "Parada"
+    },
+    "chat_tasks_time_in_zone": {
+        "message": "{{time}} ({{zone}})"
+    },
+    "chat_tasks_title": {
+        "message": "Tarefas nesta conversa"
+    },
+    "chat_tasks_unmute_reports": {
+        "message": "Voltar a informar aqui"
+    },
+    "chat_tasks_unmuted_toast": {
+        "message": "Esta tarefa voltará a informar nesta conversa"
+    },
+    "chat_thinking": {
+        "message": "Pensando…"
+    },
+    "chat_tool_call_failed": {
+        "message": "Falhou"
+    },
+    "chat_tool_call_running": {
+        "message": "Em execução"
+    },
+    "chat_tool_call_succeeded": {
+        "message": "Concluída"
+    },
+    "chat_trace_consent_body": {
+        "message": "O Phi vai salvar o rastreamento desta conversa (suas mensagens, as respostas, o conteúdo das páginas e os resultados das ferramentas) como um arquivo de log e enviá-lo à equipe do Phi com seu feedback."
+    },
+    "chat_trace_consent_dont_share": {
+        "message": "Não compartilhar"
+    },
+    "chat_trace_consent_note_label": {
+        "message": "Quer acrescentar algo? (opcional)"
+    },
+    "chat_trace_consent_share": {
+        "message": "Compartilhar"
+    },
+    "chat_trace_consent_title": {
+        "message": "Compartilhar o rastreamento desta conversa?"
+    },
+    "chat_unsupported_part": {
+        "message": "Este conteúdo ainda não é suportado no Phi Chat ({{type}})."
+    },
+    "chat_user_action_allow": {
+        "message": "Permitir"
+    },
+    "chat_user_action_deny": {
+        "message": "Cancelar"
+    },
+    "chat_user_action_title": {
+        "message": "{{name}} precisa da sua resposta"
+    },
+    "chat_welcome_subtitle": {
+        "message": "Você pode pesquisar, fazer perguntas ou trabalhar com a página atual"
+    },
+    "chat_welcome_title": {
+        "message": "Olá, eu sou {{name}}"
+    },
+    "context_menu_ask_about": {
+        "message": "Perguntar a {{agentName}} sobre..."
+    },
+    "context_menu_ask_about_selection": {
+        "message": "Perguntar a {{agentName}} sobre “{{selection}}”"
+    },
+    "context_menu_watch_page": {
+        "message": "Pedir a {{agentName}} para acompanhar esta página"
+    },
+    "conversation_add_category": {
+        "message": "Nova categoria"
+    },
+    "conversation_add_category_confirm": {
+        "message": "Criar"
+    },
+    "conversation_add_category_placeholder": {
+        "message": "Nome da categoria"
+    },
+    "conversation_all_category": {
+        "message": "Todos"
+    },
+    "conversation_batch_delete_error": {
+        "message": "Não foi possível excluir as conversas selecionadas"
+    },
+    "conversation_batch_mode": {
+        "message": "Selecionar"
+    },
+    "conversation_by_profile": {
+        "message": "Por perfil"
+    },
+    "conversation_cancel": {
+        "message": "Cancelar"
+    },
+    "conversation_categories": {
+        "message": "Categorias"
+    },
+    "conversation_categories_menu": {
+        "message": "Categorias"
+    },
+    "conversation_category_menu": {
+        "message": "Menu da categoria"
+    },
+    "conversation_category_name_conflict": {
+        "message": "Já existe uma categoria com este nome."
+    },
+    "conversation_category_update_error": {
+        "message": "Não foi possível atualizar as categorias"
+    },
+    "conversation_clear_categories": {
+        "message": "Remover de todas as categorias"
+    },
+    "conversation_close_search": {
+        "message": "Fechar pesquisa"
+    },
+    "conversation_conversation_menu": {
+        "message": "Menu da conversa"
+    },
+    "conversation_create_error": {
+        "message": "Não foi possível criar a conversa"
+    },
+    "conversation_delete": {
+        "message": "Excluir"
+    },
+    "conversation_delete_batch_confirm_description": {
+        "message": "Tem certeza de que deseja excluir {{count}} conversa(s)? Esta ação não pode ser desfeita."
+    },
+    "conversation_delete_batch_confirm_title": {
+        "message": "Excluir conversas selecionadas"
+    },
+    "conversation_delete_category": {
+        "message": "Excluir categoria"
+    },
+    "conversation_delete_category_confirm_description": {
+        "message": "As conversas desta categoria mantêm as outras categorias. As que ficarem sem nenhuma vão para \"{{category}}\"."
+    },
+    "conversation_delete_category_confirm_title": {
+        "message": "Excluir categoria"
+    },
+    "conversation_delete_confirm_description": {
+        "message": "Tem certeza de que deseja excluir esta conversa? Esta ação não pode ser desfeita."
+    },
+    "conversation_delete_confirm_title": {
+        "message": "Excluir conversa"
+    },
+    "conversation_delete_selected": {
+        "message": "Excluir ({{count}})"
+    },
+    "conversation_deselect_all": {
+        "message": "Desmarcar tudo"
+    },
+    "conversation_exit_batch_mode": {
+        "message": "Concluído"
+    },
+    "conversation_filter_conversations": {
+        "message": "Filtrar conversas"
+    },
+    "conversation_has_tasks": {
+        "message": "Tem tarefas agendadas"
+    },
+    "conversation_load_error": {
+        "message": "Não foi possível carregar as conversas"
+    },
+    "conversation_load_more": {
+        "message": "Carregar mais"
+    },
+    "conversation_loading": {
+        "message": "Carregando..."
+    },
+    "conversation_more_categories": {
+        "message": "Mais categorias"
+    },
+    "conversation_move_error": {
+        "message": "Não foi possível mover a conversa"
+    },
+    "conversation_move_to_default": {
+        "message": "Mover para \"{{category}}\""
+    },
+    "conversation_move_to_profile": {
+        "message": "Mover para um perfil"
+    },
+    "conversation_my_categories": {
+        "message": "Categorias"
+    },
+    "conversation_no_conversations": {
+        "message": "Ainda não há conversas"
+    },
+    "conversation_no_search_results": {
+        "message": "Nenhum resultado para \"{{query}}\""
+    },
+    "conversation_no_task_conversations": {
+        "message": "Peça ao agente para fazer algo de forma agendada, e a conversa vai aparecer aqui"
+    },
+    "conversation_origin_chat": {
+        "message": "Phi Chat"
+    },
+    "conversation_origin_newtab": {
+        "message": "Nova aba"
+    },
+    "conversation_origin_sidebar": {
+        "message": "Barra lateral"
+    },
+    "conversation_pane_title": {
+        "message": "Conversas"
+    },
+    "conversation_phi_chat_management_hint": {
+        "message": "Para ver as conversas de todos os perfis e ter mais opções de gerenciamento, use o Phi Chat."
+    },
+    "conversation_profile_category_name": {
+        "message": "Perfil \"{{name}}\""
+    },
+    "conversation_recent_conversations": {
+        "message": "Conversas recentes"
+    },
+    "conversation_rename": {
+        "message": "Renomear"
+    },
+    "conversation_rename_category": {
+        "message": "Renomear categoria"
+    },
+    "conversation_rename_description": {
+        "message": "Digite um novo nome para esta conversa."
+    },
+    "conversation_resize_list": {
+        "message": "Redimensionar lista de conversas"
+    },
+    "conversation_retry": {
+        "message": "Tentar novamente"
+    },
+    "conversation_retry_profiles": {
+        "message": "Não foi possível carregar os perfis. Tentar novamente"
+    },
+    "conversation_save": {
+        "message": "Salvar"
+    },
+    "conversation_search_filters": {
+        "message": "Encontre um perfil ou categoria…"
+    },
+    "conversation_search_label": {
+        "message": "Pesquisar conversas"
+    },
+    "conversation_search_placeholder": {
+        "message": "Pesquisar conversas"
+    },
+    "conversation_search_shortcut": {
+        "message": "Pesquisar conversas ({{shortcut}})"
+    },
+    "conversation_select_all": {
+        "message": "Selecionar tudo"
+    },
+    "conversation_select_conversation": {
+        "message": "Selecionar conversa"
+    },
+    "conversation_select_placeholder": {
+        "message": "Selecione uma conversa"
+    },
+    "conversation_selected_count": {
+        "message": "{{count}} selecionada(s)"
+    },
+    "conversation_switch_conversation": {
+        "message": "Trocar de conversa"
+    },
+    "conversation_switch_discard_draft": {
+        "message": "O texto e os anexos não enviados serão descartados. Trocar de conversa?"
+    },
+    "conversation_tasks_category": {
+        "message": "Tarefas"
+    },
+    "conversation_title_placeholder": {
+        "message": "Título da conversa"
+    },
+    "conversation_travel_back_error": {
+        "message": "Não foi possível reabrir essa página"
+    },
+    "conversation_travel_back_latest": {
+        "message": "Voltar à página mais recente"
+    },
+    "conversation_travel_back_origin": {
+        "message": "Voltar ao ponto de partida"
+    },
+    "conversation_travel_back_sidebar_error": {
+        "message": "A página está aberta, mas não foi possível restaurar este chat nela. Sua conversa continua aqui. Tente novamente."
+    },
+    "conversation_travel_back_target_unavailable": {
+        "message": "O Espaço ou perfil original não está mais disponível. Sua conversa continua aqui."
+    },
+    "conversation_uncategorized": {
+        "message": "Sem categoria"
+    },
+    "conversation_unread": {
+        "message": "Não lida"
+    },
+    "conversation_untitled": {
+        "message": "Sem título"
+    },
+    "conversation_without_profile": {
+        "message": "Sem perfil"
+    },
+    "conversations_categories_all": {
+        "message": "Todos"
+    },
+    "conversations_categories_create": {
+        "message": "Criar"
+    },
+    "conversations_categories_default": {
+        "message": "Com {{name}}"
+    },
+    "conversations_categories_delete": {
+        "message": "Excluir categoria"
+    },
+    "conversations_categories_delete_confirm_description": {
+        "message": "As conversas desta categoria voltarão para \"{{name}}\"."
+    },
+    "conversations_categories_delete_confirm_title": {
+        "message": "Excluir categoria"
+    },
+    "conversations_categories_menu_label": {
+        "message": "Menu da categoria"
+    },
+    "conversations_categories_more_label": {
+        "message": "Mais categorias"
+    },
+    "conversations_categories_name_conflict": {
+        "message": "Já existe uma categoria com este nome."
+    },
+    "conversations_categories_name_placeholder": {
+        "message": "Nome da categoria"
+    },
+    "conversations_categories_new": {
+        "message": "Nova categoria"
+    },
+    "conversations_categories_rename": {
+        "message": "Renomear categoria"
+    },
+    "conversations_create_failed": {
+        "message": "Não foi possível criar uma conversa."
+    },
+    "conversations_empty": {
+        "message": "Ainda não há conversas."
+    },
+    "conversations_load_failed": {
+        "message": "Não foi possível carregar as conversas."
+    },
+    "conversations_load_more": {
+        "message": "Carregar mais"
+    },
+    "conversations_menu_cancel": {
+        "message": "Cancelar"
+    },
+    "conversations_menu_delete": {
+        "message": "Excluir"
+    },
+    "conversations_menu_delete_confirm_description": {
+        "message": "Tem certeza de que deseja excluir esta conversa? Esta ação não pode ser desfeita."
+    },
+    "conversations_menu_delete_confirm_title": {
+        "message": "Excluir conversa"
+    },
+    "conversations_menu_label": {
+        "message": "Menu da conversa"
+    },
+    "conversations_menu_move": {
+        "message": "Mover para a categoria"
+    },
+    "conversations_menu_rename": {
+        "message": "Renomear"
+    },
+    "conversations_menu_rename_description": {
+        "message": "Digite um novo nome para esta conversa."
+    },
+    "conversations_menu_save": {
+        "message": "Salvar"
+    },
+    "conversations_menu_title_placeholder": {
+        "message": "Título da conversa"
+    },
+    "conversations_move_failed": {
+        "message": "Não foi possível mover a conversa."
+    },
+    "conversations_new": {
+        "message": "Novo chat"
+    },
+    "conversations_retry": {
+        "message": "Tentar novamente"
+    },
+    "conversations_search_close": {
+        "message": "Fechar pesquisa"
+    },
+    "conversations_search_no_results": {
+        "message": "Nenhum resultado para \"{{query}}\""
+    },
+    "conversations_search_open": {
+        "message": "Pesquisar conversas"
+    },
+    "conversations_search_placeholder": {
+        "message": "Pesquisar conversas"
+    },
+    "conversations_search_tooltip": {
+        "message": "Pesquisar conversas ({{shortcut}})"
+    },
+    "conversations_untitled": {
+        "message": "Conversa sem título"
+    },
+    "current_tab_confirm": {
+        "message": "Confirmar"
+    },
+    "current_tab_confirm_description": {
+        "message": "Revise a ação antes de continuarmos."
+    },
+    "current_tab_confirm_failed": {
+        "message": "Não foi possível enviar a confirmação. Tente novamente."
+    },
+    "current_tab_confirm_title": {
+        "message": "Confirmar ação na aba atual"
+    },
+    "current_tab_deny": {
+        "message": "Negar"
+    },
+    "current_tab_no_active_tab": {
+        "message": "Nenhuma aba ativa disponível. O modo aba atual foi desativado."
+    },
+    "current_tab_risk_high": {
+        "message": "Alto"
+    },
+    "current_tab_risk_label": {
+        "message": "Risco"
+    },
+    "current_tab_risk_low": {
+        "message": "Baixo"
+    },
+    "current_tab_risk_medium": {
+        "message": "Médio"
+    },
+    "current_tab_screenshot_alt": {
+        "message": "Captura de tela da confirmação"
+    },
+    "dev_entry_agent_memory": {
+        "message": "Memória do agente"
+    },
+    "dev_entry_shadow_tasks": {
+        "message": "Tarefas em segundo plano"
+    },
+    "drag_drop_subtitle": {
+        "message": "Solte para adicionar os arquivos à sua mensagem"
+    },
+    "drag_drop_title": {
+        "message": "Solte os arquivos para enviar"
+    },
+    "errors_balance_alert_threshold": {
+        "message": "Você deixou o Phi bem ocupado. Talvez venha uma pausa por aí."
+    },
+    "errors_chat_forbidden": {
+        "message": "Você não tem permissão para acessar este chat."
+    },
+    "errors_chat_not_found": {
+        "message": "Chat não encontrado."
+    },
+    "errors_image_preview_awaiting_upload": {
+        "message": "Esta imagem é grande demais para pré-visualizar antes do envio. Aguarde o envio terminar e tente novamente."
+    },
+    "errors_run_failed": {
+        "message": "A execução falhou"
+    },
+    "errors_token_invalid": {
+        "message": "Token de autenticação inválido ou expirado."
+    },
+    "errors_upload_not_available": {
+        "message": "O envio de arquivos não está disponível no momento."
+    },
+    "errors_upload_preparing": {
+        "message": "O envio de arquivos está sendo preparado. Tente novamente em instantes. Arquivos de texto continuam disponíveis."
+    },
+    "errors_upload_sign_in_required": {
+        "message": "Faça login para adicionar imagens ou PDFs. Arquivos de texto continuam disponíveis."
+    },
+    "extension_update_check": {
+        "message": "Verificar atualizações"
+    },
+    "extension_update_checking": {
+        "message": "Verificando atualizações…"
+    },
+    "extension_update_current_version": {
+        "message": "Versão {{version}}"
+    },
+    "extension_update_downloading": {
+        "message": "Baixando atualização…"
+    },
+    "extension_update_downloading_version": {
+        "message": "Obtendo a versão {{version}}"
+    },
+    "extension_update_failed": {
+        "message": "Não foi possível verificar atualizações. Tente novamente mais tarde."
+    },
+    "extension_update_ready": {
+        "message": "A versão {{version}} está pronta"
+    },
+    "extension_update_restart": {
+        "message": "Reiniciar para atualizar"
+    },
+    "extension_update_restart_blocked": {
+        "message": "Aguarde a resposta terminar e depois envie ou apague seu rascunho."
+    },
+    "extension_update_throttled": {
+        "message": "Verificações demais. Tente novamente mais tarde."
+    },
+    "extension_update_up_to_date": {
+        "message": "Atualizado, versão {{version}}"
+    },
+    "features_chat_with_tabs": {
+        "message": "Conversar com abas"
+    },
+    "features_loading_context": {
+        "message": "Carregando o contexto..."
+    },
+    "features_web_search": {
+        "message": "Pesquisa na web"
+    },
+    "file_upload_failed": {
+        "message": "Falha no envio do arquivo"
+    },
+    "live_chat_badge": {
+        "message": "Ao vivo"
+    },
+    "live_chat_move_turn_button": {
+        "message": "Mover para uma nova conversa"
+    },
+    "live_chat_move_turn_error": {
+        "message": "Não foi possível mover isto para uma nova conversa. Tente novamente."
+    },
+    "live_chat_move_turn_moved": {
+        "message": "Movido para uma nova conversa"
+    },
+    "live_chat_move_turn_open": {
+        "message": "Abrir"
+    },
+    "live_chat_open_error": {
+        "message": "Não foi possível abrir o modo ao vivo. Tente novamente."
+    },
+    "live_chat_task_result_caption": {
+        "message": "Do seu pedido permanente “{{condition}}”"
+    },
+    "live_chat_task_result_open": {
+        "message": "Abrir conversa"
+    },
+    "live_chat_title": {
+        "message": "Ao vivo"
+    },
+    "live_chat_wake_reading": {
+        "message": "Estou lendo as mudanças…"
+    },
+    "live_chat_wake_recalling": {
+        "message": "Estou lendo minha memória…"
+    },
+    "live_chat_wake_recalling_for": {
+        "message": "Estou procurando “{{subject}}” na minha memória"
+    },
+    "live_chat_wake_recording": {
+        "message": "Estou avaliando o que você está fazendo…"
+    },
+    "live_chat_wake_writing": {
+        "message": "Estou escrevendo a nota…"
+    },
+    "message_activity_fallback_default1": {
+        "message": "Pensando no assunto..."
+    },
+    "message_activity_fallback_default2": {
+        "message": "Trabalhando nisso..."
+    },
+    "message_activity_fallback_default3": {
+        "message": "Me situando..."
+    },
+    "message_activity_fallback_default4": {
+        "message": "Olhando mais de perto..."
+    },
+    "message_activity_fallback_default5": {
+        "message": "Descobrindo como fazer..."
+    },
+    "message_activity_fallback_interjection1": {
+        "message": "Ajustando o rumo..."
+    },
+    "message_activity_fallback_interjection2": {
+        "message": "Refazendo isto..."
+    },
+    "message_activity_fallback_interjection3": {
+        "message": "Levando isso em conta..."
+    },
+    "message_activity_fallback_interjection4": {
+        "message": "Atualizando o plano..."
+    },
+    "message_activity_fallback_interjection5": {
+        "message": "Incorporando isso..."
+    },
+    "message_collapse_raw_reasoning": {
+        "message": "Recolher raciocínio bruto"
+    },
+    "message_copy_formula": {
+        "message": "Copiar fórmula"
+    },
+    "message_error_occurred": {
+        "message": "Ocorreu um erro"
+    },
+    "message_expand_raw_reasoning": {
+        "message": "Expandir raciocínio bruto"
+    },
+    "message_feedback_details_label": {
+        "message": "Dê mais detalhes: (opcional)"
+    },
+    "message_feedback_negative_action": {
+        "message": "Dar feedback negativo"
+    },
+    "message_feedback_negative_placeholder": {
+        "message": "O que não foi satisfatório nesta resposta?"
+    },
+    "message_feedback_negative_reason_label": {
+        "message": "Que tipo de problema você quer relatar? (opcional)"
+    },
+    "message_feedback_negative_title": {
+        "message": "Dar feedback negativo"
+    },
+    "message_feedback_positive_action": {
+        "message": "Dar feedback positivo"
+    },
+    "message_feedback_positive_placeholder": {
+        "message": "O que foi satisfatório nesta resposta?"
+    },
+    "message_feedback_positive_reason_label": {
+        "message": "Do que você gostou? (opcional)"
+    },
+    "message_feedback_positive_title": {
+        "message": "Dar feedback positivo"
+    },
+    "message_feedback_privacy_notice": {
+        "message": "Seu feedback, com detalhes técnicos de como esta resposta foi gerada (nunca o conteúdo dela), será usado para melhorar o Phi"
+    },
+    "message_feedback_reasons_negative_incorrect": {
+        "message": "Incorreta ou enganosa"
+    },
+    "message_feedback_reasons_negative_not_followed": {
+        "message": "Não seguiu as instruções"
+    },
+    "message_feedback_reasons_negative_other": {
+        "message": "Outros"
+    },
+    "message_feedback_reasons_negative_unhelpful": {
+        "message": "Não ajudou"
+    },
+    "message_feedback_reasons_negative_unsafe": {
+        "message": "Insegura ou inadequada"
+    },
+    "message_feedback_reasons_positive_accurate": {
+        "message": "Precisa e confiável"
+    },
+    "message_feedback_reasons_positive_fast_response": {
+        "message": "Resposta rápida"
+    },
+    "message_feedback_reasons_positive_good_sources": {
+        "message": "Bem fundamentada em fontes"
+    },
+    "message_feedback_reasons_positive_helpful": {
+        "message": "Resposta útil"
+    },
+    "message_feedback_reasons_positive_memory_recall": {
+        "message": "Lembrou do meu contexto"
+    },
+    "message_feedback_reasons_positive_other": {
+        "message": "Outros"
+    },
+    "message_feedback_reasons_positive_page_context": {
+        "message": "Entendeu minhas páginas e abas"
+    },
+    "message_feedback_reasons_positive_personality": {
+        "message": "Ótima personalidade"
+    },
+    "message_feedback_reasons_positive_task_execution": {
+        "message": "Executou bem a tarefa"
+    },
+    "message_file_audio": {
+        "message": "Áudio"
+    },
+    "message_file_document": {
+        "message": "Documento"
+    },
+    "message_file_video": {
+        "message": "Vídeo"
+    },
+    "message_im_messages_not_editable": {
+        "message": "Mensagens de canais conectados não podem ser editadas."
+    },
+    "message_invalid_source_reference": {
+        "message": "Uma referência de fonte é inválida. Mantenha um marcador existente ou use uma barra invertida para usá-lo como texto literal."
+    },
+    "message_loading_phrases_p01": {
+        "message": "Pescando respostas"
+    },
+    "message_loading_phrases_p02": {
+        "message": "Mergulhando fundo"
+    },
+    "message_loading_phrases_p03": {
+        "message": "Nadando entre os dados"
+    },
+    "message_loading_phrases_p04": {
+        "message": "Surfando nas ondas do conhecimento"
+    },
+    "message_loading_phrases_p05": {
+        "message": "Preparando algo bom"
+    },
+    "message_loading_phrases_p06": {
+        "message": "Invocando o peixe pensador"
+    },
+    "message_loading_phrases_p07": {
+        "message": "Ligando os pontos"
+    },
+    "message_loading_phrases_p08": {
+        "message": "Lançando a rede bem longe"
+    },
+    "message_loading_phrases_p09": {
+        "message": "Puxando os resultados"
+    },
+    "message_loading_phrases_p10": {
+        "message": "Explorando águas profundas"
+    },
+    "message_loading_phrases_p11": {
+        "message": "Mapeando as águas"
+    },
+    "message_loading_phrases_p12": {
+        "message": "Surfando a corrente"
+    },
+    "message_loading_phrases_p13": {
+        "message": "Fisgando um peixe grande"
+    },
+    "message_loading_phrases_p14": {
+        "message": "Navegando pela corrente"
+    },
+    "message_loading_phrases_p15": {
+        "message": "Fisgando alguns insights"
+    },
+    "message_loading_phrases_p16": {
+        "message": "Explorando o recife"
+    },
+    "message_loading_phrases_p17": {
+        "message": "Atravessando as informações"
+    },
+    "message_loading_phrases_p18": {
+        "message": "Garimpando tesouros"
+    },
+    "message_loading_phrases_p19": {
+        "message": "Jogando a isca no lago de dados"
+    },
+    "message_loading_phrases_p20": {
+        "message": "Chapinhando entre ideias"
+    },
+    "message_loading_phrases_p21": {
+        "message": "Boiando novas ideias"
+    },
+    "message_loading_phrases_p22": {
+        "message": "Deixando a maré levar às respostas"
+    },
+    "message_loading_phrases_p23": {
+        "message": "Seguindo o cardume de ideias"
+    },
+    "message_loading_phrases_p24": {
+        "message": "Arrastando a rede pelos arquivos"
+    },
+    "message_loading_phrases_p25": {
+        "message": "Testando as águas"
+    },
+    "message_loading_phrases_p26": {
+        "message": "Fazendo barulho na água"
+    },
+    "message_loading_phrases_p27": {
+        "message": "Indo com a correnteza"
+    },
+    "message_loading_phrases_p28": {
+        "message": "Borbulhando resultados"
+    },
+    "message_loading_phrases_p29": {
+        "message": "Desembaraçando a rede"
+    },
+    "message_loading_phrases_p30": {
+        "message": "Velejando pelas fontes"
+    },
+    "message_loading_phrases_p31": {
+        "message": "Deslizando pela superfície"
+    },
+    "message_loading_phrases_p32": {
+        "message": "Mergulhando nas profundezas"
+    },
+    "message_loading_phrases_p33": {
+        "message": "Navegando pelo fluxo de dados"
+    },
+    "message_loading_phrases_p34": {
+        "message": "Fisgado por uma pista"
+    },
+    "message_loading_phrases_p35": {
+        "message": "Peneirando a correnteza"
+    },
+    "message_loading_phrases_p36": {
+        "message": "Mapeando o fundo do oceano"
+    },
+    "message_loading_phrases_p37": {
+        "message": "Ajustando o sonar"
+    },
+    "message_loading_phrases_p38": {
+        "message": "Seguindo as ondulações"
+    },
+    "message_loading_phrases_p39": {
+        "message": "Observando o horizonte"
+    },
+    "message_loading_phrases_p40": {
+        "message": "Lançando o submarino"
+    },
+    "message_loading_phrases_p41": {
+        "message": "Decifrando o sinal"
+    },
+    "message_loading_phrases_p42": {
+        "message": "Chocando um plano"
+    },
+    "message_loading_phrases_p43": {
+        "message": "Aquecendo os motores"
+    },
+    "message_loading_phrases_p44": {
+        "message": "Girando a bússola"
+    },
+    "message_loading_phrases_p45": {
+        "message": "Polindo a luneta"
+    },
+    "message_loading_phrases_p46": {
+        "message": "Sacudindo o aquário mágico"
+    },
+    "message_loading_phrases_p47": {
+        "message": "Consultando o oráculo do mar"
+    },
+    "message_loading_phrases_p48": {
+        "message": "Lendo as marés"
+    },
+    "message_loading_phrases_p49": {
+        "message": "Reunindo a tripulação"
+    },
+    "message_loading_phrases_p50": {
+        "message": "Traçando a rota"
+    },
+    "message_loading_phrases_p51": {
+        "message": "Pescando em águas mais fundas"
+    },
+    "message_loading_phrases_p52": {
+        "message": "Perseguindo um peixe dourado"
+    },
+    "message_loading_phrases_p53": {
+        "message": "Nadando contra a corrente"
+    },
+    "message_loading_phrases_p54": {
+        "message": "Agitando o redemoinho"
+    },
+    "message_loading_phrases_p55": {
+        "message": "Ancorando as descobertas"
+    },
+    "message_loading_phrases_p56": {
+        "message": "Pegando a onda"
+    },
+    "message_loading_phrases_p57": {
+        "message": "Deixando a isca afundar"
+    },
+    "message_memory_agent_more_steps": {
+        "message": "+{{count}} a mais"
+    },
+    "message_memory_agent_status_done": {
+        "message": "Concluído"
+    },
+    "message_memory_agent_status_failed": {
+        "message": "Não funcionou"
+    },
+    "message_memory_agent_status_running": {
+        "message": "Em andamento"
+    },
+    "message_memory_agent_step_check": {
+        "message": "Conferir a atualização"
+    },
+    "message_memory_agent_step_describe": {
+        "message": "Ver o que a memória contém"
+    },
+    "message_memory_agent_step_edit_portrait": {
+        "message": "Editar seu retrato"
+    },
+    "message_memory_agent_step_fallback": {
+        "message": "Consultar a memória"
+    },
+    "message_memory_agent_step_list_activity": {
+        "message": "Revisar a atividade de navegação"
+    },
+    "message_memory_agent_step_list_entities": {
+        "message": "Revisar pessoas e tópicos"
+    },
+    "message_memory_agent_step_list_facts": {
+        "message": "Revisar fatos salvos"
+    },
+    "message_memory_agent_step_list_own_work": {
+        "message": "Revisar tarefas anteriores"
+    },
+    "message_memory_agent_step_list_preferences": {
+        "message": "Conferir suas preferências"
+    },
+    "message_memory_agent_step_list_sites": {
+        "message": "Revisar sites frequentes"
+    },
+    "message_memory_agent_step_prepare": {
+        "message": "Preparar uma atualização"
+    },
+    "message_memory_agent_step_read_memory": {
+        "message": "Ler uma memória"
+    },
+    "message_memory_agent_step_read_portrait": {
+        "message": "Ler seu retrato"
+    },
+    "message_memory_agent_step_recall": {
+        "message": "Pesquisar na memória"
+    },
+    "message_memory_agent_step_recall_for": {
+        "message": "Pesquisar “{{query}}” na memória"
+    },
+    "message_memory_agent_step_remove_fact": {
+        "message": "Remover um fato"
+    },
+    "message_memory_agent_step_save": {
+        "message": "Salvar a atualização"
+    },
+    "message_memory_agent_step_save_fact": {
+        "message": "Salvar um fato"
+    },
+    "message_memory_agent_step_save_preference": {
+        "message": "Salvar sua preferência"
+    },
+    "message_memory_agent_step_update_instructions": {
+        "message": "Atualizar instruções permanentes"
+    },
+    "message_memory_agent_title": {
+        "message": "Etapas da memória"
+    },
+    "message_metrics_chars": {
+        "message": "{{value}} caracteres"
+    },
+    "message_metrics_elapsed": {
+        "message": "{{value}} decorridos"
+    },
+    "message_metrics_label": {
+        "message": "Velocidade da resposta"
+    },
+    "message_metrics_speed": {
+        "message": "{{value}} caracteres/s"
+    },
+    "message_metrics_ttft": {
+        "message": "primeiro texto {{value}}"
+    },
+    "message_metrics_ttft_pending": {
+        "message": "aguardando o primeiro texto…"
+    },
+    "message_open_in_new_tab": {
+        "message": "Abrir em nova aba"
+    },
+    "message_raw_reasoning_empty": {
+        "message": "Ainda não há raciocínio bruto disponível."
+    },
+    "message_raw_reasoning_unavailable": {
+        "message": "O provedor do modelo atual não expõe o raciocínio bruto (CoT)."
+    },
+    "message_reasoning_summary": {
+        "message": "Resumo do raciocínio"
+    },
+    "message_role_card_directives": {
+        "message": "Como me pediram para ser"
+    },
+    "message_role_card_loading": {
+        "message": "Carregando…"
+    },
+    "message_role_card_open": {
+        "message": "Ver o cartão de papel de {{name}}"
+    },
+    "message_role_card_remove_directive": {
+        "message": "Remover esta diretriz"
+    },
+    "message_role_card_soul_empty": {
+        "message": "Ainda tomando forma. Nenhum autorretrato escrito ainda."
+    },
+    "message_role_card_subtitle": {
+        "message": "Agente"
+    },
+    "message_role_card_title": {
+        "message": "Cartão de papel de {{name}}"
+    },
+    "message_run_phase_executing": {
+        "message": "Trabalhando..."
+    },
+    "message_run_phase_routing": {
+        "message": "Pensando..."
+    },
+    "message_save": {
+        "message": "Salvar"
+    },
+    "message_skills_label": {
+        "message": "Skills"
+    },
+    "message_skills_sources_built_in": {
+        "message": "Integrada"
+    },
+    "message_skills_sources_user": {
+        "message": "Minha skill"
+    },
+    "message_source": {
+        "message": "Fonte"
+    },
+    "message_sources_web_search": {
+        "message": "Fontes"
+    },
+    "message_stream_interrupted": {
+        "message": "Resposta interrompida"
+    },
+    "message_thought": {
+        "message": "Processo de raciocínio"
+    },
+    "message_tool_aborted": {
+        "message": "Interrompida"
+    },
+    "message_tool_calls": {
+        "message": "Chamadas de ferramentas"
+    },
+    "message_tool_error_fallback": {
+        "message": "Erro da ferramenta"
+    },
+    "message_tool_interrupted_by_user": {
+        "message": "Interrompido pelo usuário"
+    },
+    "message_tool_web_search": {
+        "message": "Ferramenta de pesquisa na web"
+    },
+    "message_worker_progress_browser": {
+        "message": "Operando o navegador…"
+    },
+    "message_worker_progress_browser_task": {
+        "message": "Executando uma tarefa no navegador…"
+    },
+    "message_worker_progress_fallback": {
+        "message": "Trabalhando nisso…"
+    },
+    "message_worker_progress_run_script": {
+        "message": "Executando uma skill…"
+    },
+    "message_worker_progress_search": {
+        "message": "Pesquisando…"
+    },
+    "nebula_story_discard_draft_confirm": {
+        "message": "Descartar e começar"
+    },
+    "nebula_story_discard_draft_description": {
+        "message": "O texto e os anexos não enviados serão apagados."
+    },
+    "nebula_story_discard_draft_title": {
+        "message": "Começar uma conversa sobre esta carta?"
+    },
+    "newtab_chat": {
+        "message": "Chat"
+    },
+    "newtab_chat_with_ai": {
+        "message": "Conversar com {{name}}"
+    },
+    "newtab_delete_suggestion": {
+        "message": "Excluir sugestão"
+    },
+    "newtab_greeting_afternoon": {
+        "message": "Boa tarde"
+    },
+    "newtab_greeting_evening": {
+        "message": "Boa noite"
+    },
+    "newtab_greeting_explain_message": {
+        "message": "Acabei de ver esta saudação na minha nova aba: \"{{greeting}}\"\n\nPor que você escolheu esta para mim?"
+    },
+    "newtab_greeting_morning": {
+        "message": "Bom dia"
+    },
+    "newtab_greeting_prompt_byte_count": {
+        "message": "{{count}} / {{max}} bytes"
+    },
+    "newtab_greeting_prompt_cancel": {
+        "message": "Cancelar"
+    },
+    "newtab_greeting_prompt_customized": {
+        "message": "Personalizado"
+    },
+    "newtab_greeting_prompt_default": {
+        "message": "Padrão"
+    },
+    "newtab_greeting_prompt_description": {
+        "message": "Ajuste o prompt integrado usado para gerar saudações personalizadas na nova aba. Use o placeholder da alma onde a alma atual do agente deve ser inserida."
+    },
+    "newtab_greeting_prompt_edit": {
+        "message": "Editar prompt de saudação"
+    },
+    "newtab_greeting_prompt_empty_error": {
+        "message": "As instruções de saudação não podem ficar vazias."
+    },
+    "newtab_greeting_prompt_hint": {
+        "message": "As alterações salvas valem para os próximos lotes de saudações."
+    },
+    "newtab_greeting_prompt_label": {
+        "message": "Instruções"
+    },
+    "newtab_greeting_prompt_load_error": {
+        "message": "Não foi possível carregar o prompt de saudação."
+    },
+    "newtab_greeting_prompt_loading": {
+        "message": "Carregando o prompt de saudação..."
+    },
+    "newtab_greeting_prompt_placeholder": {
+        "message": "Escreva as instruções usadas para gerar as opções de saudação."
+    },
+    "newtab_greeting_prompt_reset": {
+        "message": "Restaurar o padrão"
+    },
+    "newtab_greeting_prompt_reset_error": {
+        "message": "Não foi possível restaurar o prompt de saudação."
+    },
+    "newtab_greeting_prompt_reset_saved": {
+        "message": "Prompt de saudação restaurado"
+    },
+    "newtab_greeting_prompt_save": {
+        "message": "Salvar"
+    },
+    "newtab_greeting_prompt_save_error": {
+        "message": "Não foi possível salvar o prompt de saudação."
+    },
+    "newtab_greeting_prompt_saved": {
+        "message": "Prompt de saudação salvo"
+    },
+    "newtab_greeting_prompt_title": {
+        "message": "Prompt de saudação"
+    },
+    "newtab_greeting_prompt_too_large_error": {
+        "message": "As instruções de saudação devem ter no máximo {{count}} bytes UTF-8."
+    },
+    "newtab_greeting_style_interest": {
+        "message": "Menos pessoal"
+    },
+    "newtab_greeting_style_label": {
+        "message": "Estilo da saudação"
+    },
+    "newtab_greeting_style_none": {
+        "message": "Desativado"
+    },
+    "newtab_greeting_style_personal": {
+        "message": "Pessoal"
+    },
+    "newtab_hold_cmd_to_switch_tab": {
+        "message": "Mantenha <key/> pressionada para ir para esta aba"
+    },
+    "newtab_like_greeting": {
+        "message": "Curtir esta saudação"
+    },
+    "newtab_open": {
+        "message": "Abrir"
+    },
+    "newtab_open_in_new_tab": {
+        "message": "Abrir em nova aba"
+    },
+    "newtab_search_placeholder_ask_agent": {
+        "message": "Pesquise, pergunte a {{name}} ou digite um URL"
+    },
+    "notification_card_view_details": {
+        "message": "Ver detalhes"
+    },
+    "onboard_debug_avatar_alt": {
+        "message": "Avatar do assistente"
+    },
+    "onboard_debug_avatar_label": {
+        "message": "avatar: {{value}}"
+    },
+    "onboard_debug_complete_failed": {
+        "message": "Falha ao concluir: {{error}}"
+    },
+    "onboard_debug_complete_success": {
+        "message": "Introdução concluída (padrões de pular aplicados)"
+    },
+    "onboard_debug_completed_label": {
+        "message": "concluído: {{value}}"
+    },
+    "onboard_debug_load_failed": {
+        "message": "Falha ao carregar: {{error}}"
+    },
+    "onboard_debug_refresh": {
+        "message": "Atualizar"
+    },
+    "onboard_debug_reset_failed": {
+        "message": "Falha ao redefinir: {{error}}"
+    },
+    "onboard_debug_reset_state": {
+        "message": "Redefinir estado"
+    },
+    "onboard_debug_reset_success": {
+        "message": "Estado da introdução redefinido"
+    },
+    "onboard_debug_skip_complete": {
+        "message": "Pular e concluir"
+    },
+    "onboard_debug_title": {
+        "message": "Depuração da introdução"
+    },
+    "onboarding_alert": {
+        "message": "Vamos nos conhecer"
+    },
+    "onboarding_alert_description": {
+        "message": "Converse um pouco para escolher minha personalidade e meu nome. Basta tocar, sem precisar digitar."
+    },
+    "onboarding_avatar_card_alt": {
+        "message": "O rosto que o assistente desenhou para si"
+    },
+    "onboarding_avatar_card_cancelled": {
+        "message": "Desenho cancelado."
+    },
+    "onboarding_avatar_card_drawing": {
+        "message": "Desenhando meu rosto…"
+    },
+    "onboarding_avatar_card_failed": {
+        "message": "O desenho não saiu."
+    },
+    "onboarding_avatar_card_title": {
+        "message": "Meu rosto"
+    },
+    "onboarding_completion_alert": {
+        "message": "Tudo pronto!"
+    },
+    "onboarding_completion_alert_description": {
+        "message": "Seu assistente está pronto. Esta conversa fica aqui como registro da sua introdução."
+    },
+    "onboarding_invitation": {
+        "message": "Conheça seu assistente"
+    },
+    "onboarding_invitation_description": {
+        "message": "Escolha uma personalidade e um nome em um papo rápido, ou pule para começar agora."
+    },
+    "onboarding_skip_button": {
+        "message": "Pular introdução"
+    },
+    "onboarding_start_button": {
+        "message": "Começar"
+    },
+    "onboarding_start_chat_button": {
+        "message": "Começar um novo chat"
+    },
+    "private_ai_banner_description": {
+        "message": "As respostas da Private AI podem ter qualidade diferente das dos modelos on-line."
+    },
+    "private_ai_banner_dont_show_again": {
+        "message": "Não mostrar novamente"
+    },
+    "private_ai_banner_title": {
+        "message": "Você está usando a Private AI"
+    },
+    "prompt_preferences_restore": {
+        "message": "Restaurar sugestões ocultas"
+    },
+    "prompt_preferences_restore_error": {
+        "message": "Não foi possível restaurar algumas sugestões. Tente novamente."
+    },
+    "prompt_preferences_restore_success": {
+        "message": "Sugestões restauradas. Elas vão aparecer de novo quando forem relevantes."
+    },
+    "settings_advanced_backup_description": {
+        "message": "Volte a um snapshot local dos dados dos serviços em segundo plano."
+    },
+    "settings_advanced_backup_snapshots_confirm_description": {
+        "message": "Os serviços em segundo plano param, os dados deles voltam a como estavam em {{date}} e eles iniciam de novo. As alterações feitas desde então são substituídas. Isso não pode ser desfeito."
+    },
+    "settings_advanced_backup_snapshots_confirm_title": {
+        "message": "Restaurar este snapshot?"
+    },
+    "settings_advanced_backup_snapshots_empty": {
+        "message": "Ainda não há snapshots."
+    },
+    "settings_advanced_backup_snapshots_load_failed": {
+        "message": "Não foi possível ler os snapshots."
+    },
+    "settings_advanced_backup_snapshots_loading": {
+        "message": "Carregando snapshots..."
+    },
+    "settings_advanced_backup_snapshots_progress_description": {
+        "message": "Os serviços em segundo plano param enquanto os dados deles são substituídos. Isso pode levar um minuto. Mantenha esta janela aberta até terminar."
+    },
+    "settings_advanced_backup_snapshots_progress_title": {
+        "message": "Restaurando o snapshot"
+    },
+    "settings_advanced_backup_snapshots_restore": {
+        "message": "Restaurar"
+    },
+    "settings_advanced_backup_snapshots_restore_label": {
+        "message": "Restaurar o snapshot de {{date}}"
+    },
+    "settings_advanced_backup_snapshots_title": {
+        "message": "Snapshots locais"
+    },
+    "settings_advanced_backup_snapshots_toast_failed": {
+        "message": "Não foi possível restaurar o snapshot, e os dados podem precisar de recuperação manual. Fale com o suporte do Phi."
+    },
+    "settings_advanced_backup_snapshots_toast_refused": {
+        "message": "Não foi possível restaurar o snapshot"
+    },
+    "settings_advanced_backup_snapshots_toast_restored": {
+        "message": "Snapshot restaurado"
+    },
+    "settings_advanced_backup_snapshots_toast_reverted": {
+        "message": "Não foi possível restaurar o snapshot. Seus dados ficaram como estavam."
+    },
+    "settings_advanced_backup_snapshots_trigger_manual": {
+        "message": "Criado por você"
+    },
+    "settings_advanced_backup_snapshots_trigger_policy_version": {
+        "message": "Antes de uma atualização arriscada"
+    },
+    "settings_advanced_backup_snapshots_trigger_pre_import": {
+        "message": "Antes de uma importação"
+    },
+    "settings_advanced_backup_snapshots_versions": {
+        "message": "Serviços em segundo plano {{services}}"
+    },
+    "settings_advanced_backup_snapshots_versions_with_browser": {
+        "message": "Serviços em segundo plano {{services}}, Phi {{browser}}"
+    },
+    "settings_advanced_backup_title": {
+        "message": "Snapshots e atualizações"
+    },
+    "settings_advanced_backup_track_confirm_action": {
+        "message": "Mudar e atualizar"
+    },
+    "settings_advanced_backup_track_confirm_stable": {
+        "message": "Os componentes voltam às versões testadas com esta versão do Phi, que podem ser mais antigas. Os serviços afetados reiniciam."
+    },
+    "settings_advanced_backup_track_confirm_stable_latest": {
+        "message": "Os componentes são atualizados na hora para as versões estáveis mais recentes. Os serviços afetados reiniciam."
+    },
+    "settings_advanced_backup_track_confirm_title": {
+        "message": "Mudar para {{track}}?"
+    },
+    "settings_advanced_backup_track_description_stable": {
+        "message": "Instala as versões dos componentes testadas com esta versão do Phi."
+    },
+    "settings_advanced_backup_track_description_stable_latest": {
+        "message": "Instala cada nova versão estável dos componentes assim que ela sai."
+    },
+    "settings_advanced_backup_track_label": {
+        "message": "Canal de atualização"
+    },
+    "settings_advanced_backup_track_stable": {
+        "message": "Estável"
+    },
+    "settings_advanced_backup_track_stable_latest": {
+        "message": "Estável mais recente"
+    },
+    "settings_advanced_backup_track_title": {
+        "message": "Atualizações de componentes"
+    },
+    "settings_advanced_backup_track_toast_deferred": {
+        "message": "Mudou para {{track}}. Os componentes serão atualizados na próxima vez que os serviços iniciarem."
+    },
+    "settings_advanced_backup_track_toast_failed": {
+        "message": "Não foi possível mudar o canal de atualização"
+    },
+    "settings_advanced_backup_track_toast_partial": {
+        "message": "Mudou para {{track}}, mas {{count}} componente(s) não puderam ser atualizados"
+    },
+    "settings_advanced_backup_track_toast_reconcile_failed": {
+        "message": "Mudou para {{track}}, mas os componentes ainda não puderam ser atualizados"
+    },
+    "settings_advanced_backup_track_toast_switched": {
+        "message": "Mudou para {{track}}"
+    },
+    "settings_advanced_gateway_about": {
+        "message": "O serviço local por onde passa toda solicitação de IA."
+    },
+    "settings_advanced_gateway_address": {
+        "message": "Endereço"
+    },
+    "settings_advanced_gateway_address_copied": {
+        "message": "Endereço copiado"
+    },
+    "settings_advanced_gateway_address_none": {
+        "message": "Disponível enquanto está em execução."
+    },
+    "settings_advanced_gateway_copy": {
+        "message": "Copiar"
+    },
+    "settings_advanced_gateway_copy_failed": {
+        "message": "Não foi possível copiar"
+    },
+    "settings_advanced_gateway_export": {
+        "message": "Exportação da conexão"
+    },
+    "settings_advanced_gateway_export_copied": {
+        "message": "Detalhes da conexão copiados"
+    },
+    "settings_advanced_gateway_export_description": {
+        "message": "O que os apps deste Mac leem para se conectar ao gateway."
+    },
+    "settings_advanced_gateway_export_empty": {
+        "message": "O gateway ainda não publicou os detalhes da conexão."
+    },
+    "settings_advanced_gateway_export_failed": {
+        "message": "Não foi possível ler os detalhes da conexão."
+    },
+    "settings_advanced_gateway_export_label": {
+        "message": "Detalhes da conexão"
+    },
+    "settings_advanced_gateway_export_loading": {
+        "message": "Carregando..."
+    },
+    "settings_advanced_gateway_failed": {
+        "message": "Falhou"
+    },
+    "settings_advanced_gateway_logs": {
+        "message": "Logs"
+    },
+    "settings_advanced_gateway_logs_description": {
+        "message": "Solicitações e erros, sem o conteúdo do que foi pedido."
+    },
+    "settings_advanced_gateway_status": {
+        "message": "Status"
+    },
+    "settings_advanced_gateway_title": {
+        "message": "AI Gateway"
+    },
+    "settings_advanced_logs_copied": {
+        "message": "Log copiado"
+    },
+    "settings_advanced_logs_copy": {
+        "message": "Copiar"
+    },
+    "settings_advanced_logs_copy_failed": {
+        "message": "Não foi possível copiar o log"
+    },
+    "settings_advanced_logs_description": {
+        "message": "Os logs dos serviços em segundo plano, atualizados conforme são escritos."
+    },
+    "settings_advanced_logs_empty": {
+        "message": "Este log está vazio."
+    },
+    "settings_advanced_logs_jump_to_end": {
+        "message": "Ir para as linhas mais recentes"
+    },
+    "settings_advanced_logs_line_count": {
+        "message": "Últimas {{shown}} de {{total}} linhas"
+    },
+    "settings_advanced_logs_load_failed": {
+        "message": "Não foi possível ler este log. Tente Atualizar."
+    },
+    "settings_advanced_logs_loading": {
+        "message": "Carregando logs..."
+    },
+    "settings_advanced_logs_refresh": {
+        "message": "Atualizar"
+    },
+    "settings_advanced_logs_services_group": {
+        "message": "Serviços individuais"
+    },
+    "settings_advanced_logs_source_label": {
+        "message": "Log"
+    },
+    "settings_advanced_logs_source_runner": {
+        "message": "Gerenciador de serviços"
+    },
+    "settings_advanced_logs_source_sentinel": {
+        "message": "App de serviços em segundo plano"
+    },
+    "settings_advanced_logs_stream_label": {
+        "message": "Fluxo de saída"
+    },
+    "settings_advanced_logs_title": {
+        "message": "Logs completos"
+    },
+    "settings_advanced_notice_body": {
+        "message": "Você não precisa destas configurações no dia a dia, e uma mudança errada pode deixar os recursos de IA temporariamente indisponíveis. Para conferir se tudo funciona, a seção Serviços basta."
+    },
+    "settings_advanced_notice_title": {
+        "message": "Para solução de problemas e usuários experientes."
+    },
+    "settings_advanced_reset_action": {
+        "message": "Redefinir todos os dados"
+    },
+    "settings_advanced_reset_ai_action": {
+        "message": "Redefinir as configurações de IA"
+    },
+    "settings_advanced_reset_ai_clears": {
+        "message": "Isso vai:"
+    },
+    "settings_advanced_reset_ai_confirm_description": {
+        "message": "Seus próprios provedores e as chaves deles são removidos, e os modelos locais precisam ser baixados de novo para serem usados."
+    },
+    "settings_advanced_reset_ai_confirm_title": {
+        "message": "Redefinir as configurações de IA?"
+    },
+    "settings_advanced_reset_ai_done": {
+        "message": "As configurações de IA foram redefinidas"
+    },
+    "settings_advanced_reset_ai_failed": {
+        "message": "Não foi possível redefinir as configurações de IA"
+    },
+    "settings_advanced_reset_ai_items_cloud": {
+        "message": "Voltar as origens de IA para o Phi Cloud"
+    },
+    "settings_advanced_reset_ai_items_local": {
+        "message": "Excluir o runtime local, seus modelos, logs e downloads"
+    },
+    "settings_advanced_reset_ai_items_providers": {
+        "message": "Limpar a configuração dos provedores de IA"
+    },
+    "settings_advanced_reset_ai_label": {
+        "message": "Redefinir as configurações de IA"
+    },
+    "settings_advanced_reset_confirm_description": {
+        "message": "Tudo o que está listado é excluído de vez e os serviços em segundo plano iniciam vazios. Considere exportar seus dados antes."
+    },
+    "settings_advanced_reset_confirm_prompt": {
+        "message": "Digite {{phrase}} para confirmar."
+    },
+    "settings_advanced_reset_confirm_title": {
+        "message": "Redefinir todos os dados?"
+    },
+    "settings_advanced_reset_description": {
+        "message": "Apaga todos os dados dos serviços em segundo plano do Phi e os inicia do zero."
+    },
+    "settings_advanced_reset_done": {
+        "message": "Todos os dados foram redefinidos"
+    },
+    "settings_advanced_reset_erases": {
+        "message": "Isso exclui:"
+    },
+    "settings_advanced_reset_failed": {
+        "message": "Não foi possível redefinir os dados"
+    },
+    "settings_advanced_reset_items_logs": {
+        "message": "Todos os logs e arquivos em cache"
+    },
+    "settings_advanced_reset_items_services": {
+        "message": "Os serviços instalados e os dados deles"
+    },
+    "settings_advanced_reset_items_settings": {
+        "message": "Todas as configurações dos serviços em segundo plano"
+    },
+    "settings_advanced_reset_items_tasks": {
+        "message": "As tarefas agendadas e o histórico delas"
+    },
+    "settings_advanced_reset_label": {
+        "message": "Apagar tudo"
+    },
+    "settings_advanced_reset_permanent": {
+        "message": "Isso não pode ser desfeito."
+    },
+    "settings_advanced_reset_progress_description": {
+        "message": "Os serviços em segundo plano param, os dados deles são excluídos e eles iniciam de novo. Mantenha esta janela aberta até terminar."
+    },
+    "settings_advanced_reset_progress_title": {
+        "message": "Redefinindo todos os dados"
+    },
+    "settings_advanced_reset_title": {
+        "message": "Redefinir todos os dados"
+    },
+    "settings_advanced_services_action_accessible_label": {
+        "message": "{{action}} {{name}}"
+    },
+    "settings_advanced_services_action_restart": {
+        "message": "Reiniciar"
+    },
+    "settings_advanced_services_action_retry_setup": {
+        "message": "Repetir a configuração"
+    },
+    "settings_advanced_services_action_start": {
+        "message": "Iniciar"
+    },
+    "settings_advanced_services_action_stop": {
+        "message": "Parar"
+    },
+    "settings_advanced_services_built_in": {
+        "message": "Integrado"
+    },
+    "settings_advanced_services_column_actions": {
+        "message": "Ações"
+    },
+    "settings_advanced_services_column_pid": {
+        "message": "PID"
+    },
+    "settings_advanced_services_column_service": {
+        "message": "Serviço"
+    },
+    "settings_advanced_services_column_state": {
+        "message": "Estado"
+    },
+    "settings_advanced_services_column_uptime": {
+        "message": "Tempo ativo"
+    },
+    "settings_advanced_services_column_version": {
+        "message": "Versão"
+    },
+    "settings_advanced_services_confirm_cancel": {
+        "message": "Cancelar"
+    },
+    "settings_advanced_services_confirm_restart_description": {
+        "message": "Ele para por um instante e inicia de novo. O que estiver usando o serviço agora é interrompido."
+    },
+    "settings_advanced_services_confirm_restart_title": {
+        "message": "Reiniciar {{name}}?"
+    },
+    "settings_advanced_services_confirm_retry_setup_description": {
+        "message": "O Phi remove os arquivos locais baixados e o configura de novo. Isso pode levar alguns minutos, e ele fica indisponível nesse tempo."
+    },
+    "settings_advanced_services_confirm_retry_setup_title": {
+        "message": "Repetir a configuração de {{name}}?"
+    },
+    "settings_advanced_services_confirm_stop_description": {
+        "message": "Os serviços que dependem dele também param. Os recursos de IA que os usam ficam indisponíveis até você iniciá-lo de novo."
+    },
+    "settings_advanced_services_confirm_stop_title": {
+        "message": "Parar {{name}}?"
+    },
+    "settings_advanced_services_description": {
+        "message": "O processo, o tempo ativo e a versão de cada serviço em segundo plano."
+    },
+    "settings_advanced_services_title": {
+        "message": "Detalhes dos serviços"
+    },
+    "settings_advanced_services_toast_restart": {
+        "message": "{{name}} reiniciado"
+    },
+    "settings_advanced_services_toast_restart_failed": {
+        "message": "Não foi possível reiniciar {{name}}"
+    },
+    "settings_advanced_services_toast_retry_setup": {
+        "message": "Configuração reiniciada para {{name}}"
+    },
+    "settings_advanced_services_toast_retry_setup_failed": {
+        "message": "Não foi possível repetir a configuração de {{name}}"
+    },
+    "settings_advanced_services_toast_start": {
+        "message": "{{name}} iniciado"
+    },
+    "settings_advanced_services_toast_start_failed": {
+        "message": "Não foi possível iniciar {{name}}"
+    },
+    "settings_advanced_services_toast_stop": {
+        "message": "{{name}} parado"
+    },
+    "settings_advanced_services_toast_stop_failed": {
+        "message": "Não foi possível parar {{name}}"
+    },
+    "settings_backup_advanced_prompt": {
+        "message": "Quer restaurar um snapshot?"
+    },
+    "settings_backup_busy": {
+        "message": "Outra tarefa de backup está em andamento. Tente novamente quando ela terminar."
+    },
+    "settings_backup_cancel": {
+        "message": "Cancelar"
+    },
+    "settings_backup_data_title": {
+        "message": "Seus dados"
+    },
+    "settings_backup_description": {
+        "message": "Mantenha os serviços em segundo plano atualizados e guarde uma cópia dos seus dados."
+    },
+    "settings_backup_export_action": {
+        "message": "Exportar"
+    },
+    "settings_backup_export_description": {
+        "message": "Salva uma cópia das suas configurações e dados na pasta Downloads, para levar a outro Mac. As chaves de API dos provedores não são incluídas."
+    },
+    "settings_backup_export_description_to_file": {
+        "message": "Salva uma cópia das suas configurações e dados num arquivo que você escolhe, para levar a outro Mac. As chaves de API dos provedores não são incluídas."
+    },
+    "settings_backup_export_done": {
+        "message": "Dados exportados para a pasta Downloads"
+    },
+    "settings_backup_export_done_to_file": {
+        "message": "Dados exportados"
+    },
+    "settings_backup_export_done_with_warning": {
+        "message": "Dados exportados depois de uma interrupção. Confira o arquivo antes de depender dele."
+    },
+    "settings_backup_export_exporting": {
+        "message": "Exportando..."
+    },
+    "settings_backup_export_failed": {
+        "message": "Não foi possível exportar seus dados"
+    },
+    "settings_backup_export_label": {
+        "message": "Exportar dados"
+    },
+    "settings_backup_snapshot_action": {
+        "message": "Criar snapshot"
+    },
+    "settings_backup_snapshot_created": {
+        "message": "Snapshot criado"
+    },
+    "settings_backup_snapshot_description": {
+        "message": "Salva uma cópia dos dados deste Mac para a qual você pode voltar. Os snapshots nunca saem deste Mac."
+    },
+    "settings_backup_snapshot_failed": {
+        "message": "Não foi possível criar um snapshot"
+    },
+    "settings_backup_snapshot_label": {
+        "message": "Snapshot local"
+    },
+    "settings_backup_snapshot_progress_description": {
+        "message": "Os serviços em segundo plano param por alguns segundos enquanto o snapshot é feito. Mantenha esta janela aberta até terminar."
+    },
+    "settings_backup_snapshot_progress_title": {
+        "message": "Criando um snapshot"
+    },
+    "settings_backup_snapshot_skipped": {
+        "message": "Snapshots não estão disponíveis neste disco"
+    },
+    "settings_backup_updates_auto": {
+        "message": "As atualizações são instaladas automaticamente."
+    },
+    "settings_backup_updates_available": {
+        "message": "Atualizações disponíveis: {{count}}"
+    },
+    "settings_backup_updates_check": {
+        "message": "Procurar atualizações"
+    },
+    "settings_backup_updates_check_failed": {
+        "message": "Não foi possível procurar atualizações."
+    },
+    "settings_backup_updates_checking": {
+        "message": "Procurando atualizações..."
+    },
+    "settings_backup_updates_confirm_description": {
+        "message": "Cada serviço reinicia ao ser atualizado, então o Phi Chat e outros recursos de IA podem pausar por um instante."
+    },
+    "settings_backup_updates_confirm_title": {
+        "message": "Atualizar os serviços em segundo plano agora?"
+    },
+    "settings_backup_updates_label": {
+        "message": "Serviços em segundo plano"
+    },
+    "settings_backup_updates_progress_component": {
+        "message": "{{component}}: {{percent}}%"
+    },
+    "settings_backup_updates_progress_downloading": {
+        "message": "Baixando atualizações..."
+    },
+    "settings_backup_updates_progress_installing": {
+        "message": "Instalando atualizações..."
+    },
+    "settings_backup_updates_progress_preparing": {
+        "message": "Preparando atualizações..."
+    },
+    "settings_backup_updates_progress_restarting": {
+        "message": "Reiniciando os serviços..."
+    },
+    "settings_backup_updates_progress_rolling_back": {
+        "message": "Voltando para a versão anterior..."
+    },
+    "settings_backup_updates_title": {
+        "message": "Atualizações"
+    },
+    "settings_backup_updates_toast_failed": {
+        "message": "{{count}} componente(s) não puderam ser atualizados"
+    },
+    "settings_backup_updates_toast_none": {
+        "message": "Tudo já estava atualizado"
+    },
+    "settings_backup_updates_toast_update_failed": {
+        "message": "Não foi possível atualizar os serviços em segundo plano"
+    },
+    "settings_backup_updates_toast_updated": {
+        "message": "{{count}} componente(s) atualizado(s)"
+    },
+    "settings_backup_updates_up_to_date": {
+        "message": "Tudo está atualizado."
+    },
+    "settings_backup_updates_update": {
+        "message": "Atualizar agora"
+    },
+    "settings_backup_updates_updating": {
+        "message": "Atualizando..."
+    },
+    "settings_backup_updates_updating_description": {
+        "message": "Instalando atualizações. Os serviços reiniciam conforme são atualizados."
+    },
+    "settings_close": {
+        "message": "Fechar configurações"
+    },
+    "settings_general_appearance": {
+        "message": "Aparência"
+    },
+    "settings_general_appearance_value": {
+        "message": "Segue o tema da janela"
+    },
+    "settings_general_browser_ai": {
+        "message": "Configurações de IA do navegador"
+    },
+    "settings_general_browser_ai_description": {
+        "message": "Mais opções de IA nas configurações do próprio navegador."
+    },
+    "settings_general_description": {
+        "message": "Como estão os serviços em segundo plano do Phi e o que segue o seu navegador."
+    },
+    "settings_general_group_background": {
+        "message": "Serviços em segundo plano"
+    },
+    "settings_general_group_language": {
+        "message": "Idioma e aparência"
+    },
+    "settings_general_language": {
+        "message": "Idioma"
+    },
+    "settings_general_language_value": {
+        "message": "Segue o navegador ({{language}})"
+    },
+    "settings_general_open": {
+        "message": "Abrir"
+    },
+    "settings_general_restart_action": {
+        "message": "Reiniciar"
+    },
+    "settings_general_restart_confirm_description": {
+        "message": "Os recursos de IA do Phi param de funcionar até os serviços voltarem, normalmente em menos de um minuto."
+    },
+    "settings_general_restart_confirm_title": {
+        "message": "Reiniciar os serviços em segundo plano?"
+    },
+    "settings_general_restart_description": {
+        "message": "Para e inicia todos os serviços em segundo plano. Os recursos de IA pausam por um instante."
+    },
+    "settings_general_restart_done": {
+        "message": "Serviços em segundo plano reiniciados"
+    },
+    "settings_general_restart_failed": {
+        "message": "Não foi possível reiniciar os serviços em segundo plano"
+    },
+    "settings_general_restart_label": {
+        "message": "Reiniciar os serviços em segundo plano"
+    },
+    "settings_general_restart_progress_description": {
+        "message": "Isso costuma levar menos de um minuto. Mantenha esta janela aberta até terminar."
+    },
+    "settings_general_restart_progress_title": {
+        "message": "Reiniciando os serviços em segundo plano"
+    },
+    "settings_general_status": {
+        "message": "Status"
+    },
+    "settings_general_status_attention": {
+        "message": "Precisa de atenção"
+    },
+    "settings_general_status_checking": {
+        "message": "Verificando..."
+    },
+    "settings_general_status_offline": {
+        "message": "Parado"
+    },
+    "settings_general_status_running": {
+        "message": "Funcionando normalmente"
+    },
+    "settings_general_status_unavailable": {
+        "message": "Indisponível"
+    },
+    "settings_general_version": {
+        "message": "Versão"
+    },
+    "settings_general_version_pending": {
+        "message": "A versão {{version}} está instalada. Reinicie os serviços em segundo plano para usá-la."
+    },
+    "settings_logs_advanced_prompt": {
+        "message": "Quer ler os logs você mesmo?"
+    },
+    "settings_logs_description": {
+        "message": "Se algo não estiver funcionando, salve os logs e envie ao suporte do Phi."
+    },
+    "settings_logs_diagnostic": {
+        "message": "Logs de diagnóstico"
+    },
+    "settings_logs_diagnostic_description": {
+        "message": "Atividade recente dos serviços em segundo plano e de cada serviço, salva como arquivo ZIP nos seus downloads."
+    },
+    "settings_logs_save": {
+        "message": "Salvar"
+    },
+    "settings_logs_save_failed": {
+        "message": "Não foi possível salvar os logs de diagnóstico"
+    },
+    "settings_logs_saved": {
+        "message": "Logs de diagnóstico salvos nos seus downloads"
+    },
+    "settings_nav_advanced": {
+        "message": "Configurações avançadas"
+    },
+    "settings_nav_advanced_label": {
+        "message": "Seções das configurações avançadas"
+    },
+    "settings_nav_back_to_settings": {
+        "message": "Voltar às configurações"
+    },
+    "settings_nav_backup": {
+        "message": "Backup e atualizações"
+    },
+    "settings_nav_general": {
+        "message": "Geral"
+    },
+    "settings_nav_label": {
+        "message": "Seções das configurações"
+    },
+    "settings_nav_logs": {
+        "message": "Logs"
+    },
+    "settings_nav_private_ai": {
+        "message": "IA privada"
+    },
+    "settings_nav_providers": {
+        "message": "Provedores de IA"
+    },
+    "settings_nav_services": {
+        "message": "Serviços"
+    },
+    "settings_private_ai_approx_minutes": {
+        "message": "~{{count}} min"
+    },
+    "settings_private_ai_approx_seconds": {
+        "message": "~{{count}} s"
+    },
+    "settings_private_ai_attention": {
+        "message": "Precisa de atenção"
+    },
+    "settings_private_ai_checking": {
+        "message": "Verificando..."
+    },
+    "settings_private_ai_codex_tip_description": {
+        "message": "Use seu login atual do Codex como provedor de IA."
+    },
+    "settings_private_ai_codex_tip_dismiss": {
+        "message": "Dispensar a dica do Codex"
+    },
+    "settings_private_ai_codex_tip_open": {
+        "message": "Abrir"
+    },
+    "settings_private_ai_codex_tip_title": {
+        "message": "O Codex está disponível"
+    },
+    "settings_private_ai_fallback_notice": {
+        "message": "Uma origem de IA local não está respondendo. As tarefas afetadas voltaram temporariamente para o Phi Cloud."
+    },
+    "settings_private_ai_fallback_notice_paused": {
+        "message": "Uma origem de IA local não está respondendo. As tarefas afetadas ficam pausadas até ela responder de novo."
+    },
+    "settings_private_ai_hardware_hint": {
+        "message": "Funciona melhor num Mac com Apple Silicon e pelo menos 16 GB de RAM. A configuração verifica seu dispositivo automaticamente."
+    },
+    "settings_private_ai_label": {
+        "message": "IA privada"
+    },
+    "settings_private_ai_load_failed": {
+        "message": "Não foi possível ler o status da Private AI"
+    },
+    "settings_private_ai_local_runtime": {
+        "message": "Runtime local"
+    },
+    "settings_private_ai_not_set_up": {
+        "message": "Todos os recursos de IA rodam hoje no Phi Cloud. Ative a chave para configurar."
+    },
+    "settings_private_ai_on": {
+        "message": "A Private AI está ativada"
+    },
+    "settings_private_ai_page_description": {
+        "message": "Rode a IA no seu Mac ou com seu próprio provedor — seus dados ficam com você."
+    },
+    "settings_private_ai_providers_prompt": {
+        "message": "Quer usar seu próprio serviço de IA?"
+    },
+    "settings_private_ai_restart_local": {
+        "message": "Reiniciar o serviço local"
+    },
+    "settings_private_ai_routing_apple_available": {
+        "message": "Apple Intelligence · Disponível"
+    },
+    "settings_private_ai_routing_apple_description": {
+        "message": "Gerenciado automaticamente pelo macOS."
+    },
+    "settings_private_ai_routing_apple_label": {
+        "message": "Organização de abas com IA"
+    },
+    "settings_private_ai_routing_apple_unavailable": {
+        "message": "Apple Intelligence · Indisponível"
+    },
+    "settings_private_ai_routing_checked": {
+        "message": "Origem marcada"
+    },
+    "settings_private_ai_routing_failed": {
+        "message": "A origem falhou: {{error}}"
+    },
+    "settings_private_ai_routing_off_hint": {
+        "message": "Usado enquanto a Private AI está ativada."
+    },
+    "settings_private_ai_routing_policy_cloud": {
+        "message": "Voltar automaticamente para o Phi Cloud (padrão)"
+    },
+    "settings_private_ai_routing_policy_label": {
+        "message": "Quando uma origem local ou auto-hospedada estiver indisponível"
+    },
+    "settings_private_ai_routing_policy_pause": {
+        "message": "Pausar os recursos de IA afetados (nunca enviar dados para a nuvem)"
+    },
+    "settings_private_ai_routing_select": {
+        "message": "Selecionar a origem de {{task}}"
+    },
+    "settings_private_ai_routing_test_failed": {
+        "message": "O teste do modelo de {{purpose}} falhou. A origem anterior foi restaurada."
+    },
+    "settings_private_ai_routing_unavailable": {
+        "message": "Indisponível"
+    },
+    "settings_private_ai_routing_vision_description": {
+        "message": "Usado só quando um modelo selecionado não aceita imagens."
+    },
+    "settings_private_ai_routing_vision_label": {
+        "message": "Alternativa para imagens"
+    },
+    "settings_private_ai_routing_vision_none": {
+        "message": "Não configurado"
+    },
+    "settings_private_ai_setting_up": {
+        "message": "Configurando…"
+    },
+    "settings_private_ai_setting_up_description": {
+        "message": "Os recursos de IA continuam usando o Phi Cloud até a configuração terminar."
+    },
+    "settings_private_ai_setup_cancel": {
+        "message": "Cancelar"
+    },
+    "settings_private_ai_setup_check_again": {
+        "message": "Verificar de novo"
+    },
+    "settings_private_ai_setup_checking": {
+        "message": "Verificando seu dispositivo…"
+    },
+    "settings_private_ai_setup_done": {
+        "message": "A Private AI está ativada"
+    },
+    "settings_private_ai_setup_done_action": {
+        "message": "Concluído"
+    },
+    "settings_private_ai_setup_eligible": {
+        "message": "Rodar a Private AI localmente neste Mac"
+    },
+    "settings_private_ai_setup_failed": {
+        "message": "A configuração falhou durante: {{stage}}."
+    },
+    "settings_private_ai_setup_free_disk": {
+        "message": "Espaço livre em disco"
+    },
+    "settings_private_ai_setup_local_tasks": {
+        "message": "Roda neste Mac: {{tasks}}. As outras tarefas de IA continuam no Phi Cloud."
+    },
+    "settings_private_ai_setup_memory": {
+        "message": "Memória RAM"
+    },
+    "settings_private_ai_setup_minimize": {
+        "message": "Minimizar"
+    },
+    "settings_private_ai_setup_plan_failed": {
+        "message": "Não foi possível verificar este Mac"
+    },
+    "settings_private_ai_setup_reasons_disk": {
+        "message": "Rodar modelos locais exige pelo menos 10 GB livres em disco."
+    },
+    "settings_private_ai_setup_reasons_memory": {
+        "message": "Rodar modelos locais exige pelo menos 16 GB de memória."
+    },
+    "settings_private_ai_setup_reasons_no_embedding_model": {
+        "message": "Nenhum modelo de embedding está disponível no índice de modelos."
+    },
+    "settings_private_ai_setup_reasons_no_local_model": {
+        "message": "Nenhum modelo local está disponível no índice de modelos."
+    },
+    "settings_private_ai_setup_reasons_probe_failed": {
+        "message": "Não foi possível verificar este Mac. Tente novamente ou continue usando o Phi Cloud."
+    },
+    "settings_private_ai_setup_retry": {
+        "message": "Tentar novamente"
+    },
+    "settings_private_ai_setup_routes_kept": {
+        "message": "As atribuições de tarefas atuais não mudam."
+    },
+    "settings_private_ai_setup_show_details": {
+        "message": "Mostrar detalhes"
+    },
+    "settings_private_ai_setup_size": {
+        "message": "Download de {{downloadSize}} · usa cerca de {{memorySize}} de memória enquanto roda."
+    },
+    "settings_private_ai_setup_stage_models": {
+        "message": "Baixando modelos…"
+    },
+    "settings_private_ai_setup_stage_name_models": {
+        "message": "o download dos modelos"
+    },
+    "settings_private_ai_setup_stage_name_runtime": {
+        "message": "a instalação do runtime local"
+    },
+    "settings_private_ai_setup_stage_name_starting": {
+        "message": "a inicialização dos modelos locais"
+    },
+    "settings_private_ai_setup_stage_name_verifying": {
+        "message": "a verificação"
+    },
+    "settings_private_ai_setup_stage_runtime": {
+        "message": "Instalando o runtime local…"
+    },
+    "settings_private_ai_setup_stage_starting": {
+        "message": "Iniciando os modelos locais…"
+    },
+    "settings_private_ai_setup_stage_verifying": {
+        "message": "Verificando…"
+    },
+    "settings_private_ai_setup_start": {
+        "message": "Iniciar a configuração"
+    },
+    "settings_private_ai_setup_step_models": {
+        "message": "Baixar modelos"
+    },
+    "settings_private_ai_setup_step_runtime": {
+        "message": "Instalar o runtime"
+    },
+    "settings_private_ai_setup_step_starting": {
+        "message": "Iniciar os modelos locais"
+    },
+    "settings_private_ai_setup_step_verifying": {
+        "message": "Verificar"
+    },
+    "settings_private_ai_setup_title": {
+        "message": "Configurar a Private AI"
+    },
+    "settings_private_ai_setup_unavailable": {
+        "message": "A Private AI não está disponível neste Mac"
+    },
+    "settings_private_ai_setup_use_own": {
+        "message": "Usar seu próprio serviço de IA"
+    },
+    "settings_private_ai_source_cloud": {
+        "message": "Phi Cloud"
+    },
+    "settings_private_ai_source_local": {
+        "message": "{{model}} · Neste Mac"
+    },
+    "settings_private_ai_source_provider": {
+        "message": "{{provider}} · Seu provedor"
+    },
+    "settings_private_ai_source_unavailable": {
+        "message": "{{source}} · Indisponível"
+    },
+    "settings_private_ai_starting": {
+        "message": "Iniciando a Private AI…"
+    },
+    "settings_private_ai_starting_description": {
+        "message": "Preparando sua IA local. Os recursos de IA usam o Phi Cloud até ela estar rodando."
+    },
+    "settings_private_ai_summary": {
+        "message": "Rodando de forma privada: {{count}} de {{total}} tarefas de IA"
+    },
+    "settings_private_ai_summary_attention": {
+        "message": "Origens de tarefas de IA indisponíveis: {{count}}"
+    },
+    "settings_private_ai_tasks_chat_description": {
+        "message": "Respostas no painel de chat"
+    },
+    "settings_private_ai_tasks_chat_label": {
+        "message": "Chat"
+    },
+    "settings_private_ai_tasks_data_search_description": {
+        "message": "Busca nos dados conectados"
+    },
+    "settings_private_ai_tasks_data_search_label": {
+        "message": "Busca de dados"
+    },
+    "settings_private_ai_tasks_memory_description": {
+        "message": "Memória de navegação e resumos"
+    },
+    "settings_private_ai_tasks_memory_label": {
+        "message": "Memória"
+    },
+    "settings_private_ai_tasks_title": {
+        "message": "Tarefas de IA"
+    },
+    "settings_private_ai_tasks_web_tasks_description": {
+        "message": "Automação por agente"
+    },
+    "settings_private_ai_tasks_web_tasks_label": {
+        "message": "Tarefas na web"
+    },
+    "settings_private_ai_toast_cancel_failed": {
+        "message": "Não foi possível cancelar a configuração"
+    },
+    "settings_private_ai_toast_disable_failed": {
+        "message": "Não foi possível desativar a Private AI. Tente novamente."
+    },
+    "settings_private_ai_toast_enable_failed": {
+        "message": "Não foi possível ativar a Private AI"
+    },
+    "settings_private_ai_toast_restart_failed": {
+        "message": "Não foi possível reiniciar a IA local. Tente novamente."
+    },
+    "settings_private_ai_toast_save_failed": {
+        "message": "Não foi possível salvar a alteração"
+    },
+    "settings_private_ai_toast_start_failed": {
+        "message": "Não foi possível iniciar a configuração"
+    },
+    "settings_private_ai_toggle": {
+        "message": "Ativar ou desativar a Private AI"
+    },
+    "settings_providers_about_custom": {
+        "message": "Qualquer endpoint compatível com OpenAI."
+    },
+    "settings_providers_about_lm_studio": {
+        "message": "Servidor local do LM Studio compatível com OpenAI."
+    },
+    "settings_providers_about_ollama": {
+        "message": "Modelos locais do Ollama neste Mac ou na sua rede local."
+    },
+    "settings_providers_about_openai": {
+        "message": "Modelos da OpenAI, incluindo as famílias GPT e de raciocínio."
+    },
+    "settings_providers_about_openrouter": {
+        "message": "Acesse centenas de modelos de IA pela API unificada do OpenRouter."
+    },
+    "settings_providers_access": {
+        "message": "Acesso aos modelos"
+    },
+    "settings_providers_add": {
+        "message": "Adicionar provedor personalizado"
+    },
+    "settings_providers_add_action": {
+        "message": "Adicionar provedor"
+    },
+    "settings_providers_add_description": {
+        "message": "Adicione outro serviço compatível com OpenAI. Serviços locais podem recorrer ao Chat Completions quando o Responses não estiver disponível."
+    },
+    "settings_providers_all_models": {
+        "message": "Permitir todos os modelos"
+    },
+    "settings_providers_all_models_description": {
+        "message": "Todos os modelos deste provedor estão disponíveis."
+    },
+    "settings_providers_allow_model": {
+        "message": "Permitir o modelo {{model}}"
+    },
+    "settings_providers_api_key": {
+        "message": "Chave de API"
+    },
+    "settings_providers_api_key_optional": {
+        "message": "Chave de API opcional"
+    },
+    "settings_providers_apple_description": {
+        "message": "Gerenciado pelo macOS para a organização de abas com IA."
+    },
+    "settings_providers_base_url": {
+        "message": "URL base"
+    },
+    "settings_providers_built_in": {
+        "message": "Integrado"
+    },
+    "settings_providers_cancel": {
+        "message": "Cancelar"
+    },
+    "settings_providers_codex_about": {
+        "message": "Use a assinatura do ChatGPT já conectada pelo Codex."
+    },
+    "settings_providers_codex_action_failed": {
+        "message": "A ação do Codex falhou"
+    },
+    "settings_providers_codex_advanced": {
+        "message": "Avançado"
+    },
+    "settings_providers_codex_check_again": {
+        "message": "Verificar de novo"
+    },
+    "settings_providers_codex_confirm_account": {
+        "message": "Confirmar a conta"
+    },
+    "settings_providers_codex_connect": {
+        "message": "Conectar"
+    },
+    "settings_providers_codex_disconnect": {
+        "message": "Desconectar"
+    },
+    "settings_providers_codex_disconnect_blocked": {
+        "message": "Ainda usado por {{tasks}}. Escolha outra origem para elas antes de desconectar."
+    },
+    "settings_providers_codex_effort_default": {
+        "message": "Padrão ({{effort}})"
+    },
+    "settings_providers_codex_effort_for": {
+        "message": "Esforço de raciocínio de {{model}}"
+    },
+    "settings_providers_codex_effort_model_default": {
+        "message": "Padrão do modelo"
+    },
+    "settings_providers_codex_home_hint": {
+        "message": "Deixe em branco para usar a pasta padrão do Codex."
+    },
+    "settings_providers_codex_login_hint": {
+        "message": "O Phi usa o login que o Codex já gerencia e o confere com uma pequena solicitação quando você conecta. Se ainda não fez login, rode {{command}} no Terminal antes."
+    },
+    "settings_providers_codex_models": {
+        "message": "Modelos disponíveis"
+    },
+    "settings_providers_codex_models_origin": {
+        "message": "Carregados do catálogo de modelos do Codex."
+    },
+    "settings_providers_codex_retest": {
+        "message": "Testar de novo"
+    },
+    "settings_providers_codex_state_account_changed": {
+        "message": "Confirmação necessária"
+    },
+    "settings_providers_codex_state_keychain_unsupported": {
+        "message": "Login em arquivo necessário"
+    },
+    "settings_providers_codex_state_login_not_found": {
+        "message": "Login necessário"
+    },
+    "settings_providers_codex_state_needs_attention": {
+        "message": "Precisa de atenção"
+    },
+    "settings_providers_codex_state_not_installed": {
+        "message": "Não instalado"
+    },
+    "settings_providers_codex_state_ready": {
+        "message": "Disponível"
+    },
+    "settings_providers_codex_summary_account_changed": {
+        "message": "O login do Codex mudou. As solicitações ficam pausadas até você confirmar a nova conta."
+    },
+    "settings_providers_codex_summary_connected": {
+        "message": "{{count}} modelo(s) compatível(is) disponível(is) pelo AI Gateway local."
+    },
+    "settings_providers_codex_summary_keychain_unsupported": {
+        "message": "Este login do Codex está guardado nas Chaves (Keychain), que o Phi não consegue ler."
+    },
+    "settings_providers_codex_summary_login_not_found": {
+        "message": "O Codex está instalado, mas nenhum login em arquivo foi encontrado."
+    },
+    "settings_providers_codex_summary_needs_attention": {
+        "message": "A última verificação de conexão falhou. As rotas atuais continuam atribuídas e não voltam automaticamente para outra origem."
+    },
+    "settings_providers_codex_summary_not_installed": {
+        "message": "Instale o Codex neste Mac para usar uma assinatura do Codex."
+    },
+    "settings_providers_codex_summary_ready": {
+        "message": "Login do Codex detectado. Pronto para conectar sem copiar credenciais."
+    },
+    "settings_providers_codex_text": {
+        "message": "Texto"
+    },
+    "settings_providers_codex_text_image": {
+        "message": "Texto + imagem"
+    },
+    "settings_providers_codex_title": {
+        "message": "Codex"
+    },
+    "settings_providers_connection": {
+        "message": "Conexão"
+    },
+    "settings_providers_description": {
+        "message": "Serviços de IA que você mesmo conecta e os que já vêm no Phi."
+    },
+    "settings_providers_discard": {
+        "message": "Descartar alterações"
+    },
+    "settings_providers_endpoint_not_set": {
+        "message": "Endpoint não definido"
+    },
+    "settings_providers_endpoint_with_models": {
+        "message": "{{endpoint}} · {{count}} modelo(s)"
+    },
+    "settings_providers_https_hint": {
+        "message": "Provedores na nuvem precisam usar HTTPS."
+    },
+    "settings_providers_id": {
+        "message": "ID do provedor"
+    },
+    "settings_providers_id_fixed": {
+        "message": "Fixo para este provedor."
+    },
+    "settings_providers_id_taken": {
+        "message": "Já existe um provedor com este ID."
+    },
+    "settings_providers_keep_editing": {
+        "message": "Continuar editando"
+    },
+    "settings_providers_leave_description": {
+        "message": "As alterações neste provedor não foram salvas."
+    },
+    "settings_providers_leave_title": {
+        "message": "Alterações não salvas no provedor"
+    },
+    "settings_providers_load": {
+        "message": "Carregar"
+    },
+    "settings_providers_loaded": {
+        "message": "Modelos: {{count}} · {{latency}} ms"
+    },
+    "settings_providers_loading": {
+        "message": "Carregando modelos..."
+    },
+    "settings_providers_local_about": {
+        "message": "Modelos baixados para este Mac. O que eles processam fica nele."
+    },
+    "settings_providers_local_failed_chat": {
+        "message": "O modelo local do Chat não conseguiu iniciar."
+    },
+    "settings_providers_local_failed_embedding": {
+        "message": "A indexação dos conectores não conseguiu iniciar."
+    },
+    "settings_providers_local_failed_memory": {
+        "message": "O modelo local da Memória não conseguiu iniciar."
+    },
+    "settings_providers_local_hint": {
+        "message": "Endpoints locais e de rede privada são permitidos."
+    },
+    "settings_providers_local_role_configured": {
+        "message": "Configurado"
+    },
+    "settings_providers_local_role_off": {
+        "message": "Desativado"
+    },
+    "settings_providers_local_role_ready": {
+        "message": "Pronto"
+    },
+    "settings_providers_local_role_unused": {
+        "message": "Não usado"
+    },
+    "settings_providers_local_role_unused_chat": {
+        "message": "Sem modelo próprio para o Chat."
+    },
+    "settings_providers_local_role_unused_other": {
+        "message": "Sem modelo local."
+    },
+    "settings_providers_local_role_used_for": {
+        "message": "Usado para {{tasks}}"
+    },
+    "settings_providers_local_runtime": {
+        "message": "Runtime"
+    },
+    "settings_providers_local_state_attention": {
+        "message": "Precisa de atenção"
+    },
+    "settings_providers_local_state_not_set_up": {
+        "message": "Não configurado"
+    },
+    "settings_providers_local_state_starting": {
+        "message": "Iniciando"
+    },
+    "settings_providers_local_state_unsupported": {
+        "message": "Não compatível"
+    },
+    "settings_providers_local_summary_attention": {
+        "message": "Um modelo local não está respondendo. Reinicie o serviço local ou confira o log dele."
+    },
+    "settings_providers_local_summary_not_set_up": {
+        "message": "Configure a Private AI para baixar modelos e rodá-los neste Mac."
+    },
+    "settings_providers_local_summary_off": {
+        "message": "O runtime local está parado. Os modelos baixados continuam neste Mac."
+    },
+    "settings_providers_local_summary_on": {
+        "message": "Rodando: {{count}} de {{total}}"
+    },
+    "settings_providers_local_summary_unavailable": {
+        "message": "Não foi possível ler o runtime local."
+    },
+    "settings_providers_local_summary_unsupported": {
+        "message": "Exige Apple Silicon."
+    },
+    "settings_providers_local_switch_failed": {
+        "message": "Não foi possível ativar ou desativar o runtime local"
+    },
+    "settings_providers_local_title": {
+        "message": "Modelos locais"
+    },
+    "settings_providers_local_turn_off": {
+        "message": "Desativar"
+    },
+    "settings_providers_local_turn_on": {
+        "message": "Ativar"
+    },
+    "settings_providers_local_update": {
+        "message": "Atualizar"
+    },
+    "settings_providers_local_update_failed": {
+        "message": "Não foi possível instalar o runtime"
+    },
+    "settings_providers_local_version": {
+        "message": "Versão {{version}}"
+    },
+    "settings_providers_local_version_with_update": {
+        "message": "Versão {{installedVersion}} · {{availableVersion}} disponível"
+    },
+    "settings_providers_local_view_logs": {
+        "message": "Ver logs"
+    },
+    "settings_providers_models": {
+        "message": "Modelos"
+    },
+    "settings_providers_models_empty": {
+        "message": "Carregue os modelos deste provedor e depois escolha quais o Phi pode usar."
+    },
+    "settings_providers_name": {
+        "message": "Nome do provedor"
+    },
+    "settings_providers_name_placeholder": {
+        "message": "Meu provedor personalizado"
+    },
+    "settings_providers_not_found": {
+        "message": "Este provedor não existe mais."
+    },
+    "settings_providers_not_ready": {
+        "message": "Não está pronto"
+    },
+    "settings_providers_off": {
+        "message": "Desativado"
+    },
+    "settings_providers_on": {
+        "message": "Ativado"
+    },
+    "settings_providers_phi_description": {
+        "message": "Já vem com o Phi e usa seu login do Phi. Não precisa de chave de API."
+    },
+    "settings_providers_problem_api_key": {
+        "message": "Digite uma chave de API."
+    },
+    "settings_providers_problem_base_url": {
+        "message": "Digite uma URL base."
+    },
+    "settings_providers_problem_https": {
+        "message": "Provedores na nuvem precisam usar HTTPS."
+    },
+    "settings_providers_problem_select_model": {
+        "message": "Selecione pelo menos um modelo."
+    },
+    "settings_providers_raw_list": {
+        "message": "Lista bruta de modelos permitidos"
+    },
+    "settings_providers_raw_list_placeholder": {
+        "message": "Deixe em branco para permitir todos os modelos do provedor"
+    },
+    "settings_providers_remove": {
+        "message": "Remover provedor"
+    },
+    "settings_providers_remove_description": {
+        "message": "As tarefas de IA que usam este provedor voltam para o Phi Cloud."
+    },
+    "settings_providers_remove_title": {
+        "message": "Remover {{name}}?"
+    },
+    "settings_providers_save": {
+        "message": "Salvar alterações"
+    },
+    "settings_providers_scope": {
+        "message": "Escopo"
+    },
+    "settings_providers_scope_cloud": {
+        "message": "Nuvem"
+    },
+    "settings_providers_scope_local": {
+        "message": "Local"
+    },
+    "settings_providers_search": {
+        "message": "Pesquisar modelos..."
+    },
+    "settings_providers_select_model": {
+        "message": "Selecione pelo menos um modelo."
+    },
+    "settings_providers_selected_count": {
+        "message": "{{count}} modelo(s) selecionado(s)"
+    },
+    "settings_providers_selected_models": {
+        "message": "Só os modelos selecionados"
+    },
+    "settings_providers_test": {
+        "message": "Testar"
+    },
+    "settings_providers_test_failed": {
+        "message": "{{model}} falhou: {{error}}"
+    },
+    "settings_providers_test_hint": {
+        "message": "Carregue os modelos primeiro."
+    },
+    "settings_providers_test_passed": {
+        "message": "Conexão bem-sucedida: {{model}} · {{latency}} ms"
+    },
+    "settings_providers_test_placeholder": {
+        "message": "Selecione um modelo ativado para testar"
+    },
+    "settings_providers_testing": {
+        "message": "Testando {{model}}..."
+    },
+    "settings_providers_title": {
+        "message": "Provedores de IA"
+    },
+    "settings_providers_unsaved": {
+        "message": "Alterações não salvas"
+    },
+    "settings_providers_use": {
+        "message": "Usar este provedor"
+    },
+    "settings_providers_yours": {
+        "message": "Seus provedores"
+    },
+    "settings_service_state_crashed": {
+        "message": "Travou"
+    },
+    "settings_service_state_disabled": {
+        "message": "Desativado"
+    },
+    "settings_service_state_pending": {
+        "message": "Pendente"
+    },
+    "settings_service_state_running": {
+        "message": "Em execução"
+    },
+    "settings_service_state_starting": {
+        "message": "Iniciando"
+    },
+    "settings_service_state_stopped": {
+        "message": "Parado"
+    },
+    "settings_service_state_stopping": {
+        "message": "Parando"
+    },
+    "settings_service_state_unhealthy": {
+        "message": "Com problemas"
+    },
+    "settings_service_state_unknown": {
+        "message": "Desconhecido"
+    },
+    "settings_services_advanced_prompt": {
+        "message": "Precisa de detalhes dos processos ou de iniciar e parar serviços?"
+    },
+    "settings_services_description": {
+        "message": "O Phi roda estes serviços em segundo plano para manter os recursos de IA disponíveis."
+    },
+    "settings_services_group_services": {
+        "message": "Serviços em segundo plano"
+    },
+    "settings_services_no_services": {
+        "message": "Nenhum serviço encontrado"
+    },
+    "settings_services_restarting": {
+        "message": "Os serviços em segundo plano estão reiniciando. Isso leva alguns segundos."
+    },
+    "settings_services_retry": {
+        "message": "Tentar novamente"
+    },
+    "settings_services_summary_attention_title": {
+        "message": "Alguns serviços precisam de atenção"
+    },
+    "settings_services_summary_counts": {
+        "message": "{{running}} de {{total}} serviços em execução"
+    },
+    "settings_services_summary_healthy_title": {
+        "message": "Tudo está funcionando"
+    },
+    "settings_services_summary_loading": {
+        "message": "Verificando os serviços..."
+    },
+    "settings_services_summary_offline_description": {
+        "message": "Os recursos de IA que dependem deles ficam indisponíveis até eles iniciarem de novo."
+    },
+    "settings_services_summary_offline_title": {
+        "message": "Os serviços em segundo plano não estão rodando"
+    },
+    "settings_services_summary_unavailable_description": {
+        "message": "O Phi não conseguiu ler o status deles. Tente novamente daqui a pouco."
+    },
+    "settings_services_summary_unavailable_title": {
+        "message": "Não foi possível acessar os serviços em segundo plano"
+    },
+    "shadow_tasks_artifacts_empty": {
+        "message": "Nenhum artefato disponível"
+    },
+    "shadow_tasks_artifacts_no_shadow_task_call": {
+        "message": "Esta execução não chamou SHADOW_TASK, então nenhuma gravação ou artefato do navegador em segundo plano foi gerado."
+    },
+    "shadow_tasks_artifacts_open": {
+        "message": "Abrir"
+    },
+    "shadow_tasks_artifacts_size_bytes": {
+        "message": "{{count}} byte(s)"
+    },
+    "shadow_tasks_back": {
+        "message": "Voltar"
+    },
+    "shadow_tasks_cancel": {
+        "message": "Cancelar"
+    },
+    "shadow_tasks_cancel_confirm": {
+        "message": "Cancelar esta tarefa?"
+    },
+    "shadow_tasks_cancel_failed": {
+        "message": "Não foi possível cancelar a tarefa"
+    },
+    "shadow_tasks_cancelled": {
+        "message": "Tarefa cancelada"
+    },
+    "shadow_tasks_empty": {
+        "message": "Ainda não há tarefas em segundo plano"
+    },
+    "shadow_tasks_fields_created_at": {
+        "message": "Criada em"
+    },
+    "shadow_tasks_fields_finished_at": {
+        "message": "Concluída em"
+    },
+    "shadow_tasks_fields_objective": {
+        "message": "Objetivo"
+    },
+    "shadow_tasks_fields_run_id": {
+        "message": "ID da execução"
+    },
+    "shadow_tasks_fields_run_index": {
+        "message": "Índice da execução"
+    },
+    "shadow_tasks_fields_status": {
+        "message": "Status"
+    },
+    "shadow_tasks_fields_task_id": {
+        "message": "ID da tarefa"
+    },
+    "shadow_tasks_fields_task_status": {
+        "message": "Status da tarefa"
+    },
+    "shadow_tasks_fields_tool_call_count": {
+        "message": "Chamadas de ferramentas"
+    },
+    "shadow_tasks_fields_trigger_source": {
+        "message": "Origem do disparo"
+    },
+    "shadow_tasks_filters_all_statuses": {
+        "message": "Todos os status"
+    },
+    "shadow_tasks_filters_keyword": {
+        "message": "Pesquisar por título / objetivo / ID da tarefa"
+    },
+    "shadow_tasks_history_empty": {
+        "message": "Ainda não há execuções"
+    },
+    "shadow_tasks_history_no_run_selected": {
+        "message": "Selecione uma execução para ver os detalhes"
+    },
+    "shadow_tasks_list_title": {
+        "message": "Lista de tarefas em segundo plano"
+    },
+    "shadow_tasks_load_error": {
+        "message": "Não foi possível carregar os dados das tarefas em segundo plano."
+    },
+    "shadow_tasks_loading": {
+        "message": "Carregando tarefas..."
+    },
+    "shadow_tasks_loading_detail": {
+        "message": "Carregando detalhes da tarefa..."
+    },
+    "shadow_tasks_logs_empty": {
+        "message": "Ainda não há logs"
+    },
+    "shadow_tasks_logs_load_more": {
+        "message": "Carregar mais logs"
+    },
+    "shadow_tasks_logs_loading": {
+        "message": "Carregando logs..."
+    },
+    "shadow_tasks_logs_title": {
+        "message": "Logs da linha do tempo"
+    },
+    "shadow_tasks_page_title": {
+        "message": "Tarefas em segundo plano"
+    },
+    "shadow_tasks_refresh": {
+        "message": "Atualizar"
+    },
+    "shadow_tasks_rerun": {
+        "message": "Executar novamente"
+    },
+    "shadow_tasks_rerun_failed": {
+        "message": "Não foi possível executar a tarefa novamente"
+    },
+    "shadow_tasks_rerun_success": {
+        "message": "Nova execução criada"
+    },
+    "shadow_tasks_result_error": {
+        "message": "Erro"
+    },
+    "shadow_tasks_result_final_answer": {
+        "message": "Resposta final"
+    },
+    "shadow_tasks_sections_artifacts": {
+        "message": "Artefatos"
+    },
+    "shadow_tasks_sections_history": {
+        "message": "Histórico de execuções"
+    },
+    "shadow_tasks_sections_selected_run": {
+        "message": "Execução selecionada"
+    },
+    "shadow_tasks_sections_summary": {
+        "message": "Resumo da tarefa"
+    },
+    "shadow_tasks_sections_tabs": {
+        "message": "Abas da execução"
+    },
+    "shadow_tasks_sections_task_archived": {
+        "message": "Arquivada"
+    },
+    "shadow_tasks_sections_task_disabled": {
+        "message": "Desativada"
+    },
+    "shadow_tasks_sections_task_not_started": {
+        "message": "Não iniciada"
+    },
+    "shadow_tasks_sections_user_original_message": {
+        "message": "Mensagem original do usuário"
+    },
+    "shadow_tasks_select_hint": {
+        "message": "Selecione uma tarefa para ver os detalhes"
+    },
+    "shadow_tasks_status_cancelled": {
+        "message": "Cancelado"
+    },
+    "shadow_tasks_status_completed": {
+        "message": "Concluído"
+    },
+    "shadow_tasks_status_failed": {
+        "message": "Falhou"
+    },
+    "shadow_tasks_status_missed": {
+        "message": "Não foi executada"
+    },
+    "shadow_tasks_status_queued": {
+        "message": "Na fila"
+    },
+    "shadow_tasks_status_rejected": {
+        "message": "Rejeitada"
+    },
+    "shadow_tasks_status_running": {
+        "message": "Em execução"
+    },
+    "shadow_tasks_tabs_empty": {
+        "message": "Nenhuma aba encontrada para esta tarefa ainda"
+    },
+    "shadow_tasks_tabs_tab_fallback": {
+        "message": "Aba {{number}}"
+    },
+    "shadow_tasks_tabs_tab_with_index": {
+        "message": "Aba {{index}} · {{title}}"
+    },
+    "shell_resize_list": {
+        "message": "Redimensionar lista de conversas"
+    },
+    "sidebar_page_title": {
+        "message": "Phi AI"
+    },
+    "skill_creator_cancel": {
+        "message": "Cancelar"
+    },
+    "skill_creator_create_failed": {
+        "message": "Não foi possível criar a skill."
+    },
+    "skill_creator_created": {
+        "message": "Skill criada"
+    },
+    "skill_creator_description": {
+        "message": "Crie uma skill usando o modo Simples ou Profissional."
+    },
+    "skill_creator_field_description": {
+        "message": "Descrição"
+    },
+    "skill_creator_field_name": {
+        "message": "Nome"
+    },
+    "skill_creator_field_prompt": {
+        "message": "Prompt"
+    },
+    "skill_creator_initial_prompt": {
+        "message": "Descreva brevemente os recursos que você quer obter."
+    },
+    "skill_creator_mode_professional": {
+        "message": "Profissional"
+    },
+    "skill_creator_mode_simple": {
+        "message": "Simples"
+    },
+    "skill_creator_primary_create": {
+        "message": "Criar skill"
+    },
+    "skill_creator_primary_next": {
+        "message": "Avançar"
+    },
+    "skill_creator_submitting_create": {
+        "message": "Criando..."
+    },
+    "skill_creator_submitting_thinking": {
+        "message": "Pensando"
+    },
+    "skill_creator_title": {
+        "message": "Criar skill"
+    },
+    "skill_recorder_back": {
+        "message": "Voltar às skills"
+    },
+    "skill_recorder_cancel": {
+        "message": "Cancelar"
+    },
+    "skill_recorder_errors_cancel_failed": {
+        "message": "Não foi possível cancelar a gravação da skill"
+    },
+    "skill_recorder_errors_page_not_recordable": {
+        "message": "Esta página não pode ser gravada"
+    },
+    "skill_recorder_errors_recording_active": {
+        "message": "Já há uma gravação de skill em andamento"
+    },
+    "skill_recorder_errors_start_failed": {
+        "message": "Não foi possível iniciar a gravação da skill"
+    },
+    "skill_recorder_errors_unavailable": {
+        "message": "O gravador de skills não está disponível"
+    },
+    "skill_recorder_loading_tabs": {
+        "message": "Carregando abas..."
+    },
+    "skill_recorder_new_tab": {
+        "message": "Nova aba"
+    },
+    "skill_recorder_new_tab_description": {
+        "message": "Abra um site para começar"
+    },
+    "skill_recorder_no_tabs": {
+        "message": "Nenhuma aba gravável aberta"
+    },
+    "skill_recorder_title": {
+        "message": "Gravar uma skill"
+    },
+    "skill_recorder_untitled": {
+        "message": "Sem título"
+    },
+    "skill_recorder_waiting_for_page": {
+        "message": "Pronto para gravar · Abra um site para começar"
+    },
+    "skill_target_body": {
+        "message": "{{skill}} funciona em uma página. Escolha a aba onde executá-la."
+    },
+    "skill_target_field_tab": {
+        "message": "Página"
+    },
+    "skill_target_option_cancel": {
+        "message": "Cancelar"
+    },
+    "skill_target_option_run": {
+        "message": "Executar"
+    },
+    "skill_target_tab_in_space": {
+        "message": "{{title}} ({{space}})"
+    },
+    "skill_target_title": {
+        "message": "Em qual página isto deve ser executado?"
+    },
+    "skills_actions_add": {
+        "message": "Adicionar"
+    },
+    "skills_actions_add_failed": {
+        "message": "Não foi possível adicionar a skill"
+    },
+    "skills_actions_add_skill": {
+        "message": "Adicionar {{name}} à sua biblioteca"
+    },
+    "skills_actions_added": {
+        "message": "Adicionada"
+    },
+    "skills_actions_added_toast": {
+        "message": "Skill adicionada"
+    },
+    "skills_actions_delete_failed": {
+        "message": "Não foi possível excluir a skill"
+    },
+    "skills_actions_delete_skill": {
+        "message": "Excluir {{name}}"
+    },
+    "skills_actions_deleted_toast": {
+        "message": "Skill excluída"
+    },
+    "skills_actions_disable_skill": {
+        "message": "Desativar {{name}}"
+    },
+    "skills_actions_edit_skill": {
+        "message": "Editar {{name}}"
+    },
+    "skills_actions_enable_skill": {
+        "message": "Ativar {{name}}"
+    },
+    "skills_actions_off": {
+        "message": "Desativado"
+    },
+    "skills_actions_on": {
+        "message": "Ativada"
+    },
+    "skills_actions_remove_failed": {
+        "message": "Não foi possível remover a skill"
+    },
+    "skills_actions_remove_skill": {
+        "message": "Remover {{name}} da sua biblioteca"
+    },
+    "skills_actions_removed_toast": {
+        "message": "Skill removida"
+    },
+    "skills_actions_skill_creator_locked": {
+        "message": "O Criador de skills não pode ser desativado"
+    },
+    "skills_actions_skill_disabled_removed": {
+        "message": "Skill desativada {{name}} removida"
+    },
+    "skills_actions_toggle_failed": {
+        "message": "Não foi possível ativar/desativar a skill"
+    },
+    "skills_actions_try": {
+        "message": "Experimentar"
+    },
+    "skills_actions_try_skill": {
+        "message": "Experimentar {{name}}"
+    },
+    "skills_actions_view_skill": {
+        "message": "Ver {{name}}"
+    },
+    "skills_all_skills": {
+        "message": "Todas as skills"
+    },
+    "skills_api_unavailable": {
+        "message": "A API de skills fica indisponível até a autenticação estar pronta."
+    },
+    "skills_confirm_removal_built_in_confirm": {
+        "message": "Remover"
+    },
+    "skills_confirm_removal_built_in_description": {
+        "message": "Ela será removida da sua biblioteca. Você pode adicioná-la de volta quando quiser."
+    },
+    "skills_confirm_removal_built_in_title": {
+        "message": "Remover esta skill integrada?"
+    },
+    "skills_confirm_removal_cancel": {
+        "message": "Cancelar"
+    },
+    "skills_confirm_removal_processing": {
+        "message": "Processando…"
+    },
+    "skills_confirm_removal_user_confirm": {
+        "message": "Excluir"
+    },
+    "skills_confirm_removal_user_description": {
+        "message": "Não é possível desfazer esta ação."
+    },
+    "skills_confirm_removal_user_title": {
+        "message": "Excluir esta skill?"
+    },
+    "skills_edit_dialog_body_required": {
+        "message": "As instruções são obrigatórias."
+    },
+    "skills_edit_dialog_cancel": {
+        "message": "Cancelar"
+    },
+    "skills_edit_dialog_description": {
+        "message": "Atualize a instrução reutilizável e salve-a de volta na sua biblioteca de skills."
+    },
+    "skills_edit_dialog_description_label": {
+        "message": "Descrição"
+    },
+    "skills_edit_dialog_description_required": {
+        "message": "A descrição é obrigatória."
+    },
+    "skills_edit_dialog_error": {
+        "message": "Não foi possível salvar a skill."
+    },
+    "skills_edit_dialog_friendly_name_required": {
+        "message": "O nome de exibição é obrigatório."
+    },
+    "skills_edit_dialog_instructions": {
+        "message": "Instruções"
+    },
+    "skills_edit_dialog_instructions_placeholder": {
+        "message": "Escreva as instruções em Markdown que esta skill insere no chat."
+    },
+    "skills_edit_dialog_load_error": {
+        "message": "Não foi possível carregar esta skill."
+    },
+    "skills_edit_dialog_loading": {
+        "message": "Carregando skill..."
+    },
+    "skills_edit_dialog_name": {
+        "message": "Nome"
+    },
+    "skills_edit_dialog_name_required": {
+        "message": "O nome é obrigatório."
+    },
+    "skills_edit_dialog_save": {
+        "message": "Salvar"
+    },
+    "skills_edit_dialog_saved": {
+        "message": "Skill salva."
+    },
+    "skills_edit_dialog_saving": {
+        "message": "Salvando..."
+    },
+    "skills_edit_dialog_title": {
+        "message": "Editar skill"
+    },
+    "skills_empty_description": {
+        "message": "Tente outra pesquisa ou crie uma skill de usuário."
+    },
+    "skills_empty_title": {
+        "message": "Nenhuma skill encontrada"
+    },
+    "skills_error_title": {
+        "message": "Não foi possível carregar as skills"
+    },
+    "skills_filters_all": {
+        "message": "Todos"
+    },
+    "skills_filters_built_in": {
+        "message": "Integrada"
+    },
+    "skills_filters_enabled": {
+        "message": "Ativadas"
+    },
+    "skills_filters_user_created": {
+        "message": "Criadas pelo usuário"
+    },
+    "skills_form_advanced_label": {
+        "message": "Avançado"
+    },
+    "skills_form_friendly_name_help": {
+        "message": "Aparece nas listas de skills e no chat. O nome interno continua separado."
+    },
+    "skills_form_friendly_name_label": {
+        "message": "Nome de exibição"
+    },
+    "skills_form_friendly_name_placeholder": {
+        "message": "Nome mostrado na interface"
+    },
+    "skills_form_name_auto_derived_hint": {
+        "message": "Deixe em branco para gerar automaticamente."
+    },
+    "skills_form_name_read_only_hint": {
+        "message": "Identificador interno, não editável."
+    },
+    "skills_form_slug_name_invalid_hint": {
+        "message": "Use letras ASCII minúsculas, números e hifens simples."
+    },
+    "skills_form_slug_name_label": {
+        "message": "Nome curto (slug)"
+    },
+    "skills_loading": {
+        "message": "Carregando skills..."
+    },
+    "skills_menu_label": {
+        "message": "Skills"
+    },
+    "skills_pagination_label": {
+        "message": "Paginação das skills"
+    },
+    "skills_pagination_next": {
+        "message": "Próxima página"
+    },
+    "skills_pagination_previous": {
+        "message": "Página anterior"
+    },
+    "skills_read_only_dialog_close": {
+        "message": "Fechar"
+    },
+    "skills_read_only_dialog_description": {
+        "message": "Revise o conteúdo da instrução reutilizável."
+    },
+    "skills_read_only_dialog_empty": {
+        "message": "Esta skill não tem conteúdo de instrução."
+    },
+    "skills_read_only_dialog_instructions": {
+        "message": "Instruções"
+    },
+    "skills_read_only_dialog_load_error": {
+        "message": "Não foi possível carregar o conteúdo da skill."
+    },
+    "skills_read_only_dialog_loading": {
+        "message": "Carregando o conteúdo da skill..."
+    },
+    "skills_read_only_dialog_title": {
+        "message": "Detalhes da skill"
+    },
+    "skills_search": {
+        "message": "Pesquisar"
+    },
+    "skills_sources_built_in": {
+        "message": "Integrada"
+    },
+    "skills_sources_user": {
+        "message": "Usuário"
+    },
+    "skills_subtitle": {
+        "message": "Gerencie instruções reutilizáveis para as execuções do chat."
+    },
+    "skills_suggestion_all_description": {
+        "message": "Navegue e gerencie sua biblioteca de skills"
+    },
+    "skills_suggestion_all_label": {
+        "message": "Todas as skills"
+    },
+    "skills_suggestion_create_description": {
+        "message": "Você também pode simplesmente conversar para criar uma skill"
+    },
+    "skills_suggestion_create_label": {
+        "message": "Criar skill"
+    },
+    "skills_suggestion_group_title": {
+        "message": "Skill"
+    },
+    "skills_suggestion_record_description": {
+        "message": "Grave um fluxo de trabalho no navegador"
+    },
+    "skills_suggestion_record_label": {
+        "message": "Gravar uma skill"
+    },
+    "skills_title": {
+        "message": "Skills"
+    },
+    "tasks_page_common_actions": {
+        "message": "Ações"
+    },
+    "tasks_page_common_artifacts": {
+        "message": "Artefatos ({{count}})"
+    },
+    "tasks_page_common_back": {
+        "message": "Voltar"
+    },
+    "tasks_page_common_cancel": {
+        "message": "Cancelar"
+    },
+    "tasks_page_common_duration": {
+        "message": "Duração"
+    },
+    "tasks_page_common_error": {
+        "message": "Erro"
+    },
+    "tasks_page_common_loading": {
+        "message": "Carregando..."
+    },
+    "tasks_page_common_ok": {
+        "message": "OK"
+    },
+    "tasks_page_common_ready": {
+        "message": "Pronto"
+    },
+    "tasks_page_common_refresh": {
+        "message": "Atualizar"
+    },
+    "tasks_page_common_result": {
+        "message": "Resultado"
+    },
+    "tasks_page_common_retry": {
+        "message": "Tentar novamente"
+    },
+    "tasks_page_common_schedule": {
+        "message": "Agendamento"
+    },
+    "tasks_page_common_started": {
+        "message": "Início"
+    },
+    "tasks_page_common_started_at": {
+        "message": "Iniciada em: {{date}}"
+    },
+    "tasks_page_common_state": {
+        "message": "Estado"
+    },
+    "tasks_page_common_status": {
+        "message": "Status"
+    },
+    "tasks_page_detail_accessible_label_cancel_current_run": {
+        "message": "Cancelar a execução atual"
+    },
+    "tasks_page_detail_action_cancel_run": {
+        "message": "Cancelar a execução"
+    },
+    "tasks_page_detail_action_copy": {
+        "message": "Copiar"
+    },
+    "tasks_page_detail_description_no_linked_schedules": {
+        "message": "Nenhum agendamento ligado a esta tarefa."
+    },
+    "tasks_page_detail_description_no_result_text_available": {
+        "message": "Nenhum texto de resultado disponível."
+    },
+    "tasks_page_detail_description_no_run_logs": {
+        "message": "Nenhum log retornado para esta execução."
+    },
+    "tasks_page_detail_description_no_runs_yet": {
+        "message": "Ainda não há execuções."
+    },
+    "tasks_page_detail_field_label_cadence": {
+        "message": "Frequência"
+    },
+    "tasks_page_detail_field_label_last_run": {
+        "message": "Última execução"
+    },
+    "tasks_page_detail_field_label_last_trigger": {
+        "message": "Último disparo"
+    },
+    "tasks_page_detail_field_label_latest_run": {
+        "message": "Execução mais recente"
+    },
+    "tasks_page_detail_field_label_next_run": {
+        "message": "Próxima execução"
+    },
+    "tasks_page_detail_field_label_objective": {
+        "message": "Objetivo"
+    },
+    "tasks_page_detail_field_label_run_id": {
+        "message": "ID da execução"
+    },
+    "tasks_page_detail_field_label_schedule_id": {
+        "message": "ID do agendamento"
+    },
+    "tasks_page_detail_field_label_task_id": {
+        "message": "ID da tarefa"
+    },
+    "tasks_page_detail_field_label_task_status": {
+        "message": "Status da tarefa"
+    },
+    "tasks_page_detail_field_label_title": {
+        "message": "Título"
+    },
+    "tasks_page_detail_label_failed_to_load_task_detail": {
+        "message": "Não foi possível carregar os detalhes da tarefa."
+    },
+    "tasks_page_detail_label_file_artifact": {
+        "message": "Arquivo"
+    },
+    "tasks_page_detail_label_generic_artifact": {
+        "message": "Artefato"
+    },
+    "tasks_page_detail_label_hide_run_details": {
+        "message": "Ocultar os detalhes da execução"
+    },
+    "tasks_page_detail_label_image_artifact": {
+        "message": "Imagem"
+    },
+    "tasks_page_detail_label_load_failure": {
+        "message": "Não foi possível carregar os detalhes da tarefa agendada."
+    },
+    "tasks_page_detail_label_loading_run_detail": {
+        "message": "Carregando os detalhes da execução..."
+    },
+    "tasks_page_detail_label_logs": {
+        "message": "Logs"
+    },
+    "tasks_page_detail_label_run_detail_unavailable": {
+        "message": "Detalhes da execução indisponíveis."
+    },
+    "tasks_page_detail_label_task_unavailable": {
+        "message": "Tarefa indisponível"
+    },
+    "tasks_page_detail_label_unnamed_artifact": {
+        "message": "Artefato sem nome"
+    },
+    "tasks_page_detail_label_video_artifact": {
+        "message": "Vídeo"
+    },
+    "tasks_page_detail_label_view_details": {
+        "message": "Ver detalhes"
+    },
+    "tasks_page_detail_label_view_run_details": {
+        "message": "Ver os detalhes da execução"
+    },
+    "tasks_page_detail_title_recent_runs": {
+        "message": "Execuções recentes"
+    },
+    "tasks_page_detail_title_run_detail": {
+        "message": "Detalhes da execução"
+    },
+    "tasks_page_detail_title_task": {
+        "message": "Tarefa"
+    },
+    "tasks_page_list_accessible_label_create_task": {
+        "message": "Criar tarefa"
+    },
+    "tasks_page_list_accessible_label_delete_named_schedule": {
+        "message": "Excluir {{schedule}}"
+    },
+    "tasks_page_list_accessible_label_delete_named_task": {
+        "message": "Excluir {{task}}"
+    },
+    "tasks_page_list_accessible_label_edit_named_schedule": {
+        "message": "Editar {{schedule}}"
+    },
+    "tasks_page_list_accessible_label_edit_named_task": {
+        "message": "Editar {{task}}"
+    },
+    "tasks_page_list_accessible_label_filter_runs_by_task": {
+        "message": "Filtrar execuções por tarefa"
+    },
+    "tasks_page_list_accessible_label_manage_task_schedules": {
+        "message": "Gerenciar agendamentos de {{task}}"
+    },
+    "tasks_page_list_accessible_label_manual": {
+        "message": "Manual"
+    },
+    "tasks_page_list_accessible_label_optional_details": {
+        "message": "Detalhes opcionais"
+    },
+    "tasks_page_list_accessible_label_pause_named_schedule": {
+        "message": "Pausar {{schedule}}"
+    },
+    "tasks_page_list_accessible_label_resume_named_schedule": {
+        "message": "Retomar {{schedule}}"
+    },
+    "tasks_page_list_accessible_label_run_named_schedule": {
+        "message": "Executar {{schedule}} agora"
+    },
+    "tasks_page_list_accessible_label_scheduled": {
+        "message": "Agendada"
+    },
+    "tasks_page_list_action_delete": {
+        "message": "Excluir"
+    },
+    "tasks_page_list_action_delete_schedule": {
+        "message": "Excluir agendamento"
+    },
+    "tasks_page_list_action_delete_task": {
+        "message": "Excluir tarefa"
+    },
+    "tasks_page_list_action_manage_schedules": {
+        "message": "Gerenciar agendamentos"
+    },
+    "tasks_page_list_action_save_settings": {
+        "message": "Salvar configurações"
+    },
+    "tasks_page_list_action_save_task": {
+        "message": "Salvar tarefa"
+    },
+    "tasks_page_list_action_show_all_schedules": {
+        "message": "Mostrar todos os agendamentos"
+    },
+    "tasks_page_list_description_active_run_settings": {
+        "message": "Controle como o Phi Agent lida com as execuções de tarefas em andamento."
+    },
+    "tasks_page_list_description_allowed_timeout_range": {
+        "message": "Intervalo permitido: de {{minimum}} a {{maximum}}."
+    },
+    "tasks_page_list_description_completed_schedule": {
+        "message": "Este agendamento terminou e não pode ser retomado."
+    },
+    "tasks_page_list_description_delete_named": {
+        "message": "Isso vai excluir <target>{{name}}</target>."
+    },
+    "tasks_page_list_description_empty_state_guidance": {
+        "message": "Crie uma tarefa para começar a acompanhar o trabalho do Phi Agent."
+    },
+    "tasks_page_list_description_expired_schedule": {
+        "message": "Este agendamento expirou. Edite o horário antes de retomar."
+    },
+    "tasks_page_list_description_failed_to_load_scheduled_tasks": {
+        "message": "Não foi possível carregar as tarefas agendadas"
+    },
+    "tasks_page_list_description_filtered_run_count": {
+        "message": "Execuções exibidas: {{filtered}} / {{total}}"
+    },
+    "tasks_page_list_description_load_failure": {
+        "message": "Não foi possível carregar as tarefas agora. Atualize esta página para tentar de novo."
+    },
+    "tasks_page_list_description_minimum_character_count": {
+        "message": "Pelo menos {{count}} caracteres."
+    },
+    "tasks_page_list_description_no_objective": {
+        "message": "Sem objetivo"
+    },
+    "tasks_page_list_description_no_runs_for_this_task": {
+        "message": "Nenhuma execução desta tarefa"
+    },
+    "tasks_page_list_description_no_schedules_yet": {
+        "message": "Ainda não há agendamentos"
+    },
+    "tasks_page_list_description_no_task_runs_yet": {
+        "message": "Ainda não há execuções de tarefas"
+    },
+    "tasks_page_list_description_no_tasks_yet": {
+        "message": "Ainda não há tarefas"
+    },
+    "tasks_page_list_description_objective_minimum_length": {
+        "message": "O objetivo precisa ter pelo menos {{count}} caracteres"
+    },
+    "tasks_page_list_description_objective_required": {
+        "message": "O objetivo é obrigatório"
+    },
+    "tasks_page_list_description_objective_validation": {
+        "message": "O objetivo é obrigatório. A descrição e as opções de nome ficam nos detalhes opcionais."
+    },
+    "tasks_page_list_description_optional_title_limit": {
+        "message": "Opcional. No máximo {{count}} caracteres. Títulos vazios são gerados a partir do objetivo."
+    },
+    "tasks_page_list_description_overview": {
+        "message": "Tarefas e execuções do Phi Agent."
+    },
+    "tasks_page_list_description_pause_schedule": {
+        "message": "Pausa as próximas execuções automáticas. Uma execução já iniciada continua."
+    },
+    "tasks_page_list_description_phi_agent_is_not_running": {
+        "message": "O Phi Agent não está rodando"
+    },
+    "tasks_page_list_description_resume_schedule": {
+        "message": "Retoma as execuções automáticas e calcula o horário da próxima execução."
+    },
+    "tasks_page_list_description_schedule_type_guidance": {
+        "message": "Escolha primeiro a opção de horário mais simples. Use cron só para agendamentos no estilo calendário."
+    },
+    "tasks_page_list_description_service_recovery": {
+        "message": "Inicie o Phi Agent e depois atualize esta página para carregar as tarefas."
+    },
+    "tasks_page_list_description_task_timeout_behavior": {
+        "message": "Marca uma tarefa em execução como falha quando ela passa desta duração."
+    },
+    "tasks_page_list_description_task_unavailable": {
+        "message": "A tarefa está indisponível. Confira o status dela antes de retomar."
+    },
+    "tasks_page_list_description_timezone_fallback": {
+        "message": "Opcional. Deixe em branco para usar o fuso horário local do dispositivo que roda o Phi Agent."
+    },
+    "tasks_page_list_description_unscheduled_task_behavior": {
+        "message": "Esta tarefa não tem agendamento. Inicie-a manualmente ou deixe o Phi Agent dispará-la quando for preciso."
+    },
+    "tasks_page_list_field_label_delete_schedule": {
+        "message": "Excluir agendamento"
+    },
+    "tasks_page_list_field_label_delete_task": {
+        "message": "Excluir tarefa"
+    },
+    "tasks_page_list_field_label_edit_schedule": {
+        "message": "Editar agendamento"
+    },
+    "tasks_page_list_field_label_edit_task": {
+        "message": "Editar tarefa"
+    },
+    "tasks_page_list_field_label_run_now": {
+        "message": "Executar agora"
+    },
+    "tasks_page_list_label_all_tasks": {
+        "message": "Todas as tarefas"
+    },
+    "tasks_page_list_label_api_source": {
+        "message": "API"
+    },
+    "tasks_page_list_label_artifact_count": {
+        "message": "{{count}} artefato(s)"
+    },
+    "tasks_page_list_label_calendar_schedule": {
+        "message": "Agendamento por calendário"
+    },
+    "tasks_page_list_label_chatbar_source": {
+        "message": "Chatbar"
+    },
+    "tasks_page_list_label_cron": {
+        "message": "Cron"
+    },
+    "tasks_page_list_label_cron_expression": {
+        "message": "Expressão cron"
+    },
+    "tasks_page_list_label_day": {
+        "message": "dia"
+    },
+    "tasks_page_list_label_days": {
+        "message": "dias"
+    },
+    "tasks_page_list_label_default_task_title": {
+        "message": "Tarefa agendada"
+    },
+    "tasks_page_list_label_delete_cascade_warning": {
+        "message": "A tarefa, os agendamentos ligados a ela e as execuções relacionadas serão removidos das listas de Tarefas, Agendamentos e Execuções."
+    },
+    "tasks_page_list_label_every": {
+        "message": "A cada"
+    },
+    "tasks_page_list_label_every_interval": {
+        "message": "A cada {{count}} {{unit}}"
+    },
+    "tasks_page_list_label_every_unit": {
+        "message": "Unidade do intervalo"
+    },
+    "tasks_page_list_label_every_value": {
+        "message": "Valor do intervalo"
+    },
+    "tasks_page_list_label_hour_lowercase": {
+        "message": "hora"
+    },
+    "tasks_page_list_label_hours": {
+        "message": "horas"
+    },
+    "tasks_page_list_label_interval": {
+        "message": "Intervalo"
+    },
+    "tasks_page_list_label_last_status": {
+        "message": "Última: {{status}}"
+    },
+    "tasks_page_list_label_manual_source": {
+        "message": "Manual"
+    },
+    "tasks_page_list_label_minute_lowercase": {
+        "message": "minuto"
+    },
+    "tasks_page_list_label_minutes": {
+        "message": "minutos"
+    },
+    "tasks_page_list_label_next_scheduled_run": {
+        "message": "Próxima: {{time}}"
+    },
+    "tasks_page_list_label_no_current_run": {
+        "message": "Nenhuma execução em andamento"
+    },
+    "tasks_page_list_label_no_schedule_start_when_needed": {
+        "message": "Sem agendamento. Inicie quando precisar."
+    },
+    "tasks_page_list_label_once": {
+        "message": "Uma vez"
+    },
+    "tasks_page_list_label_once_at": {
+        "message": "Uma vez em {{date}}"
+    },
+    "tasks_page_list_label_one_time": {
+        "message": "Uma vez"
+    },
+    "tasks_page_list_label_one_time_schedule": {
+        "message": "Agendamento único"
+    },
+    "tasks_page_list_label_optional": {
+        "message": "Opcional"
+    },
+    "tasks_page_list_label_recording": {
+        "message": "Gravação"
+    },
+    "tasks_page_list_label_recording_with_extra": {
+        "message": "Gravação +{{count}}"
+    },
+    "tasks_page_list_label_repeating_schedule": {
+        "message": "Agendamento recorrente"
+    },
+    "tasks_page_list_label_run_at": {
+        "message": "Executar em"
+    },
+    "tasks_page_list_label_run_status": {
+        "message": "Status da execução"
+    },
+    "tasks_page_list_label_running_timeout": {
+        "message": "Tempo limite de execução"
+    },
+    "tasks_page_list_label_running_timeout_value": {
+        "message": "Tempo limite de execução: {{value}}"
+    },
+    "tasks_page_list_label_runs": {
+        "message": "Execuções"
+    },
+    "tasks_page_list_label_runs_automatically_on_aschedule": {
+        "message": "Executa automaticamente conforme um agendamento."
+    },
+    "tasks_page_list_label_schedule_count": {
+        "message": "{{count}} agendamento(s)"
+    },
+    "tasks_page_list_label_schedule_description": {
+        "message": "Descrição do agendamento"
+    },
+    "tasks_page_list_label_schedule_name": {
+        "message": "Nome do agendamento"
+    },
+    "tasks_page_list_label_schedule_source": {
+        "message": "Agendamento"
+    },
+    "tasks_page_list_label_schedule_type": {
+        "message": "Tipo de agendamento"
+    },
+    "tasks_page_list_label_schedules": {
+        "message": "Agendamentos"
+    },
+    "tasks_page_list_label_schedules_for_task": {
+        "message": "Agendamentos de {{task}}"
+    },
+    "tasks_page_list_label_second": {
+        "message": "segundo"
+    },
+    "tasks_page_list_label_seconds": {
+        "message": "segundos"
+    },
+    "tasks_page_list_label_started_by": {
+        "message": "Iniciada por"
+    },
+    "tasks_page_list_label_task_description": {
+        "message": "Descrição da tarefa"
+    },
+    "tasks_page_list_label_task_source": {
+        "message": "Tarefa"
+    },
+    "tasks_page_list_label_task_title": {
+        "message": "Título da tarefa"
+    },
+    "tasks_page_list_label_task_type": {
+        "message": "Tipo de tarefa"
+    },
+    "tasks_page_list_label_task_unavailable": {
+        "message": "Tarefa indisponível"
+    },
+    "tasks_page_list_label_time_zone": {
+        "message": "Fuso horário"
+    },
+    "tasks_page_list_label_timeout_hours": {
+        "message": "{{count}} hora(s)"
+    },
+    "tasks_page_list_label_timeout_minutes": {
+        "message": "{{count}} minuto(s)"
+    },
+    "tasks_page_list_label_unscheduled_task_list_notice": {
+        "message": "Ela vai aparecer em Tarefas com o selo Sem agendamento."
+    },
+    "tasks_page_list_label_updated": {
+        "message": "Atualizada"
+    },
+    "tasks_page_list_label_use_local_timezone": {
+        "message": "Usar o fuso horário local"
+    },
+    "tasks_page_list_label_user_source": {
+        "message": "Usuário"
+    },
+    "tasks_page_list_status_active": {
+        "message": "Ativo"
+    },
+    "tasks_page_list_status_archived": {
+        "message": "Arquivada"
+    },
+    "tasks_page_list_status_cancelled": {
+        "message": "Cancelada"
+    },
+    "tasks_page_list_status_completed": {
+        "message": "Concluída"
+    },
+    "tasks_page_list_status_disabled": {
+        "message": "Desativada"
+    },
+    "tasks_page_list_status_failed": {
+        "message": "Falhou"
+    },
+    "tasks_page_list_status_missed": {
+        "message": "Perdida"
+    },
+    "tasks_page_list_status_no_schedule": {
+        "message": "Sem agendamento"
+    },
+    "tasks_page_list_status_not_started": {
+        "message": "Não iniciada"
+    },
+    "tasks_page_list_status_paused": {
+        "message": "Pausado"
+    },
+    "tasks_page_list_status_queued": {
+        "message": "Na fila"
+    },
+    "tasks_page_list_status_running_now": {
+        "message": "Em execução agora"
+    },
+    "tasks_page_list_status_scheduled": {
+        "message": "Agendada"
+    },
+    "tasks_page_list_status_skipped": {
+        "message": "Pulada"
+    },
+    "tasks_page_list_title_delete": {
+        "message": "Excluir?"
+    },
+    "tasks_page_list_title_delete_schedule": {
+        "message": "Excluir o agendamento?"
+    },
+    "tasks_page_list_title_delete_task": {
+        "message": "Excluir a tarefa?"
+    },
+    "tasks_page_list_title_edit_scheduled_task": {
+        "message": "Editar tarefa agendada"
+    },
+    "tasks_page_list_title_edit_task": {
+        "message": "Editar tarefa"
+    },
+    "tasks_page_list_title_new_task": {
+        "message": "Nova tarefa"
+    },
+    "tasks_page_list_title_run_behavior": {
+        "message": "Como executar"
+    },
+    "tasks_page_list_title_task_settings": {
+        "message": "Configurações de tarefas"
+    },
+    "tasks_page_list_title_tasks": {
+        "message": "Tarefas"
+    },
+    "tasks_page_list_validation_cron_invalid": {
+        "message": "Digite uma expressão cron válida de 5 campos"
+    },
+    "tasks_page_list_validation_cron_required": {
+        "message": "A expressão cron é obrigatória"
+    },
+    "tasks_page_list_validation_date_time_invalid": {
+        "message": "Digite uma data e hora válidas"
+    },
+    "tasks_page_list_validation_interval_positive": {
+        "message": "O intervalo precisa ser um número positivo"
+    },
+    "tasks_page_list_validation_run_at_future": {
+        "message": "\"Executar em\" precisa estar no futuro"
+    },
+    "tasks_page_list_validation_run_at_required": {
+        "message": "\"Executar em\" é obrigatório"
+    },
+    "tasks_page_list_validation_run_at_within_five_years": {
+        "message": "\"Executar em\" precisa estar dentro de 5 anos"
+    },
+    "tasks_page_list_validation_timeout_range": {
+        "message": "O tempo limite precisa ficar entre {{minimum}} e {{maximum}}."
+    },
+    "tasks_page_nav_label": {
+        "message": "Gerenciador de tarefas"
+    },
+    "tasks_page_preview_description_failed": {
+        "message": "Não foi possível pré-visualizar este arquivo. Ele pode estar indisponível, ter mais de 128 MB ou estar num formato não compatível."
+    },
+    "tasks_page_preview_label_preview": {
+        "message": "Pré-visualização"
+    },
+    "tasks_page_toast_no_active_run": {
+        "message": "Não há execução ativa para cancelar"
+    },
+    "tasks_page_toast_run_cancel_failed": {
+        "message": "Não foi possível cancelar a execução"
+    },
+    "tasks_page_toast_run_cancelled": {
+        "message": "Execução cancelada"
+    },
+    "tasks_page_toast_run_failed": {
+        "message": "Não foi possível executar a tarefa"
+    },
+    "tasks_page_toast_run_started": {
+        "message": "Execução iniciada"
+    },
+    "tasks_page_toast_schedule_create_partial_failure": {
+        "message": "A tarefa foi criada, mas não foi possível criar o agendamento"
+    },
+    "tasks_page_toast_schedule_delete_failed": {
+        "message": "Não foi possível excluir o agendamento"
+    },
+    "tasks_page_toast_schedule_deleted": {
+        "message": "Agendamento excluído"
+    },
+    "tasks_page_toast_schedule_pause_failed": {
+        "message": "Não foi possível pausar o agendamento"
+    },
+    "tasks_page_toast_schedule_paused": {
+        "message": "Agendamento pausado"
+    },
+    "tasks_page_toast_schedule_resume_completed": {
+        "message": "Este agendamento terminou; não há mais execuções agendadas."
+    },
+    "tasks_page_toast_schedule_resume_failed": {
+        "message": "Não foi possível retomar o agendamento"
+    },
+    "tasks_page_toast_schedule_resume_no_next_run": {
+        "message": "Nenhuma próxima execução está agendada. Confira o horário do agendamento."
+    },
+    "tasks_page_toast_schedule_resumed": {
+        "message": "Agendamento retomado"
+    },
+    "tasks_page_toast_schedule_run_failed": {
+        "message": "Não foi possível executar o agendamento agora"
+    },
+    "tasks_page_toast_schedule_run_started": {
+        "message": "Execução do agendamento iniciada"
+    },
+    "tasks_page_toast_scheduled_task_create_failed": {
+        "message": "Não foi possível criar a tarefa agendada"
+    },
+    "tasks_page_toast_scheduled_task_created": {
+        "message": "Tarefa agendada criada"
+    },
+    "tasks_page_toast_scheduled_task_update_failed": {
+        "message": "Não foi possível atualizar a tarefa agendada"
+    },
+    "tasks_page_toast_scheduled_task_updated": {
+        "message": "Tarefa agendada atualizada"
+    },
+    "tasks_page_toast_settings_update_failed": {
+        "message": "Não foi possível atualizar as configurações de tarefas"
+    },
+    "tasks_page_toast_settings_updated": {
+        "message": "Configurações de tarefas atualizadas"
+    },
+    "tasks_page_toast_task_create_failed": {
+        "message": "Não foi possível criar a tarefa"
+    },
+    "tasks_page_toast_task_created": {
+        "message": "Tarefa criada"
+    },
+    "tasks_page_toast_task_delete_failed": {
+        "message": "Não foi possível excluir a tarefa"
+    },
+    "tasks_page_toast_task_deleted": {
+        "message": "Tarefa excluída"
+    },
+    "tasks_page_toast_task_update_failed": {
+        "message": "Não foi possível atualizar a tarefa"
+    },
+    "tasks_page_toast_task_update_partial_failure": {
+        "message": "O agendamento foi atualizado, mas não foi possível atualizar a tarefa"
+    },
+    "tasks_page_toast_task_updated": {
+        "message": "Tarefa atualizada"
+    },
+    "tasks_page_toast_unknown_error": {
+        "message": "Erro desconhecido"
+    },
+    "theme_dark": {
+        "message": "Escuro"
+    },
+    "theme_label": {
+        "message": "Tema"
+    },
+    "theme_light": {
+        "message": "Claro"
+    },
+    "theme_system": {
+        "message": "Sistema"
+    },
+    "token_error": {
+        "message": "Não foi possível obter o token de autenticação"
+    },
+    "token_error_description": {
+        "message": "Verifique sua conexão de rede e tente novamente"
+    },
+    "top_bar_close": {
+        "message": "Fechar"
+    },
+    "top_bar_live_mode": {
+        "message": "Modo ao vivo"
+    },
+    "top_bar_menu": {
+        "message": "Menu"
+    },
+    "top_bar_open_in_phi_chat": {
+        "message": "Abrir no Phi Chat"
+    },
+    "top_bar_open_in_sidebar": {
+        "message": "Abrir na barra lateral"
+    },
+    "top_bar_open_in_sidebar_check_error": {
+        "message": "Não foi possível verificar o Espaço e o perfil originais. Tente de novo reabrindo esta conversa."
+    },
+    "top_bar_open_in_sidebar_checking": {
+        "message": "Verificando se o Espaço e o perfil originais estão disponíveis…"
+    },
+    "top_bar_open_in_sidebar_no_page": {
+        "message": "Esta conversa ainda não está vinculada a uma página da web, então não pode ser aberta em uma barra lateral."
+    },
+    "top_bar_phi_chat_ai_off": {
+        "message": "Os recursos de IA estão desativados. Não é possível abrir o Phi Chat."
+    },
+    "top_bar_phi_chat_discard_draft_confirm": {
+        "message": "Descartar e abrir"
+    },
+    "top_bar_phi_chat_discard_draft_description": {
+        "message": "Abrir esta conversa no Phi Chat apaga o texto e os anexos do campo de mensagem da barra lateral. Eles não são levados para a janela do Phi Chat."
+    },
+    "top_bar_phi_chat_discard_draft_title": {
+        "message": "Descartar o rascunho não enviado?"
+    },
+    "top_bar_phi_chat_open_error": {
+        "message": "Não foi possível abrir o Phi Chat. Sua conversa continua aqui. Tente novamente."
+    },
+    "top_bar_phi_chat_unavailable": {
+        "message": "Esta versão do navegador não consegue abrir o Phi Chat pela barra lateral. Atualize o Phi Browser."
+    },
+    "top_bar_phi_link": {
+        "message": "Phi Link"
+    },
+    "top_bar_settings": {
+        "message": "Configurações"
+    },
+    "top_bar_shadow_tasks": {
+        "message": "Tarefas em segundo plano"
+    },
+    "top_bar_show_response_speed": {
+        "message": "Mostrar velocidade da resposta"
+    },
+    "user_action_aborted": {
+        "message": "Ação interrompida"
+    },
+    "user_action_answer": {
+        "message": "Responder"
+    },
+    "user_action_answer_placeholder": {
+        "message": "Digite sua resposta"
+    },
+    "user_action_ask_from": {
+        "message": "Pergunta de {{name}}"
+    },
+    "user_action_ask_from_assistant": {
+        "message": "Pergunta do assistente"
+    },
+    "user_action_cancelled": {
+        "message": "Ação cancelada"
+    },
+    "user_action_confirm": {
+        "message": "Confirmar"
+    },
+    "user_action_confirm_description": {
+        "message": "Revise a ação antes de continuarmos."
+    },
+    "user_action_confirm_failed": {
+        "message": "Não foi possível enviar a confirmação. Tente novamente."
+    },
+    "user_action_confirm_title": {
+        "message": "Confirmar ação"
+    },
+    "user_action_deny": {
+        "message": "Negar"
+    },
+    "user_action_expired": {
+        "message": "Esta pergunta não está mais aguardando resposta."
+    },
+    "user_action_required": {
+        "message": "Obrigatório"
+    },
+    "user_action_responded": {
+        "message": "Ação confirmada"
+    },
+    "user_action_risk_high": {
+        "message": "Alto"
+    },
+    "user_action_risk_label": {
+        "message": "Risco"
+    },
+    "user_action_risk_low": {
+        "message": "Baixo"
+    },
+    "user_action_risk_medium": {
+        "message": "Médio"
+    },
+    "user_action_screenshot_alt": {
+        "message": "Captura de tela da ação"
+    },
+    "user_action_skip": {
+        "message": "Pular"
+    },
+    "user_action_submit": {
+        "message": "Enviar"
+    },
+    "user_input_add_file": {
+        "message": "Adicionar arquivo"
+    },
+    "user_input_add_image": {
+        "message": "Adicionar imagem"
+    },
+    "user_input_add_tab": {
+        "message": "Adicionar aba"
+    },
+    "user_input_add_website": {
+        "message": "Adicionar site"
+    },
+    "user_input_cancel": {
+        "message": "Cancelar"
+    },
+    "user_input_confirm": {
+        "message": "Confirmar"
+    },
+    "user_input_current_tab_toggle": {
+        "message": "Usar a aba atual"
+    },
+    "user_input_enter_website_url": {
+        "message": "Digite o URL do site"
+    },
+    "user_input_interject": {
+        "message": "Enviar depois desta resposta"
+    },
+    "user_input_no_available_skills": {
+        "message": "Nenhuma skill disponível"
+    },
+    "user_input_open_skills": {
+        "message": "Abrir skills"
+    },
+    "user_input_remove_attachment": {
+        "message": "Remover anexo"
+    },
+    "user_input_remove_split_view": {
+        "message": "Remover visualização dividida"
+    },
+    "user_input_remove_tab": {
+        "message": "Remover aba"
+    },
+    "user_input_remove_tab_group": {
+        "message": "Remover grupo de abas"
+    },
+    "user_input_skill_fallback_name": {
+        "message": "skill"
+    },
+    "user_input_skills": {
+        "message": "Skills"
+    },
+    "user_input_stop_not_confirmed": {
+        "message": "Parada não confirmada"
+    },
+    "user_input_stop_unconfirmed": {
+        "message": "A parada não foi confirmada. Tente novamente."
+    },
+    "user_input_stopping": {
+        "message": "Parando…"
+    },
+    "user_input_tab_fallback_title": {
+        "message": "Aba"
+    },
+    "user_input_tiptap_placeholder": {
+        "message": "Digite @ para mencionar abas..."
+    },
+    "user_input_upload_error": {
+        "message": "Falha no envio"
+    },
+    "user_input_uploading": {
+        "message": "Enviando..."
+    },
+    "user_input_website_url_placeholder": {
+        "message": "https://example.com"
+    },
+    "watch_page_message": {
+        "message": "Fique de olho nesta página para mim: {{url}}"
+    },
+    "welcome_subtitle": {
+        "message": "Você pode pesquisar, fazer perguntas ou trabalhar com a página atual"
+    },
+    "widgets_pending_dismiss": {
+        "message": "Dispensar"
+    },
+    "widgets_pinned_iframe_title": {
+        "message": "Widget fixado"
+    },
+    "worker_target_body": {
+        "message": "Esta tarefa precisa abrir páginas no navegador. Escolha o Espaço onde ela deve abrir as abas."
+    },
+    "worker_target_field_remember": {
+        "message": "Usar este Espaço no restante desta conversa"
+    },
+    "worker_target_field_space": {
+        "message": "Espaço"
+    },
+    "worker_target_option_cancel": {
+        "message": "Cancelar"
+    },
+    "worker_target_option_run": {
+        "message": "Executar aqui"
+    },
+    "worker_target_space_in_profile": {
+        "message": "{{name}} ({{profile}})"
+    },
+    "worker_target_stale": {
+        "message": "O Espaço que você escolheu antes não existe mais, então é preciso escolher de novo."
+    },
+    "worker_target_stale_profile": {
+        "message": "O Espaço que você escolheu antes pertence a um perfil do navegador diferente do desta conversa agora, então é preciso escolher de novo."
+    },
+    "worker_target_title": {
+        "message": "Onde esta tarefa deve ser executada?"
+    }
+}
