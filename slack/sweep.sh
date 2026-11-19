@@ -50,9 +50,16 @@ else:
     print('channel clean')
 PYEOF
 echo "== ear check"
-if pgrep -f "phi-i18n/slack/slack_loop.sh" > /dev/null; then
+# pgrep can fail outright on macOS ("sysmond service not found"); fall back to ps so that
+# failure is not reported as a dead ear.
+running() {
+  pgrep -f "$1" > /dev/null 2>&1 && return 0
+  # Drop only this pipeline's own grep: the watcher's command line itself contains "grep".
+  ps axww -o command= 2> /dev/null | grep -F -- "$1" | grep -v -F -- "grep -F -- " | grep -q .
+}
+if running "phi-i18n/slack/slack_loop.sh"; then
   echo "ear armed (loop)"
-elif pgrep -f "SLACK EVENT" > /dev/null; then
+elif running "SLACK EVENT"; then
   echo "ear armed (monitor)"
 else
   echo "EAR DOWN: arm the persistent Monitor (HANDOUT fallback-ear section) or slack_loop.sh NOW"
