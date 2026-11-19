@@ -667,6 +667,14 @@
         "message": "Assign to %@",
         "description": "Location: Browser. Sync setup profile matching - option that matches an account profile to a profile on this Mac; %@ is that profile's name"
     },
+    "at_the_bottom": {
+        "message": "At the bottom",
+        "description": "Location: Browser. General settings - Option to place new tabs at the bottom of the sidebar tab list"
+    },
+    "at_the_top": {
+        "message": "At the top",
+        "description": "Location: Browser. General settings - Option to place new tabs at the top of the sidebar tab list"
+    },
     "attach_files": {
         "message": "Attach files",
         "description": "Location: Browser. Feedback form - Label for file attachment section"
@@ -4127,10 +4135,6 @@
         "message": "Improve Translations for Phi Browser",
         "description": "Location: Browser. Help menu - Menu item below What's New that opens Phi's translation contribution website"
     },
-    "in_sidebar_layouts_place_new_tabs_at": {
-        "message": "In sidebar layouts, place new tabs at the top of the tab list. Comfortable always opens new tabs at the end.",
-        "description": "Location: Browser. General settings - New tab position applies only to sidebar layouts"
-    },
     "in_use_by_a_space": {
         "message": "%@ — in use by a Space",
         "description": "Location: Browser. Spaces menu - Delete Profile row label for a profile bound to a Space"
@@ -4594,6 +4598,10 @@
     "mist": {
         "message": "Mist",
         "description": "Location: Browser. Mist theme color name"
+    },
+    "more": {
+        "message": "More",
+        "description": "Location: Browser. Sidebar Space folder row - Button that opens the Space actions menu"
     },
     "more_actions": {
         "message": "More Actions",
@@ -5587,9 +5595,9 @@
         "message": "Open links in a lightweight window, one page at a time.",
         "description": "Location: Browser. Navigations settings - Description of Kiosk windows"
     },
-    "open_new_tabs_at_top": {
-        "message": "Open new tabs at top",
-        "description": "Location: Browser. General settings - Ordinary new tab position toggle"
+    "open_new_tabs": {
+        "message": "Open new tabs",
+        "description": "Location: Browser. General settings - Row title for choosing where new tabs are placed in the sidebar tab list"
     },
     "open_or_close_reader_for_the_current": {
         "message": "Open or close Reader for the current page.",
