@@ -164,6 +164,9 @@
     "added": {
         "message": "已添加 %d 个"
     },
+    "added_to_bookmarks": {
+        "message": "已添加到书签"
+    },
     "additional_browser_settings": {
         "message": "更多浏览器设置"
     },
@@ -355,6 +358,9 @@
     },
     "allowing_also_turns_on_developer_mode_and": {
         "message": "允许后，还会同时开启「设置」中的开发者模式和「允许智能体控制 Phi（CDP）」；你随时可以在那里重新关闭。"
+    },
+    "already_bookmarked": {
+        "message": "已在书签中"
     },
     "already_exists_and_isn_t_a_link": {
         "message": "「%@」已存在，且不是由 Phi Browser 创建的链接。要将其替换为指向本应用内置 Skill 的链接吗？"
@@ -966,7 +972,7 @@
         "message": "更改图标…"
     },
     "change_icon_6b2a15": {
-        "message": "更改图标…"
+        "message": "更改空间图标…"
     },
     "change_icon_78ac45": {
         "message": "更改图标…"
@@ -1239,6 +1245,9 @@
         "message": "关闭分屏"
     },
     "close_tab": {
+        "message": "关闭标签页"
+    },
+    "close_tab_26e0fd": {
         "message": "关闭标签页"
     },
     "close_tab_a62eb7": {
@@ -2132,6 +2141,9 @@
     "edit_043b21": {
         "message": "编辑…"
     },
+    "edit_75c0": {
+        "message": "编辑"
+    },
     "edit_771c25": {
         "message": "编辑…"
     },
@@ -2196,7 +2208,7 @@
         "message": "编辑此固定分屏两个窗格的名称和地址。"
     },
     "edit_theme": {
-        "message": "编辑主题"
+        "message": "编辑主题…"
     },
     "edit_theme_9ef25d": {
         "message": "编辑主题"
@@ -4067,6 +4079,9 @@
     "ok_ae16df": {
         "message": "好"
     },
+    "ok_b3bec4": {
+        "message": "好"
+    },
     "ok_ba474a": {
         "message": "好"
     },
@@ -4277,6 +4292,9 @@
     "other_browser_commands": {
         "message": "其他浏览器命令"
     },
+    "others_can_see_this_tab_while_you": {
+        "message": "在你共享期间，其他人可以看到此标签页。"
+    },
     "pairing_isn_t_available_right_now": {
         "message": "目前无法配对。"
     },
@@ -4360,6 +4378,12 @@
     },
     "phi_couldn_t_move_your_guest_data": {
         "message": "Phi 未能迁移你的访客数据。你的数据很安全，可以再试一次。"
+    },
+    "phi_couldn_t_open_local_browser_data": {
+        "message": "Phi 无法打开本地浏览器数据"
+    },
+    "phi_couldn_t_open_your_guest_data": {
+        "message": "Phi 未能打开你在这台 Mac 上的访客数据，因此无法将其迁移到你的账号。你的访客数据未被更改。请退出并重新打开 Phi，然后再试一次。"
     },
     "phi_couldn_t_read_s_data_open": {
         "message": "Phi 未能读取 %1$@ 的数据。请打开一次 %1$@，让它写入侧边栏数据，然后再试一次。"
@@ -4788,6 +4812,9 @@
         "message": "从列表中移除"
     },
     "remove_from_split": {
+        "message": "从分屏中移除"
+    },
+    "remove_from_split_d80f": {
         "message": "从分屏中移除"
     },
     "remove_margins_around_web_content": {
@@ -5398,6 +5425,9 @@
     },
     "share_the_current_page": {
         "message": "共享当前页面。"
+    },
+    "share_this_tab_instead": {
+        "message": "改为共享此标签页"
     },
     "shift_click_a_link_or_choose_open": {
         "message": "按住 Shift 点按链接，或选择「在 Peek 视图中打开链接」，即可在页面上方的浮动面板中预览。在「舒适」布局中不可用。"
@@ -6203,6 +6233,12 @@
     "this_space_will_also_be_deleted_from": {
         "message": "此空间也将从你其他已同步的设备上删除。"
     },
+    "this_tab_is_sharing_screen_content": {
+        "message": "此标签页正在共享屏幕内容。"
+    },
+    "this_tab_is_using_the_microphone_or": {
+        "message": "此标签页正在使用麦克风或摄像头。"
+    },
     "this_version_of_phi_cannot_open_local": {
         "message": "此版本的 Phi 无法打开由更新版本更新过的本地浏览器数据。请安装最新版 Phi 后重试。"
     },
@@ -6799,6 +6835,9 @@
     },
     "your_spaces": {
         "message": "你的空间"
+    },
+    "your_spaces_pinned_tabs_and_bookmarks_on": {
+        "message": "你在这台 Mac 上的空间、固定标签页和书签目前无法显示，也无法保存。你的数据未被更改。请退出并重新打开 Phi 以重试。"
     },
     "zen_is_running_quit_it_before_you": {
         "message": "Zen 正在运行。请在开始前退出 Zen，以便迁移它最新的更改：Phi 读取的是 Zen 文件的副本，Zen 尚未保存的内容会被遗漏。"

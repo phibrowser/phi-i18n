@@ -219,6 +219,10 @@
         "message": "%d added",
         "description": "Location: Browser. Browser migration wizard - how many pinned tabs a migrated Profile received; %d is the number of pinned tabs"
     },
+    "added_to_bookmarks": {
+        "message": "Added to Bookmarks",
+        "description": "Location: Browser. Toast shown after the bookmark shortcut saves the current page or split as a bookmark"
+    },
     "additional_browser_settings": {
         "message": "Additional browser settings",
         "description": "Location: Browser. Advanced settings - Title for always more settings"
@@ -474,6 +478,10 @@
     "allowing_also_turns_on_developer_mode_and": {
         "message": "Allowing also turns on Developer mode and “Allow agents to control Phi (CDP)” in Settings; you can switch them back off there at any time.",
         "description": "Location: Browser. CDP consent - body of the banner shown when allowing will also enable the developer mode and agent control settings"
+    },
+    "already_bookmarked": {
+        "message": "Already Bookmarked",
+        "description": "Location: Browser. Toast shown when the bookmark shortcut is used on a page or split that is already bookmarked"
     },
     "already_exists_and_isn_t_a_link": {
         "message": "“%@” already exists and isn’t a link created by Phi Browser. Replace it with a link to this app’s bundled skill?",
@@ -1288,7 +1296,7 @@
         "description": "Location: Browser. Pinned tab context menu - Open the emoji and icon picker"
     },
     "change_icon_6b2a15": {
-        "message": "Change Icon…",
+        "message": "Change Space Icon…",
         "description": "Location: Browser. Tab-area menu - opens the icon/emoji picker below the active Space's icon"
     },
     "change_icon_78ac45": {
@@ -1654,6 +1662,10 @@
     "close_tab": {
         "message": "Close Tab",
         "description": "Location: Browser. Sidebar bookmark context menu - Closes the tab currently open from this bookmark; the bookmark itself stays"
+    },
+    "close_tab_26e0fd": {
+        "message": "Close Tab",
+        "description": "Location: Browser. Sidebar split tab - Accessibility label for the button that closes one pane of the split"
     },
     "close_tab_a62eb7": {
         "message": "Close Tab",
@@ -2843,6 +2855,10 @@
         "message": "Edit...",
         "description": "Location: Browser. Edit bookmark url menu item title"
     },
+    "edit_75c0": {
+        "message": "Edit",
+        "description": "Location: Browser. Button on the bookmark-saved toast that opens the editor for the bookmark's name, URL and folder"
+    },
     "edit_771c25": {
         "message": "Edit...",
         "description": "Location: Browser. Pinned tab context menu - Edit pinned tab menu item"
@@ -2928,7 +2944,7 @@
         "description": "Location: Browser. Pinned tab editor - Subtitle explaining pinned split editing"
     },
     "edit_theme": {
-        "message": "Edit Theme",
+        "message": "Edit Theme…",
         "description": "Location: Browser. Active Space context menu - opens the theme editor for the active Space"
     },
     "edit_theme_9ef25d": {
@@ -5423,6 +5439,10 @@
         "message": "OK",
         "description": "Location: Browser. Guest mode - Button that dismisses the credential cleanup failure alert"
     },
+    "ok_b3bec4": {
+        "message": "OK",
+        "description": "Location: Browser. Local data alert - button that dismisses the alert shown when the local database could not be opened"
+    },
     "ok_ba474a": {
         "message": "OK",
         "description": "Location: Browser. Guest migration - Button that dismisses the deferred cleanup alert"
@@ -5703,6 +5723,10 @@
         "message": "Other Browser Commands",
         "description": "Location: Browser. Shortcuts settings - Additional customizable browser commands"
     },
+    "others_can_see_this_tab_while_you": {
+        "message": "Others can see this tab while you share.",
+        "description": "Location: Browser. Tab favicon badge - Tooltip when this tab's content is mirrored to a remote screen share\nTab row outline - Tooltip when this tab's content is mirrored to a remote screen share"
+    },
     "pairing_isn_t_available_right_now": {
         "message": "Pairing isn’t available right now.",
         "description": "Location: Browser. Sync setup - error shown when profile matching cannot start on this device right now"
@@ -5814,6 +5838,14 @@
     "phi_couldn_t_move_your_guest_data": {
         "message": "Phi couldn’t move your Guest data. Your data is safe, and you can try again.",
         "description": "Location: Browser. Guest migration - Alert message explaining that Guest data remains safe and migration can be retried"
+    },
+    "phi_couldn_t_open_local_browser_data": {
+        "message": "Phi Couldn’t Open Local Browser Data",
+        "description": "Location: Browser. Local data alert - title when the local database on this Mac could not be opened"
+    },
+    "phi_couldn_t_open_your_guest_data": {
+        "message": "Phi couldn’t open your Guest data on this Mac, so it can’t be moved to your account. Your Guest data has not been changed. Quit and reopen Phi, then try again.",
+        "description": "Location: Browser. Guest migration - Alert message when the Guest data on this Mac could not be opened, so signing in from Guest Mode cannot move it"
     },
     "phi_couldn_t_read_s_data_open": {
         "message": "Phi couldn't read %1$@'s data. Open %1$@ once so it writes its sidebar, then try again.",
@@ -6386,6 +6418,10 @@
     "remove_from_split": {
         "message": "Remove from Split",
         "description": "Location: Browser. Tab context menu - Dissolve the split this tab belongs to; every pane becomes a normal tab again"
+    },
+    "remove_from_split_d80f": {
+        "message": "Remove from Split",
+        "description": "Location: Browser. Sidebar split tab - Accessibility label for the button shown while Option is held, which takes one pane out of the split and keeps it open as a normal tab"
     },
     "remove_margins_around_web_content": {
         "message": "Remove margins around web content.",
@@ -7198,6 +7234,10 @@
     "share_the_current_page": {
         "message": "Share the current page.",
         "description": "Location: Browser. Shortcuts settings - Description of the sharePage command"
+    },
+    "share_this_tab_instead": {
+        "message": "Share this tab instead",
+        "description": "Location: Browser. Tab row button - Tooltip and accessibility label on a hovered tab while another tab is being shared; switches the share to this tab"
     },
     "shift_click_a_link_or_choose_open": {
         "message": "Shift-click a link, or choose “Open Link in Peek View”, to preview it in a floating panel over the page. Not available in the Comfortable layout.",
@@ -8271,6 +8311,14 @@
         "message": "This Space will also be deleted from your other synced devices.",
         "description": "Location: Browser. Delete-Space confirmation - Extra sentence shown when sync is on and the Space syncs to the user's other devices"
     },
+    "this_tab_is_sharing_screen_content": {
+        "message": "This tab is sharing screen content.",
+        "description": "Location: Browser. Tab favicon badge - Tooltip when this tab is the presenter in a screen share session"
+    },
+    "this_tab_is_using_the_microphone_or": {
+        "message": "This tab is using the microphone or camera.",
+        "description": "Location: Browser. Tab favicon badge - Tooltip on the red recording dot for microphone or camera capture"
+    },
     "this_version_of_phi_cannot_open_local": {
         "message": "This version of Phi cannot open local browser data that was updated by a newer version. Install the latest Phi version and try again.",
         "description": "Location: Browser. Local store compatibility alert - body when a newer app is required to read local data"
@@ -9066,6 +9114,10 @@
     "your_spaces": {
         "message": "Your Spaces",
         "description": "Location: Browser. Spaces settings - list header"
+    },
+    "your_spaces_pinned_tabs_and_bookmarks_on": {
+        "message": "Your Spaces, pinned tabs and bookmarks on this Mac can’t be shown or saved right now. Your data has not been changed. Quit and reopen Phi to try again.",
+        "description": "Location: Browser. Local data alert - body when the local database could not be opened; explains the effect and that the data was not changed"
     },
     "zen_is_running_quit_it_before_you": {
         "message": "Zen is running. Quit it before you start so its latest changes come across — Phi reads copies of Zen's files, and anything Zen hasn't saved yet would be missed.",

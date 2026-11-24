@@ -164,6 +164,9 @@
     "added": {
         "message": "%d件追加"
     },
+    "added_to_bookmarks": {
+        "message": "ブックマークに追加しました"
+    },
     "additional_browser_settings": {
         "message": "その他のブラウザ設定"
     },
@@ -355,6 +358,9 @@
     },
     "allowing_also_turns_on_developer_mode_and": {
         "message": "許可すると、設定の「デベロッパーモード」と「エージェントによるPhiの操作を許可（CDP）」もオンになります。どちらも設定でいつでもオフに戻せます。"
+    },
+    "already_bookmarked": {
+        "message": "すでにブックマークに追加されています"
     },
     "already_exists_and_isn_t_a_link": {
         "message": "「%@」はすでに存在し、Phi Browserが作成したリンクではありません。このアプリに同梱されているスキルへのリンクに置き換えますか？"
@@ -966,7 +972,7 @@
         "message": "アイコンを変更…"
     },
     "change_icon_6b2a15": {
-        "message": "アイコンを変更…"
+        "message": "スペースのアイコンを変更…"
     },
     "change_icon_78ac45": {
         "message": "アイコンを変更…"
@@ -1239,6 +1245,9 @@
         "message": "分割表示を閉じる"
     },
     "close_tab": {
+        "message": "タブを閉じる"
+    },
+    "close_tab_26e0fd": {
         "message": "タブを閉じる"
     },
     "close_tab_a62eb7": {
@@ -2132,6 +2141,9 @@
     "edit_043b21": {
         "message": "編集..."
     },
+    "edit_75c0": {
+        "message": "編集"
+    },
     "edit_771c25": {
         "message": "編集…"
     },
@@ -2196,7 +2208,7 @@
         "message": "この固定した分割表示の両方のペインの名前とアドレスを編集します。"
     },
     "edit_theme": {
-        "message": "テーマを編集"
+        "message": "テーマを編集…"
     },
     "edit_theme_9ef25d": {
         "message": "テーマを編集"
@@ -4067,6 +4079,9 @@
     "ok_ae16df": {
         "message": "OK"
     },
+    "ok_b3bec4": {
+        "message": "OK"
+    },
     "ok_ba474a": {
         "message": "OK"
     },
@@ -4277,6 +4292,9 @@
     "other_browser_commands": {
         "message": "その他のブラウザコマンド"
     },
+    "others_can_see_this_tab_while_you": {
+        "message": "共有中は、他の参加者もこのタブを見ることができます。"
+    },
     "pairing_isn_t_available_right_now": {
         "message": "ペアリングは現在利用できません。"
     },
@@ -4360,6 +4378,12 @@
     },
     "phi_couldn_t_move_your_guest_data": {
         "message": "Phiはゲストデータを移行できませんでした。データは安全に保たれているので、もう一度お試しください。"
+    },
+    "phi_couldn_t_open_local_browser_data": {
+        "message": "Phiはローカルのブラウザデータを開けませんでした"
+    },
+    "phi_couldn_t_open_your_guest_data": {
+        "message": "PhiはこのMacのゲストデータを開けなかったため、アカウントに移行できません。ゲストデータは変更されていません。Phiを終了して再度開いてから、もう一度お試しください。"
     },
     "phi_couldn_t_read_s_data_open": {
         "message": "Phiは%1$@のデータを読み取れませんでした。%1$@を一度起動してサイドバーのデータを保存させてから、もう一度お試しください。"
@@ -4789,6 +4813,9 @@
     },
     "remove_from_split": {
         "message": "分割表示を解除"
+    },
+    "remove_from_split_d80f": {
+        "message": "分割表示から外す"
     },
     "remove_margins_around_web_content": {
         "message": "Webコンテンツの周囲の余白を取り除きます。"
@@ -5398,6 +5425,9 @@
     },
     "share_the_current_page": {
         "message": "現在のページを共有します。"
+    },
+    "share_this_tab_instead": {
+        "message": "代わりにこのタブを共有"
     },
     "shift_click_a_link_or_choose_open": {
         "message": "Shiftキーを押しながらリンクをクリックするか、「リンクをPeekビューで開く」を選択すると、ページの上に重なるフローティングパネルでプレビューできます。ゆったりレイアウトでは利用できません。"
@@ -6203,6 +6233,12 @@
     "this_space_will_also_be_deleted_from": {
         "message": "このスペースは、同期しているほかのデバイスからも削除されます。"
     },
+    "this_tab_is_sharing_screen_content": {
+        "message": "このタブは画面のコンテンツを共有しています。"
+    },
+    "this_tab_is_using_the_microphone_or": {
+        "message": "このタブはマイクまたはカメラを使用しています。"
+    },
     "this_version_of_phi_cannot_open_local": {
         "message": "このバージョンのPhiでは、新しいバージョンで更新されたローカルのブラウザデータを開けません。最新バージョンのPhiをインストールして、もう一度お試しください。"
     },
@@ -6799,6 +6835,9 @@
     },
     "your_spaces": {
         "message": "スペース"
+    },
+    "your_spaces_pinned_tabs_and_bookmarks_on": {
+        "message": "このMacのスペース、固定タブ、ブックマークは、現在表示も保存もできません。データは変更されていません。もう一度試すには、Phiを終了して再度開いてください。"
     },
     "zen_is_running_quit_it_before_you": {
         "message": "Zenが起動中です。最新の変更を引き継ぐため、開始する前にZenを終了してください。PhiはZenのファイルのコピーを読み取るため、Zenがまだ保存していない内容は移行されません。"

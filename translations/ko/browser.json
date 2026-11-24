@@ -164,6 +164,9 @@
     "added": {
         "message": "%d개 추가됨"
     },
+    "added_to_bookmarks": {
+        "message": "북마크에 추가됐어요"
+    },
     "additional_browser_settings": {
         "message": "추가 브라우저 설정"
     },
@@ -355,6 +358,9 @@
     },
     "allowing_also_turns_on_developer_mode_and": {
         "message": "허용하면 설정의 개발자 모드와 “에이전트가 Phi를 제어하도록 허용(CDP)”도 함께 켜져요. 설정에서 언제든지 다시 끌 수 있어요."
+    },
+    "already_bookmarked": {
+        "message": "이미 북마크에 추가돼 있어요"
     },
     "already_exists_and_isn_t_a_link": {
         "message": "“%@”이(가) 이미 존재하지만 Phi Browser가 만든 링크가 아니에요. 이 앱에 포함된 스킬로 연결되는 링크로 교체할까요?"
@@ -966,7 +972,7 @@
         "message": "아이콘 변경…"
     },
     "change_icon_6b2a15": {
-        "message": "아이콘 변경…"
+        "message": "스페이스 아이콘 변경…"
     },
     "change_icon_78ac45": {
         "message": "아이콘 변경…"
@@ -1239,6 +1245,9 @@
         "message": "분할 닫기"
     },
     "close_tab": {
+        "message": "탭 닫기"
+    },
+    "close_tab_26e0fd": {
         "message": "탭 닫기"
     },
     "close_tab_a62eb7": {
@@ -2132,6 +2141,9 @@
     "edit_043b21": {
         "message": "편집..."
     },
+    "edit_75c0": {
+        "message": "편집"
+    },
     "edit_771c25": {
         "message": "편집…"
     },
@@ -2196,7 +2208,7 @@
         "message": "이 고정 분할의 양쪽 이름과 주소를 편집하세요."
     },
     "edit_theme": {
-        "message": "테마 편집"
+        "message": "테마 편집…"
     },
     "edit_theme_9ef25d": {
         "message": "테마 편집"
@@ -4067,6 +4079,9 @@
     "ok_ae16df": {
         "message": "확인"
     },
+    "ok_b3bec4": {
+        "message": "확인"
+    },
     "ok_ba474a": {
         "message": "확인"
     },
@@ -4277,6 +4292,9 @@
     "other_browser_commands": {
         "message": "기타 브라우저 명령"
     },
+    "others_can_see_this_tab_while_you": {
+        "message": "공유하는 동안 다른 사람들이 이 탭을 볼 수 있어요."
+    },
     "pairing_isn_t_available_right_now": {
         "message": "지금은 페어링을 사용할 수 없어요."
     },
@@ -4360,6 +4378,12 @@
     },
     "phi_couldn_t_move_your_guest_data": {
         "message": "Phi가 게스트 데이터를 이동하지 못했어요. 데이터는 안전하며 다시 시도할 수 있어요."
+    },
+    "phi_couldn_t_open_local_browser_data": {
+        "message": "Phi가 로컬 브라우저 데이터를 열지 못했어요"
+    },
+    "phi_couldn_t_open_your_guest_data": {
+        "message": "Phi가 이 Mac의 게스트 데이터를 열지 못해서 데이터를 계정으로 이동할 수 없어요. 게스트 데이터는 변경되지 않았어요. Phi를 종료했다가 다시 연 다음, 다시 시도해 주세요."
     },
     "phi_couldn_t_read_s_data_open": {
         "message": "Phi가 %1$@의 데이터를 읽지 못했어요. 사이드바 정보가 저장되도록 %1$@ 앱을 한 번 실행한 다음 다시 시도해 주세요."
@@ -4788,6 +4812,9 @@
         "message": "목록에서 제거"
     },
     "remove_from_split": {
+        "message": "분할에서 제거"
+    },
+    "remove_from_split_d80f": {
         "message": "분할에서 제거"
     },
     "remove_margins_around_web_content": {
@@ -5398,6 +5425,9 @@
     },
     "share_the_current_page": {
         "message": "현재 페이지를 공유해요."
+    },
+    "share_this_tab_instead": {
+        "message": "이 탭을 대신 공유"
     },
     "shift_click_a_link_or_choose_open": {
         "message": "Shift를 누른 채 링크를 클릭하거나 “Peek 뷰에서 링크 열기”를 선택하면 페이지 위 플로팅 패널에서 미리 볼 수 있어요. 여유 레이아웃에서는 사용할 수 없어요."
@@ -6203,6 +6233,12 @@
     "this_space_will_also_be_deleted_from": {
         "message": "이 스페이스는 동기화된 다른 기기에서도 삭제돼요."
     },
+    "this_tab_is_sharing_screen_content": {
+        "message": "이 탭에서 화면 콘텐츠를 공유하고 있어요."
+    },
+    "this_tab_is_using_the_microphone_or": {
+        "message": "이 탭에서 마이크 또는 카메라를 사용하고 있어요."
+    },
     "this_version_of_phi_cannot_open_local": {
         "message": "이 버전의 Phi는 더 새로운 버전이 업데이트한 로컬 브라우저 데이터를 열 수 없어요. 최신 Phi 버전을 설치하고 다시 시도해 주세요."
     },
@@ -6799,6 +6835,9 @@
     },
     "your_spaces": {
         "message": "내 스페이스"
+    },
+    "your_spaces_pinned_tabs_and_bookmarks_on": {
+        "message": "지금은 이 Mac의 스페이스, 고정된 탭, 북마크를 표시하거나 저장할 수 없어요. 데이터는 변경되지 않았어요. 다시 시도하려면 Phi를 종료했다가 다시 열어 주세요."
     },
     "zen_is_running_quit_it_before_you": {
         "message": "Zen이 실행 중이에요. 최신 변경 사항까지 가져올 수 있도록 시작하기 전에 Zen을 종료해 주세요. Phi는 Zen 파일의 복사본을 읽기 때문에, Zen이 아직 저장하지 않은 내용은 누락될 수 있어요."

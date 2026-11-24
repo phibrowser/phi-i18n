@@ -164,6 +164,9 @@
     "added": {
         "message": "已加入 %d 個"
     },
+    "added_to_bookmarks": {
+        "message": "已加入書籤"
+    },
     "additional_browser_settings": {
         "message": "其他瀏覽器設定"
     },
@@ -355,6 +358,9 @@
     },
     "allowing_also_turns_on_developer_mode_and": {
         "message": "允許後，也會在「設定」中開啟「開發者模式」和「允許 AI 代理控制 Phi（CDP）」；你隨時可以在那裡關閉它們。"
+    },
+    "already_bookmarked": {
+        "message": "已在書籤中"
     },
     "already_exists_and_isn_t_a_link": {
         "message": "「%@」已存在，且不是 Phi Browser 建立的連結。要將它取代為指向此 App 內建 Skill 的連結嗎？"
@@ -966,7 +972,7 @@
         "message": "變更圖示…"
     },
     "change_icon_6b2a15": {
-        "message": "變更圖示…"
+        "message": "變更空間圖示…"
     },
     "change_icon_78ac45": {
         "message": "變更圖示…"
@@ -1239,6 +1245,9 @@
         "message": "關閉分割畫面"
     },
     "close_tab": {
+        "message": "關閉分頁"
+    },
+    "close_tab_26e0fd": {
         "message": "關閉分頁"
     },
     "close_tab_a62eb7": {
@@ -2132,6 +2141,9 @@
     "edit_043b21": {
         "message": "編輯…"
     },
+    "edit_75c0": {
+        "message": "編輯"
+    },
     "edit_771c25": {
         "message": "編輯…"
     },
@@ -2196,7 +2208,7 @@
         "message": "編輯這個釘選分割畫面兩個窗格的名稱和網址。"
     },
     "edit_theme": {
-        "message": "編輯主題"
+        "message": "編輯主題…"
     },
     "edit_theme_9ef25d": {
         "message": "編輯主題"
@@ -4067,6 +4079,9 @@
     "ok_ae16df": {
         "message": "好"
     },
+    "ok_b3bec4": {
+        "message": "好"
+    },
     "ok_ba474a": {
         "message": "好"
     },
@@ -4277,6 +4292,9 @@
     "other_browser_commands": {
         "message": "其他瀏覽器命令"
     },
+    "others_can_see_this_tab_while_you": {
+        "message": "在你共用期間，其他人可以看到這個分頁。"
+    },
     "pairing_isn_t_available_right_now": {
         "message": "目前無法進行配對。"
     },
@@ -4360,6 +4378,12 @@
     },
     "phi_couldn_t_move_your_guest_data": {
         "message": "Phi 無法搬移你的訪客資料。你的資料很安全，你可以再試一次。"
+    },
+    "phi_couldn_t_open_local_browser_data": {
+        "message": "Phi 無法開啟本機瀏覽器資料"
+    },
+    "phi_couldn_t_open_your_guest_data": {
+        "message": "Phi 無法開啟你在這部 Mac 上的訪客資料，因此無法將資料搬移到你的帳號。你的訪客資料並未變更。請結束 Phi 並重新開啟，然後再試一次。"
     },
     "phi_couldn_t_read_s_data_open": {
         "message": "Phi 無法讀取 %1$@ 的資料。請先開啟 %1$@ 一次，讓它寫入側邊欄資料，然後再試一次。"
@@ -4788,6 +4812,9 @@
         "message": "從清單中移除"
     },
     "remove_from_split": {
+        "message": "從分割畫面移除"
+    },
+    "remove_from_split_d80f": {
         "message": "從分割畫面移除"
     },
     "remove_margins_around_web_content": {
@@ -5398,6 +5425,9 @@
     },
     "share_the_current_page": {
         "message": "分享目前頁面。"
+    },
+    "share_this_tab_instead": {
+        "message": "改為共用這個分頁"
     },
     "shift_click_a_link_or_choose_open": {
         "message": "按住 Shift 並點按連結，或選擇「在 Peek 檢視中開啟連結」，即可在頁面上的浮動面板中預覽。不適用於「舒適」版面配置。"
@@ -6203,6 +6233,12 @@
     "this_space_will_also_be_deleted_from": {
         "message": "此空間也會從你的其他同步裝置上刪除。"
     },
+    "this_tab_is_sharing_screen_content": {
+        "message": "這個分頁正在共用螢幕畫面。"
+    },
+    "this_tab_is_using_the_microphone_or": {
+        "message": "這個分頁正在使用麥克風或攝影機。"
+    },
     "this_version_of_phi_cannot_open_local": {
         "message": "這個版本的 Phi 無法開啟由較新版本更新過的本機瀏覽器資料。請安裝最新版的 Phi 後再試一次。"
     },
@@ -6799,6 +6835,9 @@
     },
     "your_spaces": {
         "message": "你的空間"
+    },
+    "your_spaces_pinned_tabs_and_bookmarks_on": {
+        "message": "你在這部 Mac 上的空間、釘選分頁和書籤目前無法顯示或儲存。你的資料並未變更。請結束 Phi 並重新開啟，再試一次。"
     },
     "zen_is_running_quit_it_before_you": {
         "message": "Zen 正在執行中。請先結束 Zen 再開始，讓最新的變更能一併移轉過來：Phi 讀取的是 Zen 檔案的副本，Zen 尚未儲存的內容不會包含在內。"
